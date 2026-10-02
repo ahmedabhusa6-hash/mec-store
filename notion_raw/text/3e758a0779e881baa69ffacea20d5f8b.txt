@@ -1,0 +1,5 @@
+# AUDIT-2026-09-26 — Preserve incomplete ASC-011 metadata
+Data-integrity decision
+The historical ASC-011 / Change ID 14 record is intentionally not upgraded to VERIFIED. Its missing metadata reflects a prior persistence failure, and later verified cycles supersede its evidentiary authority without deleting or rewriting the historical record.
+Result
+No knowledge-state change is implied by this correction record.

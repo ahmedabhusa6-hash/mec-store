@@ -1,0 +1,1616 @@
+{
+ "execution_timestamp": "2026-10-02T04:18:58.638333+03:00",
+ "tests": {
+  "P8": {
+   "premi_cap_arch_ps": 114,
+   "premi_cap_cb": 111,
+   "cb_matched_in_arch_ps": 104,
+   "arch_ps_n": 287,
+   "arch_matched_not_in_cb": 10
+  },
+  "P9": {
+   "identical_desc": 101,
+   "pairs_compared": 111,
+   "fp_stats": {
+    "teamsoclo": {
+     "cb": 0,
+     "premi": 0,
+     "both": 0
+    },
+    "bddevlab": {
+     "cb": 0,
+     "premi": 0,
+     "both": 0
+    },
+    "vibi.top": {
+     "cb": 4,
+     "premi": 4,
+     "both": 4
+    },
+    "phh.info.vn": {
+     "cb": 4,
+     "premi": 4,
+     "both": 4
+    },
+    "dongvanfb": {
+     "cb": 1,
+     "premi": 1,
+     "both": 1
+    },
+    "mailtemp": {
+     "cb": 0,
+     "premi": 0,
+     "both": 0
+    },
+    "gpmloginapp": {
+     "cb": 2,
+     "premi": 2,
+     "both": 2
+    },
+    "2fa.live": {
+     "cb": 4,
+     "premi": 4,
+     "both": 4
+    },
+    "lartai": {
+     "cb": 2,
+     "premi": 2,
+     "both": 2
+    },
+    "get-opt": {
+     "cb": 4,
+     "premi": 4,
+     "both": 4
+    }
+   },
+   "desc_diff_examples": [
+    {
+     "name": "🌐 Facebook Blue Check Dormant 1-8 Months",
+     "cb_desc": "clones have a blue checkmark upgrade button with an incubation time of 1-8 months, quite sturdy\n* when purchased, they can be used",
+     "premi_desc": "clones have the blue verification button, soaking time 1-8 months, quite tough. \n* when bought, use normally; 15-20 days from the "
+    },
+    {
+     "name": "😀 Old Random Gmail 2010~2022",
+     "cb_desc": "🇻🇳description: login password error - phone verification - login warranty 24h - once login is successful, warranty ends\nformat: gm",
+     "premi_desc": "🇻🇳description: login password error - phone verification - login warranty 24h - once login is successful, warranty ends\nformat: gm"
+    },
+    {
+     "name": "🍎 Apple ID 2FA Gmail",
+     "cb_desc": "- account not yet through service  \n- default region is united states.  \n- all use gmail email.  \n- all have been checked live and",
+     "premi_desc": "- account has not used any service  \n- default region is united states.  \n- all use gmail email.  \n- all have been checked live an"
+    },
+    {
+     "name": "⭐ gamma 20k credit bonus 20k 10 years wa",
+     "cb_desc": "provide account including email | password | empty field  \neach account includes 10 workspaces, each workspace has 2k credits to c",
+     "premi_desc": "account package includes email | password | empty field\neach account includes 10 workspaces, each workspace has 2k credits to crea"
+    },
+    {
+     "name": "⭐ Scribd Premium 1 Month - full warranty",
+     "cb_desc": "• delivery format: email | password.\n\nbenefits:\n• access an additional 4 million+ documents in the lifestyle & entertainment categ",
+     "premi_desc": "- scribd premium trial 1 month can only download 2 files, unlimited reading of files, so customers should take note before purchas"
+    },
+    {
+     "name": "⭐ gamma 10k credit bonus 10k 10 years wa",
+     "cb_desc": "account provided includes email | password | empty field  \neach account has 5 workspaces, each workspace has 2k credits to create ",
+     "premi_desc": "account provided includes email | password | empty field  \neach account has 10 workspaces, each workspace has 2k credits to create"
+    }
+   ]
+  },
+  "P1": {
+   "n": 349,
+   "meta": {
+    "success": true,
+    "lang": "en",
+    "walletCurrency": "USD"
+   },
+   "id_format": "mongo-hex-24 productId",
+   "fields": [
+    "productId",
+    "name",
+    "description",
+    "emoji",
+    "productType",
+    "price",
+    "availability",
+    "promotions"
+   ]
+  },
+  "P2": {
+   "premi_hex_n": 349,
+   "inter_cb": 0,
+   "inter_ps_live": 0,
+   "inter_ps_arch": 0,
+   "inter_any": 0,
+   "samples": []
+  },
+  "P3": {
+   "name_matches": 111,
+   "samples": [
+    {
+     "cb_name": "💰 105K Decor Discord / Profile Effect Cheap (Login Type) - full warranty",
+     "cb_price": 5.03,
+     "premi_price": 6.06,
+     "premi_availability": {
+      "available": 109,
+      "sold": 0
+     },
+     "premi_productType": "upgrade_account"
+    },
+    {
+     "cb_name": "💰 111K Decor Discord / Profile Effect Cheap (Login Type) - full warranty",
+     "cb_price": 5.49,
+     "premi_price": 6.44,
+     "premi_availability": {
+      "available": 103,
+      "sold": 0
+     },
+     "premi_productType": "upgrade_account"
+    },
+    {
+     "cb_name": "💰 131K Decor Discord / Profile Effect Cheap (Login Type) - full warranty",
+     "cb_price": 6.87,
+     "premi_price": 6.82,
+     "premi_availability": {
+      "available": 86,
+      "sold": 0
+     },
+     "premi_productType": "upgrade_account"
+    },
+    {
+     "cb_name": "💰 141K Decor Discord / Profile Effect Cheap (Login Type) - full warranty",
+     "cb_price": 8.24,
+     "premi_price": 8.34,
+     "premi_availability": {
+      "available": 69,
+      "sold": 0
+     },
+     "premi_productType": "upgrade_account"
+    },
+    {
+     "cb_name": "💰 170K Decor Discord / Profile Effect Cheap (Login Type) - full warranty",
+     "cb_price": 9.6,
+     "premi_price": 9.11,
+     "premi_availability": {
+      "available": 58,
+      "sold": 0
+     },
+     "premi_productType": "upgrade_account"
+    },
+    {
+     "cb_name": "💰 66K Decor Discord / Profile Effect Cheap (Login Type) - full warranty",
+     "cb_price": 2.98,
+     "premi_price": 3.77,
+     "premi_availability": {
+      "available": 187,
+      "sold": 0
+     },
+     "premi_productType": "upgrade_account"
+    },
+    {
+     "cb_name": "💰 79K Decor Discord / Profile Effect Cheap (Login Type) - full warranty",
+     "cb_price": 3.44,
+     "premi_price": 4.16,
+     "premi_availability": {
+      "available": 159,
+      "sold": 0
+     },
+     "premi_productType": "upgrade_account"
+    },
+    {
+     "cb_name": "💰 92K Decor Discord / Profile Effect Cheap (Login Type) - full warranty",
+     "cb_price": 4.12,
+     "premi_price": 4.92,
+     "premi_availability": {
+      "available": 137,
+      "sold": 0
+     },
+     "premi_productType": "upgrade_account"
+    },
+    {
+     "cb_name": "✅🌐 Account X Stock 2009-2022 US Bull-Bear-BH24H",
+     "cb_price": 1.72,
+     "premi_price": 2.25,
+     "premi_availability": {
+      "available": 14,
+      "sold": 25
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "🛡️ Adguard VPN 7 Days full warranty",
+     "cb_price": 0.75,
+     "premi_price": 1.49,
+     "premi_availability": {
+      "available": 3,
+      "sold": 35
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "😶‍🌫️ ADMIN MS365 PREMIUM 1TB 5 SLOTS 1 YEAR full warranty",
+     "cb_price": 13.72,
+     "premi_price": 12.53,
+     "premi_availability": {
+      "available": 0,
+      "sold": 45
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "😎 Adobe All Apps 7 Days no warranty",
+     "cb_price": 2.21,
+     "premi_price": 3.01,
+     "premi_availability": {
+      "available": 4,
+      "sold": 1377
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "🖱️ API Cursor Pro 2600 Credits 1 month full warranty",
+     "cb_price": 10.01,
+     "premi_price": 9.49,
+     "premi_availability": {
+      "available": 2,
+      "sold": 3207
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "🖱️ API Cursor Pro 400 Credits/day 1 month full warranty",
+     "cb_price": 14.13,
+     "premi_price": 13.68,
+     "premi_availability": {
+      "available": 1,
+      "sold": 493
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "🖱️ API Cursor Pro 6500 Credits 1 month full warranty",
+     "cb_price": 14.13,
+     "premi_price": 13.68,
+     "premi_availability": {
+      "available": 1,
+      "sold": 666
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "🍎 Apple ID 2FA Gmail",
+     "cb_price": 1.72,
+     "premi_price": 2.25,
+     "premi_availability": {
+      "available": 34,
+      "sold": 287
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "🍎 Apple ID 2FA Hotmail 24H warranty",
+     "cb_price": 2.21,
+     "premi_price": 3.01,
+     "premi_availability": {
+      "available": 0,
+      "sold": 3
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "🍎 Apple ID CHBM 24-hour warranty",
+     "cb_price": 2.52,
+     "premi_price": 3.39,
+     "premi_availability": {
+      "available": 14,
+      "sold": 14
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "📐 Autodesk 1 App 3 years warranty 1 year",
+     "cb_price": 3.62,
+     "premi_price": 3.77,
+     "premi_availability": {
+      "available": 209,
+      "sold": 1
+     },
+     "premi_productType": "upgrade_account"
+    },
+    {
+     "cb_name": "📐 Autodesk App All: AutoCAD, 3ds Max... 3 Years warranty 1 Year",
+     "cb_price": 2.4,
+     "premi_price": 2.25,
+     "premi_availability": {
+      "available": 161,
+      "sold": 212
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "🔥CDK Perplexity Pro (iOS) 1 month - full warranty",
+     "cb_price": 11.9,
+     "premi_price": 12.69,
+     "premi_availability": {
+      "available": 8,
+      "sold": 23
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "📺 CHEAP YOUTUBE PREMIUM SLOT 3 MONTHS full warranty",
+     "cb_price": 3.44,
+     "premi_price": 3.77,
+     "premi_availability": {
+      "available": 1,
+      "sold": 0
+     },
+     "premi_productType": "slot"
+    },
+    {
+     "cb_name": "📺 CHEAP YOUTUBE PREMIUM SLOT 6 MONTHS full warranty",
+     "cb_price": 6.87,
+     "premi_price": 6.06,
+     "premi_availability": {
+      "available": 1,
+      "sold": 0
+     },
+     "premi_productType": "slot"
+    },
+    {
+     "cb_name": "Deepseek API $10 1 month full warranty",
+     "cb_price": 1.91,
+     "premi_price": 1.12,
+     "premi_availability": {
+      "available": 51,
+      "sold": 19
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "Deepseek API $100 1 month full warranty",
+     "cb_price": 7.28,
+     "premi_price": 4.97,
+     "premi_availability": {
+      "available": 63,
+      "sold": 7
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "Deepseek API $30 1 month full warranty",
+     "cb_price": 3.16,
+     "premi_price": 1.89,
+     "premi_availability": {
+      "available": 40,
+      "sold": 10
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "Deepseek API $50 1 month full warranty",
+     "cb_price": 5,
+     "premi_price": 3.04,
+     "premi_availability": {
+      "available": 66,
+      "sold": 4
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "💰 Discord Clone Account 2018 not warranty",
+     "cb_price": 4.58,
+     "premi_price": 5.3,
+     "premi_availability": {
+      "available": 13,
+      "sold": 0
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "💰 Discord Clone Account 2019 not guaranteed",
+     "cb_price": 3.89,
+     "premi_price": 4.92,
+     "premi_availability": {
+      "available": 10,
+      "sold": 0
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "💰 Discord Clone Account 2020 not warranty",
+     "cb_price": 3.44,
+     "premi_price": 4.54,
+     "premi_availability": {
+      "available": 25,
+      "sold": 0
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "💰 Discord Gifting Badge x1",
+     "cb_price": 2.75,
+     "premi_price": 3.77,
+     "premi_availability": {
+      "available": 205,
+      "sold": 0
+     },
+     "premi_productType": "upgrade_account"
+    },
+    {
+     "cb_name": "💰 Discord Gifting Badge x10",
+     "cb_price": 10.52,
+     "premi_price": 9.87,
+     "premi_availability": {
+      "available": 52,
+      "sold": 0
+     },
+     "premi_productType": "upgrade_account"
+    },
+    {
+     "cb_name": "💰 Discord Gifting Badge x20",
+     "cb_price": 20.57,
+     "premi_price": 19.01,
+     "premi_availability": {
+      "available": 26,
+      "sold": 0
+     },
+     "premi_productType": "upgrade_account"
+    },
+    {
+     "cb_name": "💰 Discord Nitro 1M Token not guaranteed",
+     "cb_price": 1.72,
+     "premi_price": 2.25,
+     "premi_availability": {
+      "available": 80,
+      "sold": 0
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "💰 Discord Nitro 1Y full warranty",
+     "cb_price": 40.23,
+     "premi_price": 38.62,
+     "premi_availability": {
+      "available": 12,
+      "sold": 0
+     },
+     "premi_productType": "upgrade_account"
+    },
+    {
+     "cb_name": "💰 Discord Nitro 2 months full warranty",
+     "cb_price": 6.18,
+     "premi_price": 6.54,
+     "premi_availability": {
+      "available": 90,
+      "sold": 0
+     },
+     "premi_productType": "upgrade_account"
+    },
+    {
+     "cb_name": "💰 Discord Nitro 3M Token not guaranteed",
+     "cb_price": 3.66,
+     "premi_price": 4.16,
+     "premi_availability": {
+      "available": 11,
+      "sold": 0
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "💰 Discord Nitro Trial 3 months full warranty",
+     "cb_price": 3.89,
+     "premi_price": 4.99,
+     "premi_availability": {
+      "available": 137,
+      "sold": 0
+     },
+     "premi_productType": "upgrade_account"
+    },
+    {
+     "cb_name": "💰 Discord token 24-hour warranty",
+     "cb_price": 0.15,
+     "premi_price": 0.35,
+     "premi_availability": {
+      "available": 0,
+      "sold": 36
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "⭐ Domo AI 630 credit 7 days warranty 1 day",
+     "cb_price": 2.01,
+     "premi_price": 2.63,
+     "premi_availability": {
+      "available": 0,
+      "sold": 43
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "⭐ Dropshot AI 1 month 24-hour warranty",
+     "cb_price": 0.5,
+     "premi_price": 0.73,
+     "premi_availability": {
+      "available": 0,
+      "sold": 19
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "🦉 Duolingo Max 12 Months full warranty",
+     "cb_price": 21.44,
+     "premi_price": 19.01,
+     "premi_availability": {
+      "available": 25,
+      "sold": 19
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "🦉 Duolingo Max 3 Months full warranty",
+     "cb_price": 7.55,
+     "premi_price": 7.58,
+     "premi_availability": {
+      "available": 3,
+      "sold": 34
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "🦉 Duolingo Max 6 Months full warranty",
+     "cb_price": 12.3,
+     "premi_price": 11.01,
+     "premi_availability": {
+      "available": 13,
+      "sold": 25
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "🎙️ Elevenlab Creator 1 month 3D warranty",
+     "cb_price": 7.28,
+     "premi_price": 7.58,
+     "premi_availability": {
+      "available": 3,
+      "sold": 301
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "🔥ElevenLabs Redeem 1M Credit",
+     "cb_price": 12.3,
+     "premi_price": 9.63,
+     "premi_availability": {
+      "available": 956,
+      "sold": 319
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "🔥ElevenLabs Redeem 300K Credit",
+     "cb_price": 5.45,
+     "premi_price": 4.6,
+     "premi_availability": {
+      "available": 554,
+      "sold": 1637
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "🚚 Express VPN 10 devices 3 days full warranty",
+     "cb_price": 0.75,
+     "premi_price": 1.11,
+     "premi_availability": {
+      "available": 1,
+      "sold": 87
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "🚚 Express VPN 3 Days full warranty",
+     "cb_price": 0.75,
+     "premi_price": 1.11,
+     "premi_availability": {
+      "available": 6,
+      "sold": 643
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "🌐 Facebook Blue Check Dormant 1-8 Months Login Warranty",
+     "cb_price": 3.89,
+     "premi_price": 4.92,
+     "premi_availability": {
+      "available": 0,
+      "sold": 34
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "Freepik - Magnific Premium API Web Panel 30D full warranty",
+     "cb_price": 3.21,
+     "premi_price": 3.77,
+     "premi_availability": {
+      "available": 30,
+      "sold": 159
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "Freepik - Magnific Premium API Web Panel 60D full warranty",
+     "cb_price": 6.87,
+     "premi_price": 6.44,
+     "premi_availability": {
+      "available": 4,
+      "sold": 1
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "Freepik - Magnific Premium API Web Panel 90D full warranty",
+     "cb_price": 10.06,
+     "premi_price": 8.73,
+     "premi_availability": {
+      "available": 1,
+      "sold": 2
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "⭐ gamma 10k credit bonus 10k 10 years warranty 3 months",
+     "cb_price": 5.73,
+     "premi_price": 4.63,
+     "premi_availability": {
+      "available": 1,
+      "sold": 10
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "⭐ gamma 20k credit bonus 20k 10 years warranty 3 months",
+     "cb_price": 8.46,
+     "premi_price": 6.94,
+     "premi_availability": {
+      "available": 4,
+      "sold": 4
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "⭐ gamma 40k credit bonus 40k 10 years warranty 3 months",
+     "cb_price": 13.04,
+     "premi_price": 10.04,
+     "premi_availability": {
+      "available": 4,
+      "sold": 0
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "😀 Gmail (New) - Login All",
+     "cb_price": 1.23,
+     "premi_price": 1.11,
+     "premi_availability": {
+      "available": 186,
+      "sold": 7306
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "😀 GMAIL OLD DATE 201X-202X",
+     "cb_price": 1.23,
+     "premi_price": 1.49,
+     "premi_availability": {
+      "available": 0,
+      "sold": 5253
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "📺 Gmail Random IP 2010-2016 has passed YouTube trial",
+     "cb_price": 1.77,
+     "premi_price": 1.87,
+     "premi_availability": {
+      "available": 0,
+      "sold": 13915
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "📺 Gmail Random IP 2010-2016 trial YouTube",
+     "cb_price": 2.21,
+     "premi_price": 2.63,
+     "premi_availability": {
+      "available": 143,
+      "sold": 31812
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "😀 GMAIL TRIAL DATE 201X - 202X WITH 2FA",
+     "cb_price": 1.48,
+     "premi_price": 1.87,
+     "premi_availability": {
+      "available": 0,
+      "sold": 1321
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "😀 GMAIL TRIAL DATE 202X HAS 2FA",
+     "cb_price": 1.57,
+     "premi_price": 1.87,
+     "premi_availability": {
+      "available": 0,
+      "sold": 3420
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "😀 GMAIL US OLD DATE 201X TRIAL HAS 2FA",
+     "cb_price": 2.21,
+     "premi_price": 2.25,
+     "premi_availability": {
+      "available": 0,
+      "sold": 4260
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "😀 Gmail Vietnam 2020-2024 2FA",
+     "cb_price": 1.72,
+     "premi_price": 1.87,
+     "premi_availability": {
+      "available": 15,
+      "sold": 5164
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "⭐ Grammarly AI Pro 1 Month full warranty",
+     "cb_price": 3.21,
+     "premi_price": 3.77,
+     "premi_availability": {
+      "available": 0,
+      "sold": 77
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "⭐ Grammarly Pro 7-14 Days - full warranty",
+     "cb_price": 0.5,
+     "premi_price": 1.11,
+     "premi_availability": {
+      "available": 0,
+      "sold": 4
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "🛡️ Hotspot Shield VPN 7 Days full warranty",
+     "cb_price": 0.75,
+     "premi_price": 1.11,
+     "premi_availability": {
+      "available": 6,
+      "sold": 26
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "iCloud 2TB Slot – 3 months (full warranty)",
+     "cb_price": 8.69,
+     "premi_price": 8.34,
+     "premi_availability": {
+      "available": 10,
+      "sold": 1
+     },
+     "premi_productType": "slot"
+    },
+    {
+     "cb_name": "🛡️ IPVanish VPN 7 Days full warranty",
+     "cb_price": 0.75,
+     "premi_price": 1.11,
+     "premi_availability": {
+      "available": 2,
+      "sold": 41
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "Kahoot Gold 200 original users 1 month full warranty",
+     "cb_price": 7.32,
+     "premi_price": 7.2,
+     "premi_availability": {
+      "available": 74,
+      "sold": 0
+     },
+     "premi_productType": "upgrade_account"
+    },
+    {
+     "cb_name": "Kahoot One Event 800 genuine users, 1 month full warranty",
+     "cb_price": 10.06,
+     "premi_price": 9.49,
+     "premi_availability": {
+      "available": 55,
+      "sold": 0
+     },
+     "premi_productType": "upgrade_account"
+    },
+    {
+     "cb_name": "Kahoot Plus Gold 7 Days full warranty",
+     "cb_price": 1.48,
+     "premi_price": 1.49,
+     "premi_availability": {
+      "available": 4,
+      "sold": 19
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "Kahoot Silver 100 genuine users, 1 month full warranty",
+     "cb_price": 4.58,
+     "premi_price": 4.92,
+     "premi_availability": {
+      "available": 129,
+      "sold": 0
+     },
+     "premi_productType": "upgrade_account"
+    },
+    {
+     "cb_name": "🎬 KLING 700-900 per month (24h warranty)",
+     "cb_price": 6.87,
+     "premi_price": 7.58,
+     "premi_availability": {
+      "available": 0,
+      "sold": 225
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "Krea Basic 5100 credit 1 month warranty 1 day",
+     "cb_price": 3.21,
+     "premi_price": 3.77,
+     "premi_availability": {
+      "available": 43,
+      "sold": 579
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "LartAI 930 Credit 1 Month (No warranty)",
+     "cb_price": 3.66,
+     "premi_price": 4.54,
+     "premi_availability": {
+      "available": 3,
+      "sold": 621
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "Lartai 930 credits 1 month (no warranty)",
+     "cb_price": 3.66,
+     "premi_price": 4.54,
+     "premi_availability": {
+      "available": 6,
+      "sold": 48
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "⚡️Lovable Lite slot 1 year warranty 3 months",
+     "cb_price": 12.81,
+     "premi_price": 10.46,
+     "premi_availability": {
+      "available": null,
+      "sold": 1
+     },
+     "premi_productType": "slot"
+    },
+    {
+     "cb_name": "⭐ Lovable PRO 110 credit 15 days - 10D warranty",
+     "cb_price": 3.21,
+     "premi_price": 4.92,
+     "premi_availability": {
+      "available": 0,
+      "sold": 5
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "😶‍🌫️ Microsoft 365 Admin Family 1 Month full warranty",
+     "cb_price": 1.48,
+     "premi_price": 1.87,
+     "premi_availability": {
+      "available": 12,
+      "sold": 201
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "😶‍🌫️ Microsoft 365 Admin Premium 1 Month full warranty",
+     "cb_price": 1.72,
+     "premi_price": 2.25,
+     "premi_availability": {
+      "available": 3,
+      "sold": 43
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "😶‍🌫️ Microsoft 365 Personal 1 year warranty 3 months",
+     "cb_price": 1.96,
+     "premi_price": 2.25,
+     "premi_availability": {
+      "available": 20,
+      "sold": 3524
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "😶‍🌫️ MICROSOFT OFFICE 365 PREMIUM SLOT 5 MONTHS full warranty",
+     "cb_price": 4.12,
+     "premi_price": 3.77,
+     "premi_availability": {
+      "available": 16,
+      "sold": 3
+     },
+     "premi_productType": "slot"
+    },
+    {
+     "cb_name": "🔥Minimax Redeem 1M Credit",
+     "cb_price": 12.76,
+     "premi_price": 10.79,
+     "premi_availability": {
+      "available": 498,
+      "sold": 457
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "🔥Minimax Redeem 300K Credit",
+     "cb_price": 5.45,
+     "premi_price": 4.6,
+     "premi_availability": {
+      "available": 484,
+      "sold": 1216
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "🔥Minimax Redeem 3M Credit",
+     "cb_price": 31.95,
+     "premi_price": 27.01,
+     "premi_availability": {
+      "available": 499,
+      "sold": 346
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "⭐ N8N Starter Redeem 1 year",
+     "cb_price": 18.24,
+     "premi_price": 15.48,
+     "premi_availability": {
+      "available": null,
+      "sold": 0
+     },
+     "premi_productType": "upgrade_account"
+    },
+    {
+     "cb_name": "⭐ Official GPM Login Key 1 month full warranty",
+     "cb_price": 5.03,
+     "premi_price": 5.3,
+     "premi_availability": {
+      "available": 25,
+      "sold": 40
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "⭐ OFFICIAL GPM LOGIN KEY 10 YEARS full warranty",
+     "cb_price": 95.97,
+     "premi_price": 190.37,
+     "premi_availability": {
+      "available": 5,
+      "sold": 0
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "⭐ Official GPM Login Key with 6 months full warranty",
+     "cb_price": 22.86,
+     "premi_price": 22.82,
+     "premi_availability": {
+      "available": 7,
+      "sold": 10
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "⭐ OFFICIAL KEY GPM LOGIN 3 MONTHS full warranty",
+     "cb_price": 12.81,
+     "premi_price": 15.2,
+     "premi_availability": {
+      "available": 41,
+      "sold": 1
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "😀 Old Random Gmail 2010~2022",
+     "cb_price": 1.72,
+     "premi_price": 1.87,
+     "premi_availability": {
+      "available": 135,
+      "sold": 32339
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "🦉 Quizlet Plus Unlimited 1 Year - full warranty",
+     "cb_price": 5.49,
+     "premi_price": 11.39,
+     "premi_availability": {
+      "available": 100,
+      "sold": 0
+     },
+     "premi_productType": "upgrade_account"
+    },
+    {
+     "cb_name": "🦉 Quizlet Plus Unlimited 30 Days full warranty",
+     "cb_price": 1.48,
+     "premi_price": 1.87,
+     "premi_availability": {
+      "available": 6,
+      "sold": 36
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "⭐ Railway Hobby Redeem 1 year",
+     "cb_price": 18.24,
+     "premi_price": 15.42,
+     "premi_availability": {
+      "available": null,
+      "sold": 0
+     },
+     "premi_productType": "upgrade_account"
+    },
+    {
+     "cb_name": "⭐ Scribd Premium 1 Month - full warranty",
+     "cb_price": 1.48,
+     "premi_price": 1.49,
+     "premi_availability": {
+      "available": 4,
+      "sold": 193
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "⭐ Seedance 700~1k credit 1 Day - 1H warranty",
+     "cb_price": 0.41,
+     "premi_price": 1.11,
+     "premi_availability": {
+      "available": 0,
+      "sold": 1017
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "Server Boost x14 [ Level 3 ] 1 Month full warranty",
+     "cb_price": 7.14,
+     "premi_price": 7.58,
+     "premi_availability": {
+      "available": 83,
+      "sold": 0
+     },
+     "premi_productType": "upgrade_account"
+    },
+    {
+     "cb_name": "Server Boost x2 [ Level 1 ] 1 Month full warranty",
+     "cb_price": 1.23,
+     "premi_price": 1.49,
+     "premi_availability": {
+      "available": 672,
+      "sold": 0
+     },
+     "premi_productType": "upgrade_account"
+    },
+    {
+     "cb_name": "🎧 Spotify Premium 3-Month Activation Link with No Warranty",
+     "cb_price": 1.96,
+     "premi_price": 22.51,
+     "premi_availability": {
+      "available": 2,
+      "sold": 60
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "🎵 Suno Pre 1 month warranty 7 days",
+     "cb_price": 21.72,
+     "premi_price": 22.82,
+     "premi_availability": {
+      "available": 0,
+      "sold": 6
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "🦈 Surfshark VPN One 7 Days full warranty",
+     "cb_price": 0.75,
+     "premi_price": 1.11,
+     "premi_availability": {
+      "available": 8,
+      "sold": 865
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "📱 TikTok 1000FL With Cart-No LiveStudio",
+     "cb_price": 12.81,
+     "premi_price": 11.39,
+     "premi_availability": {
+      "available": 9,
+      "sold": 9
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "📱 TikTok 1000FL With Shopping Cart - LiveStudio",
+     "cb_price": 13.26,
+     "premi_price": 12.53,
+     "premi_availability": {
+      "available": 35,
+      "sold": 22
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "📱 TikTok < 900FL Has Cart - LiveStudio",
+     "cb_price": 11.44,
+     "premi_price": 10.63,
+     "premi_availability": {
+      "available": 15,
+      "sold": 2
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "📱 TikTok USA (US) 2024",
+     "cb_price": 1,
+     "premi_price": 1.49,
+     "premi_availability": {
+      "available": 0,
+      "sold": 1627
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "Tryclico 2K Credits $19.9 Pro Plan 1 month (12h warranty)",
+     "cb_price": 5.03,
+     "premi_price": 7.58,
+     "premi_availability": {
+      "available": 38,
+      "sold": 219
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "Udemy Personal Plan $25 1 Month – (5D warranty)",
+     "cb_price": 2.52,
+     "premi_price": 3.77,
+     "premi_availability": {
+      "available": 7,
+      "sold": 1661
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "📱 Vietnamese TikTok soaked for over 1 year",
+     "cb_price": 2.75,
+     "premi_price": 3.39,
+     "premi_availability": {
+      "available": 2,
+      "sold": 17
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "❤️ Zoom Pro 14 Days full warranty",
+     "cb_price": 1.48,
+     "premi_price": 1.87,
+     "premi_availability": {
+      "available": 11,
+      "sold": 145
+     },
+     "premi_productType": "account"
+    },
+    {
+     "cb_name": "❤️ Zoom Pro 28 Days full warranty",
+     "cb_price": 2.21,
+     "premi_price": 3.01,
+     "premi_availability": {
+      "available": 335,
+      "sold": 133
+     },
+     "premi_productType": "account"
+    }
+   ],
+   "family_coverage": {
+    "grok": {
+     "premi": true,
+     "cb_": true
+    },
+    "gmail": {
+     "premi": true,
+     "cb_": true
+    },
+    "facebook": {
+     "premi": true,
+     "cb_": true
+    },
+    "lovable": {
+     "premi": true,
+     "cb_": true
+    },
+    "aws": {
+     "premi": true,
+     "cb_": true
+    },
+    "kling": {
+     "premi": true,
+     "cb_": true
+    },
+    "lart": {
+     "premi": true,
+     "cb_": true
+    },
+    "capcut": {
+     "premi": true,
+     "cb_": true
+    },
+    "perplexity": {
+     "premi": true,
+     "cb_": true
+    },
+    "claude": {
+     "premi": true,
+     "cb_": true
+    },
+    "chatgpt": {
+     "premi": true,
+     "cb_": true
+    },
+    "gemini": {
+     "premi": true,
+     "cb_": false
+    },
+    "netflix": {
+     "premi": true,
+     "cb_": false
+    },
+    "spotif": {
+     "premi": true,
+     "cb_": true
+    },
+    "canva": {
+     "premi": true,
+     "cb_": true
+    },
+    "duolingo": {
+     "premi": true,
+     "cb_": true
+    },
+    "coursera": {
+     "premi": true,
+     "cb_": false
+    },
+    "notion": {
+     "premi": true,
+     "cb_": false
+    },
+    "midjourney": {
+     "premi": false,
+     "cb_": false
+    }
+   },
+   "price_ratio": {
+    "n": 111,
+    "min": 0.087,
+    "p25": 0.764,
+    "median": 0.912,
+    "p75": 1.066,
+    "max": 1.705
+   }
+  },
+  "P4": {
+   "n": 25,
+   "name_matches": 0,
+   "samples": [],
+   "id_format": {
+    "numeric": 25,
+    "mongo_hex": 0
+   },
+   "family_coverage": {
+    "grok": {
+     "rich": true,
+     "cb": true
+    },
+    "gmail": {
+     "rich": true,
+     "cb": true
+    },
+    "facebook": {
+     "rich": false,
+     "cb": true
+    },
+    "lovable": {
+     "rich": true,
+     "cb": true
+    },
+    "aws": {
+     "rich": false,
+     "cb": true
+    },
+    "kling": {
+     "rich": false,
+     "cb": true
+    },
+    "lart": {
+     "rich": false,
+     "cb": true
+    },
+    "capcut": {
+     "rich": true,
+     "cb": true
+    },
+    "perplexity": {
+     "rich": true,
+     "cb": true
+    },
+    "claude": {
+     "rich": true,
+     "cb": true
+    },
+    "chatgpt": {
+     "rich": false,
+     "cb": true
+    },
+    "gemini": {
+     "rich": true,
+     "cb": false
+    },
+    "netflix": {
+     "rich": false,
+     "cb": false
+    },
+    "spotif": {
+     "rich": false,
+     "cb": true
+    },
+    "canva": {
+     "rich": false,
+     "cb": true
+    },
+    "duolingo": {
+     "rich": true,
+     "cb": true
+    },
+    "coursera": {
+     "rich": false,
+     "cb": false
+    },
+    "notion": {
+     "rich": true,
+     "cb": false
+    },
+    "midjourney": {
+     "rich": false,
+     "cb": false
+    }
+   }
+  },
+  "P5": {
+   "buyer_n": 11,
+   "public_n": 11,
+   "same_n": true,
+   "name_pairs": [
+    {
+     "name": "Gemini Pro 18 Months",
+     "public_price": null,
+     "public_priceFrom": 0.7,
+     "buyer_price": 0.8,
+     "buyer_priceFrom": 0.7,
+     "stock": 6381
+    },
+    {
+     "name": "NordVpn 3 Months Basic",
+     "public_price": null,
+     "public_priceFrom": 2,
+     "buyer_price": 2.15,
+     "buyer_priceFrom": 2,
+     "stock": 199
+    },
+    {
+     "name": "Lovable Pro Lite 12 months + 300 credits",
+     "public_price": null,
+     "public_priceFrom": 5.75,
+     "buyer_price": 6.5,
+     "buyer_priceFrom": 5.75,
+     "stock": 19
+    },
+    {
+     "name": "YouTube Premium 3 Months",
+     "public_price": null,
+     "public_priceFrom": 1.65,
+     "buyer_price": 1.85,
+     "buyer_priceFrom": 1.65,
+     "stock": 132
+    },
+    {
+     "name": "Adobe Express 4 Months Trial",
+     "public_price": null,
+     "public_priceFrom": 0.25,
+     "buyer_price": 0.3,
+     "buyer_priceFrom": 0.25,
+     "stock": 84
+    },
+    {
+     "name": "Notion Business 3 Months",
+     "public_price": null,
+     "public_priceFrom": 0.55,
+     "buyer_price": 0.75,
+     "buyer_priceFrom": 0.55,
+     "stock": 90
+    },
+    {
+     "name": "Headspace 4 Months",
+     "public_price": null,
+     "public_priceFrom": 0.15,
+     "buyer_price": 0.25,
+     "buyer_priceFrom": 0.15,
+     "stock": 185
+    },
+    {
+     "name": "Gemini Pro 3 Months",
+     "public_price": null,
+     "public_priceFrom": 0.5,
+     "buyer_price": 0.55,
+     "buyer_priceFrom": 0.5,
+     "stock": 0
+    },
+    {
+     "name": "ElevenLabs Creator 3 Months",
+     "public_price": null,
+     "public_priceFrom": 11,
+     "buyer_price": 13,
+     "buyer_priceFrom": 11,
+     "stock": 11
+    },
+    {
+     "name": "Coursera Premium 12 Months",
+     "public_price": null,
+     "public_priceFrom": 0.75,
+     "buyer_price": 1.1,
+     "buyer_priceFrom": 0.75,
+     "stock": 112
+    },
+    {
+     "name": "Duolingo Super 12 Months",
+     "public_price": null,
+     "public_priceFrom": 0.45,
+     "buyer_price": 0.55,
+     "buyer_priceFrom": 0.45,
+     "stock": 339
+    }
+   ],
+   "buyer_only": [],
+   "buyer_fields": [
+    "id",
+    "name",
+    "stock",
+    "price",
+    "priceFrom",
+    "tiers"
+   ],
+   "id_note": "public=numeric · buyer=slug — same 11 products"
+  },
+  "P6": {
+   "https://aixpress.shop/api/v1/me": {
+    "http": 200,
+    "body_head": "{\"chat_id\": 7334478984, \"first_name\": \"A7MED\", \"wallet_balance\": 0.0}"
+   },
+   "https://aixpress.shop/api/v1/products": {
+    "http": 200,
+    "body_head": "{\"services\": [{\"service_id\": \"service_1788129242\", \"name\": \"Gemini Pro 18 Months\", \"price\": 0.65, \"stock\": 0}, {\"service_id\": \"service_17893"
+   },
+   "https://aiversehub.store/api/v1/me": {
+    "http": 401,
+    "body_head": "{\"error\": \"Invalid API Key\"}"
+   },
+   "https://aiversehub.store/api/v1/products": {
+    "http": 401,
+    "body_head": "{\"error\": \"Invalid API Key\"}"
+   }
+  },
+  "P7": {
+   "prodseller_v1_psk": {
+    "auth": "psk_ / Bearer?",
+    "id": [
+     "6a612473af18a2a83bc049a0",
+     "6a6207cf92969197bb382958",
+     "6a5b873847b606c66fc160b2"
+    ],
+    "fields": [
+     "id",
+     "name",
+     "price",
+     "publicPrice",
+     "inStock",
+     "sold"
+    ]
+   },
+   "canboso_v2_tgb": {
+    "auth": "X-API-Key tgb_",
+    "id": [
+     "6aab67b4ccf9b248c4b395b6",
+     "6aa97801cac93afd8876ce3e",
+     "6abe2315da57cd63e0eec464"
+    ],
+    "fields": [
+     "productId",
+     "name",
+     "description",
+     "emoji",
+     "productType",
+     "price",
+     "availability",
+     "promotions"
+    ],
+    "meta_fields": [
+     "success",
+     "lang",
+     "walletCurrency",
+     "products"
+    ]
+   },
+   "richai_rsk": {
+    "auth": "Bearer rsk_",
+    "id": [
+     "1/perplexity_pro_12m",
+     "16/gemini_ai_pro_18_months_activation_link",
+     "22/adobe_cc_pro_1m"
+    ],
+    "fields": [
+     "id",
+     "name",
+     "slug",
+     "description",
+     "product_type",
+     "retail_price",
+     "your_unit_price",
+     "stock",
+     "inputs",
+     "delivery_instructions"
+    ]
+   },
+   "digitalcore_uuid": {
+    "auth": "Api-Key UUID",
+    "id": [
+     "gemini_pro_18_months",
+     "nordvpn_3_months_basic",
+     "lovable_pro_lite_12_months_+_300_credits"
+    ],
+    "fields": [
+     "id",
+     "name",
+     "stock",
+     "price",
+     "priceFrom",
+     "tiers"
+    ]
+   }
+  }
+ }
+}

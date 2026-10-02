@@ -1,0 +1,134 @@
+{
+ "capture_reason": "NEW",
+ "captured_at": "2026-10-02T12:06:31+03:00",
+ "title": "D1 — RESOLVED: v4.2 → Approved عبر قاعدة الاستثناء التأسيسي (27/09)",
+ "last_edited": "2026-09-27T16:30:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e858a07-79e8-8161-84c4-df33064f75d5",
+  "created_time": "2026-09-27T16:30:00.000Z",
+  "last_edited_time": "2026-09-27T16:30:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3e758a07-79e8-8187-9e89-00278adc0ead"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3e758a07-79e8-8187-9e89-00278adc0ead"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "2328a57f-8e0a-4e5e-8359-41eb8af87cda"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "Decision ID": {
+    "id": "%3D%60SQ",
+    "type": "unique_id",
+    "unique_id": {
+     "prefix": "DEC",
+     "number": 7
+    }
+   },
+   "Status": {
+    "id": "FwYF",
+    "type": "select",
+    "select": null
+   },
+   "User Decision": {
+    "id": "SO%7Dj",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Impact": {
+    "id": "VlXX",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Evidence / Sources": {
+    "id": "%60aJN",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Rationale": {
+    "id": "e%3DE%3E",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Alternatives Considered": {
+    "id": "wyas",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Decision Type": {
+    "id": "xBuI",
+    "type": "select",
+    "select": null
+   },
+   "Related Version ID": {
+    "id": "yMC%3E",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Proposer": {
+    "id": "yNA%3B",
+    "type": "select",
+    "select": null
+   },
+   "Decision Summary": {
+    "id": "%7Dbyd",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Date": {
+    "id": "%7Dd%5E%7D",
+    "type": "date",
+    "date": null
+   },
+   "Decision": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "D1 — RESOLVED: v4.2 → Approved عبر قاعدة الاستثناء التأسيسي (27/09)",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "D1 — RESOLVED: v4.2 → Approved عبر قاعدة الاستثناء التأسيسي (27/09)",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/D1-RESOLVED-v4-2-Approved-27-09-3e858a0779e8816184c4df33064f75d5",
+  "public_url": null,
+  "archived": false,
+  "request_id": "894e8fcd-8aee-443e-bedc-27527515b5e9"
+ },
+ "block_count": 1,
+ "blocks": [
+  {
+   "id": "3e858a07-79e8-8106-925c-f4ff06810cc6",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "الشروط الأربعة موثقة: السلالة الأحدث + المراجعات + الاختبار الحي متعدد الدفعات (دفعة 1: 46 SKU/142 إجراء · دفعة 2: 173/130 · دفعة 3: 218/143 + 18 عرضًا مباشرًا بلا حصة) + تصريح المستخدم الصريح غير القابل للوكالة («اعتمد كل شي و اكمل ولاا تتوقف نهائياً» 27/09). البوابة تُغلق نهائيًا بعد هذا الاستخدام — النسخ القادمة تعبر الدورة الكاملة العادية."
+   ],
+   "created": "2026-09-27T16:30:00.000Z",
+   "edited": "2026-09-27T16:30:00.000Z"
+  }
+ ]
+}

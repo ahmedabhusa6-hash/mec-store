@@ -1,0 +1,7 @@
+[
+  { "action_id": "A067", "branch": "BR-MARKETPLACE-GC", "sku_id": "SKU-GC-001", "objective": "RETRY (A061 rate-limited): Eneba Steam Wallet 20 USD US-region offer", "discovery_family": "Marketplace-first", "method": "offer-detail-retry", "query": "Steam Wallet Gift Card 20 USD United States Eneba price" },
+  { "action_id": "A068", "branch": "BR-MARKETPLACE-SUB", "sku_id": "SKU-SUB-002", "objective": "RETRY (A062 rate-limited): Netflix gift card availability", "discovery_family": "Marketplace-first", "method": "offer-detail-retry", "query": "Netflix gift card digital where to buy US streaming" },
+  { "action_id": "A069", "branch": "BR-B2B-API", "sku_id": "SKU-TOP-001", "objective": "RETRY (A063 rate-limited): DT One B2B API — new construction", "discovery_family": "B2B/Catalog (API-first)", "method": "b2b-verify-retry2", "query": "DT One digital gifts API games publisher distributor brand" },
+  { "action_id": "A070", "branch": "BR-SMM-SEEDS", "sku_id": "SKU-SMM-001", "objective": "RETRY (A064 rate-limited): SMM Asia seed verification", "discovery_family": "Seller-first (seed)", "method": "seed-verify-retry2", "query": "SMM Asia cheap smm panel instagram followers" },
+  { "action_id": "A071", "branch": "BR-EXCLUSION-SCREEN", "sku_id": "SKU-AI-001", "objective": "RETRY (A066 rate-limited): cheap ChatGPT Plus shared-account market signal check", "discovery_family": "Community/Forum-first", "method": "signal-check-retry", "query": "buy cheap ChatGPT Plus shared account telegram resale" }
+]

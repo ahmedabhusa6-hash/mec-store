@@ -1,0 +1,212 @@
+{
+ "run": "G-1a R4 same-box",
+ "ts": "2026-10-02T01:50:33.528051+00:00",
+ "tls_sni_test": {
+  "prodseller.com": {
+   "subject": [
+    [
+     [
+      "commonName",
+      "prodseller.com"
+     ]
+    ]
+   ],
+   "issuer": [
+    [
+     [
+      "countryName",
+      "US"
+     ]
+    ],
+    [
+     [
+      "organizationName",
+      "Let's Encrypt"
+     ]
+    ],
+    [
+     [
+      "commonName",
+      "YE2"
+     ]
+    ]
+   ],
+   "san": [
+    [
+     "DNS",
+     "prodseller.com"
+    ],
+    [
+     "DNS",
+     "www.prodseller.com"
+    ]
+   ],
+   "notBefore": "Aug 11 15:35:07 2026 GMT",
+   "notAfter": "Nov  9 15:35:06 2026 GMT"
+  },
+  "decohomz.com": {
+   "subject": [
+    [
+     [
+      "commonName",
+      "prodseller.com"
+     ]
+    ]
+   ],
+   "issuer": [
+    [
+     [
+      "countryName",
+      "US"
+     ]
+    ],
+    [
+     [
+      "organizationName",
+      "Let's Encrypt"
+     ]
+    ],
+    [
+     [
+      "commonName",
+      "YE2"
+     ]
+    ]
+   ],
+   "san": [
+    [
+     "DNS",
+     "prodseller.com"
+    ],
+    [
+     "DNS",
+     "www.prodseller.com"
+    ]
+   ],
+   "notBefore": "Aug 11 15:35:07 2026 GMT",
+   "notAfter": "Nov  9 15:35:06 2026 GMT"
+  },
+  "stackvault.shop": {
+   "subject": [
+    [
+     [
+      "commonName",
+      "prodseller.com"
+     ]
+    ]
+   ],
+   "issuer": [
+    [
+     [
+      "countryName",
+      "US"
+     ]
+    ],
+    [
+     [
+      "organizationName",
+      "Let's Encrypt"
+     ]
+    ],
+    [
+     [
+      "commonName",
+      "YE2"
+     ]
+    ]
+   ],
+   "san": [
+    [
+     "DNS",
+     "prodseller.com"
+    ],
+    [
+     "DNS",
+     "www.prodseller.com"
+    ]
+   ],
+   "notBefore": "Aug 11 15:35:07 2026 GMT",
+   "notAfter": "Nov  9 15:35:06 2026 GMT"
+  }
+ },
+ "raw_catalog": {
+  "n": 26,
+  "first_ids": [
+   "6abeb3210dbb401865ffe95f",
+   "6abeace70dbb401865ffb2d2",
+   "6ab4064f67d72e6ef6369597",
+   "6a495a5f02999800df961920",
+   "6aa5bafb77c587d75cbe2a8e"
+  ],
+  "names_sample": [
+   "Wispr Flow 12M Edu",
+   "Apple TV 12 Months Link",
+   "Capcut pro 6 days FW",
+   "ChatGPT Plus K12 Edu 2 years",
+   "Duolingo Super 12M old",
+   "CAPCUT PRO 1600 CREDITS",
+   "HBO MAX 3 MONTHS",
+   "Autodesk Admin 3000 invite"
+  ]
+ },
+ "catalog_cross_check": {
+  "sv_oids": 249,
+  "raw_oids": 26,
+  "intersection": 20,
+  "raw_minus_sv": 6,
+  "sv_minus_raw": 229
+ },
+ "path_probe": {
+  "/api/v1/products": {
+   "status": 404,
+   "head": "{\"error\":\"Route introuvable\"}"
+  },
+  "/api/orders": {
+   "status": 404,
+   "head": "{\"error\":\"Route introuvable\"}"
+  },
+  "/api/admin": {
+   "status": 404,
+   "head": "{\"error\":\"Route introuvable\"}"
+  },
+  "/api/config": {
+   "status": 404,
+   "head": "{\"error\":\"Route introuvable\"}"
+  },
+  "/api/health": {
+   "status": 404,
+   "head": "{\"error\":\"Route introuvable\"}"
+  },
+  "/v1/products": {
+   "status": 401,
+   "head": "{\"error\":\"API key manquante (header X-API-Key requis)\"}"
+  },
+  "/sv-api/config": {
+   "status": 200,
+   "head": "<!doctype html>\n<html lang=\"en\" data-beasties-container>\n<head>\n  <meta charset=\"utf-8\">\n  <title>ProdsellerAdmin</title"
+  },
+  "/api/me": {
+   "status": 404,
+   "head": "{\"error\":\"Route introuvable\"}"
+  },
+  "/api/user": {
+   "status": 404,
+   "head": "{\"error\":\"Route introuvable\"}"
+  }
+ },
+ "decohomz_front": {
+  "title": "DecoHomz — Premium Furniture",
+  "meta_desc": "DecoHomz offers premium, handcrafted furniture for every space. Sofas, beds, dining sets and more — delivered across Egypt.",
+  "emails": [],
+  "phones": [],
+  "len": 28429,
+  "csrf": true,
+  "generator": null
+ },
+ "sv_api_headers": {
+  "Server": "cloudflare",
+  "cf-cache-status": "DYNAMIC",
+  "CF-RAY": "a4400edb7f618a4c-HKG",
+  "alt-svc": "h3=\":443\"; ma=86400"
+ }
+}

@@ -1,0 +1,152 @@
+{
+ "capture_reason": "NEWLY_ACCESSIBLE",
+ "captured_at": "2026-10-02T12:26:31+03:00",
+ "title": "حساب التفاضل والتكامل: المحاضرة 3",
+ "last_edited": "2026-07-24T22:57:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "7c258a07-79e8-8375-8cb4-816464cda8ef",
+  "created_time": "2026-07-24T22:57:00.000Z",
+  "last_edited_time": "2026-07-24T22:57:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": {
+   "type": "emoji",
+   "emoji": "📐"
+  },
+  "parent": {
+   "type": "database_id",
+   "database_id": "44758a07-79e8-8221-b0ea-81a7407cfb82"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "رمز المادة": {
+    "id": "8b2%60",
+    "type": "select",
+    "select": {
+     "id": "ec43f93f-7947-42d1-a3a3-cce3c0f8e8fc",
+     "name": "MAT 201",
+     "color": "yellow"
+    }
+   },
+   "تاريخ الإنشاء": {
+    "id": "%60W_p",
+    "type": "created_time",
+    "created_time": "2026-07-24T22:57:00.000Z"
+   },
+   "اسم المادة": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "حساب التفاضل والتكامل: المحاضرة 3",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "حساب التفاضل والتكامل: المحاضرة 3",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/3-7c258a0779e883758cb4816464cda8ef",
+  "public_url": null,
+  "archived": false,
+  "request_id": "813ba649-0d5c-469d-8936-bd5e48855e27"
+ },
+ "block_count": 8,
+ "blocks": [
+  {
+   "id": "7c058a07-79e8-839d-bd86-0112b43f3d95",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "غطينا اليوم موضوع التكامل بالتجزئة. تُعطى صيغة التكامل بالتجزئة كالتالي:"
+   ],
+   "created": "2026-07-24T22:57:00.000Z",
+   "edited": "2026-07-24T22:57:00.000Z"
+  },
+  {
+   "id": "20d58a07-79e8-8351-982f-81608b8aedda",
+   "type": "equation",
+   "has_children": false,
+   "text": [],
+   "created": "2026-07-24T22:57:00.000Z",
+   "edited": "2026-07-24T22:57:00.000Z"
+  },
+  {
+   "id": "1f458a07-79e8-82b3-9ceb-81583b44e223",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "حيث u و v دالتان للمتغيّر x. تتضمّن العملية اختيار u و dv بحيث يكون حل التكامل الموجود في الطرف الأيمن أسهل من التكامل الأصلي."
+   ],
+   "created": "2026-07-24T22:57:00.000Z",
+   "edited": "2026-07-24T22:57:00.000Z"
+  },
+  {
+   "id": "51558a07-79e8-838d-ae24-81f3cecd0abb",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "ناقشنا أيضاً طريقة الكسور الجزئية، التي تسمح لنا بتفكيك الكسور المعقّدة إلى كسور أبسط، مما يجعل تكاملها أسهل."
+   ],
+   "created": "2026-07-24T22:57:00.000Z",
+   "edited": "2026-07-24T22:57:00.000Z"
+  },
+  {
+   "id": "af758a07-79e8-82eb-84a9-01d3a209c691",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "مثال:"
+   ],
+   "created": "2026-07-24T22:57:00.000Z",
+   "edited": "2026-07-24T22:57:00.000Z"
+  },
+  {
+   "id": "5e758a07-79e8-8284-9528-81d4b95338a1",
+   "type": "equation",
+   "has_children": false,
+   "text": [],
+   "created": "2026-07-24T22:57:00.000Z",
+   "edited": "2026-07-24T22:57:00.000Z"
+  },
+  {
+   "id": "88f58a07-79e8-8370-8edb-8150ae384d86",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "لإجراء هذا التكامل، يجب علينا تفكيك الكسر إلى كسور جزئية أولاً، ثم مكاملة كل كسر منها على حدة."
+   ],
+   "created": "2026-07-24T22:57:00.000Z",
+   "edited": "2026-07-24T22:57:00.000Z"
+  },
+  {
+   "id": "aad58a07-79e8-83a5-8000-81579bf9dabe",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [],
+   "created": "2026-07-24T22:57:00.000Z",
+   "edited": "2026-07-24T22:57:00.000Z"
+  }
+ ]
+}

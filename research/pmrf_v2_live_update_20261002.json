@@ -1,0 +1,308 @@
+{
+ "task": "PMRF v2.0 live research update (read-only)",
+ "execution_timestamp": "2026-10-02T07:10:25+03:00",
+ "methodology": "GET-only passive OSINT; public endpoints; no keys; no purchases",
+ "stackvault_catalog": {
+  "http_status": 200,
+  "total": 280,
+  "prefix_field": null,
+  "prefix_distribution": {},
+  "cost_fields_present": [],
+  "records_with_cost_value": 0,
+  "price_witnesses": {
+   "ChatGPT Go": {
+    "title": "🎨 ChatGPT Go 1 Month (10-Day Warranty)",
+    "price": 3.66,
+    "stock": 13,
+    "id": "cb_6abb2c37a3c899e943106"
+   },
+   "ChatGPT Plus": {
+    "title": "🎨 ChatGPT Plus 1 Month 3D warranty",
+    "price": 8.79,
+    "stock": 2,
+    "id": "cb_6abdef24da57cd63e0e4b"
+   },
+   "Codex": {
+    "title": "🤖 1B Credit API Codex 14 Days - full warranty",
+    "price": 41.44,
+    "stock": 39,
+    "id": "cb_6ab3f5f90944def028bf1"
+   },
+   "Capcut": {
+    "title": "🎨 Capcut Pro 1 Month FW",
+    "price": 1.6,
+    "stock": 115,
+    "id": "ps_6a2fda51035a6d898f210"
+   },
+   "CapCut": {
+    "title": "🎨 CAPCUT PRO 1600 CREDITS",
+    "price": 2.05,
+    "stock": 14,
+    "id": "ps_6aa4551bc76bc3aeb2ebe"
+   },
+   "Gemini": {
+    "title": "🌐 Gemini Pro 18 Months (Activation Link)",
+    "price": 0.67,
+    "stock": 0,
+    "id": "ps_6a31035939dc014325da2"
+   },
+   "Office": {
+    "title": "😶‍🌫️ Microsoft Office 365 - 2 Years full warranty",
+    "price": 2.45,
+    "stock": 5,
+    "id": "cb_6ab38ed80944def028ad9"
+   },
+   "Canva": {
+    "title": "🖌️ Canva Pro 2 yrs FW",
+    "price": 0.77,
+    "stock": 10,
+    "id": "ps_6a316a7b1777fc2347835"
+   },
+   "Adobe": {
+    "title": "😎 Adobe All Apps 7 Days no warranty",
+    "price": 2.21,
+    "stock": 0,
+    "id": "cb_6aa5594edf59fbc6fe1b7"
+   },
+   "Duolingo": {
+    "title": "🦉 Duolingo Max 12 Months full warranty",
+    "price": 21.44,
+    "stock": 33,
+    "id": "cb_6aacd3d35271203cb12c0"
+   },
+   "Grok": {
+    "title": "🚀 Grok Super 6-7 Days - (full warranty)",
+    "price": 4.58,
+    "stock": 0,
+    "id": "cb_6aba6c9431a482e3ae2a1"
+   }
+  },
+  "bytes": 212074
+ },
+ "gateway": {
+  "http_status": 200,
+  "model_count": 15,
+  "model_names": [
+   "claude-opus-4-6",
+   "claude-opus-4-8",
+   "claude-opus-5",
+   "claude-opus-5-5",
+   "gpt-6-astra",
+   "claude-sonnet-5",
+   "gpt-6-luna",
+   "claude-fable-5",
+   "claude-opus-4-7",
+   "claude-sonnet-4-6",
+   "gpt-astra",
+   "gpt-5.6-sol",
+   "claude-fable-5-1",
+   "gpt-6-sol",
+   "gpt-6.1-sol"
+  ],
+  "pricing_version": "a42d372ccf0b5dd13ecf71203521f9d2",
+  "bytes": 4499
+ },
+ "domains": {
+  "https://stackvault.shop": {
+   "status": 200,
+   "bytes": 34552,
+   "server": "Netlify"
+  },
+  "https://www.stackvault.shop": {
+   "status": 200,
+   "bytes": 34552,
+   "server": "Netlify"
+  },
+  "https://prodseller.com": {
+   "status": 200,
+   "bytes": 2083,
+   "server": "nginx/1.27.5"
+  },
+  "https://canboso.com": {
+   "status": 200,
+   "bytes": 1714,
+   "server": "nginx/1.29.3"
+  },
+  "https://decohomz.com": {
+   "status": 200,
+   "bytes": 28493,
+   "server": "cloudflare"
+  },
+  "https://aiversehub.store": {
+   "status": 403,
+   "bytes": 13,
+   "server": "nginx/1.24.0 (Ubuntu)"
+  },
+  "https://aixpress.shop": {
+   "status": 403,
+   "bytes": 13,
+   "server": "nginx/1.24.0 (Ubuntu)"
+  },
+  "https://cgpt-active.pro": {
+   "status": 200,
+   "bytes": 17523,
+   "server": "cloudflare"
+  },
+  "https://nikokey.com": {
+   "status": 200,
+   "bytes": 11404,
+   "server": "cloudflare"
+  },
+  "https://redeem.teamsoclo.site": {
+   "status": 200,
+   "bytes": 21827,
+   "server": "cloudflare"
+  },
+  "https://docs.teamsoclo.site": {
+   "status": 200,
+   "bytes": 291544,
+   "server": "cloudflare"
+  },
+  "https://jcc.tokensunlimited.workers.dev": {
+   "status": 200,
+   "bytes": 39116,
+   "server": "cloudflare"
+  },
+  "https://gpt.teamsoclo.site": {
+   "status": 200,
+   "bytes": 1414,
+   "server": "cloudflare"
+  },
+  "https://lahastore.up.railway.app": {
+   "status": 200,
+   "bytes": 67804,
+   "server": "railway-hikari"
+  }
+ },
+ "telegram_channels": {
+  "ProdSellerOfficial": {
+   "status": 200,
+   "message_datetimes": [
+    "2026-10-01T08:54:17+00:00",
+    "2026-10-01T11:28:30+00:00",
+    "2026-10-01T12:41:37+00:00",
+    "2026-10-01T15:07:55+00:00",
+    "2026-10-01T17:17:31+00:00"
+   ],
+   "last_messages": [
+    "Gmails restocked &#33; Best price in the market &#33;",
+    "Gemini 18 months new Discount &#33; &#036;0.59 per links | &#036;0.55 api users |&#036;0.53 in Bulk",
+    "🟢 DUOLINGO — BACK TO THE OLD METHOD&#33; 🔥 🔄 We’re back to the old method&#33; ⚡ Stable links &amp; quick activation 🚫 No instructions needed 🐞 No bugs like wit"
+   ],
+   "n_messages_on_page": 20
+  },
+  "Evo_Era_updates": {
+   "status": 200,
+   "message_datetimes": [
+    "2026-10-01T23:35:36+00:00",
+    "2026-10-01T23:35:38+00:00",
+    "2026-10-01T23:35:42+00:00",
+    "2026-10-01T23:53:42+00:00",
+    "2026-10-02T01:44:51+00:00"
+   ],
+   "last_messages": [
+    "🔔 New Stock Alert&#33; 🤓 Wispr Flow Pro 12m has been restocked&#33; 📦 1 items available 💰 Price: 12.0 USDT Grab yours before it&#39;s gone&#33; 🔥",
+    "Don&#39;t forget&#33;",
+    "🚫 Out of Stock&#33; ⚡ Factory 12m is now sold out. We&#39;ll notify you when it&#39;s restocked&#33; 🔔"
+   ],
+   "n_messages_on_page": 20
+  },
+  "AISUBSID": {
+   "status": 200,
+   "message_datetimes": [
+    "2026-10-01T14:06:57+00:00",
+    "2026-10-01T14:07:56+00:00",
+    "2026-10-01T16:20:25+00:00",
+    "2026-10-01T18:02:18+00:00",
+    "2026-10-01T18:04:43+00:00"
+   ],
+   "last_messages": [
+    "Uang ku di ewallet dana ilang tiba-tiba kenapa ini Ada yang sama?",
+    "80 accounts deactivated and I have replaced all the affected customers who were within no more than 12 hours after purchase. All the ones affected were iCloud. ",
+    "Tomorrow, I will only sell ChatGPT with custom domains. The domain is able to last for more than 7 days according to customer reports."
+   ],
+   "n_messages_on_page": 20
+  },
+  "teamsoclo": {
+   "status": 200,
+   "message_datetimes": [
+    "2026-09-30T08:24:09+00:00",
+    "2026-10-01T05:44:07+00:00",
+    "2026-10-01T08:14:48+00:00",
+    "2026-10-01T11:38:04+00:00",
+    "2026-10-01T19:34:21+00:00"
+   ],
+   "last_messages": [
+    "🚗 Grok coming soon 🔥",
+    "☀️ Hi, Shop đã có tool 1 Click cho các bác. Các bác tải ở: https://docs.teamsoclo.site/cai-dat-nhanh À shop cũng đã tích hợp 3 mô hình mới gpt-6-sol gpt-6.1-sol",
+    "😁 Hi, shop đã tích hợp phần đổi CDK ở ngay trên Docs, các bác chỉ việc đổi CDK đã mua, tự động sẽ chuyển key, giúp các bác cài đặt trong 5s 😁 Hello&#33; We’ve i"
+   ],
+   "n_messages_on_page": 20
+  },
+  "HitMeowShop": {
+   "status": 200,
+   "message_datetimes": [
+    "2026-09-28T08:10:37+00:00",
+    "2026-09-29T04:56:33+00:00",
+    "2026-09-29T15:15:46+00:00",
+    "2026-09-30T13:01:09+00:00",
+    "2026-10-01T15:42:32+00:00"
+   ],
+   "last_messages": [
+    "🎬 ⚡️ Kling 1k1-1k2 CRE 1 month warranty 5D 💰 Price: &#036;5.76 📦 Stock: 2 accounts 📊 Sold: 1892 accounts 💎 Description: LIVE KLING LOG at: https://kling.ai/app/",
+    "Hello everyone, wishing you all a good day&#33; I&#39;m temporarily busy with some work, but during this time my customer service team will still be active to h",
+    "Please be patient, everyone. I&#39;m on my way back to my hometown today and I&#39;m a little tired. I&#39;ll reply to everyone as soon as I get home."
+   ],
+   "n_messages_on_page": 20
+  },
+  "gemini12pro_channel": {
+   "status": 200,
+   "message_datetimes": [
+    "2026-09-01T15:16:09+00:00",
+    "2026-09-07T15:38:37+00:00",
+    "2026-09-14T06:50:54+00:00",
+    "2026-09-21T07:15:17+00:00",
+    "2026-09-30T15:22:50+00:00"
+   ],
+   "last_messages": [
+    "🔥 GEMINI PRO — 18 MONTH AI ACTIVATION LINKS 🔥 🚀 Gemini Pro Activation Links 🔥 1–9 → &#036;0.65/each 🔥 9–99 → &#036;0.60/each 🔥 100–1000 → &#036;0.57/each ⚡️ Ins",
+    "⚡️ PREMIUM SUBSCRIPTIONS AT WHOLESALE RATES ⚡️ 💙 Instant auto-delivery. 10,000+ users on the bot. 👋 Duolingo Super 12M — 1.50 USDT 🌄 Adobe Express 12M — 1.00 US",
+    "⚡️ DIGITAL PRODUCTS FOR RESELLERS Direct supplier focused on resellers and bulk buyers — competitive volume pricing, reliable stock and automated delivery. Popu"
+   ],
+   "n_messages_on_page": 20
+  },
+  "AiVerseXHub": {
+   "status": 200,
+   "message_datetimes": [
+    "2026-09-30T13:37:55+00:00",
+    "2026-09-30T14:06:15+00:00",
+    "2026-09-30T14:07:52+00:00",
+    "2026-09-30T14:29:27+00:00",
+    "2026-09-30T16:23:18+00:00"
+   ],
+   "last_messages": [
+    "If you are facing any issue to connect your domain? Then text me @GT_VERIFIED I am always ready to help you…. 📱",
+    "If you are facing any issue to connect your domain? Then text me @GT_VERIFIED I am always ready to help you…. 📱",
+    "Now, the original brand domain of our bot will not appear in the Gemini reactivation URL; instead, a random domain will be displayed to avoid any issues for the"
+   ],
+   "n_messages_on_page": 20
+  },
+  "fork_bot_channel": {
+   "status": 200,
+   "message_datetimes": [
+    "2026-10-01T12:33:16+00:00",
+    "2026-10-01T15:14:33+00:00",
+    "2026-10-01T15:19:06+00:00",
+    "2026-10-01T17:14:30+00:00",
+    "2026-10-01T21:53:48+00:00"
+   ],
+   "last_messages": [
+    "FIX a little bit ‼️ ☺️ Gemini Activation Links ☺️ ✔️ Link Example ( It just example format link ) : https://serviceactive.online/subscription/new/AQCpiIDDxBntDj",
+    "📢 STOCK UPDATE&#33; 🎁 ChatGPT Plus 1 Month UPI @gmail - Warranty 5h ━━━━━━━━━━━━━━━━━━━━ 🔥 Buy 5+ items for best wholesale price: 110,000đ | &#036;4.25 (Retail:",
+    "📢 STOCK UPDATE&#33; 🎁 Gemini Pro — 18 Months (Links) ━━━━━━━━━━━━━━━━━━━━ 🔥 Buy 10+ items for best wholesale price: 19,500đ | &#036;0.75 (Retail: 26,000đ | &#03"
+   ],
+   "n_messages_on_page": 20
+  }
+ },
+ "errors": []
+}

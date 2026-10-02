@@ -1,0 +1,44 @@
+# Accounting Systems — Conversation Integrity & Knowledge Audit — 2026-09-26
+Audit the full Accounting Systems conversation against the current persisted Notion state, correct evidence-role and linkage errors, and preserve unresolved items explicitly.
+Authority order
+- Current persisted Notion state.
+- Primary/original product documentation for product facts.
+- Independent academic/professional sources for conceptual validation and qualification.
+- Conversation-level claims only when corroborated; otherwise treat them as unverified statements.
+Confirmed current state
+- ASK-1 — Functional Scope taxonomy node:  ACTIVE ; Commit Status  VERIFIED .
+- ASK-2 — Classification Rule — Scope before Label:  ACTIVE ; Commit Status  VERIFIED .
+- ASR-5:  Integrated .
+- ASR-6:  Integrated .
+- ASR-7:  Needs Follow-up .
+- Latest persisted  pre-audit  accounting cycle in the relevant accounting trail:  CKC-53 / ASC-014 . This audit itself is recorded separately as  CKC-54 / USER-TRIGGERED .
+Critical corrections
+1. Latest-cycle linkage
+The persisted Change Log contains ASC-014-CHG-001 and no ASC-015 change record. ASK-2 previously carried  Last Changed By Cycle = ASC-015 ; the substantive prior knowledge update is persisted as  CKC-53 / ASC-014 , while this audit is now the current metadata reconciliation cycle  CKC-54 . No knowledge-state reversal was inferred.
+2. Thuy et al. (2026) evidence role
+Thuy et al. (2026) is a real peer-reviewed empirical study in Discover Sustainability. It studies ERP-related implementation factors, management accounting practices, corporate governance, and firm performance in Vietnamese listed firms. Its introduction describes ERP as integrating information across functional departments, but the study is  not  a formal accounting-software-versus-ERP taxonomy or boundary study. Its KOS role is therefore contextual/empirical support only.
+3. ERP boundary is a working rule, not a universal ontology
+Mossa et al. (2025) explicitly notes that ERP has multiple interpretations and proposes an architectural continuum. Khan, Rahim & Yeng (2025) discusses modularity, integration and enterprise-wide coordination as ERP characteristics. These sources support the taxonomy's use of functional breadth/integration as a major criterion, but do not establish a single universal ontology.
+4. Licensing must remain separate, but the rule is narrower than before
+Singh (2006) documents historical ERP tier classifications that used license fees, implementation fees, organization size/type and functionality, and notes contradictions in tier grouping. Therefore the safe rule is:  licensing is a separate descriptive dimension and must not be treated as a causal determinant of System_Type without direct evidence . Historical use of licensing in some tier schemes is not evidence that licensing alone defines ERP.
+Taxonomy coverage
+Currently evidenced as active:  Functional Scope  and the working  Scope-before-Label  rule. The other requested axes — Deployment, Architecture, Licensing, Accounting Standards/Localization, Organizational Structure, Integrations, Reporting/Control, Market/Geography, Product Maturity — are not all represented by active evidence-backed Knowledge Assets yet. They remain research/design axes, not completed taxonomy dimensions.
+Current unresolved gaps
+- Independent evidence directly connecting licensing/package boundaries to System_Type remains  OPEN .
+- Edition/Plan divergence remains  OPEN .
+- Saudi-specific current Oracle 26C localization remains  UNKNOWN .
+- Product-level classification still requires the full identity/context chain when material: Vendor → Product → Edition/Plan → Version → Module/Feature → Localization → Market.
+Data-integrity controls now applied
+- No historical cycle or change record was deleted.
+- Conversation claims are not treated as persisted state unless corroborated.
+- Source, Evidence, Knowledge, Change and Cycle records remain separate.
+- A failed commit is not represented as a successful verification.
+- The latest persisted cycle/change identifiers are taken from Notion, not inferred from prior chat prose.
+- No actual automation or external schedule was created or modified by this audit.
+Next operational priority
+Continue ASR-7 with one documented Edition/Plan divergence, comparing exact functional scope and licensing context. Only add an independent licensing classification rule if a source directly addresses classification; do not infer it from pricing, tiers, or vendor marketing.
+External evidence verified for this audit
+- Mossa, Smith & Bland (2025), Procedia Computer Science 256, 174–189, DOI 10.1016/j.procs.2025.02.110.
+- Khan, Rahim & Yeng (2025), International Journal of Academic Research in Business and Social Sciences 15(5), 1339–1363, DOI 10.6007/IJARBSS/v15-i5/25490.
+- Singh (2006), Asia Pacific Business Review 2(2), 68–80, DOI 10.1177/097324700600200209.
+- Thuy et al. (2026), Discover Sustainability 7, 736, DOI 10.1007/s43621-026-03450-z.

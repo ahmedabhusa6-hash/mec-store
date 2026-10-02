@@ -1,0 +1,3 @@
+# CHG-DM-AUDIT-001 — Correct KNG-43 provenance reconciliation status
+Correction scope: provenance statement only. KNG-43 Knowledge State remains SYNTHESIZED and Conflict Status remains NONE.
+Control decision: do not reconstruct the Evidence Links relation by unsafe overwrite until the full intended evidence set is identified.

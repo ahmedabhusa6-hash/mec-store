@@ -1,0 +1,102 @@
+🧬 Prompt Development History — Supplier Intelligence
+========================================
+Status
+Active — Primary Reference & Development History
+Primary Reference Rule
+The following two materials are now the primary source pair for understanding and developing the Supplier Intelligence system:
+Primary Reference A — Original z.ai Supplier Research Prompt
+File: z_ai_supplier_research_prompt.md
+Role: baseline for the original research-execution logic, rules, data model, verification model, discovery methodology, comparison rules, stopping rules, and output structure.
+Primary Reference B — The original research text/material submitted together with the Prompt
+Role: baseline for the actual research objective, requested subject matter, product/service context, intended outputs, and original execution context.
+Do not replace, rewrite, or reinterpret this source merely because a later Prompt version is cleaner.
+Pairing Rule
+Prompt + Original Research Text = Primary Reference Pair.
+Later versions may improve the system, but they must not silently erase the intent, requirements, or important distinctions contained in either member of the pair.
+Development Stage Register
+Version Lineage
+Original Primary Reference Pair
+→ v2
+→ v3
+→ v4.0
+→ v4.1 Candidate
+→ Claude Validation / Further Candidate
+→ User Decision
+→ Approved / Canonical
+No stage may be silently skipped when the skip would remove material history.
+Stage Governance
+Primary references
+The original Prompt and the original research text remain preserved as the historical and conceptual baseline.
+Working development
+Claude may develop Prompt text in the Prompt Working Reference and Claude Workspace.
+ChatGPT reviews, tests, audits, and records findings in the ChatGPT-owned surfaces.
+Canonical authority
+The Canonical Registry is the protected authority for the Approved Prompt.
+No Candidate becomes Approved automatically.
+History preservation
+Historical versions and records are preserved.
+A later version supersedes a previous version only through the controlled lifecycle.
+Change Classification
+Every meaningful development change must be classified as one of:
+Existing Project Rule
+Evidence-Based Repair
+Proposed Governance Decision
+Prompt Evolution
+Research Finding
+Unresolved
+Never convert a proposal into a rule without the required authority.
+Current State
+Primary Reference Pair: locked as baseline references.
+v4.0: preserved historical comparator.
+v4.1: current Candidate.
+Approved Prompt: none currently recorded.
+Claude: owns direct Prompt Working Reference editing.
+ChatGPT: owns review, audit, validation, and operational archive.
+User: final authority for approval, promotion, rollback, and governance decisions.
+Required Rule for Future Development
+Before changing the Prompt, compare the proposed change against:
+A. Original Prompt
+B. Original Research Text
+C. Current Prompt Candidate
+D. Recorded project decisions
+E. Recorded test failures and repairs
+A change is valid only when its purpose and impact are explicit.
+Do not optimize away an original requirement merely because it is inconvenient or difficult to implement.
+Do not treat a later Prompt version as proof that an earlier requirement was invalid.
+Core Principle
+The original Prompt defines the original operating design.
+The original research text defines the original research intent and execution context.
+Version history defines how the system evolved.
+Canonical Registry defines what is officially approved.
+These four functions must remain distinct.
+✅ Approved Operating Distinction — Prompt Layers
+Decision ID: Governance-Compiler-Separation-1.0
+Status: Approved
+Authority: User
+The project now treats the following as three distinct layers:
+Primary Supplier Research Prompt — the operational research engine for Supplier Intelligence.
+Claude Handoff Prompt — the coordination/review/development layer used to direct Claude work on the project and its Prompt.
+EXECUTION-PROMPT COMPILER — student services — a separate generic Prompt Compiler reference. It is not part of the Supplier Intelligence engine and must not be inserted into it automatically.
+Historical Handoff Rule
+The older Claude handoff remains a historical reference. Reuse is permitted only after reconciliation with the current project state, the Primary Reference Pair, v4.1 Candidate, and recorded governance decisions.
+Non-Mixing Rule
+Do not silently merge these layers, transfer unrelated modules, or import unrelated project material into Supplier Intelligence. Any proposed structural or governance change remains subject to the existing authority and approval rules.
+This section records the user's explicit approval and does not promote any Prompt Candidate to Canonical status.
+✅ Approved Scope Clarification — Products + Services
+Decision ID: Scope-Product-Service-Coverage-1.0
+تم تثبيت أن منظومة Adaptive Supplier Intelligence Research Engine تبحث في المنتجات والخدمات الرقمية معًا. العائلات الحالية المسجلة للمشروع: AI/SaaS، Gift Cards، Game Top-up، Game Keys، Software/Licenses، eSIM/Telecom، SMM، Virtual Numbers/SMS، Digital Subscriptions، وخدمات رقمية قائمة على API عندما تنطبق، إضافة إلى فئات رقمية أخرى مرتبطة بالنطاق.
+Invariant: Product/Service Family ≠ Actual SKU.
+الفئات تحدد نطاق المحرك، لكن كل Run يحتاج SKU فعليًا قابلًا للتحديد قبل المقارنة السعرية. لا تُشتق قيمة SKU من أمثلة واجهة z.ai، ولا تُحوّل الملاحظات التشغيلية الجديدة إلى قاعدة Prompt دون مراجعة.
+📌 Cycle 5 State — Claude v4.2 Candidate Reported
+Date: 2026-09-27
+Claude reported creation of v4.2 Candidate, parent v4.1, adding catalog-scale controls: Catalog/Batch objects, Catalog Coverage Ledger, cross-batch Entity persistence, SKU-level lifecycle states, cumulative cross-batch budget rollup, and explicit Global Discovery + Region-Aware SKU Matching wording.
+Important status distinction: v4.2 is reported by Claude as a Candidate, but its complete exact artifact has not yet been independently verified here. Live multi-batch execution has not yet been performed. The claimed repairs are therefore structurally addressed / pending runtime validation, not runtime-proven.
+Next required gate: obtain/verify the exact v4.2 Candidate artifact, then run a real multi-batch adversarial/runtime test before considering any later promotion.
+✅ v4.2 Artifact Verification & User Acceptance — 2026-09-27
+Artifact: z_ai_supplier_research_prompt_v4_2_candidate.md
+The exact v4.2 Candidate file has now been supplied and reviewed. This resolves the previous artifact-availability gap from Cycle 5.
+User decision: v4.2 is accepted as the current working Candidate.
+Verified at artifact level: Catalog Program/Batch architecture, Catalog Coverage Ledger, SKU lifecycle states, cross-batch Entity Resolution persistence, catalog budget rollup, and explicit separation of global supplier discovery from region-aware SKU matching are present in the file.
+Not yet runtime-proven: live multi-batch execution, cross-batch persistence behavior in the target runtime, and adversarial regression execution.
+Canonical status: v4.2 is not promoted to Approved/Canonical by this update. The existing promotion gate remains in force until the required live validation is recorded.
+【مزامنة حالة 2026-09-27 — جلسة MEC-2.0】v4.2: مرشح العمل الحالي (مقبول من المستخدم 2026-09-27، غير معتمد). v4.1: محفوظ كوقت تشغيل Batch 1 (2026-09-26). البند المتقادم أعلاه («v4.1: current Candidate») يُقرأ ضمن سياقه التاريخي؛ الحالة الموثقة الراهنة في سجل الإصدارات وسجل Canonical.

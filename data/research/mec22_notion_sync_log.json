@@ -1,0 +1,37 @@
+[
+ {
+  "section": "identity",
+  "ok": true,
+  "detail": "موردين"
+ },
+ {
+  "section": "ia_schema",
+  "ok": true,
+  "detail": "props: Actor, Record ID, Parent Record ID, Stage, Findings / Changes, Objective, Version ID, Decision Required, Evidence / Sources, Canonical Impact, Cycle, Message to Send, Date, Status, Received Output / Archive, Next Action, Record"
+ },
+ {
+  "section": "row_select_skip:Stage",
+  "ok": false,
+  "detail": "'Runtime Evidence' not in ['User Input', 'ChatGPT Analysis', 'Claude Handoff', 'Claude Response', 'ChatGPT Audit', 'Decision']"
+ },
+ {
+  "section": "cycle9_row",
+  "ok": true,
+  "detail": "3e858a07-79e8-8179-99fe-d39ebf72b547"
+ },
+ {
+  "section": "decisions_page",
+  "ok": true,
+  "detail": "3e858a07-79e8-81bb-8aaf-fac0f9b59908"
+ },
+ {
+  "section": "b2_callout",
+  "ok": true,
+  "detail": "appended"
+ },
+ {
+  "section": "cycle9_stage_fix",
+  "ok": true,
+  "detail": "Stage set to 'ChatGPT Analysis' (schema-valid; same convention as MEC-2.0/2.1 fix — runtime execution rows use nearest schema stage)"
+ }
+]

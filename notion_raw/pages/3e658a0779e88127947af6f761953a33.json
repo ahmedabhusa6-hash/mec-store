@@ -1,0 +1,2699 @@
+{
+ "page": {
+  "id": "3e658a07-79e8-8127-947a-f6f761953a33",
+  "title": "Classification Rule — Scope before Label",
+  "url": "https://app.notion.com/p/Classification-Rule-Scope-before-Label-3e658a0779e88127947af6f761953a33"
+ },
+ "blocks": [
+  {
+   "object": "block",
+   "id": "6c28cc27-a91b-4578-affa-fede32decdf3",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-25T21:52:00.000Z",
+   "last_edited_time": "2026-09-25T21:52:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Rule: Do not classify an accounting system solely from the vendor's product label. First assess functional scope and integration breadth, then assign System_Type.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Rule: Do not classify an accounting system solely from the vendor's product label. First assess functional scope and integration breadth, then assign System_Type.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "c0d045eb-fb05-446a-bf9e-450914ca4826",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-25T21:52:00.000Z",
+   "last_edited_time": "2026-09-25T21:52:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Operational test:",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Operational test:",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "1cdbfe57-a240-4e2c-b1ce-739af09f816b",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-25T21:52:00.000Z",
+   "last_edited_time": "2026-09-25T21:52:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "numbered_list_item",
+   "numbered_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Identify the core accounting functions.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Identify the core accounting functions.",
+      "href": null
+     }
+    ],
+    "color": "default",
+    "list_format": "numbers"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "f8baf07c-3145-4fcd-8a2f-f8b6ffc4d8d3",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-25T21:52:00.000Z",
+   "last_edited_time": "2026-09-25T21:52:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "numbered_list_item",
+   "numbered_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Identify adjacent operational domains integrated into the same product/architecture.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Identify adjacent operational domains integrated into the same product/architecture.",
+      "href": null
+     }
+    ],
+    "color": "default",
+    "list_format": "numbers"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "393a2171-6a0e-492a-b0eb-f4300ff3ba88",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-25T21:52:00.000Z",
+   "last_edited_time": "2026-09-25T21:52:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "numbered_list_item",
+   "numbered_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Determine whether the broader scope is native/core or merely external integration.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Determine whether the broader scope is native/core or merely external integration.",
+      "href": null
+     }
+    ],
+    "color": "default",
+    "list_format": "numbers"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "fa78ec16-408c-485f-9b2c-39fdba890fed",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T13:56:00.000Z",
+   "last_edited_time": "2026-09-26T13:56:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "numbered_list_item",
+   "numbered_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Determine the exact Edition/Plan/Version/Module/Localization context whenever those variables can change available functionality.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Determine the exact Edition/Plan/Version/Module/Localization context whenever those variables can change available functionality.",
+      "href": null
+     }
+    ],
+    "color": "default",
+    "list_format": "numbers"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "16b69c07-35a8-4c5d-9cf5-887257680c4b",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-25T21:52:00.000Z",
+   "last_edited_time": "2026-09-25T21:52:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "numbered_list_item",
+   "numbered_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Separate Accounting Software, Financial Management and ERP_With_Accounting decisions using evidence rather than marketing language.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Separate Accounting Software, Financial Management and ERP_With_Accounting decisions using evidence rather than marketing language.",
+      "href": null
+     }
+    ],
+    "color": "default",
+    "list_format": "numbers"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "9fb32574-fe29-4eff-a787-91385eb0f0f0",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-25T21:52:00.000Z",
+   "last_edited_time": "2026-09-26T12:53:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Evidence Refs: EVIDENCE — D365 Finance functional scope; EVIDENCE — SAP S/4HANA Cloud integrated accounting scope; EVIDENCE — Oracle Fusion Cloud Financials scope; EVIDENCE — Xero accounting vs ERP boundary; EVD-ASR6-IND-01; EVD-ASR6-IND-02; EVD-ASR6-IND-03; EVD-ASR7-MOSSA-2025; EVD-ASR7-SINGH-2006.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Evidence Refs: EVIDENCE — D365 Finance functional scope; EVIDENCE — SAP S/4HANA Cloud integrated accounting scope; EVIDENCE — Oracle Fusion Cloud Financials scope; EVIDENCE — Xero accounting vs ERP boundary; EVD-ASR6-IND-01; EVD-ASR6-IND-02; EVD-ASR6-IND-03; EVD-ASR7-MOSSA-2025; EVD-ASR7-SINGH-2006.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "57141546-6aa1-44c4-a657-a9cc3455cac1",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-25T21:52:00.000Z",
+   "last_edited_time": "2026-09-26T12:53:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Status: ACTIVE. Reason: independent conceptual support from OpenStax, ACCA, Mossa et al. (2025), and Khan, Rahim & Yeng (2025) supports functional breadth/integration as a major ERP boundary criterion; Thuy et al. (2026) is retained only as empirical/contextual ERP evidence, not formal taxonomy-boundary validation. Product-level classification still requires version/edition/localization/context evidence.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Status: ACTIVE. Reason: independent conceptual support from OpenStax, ACCA, Mossa et al. (2025), and Khan, Rahim & Yeng (2025) supports functional breadth/integration as a major ERP boundary criterion; Thuy et al. (2026) is retained only as empirical/contextual ERP evidence, not formal taxonomy-boundary validation. Product-level classification still requires version/edition/localization/context evidence.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "c436b173-b9b1-4271-899f-bcb42a48e95d",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T03:31:00.000Z",
+   "last_edited_time": "2026-09-26T03:31:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "ASC-005 evidence update",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "ASC-005 evidence update",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "620f555f-216e-4749-90e6-d627f9bd160b",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T03:31:00.000Z",
+   "last_edited_time": "2026-09-26T03:31:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Zoho Books: accounting-centered product with advanced inventory available through an add-on in eligible plans or through Zoho Inventory integration; this is a boundary case for optional/external scope.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Zoho Books: accounting-centered product with advanced inventory available through an add-on in eligible plans or through Zoho Inventory integration; this is a boundary case for optional/external scope.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "8cd97d6b-8ebb-45ed-bc0b-2defbb46c93a",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T03:31:00.000Z",
+   "last_edited_time": "2026-09-26T03:31:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "QuickBooks Online Advanced: accounting-centered product with adjacent inventory and project capabilities; adjacent modules alone do not establish ERP status.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "QuickBooks Online Advanced: accounting-centered product with adjacent inventory and project capabilities; adjacent modules alone do not establish ERP status.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "869fa250-b5a3-456f-a85e-95e93577f497",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T03:31:00.000Z",
+   "last_edited_time": "2026-09-26T03:31:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Odoo Accounting: accounting is integrated with Sales, Inventory, Purchase and eCommerce workflows; stronger multi-function ERP boundary case.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Odoo Accounting: accounting is integrated with Sales, Inventory, Purchase and eCommerce workflows; stronger multi-function ERP boundary case.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "279db9f7-8f01-44e2-83cb-9b37f7d6e2c1",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T03:31:00.000Z",
+   "last_edited_time": "2026-09-26T03:31:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Evidence refs: EVD-ASR6-005-ZOHO; EVD-ASR6-005-QBO; EVD-ASR6-005-ODOO.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Evidence refs: EVD-ASR6-005-ZOHO; EVD-ASR6-005-QBO; EVD-ASR6-005-ODOO.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "9ebf6b32-7379-466d-bae0-4ca4bbf77260",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T03:31:00.000Z",
+   "last_edited_time": "2026-09-26T03:31:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Conclusion: the Scope-before-Label rule is reinforced, but optional modules and external integrations must remain separate classification dimensions.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Conclusion: the Scope-before-Label rule is reinforced, but optional modules and external integrations must remain separate classification dimensions.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "8434f2a3-2557-4a61-845e-186509d77e5b",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T05:31:00.000Z",
+   "last_edited_time": "2026-09-26T05:31:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "ASC-008 evidence update",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "ASC-008 evidence update",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "c2ef16df-96e7-477b-8f71-d2ef4290c904",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T05:31:00.000Z",
+   "last_edited_time": "2026-09-26T05:31:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Oracle ERP module documentation confirms that ERP is modular: core financial functionality is central while other enterprise functions such as sales and HR may be sold separately.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Oracle ERP module documentation confirms that ERP is modular: core financial functionality is central while other enterprise functions such as sales and HR may be sold separately.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "17bbcb4a-f97b-4e9d-aa81-74fdca1e02e5",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T05:31:00.000Z",
+   "last_edited_time": "2026-09-26T05:31:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "This reinforces the existing rule that commercial licensing/package boundaries must be recorded as a separate Licensing dimension and must not, by themselves, determine System_Type.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "This reinforces the existing rule that commercial licensing/package boundaries must be recorded as a separate Licensing dimension and must not, by themselves, determine System_Type.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "b5ff8a49-13f0-4ffb-b2fa-a47b9ec244f5",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T05:31:00.000Z",
+   "last_edited_time": "2026-09-26T05:31:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Evidence: SOURCE — Oracle ERP modularity licensing evidence; corresponding Evidence record in KOS — Evidence.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Evidence: SOURCE — Oracle ERP modularity licensing evidence; corresponding Evidence record in KOS — Evidence.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "1c6244d9-f177-422d-8b07-e3f858edc3f5",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T05:31:00.000Z",
+   "last_edited_time": "2026-09-26T05:31:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Limitation: this is still vendor evidence, not independent non-vendor taxonomy evidence. The independent modular-licensing gap therefore remains open.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Limitation: this is still vendor evidence, not independent non-vendor taxonomy evidence. The independent modular-licensing gap therefore remains open.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "66a8cd8e-7abb-48de-ab92-42845e924d7d",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T07:33:00.000Z",
+   "last_edited_time": "2026-09-26T07:33:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "ASC-010 evidence update",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "ASC-010 evidence update",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "ad795a73-e48d-47d8-8026-c836dfb2c41c",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T07:33:00.000Z",
+   "last_edited_time": "2026-09-26T07:33:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Independent academic review: Khan, Rahim & Kit (2025), ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Independent academic review: Khan, Rahim & Kit (2025), ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "A Conceptual Overview of Enterprise Resource Planning Systems",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": true,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "A Conceptual Overview of Enterprise Resource Planning Systems",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": ".",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": ".",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "bfcbf93f-5c74-461f-aef4-9c4ce9d638fa",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T07:33:00.000Z",
+   "last_edited_time": "2026-09-26T07:33:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "The review treats modularity, integration, functional coordination and enterprise-wide ERP structure as distinct but related ERP characteristics.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "The review treats modularity, integration, functional coordination and enterprise-wide ERP structure as distinct but related ERP characteristics.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "59a93607-ad8f-4b2d-ab99-e12cd19b8cb0",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T07:33:00.000Z",
+   "last_edited_time": "2026-09-26T07:33:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "This independently reinforces separation of Modularity from Functional Scope/Integration in the taxonomy.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "This independently reinforces separation of Modularity from Functional Scope/Integration in the taxonomy.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "f98aaeb9-0a3d-4666-aa03-5c2ce29e2ee8",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T07:33:00.000Z",
+   "last_edited_time": "2026-09-26T07:33:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Evidence: EVD-ASR7-ACADEMIC-03.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Evidence: EVD-ASR7-ACADEMIC-03.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "8ed2553a-8384-4917-a308-b2be00aa1b54",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T07:33:00.000Z",
+   "last_edited_time": "2026-09-26T07:33:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Limitation: the source does not directly establish a licensing-to-System-Type rule; ASR-7's licensing-specific independent gap remains open.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Limitation: the source does not directly establish a licensing-to-System-Type rule; ASR-7's licensing-specific independent gap remains open.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "d8ef019a-a15d-4a25-a6c5-3e6608dfd1a1",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T09:31:00.000Z",
+   "last_edited_time": "2026-09-26T09:31:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "ASC-012 evidence update",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "ASC-012 evidence update",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "bb81fc41-2f82-48fa-af8e-368a040a223e",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T09:31:00.000Z",
+   "last_edited_time": "2026-09-26T09:31:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Product/version/market test: Microsoft Dynamics 365 Finance.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Product/version/market test: Microsoft Dynamics 365 Finance.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "f345ba7b-926a-4d6b-96d4-308f431c0cb1",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T09:31:00.000Z",
+   "last_edited_time": "2026-09-26T09:31:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Microsoft documentation shows country-specific e-invoicing/localization features, including Saudi Arabia ZATCA submission and compliance-check functionality, and version-specific tax-calculation support.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Microsoft documentation shows country-specific e-invoicing/localization features, including Saudi Arabia ZATCA submission and compliance-check functionality, and version-specific tax-calculation support.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "f32e4834-aa0f-4f30-b50c-735c3033f43e",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T09:31:00.000Z",
+   "last_edited_time": "2026-09-26T09:31:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Independent academic context from Avison & Malaurent (2007) supports keeping country-specific legal, political, cultural and organizational context explicit in ERP interpretation and local adaptation.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Independent academic context from Avison & Malaurent (2007) supports keeping country-specific legal, political, cultural and organizational context explicit in ERP interpretation and local adaptation.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "9db03b9c-93ca-412c-bf9b-ef5fea56661a",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T09:31:00.000Z",
+   "last_edited_time": "2026-09-26T09:31:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Evidence refs: EVD-ASC012-D365-LOC-01; EVD-ASC012-ERP-LOC-IND-01.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Evidence refs: EVD-ASC012-D365-LOC-01; EVD-ASC012-ERP-LOC-IND-01.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "3aad5815-81c8-42be-8712-e22cdd2fc950",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T09:31:00.000Z",
+   "last_edited_time": "2026-09-26T09:31:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Classification conclusion: Version and Localization are material classification context and can change accounting/reporting scope. They do not, by themselves, change System_Type.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Classification conclusion: Version and Localization are material classification context and can change accounting/reporting scope. They do not, by themselves, change System_Type.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "0396a9d8-79d7-495b-b129-4cca04d984f0",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T09:31:00.000Z",
+   "last_edited_time": "2026-09-26T09:31:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Conflict Status: NONE.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Conflict Status: NONE.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "37acd55d-d830-4619-a46c-19be89fea881",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T09:31:00.000Z",
+   "last_edited_time": "2026-09-26T09:31:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Limitation: this run establishes materiality using one product family; a second product family remains desirable for broader cross-product validation.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Limitation: this run establishes materiality using one product family; a second product family remains desirable for broader cross-product validation.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "656945ba-0516-49b9-be7e-542fdccbbe21",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T10:28:00.000Z",
+   "last_edited_time": "2026-09-26T10:28:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "ASC-013 evidence update",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "ASC-013 evidence update",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "2f69e2d6-ca06-4118-a70e-7391560502e0",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T10:28:00.000Z",
+   "last_edited_time": "2026-09-26T10:28:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Second product family test: Oracle Fusion Cloud Financials 26C.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Second product family test: Oracle Fusion Cloud Financials 26C.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "fee8fc05-1467-462f-8a1b-fd83c29bac51",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T10:28:00.000Z",
+   "last_edited_time": "2026-09-26T10:28:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "US evidence: Oracle 26C tax documentation contains US-specific sales/use tax configuration and geography content.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "US evidence: Oracle 26C tax documentation contains US-specific sales/use tax configuration and geography content.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "d7e2a502-bbad-4439-b2ae-3e1325bbf7e7",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T10:28:00.000Z",
+   "last_edited_time": "2026-09-26T10:28:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Regional evidence: Oracle 26C maintains separate EMEA implementation/localization documentation and country-specific reporting contexts.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Regional evidence: Oracle 26C maintains separate EMEA implementation/localization documentation and country-specific reporting contexts.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "ceb60230-d4c9-4791-8361-4b06dfc7b0dd",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T10:28:00.000Z",
+   "last_edited_time": "2026-09-26T10:28:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Classification conclusion: Version and Market/Localization remain material context dimensions; the evidence does not imply a System_Type change by itself.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Classification conclusion: Version and Market/Localization remain material context dimensions; the evidence does not imply a System_Type change by itself.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "3e1dc656-268b-477a-bc21-b08cacbde96e",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T10:28:00.000Z",
+   "last_edited_time": "2026-09-26T10:28:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Current limitation: the retrieved 26C material does not establish a sufficiently specific Saudi-only feature set for this cycle; Saudi-specific current localization is therefore UNKNOWN rather than inferred.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Current limitation: the retrieved 26C material does not establish a sufficiently specific Saudi-only feature set for this cycle; Saudi-specific current localization is therefore UNKNOWN rather than inferred.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "b9566253-8e30-41bb-80a1-02470e00f199",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T10:28:00.000Z",
+   "last_edited_time": "2026-09-26T10:28:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Evidence refs: new KOS Evidence records created in ASC-013.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Evidence refs: new KOS Evidence records created in ASC-013.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "d97d5ad2-d13f-4cd7-a6c7-5a2c9e5318ce",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T10:28:00.000Z",
+   "last_edited_time": "2026-09-26T10:28:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Conflict Status: NONE.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Conflict Status: NONE.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "64bf4468-c880-4623-9f9f-4b03d45636e8",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T11:28:00.000Z",
+   "last_edited_time": "2026-09-26T11:28:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "ASC-014 evidence update",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "ASC-014 evidence update",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "4fcd743f-231b-4da1-ae04-a5e5f384f228",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T11:28:00.000Z",
+   "last_edited_time": "2026-09-26T11:28:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Second finance-suite test: Microsoft Dynamics 365 Business Central.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Second finance-suite test: Microsoft Dynamics 365 Business Central.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "2d242d2f-4a85-4eca-9810-3e907f031475",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T12:28:00.000Z",
+   "last_edited_time": "2026-09-26T12:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "NetSuite evidence update — reconciliation",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "NetSuite evidence update — reconciliation",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "c87656f2-fdaa-455c-ade9-cfac8a2009cb",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T12:28:00.000Z",
+   "last_edited_time": "2026-09-26T12:28:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Third finance-suite test: Oracle NetSuite 2026.2.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Third finance-suite test: Oracle NetSuite 2026.2.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "485eb8c4-07b0-472f-8f7d-00753a7a8703",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T12:28:00.000Z",
+   "last_edited_time": "2026-09-26T12:28:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Oracle official ERP documentation covers accounting, inventory, order management, project management and employee management within NetSuite's ERP documentation scope.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Oracle official ERP documentation covers accounting, inventory, order management, project management and employee management within NetSuite's ERP documentation scope.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "04298f5b-c367-4ade-af72-e348a4205d94",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T12:28:00.000Z",
+   "last_edited_time": "2026-09-26T12:28:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Oracle also documents optional/enabled features and separate SuiteApp extensions, plus differentiated user-license types.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Oracle also documents optional/enabled features and separate SuiteApp extensions, plus differentiated user-license types.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "9603e57a-e660-4562-8f4a-d6d2278637ba",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T12:28:00.000Z",
+   "last_edited_time": "2026-09-26T12:28:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Classification conclusion: optional features, extensions, and licensing/access models remain separate dimensions from Functional Scope and must not independently determine System_Type.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Classification conclusion: optional features, extensions, and licensing/access models remain separate dimensions from Functional Scope and must not independently determine System_Type.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "bc2e4843-f819-4cb4-a6c5-f3cb7809a014",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T12:28:00.000Z",
+   "last_edited_time": "2026-09-26T12:28:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Evidence: Oracle NetSuite ERP Documentation Summary; NetSuite feature/licensing documentation.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Evidence: Oracle NetSuite ERP Documentation Summary; NetSuite feature/licensing documentation.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "fc17d401-e755-47b5-9d60-d3c1af73d571",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T12:28:00.000Z",
+   "last_edited_time": "2026-09-26T12:28:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Limitation: vendor evidence only; no independent licensing-to-System-Type causal rule established.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Limitation: vendor evidence only; no independent licensing-to-System-Type causal rule established.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "66444085-129d-4314-a820-088337a3efde",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T12:54:00.000Z",
+   "last_edited_time": "2026-09-26T12:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Integrity note: the conversation previously labeled this work ASC-015, but the persisted Cycle Log contains no ASC-015 cycle. The persisted latest cycle in this trail is CKC-53 / ASC-014. This section is evidence context and does not assert that ASC-015 was a persisted cycle.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Integrity note: the conversation previously labeled this work ASC-015, but the persisted Cycle Log contains no ASC-015 cycle. The persisted latest cycle in this trail is CKC-53 / ASC-014. This section is evidence context and does not assert that ASC-015 was a persisted cycle.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "1f71149d-6a86-49bc-b533-422d83aefe57",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T12:28:00.000Z",
+   "last_edited_time": "2026-09-26T12:28:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Conflict Status: NONE.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Conflict Status: NONE.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "31ac3cf1-503c-4de0-a9c6-0da12609ab4a",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T11:28:00.000Z",
+   "last_edited_time": "2026-09-26T11:28:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Microsoft documentation lists broad native functional areas inside Business Central, including Finance, Sales, Purchasing, Inventory, Projects, Manufacturing, Warehouse and Service.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Microsoft documentation lists broad native functional areas inside Business Central, including Finance, Sales, Purchasing, Inventory, Projects, Manufacturing, Warehouse and Service.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "b6a2a474-0604-43a5-8d61-a1bafc6ab286",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T11:28:00.000Z",
+   "last_edited_time": "2026-09-26T11:28:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Microsoft separately documents integration with other Dynamics 365 products such as Sales and Field Service; external/separate-product integration must not be conflated with native functional scope.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Microsoft separately documents integration with other Dynamics 365 products such as Sales and Field Service; external/separate-product integration must not be conflated with native functional scope.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "b60c3268-7af8-4bf4-b56a-05396288eabc",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T11:28:00.000Z",
+   "last_edited_time": "2026-09-26T11:28:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Classification conclusion: native/core functional breadth is stronger evidence for System_Type than the mere existence of external integrations; licensing remains a separate dimension.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Classification conclusion: native/core functional breadth is stronger evidence for System_Type than the mere existence of external integrations; licensing remains a separate dimension.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "cebedb00-bd0b-40a6-8d66-58d1d1950353",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T11:28:00.000Z",
+   "last_edited_time": "2026-09-26T11:28:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Limitation: this is vendor evidence and does not independently establish a universal licensing-to-System-Type causal rule.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Limitation: this is vendor evidence and does not independently establish a universal licensing-to-System-Type causal rule.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "42f2313b-401d-4ce7-a878-63719c3e2118",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T11:28:00.000Z",
+   "last_edited_time": "2026-09-26T11:28:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Evidence: SOURCE — Microsoft Dynamics 365 Business Central — Functional Scope and Integration; corresponding KOS Evidence record.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Evidence: SOURCE — Microsoft Dynamics 365 Business Central — Functional Scope and Integration; corresponding KOS Evidence record.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "848f4f93-deeb-47ab-b694-2ed96740fece",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T13:56:00.000Z",
+   "last_edited_time": "2026-09-26T13:56:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Plan-divergence evidence: EVD-ASR7-BC-PLAN. Microsoft documents Business Central Essentials versus Premium as materially different functional scopes; Premium adds Manufacturing and Service Management. Therefore Edition/Plan must be explicit classification context when it changes available functionality. The plan itself is not a System_Type label.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Plan-divergence evidence: EVD-ASR7-BC-PLAN. Microsoft documents Business Central Essentials versus Premium as materially different functional scopes; Premium adds Manufacturing and Service Management. Therefore Edition/Plan must be explicit classification context when it changes available functionality. The plan itself is not a System_Type label.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "9dc8e2b2-6e21-4eda-9b40-80c96616f64d",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8127-947a-f6f761953a33"
+   },
+   "created_time": "2026-09-26T11:28:00.000Z",
+   "last_edited_time": "2026-09-26T11:28:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Conflict Status: NONE.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Conflict Status: NONE.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  }
+ ]
+}

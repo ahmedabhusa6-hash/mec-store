@@ -1,0 +1,296 @@
+{
+ "capture_reason": "NEW",
+ "captured_at": "2026-10-02T12:06:31+03:00",
+ "title": "Cycle 11 — MEC-2.4 Channel Matrix (91) + Dolaa-model Reverse Engineering (quota-free)",
+ "last_edited": "2026-09-27T13:27:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e858a07-79e8-81a9-bac1-cb7330f089cb",
+  "created_time": "2026-09-27T13:27:00.000Z",
+  "last_edited_time": "2026-09-27T13:27:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3e758a07-79e8-8187-9e89-00278adc0ead"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3e758a07-79e8-8187-9e89-00278adc0ead"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "e844ab12-d846-4974-9651-0892464966e5"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "Actor": {
+    "id": "%3B%3Cag",
+    "type": "select",
+    "select": {
+     "id": "2fa84fac-4f8f-45ca-86bd-48ad2531dc79",
+     "name": "z.ai Runtime (Super Z)",
+     "color": "yellow"
+    }
+   },
+   "Record ID": {
+    "id": "Frzf",
+    "type": "unique_id",
+    "unique_id": {
+     "prefix": "IA",
+     "number": 17
+    }
+   },
+   "Parent Record ID": {
+    "id": "Gg%3C%3B",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Stage": {
+    "id": "HM%40I",
+    "type": "select",
+    "select": {
+     "id": "edb6da10-f8a5-4eb5-b759-96458c110b14",
+     "name": "ChatGPT Analysis",
+     "color": "blue"
+    }
+   },
+   "Findings / Changes": {
+    "id": "Ht%5D%7D",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "مصفوفة 91 قناة: 31 كيان سجل §19 مصنفين في 5 طبقات (تصنيع 5 / جملة 5 / تجزئة 16 / ثقة 3 / طرق 2) + 3 مكتشفات (API خلفي StackVault · AiVerseXBot · Gt_Verified) + 57 قناة سوق/رسمية بالعروض. الهندسة العكسية لنموذج دولا: شجرة فرضيات H1-H4 مرجحة بالأدلة (H2 الجملة/API الأقوى: 274 كلفة مرصودة؛ H1 التحكيم الإقليمي قوية: PSN لبنان $9.07، Spotify هندي $0.79/ش) + حاسبة هامش عكسي (ChatGPT: أرضية $2.80 / مستقر $10.67 / رسمي $20 — متجر يبيع $6.67 = هامش 42-58% بطبقة هشة) + قانون الأرضيات (لا كسر بإطراد: هوية مختلفة أو حرق رأس مال أو احتيال) + الحكم المركب: محفظة توريد مركبة إجبارية — لا قناة واحدة تفسّر كتالوجًا عريضًا. محاولة رصد دولا مباشرة: النطاقات المرشحة كلها متوقفة (dolaa.com = parked) — موثق بصدق، النموذج مبني على القرائن.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "مصفوفة 91 قناة: 31 كيان سجل §19 مصنفين في 5 طبقات (تصنيع 5 / جملة 5 / تجزئة 16 / ثقة 3 / طرق 2) + 3 مكتشفات (API خلفي StackVault · AiVerseXBot · Gt_Verified) + 57 قناة سوق/رسمية بالعروض. الهندسة العكسية لنموذج دولا: شجرة فرضيات H1-H4 مرجحة بالأدلة (H2 الجملة/API الأقوى: 274 كلفة مرصودة؛ H1 التحكيم الإقليمي قوية: PSN لبنان $9.07، Spotify هندي $0.79/ش) + حاسبة هامش عكسي (ChatGPT: أرضية $2.80 / مستقر $10.67 / رسمي $20 — متجر يبيع $6.67 = هامش 42-58% بطبقة هشة) + قانون الأرضيات (لا كسر بإطراد: هوية مختلفة أو حرق رأس مال أو احتيال) + الحكم المركب: محفظة توريد مركبة إجبارية — لا قناة واحدة تفسّر كتالوجًا عريضًا. محاولة رصد دولا مباشرة: النطاقات المرشحة كلها متوقفة (dolaa.com = parked) — موثق بصدق، النموذج مبني على القرائن.",
+      "href": null
+     }
+    ]
+   },
+   "Objective": {
+    "id": "Nyoo",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "تنفيذ قائمة الانتظار أثناء استمرار حجب الحصة (477 منذ ~02:10 — نافذة طويلة): مصفوفة تقييم القنوات الشاملة (البند 5 من القائمة) + الهندسة العكسية لنموذج دولا (البند 6) + محاولة رصد المتجر مباشرة.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "تنفيذ قائمة الانتظار أثناء استمرار حجب الحصة (477 منذ ~02:10 — نافذة طويلة): مصفوفة تقييم القنوات الشاملة (البند 5 من القائمة) + الهندسة العكسية لنموذج دولا (البند 6) + محاولة رصد المتجر مباشرة.",
+      "href": null
+     }
+    ]
+   },
+   "Version ID": {
+    "id": "SZr_",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "v4.2 Candidate — Promotion-Ready (كلمة اعتماد المستخدم استُلمت «اعتمد كل شي» — الترقية تُطبَّق بعد اكتمال الدفعة 3)",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "v4.2 Candidate — Promotion-Ready (كلمة اعتماد المستخدم استُلمت «اعتمد كل شي» — الترقية تُطبَّق بعد اكتمال الدفعة 3)",
+      "href": null
+     }
+    ]
+   },
+   "Decision Required": {
+    "id": "W%40%5Dt",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "لا قرار حوكمي جديد في هذه المزامنة. كلمة الاعتماد («اعتمد كل شي» 27/09) سُجلت كشرط D1 الرابع مستوفى — الترقية الفعلية v4.2→Approved تُطبَّق في مزامنة الإغلاق بعد اكتمال الدفعة 3 (شرط الاختبار الحي متعدد الدفعات).",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "لا قرار حوكمي جديد في هذه المزامنة. كلمة الاعتماد («اعتمد كل شي» 27/09) سُجلت كشرط D1 الرابع مستوفى — الترقية الفعلية v4.2→Approved تُطبَّق في مزامنة الإغلاق بعد اكتمال الدفعة 3 (شرط الاختبار الحي متعدد الدفعات).",
+      "href": null
+     }
+    ]
+   },
+   "Evidence / Sources": {
+    "id": "Z%5DbK",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "download/channel_matrix.json (91 قناة) + supply_chain_economics.md §11 + sku_database.md قسم MEC-2.4 + supplier_intelligence.html v2.4 (قسم chmatsec تفاعلي) + supplier-intelligence-dolaa-2026-09-27.docx (فحص 0 أخطاء) + Next.js تبويب «مصفوفة 91 قناة + دولا» (tsc نظيف، تشغيل 200).",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "download/channel_matrix.json (91 قناة) + supply_chain_economics.md §11 + sku_database.md قسم MEC-2.4 + supplier_intelligence.html v2.4 (قسم chmatsec تفاعلي) + supplier-intelligence-dolaa-2026-09-27.docx (فحص 0 أخطاء) + Next.js تبويب «مصفوفة 91 قناة + دولا» (tsc نظيف، تشغيل 200).",
+      "href": null
+     }
+    ]
+   },
+   "Canonical Impact": {
+    "id": "cF%3D_",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "لا ترقية بعد. إضافة معرفية: تصنيف طبقي كامل لمنظومة القنوات المرصودة + أول حاسبة هامش عكسية قابلة للتطبيق على أي متجر تجزئة خليجي فور توفر أسعاره.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "لا ترقية بعد. إضافة معرفية: تصنيف طبقي كامل لمنظومة القنوات المرصودة + أول حاسبة هامش عكسية قابلة للتطبيق على أي متجر تجزئة خليجي فور توفر أسعاره.",
+      "href": null
+     }
+    ]
+   },
+   "Cycle": {
+    "id": "mFTS",
+    "type": "number",
+    "number": 11
+   },
+   "Message to Send": {
+    "id": "mu%3CH",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Date": {
+    "id": "ovi%3A",
+    "type": "date",
+    "date": {
+     "start": "2026-09-27",
+     "end": null,
+     "time_zone": null
+    }
+   },
+   "Status": {
+    "id": "vW%40y",
+    "type": "select",
+    "select": {
+     "id": "0cb245dd-a819-4f89-9daf-00ab6f61d17b",
+     "name": "Committed",
+     "color": "default"
+    }
+   },
+   "Received Output / Archive": {
+    "id": "wFNY",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Next Action": {
+    "id": "%7DEXV",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "مراقبة الحصة (فحوص دورية — 24 فحصًا حتى 13:26 كلها محجوبة) ← عند الفتح: الـ15 المؤجلة ← 143 استعلام الدفعة 3 ← تنقيح ← دمج ← الترقية v4.2→Approved (الشرط الرابع مستوفى بكلمة المستخدم) + الإغلاق الثلاثي D2 + المزامنة النهائية.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "مراقبة الحصة (فحوص دورية — 24 فحصًا حتى 13:26 كلها محجوبة) ← عند الفتح: الـ15 المؤجلة ← 143 استعلام الدفعة 3 ← تنقيح ← دمج ← الترقية v4.2→Approved (الشرط الرابع مستوفى بكلمة المستخدم) + الإغلاق الثلاثي D2 + المزامنة النهائية.",
+      "href": null
+     }
+    ]
+   },
+   "Record": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Cycle 11 — MEC-2.4 Channel Matrix (91) + Dolaa-model Reverse Engineering (quota-free)",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Cycle 11 — MEC-2.4 Channel Matrix (91) + Dolaa-model Reverse Engineering (quota-free)",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/Cycle-11-MEC-2-4-Channel-Matrix-91-Dolaa-model-Reverse-Engineering-quota-free-3e858a0779e881a9bac1cb7330f089cb",
+  "public_url": null,
+  "archived": false,
+  "request_id": "1968cdf6-e261-43a6-9049-070637cdbcfc"
+ },
+ "block_count": 1,
+ "blocks": [
+  {
+   "id": "3e858a07-79e8-816d-9da6-c88b0d9d0737",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "الحالة المعرفية: التصنيف الطبقي مبني على رصد مباشر (HTTP 200 + معاينات + API خلفي) بتاريخ 27/09؛ الملاءمة لنموذج دولا = استنتاج تحليلي موسوم. المتجر محل السؤال غير مرصود مباشرة (النطاقات متوقفة) — النموذج قرائني لا محاسبي، والحاسبة جاهزة للتطبيق فور توفر قائمة أسعار المتجر الفعلية."
+   ],
+   "created": "2026-09-27T13:27:00.000Z",
+   "edited": "2026-09-27T13:27:00.000Z"
+  }
+ ]
+}

@@ -1,0 +1,479 @@
+{
+ "capture_reason": "NEWLY_ACCESSIBLE",
+ "captured_at": "2026-10-02T12:16:49+03:00",
+ "title": "Pattern — Partner Marketing as an Operating System",
+ "last_edited": "2026-09-25T20:05:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e658a07-79e8-815f-8938-fa8ed0261f4f",
+  "created_time": "2026-09-25T20:05:00.000Z",
+  "last_edited_time": "2026-09-25T20:05:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "393c008b-5797-481d-8466-3376979e3a96"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "Created By Cycle": {
+    "id": "%3F_Gq",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Change Type": {
+    "id": "%40k%7CH",
+    "type": "select",
+    "select": null
+   },
+   "Supersedes": {
+    "id": "AIZQ",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Applications": {
+    "id": "B%3B%7Cq",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Superseded By": {
+    "id": "CGHy",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Evidence Links": {
+    "id": "F%3E%3Dw",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "3e658a07-79e8-8143-800b-d1ddd1a10c1a"
+     },
+     {
+      "id": "3e658a07-79e8-8155-815e-d2a7e6ac7b44"
+     },
+     {
+      "id": "3e658a07-79e8-8173-82a4-e132b9eb05e2"
+     },
+     {
+      "id": "3e658a07-79e8-813a-a96c-d11941da89fc"
+     },
+     {
+      "id": "3e658a07-79e8-817b-8b6e-e1947e8570c5"
+     },
+     {
+      "id": "3e658a07-79e8-816b-b371-daa1fe36811a"
+     },
+     {
+      "id": "3e658a07-79e8-8191-aa72-d9d819fc2bb0"
+     },
+     {
+      "id": "3e658a07-79e8-8150-a6d9-ef344bb2be5d"
+     }
+    ],
+    "has_more": false
+   },
+   "Provenance": {
+    "id": "K%40rK",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Confidence": {
+    "id": "KggN",
+    "type": "select",
+    "select": {
+     "id": "7abbba0d-ca2f-4227-8c71-75c141082ed2",
+     "name": "High",
+     "color": "green"
+    }
+   },
+   "Failure Conditions": {
+    "id": "MhLs",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "تحتاج حالات أكثر تعمدًا للبحث عن الشركات التي لا تعتمد الشريك أو التي تستخدمه دون نتائج واضحة.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "تحتاج حالات أكثر تعمدًا للبحث عن الشركات التي لا تعتمد الشريك أو التي تستخدمه دون نتائج واضحة.",
+      "href": null
+     }
+    ]
+   },
+   "Research Refs": {
+    "id": "Oh%5E%60",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Related Knowledge Links": {
+    "id": "PEgK",
+    "type": "relation",
+    "relation": [],
+    "has_more": false
+   },
+   "Notes": {
+    "id": "Q%3CFE",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Expanded from 6-vendor recurrence to 8-vendor recurrence. Keep as Pattern, not Principle.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Expanded from 6-vendor recurrence to 8-vendor recurrence. Keep as Pattern, not Principle.",
+      "href": null
+     }
+    ]
+   },
+   "Mechanism": {
+    "id": "VLO_",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Enable → activate → route demand → support sale/implementation → retain relationship.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Enable → activate → route demand → support sale/implementation → retain relationship.",
+      "href": null
+     }
+    ]
+   },
+   "Source Dates": {
+    "id": "WFDF",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Evidence Strength": {
+    "id": "WgMB",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Context": {
+    "id": "%5BScl",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "B2B accounting/ERP with accountants, advisors, VARs, resellers or technology partners.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "B2B accounting/ERP with accountants, advisors, VARs, resellers or technology partners.",
+      "href": null
+     }
+    ]
+   },
+   "Last Verified": {
+    "id": "%5Bdn%3C",
+    "type": "date",
+    "date": null
+   },
+   "Conflict Status": {
+    "id": "%5B%7BSe",
+    "type": "select",
+    "select": null
+   },
+   "Case Links": {
+    "id": "%5CTHn",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "3e658a07-79e8-81c0-99bf-e97489d74f19"
+     },
+     {
+      "id": "3e658a07-79e8-819d-8111-c860ff77ba68"
+     },
+     {
+      "id": "3e658a07-79e8-8139-ac3e-e6e33db9386c"
+     },
+     {
+      "id": "3e658a07-79e8-813a-82b2-c0f8beaaffe4"
+     },
+     {
+      "id": "3e658a07-79e8-8160-8a84-cf665eae914e"
+     },
+     {
+      "id": "3e658a07-79e8-817c-ad55-f1f30d6254c8"
+     },
+     {
+      "id": "3e658a07-79e8-815e-93c6-ed45c859cfca"
+     },
+     {
+      "id": "3e658a07-79e8-81cc-a231-c05430e63121"
+     }
+    ],
+    "has_more": false
+   },
+   "Known Limitations": {
+    "id": "%5CWaz",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Maturity": {
+    "id": "%60H%40V",
+    "type": "select",
+    "select": {
+     "id": "35e81e40-1724-4f39-9337-b31848f6e170",
+     "name": "Repeated",
+     "color": "yellow"
+    }
+   },
+   "Statement": {
+    "id": "b%3FiZ",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "تظهر في العينة العالمية الموسعة منظومة متكررة يصبح فيها الشريك جزءًا من GTM: تمكين تسويقي، تدريب، محتوى وحملات، حوافز، شبكة/دليل، توليد طلب، وربط أو توجيه العملاء المحتملين.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "تظهر في العينة العالمية الموسعة منظومة متكررة يصبح فيها الشريك جزءًا من GTM: تمكين تسويقي، تدريب، محتوى وحملات، حوافز، شبكة/دليل، توليد طلب، وربط أو توجيه العملاء المحتملين.",
+      "href": null
+     }
+    ]
+   },
+   "Knowledge ID": {
+    "id": "c%3D%5B~",
+    "type": "unique_id",
+    "unique_id": {
+     "prefix": "KNG",
+     "number": 10
+    }
+   },
+   "Last Changed By Cycle": {
+    "id": "dTG%3B",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Applicable Context": {
+    "id": "dogZ",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Status": {
+    "id": "fbG%3F",
+    "type": "status",
+    "status": {
+     "id": "e02f61a2-adc1-4978-b26a-35bc4ab239fb",
+     "name": "تم",
+     "color": "green"
+    }
+   },
+   "First Observed": {
+    "id": "gX%3B%3A",
+    "type": "date",
+    "date": null
+   },
+   "Last Updated": {
+    "id": "iuwj",
+    "type": "date",
+    "date": null
+   },
+   "Next Verification": {
+    "id": "jm%60b",
+    "type": "date",
+    "date": null
+   },
+   "Source Refs": {
+    "id": "ol%7B%5E",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Constraints": {
+    "id": "qFdV",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "وجود المنظومة متكرر عبر العينة، بينما impact metrics غير متجانسة ومحدودة.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "وجود المنظومة متكرر عبر العينة، بينما impact metrics غير متجانسة ومحدودة.",
+      "href": null
+     }
+    ]
+   },
+   "Experiments": {
+    "id": "qZJd",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Knowledge State": {
+    "id": "rHSr",
+    "type": "select",
+    "select": null
+   },
+   "Sources": {
+    "id": "tWCH",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Previous Version": {
+    "id": "vbb%40",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Conditions": {
+    "id": "yaOp",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "الشريك يملك ثقة أو وصولًا أو قدرة تنفيذية؛ توجد اقتصاديات قابلة للحياة؛ لدى المورد أدوات لتقليل friction.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "الشريك يملك ثقة أو وصولًا أو قدرة تنفيذية؛ توجد اقتصاديات قابلة للحياة؛ لدى المورد أدوات لتقليل friction.",
+      "href": null
+     }
+    ]
+   },
+   "Entity Links": {
+    "id": "%7CEwQ",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "3e658a07-79e8-8195-bed8-ff74e2a8e83a"
+     },
+     {
+      "id": "3e658a07-79e8-8136-943c-f8f069e6f763"
+     },
+     {
+      "id": "3e658a07-79e8-81ff-88e6-d249a478396c"
+     },
+     {
+      "id": "3e658a07-79e8-81d3-a7a0-c89a9ae50136"
+     },
+     {
+      "id": "3e658a07-79e8-81b5-aed0-dc96e8dffa3b"
+     },
+     {
+      "id": "3e658a07-79e8-8154-9a4e-c3f3081d1b8a"
+     },
+     {
+      "id": "3e658a07-79e8-81ca-aaa4-f49745e4f7fb"
+     },
+     {
+      "id": "3e658a07-79e8-8132-86bb-e14cf6aa59b3"
+     }
+    ],
+    "has_more": false
+   },
+   "Research Questions": {
+    "id": "%7CtAF",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Knowledge Type": {
+    "id": "~QXO",
+    "type": "select",
+    "select": {
+     "id": "4f2414bf-219f-4e6a-be6a-3b618fc4d18f",
+     "name": "Pattern",
+     "color": "purple"
+    }
+   },
+   "Name": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Pattern — Partner Marketing as an Operating System",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Pattern — Partner Marketing as an Operating System",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/Pattern-Partner-Marketing-as-an-Operating-System-3e658a0779e8815f8938fa8ed0261f4f",
+  "public_url": null,
+  "archived": false,
+  "request_id": "16611eb3-801a-484f-9833-c41789c241c5"
+ },
+ "block_count": 0,
+ "blocks": []
+}

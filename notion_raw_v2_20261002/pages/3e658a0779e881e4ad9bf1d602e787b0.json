@@ -1,0 +1,173 @@
+{
+ "capture_reason": "NEWLY_ACCESSIBLE",
+ "captured_at": "2026-10-02T12:16:49+03:00",
+ "title": "Consumer Behavior & Decision Science",
+ "last_edited": "2026-09-25T20:54:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e658a07-79e8-81e4-ad9b-f1d602e787b0",
+  "created_time": "2026-09-25T20:54:00.000Z",
+  "last_edited_time": "2026-09-25T20:54:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "a14def36-fe3f-4246-90b4-2872da859364"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "Parent": {
+    "id": "%3EfF%5E",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Market Research & Consumer Insights",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Market Research & Consumer Insights",
+      "href": null
+     }
+    ]
+   },
+   "Status": {
+    "id": "IPP%3A",
+    "type": "select",
+    "select": {
+     "id": "e7888fac-ae22-41bc-b271-a51886ca1be3",
+     "name": "Mapped",
+     "color": "blue"
+    }
+   },
+   "Last Reviewed": {
+    "id": "MoVl",
+    "type": "date",
+    "date": {
+     "start": "2026-09-25",
+     "end": null,
+     "time_zone": null
+    }
+   },
+   "Domain ID": {
+    "id": "RoQ%7B",
+    "type": "unique_id",
+    "unique_id": {
+     "prefix": "DOM",
+     "number": 4
+    }
+   },
+   "Level": {
+    "id": "WOQt",
+    "type": "select",
+    "select": {
+     "id": "8c54ade4-be7e-4b1b-97dc-fdd805deb33a",
+     "name": "Behavior",
+     "color": "orange"
+    }
+   },
+   "Priority": {
+    "id": "_rIt",
+    "type": "select",
+    "select": {
+     "id": "3587b6c2-7409-48eb-852c-4c6f245fca6a",
+     "name": "Critical",
+     "color": "red"
+    }
+   },
+   "Description": {
+    "id": "jF%3A%3E",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "سلوك المستهلك، اتخاذ القرار، الإدراك، الدوافع، العاطفة، العادات، التأثير الاجتماعي والمخاطر.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "سلوك المستهلك، اتخاذ القرار، الإدراك، الدوافع، العاطفة، العادات، التأثير الاجتماعي والمخاطر.",
+      "href": null
+     }
+    ]
+   },
+   "Evidence Basis": {
+    "id": "u%3Fc%5D",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Consumer behavior literature; Solomon text candidate",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Consumer behavior literature; Solomon text candidate",
+      "href": null
+     }
+    ]
+   },
+   "Name": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Consumer Behavior & Decision Science",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Consumer Behavior & Decision Science",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/Consumer-Behavior-Decision-Science-3e658a0779e881e4ad9bf1d602e787b0",
+  "public_url": null,
+  "archived": false,
+  "request_id": "940d7d77-8b2d-435b-ac0d-09b95a2fcc44"
+ },
+ "block_count": 0,
+ "blocks": []
+}

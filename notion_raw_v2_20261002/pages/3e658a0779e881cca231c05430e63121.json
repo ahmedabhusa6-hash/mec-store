@@ -1,0 +1,329 @@
+{
+ "capture_reason": "NEWLY_ACCESSIBLE",
+ "captured_at": "2026-10-02T12:16:49+03:00",
+ "title": "Case — SAP Partner Demand Generation System",
+ "last_edited": "2026-09-25T20:04:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e658a07-79e8-81cc-a231-c05430e63121",
+  "created_time": "2026-09-25T20:04:00.000Z",
+  "last_edited_time": "2026-09-25T20:04:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "a87d8f7b-de51-419c-aa6d-90b81e0d7b21"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "Context": {
+    "id": "%3BcyS",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Enterprise ERP with long B2B sales cycles and significant partner/consulting involvement.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Enterprise ERP with long B2B sales cycles and significant partner/consulting involvement.",
+      "href": null
+     }
+    ]
+   },
+   "Situation": {
+    "id": "Dqr%7D",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "SAP's partner program explicitly combines demand/pipeline programs, digital/social selling, website optimization, SAP Store, Partner Finder, branding resources, customer-reference programs, marketing training and a digital campaign hub.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "SAP's partner program explicitly combines demand/pipeline programs, digital/social selling, website optimization, SAP Store, Partner Finder, branding resources, customer-reference programs, marketing training and a digital campaign hub.",
+      "href": null
+     }
+    ]
+   },
+   "Entity Link": {
+    "id": "ElSP",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "3e658a07-79e8-8132-86bb-e14cf6aa59b3"
+     }
+    ],
+    "has_more": false
+   },
+   "Evidence Links": {
+    "id": "FYu%3A",
+    "type": "relation",
+    "relation": [],
+    "has_more": false
+   },
+   "Market": {
+    "id": "LVaJ",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Global",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Global",
+      "href": null
+     }
+    ]
+   },
+   "Constraints": {
+    "id": "MgJ%7D",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Partner eligibility and program participation conditions vary by program; public effectiveness data are limited.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Partner eligibility and program participation conditions vary by program; public effectiveness data are limited.",
+      "href": null
+     }
+    ]
+   },
+   "Confidence": {
+    "id": "Mhr%5B",
+    "type": "select",
+    "select": {
+     "id": "e872a95c-be8c-4dea-83d7-6192450960df",
+     "name": "High",
+     "color": "green"
+    }
+   },
+   "Segment": {
+    "id": "S%7Cat",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "SAP partners / enterprise customers",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "SAP partners / enterprise customers",
+      "href": null
+     }
+    ]
+   },
+   "Observed Outcome": {
+    "id": "TDBm",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Documented capability and program design; public page does not provide comparable channel-level ROI.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Documented capability and program design; public page does not provide comparable channel-level ROI.",
+      "href": null
+     }
+    ]
+   },
+   "Objective": {
+    "id": "UwXv",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Help partners generate and nurture leads, execute campaigns, build brand and use customer references to support demand generation.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Help partners generate and nurture leads, execute campaigns, build brand and use customer references to support demand generation.",
+      "href": null
+     }
+    ]
+   },
+   "Status": {
+    "id": "WKe%3B",
+    "type": "status",
+    "status": {
+     "id": "6b06f923-0b48-4a06-b0f5-de1916f018c1",
+     "name": "تم",
+     "color": "green"
+    }
+   },
+   "Evidence References": {
+    "id": "gCUd",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "SAP Partner Program.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "SAP Partner Program.",
+      "href": null
+     }
+    ]
+   },
+   "Date": {
+    "id": "jpdJ",
+    "type": "date",
+    "date": null
+   },
+   "Channels": {
+    "id": "vZLG",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Lead generation, social selling, website optimization, campaigns, customer references, training, Partner Finder, SAP Store.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Lead generation, social selling, website optimization, campaigns, customer references, training, Partner Finder, SAP Store.",
+      "href": null
+     }
+    ]
+   },
+   "Mechanism": {
+    "id": "xauN",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Demand generation is packaged as an enablement system covering awareness, lead generation, proof and partner capability development.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Demand generation is packaged as an enablement system covering awareness, lead generation, proof and partner capability development.",
+      "href": null
+     }
+    ]
+   },
+   "Name": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Case — SAP Partner Demand Generation System",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Case — SAP Partner Demand Generation System",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/Case-SAP-Partner-Demand-Generation-System-3e658a0779e881cca231c05430e63121",
+  "public_url": null,
+  "archived": false,
+  "request_id": "e242478e-a27b-4995-bfd0-e35b924cb45d"
+ },
+ "block_count": 0,
+ "blocks": []
+}

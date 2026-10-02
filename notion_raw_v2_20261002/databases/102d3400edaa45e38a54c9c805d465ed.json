@@ -1,0 +1,3072 @@
+{
+ "capture_reason": "CHANGED",
+ "title": "KOS — Entities",
+ "schema": {
+  "object": "database",
+  "id": "102d3400-edaa-45e3-8a54-c9c805d465ed",
+  "cover": null,
+  "icon": null,
+  "created_time": "2026-09-25T20:00:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_time": "2026-09-25T20:00:00.000Z",
+  "title": [
+   {
+    "type": "text",
+    "text": {
+     "content": "KOS — Entities",
+     "link": null
+    },
+    "annotations": {
+     "bold": false,
+     "italic": false,
+     "strikethrough": false,
+     "underline": false,
+     "code": false,
+     "color": "default"
+    },
+    "plain_text": "KOS — Entities",
+    "href": null
+   }
+  ],
+  "description": [
+   {
+    "type": "text",
+    "text": {
+     "content": "كيانات النظام: شركات، منتجات، أسواق، قطاعات، شرائح، قنوات، شركاء وغيرها.",
+     "link": null
+    },
+    "annotations": {
+     "bold": false,
+     "italic": false,
+     "strikethrough": false,
+     "underline": false,
+     "code": false,
+     "color": "default"
+    },
+    "plain_text": "كيانات النظام: شركات، منتجات، أسواق، قطاعات، شرائح، قنوات، شركاء وغيرها.",
+    "href": null
+   }
+  ],
+  "is_inline": false,
+  "database_type": null,
+  "properties": {
+   "Status": {
+    "id": "%3Fp%3Ek",
+    "name": "Status",
+    "description": null,
+    "type": "status",
+    "status": {
+     "options": [
+      {
+       "id": "5e9c3e3e-d588-4237-83f9-33d64b66a08e",
+       "name": "لم تبدأ",
+       "color": "default",
+       "description": null
+      },
+      {
+       "id": "299c6b4c-6cbe-43f6-970c-0576caabf133",
+       "name": "قيد التنفيذ",
+       "color": "blue",
+       "description": null
+      },
+      {
+       "id": "74fba241-06ba-433f-84e1-ba5ef614926e",
+       "name": "تم",
+       "color": "green",
+       "description": null
+      }
+     ],
+     "groups": [
+      {
+       "id": "b69dedf9-49ac-42af-a9b7-2d8cce2d7d6e",
+       "name": "To-do",
+       "color": "gray",
+       "option_ids": [
+        "5e9c3e3e-d588-4237-83f9-33d64b66a08e"
+       ]
+      },
+      {
+       "id": "4fb89f26-a472-4f07-bf10-a5cb663740f4",
+       "name": "In progress",
+       "color": "blue",
+       "option_ids": [
+        "299c6b4c-6cbe-43f6-970c-0576caabf133"
+       ]
+      },
+      {
+       "id": "e76c74d3-86c3-42e9-b508-a7424e57cf9f",
+       "name": "Complete",
+       "color": "green",
+       "option_ids": [
+        "74fba241-06ba-433f-84e1-ba5ef614926e"
+       ]
+      }
+     ]
+    }
+   },
+   "Entity Type": {
+    "id": "YBX%7C",
+    "name": "Entity Type",
+    "description": null,
+    "type": "select",
+    "select": {
+     "options": [
+      {
+       "id": "92b5b9bd-e993-4df5-8424-f1af8d23770f",
+       "name": "Company",
+       "color": "blue",
+       "description": null
+      },
+      {
+       "id": "502b65ce-b62a-40d8-a1bd-746ebb3ae399",
+       "name": "Brand",
+       "color": "purple",
+       "description": null
+      },
+      {
+       "id": "b2559bdc-f1fb-4f41-9ad4-e3009c00f6b5",
+       "name": "Product",
+       "color": "green",
+       "description": null
+      },
+      {
+       "id": "ee430701-dcd5-4290-a812-fc86b4859594",
+       "name": "Country",
+       "color": "orange",
+       "description": null
+      },
+      {
+       "id": "f6f7363e-4d1a-457b-a504-deb65e884762",
+       "name": "Market",
+       "color": "yellow",
+       "description": null
+      },
+      {
+       "id": "2a052750-319f-4a47-af8c-c6673d020381",
+       "name": "Industry",
+       "color": "pink",
+       "description": null
+      },
+      {
+       "id": "d6e7e093-c439-4b82-8f96-5d86beaa1cc0",
+       "name": "Customer Segment",
+       "color": "red",
+       "description": null
+      },
+      {
+       "id": "841bee07-0e43-4dd6-b4ea-675e7d1026fa",
+       "name": "Channel",
+       "color": "brown",
+       "description": null
+      },
+      {
+       "id": "2a386aa8-c612-457b-8090-e9d321669440",
+       "name": "Partner Type",
+       "color": "default",
+       "description": null
+      },
+      {
+       "id": "b64bfe9d-0d36-48eb-95af-c6a2ca4463b2",
+       "name": "Campaign",
+       "color": "default",
+       "description": null
+      },
+      {
+       "id": "b570aac9-61b8-4449-a2c5-b7787d290055",
+       "name": "Technology",
+       "color": "default",
+       "description": null
+      },
+      {
+       "id": "d8bd4312-09cd-4fa5-8861-f11ca8478d80",
+       "name": "Competitor",
+       "color": "default",
+       "description": null
+      },
+      {
+       "id": "b0accb68-4b53-4127-8775-5af1bd85421a",
+       "name": "Business Model",
+       "color": "default",
+       "description": null
+      }
+     ]
+    }
+   },
+   "Geographic Scope": {
+    "id": "%5Bz_Y",
+    "name": "Geographic Scope",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Parent Entity": {
+    "id": "_uUF",
+    "name": "Parent Entity",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Industry Scope": {
+    "id": "kF%5B%5C",
+    "name": "Industry Scope",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Notes": {
+    "id": "psFm",
+    "name": "Notes",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Name": {
+    "id": "title",
+    "name": "Name",
+    "description": null,
+    "type": "title",
+    "title": {}
+   }
+  },
+  "parent": {
+   "type": "page_id",
+   "page_id": "3e658a07-79e8-8158-b5a9-f63851feddbc"
+  },
+  "url": "https://app.notion.com/p/102d3400edaa45e38a54c9c805d465ed",
+  "public_url": null,
+  "in_trash": false,
+  "archived": false,
+  "request_id": "c7ccaa28-ca68-4acb-8d9e-778e58977b8f"
+ },
+ "row_count": 23,
+ "rows": [
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81df-a111-f4a208fcb1eb",
+   "created_time": "2026-09-25T20:11:00.000Z",
+   "last_edited_time": "2026-09-25T20:11:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "102d3400-edaa-45e3-8a54-c9c805d465ed"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Status": {
+     "id": "%3Fp%3Ek",
+     "type": "status",
+     "status": {
+      "id": "74fba241-06ba-433f-84e1-ba5ef614926e",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Entity Type": {
+     "id": "YBX%7C",
+     "type": "select",
+     "select": {
+      "id": "92b5b9bd-e993-4df5-8424-f1af8d23770f",
+      "name": "Company",
+      "color": "blue"
+     }
+    },
+    "Geographic Scope": {
+     "id": "%5Bz_Y",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Yemen / regional",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Yemen / regional",
+       "href": null
+      }
+     ]
+    },
+    "Parent Entity": {
+     "id": "_uUF",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Industry Scope": {
+     "id": "kF%5B%5C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ERP / accounting / digital finance",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ERP / accounting / digital finance",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "psFm",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "YemenSoft",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "YemenSoft",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/YemenSoft-3e658a0779e881dfa111f4a208fcb1eb",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81ff-8dbc-fe9e8b0d9079",
+   "created_time": "2026-09-25T20:11:00.000Z",
+   "last_edited_time": "2026-09-25T20:11:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "102d3400-edaa-45e3-8a54-c9c805d465ed"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Status": {
+     "id": "%3Fp%3Ek",
+     "type": "status",
+     "status": {
+      "id": "74fba241-06ba-433f-84e1-ba5ef614926e",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Entity Type": {
+     "id": "YBX%7C",
+     "type": "select",
+     "select": {
+      "id": "b2559bdc-f1fb-4f41-9ad4-e3009c00f6b5",
+      "name": "Product",
+      "color": "green"
+     }
+    },
+    "Geographic Scope": {
+     "id": "%5Bz_Y",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Yemen / regional",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Yemen / regional",
+       "href": null
+      }
+     ]
+    },
+    "Parent Entity": {
+     "id": "_uUF",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Industry Scope": {
+     "id": "kF%5B%5C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ERP / accounting / sales / distribution / digital finance",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ERP / accounting / sales / distribution / digital finance",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "psFm",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ONYX ERP",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ONYX ERP",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/ONYX-ERP-3e658a0779e881ff8dbcfe9e8b0d9079",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-818e-a48d-f2d8eaf4cd60",
+   "created_time": "2026-09-25T20:08:00.000Z",
+   "last_edited_time": "2026-09-25T20:08:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "102d3400-edaa-45e3-8a54-c9c805d465ed"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Status": {
+     "id": "%3Fp%3Ek",
+     "type": "status",
+     "status": {
+      "id": "74fba241-06ba-433f-84e1-ba5ef614926e",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Entity Type": {
+     "id": "YBX%7C",
+     "type": "select",
+     "select": {
+      "id": "ee430701-dcd5-4290-a812-fc86b4859594",
+      "name": "Country",
+      "color": "orange"
+     }
+    },
+    "Geographic Scope": {
+     "id": "%5Bz_Y",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Saudi Arabia",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Saudi Arabia",
+       "href": null
+      }
+     ]
+    },
+    "Parent Entity": {
+     "id": "_uUF",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Industry Scope": {
+     "id": "kF%5B%5C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Accounting / ERP / financial software",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Accounting / ERP / financial software",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "psFm",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Saudi Arabia",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Saudi Arabia",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Saudi-Arabia-3e658a0779e8818ea48df2d8eaf4cd60",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-818f-b96d-d984a208ce83",
+   "created_time": "2026-09-25T20:08:00.000Z",
+   "last_edited_time": "2026-09-25T20:08:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "102d3400-edaa-45e3-8a54-c9c805d465ed"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Status": {
+     "id": "%3Fp%3Ek",
+     "type": "status",
+     "status": {
+      "id": "74fba241-06ba-433f-84e1-ba5ef614926e",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Entity Type": {
+     "id": "YBX%7C",
+     "type": "select",
+     "select": {
+      "id": "ee430701-dcd5-4290-a812-fc86b4859594",
+      "name": "Country",
+      "color": "orange"
+     }
+    },
+    "Geographic Scope": {
+     "id": "%5Bz_Y",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Yemen",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Yemen",
+       "href": null
+      }
+     ]
+    },
+    "Parent Entity": {
+     "id": "_uUF",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Industry Scope": {
+     "id": "kF%5B%5C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Accounting / ERP / financial software",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Accounting / ERP / financial software",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "psFm",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Yemen",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Yemen",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Yemen-3e658a0779e8818fb96dd984a208ce83",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81cd-8c1c-d761a261a4a7",
+   "created_time": "2026-09-25T20:08:00.000Z",
+   "last_edited_time": "2026-09-25T20:08:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "102d3400-edaa-45e3-8a54-c9c805d465ed"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Status": {
+     "id": "%3Fp%3Ek",
+     "type": "status",
+     "status": {
+      "id": "74fba241-06ba-433f-84e1-ba5ef614926e",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Entity Type": {
+     "id": "YBX%7C",
+     "type": "select",
+     "select": {
+      "id": "ee430701-dcd5-4290-a812-fc86b4859594",
+      "name": "Country",
+      "color": "orange"
+     }
+    },
+    "Geographic Scope": {
+     "id": "%5Bz_Y",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "United Arab Emirates",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "United Arab Emirates",
+       "href": null
+      }
+     ]
+    },
+    "Parent Entity": {
+     "id": "_uUF",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Industry Scope": {
+     "id": "kF%5B%5C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Accounting / ERP / financial software",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Accounting / ERP / financial software",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "psFm",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "United Arab Emirates",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "United Arab Emirates",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/United-Arab-Emirates-3e658a0779e881cd8c1cd761a261a4a7",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-811b-b633-ee8d394c2f65",
+   "created_time": "2026-09-25T20:07:00.000Z",
+   "last_edited_time": "2026-09-25T20:07:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "102d3400-edaa-45e3-8a54-c9c805d465ed"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Status": {
+     "id": "%3Fp%3Ek",
+     "type": "status",
+     "status": {
+      "id": "74fba241-06ba-433f-84e1-ba5ef614926e",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Entity Type": {
+     "id": "YBX%7C",
+     "type": "select",
+     "select": {
+      "id": "92b5b9bd-e993-4df5-8424-f1af8d23770f",
+      "name": "Company",
+      "color": "blue"
+     }
+    },
+    "Geographic Scope": {
+     "id": "%5Bz_Y",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Japan",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Japan",
+       "href": null
+      }
+     ]
+    },
+    "Parent Entity": {
+     "id": "_uUF",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Industry Scope": {
+     "id": "kF%5B%5C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Accounting / finance / back-office SaaS",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Accounting / finance / back-office SaaS",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "psFm",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Money Forward Cloud",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Money Forward Cloud",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Money-Forward-Cloud-3e658a0779e8811bb633ee8d394c2f65",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8152-accf-d678fedf432b",
+   "created_time": "2026-09-25T20:07:00.000Z",
+   "last_edited_time": "2026-09-25T20:07:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "102d3400-edaa-45e3-8a54-c9c805d465ed"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Status": {
+     "id": "%3Fp%3Ek",
+     "type": "status",
+     "status": {
+      "id": "74fba241-06ba-433f-84e1-ba5ef614926e",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Entity Type": {
+     "id": "YBX%7C",
+     "type": "select",
+     "select": {
+      "id": "92b5b9bd-e993-4df5-8424-f1af8d23770f",
+      "name": "Company",
+      "color": "blue"
+     }
+    },
+    "Geographic Scope": {
+     "id": "%5Bz_Y",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Japan",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Japan",
+       "href": null
+      }
+     ]
+    },
+    "Parent Entity": {
+     "id": "_uUF",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Industry Scope": {
+     "id": "kF%5B%5C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Cloud accounting / tax / business management",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Cloud accounting / tax / business management",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "psFm",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "freee",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "freee",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/freee-3e658a0779e88152accfd678fedf432b",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8186-8801-e7847d5d5816",
+   "created_time": "2026-09-25T20:07:00.000Z",
+   "last_edited_time": "2026-09-25T20:07:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "102d3400-edaa-45e3-8a54-c9c805d465ed"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Status": {
+     "id": "%3Fp%3Ek",
+     "type": "status",
+     "status": {
+      "id": "74fba241-06ba-433f-84e1-ba5ef614926e",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Entity Type": {
+     "id": "YBX%7C",
+     "type": "select",
+     "select": {
+      "id": "92b5b9bd-e993-4df5-8424-f1af8d23770f",
+      "name": "Company",
+      "color": "blue"
+     }
+    },
+    "Geographic Scope": {
+     "id": "%5Bz_Y",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Latin America",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Latin America",
+       "href": null
+      }
+     ]
+    },
+    "Parent Entity": {
+     "id": "_uUF",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Industry Scope": {
+     "id": "kF%5B%5C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Accounting / business management software",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Accounting / business management software",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "psFm",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Siigo",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Siigo",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Siigo-3e658a0779e881868801e7847d5d5816",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81a8-aaac-f926428fdf92",
+   "created_time": "2026-09-25T20:07:00.000Z",
+   "last_edited_time": "2026-09-25T20:07:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "102d3400-edaa-45e3-8a54-c9c805d465ed"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Status": {
+     "id": "%3Fp%3Ek",
+     "type": "status",
+     "status": {
+      "id": "74fba241-06ba-433f-84e1-ba5ef614926e",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Entity Type": {
+     "id": "YBX%7C",
+     "type": "select",
+     "select": {
+      "id": "92b5b9bd-e993-4df5-8424-f1af8d23770f",
+      "name": "Company",
+      "color": "blue"
+     }
+    },
+    "Geographic Scope": {
+     "id": "%5Bz_Y",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Germany / Europe",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Germany / Europe",
+       "href": null
+      }
+     ]
+    },
+    "Parent Entity": {
+     "id": "_uUF",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Industry Scope": {
+     "id": "kF%5B%5C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Accounting / tax / business software ecosystem",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Accounting / tax / business software ecosystem",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "psFm",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "DATEV",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "DATEV",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/DATEV-3e658a0779e881a8aaacf926428fdf92",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8119-9959-d7fe369eb989",
+   "created_time": "2026-09-25T20:06:00.000Z",
+   "last_edited_time": "2026-09-25T20:06:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "102d3400-edaa-45e3-8a54-c9c805d465ed"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Status": {
+     "id": "%3Fp%3Ek",
+     "type": "status",
+     "status": {
+      "id": "74fba241-06ba-433f-84e1-ba5ef614926e",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Entity Type": {
+     "id": "YBX%7C",
+     "type": "select",
+     "select": {
+      "id": "92b5b9bd-e993-4df5-8424-f1af8d23770f",
+      "name": "Company",
+      "color": "blue"
+     }
+    },
+    "Geographic Scope": {
+     "id": "%5Bz_Y",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Nordics / Europe",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Nordics / Europe",
+       "href": null
+      }
+     ]
+    },
+    "Parent Entity": {
+     "id": "_uUF",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Industry Scope": {
+     "id": "kF%5B%5C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Financial management software",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Financial management software",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "psFm",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Visma / Netvisor",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Visma / Netvisor",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Visma-Netvisor-3e658a0779e881199959d7fe369eb989",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81b1-8577-daf6c32f67f1",
+   "created_time": "2026-09-25T20:06:00.000Z",
+   "last_edited_time": "2026-09-25T20:06:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "102d3400-edaa-45e3-8a54-c9c805d465ed"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Status": {
+     "id": "%3Fp%3Ek",
+     "type": "status",
+     "status": {
+      "id": "74fba241-06ba-433f-84e1-ba5ef614926e",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Entity Type": {
+     "id": "YBX%7C",
+     "type": "select",
+     "select": {
+      "id": "92b5b9bd-e993-4df5-8424-f1af8d23770f",
+      "name": "Company",
+      "color": "blue"
+     }
+    },
+    "Geographic Scope": {
+     "id": "%5Bz_Y",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Global",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Global",
+       "href": null
+      }
+     ]
+    },
+    "Parent Entity": {
+     "id": "_uUF",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Industry Scope": {
+     "id": "kF%5B%5C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Cloud ERP / business management",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Cloud ERP / business management",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "psFm",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "NetSuite",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "NetSuite",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/NetSuite-3e658a0779e881b18577daf6c32f67f1",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81f5-9750-cfe486b14c42",
+   "created_time": "2026-09-25T20:05:00.000Z",
+   "last_edited_time": "2026-09-25T20:05:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "102d3400-edaa-45e3-8a54-c9c805d465ed"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Status": {
+     "id": "%3Fp%3Ek",
+     "type": "status",
+     "status": {
+      "id": "74fba241-06ba-433f-84e1-ba5ef614926e",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Entity Type": {
+     "id": "YBX%7C",
+     "type": "select",
+     "select": {
+      "id": "b2559bdc-f1fb-4f41-9ad4-e3009c00f6b5",
+      "name": "Product",
+      "color": "green"
+     }
+    },
+    "Geographic Scope": {
+     "id": "%5Bz_Y",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Global / MENA",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Global / MENA",
+       "href": null
+      }
+     ]
+    },
+    "Parent Entity": {
+     "id": "_uUF",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Industry Scope": {
+     "id": "kF%5B%5C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Accounting / business management software",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Accounting / business management software",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "psFm",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "TallyPrime",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "TallyPrime",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/TallyPrime-3e658a0779e881f59750cfe486b14c42",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8132-86bb-e14cf6aa59b3",
+   "created_time": "2026-09-25T20:04:00.000Z",
+   "last_edited_time": "2026-09-25T20:04:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "102d3400-edaa-45e3-8a54-c9c805d465ed"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Status": {
+     "id": "%3Fp%3Ek",
+     "type": "status",
+     "status": {
+      "id": "74fba241-06ba-433f-84e1-ba5ef614926e",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Entity Type": {
+     "id": "YBX%7C",
+     "type": "select",
+     "select": {
+      "id": "92b5b9bd-e993-4df5-8424-f1af8d23770f",
+      "name": "Company",
+      "color": "blue"
+     }
+    },
+    "Geographic Scope": {
+     "id": "%5Bz_Y",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Global",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Global",
+       "href": null
+      }
+     ]
+    },
+    "Parent Entity": {
+     "id": "_uUF",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Industry Scope": {
+     "id": "kF%5B%5C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ERP / enterprise software",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ERP / enterprise software",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "psFm",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "SAP",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "SAP",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/SAP-3e658a0779e8813286bbe14cf6aa59b3",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81ca-aaa4-f49745e4f7fb",
+   "created_time": "2026-09-25T20:04:00.000Z",
+   "last_edited_time": "2026-09-25T20:04:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "102d3400-edaa-45e3-8a54-c9c805d465ed"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Status": {
+     "id": "%3Fp%3Ek",
+     "type": "status",
+     "status": {
+      "id": "74fba241-06ba-433f-84e1-ba5ef614926e",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Entity Type": {
+     "id": "YBX%7C",
+     "type": "select",
+     "select": {
+      "id": "92b5b9bd-e993-4df5-8424-f1af8d23770f",
+      "name": "Company",
+      "color": "blue"
+     }
+    },
+    "Geographic Scope": {
+     "id": "%5Bz_Y",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Global",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Global",
+       "href": null
+      }
+     ]
+    },
+    "Parent Entity": {
+     "id": "_uUF",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Industry Scope": {
+     "id": "kF%5B%5C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ERP / business applications",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ERP / business applications",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "psFm",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Microsoft Dynamics 365 / Business Central",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Microsoft Dynamics 365 / Business Central",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Microsoft-Dynamics-365-Business-Central-3e658a0779e881caaaa4f49745e4f7fb",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8154-9a4e-c3f3081d1b8a",
+   "created_time": "2026-09-25T20:03:00.000Z",
+   "last_edited_time": "2026-09-25T20:03:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "102d3400-edaa-45e3-8a54-c9c805d465ed"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Status": {
+     "id": "%3Fp%3Ek",
+     "type": "status",
+     "status": {
+      "id": "74fba241-06ba-433f-84e1-ba5ef614926e",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Entity Type": {
+     "id": "YBX%7C",
+     "type": "select",
+     "select": {
+      "id": "92b5b9bd-e993-4df5-8424-f1af8d23770f",
+      "name": "Company",
+      "color": "blue"
+     }
+    },
+    "Geographic Scope": {
+     "id": "%5Bz_Y",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Global",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Global",
+       "href": null
+      }
+     ]
+    },
+    "Parent Entity": {
+     "id": "_uUF",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Industry Scope": {
+     "id": "kF%5B%5C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Cloud ERP",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Cloud ERP",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "psFm",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Acumatica",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Acumatica",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Acumatica-3e658a0779e881549a4ec3f3081d1b8a",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81b5-aed0-dc96e8dffa3b",
+   "created_time": "2026-09-25T20:03:00.000Z",
+   "last_edited_time": "2026-09-25T20:03:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "102d3400-edaa-45e3-8a54-c9c805d465ed"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Status": {
+     "id": "%3Fp%3Ek",
+     "type": "status",
+     "status": {
+      "id": "74fba241-06ba-433f-84e1-ba5ef614926e",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Entity Type": {
+     "id": "YBX%7C",
+     "type": "select",
+     "select": {
+      "id": "92b5b9bd-e993-4df5-8424-f1af8d23770f",
+      "name": "Company",
+      "color": "blue"
+     }
+    },
+    "Geographic Scope": {
+     "id": "%5Bz_Y",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Global",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Global",
+       "href": null
+      }
+     ]
+    },
+    "Parent Entity": {
+     "id": "_uUF",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Industry Scope": {
+     "id": "kF%5B%5C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Accounting software",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Accounting software",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "psFm",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Zoho Books / Zoho",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Zoho Books / Zoho",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Zoho-Books-Zoho-3e658a0779e881b5aed0dc96e8dffa3b",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81d3-a7a0-c89a9ae50136",
+   "created_time": "2026-09-25T20:03:00.000Z",
+   "last_edited_time": "2026-09-25T20:03:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "102d3400-edaa-45e3-8a54-c9c805d465ed"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Status": {
+     "id": "%3Fp%3Ek",
+     "type": "status",
+     "status": {
+      "id": "74fba241-06ba-433f-84e1-ba5ef614926e",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Entity Type": {
+     "id": "YBX%7C",
+     "type": "select",
+     "select": {
+      "id": "92b5b9bd-e993-4df5-8424-f1af8d23770f",
+      "name": "Company",
+      "color": "blue"
+     }
+    },
+    "Geographic Scope": {
+     "id": "%5Bz_Y",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Global",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Global",
+       "href": null
+      }
+     ]
+    },
+    "Parent Entity": {
+     "id": "_uUF",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Industry Scope": {
+     "id": "kF%5B%5C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Finance software / accounting",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Finance software / accounting",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "psFm",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Sage",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Sage",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Sage-3e658a0779e881d3a7a0c89a9ae50136",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8114-8233-ddd2f1649462",
+   "created_time": "2026-09-25T20:01:00.000Z",
+   "last_edited_time": "2026-09-25T20:01:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "102d3400-edaa-45e3-8a54-c9c805d465ed"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Status": {
+     "id": "%3Fp%3Ek",
+     "type": "status",
+     "status": {
+      "id": "74fba241-06ba-433f-84e1-ba5ef614926e",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Entity Type": {
+     "id": "YBX%7C",
+     "type": "select",
+     "select": {
+      "id": "841bee07-0e43-4dd6-b4ea-675e7d1026fa",
+      "name": "Channel",
+      "color": "brown"
+     }
+    },
+    "Geographic Scope": {
+     "id": "%5Bz_Y",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Parent Entity": {
+     "id": "_uUF",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Industry Scope": {
+     "id": "kF%5B%5C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "SaaS / software",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "SaaS / software",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "psFm",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Free Trial",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Free Trial",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Free-Trial-3e658a0779e881148233ddd2f1649462",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8136-943c-f8f069e6f763",
+   "created_time": "2026-09-25T20:01:00.000Z",
+   "last_edited_time": "2026-09-25T20:01:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "102d3400-edaa-45e3-8a54-c9c805d465ed"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Status": {
+     "id": "%3Fp%3Ek",
+     "type": "status",
+     "status": {
+      "id": "74fba241-06ba-433f-84e1-ba5ef614926e",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Entity Type": {
+     "id": "YBX%7C",
+     "type": "select",
+     "select": {
+      "id": "92b5b9bd-e993-4df5-8424-f1af8d23770f",
+      "name": "Company",
+      "color": "blue"
+     }
+    },
+    "Geographic Scope": {
+     "id": "%5Bz_Y",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Global",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Global",
+       "href": null
+      }
+     ]
+    },
+    "Parent Entity": {
+     "id": "_uUF",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Industry Scope": {
+     "id": "kF%5B%5C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Accounting software",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Accounting software",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "psFm",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "QuickBooks / Intuit",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "QuickBooks / Intuit",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/QuickBooks-Intuit-3e658a0779e88136943cf8f069e6f763",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8148-8210-e2e702e2ebf2",
+   "created_time": "2026-09-25T20:01:00.000Z",
+   "last_edited_time": "2026-09-25T20:01:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "102d3400-edaa-45e3-8a54-c9c805d465ed"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Status": {
+     "id": "%3Fp%3Ek",
+     "type": "status",
+     "status": {
+      "id": "74fba241-06ba-433f-84e1-ba5ef614926e",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Entity Type": {
+     "id": "YBX%7C",
+     "type": "select",
+     "select": {
+      "id": "841bee07-0e43-4dd6-b4ea-675e7d1026fa",
+      "name": "Channel",
+      "color": "brown"
+     }
+    },
+    "Geographic Scope": {
+     "id": "%5Bz_Y",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Parent Entity": {
+     "id": "_uUF",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Industry Scope": {
+     "id": "kF%5B%5C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "B2B software",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "B2B software",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "psFm",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Partner Marketing",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Partner Marketing",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Partner-Marketing-3e658a0779e881488210e2e702e2ebf2",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8195-bed8-ff74e2a8e83a",
+   "created_time": "2026-09-25T20:01:00.000Z",
+   "last_edited_time": "2026-09-25T20:01:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "102d3400-edaa-45e3-8a54-c9c805d465ed"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Status": {
+     "id": "%3Fp%3Ek",
+     "type": "status",
+     "status": {
+      "id": "74fba241-06ba-433f-84e1-ba5ef614926e",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Entity Type": {
+     "id": "YBX%7C",
+     "type": "select",
+     "select": {
+      "id": "92b5b9bd-e993-4df5-8424-f1af8d23770f",
+      "name": "Company",
+      "color": "blue"
+     }
+    },
+    "Geographic Scope": {
+     "id": "%5Bz_Y",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Global",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Global",
+       "href": null
+      }
+     ]
+    },
+    "Parent Entity": {
+     "id": "_uUF",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Industry Scope": {
+     "id": "kF%5B%5C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Accounting software / cloud accounting",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Accounting software / cloud accounting",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "psFm",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Xero",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Xero",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Xero-3e658a0779e88195bed8ff74e2a8e83a",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81e7-839c-cb4b572b6d27",
+   "created_time": "2026-09-25T20:01:00.000Z",
+   "last_edited_time": "2026-09-25T20:01:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "102d3400-edaa-45e3-8a54-c9c805d465ed"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Status": {
+     "id": "%3Fp%3Ek",
+     "type": "status",
+     "status": {
+      "id": "74fba241-06ba-433f-84e1-ba5ef614926e",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Entity Type": {
+     "id": "YBX%7C",
+     "type": "select",
+     "select": {
+      "id": "2a386aa8-c612-457b-8090-e9d321669440",
+      "name": "Partner Type",
+      "color": "default"
+     }
+    },
+    "Geographic Scope": {
+     "id": "%5Bz_Y",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Parent Entity": {
+     "id": "_uUF",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Industry Scope": {
+     "id": "kF%5B%5C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Accounting / ERP",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Accounting / ERP",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "psFm",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Partner / Accountant",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Partner / Accountant",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Partner-Accountant-3e658a0779e881e7839ccb4b572b6d27",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81ff-88e6-d249a478396c",
+   "created_time": "2026-09-25T20:01:00.000Z",
+   "last_edited_time": "2026-09-25T20:01:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "102d3400-edaa-45e3-8a54-c9c805d465ed"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Status": {
+     "id": "%3Fp%3Ek",
+     "type": "status",
+     "status": {
+      "id": "74fba241-06ba-433f-84e1-ba5ef614926e",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Entity Type": {
+     "id": "YBX%7C",
+     "type": "select",
+     "select": {
+      "id": "92b5b9bd-e993-4df5-8424-f1af8d23770f",
+      "name": "Company",
+      "color": "blue"
+     }
+    },
+    "Geographic Scope": {
+     "id": "%5Bz_Y",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Global",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Global",
+       "href": null
+      }
+     ]
+    },
+    "Parent Entity": {
+     "id": "_uUF",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Industry Scope": {
+     "id": "kF%5B%5C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ERP / business software",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ERP / business software",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "psFm",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Odoo",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Odoo",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Odoo-3e658a0779e881ff88e6d249a478396c",
+   "public_url": null,
+   "archived": false
+  }
+ ]
+}

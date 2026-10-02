@@ -1,0 +1,32 @@
+{
+  "run_ts": "2026-09-27T18:32:35Z",
+  "base_url": "https://prodseller.com/v1",
+  "steps": [
+    {
+      "step": "balance",
+      "http": 200,
+      "rate_headers": {
+        "RateLimit-Policy": "300;w=900",
+        "RateLimit-Limit": "300",
+        "RateLimit-Remaining": "299",
+        "RateLimit-Reset": "900"
+      },
+      "response": {
+        "telegramId": 8694806973,
+        "username": "SaraShamari",
+        "balance": 0,
+        "membership": "bronze"
+      }
+    },
+    {
+      "step": "products",
+      "http": 200,
+      "count": 25,
+      "in_stock": 19,
+      "out_of_stock": 6,
+      "email_activation": 1,
+      "api_cheaper_than_public": 22,
+      "raw_file": "/home/z/my-project/research/prodseller_live/products_raw.json"
+    }
+  ]
+}

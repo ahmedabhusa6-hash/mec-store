@@ -1,0 +1,180 @@
+{
+ "capture_reason": "NEWLY_ACCESSIBLE",
+ "captured_at": "2026-10-02T12:16:49+03:00",
+ "title": "10 — Expansion Decision",
+ "last_edited": "2026-09-25T20:02:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e658a07-79e8-812c-b4ad-c87d0ee30355",
+  "created_time": "2026-09-25T20:02:00.000Z",
+  "last_edited_time": "2026-09-25T20:02:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "db0c065c-7f8e-4090-ba13-af5387302d8f"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "Objective": {
+    "id": "ER%5D%7D",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "تحديد ما إذا كانت النواة جاهزة للتوسع.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "تحديد ما إذا كانت النواة جاهزة للتوسع.",
+      "href": null
+     }
+    ]
+   },
+   "Output": {
+    "id": "F%5BEd",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "قرار التوسع مع الحفاظ على النواة الحالية.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "قرار التوسع مع الحفاظ على النواة الحالية.",
+      "href": null
+     }
+    ]
+   },
+   "Layer": {
+    "id": "L%3CaY",
+    "type": "select",
+    "select": {
+     "id": "78a655b9-fdec-4d57-8155-0238a7121986",
+     "name": "Architecture",
+     "color": "purple"
+    }
+   },
+   "Trigger": {
+    "id": "NO%5Ck",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "نجاح Schema Validation.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "نجاح Schema Validation.",
+      "href": null
+     }
+    ]
+   },
+   "Order": {
+    "id": "VF%7Bz",
+    "type": "number",
+    "number": 10
+   },
+   "Dependency": {
+    "id": "%5CKi%7B",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "09",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "09",
+      "href": null
+     }
+    ]
+   },
+   "Notes": {
+    "id": "%5CObO",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Status": {
+    "id": "vMhI",
+    "type": "status",
+    "status": {
+     "id": "c18ff35d-3006-45c8-9d1e-eae97f8446d7",
+     "name": "تم",
+     "color": "green"
+    }
+   },
+   "Name": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "10 — Expansion Decision",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "10 — Expansion Decision",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/10-Expansion-Decision-3e658a0779e8812cb4adc87d0ee30355",
+  "public_url": null,
+  "archived": false,
+  "request_id": "3dc721cb-8f05-46d0-a97b-0a5ef8f1a744"
+ },
+ "block_count": 0,
+ "blocks": []
+}

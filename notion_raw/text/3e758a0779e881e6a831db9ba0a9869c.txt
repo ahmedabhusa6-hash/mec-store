@@ -1,0 +1,7 @@
+# Deep Marketing — Cycle-ID Title Collision Follow-up — 2026-09-26
+Integrity result
+Two historical RSH-17 Cycle Log entries currently share the logical  CKC-RSH17-009  title prefix while representing different operations. The underlying Notion auto-increment Cycle IDs are distinct; the ambiguity is in the human-readable logical label.
+Containment
+No record was deleted or rewritten. A rename attempt was blocked by the tool safety layer, so the existing titles remain unchanged.
+Operational rule
+Future cycles should use descriptive operation titles and the platform's unique Cycle ID as the authoritative identifier. Historical title cleanup remains an open metadata task.

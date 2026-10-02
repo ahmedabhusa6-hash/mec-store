@@ -1,0 +1,6624 @@
+{
+ "capture_reason": "CHANGED",
+ "title": "Accounting Systems — Change Log",
+ "schema": {
+  "object": "database",
+  "id": "5fd2140e-bbd3-4c1b-8f0a-86f2764e5c1d",
+  "cover": null,
+  "icon": null,
+  "created_time": "2026-09-25T21:53:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_time": "2026-09-25T21:53:00.000Z",
+  "title": [
+   {
+    "type": "text",
+    "text": {
+     "content": "Accounting Systems — Change Log",
+     "link": null
+    },
+    "annotations": {
+     "bold": false,
+     "italic": false,
+     "strikethrough": false,
+     "underline": false,
+     "code": false,
+     "color": "default"
+    },
+    "plain_text": "Accounting Systems — Change Log",
+    "href": null
+   }
+  ],
+  "description": [
+   {
+    "type": "text",
+    "text": {
+     "content": "Canonical change records for accounting-system knowledge assets.",
+     "link": null
+    },
+    "annotations": {
+     "bold": false,
+     "italic": false,
+     "strikethrough": false,
+     "underline": false,
+     "code": false,
+     "color": "default"
+    },
+    "plain_text": "Canonical change records for accounting-system knowledge assets.",
+    "href": null
+   }
+  ],
+  "is_inline": false,
+  "database_type": null,
+  "properties": {
+   "Cycle ID": {
+    "id": "G%7Cj%7C",
+    "name": "Cycle ID",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Research Refs": {
+    "id": "HE%7D%3A",
+    "name": "Research Refs",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Change Type": {
+    "id": "INFO",
+    "name": "Change Type",
+    "description": null,
+    "type": "select",
+    "select": {
+     "options": [
+      {
+       "id": "8510ae2a-b247-4b0c-82eb-d6f3dfae9812",
+       "name": "CREATED",
+       "color": "green",
+       "description": null
+      },
+      {
+       "id": "3d982269-7b7d-4c4d-933e-1ac4049f3bec",
+       "name": "CONFIRMED",
+       "color": "blue",
+       "description": null
+      },
+      {
+       "id": "d906ebff-e125-4da2-9fda-cb5ef36f1f85",
+       "name": "UPDATED",
+       "color": "yellow",
+       "description": null
+      },
+      {
+       "id": "3f933182-b16e-4ec5-a05e-379b330dc15d",
+       "name": "CORRECTED",
+       "color": "orange",
+       "description": null
+      },
+      {
+       "id": "860111d9-a394-4ab3-8f41-0c08a2106558",
+       "name": "CONTEXTUALIZED",
+       "color": "purple",
+       "description": null
+      },
+      {
+       "id": "ac308f43-21da-40f4-baf9-1609ff96965c",
+       "name": "DUPLICATED",
+       "color": "gray",
+       "description": null
+      },
+      {
+       "id": "68c28bb5-d6c2-40f5-ae76-d414da15b6ff",
+       "name": "SUPERSEDED",
+       "color": "brown",
+       "description": null
+      },
+      {
+       "id": "7db118f0-3724-444b-b2d7-b3b5326ed4c4",
+       "name": "REJECTED",
+       "color": "red",
+       "description": null
+      }
+     ]
+    }
+   },
+   "Reason": {
+    "id": "J_OB",
+    "name": "Reason",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Knowledge ID": {
+    "id": "YBi%5B",
+    "name": "Knowledge ID",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Previous State": {
+    "id": "%5CNEt",
+    "name": "Previous State",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Change ID": {
+    "id": "%5DMhS",
+    "name": "Change ID",
+    "description": null,
+    "type": "unique_id",
+    "unique_id": {
+     "prefix": "ASC-CHG"
+    }
+   },
+   "Timestamp": {
+    "id": "aUp%3F",
+    "name": "Timestamp",
+    "description": null,
+    "type": "date",
+    "date": {}
+   },
+   "Evidence Refs": {
+    "id": "dW~K",
+    "name": "Evidence Refs",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "New State": {
+    "id": "l%5E%3FQ",
+    "name": "New State",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Commit Status": {
+    "id": "nIl%3A",
+    "name": "Commit Status",
+    "description": null,
+    "type": "select",
+    "select": {
+     "options": [
+      {
+       "id": "7afb9e21-bb97-4b8e-b75b-f1644f1a20b6",
+       "name": "NOT_ATTEMPTED",
+       "color": "gray",
+       "description": null
+      },
+      {
+       "id": "7ec54797-1a18-4cb0-8379-9639230fcd90",
+       "name": "PREPARED",
+       "color": "yellow",
+       "description": null
+      },
+      {
+       "id": "d942aa8f-d363-4401-be90-3448e53e5c8c",
+       "name": "COMMITTED",
+       "color": "blue",
+       "description": null
+      },
+      {
+       "id": "0fd88db4-71c1-48e0-90b1-e73f4d8b0e74",
+       "name": "VERIFIED",
+       "color": "green",
+       "description": null
+      },
+      {
+       "id": "823eeb34-a326-4935-b9af-3495f341d13b",
+       "name": "FAILED",
+       "color": "red",
+       "description": null
+      },
+      {
+       "id": "2a3ed1bd-69b4-41b4-afb7-dfd16354e1b1",
+       "name": "RECONCILING",
+       "color": "orange",
+       "description": null
+      },
+      {
+       "id": "f95abe53-1f25-407a-89ef-43c9438d984b",
+       "name": "RETRY_REQUIRED",
+       "color": "purple",
+       "description": null
+      }
+     ]
+    }
+   },
+   "Verification Status": {
+    "id": "te__",
+    "name": "Verification Status",
+    "description": null,
+    "type": "select",
+    "select": {
+     "options": [
+      {
+       "id": "e33138b3-9b04-4cb6-b927-c6af7fe2a39b",
+       "name": "PENDING",
+       "color": "yellow",
+       "description": null
+      },
+      {
+       "id": "ffb47284-73a2-4468-a0d9-56fd2352e32d",
+       "name": "VERIFIED",
+       "color": "green",
+       "description": null
+      },
+      {
+       "id": "2e4c3d0e-bda8-4e07-a333-b05fcbe52e81",
+       "name": "FAILED",
+       "color": "red",
+       "description": null
+      }
+     ]
+    }
+   },
+   "Name": {
+    "id": "title",
+    "name": "Name",
+    "description": null,
+    "type": "title",
+    "title": {}
+   }
+  },
+  "parent": {
+   "type": "page_id",
+   "page_id": "3e658a07-79e8-812b-94dd-c53cd6689569"
+  },
+  "url": "https://app.notion.com/p/5fd2140ebbd34c1b8f0a86f2764e5c1d",
+  "public_url": null,
+  "in_trash": false,
+  "archived": false,
+  "request_id": "bc8db639-3a1e-4c95-bc47-2dc6709ee4f5"
+ },
+ "row_count": 25,
+ "rows": [
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-814d-9d33-f802ebfd8315",
+   "created_time": "2026-09-26T14:32:00.000Z",
+   "last_edited_time": "2026-09-26T14:33:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "5fd2140e-bbd3-4c1b-8f0a-86f2764e5c1d"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Cycle ID": {
+     "id": "G%7Cj%7C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "CKC-73",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "CKC-73",
+       "href": null
+      }
+     ]
+    },
+    "Research Refs": {
+     "id": "HE%7D%3A",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASR-9; ASR-10",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASR-9; ASR-10",
+       "href": null
+      }
+     ]
+    },
+    "Change Type": {
+     "id": "INFO",
+     "type": "select",
+     "select": {
+      "id": "860111d9-a394-4ab3-8f41-0c08a2106558",
+      "name": "CONTEXTUALIZED",
+      "color": "purple"
+     }
+    },
+    "Reason": {
+     "id": "J_OB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Independent and product evidence supports a layered distinction: Architecture describes system structure/composition, while Integration describes relationships/capabilities implemented through or across that structure. The evidence does not justify activating a separate Integrations taxonomy node yet.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Independent and product evidence supports a layered distinction: Architecture describes system structure/composition, while Integration describes relationships/capabilities implemented through or across that structure. The evidence does not justify activating a separate Integrations taxonomy node yet.",
+       "href": null
+      }
+     ]
+    },
+    "Knowledge ID": {
+     "id": "YBi%5B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASK-4",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASK-4",
+       "href": null
+      }
+     ]
+    },
+    "Previous State": {
+     "id": "%5CNEt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ACTIVE — Architecture taxonomy node; Architecture-vs-Integration boundary open.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ACTIVE — Architecture taxonomy node; Architecture-vs-Integration boundary open.",
+       "href": null
+      }
+     ]
+    },
+    "Change ID": {
+     "id": "%5DMhS",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "ASC-CHG",
+      "number": 25
+     }
+    },
+    "Timestamp": {
+     "id": "aUp%3F",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26T14:32:00.000+00:00",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Evidence Refs": {
+     "id": "dW~K",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "EVD-ASR9-MOSSA; EVD-ASR9-ODOO; EVD-ASR9-FRANK",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "EVD-ASR9-MOSSA; EVD-ASR9-ODOO; EVD-ASR9-FRANK",
+       "href": null
+      }
+     ]
+    },
+    "New State": {
+     "id": "l%5E%3FQ",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ACTIVE — Architecture taxonomy node contextualized; Integration relationships to be recorded separately; Integrations taxonomy node remains open.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ACTIVE — Architecture taxonomy node contextualized; Integration relationships to be recorded separately; Integrations taxonomy node remains open.",
+       "href": null
+      }
+     ]
+    },
+    "Commit Status": {
+     "id": "nIl%3A",
+     "type": "select",
+     "select": {
+      "id": "0fd88db4-71c1-48e0-90b1-e73f4d8b0e74",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Verification Status": {
+     "id": "te__",
+     "type": "select",
+     "select": {
+      "id": "ffb47284-73a2-4468-a0d9-56fd2352e32d",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "CKC-73-CHG — Contextualize Architecture vs Integrations boundary",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "CKC-73-CHG — Contextualize Architecture vs Integrations boundary",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/CKC-73-CHG-Contextualize-Architecture-vs-Integrations-boundary-3e758a0779e8814d9d33f802ebfd8315",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-81d3-ae17-d2fa38bfef26",
+   "created_time": "2026-09-26T14:00:00.000Z",
+   "last_edited_time": "2026-09-26T14:00:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "5fd2140e-bbd3-4c1b-8f0a-86f2764e5c1d"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Cycle ID": {
+     "id": "G%7Cj%7C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "CKC-63",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "CKC-63",
+       "href": null
+      }
+     ]
+    },
+    "Research Refs": {
+     "id": "HE%7D%3A",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASR-9",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASR-9",
+       "href": null
+      }
+     ]
+    },
+    "Change Type": {
+     "id": "INFO",
+     "type": "select",
+     "select": {
+      "id": "3d982269-7b7d-4c4d-933e-1ac4049f3bec",
+      "name": "CONFIRMED",
+      "color": "blue"
+     }
+    },
+    "Reason": {
+     "id": "J_OB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Independent ERP architecture literature and current Odoo 19 architecture documentation establish software architecture as a distinct descriptive dimension.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Independent ERP architecture literature and current Odoo 19 architecture documentation establish software architecture as a distinct descriptive dimension.",
+       "href": null
+      }
+     ]
+    },
+    "Knowledge ID": {
+     "id": "YBi%5B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "4",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "4",
+       "href": null
+      }
+     ]
+    },
+    "Previous State": {
+     "id": "%5CNEt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Architecture axis proposed but not active as an evidence-backed Knowledge Asset.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Architecture axis proposed but not active as an evidence-backed Knowledge Asset.",
+       "href": null
+      }
+     ]
+    },
+    "Change ID": {
+     "id": "%5DMhS",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "ASC-CHG",
+      "number": 24
+     }
+    },
+    "Timestamp": {
+     "id": "aUp%3F",
+     "type": "date",
+     "date": null
+    },
+    "Evidence Refs": {
+     "id": "dW~K",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "EVD-ASR9-MOSSA; EVD-ASR9-ODOO",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "EVD-ASR9-MOSSA; EVD-ASR9-ODOO",
+       "href": null
+      }
+     ]
+    },
+    "New State": {
+     "id": "l%5E%3FQ",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Architecture taxonomy node ACTIVE/VERIFIED; vocabulary remains multidimensional and evidence-limited.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Architecture taxonomy node ACTIVE/VERIFIED; vocabulary remains multidimensional and evidence-limited.",
+       "href": null
+      }
+     ]
+    },
+    "Commit Status": {
+     "id": "nIl%3A",
+     "type": "select",
+     "select": {
+      "id": "0fd88db4-71c1-48e0-90b1-e73f4d8b0e74",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Verification Status": {
+     "id": "te__",
+     "type": "select",
+     "select": {
+      "id": "ffb47284-73a2-4468-a0d9-56fd2352e32d",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "CKC-63 — Activate Architecture taxonomy dimension",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "CKC-63 — Activate Architecture taxonomy dimension",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/CKC-63-Activate-Architecture-taxonomy-dimension-3e758a0779e881d3ae17d2fa38bfef26",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-81e6-aae5-dbb300753495",
+   "created_time": "2026-09-26T13:59:00.000Z",
+   "last_edited_time": "2026-09-26T13:59:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "5fd2140e-bbd3-4c1b-8f0a-86f2764e5c1d"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Cycle ID": {
+     "id": "G%7Cj%7C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "CKC-62",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "CKC-62",
+       "href": null
+      }
+     ]
+    },
+    "Research Refs": {
+     "id": "HE%7D%3A",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASR-8",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASR-8",
+       "href": null
+      }
+     ]
+    },
+    "Change Type": {
+     "id": "INFO",
+     "type": "select",
+     "select": {
+      "id": "3d982269-7b7d-4c4d-933e-1ac4049f3bec",
+      "name": "CONFIRMED",
+      "color": "blue"
+     }
+    },
+    "Reason": {
+     "id": "J_OB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Current Microsoft and Odoo documentation, supported by independent cloud-ERP literature, establish deployment/hosting as a distinct product context that can vary within the same product family.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Current Microsoft and Odoo documentation, supported by independent cloud-ERP literature, establish deployment/hosting as a distinct product context that can vary within the same product family.",
+       "href": null
+      }
+     ]
+    },
+    "Knowledge ID": {
+     "id": "YBi%5B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASK-3",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASK-3",
+       "href": null
+      }
+     ]
+    },
+    "Previous State": {
+     "id": "%5CNEt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Deployment proposed as a taxonomy axis but not persisted as an active evidence-backed Knowledge Asset.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Deployment proposed as a taxonomy axis but not persisted as an active evidence-backed Knowledge Asset.",
+       "href": null
+      }
+     ]
+    },
+    "Change ID": {
+     "id": "%5DMhS",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "ASC-CHG",
+      "number": 23
+     }
+    },
+    "Timestamp": {
+     "id": "aUp%3F",
+     "type": "date",
+     "date": null
+    },
+    "Evidence Refs": {
+     "id": "dW~K",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "EVD-ASR8-BC-DEPLOY; EVD-ASR8-ODOO-DEPLOY; EVD-ASR8-ACADEMIC-01",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "EVD-ASR8-BC-DEPLOY; EVD-ASR8-ODOO-DEPLOY; EVD-ASR8-ACADEMIC-01",
+       "href": null
+      }
+     ]
+    },
+    "New State": {
+     "id": "l%5E%3FQ",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Deployment taxonomy node ACTIVE/VERIFIED; controlled vocabulary intentionally limited to directly evidenced deployment contexts.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Deployment taxonomy node ACTIVE/VERIFIED; controlled vocabulary intentionally limited to directly evidenced deployment contexts.",
+       "href": null
+      }
+     ]
+    },
+    "Commit Status": {
+     "id": "nIl%3A",
+     "type": "select",
+     "select": {
+      "id": "0fd88db4-71c1-48e0-90b1-e73f4d8b0e74",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Verification Status": {
+     "id": "te__",
+     "type": "select",
+     "select": {
+      "id": "ffb47284-73a2-4468-a0d9-56fd2352e32d",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "CKC-62 — Activate Deployment taxonomy dimension",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "CKC-62 — Activate Deployment taxonomy dimension",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/CKC-62-Activate-Deployment-taxonomy-dimension-3e758a0779e881e6aae5dbb300753495",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-81a9-9d20-d544db85ead2",
+   "created_time": "2026-09-26T13:57:00.000Z",
+   "last_edited_time": "2026-09-26T13:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "5fd2140e-bbd3-4c1b-8f0a-86f2764e5c1d"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Cycle ID": {
+     "id": "G%7Cj%7C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "CKC-60",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "CKC-60",
+       "href": null
+      }
+     ]
+    },
+    "Research Refs": {
+     "id": "HE%7D%3A",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASR-7",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASR-7",
+       "href": null
+      }
+     ]
+    },
+    "Change Type": {
+     "id": "INFO",
+     "type": "select",
+     "select": {
+      "id": "860111d9-a394-4ab3-8f41-0c08a2106558",
+      "name": "CONTEXTUALIZED",
+      "color": "purple"
+     }
+    },
+    "Reason": {
+     "id": "J_OB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Independent licensing/classification test completed; evidence mapping verified in Notion. The result is a contextualization, not a new System_Type rule.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Independent licensing/classification test completed; evidence mapping verified in Notion. The result is a contextualization, not a new System_Type rule.",
+       "href": null
+      }
+     ]
+    },
+    "Knowledge ID": {
+     "id": "YBi%5B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASK-2",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASK-2",
+       "href": null
+      }
+     ]
+    },
+    "Previous State": {
+     "id": "%5CNEt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Licensing-specific independent evidence gap open.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Licensing-specific independent evidence gap open.",
+       "href": null
+      }
+     ]
+    },
+    "Change ID": {
+     "id": "%5DMhS",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "ASC-CHG",
+      "number": 22
+     }
+    },
+    "Timestamp": {
+     "id": "aUp%3F",
+     "type": "date",
+     "date": null
+    },
+    "Evidence Refs": {
+     "id": "dW~K",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "EVD-ASR7-SINGH-2006; EVD-ASR7-MOSSA-2025",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "EVD-ASR7-SINGH-2006; EVD-ASR7-MOSSA-2025",
+       "href": null
+      }
+     ]
+    },
+    "New State": {
+     "id": "l%5E%3FQ",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Licensing remains a separate descriptive/tiering and access/scope dimension. Direct licensing-to-System_Type rule remains UNPROVEN.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Licensing remains a separate descriptive/tiering and access/scope dimension. Direct licensing-to-System_Type rule remains UNPROVEN.",
+       "href": null
+      }
+     ]
+    },
+    "Commit Status": {
+     "id": "nIl%3A",
+     "type": "select",
+     "select": {
+      "id": "0fd88db4-71c1-48e0-90b1-e73f4d8b0e74",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Verification Status": {
+     "id": "te__",
+     "type": "select",
+     "select": {
+      "id": "ffb47284-73a2-4468-a0d9-56fd2352e32d",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "CKC-60 — Licensing remains separate from System_Type",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "CKC-60 — Licensing remains separate from System_Type",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/CKC-60-Licensing-remains-separate-from-System_Type-3e758a0779e881a99d20d544db85ead2",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-8151-8302-d3a81c57bad2",
+   "created_time": "2026-09-26T13:56:00.000Z",
+   "last_edited_time": "2026-09-26T13:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "5fd2140e-bbd3-4c1b-8f0a-86f2764e5c1d"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Cycle ID": {
+     "id": "G%7Cj%7C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "CKC-58",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "CKC-58",
+       "href": null
+      }
+     ]
+    },
+    "Research Refs": {
+     "id": "HE%7D%3A",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASR-7",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASR-7",
+       "href": null
+      }
+     ]
+    },
+    "Change Type": {
+     "id": "INFO",
+     "type": "select",
+     "select": {
+      "id": "3d982269-7b7d-4c4d-933e-1ac4049f3bec",
+      "name": "CONFIRMED",
+      "color": "blue"
+     }
+    },
+    "Reason": {
+     "id": "J_OB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Direct current Microsoft documentation confirms that Business Central Essentials and Premium expose materially different functional scope within the same product family. Cycle identifier reconciled to Notion's auto-assigned CKC-58.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Direct current Microsoft documentation confirms that Business Central Essentials and Premium expose materially different functional scope within the same product family. Cycle identifier reconciled to Notion's auto-assigned CKC-58.",
+       "href": null
+      }
+     ]
+    },
+    "Knowledge ID": {
+     "id": "YBi%5B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASK-2",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASK-2",
+       "href": null
+      }
+     ]
+    },
+    "Previous State": {
+     "id": "%5CNEt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Edition/Plan divergence was an open contextual validation gap.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Edition/Plan divergence was an open contextual validation gap.",
+       "href": null
+      }
+     ]
+    },
+    "Change ID": {
+     "id": "%5DMhS",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "ASC-CHG",
+      "number": 21
+     }
+    },
+    "Timestamp": {
+     "id": "aUp%3F",
+     "type": "date",
+     "date": null
+    },
+    "Evidence Refs": {
+     "id": "dW~K",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "EVD-ASR7-BC-PLAN; Microsoft Business Central pricing; Microsoft Business Central licensing guide; Microsoft Learn Premium features",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "EVD-ASR7-BC-PLAN; Microsoft Business Central pricing; Microsoft Business Central licensing guide; Microsoft Learn Premium features",
+       "href": null
+      }
+     ]
+    },
+    "New State": {
+     "id": "l%5E%3FQ",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Edition/Plan must be explicit context when it materially changes available functionality. Business Central Premium adds Manufacturing and Service Management beyond Essentials. Licensing/price remains distinct from System_Type.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Edition/Plan must be explicit context when it materially changes available functionality. Business Central Premium adds Manufacturing and Service Management beyond Essentials. Licensing/price remains distinct from System_Type.",
+       "href": null
+      }
+     ]
+    },
+    "Commit Status": {
+     "id": "nIl%3A",
+     "type": "select",
+     "select": {
+      "id": "0fd88db4-71c1-48e0-90b1-e73f4d8b0e74",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Verification Status": {
+     "id": "te__",
+     "type": "select",
+     "select": {
+      "id": "ffb47284-73a2-4468-a0d9-56fd2352e32d",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "CKC-58 — Confirm Business Central Edition/Plan divergence",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "CKC-58 — Confirm Business Central Edition/Plan divergence",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/CKC-58-Confirm-Business-Central-Edition-Plan-divergence-3e758a0779e881518302d3a81c57bad2",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-813b-a4f3-f2547a9656e3",
+   "created_time": "2026-09-26T13:56:00.000Z",
+   "last_edited_time": "2026-09-26T13:56:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "5fd2140e-bbd3-4c1b-8f0a-86f2764e5c1d"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Cycle ID": {
+     "id": "G%7Cj%7C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "CKC-55",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "CKC-55",
+       "href": null
+      }
+     ]
+    },
+    "Research Refs": {
+     "id": "HE%7D%3A",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASR-7",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASR-7",
+       "href": null
+      }
+     ]
+    },
+    "Change Type": {
+     "id": "INFO",
+     "type": "select",
+     "select": {
+      "id": "3d982269-7b7d-4c4d-933e-1ac4049f3bec",
+      "name": "CONFIRMED",
+      "color": "blue"
+     }
+    },
+    "Reason": {
+     "id": "J_OB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Current Microsoft documentation provides direct same-product-family evidence that Business Central Essentials and Premium expose materially different functional scope; Premium adds Manufacturing and Service Management.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Current Microsoft documentation provides direct same-product-family evidence that Business Central Essentials and Premium expose materially different functional scope; Premium adds Manufacturing and Service Management.",
+       "href": null
+      }
+     ]
+    },
+    "Knowledge ID": {
+     "id": "YBi%5B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASK-2",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASK-2",
+       "href": null
+      }
+     ]
+    },
+    "Previous State": {
+     "id": "%5CNEt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Edition/Plan divergence remained an open validation gap.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Edition/Plan divergence remained an open validation gap.",
+       "href": null
+      }
+     ]
+    },
+    "Change ID": {
+     "id": "%5DMhS",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "ASC-CHG",
+      "number": 20
+     }
+    },
+    "Timestamp": {
+     "id": "aUp%3F",
+     "type": "date",
+     "date": null
+    },
+    "Evidence Refs": {
+     "id": "dW~K",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "EVD-ASR7-BC-PLAN; Microsoft Business Central pricing; Microsoft Business Central licensing guide; Microsoft Learn Premium features",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "EVD-ASR7-BC-PLAN; Microsoft Business Central pricing; Microsoft Business Central licensing guide; Microsoft Learn Premium features",
+       "href": null
+      }
+     ]
+    },
+    "New State": {
+     "id": "l%5E%3FQ",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Business Central Edition/Plan divergence confirmed; Edition/Plan must be explicit context when classifying actual functional scope. Plan/licensing alone does not establish System_Type.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Business Central Edition/Plan divergence confirmed; Edition/Plan must be explicit context when classifying actual functional scope. Plan/licensing alone does not establish System_Type.",
+       "href": null
+      }
+     ]
+    },
+    "Commit Status": {
+     "id": "nIl%3A",
+     "type": "select",
+     "select": {
+      "id": "0fd88db4-71c1-48e0-90b1-e73f4d8b0e74",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Verification Status": {
+     "id": "te__",
+     "type": "select",
+     "select": {
+      "id": "ffb47284-73a2-4468-a0d9-56fd2352e32d",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASR-7 — Business Central Edition/Plan divergence confirmed",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASR-7 — Business Central Edition/Plan divergence confirmed",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/ASR-7-Business-Central-Edition-Plan-divergence-confirmed-3e758a0779e8813ba4f3f2547a9656e3",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-81ba-a69f-facea20d5f8b",
+   "created_time": "2026-09-26T12:53:00.000Z",
+   "last_edited_time": "2026-09-26T12:53:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "5fd2140e-bbd3-4c1b-8f0a-86f2764e5c1d"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Cycle ID": {
+     "id": "G%7Cj%7C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "CKC-54",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "CKC-54",
+       "href": null
+      }
+     ]
+    },
+    "Research Refs": {
+     "id": "HE%7D%3A",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASR-7",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASR-7",
+       "href": null
+      }
+     ]
+    },
+    "Change Type": {
+     "id": "INFO",
+     "type": "select",
+     "select": {
+      "id": "3f933182-b16e-4ec5-a05e-379b330dc15d",
+      "name": "CORRECTED",
+      "color": "orange"
+     }
+    },
+    "Reason": {
+     "id": "J_OB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "The historical Change Log row with Change ID 14 has null Change Type, Commit Status, and Verification Status because ASC-011 persistence was previously incomplete. The audit does not retroactively mark that failed/incomplete event as verified.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "The historical Change Log row with Change ID 14 has null Change Type, Commit Status, and Verification Status because ASC-011 persistence was previously incomplete. The audit does not retroactively mark that failed/incomplete event as verified.",
+       "href": null
+      }
+     ]
+    },
+    "Knowledge ID": {
+     "id": "YBi%5B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASK-2",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASK-2",
+       "href": null
+      }
+     ]
+    },
+    "Previous State": {
+     "id": "%5CNEt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Change ID 14 metadata incomplete; prior cycle ASC-011 was recorded with Commit_Status FAILED.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Change ID 14 metadata incomplete; prior cycle ASC-011 was recorded with Commit_Status FAILED.",
+       "href": null
+      }
+     ]
+    },
+    "Change ID": {
+     "id": "%5DMhS",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "ASC-CHG",
+      "number": 19
+     }
+    },
+    "Timestamp": {
+     "id": "aUp%3F",
+     "type": "date",
+     "date": null
+    },
+    "Evidence Refs": {
+     "id": "dW~K",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "CKC-50; Change ID 14; CKC-51; CKC-52; CKC-53",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "CKC-50; Change ID 14; CKC-51; CKC-52; CKC-53",
+       "href": null
+      }
+     ]
+    },
+    "New State": {
+     "id": "l%5E%3FQ",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Historical Change ID 14 remains preserved as incomplete; its interpretation is explicitly non-verified. Later verified evidence remains authoritative.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Historical Change ID 14 remains preserved as incomplete; its interpretation is explicitly non-verified. Later verified evidence remains authoritative.",
+       "href": null
+      }
+     ]
+    },
+    "Commit Status": {
+     "id": "nIl%3A",
+     "type": "select",
+     "select": {
+      "id": "0fd88db4-71c1-48e0-90b1-e73f4d8b0e74",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Verification Status": {
+     "id": "te__",
+     "type": "select",
+     "select": {
+      "id": "ffb47284-73a2-4468-a0d9-56fd2352e32d",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "AUDIT-2026-09-26 — Preserve incomplete ASC-011 metadata",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "AUDIT-2026-09-26 — Preserve incomplete ASC-011 metadata",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/AUDIT-2026-09-26-Preserve-incomplete-ASC-011-metadata-3e758a0779e881baa69ffacea20d5f8b",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-811a-94ba-fa8a0e8aaea7",
+   "created_time": "2026-09-26T12:51:00.000Z",
+   "last_edited_time": "2026-09-26T12:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "5fd2140e-bbd3-4c1b-8f0a-86f2764e5c1d"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Cycle ID": {
+     "id": "G%7Cj%7C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "CKC-54",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "CKC-54",
+       "href": null
+      }
+     ]
+    },
+    "Research Refs": {
+     "id": "HE%7D%3A",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASR-7; ASR-6",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASR-7; ASR-6",
+       "href": null
+      }
+     ]
+    },
+    "Change Type": {
+     "id": "INFO",
+     "type": "select",
+     "select": {
+      "id": "3f933182-b16e-4ec5-a05e-379b330dc15d",
+      "name": "CORRECTED",
+      "color": "orange"
+     }
+    },
+    "Reason": {
+     "id": "J_OB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Reconcile stale latest-cycle linkage, correct the evidentiary role of Thuy et al. (2026), and distinguish substantive knowledge change from subsequent audit metadata reconciliation. No historical record is deleted.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Reconcile stale latest-cycle linkage, correct the evidentiary role of Thuy et al. (2026), and distinguish substantive knowledge change from subsequent audit metadata reconciliation. No historical record is deleted.",
+       "href": null
+      }
+     ]
+    },
+    "Knowledge ID": {
+     "id": "YBi%5B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASK-2",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASK-2",
+       "href": null
+      }
+     ]
+    },
+    "Previous State": {
+     "id": "%5CNEt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ACTIVE; Last Changed By Cycle = ASC-015; Thuy et al. 2026 treated as conceptual boundary support",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ACTIVE; Last Changed By Cycle = ASC-015; Thuy et al. 2026 treated as conceptual boundary support",
+       "href": null
+      }
+     ]
+    },
+    "Change ID": {
+     "id": "%5DMhS",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "ASC-CHG",
+      "number": 18
+     }
+    },
+    "Timestamp": {
+     "id": "aUp%3F",
+     "type": "date",
+     "date": null
+    },
+    "Evidence Refs": {
+     "id": "dW~K",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "CKC-53; ASC-014-CHG-001; SRC-ASR6-IND-03; EVD-ASR6-IND-03; EVD-ASR7-MOSSA-2025; EVD-ASR7-SINGH-2006; Mossa et al. (2025); Khan et al. (2025); Singh (2006)",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "CKC-53; ASC-014-CHG-001; SRC-ASR6-IND-03; EVD-ASR6-IND-03; EVD-ASR7-MOSSA-2025; EVD-ASR7-SINGH-2006; Mossa et al. (2025); Khan et al. (2025); Singh (2006)",
+       "href": null
+      }
+     ]
+    },
+    "New State": {
+     "id": "l%5E%3FQ",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ACTIVE; substantive prior knowledge update = CKC-53 / ASC-014; current audit metadata/context reconciliation = CKC-54; Thuy et al. 2026 contextualized as empirical ERP integration/implementation evidence, not formal taxonomy-boundary validation",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ACTIVE; substantive prior knowledge update = CKC-53 / ASC-014; current audit metadata/context reconciliation = CKC-54; Thuy et al. 2026 contextualized as empirical ERP integration/implementation evidence, not formal taxonomy-boundary validation",
+       "href": null
+      }
+     ]
+    },
+    "Commit Status": {
+     "id": "nIl%3A",
+     "type": "select",
+     "select": {
+      "id": "0fd88db4-71c1-48e0-90b1-e73f4d8b0e74",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Verification Status": {
+     "id": "te__",
+     "type": "select",
+     "select": {
+      "id": "ffb47284-73a2-4468-a0d9-56fd2352e32d",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "AUDIT-2026-09-26 — Reconcile provenance and latest-cycle linkage",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "AUDIT-2026-09-26 — Reconcile provenance and latest-cycle linkage",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/AUDIT-2026-09-26-Reconcile-provenance-and-latest-cycle-linkage-3e758a0779e8811a94bafa8a0e8aaea7",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-81e8-87cb-cd316189b7a4",
+   "created_time": "2026-09-26T11:28:00.000Z",
+   "last_edited_time": "2026-09-26T11:28:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "5fd2140e-bbd3-4c1b-8f0a-86f2764e5c1d"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Cycle ID": {
+     "id": "G%7Cj%7C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASC-014",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASC-014",
+       "href": null
+      }
+     ]
+    },
+    "Research Refs": {
+     "id": "HE%7D%3A",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASR-7",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASR-7",
+       "href": null
+      }
+     ]
+    },
+    "Change Type": {
+     "id": "INFO",
+     "type": "select",
+     "select": {
+      "id": "3d982269-7b7d-4c4d-933e-1ac4049f3bec",
+      "name": "CONFIRMED",
+      "color": "blue"
+     }
+    },
+    "Reason": {
+     "id": "J_OB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Business Central broad native functional scope and separate-product integration documentation reinforce the distinction between native scope and external integration.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Business Central broad native functional scope and separate-product integration documentation reinforce the distinction between native scope and external integration.",
+       "href": null
+      }
+     ]
+    },
+    "Knowledge ID": {
+     "id": "YBi%5B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASK-2",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASK-2",
+       "href": null
+      }
+     ]
+    },
+    "Previous State": {
+     "id": "%5CNEt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ACTIVE",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ACTIVE",
+       "href": null
+      }
+     ]
+    },
+    "Change ID": {
+     "id": "%5DMhS",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "ASC-CHG",
+      "number": 17
+     }
+    },
+    "Timestamp": {
+     "id": "aUp%3F",
+     "type": "date",
+     "date": null
+    },
+    "Evidence Refs": {
+     "id": "dW~K",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "EVD-ASC014-BC-01",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "EVD-ASC014-BC-01",
+       "href": null
+      }
+     ]
+    },
+    "New State": {
+     "id": "l%5E%3FQ",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ACTIVE",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ACTIVE",
+       "href": null
+      }
+     ]
+    },
+    "Commit Status": {
+     "id": "nIl%3A",
+     "type": "select",
+     "select": {
+      "id": "0fd88db4-71c1-48e0-90b1-e73f4d8b0e74",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Verification Status": {
+     "id": "te__",
+     "type": "select",
+     "select": {
+      "id": "ffb47284-73a2-4468-a0d9-56fd2352e32d",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASC-014-CHG-001 — Confirm native vs external integration distinction",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASC-014-CHG-001 — Confirm native vs external integration distinction",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/ASC-014-CHG-001-Confirm-native-vs-external-integration-distinction-3e758a0779e881e887cbcd316189b7a4",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-812b-a8a9-e49fe4e8d1d7",
+   "created_time": "2026-09-26T10:28:00.000Z",
+   "last_edited_time": "2026-09-26T10:28:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "5fd2140e-bbd3-4c1b-8f0a-86f2764e5c1d"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Cycle ID": {
+     "id": "G%7Cj%7C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASC-013",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASC-013",
+       "href": null
+      }
+     ]
+    },
+    "Research Refs": {
+     "id": "HE%7D%3A",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASR-7",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASR-7",
+       "href": null
+      }
+     ]
+    },
+    "Change Type": {
+     "id": "INFO",
+     "type": "select",
+     "select": {
+      "id": "3d982269-7b7d-4c4d-933e-1ac4049f3bec",
+      "name": "CONFIRMED",
+      "color": "blue"
+     }
+    },
+    "Reason": {
+     "id": "J_OB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Second product-family test using Oracle Fusion Cloud Financials 26C confirms that market/localization/version context can materially alter accounting and reporting configuration without independently changing System Type. Saudi-specific current feature coverage remains UNKNOWN.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Second product-family test using Oracle Fusion Cloud Financials 26C confirms that market/localization/version context can materially alter accounting and reporting configuration without independently changing System Type. Saudi-specific current feature coverage remains UNKNOWN.",
+       "href": null
+      }
+     ]
+    },
+    "Knowledge ID": {
+     "id": "YBi%5B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASK-2",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASK-2",
+       "href": null
+      }
+     ]
+    },
+    "Previous State": {
+     "id": "%5CNEt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ACTIVE",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ACTIVE",
+       "href": null
+      }
+     ]
+    },
+    "Change ID": {
+     "id": "%5DMhS",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "ASC-CHG",
+      "number": 16
+     }
+    },
+    "Timestamp": {
+     "id": "aUp%3F",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Evidence Refs": {
+     "id": "dW~K",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "EVD-ASC013-ORACLE-US; EVD-ASC013-ORACLE-EMEA",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "EVD-ASC013-ORACLE-US; EVD-ASC013-ORACLE-EMEA",
+       "href": null
+      }
+     ]
+    },
+    "New State": {
+     "id": "l%5E%3FQ",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ACTIVE",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ACTIVE",
+       "href": null
+      }
+     ]
+    },
+    "Commit Status": {
+     "id": "nIl%3A",
+     "type": "select",
+     "select": {
+      "id": "0fd88db4-71c1-48e0-90b1-e73f4d8b0e74",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Verification Status": {
+     "id": "te__",
+     "type": "select",
+     "select": {
+      "id": "ffb47284-73a2-4468-a0d9-56fd2352e32d",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASC-013-CHG-001 — Confirm cross-product Version/Localization materiality",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASC-013-CHG-001 — Confirm cross-product Version/Localization materiality",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/ASC-013-CHG-001-Confirm-cross-product-Version-Localization-materiality-3e758a0779e8812ba8a9e49fe4e8d1d7",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-8142-8d61-fbf4750474cf",
+   "created_time": "2026-09-26T09:31:00.000Z",
+   "last_edited_time": "2026-09-26T09:31:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "5fd2140e-bbd3-4c1b-8f0a-86f2764e5c1d"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Cycle ID": {
+     "id": "G%7Cj%7C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASC-012",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASC-012",
+       "href": null
+      }
+     ]
+    },
+    "Research Refs": {
+     "id": "HE%7D%3A",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASR-7",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASR-7",
+       "href": null
+      }
+     ]
+    },
+    "Change Type": {
+     "id": "INFO",
+     "type": "select",
+     "select": {
+      "id": "3d982269-7b7d-4c4d-933e-1ac4049f3bec",
+      "name": "CONFIRMED",
+      "color": "blue"
+     }
+    },
+    "Reason": {
+     "id": "J_OB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Version and Localization are material classification context; country/version differences can alter accounting/reporting scope without independently changing System_Type.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Version and Localization are material classification context; country/version differences can alter accounting/reporting scope without independently changing System_Type.",
+       "href": null
+      }
+     ]
+    },
+    "Knowledge ID": {
+     "id": "YBi%5B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASK-2",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASK-2",
+       "href": null
+      }
+     ]
+    },
+    "Previous State": {
+     "id": "%5CNEt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ACTIVE",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ACTIVE",
+       "href": null
+      }
+     ]
+    },
+    "Change ID": {
+     "id": "%5DMhS",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "ASC-CHG",
+      "number": 15
+     }
+    },
+    "Timestamp": {
+     "id": "aUp%3F",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Evidence Refs": {
+     "id": "dW~K",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "EVD-ASC012-D365-LOC-01; EVD-ASC012-ERP-LOC-IND-01",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "EVD-ASC012-D365-LOC-01; EVD-ASC012-ERP-LOC-IND-01",
+       "href": null
+      }
+     ]
+    },
+    "New State": {
+     "id": "l%5E%3FQ",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ACTIVE",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ACTIVE",
+       "href": null
+      }
+     ]
+    },
+    "Commit Status": {
+     "id": "nIl%3A",
+     "type": "select",
+     "select": {
+      "id": "0fd88db4-71c1-48e0-90b1-e73f4d8b0e74",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Verification Status": {
+     "id": "te__",
+     "type": "select",
+     "select": {
+      "id": "ffb47284-73a2-4468-a0d9-56fd2352e32d",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASC-012-CHG-001 — Confirm Version/Localization materiality",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASC-012-CHG-001 — Confirm Version/Localization materiality",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/ASC-012-CHG-001-Confirm-Version-Localization-materiality-3e758a0779e881428d61fbf4750474cf",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-81ee-8884-f189c47cf224",
+   "created_time": "2026-09-26T08:33:00.000Z",
+   "last_edited_time": "2026-09-26T08:33:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "5fd2140e-bbd3-4c1b-8f0a-86f2764e5c1d"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Cycle ID": {
+     "id": "G%7Cj%7C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASC-011",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASC-011",
+       "href": null
+      }
+     ]
+    },
+    "Research Refs": {
+     "id": "HE%7D%3A",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASR-7",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASR-7",
+       "href": null
+      }
+     ]
+    },
+    "Change Type": {
+     "id": "INFO",
+     "type": "select",
+     "select": null
+    },
+    "Reason": {
+     "id": "J_OB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Odoo 19.0 official documentation shows country localization modules and versioned reporting modules can materially alter accounting/reporting scope.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Odoo 19.0 official documentation shows country localization modules and versioned reporting modules can materially alter accounting/reporting scope.",
+       "href": null
+      }
+     ]
+    },
+    "Knowledge ID": {
+     "id": "YBi%5B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASK-2",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASK-2",
+       "href": null
+      }
+     ]
+    },
+    "Previous State": {
+     "id": "%5CNEt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ACTIVE",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ACTIVE",
+       "href": null
+      }
+     ]
+    },
+    "Change ID": {
+     "id": "%5DMhS",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "ASC-CHG",
+      "number": 14
+     }
+    },
+    "Timestamp": {
+     "id": "aUp%3F",
+     "type": "date",
+     "date": null
+    },
+    "Evidence Refs": {
+     "id": "dW~K",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "EVD-ASR7-OD19-LOC-01; EVD-ASR7-OD19-LOC-02",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "EVD-ASR7-OD19-LOC-01; EVD-ASR7-OD19-LOC-02",
+       "href": null
+      }
+     ]
+    },
+    "New State": {
+     "id": "l%5E%3FQ",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ACTIVE",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ACTIVE",
+       "href": null
+      }
+     ]
+    },
+    "Commit Status": {
+     "id": "nIl%3A",
+     "type": "select",
+     "select": null
+    },
+    "Verification Status": {
+     "id": "te__",
+     "type": "select",
+     "select": null
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASC-011-CHG-001 — Confirm Version/Localization materiality",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASC-011-CHG-001 — Confirm Version/Localization materiality",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/ASC-011-CHG-001-Confirm-Version-Localization-materiality-3e758a0779e881ee8884f189c47cf224",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-8101-a943-e6eaffedfd7c",
+   "created_time": "2026-09-26T07:33:00.000Z",
+   "last_edited_time": "2026-09-26T07:33:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "5fd2140e-bbd3-4c1b-8f0a-86f2764e5c1d"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Cycle ID": {
+     "id": "G%7Cj%7C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASC-010",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASC-010",
+       "href": null
+      }
+     ]
+    },
+    "Research Refs": {
+     "id": "HE%7D%3A",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASR-7",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASR-7",
+       "href": null
+      }
+     ]
+    },
+    "Change Type": {
+     "id": "INFO",
+     "type": "select",
+     "select": {
+      "id": "3d982269-7b7d-4c4d-933e-1ac4049f3bec",
+      "name": "CONFIRMED",
+      "color": "blue"
+     }
+    },
+    "Reason": {
+     "id": "J_OB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Independent 2025 ERP review reinforces that modularity and integration are distinct ERP characteristics; it strengthens the taxonomy separation but does not close the licensing-specific independent evidence gap.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Independent 2025 ERP review reinforces that modularity and integration are distinct ERP characteristics; it strengthens the taxonomy separation but does not close the licensing-specific independent evidence gap.",
+       "href": null
+      }
+     ]
+    },
+    "Knowledge ID": {
+     "id": "YBi%5B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASK-2",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASK-2",
+       "href": null
+      }
+     ]
+    },
+    "Previous State": {
+     "id": "%5CNEt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ACTIVE",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ACTIVE",
+       "href": null
+      }
+     ]
+    },
+    "Change ID": {
+     "id": "%5DMhS",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "ASC-CHG",
+      "number": 13
+     }
+    },
+    "Timestamp": {
+     "id": "aUp%3F",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Evidence Refs": {
+     "id": "dW~K",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "EVD-ASR7-ACADEMIC-03",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "EVD-ASR7-ACADEMIC-03",
+       "href": null
+      }
+     ]
+    },
+    "New State": {
+     "id": "l%5E%3FQ",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ACTIVE",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ACTIVE",
+       "href": null
+      }
+     ]
+    },
+    "Commit Status": {
+     "id": "nIl%3A",
+     "type": "select",
+     "select": {
+      "id": "0fd88db4-71c1-48e0-90b1-e73f4d8b0e74",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Verification Status": {
+     "id": "te__",
+     "type": "select",
+     "select": {
+      "id": "ffb47284-73a2-4468-a0d9-56fd2352e32d",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASC-010-CHG-001 — Confirm modularity remains separate from Functional Scope",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASC-010-CHG-001 — Confirm modularity remains separate from Functional Scope",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/ASC-010-CHG-001-Confirm-modularity-remains-separate-from-Functional-Scope-3e758a0779e88101a943e6eaffedfd7c",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-8155-b18c-e3645a8d3d05",
+   "created_time": "2026-09-26T06:29:00.000Z",
+   "last_edited_time": "2026-09-26T06:29:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "5fd2140e-bbd3-4c1b-8f0a-86f2764e5c1d"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Cycle ID": {
+     "id": "G%7Cj%7C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASC-009",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASC-009",
+       "href": null
+      }
+     ]
+    },
+    "Research Refs": {
+     "id": "HE%7D%3A",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASR-7",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASR-7",
+       "href": null
+      }
+     ]
+    },
+    "Change Type": {
+     "id": "INFO",
+     "type": "select",
+     "select": {
+      "id": "3d982269-7b7d-4c4d-933e-1ac4049f3bec",
+      "name": "CONFIRMED",
+      "color": "blue"
+     }
+    },
+    "Reason": {
+     "id": "J_OB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Independent academic evidence from Singh (2006) and Turner & Chung (2005) supports treating Licensing/Modularity as separate dimensions from Functional Scope and integration; no product-level System Type change is justified.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Independent academic evidence from Singh (2006) and Turner & Chung (2005) supports treating Licensing/Modularity as separate dimensions from Functional Scope and integration; no product-level System Type change is justified.",
+       "href": null
+      }
+     ]
+    },
+    "Knowledge ID": {
+     "id": "YBi%5B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASK-2",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASK-2",
+       "href": null
+      }
+     ]
+    },
+    "Previous State": {
+     "id": "%5CNEt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ACTIVE",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ACTIVE",
+       "href": null
+      }
+     ]
+    },
+    "Change ID": {
+     "id": "%5DMhS",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "ASC-CHG",
+      "number": 12
+     }
+    },
+    "Timestamp": {
+     "id": "aUp%3F",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Evidence Refs": {
+     "id": "dW~K",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "EVD-ASR7-ACADEMIC-01; EVD-ASR7-ACADEMIC-02",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "EVD-ASR7-ACADEMIC-01; EVD-ASR7-ACADEMIC-02",
+       "href": null
+      }
+     ]
+    },
+    "New State": {
+     "id": "l%5E%3FQ",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ACTIVE",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ACTIVE",
+       "href": null
+      }
+     ]
+    },
+    "Commit Status": {
+     "id": "nIl%3A",
+     "type": "select",
+     "select": {
+      "id": "0fd88db4-71c1-48e0-90b1-e73f4d8b0e74",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Verification Status": {
+     "id": "te__",
+     "type": "select",
+     "select": {
+      "id": "ffb47284-73a2-4468-a0d9-56fd2352e32d",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASC-009-CHG-001 — Confirm independent modularity/licensing boundary evidence",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASC-009-CHG-001 — Confirm independent modularity/licensing boundary evidence",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/ASC-009-CHG-001-Confirm-independent-modularity-licensing-boundary-evidence-3e758a0779e88155b18ce3645a8d3d05",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-8139-b8c5-cb9ab82bdba0",
+   "created_time": "2026-09-26T05:31:00.000Z",
+   "last_edited_time": "2026-09-26T05:31:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "5fd2140e-bbd3-4c1b-8f0a-86f2764e5c1d"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Cycle ID": {
+     "id": "G%7Cj%7C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASC-008",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASC-008",
+       "href": null
+      }
+     ]
+    },
+    "Research Refs": {
+     "id": "HE%7D%3A",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASR-7",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASR-7",
+       "href": null
+      }
+     ]
+    },
+    "Change Type": {
+     "id": "INFO",
+     "type": "select",
+     "select": {
+      "id": "3d982269-7b7d-4c4d-933e-1ac4049f3bec",
+      "name": "CONFIRMED",
+      "color": "blue"
+     }
+    },
+    "Reason": {
+     "id": "J_OB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Oracle modular ERP documentation reinforces that separately licensed/sold modules do not by themselves determine System Type; Licensing remains a distinct classification dimension.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Oracle modular ERP documentation reinforces that separately licensed/sold modules do not by themselves determine System Type; Licensing remains a distinct classification dimension.",
+       "href": null
+      }
+     ]
+    },
+    "Knowledge ID": {
+     "id": "YBi%5B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASK-2",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASK-2",
+       "href": null
+      }
+     ]
+    },
+    "Previous State": {
+     "id": "%5CNEt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ACTIVE",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ACTIVE",
+       "href": null
+      }
+     ]
+    },
+    "Change ID": {
+     "id": "%5DMhS",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "ASC-CHG",
+      "number": 11
+     }
+    },
+    "Timestamp": {
+     "id": "aUp%3F",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26T08:30:00.000+03:00",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Evidence Refs": {
+     "id": "dW~K",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Oracle ERP modularity licensing evidence",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Oracle ERP modularity licensing evidence",
+       "href": null
+      }
+     ]
+    },
+    "New State": {
+     "id": "l%5E%3FQ",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ACTIVE",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ACTIVE",
+       "href": null
+      }
+     ]
+    },
+    "Commit Status": {
+     "id": "nIl%3A",
+     "type": "select",
+     "select": {
+      "id": "0fd88db4-71c1-48e0-90b1-e73f4d8b0e74",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Verification Status": {
+     "id": "te__",
+     "type": "select",
+     "select": {
+      "id": "ffb47284-73a2-4468-a0d9-56fd2352e32d",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASC-008-CHG-001 — Confirm Licensing remains separate from Functional Scope",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASC-008-CHG-001 — Confirm Licensing remains separate from Functional Scope",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/ASC-008-CHG-001-Confirm-Licensing-remains-separate-from-Functional-Scope-3e758a0779e88139b8c5cb9ab82bdba0",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-8144-a266-f34325425059",
+   "created_time": "2026-09-26T04:30:00.000Z",
+   "last_edited_time": "2026-09-26T04:30:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "5fd2140e-bbd3-4c1b-8f0a-86f2764e5c1d"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Cycle ID": {
+     "id": "G%7Cj%7C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "CKC-46",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "CKC-46",
+       "href": null
+      }
+     ]
+    },
+    "Research Refs": {
+     "id": "HE%7D%3A",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASR-7",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASR-7",
+       "href": null
+      }
+     ]
+    },
+    "Change Type": {
+     "id": "INFO",
+     "type": "select",
+     "select": {
+      "id": "3f933182-b16e-4ec5-a05e-379b330dc15d",
+      "name": "CORRECTED",
+      "color": "orange"
+     }
+    },
+    "Reason": {
+     "id": "J_OB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Correct the cycle linkage metadata from ASC-007 to the actual Notion auto-generated Cycle ID CKC-46. No knowledge state change is implied.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Correct the cycle linkage metadata from ASC-007 to the actual Notion auto-generated Cycle ID CKC-46. No knowledge state change is implied.",
+       "href": null
+      }
+     ]
+    },
+    "Knowledge ID": {
+     "id": "YBi%5B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASK-2",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASK-2",
+       "href": null
+      }
+     ]
+    },
+    "Previous State": {
+     "id": "%5CNEt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ACTIVE",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ACTIVE",
+       "href": null
+      }
+     ]
+    },
+    "Change ID": {
+     "id": "%5DMhS",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "ASC-CHG",
+      "number": 10
+     }
+    },
+    "Timestamp": {
+     "id": "aUp%3F",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26T04:30:00.000+00:00",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Evidence Refs": {
+     "id": "dW~K",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "EVD-ASC6-SAP-01",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "EVD-ASC6-SAP-01",
+       "href": null
+      }
+     ]
+    },
+    "New State": {
+     "id": "l%5E%3FQ",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ACTIVE",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ACTIVE",
+       "href": null
+      }
+     ]
+    },
+    "Commit Status": {
+     "id": "nIl%3A",
+     "type": "select",
+     "select": {
+      "id": "0fd88db4-71c1-48e0-90b1-e73f4d8b0e74",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Verification Status": {
+     "id": "te__",
+     "type": "select",
+     "select": {
+      "id": "ffb47284-73a2-4468-a0d9-56fd2352e32d",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASC-007-CHG-CORR — Correct cycle identifier linkage",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASC-007-CHG-CORR — Correct cycle identifier linkage",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/ASC-007-CHG-CORR-Correct-cycle-identifier-linkage-3e758a0779e88144a266f34325425059",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-81fd-ae4e-fd5d00705029",
+   "created_time": "2026-09-26T04:29:00.000Z",
+   "last_edited_time": "2026-09-26T04:29:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "5fd2140e-bbd3-4c1b-8f0a-86f2764e5c1d"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Cycle ID": {
+     "id": "G%7Cj%7C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASC-007",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASC-007",
+       "href": null
+      }
+     ]
+    },
+    "Research Refs": {
+     "id": "HE%7D%3A",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASR-7",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASR-7",
+       "href": null
+      }
+     ]
+    },
+    "Change Type": {
+     "id": "INFO",
+     "type": "select",
+     "select": {
+      "id": "3d982269-7b7d-4c4d-933e-1ac4049f3bec",
+      "name": "CONFIRMED",
+      "color": "blue"
+     }
+    },
+    "Reason": {
+     "id": "J_OB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Finance-suite test with SAP S/4HANA Cloud Public Edition 2608 confirms that license-dependent/region-specific scenarios do not by themselves change the System Type classification. Licensing remains a separate dimension from Functional Scope.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Finance-suite test with SAP S/4HANA Cloud Public Edition 2608 confirms that license-dependent/region-specific scenarios do not by themselves change the System Type classification. Licensing remains a separate dimension from Functional Scope.",
+       "href": null
+      }
+     ]
+    },
+    "Knowledge ID": {
+     "id": "YBi%5B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASK-2",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASK-2",
+       "href": null
+      }
+     ]
+    },
+    "Previous State": {
+     "id": "%5CNEt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ACTIVE",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ACTIVE",
+       "href": null
+      }
+     ]
+    },
+    "Change ID": {
+     "id": "%5DMhS",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "ASC-CHG",
+      "number": 9
+     }
+    },
+    "Timestamp": {
+     "id": "aUp%3F",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26T07:29:00.000+03:00",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Evidence Refs": {
+     "id": "dW~K",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "EVD-ASC6-SAP-01",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "EVD-ASC6-SAP-01",
+       "href": null
+      }
+     ]
+    },
+    "New State": {
+     "id": "l%5E%3FQ",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ACTIVE",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ACTIVE",
+       "href": null
+      }
+     ]
+    },
+    "Commit Status": {
+     "id": "nIl%3A",
+     "type": "select",
+     "select": {
+      "id": "0fd88db4-71c1-48e0-90b1-e73f4d8b0e74",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Verification Status": {
+     "id": "te__",
+     "type": "select",
+     "select": {
+      "id": "ffb47284-73a2-4468-a0d9-56fd2352e32d",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASC-007-CHG — Confirm Licensing separate from Functional Scope",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASC-007-CHG — Confirm Licensing separate from Functional Scope",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/ASC-007-CHG-Confirm-Licensing-separate-from-Functional-Scope-3e758a0779e881fdae4efd5d00705029",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-81c0-900a-f684875a5f9c",
+   "created_time": "2026-09-26T03:31:00.000Z",
+   "last_edited_time": "2026-09-26T03:31:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "5fd2140e-bbd3-4c1b-8f0a-86f2764e5c1d"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Cycle ID": {
+     "id": "G%7Cj%7C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASC-005",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASC-005",
+       "href": null
+      }
+     ]
+    },
+    "Research Refs": {
+     "id": "HE%7D%3A",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASR-6",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASR-6",
+       "href": null
+      }
+     ]
+    },
+    "Change Type": {
+     "id": "INFO",
+     "type": "select",
+     "select": {
+      "id": "3d982269-7b7d-4c4d-933e-1ac4049f3bec",
+      "name": "CONFIRMED",
+      "color": "blue"
+     }
+    },
+    "Reason": {
+     "id": "J_OB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Independent conceptual validation was already present. This cycle adds multi-vendor boundary evidence showing that optional/add-on or external integrations must be distinguished from native enterprise-wide functional integration.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Independent conceptual validation was already present. This cycle adds multi-vendor boundary evidence showing that optional/add-on or external integrations must be distinguished from native enterprise-wide functional integration.",
+       "href": null
+      }
+     ]
+    },
+    "Knowledge ID": {
+     "id": "YBi%5B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASK-2",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASK-2",
+       "href": null
+      }
+     ]
+    },
+    "Previous State": {
+     "id": "%5CNEt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ACTIVE",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ACTIVE",
+       "href": null
+      }
+     ]
+    },
+    "Change ID": {
+     "id": "%5DMhS",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "ASC-CHG",
+      "number": 8
+     }
+    },
+    "Timestamp": {
+     "id": "aUp%3F",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26T06:31:00.000+03:00",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Evidence Refs": {
+     "id": "dW~K",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "EVD-ASR6-005-ZOHO; EVD-ASR6-005-QBO; EVD-ASR6-005-ODOO",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "EVD-ASR6-005-ZOHO; EVD-ASR6-005-QBO; EVD-ASR6-005-ODOO",
+       "href": null
+      }
+     ]
+    },
+    "New State": {
+     "id": "l%5E%3FQ",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ACTIVE",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ACTIVE",
+       "href": null
+      }
+     ]
+    },
+    "Commit Status": {
+     "id": "nIl%3A",
+     "type": "select",
+     "select": {
+      "id": "0fd88db4-71c1-48e0-90b1-e73f4d8b0e74",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Verification Status": {
+     "id": "te__",
+     "type": "select",
+     "select": {
+      "id": "ffb47284-73a2-4468-a0d9-56fd2352e32d",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Confirm ASK-2 with optional-module and external-integration boundary evidence",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Confirm ASK-2 with optional-module and external-integration boundary evidence",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Confirm-ASK-2-with-optional-module-and-external-integration-boundary-evidence-3e758a0779e881c0900af684875a5f9c",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-8190-be8e-c3228e979f72",
+   "created_time": "2026-09-26T02:30:00.000Z",
+   "last_edited_time": "2026-09-26T02:30:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "5fd2140e-bbd3-4c1b-8f0a-86f2764e5c1d"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Cycle ID": {
+     "id": "G%7Cj%7C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASC-004",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASC-004",
+       "href": null
+      }
+     ]
+    },
+    "Research Refs": {
+     "id": "HE%7D%3A",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASR-5; ASR-6",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASR-5; ASR-6",
+       "href": null
+      }
+     ]
+    },
+    "Change Type": {
+     "id": "INFO",
+     "type": "select",
+     "select": {
+      "id": "3f933182-b16e-4ec5-a05e-379b330dc15d",
+      "name": "CORRECTED",
+      "color": "orange"
+     }
+    },
+    "Reason": {
+     "id": "J_OB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Reconciliation detected that the first research-page write targeted ASR-5 rather than ASR-6. The ASR-5 update is evidence-consistent and retained; ASR-6 was then explicitly updated and re-read. The cycle log was corrected to PARTIAL rather than claiming an unqualified completion.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Reconciliation detected that the first research-page write targeted ASR-5 rather than ASR-6. The ASR-5 update is evidence-consistent and retained; ASR-6 was then explicitly updated and re-read. The cycle log was corrected to PARTIAL rather than claiming an unqualified completion.",
+       "href": null
+      }
+     ]
+    },
+    "Knowledge ID": {
+     "id": "YBi%5B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASK-2",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASK-2",
+       "href": null
+      }
+     ]
+    },
+    "Previous State": {
+     "id": "%5CNEt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASR-6 Backlog; ASR-5 updated during initial write",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASR-6 Backlog; ASR-5 updated during initial write",
+       "href": null
+      }
+     ]
+    },
+    "Change ID": {
+     "id": "%5DMhS",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "ASC-CHG",
+      "number": 7
+     }
+    },
+    "Timestamp": {
+     "id": "aUp%3F",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Evidence Refs": {
+     "id": "dW~K",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "EVD-ASR6-IND-01; EVD-ASR6-IND-02; EVD-ASR6-IND-03; QuickBooks/Odoo/ERPNext functional-scope evidence",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "EVD-ASR6-IND-01; EVD-ASR6-IND-02; EVD-ASR6-IND-03; QuickBooks/Odoo/ERPNext functional-scope evidence",
+       "href": null
+      }
+     ]
+    },
+    "New State": {
+     "id": "l%5E%3FQ",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASR-6 Integrated; ASR-5 Integrated",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASR-6 Integrated; ASR-5 Integrated",
+       "href": null
+      }
+     ]
+    },
+    "Commit Status": {
+     "id": "nIl%3A",
+     "type": "select",
+     "select": {
+      "id": "0fd88db4-71c1-48e0-90b1-e73f4d8b0e74",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Verification Status": {
+     "id": "te__",
+     "type": "select",
+     "select": {
+      "id": "ffb47284-73a2-4468-a0d9-56fd2352e32d",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASC-004-CHG-002 — Correct research-target reconciliation",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASC-004-CHG-002 — Correct research-target reconciliation",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/ASC-004-CHG-002-Correct-research-target-reconciliation-3e758a0779e88190be8ec3228e979f72",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-81bc-ab18-df8e9dab9bfa",
+   "created_time": "2026-09-26T02:29:00.000Z",
+   "last_edited_time": "2026-09-26T02:29:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "5fd2140e-bbd3-4c1b-8f0a-86f2764e5c1d"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Cycle ID": {
+     "id": "G%7Cj%7C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASC-004",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASC-004",
+       "href": null
+      }
+     ]
+    },
+    "Research Refs": {
+     "id": "HE%7D%3A",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASR-6",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASR-6",
+       "href": null
+      }
+     ]
+    },
+    "Change Type": {
+     "id": "INFO",
+     "type": "select",
+     "select": {
+      "id": "d906ebff-e125-4da2-9fda-cb5ef36f1f85",
+      "name": "UPDATED",
+      "color": "yellow"
+     }
+    },
+    "Reason": {
+     "id": "J_OB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Independent conceptual validation was extended with three representative product-class tests. The evidence supports the Scope-before-Label rule but does not justify product-level classification without version/edition/localization/market context.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Independent conceptual validation was extended with three representative product-class tests. The evidence supports the Scope-before-Label rule but does not justify product-level classification without version/edition/localization/market context.",
+       "href": null
+      }
+     ]
+    },
+    "Knowledge ID": {
+     "id": "YBi%5B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASK-2",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASK-2",
+       "href": null
+      }
+     ]
+    },
+    "Previous State": {
+     "id": "%5CNEt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "RESEARCH_QUEUE: Backlog",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "RESEARCH_QUEUE: Backlog",
+       "href": null
+      }
+     ]
+    },
+    "Change ID": {
+     "id": "%5DMhS",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "ASC-CHG",
+      "number": 6
+     }
+    },
+    "Timestamp": {
+     "id": "aUp%3F",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Evidence Refs": {
+     "id": "dW~K",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "EVD-ASR6-IND-01; EVD-ASR6-IND-02; EVD-ASR6-IND-03; QuickBooks/Odoo/ERPNext functional-scope evidence",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "EVD-ASR6-IND-01; EVD-ASR6-IND-02; EVD-ASR6-IND-03; QuickBooks/Odoo/ERPNext functional-scope evidence",
+       "href": null
+      }
+     ]
+    },
+    "New State": {
+     "id": "l%5E%3FQ",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "RESEARCH_QUEUE: Integrated",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "RESEARCH_QUEUE: Integrated",
+       "href": null
+      }
+     ]
+    },
+    "Commit Status": {
+     "id": "nIl%3A",
+     "type": "select",
+     "select": {
+      "id": "0fd88db4-71c1-48e0-90b1-e73f4d8b0e74",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Verification Status": {
+     "id": "te__",
+     "type": "select",
+     "select": {
+      "id": "ffb47284-73a2-4468-a0d9-56fd2352e32d",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASC-004-CHG-001 — Integrate ASR-6 product-class validation",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASC-004-CHG-001 — Integrate ASR-6 product-class validation",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/ASC-004-CHG-001-Integrate-ASR-6-product-class-validation-3e758a0779e881bcab18df8e9dab9bfa",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-819a-8018-f7ae56c96ffb",
+   "created_time": "2026-09-26T00:30:00.000Z",
+   "last_edited_time": "2026-09-26T00:30:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "5fd2140e-bbd3-4c1b-8f0a-86f2764e5c1d"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Cycle ID": {
+     "id": "G%7Cj%7C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASC-002",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASC-002",
+       "href": null
+      }
+     ]
+    },
+    "Research Refs": {
+     "id": "HE%7D%3A",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASR-5; ASR-6",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASR-5; ASR-6",
+       "href": null
+      }
+     ]
+    },
+    "Change Type": {
+     "id": "INFO",
+     "type": "select",
+     "select": {
+      "id": "3d982269-7b7d-4c4d-933e-1ac4049f3bec",
+      "name": "CONFIRMED",
+      "color": "blue"
+     }
+    },
+    "Reason": {
+     "id": "J_OB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Reconciliation after partial tool execution: ASK-1 is verified in Notion as ACTIVE with Commit Status VERIFIED and Last Changed By Cycle ASC-002.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Reconciliation after partial tool execution: ASK-1 is verified in Notion as ACTIVE with Commit Status VERIFIED and Last Changed By Cycle ASC-002.",
+       "href": null
+      }
+     ]
+    },
+    "Knowledge ID": {
+     "id": "YBi%5B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASK-1",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASK-1",
+       "href": null
+      }
+     ]
+    },
+    "Previous State": {
+     "id": "%5CNEt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "SYNTHESIZED",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "SYNTHESIZED",
+       "href": null
+      }
+     ]
+    },
+    "Change ID": {
+     "id": "%5DMhS",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "ASC-CHG",
+      "number": 5
+     }
+    },
+    "Timestamp": {
+     "id": "aUp%3F",
+     "type": "date",
+     "date": null
+    },
+    "Evidence Refs": {
+     "id": "dW~K",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "EVD-ASR6-IND-01; EVD-ASR6-IND-02; EVD-ASR6-IND-03",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "EVD-ASR6-IND-01; EVD-ASR6-IND-02; EVD-ASR6-IND-03",
+       "href": null
+      }
+     ]
+    },
+    "New State": {
+     "id": "l%5E%3FQ",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ACTIVE",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ACTIVE",
+       "href": null
+      }
+     ]
+    },
+    "Commit Status": {
+     "id": "nIl%3A",
+     "type": "select",
+     "select": {
+      "id": "0fd88db4-71c1-48e0-90b1-e73f4d8b0e74",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Verification Status": {
+     "id": "te__",
+     "type": "select",
+     "select": {
+      "id": "ffb47284-73a2-4468-a0d9-56fd2352e32d",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASC-002-RECON-001 — Verify ASK-1 promotion",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASC-002-RECON-001 — Verify ASK-1 promotion",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/ASC-002-RECON-001-Verify-ASK-1-promotion-3e758a0779e8819a8018f7ae56c96ffb",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-81c1-a275-d28e5c83e00e",
+   "created_time": "2026-09-26T00:30:00.000Z",
+   "last_edited_time": "2026-09-26T00:30:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "5fd2140e-bbd3-4c1b-8f0a-86f2764e5c1d"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Cycle ID": {
+     "id": "G%7Cj%7C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASC-002",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASC-002",
+       "href": null
+      }
+     ]
+    },
+    "Research Refs": {
+     "id": "HE%7D%3A",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASR-5; ASR-6",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASR-5; ASR-6",
+       "href": null
+      }
+     ]
+    },
+    "Change Type": {
+     "id": "INFO",
+     "type": "select",
+     "select": {
+      "id": "3d982269-7b7d-4c4d-933e-1ac4049f3bec",
+      "name": "CONFIRMED",
+      "color": "blue"
+     }
+    },
+    "Reason": {
+     "id": "J_OB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Independent conceptual evidence from OpenStax, ACCA, and Thuy et al. (2026) supports Functional Scope as a first-class taxonomy dimension and supports the Scope-before-Label boundary rule.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Independent conceptual evidence from OpenStax, ACCA, and Thuy et al. (2026) supports Functional Scope as a first-class taxonomy dimension and supports the Scope-before-Label boundary rule.",
+       "href": null
+      }
+     ]
+    },
+    "Knowledge ID": {
+     "id": "YBi%5B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASK-1",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASK-1",
+       "href": null
+      }
+     ]
+    },
+    "Previous State": {
+     "id": "%5CNEt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "SYNTHESIZED",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "SYNTHESIZED",
+       "href": null
+      }
+     ]
+    },
+    "Change ID": {
+     "id": "%5DMhS",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "ASC-CHG",
+      "number": 3
+     }
+    },
+    "Timestamp": {
+     "id": "aUp%3F",
+     "type": "date",
+     "date": null
+    },
+    "Evidence Refs": {
+     "id": "dW~K",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "EVD-ASR6-IND-01; EVD-ASR6-IND-02; EVD-ASR6-IND-03",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "EVD-ASR6-IND-01; EVD-ASR6-IND-02; EVD-ASR6-IND-03",
+       "href": null
+      }
+     ]
+    },
+    "New State": {
+     "id": "l%5E%3FQ",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ACTIVE",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ACTIVE",
+       "href": null
+      }
+     ]
+    },
+    "Commit Status": {
+     "id": "nIl%3A",
+     "type": "select",
+     "select": {
+      "id": "823eeb34-a326-4935-b9af-3495f341d13b",
+      "name": "FAILED",
+      "color": "red"
+     }
+    },
+    "Verification Status": {
+     "id": "te__",
+     "type": "select",
+     "select": {
+      "id": "2e4c3d0e-bda8-4e07-a333-b05fcbe52e81",
+      "name": "FAILED",
+      "color": "red"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASC-002-CHG-003 — Confirm Functional Scope taxonomy node after independent validation",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASC-002-CHG-003 — Confirm Functional Scope taxonomy node after independent validation",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/ASC-002-CHG-003-Confirm-Functional-Scope-taxonomy-node-after-independent-validation-3e758a0779e881c1a275d28e5c83e00e",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-81ce-8d97-c5e857909178",
+   "created_time": "2026-09-26T00:30:00.000Z",
+   "last_edited_time": "2026-09-26T00:30:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "5fd2140e-bbd3-4c1b-8f0a-86f2764e5c1d"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Cycle ID": {
+     "id": "G%7Cj%7C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASC-002",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASC-002",
+       "href": null
+      }
+     ]
+    },
+    "Research Refs": {
+     "id": "HE%7D%3A",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASR-5; ASR-6",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASR-5; ASR-6",
+       "href": null
+      }
+     ]
+    },
+    "Change Type": {
+     "id": "INFO",
+     "type": "select",
+     "select": {
+      "id": "3d982269-7b7d-4c4d-933e-1ac4049f3bec",
+      "name": "CONFIRMED",
+      "color": "blue"
+     }
+    },
+    "Reason": {
+     "id": "J_OB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Independent conceptual evidence converges on enterprise-wide functional integration as the meaningful ERP boundary, supporting classification by functional scope/integration rather than vendor label.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Independent conceptual evidence converges on enterprise-wide functional integration as the meaningful ERP boundary, supporting classification by functional scope/integration rather than vendor label.",
+       "href": null
+      }
+     ]
+    },
+    "Knowledge ID": {
+     "id": "YBi%5B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASK-2",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASK-2",
+       "href": null
+      }
+     ]
+    },
+    "Previous State": {
+     "id": "%5CNEt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "SYNTHESIZED",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "SYNTHESIZED",
+       "href": null
+      }
+     ]
+    },
+    "Change ID": {
+     "id": "%5DMhS",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "ASC-CHG",
+      "number": 4
+     }
+    },
+    "Timestamp": {
+     "id": "aUp%3F",
+     "type": "date",
+     "date": null
+    },
+    "Evidence Refs": {
+     "id": "dW~K",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "EVD-ASR6-IND-01; EVD-ASR6-IND-02; EVD-ASR6-IND-03",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "EVD-ASR6-IND-01; EVD-ASR6-IND-02; EVD-ASR6-IND-03",
+       "href": null
+      }
+     ]
+    },
+    "New State": {
+     "id": "l%5E%3FQ",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ACTIVE",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ACTIVE",
+       "href": null
+      }
+     ]
+    },
+    "Commit Status": {
+     "id": "nIl%3A",
+     "type": "select",
+     "select": {
+      "id": "823eeb34-a326-4935-b9af-3495f341d13b",
+      "name": "FAILED",
+      "color": "red"
+     }
+    },
+    "Verification Status": {
+     "id": "te__",
+     "type": "select",
+     "select": {
+      "id": "2e4c3d0e-bda8-4e07-a333-b05fcbe52e81",
+      "name": "FAILED",
+      "color": "red"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASC-002-CHG-004 — Confirm Scope-before-Label classification rule after independent validation",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASC-002-CHG-004 — Confirm Scope-before-Label classification rule after independent validation",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/ASC-002-CHG-004-Confirm-Scope-before-Label-classification-rule-after-independent-validation-3e758a0779e881ce8d97c5e857909178",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8138-b01a-c7c5c2d57509",
+   "created_time": "2026-09-25T21:53:00.000Z",
+   "last_edited_time": "2026-09-25T21:53:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "5fd2140e-bbd3-4c1b-8f0a-86f2764e5c1d"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Cycle ID": {
+     "id": "G%7Cj%7C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "CKC-7 / ASC-001",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "CKC-7 / ASC-001",
+       "href": null
+      }
+     ]
+    },
+    "Research Refs": {
+     "id": "HE%7D%3A",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASR-5",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASR-5",
+       "href": null
+      }
+     ]
+    },
+    "Change Type": {
+     "id": "INFO",
+     "type": "select",
+     "select": {
+      "id": "8510ae2a-b247-4b0c-82eb-d6f3dfae9812",
+      "name": "CREATED",
+      "color": "green"
+     }
+    },
+    "Reason": {
+     "id": "J_OB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Create a reusable rule that prioritizes functional scope and integration breadth over vendor naming.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Create a reusable rule that prioritizes functional scope and integration breadth over vendor naming.",
+       "href": null
+      }
+     ]
+    },
+    "Knowledge ID": {
+     "id": "YBi%5B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASK-2",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASK-2",
+       "href": null
+      }
+     ]
+    },
+    "Previous State": {
+     "id": "%5CNEt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "NON_EXISTENT",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "NON_EXISTENT",
+       "href": null
+      }
+     ]
+    },
+    "Change ID": {
+     "id": "%5DMhS",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "ASC-CHG",
+      "number": 2
+     }
+    },
+    "Timestamp": {
+     "id": "aUp%3F",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Evidence Refs": {
+     "id": "dW~K",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "D365 Finance; SAP S/4HANA Cloud; Oracle Fusion Cloud Financials; Xero ERP/accounting scope",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "D365 Finance; SAP S/4HANA Cloud; Oracle Fusion Cloud Financials; Xero ERP/accounting scope",
+       "href": null
+      }
+     ]
+    },
+    "New State": {
+     "id": "l%5E%3FQ",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "SYNTHESIZED",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "SYNTHESIZED",
+       "href": null
+      }
+     ]
+    },
+    "Commit Status": {
+     "id": "nIl%3A",
+     "type": "select",
+     "select": {
+      "id": "0fd88db4-71c1-48e0-90b1-e73f4d8b0e74",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Verification Status": {
+     "id": "te__",
+     "type": "select",
+     "select": {
+      "id": "ffb47284-73a2-4468-a0d9-56fd2352e32d",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASC-001-CHG-002 — Create Scope-before-Label classification rule",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASC-001-CHG-002 — Create Scope-before-Label classification rule",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/ASC-001-CHG-002-Create-Scope-before-Label-classification-rule-3e658a0779e88138b01ac7c5c2d57509",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81f8-ba8e-f8b31ffbf667",
+   "created_time": "2026-09-25T21:53:00.000Z",
+   "last_edited_time": "2026-09-25T21:53:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "5fd2140e-bbd3-4c1b-8f0a-86f2764e5c1d"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Cycle ID": {
+     "id": "G%7Cj%7C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "CKC-7 / ASC-001",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "CKC-7 / ASC-001",
+       "href": null
+      }
+     ]
+    },
+    "Research Refs": {
+     "id": "HE%7D%3A",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASR-5",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASR-5",
+       "href": null
+      }
+     ]
+    },
+    "Change Type": {
+     "id": "INFO",
+     "type": "select",
+     "select": {
+      "id": "8510ae2a-b247-4b0c-82eb-d6f3dfae9812",
+      "name": "CREATED",
+      "color": "green"
+     }
+    },
+    "Reason": {
+     "id": "J_OB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Establish Functional Scope as a first-class taxonomy dimension using multi-vendor primary product evidence.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Establish Functional Scope as a first-class taxonomy dimension using multi-vendor primary product evidence.",
+       "href": null
+      }
+     ]
+    },
+    "Knowledge ID": {
+     "id": "YBi%5B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASK-1",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASK-1",
+       "href": null
+      }
+     ]
+    },
+    "Previous State": {
+     "id": "%5CNEt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "NON_EXISTENT",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "NON_EXISTENT",
+       "href": null
+      }
+     ]
+    },
+    "Change ID": {
+     "id": "%5DMhS",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "ASC-CHG",
+      "number": 1
+     }
+    },
+    "Timestamp": {
+     "id": "aUp%3F",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Evidence Refs": {
+     "id": "dW~K",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "D365 Finance; SAP S/4HANA Cloud; Oracle Fusion Cloud Financials; Xero ERP/accounting scope",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "D365 Finance; SAP S/4HANA Cloud; Oracle Fusion Cloud Financials; Xero ERP/accounting scope",
+       "href": null
+      }
+     ]
+    },
+    "New State": {
+     "id": "l%5E%3FQ",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "SYNTHESIZED",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "SYNTHESIZED",
+       "href": null
+      }
+     ]
+    },
+    "Commit Status": {
+     "id": "nIl%3A",
+     "type": "select",
+     "select": {
+      "id": "0fd88db4-71c1-48e0-90b1-e73f4d8b0e74",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Verification Status": {
+     "id": "te__",
+     "type": "select",
+     "select": {
+      "id": "ffb47284-73a2-4468-a0d9-56fd2352e32d",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASC-001-CHG-001 — Create Functional Scope taxonomy node",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASC-001-CHG-001 — Create Functional Scope taxonomy node",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/ASC-001-CHG-001-Create-Functional-Scope-taxonomy-node-3e658a0779e881f8ba8ef8b31ffbf667",
+   "public_url": null,
+   "archived": false
+  }
+ ]
+}

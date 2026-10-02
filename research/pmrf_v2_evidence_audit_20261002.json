@@ -1,0 +1,241 @@
+{
+ "task": "PMRF v2.0 evidence verification audit (v1.5 claims vs runtime artifacts)",
+ "execution_timestamp": "2026-10-02T07:10:50+03:00",
+ "artifacts": {
+  "download/PROJECT MASTER REFERENCE FILE.md": {
+   "exists": true,
+   "bytes": 91170,
+   "mtime": "2026-10-02T06:22:30+03:00",
+   "sha256_16": "486a2502e4ab4a3c"
+  },
+  "worklog.md": {
+   "exists": true,
+   "bytes": 199165,
+   "mtime": "2026-10-02T06:22:46+03:00",
+   "sha256_16": "4bf29c89275dd3a9"
+  },
+  "research/sv_master_refresh_20261002.json": {
+   "exists": true,
+   "bytes": 8896,
+   "mtime": "2026-10-02T02:51:42+03:00",
+   "sha256_16": "1590b366a25945c7"
+  },
+  "research/sv_master_gateway_pricing_20261002.json": {
+   "exists": true,
+   "bytes": 5900,
+   "mtime": "2026-10-02T02:52:28+03:00",
+   "sha256_16": "8e55666a33177eba"
+  },
+  "research/sv_master_catalog_consolidated_20261002.json": {
+   "exists": true,
+   "bytes": 380998,
+   "mtime": "2026-10-02T05:14:54+03:00",
+   "sha256_16": "c6d8affda560d189"
+  },
+  "download/جدول_الكتالوج_الموحد_2026-10-02.xlsx": {
+   "exists": true,
+   "bytes": 112364,
+   "mtime": "2026-10-02T05:16:48+03:00",
+   "sha256_16": "e851247c85954423"
+  },
+  "download/مصفوفة_حملة_التفاوض_2026-10-02.xlsx": {
+   "exists": true,
+   "bytes": 32906,
+   "mtime": "2026-10-02T06:03:29+03:00",
+   "sha256_16": "cf63d51af248df62"
+  },
+  "download/دليل_حملة_التفاوض_الافتتاحية_2026-10-02.docx": {
+   "exists": true,
+   "bytes": 43431,
+   "mtime": "2026-10-02T06:12:44+03:00",
+   "sha256_16": "9cb06d557bc50e37"
+  },
+  "research/g1_cb_findings_20261002.json": {
+   "exists": true,
+   "bytes": 4099,
+   "mtime": "2026-10-02T03:25:05+03:00",
+   "sha256_16": "764b06cbb1f342d2"
+  },
+  "research/g1_cb_live_catalog_20261002.json": {
+   "exists": true,
+   "bytes": 213501,
+   "mtime": "2026-10-02T03:17:59+03:00",
+   "sha256_16": "87402a90d6f02dd5"
+  },
+  "research/g1_rescan_analysis_20261002.json": {
+   "exists": true,
+   "bytes": 24779,
+   "mtime": "2026-10-02T03:49:15+03:00",
+   "sha256_16": "6ecbcec36961c2aa"
+  },
+  "research/g1_r3_newkeys_analysis_20261002.json": {
+   "exists": true,
+   "bytes": 37810,
+   "mtime": "2026-10-02T04:19:02+03:00",
+   "sha256_16": "083d39d8992485ec"
+  },
+  "research/g1_r3_final_20261002.json": {
+   "exists": true,
+   "bytes": 5582,
+   "mtime": "2026-10-02T04:20:59+03:00",
+   "sha256_16": "8a93d37a7c26a1e5"
+  },
+  "research/g1a_r5_decohomz_origin_20261002.json": {
+   "exists": true,
+   "bytes": 8353,
+   "mtime": "2026-10-02T04:52:28+03:00",
+   "sha256_16": "e9b9e2cbd278a8ef"
+  },
+  "research/g1a_r6_websearch_sookbit_20261002.json": {
+   "exists": true,
+   "bytes": 21970,
+   "mtime": "2026-10-02T04:57:42+03:00",
+   "sha256_16": "9a5cbff45bfa3dc6"
+  },
+  "download/G1a_تقرير_هوية_مشغل_المنصة_2026-10-02.md": {
+   "exists": true,
+   "bytes": 15040,
+   "mtime": "2026-10-02T04:58:29+03:00",
+   "sha256_16": "0379f1530b91be49"
+  },
+  "download/G1-R3_تقرير_جولة_المفاتيح_2026-10-02.md": {
+   "exists": true,
+   "bytes": 12277,
+   "mtime": "2026-10-02T04:23:36+03:00",
+   "sha256_16": "d6ba75580a306baf"
+  },
+  "download/G1-RESCAN-R2_تقرير_إعادة_المسح_2026-10-02.md": {
+   "exists": true,
+   "bytes": 20841,
+   "mtime": "2026-10-02T03:58:25+03:00",
+   "sha256_16": "c5e3badc4cb6eb27"
+  }
+ },
+ "claim_checks": [
+  {
+   "claim": "الكتالوج الموحد = 1,112 سجلًا (11 كيانًا + البوابة)",
+   "expected": 1112,
+   "result": "FAIL",
+   "detail": {
+    "per_entity": {
+     "stackvault_live": 282,
+     "stackvault_archive": 357,
+     "prodseller": 26,
+     "lahastore": 15,
+     "aiversex": 35,
+     "geminishop": 6,
+     "acczone": 4,
+     "canboso_premikey": 349,
+     "digitalcore": 11,
+     "aixpress": 2,
+     "richai": 25
+    },
+    "entity_sum": 1112,
+    "gateway": 15,
+    "grand_total": 1127
+   }
+  },
+  {
+   "claim": "مصفوفة حملة التفاوض = 8 أوراق",
+   "expected": 8,
+   "result": "PASS",
+   "detail": {
+    "sheets": [
+     "الملخص",
+     "أطراف_التفاوض",
+     "السيناريوهات",
+     "الطرق_والقنوات",
+     "أوراق_الضغط",
+     "خطة_الموجات",
+     "النصوص_الجاهزة",
+     "المراجعة"
+    ]
+   }
+  },
+  {
+   "claim": "حملة التفاوض = 30 سيناريو (S-x y)",
+   "expected": 30,
+   "result": "FAIL",
+   "detail": {
+    "scenario_id_count": 0
+   }
+  },
+  {
+   "claim": "جدول الكتالوج الموحد = 7 أوراق",
+   "expected": 7,
+   "result": "PASS",
+   "detail": {
+    "sheets": [
+     "الملخص",
+     "StackVault_الحي",
+     "StackVault_الأرشيف",
+     "الكيانات_الخارجية",
+     "مقارنة_الأسعار",
+     "بوابة_teamsoclo",
+     "المراجعة"
+    ]
+   }
+  },
+  {
+   "claim": "دليل حملة التفاوض = 13 قسمًا",
+   "expected": 13,
+   "result": "FAIL",
+   "detail": "EXC 'NoneType' object has no attribute 'name'"
+  },
+  {
+   "claim": "بوابة teamsoclo = 15 موديلًا (وثيقة 02/10)",
+   "expected": 15,
+   "result": "PASS",
+   "detail": {
+    "models": 15
+   }
+  },
+  {
+   "claim": "worklog يوثق SV-NEG-CAMPAIGN (أساس v1.5)",
+   "expected": true,
+   "result": "PASS",
+   "detail": "grep"
+  },
+  {
+   "claim": "worklog يوثق G-1a-R1 (أساس v1.4)",
+   "expected": true,
+   "result": "PASS",
+   "detail": "grep"
+  },
+  {
+   "claim": "worklog يوثق G-1-R3-NEWKEYS (أساس v1.3)",
+   "expected": true,
+   "result": "PASS",
+   "detail": "grep"
+  },
+  {
+   "claim": "worklog يوثق SV-MASTER-CATALOG",
+   "expected": true,
+   "result": "PASS",
+   "detail": "grep"
+  },
+  {
+   "claim": "PMRF الحالي يحمل ترويسة v1.5",
+   "expected": true,
+   "result": "PASS",
+   "detail": "header"
+  },
+  {
+   "claim": "جدول الهوية §1 متسق مع الترويسة (v1.5)",
+   "expected": true,
+   "result": "PASS",
+   "detail": "§1 version field vs v1.5 header"
+  }
+ ],
+ "runtime_counts": {
+  "research_files": 1039,
+  "scripts_files": 257,
+  "download_files": 51,
+  "notion_raw_files": 1124,
+  "data_research_files": 96,
+  "worklog_lines": 1202,
+  "worklog_task_ids": 60,
+  "pmrf_lines": 613,
+  "pmrf_sections_h2": 23
+ }
+}

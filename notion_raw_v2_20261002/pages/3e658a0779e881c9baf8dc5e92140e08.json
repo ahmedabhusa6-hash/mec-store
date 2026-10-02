@@ -1,0 +1,222 @@
+{
+ "capture_reason": "NEWLY_ACCESSIBLE",
+ "captured_at": "2026-10-02T12:16:49+03:00",
+ "title": "Application — Knowledge-Driven Marketing Planning",
+ "last_edited": "2026-09-25T20:12:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e658a07-79e8-81c9-baf8-dc5e92140e08",
+  "created_time": "2026-09-25T20:12:00.000Z",
+  "last_edited_time": "2026-09-25T20:12:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "aee698e7-73fd-4046-a85f-3cc132f66527"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "Context": {
+    "id": "AuZN",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "بعد توفر ICP وCRM/Search Console وcampaign data",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "بعد توفر ICP وCRM/Search Console وcampaign data",
+      "href": null
+     }
+    ]
+   },
+   "Experiment Link": {
+    "id": "PF%3A%3E",
+    "type": "relation",
+    "relation": [],
+    "has_more": false
+   },
+   "Target Area": {
+    "id": "Ry_C",
+    "type": "select",
+    "select": {
+     "id": "d624a353-fa93-4133-bc58-77330e3efcc2",
+     "name": "Marketing",
+     "color": "blue"
+    }
+   },
+   "Intended Use": {
+    "id": "jcsL",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "ترجمة أنماط السوق إلى فرضيات وخيارات محتوى وحملات مرتبطة بسياق الشركة.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "ترجمة أنماط السوق إلى فرضيات وخيارات محتوى وحملات مرتبطة بسياق الشركة.",
+      "href": null
+     }
+    ]
+   },
+   "Knowledge Link": {
+    "id": "kt%5D%3D",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "3e658a07-79e8-81b6-be41-fba0a848ed8d"
+     },
+     {
+      "id": "3e658a07-79e8-81dc-8cfa-e70994a0e648"
+     }
+    ],
+    "has_more": false
+   },
+   "Result": {
+    "id": "lein",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Status": {
+    "id": "oFYt",
+    "type": "status",
+    "status": {
+     "id": "b3c92a79-5860-4fc5-a852-1b5d41fc7be5",
+     "name": "لم تبدأ",
+     "color": "default"
+    }
+   },
+   "Action": {
+    "id": "rhHZ",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "استخدم Evidence + Knowledge + Company Context قبل توليد أي حملة.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "استخدم Evidence + Knowledge + Company Context قبل توليد أي حملة.",
+      "href": null
+     }
+    ]
+   },
+   "Reuse Notes": {
+    "id": "tPGH",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "قابل لإعادة الاستخدام خارج ONYX بعد توفير Company Context.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "قابل لإعادة الاستخدام خارج ONYX بعد توفير Company Context.",
+      "href": null
+     }
+    ]
+   },
+   "Company / Project": {
+    "id": "yMTd",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "ONYX / YemenSoft",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "ONYX / YemenSoft",
+      "href": null
+     }
+    ]
+   },
+   "Owner": {
+    "id": "%7C%5BNV",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Name": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Application — Knowledge-Driven Marketing Planning",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Application — Knowledge-Driven Marketing Planning",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/Application-Knowledge-Driven-Marketing-Planning-3e658a0779e881c9baf8dc5e92140e08",
+  "public_url": null,
+  "archived": false,
+  "request_id": "332cfa88-3ed8-432a-a827-857302a41768"
+ },
+ "block_count": 0,
+ "blocks": []
+}

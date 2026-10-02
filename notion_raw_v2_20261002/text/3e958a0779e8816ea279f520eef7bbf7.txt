@@ -1,0 +1,133 @@
+AUTO-CYCLE-0062 — CLOUDFLARE NATIVE DURABLE SUBSTRATE RESEARCH
+========================================
+Cycle_ID
+AUTO-CYCLE-0062
+Trigger
+Scheduled Central Automation run. Scope: Central Automation Runtime only.
+State Before
+Loaded AUTO-CYCLE-0061 directly from Notion. Native Notion verification for 0061 remains unverified; it is therefore treated as persisted historical state, not Notion-native VERIFIED.
+Pre-Flight / Overlap / Ownership
+Automation inventory: exactly one enabled Central Automation trigger.
+No duplicate was detected.
+No automation outside Central Automation was modified.
+Highest-Value Gap
+Authorized independent Central Runtime repository + verified deployment path.
+Live Reconciliation
+GitHub — VERIFIED
+Owner inventory currently contains exactly three repositories:
+AhmedMar98/Prompt-
+AhmedMar98/Telegram
+AhmedMar98/Umm-sara
+AhmedMar98/Umm-sara default branch = main.
+No independent Central Runtime repository is present.
+No repository-creation mutation was attempted.
+Render — VERIFIED
+Workspace = My Workspace (tea-d9nbisvqj5pc73eile10).
+Exactly one web service: umm-sarah-web.
+Repository = https://github.com/AhmedMar98/Umm-sara.
+Branch = main.
+Plan = free.
+central-automation-queue-dev: Free, available, Valkey 8.1.10, persistenceMode=off.
+central-automation-state-dev: Free Postgres, available, expires 2026-10-25 22:16:03 +03:00.
+No independent Central Runtime service is deployed.
+Deep Research / Fresh Evidence
+FACT — Cloudflare Durable Objects
+Cloudflare Durable Objects are available on Free and Paid plans. SQLite-backed Durable Objects are available on Free; current Free limits include 5 GB total SQLite storage, 100 Durable Object classes, 100,000 requests/day, 100,000 rows read/day, and 100,000 rows written/day. Durable Objects provide stateful coordination primitives suitable for distributed systems.
+Source: https://developers.cloudflare.com/durable-objects/
+Source: https://developers.cloudflare.com/durable-objects/platform/limits/
+FACT — Cloudflare Queues
+Cloudflare Queues are available on Free and Paid plans and provide guaranteed delivery, retries, delays, batching, and Dead Letter Queues. Free currently includes 10,000 operations/day and up to 10,000 queues; Free message retention is 24 hours. Paid retention defaults to 4 days and can be configured up to 14 days.
+Source: https://developers.cloudflare.com/queues/
+Source: https://developers.cloudflare.com/queues/platform/pricing/
+FACT — Cloudflare Workflows
+Workflows remains available on Free and Paid and provides durable multi-step execution, retries, persisted state, and observability. Free has explicit execution/step/state/retention limits.
+Source: https://developers.cloudflare.com/workflows/reference/limits/
+FACT — Render
+Render Free Key Value is in-memory only and loses state on restart. Free Postgres expires after 30 days and has no backups.
+Source: https://render.com/docs/key-value
+Source: https://render.com/docs/free
+FACT — GitHub Repository Creation
+GitHub's REST API supports POST /user/repos; fine-grained tokens require Repository creation write or Administration write permission. The connected GitHub tool surface still does not expose an authorized repository-creation action.
+Source: https://docs.github.com/en/rest/repos/repos
+Independent Alternatives
+Independent Repository + Cloudflare Durable Objects + Cloudflare Queues + Workflows
+Independent Repository + self-owned Control Plane/Worker + durable database/queue
+Independent Repository + Render Worker + paid durable state
+Independent Repository + Oracle Always Free Compute, subject to tenancy/region/capacity verification
+Independent GitLab/Bitbucket Repository + independent compute
+Comparison / Decision
+NEW CANDIDATE: Cloudflare-native Durable Runtime substrate
+The combination of Durable Objects + Queues + Workflows is materially stronger than the previously evaluated Workflows-only architecture for the stated requirements:
+Durable state / coordination: Durable Objects SQLite
+Durable queue / delivery: Queues
+Orchestration / retries / long-running workflow state: Workflows
+DLQ / retry support: Queues
+Ownership / serialization primitives: Durable Objects
+However, this does not remove the primary blocker: an independently owned repository and verified deployment path are still required.
+Decision
+KEEP REPOSITORY ISOLATION GATE
+Do not use or modify Umm-sara, main, or umm-sarah-web as Central Runtime infrastructure.
+Do not provision paid resources without explicit authorization.
+Architecture direction updated: if repository/deployment isolation becomes available, evaluate Cloudflare-native Durable Objects + Queues + Workflows as the first implementation candidate instead of treating Workflows alone as the complete Runtime.
+Side-Effect Check
+No safe in-scope infrastructure mutation is available in this run.
+Repository creation is not exposed by the connected GitHub tools.
+Cloudflare account/deployment tools are not currently connected.
+Paid provisioning is not authorized.
+Business repository use would violate the isolation requirement.
+Fix Applied
+Read-only reconciliation + fresh independent research + architecture candidate update only.
+No business repository mutation. No branch mutation. No paid-resource creation. No deployment.
+Verification
+Central trigger count = VERIFIED: 1
+GitHub owner inventory = VERIFIED
+Render service inventory = VERIFIED
+Render Queue persistenceMode=off = VERIFIED
+Render State existence/expiry = VERIFIED
+Cloudflare Durable Objects candidate evidence = VERIFIED from official docs
+Cloudflare Queues candidate evidence = VERIFIED from official docs
+Independent repository = NOT_VERIFIED
+Independent deployment path = NOT_VERIFIED
+Durable production queue = NOT_IMPLEMENTED
+Durable production state = NOT_IMPLEMENTED
+Lease/ownership/idempotency/recovery/observability = NOT_IMPLEMENTED
+Commit_Status
+PREPARED
+Blockers
+No authorized repository-creation action exposed by the connected GitHub tools.
+No connected Cloudflare deployment/control-plane tool is available in the current tool surface.
+Paid-resource authorization is not established.
+Existing Render Free Queue is non-durable.
+Existing Free Postgres is temporary and not suitable as the final production state store.
+State After
+CENTRAL_RUNTIME        = DESIGNED / NOT_DEPLOYED
+REPOSITORY_ISOLATION   = BLOCKED
+INDEPENDENT_REPOSITORY = NOT_VERIFIED
+DEPLOYMENT_PATH        = NOT_VERIFIED
+
+CLOUDFLARE_NATIVE_SUBSTRATE = CANDIDATE / NOT_IMPLEMENTED
+DURABLE_OBJECTS              = CANDIDATE / NOT_IMPLEMENTED
+CLOUDFLARE_QUEUES            = CANDIDATE / NOT_IMPLEMENTED
+CLOUDFLARE_WORKFLOWS         = CANDIDATE / NOT_IMPLEMENTED
+
+CENTRAL_QUEUE_DEV      = FREE / NON-DURABLE
+CENTRAL_STATE_DEV      = FREE / TEMPORARY
+
+BUSINESS_PROJECT_MUTATION = NONE
+Umm-sara                  = UNCHANGED
+main                      = UNCHANGED
+umm-sarah-web             = UNCHANGED
+Quality Control
+UNKNOWN remains separated from VERIFIED.
+No implementation claim was promoted to IMPLEMENTED_VERIFIED.
+A materially new architecture candidate was identified and independently validated.
+The new candidate reduces the need for an external queue/state pair, but does not resolve repository/deployment authorization.
+Next Work
+Establish an authorized independent repository creation path.
+Establish a verified independent deployment path with Cloudflare or another isolated platform.
+If Cloudflare path becomes available, design the minimal slice around Durable Object state + Queue + Workflow orchestration.
+Then implement Lease/Ownership and idempotency keys.
+Add recovery, DLQ/quarantine, retry budgets, backpressure, circuit breaking, and observability.
+Test restart/resume, duplicate delivery, UNKNOWN reconciliation, retry storm, backpressure, and watchdog behavior.
+Cycle Status
+PARTIAL

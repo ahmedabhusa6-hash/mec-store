@@ -1,0 +1,3514 @@
+{
+ "run": "MEC-5.0 API price gap discovery",
+ "generated_utc": "2026-09-27T17:20:50.553231+00:00",
+ "mission": "Uncover public vs API-tier prices for all providers offering differential API pricing",
+ "prodseller": {
+  "summary": {
+   "provider": "ProdSeller",
+   "n_posts_scanned": 79,
+   "n_dual_price_rows": 38,
+   "n_with_api_price": 31,
+   "api_gap_pct": {
+    "min": 2.6,
+    "max": 41.4,
+    "avg": 12.0,
+    "median": 9.1
+   },
+   "bulk_gap_pct": {
+    "min": 2.9,
+    "max": 25.0,
+    "avg": 11.1
+   },
+   "structural_evidence": {
+    "admin_panel_dual_field": "Official screenshot post #132 (09/09): product form has 'Price (USD)' + 'API Price (optional)' — CapCut Pro 1M FW $1.37 / API $1.29",
+    "official_3tier_image": "Post #134 (11/09) image: FLASH SELL $0.43 / API PRICE $0.40 / BULK PRICE $0.39 (Gemini 18M)",
+    "api_docs_dual_field": "prodseller.com/api-docs: GET /v1/products returns 'price' (charged) + 'publicPrice' (reference)",
+    "marketing_claim": "Post 20/07: 'up to 35% OFF compared to public prices' for API bot users"
+   }
+  },
+  "all_rows": [
+   {
+    "product": "CapCut Pro 30d",
+    "public_usd": 1.7,
+    "api_usd": null,
+    "bulk_usd": 1.65,
+    "date": "2026-07-08",
+    "tier_note": "bulk +5",
+    "api_gap_pct": null,
+    "api_ratio": null,
+    "bulk_gap_pct": 2.9
+   },
+   {
+    "product": "Notion (reseller)",
+    "public_usd": 1.4,
+    "api_usd": null,
+    "bulk_usd": 1.2,
+    "date": "2026-07-13",
+    "tier_note": "bulk +3",
+    "api_gap_pct": null,
+    "api_ratio": null,
+    "bulk_gap_pct": 14.3
+   },
+   {
+    "product": "Adobe Express 12M",
+    "public_usd": 0.94,
+    "api_usd": null,
+    "bulk_usd": 0.85,
+    "date": "2026-07-17",
+    "tier_note": "bulk 5+",
+    "api_gap_pct": null,
+    "api_ratio": null,
+    "bulk_gap_pct": 9.6
+   },
+   {
+    "product": "Gemini 18M",
+    "public_usd": 0.55,
+    "api_usd": 0.43,
+    "bulk_usd": null,
+    "date": "2026-07-21",
+    "tier_note": "",
+    "api_gap_pct": 21.8,
+    "api_ratio": 0.782,
+    "bulk_gap_pct": null
+   },
+   {
+    "product": "Outlook/Hotmail ready-made",
+    "public_usd": 0.02,
+    "api_usd": 0.015,
+    "bulk_usd": null,
+    "date": "2026-07-23",
+    "tier_note": "cheapest input",
+    "api_gap_pct": 25.0,
+    "api_ratio": 0.75,
+    "bulk_gap_pct": null
+   },
+   {
+    "product": "iLovePDF 1Y",
+    "public_usd": 1.0,
+    "api_usd": 0.8,
+    "bulk_usd": null,
+    "date": "2026-07-23",
+    "tier_note": "13:16 post",
+    "api_gap_pct": 20.0,
+    "api_ratio": 0.8,
+    "bulk_gap_pct": null
+   },
+   {
+    "product": "iLovePDF 1Y (disc)",
+    "public_usd": 0.8,
+    "api_usd": 0.7,
+    "bulk_usd": null,
+    "date": "2026-07-23",
+    "tier_note": "16:48 post",
+    "api_gap_pct": 12.5,
+    "api_ratio": 0.875,
+    "bulk_gap_pct": null
+   },
+   {
+    "product": "Spotify Premium 3M",
+    "public_usd": 0.95,
+    "api_usd": 0.85,
+    "bulk_usd": null,
+    "date": "2026-07-23",
+    "tier_note": "",
+    "api_gap_pct": 10.5,
+    "api_ratio": 0.895,
+    "bulk_gap_pct": null
+   },
+   {
+    "product": "Coursera Plus 1Y",
+    "public_usd": 1.0,
+    "api_usd": 0.84,
+    "bulk_usd": null,
+    "date": "2026-07-24",
+    "tier_note": "",
+    "api_gap_pct": 16.0,
+    "api_ratio": 0.84,
+    "bulk_gap_pct": null
+   },
+   {
+    "product": "Office 365 1Y",
+    "public_usd": 0.3,
+    "api_usd": 0.2,
+    "bulk_usd": null,
+    "date": "2026-07-24",
+    "tier_note": "full warranty",
+    "api_gap_pct": 33.3,
+    "api_ratio": 0.667,
+    "bulk_gap_pct": null
+   },
+   {
+    "product": "CapCut Pro Team 30d",
+    "public_usd": 1.55,
+    "api_usd": 1.45,
+    "bulk_usd": null,
+    "date": "2026-07-24",
+    "tier_note": "",
+    "api_gap_pct": 6.5,
+    "api_ratio": 0.935,
+    "bulk_gap_pct": null
+   },
+   {
+    "product": "Gemini 18M links (restock)",
+    "public_usd": 0.5,
+    "api_usd": 0.46,
+    "bulk_usd": null,
+    "date": "2026-07-25",
+    "tier_note": "",
+    "api_gap_pct": 8.0,
+    "api_ratio": 0.92,
+    "bulk_gap_pct": null
+   },
+   {
+    "product": "Adobe CC Admin 14 inv",
+    "public_usd": 3.7,
+    "api_usd": 3.3,
+    "bulk_usd": null,
+    "date": "2026-07-25",
+    "tier_note": "10-day warranty",
+    "api_gap_pct": 10.8,
+    "api_ratio": 0.892,
+    "bulk_gap_pct": null
+   },
+   {
+    "product": "Canva Pro EDU Admin",
+    "public_usd": 5.5,
+    "api_usd": 5.0,
+    "bulk_usd": null,
+    "date": "2026-07-26",
+    "tier_note": "",
+    "api_gap_pct": 9.1,
+    "api_ratio": 0.909,
+    "bulk_gap_pct": null
+   },
+   {
+    "product": "Gemini 18M (new method)",
+    "public_usd": 1.0,
+    "api_usd": 0.95,
+    "bulk_usd": null,
+    "date": "2026-07-28",
+    "tier_note": "post-shortage",
+    "api_gap_pct": 5.0,
+    "api_ratio": 0.95,
+    "bulk_gap_pct": null
+   },
+   {
+    "product": "Gemini 18M",
+    "public_usd": 0.75,
+    "api_usd": 0.7,
+    "bulk_usd": null,
+    "date": "2026-07-30",
+    "tier_note": "",
+    "api_gap_pct": 6.7,
+    "api_ratio": 0.933,
+    "bulk_gap_pct": null
+   },
+   {
+    "product": "Gemini Pro 18M",
+    "public_usd": 0.59,
+    "api_usd": 0.5,
+    "bulk_usd": null,
+    "date": "2026-07-31",
+    "tier_note": "",
+    "api_gap_pct": 15.3,
+    "api_ratio": 0.847,
+    "bulk_gap_pct": null
+   },
+   {
+    "product": "Gemini Pro 18M",
+    "public_usd": 0.5,
+    "api_usd": 0.45,
+    "bulk_usd": null,
+    "date": "2026-08-01",
+    "tier_note": "11:16",
+    "api_gap_pct": 10.0,
+    "api_ratio": 0.9,
+    "bulk_gap_pct": null
+   },
+   {
+    "product": "Gemini Pro 18M flash 500x",
+    "public_usd": 0.46,
+    "api_usd": 0.41,
+    "bulk_usd": null,
+    "date": "2026-08-01",
+    "tier_note": "14:41 flash",
+    "api_gap_pct": 10.9,
+    "api_ratio": 0.891,
+    "bulk_gap_pct": null
+   },
+   {
+    "product": "Gemini Pro 18M flash",
+    "public_usd": 0.45,
+    "api_usd": 0.39,
+    "bulk_usd": null,
+    "date": "2026-08-04",
+    "tier_note": "",
+    "api_gap_pct": 13.3,
+    "api_ratio": 0.867,
+    "bulk_gap_pct": null
+   },
+   {
+    "product": "CapCut Pro Private",
+    "public_usd": 1.39,
+    "api_usd": 1.29,
+    "bulk_usd": null,
+    "date": "2026-08-05",
+    "tier_note": "",
+    "api_gap_pct": 7.2,
+    "api_ratio": 0.928,
+    "bulk_gap_pct": null
+   },
+   {
+    "product": "Gemini Pro 18M",
+    "public_usd": 0.44,
+    "api_usd": 0.41,
+    "bulk_usd": null,
+    "date": "2026-08-16",
+    "tier_note": "",
+    "api_gap_pct": 6.8,
+    "api_ratio": 0.932,
+    "bulk_gap_pct": null
+   },
+   {
+    "product": "Gemini 18M flash",
+    "public_usd": 0.43,
+    "api_usd": 0.4,
+    "bulk_usd": 0.39,
+    "date": "2026-09-11",
+    "tier_note": "official 3-tier image #134",
+    "api_gap_pct": 7.0,
+    "api_ratio": 0.93,
+    "bulk_gap_pct": 9.3
+   },
+   {
+    "product": "Gemini 18M flash",
+    "public_usd": 0.59,
+    "api_usd": 0.55,
+    "bulk_usd": null,
+    "date": "2026-09-19",
+    "tier_note": "08:00",
+    "api_gap_pct": 6.8,
+    "api_ratio": 0.932,
+    "bulk_gap_pct": null
+   },
+   {
+    "product": "Duolingo Super 12M",
+    "public_usd": 0.59,
+    "api_usd": 0.55,
+    "bulk_usd": 0.5,
+    "date": "2026-09-19",
+    "tier_note": "14:06",
+    "api_gap_pct": 6.8,
+    "api_ratio": 0.932,
+    "bulk_gap_pct": 15.3
+   },
+   {
+    "product": "Gmail stable",
+    "public_usd": 0.8,
+    "api_usd": 0.75,
+    "bulk_usd": 0.6,
+    "date": "2026-09-19",
+    "tier_note": "14:14",
+    "api_gap_pct": 6.3,
+    "api_ratio": 0.938,
+    "bulk_gap_pct": 25.0
+   },
+   {
+    "product": "Gemini 18M",
+    "public_usd": 0.53,
+    "api_usd": 0.5,
+    "bulk_usd": null,
+    "date": "2026-09-19",
+    "tier_note": "20:21",
+    "api_gap_pct": 5.7,
+    "api_ratio": 0.943,
+    "bulk_gap_pct": null
+   },
+   {
+    "product": "Gemini 18M flash",
+    "public_usd": 0.49,
+    "api_usd": null,
+    "bulk_usd": 0.45,
+    "date": "2026-09-20",
+    "tier_note": "05:51",
+    "api_gap_pct": null,
+    "api_ratio": null,
+    "bulk_gap_pct": 8.2
+   },
+   {
+    "product": "ChatGPT K12 w/ Codex",
+    "public_usd": 3.9,
+    "api_usd": 3.8,
+    "bulk_usd": null,
+    "date": "2026-09-20",
+    "tier_note": "24h warranty",
+    "api_gap_pct": 2.6,
+    "api_ratio": 0.974,
+    "bulk_gap_pct": null
+   },
+   {
+    "product": "Office 365 Plus 1Y",
+    "public_usd": 0.29,
+    "api_usd": 0.17,
+    "bulk_usd": null,
+    "date": "2026-09-20",
+    "tier_note": "5 devices",
+    "api_gap_pct": 41.4,
+    "api_ratio": 0.586,
+    "bulk_gap_pct": null
+   },
+   {
+    "product": "CapCut 7 days",
+    "public_usd": 0.14,
+    "api_usd": 0.13,
+    "bulk_usd": 0.12,
+    "date": "2026-09-23",
+    "tier_note": "07:22",
+    "api_gap_pct": 7.1,
+    "api_ratio": 0.929,
+    "bulk_gap_pct": 14.3
+   },
+   {
+    "product": "CapCut 6 days",
+    "public_usd": 0.1,
+    "api_usd": 0.09,
+    "bulk_usd": 0.09,
+    "date": "2026-09-23",
+    "tier_note": "17:07",
+    "api_gap_pct": 10.0,
+    "api_ratio": 0.9,
+    "bulk_gap_pct": 10.0
+   },
+   {
+    "product": "Adobe Express 12M",
+    "public_usd": 0.39,
+    "api_usd": 0.37,
+    "bulk_usd": null,
+    "date": "2026-09-23",
+    "tier_note": "19:24 activation link",
+    "api_gap_pct": 5.1,
+    "api_ratio": 0.949,
+    "bulk_gap_pct": null
+   },
+   {
+    "product": "Duolingo Super 12M",
+    "public_usd": 0.45,
+    "api_usd": 0.36,
+    "bulk_usd": 0.34,
+    "date": "2026-09-24",
+    "tier_note": "",
+    "api_gap_pct": 20.0,
+    "api_ratio": 0.8,
+    "bulk_gap_pct": 24.4
+   },
+   {
+    "product": "Gemini 18M flash",
+    "public_usd": 0.69,
+    "api_usd": null,
+    "bulk_usd": 0.66,
+    "date": "2026-09-25",
+    "tier_note": "15:25",
+    "api_gap_pct": null,
+    "api_ratio": null,
+    "bulk_gap_pct": 4.3
+   },
+   {
+    "product": "Gemini 18M",
+    "public_usd": 0.65,
+    "api_usd": null,
+    "bulk_usd": 0.63,
+    "date": "2026-09-25",
+    "tier_note": "20:17",
+    "api_gap_pct": null,
+    "api_ratio": null,
+    "bulk_gap_pct": 3.1
+   },
+   {
+    "product": "Gemini 18M",
+    "public_usd": 0.48,
+    "api_usd": null,
+    "bulk_usd": 0.44,
+    "date": "2026-09-27",
+    "tier_note": "10:05 latest",
+    "api_gap_pct": null,
+    "api_ratio": null,
+    "bulk_gap_pct": 8.3
+   },
+   {
+    "product": "CapCut 1 Month",
+    "public_usd": 1.29,
+    "api_usd": 1.25,
+    "bulk_usd": 1.2,
+    "date": "2026-09-27",
+    "tier_note": "13:40 latest",
+    "api_gap_pct": 3.1,
+    "api_ratio": 0.969,
+    "bulk_gap_pct": 7.0
+   }
+  ],
+  "latest_per_product": [
+   {
+    "product": "CapCut Pro 30d",
+    "public_usd": 1.7,
+    "api_usd": null,
+    "bulk_usd": 1.65,
+    "date": "2026-07-08",
+    "tier_note": "bulk +5",
+    "api_gap_pct": null,
+    "api_ratio": null,
+    "bulk_gap_pct": 2.9
+   },
+   {
+    "product": "Notion (reseller)",
+    "public_usd": 1.4,
+    "api_usd": null,
+    "bulk_usd": 1.2,
+    "date": "2026-07-13",
+    "tier_note": "bulk +3",
+    "api_gap_pct": null,
+    "api_ratio": null,
+    "bulk_gap_pct": 14.3
+   },
+   {
+    "product": "Adobe Express 12M",
+    "public_usd": 0.39,
+    "api_usd": 0.37,
+    "bulk_usd": null,
+    "date": "2026-09-23",
+    "tier_note": "19:24 activation link",
+    "api_gap_pct": 5.1,
+    "api_ratio": 0.949,
+    "bulk_gap_pct": null
+   },
+   {
+    "product": "Gemini 18M",
+    "public_usd": 0.48,
+    "api_usd": null,
+    "bulk_usd": 0.44,
+    "date": "2026-09-27",
+    "tier_note": "10:05 latest",
+    "api_gap_pct": null,
+    "api_ratio": null,
+    "bulk_gap_pct": 8.3
+   },
+   {
+    "product": "Outlook/Hotmail ready-made",
+    "public_usd": 0.02,
+    "api_usd": 0.015,
+    "bulk_usd": null,
+    "date": "2026-07-23",
+    "tier_note": "cheapest input",
+    "api_gap_pct": 25.0,
+    "api_ratio": 0.75,
+    "bulk_gap_pct": null
+   },
+   {
+    "product": "iLovePDF 1Y (disc)",
+    "public_usd": 0.8,
+    "api_usd": 0.7,
+    "bulk_usd": null,
+    "date": "2026-07-23",
+    "tier_note": "16:48 post",
+    "api_gap_pct": 12.5,
+    "api_ratio": 0.875,
+    "bulk_gap_pct": null
+   },
+   {
+    "product": "Spotify Premium 3M",
+    "public_usd": 0.95,
+    "api_usd": 0.85,
+    "bulk_usd": null,
+    "date": "2026-07-23",
+    "tier_note": "",
+    "api_gap_pct": 10.5,
+    "api_ratio": 0.895,
+    "bulk_gap_pct": null
+   },
+   {
+    "product": "Coursera Plus 1Y",
+    "public_usd": 1.0,
+    "api_usd": 0.84,
+    "bulk_usd": null,
+    "date": "2026-07-24",
+    "tier_note": "",
+    "api_gap_pct": 16.0,
+    "api_ratio": 0.84,
+    "bulk_gap_pct": null
+   },
+   {
+    "product": "Office 365 1Y",
+    "public_usd": 0.3,
+    "api_usd": 0.2,
+    "bulk_usd": null,
+    "date": "2026-07-24",
+    "tier_note": "full warranty",
+    "api_gap_pct": 33.3,
+    "api_ratio": 0.667,
+    "bulk_gap_pct": null
+   },
+   {
+    "product": "CapCut Pro Team 30d",
+    "public_usd": 1.55,
+    "api_usd": 1.45,
+    "bulk_usd": null,
+    "date": "2026-07-24",
+    "tier_note": "",
+    "api_gap_pct": 6.5,
+    "api_ratio": 0.935,
+    "bulk_gap_pct": null
+   },
+   {
+    "product": "Gemini 18M links (restock)",
+    "public_usd": 0.5,
+    "api_usd": 0.46,
+    "bulk_usd": null,
+    "date": "2026-07-25",
+    "tier_note": "",
+    "api_gap_pct": 8.0,
+    "api_ratio": 0.92,
+    "bulk_gap_pct": null
+   },
+   {
+    "product": "Adobe CC Admin 14 inv",
+    "public_usd": 3.7,
+    "api_usd": 3.3,
+    "bulk_usd": null,
+    "date": "2026-07-25",
+    "tier_note": "10-day warranty",
+    "api_gap_pct": 10.8,
+    "api_ratio": 0.892,
+    "bulk_gap_pct": null
+   },
+   {
+    "product": "Canva Pro EDU Admin",
+    "public_usd": 5.5,
+    "api_usd": 5.0,
+    "bulk_usd": null,
+    "date": "2026-07-26",
+    "tier_note": "",
+    "api_gap_pct": 9.1,
+    "api_ratio": 0.909,
+    "bulk_gap_pct": null
+   },
+   {
+    "product": "Gemini Pro 18M",
+    "public_usd": 0.44,
+    "api_usd": 0.41,
+    "bulk_usd": null,
+    "date": "2026-08-16",
+    "tier_note": "",
+    "api_gap_pct": 6.8,
+    "api_ratio": 0.932,
+    "bulk_gap_pct": null
+   },
+   {
+    "product": "Gemini Pro 18M flash 500x",
+    "public_usd": 0.46,
+    "api_usd": 0.41,
+    "bulk_usd": null,
+    "date": "2026-08-01",
+    "tier_note": "14:41 flash",
+    "api_gap_pct": 10.9,
+    "api_ratio": 0.891,
+    "bulk_gap_pct": null
+   },
+   {
+    "product": "Gemini Pro 18M flash",
+    "public_usd": 0.45,
+    "api_usd": 0.39,
+    "bulk_usd": null,
+    "date": "2026-08-04",
+    "tier_note": "",
+    "api_gap_pct": 13.3,
+    "api_ratio": 0.867,
+    "bulk_gap_pct": null
+   },
+   {
+    "product": "CapCut Pro Private",
+    "public_usd": 1.39,
+    "api_usd": 1.29,
+    "bulk_usd": null,
+    "date": "2026-08-05",
+    "tier_note": "",
+    "api_gap_pct": 7.2,
+    "api_ratio": 0.928,
+    "bulk_gap_pct": null
+   },
+   {
+    "product": "Gemini 18M flash",
+    "public_usd": 0.69,
+    "api_usd": null,
+    "bulk_usd": 0.66,
+    "date": "2026-09-25",
+    "tier_note": "15:25",
+    "api_gap_pct": null,
+    "api_ratio": null,
+    "bulk_gap_pct": 4.3
+   },
+   {
+    "product": "Duolingo Super 12M",
+    "public_usd": 0.45,
+    "api_usd": 0.36,
+    "bulk_usd": 0.34,
+    "date": "2026-09-24",
+    "tier_note": "",
+    "api_gap_pct": 20.0,
+    "api_ratio": 0.8,
+    "bulk_gap_pct": 24.4
+   },
+   {
+    "product": "Gmail stable",
+    "public_usd": 0.8,
+    "api_usd": 0.75,
+    "bulk_usd": 0.6,
+    "date": "2026-09-19",
+    "tier_note": "14:14",
+    "api_gap_pct": 6.3,
+    "api_ratio": 0.938,
+    "bulk_gap_pct": 25.0
+   },
+   {
+    "product": "ChatGPT K12 w/ Codex",
+    "public_usd": 3.9,
+    "api_usd": 3.8,
+    "bulk_usd": null,
+    "date": "2026-09-20",
+    "tier_note": "24h warranty",
+    "api_gap_pct": 2.6,
+    "api_ratio": 0.974,
+    "bulk_gap_pct": null
+   },
+   {
+    "product": "Office 365 Plus 1Y",
+    "public_usd": 0.29,
+    "api_usd": 0.17,
+    "bulk_usd": null,
+    "date": "2026-09-20",
+    "tier_note": "5 devices",
+    "api_gap_pct": 41.4,
+    "api_ratio": 0.586,
+    "bulk_gap_pct": null
+   },
+   {
+    "product": "CapCut 7 days",
+    "public_usd": 0.14,
+    "api_usd": 0.13,
+    "bulk_usd": 0.12,
+    "date": "2026-09-23",
+    "tier_note": "07:22",
+    "api_gap_pct": 7.1,
+    "api_ratio": 0.929,
+    "bulk_gap_pct": 14.3
+   },
+   {
+    "product": "CapCut 6 days",
+    "public_usd": 0.1,
+    "api_usd": 0.09,
+    "bulk_usd": 0.09,
+    "date": "2026-09-23",
+    "tier_note": "17:07",
+    "api_gap_pct": 10.0,
+    "api_ratio": 0.9,
+    "bulk_gap_pct": 10.0
+   },
+   {
+    "product": "CapCut 1 Month",
+    "public_usd": 1.29,
+    "api_usd": 1.25,
+    "bulk_usd": 1.2,
+    "date": "2026-09-27",
+    "tier_note": "13:40 latest",
+    "api_gap_pct": 3.1,
+    "api_ratio": 0.969,
+    "bulk_gap_pct": 7.0
+   }
+  ]
+ },
+ "stackvault": {
+  "summary": {
+   "provider": "StackVault (stackvault.shop / decohomz.com backend)",
+   "source": "decohomz.com/sv-api/products (stackvault.shop backend)",
+   "n_products_total": 275,
+   "n_with_dual_price": 274,
+   "gap_pct": {
+    "min": 13.0,
+    "max": 57.4,
+    "avg": 19.9,
+    "median": 16.7
+   },
+   "by_category": {
+    "Digital Services": {
+     "n": 127,
+     "avg_gap_pct": 20.5
+    },
+    "AI Subscriptions": {
+     "n": 70,
+     "avg_gap_pct": 19.1
+    },
+    "Design & Editing": {
+     "n": 59,
+     "avg_gap_pct": 18.9
+    },
+    "Software Keys": {
+     "n": 13,
+     "avg_gap_pct": 21.0
+    },
+    "Streaming": {
+     "n": 3,
+     "avg_gap_pct": 18.7
+    },
+    "Bulk Emails": {
+     "n": 1,
+     "avg_gap_pct": 33.3
+    },
+    "Learning": {
+     "n": 1,
+     "avg_gap_pct": 31.9
+    }
+   },
+   "note": "costPrice = actual input/cost price exposed by API; public price = what the platform charges buyers. This is the platform's OWN margin structure, fully public."
+  },
+  "top20_gap": [
+   {
+    "product": "🍎 Apple Music 5M",
+    "category": "Digital Services",
+    "public_usd": 2.35,
+    "cost_usd": 1,
+    "gap_pct": 57.4,
+    "markup_multiple": 2.35,
+    "stock": 154
+   },
+   {
+    "product": "Decor is 20% cheaper than the original price if you don't have Nitro (contact ad",
+    "category": "Digital Services",
+    "public_usd": 0.02,
+    "cost_usd": 0.01,
+    "gap_pct": 50.0,
+    "markup_multiple": 2.0,
+    "stock": 9
+   },
+   {
+    "product": "Decor is 25% cheaper than the original price if you have Nitro (contact admin)",
+    "category": "Digital Services",
+    "public_usd": 0.02,
+    "cost_usd": 0.01,
+    "gap_pct": 50.0,
+    "markup_multiple": 2.0,
+    "stock": 7
+   },
+   {
+    "product": "Gift Decor 15% cheaper than the original price (IB admin)",
+    "category": "Digital Services",
+    "public_usd": 0.02,
+    "cost_usd": 0.01,
+    "gap_pct": 50.0,
+    "markup_multiple": 2.0,
+    "stock": 6
+   },
+   {
+    "product": "📝 Notion Edu Plus Account",
+    "category": "Digital Services",
+    "public_usd": 1.6,
+    "cost_usd": 0.8,
+    "gap_pct": 50.0,
+    "markup_multiple": 2.0,
+    "stock": 14
+   },
+   {
+    "product": "😶‍🌫️ Microsoft Office 365 Plus 1 year",
+    "category": "Software Keys",
+    "public_usd": 0.38,
+    "cost_usd": 0.21,
+    "gap_pct": 44.7,
+    "markup_multiple": 1.81,
+    "stock": 677
+   },
+   {
+    "product": "💼 Linkedin Career 3M",
+    "category": "Digital Services",
+    "public_usd": 1.15,
+    "cost_usd": 0.65,
+    "gap_pct": 43.5,
+    "markup_multiple": 1.77,
+    "stock": 19
+   },
+   {
+    "product": "🎨 Capcut pro 6 days FW",
+    "category": "Design & Editing",
+    "public_usd": 0.14,
+    "cost_usd": 0.09,
+    "gap_pct": 35.7,
+    "markup_multiple": 1.56,
+    "stock": 36
+   },
+   {
+    "product": "🎨 Capcut Pro 7D FW",
+    "category": "Design & Editing",
+    "public_usd": 0.2,
+    "cost_usd": 0.13,
+    "gap_pct": 35.0,
+    "markup_multiple": 1.54,
+    "stock": 54
+   },
+   {
+    "product": "🎨 ChatGPT Gmail FREE 12 months - no warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 0.06,
+    "cost_usd": 0.04,
+    "gap_pct": 33.3,
+    "markup_multiple": 1.5,
+    "stock": 0
+   },
+   {
+    "product": "🎨 ChatGPT offers Plus $0 for 1 month - no warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 0.3,
+    "cost_usd": 0.2,
+    "gap_pct": 33.3,
+    "markup_multiple": 1.5,
+    "stock": 0
+   },
+   {
+    "product": "💰 Discord token 24-hour warranty",
+    "category": "Digital Services",
+    "public_usd": 0.15,
+    "cost_usd": 0.1,
+    "gap_pct": 33.3,
+    "markup_multiple": 1.5,
+    "stock": 0
+   },
+   {
+    "product": "📦 Flux 03 1 month warranty 24h",
+    "category": "Digital Services",
+    "public_usd": 0.3,
+    "cost_usd": 0.2,
+    "gap_pct": 33.3,
+    "markup_multiple": 1.5,
+    "stock": 35
+   },
+   {
+    "product": "📩 Hotmail Trusted - 6 months - no warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 0.03,
+    "cost_usd": 0.02,
+    "gap_pct": 33.3,
+    "markup_multiple": 1.5,
+    "stock": 794
+   },
+   {
+    "product": "📩 Outlook Trusted - 6 months - no warranty",
+    "category": "Bulk Emails",
+    "public_usd": 0.03,
+    "cost_usd": 0.02,
+    "gap_pct": 33.3,
+    "markup_multiple": 1.5,
+    "stock": 933
+   },
+   {
+    "product": "⭐ Scribd Slot 1 Download per Day - no warranty",
+    "category": "Digital Services",
+    "public_usd": 0.3,
+    "cost_usd": 0.2,
+    "gap_pct": 33.3,
+    "markup_multiple": 1.5,
+    "stock": 1
+   },
+   {
+    "product": "⭐ Seedance 400~600 credit 1 Day - 1H warranty",
+    "category": "Design & Editing",
+    "public_usd": 0.18,
+    "cost_usd": 0.12,
+    "gap_pct": 33.3,
+    "markup_multiple": 1.5,
+    "stock": 117
+   },
+   {
+    "product": "Udemy Personal Plan 1M",
+    "category": "Learning",
+    "public_usd": 2.35,
+    "cost_usd": 1.6,
+    "gap_pct": 31.9,
+    "markup_multiple": 1.47,
+    "stock": 1
+   },
+   {
+    "product": "🛡️ Adguard VPN 7 Days full warranty",
+    "category": "Digital Services",
+    "public_usd": 0.75,
+    "cost_usd": 0.58,
+    "gap_pct": 22.7,
+    "markup_multiple": 1.29,
+    "stock": 5
+   },
+   {
+    "product": "🚚 Express VPN 10 devices 3 days full warranty",
+    "category": "Digital Services",
+    "public_usd": 0.75,
+    "cost_usd": 0.58,
+    "gap_pct": 22.7,
+    "markup_multiple": 1.29,
+    "stock": 0
+   }
+  ],
+  "bottom10_gap": [
+   {
+    "product": "🔥Chatgpt Plus Vipp 1 month full warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 12.81,
+    "cost_usd": 10.67,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "🔥ElevenLabs Redeem 1M Credit",
+    "category": "Design & Editing",
+    "public_usd": 12.3,
+    "cost_usd": 10.25,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 70
+   },
+   {
+    "product": "🔥ElevenLabs Redeem 300K Credit",
+    "category": "Design & Editing",
+    "public_usd": 5.45,
+    "cost_usd": 4.54,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 170
+   },
+   {
+    "product": "🔥Minimax Redeem 1M Credit",
+    "category": "Design & Editing",
+    "public_usd": 12.76,
+    "cost_usd": 10.63,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 68
+   },
+   {
+    "product": "🔥Minimax Redeem 300K Credit",
+    "category": "Design & Editing",
+    "public_usd": 5.45,
+    "cost_usd": 4.54,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 170
+   },
+   {
+    "product": "🔥Minimax Redeem 3M Credit",
+    "category": "Design & Editing",
+    "public_usd": 31.95,
+    "cost_usd": 26.62,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 26
+   },
+   {
+    "product": "edX Premium 12Months",
+    "category": "Digital Services",
+    "public_usd": 1.3,
+    "cost_usd": 1.1,
+    "gap_pct": 15.4,
+    "markup_multiple": 1.18,
+    "stock": 38
+   },
+   {
+    "product": "📺 Amazon Prime Video 6m",
+    "category": "Streaming",
+    "public_usd": 2.35,
+    "cost_usd": 2,
+    "gap_pct": 14.9,
+    "markup_multiple": 1.18,
+    "stock": 14
+   },
+   {
+    "product": "🎨 CAPCUT PRO 6 MONTHS",
+    "category": "Design & Editing",
+    "public_usd": 9.99,
+    "cost_usd": 8.5,
+    "gap_pct": 14.9,
+    "markup_multiple": 1.18,
+    "stock": 8
+   },
+   {
+    "product": "📐 Figma Pro Edu 2Y",
+    "category": "Digital Services",
+    "public_usd": 4.6,
+    "cost_usd": 4,
+    "gap_pct": 13.0,
+    "markup_multiple": 1.15,
+    "stock": 50
+   }
+  ],
+  "all_rows": [
+   {
+    "product": "🍎 Apple Music 5M",
+    "category": "Digital Services",
+    "public_usd": 2.35,
+    "cost_usd": 1,
+    "gap_pct": 57.4,
+    "markup_multiple": 2.35,
+    "stock": 154
+   },
+   {
+    "product": "Decor is 20% cheaper than the original price if you don't have Nitro (contact ad",
+    "category": "Digital Services",
+    "public_usd": 0.02,
+    "cost_usd": 0.01,
+    "gap_pct": 50.0,
+    "markup_multiple": 2.0,
+    "stock": 9
+   },
+   {
+    "product": "Decor is 25% cheaper than the original price if you have Nitro (contact admin)",
+    "category": "Digital Services",
+    "public_usd": 0.02,
+    "cost_usd": 0.01,
+    "gap_pct": 50.0,
+    "markup_multiple": 2.0,
+    "stock": 7
+   },
+   {
+    "product": "Gift Decor 15% cheaper than the original price (IB admin)",
+    "category": "Digital Services",
+    "public_usd": 0.02,
+    "cost_usd": 0.01,
+    "gap_pct": 50.0,
+    "markup_multiple": 2.0,
+    "stock": 6
+   },
+   {
+    "product": "📝 Notion Edu Plus Account",
+    "category": "Digital Services",
+    "public_usd": 1.6,
+    "cost_usd": 0.8,
+    "gap_pct": 50.0,
+    "markup_multiple": 2.0,
+    "stock": 14
+   },
+   {
+    "product": "😶‍🌫️ Microsoft Office 365 Plus 1 year",
+    "category": "Software Keys",
+    "public_usd": 0.38,
+    "cost_usd": 0.21,
+    "gap_pct": 44.7,
+    "markup_multiple": 1.81,
+    "stock": 677
+   },
+   {
+    "product": "💼 Linkedin Career 3M",
+    "category": "Digital Services",
+    "public_usd": 1.15,
+    "cost_usd": 0.65,
+    "gap_pct": 43.5,
+    "markup_multiple": 1.77,
+    "stock": 19
+   },
+   {
+    "product": "🎨 Capcut pro 6 days FW",
+    "category": "Design & Editing",
+    "public_usd": 0.14,
+    "cost_usd": 0.09,
+    "gap_pct": 35.7,
+    "markup_multiple": 1.56,
+    "stock": 36
+   },
+   {
+    "product": "🎨 Capcut Pro 7D FW",
+    "category": "Design & Editing",
+    "public_usd": 0.2,
+    "cost_usd": 0.13,
+    "gap_pct": 35.0,
+    "markup_multiple": 1.54,
+    "stock": 54
+   },
+   {
+    "product": "🎨 ChatGPT Gmail FREE 12 months - no warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 0.06,
+    "cost_usd": 0.04,
+    "gap_pct": 33.3,
+    "markup_multiple": 1.5,
+    "stock": 0
+   },
+   {
+    "product": "🎨 ChatGPT offers Plus $0 for 1 month - no warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 0.3,
+    "cost_usd": 0.2,
+    "gap_pct": 33.3,
+    "markup_multiple": 1.5,
+    "stock": 0
+   },
+   {
+    "product": "💰 Discord token 24-hour warranty",
+    "category": "Digital Services",
+    "public_usd": 0.15,
+    "cost_usd": 0.1,
+    "gap_pct": 33.3,
+    "markup_multiple": 1.5,
+    "stock": 0
+   },
+   {
+    "product": "📦 Flux 03 1 month warranty 24h",
+    "category": "Digital Services",
+    "public_usd": 0.3,
+    "cost_usd": 0.2,
+    "gap_pct": 33.3,
+    "markup_multiple": 1.5,
+    "stock": 35
+   },
+   {
+    "product": "📩 Hotmail Trusted - 6 months - no warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 0.03,
+    "cost_usd": 0.02,
+    "gap_pct": 33.3,
+    "markup_multiple": 1.5,
+    "stock": 794
+   },
+   {
+    "product": "📩 Outlook Trusted - 6 months - no warranty",
+    "category": "Bulk Emails",
+    "public_usd": 0.03,
+    "cost_usd": 0.02,
+    "gap_pct": 33.3,
+    "markup_multiple": 1.5,
+    "stock": 933
+   },
+   {
+    "product": "⭐ Scribd Slot 1 Download per Day - no warranty",
+    "category": "Digital Services",
+    "public_usd": 0.3,
+    "cost_usd": 0.2,
+    "gap_pct": 33.3,
+    "markup_multiple": 1.5,
+    "stock": 1
+   },
+   {
+    "product": "⭐ Seedance 400~600 credit 1 Day - 1H warranty",
+    "category": "Design & Editing",
+    "public_usd": 0.18,
+    "cost_usd": 0.12,
+    "gap_pct": 33.3,
+    "markup_multiple": 1.5,
+    "stock": 117
+   },
+   {
+    "product": "Udemy Personal Plan 1M",
+    "category": "Learning",
+    "public_usd": 2.35,
+    "cost_usd": 1.6,
+    "gap_pct": 31.9,
+    "markup_multiple": 1.47,
+    "stock": 1
+   },
+   {
+    "product": "🛡️ Adguard VPN 7 Days full warranty",
+    "category": "Digital Services",
+    "public_usd": 0.75,
+    "cost_usd": 0.58,
+    "gap_pct": 22.7,
+    "markup_multiple": 1.29,
+    "stock": 5
+   },
+   {
+    "product": "🚚 Express VPN 10 devices 3 days full warranty",
+    "category": "Digital Services",
+    "public_usd": 0.75,
+    "cost_usd": 0.58,
+    "gap_pct": 22.7,
+    "markup_multiple": 1.29,
+    "stock": 0
+   },
+   {
+    "product": "🚚 Express VPN 3 Days full warranty",
+    "category": "Digital Services",
+    "public_usd": 0.75,
+    "cost_usd": 0.58,
+    "gap_pct": 22.7,
+    "markup_multiple": 1.29,
+    "stock": 3
+   },
+   {
+    "product": "🛡️ Hotspot Shield VPN 7 Days full warranty",
+    "category": "Digital Services",
+    "public_usd": 0.75,
+    "cost_usd": 0.58,
+    "gap_pct": 22.7,
+    "markup_multiple": 1.29,
+    "stock": 8
+   },
+   {
+    "product": "🛡️ IPVanish VPN 7 Days full warranty",
+    "category": "Digital Services",
+    "public_usd": 0.75,
+    "cost_usd": 0.58,
+    "gap_pct": 22.7,
+    "markup_multiple": 1.29,
+    "stock": 11
+   },
+   {
+    "product": "📦 NordVPN 3 Days full warranty",
+    "category": "Digital Services",
+    "public_usd": 0.75,
+    "cost_usd": 0.58,
+    "gap_pct": 22.7,
+    "markup_multiple": 1.29,
+    "stock": 7
+   },
+   {
+    "product": "🛡️ Norton VPN Ultimate 7 Days full warranty",
+    "category": "Digital Services",
+    "public_usd": 0.75,
+    "cost_usd": 0.58,
+    "gap_pct": 22.7,
+    "markup_multiple": 1.29,
+    "stock": 6
+   },
+   {
+    "product": "🛡️ PIA VPN 7 Days full warranty",
+    "category": "Digital Services",
+    "public_usd": 0.75,
+    "cost_usd": 0.58,
+    "gap_pct": 22.7,
+    "markup_multiple": 1.29,
+    "stock": 2
+   },
+   {
+    "product": "🛡️ PIA VPN 7-Day full warranty",
+    "category": "Digital Services",
+    "public_usd": 0.75,
+    "cost_usd": 0.58,
+    "gap_pct": 22.7,
+    "markup_multiple": 1.29,
+    "stock": 8
+   },
+   {
+    "product": "🛡️ PureVPN 7 Days full warranty",
+    "category": "Digital Services",
+    "public_usd": 0.75,
+    "cost_usd": 0.58,
+    "gap_pct": 22.7,
+    "markup_multiple": 1.29,
+    "stock": 4
+   },
+   {
+    "product": "🦈 SurfShark VPN Android/PC/iOS 7 days full warranty",
+    "category": "Digital Services",
+    "public_usd": 0.75,
+    "cost_usd": 0.58,
+    "gap_pct": 22.7,
+    "markup_multiple": 1.29,
+    "stock": 0
+   },
+   {
+    "product": "🦈 Surfshark VPN One 7 Days full warranty",
+    "category": "Digital Services",
+    "public_usd": 0.75,
+    "cost_usd": 0.58,
+    "gap_pct": 22.7,
+    "markup_multiple": 1.29,
+    "stock": 9
+   },
+   {
+    "product": "🤖 ChatGPT Free has phone version Codex 1 month - no warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 0.4,
+    "cost_usd": 0.31,
+    "gap_pct": 22.5,
+    "markup_multiple": 1.29,
+    "stock": 128
+   },
+   {
+    "product": "😀 Gmail Random 2020~2023 With 2FA",
+    "category": "AI Subscriptions",
+    "public_usd": 1.25,
+    "cost_usd": 0.97,
+    "gap_pct": 22.4,
+    "markup_multiple": 1.29,
+    "stock": 0
+   },
+   {
+    "product": "📄 iLovePdf Premium 1Y",
+    "category": "Digital Services",
+    "public_usd": 0.58,
+    "cost_usd": 0.45,
+    "gap_pct": 22.4,
+    "markup_multiple": 1.29,
+    "stock": 30
+   },
+   {
+    "product": "🤶 API 10M Token Claude 1 Day - full warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 1.48,
+    "cost_usd": 1.15,
+    "gap_pct": 22.3,
+    "markup_multiple": 1.29,
+    "stock": 39
+   },
+   {
+    "product": "😀 GMAIL TRIAL DATE 201X - 202X WITH 2FA",
+    "category": "AI Subscriptions",
+    "public_usd": 1.48,
+    "cost_usd": 1.15,
+    "gap_pct": 22.3,
+    "markup_multiple": 1.29,
+    "stock": 0
+   },
+   {
+    "product": "😀 GMAIL TRIAL DATE 202X HAS 2FA",
+    "category": "AI Subscriptions",
+    "public_usd": 1.57,
+    "cost_usd": 1.22,
+    "gap_pct": 22.3,
+    "markup_multiple": 1.29,
+    "stock": 8
+   },
+   {
+    "product": "🤖 GPT-6-ASTRA API 10M 1 day - full warranty",
+    "category": "Digital Services",
+    "public_usd": 1.75,
+    "cost_usd": 1.36,
+    "gap_pct": 22.3,
+    "markup_multiple": 1.29,
+    "stock": 0
+   },
+   {
+    "product": "💼 LinkedIn Premium Career Code 3 Months no warranty",
+    "category": "Digital Services",
+    "public_usd": 1.48,
+    "cost_usd": 1.15,
+    "gap_pct": 22.3,
+    "markup_multiple": 1.29,
+    "stock": 5
+   },
+   {
+    "product": "😶‍🌫️ Microsoft 365 Admin Family 1 Month full warranty",
+    "category": "Digital Services",
+    "public_usd": 1.48,
+    "cost_usd": 1.15,
+    "gap_pct": 22.3,
+    "markup_multiple": 1.29,
+    "stock": 13
+   },
+   {
+    "product": "😶‍🌫️ Microsoft Office 365 Family Admin 1 Month - full warranty",
+    "category": "Software Keys",
+    "public_usd": 1.48,
+    "cost_usd": 1.15,
+    "gap_pct": 22.3,
+    "markup_multiple": 1.29,
+    "stock": 0
+   },
+   {
+    "product": "😶‍🌫️ MS Office 365 Plus 12M",
+    "category": "Software Keys",
+    "public_usd": 1.03,
+    "cost_usd": 0.8,
+    "gap_pct": 22.3,
+    "markup_multiple": 1.29,
+    "stock": 20
+   },
+   {
+    "product": "⭐ Scribd Premium 1 Month - full warranty",
+    "category": "Digital Services",
+    "public_usd": 1.48,
+    "cost_usd": 1.15,
+    "gap_pct": 22.3,
+    "markup_multiple": 1.29,
+    "stock": 8
+   },
+   {
+    "product": "⭐ Scribd Premium 1 Month full warranty",
+    "category": "Digital Services",
+    "public_usd": 1.48,
+    "cost_usd": 1.15,
+    "gap_pct": 22.3,
+    "markup_multiple": 1.29,
+    "stock": 10
+   },
+   {
+    "product": "❤️ Zoom Pro 14 Days full warranty",
+    "category": "Digital Services",
+    "public_usd": 1.48,
+    "cost_usd": 1.15,
+    "gap_pct": 22.3,
+    "markup_multiple": 1.29,
+    "stock": 6
+   },
+   {
+    "product": "😎 Adobe All Apps 7 Days no warranty",
+    "category": "Design & Editing",
+    "public_usd": 2.21,
+    "cost_usd": 1.72,
+    "gap_pct": 22.2,
+    "markup_multiple": 1.28,
+    "stock": 4
+   },
+   {
+    "product": "😎 Adobe Express Premium 12 months without warranty",
+    "category": "Design & Editing",
+    "public_usd": 2.21,
+    "cost_usd": 1.72,
+    "gap_pct": 22.2,
+    "markup_multiple": 1.28,
+    "stock": 14
+   },
+   {
+    "product": "🍎 Apple ID 2FA Hotmail 24H warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 2.21,
+    "cost_usd": 1.72,
+    "gap_pct": 22.2,
+    "markup_multiple": 1.28,
+    "stock": 0
+   },
+   {
+    "product": "😀 GMAIL US OLD DATE 201X TRIAL HAS 2FA",
+    "category": "AI Subscriptions",
+    "public_usd": 2.21,
+    "cost_usd": 1.72,
+    "gap_pct": 22.2,
+    "markup_multiple": 1.28,
+    "stock": 0
+   },
+   {
+    "product": "🎨 Leonardo AI 8k-8.5K Cre 14 ngày warranty 6H",
+    "category": "AI Subscriptions",
+    "public_usd": 0.99,
+    "cost_usd": 0.77,
+    "gap_pct": 22.2,
+    "markup_multiple": 1.29,
+    "stock": 0
+   },
+   {
+    "product": "📦 NORD VPN 10 devices 7 days full warranty",
+    "category": "Digital Services",
+    "public_usd": 0.99,
+    "cost_usd": 0.77,
+    "gap_pct": 22.2,
+    "markup_multiple": 1.29,
+    "stock": 0
+   },
+   {
+    "product": "🪶 Quillbot Premium 1m",
+    "category": "Digital Services",
+    "public_usd": 1.8,
+    "cost_usd": 1.4,
+    "gap_pct": 22.2,
+    "markup_multiple": 1.29,
+    "stock": 4
+   },
+   {
+    "product": "📱 TikTok Germany (DE) - Login Warranty",
+    "category": "Digital Services",
+    "public_usd": 2.21,
+    "cost_usd": 1.72,
+    "gap_pct": 22.2,
+    "markup_multiple": 1.28,
+    "stock": 42
+   },
+   {
+    "product": "📱 TikTok United Kingdom (UK) - login warranty",
+    "category": "Digital Services",
+    "public_usd": 2.21,
+    "cost_usd": 1.72,
+    "gap_pct": 22.2,
+    "markup_multiple": 1.28,
+    "stock": 87
+   },
+   {
+    "product": "❤️ Zoom Pro 28 Days full warranty",
+    "category": "Digital Services",
+    "public_usd": 2.21,
+    "cost_usd": 1.72,
+    "gap_pct": 22.2,
+    "markup_multiple": 1.28,
+    "stock": 557
+   },
+   {
+    "product": "🤖 20M Credit API Codex 1 Day - full warranty",
+    "category": "Design & Editing",
+    "public_usd": 1.72,
+    "cost_usd": 1.34,
+    "gap_pct": 22.1,
+    "markup_multiple": 1.28,
+    "stock": 91
+   },
+   {
+    "product": "✅🌐 Account X Stock 2009-2022 US Bull-Bear-BH24H",
+    "category": "Digital Services",
+    "public_usd": 1.72,
+    "cost_usd": 1.34,
+    "gap_pct": 22.1,
+    "markup_multiple": 1.28,
+    "stock": 8
+   },
+   {
+    "product": "😎 Adobe All App 6-7 Days no warranty",
+    "category": "Design & Editing",
+    "public_usd": 1.72,
+    "cost_usd": 1.34,
+    "gap_pct": 22.1,
+    "markup_multiple": 1.28,
+    "stock": 0
+   },
+   {
+    "product": "🍎 Apple ID 2FA Gmail",
+    "category": "AI Subscriptions",
+    "public_usd": 1.72,
+    "cost_usd": 1.34,
+    "gap_pct": 22.1,
+    "markup_multiple": 1.28,
+    "stock": 39
+   },
+   {
+    "product": "💰 Discord Nitro 1M Token not guaranteed",
+    "category": "Digital Services",
+    "public_usd": 1.72,
+    "cost_usd": 1.34,
+    "gap_pct": 22.1,
+    "markup_multiple": 1.28,
+    "stock": 80
+   },
+   {
+    "product": "😀 Gmail Random IP 2020-2024",
+    "category": "AI Subscriptions",
+    "public_usd": 1.72,
+    "cost_usd": 1.34,
+    "gap_pct": 22.1,
+    "markup_multiple": 1.28,
+    "stock": 164
+   },
+   {
+    "product": "😀 Gmail Vietnam 2020-2024 2FA has an old channel",
+    "category": "AI Subscriptions",
+    "public_usd": 1.81,
+    "cost_usd": 1.41,
+    "gap_pct": 22.1,
+    "markup_multiple": 1.28,
+    "stock": 0
+   },
+   {
+    "product": "😀 Gmails Accounts",
+    "category": "AI Subscriptions",
+    "public_usd": 0.77,
+    "cost_usd": 0.6,
+    "gap_pct": 22.1,
+    "markup_multiple": 1.28,
+    "stock": 30
+   },
+   {
+    "product": "📩 Hotmail, Outlook have student version (MS 365 edu)",
+    "category": "AI Subscriptions",
+    "public_usd": 1.72,
+    "cost_usd": 1.34,
+    "gap_pct": 22.1,
+    "markup_multiple": 1.28,
+    "stock": 71
+   },
+   {
+    "product": "🎨 Leonardo VIP uses Seedance 8k1 credit 7 days warranty 4 hours",
+    "category": "Design & Editing",
+    "public_usd": 1.72,
+    "cost_usd": 1.34,
+    "gap_pct": 22.1,
+    "markup_multiple": 1.28,
+    "stock": 0
+   },
+   {
+    "product": "😶‍🌫️ Microsoft 365 Admin Premium 1 Month full warranty",
+    "category": "Digital Services",
+    "public_usd": 1.72,
+    "cost_usd": 1.34,
+    "gap_pct": 22.1,
+    "markup_multiple": 1.28,
+    "stock": 6
+   },
+   {
+    "product": "😀 Old Random Gmail 2010~2022",
+    "category": "AI Subscriptions",
+    "public_usd": 1.72,
+    "cost_usd": 1.34,
+    "gap_pct": 22.1,
+    "markup_multiple": 1.28,
+    "stock": 143
+   },
+   {
+    "product": "😀 Vietnamese Gmail 2009~2022 2FA",
+    "category": "AI Subscriptions",
+    "public_usd": 1.72,
+    "cost_usd": 1.34,
+    "gap_pct": 22.1,
+    "markup_multiple": 1.28,
+    "stock": 0
+   },
+   {
+    "product": "🤖 10M Credit API Codex 1 Day - full warranty",
+    "category": "Design & Editing",
+    "public_usd": 1.23,
+    "cost_usd": 0.96,
+    "gap_pct": 22.0,
+    "markup_multiple": 1.28,
+    "stock": 170
+   },
+   {
+    "product": "🤖 20M Credit API Codex 2 Days - full warranty",
+    "category": "Design & Editing",
+    "public_usd": 2.45,
+    "cost_usd": 1.91,
+    "gap_pct": 22.0,
+    "markup_multiple": 1.28,
+    "stock": 92
+   },
+   {
+    "product": "😎 Adobe Express Premium 12-month CODE - no warranty",
+    "category": "Design & Editing",
+    "public_usd": 1,
+    "cost_usd": 0.78,
+    "gap_pct": 22.0,
+    "markup_multiple": 1.28,
+    "stock": 3
+   },
+   {
+    "product": "🎨 CAPCUT PRO 1600 CREDITS",
+    "category": "Design & Editing",
+    "public_usd": 2.05,
+    "cost_usd": 1.6,
+    "gap_pct": 22.0,
+    "markup_multiple": 1.28,
+    "stock": 7
+   },
+   {
+    "product": "⭐ Dropshot AI 1 month 24-hour warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 0.5,
+    "cost_usd": 0.39,
+    "gap_pct": 22.0,
+    "markup_multiple": 1.28,
+    "stock": 2
+   },
+   {
+    "product": "🎙️ ElevenLabs Redeem 100K Credit",
+    "category": "Design & Editing",
+    "public_usd": 1.91,
+    "cost_usd": 1.49,
+    "gap_pct": 22.0,
+    "markup_multiple": 1.28,
+    "stock": 10
+   },
+   {
+    "product": "Gmail 2008-2019🌀Get unlimited OTP within 48 hours",
+    "category": "AI Subscriptions",
+    "public_usd": 2.23,
+    "cost_usd": 1.74,
+    "gap_pct": 22.0,
+    "markup_multiple": 1.28,
+    "stock": 0
+   },
+   {
+    "product": "😀 GMAIL OLD DATE 201X-202X",
+    "category": "AI Subscriptions",
+    "public_usd": 1.23,
+    "cost_usd": 0.96,
+    "gap_pct": 22.0,
+    "markup_multiple": 1.28,
+    "stock": 0
+   },
+   {
+    "product": "😀 Vietnamese Gmail 2009~2022 Has Trial",
+    "category": "AI Subscriptions",
+    "public_usd": 1.77,
+    "cost_usd": 1.38,
+    "gap_pct": 22.0,
+    "markup_multiple": 1.28,
+    "stock": 27
+   },
+   {
+    "product": "😀 Gmail random 5-10 months log all devices high trial rate",
+    "category": "AI Subscriptions",
+    "public_usd": 1.23,
+    "cost_usd": 0.96,
+    "gap_pct": 22.0,
+    "markup_multiple": 1.28,
+    "stock": 15
+   },
+   {
+    "product": "⭐ Grammarly Pro 10 Days - full warranty",
+    "category": "Digital Services",
+    "public_usd": 1.23,
+    "cost_usd": 0.96,
+    "gap_pct": 22.0,
+    "markup_multiple": 1.28,
+    "stock": 1
+   },
+   {
+    "product": "⭐ Grammarly Pro 7-14 Days - full warranty",
+    "category": "Digital Services",
+    "public_usd": 0.5,
+    "cost_usd": 0.39,
+    "gap_pct": 22.0,
+    "markup_multiple": 1.28,
+    "stock": 3
+   },
+   {
+    "product": "🛡️ Kaspersky Premium + VPN 1 month - full warranty",
+    "category": "Digital Services",
+    "public_usd": 1.23,
+    "cost_usd": 0.96,
+    "gap_pct": 22.0,
+    "markup_multiple": 1.28,
+    "stock": 2
+   },
+   {
+    "product": "🛡️ KEY HMA AND/PC 20-30 DAYS",
+    "category": "Software Keys",
+    "public_usd": 0.5,
+    "cost_usd": 0.39,
+    "gap_pct": 22.0,
+    "markup_multiple": 1.28,
+    "stock": 20
+   },
+   {
+    "product": "😶‍🌫️ Microsoft Office 365 - 2 Years full warranty",
+    "category": "Software Keys",
+    "public_usd": 2.45,
+    "cost_usd": 1.91,
+    "gap_pct": 22.0,
+    "markup_multiple": 1.28,
+    "stock": 0
+   },
+   {
+    "product": "📦 Nord VPN code 3 months - no warranty",
+    "category": "Digital Services",
+    "public_usd": 2.45,
+    "cost_usd": 1.91,
+    "gap_pct": 22.0,
+    "markup_multiple": 1.28,
+    "stock": 0
+   },
+   {
+    "product": "😶‍🌫️ Office 365 Admin Family 1 Month full warranty",
+    "category": "Software Keys",
+    "public_usd": 1.23,
+    "cost_usd": 0.96,
+    "gap_pct": 22.0,
+    "markup_multiple": 1.28,
+    "stock": 0
+   },
+   {
+    "product": "🤶 VIP. API 15M Token Claude 1 Day - full warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 1.73,
+    "cost_usd": 1.35,
+    "gap_pct": 22.0,
+    "markup_multiple": 1.28,
+    "stock": 15
+   },
+   {
+    "product": "⭐ Seedance 700~1k credit 1 Day - 1H warranty",
+    "category": "Design & Editing",
+    "public_usd": 0.41,
+    "cost_usd": 0.32,
+    "gap_pct": 22.0,
+    "markup_multiple": 1.28,
+    "stock": 49
+   },
+   {
+    "product": "Server Boost x2 [ Level 1 ] 1 Month full warranty",
+    "category": "Digital Services",
+    "public_usd": 1.23,
+    "cost_usd": 0.96,
+    "gap_pct": 22.0,
+    "markup_multiple": 1.28,
+    "stock": 1110
+   },
+   {
+    "product": "📱 TikTok USA (US) 2024",
+    "category": "Digital Services",
+    "public_usd": 1,
+    "cost_usd": 0.78,
+    "gap_pct": 22.0,
+    "markup_multiple": 1.28,
+    "stock": 0
+   },
+   {
+    "product": "🤖 [Astra] API 10M Token Codex 1 Day - full warranty",
+    "category": "Digital Services",
+    "public_usd": 1.91,
+    "cost_usd": 1.49,
+    "gap_pct": 22.0,
+    "markup_multiple": 1.28,
+    "stock": 98
+   },
+   {
+    "product": "🤖 10M Credit API Codex 2 Days - full warranty",
+    "category": "Design & Editing",
+    "public_usd": 1.96,
+    "cost_usd": 1.53,
+    "gap_pct": 21.9,
+    "markup_multiple": 1.28,
+    "stock": 84
+   },
+   {
+    "product": "😎 Adobe Express 12m",
+    "category": "Design & Editing",
+    "public_usd": 0.64,
+    "cost_usd": 0.5,
+    "gap_pct": 21.9,
+    "markup_multiple": 1.28,
+    "stock": 93
+   },
+   {
+    "product": "⭐ Domo AI 630 credit 7 days warranty 1 day",
+    "category": "AI Subscriptions",
+    "public_usd": 2.01,
+    "cost_usd": 1.57,
+    "gap_pct": 21.9,
+    "markup_multiple": 1.28,
+    "stock": 9
+   },
+   {
+    "product": "🚚 Express VPN PRO 1 Month full warranty",
+    "category": "Digital Services",
+    "public_usd": 1.96,
+    "cost_usd": 1.53,
+    "gap_pct": 21.9,
+    "markup_multiple": 1.28,
+    "stock": 0
+   },
+   {
+    "product": "🍿 HBO MAX - 1 month (20-day warranty)",
+    "category": "Digital Services",
+    "public_usd": 1.96,
+    "cost_usd": 1.53,
+    "gap_pct": 21.9,
+    "markup_multiple": 1.28,
+    "stock": 0
+   },
+   {
+    "product": "🍎 Link to Get Apple Music Individual Offer 5 months 1-day warranty",
+    "category": "Digital Services",
+    "public_usd": 1.96,
+    "cost_usd": 1.53,
+    "gap_pct": 21.9,
+    "markup_multiple": 1.28,
+    "stock": 15
+   },
+   {
+    "product": "💼 Linkedin Busines 2m New User",
+    "category": "Digital Services",
+    "public_usd": 1.92,
+    "cost_usd": 1.5,
+    "gap_pct": 21.9,
+    "markup_multiple": 1.28,
+    "stock": 5
+   },
+   {
+    "product": "💼 Linkedin Career 2m New User",
+    "category": "Digital Services",
+    "public_usd": 1.92,
+    "cost_usd": 1.5,
+    "gap_pct": 21.9,
+    "markup_multiple": 1.28,
+    "stock": 1
+   },
+   {
+    "product": "💼 Linkedin Sales Nav 2m New User",
+    "category": "Digital Services",
+    "public_usd": 2.56,
+    "cost_usd": 2,
+    "gap_pct": 21.9,
+    "markup_multiple": 1.28,
+    "stock": 0
+   },
+   {
+    "product": "😶‍🌫️ Microsoft 365 Personal 1 year warranty 3 months",
+    "category": "Digital Services",
+    "public_usd": 1.96,
+    "cost_usd": 1.53,
+    "gap_pct": 21.9,
+    "markup_multiple": 1.28,
+    "stock": 33
+   },
+   {
+    "product": "⭐ MiniMax Redeem 100K Credit",
+    "category": "Design & Editing",
+    "public_usd": 1.96,
+    "cost_usd": 1.53,
+    "gap_pct": 21.9,
+    "markup_multiple": 1.28,
+    "stock": 4
+   },
+   {
+    "product": "🎧 Spotify Premium 3-Month Activation Link with No Warranty",
+    "category": "Streaming",
+    "public_usd": 1.96,
+    "cost_usd": 1.53,
+    "gap_pct": 21.9,
+    "markup_multiple": 1.28,
+    "stock": 3
+   },
+   {
+    "product": "📝 Notion Business 3m",
+    "category": "Digital Services",
+    "public_usd": 2.25,
+    "cost_usd": 1.8,
+    "gap_pct": 20.0,
+    "markup_multiple": 1.25,
+    "stock": 41
+   },
+   {
+    "product": "🎨 Capcut Pro 1 Month FW",
+    "category": "Design & Editing",
+    "public_usd": 1.6,
+    "cost_usd": 1.29,
+    "gap_pct": 19.4,
+    "markup_multiple": 1.24,
+    "stock": 66
+   },
+   {
+    "product": "🛡️ Avira Prime 3 Months",
+    "category": "Streaming",
+    "public_usd": 0.99,
+    "cost_usd": 0.8,
+    "gap_pct": 19.2,
+    "markup_multiple": 1.24,
+    "stock": 70
+   },
+   {
+    "product": "💰 79K Decor Discord / Profile Effect Cheap (Login Type) - full warranty",
+    "category": "Digital Services",
+    "public_usd": 3.44,
+    "cost_usd": 2.86,
+    "gap_pct": 16.9,
+    "markup_multiple": 1.2,
+    "stock": 260
+   },
+   {
+    "product": "🤖 API GPT-6-ASTRA 25M 1 day - full warranty",
+    "category": "Digital Services",
+    "public_usd": 3.5,
+    "cost_usd": 2.91,
+    "gap_pct": 16.9,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "📐 Autodesk 1 App 3 years warranty 1 year",
+    "category": "Digital Services",
+    "public_usd": 3.62,
+    "cost_usd": 3.01,
+    "gap_pct": 16.9,
+    "markup_multiple": 1.2,
+    "stock": 340
+   },
+   {
+    "product": "💰 Discord Clone Account 2020 not warranty",
+    "category": "Digital Services",
+    "public_usd": 3.44,
+    "cost_usd": 2.86,
+    "gap_pct": 16.9,
+    "markup_multiple": 1.2,
+    "stock": 25
+   },
+   {
+    "product": "😶‍🌫️ Microsoft Copilot 1 Month full warranty",
+    "category": "Digital Services",
+    "public_usd": 3.44,
+    "cost_usd": 2.86,
+    "gap_pct": 16.9,
+    "markup_multiple": 1.2,
+    "stock": 4
+   },
+   {
+    "product": "🤖 [Astra] API 20M Token Codex 1 Day - full warranty",
+    "category": "Digital Services",
+    "public_usd": 3.44,
+    "cost_usd": 2.86,
+    "gap_pct": 16.9,
+    "markup_multiple": 1.2,
+    "stock": 97
+   },
+   {
+    "product": "🤖 100M Credit API Codex 5 Days - full warranty",
+    "category": "Design & Editing",
+    "public_usd": 4.58,
+    "cost_usd": 3.81,
+    "gap_pct": 16.8,
+    "markup_multiple": 1.2,
+    "stock": 40
+   },
+   {
+    "product": "💰 111K Decor Discord / Profile Effect Cheap (Login Type) - full warranty",
+    "category": "Digital Services",
+    "public_usd": 5.49,
+    "cost_usd": 4.57,
+    "gap_pct": 16.8,
+    "markup_multiple": 1.2,
+    "stock": 168
+   },
+   {
+    "product": "🤖 200M Credit API Codex 1 Day - full warranty",
+    "category": "Design & Editing",
+    "public_usd": 5,
+    "cost_usd": 4.16,
+    "gap_pct": 16.8,
+    "markup_multiple": 1.2,
+    "stock": 82
+   },
+   {
+    "product": "💰 66K Decor Discord / Profile Effect Cheap (Login Type) - full warranty",
+    "category": "Digital Services",
+    "public_usd": 2.98,
+    "cost_usd": 2.48,
+    "gap_pct": 16.8,
+    "markup_multiple": 1.2,
+    "stock": 307
+   },
+   {
+    "product": "🤶 API 100M Token Claude 1 Day - full warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 5.49,
+    "cost_usd": 4.57,
+    "gap_pct": 16.8,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "🎨 ChatGPT Plus K12 Edu 2 years - 3 Days Warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 4.65,
+    "cost_usd": 3.87,
+    "gap_pct": 16.8,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "💰 Discord Clone Account 2018 not warranty",
+    "category": "Digital Services",
+    "public_usd": 4.58,
+    "cost_usd": 3.81,
+    "gap_pct": 16.8,
+    "markup_multiple": 1.2,
+    "stock": 13
+   },
+   {
+    "product": "🎙️ Elevenlab Creator 1 month 3D warranty",
+    "category": "Digital Services",
+    "public_usd": 7.28,
+    "cost_usd": 6.06,
+    "gap_pct": 16.8,
+    "markup_multiple": 1.2,
+    "stock": 8
+   },
+   {
+    "product": "⭐ gamma 10k credit bonus 10k 10 years warranty 3 months",
+    "category": "Design & Editing",
+    "public_usd": 5.73,
+    "cost_usd": 4.77,
+    "gap_pct": 16.8,
+    "markup_multiple": 1.2,
+    "stock": 16
+   },
+   {
+    "product": "😶‍🌫️ Genuine Windows 10/11 Pro Key 20Y with 1Y warranty",
+    "category": "Software Keys",
+    "public_usd": 4.58,
+    "cost_usd": 3.81,
+    "gap_pct": 16.8,
+    "markup_multiple": 1.2,
+    "stock": 2
+   },
+   {
+    "product": "⭐ Grammarly AI Pro 1 Month full warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 3.21,
+    "cost_usd": 2.67,
+    "gap_pct": 16.8,
+    "markup_multiple": 1.2,
+    "stock": 9
+   },
+   {
+    "product": "🛡️ Kaspersky Premium + VPN 1 Year warranty 300 Days",
+    "category": "Digital Services",
+    "public_usd": 5.96,
+    "cost_usd": 4.96,
+    "gap_pct": 16.8,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "Krea Basic 5100 credit 1 month warranty 1 day",
+    "category": "Design & Editing",
+    "public_usd": 3.21,
+    "cost_usd": 2.67,
+    "gap_pct": 16.8,
+    "markup_multiple": 1.2,
+    "stock": 29
+   },
+   {
+    "product": "😶‍🌫️ MICROSOFT OFFICE 365 PREMIUM 12-MONTH SLOT full warranty",
+    "category": "Software Keys",
+    "public_usd": 5.73,
+    "cost_usd": 4.77,
+    "gap_pct": 16.8,
+    "markup_multiple": 1.2,
+    "stock": 222
+   },
+   {
+    "product": "📦 Nord VPN Slot And/PC/IOS 3 months full warranty",
+    "category": "Digital Services",
+    "public_usd": 3.21,
+    "cost_usd": 2.67,
+    "gap_pct": 16.8,
+    "markup_multiple": 1.2,
+    "stock": 4
+   },
+   {
+    "product": "🎵 Suno Pro 1 month warranty 1 day",
+    "category": "Digital Services",
+    "public_usd": 5.49,
+    "cost_usd": 4.57,
+    "gap_pct": 16.8,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "🦈 SURFSARK 18 MONTHS warranty 1 YEAR",
+    "category": "Digital Services",
+    "public_usd": 4.58,
+    "cost_usd": 3.81,
+    "gap_pct": 16.8,
+    "markup_multiple": 1.2,
+    "stock": 329
+   },
+   {
+    "product": "📱 TiktokVN 1kfl noshop nobuff live Studio",
+    "category": "Digital Services",
+    "public_usd": 7.28,
+    "cost_usd": 6.06,
+    "gap_pct": 16.8,
+    "markup_multiple": 1.2,
+    "stock": 20
+   },
+   {
+    "product": "🔑 Microsoft Office 2024 Pro key, 10 years warranty, 1 year guarantee",
+    "category": "Software Keys",
+    "public_usd": 3.16,
+    "cost_usd": 2.63,
+    "gap_pct": 16.8,
+    "markup_multiple": 1.2,
+    "stock": 51
+   },
+   {
+    "product": "✅🌐 (can be monetized) Upgrade X Premium 3 months full warranty",
+    "category": "Digital Services",
+    "public_usd": 11.44,
+    "cost_usd": 9.53,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 93
+   },
+   {
+    "product": "✅🌐 (can be monetized) Upgrade X Premium 6 months full warranty",
+    "category": "Digital Services",
+    "public_usd": 16,
+    "cost_usd": 13.33,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 56
+   },
+   {
+    "product": "(💚So Beautiful) Chatgpt Plus Apple Pay 1 month full warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 12.81,
+    "cost_usd": 10.67,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "🤖 1B Credit API Codex 2 Days - full warranty",
+    "category": "Design & Editing",
+    "public_usd": 23.06,
+    "cost_usd": 19.21,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 28
+   },
+   {
+    "product": "🤖 100M Credit API Codex 1 Day - full warranty",
+    "category": "Design & Editing",
+    "public_usd": 3.66,
+    "cost_usd": 3.05,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 87
+   },
+   {
+    "product": "💰 105K Decor Discord / Profile Effect Cheap (Login Type) - full warranty",
+    "category": "Digital Services",
+    "public_usd": 5.03,
+    "cost_usd": 4.19,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 177
+   },
+   {
+    "product": "💰 131K Decor Discord / Profile Effect Cheap (Login Type) - full warranty",
+    "category": "Digital Services",
+    "public_usd": 6.87,
+    "cost_usd": 5.72,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 140
+   },
+   {
+    "product": "💰 141K Decor Discord / Profile Effect Cheap (Login Type) - full warranty",
+    "category": "Digital Services",
+    "public_usd": 8.24,
+    "cost_usd": 6.86,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 112
+   },
+   {
+    "product": "💰 170K Decor Discord / Profile Effect Cheap (Login Type) - full warranty",
+    "category": "Digital Services",
+    "public_usd": 9.6,
+    "cost_usd": 8,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 93
+   },
+   {
+    "product": "🤖 1B Credit API Codex 14 Days - full warranty",
+    "category": "Design & Editing",
+    "public_usd": 41.09,
+    "cost_usd": 34.24,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 26
+   },
+   {
+    "product": "🤖 200M Credit API Codex 5 Days - full warranty",
+    "category": "Design & Editing",
+    "public_usd": 6.36,
+    "cost_usd": 5.3,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 42
+   },
+   {
+    "product": "🤖 500M Credit API Codex 1 Day - full warranty",
+    "category": "Design & Editing",
+    "public_usd": 9.1,
+    "cost_usd": 7.58,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 114
+   },
+   {
+    "product": "🤖 500M Credit API Codex 3 Days - full warranty",
+    "category": "Design & Editing",
+    "public_usd": 16.88,
+    "cost_usd": 14.06,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 49
+   },
+   {
+    "product": "🤖 50M Credit API Codex 1 Day - full warranty",
+    "category": "Design & Editing",
+    "public_usd": 2.52,
+    "cost_usd": 2.1,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 106
+   },
+   {
+    "product": "🤖 50M Credit API Codex 2 Days - full warranty",
+    "category": "Design & Editing",
+    "public_usd": 2.75,
+    "cost_usd": 2.29,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 90
+   },
+   {
+    "product": "💰 92K Decor Discord / Profile Effect Cheap (Login Type) - full warranty",
+    "category": "Digital Services",
+    "public_usd": 4.12,
+    "cost_usd": 3.43,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 225
+   },
+   {
+    "product": "🎨 ACC CHAT GPT BUSINESS 30 D (1D warranty)",
+    "category": "Digital Services",
+    "public_usd": 8.69,
+    "cost_usd": 7.24,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "🎨 ACC CHAT GPT BUSINESS 30 D (1D warranty)",
+    "category": "Digital Services",
+    "public_usd": 8.78,
+    "cost_usd": 7.31,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 4
+   },
+   {
+    "product": "😶‍🌫️ ADMIN MS365 PREMIUM 1TB 5 SLOTS 1 YEAR full warranty",
+    "category": "Digital Services",
+    "public_usd": 13.72,
+    "cost_usd": 11.43,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 5
+   },
+   {
+    "product": "😎 Adobe Full App Bypass Version 1 Month - full warranty",
+    "category": "Design & Editing",
+    "public_usd": 6.82,
+    "cost_usd": 5.68,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 4
+   },
+   {
+    "product": "😎 Adobe Full Apps (Bypass Version) 2 devices 3 months full warranty",
+    "category": "Design & Editing",
+    "public_usd": 16.23,
+    "cost_usd": 13.52,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 122
+   },
+   {
+    "product": "😎 Adobe Full Apps provides 2 devices for 30 days with full warranty",
+    "category": "Design & Editing",
+    "public_usd": 6.87,
+    "cost_usd": 5.72,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 4
+   },
+   {
+    "product": "🤶 API 100M Token Claude 3 Days - full warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 7.73,
+    "cost_usd": 6.44,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 2
+   },
+   {
+    "product": "🤶 API 100M Token Claude 7 Days - full warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 9.1,
+    "cost_usd": 7.58,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 18
+   },
+   {
+    "product": "🤶 API 200M Token Claude 1 Day - full warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 9.1,
+    "cost_usd": 7.58,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 2
+   },
+   {
+    "product": "🤶 API 50M Token Claude 1 Day - full warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 3.89,
+    "cost_usd": 3.24,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 43
+   },
+   {
+    "product": "🖱️ API Cursor Pro 2600 Credits 1 month full warranty",
+    "category": "Design & Editing",
+    "public_usd": 10.01,
+    "cost_usd": 8.34,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 1
+   },
+   {
+    "product": "🖱️ API Cursor Pro 400 Credits/day 1 month full warranty",
+    "category": "Design & Editing",
+    "public_usd": 14.13,
+    "cost_usd": 11.77,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 1
+   },
+   {
+    "product": "🖱️ API Cursor Pro 6500 Credits 1 month full warranty",
+    "category": "Design & Editing",
+    "public_usd": 14.13,
+    "cost_usd": 11.77,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 1
+   },
+   {
+    "product": "🍎 Apple ID CHBM 24-hour warranty",
+    "category": "Digital Services",
+    "public_usd": 2.52,
+    "cost_usd": 2.1,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 14
+   },
+   {
+    "product": "🖌️ Canva Pro Admin (500 invitations)",
+    "category": "Design & Editing",
+    "public_usd": 6.6,
+    "cost_usd": 5.5,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 6
+   },
+   {
+    "product": "Chat GPT has been versioned for students for 4 months without warranty",
+    "category": "Digital Services",
+    "public_usd": 16.2,
+    "cost_usd": 13.5,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "🎨 CHAT GPT PLUS 1 MONTH WARRANTY 5H",
+    "category": "Digital Services",
+    "public_usd": 7.17,
+    "cost_usd": 5.97,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "CHAT GPT PLUS 4-MONTH WARRANTY 24H",
+    "category": "Digital Services",
+    "public_usd": 27.42,
+    "cost_usd": 22.85,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "🎨 ChatGPT Business Slot full warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 16,
+    "cost_usd": 13.33,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "🎨 ChatGPT Business slot shared for 1 month with full warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 5.5,
+    "cost_usd": 4.58,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 1
+   },
+   {
+    "product": "🎨 ChatGPT Plus 1 Month",
+    "category": "AI Subscriptions",
+    "public_usd": 3.36,
+    "cost_usd": 2.8,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "🎨 ChatGPT Plus 1 Month (5H warranty)",
+    "category": "AI Subscriptions",
+    "public_usd": 6.18,
+    "cost_usd": 5.15,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "🎨 ChatGPT Plus 1 Month (5H warranty)",
+    "category": "AI Subscriptions",
+    "public_usd": 6.24,
+    "cost_usd": 5.2,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "🎨 ChatGPT Plus 1 month - 6H warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 4.62,
+    "cost_usd": 3.85,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "🎨 ChatGPT Plus 1 Month full warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 12.81,
+    "cost_usd": 10.67,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "🎨 ChatGPT Plus 1 Month full warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 13.26,
+    "cost_usd": 11.05,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "🎨 ChatGPT Plus 1 Month full warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 12.81,
+    "cost_usd": 10.67,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "🎨 Chatgpt Plus 1 month full warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 11.36,
+    "cost_usd": 9.46,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "🎨 ChatGPT Plus 1 Month full warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 12.58,
+    "cost_usd": 10.48,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "🎨 ChatGPT Plus 1 Month full warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 12.58,
+    "cost_usd": 10.48,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "🎨 ChatGPT Plus 1 Month full warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 12.81,
+    "cost_usd": 10.67,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 6
+   },
+   {
+    "product": "🎨 CHATGPT PLUS 30 DAYS (7 DAYS warranty)",
+    "category": "AI Subscriptions",
+    "public_usd": 10.52,
+    "cost_usd": 8.76,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "🎨 ChatGPT Plus Account Level 4 4 Months, 2 Months Warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 41.14,
+    "cost_usd": 34.28,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "🎨 ChatGPT Plus Apple Pay 1 month full warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 12.81,
+    "cost_usd": 10.67,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "🎨 ChatGPT Plus Apple Pay 1 month full warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 12.81,
+    "cost_usd": 10.67,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "🎨 ChatGPT Plus Apple Pay 30D full warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 12.81,
+    "cost_usd": 10.67,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "🎨 ChatGPT Plus Apple Pay Gmail 30D - full warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 12.81,
+    "cost_usd": 10.67,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "🎨 ChatGPT Plus Apple Pay Gmail 30D - full warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 12.93,
+    "cost_usd": 10.77,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 14
+   },
+   {
+    "product": "🎨 ChatGPT Plus GGPay 30D 24H warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 8.69,
+    "cost_usd": 7.24,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "🎨 ChatGPT Plus Gmail 30D - full warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 12.81,
+    "cost_usd": 10.67,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "🎨 ChatGPT Plus K12 Edu 2 years - 6H warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 3.72,
+    "cost_usd": 3.1,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "🎨 ChatGPT Ver Students Plus 4 months no warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 16,
+    "cost_usd": 13.33,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "🎨 ChatGPT Ver Students Plus 4 Months without warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 16.17,
+    "cost_usd": 13.47,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 8
+   },
+   {
+    "product": "⭐ Code redeem $150 Amazon Web Services (AWS) expiration 2028",
+    "category": "Digital Services",
+    "public_usd": 36.57,
+    "cost_usd": 30.47,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 1
+   },
+   {
+    "product": "⭐ Code redeem $50 Amazon Web Services (AWS)",
+    "category": "Digital Services",
+    "public_usd": 3.66,
+    "cost_usd": 3.05,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 1
+   },
+   {
+    "product": "📦 Code Redeem 100$ GCP (Google Cloud Platform)",
+    "category": "Digital Services",
+    "public_usd": 12.81,
+    "cost_usd": 10.67,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 7
+   },
+   {
+    "product": "💰 Discord Clone Account 2017 no warranty",
+    "category": "Digital Services",
+    "public_usd": 7.78,
+    "cost_usd": 6.48,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 5
+   },
+   {
+    "product": "💰 Discord Clone Account 2019 not guaranteed",
+    "category": "Digital Services",
+    "public_usd": 3.89,
+    "cost_usd": 3.24,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 10
+   },
+   {
+    "product": "💰 Discord Gifting Badge x1",
+    "category": "Digital Services",
+    "public_usd": 2.75,
+    "cost_usd": 2.29,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 337
+   },
+   {
+    "product": "💰 Discord Gifting Badge x10",
+    "category": "Digital Services",
+    "public_usd": 10.52,
+    "cost_usd": 8.76,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 84
+   },
+   {
+    "product": "💰 Discord Gifting Badge x20",
+    "category": "Digital Services",
+    "public_usd": 20.57,
+    "cost_usd": 17.14,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 42
+   },
+   {
+    "product": "💰 Discord Nitro 1Y full warranty",
+    "category": "Digital Services",
+    "public_usd": 40.23,
+    "cost_usd": 33.52,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 20
+   },
+   {
+    "product": "💰 Discord Nitro 2 months full warranty",
+    "category": "Digital Services",
+    "public_usd": 6.18,
+    "cost_usd": 5.15,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 146
+   },
+   {
+    "product": "💰 Discord Nitro 3M Token not guaranteed",
+    "category": "Digital Services",
+    "public_usd": 3.66,
+    "cost_usd": 3.05,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 11
+   },
+   {
+    "product": "💰 Discord Nitro Trial 3 months full warranty",
+    "category": "Digital Services",
+    "public_usd": 3.89,
+    "cost_usd": 3.24,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 225
+   },
+   {
+    "product": "🎙️ ELEVENLABS 131K credits 1 month (3-day warranty)",
+    "category": "Design & Editing",
+    "public_usd": 8.24,
+    "cost_usd": 6.86,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 4
+   },
+   {
+    "product": "🎙️ Elevenlabs Creator 121k Credits 30D full warranty",
+    "category": "Design & Editing",
+    "public_usd": 12.81,
+    "cost_usd": 10.67,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "📐 Framer AI 1 Year",
+    "category": "AI Subscriptions",
+    "public_usd": 7.2,
+    "cost_usd": 6,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 5
+   },
+   {
+    "product": "⭐ gamma 20k credit bonus 20k 10 years warranty 3 months",
+    "category": "Design & Editing",
+    "public_usd": 8.46,
+    "cost_usd": 7.05,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 10
+   },
+   {
+    "product": "⭐ gamma 40k credit bonus 40k 10 years warranty 3 months",
+    "category": "Design & Editing",
+    "public_usd": 13.04,
+    "cost_usd": 10.86,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 5
+   },
+   {
+    "product": "⭐ Gamma Plus 30D - full warranty",
+    "category": "Digital Services",
+    "public_usd": 7.32,
+    "cost_usd": 6.1,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 120
+   },
+   {
+    "product": "⭐ Gamma PRO 30D - full warranty",
+    "category": "Digital Services",
+    "public_usd": 16.46,
+    "cost_usd": 13.71,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 52
+   },
+   {
+    "product": "🎨 GPT PLUS APPLE 30D not under warranty",
+    "category": "Digital Services",
+    "public_usd": 6.87,
+    "cost_usd": 5.72,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "🎨 GPT PLUS APPLE/GGPAY 30D no warranty",
+    "category": "Digital Services",
+    "public_usd": 6.87,
+    "cost_usd": 5.72,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "GPT Plus Level 4 2-month warranty",
+    "category": "Digital Services",
+    "public_usd": 43.89,
+    "cost_usd": 36.57,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "GPT Plus Level 4, 24H warranty",
+    "category": "Digital Services",
+    "public_usd": 22.86,
+    "cost_usd": 19.05,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 3
+   },
+   {
+    "product": "🎥 HEYGEN CREATOR 1 THÁNG ( warranty 1 ngày)",
+    "category": "Digital Services",
+    "public_usd": 18.58,
+    "cost_usd": 15.48,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 5
+   },
+   {
+    "product": "💻 JetBrains Edu Pack 12m",
+    "category": "AI Subscriptions",
+    "public_usd": 3,
+    "cost_usd": 2.5,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 11
+   },
+   {
+    "product": "🎬 KLING 700-900 per month (24h warranty)",
+    "category": "Digital Services",
+    "public_usd": 6.87,
+    "cost_usd": 5.72,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "🎬 Kling 70K Credit 1M full warranty",
+    "category": "Design & Editing",
+    "public_usd": 510.84,
+    "cost_usd": 425.7,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 5
+   },
+   {
+    "product": "🎬 KLING pre random 8k1-9k5 credit 1 month 2-day warranty",
+    "category": "Design & Editing",
+    "public_usd": 38.06,
+    "cost_usd": 31.71,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 9
+   },
+   {
+    "product": "🎬 Kling Ultra 26k credit 1 month warranty 2D",
+    "category": "Design & Editing",
+    "public_usd": 90.08,
+    "cost_usd": 75.06,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 6
+   },
+   {
+    "product": "⭐ Lovable Pro 1M 220 Creds",
+    "category": "Digital Services",
+    "public_usd": 4.8,
+    "cost_usd": 4,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 4
+   },
+   {
+    "product": "⭐ Lovable Pro Lite Account 12m",
+    "category": "Digital Services",
+    "public_usd": 9.6,
+    "cost_usd": 8,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 10
+   },
+   {
+    "product": "😶‍🌫️ Microsoft Office 365 +1TB 2 Years full warranty",
+    "category": "Software Keys",
+    "public_usd": 8.01,
+    "cost_usd": 6.67,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 3
+   },
+   {
+    "product": "😶‍🌫️ MICROSOFT OFFICE 365 PREMIUM SLOT 5 MONTHS full warranty",
+    "category": "Software Keys",
+    "public_usd": 4.12,
+    "cost_usd": 3.43,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 16
+   },
+   {
+    "product": "🎨 Miro Lifetime Panel 100 invite",
+    "category": "Digital Services",
+    "public_usd": 9.6,
+    "cost_usd": 8,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 4
+   },
+   {
+    "product": "😶‍🌫️ MS Office 365 Plus [5 Slots] 12M",
+    "category": "Software Keys",
+    "public_usd": 9.6,
+    "cost_usd": 8,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 2
+   },
+   {
+    "product": "📦 NORD VPN Androi/PC/IOS 10 thiết bị 3 tháng full warranty",
+    "category": "Digital Services",
+    "public_usd": 6.87,
+    "cost_usd": 5.72,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 3
+   },
+   {
+    "product": "🤶 VIP. API 40M Token Claude 1 Day - full warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 3.24,
+    "cost_usd": 2.7,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 18
+   },
+   {
+    "product": "⭐ Railway Hobby Redeem 1 year",
+    "category": "AI Subscriptions",
+    "public_usd": 18.24,
+    "cost_usd": 15.2,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 45
+   },
+   {
+    "product": "🎨 Renew official ChatGPT Plus for 30 days with full warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 20.57,
+    "cost_usd": 17.14,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 42
+   },
+   {
+    "product": "💻 Replit Core 11M Account",
+    "category": "Digital Services",
+    "public_usd": 24,
+    "cost_usd": 20,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 1
+   },
+   {
+    "product": "📦 Runway Max 10100-10300 credit 1 month, 1-day warranty",
+    "category": "Design & Editing",
+    "public_usd": 27.42,
+    "cost_usd": 22.85,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "📦 Runway Max 10300 credit 1 month no warranty",
+    "category": "Design & Editing",
+    "public_usd": 20.57,
+    "cost_usd": 17.14,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "📦 Runway Max 13300-13700 credit 1 month 1 day warranty",
+    "category": "Design & Editing",
+    "public_usd": 32,
+    "cost_usd": 26.66,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "📦 Runway Max 14.4-15k credit 1 month warranty 1 day",
+    "category": "Design & Editing",
+    "public_usd": 34.29,
+    "cost_usd": 28.57,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "📦 Runway Max 17k credit 1 month warranty 1 day",
+    "category": "Design & Editing",
+    "public_usd": 38.85,
+    "cost_usd": 32.37,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "📦 Runway Max 22.6-22.9k credit 1 month warranty 1 day",
+    "category": "Design & Editing",
+    "public_usd": 58.05,
+    "cost_usd": 48.37,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "📦 RUNWAY MAX 9500 credit 1 month warranty 2D",
+    "category": "Design & Editing",
+    "public_usd": 30.2,
+    "cost_usd": 25.16,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "📦 Runway Pro 3100 credit 1 month warranty 1 day",
+    "category": "Design & Editing",
+    "public_usd": 6.87,
+    "cost_usd": 5.72,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "Server Boost x14 [ Level 3 ] 1 Month full warranty",
+    "category": "Digital Services",
+    "public_usd": 7.14,
+    "cost_usd": 5.95,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 134
+   },
+   {
+    "product": "Slot GPT Business can be extended by 1 month with full warranty",
+    "category": "Digital Services",
+    "public_usd": 19.88,
+    "cost_usd": 16.56,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 45
+   },
+   {
+    "product": "🎵 Suno Pre 1 month warranty 7 days",
+    "category": "Digital Services",
+    "public_usd": 21.72,
+    "cost_usd": 18.1,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 4
+   },
+   {
+    "product": "🦈 SurfShark VPN 10 devices main account 2 months full warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 8.19,
+    "cost_usd": 6.82,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 113
+   },
+   {
+    "product": "📱 TikTok 1000FL With Cart-No LiveStudio",
+    "category": "Digital Services",
+    "public_usd": 12.81,
+    "cost_usd": 10.67,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 11
+   },
+   {
+    "product": "📱 TikTok 1000FL With Shopping Cart - LiveStudio",
+    "category": "Digital Services",
+    "public_usd": 13.26,
+    "cost_usd": 11.05,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 43
+   },
+   {
+    "product": "📱 TikTok < 900FL Has Cart - LiveStudio",
+    "category": "Digital Services",
+    "public_usd": 11.44,
+    "cost_usd": 9.53,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 16
+   },
+   {
+    "product": "📱 Tiktok Open Cart - Has Live (Real FL)",
+    "category": "Digital Services",
+    "public_usd": 14.63,
+    "cost_usd": 12.19,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 2
+   },
+   {
+    "product": "📱 Tiktok Open Cart-Has Live",
+    "category": "Digital Services",
+    "public_usd": 11.44,
+    "cost_usd": 9.53,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 3
+   },
+   {
+    "product": "📱 TikTok Seller account established for 2-4 years with 7-day warranty",
+    "category": "Digital Services",
+    "public_usd": 84.54,
+    "cost_usd": 70.45,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 5
+   },
+   {
+    "product": "📱 TikTok Vietnam Has Live & Shopping Cart",
+    "category": "Digital Services",
+    "public_usd": 9.6,
+    "cost_usd": 8,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "❓ Upgrade Perplexity max 14K credits for 1 month under the official account - no",
+    "category": "Design & Editing",
+    "public_usd": 27.32,
+    "cost_usd": 22.76,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "📱 Vietnamese TikTok soaked for over 1 year",
+    "category": "Digital Services",
+    "public_usd": 2.75,
+    "cost_usd": 2.29,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 6
+   },
+   {
+    "product": "🤩 Wisper Flow 12M Student Plan",
+    "category": "Digital Services",
+    "public_usd": 8.4,
+    "cost_usd": 7,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 2
+   },
+   {
+    "product": "🎮 XBOX GAME PASS ULTIMATE - 1 YEAR (1 Month Warranty)",
+    "category": "Digital Services",
+    "public_usd": 16.91,
+    "cost_usd": 14.09,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "📺 Youtube Premium 3M",
+    "category": "Digital Services",
+    "public_usd": 3.6,
+    "cost_usd": 3,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 99
+   },
+   {
+    "product": "🤖 [Astra] API 100M Token Codex 5 days - full warranty",
+    "category": "Digital Services",
+    "public_usd": 14.63,
+    "cost_usd": 12.19,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 50
+   },
+   {
+    "product": "🤖 [Astra] API 1B Token Codex 5 Days - full warranty",
+    "category": "Digital Services",
+    "public_usd": 137.06,
+    "cost_usd": 114.21,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 6
+   },
+   {
+    "product": "🤖 [Astra] API 200M Token Codex 5 Days - full warranty",
+    "category": "Digital Services",
+    "public_usd": 36.52,
+    "cost_usd": 30.43,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 23
+   },
+   {
+    "product": "🤖 [Astra] API 500M Token Codex 5 Days - full warranty",
+    "category": "Digital Services",
+    "public_usd": 63.99,
+    "cost_usd": 53.32,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 13
+   },
+   {
+    "product": "🤖 [Astra] API 50M Token Codex 3 Days - full warranty",
+    "category": "Digital Services",
+    "public_usd": 7.73,
+    "cost_usd": 6.44,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 50
+   },
+   {
+    "product": "🔑 Windows 10/11 Pro Key 20 years warranty 1 year",
+    "category": "Software Keys",
+    "public_usd": 4.07,
+    "cost_usd": 3.39,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 22
+   },
+   {
+    "product": "🔥CDK Perplexity Pro (iOS) 1 month - full warranty",
+    "category": "Digital Services",
+    "public_usd": 11.9,
+    "cost_usd": 9.91,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 7
+   },
+   {
+    "product": "🍀ChatGPT Plus Apple Pay 30D full warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 13.26,
+    "cost_usd": 11.05,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "🔥ChatGPT Plus Applepay 1 month full warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 13.26,
+    "cost_usd": 11.05,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "🔥ChatGPT Plus Applepay 1 month full warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 12.93,
+    "cost_usd": 10.77,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 13
+   },
+   {
+    "product": "🔥ChatGPT Plus Gmail 30D - full warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 12.58,
+    "cost_usd": 10.48,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "🔥ChatGPT Plus VIP 1 month full warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 13.26,
+    "cost_usd": 11.05,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "🔥Chatgpt Plus Vipp 1 month full warranty",
+    "category": "AI Subscriptions",
+    "public_usd": 12.81,
+    "cost_usd": 10.67,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 0
+   },
+   {
+    "product": "🔥ElevenLabs Redeem 1M Credit",
+    "category": "Design & Editing",
+    "public_usd": 12.3,
+    "cost_usd": 10.25,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 70
+   },
+   {
+    "product": "🔥ElevenLabs Redeem 300K Credit",
+    "category": "Design & Editing",
+    "public_usd": 5.45,
+    "cost_usd": 4.54,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 170
+   },
+   {
+    "product": "🔥Minimax Redeem 1M Credit",
+    "category": "Design & Editing",
+    "public_usd": 12.76,
+    "cost_usd": 10.63,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 68
+   },
+   {
+    "product": "🔥Minimax Redeem 300K Credit",
+    "category": "Design & Editing",
+    "public_usd": 5.45,
+    "cost_usd": 4.54,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 170
+   },
+   {
+    "product": "🔥Minimax Redeem 3M Credit",
+    "category": "Design & Editing",
+    "public_usd": 31.95,
+    "cost_usd": 26.62,
+    "gap_pct": 16.7,
+    "markup_multiple": 1.2,
+    "stock": 26
+   },
+   {
+    "product": "edX Premium 12Months",
+    "category": "Digital Services",
+    "public_usd": 1.3,
+    "cost_usd": 1.1,
+    "gap_pct": 15.4,
+    "markup_multiple": 1.18,
+    "stock": 38
+   },
+   {
+    "product": "📺 Amazon Prime Video 6m",
+    "category": "Streaming",
+    "public_usd": 2.35,
+    "cost_usd": 2,
+    "gap_pct": 14.9,
+    "markup_multiple": 1.18,
+    "stock": 14
+   },
+   {
+    "product": "🎨 CAPCUT PRO 6 MONTHS",
+    "category": "Design & Editing",
+    "public_usd": 9.99,
+    "cost_usd": 8.5,
+    "gap_pct": 14.9,
+    "markup_multiple": 1.18,
+    "stock": 8
+   },
+   {
+    "product": "📐 Figma Pro Edu 2Y",
+    "category": "Digital Services",
+    "public_usd": 4.6,
+    "cost_usd": 4,
+    "gap_pct": 13.0,
+    "markup_multiple": 1.15,
+    "stock": 50
+   }
+  ]
+ }
+}

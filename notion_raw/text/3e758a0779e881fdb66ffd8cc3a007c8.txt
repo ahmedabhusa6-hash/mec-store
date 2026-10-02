@@ -1,0 +1,507 @@
+# 🧭 Supplier Intelligence Prompt Lab — ChatGPT × Claude × Final Reference
+هذا المركز مخصص حصريًا لإدارة وتطوير منظومة  Supplier Intelligence Research  والـPrompts المرتبطة بها.
+البنية
+يتكون الآن من ثلاثة مساحات تشغيلية مستقلة:
+- 🤖 ChatGPT — سجل التحليل والاختبارات
+  - ما تم تحليله في جلسات ChatGPT.
+  - نتائج Paper Tests.
+  - العيوب المكتشفة.
+  - القرارات غير المحسومة.
+  - لا يُعامل وحده كمصدر نهائي للـPrompt.
+- 🏛️ المرجع النهائي — Prompt + مراحل التطوير
+  - المرجع الحاكم لإصدارات الـPrompt وحالة الاعتماد.
+  - سجل النسخ والتغييرات.
+  - معايير الاعتماد.
+  - يحدد ما هو Draft وما هو Final.
+  - لا تُسمى نسخة Final إلا بعد اجتياز الاختبارات المطلوبة.
+  - يحتوي على  Prompt Working Reference  الذي يحرره Claude مباشرة لتطوير نص الـPrompt، بينما تظل حالة الاعتماد والـCanonical Authority محمية ولا يغيرها أي وكيل.
+- ☁️ Claude Sonnet 5 — مساحة المراجعة والتطوير
+  - الرسائل الجاهزة للإرسال إلى Claude.
+  - مخرجات Claude.
+  - المقترحات المعمارية.
+  - نتائج المراجعة الخارجية.
+  - لا تتحول مقترحات Claude إلى قواعد حاكمة تلقائيًا.
+المبدأ الحاكم
+المعرفة → التصميم → الاختبار → الإصلاح → إعادة الاختبار → الاعتماد.
+لا تُعتمد أي إضافة لمجرد أنها أكثر تعقيدًا أو أطول.
+الهدف النهائي هو بناء:
+Adaptive Supplier Intelligence Research Engine
+وليس مجرد Prompt بحث طويل.
+حالة العمل الحالية
+- v1: متجاوزة معماريًا.
+- v2: متجاوزة.
+- v3: متجاوزة.
+- v4: آخر Prototype تم اختباره، وليس Approved.
+- Paper Test #2: كشف عيوبًا محددة في التحكم أثناء التنفيذ.
+- Collaboration Architecture: معتمدة.
+- ChatGPT Workspace = مراجعة وتحليل.
+- Claude Workspace = بحث وتطوير ومسودات.
+- Canonical Registry = المصدر الوحيد للنسخة المعتمدة.
+- الخطوة الحالية: إدارة دورة التطوير عبر المساحات الثلاث ثم اعتماد النسخة النهائية بعد الاختبارات.
+قاعدة التوثيق
+كل قرار يجب أن يميز بين:
+Existing Project Rule / Evidence-Based Repair / Proposed Governance Decision
+ولا يجوز تحويل الاستنتاج إلى حقيقة، ولا الادعاء إلى دليل.
+ChatGPT Workspace — Review & Analysis
+  Role
+  Review · Audit · Critical Analysis · Testing · Validation
+  This workspace is owned by the ChatGPT review function.
+  Purpose
+  - Review Claude proposals and supplier-research architecture.
+  - Run Paper Tests and Stress Tests.
+  - Detect defects, contradictions, missing requirements, and unsupported assumptions.
+  - Maintain review findings without silently changing Canonical content.
+  Authority
+  Review ≠ Authority.
+  This workspace is owned by the ChatGPT review function.
+  ChatGPT may edit this workspace's analysis, audits, tests, findings, repair records, operational state, and project-linked working records.
+  ChatGPT may not:
+  - edit the Claude Workspace;
+  - directly rewrite Claude's Prompt Working Reference;
+  - mark a Prompt Approved or promote a Candidate;
+  - silently alter governance or ownership rules;
+  - delete historical records;
+  - silently merge competing Candidates;
+  - replace authoritative Prompt text with an inferred reconstruction.
+  Prompt Text changes belong to the  Prompt Working Reference , which is Claude-owned for direct editing. ChatGPT reviews those changes and records findings here.
+  Standard review output
+  Finding → Evidence → Impact → Recommendation → Status
+  Allowed finding states:
+  - Open
+  - Accepted
+  - Repaired
+  - Rejected
+  - Needs User Decision
+  Handoff to Claude
+  Send only the material required for the next Claude revision:
+  - Current Canonical Version ID
+  - Review findings
+  - Required repairs
+  - Open decisions
+  - Tests to rerun
+  Do not assume Claude has access to this workspace unless the relevant content is explicitly transferred.
+  Notion-First Relay Protocol
+  Notion is the durable record; chat is transport only.
+  For each cycle:
+  - Archive the User Input.
+  - Archive ChatGPT's analysis and current state.
+  - Prepare exactly one copy-ready Claude Handoff.
+  - After Claude responds, archive the complete response before analysis.
+  - Audit the response against the current Candidate/Canonical state.
+  - Record findings, repairs, open decisions, and next action.
+  - Prepare the next single Claude Handoff.
+  Claude must not be given the full historical transcript unless a specific test requires it. The Handoff Packet is the controlled context transfer.
+  🧪 Runtime Evidence —  z.ai  v4.1 Candidate / Multi-SKU Catalog Test — 2026-09-27
+  Source
+  User-provided screenshots from  z.ai  GLM-5.3 runtime after loading  ADAPTIVE SUPPLIER INTELLIGENCE RESEARCH ENGINE — v4.1 CANDIDATE .
+  Confirmed Runtime Observations
+  - The runtime transitioned from input-gated state to an executing Run Contract after the user supplied the required scope information.
+  - The runtime represented the scope as  Run +400 SKUs , with a catalog of more than 400 digital products/services.
+  - The runtime grouped execution into batches and explicitly treated  Batch 1  as a partial coverage unit rather than claiming that 400 SKUs were fully researched in one batch.
+  - The runtime applied  C4 / 96 Research Actions  to the active batch and referenced a  25% reserve  and  35% per-branch backstop .
+  - The runtime exposed a multi-scenario evaluation model: 1 Unit, 2–10 Units, Bulk, plus commercial tiers such as Volume/VIP/Dealer/Distributor/Partner/MOQ/Negotiated where applicable.
+  - The runtime retained global supplier discovery with region-aware SKU matching.
+  - The runtime preserved  Known-Facts vs Open-Items  and treated historical seeds as  Unverified Leads  requiring re-checking.
+  - Batch 1 began with multiple product/service families rather than a single product.
+  Critical Validation Finding
+  The current Runtime evidence validates the existence of a  catalog-scale / batch execution concept , but it does  not  validate complete research coverage of 400+ SKUs within a single 96-action C4 batch. The runtime itself indicates that Batch 1 is only a subset and that complete 400-SKU verification cannot be claimed from one batch.
+  Architecture Implication
+  The correct scalable model is:
+  Catalog Program (>400 SKUs) → Batches → Per-SKU research units → Shared global coverage registry → Cross-batch deduplication/entity resolution → Aggregate catalog intelligence.
+  A batch budget must be interpreted as a budget for the active batch, not as proof that the entire >400-SKU catalog has been deeply researched.
+  Proposed Technical Repair — NOT a Governance Decision
+  The next Prompt Candidate should explicitly model:
+  - Catalog-level scope  separately from  Batch-level Run Contract .
+  - Per-SKU completion state  independently from Batch completion.
+  - Coverage Ledger  across all 400+ SKUs.
+  - Batch budget allocation  with cumulative program accounting.
+  - Unsearched / Partially Researched / Verified / Retrieval-Limited / Budget-Limited  state per SKU.
+  - No final catalog-wide claim of completeness unless every scoped SKU has an explicit terminal state and the aggregate coverage record supports the claim.
+  - Cross-batch deduplication and supplier/entity relationships must persist across the catalog program.
+  Status
+  Review Finding — Open / Requires Claude Prompt Revision Review
+  This record is runtime evidence and a proposed technical repair. It does not modify the Claude-owned Prompt Working Reference or Canonical approval state.
+  🔎 Cycle 5 — ChatGPT Audit of Claude Response — 2026-09-27
+  Assessment
+  Claude's response is structurally consistent with the current project direction and correctly identifies the central v4.1 catalog-scale gap: v4.1 models a single research run/SKU lifecycle but does not explicitly model a multi-SKU catalog program with batches and cross-batch state.
+  Accepted Findings for Review Record
+  - Catalog/Batch objects are missing from v4.1.
+  - Catalog Coverage Ledger is missing.
+  - Cross-batch Entity persistence is missing.
+  - Scope / Coverage / Completion / Verification are not explicitly separated at catalog level.
+  - SKU-level lifecycle state across multiple batches is missing.
+  - Cumulative cross-batch budget accounting is missing.
+  - Global Supplier Discovery vs Region-Aware SKU Matching can be made explicit.
+  Audit Correction — Validation Language
+  Claude's Part 5 says “Tests Passed” and “pass by construction”, while Part 8 and Part 7 correctly state that the new multi-batch mechanisms have not yet been exercised in a live v4.2 runtime.
+  Therefore the authoritative review interpretation is:
+  - Structural/design check: addressed / provisionally passed.
+  - Live runtime validation: not yet performed.
+  - Integrated multi-batch validation: pending.
+  The stronger wording “Tests Passed” must not be used as evidence of runtime correctness for v4.2.
+  Artifact Verification Status
+  Claude reports that a complete v4.2 Candidate file was produced, but the full artifact itself has not been independently verified in this ChatGPT workspace from the current exchange. Until the exact v4.2 text/file is available and checked against the claimed insertions, v4.2 should be recorded as Claude-reported Candidate, not as a verified Prompt artifact.
+  Governance
+  No Canonical promotion and no governance change occurred in this cycle. The standing bootstrap approval decision remains separate and unresolved.
+Claude Sonnet 5 Workspace — Research & Drafts
+  Role
+  Research · Architecture · Prompt Engineering · Drafting · Experimentation
+  This workspace is owned by the Claude development function.
+  Purpose
+  - Perform external research.
+  - Develop Prompt architecture and revisions.
+  - Produce Draft and Candidate versions.
+  - Record supporting evidence and design rationale.
+  - Run research-oriented tests and document results.
+  Authority
+  Draft ≠ Approved.
+  Claude owns this workspace and may edit its research, architecture, experiments, drafts, and Candidate Prompt text.
+  Claude may not:
+  - edit the ChatGPT Workspace;
+  - edit ChatGPT audit findings;
+  - alter the Operating Protocol or governance rules;
+  - alter Canonical approval state or promotion status;
+  - delete historical records;
+  - silently merge competing Candidates;
+  - overwrite authoritative source text with an inferred reconstruction.
+  The  Prompt Working Reference  is the only shared prompt-development surface Claude may directly edit. Claude may update Prompt Text and Draft Evolution there, but not Canonical authority, approval metadata, Version Registry authority fields, or Decision outcomes.
+  Draft rule
+  Every Candidate must identify:
+  - Parent Version ID
+  - Author
+  - Change Summary
+  - Reason
+  - Evidence / Sources
+  - Tests Passed
+  - Tests Failed
+  - Known Limitations
+  - Governance-Touching: yes / no / unsure
+  Handoff to ChatGPT
+  A submitted Candidate must include:
+  - Candidate Version ID
+  - Parent Version ID
+  - Exact Prompt text or changed sections
+  - Change Log
+  - Evidence
+  - Validation results
+  - Open questions
+  Do not assume ChatGPT has access to this workspace unless the relevant content is explicitly transferred.
+  Notion-First Relay Protocol
+  Claude receives a controlled Handoff Packet, not the entire historical conversation.
+  Each Handoff identifies the current version, objective, relevant findings, constraints, tests, evidence requirements, and the exact requested output.
+  After completing the task, return the full result to the user for transport back to ChatGPT. Do not assume Notion has been updated unless the user explicitly reports that ChatGPT archived it.
+  Do not spend tokens restating historical context that is not required for the current test.
+Canonical Registry — Prompt & Evolution
+  Authority
+  Single Source of Truth for the approved Prompt.
+  This page governs Prompt version authority and controlled evolution.
+  Prompt Working Reference Boundary
+  The project uses a controlled  Prompt Working Reference  for active Prompt text and draft evolution.
+  - Claude  is the direct editor of Prompt Working Reference content.
+  - ChatGPT  reads, audits, tests, and records findings; it does not directly rewrite that Prompt Working Reference.
+  - Prompt Working Reference changes are  working draft changes , not approval or Canonical promotion.
+  - User approval remains mandatory  for promotion to Approved/Canonical.
+  - Neither agent may modify Canonical authority, approval status, promotion gates, or governance rules through the Prompt Working Reference.
+  - When a proposed Prompt change affects governance, authority, ownership, permissions, lifecycle, or promotion rules, it is  Governance-Touching  and requires a user decision.
+  The Prompt Working Reference must never be confused with the protected Canonical Registry state.
+  Core invariants
+  Review ≠ Authority
+  Draft ≠ Approved
+  Proposal ≠ Decision
+  Workspace ≠ Canonical Registry
+  There may be  zero or one Approved Prompt version  at any time; there must never be more than one. Until the first approval, the Approved state remains empty.
+  Version lifecycle
+  Draft → Candidate → Review → Revision → User Decision → Approved → Superseded
+  Rejected versions remain recorded and are never silently deleted.
+  Promotion gate
+  A Candidate may be promoted only when:
+  - Its Parent Version ID matches the current Approved Version ID.
+  - Required review and tests are recorded.
+  - Any Governance-Touching change has received the required user decision.
+  - The user explicitly approves promotion.
+  If the Parent Version ID is stale, promotion is blocked and the Candidate must be rebased.
+  Conflict rule
+  Two Candidates from the same Parent remain separate sibling versions.
+  They are not auto-merged.
+  A synthesis version may be created only as a new version that explicitly records which changes came from which parents/candidates.
+  Change classification
+  - Existing Project Rule
+  - Evidence-Based Repair
+  - Proposed Governance Decision
+  Synchronization rule
+  The transport between ChatGPT and Claude may be manual or automated in the future. The authority model does not depend on transport.
+  The Canonical Registry is the only authoritative reference for the approved Prompt and its version lineage.
+  Required control records
+  This page contains the controlled version and decision records:
+  - Version Registry
+  - Decision Log
+  All future Prompt development must reference the current Approved Version before drafting a new Candidate.
+  Version Registry — Supplier Intelligence Prompts
+  Decision Log — Supplier Intelligence
+  Operational State
+  Collaboration Architecture: Approved
+  ChatGPT Workspace:  review, audit, testing, validation
+  Claude Workspace:  research, development, drafts, experimentation
+  Canonical Registry:  sole authority for the Approved Prompt
+  Current Prompt State
+  The exact user-supplied artifact  z_ai_supplier_research_prompt_v4_2_candidate.md  is now the current  v4.2 Candidate  and has been independently reviewed at the artifact level. A Version Registry record for v4.2 has been created. v4.0 and v4.1 remain preserved as historical comparators.
+  User acceptance:  explicitly recorded for v4.2 as the current working Candidate.
+  Canonical state:  still  no Approved Prompt  is recorded because the existing promotion gate requires required review/tests to be recorded, and the live integrated multi-batch runtime/adversarial test remains outstanding.
+  Working Cycle
+  Claude Sonnet 5 Workspace — Research & Drafts
+  → Candidate submission
+  →  ChatGPT Workspace — Review & Analysis
+  → Revision / Test
+  → User Decision
+  → Canonical Promotion
+  Synchronization
+  Current transport is user-mediated. The version gate remains authoritative regardless of transport:
+  Candidate Parent Version ID must equal the current Approved Version ID before promotion.
+  A stale Candidate is rebased; it is never force-merged.
+  🧪 Pre-Claude Repair Audit — v4.0 → v4.1 Candidate
+  Status
+  Pre-Claude repair completed against the current v4.0 Candidate. v4.0 remains unchanged as historical baseline.
+  Evidence Base
+  - Current v4.0 prompt was read in full from the uploaded file.
+  - Canonical Registry currently has no Approved Prompt.
+  - Existing Version Registry already records v4.0 as Candidate and lists remaining gaps: frontier/stopping semantics, Entity Resolution discovery blind spot, runtime request mutation, price-decision policy, branch control, and freshness semantics.
+  - External research was used to validate the repair directions, not to replace project-specific evidence.
+  Repairs Applied in v4.1 Candidate
+  1. Runtime scope lock
+  User objective, constraints, price ceiling, target region, required attributes, and comparison basis are immutable for the run. Discoveries can create branches/hypotheses but cannot silently redefine the request.
+  2. Run Contract and action-level auditability
+  Each run now requires Run ID, prompt version, scope, evidence standard, complexity class, budget, coverage obligations, and known tool limits. Each Research Action must record its exact query/target, method, timestamp, branch, yield, retrieval status, affected objects, selection rationale, next-state effect, and budget debit.
+  3. Evidence integrity
+  Search snippets/previews/cached summaries are explicitly downgraded to lead/context unless the underlying source is unavailable. Material claims should rely on directly retrieved source content or structured first-party evidence whenever possible.
+  4. Freshness semantics
+  Freshness is separated from price-evidence strength. A directly observed price may be Freshness=Unknown without creating a semantic contradiction. Live transactional states can support Current when there is no material staleness signal; recent observation alone is not sufficient when archival/stale signals exist.
+  5. Guarantee semantics
+  “No Documented Guarantee” is now allowed only after the relevant accessible terms/offer documentation were actually reviewed. Retrieval failure or incomplete access yields Unknown.
+  6. Transaction verification
+  Performed-and-Evidenced now requires an actual authorized transaction/test with date, offer, amount, fees, outcome, and evidence. Reading a page never counts as transaction verification.
+  7. Entity Resolution candidate-generation blind spot
+  A Stage 0 candidate-generation layer was added. Blocking is explicitly a search-space reduction mechanism, not a non-match decision. High-value candidates without shared blocking signals remain eligible for deeper resolution.
+  8. Coverage obligations
+  The controller remains adaptive, but objective-driven coverage groups must be seeded so one highly productive discovery family cannot mask an unsearched materially relevant route. This is coverage protection, not equal-depth quota.
+  9. Search strategy diversity
+  Near-duplicate queries no longer count as meaningful exploration. Reformulation must change a material dimension such as terminology, role, channel, language, market, SKU, or seed.
+  10. Search budget control
+  Run complexity classes C1–C4 now have disclosed default action caps and a shared reserve. A hypothesis receives a minimum exploration floor when budget permits. A single branch is capped at 35% unless it is Critical for a live contradiction/headline claim.
+  11. Stopping states
+  Branch termination is now explicitly distinguished as Saturated, Retrieval-Limited, Budget-Limited, or Scope-Excluded. Retrieval and budget limits are never mislabeled as saturation.
+  12. Exclusion handling
+  Excluded entities are quarantined from commercial ranking and upstream inference but preserved in the research record, preventing loss of audit history and reducing false-positive damage.
+  13. Effective acquisition cost
+  Known mandatory taxes/charges are added explicitly; unknown mandatory components remain Unknown and never become zero.
+  14. Output audit record
+  Every run now ends with established facts, unresolved items, inaccessible routes, exclusions, counter-evidence survival, stopping rationale, unsearched material routes, potential conclusion-changing evidence, scope expansions, and tool limitations.
+  Architectural Alternatives Reviewed
+  - Monolithic v4.x with explicit control contracts and stronger state semantics.
+  - Split Controller + Evidence Ledger architecture, with orchestration externalized from the research prompt.
+  - Parallel specialist agents (discovery, verification, entity resolution, pricing) sharing a structured evidence graph.
+  For the current  z.ai/Notion  setup, the first approach is the least disruptive; the second is the stronger longer-term architecture if external orchestration and persistent state become available. The third adds complexity and coordination cost and should be justified by measured workload, not assumed.
+  External Research Signals
+  DeepSearchQA explicitly evaluates multi-step research on systematic collation, deduplication/entity resolution, and stopping criteria, and reports persistent weaknesses in balancing recall and precision. BrowseComp similarly emphasizes persistence, strategic browsing, and synthesis across many sites. Current provenance work on LLM agents emphasizes claim-level evidence tracing and execution provenance rather than final-answer accuracy alone. Entity-resolution literature warns that early blocking can lose true matches, making blocking recall a real error surface. These findings support the v4.1 repair directions above.
+  Remaining Governance Gap
+  The current Canonical Registry promotion gate requires Candidate.Parent Version ID to equal the current Approved Version ID, but the registry currently has no Approved Prompt. This makes first approval impossible without a bootstrap exception.
+  Proposed rule — NOT AUTO-APPROVED:
+  When no Approved Prompt exists, the first approval may promote a Candidate that passes the required review/tests and is explicitly approved by the user, provided its parent is the latest validated lineage candidate. After the first approval, the normal Parent=Current Approved rule applies.
+  This must remain an Open Governance Decision until the user approves it.
+  Pre-Claude Position
+  v4.0 should not be sent to Claude as the sole baseline anymore. The current object for validation should be v4.1 Candidate, while v4.0 remains the historical comparator. Claude's role is now to independently test the repaired candidate and try to break it.
+  Next Handoff
+  Send Claude the dedicated validation brief for v4.1. Do not request Notion edits. Return the full test, findings, counter-evidence, regression results, and any new repair candidate.
+🔄 Interaction Archive — Supplier Intelligence
+🔁 Operating Protocol — Notion-First ChatGPT ↔ Claude Relay
+  Purpose
+  Notion is the persistent system of record. Chat is only the transport channel.
+  The user should only need to send the current work/request to ChatGPT. ChatGPT prepares the next handoff. The user pastes the prepared handoff to Claude. Claude returns its result. The user pastes Claude's result back to ChatGPT. ChatGPT archives the result, audits it, updates the working state, and prepares the next handoff.
+  Project-Scope Authorization
+  All Notion pages, databases, records, and artifacts that are directly linked to the  Adaptive Supplier Intelligence Research Engine  are considered authorized working surfaces for the project's normal operating cycle. ChatGPT may read, relate, archive, update, organize, and maintain these project-linked surfaces in whatever way is operationally appropriate for ChatGPT↔Claude collaboration, while preserving authority boundaries and user approval gates. This authorization applies only to project-linked material; unrelated projects, files, pages, databases, and records remain outside scope unless the user explicitly authorizes their use.
+  Authoritative Architecture
+  ChatGPT Workspace  = review, audit, analysis, validation, repair control.
+  Claude Workspace  = research, development, experimentation, draft/candidate production.
+  Canonical Registry  = only authoritative location for an Approved Prompt.
+  Interaction Archive  = immutable working history of every cycle, handoff, response, audit, decision, and canonical update.
+  Edit Authority Matrix
+  Boundary Rules
+  - Each agent edits only the workspace it owns.
+  - The  Prompt Working Reference  is the only shared prompt-development surface that Claude may directly edit. Claude may change prompt text and draft evolution there, but may not alter Canonical authority, approval status, governance rules, or unrelated records.
+  - ChatGPT does not directly rewrite Claude's workspace or Claude's Prompt Working Reference. It audits, identifies repairs, and records findings in its own workspace.
+  - ChatGPT may update project-linked operational records, archives, audits, and review state, but it must not promote a Candidate, mark a Prompt Approved, or silently change governance.
+  - The Canonical Registry remains protected: its authority, approval state, version lineage, and promotion gates are never changed by either agent without the user's explicit decision.
+  - Neither agent may delete historical records, silently merge competing Candidates, or overwrite authoritative source text with an inferred reconstruction.
+  - When a change affects governance, ownership, authority, promotion, permissions, or the collaboration protocol, classify it as  Governance-Touching  and route it to the user for decision.
+  - If ownership or edit authority is ambiguous, do not edit; classify the item as  Needs User Decision  and preserve the ambiguity in the record.
+  Core Loop
+  User Input
+  → ChatGPT analyzes
+  → ChatGPT archives the step
+  → ChatGPT prepares one copy-ready Claude Handoff
+  → User sends Handoff to Claude
+  → Claude produces research/draft/test output
+  → User pastes Claude output to ChatGPT
+  → ChatGPT archives Claude output
+  → ChatGPT audits and reconciles it against the current state
+  → ChatGPT records findings/changes/open decisions
+  → ChatGPT prepares the next Claude Handoff
+  → repeat
+  Token Preservation Rule
+  Do not send the entire historical conversation to Claude on every cycle.
+  Each handoff must contain only the minimum sufficient context:
+  - Current objective
+  - Current version/state
+  - Relevant prior findings
+  - Exact task for this cycle
+  - Tests/constraints that matter
+  - Required output format
+  - References to the persistent Notion records
+  The detailed history remains in Notion.
+  Archive Rule
+  Every meaningful transition is archived as a separate Interaction Archive record:
+  - User Input
+  - ChatGPT Analysis
+  - Claude Handoff
+  - Claude Response
+  - ChatGPT Audit
+  - Decision
+  - Canonical Update
+  No step is considered part of the durable project state until it is archived.
+  Handoff Rule
+  ChatGPT must produce exactly one primary copy-ready message for Claude per cycle.
+  The handoff must identify:
+  - Version ID
+  - Parent Version ID
+  - Current state
+  - Objective
+  - Scope
+  - Task
+  - Evidence requirements
+  - Tests
+  - Constraints
+  - Required output
+  - Notion archive references
+  Claude must not be asked to edit the Canonical Registry during validation unless explicitly authorized.
+  Response Rule
+  When Claude responds, the user should paste the response into ChatGPT without manually summarizing it.
+  ChatGPT then:
+  - Archives the raw response.
+  - Extracts findings.
+  - Validates claims/evidence.
+  - Compares against the current Candidate/Canonical state.
+  - Identifies repairs.
+  - Separates technical repairs from governance decisions.
+  - Updates Notion records.
+  - Prepares the next single handoff message.
+  Governance
+  No Candidate becomes Approved automatically.
+  No historical record is deleted merely because it is superseded.
+  No governance rule is inferred from a technical suggestion.
+  No competing Candidate is silently merged.
+  No stale Candidate is promoted without rebase.
+  Current State
+  Current Candidate: v4.1
+  v4.0: preserved as historical baseline comparator.
+  Approved Prompt: none.
+  Open Governance Decision: bootstrap rule for first approval when Approved state is empty.
+  Current next step: independent Claude validation of v4.1.
+🧬 Prompt Development History — Supplier Intelligence
+  Status
+  Active — Primary Reference & Development History
+  Primary Reference Rule
+  The following two materials are now the  primary source pair  for understanding and developing the Supplier Intelligence system:
+  - Primary Reference A — Original  z.ai  Supplier Research Prompt
+  - File:  z_ai_supplier_research_prompt.md
+  - Role: baseline for the original research-execution logic, rules, data model, verification model, discovery methodology, comparison rules, stopping rules, and output structure.
+  - Primary Reference B — The original research text/material submitted together with the Prompt
+  - Role: baseline for the actual research objective, requested subject matter, product/service context, intended outputs, and original execution context.
+  - Do not replace, rewrite, or reinterpret this source merely because a later Prompt version is cleaner.
+  Pairing Rule
+  Prompt + Original Research Text = Primary Reference Pair.
+  Later versions may improve the system, but they must not silently erase the intent, requirements, or important distinctions contained in either member of the pair.
+  Development Stage Register
+  Version Lineage
+  Original Primary Reference Pair
+  →  v2
+  →  v3
+  →  v4.0
+  →  v4.1 Candidate
+  →  Claude Validation / Further Candidate
+  →  User Decision
+  →  Approved / Canonical
+  No stage may be silently skipped when the skip would remove material history.
+  Stage Governance
+  Primary references
+  The original Prompt and the original research text remain preserved as the historical and conceptual baseline.
+  Working development
+  Claude may develop Prompt text in the  Prompt Working Reference  and Claude Workspace.
+  ChatGPT reviews, tests, audits, and records findings in the ChatGPT-owned surfaces.
+  Canonical authority
+  The Canonical Registry is the protected authority for the  Approved Prompt .
+  No Candidate becomes Approved automatically.
+  History preservation
+  Historical versions and records are preserved.
+  A later version supersedes a previous version only through the controlled lifecycle.
+  Change Classification
+  Every meaningful development change must be classified as one of:
+  - Existing Project Rule
+  - Evidence-Based Repair
+  - Proposed Governance Decision
+  - Prompt Evolution
+  - Research Finding
+  - Unresolved
+  Never convert a proposal into a rule without the required authority.
+  Current State
+  - Primary Reference Pair:  locked as baseline references .
+  - v4.0: preserved historical comparator.
+  - v4.1: current Candidate.
+  - Approved Prompt:  none currently recorded .
+  - Claude: owns direct Prompt Working Reference editing.
+  - ChatGPT: owns review, audit, validation, and operational archive.
+  - User: final authority for approval, promotion, rollback, and governance decisions.
+  Required Rule for Future Development
+  Before changing the Prompt, compare the proposed change against:
+  A. Original Prompt
+  B. Original Research Text
+  C. Current Prompt Candidate
+  D. Recorded project decisions
+  E. Recorded test failures and repairs
+  A change is valid only when its purpose and impact are explicit.
+  Do not optimize away an original requirement merely because it is inconvenient or difficult to implement.
+  Do not treat a later Prompt version as proof that an earlier requirement was invalid.
+  Core Principle
+  The original Prompt defines the original operating design.
+  The original research text defines the original research intent and execution context.
+  Version history defines how the system evolved.
+  Canonical Registry defines what is officially approved.
+  These four functions must remain distinct.
+  ✅ Approved Operating Distinction — Prompt Layers
+  Decision ID:   Governance-Compiler-Separation-1.0
+  Status:   Approved
+  Authority:  User
+  The project now treats the following as three distinct layers:
+  - Primary Supplier Research Prompt  — the operational research engine for Supplier Intelligence.
+  - Claude Handoff Prompt  — the coordination/review/development layer used to direct Claude work on the project and its Prompt.
+  - EXECUTION-PROMPT COMPILER — student services  — a separate generic Prompt Compiler reference. It is  not  part of the Supplier Intelligence engine and must not be inserted into it automatically.
+  Historical Handoff Rule
+  The older Claude handoff remains a  historical reference . Reuse is permitted only after reconciliation with the current project state, the Primary Reference Pair, v4.1 Candidate, and recorded governance decisions.
+  Non-Mixing Rule
+  Do not silently merge these layers, transfer unrelated modules, or import unrelated project material into Supplier Intelligence. Any proposed structural or governance change remains subject to the existing authority and approval rules.
+  This section records the user's explicit approval and does not promote any Prompt Candidate to Canonical status.
+  ✅ Approved Scope Clarification — Products + Services
+  Decision ID:   Scope-Product-Service-Coverage-1.0
+  تم تثبيت أن منظومة  Adaptive Supplier Intelligence Research Engine  تبحث في  المنتجات والخدمات الرقمية معًا . العائلات الحالية المسجلة للمشروع: AI/SaaS، Gift Cards، Game Top-up، Game Keys، Software/Licenses، eSIM/Telecom، SMM، Virtual Numbers/SMS، Digital Subscriptions، وخدمات رقمية قائمة على API عندما تنطبق، إضافة إلى فئات رقمية أخرى مرتبطة بالنطاق.
+  Invariant:   Product/Service Family ≠ Actual SKU .
+  الفئات تحدد نطاق المحرك، لكن كل Run يحتاج SKU فعليًا قابلًا للتحديد قبل المقارنة السعرية. لا تُشتق قيمة SKU من أمثلة واجهة  z.ai ، ولا تُحوّل الملاحظات التشغيلية الجديدة إلى قاعدة Prompt دون مراجعة.
+  📌 Cycle 5 State — Claude v4.2 Candidate Reported
+  Date:  2026-09-27
+  Claude reported creation of  v4.2 Candidate , parent  v4.1 , adding catalog-scale controls: Catalog/Batch objects, Catalog Coverage Ledger, cross-batch Entity persistence, SKU-level lifecycle states, cumulative cross-batch budget rollup, and explicit Global Discovery + Region-Aware SKU Matching wording.
+  Important status distinction:  v4.2 is reported by Claude as a Candidate, but its complete exact artifact has not yet been independently verified here. Live multi-batch execution has not yet been performed. The claimed repairs are therefore  structurally addressed / pending runtime validation , not runtime-proven.
+  Next required gate:  obtain/verify the exact v4.2 Candidate artifact, then run a real multi-batch adversarial/runtime test before considering any later promotion.
+  ✅ v4.2 Artifact Verification & User Acceptance — 2026-09-27
+  Artifact:   z_ai_supplier_research_prompt_v4_2_candidate.md
+  The exact v4.2 Candidate file has now been supplied and reviewed. This resolves the previous artifact-availability gap from Cycle 5.
+  User decision:  v4.2 is accepted as the current working Candidate.
+  Verified at artifact level:  Catalog Program/Batch architecture, Catalog Coverage Ledger, SKU lifecycle states, cross-batch Entity Resolution persistence, catalog budget rollup, and explicit separation of global supplier discovery from region-aware SKU matching are present in the file.
+  Not yet runtime-proven:  live multi-batch execution, cross-batch persistence behavior in the target runtime, and adversarial regression execution.
+  Canonical status:  v4.2 is not promoted to Approved/Canonical by this update. The existing promotion gate remains in force until the required live validation is recorded.

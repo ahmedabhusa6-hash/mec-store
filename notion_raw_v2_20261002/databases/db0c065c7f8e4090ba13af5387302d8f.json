@@ -1,0 +1,3441 @@
+{
+ "capture_reason": "CHANGED",
+ "title": "KOS — Execution Pipeline",
+ "schema": {
+  "object": "database",
+  "id": "db0c065c-7f8e-4090-ba13-af5387302d8f",
+  "cover": null,
+  "icon": null,
+  "created_time": "2026-09-25T20:02:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_time": "2026-09-25T20:02:00.000Z",
+  "title": [
+   {
+    "type": "text",
+    "text": {
+     "content": "KOS — Execution Pipeline",
+     "link": null
+    },
+    "annotations": {
+     "bold": false,
+     "italic": false,
+     "strikethrough": false,
+     "underline": false,
+     "code": false,
+     "color": "default"
+    },
+    "plain_text": "KOS — Execution Pipeline",
+    "href": null
+   }
+  ],
+  "description": [
+   {
+    "type": "text",
+    "text": {
+     "content": "التسلسل التنفيذي الكامل للمنظومة؛ كل مرحلة تبدأ مباشرة بعد اكتمال السابقة في نفس مسار التنفيذ.",
+     "link": null
+    },
+    "annotations": {
+     "bold": false,
+     "italic": false,
+     "strikethrough": false,
+     "underline": false,
+     "code": false,
+     "color": "default"
+    },
+    "plain_text": "التسلسل التنفيذي الكامل للمنظومة؛ كل مرحلة تبدأ مباشرة بعد اكتمال السابقة في نفس مسار التنفيذ.",
+    "href": null
+   }
+  ],
+  "is_inline": false,
+  "database_type": null,
+  "properties": {
+   "Objective": {
+    "id": "ER%5D%7D",
+    "name": "Objective",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Output": {
+    "id": "F%5BEd",
+    "name": "Output",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Layer": {
+    "id": "L%3CaY",
+    "name": "Layer",
+    "description": null,
+    "type": "select",
+    "select": {
+     "options": [
+      {
+       "id": "78a655b9-fdec-4d57-8155-0238a7121986",
+       "name": "Architecture",
+       "color": "purple",
+       "description": null
+      },
+      {
+       "id": "700d134d-36ab-406d-95a8-f6ee8834fbfb",
+       "name": "Pilot",
+       "color": "blue",
+       "description": null
+      },
+      {
+       "id": "653dedee-15a0-4062-a8e2-8db8672fb870",
+       "name": "Knowledge",
+       "color": "green",
+       "description": null
+      },
+      {
+       "id": "42c2e0b1-768c-4292-9886-78d8401d5109",
+       "name": "Research",
+       "color": "orange",
+       "description": null
+      },
+      {
+       "id": "02d19f5c-9959-4c70-b650-030e6a528212",
+       "name": "Application",
+       "color": "yellow",
+       "description": null
+      }
+     ]
+    }
+   },
+   "Trigger": {
+    "id": "NO%5Ck",
+    "name": "Trigger",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Order": {
+    "id": "VF%7Bz",
+    "name": "Order",
+    "description": null,
+    "type": "number",
+    "number": {
+     "format": "number"
+    }
+   },
+   "Dependency": {
+    "id": "%5CKi%7B",
+    "name": "Dependency",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Notes": {
+    "id": "%5CObO",
+    "name": "Notes",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Status": {
+    "id": "vMhI",
+    "name": "Status",
+    "description": null,
+    "type": "status",
+    "status": {
+     "options": [
+      {
+       "id": "a09000a3-9932-4340-80b2-3c1f0f4f73a9",
+       "name": "لم تبدأ",
+       "color": "default",
+       "description": null
+      },
+      {
+       "id": "f10d0713-30ec-4399-881e-dd93720a7d00",
+       "name": "قيد التنفيذ",
+       "color": "blue",
+       "description": null
+      },
+      {
+       "id": "c18ff35d-3006-45c8-9d1e-eae97f8446d7",
+       "name": "تم",
+       "color": "green",
+       "description": null
+      }
+     ],
+     "groups": [
+      {
+       "id": "572c1893-068f-485e-9dcd-e6bdc02d3177",
+       "name": "To-do",
+       "color": "gray",
+       "option_ids": [
+        "a09000a3-9932-4340-80b2-3c1f0f4f73a9"
+       ]
+      },
+      {
+       "id": "5ab59ccd-8462-486d-a826-18343d21d889",
+       "name": "In progress",
+       "color": "blue",
+       "option_ids": [
+        "f10d0713-30ec-4399-881e-dd93720a7d00"
+       ]
+      },
+      {
+       "id": "77bcd795-fcc8-46a6-b9d6-e2d228f3d0d7",
+       "name": "Complete",
+       "color": "green",
+       "option_ids": [
+        "c18ff35d-3006-45c8-9d1e-eae97f8446d7"
+       ]
+      }
+     ]
+    }
+   },
+   "Name": {
+    "id": "title",
+    "name": "Name",
+    "description": null,
+    "type": "title",
+    "title": {}
+   }
+  },
+  "parent": {
+   "type": "page_id",
+   "page_id": "3e658a07-79e8-8158-b5a9-f63851feddbc"
+  },
+  "url": "https://app.notion.com/p/db0c065c7f8e4090ba13af5387302d8f",
+  "public_url": null,
+  "in_trash": false,
+  "archived": false,
+  "request_id": "4be727eb-034e-4201-8db7-82db214f7c7e"
+ },
+ "row_count": 18,
+ "rows": [
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-810b-b8c4-c9bdbfb52def",
+   "created_time": "2026-09-25T20:02:00.000Z",
+   "last_edited_time": "2026-09-25T20:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "db0c065c-7f8e-4090-ba13-af5387302d8f"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Objective": {
+     "id": "ER%5D%7D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "تحويل المصدر إلى Claims ذرية قابلة للتتبع.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "تحويل المصدر إلى Claims ذرية قابلة للتتبع.",
+       "href": null
+      }
+     ]
+    },
+    "Output": {
+     "id": "F%5BEd",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "6 Evidence records مع provenance واستقلالية.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "6 Evidence records مع provenance واستقلالية.",
+       "href": null
+      }
+     ]
+    },
+    "Layer": {
+     "id": "L%3CaY",
+     "type": "select",
+     "select": {
+      "id": "700d134d-36ab-406d-95a8-f6ee8834fbfb",
+      "name": "Pilot",
+      "color": "blue"
+     }
+    },
+    "Trigger": {
+     "id": "NO%5Ck",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "توفر المصادر المعتمدة.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "توفر المصادر المعتمدة.",
+       "href": null
+      }
+     ]
+    },
+    "Order": {
+     "id": "VF%7Bz",
+     "type": "number",
+     "number": 3
+    },
+    "Dependency": {
+     "id": "%5CKi%7B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "02",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "02",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "%5CObO",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Status": {
+     "id": "vMhI",
+     "type": "status",
+     "status": {
+      "id": "c18ff35d-3006-45c8-9d1e-eae97f8446d7",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "03 — Evidence Extraction",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "03 — Evidence Extraction",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/03-Evidence-Extraction-3e658a0779e8810bb8c4c9bdbfb52def",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-810f-ada3-e021b671c02e",
+   "created_time": "2026-09-25T20:02:00.000Z",
+   "last_edited_time": "2026-09-25T20:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "db0c065c-7f8e-4090-ba13-af5387302d8f"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Objective": {
+     "id": "ER%5D%7D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "تحديد النموذج المعرفي والقواعد الحاكمة قبل التوسع.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "تحديد النموذج المعرفي والقواعد الحاكمة قبل التوسع.",
+       "href": null
+      }
+     ]
+    },
+    "Output": {
+     "id": "F%5BEd",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Master architecture: Source → Evidence → Insight → Pattern → Principle → Context → Test → Learning.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Master architecture: Source → Evidence → Insight → Pattern → Principle → Context → Test → Learning.",
+       "href": null
+      }
+     ]
+    },
+    "Layer": {
+     "id": "L%3CaY",
+     "type": "select",
+     "select": {
+      "id": "78a655b9-fdec-4d57-8155-0238a7121986",
+      "name": "Architecture",
+      "color": "purple"
+     }
+    },
+    "Trigger": {
+     "id": "NO%5Ck",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "بداية المشروع.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "بداية المشروع.",
+       "href": null
+      }
+     ]
+    },
+    "Order": {
+     "id": "VF%7Bz",
+     "type": "number",
+     "number": 1
+    },
+    "Dependency": {
+     "id": "%5CKi%7B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "—",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "—",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "%5CObO",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Status": {
+     "id": "vMhI",
+     "type": "status",
+     "status": {
+      "id": "c18ff35d-3006-45c8-9d1e-eae97f8446d7",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "01 — Knowledge System Architecture",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "01 — Knowledge System Architecture",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/01-Knowledge-System-Architecture-3e658a0779e8810fada3e021b671c02e",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-812c-b4ad-c87d0ee30355",
+   "created_time": "2026-09-25T20:02:00.000Z",
+   "last_edited_time": "2026-09-25T20:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "db0c065c-7f8e-4090-ba13-af5387302d8f"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Objective": {
+     "id": "ER%5D%7D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "تحديد ما إذا كانت النواة جاهزة للتوسع.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "تحديد ما إذا كانت النواة جاهزة للتوسع.",
+       "href": null
+      }
+     ]
+    },
+    "Output": {
+     "id": "F%5BEd",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "قرار التوسع مع الحفاظ على النواة الحالية.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "قرار التوسع مع الحفاظ على النواة الحالية.",
+       "href": null
+      }
+     ]
+    },
+    "Layer": {
+     "id": "L%3CaY",
+     "type": "select",
+     "select": {
+      "id": "78a655b9-fdec-4d57-8155-0238a7121986",
+      "name": "Architecture",
+      "color": "purple"
+     }
+    },
+    "Trigger": {
+     "id": "NO%5Ck",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "نجاح Schema Validation.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "نجاح Schema Validation.",
+       "href": null
+      }
+     ]
+    },
+    "Order": {
+     "id": "VF%7Bz",
+     "type": "number",
+     "number": 10
+    },
+    "Dependency": {
+     "id": "%5CKi%7B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "09",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "09",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "%5CObO",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Status": {
+     "id": "vMhI",
+     "type": "status",
+     "status": {
+      "id": "c18ff35d-3006-45c8-9d1e-eae97f8446d7",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "10 — Expansion Decision",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "10 — Expansion Decision",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/10-Expansion-Decision-3e658a0779e8812cb4adc87d0ee30355",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8130-9f54-cb65b868503e",
+   "created_time": "2026-09-25T20:02:00.000Z",
+   "last_edited_time": "2026-09-25T20:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "db0c065c-7f8e-4090-ba13-af5387302d8f"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Objective": {
+     "id": "ER%5D%7D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "اختبار العلاقات، provenance، وإعادة التركيب.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "اختبار العلاقات، provenance، وإعادة التركيب.",
+       "href": null
+      }
+     ]
+    },
+    "Output": {
+     "id": "F%5BEd",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Verified pilot graph and schema adjustments.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Verified pilot graph and schema adjustments.",
+       "href": null
+      }
+     ]
+    },
+    "Layer": {
+     "id": "L%3CaY",
+     "type": "select",
+     "select": {
+      "id": "78a655b9-fdec-4d57-8155-0238a7121986",
+      "name": "Architecture",
+      "color": "purple"
+     }
+    },
+    "Trigger": {
+     "id": "NO%5Ck",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "إدخال الطيار فعليًا في Notion.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "إدخال الطيار فعليًا في Notion.",
+       "href": null
+      }
+     ]
+    },
+    "Order": {
+     "id": "VF%7Bz",
+     "type": "number",
+     "number": 9
+    },
+    "Dependency": {
+     "id": "%5CKi%7B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "08",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "08",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "%5CObO",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Status": {
+     "id": "vMhI",
+     "type": "status",
+     "status": {
+      "id": "c18ff35d-3006-45c8-9d1e-eae97f8446d7",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "09 — Schema Validation",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "09 — Schema Validation",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/09-Schema-Validation-3e658a0779e881309f54cb65b868503e",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8131-9fa2-d882f4215c46",
+   "created_time": "2026-09-25T20:02:00.000Z",
+   "last_edited_time": "2026-09-25T20:13:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "db0c065c-7f8e-4090-ba13-af5387302d8f"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Objective": {
+     "id": "ER%5D%7D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "تجميع النظام والمخرجات بصورة مرجعية قابلة لإعادة الاستخدام.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "تجميع النظام والمخرجات بصورة مرجعية قابلة لإعادة الاستخدام.",
+       "href": null
+      }
+     ]
+    },
+    "Output": {
+     "id": "F%5BEd",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Intelligence layer + reusable knowledge system + applications.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Intelligence layer + reusable knowledge system + applications.",
+       "href": null
+      }
+     ]
+    },
+    "Layer": {
+     "id": "L%3CaY",
+     "type": "select",
+     "select": {
+      "id": "02d19f5c-9959-4c70-b650-030e6a528212",
+      "name": "Application",
+      "color": "yellow"
+     }
+    },
+    "Trigger": {
+     "id": "NO%5Ck",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "اكتمال benchmark والتجارب المتاحة.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "اكتمال benchmark والتجارب المتاحة.",
+       "href": null
+      }
+     ]
+    },
+    "Order": {
+     "id": "VF%7Bz",
+     "type": "number",
+     "number": 18
+    },
+    "Dependency": {
+     "id": "%5CKi%7B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "17",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "17",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "%5CObO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Final Intelligence & Knowledge Report completed in the Master Hub. Research/benchmark/framework phases are complete at the knowledge-system level. Real-world ONYX experiments remain unexecuted and are explicitly stored as proposed experiments requiring internal data/baselines.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Final Intelligence & Knowledge Report completed in the Master Hub. Research/benchmark/framework phases are complete at the knowledge-system level. Real-world ONYX experiments remain unexecuted and are explicitly stored as proposed experiments requiring internal data/baselines.",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "vMhI",
+     "type": "status",
+     "status": {
+      "id": "c18ff35d-3006-45c8-9d1e-eae97f8446d7",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "18 — Final Intelligence & Knowledge Report",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "18 — Final Intelligence & Knowledge Report",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/18-Final-Intelligence-Knowledge-Report-3e658a0779e881319fa2d882f4215c46",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8146-bdbd-e2056e68e21a",
+   "created_time": "2026-09-25T20:02:00.000Z",
+   "last_edited_time": "2026-09-25T20:11:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "db0c065c-7f8e-4090-ba13-af5387302d8f"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Objective": {
+     "id": "ER%5D%7D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "تفكيك منظومات الشركات ذات القيمة البحثية العالية إلى أنظمة تشغيلية.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "تفكيك منظومات الشركات ذات القيمة البحثية العالية إلى أنظمة تشغيلية.",
+       "href": null
+      }
+     ]
+    },
+    "Output": {
+     "id": "F%5BEd",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Deep Cases مرتبطة بالمعرفة العامة.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Deep Cases مرتبطة بالمعرفة العامة.",
+       "href": null
+      }
+     ]
+    },
+    "Layer": {
+     "id": "L%3CaY",
+     "type": "select",
+     "select": {
+      "id": "42c2e0b1-768c-4292-9886-78d8401d5109",
+      "name": "Research",
+      "color": "orange"
+     }
+    },
+    "Trigger": {
+     "id": "NO%5Ck",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ظهور حالات وأدلة مرجعية كافية.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ظهور حالات وأدلة مرجعية كافية.",
+       "href": null
+      }
+     ]
+    },
+    "Order": {
+     "id": "VF%7Bz",
+     "type": "number",
+     "number": 14
+    },
+    "Dependency": {
+     "id": "%5CKi%7B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "13",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "13",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "%5CObO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Deep dives completed across Xero, QuickBooks, Odoo, Microsoft, NetSuite and Zoho Books. Each is modeled as a GTM system; no vendor ranking or effectiveness verdict was inferred.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Deep dives completed across Xero, QuickBooks, Odoo, Microsoft, NetSuite and Zoho Books. Each is modeled as a GTM system; no vendor ranking or effectiveness verdict was inferred.",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "vMhI",
+     "type": "status",
+     "status": {
+      "id": "c18ff35d-3006-45c8-9d1e-eae97f8446d7",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "14 — Marketing System Deep Dives",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "14 — Marketing System Deep Dives",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/14-Marketing-System-Deep-Dives-3e658a0779e88146bdbde2056e68e21a",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8162-bb23-dce22393a24e",
+   "created_time": "2026-09-25T20:02:00.000Z",
+   "last_edited_time": "2026-09-25T20:12:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "db0c065c-7f8e-4090-ba13-af5387302d8f"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Objective": {
+     "id": "ER%5D%7D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "تحويل المعرفة المناسبة إلى فرضيات وتجارب قابلة للاختبار.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "تحويل المعرفة المناسبة إلى فرضيات وتجارب قابلة للاختبار.",
+       "href": null
+      }
+     ]
+    },
+    "Output": {
+     "id": "F%5BEd",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Hypotheses → Experiments → Results → Learnings.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Hypotheses → Experiments → Results → Learnings.",
+       "href": null
+      }
+     ]
+    },
+    "Layer": {
+     "id": "L%3CaY",
+     "type": "select",
+     "select": {
+      "id": "02d19f5c-9959-4c70-b650-030e6a528212",
+      "name": "Application",
+      "color": "yellow"
+     }
+    },
+    "Trigger": {
+     "id": "NO%5Ck",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "وجود Company Context + relevant Knowledge.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "وجود Company Context + relevant Knowledge.",
+       "href": null
+      }
+     ]
+    },
+    "Order": {
+     "id": "VF%7Bz",
+     "type": "number",
+     "number": 17
+    },
+    "Dependency": {
+     "id": "%5CKi%7B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "16",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "16",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "%5CObO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Replication framework created as proposed experiments. No experiment is treated as approved or successful; baselines and company data are prerequisites.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Replication framework created as proposed experiments. No experiment is treated as approved or successful; baselines and company data are prerequisites.",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "vMhI",
+     "type": "status",
+     "status": {
+      "id": "c18ff35d-3006-45c8-9d1e-eae97f8446d7",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "17 — Replication & Experiment Framework",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "17 — Replication & Experiment Framework",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/17-Replication-Experiment-Framework-3e658a0779e88162bb23dce22393a24e",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8168-983f-e1e66229ff39",
+   "created_time": "2026-09-25T20:02:00.000Z",
+   "last_edited_time": "2026-09-25T20:10:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "db0c065c-7f8e-4090-ba13-af5387302d8f"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Objective": {
+     "id": "ER%5D%7D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "استخراج الفروق بين الأسواق والأنماط العابرة للمناطق.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "استخراج الفروق بين الأسواق والأنماط العابرة للمناطق.",
+       "href": null
+      }
+     ]
+    },
+    "Output": {
+     "id": "F%5BEd",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Cross-market knowledge synthesis.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Cross-market knowledge synthesis.",
+       "href": null
+      }
+     ]
+    },
+    "Layer": {
+     "id": "L%3CaY",
+     "type": "select",
+     "select": {
+      "id": "42c2e0b1-768c-4292-9886-78d8401d5109",
+      "name": "Research",
+      "color": "orange"
+     }
+    },
+    "Trigger": {
+     "id": "NO%5Ck",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "اكتمال عينات دولية كافية.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "اكتمال عينات دولية كافية.",
+       "href": null
+      }
+     ]
+    },
+    "Order": {
+     "id": "VF%7Bz",
+     "type": "number",
+     "number": 13
+    },
+    "Dependency": {
+     "id": "%5CKi%7B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "12",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "12",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "%5CObO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Global and country evidence were synthesized into reusable patterns. Core global GTM patterns and local adapters are now explicitly separated. Proceed to Marketing System Deep Dives.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Global and country evidence were synthesized into reusable patterns. Core global GTM patterns and local adapters are now explicitly separated. Proceed to Marketing System Deep Dives.",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "vMhI",
+     "type": "status",
+     "status": {
+      "id": "c18ff35d-3006-45c8-9d1e-eae97f8446d7",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "13 — Regional & Global Synthesis",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "13 — Regional & Global Synthesis",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/13-Regional-Global-Synthesis-3e658a0779e88168983fe1e66229ff39",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8169-9de9-d83bb536b869",
+   "created_time": "2026-09-25T20:02:00.000Z",
+   "last_edited_time": "2026-09-25T20:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "db0c065c-7f8e-4090-ba13-af5387302d8f"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Objective": {
+     "id": "ER%5D%7D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "تثبيت المعرفة في شكل قابل لإعادة الاستخدام.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "تثبيت المعرفة في شكل قابل لإعادة الاستخدام.",
+       "href": null
+      }
+     ]
+    },
+    "Output": {
+     "id": "F%5BEd",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Knowledge Objects مرتبطة بالأدلة والحالات والكيانات.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Knowledge Objects مرتبطة بالأدلة والحالات والكيانات.",
+       "href": null
+      }
+     ]
+    },
+    "Layer": {
+     "id": "L%3CaY",
+     "type": "select",
+     "select": {
+      "id": "653dedee-15a0-4062-a8e2-8db8672fb870",
+      "name": "Knowledge",
+      "color": "green"
+     }
+    },
+    "Trigger": {
+     "id": "NO%5Ck",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "اكتمال التحليل والسياق.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "اكتمال التحليل والسياق.",
+       "href": null
+      }
+     ]
+    },
+    "Order": {
+     "id": "VF%7Bz",
+     "type": "number",
+     "number": 7
+    },
+    "Dependency": {
+     "id": "%5CKi%7B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "06",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "06",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "%5CObO",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Status": {
+     "id": "vMhI",
+     "type": "status",
+     "status": {
+      "id": "c18ff35d-3006-45c8-9d1e-eae97f8446d7",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "07 — Knowledge Objects",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "07 — Knowledge Objects",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/07-Knowledge-Objects-3e658a0779e881699de9d83bb536b869",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8191-b8af-fb592312cd5d",
+   "created_time": "2026-09-25T20:02:00.000Z",
+   "last_edited_time": "2026-09-25T20:08:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "db0c065c-7f8e-4090-ba13-af5387302d8f"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Objective": {
+     "id": "ER%5D%7D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "استئناف البحث العالمي مع استخراج المعرفة بدل تلخيص الشركات فقط.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "استئناف البحث العالمي مع استخراج المعرفة بدل تلخيص الشركات فقط.",
+       "href": null
+      }
+     ]
+    },
+    "Output": {
+     "id": "F%5BEd",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "دفعات Evidence + Cases + Knowledge Objects جديدة.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "دفعات Evidence + Cases + Knowledge Objects جديدة.",
+       "href": null
+      }
+     ]
+    },
+    "Layer": {
+     "id": "L%3CaY",
+     "type": "select",
+     "select": {
+      "id": "42c2e0b1-768c-4292-9886-78d8401d5109",
+      "name": "Research",
+      "color": "orange"
+     }
+    },
+    "Trigger": {
+     "id": "NO%5Ck",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "اكتمال Pilot + Schema Validation.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "اكتمال Pilot + Schema Validation.",
+       "href": null
+      }
+     ]
+    },
+    "Order": {
+     "id": "VF%7Bz",
+     "type": "number",
+     "number": 11
+    },
+    "Dependency": {
+     "id": "%5CKi%7B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "10",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "10",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "%5CObO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Knowledge-complete global baseline established for this phase gate: 15 companies across North America, Europe, Japan, Latin America and MENA; multiple Evidence/Case/Insight objects; recurring patterns include Partner Marketing as GTM, Utility/Education Content, Low-Friction Evaluation, Professional-Firm-First Distribution, and Partner Campaign Operations + Measurement. Further global evidence may enrich the Knowledge OS later without blocking country intelligence.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Knowledge-complete global baseline established for this phase gate: 15 companies across North America, Europe, Japan, Latin America and MENA; multiple Evidence/Case/Insight objects; recurring patterns include Partner Marketing as GTM, Utility/Education Content, Low-Friction Evaluation, Professional-Firm-First Distribution, and Partner Campaign Operations + Measurement. Further global evidence may enrich the Knowledge OS later without blocking country intelligence.",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "vMhI",
+     "type": "status",
+     "status": {
+      "id": "c18ff35d-3006-45c8-9d1e-eae97f8446d7",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "11 — Resume Global Research",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "11 — Resume Global Research",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/11-Resume-Global-Research-3e658a0779e88191b8affb592312cd5d",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8194-a52f-ea1a2cf02101",
+   "created_time": "2026-09-25T20:02:00.000Z",
+   "last_edited_time": "2026-09-25T20:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "db0c065c-7f8e-4090-ba13-af5387302d8f"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Objective": {
+     "id": "ER%5D%7D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "فصل التفسير التحليلي عن الوقائع.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "فصل التفسير التحليلي عن الوقائع.",
+       "href": null
+      }
+     ]
+    },
+    "Output": {
+     "id": "F%5BEd",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "3 Insights، واحد لكل حالة.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "3 Insights، واحد لكل حالة.",
+       "href": null
+      }
+     ]
+    },
+    "Layer": {
+     "id": "L%3CaY",
+     "type": "select",
+     "select": {
+      "id": "653dedee-15a0-4062-a8e2-8db8672fb870",
+      "name": "Knowledge",
+      "color": "green"
+     }
+    },
+    "Trigger": {
+     "id": "NO%5Ck",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "اكتمال الأدلة.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "اكتمال الأدلة.",
+       "href": null
+      }
+     ]
+    },
+    "Order": {
+     "id": "VF%7Bz",
+     "type": "number",
+     "number": 4
+    },
+    "Dependency": {
+     "id": "%5CKi%7B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "03",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "03",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "%5CObO",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Status": {
+     "id": "vMhI",
+     "type": "status",
+     "status": {
+      "id": "c18ff35d-3006-45c8-9d1e-eae97f8446d7",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "04 — Insight Derivation",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "04 — Insight Derivation",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/04-Insight-Derivation-3e658a0779e88194a52fea1a2cf02101",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81a1-8240-ff8b225d15dc",
+   "created_time": "2026-09-25T20:02:00.000Z",
+   "last_edited_time": "2026-09-25T20:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "db0c065c-7f8e-4090-ba13-af5387302d8f"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Objective": {
+     "id": "ER%5D%7D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "تحويل النموذج إلى بنية Notion قابلة للتشغيل.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "تحويل النموذج إلى بنية Notion قابلة للتشغيل.",
+       "href": null
+      }
+     ]
+    },
+    "Output": {
+     "id": "F%5BEd",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Master Hub + 8 قواعد بيانات تشغيلية.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Master Hub + 8 قواعد بيانات تشغيلية.",
+       "href": null
+      }
+     ]
+    },
+    "Layer": {
+     "id": "L%3CaY",
+     "type": "select",
+     "select": {
+      "id": "78a655b9-fdec-4d57-8155-0238a7121986",
+      "name": "Architecture",
+      "color": "purple"
+     }
+    },
+    "Trigger": {
+     "id": "NO%5Ck",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "نجاح الطيار.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "نجاح الطيار.",
+       "href": null
+      }
+     ]
+    },
+    "Order": {
+     "id": "VF%7Bz",
+     "type": "number",
+     "number": 8
+    },
+    "Dependency": {
+     "id": "%5CKi%7B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "07",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "07",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "%5CObO",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Status": {
+     "id": "vMhI",
+     "type": "status",
+     "status": {
+      "id": "c18ff35d-3006-45c8-9d1e-eae97f8446d7",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "08 — Notion Ingestion",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "08 — Notion Ingestion",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/08-Notion-Ingestion-3e658a0779e881a18240ff8b225d15dc",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81af-8afd-d6d2d925ffac",
+   "created_time": "2026-09-25T20:02:00.000Z",
+   "last_edited_time": "2026-09-25T20:12:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "db0c065c-7f8e-4090-ba13-af5387302d8f"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Objective": {
+     "id": "ER%5D%7D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "تحليل محركات الاكتساب والمحتوى والبحث والتحويل عبر الحالات.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "تحليل محركات الاكتساب والمحتوى والبحث والتحويل عبر الحالات.",
+       "href": null
+      }
+     ]
+    },
+    "Output": {
+     "id": "F%5BEd",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Patterns متخصصة في acquisition/content/SEO/conversion.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Patterns متخصصة في acquisition/content/SEO/conversion.",
+       "href": null
+      }
+     ]
+    },
+    "Layer": {
+     "id": "L%3CaY",
+     "type": "select",
+     "select": {
+      "id": "42c2e0b1-768c-4292-9886-78d8401d5109",
+      "name": "Research",
+      "color": "orange"
+     }
+    },
+    "Trigger": {
+     "id": "NO%5Ck",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "اكتمال عينة عميقة من الشركات والأسواق.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "اكتمال عينة عميقة من الشركات والأسواق.",
+       "href": null
+      }
+     ]
+    },
+    "Order": {
+     "id": "VF%7Bz",
+     "type": "number",
+     "number": 15
+    },
+    "Dependency": {
+     "id": "%5CKi%7B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "14",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "14",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "%5CObO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Content/SEO/Acquisition intelligence completed as Knowledge patterns with explicit measurement gaps.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Content/SEO/Acquisition intelligence completed as Knowledge patterns with explicit measurement gaps.",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "vMhI",
+     "type": "status",
+     "status": {
+      "id": "c18ff35d-3006-45c8-9d1e-eae97f8446d7",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "15 — Content / SEO / Acquisition Intelligence",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "15 — Content / SEO / Acquisition Intelligence",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/15-Content-SEO-Acquisition-Intelligence-3e658a0779e881af8afdd6d2d925ffac",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81af-b2fe-d918a19d2d83",
+   "created_time": "2026-09-25T20:02:00.000Z",
+   "last_edited_time": "2026-09-25T20:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "db0c065c-7f8e-4090-ba13-af5387302d8f"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Objective": {
+     "id": "ER%5D%7D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "تحديد شروط الصلاحية والقيود وحالات الفشل.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "تحديد شروط الصلاحية والقيود وحالات الفشل.",
+       "href": null
+      }
+     ]
+    },
+    "Output": {
+     "id": "F%5BEd",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Context + Conditions + Constraints + Failure Conditions.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Context + Conditions + Constraints + Failure Conditions.",
+       "href": null
+      }
+     ]
+    },
+    "Layer": {
+     "id": "L%3CaY",
+     "type": "select",
+     "select": {
+      "id": "653dedee-15a0-4062-a8e2-8db8672fb870",
+      "name": "Knowledge",
+      "color": "green"
+     }
+    },
+    "Trigger": {
+     "id": "NO%5Ck",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ظهور Pattern.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ظهور Pattern.",
+       "href": null
+      }
+     ]
+    },
+    "Order": {
+     "id": "VF%7Bz",
+     "type": "number",
+     "number": 6
+    },
+    "Dependency": {
+     "id": "%5CKi%7B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "05",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "05",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "%5CObO",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Status": {
+     "id": "vMhI",
+     "type": "status",
+     "status": {
+      "id": "c18ff35d-3006-45c8-9d1e-eae97f8446d7",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "06 — Context & Transferability",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "06 — Context & Transferability",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/06-Context-Transferability-3e658a0779e881afb2fed918a19d2d83",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81d6-bbc6-e3e78097eb6c",
+   "created_time": "2026-09-25T20:02:00.000Z",
+   "last_edited_time": "2026-09-25T20:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "db0c065c-7f8e-4090-ba13-af5387302d8f"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Objective": {
+     "id": "ER%5D%7D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "اكتشاف التكرار العابر للشركات دون تعميم زائد.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "اكتشاف التكرار العابر للشركات دون تعميم زائد.",
+       "href": null
+      }
+     ]
+    },
+    "Output": {
+     "id": "F%5BEd",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Pattern عابر للشركات بدرجة نضج Emerging.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Pattern عابر للشركات بدرجة نضج Emerging.",
+       "href": null
+      }
+     ]
+    },
+    "Layer": {
+     "id": "L%3CaY",
+     "type": "select",
+     "select": {
+      "id": "653dedee-15a0-4062-a8e2-8db8672fb870",
+      "name": "Knowledge",
+      "color": "green"
+     }
+    },
+    "Trigger": {
+     "id": "NO%5Ck",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "وجود Insights متعددة قابلة للمقارنة.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "وجود Insights متعددة قابلة للمقارنة.",
+       "href": null
+      }
+     ]
+    },
+    "Order": {
+     "id": "VF%7Bz",
+     "type": "number",
+     "number": 5
+    },
+    "Dependency": {
+     "id": "%5CKi%7B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "04",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "04",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "%5CObO",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Status": {
+     "id": "vMhI",
+     "type": "status",
+     "status": {
+      "id": "c18ff35d-3006-45c8-9d1e-eae97f8446d7",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "05 — Cross-Case Pattern Synthesis",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "05 — Cross-Case Pattern Synthesis",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/05-Cross-Case-Pattern-Synthesis-3e658a0779e881d6bbc6e3e78097eb6c",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81d9-a0c7-c9f16aec45fe",
+   "created_time": "2026-09-25T20:02:00.000Z",
+   "last_edited_time": "2026-09-25T20:12:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "db0c065c-7f8e-4090-ba13-af5387302d8f"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Objective": {
+     "id": "ER%5D%7D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "مقارنة المعرفة المكتشفة مع واقع ONYX / YemenSoft دون نسخ مباشر.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "مقارنة المعرفة المكتشفة مع واقع ONYX / YemenSoft دون نسخ مباشر.",
+       "href": null
+      }
+     ]
+    },
+    "Output": {
+     "id": "F%5BEd",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Gap map + contextualized opportunities + evidence boundaries.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Gap map + contextualized opportunities + evidence boundaries.",
+       "href": null
+      }
+     ]
+    },
+    "Layer": {
+     "id": "L%3CaY",
+     "type": "select",
+     "select": {
+      "id": "02d19f5c-9959-4c70-b650-030e6a528212",
+      "name": "Application",
+      "color": "yellow"
+     }
+    },
+    "Trigger": {
+     "id": "NO%5Ck",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "اكتمال المعرفة السوقية اللازمة.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "اكتمال المعرفة السوقية اللازمة.",
+       "href": null
+      }
+     ]
+    },
+    "Order": {
+     "id": "VF%7Bz",
+     "type": "number",
+     "number": 16
+    },
+    "Dependency": {
+     "id": "%5CKi%7B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "15",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "15",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "%5CObO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ONYX/YemenSoft benchmark completed as evidence-gap/context matrix. Current public evidence establishes portfolio breadth, current institutional/educational/digital-finance relationships, and solution/quote-request surfaces; effectiveness and internal funnel evidence remain open.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ONYX/YemenSoft benchmark completed as evidence-gap/context matrix. Current public evidence establishes portfolio breadth, current institutional/educational/digital-finance relationships, and solution/quote-request surfaces; effectiveness and internal funnel evidence remain open.",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "vMhI",
+     "type": "status",
+     "status": {
+      "id": "c18ff35d-3006-45c8-9d1e-eae97f8446d7",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "16 — ONYX / YemenSoft Benchmark",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "16 — ONYX / YemenSoft Benchmark",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/16-ONYX-YemenSoft-Benchmark-3e658a0779e881d9a0c7c9f16aec45fe",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81e5-a724-df7f284e5120",
+   "created_time": "2026-09-25T20:02:00.000Z",
+   "last_edited_time": "2026-09-25T20:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "db0c065c-7f8e-4090-ba13-af5387302d8f"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Objective": {
+     "id": "ER%5D%7D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "اختيار عينة صغيرة قابلة للتحقق بدل استيراد كل البحث السابق.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "اختيار عينة صغيرة قابلة للتحقق بدل استيراد كل البحث السابق.",
+       "href": null
+      }
+     ]
+    },
+    "Output": {
+     "id": "F%5BEd",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "3 حالات موثقة: Xero / QuickBooks / Odoo.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "3 حالات موثقة: Xero / QuickBooks / Odoo.",
+       "href": null
+      }
+     ]
+    },
+    "Layer": {
+     "id": "L%3CaY",
+     "type": "select",
+     "select": {
+      "id": "700d134d-36ab-406d-95a8-f6ee8834fbfb",
+      "name": "Pilot",
+      "color": "blue"
+     }
+    },
+    "Trigger": {
+     "id": "NO%5Ck",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "اكتمال المعمارية.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "اكتمال المعمارية.",
+       "href": null
+      }
+     ]
+    },
+    "Order": {
+     "id": "VF%7Bz",
+     "type": "number",
+     "number": 2
+    },
+    "Dependency": {
+     "id": "%5CKi%7B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "01",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "01",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "%5CObO",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Status": {
+     "id": "vMhI",
+     "type": "status",
+     "status": {
+      "id": "c18ff35d-3006-45c8-9d1e-eae97f8446d7",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "02 — Pilot Scope & Source Verification",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "02 — Pilot Scope & Source Verification",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/02-Pilot-Scope-Source-Verification-3e658a0779e881e5a724df7f284e5120",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81fc-9f45-f43217b43387",
+   "created_time": "2026-09-25T20:02:00.000Z",
+   "last_edited_time": "2026-09-25T20:10:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "db0c065c-7f8e-4090-ba13-af5387302d8f"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Objective": {
+     "id": "ER%5D%7D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "إضافة البعد المحلي وربط المعرفة بالسوق والدولة.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "إضافة البعد المحلي وربط المعرفة بالسوق والدولة.",
+       "href": null
+      }
+     ]
+    },
+    "Output": {
+     "id": "F%5BEd",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Country-specific Evidence / Patterns / Context.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Country-specific Evidence / Patterns / Context.",
+       "href": null
+      }
+     ]
+    },
+    "Layer": {
+     "id": "L%3CaY",
+     "type": "select",
+     "select": {
+      "id": "42c2e0b1-768c-4292-9886-78d8401d5109",
+      "name": "Research",
+      "color": "orange"
+     }
+    },
+    "Trigger": {
+     "id": "NO%5Ck",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "تراكم قاعدة عالمية كافية.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "تراكم قاعدة عالمية كافية.",
+       "href": null
+      }
+     ]
+    },
+    "Order": {
+     "id": "VF%7Bz",
+     "type": "number",
+     "number": 12
+    },
+    "Dependency": {
+     "id": "%5CKi%7B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "11",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "11",
+       "href": null
+      }
+     ]
+    },
+    "Notes": {
+     "id": "%5CObO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Country Intelligence closed for the initial Saudi Arabia / UAE / Yemen set. Evidence, Cases, Insights and a cross-country Pattern are now in KOS. Global and country layers are linked; move to Regional & Global Synthesis.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Country Intelligence closed for the initial Saudi Arabia / UAE / Yemen set. Evidence, Cases, Insights and a cross-country Pattern are now in KOS. Global and country layers are linked; move to Regional & Global Synthesis.",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "vMhI",
+     "type": "status",
+     "status": {
+      "id": "c18ff35d-3006-45c8-9d1e-eae97f8446d7",
+      "name": "تم",
+      "color": "green"
+     }
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "12 — Country Intelligence Matrix",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "12 — Country Intelligence Matrix",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/12-Country-Intelligence-Matrix-3e658a0779e881fc9f45f43217b43387",
+   "public_url": null,
+   "archived": false
+  }
+ ]
+}

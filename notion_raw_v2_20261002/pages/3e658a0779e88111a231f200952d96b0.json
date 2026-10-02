@@ -1,0 +1,196 @@
+{
+ "capture_reason": "NEWLY_ACCESSIBLE",
+ "captured_at": "2026-10-02T12:16:49+03:00",
+ "title": "ما العلاقة القابلة للقياس بين Utility/Education Content وبين Organic Discovery وTrial/Demo Conversion؟",
+ "last_edited": "2026-09-25T20:06:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e658a07-79e8-8111-a231-f200952d96b0",
+  "created_time": "2026-09-25T20:06:00.000Z",
+  "last_edited_time": "2026-09-25T20:06:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "c5aa8b9a-13b6-4611-9e63-9b880d2ad8ea"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "Why It Matters": {
+    "id": "EIs%3C",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "لدينا تكرار قوي في وجود الأدلة والقوالب والندوات والجولات، لكن لا يجوز افتراض أن كثافة المحتوى تعني فعالية اكتسابية.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "لدينا تكرار قوي في وجود الأدلة والقوالب والندوات والجولات، لكن لا يجوز افتراض أن كثافة المحتوى تعني فعالية اكتسابية.",
+      "href": null
+     }
+    ]
+   },
+   "Next Research Action": {
+    "id": "FS%60%5D",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "البحث عن تقارير أداء SEO/content، دراسات حالات رقمية، تصريحات تنفيذية، أدوات attribution أو بيانات منشورة تربط content assets بالpipeline/revenue.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "البحث عن تقارير أداء SEO/content، دراسات حالات رقمية، تصريحات تنفيذية، أدوات attribution أو بيانات منشورة تربط content assets بالpipeline/revenue.",
+      "href": null
+     }
+    ]
+   },
+   "Knowledge Link": {
+    "id": "O%7D%60Y",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "3e658a07-79e8-81bd-8925-edf7c966726e"
+     }
+    ],
+    "has_more": false
+   },
+   "Evidence Gap": {
+    "id": "U%5Edc",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "لا توجد في العينة الحالية بيانات موثقة ومقارنة عن organic sessions، assisted conversion، trial starts أو revenue attribution لكل نوع محتوى.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "لا توجد في العينة الحالية بيانات موثقة ومقارنة عن organic sessions، assisted conversion، trial starts أو revenue attribution لكل نوع محتوى.",
+      "href": null
+     }
+    ]
+   },
+   "Notes": {
+    "id": "WyaF",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Answer": {
+    "id": "XEZA",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Known Evidence": {
+    "id": "bT%3Ej",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "QuickBooks, Xero, Zoho Books, Sage Intacct توفر أشكالًا متعددة من المحتوى العملي والتعليم والجولات.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "QuickBooks, Xero, Zoho Books, Sage Intacct توفر أشكالًا متعددة من المحتوى العملي والتعليم والجولات.",
+      "href": null
+     }
+    ]
+   },
+   "Entity Link": {
+    "id": "k_JM",
+    "type": "relation",
+    "relation": [],
+    "has_more": false
+   },
+   "Research Status": {
+    "id": "p%5EId",
+    "type": "status",
+    "status": {
+     "id": "eeb0bf1c-4783-4e4b-8092-a186bf7e659b",
+     "name": "لم تبدأ",
+     "color": "default"
+    }
+   },
+   "Priority": {
+    "id": "zTh%5C",
+    "type": "select",
+    "select": {
+     "id": "078bd797-8109-4f36-9c15-46654ef34e27",
+     "name": "High",
+     "color": "red"
+    }
+   },
+   "Question": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "ما العلاقة القابلة للقياس بين Utility/Education Content وبين Organic Discovery وTrial/Demo Conversion؟",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "ما العلاقة القابلة للقياس بين Utility/Education Content وبين Organic Discovery وTrial/Demo Conversion؟",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/Utility-Education-Content-Organic-Discovery-Trial-Demo-Conversion-3e658a0779e88111a231f200952d96b0",
+  "public_url": null,
+  "archived": false,
+  "request_id": "5302d150-c82e-4027-a9b7-f175bb6de163"
+ },
+ "block_count": 0,
+ "blocks": []
+}

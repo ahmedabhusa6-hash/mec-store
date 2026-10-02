@@ -1,0 +1,6894 @@
+{
+ "database": {
+  "id": "e1e6a7d5-c835-4f47-8c90-7ff6f9cc8d19",
+  "title": "Books",
+  "url": "https://app.notion.com/p/e1e6a7d5c8354f478c907ff6f9cc8d19",
+  "parent": {
+   "type": "page_id",
+   "page_id": "3e658a07-79e8-812f-b628-dde61492e5b2"
+  }
+ },
+ "rows": [
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8113-954d-efcc59b8c191",
+   "created_time": "2026-09-25T21:56:00.000Z",
+   "last_edited_time": "2026-09-25T21:56:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "e1e6a7d5-c835-4f47-8c90-7ff6f9cc8d19"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Book ID": {
+     "id": "%3CSoy",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "BOOK",
+      "number": 31
+     }
+    },
+    "Source URL": {
+     "id": "D%7D%3AX",
+     "type": "url",
+     "url": "https://books.google.com/books/about/Marketing_Communications.html?id=nQucDwAAQBAJ"
+    },
+    "Status": {
+     "id": "EwM%60",
+     "type": "select",
+     "select": {
+      "id": "4de34b04-95b8-4aa4-819b-e370abbf9dff",
+      "name": "Candidate",
+      "color": "gray"
+     }
+    },
+    "Authority": {
+     "id": "VVDN",
+     "type": "select",
+     "select": null
+    },
+    "Publication Year": {
+     "id": "WGiG",
+     "type": "number",
+     "number": 2019
+    },
+    "Why Included": {
+     "id": "%5BTgH",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Taxonomy coverage: Marketing Communications / Digital Media. Bibliographic identity and edition verified against Pearson Education.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Taxonomy coverage: Marketing Communications / Digital Media. Bibliographic identity and edition verified against Pearson Education.",
+       "href": null
+      }
+     ]
+    },
+    "Verification Status": {
+     "id": "clua",
+     "type": "select",
+     "select": {
+      "id": "6961f3f1-56b0-4033-95d5-169bd0945e6f",
+      "name": "Verified",
+      "color": "green"
+     }
+    },
+    "Book Type": {
+     "id": "f~ai",
+     "type": "select",
+     "select": {
+      "id": "dd34d378-92bd-4376-8c9c-2896fbb6c463",
+      "name": "Academic Text",
+      "color": "blue"
+     }
+    },
+    "Last Checked": {
+     "id": "ge%3FN",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Edition": {
+     "id": "h%60oj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "8th edition",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "8th edition",
+       "href": null
+      }
+     ]
+    },
+    "Authors": {
+     "id": "m%60XW",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Chris Fill; Sarah Turnbull",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Chris Fill; Sarah Turnbull",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "xjTO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Marketing Communications / Digital Media",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Marketing Communications / Digital Media",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Marketing Communications: Touchpoints, Sharing And Disruption",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Marketing Communications: Touchpoints, Sharing And Disruption",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Marketing-Communications-Touchpoints-Sharing-And-Disruption-3e658a0779e88113954defcc59b8c191",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8128-a621-e42cb5aa02ae",
+   "created_time": "2026-09-25T21:56:00.000Z",
+   "last_edited_time": "2026-09-25T21:56:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "e1e6a7d5-c835-4f47-8c90-7ff6f9cc8d19"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Book ID": {
+     "id": "%3CSoy",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "BOOK",
+      "number": 30
+     }
+    },
+    "Source URL": {
+     "id": "D%7D%3AX",
+     "type": "url",
+     "url": "https://books.google.com/books/about/Customer_Relationship_Management.html?id=I5DUDwAAQBAJ"
+    },
+    "Status": {
+     "id": "EwM%60",
+     "type": "select",
+     "select": {
+      "id": "4de34b04-95b8-4aa4-819b-e370abbf9dff",
+      "name": "Candidate",
+      "color": "gray"
+     }
+    },
+    "Authority": {
+     "id": "VVDN",
+     "type": "select",
+     "select": null
+    },
+    "Publication Year": {
+     "id": "WGiG",
+     "type": "number",
+     "number": 2019
+    },
+    "Why Included": {
+     "id": "%5BTgH",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Taxonomy coverage: CRM / Customer Lifecycle / Technology. Bibliographic identity and edition verified against Routledge.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Taxonomy coverage: CRM / Customer Lifecycle / Technology. Bibliographic identity and edition verified against Routledge.",
+       "href": null
+      }
+     ]
+    },
+    "Verification Status": {
+     "id": "clua",
+     "type": "select",
+     "select": {
+      "id": "6961f3f1-56b0-4033-95d5-169bd0945e6f",
+      "name": "Verified",
+      "color": "green"
+     }
+    },
+    "Book Type": {
+     "id": "f~ai",
+     "type": "select",
+     "select": {
+      "id": "15bfe695-2a06-4ddf-8da4-f966372f0545",
+      "name": "Professional",
+      "color": "purple"
+     }
+    },
+    "Last Checked": {
+     "id": "ge%3FN",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Edition": {
+     "id": "h%60oj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "4th edition",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "4th edition",
+       "href": null
+      }
+     ]
+    },
+    "Authors": {
+     "id": "m%60XW",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Francis Buttle; Stan Maklan",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Francis Buttle; Stan Maklan",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "xjTO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "CRM / Customer Lifecycle / Technology",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "CRM / Customer Lifecycle / Technology",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Customer Relationship Management: Concepts and Technologies",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Customer Relationship Management: Concepts and Technologies",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Customer-Relationship-Management-Concepts-and-Technologies-3e658a0779e88128a621e42cb5aa02ae",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8135-a7ef-fa32cc18a35f",
+   "created_time": "2026-09-25T21:56:00.000Z",
+   "last_edited_time": "2026-09-25T21:56:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "e1e6a7d5-c835-4f47-8c90-7ff6f9cc8d19"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Book ID": {
+     "id": "%3CSoy",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "BOOK",
+      "number": 34
+     }
+    },
+    "Source URL": {
+     "id": "D%7D%3AX",
+     "type": "url",
+     "url": "https://books.google.com/books/about/Product_Design_and_Development.html?id=Gm3HxgEACAAJ"
+    },
+    "Status": {
+     "id": "EwM%60",
+     "type": "select",
+     "select": {
+      "id": "4de34b04-95b8-4aa4-819b-e370abbf9dff",
+      "name": "Candidate",
+      "color": "gray"
+     }
+    },
+    "Authority": {
+     "id": "VVDN",
+     "type": "select",
+     "select": null
+    },
+    "Publication Year": {
+     "id": "WGiG",
+     "type": "number",
+     "number": 2019
+    },
+    "Why Included": {
+     "id": "%5BTgH",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Taxonomy coverage: Product Development / Innovation. Bibliographic identity and edition verified against McGraw-Hill Education.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Taxonomy coverage: Product Development / Innovation. Bibliographic identity and edition verified against McGraw-Hill Education.",
+       "href": null
+      }
+     ]
+    },
+    "Verification Status": {
+     "id": "clua",
+     "type": "select",
+     "select": {
+      "id": "6961f3f1-56b0-4033-95d5-169bd0945e6f",
+      "name": "Verified",
+      "color": "green"
+     }
+    },
+    "Book Type": {
+     "id": "f~ai",
+     "type": "select",
+     "select": {
+      "id": "dd34d378-92bd-4376-8c9c-2896fbb6c463",
+      "name": "Academic Text",
+      "color": "blue"
+     }
+    },
+    "Last Checked": {
+     "id": "ge%3FN",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Edition": {
+     "id": "h%60oj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "7th edition",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "7th edition",
+       "href": null
+      }
+     ]
+    },
+    "Authors": {
+     "id": "m%60XW",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Karl T. Ulrich; Steven D. Eppinger; Maria C. Yang",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Karl T. Ulrich; Steven D. Eppinger; Maria C. Yang",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "xjTO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Product Development / Innovation",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Product Development / Innovation",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Product Design and Development",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Product Design and Development",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Product-Design-and-Development-3e658a0779e88135a7effa32cc18a35f",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-813d-a366-dbde21c15648",
+   "created_time": "2026-09-25T21:56:00.000Z",
+   "last_edited_time": "2026-09-25T21:56:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "e1e6a7d5-c835-4f47-8c90-7ff6f9cc8d19"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Book ID": {
+     "id": "%3CSoy",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "BOOK",
+      "number": 28
+     }
+    },
+    "Source URL": {
+     "id": "D%7D%3AX",
+     "type": "url",
+     "url": "https://books.google.com/books/about/Advertising_and_Promotion.html?id=PYpSzQEACAAJ"
+    },
+    "Status": {
+     "id": "EwM%60",
+     "type": "select",
+     "select": {
+      "id": "4de34b04-95b8-4aa4-819b-e370abbf9dff",
+      "name": "Candidate",
+      "color": "gray"
+     }
+    },
+    "Authority": {
+     "id": "VVDN",
+     "type": "select",
+     "select": null
+    },
+    "Publication Year": {
+     "id": "WGiG",
+     "type": "number",
+     "number": 2021
+    },
+    "Why Included": {
+     "id": "%5BTgH",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Taxonomy coverage: Advertising / Integrated Marketing Communications. Bibliographic identity and edition verified against McGraw-Hill Education.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Taxonomy coverage: Advertising / Integrated Marketing Communications. Bibliographic identity and edition verified against McGraw-Hill Education.",
+       "href": null
+      }
+     ]
+    },
+    "Verification Status": {
+     "id": "clua",
+     "type": "select",
+     "select": {
+      "id": "6961f3f1-56b0-4033-95d5-169bd0945e6f",
+      "name": "Verified",
+      "color": "green"
+     }
+    },
+    "Book Type": {
+     "id": "f~ai",
+     "type": "select",
+     "select": {
+      "id": "dd34d378-92bd-4376-8c9c-2896fbb6c463",
+      "name": "Academic Text",
+      "color": "blue"
+     }
+    },
+    "Last Checked": {
+     "id": "ge%3FN",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Edition": {
+     "id": "h%60oj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "12th edition",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "12th edition",
+       "href": null
+      }
+     ]
+    },
+    "Authors": {
+     "id": "m%60XW",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "George E. Belch; Michael A. Belch",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "George E. Belch; Michael A. Belch",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "xjTO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Advertising / Integrated Marketing Communications",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Advertising / Integrated Marketing Communications",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Advertising and Promotion: An Integrated Marketing Communications Perspective",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Advertising and Promotion: An Integrated Marketing Communications Perspective",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Advertising-and-Promotion-An-Integrated-Marketing-Communications-Perspective-3e658a0779e8813da366dbde21c15648",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8150-872d-e301bae54c2d",
+   "created_time": "2026-09-25T21:56:00.000Z",
+   "last_edited_time": "2026-09-25T21:56:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "e1e6a7d5-c835-4f47-8c90-7ff6f9cc8d19"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Book ID": {
+     "id": "%3CSoy",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "BOOK",
+      "number": 27
+     }
+    },
+    "Source URL": {
+     "id": "D%7D%3AX",
+     "type": "url",
+     "url": "https://books.google.com/books/about/The_Strategy_and_Tactics_of_Pricing.html?id=k_rJEAAAQBAJ"
+    },
+    "Status": {
+     "id": "EwM%60",
+     "type": "select",
+     "select": {
+      "id": "4de34b04-95b8-4aa4-819b-e370abbf9dff",
+      "name": "Candidate",
+      "color": "gray"
+     }
+    },
+    "Authority": {
+     "id": "VVDN",
+     "type": "select",
+     "select": null
+    },
+    "Publication Year": {
+     "id": "WGiG",
+     "type": "number",
+     "number": 2023
+    },
+    "Why Included": {
+     "id": "%5BTgH",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Taxonomy coverage: Pricing Strategy / Value Capture. Bibliographic identity and edition verified against Routledge / Taylor & Francis.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Taxonomy coverage: Pricing Strategy / Value Capture. Bibliographic identity and edition verified against Routledge / Taylor & Francis.",
+       "href": null
+      }
+     ]
+    },
+    "Verification Status": {
+     "id": "clua",
+     "type": "select",
+     "select": {
+      "id": "6961f3f1-56b0-4033-95d5-169bd0945e6f",
+      "name": "Verified",
+      "color": "green"
+     }
+    },
+    "Book Type": {
+     "id": "f~ai",
+     "type": "select",
+     "select": {
+      "id": "15bfe695-2a06-4ddf-8da4-f966372f0545",
+      "name": "Professional",
+      "color": "purple"
+     }
+    },
+    "Last Checked": {
+     "id": "ge%3FN",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Edition": {
+     "id": "h%60oj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "7th edition",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "7th edition",
+       "href": null
+      }
+     ]
+    },
+    "Authors": {
+     "id": "m%60XW",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Thomas T. Nagle; Georg Müller; Evert Gruyaert",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Thomas T. Nagle; Georg Müller; Evert Gruyaert",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "xjTO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Pricing Strategy / Value Capture",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Pricing Strategy / Value Capture",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "The Strategy and Tactics of Pricing: A Guide to Growing More Profitably",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "The Strategy and Tactics of Pricing: A Guide to Growing More Profitably",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/The-Strategy-and-Tactics-of-Pricing-A-Guide-to-Growing-More-Profitably-3e658a0779e88150872de301bae54c2d",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8153-8fa8-dc8f76af2c78",
+   "created_time": "2026-09-25T21:56:00.000Z",
+   "last_edited_time": "2026-09-25T21:56:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "e1e6a7d5-c835-4f47-8c90-7ff6f9cc8d19"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Book ID": {
+     "id": "%3CSoy",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "BOOK",
+      "number": 33
+     }
+    },
+    "Source URL": {
+     "id": "D%7D%3AX",
+     "type": "url",
+     "url": "https://books.google.com/books/about/Strategic_Marketing.html?id=UycspwAACAAJ"
+    },
+    "Status": {
+     "id": "EwM%60",
+     "type": "select",
+     "select": {
+      "id": "4de34b04-95b8-4aa4-819b-e370abbf9dff",
+      "name": "Candidate",
+      "color": "gray"
+     }
+    },
+    "Authority": {
+     "id": "VVDN",
+     "type": "select",
+     "select": null
+    },
+    "Publication Year": {
+     "id": "WGiG",
+     "type": "number",
+     "number": 2012
+    },
+    "Why Included": {
+     "id": "%5BTgH",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Taxonomy coverage: Market-Driven Strategy / Implementation. Bibliographic identity and edition verified against McGraw-Hill.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Taxonomy coverage: Market-Driven Strategy / Implementation. Bibliographic identity and edition verified against McGraw-Hill.",
+       "href": null
+      }
+     ]
+    },
+    "Verification Status": {
+     "id": "clua",
+     "type": "select",
+     "select": {
+      "id": "6961f3f1-56b0-4033-95d5-169bd0945e6f",
+      "name": "Verified",
+      "color": "green"
+     }
+    },
+    "Book Type": {
+     "id": "f~ai",
+     "type": "select",
+     "select": {
+      "id": "dd34d378-92bd-4376-8c9c-2896fbb6c463",
+      "name": "Academic Text",
+      "color": "blue"
+     }
+    },
+    "Last Checked": {
+     "id": "ge%3FN",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Edition": {
+     "id": "h%60oj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "10th edition",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "10th edition",
+       "href": null
+      }
+     ]
+    },
+    "Authors": {
+     "id": "m%60XW",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "David W. Cravens; Nigel Piercy",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "David W. Cravens; Nigel Piercy",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "xjTO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Market-Driven Strategy / Implementation",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Market-Driven Strategy / Implementation",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Strategic Marketing",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Strategic Marketing",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Strategic-Marketing-3e658a0779e881538fa8dc8f76af2c78",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81d1-994c-eabfd23efae8",
+   "created_time": "2026-09-25T21:56:00.000Z",
+   "last_edited_time": "2026-09-25T21:56:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "e1e6a7d5-c835-4f47-8c90-7ff6f9cc8d19"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Book ID": {
+     "id": "%3CSoy",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "BOOK",
+      "number": 29
+     }
+    },
+    "Source URL": {
+     "id": "D%7D%3AX",
+     "type": "url",
+     "url": "https://books.google.com/books/about/Sales_Force_Management.html?id=Xn-_zQEACAAJ"
+    },
+    "Status": {
+     "id": "EwM%60",
+     "type": "select",
+     "select": {
+      "id": "4de34b04-95b8-4aa4-819b-e370abbf9dff",
+      "name": "Candidate",
+      "color": "gray"
+     }
+    },
+    "Authority": {
+     "id": "VVDN",
+     "type": "select",
+     "select": null
+    },
+    "Publication Year": {
+     "id": "WGiG",
+     "type": "number",
+     "number": 2021
+    },
+    "Why Included": {
+     "id": "%5BTgH",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Taxonomy coverage: Sales Management / Sales-Marketing Integration. Bibliographic identity and edition verified against Routledge / Taylor & Francis Group.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Taxonomy coverage: Sales Management / Sales-Marketing Integration. Bibliographic identity and edition verified against Routledge / Taylor & Francis Group.",
+       "href": null
+      }
+     ]
+    },
+    "Verification Status": {
+     "id": "clua",
+     "type": "select",
+     "select": {
+      "id": "6961f3f1-56b0-4033-95d5-169bd0945e6f",
+      "name": "Verified",
+      "color": "green"
+     }
+    },
+    "Book Type": {
+     "id": "f~ai",
+     "type": "select",
+     "select": {
+      "id": "dd34d378-92bd-4376-8c9c-2896fbb6c463",
+      "name": "Academic Text",
+      "color": "blue"
+     }
+    },
+    "Last Checked": {
+     "id": "ge%3FN",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Edition": {
+     "id": "h%60oj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "13th edition",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "13th edition",
+       "href": null
+      }
+     ]
+    },
+    "Authors": {
+     "id": "m%60XW",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Mark W. Johnston; Greg W. Marshall",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Mark W. Johnston; Greg W. Marshall",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "xjTO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Sales Management / Sales-Marketing Integration",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Sales Management / Sales-Marketing Integration",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Sales Force Management: Leadership, Innovation, Technology",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Sales Force Management: Leadership, Innovation, Technology",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Sales-Force-Management-Leadership-Innovation-Technology-3e658a0779e881d1994ceabfd23efae8",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81f8-b7d6-ce7eaf3dc116",
+   "created_time": "2026-09-25T21:56:00.000Z",
+   "last_edited_time": "2026-09-25T21:56:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "e1e6a7d5-c835-4f47-8c90-7ff6f9cc8d19"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Book ID": {
+     "id": "%3CSoy",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "BOOK",
+      "number": 32
+     }
+    },
+    "Source URL": {
+     "id": "D%7D%3AX",
+     "type": "url",
+     "url": "https://books.google.com/books/about/Managing_Customer_Experience_and_Relatio.html?id=qeJbzgEACAAJ"
+    },
+    "Status": {
+     "id": "EwM%60",
+     "type": "select",
+     "select": {
+      "id": "4de34b04-95b8-4aa4-819b-e370abbf9dff",
+      "name": "Candidate",
+      "color": "gray"
+     }
+    },
+    "Authority": {
+     "id": "VVDN",
+     "type": "select",
+     "select": null
+    },
+    "Publication Year": {
+     "id": "WGiG",
+     "type": "number",
+     "number": 2022
+    },
+    "Why Included": {
+     "id": "%5BTgH",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Taxonomy coverage: Customer Experience / Relationship Strategy. Bibliographic identity and edition verified against John Wiley & Sons.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Taxonomy coverage: Customer Experience / Relationship Strategy. Bibliographic identity and edition verified against John Wiley & Sons.",
+       "href": null
+      }
+     ]
+    },
+    "Verification Status": {
+     "id": "clua",
+     "type": "select",
+     "select": {
+      "id": "6961f3f1-56b0-4033-95d5-169bd0945e6f",
+      "name": "Verified",
+      "color": "green"
+     }
+    },
+    "Book Type": {
+     "id": "f~ai",
+     "type": "select",
+     "select": {
+      "id": "15bfe695-2a06-4ddf-8da4-f966372f0545",
+      "name": "Professional",
+      "color": "purple"
+     }
+    },
+    "Last Checked": {
+     "id": "ge%3FN",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Edition": {
+     "id": "h%60oj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "4th edition",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "4th edition",
+       "href": null
+      }
+     ]
+    },
+    "Authors": {
+     "id": "m%60XW",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Don Peppers; Martha Rogers",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Don Peppers; Martha Rogers",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "xjTO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Customer Experience / Relationship Strategy",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Customer Experience / Relationship Strategy",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Managing Customer Experience and Relationships: A Strategic Framework",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Managing Customer Experience and Relationships: A Strategic Framework",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Managing-Customer-Experience-and-Relationships-A-Strategic-Framework-3e658a0779e881f8b7d6ce7eaf3dc116",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-811b-9291-f5f80f8908ba",
+   "created_time": "2026-09-25T21:54:00.000Z",
+   "last_edited_time": "2026-09-25T21:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "e1e6a7d5-c835-4f47-8c90-7ff6f9cc8d19"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Book ID": {
+     "id": "%3CSoy",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "BOOK",
+      "number": 21
+     }
+    },
+    "Source URL": {
+     "id": "D%7D%3AX",
+     "type": "url",
+     "url": "https://books.google.com/books/about/Contagious.html?id=J2l7pgwTiW4C"
+    },
+    "Status": {
+     "id": "EwM%60",
+     "type": "select",
+     "select": {
+      "id": "4de34b04-95b8-4aa4-819b-e370abbf9dff",
+      "name": "Candidate",
+      "color": "gray"
+     }
+    },
+    "Authority": {
+     "id": "VVDN",
+     "type": "select",
+     "select": null
+    },
+    "Publication Year": {
+     "id": "WGiG",
+     "type": "number",
+     "number": 2013
+    },
+    "Why Included": {
+     "id": "%5BTgH",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Taxonomy coverage: Word of Mouth / Social Transmission. Bibliographic identity and edition verified against Simon & Schuster.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Taxonomy coverage: Word of Mouth / Social Transmission. Bibliographic identity and edition verified against Simon & Schuster.",
+       "href": null
+      }
+     ]
+    },
+    "Verification Status": {
+     "id": "clua",
+     "type": "select",
+     "select": {
+      "id": "6961f3f1-56b0-4033-95d5-169bd0945e6f",
+      "name": "Verified",
+      "color": "green"
+     }
+    },
+    "Book Type": {
+     "id": "f~ai",
+     "type": "select",
+     "select": {
+      "id": "c1bbd6d7-5778-4880-9068-83a0138ed295",
+      "name": "Research/Science",
+      "color": "green"
+     }
+    },
+    "Last Checked": {
+     "id": "ge%3FN",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Edition": {
+     "id": "h%60oj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Original edition",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Original edition",
+       "href": null
+      }
+     ]
+    },
+    "Authors": {
+     "id": "m%60XW",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Jonah Berger",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Jonah Berger",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "xjTO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Word of Mouth / Social Transmission",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Word of Mouth / Social Transmission",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Contagious: Why Things Catch On",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Contagious: Why Things Catch On",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Contagious-Why-Things-Catch-On-3e658a0779e8811b9291f5f80f8908ba",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8137-9711-ebcaceec8ae0",
+   "created_time": "2026-09-25T21:54:00.000Z",
+   "last_edited_time": "2026-09-25T21:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "e1e6a7d5-c835-4f47-8c90-7ff6f9cc8d19"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Book ID": {
+     "id": "%3CSoy",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "BOOK",
+      "number": 22
+     }
+    },
+    "Source URL": {
+     "id": "D%7D%3AX",
+     "type": "url",
+     "url": "https://books.google.com/books/about/The_New_Strategic_Brand_Management.html?id=JnK8pRjSGZUC"
+    },
+    "Status": {
+     "id": "EwM%60",
+     "type": "select",
+     "select": {
+      "id": "4de34b04-95b8-4aa4-819b-e370abbf9dff",
+      "name": "Candidate",
+      "color": "gray"
+     }
+    },
+    "Authority": {
+     "id": "VVDN",
+     "type": "select",
+     "select": null
+    },
+    "Publication Year": {
+     "id": "WGiG",
+     "type": "number",
+     "number": 2012
+    },
+    "Why Included": {
+     "id": "%5BTgH",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Taxonomy coverage: Brand Strategy / Brand Architecture. Bibliographic identity and edition verified against Kogan Page.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Taxonomy coverage: Brand Strategy / Brand Architecture. Bibliographic identity and edition verified against Kogan Page.",
+       "href": null
+      }
+     ]
+    },
+    "Verification Status": {
+     "id": "clua",
+     "type": "select",
+     "select": {
+      "id": "6961f3f1-56b0-4033-95d5-169bd0945e6f",
+      "name": "Verified",
+      "color": "green"
+     }
+    },
+    "Book Type": {
+     "id": "f~ai",
+     "type": "select",
+     "select": {
+      "id": "15bfe695-2a06-4ddf-8da4-f966372f0545",
+      "name": "Professional",
+      "color": "purple"
+     }
+    },
+    "Last Checked": {
+     "id": "ge%3FN",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Edition": {
+     "id": "h%60oj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "5th edition",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "5th edition",
+       "href": null
+      }
+     ]
+    },
+    "Authors": {
+     "id": "m%60XW",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Jean-Noël Kapferer",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Jean-Noël Kapferer",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "xjTO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Brand Strategy / Brand Architecture",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Brand Strategy / Brand Architecture",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "The New Strategic Brand Management: Advanced Insights and Strategic Thinking",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "The New Strategic Brand Management: Advanced Insights and Strategic Thinking",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/The-New-Strategic-Brand-Management-Advanced-Insights-and-Strategic-Thinking-3e658a0779e881379711ebcaceec8ae0",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-813f-b1c7-c154bf72b928",
+   "created_time": "2026-09-25T21:54:00.000Z",
+   "last_edited_time": "2026-09-25T21:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "e1e6a7d5-c835-4f47-8c90-7ff6f9cc8d19"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Book ID": {
+     "id": "%3CSoy",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "BOOK",
+      "number": 18
+     }
+    },
+    "Source URL": {
+     "id": "D%7D%3AX",
+     "type": "url",
+     "url": "https://books.google.com/books/about/Competitive_Strategy.html?id=5xxHAAAAMAAJ"
+    },
+    "Status": {
+     "id": "EwM%60",
+     "type": "select",
+     "select": {
+      "id": "4de34b04-95b8-4aa4-819b-e370abbf9dff",
+      "name": "Candidate",
+      "color": "gray"
+     }
+    },
+    "Authority": {
+     "id": "VVDN",
+     "type": "select",
+     "select": null
+    },
+    "Publication Year": {
+     "id": "WGiG",
+     "type": "number",
+     "number": 1980
+    },
+    "Why Included": {
+     "id": "%5BTgH",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Taxonomy coverage: Strategy / Competition. Bibliographic identity and edition verified against Free Press.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Taxonomy coverage: Strategy / Competition. Bibliographic identity and edition verified against Free Press.",
+       "href": null
+      }
+     ]
+    },
+    "Verification Status": {
+     "id": "clua",
+     "type": "select",
+     "select": {
+      "id": "6961f3f1-56b0-4033-95d5-169bd0945e6f",
+      "name": "Verified",
+      "color": "green"
+     }
+    },
+    "Book Type": {
+     "id": "f~ai",
+     "type": "select",
+     "select": {
+      "id": "15bfe695-2a06-4ddf-8da4-f966372f0545",
+      "name": "Professional",
+      "color": "purple"
+     }
+    },
+    "Last Checked": {
+     "id": "ge%3FN",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Edition": {
+     "id": "h%60oj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Original edition",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Original edition",
+       "href": null
+      }
+     ]
+    },
+    "Authors": {
+     "id": "m%60XW",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Michael E. Porter",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Michael E. Porter",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "xjTO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Strategy / Competition",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Strategy / Competition",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Competitive Strategy: Techniques for Analyzing Industries and Competitors",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Competitive Strategy: Techniques for Analyzing Industries and Competitors",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Competitive-Strategy-Techniques-for-Analyzing-Industries-and-Competitors-3e658a0779e8813fb1c7c154bf72b928",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8147-8a13-e0f39a90e9ef",
+   "created_time": "2026-09-25T21:54:00.000Z",
+   "last_edited_time": "2026-09-25T21:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "e1e6a7d5-c835-4f47-8c90-7ff6f9cc8d19"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Book ID": {
+     "id": "%3CSoy",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "BOOK",
+      "number": 26
+     }
+    },
+    "Source URL": {
+     "id": "D%7D%3AX",
+     "type": "url",
+     "url": "https://books.google.com/books/about/Business_Marketing_Management_B2B.html?id=iaUJAAAAQBAJ"
+    },
+    "Status": {
+     "id": "EwM%60",
+     "type": "select",
+     "select": {
+      "id": "4de34b04-95b8-4aa4-819b-e370abbf9dff",
+      "name": "Candidate",
+      "color": "gray"
+     }
+    },
+    "Authority": {
+     "id": "VVDN",
+     "type": "select",
+     "select": null
+    },
+    "Publication Year": {
+     "id": "WGiG",
+     "type": "number",
+     "number": 2012
+    },
+    "Why Included": {
+     "id": "%5BTgH",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Taxonomy coverage: B2B / Organizational Buying. Bibliographic identity and edition verified against Cengage.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Taxonomy coverage: B2B / Organizational Buying. Bibliographic identity and edition verified against Cengage.",
+       "href": null
+      }
+     ]
+    },
+    "Verification Status": {
+     "id": "clua",
+     "type": "select",
+     "select": {
+      "id": "6961f3f1-56b0-4033-95d5-169bd0945e6f",
+      "name": "Verified",
+      "color": "green"
+     }
+    },
+    "Book Type": {
+     "id": "f~ai",
+     "type": "select",
+     "select": {
+      "id": "dd34d378-92bd-4376-8c9c-2896fbb6c463",
+      "name": "Academic Text",
+      "color": "blue"
+     }
+    },
+    "Last Checked": {
+     "id": "ge%3FN",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Edition": {
+     "id": "h%60oj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "11th edition",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "11th edition",
+       "href": null
+      }
+     ]
+    },
+    "Authors": {
+     "id": "m%60XW",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Michael D. Hutt; Thomas W. Speh",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Michael D. Hutt; Thomas W. Speh",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "xjTO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "B2B / Organizational Buying",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "B2B / Organizational Buying",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Business Marketing Management: B2B",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Business Marketing Management: B2B",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Business-Marketing-Management-B2B-3e658a0779e881478a13e0f39a90e9ef",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-817c-8848-f4bbc7e9dace",
+   "created_time": "2026-09-25T21:54:00.000Z",
+   "last_edited_time": "2026-09-25T21:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "e1e6a7d5-c835-4f47-8c90-7ff6f9cc8d19"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Book ID": {
+     "id": "%3CSoy",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "BOOK",
+      "number": 15
+     }
+    },
+    "Source URL": {
+     "id": "D%7D%3AX",
+     "type": "url",
+     "url": "https://www.mheducation.com/highered/product/International-Marketing-Cateora.html"
+    },
+    "Status": {
+     "id": "EwM%60",
+     "type": "select",
+     "select": {
+      "id": "4de34b04-95b8-4aa4-819b-e370abbf9dff",
+      "name": "Candidate",
+      "color": "gray"
+     }
+    },
+    "Authority": {
+     "id": "VVDN",
+     "type": "select",
+     "select": null
+    },
+    "Publication Year": {
+     "id": "WGiG",
+     "type": "number",
+     "number": 2026
+    },
+    "Why Included": {
+     "id": "%5BTgH",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Taxonomy coverage: International Marketing. Bibliographic identity and edition verified against McGraw Hill.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Taxonomy coverage: International Marketing. Bibliographic identity and edition verified against McGraw Hill.",
+       "href": null
+      }
+     ]
+    },
+    "Verification Status": {
+     "id": "clua",
+     "type": "select",
+     "select": {
+      "id": "6961f3f1-56b0-4033-95d5-169bd0945e6f",
+      "name": "Verified",
+      "color": "green"
+     }
+    },
+    "Book Type": {
+     "id": "f~ai",
+     "type": "select",
+     "select": {
+      "id": "dd34d378-92bd-4376-8c9c-2896fbb6c463",
+      "name": "Academic Text",
+      "color": "blue"
+     }
+    },
+    "Last Checked": {
+     "id": "ge%3FN",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Edition": {
+     "id": "h%60oj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "19th edition",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "19th edition",
+       "href": null
+      }
+     ]
+    },
+    "Authors": {
+     "id": "m%60XW",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Philip R. Cateora; Bruce Money; Mary C. Gilly; John Graham",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Philip R. Cateora; Bruce Money; Mary C. Gilly; John Graham",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "xjTO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "International Marketing",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "International Marketing",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "International Marketing",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "International Marketing",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/International-Marketing-3e658a0779e8817c8848f4bbc7e9dace",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81ac-94e0-c0db86679ebe",
+   "created_time": "2026-09-25T21:54:00.000Z",
+   "last_edited_time": "2026-09-25T21:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "e1e6a7d5-c835-4f47-8c90-7ff6f9cc8d19"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Book ID": {
+     "id": "%3CSoy",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "BOOK",
+      "number": 16
+     }
+    },
+    "Source URL": {
+     "id": "D%7D%3AX",
+     "type": "url",
+     "url": "https://books.google.com/books/about/Marketing_Channels.html?id=p_AkwQEACAAJ"
+    },
+    "Status": {
+     "id": "EwM%60",
+     "type": "select",
+     "select": {
+      "id": "4de34b04-95b8-4aa4-819b-e370abbf9dff",
+      "name": "Candidate",
+      "color": "gray"
+     }
+    },
+    "Authority": {
+     "id": "VVDN",
+     "type": "select",
+     "select": null
+    },
+    "Publication Year": {
+     "id": "WGiG",
+     "type": "number",
+     "number": 2013
+    },
+    "Why Included": {
+     "id": "%5BTgH",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Taxonomy coverage: Channels / Distribution / Marketing Systems. Bibliographic identity and edition verified against Pearson.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Taxonomy coverage: Channels / Distribution / Marketing Systems. Bibliographic identity and edition verified against Pearson.",
+       "href": null
+      }
+     ]
+    },
+    "Verification Status": {
+     "id": "clua",
+     "type": "select",
+     "select": {
+      "id": "6961f3f1-56b0-4033-95d5-169bd0945e6f",
+      "name": "Verified",
+      "color": "green"
+     }
+    },
+    "Book Type": {
+     "id": "f~ai",
+     "type": "select",
+     "select": {
+      "id": "dd34d378-92bd-4376-8c9c-2896fbb6c463",
+      "name": "Academic Text",
+      "color": "blue"
+     }
+    },
+    "Last Checked": {
+     "id": "ge%3FN",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Edition": {
+     "id": "h%60oj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "7th edition",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "7th edition",
+       "href": null
+      }
+     ]
+    },
+    "Authors": {
+     "id": "m%60XW",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Anne T. Coughlan; Erin M. Anderson; Louis W. Stern; Adel I. El-Ansary",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Anne T. Coughlan; Erin M. Anderson; Louis W. Stern; Adel I. El-Ansary",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "xjTO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Channels / Distribution / Marketing Systems",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Channels / Distribution / Marketing Systems",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Marketing Channels",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Marketing Channels",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Marketing-Channels-3e658a0779e881ac94e0c0db86679ebe",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81cc-9ab5-d91fd02c6eca",
+   "created_time": "2026-09-25T21:54:00.000Z",
+   "last_edited_time": "2026-09-25T21:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "e1e6a7d5-c835-4f47-8c90-7ff6f9cc8d19"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Book ID": {
+     "id": "%3CSoy",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "BOOK",
+      "number": 20
+     }
+    },
+    "Source URL": {
+     "id": "D%7D%3AX",
+     "type": "url",
+     "url": "https://books.google.com/books/about/Influence.html?id=BBMlzgEACAAJ"
+    },
+    "Status": {
+     "id": "EwM%60",
+     "type": "select",
+     "select": {
+      "id": "4de34b04-95b8-4aa4-819b-e370abbf9dff",
+      "name": "Candidate",
+      "color": "gray"
+     }
+    },
+    "Authority": {
+     "id": "VVDN",
+     "type": "select",
+     "select": null
+    },
+    "Publication Year": {
+     "id": "WGiG",
+     "type": "number",
+     "number": 2021
+    },
+    "Why Included": {
+     "id": "%5BTgH",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Taxonomy coverage: Influence / Behavioral Science. Bibliographic identity and edition verified against Harper Business.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Taxonomy coverage: Influence / Behavioral Science. Bibliographic identity and edition verified against Harper Business.",
+       "href": null
+      }
+     ]
+    },
+    "Verification Status": {
+     "id": "clua",
+     "type": "select",
+     "select": {
+      "id": "6961f3f1-56b0-4033-95d5-169bd0945e6f",
+      "name": "Verified",
+      "color": "green"
+     }
+    },
+    "Book Type": {
+     "id": "f~ai",
+     "type": "select",
+     "select": {
+      "id": "417c3bb8-62da-4968-a9fd-e49c13e66e3a",
+      "name": "Behavioral Science",
+      "color": "pink"
+     }
+    },
+    "Last Checked": {
+     "id": "ge%3FN",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Edition": {
+     "id": "h%60oj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Revised edition",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Revised edition",
+       "href": null
+      }
+     ]
+    },
+    "Authors": {
+     "id": "m%60XW",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Robert B. Cialdini",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Robert B. Cialdini",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "xjTO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Influence / Behavioral Science",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Influence / Behavioral Science",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Influence: The Psychology of Persuasion",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Influence: The Psychology of Persuasion",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Influence-The-Psychology-of-Persuasion-3e658a0779e881cc9ab5d91fd02c6eca",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81cd-bd7d-eb80957109a5",
+   "created_time": "2026-09-25T21:54:00.000Z",
+   "last_edited_time": "2026-09-25T21:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "e1e6a7d5-c835-4f47-8c90-7ff6f9cc8d19"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Book ID": {
+     "id": "%3CSoy",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "BOOK",
+      "number": 24
+     }
+    },
+    "Source URL": {
+     "id": "D%7D%3AX",
+     "type": "url",
+     "url": "https://books.google.com/books/about/Managing_Brand_Equity.html?id=FkO5AAAAIAAJ"
+    },
+    "Status": {
+     "id": "EwM%60",
+     "type": "select",
+     "select": {
+      "id": "4de34b04-95b8-4aa4-819b-e370abbf9dff",
+      "name": "Candidate",
+      "color": "gray"
+     }
+    },
+    "Authority": {
+     "id": "VVDN",
+     "type": "select",
+     "select": null
+    },
+    "Publication Year": {
+     "id": "WGiG",
+     "type": "number",
+     "number": 1991
+    },
+    "Why Included": {
+     "id": "%5BTgH",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Taxonomy coverage: Brand Equity. Bibliographic identity and edition verified against Free Press.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Taxonomy coverage: Brand Equity. Bibliographic identity and edition verified against Free Press.",
+       "href": null
+      }
+     ]
+    },
+    "Verification Status": {
+     "id": "clua",
+     "type": "select",
+     "select": {
+      "id": "6961f3f1-56b0-4033-95d5-169bd0945e6f",
+      "name": "Verified",
+      "color": "green"
+     }
+    },
+    "Book Type": {
+     "id": "f~ai",
+     "type": "select",
+     "select": {
+      "id": "81338440-8950-4880-b9a5-be0ebe3c3f3e",
+      "name": "Brand",
+      "color": "yellow"
+     }
+    },
+    "Last Checked": {
+     "id": "ge%3FN",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Edition": {
+     "id": "h%60oj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Original edition",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Original edition",
+       "href": null
+      }
+     ]
+    },
+    "Authors": {
+     "id": "m%60XW",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "David A. Aaker",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "David A. Aaker",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "xjTO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Brand Equity",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Brand Equity",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Managing Brand Equity",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Managing Brand Equity",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Managing-Brand-Equity-3e658a0779e881cdbd7deb80957109a5",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81d9-a4ea-da2e14c9cd35",
+   "created_time": "2026-09-25T21:54:00.000Z",
+   "last_edited_time": "2026-09-25T21:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "e1e6a7d5-c835-4f47-8c90-7ff6f9cc8d19"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Book ID": {
+     "id": "%3CSoy",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "BOOK",
+      "number": 17
+     }
+    },
+    "Source URL": {
+     "id": "D%7D%3AX",
+     "type": "url",
+     "url": "https://www.mheducation.com/highered/mhp/product/positioning-battle-your-mind-20th-anniversary-edition.html"
+    },
+    "Status": {
+     "id": "EwM%60",
+     "type": "select",
+     "select": {
+      "id": "4de34b04-95b8-4aa4-819b-e370abbf9dff",
+      "name": "Candidate",
+      "color": "gray"
+     }
+    },
+    "Authority": {
+     "id": "VVDN",
+     "type": "select",
+     "select": null
+    },
+    "Publication Year": {
+     "id": "WGiG",
+     "type": "number",
+     "number": 2001
+    },
+    "Why Included": {
+     "id": "%5BTgH",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Taxonomy coverage: Positioning / Brand Strategy. Bibliographic identity and edition verified against McGraw-Hill.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Taxonomy coverage: Positioning / Brand Strategy. Bibliographic identity and edition verified against McGraw-Hill.",
+       "href": null
+      }
+     ]
+    },
+    "Verification Status": {
+     "id": "clua",
+     "type": "select",
+     "select": {
+      "id": "6961f3f1-56b0-4033-95d5-169bd0945e6f",
+      "name": "Verified",
+      "color": "green"
+     }
+    },
+    "Book Type": {
+     "id": "f~ai",
+     "type": "select",
+     "select": {
+      "id": "fb74722a-6066-48ba-9ced-4e08548c1430",
+      "name": "Practitioner",
+      "color": "orange"
+     }
+    },
+    "Last Checked": {
+     "id": "ge%3FN",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Edition": {
+     "id": "h%60oj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "3rd edition / 20th Anniversary",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "3rd edition / 20th Anniversary",
+       "href": null
+      }
+     ]
+    },
+    "Authors": {
+     "id": "m%60XW",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Al Ries; Jack Trout",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Al Ries; Jack Trout",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "xjTO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Positioning / Brand Strategy",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Positioning / Brand Strategy",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Positioning: The Battle for Your Mind",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Positioning: The Battle for Your Mind",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Positioning-The-Battle-for-Your-Mind-3e658a0779e881d9a4eada2e14c9cd35",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81e1-a7b5-da6a436d128e",
+   "created_time": "2026-09-25T21:54:00.000Z",
+   "last_edited_time": "2026-09-25T21:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "e1e6a7d5-c835-4f47-8c90-7ff6f9cc8d19"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Book ID": {
+     "id": "%3CSoy",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "BOOK",
+      "number": 23
+     }
+    },
+    "Source URL": {
+     "id": "D%7D%3AX",
+     "type": "url",
+     "url": "https://books.google.com/books/about/Building_strong_brands.html?hl=en&id=E_cOAQAAMAAJ"
+    },
+    "Status": {
+     "id": "EwM%60",
+     "type": "select",
+     "select": {
+      "id": "4de34b04-95b8-4aa4-819b-e370abbf9dff",
+      "name": "Candidate",
+      "color": "gray"
+     }
+    },
+    "Authority": {
+     "id": "VVDN",
+     "type": "select",
+     "select": null
+    },
+    "Publication Year": {
+     "id": "WGiG",
+     "type": "number",
+     "number": 1996
+    },
+    "Why Included": {
+     "id": "%5BTgH",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Taxonomy coverage: Brand Strategy / Brand Identity. Bibliographic identity and edition verified against Free Press.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Taxonomy coverage: Brand Strategy / Brand Identity. Bibliographic identity and edition verified against Free Press.",
+       "href": null
+      }
+     ]
+    },
+    "Verification Status": {
+     "id": "clua",
+     "type": "select",
+     "select": {
+      "id": "6961f3f1-56b0-4033-95d5-169bd0945e6f",
+      "name": "Verified",
+      "color": "green"
+     }
+    },
+    "Book Type": {
+     "id": "f~ai",
+     "type": "select",
+     "select": {
+      "id": "81338440-8950-4880-b9a5-be0ebe3c3f3e",
+      "name": "Brand",
+      "color": "yellow"
+     }
+    },
+    "Last Checked": {
+     "id": "ge%3FN",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Edition": {
+     "id": "h%60oj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Original edition",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Original edition",
+       "href": null
+      }
+     ]
+    },
+    "Authors": {
+     "id": "m%60XW",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "David A. Aaker",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "David A. Aaker",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "xjTO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Brand Strategy / Brand Identity",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Brand Strategy / Brand Identity",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Building Strong Brands",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Building Strong Brands",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Building-Strong-Brands-3e658a0779e881e1a7b5da6a436d128e",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81e5-8b20-e28d1f157098",
+   "created_time": "2026-09-25T21:54:00.000Z",
+   "last_edited_time": "2026-09-25T21:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "e1e6a7d5-c835-4f47-8c90-7ff6f9cc8d19"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Book ID": {
+     "id": "%3CSoy",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "BOOK",
+      "number": 25
+     }
+    },
+    "Source URL": {
+     "id": "D%7D%3AX",
+     "type": "url",
+     "url": "https://books.google.com/books/about/Relationship_Marketing.html?id=S-vdWWElIMYC"
+    },
+    "Status": {
+     "id": "EwM%60",
+     "type": "select",
+     "select": {
+      "id": "4de34b04-95b8-4aa4-819b-e370abbf9dff",
+      "name": "Candidate",
+      "color": "gray"
+     }
+    },
+    "Authority": {
+     "id": "VVDN",
+     "type": "select",
+     "select": null
+    },
+    "Publication Year": {
+     "id": "WGiG",
+     "type": "number",
+     "number": 2013
+    },
+    "Why Included": {
+     "id": "%5BTgH",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Taxonomy coverage: Relationship Marketing / CRM. Bibliographic identity and edition verified against Routledge.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Taxonomy coverage: Relationship Marketing / CRM. Bibliographic identity and edition verified against Routledge.",
+       "href": null
+      }
+     ]
+    },
+    "Verification Status": {
+     "id": "clua",
+     "type": "select",
+     "select": {
+      "id": "6961f3f1-56b0-4033-95d5-169bd0945e6f",
+      "name": "Verified",
+      "color": "green"
+     }
+    },
+    "Book Type": {
+     "id": "f~ai",
+     "type": "select",
+     "select": {
+      "id": "15bfe695-2a06-4ddf-8da4-f966372f0545",
+      "name": "Professional",
+      "color": "purple"
+     }
+    },
+    "Last Checked": {
+     "id": "ge%3FN",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Edition": {
+     "id": "h%60oj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "2013 edition",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "2013 edition",
+       "href": null
+      }
+     ]
+    },
+    "Authors": {
+     "id": "m%60XW",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Helen Peck; Martin Christopher; Moira Clark; Adrian Payne",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Helen Peck; Martin Christopher; Moira Clark; Adrian Payne",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "xjTO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Relationship Marketing / CRM",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Relationship Marketing / CRM",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Relationship Marketing",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Relationship Marketing",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Relationship-Marketing-3e658a0779e881e58b20e28d1f157098",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81ef-b61d-e783be653061",
+   "created_time": "2026-09-25T21:54:00.000Z",
+   "last_edited_time": "2026-09-25T21:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "e1e6a7d5-c835-4f47-8c90-7ff6f9cc8d19"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Book ID": {
+     "id": "%3CSoy",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "BOOK",
+      "number": 19
+     }
+    },
+    "Source URL": {
+     "id": "D%7D%3AX",
+     "type": "url",
+     "url": "https://books.google.com/books/about/How_Brands_Grow.html?id=hXVjQgAACAAJ"
+    },
+    "Status": {
+     "id": "EwM%60",
+     "type": "select",
+     "select": {
+      "id": "4de34b04-95b8-4aa4-819b-e370abbf9dff",
+      "name": "Candidate",
+      "color": "gray"
+     }
+    },
+    "Authority": {
+     "id": "VVDN",
+     "type": "select",
+     "select": null
+    },
+    "Publication Year": {
+     "id": "WGiG",
+     "type": "number",
+     "number": 2010
+    },
+    "Why Included": {
+     "id": "%5BTgH",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Taxonomy coverage: Brand Growth / Marketing Science. Bibliographic identity and edition verified against Oxford University Press Australia & New Zealand.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Taxonomy coverage: Brand Growth / Marketing Science. Bibliographic identity and edition verified against Oxford University Press Australia & New Zealand.",
+       "href": null
+      }
+     ]
+    },
+    "Verification Status": {
+     "id": "clua",
+     "type": "select",
+     "select": {
+      "id": "6961f3f1-56b0-4033-95d5-169bd0945e6f",
+      "name": "Verified",
+      "color": "green"
+     }
+    },
+    "Book Type": {
+     "id": "f~ai",
+     "type": "select",
+     "select": {
+      "id": "c1bbd6d7-5778-4880-9068-83a0138ed295",
+      "name": "Research/Science",
+      "color": "green"
+     }
+    },
+    "Last Checked": {
+     "id": "ge%3FN",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Edition": {
+     "id": "h%60oj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Original edition",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Original edition",
+       "href": null
+      }
+     ]
+    },
+    "Authors": {
+     "id": "m%60XW",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Byron Sharp",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Byron Sharp",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "xjTO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Brand Growth / Marketing Science",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Brand Growth / Marketing Science",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "How Brands Grow: What Marketers Don't Know",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "How Brands Grow: What Marketers Don't Know",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/How-Brands-Grow-What-Marketers-Don-t-Know-3e658a0779e881efb61de783be653061",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8129-a3c2-f440907e2d9c",
+   "created_time": "2026-09-25T21:54:00.000Z",
+   "last_edited_time": "2026-09-25T21:55:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "e1e6a7d5-c835-4f47-8c90-7ff6f9cc8d19"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Book ID": {
+     "id": "%3CSoy",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "BOOK",
+      "number": 6
+     }
+    },
+    "Source URL": {
+     "id": "D%7D%3AX",
+     "type": "url",
+     "url": "https://www.pearson.com/en-us/subject-catalog/p/principles-of-marketing/P200000013361/9780135413524"
+    },
+    "Status": {
+     "id": "EwM%60",
+     "type": "select",
+     "select": {
+      "id": "9775fafe-d55d-4845-86a4-873864742c81",
+      "name": "Rejected",
+      "color": "red"
+     }
+    },
+    "Authority": {
+     "id": "VVDN",
+     "type": "select",
+     "select": null
+    },
+    "Publication Year": {
+     "id": "WGiG",
+     "type": "number",
+     "number": 2026
+    },
+    "Why Included": {
+     "id": "%5BTgH",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "DUPLICATED: an existing Core record was updated to the current verified edition. This candidate record is retained for audit history and must not be treated as an independent source.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "DUPLICATED: an existing Core record was updated to the current verified edition. This candidate record is retained for audit history and must not be treated as an independent source.",
+       "href": null
+      }
+     ]
+    },
+    "Verification Status": {
+     "id": "clua",
+     "type": "select",
+     "select": {
+      "id": "6961f3f1-56b0-4033-95d5-169bd0945e6f",
+      "name": "Verified",
+      "color": "green"
+     }
+    },
+    "Book Type": {
+     "id": "f~ai",
+     "type": "select",
+     "select": {
+      "id": "dd34d378-92bd-4376-8c9c-2896fbb6c463",
+      "name": "Academic Text",
+      "color": "blue"
+     }
+    },
+    "Last Checked": {
+     "id": "ge%3FN",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Edition": {
+     "id": "h%60oj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "20th edition",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "20th edition",
+       "href": null
+      }
+     ]
+    },
+    "Authors": {
+     "id": "m%60XW",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Philip Kotler; Gary Armstrong; Sridhar Balasubramanian",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Philip Kotler; Gary Armstrong; Sridhar Balasubramanian",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "xjTO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Foundations / General Marketing",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Foundations / General Marketing",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "DUPLICATED — Principles of Marketing candidate superseded by existing Core record",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "DUPLICATED — Principles of Marketing candidate superseded by existing Core record",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/DUPLICATED-Principles-of-Marketing-candidate-superseded-by-existing-Core-record-3e658a0779e88129a3c2f440907e2d9c",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8160-b6aa-fffda685f2a8",
+   "created_time": "2026-09-25T21:54:00.000Z",
+   "last_edited_time": "2026-09-25T21:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "e1e6a7d5-c835-4f47-8c90-7ff6f9cc8d19"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Book ID": {
+     "id": "%3CSoy",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "BOOK",
+      "number": 8
+     }
+    },
+    "Source URL": {
+     "id": "D%7D%3AX",
+     "type": "url",
+     "url": "https://www.pearson.com/en-us/subject-catalog/p/marketing-research/P200000012957"
+    },
+    "Status": {
+     "id": "EwM%60",
+     "type": "select",
+     "select": {
+      "id": "4de34b04-95b8-4aa4-819b-e370abbf9dff",
+      "name": "Candidate",
+      "color": "gray"
+     }
+    },
+    "Authority": {
+     "id": "VVDN",
+     "type": "select",
+     "select": null
+    },
+    "Publication Year": {
+     "id": "WGiG",
+     "type": "number",
+     "number": 2025
+    },
+    "Why Included": {
+     "id": "%5BTgH",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Taxonomy coverage: Market Research / Insights. Bibliographic identity and edition verified against Pearson.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Taxonomy coverage: Market Research / Insights. Bibliographic identity and edition verified against Pearson.",
+       "href": null
+      }
+     ]
+    },
+    "Verification Status": {
+     "id": "clua",
+     "type": "select",
+     "select": {
+      "id": "6961f3f1-56b0-4033-95d5-169bd0945e6f",
+      "name": "Verified",
+      "color": "green"
+     }
+    },
+    "Book Type": {
+     "id": "f~ai",
+     "type": "select",
+     "select": {
+      "id": "c1bbd6d7-5778-4880-9068-83a0138ed295",
+      "name": "Research/Science",
+      "color": "green"
+     }
+    },
+    "Last Checked": {
+     "id": "ge%3FN",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Edition": {
+     "id": "h%60oj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "10th edition",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "10th edition",
+       "href": null
+      }
+     ]
+    },
+    "Authors": {
+     "id": "m%60XW",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Alvin C. Burns; Ann Veeck",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Alvin C. Burns; Ann Veeck",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "xjTO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Market Research / Insights",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Market Research / Insights",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Marketing Research",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Marketing Research",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Marketing-Research-3e658a0779e88160b6aafffda685f2a8",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-816c-b202-c19a28111abc",
+   "created_time": "2026-09-25T21:54:00.000Z",
+   "last_edited_time": "2026-09-25T21:55:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "e1e6a7d5-c835-4f47-8c90-7ff6f9cc8d19"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Book ID": {
+     "id": "%3CSoy",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "BOOK",
+      "number": 5
+     }
+    },
+    "Source URL": {
+     "id": "D%7D%3AX",
+     "type": "url",
+     "url": "https://www.pearson.com/en-us/subject-catalog/p/marketing-management/P200000010451/9780138184889"
+    },
+    "Status": {
+     "id": "EwM%60",
+     "type": "select",
+     "select": {
+      "id": "9775fafe-d55d-4845-86a4-873864742c81",
+      "name": "Rejected",
+      "color": "red"
+     }
+    },
+    "Authority": {
+     "id": "VVDN",
+     "type": "select",
+     "select": null
+    },
+    "Publication Year": {
+     "id": "WGiG",
+     "type": "number",
+     "number": 2024
+    },
+    "Why Included": {
+     "id": "%5BTgH",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "DUPLICATED: an existing Core record was updated to the current verified edition. This candidate record is retained for audit history and must not be treated as an independent source.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "DUPLICATED: an existing Core record was updated to the current verified edition. This candidate record is retained for audit history and must not be treated as an independent source.",
+       "href": null
+      }
+     ]
+    },
+    "Verification Status": {
+     "id": "clua",
+     "type": "select",
+     "select": {
+      "id": "6961f3f1-56b0-4033-95d5-169bd0945e6f",
+      "name": "Verified",
+      "color": "green"
+     }
+    },
+    "Book Type": {
+     "id": "f~ai",
+     "type": "select",
+     "select": {
+      "id": "dd34d378-92bd-4376-8c9c-2896fbb6c463",
+      "name": "Academic Text",
+      "color": "blue"
+     }
+    },
+    "Last Checked": {
+     "id": "ge%3FN",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Edition": {
+     "id": "h%60oj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "17th edition",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "17th edition",
+       "href": null
+      }
+     ]
+    },
+    "Authors": {
+     "id": "m%60XW",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Philip Kotler; Kevin Lane Keller; Alexander Chernev",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Philip Kotler; Kevin Lane Keller; Alexander Chernev",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "xjTO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "General Marketing / Strategy",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "General Marketing / Strategy",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "DUPLICATED — Marketing Management candidate superseded by existing Core record",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "DUPLICATED — Marketing Management candidate superseded by existing Core record",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/DUPLICATED-Marketing-Management-candidate-superseded-by-existing-Core-record-3e658a0779e8816cb202c19a28111abc",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81ad-8c4a-fb7008de4711",
+   "created_time": "2026-09-25T21:54:00.000Z",
+   "last_edited_time": "2026-09-25T21:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "e1e6a7d5-c835-4f47-8c90-7ff6f9cc8d19"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Book ID": {
+     "id": "%3CSoy",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "BOOK",
+      "number": 14
+     }
+    },
+    "Source URL": {
+     "id": "D%7D%3AX",
+     "type": "url",
+     "url": "https://www.pearson.com/en-us/subject-catalog/p/marketing-metrics/P200000000122/9780136755319"
+    },
+    "Status": {
+     "id": "EwM%60",
+     "type": "select",
+     "select": {
+      "id": "4de34b04-95b8-4aa4-819b-e370abbf9dff",
+      "name": "Candidate",
+      "color": "gray"
+     }
+    },
+    "Authority": {
+     "id": "VVDN",
+     "type": "select",
+     "select": null
+    },
+    "Publication Year": {
+     "id": "WGiG",
+     "type": "number",
+     "number": 2020
+    },
+    "Why Included": {
+     "id": "%5BTgH",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Taxonomy coverage: Marketing Analytics / Measurement. Bibliographic identity and edition verified against Pearson FT Press.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Taxonomy coverage: Marketing Analytics / Measurement. Bibliographic identity and edition verified against Pearson FT Press.",
+       "href": null
+      }
+     ]
+    },
+    "Verification Status": {
+     "id": "clua",
+     "type": "select",
+     "select": {
+      "id": "6961f3f1-56b0-4033-95d5-169bd0945e6f",
+      "name": "Verified",
+      "color": "green"
+     }
+    },
+    "Book Type": {
+     "id": "f~ai",
+     "type": "select",
+     "select": {
+      "id": "100f4a44-c4df-4287-b25e-585fc044f6d7",
+      "name": "Analytics",
+      "color": "brown"
+     }
+    },
+    "Last Checked": {
+     "id": "ge%3FN",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Edition": {
+     "id": "h%60oj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "4th edition",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "4th edition",
+       "href": null
+      }
+     ]
+    },
+    "Authors": {
+     "id": "m%60XW",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Neil Bendle; Paul W. Farris; Phillip Pfeifer; David Reibstein",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Neil Bendle; Paul W. Farris; Phillip Pfeifer; David Reibstein",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "xjTO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Marketing Analytics / Measurement",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Marketing Analytics / Measurement",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Marketing Metrics",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Marketing Metrics",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Marketing-Metrics-3e658a0779e881ad8c4afb7008de4711",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81bf-ac97-d215aa5acd23",
+   "created_time": "2026-09-25T21:54:00.000Z",
+   "last_edited_time": "2026-09-25T21:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "e1e6a7d5-c835-4f47-8c90-7ff6f9cc8d19"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Book ID": {
+     "id": "%3CSoy",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "BOOK",
+      "number": 11
+     }
+    },
+    "Source URL": {
+     "id": "D%7D%3AX",
+     "type": "url",
+     "url": "https://www.mheducation.com/highered/product/Services-Marketing-Integrating-Customer-Focus-Across-the-Firm-Zeithaml.html"
+    },
+    "Status": {
+     "id": "EwM%60",
+     "type": "select",
+     "select": {
+      "id": "4de34b04-95b8-4aa4-819b-e370abbf9dff",
+      "name": "Candidate",
+      "color": "gray"
+     }
+    },
+    "Authority": {
+     "id": "VVDN",
+     "type": "select",
+     "select": null
+    },
+    "Publication Year": {
+     "id": "WGiG",
+     "type": "number",
+     "number": 2023
+    },
+    "Why Included": {
+     "id": "%5BTgH",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Taxonomy coverage: Services Marketing. Bibliographic identity and edition verified against McGraw Hill.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Taxonomy coverage: Services Marketing. Bibliographic identity and edition verified against McGraw Hill.",
+       "href": null
+      }
+     ]
+    },
+    "Verification Status": {
+     "id": "clua",
+     "type": "select",
+     "select": {
+      "id": "6961f3f1-56b0-4033-95d5-169bd0945e6f",
+      "name": "Verified",
+      "color": "green"
+     }
+    },
+    "Book Type": {
+     "id": "f~ai",
+     "type": "select",
+     "select": {
+      "id": "dd34d378-92bd-4376-8c9c-2896fbb6c463",
+      "name": "Academic Text",
+      "color": "blue"
+     }
+    },
+    "Last Checked": {
+     "id": "ge%3FN",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Edition": {
+     "id": "h%60oj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "8th edition",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "8th edition",
+       "href": null
+      }
+     ]
+    },
+    "Authors": {
+     "id": "m%60XW",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Valarie A. Zeithaml; Mary Jo Bitner; Dwayne D. Gremler; Martin Mende",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Valarie A. Zeithaml; Mary Jo Bitner; Dwayne D. Gremler; Martin Mende",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "xjTO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Services Marketing",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Services Marketing",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Services Marketing: Integrating Customer Focus Across the Firm",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Services Marketing: Integrating Customer Focus Across the Firm",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Services-Marketing-Integrating-Customer-Focus-Across-the-Firm-3e658a0779e881bfac97d215aa5acd23",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81c8-861a-ebc24b872579",
+   "created_time": "2026-09-25T21:54:00.000Z",
+   "last_edited_time": "2026-09-25T21:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "e1e6a7d5-c835-4f47-8c90-7ff6f9cc8d19"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Book ID": {
+     "id": "%3CSoy",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "BOOK",
+      "number": 9
+     }
+    },
+    "Source URL": {
+     "id": "D%7D%3AX",
+     "type": "url",
+     "url": "https://www.pearson.com/en-us/subject-catalog/p/marketing-research-an-applied-orientation/P200000005969"
+    },
+    "Status": {
+     "id": "EwM%60",
+     "type": "select",
+     "select": {
+      "id": "4de34b04-95b8-4aa4-819b-e370abbf9dff",
+      "name": "Candidate",
+      "color": "gray"
+     }
+    },
+    "Authority": {
+     "id": "VVDN",
+     "type": "select",
+     "select": null
+    },
+    "Publication Year": {
+     "id": "WGiG",
+     "type": "number",
+     "number": 2021
+    },
+    "Why Included": {
+     "id": "%5BTgH",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Taxonomy coverage: Market Research / Methods. Bibliographic identity and edition verified against Pearson.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Taxonomy coverage: Market Research / Methods. Bibliographic identity and edition verified against Pearson.",
+       "href": null
+      }
+     ]
+    },
+    "Verification Status": {
+     "id": "clua",
+     "type": "select",
+     "select": {
+      "id": "6961f3f1-56b0-4033-95d5-169bd0945e6f",
+      "name": "Verified",
+      "color": "green"
+     }
+    },
+    "Book Type": {
+     "id": "f~ai",
+     "type": "select",
+     "select": {
+      "id": "c1bbd6d7-5778-4880-9068-83a0138ed295",
+      "name": "Research/Science",
+      "color": "green"
+     }
+    },
+    "Last Checked": {
+     "id": "ge%3FN",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Edition": {
+     "id": "h%60oj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "7th edition",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "7th edition",
+       "href": null
+      }
+     ]
+    },
+    "Authors": {
+     "id": "m%60XW",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Naresh K. Malhotra",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Naresh K. Malhotra",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "xjTO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Market Research / Methods",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Market Research / Methods",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Marketing Research: An Applied Orientation",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Marketing Research: An Applied Orientation",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Marketing-Research-An-Applied-Orientation-3e658a0779e881c8861aebc24b872579",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81c8-bdcc-e7fc58415a98",
+   "created_time": "2026-09-25T21:54:00.000Z",
+   "last_edited_time": "2026-09-25T21:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "e1e6a7d5-c835-4f47-8c90-7ff6f9cc8d19"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Book ID": {
+     "id": "%3CSoy",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "BOOK",
+      "number": 13
+     }
+    },
+    "Source URL": {
+     "id": "D%7D%3AX",
+     "type": "url",
+     "url": "https://www.cengage.com/c/etextbook-marketing-strategy-8e-ferrell-hartline/9780357710425"
+    },
+    "Status": {
+     "id": "EwM%60",
+     "type": "select",
+     "select": {
+      "id": "4de34b04-95b8-4aa4-819b-e370abbf9dff",
+      "name": "Candidate",
+      "color": "gray"
+     }
+    },
+    "Authority": {
+     "id": "VVDN",
+     "type": "select",
+     "select": null
+    },
+    "Publication Year": {
+     "id": "WGiG",
+     "type": "number",
+     "number": 2021
+    },
+    "Why Included": {
+     "id": "%5BTgH",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Taxonomy coverage: Marketing Strategy / Planning. Bibliographic identity and edition verified against Cengage.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Taxonomy coverage: Marketing Strategy / Planning. Bibliographic identity and edition verified against Cengage.",
+       "href": null
+      }
+     ]
+    },
+    "Verification Status": {
+     "id": "clua",
+     "type": "select",
+     "select": {
+      "id": "6961f3f1-56b0-4033-95d5-169bd0945e6f",
+      "name": "Verified",
+      "color": "green"
+     }
+    },
+    "Book Type": {
+     "id": "f~ai",
+     "type": "select",
+     "select": {
+      "id": "dd34d378-92bd-4376-8c9c-2896fbb6c463",
+      "name": "Academic Text",
+      "color": "blue"
+     }
+    },
+    "Last Checked": {
+     "id": "ge%3FN",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Edition": {
+     "id": "h%60oj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "8th edition",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "8th edition",
+       "href": null
+      }
+     ]
+    },
+    "Authors": {
+     "id": "m%60XW",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "O. C. Ferrell; Michael Hartline; Bryan W. Hochstein",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "O. C. Ferrell; Michael Hartline; Bryan W. Hochstein",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "xjTO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Marketing Strategy / Planning",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Marketing Strategy / Planning",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Marketing Strategy",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Marketing Strategy",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Marketing-Strategy-3e658a0779e881c8bdcce7fc58415a98",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81c9-aef5-e83b494b8feb",
+   "created_time": "2026-09-25T21:54:00.000Z",
+   "last_edited_time": "2026-09-25T21:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "e1e6a7d5-c835-4f47-8c90-7ff6f9cc8d19"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Book ID": {
+     "id": "%3CSoy",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "BOOK",
+      "number": 10
+     }
+    },
+    "Source URL": {
+     "id": "D%7D%3AX",
+     "type": "url",
+     "url": "https://www.pearson.com/en-us/subject-catalog/p/strategic-brand-management-building-measuring-and-managing-brand-equity/P200000005947/9780134892498"
+    },
+    "Status": {
+     "id": "EwM%60",
+     "type": "select",
+     "select": {
+      "id": "4de34b04-95b8-4aa4-819b-e370abbf9dff",
+      "name": "Candidate",
+      "color": "gray"
+     }
+    },
+    "Authority": {
+     "id": "VVDN",
+     "type": "select",
+     "select": null
+    },
+    "Publication Year": {
+     "id": "WGiG",
+     "type": "number",
+     "number": 2020
+    },
+    "Why Included": {
+     "id": "%5BTgH",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Taxonomy coverage: Brand Strategy / Brand Equity. Bibliographic identity and edition verified against Pearson.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Taxonomy coverage: Brand Strategy / Brand Equity. Bibliographic identity and edition verified against Pearson.",
+       "href": null
+      }
+     ]
+    },
+    "Verification Status": {
+     "id": "clua",
+     "type": "select",
+     "select": {
+      "id": "6961f3f1-56b0-4033-95d5-169bd0945e6f",
+      "name": "Verified",
+      "color": "green"
+     }
+    },
+    "Book Type": {
+     "id": "f~ai",
+     "type": "select",
+     "select": {
+      "id": "81338440-8950-4880-b9a5-be0ebe3c3f3e",
+      "name": "Brand",
+      "color": "yellow"
+     }
+    },
+    "Last Checked": {
+     "id": "ge%3FN",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Edition": {
+     "id": "h%60oj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "5th edition",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "5th edition",
+       "href": null
+      }
+     ]
+    },
+    "Authors": {
+     "id": "m%60XW",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Kevin Lane Keller; Vanitha Swaminathan",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Kevin Lane Keller; Vanitha Swaminathan",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "xjTO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Brand Strategy / Brand Equity",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Brand Strategy / Brand Equity",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Strategic Brand Management: Building, Measuring, and Managing Brand Equity",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Strategic Brand Management: Building, Measuring, and Managing Brand Equity",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Strategic-Brand-Management-Building-Measuring-and-Managing-Brand-Equity-3e658a0779e881c9aef5e83b494b8feb",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81d7-bc47-fafae2489663",
+   "created_time": "2026-09-25T21:54:00.000Z",
+   "last_edited_time": "2026-09-25T21:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "e1e6a7d5-c835-4f47-8c90-7ff6f9cc8d19"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Book ID": {
+     "id": "%3CSoy",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "BOOK",
+      "number": 12
+     }
+    },
+    "Source URL": {
+     "id": "D%7D%3AX",
+     "type": "url",
+     "url": "https://www.pearson.com/en-gb/subject-catalog/p/digital-marketing/P200000003912/9781292542850"
+    },
+    "Status": {
+     "id": "EwM%60",
+     "type": "select",
+     "select": {
+      "id": "4de34b04-95b8-4aa4-819b-e370abbf9dff",
+      "name": "Candidate",
+      "color": "gray"
+     }
+    },
+    "Authority": {
+     "id": "VVDN",
+     "type": "select",
+     "select": null
+    },
+    "Publication Year": {
+     "id": "WGiG",
+     "type": "number",
+     "number": 2026
+    },
+    "Why Included": {
+     "id": "%5BTgH",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Taxonomy coverage: Digital Marketing. Bibliographic identity and edition verified against Pearson.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Taxonomy coverage: Digital Marketing. Bibliographic identity and edition verified against Pearson.",
+       "href": null
+      }
+     ]
+    },
+    "Verification Status": {
+     "id": "clua",
+     "type": "select",
+     "select": {
+      "id": "6961f3f1-56b0-4033-95d5-169bd0945e6f",
+      "name": "Verified",
+      "color": "green"
+     }
+    },
+    "Book Type": {
+     "id": "f~ai",
+     "type": "select",
+     "select": {
+      "id": "15bfe695-2a06-4ddf-8da4-f966372f0545",
+      "name": "Professional",
+      "color": "purple"
+     }
+    },
+    "Last Checked": {
+     "id": "ge%3FN",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Edition": {
+     "id": "h%60oj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "8th edition",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "8th edition",
+       "href": null
+      }
+     ]
+    },
+    "Authors": {
+     "id": "m%60XW",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Dave Chaffey; Fiona Ellis-Chadwick",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Dave Chaffey; Fiona Ellis-Chadwick",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "xjTO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Digital Marketing",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Digital Marketing",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Digital Marketing",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Digital Marketing",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Digital-Marketing-3e658a0779e881d7bc47fafae2489663",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81e3-9e9f-ca134058c2b2",
+   "created_time": "2026-09-25T21:54:00.000Z",
+   "last_edited_time": "2026-09-25T21:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "e1e6a7d5-c835-4f47-8c90-7ff6f9cc8d19"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Book ID": {
+     "id": "%3CSoy",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "BOOK",
+      "number": 7
+     }
+    },
+    "Source URL": {
+     "id": "D%7D%3AX",
+     "type": "url",
+     "url": "https://www.pearson.com/en-us/subject-catalog/p/consumer-behavior/P200000013217/9780135397091"
+    },
+    "Status": {
+     "id": "EwM%60",
+     "type": "select",
+     "select": {
+      "id": "4de34b04-95b8-4aa4-819b-e370abbf9dff",
+      "name": "Candidate",
+      "color": "gray"
+     }
+    },
+    "Authority": {
+     "id": "VVDN",
+     "type": "select",
+     "select": null
+    },
+    "Publication Year": {
+     "id": "WGiG",
+     "type": "number",
+     "number": 2026
+    },
+    "Why Included": {
+     "id": "%5BTgH",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Taxonomy coverage: Consumer Behavior / Decision Science. Bibliographic identity and edition verified against Pearson.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Taxonomy coverage: Consumer Behavior / Decision Science. Bibliographic identity and edition verified against Pearson.",
+       "href": null
+      }
+     ]
+    },
+    "Verification Status": {
+     "id": "clua",
+     "type": "select",
+     "select": {
+      "id": "6961f3f1-56b0-4033-95d5-169bd0945e6f",
+      "name": "Verified",
+      "color": "green"
+     }
+    },
+    "Book Type": {
+     "id": "f~ai",
+     "type": "select",
+     "select": {
+      "id": "417c3bb8-62da-4968-a9fd-e49c13e66e3a",
+      "name": "Behavioral Science",
+      "color": "pink"
+     }
+    },
+    "Last Checked": {
+     "id": "ge%3FN",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Edition": {
+     "id": "h%60oj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "15th edition",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "15th edition",
+       "href": null
+      }
+     ]
+    },
+    "Authors": {
+     "id": "m%60XW",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Michael R. Solomon; Cristel Antonia Russell",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Michael R. Solomon; Cristel Antonia Russell",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "xjTO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Consumer Behavior / Decision Science",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Consumer Behavior / Decision Science",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Consumer Behavior",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Consumer Behavior",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Consumer-Behavior-3e658a0779e881e39e9fca134058c2b2",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-813b-b6b0-cd348e993115",
+   "created_time": "2026-09-25T21:54:00.000Z",
+   "last_edited_time": "2026-09-25T21:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "e1e6a7d5-c835-4f47-8c90-7ff6f9cc8d19"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Book ID": {
+     "id": "%3CSoy",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "BOOK",
+      "number": 4
+     }
+    },
+    "Source URL": {
+     "id": "D%7D%3AX",
+     "type": "url",
+     "url": "https://example.com"
+    },
+    "Status": {
+     "id": "EwM%60",
+     "type": "select",
+     "select": {
+      "id": "4de34b04-95b8-4aa4-819b-e370abbf9dff",
+      "name": "Candidate",
+      "color": "gray"
+     }
+    },
+    "Authority": {
+     "id": "VVDN",
+     "type": "select",
+     "select": null
+    },
+    "Publication Year": {
+     "id": "WGiG",
+     "type": "number",
+     "number": 2021
+    },
+    "Why Included": {
+     "id": "%5BTgH",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Schema test only",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Schema test only",
+       "href": null
+      }
+     ]
+    },
+    "Verification Status": {
+     "id": "clua",
+     "type": "select",
+     "select": {
+      "id": "6961f3f1-56b0-4033-95d5-169bd0945e6f",
+      "name": "Verified",
+      "color": "green"
+     }
+    },
+    "Book Type": {
+     "id": "f~ai",
+     "type": "select",
+     "select": {
+      "id": "dd34d378-92bd-4376-8c9c-2896fbb6c463",
+      "name": "Academic Text",
+      "color": "blue"
+     }
+    },
+    "Last Checked": {
+     "id": "ge%3FN",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Edition": {
+     "id": "h%60oj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Test",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Test",
+       "href": null
+      }
+     ]
+    },
+    "Authors": {
+     "id": "m%60XW",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Test",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Test",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "xjTO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Test",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Test",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "LEGACY — Temporary book schema probe",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "LEGACY — Temporary book schema probe",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/LEGACY-Temporary-book-schema-probe-3e658a0779e8813bb6b0cd348e993115",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-813f-8bb2-eea428027347",
+   "created_time": "2026-09-25T20:54:00.000Z",
+   "last_edited_time": "2026-09-25T21:55:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "e1e6a7d5-c835-4f47-8c90-7ff6f9cc8d19"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Book ID": {
+     "id": "%3CSoy",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "BOOK",
+      "number": 1
+     }
+    },
+    "Source URL": {
+     "id": "D%7D%3AX",
+     "type": "url",
+     "url": "https://www.pearson.com/en-us/subject-catalog/p/principles-of-marketing/P200000013361/9780135413524"
+    },
+    "Status": {
+     "id": "EwM%60",
+     "type": "select",
+     "select": {
+      "id": "32e55917-94b8-4c4d-8d47-71c641b2967e",
+      "name": "Core",
+      "color": "green"
+     }
+    },
+    "Authority": {
+     "id": "VVDN",
+     "type": "select",
+     "select": {
+      "id": "e9909d91-81c3-46de-b1ee-fee8d1bcdbb8",
+      "name": "High",
+      "color": "green"
+     }
+    },
+    "Publication Year": {
+     "id": "WGiG",
+     "type": "number",
+     "number": 2026
+    },
+    "Why Included": {
+     "id": "%5BTgH",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "مرجع تأسيسي واسع. التحديث الحالي موثق عبر Pearson: 20th edition منشور في 2026، ويغطي البحث، سلوك المستهلك والأعمال، STP، المنتج/الخدمة/العلامة، التسعير، القنوات، التجزئة، IMC، الرقمي، المنافسة، العالمي، الاستدامة/الأخلاق وAI.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "مرجع تأسيسي واسع. التحديث الحالي موثق عبر Pearson: 20th edition منشور في 2026، ويغطي البحث، سلوك المستهلك والأعمال، STP، المنتج/الخدمة/العلامة، التسعير، القنوات، التجزئة، IMC، الرقمي، المنافسة، العالمي، الاستدامة/الأخلاق وAI.",
+       "href": null
+      }
+     ]
+    },
+    "Verification Status": {
+     "id": "clua",
+     "type": "select",
+     "select": {
+      "id": "6961f3f1-56b0-4033-95d5-169bd0945e6f",
+      "name": "Verified",
+      "color": "green"
+     }
+    },
+    "Book Type": {
+     "id": "f~ai",
+     "type": "select",
+     "select": {
+      "id": "dd34d378-92bd-4376-8c9c-2896fbb6c463",
+      "name": "Academic Text",
+      "color": "blue"
+     }
+    },
+    "Last Checked": {
+     "id": "ge%3FN",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Edition": {
+     "id": "h%60oj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "20th",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "20th",
+       "href": null
+      }
+     ]
+    },
+    "Authors": {
+     "id": "m%60XW",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Philip Kotler; Gary Armstrong; Sridhar Balasubramanian",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Philip Kotler; Gary Armstrong; Sridhar Balasubramanian",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "xjTO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Foundations / General Marketing",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Foundations / General Marketing",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Principles of Marketing, 20th edition",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Principles of Marketing, 20th edition",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Principles-of-Marketing-20th-edition-3e658a0779e8813f8bb2eea428027347",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81eb-bf66-ccfa775ff6bc",
+   "created_time": "2026-09-25T20:54:00.000Z",
+   "last_edited_time": "2026-09-25T22:31:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "e1e6a7d5-c835-4f47-8c90-7ff6f9cc8d19"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Book ID": {
+     "id": "%3CSoy",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "BOOK",
+      "number": 3
+     }
+    },
+    "Source URL": {
+     "id": "D%7D%3AX",
+     "type": "url",
+     "url": "https://www.pearson.com/en-us/subject-catalog/p/consumer-behavior-buying-having-being/P200000009740"
+    },
+    "Status": {
+     "id": "EwM%60",
+     "type": "select",
+     "select": {
+      "id": "9775fafe-d55d-4845-86a4-873864742c81",
+      "name": "Rejected",
+      "color": "red"
+     }
+    },
+    "Authority": {
+     "id": "VVDN",
+     "type": "select",
+     "select": {
+      "id": "e9909d91-81c3-46de-b1ee-fee8d1bcdbb8",
+      "name": "High",
+      "color": "green"
+     }
+    },
+    "Publication Year": {
+     "id": "WGiG",
+     "type": "number",
+     "number": 2023
+    },
+    "Why Included": {
+     "id": "%5BTgH",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Historical Core record retained for audit/history. Superseded in the current selected book layer by the verified 15th edition (BOOK-7, 2026). Excluded from the current unique selected-title count.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Historical Core record retained for audit/history. Superseded in the current selected book layer by the verified 15th edition (BOOK-7, 2026). Excluded from the current unique selected-title count.",
+       "href": null
+      }
+     ]
+    },
+    "Verification Status": {
+     "id": "clua",
+     "type": "select",
+     "select": {
+      "id": "6961f3f1-56b0-4033-95d5-169bd0945e6f",
+      "name": "Verified",
+      "color": "green"
+     }
+    },
+    "Book Type": {
+     "id": "f~ai",
+     "type": "select",
+     "select": {
+      "id": "417c3bb8-62da-4968-a9fd-e49c13e66e3a",
+      "name": "Behavioral Science",
+      "color": "pink"
+     }
+    },
+    "Last Checked": {
+     "id": "ge%3FN",
+     "type": "date",
+     "date": {
+      "start": "2026-09-25",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Edition": {
+     "id": "h%60oj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "14th",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "14th",
+       "href": null
+      }
+     ]
+    },
+    "Authors": {
+     "id": "m%60XW",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Michael R. Solomon; Cristel Antonia Russell",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Michael R. Solomon; Cristel Antonia Russell",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "xjTO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Consumer Behavior / Decision Making",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Consumer Behavior / Decision Making",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "SUPERSEDED — Consumer Behavior: Buying, Having, Being, 14th edition",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "SUPERSEDED — Consumer Behavior: Buying, Having, Being, 14th edition",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/SUPERSEDED-Consumer-Behavior-Buying-Having-Being-14th-edition-3e658a0779e881ebbf66ccfa775ff6bc",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81f2-a42d-fdd71b3ebd48",
+   "created_time": "2026-09-25T20:54:00.000Z",
+   "last_edited_time": "2026-09-25T21:55:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "e1e6a7d5-c835-4f47-8c90-7ff6f9cc8d19"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Book ID": {
+     "id": "%3CSoy",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "BOOK",
+      "number": 2
+     }
+    },
+    "Source URL": {
+     "id": "D%7D%3AX",
+     "type": "url",
+     "url": "https://www.pearson.com/en-us/subject-catalog/p/marketing-management/P200000010451/9780138184889"
+    },
+    "Status": {
+     "id": "EwM%60",
+     "type": "select",
+     "select": {
+      "id": "32e55917-94b8-4c4d-8d47-71c641b2967e",
+      "name": "Core",
+      "color": "green"
+     }
+    },
+    "Authority": {
+     "id": "VVDN",
+     "type": "select",
+     "select": {
+      "id": "e9909d91-81c3-46de-b1ee-fee8d1bcdbb8",
+      "name": "High",
+      "color": "green"
+     }
+    },
+    "Publication Year": {
+     "id": "WGiG",
+     "type": "number",
+     "number": 2024
+    },
+    "Why Included": {
+     "id": "%5BTgH",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "مرجع إداري واستراتيجي واسع. تحديث موثق: الإصدار 17 يعرض طبقات السوق، البحث، التقسيم/الاستهداف/التموضع، المنتج والخدمة والعلامة، التسعير، الاتصال، القنوات، النمو، الولاء، العالمي وESG.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "مرجع إداري واستراتيجي واسع. تحديث موثق: الإصدار 17 يعرض طبقات السوق، البحث، التقسيم/الاستهداف/التموضع، المنتج والخدمة والعلامة، التسعير، الاتصال، القنوات، النمو، الولاء، العالمي وESG.",
+       "href": null
+      }
+     ]
+    },
+    "Verification Status": {
+     "id": "clua",
+     "type": "select",
+     "select": {
+      "id": "6961f3f1-56b0-4033-95d5-169bd0945e6f",
+      "name": "Verified",
+      "color": "green"
+     }
+    },
+    "Book Type": {
+     "id": "f~ai",
+     "type": "select",
+     "select": {
+      "id": "dd34d378-92bd-4376-8c9c-2896fbb6c463",
+      "name": "Academic Text",
+      "color": "blue"
+     }
+    },
+    "Last Checked": {
+     "id": "ge%3FN",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Edition": {
+     "id": "h%60oj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "17th",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "17th",
+       "href": null
+      }
+     ]
+    },
+    "Authors": {
+     "id": "m%60XW",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Philip Kotler; Kevin Lane Keller; Alexander Chernev",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Philip Kotler; Kevin Lane Keller; Alexander Chernev",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "xjTO",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Marketing Strategy / Management",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Marketing Strategy / Management",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Marketing Management, 17th edition",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Marketing Management, 17th edition",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Marketing-Management-17th-edition-3e658a0779e881f2a42dfdd71b3ebd48",
+   "public_url": null,
+   "archived": false
+  }
+ ],
+ "row_query_error": null
+}

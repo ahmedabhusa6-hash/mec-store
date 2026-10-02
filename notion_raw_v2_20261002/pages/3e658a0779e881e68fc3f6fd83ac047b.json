@@ -1,0 +1,326 @@
+{
+ "capture_reason": "NEWLY_ACCESSIBLE",
+ "captured_at": "2026-10-02T12:06:31+03:00",
+ "title": "UPD-004 — Scientific marketing foundation spine expanded",
+ "last_edited": "2026-09-25T21:09:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e658a07-79e8-81e6-8fc3-f6fd83ac047b",
+  "created_time": "2026-09-25T21:09:00.000Z",
+  "last_edited_time": "2026-09-25T21:09:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "2d1337a6-e0ad-4334-81a3-a3c3090f4b68"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "New Source IDs": {
+    "id": "%3AfEO",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Pearson — Principles of Marketing, 19th Edition; AMA — Journal of Marketing",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Pearson — Principles of Marketing, 19th Edition; AMA — Journal of Marketing",
+      "href": null
+     }
+    ]
+   },
+   "Knowledge ID": {
+    "id": "%3ClpM",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Affected IDs": {
+    "id": "%3FIV%5B",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "RSH-3; Foundations of Marketing; KOS — Knowledge",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "RSH-3; Foundations of Marketing; KOS — Knowledge",
+      "href": null
+     }
+    ]
+   },
+   "Commit Status": {
+    "id": "%40m%7BP",
+    "type": "select",
+    "select": null
+   },
+   "Timestamp": {
+    "id": "AnVl",
+    "type": "date",
+    "date": null
+   },
+   "Previous Knowledge": {
+    "id": "W%7Cbr",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Foundations of Marketing كانت mapped على أساس AMA Definition + AMA Competency Model + CIM GPMF، دون توثيق إضافي داخل KOS للهيكل الأكاديمي ومهمة البحث.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Foundations of Marketing كانت mapped على أساس AMA Definition + AMA Competency Model + CIM GPMF، دون توثيق إضافي داخل KOS للهيكل الأكاديمي ومهمة البحث.",
+      "href": null
+     }
+    ]
+   },
+   "Previous State": {
+    "id": "YqmY",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "New Knowledge": {
+    "id": "_xc_",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Insight — Marketing is a multi-actor value system, not a promotion function",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Insight — Marketing is a multi-actor value system, not a promotion function",
+      "href": null
+     }
+    ]
+   },
+   "Verification Status": {
+    "id": "aI%7DE",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Date": {
+    "id": "gcYj",
+    "type": "date",
+    "date": {
+     "start": "2026-09-26",
+     "end": null,
+     "time_zone": null
+    }
+   },
+   "Change Type": {
+    "id": "kvFO",
+    "type": "select",
+    "select": null
+   },
+   "Reason": {
+    "id": "miME",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "استكمال RSH-3 من تعريفات عامة إلى spine علمي قابل للتوسع والتتبع، مع تجنب التعميم من إطار واحد.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "استكمال RSH-3 من تعريفات عامة إلى spine علمي قابل للتوسع والتتبع، مع تجنب التعميم من إطار واحد.",
+      "href": null
+     }
+    ]
+   },
+   "Impact": {
+    "id": "qLLb",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "أضيفت طبقة معرفية تأسيسية تربط التعريف الرسمي للتسويق بالبنية الأكاديمية للتخصص ومهمته البحثية، مع إبقاء النتائج في مستوى Insight وعدم ترقية أي فرضية إلى Principle.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "أضيفت طبقة معرفية تأسيسية تربط التعريف الرسمي للتسويق بالبنية الأكاديمية للتخصص ومهمته البحثية، مع إبقاء النتائج في مستوى Insight وعدم ترقية أي فرضية إلى Principle.",
+      "href": null
+     }
+    ]
+   },
+   "Research Refs": {
+    "id": "riCL",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Update ID": {
+    "id": "sAYh",
+    "type": "unique_id",
+    "unique_id": {
+     "prefix": "UPD",
+     "number": 4
+    }
+   },
+   "Evidence Refs": {
+    "id": "%7BXeY",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "New State": {
+    "id": "%7CCsR",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Cycle ID": {
+    "id": "%7CP%60Y",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Name": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "UPD-004 — Scientific marketing foundation spine expanded",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "UPD-004 — Scientific marketing foundation spine expanded",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/UPD-004-Scientific-marketing-foundation-spine-expanded-3e658a0779e881e68fc3f6fd83ac047b",
+  "public_url": null,
+  "archived": false,
+  "request_id": "924c5bbd-9c07-4fb5-a845-d991f3a5924a"
+ },
+ "block_count": 6,
+ "blocks": [
+  {
+   "id": "a1b1f387-3cb4-447a-b581-c85813415cb3",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Work unit"
+   ],
+   "created": "2026-09-25T21:09:00.000Z",
+   "edited": "2026-09-25T21:09:00.000Z"
+  },
+  {
+   "id": "c0b382fa-736b-41dd-9d5d-94bcdb01e0a3",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "تم توسيع الأساس العلمي لـRSH-3 باستخدام AMA وPearson وJournal of Marketing."
+   ],
+   "created": "2026-09-25T21:09:00.000Z",
+   "edited": "2026-09-25T21:09:00.000Z"
+  },
+  {
+   "id": "98acf095-e229-4434-bf25-660c32bcc9d9",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Boundary"
+   ],
+   "created": "2026-09-25T21:09:00.000Z",
+   "edited": "2026-09-25T21:09:00.000Z"
+  },
+  {
+   "id": "0e4aa35c-4c38-4a31-865d-9d7f0ca5d028",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "المخرجات الحالية لا تثبت فعالية أي تكتيك أو قناة، ولا تغلق ملف المدارس والنظريات والتطور التاريخي."
+   ],
+   "created": "2026-09-25T21:09:00.000Z",
+   "edited": "2026-09-25T21:09:00.000Z"
+  },
+  {
+   "id": "937a1866-f9ce-4514-8161-382c86dda142",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Next"
+   ],
+   "created": "2026-09-25T21:09:00.000Z",
+   "edited": "2026-09-25T21:09:00.000Z"
+  },
+  {
+   "id": "22935c4f-ba8d-4a2c-b99a-bb9ca13f4ef3",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "استكمال المسح الأكاديمي للتطور التاريخي والتيارات والنظريات وربطها بالـconstructs داخل Foundations of Marketing."
+   ],
+   "created": "2026-09-25T21:09:00.000Z",
+   "edited": "2026-09-25T21:09:00.000Z"
+  }
+ ]
+}

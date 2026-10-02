@@ -1,0 +1,2702 @@
+{
+ "database": {
+  "id": "53f70c7a-c603-4e23-bf53-67d4915dbcc9",
+  "title": "Derivation Register",
+  "url": "https://app.notion.com/p/53f70c7ac6034e23bf5367d4915dbcc9",
+  "parent": {
+   "type": "page_id",
+   "page_id": "3e658a07-79e8-812f-b628-dde61492e5b2"
+  }
+ },
+ "rows": [
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-814c-92e9-e985dba722d2",
+   "created_time": "2026-09-26T00:11:00.000Z",
+   "last_edited_time": "2026-09-26T00:11:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "53f70c7a-c603-4e23-bf53-67d4915dbcc9"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Derived Result": {
+     "id": "Rlf%3D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "A Knowledge Asset may be structurally mature yet remain SYNTHESIZED when the specific claims it would operationalize have heterogeneous evidence strength or untested transfer conditions. ACTIVE promotion should therefore be claim-level and scope-qualified rather than architecture-level alone.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "A Knowledge Asset may be structurally mature yet remain SYNTHESIZED when the specific claims it would operationalize have heterogeneous evidence strength or untested transfer conditions. ACTIVE promotion should therefore be claim-level and scope-qualified rather than architecture-level alone.",
+       "href": null
+      }
+     ]
+    },
+    "Relationships": {
+     "id": "Wwzx",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Finalizes Stage Gate logic for KNG-43 and guides future promotion decisions.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Finalizes Stage Gate logic for KNG-43 and guides future promotion decisions.",
+       "href": null
+      }
+     ]
+    },
+    "Derivation ID": {
+     "id": "bHmu",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "DER",
+      "number": 12
+     }
+    },
+    "Limitations": {
+     "id": "b%7D%3EN",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Governance derivation for the Deep Marketing KOS; not a universal academic rule.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Governance derivation for the Deep Marketing KOS; not a universal academic rule.",
+       "href": null
+      }
+     ]
+    },
+    "Last Reviewed": {
+     "id": "d%3CTp",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Inputs": {
+     "id": "lr%5E%3A",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "DER-008; DER-RSH2-010; RSH-16; RSH-17; RSH2 exception audit",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "DER-008; DER-RSH2-010; RSH-16; RSH-17; RSH2 exception audit",
+       "href": null
+      }
+     ]
+    },
+    "Reasoning": {
+     "id": "orC%7B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Pricing and analytics streams demonstrate different evidential strengths within adjacent mechanism links; exception studies demonstrate context-sensitive reversals; therefore a global ACTIVE state would obscure unresolved claim-level uncertainty.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Pricing and analytics streams demonstrate different evidential strengths within adjacent mechanism links; exception studies demonstrate context-sensitive reversals; therefore a global ACTIVE state would obscure unresolved claim-level uncertainty.",
+       "href": null
+      }
+     ]
+    },
+    "Confidence": {
+     "id": "p%3EzU",
+     "type": "select",
+     "select": {
+      "id": "5b830ea4-5970-452a-a609-7e54e32fa23e",
+      "name": "Strong",
+      "color": "green"
+     }
+    },
+    "Status": {
+     "id": "reg~",
+     "type": "select",
+     "select": {
+      "id": "d1d5d004-0758-4762-b4eb-7e98784c4d50",
+      "name": "Verified",
+      "color": "blue"
+     }
+    },
+    "Evidence IDs": {
+     "id": "%7DZdi",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "EVD-RSH3-CAUS-01; EVD-RSH3-CAUS-02; EVD-RSH3-CAUS-03; EVD-RSH17-CAUS-01; EVD-RSH17-CAUS-02; EVD-RSH2-EXC-01..05",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "EVD-RSH3-CAUS-01; EVD-RSH3-CAUS-02; EVD-RSH3-CAUS-03; EVD-RSH17-CAUS-01; EVD-RSH17-CAUS-02; EVD-RSH2-EXC-01..05",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "DER-RSH2-011 — Active knowledge requires claim-level causal and transfer scope",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "DER-RSH2-011 — Active knowledge requires claim-level causal and transfer scope",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/DER-RSH2-011-Active-knowledge-requires-claim-level-causal-and-transfer-scope-3e758a0779e8814c92e9e985dba722d2",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-817e-a2f2-d8cc5de971d2",
+   "created_time": "2026-09-26T00:10:00.000Z",
+   "last_edited_time": "2026-09-26T00:10:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "53f70c7a-c603-4e23-bf53-67d4915dbcc9"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Derived Result": {
+     "id": "Rlf%3D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "A mechanism chain can contain links with different evidential strengths. Evidence strength therefore belongs to each link/outcome claim rather than to the mechanism as a single undifferentiated attribute.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "A mechanism chain can contain links with different evidential strengths. Evidence strength therefore belongs to each link/outcome claim rather than to the mechanism as a single undifferentiated attribute.",
+       "href": null
+      }
+     ]
+    },
+    "Relationships": {
+     "id": "Wwzx",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Extends DER-RSH16-001 and DER-RSH17-001; constrains KNG-43 and future mechanism records.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Extends DER-RSH16-001 and DER-RSH17-001; constrains KNG-43 and future mechanism records.",
+       "href": null
+      }
+     ]
+    },
+    "Derivation ID": {
+     "id": "bHmu",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "DER",
+      "number": 11
+     }
+    },
+    "Limitations": {
+     "id": "b%7D%3EN",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "The layer classifies what the design justifies; it does not replace formal risk-of-bias or identification appraisal in each study.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "The layer classifies what the design justifies; it does not replace formal risk-of-bias or identification appraisal in each study.",
+       "href": null
+      }
+     ]
+    },
+    "Last Reviewed": {
+     "id": "d%3CTp",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Inputs": {
+     "id": "lr%5E%3A",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "RSH-16; RSH-17; RSH2 mechanism and exception evidence; experimental, quasi-experimental, meta-analytic and observational designs",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "RSH-16; RSH-17; RSH2 mechanism and exception evidence; experimental, quasi-experimental, meta-analytic and observational designs",
+       "href": null
+      }
+     ]
+    },
+    "Reasoning": {
+     "id": "orC%7B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Reference-price evidence combines meta-analysis and quasi-experiment with different outcome targets; analytics evidence combines a randomized field experiment with observational mediation research; personalization includes experimental boundary evidence. Collapsing these into one global grade would overstate or understate specific links.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Reference-price evidence combines meta-analysis and quasi-experiment with different outcome targets; analytics evidence combines a randomized field experiment with observational mediation research; personalization includes experimental boundary evidence. Collapsing these into one global grade would overstate or understate specific links.",
+       "href": null
+      }
+     ]
+    },
+    "Confidence": {
+     "id": "p%3EzU",
+     "type": "select",
+     "select": {
+      "id": "5b830ea4-5970-452a-a609-7e54e32fa23e",
+      "name": "Strong",
+      "color": "green"
+     }
+    },
+    "Status": {
+     "id": "reg~",
+     "type": "select",
+     "select": {
+      "id": "d1d5d004-0758-4762-b4eb-7e98784c4d50",
+      "name": "Verified",
+      "color": "blue"
+     }
+    },
+    "Evidence IDs": {
+     "id": "%7DZdi",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "EVD-RSH3-CAUS-01; EVD-RSH3-CAUS-02; EVD-RSH3-CAUS-03; EVD-RSH17-CAUS-01; EVD-RSH17-CAUS-02; EVD-RSH2-MECH-12; EVD-RSH2-EXC-01..05",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "EVD-RSH3-CAUS-01; EVD-RSH3-CAUS-02; EVD-RSH3-CAUS-03; EVD-RSH17-CAUS-01; EVD-RSH17-CAUS-02; EVD-RSH2-MECH-12; EVD-RSH2-EXC-01..05",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "DER-RSH2-010 — Evidence strength must be attached to each mechanism link",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "DER-RSH2-010 — Evidence strength must be attached to each mechanism link",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/DER-RSH2-010-Evidence-strength-must-be-attached-to-each-mechanism-link-3e758a0779e8817ea2f2d8cc5de971d2",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-8188-a83a-c3e85dcbbbe2",
+   "created_time": "2026-09-26T00:10:00.000Z",
+   "last_edited_time": "2026-09-26T00:10:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "53f70c7a-c603-4e23-bf53-67d4915dbcc9"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Derived Result": {
+     "id": "Rlf%3D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "For the organizational analytics mechanism, causal support is strongest for analytics-tool access → increased data-driven decision making/performance monitoring → SME sales in the eBay field-experiment context. Analytics → market agility → firm performance remains supported by observational/SEM evidence, but the agility mediation itself is not established causally by the RSH-17 experiment.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "For the organizational analytics mechanism, causal support is strongest for analytics-tool access → increased data-driven decision making/performance monitoring → SME sales in the eBay field-experiment context. Analytics → market agility → firm performance remains supported by observational/SEM evidence, but the agility mediation itself is not established causally by the RSH-17 experiment.",
+       "href": null
+      }
+     ]
+    },
+    "Relationships": {
+     "id": "Wwzx",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Calibrates RSH2-MECH-07/12 and KNG-43 mechanism evidence.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Calibrates RSH2-MECH-07/12 and KNG-43 mechanism evidence.",
+       "href": null
+      }
+     ]
+    },
+    "Derivation ID": {
+     "id": "bHmu",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "DER",
+      "number": 10
+     }
+    },
+    "Limitations": {
+     "id": "b%7D%3EN",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Causal transfer is limited by eBay B2C e-retailer context; emerging-market working-paper evidence is informative but lower evidential status than peer-reviewed experimental evidence.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Causal transfer is limited by eBay B2C e-retailer context; emerging-market working-paper evidence is informative but lower evidential status than peer-reviewed experimental evidence.",
+       "href": null
+      }
+     ]
+    },
+    "Last Reviewed": {
+     "id": "d%3CTp",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Inputs": {
+     "id": "lr%5E%3A",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "RSH-17; Management Science eBay field experiment; Journal of Business Research analytics-agility study; Rwanda working paper as transfer evidence",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "RSH-17; Management Science eBay field experiment; Journal of Business Research analytics-agility study; Rwanda working paper as transfer evidence",
+       "href": null
+      }
+     ]
+    },
+    "Reasoning": {
+     "id": "orC%7B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "The eBay rollout randomizes access to an analytics dashboard and estimates causal sales effects. The Chinese study uses survey data and structural modeling to estimate analytics→agility→performance. Different designs justify different causal claims.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "The eBay rollout randomizes access to an analytics dashboard and estimates causal sales effects. The Chinese study uses survey data and structural modeling to estimate analytics→agility→performance. Different designs justify different causal claims.",
+       "href": null
+      }
+     ]
+    },
+    "Confidence": {
+     "id": "p%3EzU",
+     "type": "select",
+     "select": {
+      "id": "5b830ea4-5970-452a-a609-7e54e32fa23e",
+      "name": "Strong",
+      "color": "green"
+     }
+    },
+    "Status": {
+     "id": "reg~",
+     "type": "select",
+     "select": {
+      "id": "d1d5d004-0758-4762-b4eb-7e98784c4d50",
+      "name": "Verified",
+      "color": "blue"
+     }
+    },
+    "Evidence IDs": {
+     "id": "%7DZdi",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "EVD-RSH17-CAUS-01; EVD-RSH17-CAUS-02; prior EVD-RSH2-MECH-12",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "EVD-RSH17-CAUS-01; EVD-RSH17-CAUS-02; prior EVD-RSH2-MECH-12",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "DER-RSH17-001 — Link-specific causal status for the marketing-analytics mechanism",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "DER-RSH17-001 — Link-specific causal status for the marketing-analytics mechanism",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/DER-RSH17-001-Link-specific-causal-status-for-the-marketing-analytics-mechanism-3e758a0779e88188a83ac3e85dcbbbe2",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-8175-b349-eb3839fad0c1",
+   "created_time": "2026-09-26T00:09:00.000Z",
+   "last_edited_time": "2026-09-26T00:09:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "53f70c7a-c603-4e23-bf53-67d4915dbcc9"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Derived Result": {
+     "id": "Rlf%3D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "The reference-price mechanism should be represented as link-specific rather than one undifferentiated causal claim: price presentation/anchors have substantial empirical support for changing perceived savings and valuation; a quasi-experimental marketing study supports anchor → expected-price latitude → purchase intention in its setting; aggregate anchoring evidence supports an overall effect on valuation but with smaller effects than early estimates. This does not establish a universal anchor → actual-sales causal effect.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "The reference-price mechanism should be represented as link-specific rather than one undifferentiated causal claim: price presentation/anchors have substantial empirical support for changing perceived savings and valuation; a quasi-experimental marketing study supports anchor → expected-price latitude → purchase intention in its setting; aggregate anchoring evidence supports an overall effect on valuation but with smaller effects than early estimates. This does not establish a universal anchor → actual-sales causal effect.",
+       "href": null
+      }
+     ]
+    },
+    "Relationships": {
+     "id": "Wwzx",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Updates the pricing mechanism in RSH2 and constrains KNG-43 Stage Gate interpretation.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Updates the pricing mechanism in RSH2 and constrains KNG-43 Stage Gate interpretation.",
+       "href": null
+      }
+     ]
+    },
+    "Derivation ID": {
+     "id": "bHmu",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "DER",
+      "number": 9
+     }
+    },
+    "Limitations": {
+     "id": "b%7D%3EN",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Current audit does not establish long-run sales/profit effects or universal optimal reference-price design.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Current audit does not establish long-run sales/profit effects or universal optimal reference-price design.",
+       "href": null
+      }
+     ]
+    },
+    "Last Reviewed": {
+     "id": "d%3CTp",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Inputs": {
+     "id": "lr%5E%3A",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "RSH-16; three independent anchoring/price-presentation evidence streams",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "RSH-16; three independent anchoring/price-presentation evidence streams",
+       "href": null
+      }
+     ]
+    },
+    "Reasoning": {
+     "id": "orC%7B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "The sources use different outcomes and designs. Meta-analyses aggregate heterogeneous studies; the quasi-experiment directly tests a marketing pathway; none of these alone establishes universal effects on realized sales across markets.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "The sources use different outcomes and designs. Meta-analyses aggregate heterogeneous studies; the quasi-experiment directly tests a marketing pathway; none of these alone establishes universal effects on realized sales across markets.",
+       "href": null
+      }
+     ]
+    },
+    "Confidence": {
+     "id": "p%3EzU",
+     "type": "select",
+     "select": {
+      "id": "5b830ea4-5970-452a-a609-7e54e32fa23e",
+      "name": "Strong",
+      "color": "green"
+     }
+    },
+    "Status": {
+     "id": "reg~",
+     "type": "select",
+     "select": {
+      "id": "d1d5d004-0758-4762-b4eb-7e98784c4d50",
+      "name": "Verified",
+      "color": "blue"
+     }
+    },
+    "Evidence IDs": {
+     "id": "%7DZdi",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "EVD-RSH3-CAUS-01; EVD-RSH3-CAUS-02; EVD-RSH3-CAUS-03",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "EVD-RSH3-CAUS-01; EVD-RSH3-CAUS-02; EVD-RSH3-CAUS-03",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "DER-RSH16-001 — Causal support for reference-price anchoring is link-specific",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "DER-RSH16-001 — Causal support for reference-price anchoring is link-specific",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/DER-RSH16-001-Causal-support-for-reference-price-anchoring-is-link-specific-3e758a0779e88175b349eb3839fad0c1",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-8145-8c35-dbc226b458a8",
+   "created_time": "2026-09-26T00:08:00.000Z",
+   "last_edited_time": "2026-09-26T00:08:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "53f70c7a-c603-4e23-bf53-67d4915dbcc9"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Derived Result": {
+     "id": "Rlf%3D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "A multidimensional marketing architecture can pass structural coverage, schema coherence, boundary handling and provenance checks while still failing an ACTIVE promotion gate when causal evidence is uneven, transfer validity is not established across contexts, or application mappings remain derived.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "A multidimensional marketing architecture can pass structural coverage, schema coherence, boundary handling and provenance checks while still failing an ACTIVE promotion gate when causal evidence is uneven, transfer validity is not established across contexts, or application mappings remain derived.",
+       "href": null
+      }
+     ]
+    },
+    "Relationships": {
+     "id": "Wwzx",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Defines the current Stage Gate disposition for KNG-43 and sets the next evidence-focused research requirements.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Defines the current Stage Gate disposition for KNG-43 and sets the next evidence-focused research requirements.",
+       "href": null
+      }
+     ]
+    },
+    "Derivation ID": {
+     "id": "bHmu",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "DER",
+      "number": 8
+     }
+    },
+    "Limitations": {
+     "id": "b%7D%3EN",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "This is a governance rule for the Deep Marketing system's Stage Gate, not a universal methodological law.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "This is a governance rule for the Deep Marketing system's Stage Gate, not a universal methodological law.",
+       "href": null
+      }
+     ]
+    },
+    "Last Reviewed": {
+     "id": "d%3CTp",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Inputs": {
+     "id": "lr%5E%3A",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "KNG-43; RSH-1; RSH-15; DER-002 through DER-007; current mechanism and exception evidence",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "KNG-43; RSH-1; RSH-15; DER-002 through DER-007; current mechanism and exception evidence",
+       "href": null
+      }
+     ]
+    },
+    "Reasoning": {
+     "id": "orC%7B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "KNG-43 has passed bounded coverage, mechanism-schema, provenance and selected exception tests. However, some mechanisms rely on reviews or scope evidence, several application mappings are derived, and universal cross-context transfer has not been demonstrated. ACTIVE therefore requires a stronger evidence threshold than structural coherence alone.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "KNG-43 has passed bounded coverage, mechanism-schema, provenance and selected exception tests. However, some mechanisms rely on reviews or scope evidence, several application mappings are derived, and universal cross-context transfer has not been demonstrated. ACTIVE therefore requires a stronger evidence threshold than structural coherence alone.",
+       "href": null
+      }
+     ]
+    },
+    "Confidence": {
+     "id": "p%3EzU",
+     "type": "select",
+     "select": {
+      "id": "5b830ea4-5970-452a-a609-7e54e32fa23e",
+      "name": "Strong",
+      "color": "green"
+     }
+    },
+    "Status": {
+     "id": "reg~",
+     "type": "select",
+     "select": {
+      "id": "d1d5d004-0758-4762-b4eb-7e98784c4d50",
+      "name": "Verified",
+      "color": "blue"
+     }
+    },
+    "Evidence IDs": {
+     "id": "%7DZdi",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "RSH-1 bounded journal/book evidence; EVD-RSH2-MECH-01..13; EVD-RSH2-EXC-01..05; DER-004; DER-005; DER-007",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "RSH-1 bounded journal/book evidence; EVD-RSH2-MECH-01..13; EVD-RSH2-EXC-01..05; DER-004; DER-005; DER-007",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "DER-008 — Stage Gate readiness requires evidence strength and transfer validity",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "DER-008 — Stage Gate readiness requires evidence strength and transfer validity",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/DER-008-Stage-Gate-readiness-requires-evidence-strength-and-transfer-validity-3e758a0779e881458c35dbc226b458a8",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-81c1-b681-eecf3edf3f7a",
+   "created_time": "2026-09-26T00:07:00.000Z",
+   "last_edited_time": "2026-09-26T00:07:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "53f70c7a-c603-4e23-bf53-67d4915dbcc9"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Derived Result": {
+     "id": "Rlf%3D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "When a mechanism produces different or reversed outcomes under identifiable conditions, the difference should be represented as a boundary/moderator, mediator, or measurement-condition change rather than discarded as noise. Exception evidence is therefore a required input into mechanism generalization.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "When a mechanism produces different or reversed outcomes under identifiable conditions, the difference should be represented as a boundary/moderator, mediator, or measurement-condition change rather than discarded as noise. Exception evidence is therefore a required input into mechanism generalization.",
+       "href": null
+      }
+     ]
+    },
+    "Relationships": {
+     "id": "Wwzx",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Extends DER-005/DER-006; constrains Stage Gate and future mechanism generalization.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Extends DER-005/DER-006; constrains Stage Gate and future mechanism generalization.",
+       "href": null
+      }
+     ]
+    },
+    "Derivation ID": {
+     "id": "bHmu",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "DER",
+      "number": 7
+     }
+    },
+    "Limitations": {
+     "id": "b%7D%3EN",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Boundary interpretation is supported only where context and design differences are identifiable; not every heterogeneous result is automatically a resolved contextual conflict.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Boundary interpretation is supported only where context and design differences are identifiable; not every heterogeneous result is automatically a resolved contextual conflict.",
+       "href": null
+      }
+     ]
+    },
+    "Last Reviewed": {
+     "id": "d%3CTp",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Inputs": {
+     "id": "lr%5E%3A",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "RSH2 mechanism matrix; personalization experiments; omnichannel field experiment; service-survey field/lab experiments; permission-marketing evidence",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "RSH2 mechanism matrix; personalization experiments; omnichannel field experiment; service-survey field/lab experiments; permission-marketing evidence",
+       "href": null
+      }
+     ]
+    },
+    "Reasoning": {
+     "id": "orC%7B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Personalization can improve perceived value in some relationship/privacy settings yet backfire under embarrassment or reduced control; omnichannel channel effects vary by channel and sales pathway; customer-experience surveys can alter subsequent behavior; privacy concerns can be mitigated by benefit-related message characteristics.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Personalization can improve perceived value in some relationship/privacy settings yet backfire under embarrassment or reduced control; omnichannel channel effects vary by channel and sales pathway; customer-experience surveys can alter subsequent behavior; privacy concerns can be mitigated by benefit-related message characteristics.",
+       "href": null
+      }
+     ]
+    },
+    "Confidence": {
+     "id": "p%3EzU",
+     "type": "select",
+     "select": {
+      "id": "5b830ea4-5970-452a-a609-7e54e32fa23e",
+      "name": "Strong",
+      "color": "green"
+     }
+    },
+    "Status": {
+     "id": "reg~",
+     "type": "select",
+     "select": {
+      "id": "d1d5d004-0758-4762-b4eb-7e98784c4d50",
+      "name": "Verified",
+      "color": "blue"
+     }
+    },
+    "Evidence IDs": {
+     "id": "%7DZdi",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "EVD-RSH2-EXC-01; EVD-RSH2-EXC-02; EVD-RSH2-EXC-03; EVD-RSH2-EXC-04; EVD-RSH2-EXC-05",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "EVD-RSH2-EXC-01; EVD-RSH2-EXC-02; EVD-RSH2-EXC-03; EVD-RSH2-EXC-04; EVD-RSH2-EXC-05",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "DER-007 — Exceptions are boundary evidence, not noise",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "DER-007 — Exceptions are boundary evidence, not noise",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/DER-007-Exceptions-are-boundary-evidence-not-noise-3e758a0779e881c1b681eecf3edf3f7a",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81c0-aacc-dbd0a5ea3b18",
+   "created_time": "2026-09-25T22:41:00.000Z",
+   "last_edited_time": "2026-09-25T22:41:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "53f70c7a-c603-4e23-bf53-67d4915dbcc9"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Derived Result": {
+     "id": "Rlf%3D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "A mechanism-only table is insufficient as the complete operational representation of a Marketing Master Map. Each mechanism record should explicitly link to the relevant Theory/Construct and Application/Experiment, while preserving Question/Phenomenon, Level, Method/Evidence, Boundary/Moderator and Context/Market.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "A mechanism-only table is insufficient as the complete operational representation of a Marketing Master Map. Each mechanism record should explicitly link to the relevant Theory/Construct and Application/Experiment, while preserving Question/Phenomenon, Level, Method/Evidence, Boundary/Moderator and Context/Market.",
+       "href": null
+      }
+     ]
+    },
+    "Relationships": {
+     "id": "Wwzx",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Extends DER-003 through DER-005; constrains the next version of RSH2 matrix and later KNG-43 Stage Gate.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Extends DER-003 through DER-005; constrains the next version of RSH2 matrix and later KNG-43 Stage Gate.",
+       "href": null
+      }
+     ]
+    },
+    "Derivation ID": {
+     "id": "bHmu",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "DER",
+      "number": 6
+     }
+    },
+    "Limitations": {
+     "id": "b%7D%3EN",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Schema derivation for this knowledge system; not a claim that every published marketing study explicitly reports every layer.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Schema derivation for this knowledge system; not a claim that every published marketing study explicitly reports every layer.",
+       "href": null
+      }
+     ]
+    },
+    "Last Reviewed": {
+     "id": "d%3CTp",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Inputs": {
+     "id": "lr%5E%3A",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "RSH-15 mechanism matrix; DER-003; DER-004; DER-005",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "RSH-15 mechanism matrix; DER-003; DER-004; DER-005",
+       "href": null
+      }
+     ]
+    },
+    "Reasoning": {
+     "id": "orC%7B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "The governing architecture separates substantive questions, explanatory constructs, mechanisms, levels, methods/evidence, context and application. The current matrix already encodes mechanism and outcome, but structural inspection shows that theory/construct and application links are not mandatory fields.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "The governing architecture separates substantive questions, explanatory constructs, mechanisms, levels, methods/evidence, context and application. The current matrix already encodes mechanism and outcome, but structural inspection shows that theory/construct and application links are not mandatory fields.",
+       "href": null
+      }
+     ]
+    },
+    "Confidence": {
+     "id": "p%3EzU",
+     "type": "select",
+     "select": {
+      "id": "5b830ea4-5970-452a-a609-7e54e32fa23e",
+      "name": "Strong",
+      "color": "green"
+     }
+    },
+    "Status": {
+     "id": "reg~",
+     "type": "select",
+     "select": {
+      "id": "d1d5d004-0758-4762-b4eb-7e98784c4d50",
+      "name": "Verified",
+      "color": "blue"
+     }
+    },
+    "Evidence IDs": {
+     "id": "%7DZdi",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "EVD-RSH2-MECH-01 through EVD-RSH2-MECH-13",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "EVD-RSH2-MECH-01 through EVD-RSH2-MECH-13",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "DER-006 — Mechanism records require theory and application links",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "DER-006 — Mechanism records require theory and application links",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/DER-006-Mechanism-records-require-theory-and-application-links-3e658a0779e881c0aaccdbd0a5ea3b18",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8186-8741-ea511196f3f3",
+   "created_time": "2026-09-25T22:40:00.000Z",
+   "last_edited_time": "2026-09-25T22:40:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "53f70c7a-c603-4e23-bf53-67d4915dbcc9"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Derived Result": {
+     "id": "Rlf%3D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "A marketing mechanism cannot be considered portable from antecedent to outcome without specifying boundary conditions such as market/context, organizational configuration, stage, stakeholder relationship, measurement, or methodological setting. Moderators and boundary conditions therefore belong in the core representation of a mechanism chain.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "A marketing mechanism cannot be considered portable from antecedent to outcome without specifying boundary conditions such as market/context, organizational configuration, stage, stakeholder relationship, measurement, or methodological setting. Moderators and boundary conditions therefore belong in the core representation of a mechanism chain.",
+       "href": null
+      }
+     ]
+    },
+    "Relationships": {
+     "id": "Wwzx",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Extends DER-003/DER-004 and KNG-43; guides evidence retrieval and future application testing.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Extends DER-003/DER-004 and KNG-43; guides evidence retrieval and future application testing.",
+       "href": null
+      }
+     ]
+    },
+    "Derivation ID": {
+     "id": "bHmu",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "DER",
+      "number": 5
+     }
+    },
+    "Limitations": {
+     "id": "b%7D%3EN",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Derived from representative evidence streams; not a universal moderator taxonomy.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Derived from representative evidence streams; not a universal moderator taxonomy.",
+       "href": null
+      }
+     ]
+    },
+    "Last Reviewed": {
+     "id": "d%3CTp",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Inputs": {
+     "id": "lr%5E%3A",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "RSH2 mechanism matrix; international standardization/adaptation review; B2B relationship value meta-analysis; CRM switching-cost meta-analysis; marketing-analytics contingency model",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "RSH2 mechanism matrix; international standardization/adaptation review; B2B relationship value meta-analysis; CRM switching-cost meta-analysis; marketing-analytics contingency model",
+       "href": null
+      }
+     ]
+    },
+    "Reasoning": {
+     "id": "orC%7B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "International standardization/adaptation findings are mixed and context-dependent; B2B relationship value includes meaningful boundary conditions; switching-cost types change the satisfaction→repurchase relationship; analytics→agility depends on interdepartmental coordination, turbulence and success traps. These are structurally different forms of conditionality but all limit unconditional transfer.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "International standardization/adaptation findings are mixed and context-dependent; B2B relationship value includes meaningful boundary conditions; switching-cost types change the satisfaction→repurchase relationship; analytics→agility depends on interdepartmental coordination, turbulence and success traps. These are structurally different forms of conditionality but all limit unconditional transfer.",
+       "href": null
+      }
+     ]
+    },
+    "Confidence": {
+     "id": "p%3EzU",
+     "type": "select",
+     "select": {
+      "id": "5b830ea4-5970-452a-a609-7e54e32fa23e",
+      "name": "Strong",
+      "color": "green"
+     }
+    },
+    "Status": {
+     "id": "reg~",
+     "type": "select",
+     "select": {
+      "id": "d1d5d004-0758-4762-b4eb-7e98784c4d50",
+      "name": "Verified",
+      "color": "blue"
+     }
+    },
+    "Evidence IDs": {
+     "id": "%7DZdi",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "EVD-RSH2-MECH-10; EVD-RSH2-MECH-11; EVD-RSH2-MECH-12; EVD-RSH2-MECH-13; prior RSH2 mechanism evidence",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "EVD-RSH2-MECH-10; EVD-RSH2-MECH-11; EVD-RSH2-MECH-12; EVD-RSH2-MECH-13; prior RSH2 mechanism evidence",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "DER-005 — Context and moderators are first-class components of marketing mechanisms",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "DER-005 — Context and moderators are first-class components of marketing mechanisms",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/DER-005-Context-and-moderators-are-first-class-components-of-marketing-mechanisms-3e658a0779e881868741ea511196f3f3",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81bc-ab19-f45848b402b1",
+   "created_time": "2026-09-25T22:38:00.000Z",
+   "last_edited_time": "2026-09-25T22:38:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "53f70c7a-c603-4e23-bf53-67d4915dbcc9"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Derived Result": {
+     "id": "Rlf%3D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Cross-domain comparison shows that shared outcome families such as loyalty/repurchase or performance can be generated through different mediators and boundary conditions. Therefore outcome labels cannot substitute for mechanism chains in the Master Map.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Cross-domain comparison shows that shared outcome families such as loyalty/repurchase or performance can be generated through different mediators and boundary conditions. Therefore outcome labels cannot substitute for mechanism chains in the Master Map.",
+       "href": null
+      }
+     ]
+    },
+    "Relationships": {
+     "id": "Wwzx",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Validates the mechanism layer in KNG-43; informs future domain-specific research routing and causal evidence collection.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Validates the mechanism layer in KNG-43; informs future domain-specific research routing and causal evidence collection.",
+       "href": null
+      }
+     ]
+    },
+    "Derivation ID": {
+     "id": "bHmu",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "DER",
+      "number": 4
+     }
+    },
+    "Limitations": {
+     "id": "b%7D%3EN",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Bounded comparison across representative domains; not a universal causal model.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Bounded comparison across representative domains; not a universal causal model.",
+       "href": null
+      }
+     ]
+    },
+    "Last Reviewed": {
+     "id": "d%3CTp",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Inputs": {
+     "id": "lr%5E%3A",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "RSH2 mechanism matrix; value, brand, trust, NPD, digital capability and channel evidence",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "RSH2 mechanism matrix; value, brand, trust, NPD, digital capability and channel evidence",
+       "href": null
+      }
+     ]
+    },
+    "Reasoning": {
+     "id": "orC%7B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Customer perceived value, brand experience/bonding and online trust are distinct proximal pathways to loyalty-related outcomes. Similarly, NPD customer participation, digital marketing capabilities and channel coordination describe different pathways to performance-related outcomes.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Customer perceived value, brand experience/bonding and online trust are distinct proximal pathways to loyalty-related outcomes. Similarly, NPD customer participation, digital marketing capabilities and channel coordination describe different pathways to performance-related outcomes.",
+       "href": null
+      }
+     ]
+    },
+    "Confidence": {
+     "id": "p%3EzU",
+     "type": "select",
+     "select": {
+      "id": "fbae84da-d799-439d-8746-b931b22e1ba7",
+      "name": "Moderate",
+      "color": "yellow"
+     }
+    },
+    "Status": {
+     "id": "reg~",
+     "type": "select",
+     "select": {
+      "id": "d1d5d004-0758-4762-b4eb-7e98784c4d50",
+      "name": "Verified",
+      "color": "blue"
+     }
+    },
+    "Evidence IDs": {
+     "id": "%7DZdi",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "EVD-RSH2-MECH-01; EVD-RSH2-MECH-02; EVD-RSH2-MECH-04; EVD-RSH2-MECH-05; EVD-RSH2-MECH-07; EVD-RSH2-MECH-08",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "EVD-RSH2-MECH-01; EVD-RSH2-MECH-02; EVD-RSH2-MECH-04; EVD-RSH2-MECH-05; EVD-RSH2-MECH-07; EVD-RSH2-MECH-08",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "DER-004 — Same outcomes can arise through different marketing mechanisms",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "DER-004 — Same outcomes can arise through different marketing mechanisms",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/DER-004-Same-outcomes-can-arise-through-different-marketing-mechanisms-3e658a0779e881bcab19f45848b402b1",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81fb-98da-f9cf47fd8028",
+   "created_time": "2026-09-25T22:35:00.000Z",
+   "last_edited_time": "2026-09-25T22:35:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "53f70c7a-c603-4e23-bf53-67d4915dbcc9"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Derived Result": {
+     "id": "Rlf%3D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "A usable Marketing Master Map should model cross-layer dependencies rather than only list nodes: Question ↔ Domain defines substantive scope; Theory/Construct → Mechanism explains the causal/explanatory link; Level of Analysis constrains unit and interpretation; Method/Evidence tests claims appropriate to the question and level; Context/Market conditions boundary/generalize results; Application/Experiment translates and tests operational implications. MarTech/technology is transversal implementation infrastructure; history/schools are temporal-intellectual overlays; qualitative/quantitative are methodological dimensions; nonprofit/public-sector is contextual; transformative research is paradigmatic/impact-oriented.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "A usable Marketing Master Map should model cross-layer dependencies rather than only list nodes: Question ↔ Domain defines substantive scope; Theory/Construct → Mechanism explains the causal/explanatory link; Level of Analysis constrains unit and interpretation; Method/Evidence tests claims appropriate to the question and level; Context/Market conditions boundary/generalize results; Application/Experiment translates and tests operational implications. MarTech/technology is transversal implementation infrastructure; history/schools are temporal-intellectual overlays; qualitative/quantitative are methodological dimensions; nonprofit/public-sector is contextual; transformative research is paradigmatic/impact-oriented.",
+       "href": null
+      }
+     ]
+    },
+    "Relationships": {
+     "id": "Wwzx",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Extends KNG-43 architecture; feeds RSH-1 Stage Gate; constrains future domain pages and knowledge extraction.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Extends KNG-43 architecture; feeds RSH-1 Stage Gate; constrains future domain pages and knowledge extraction.",
+       "href": null
+      }
+     ]
+    },
+    "Derivation ID": {
+     "id": "bHmu",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "DER",
+      "number": 3
+     }
+    },
+    "Limitations": {
+     "id": "b%7D%3EN",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Derived architecture requiring cross-layer testing. It is not a claim that every marketing study instantiates all layers identically.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Derived architecture requiring cross-layer testing. It is not a claim that every marketing study instantiates all layers identically.",
+       "href": null
+      }
+     ]
+    },
+    "Last Reviewed": {
+     "id": "d%3CTp",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Inputs": {
+     "id": "lr%5E%3A",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "RSH-1 multidimensional architecture; specialist journal scope evidence; DER-002",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "RSH-1 multidimensional architecture; specialist journal scope evidence; DER-002",
+       "href": null
+      }
+     ]
+    },
+    "Reasoning": {
+     "id": "orC%7B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Across the reviewed venues, marketing knowledge is not organized by one hierarchy: journals vary by substantive problem, theory, method, level, context and application. A dependency model is therefore a better representation of how research claims are constructed and bounded than a simple tree.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Across the reviewed venues, marketing knowledge is not organized by one hierarchy: journals vary by substantive problem, theory, method, level, context and application. A dependency model is therefore a better representation of how research claims are constructed and bounded than a simple tree.",
+       "href": null
+      }
+     ]
+    },
+    "Confidence": {
+     "id": "p%3EzU",
+     "type": "select",
+     "select": {
+      "id": "fbae84da-d799-439d-8746-b931b22e1ba7",
+      "name": "Moderate",
+      "color": "yellow"
+     }
+    },
+    "Status": {
+     "id": "reg~",
+     "type": "select",
+     "select": {
+      "id": "718025bd-4e6b-4c5e-872f-7f47fec3f9c2",
+      "name": "Needs Test",
+      "color": "orange"
+     }
+    },
+    "Evidence IDs": {
+     "id": "%7DZdi",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "EVD-RSH1-QUAL-1; EVD-RSH1-QUAL-2; EVD-RSH1-HIST-1; EVD-RSH1-RETAIL-1; EVD-RSH1-INNOV-1; EVD-RSH1-OPS-1; EVD-RSH1-OPS-2; EVD-RSH1-NPT-1; EVD-RSH1-TCR-1; prior JMR/JM/JCR/JSR/JIM/JIMarketing/Marketing Science/JPPM/JMM evidence",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "EVD-RSH1-QUAL-1; EVD-RSH1-QUAL-2; EVD-RSH1-HIST-1; EVD-RSH1-RETAIL-1; EVD-RSH1-INNOV-1; EVD-RSH1-OPS-1; EVD-RSH1-OPS-2; EVD-RSH1-NPT-1; EVD-RSH1-TCR-1; prior JMR/JM/JCR/JSR/JIM/JIMarketing/Marketing Science/JPPM/JMM evidence",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "DER-003 — Cross-layer dependency model for the Marketing Master Map",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "DER-003 — Cross-layer dependency model for the Marketing Master Map",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/DER-003-Cross-layer-dependency-model-for-the-Marketing-Master-Map-3e658a0779e881fb98daf9cf47fd8028",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-816a-8aff-eff188f8791f",
+   "created_time": "2026-09-25T22:35:00.000Z",
+   "last_edited_time": "2026-09-25T22:36:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "53f70c7a-c603-4e23-bf53-67d4915dbcc9"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Derived Result": {
+     "id": "Rlf%3D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "A usable Marketing Master Map should model cross-layer dependencies rather than only list nodes: Question ↔ Domain defines substantive scope; Theory/Construct → Mechanism explains the explanatory link; Level of Analysis constrains unit and interpretation; Method/Evidence tests claims appropriate to the question and level; Context/Market bounds transfer; Application/Experiment translates and tests operational implications. Edge-case testing across Digital/MarTech, Channels/Retailing, Social/Nonprofit, Qualitative/Paradigm and History/Theory did not reveal a material contradiction.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "A usable Marketing Master Map should model cross-layer dependencies rather than only list nodes: Question ↔ Domain defines substantive scope; Theory/Construct → Mechanism explains the explanatory link; Level of Analysis constrains unit and interpretation; Method/Evidence tests claims appropriate to the question and level; Context/Market bounds transfer; Application/Experiment translates and tests operational implications. Edge-case testing across Digital/MarTech, Channels/Retailing, Social/Nonprofit, Qualitative/Paradigm and History/Theory did not reveal a material contradiction.",
+       "href": null
+      }
+     ]
+    },
+    "Relationships": {
+     "id": "Wwzx",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Constrains Stage Gate interpretation for KNG-43; supports bounded specialist-journal sweep and explicit gap register.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Constrains Stage Gate interpretation for KNG-43; supports bounded specialist-journal sweep and explicit gap register.",
+       "href": null
+      }
+     ]
+    },
+    "Derivation ID": {
+     "id": "bHmu",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "DER",
+      "number": 2
+     }
+    },
+    "Limitations": {
+     "id": "b%7D%3EN",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "The dependency map is a derived operational architecture, not a canonical claim about every marketing study. Further expansion may reveal additional dependencies or alternative representations.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "The dependency map is a derived operational architecture, not a canonical claim about every marketing study. Further expansion may reveal additional dependencies or alternative representations.",
+       "href": null
+      }
+     ]
+    },
+    "Last Reviewed": {
+     "id": "d%3CTp",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Inputs": {
+     "id": "lr%5E%3A",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "RSH-1; JMR/JM/JCR/Marketing Science/JSR/JIM/JPP&M/Journal of Macromarketing/Journal of Retailing/JPIM/Marketing Theory/JCP/JCB/JMTP/JNPSM specialist-scope evidence",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "RSH-1; JMR/JM/JCR/Marketing Science/JSR/JIM/JPP&M/Journal of Macromarketing/Journal of Retailing/JPIM/Marketing Theory/JCP/JCB/JMTP/JNPSM specialist-scope evidence",
+       "href": null
+      }
+     ]
+    },
+    "Reasoning": {
+     "id": "orC%7B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "The reviewed specialist journals partition marketing knowledge by different substantive domains, methods, theoretical traditions, contexts and levels. Because the field has no single finite journal-defined taxonomy, completeness must be scoped to an explicit control set rather than inferred from accumulated searches.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "The reviewed specialist journals partition marketing knowledge by different substantive domains, methods, theoretical traditions, contexts and levels. Because the field has no single finite journal-defined taxonomy, completeness must be scoped to an explicit control set rather than inferred from accumulated searches.",
+       "href": null
+      }
+     ]
+    },
+    "Confidence": {
+     "id": "p%3EzU",
+     "type": "select",
+     "select": {
+      "id": "fbae84da-d799-439d-8746-b931b22e1ba7",
+      "name": "Moderate",
+      "color": "yellow"
+     }
+    },
+    "Status": {
+     "id": "reg~",
+     "type": "select",
+     "select": {
+      "id": "d1d5d004-0758-4762-b4eb-7e98784c4d50",
+      "name": "Verified",
+      "color": "blue"
+     }
+    },
+    "Evidence IDs": {
+     "id": "%7DZdi",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "EVD-RSH1-QUAL-1; EVD-RSH1-QUAL-2; EVD-RSH1-HIST-1; EVD-RSH1-RETAIL-1; EVD-RSH1-INNOV-1; prior RSH-1 journal-scope evidence",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "EVD-RSH1-QUAL-1; EVD-RSH1-QUAL-2; EVD-RSH1-HIST-1; EVD-RSH1-RETAIL-1; EVD-RSH1-INNOV-1; prior RSH-1 journal-scope evidence",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "DER-002 — Taxonomy completeness requires a bounded source universe",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "DER-002 — Taxonomy completeness requires a bounded source universe",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/DER-002-Taxonomy-completeness-requires-a-bounded-source-universe-3e658a0779e8816a8affeff188f8791f",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8189-bdaf-f2c438922add",
+   "created_time": "2026-09-25T20:52:00.000Z",
+   "last_edited_time": "2026-09-25T20:52:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "53f70c7a-c603-4e23-bf53-67d4915dbcc9"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Derived Result": {
+     "id": "Rlf%3D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Marketing Master Map يجب أن تُبنى من طبقات متداخلة ومراجعة مستمرة، لا من مخطط واحد ثابت.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Marketing Master Map يجب أن تُبنى من طبقات متداخلة ومراجعة مستمرة، لا من مخطط واحد ثابت.",
+       "href": null
+      }
+     ]
+    },
+    "Relationships": {
+     "id": "Wwzx",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "تعريف المجال يحدد النطاق؛ الأطر المهنية تكشف الكفاءات والوظائف؛ البحث الأكاديمي يضيف النظريات والأدلة؛ التطبيق يضيف الأدوات والنتائج.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "تعريف المجال يحدد النطاق؛ الأطر المهنية تكشف الكفاءات والوظائف؛ البحث الأكاديمي يضيف النظريات والأدلة؛ التطبيق يضيف الأدوات والنتائج.",
+       "href": null
+      }
+     ]
+    },
+    "Derivation ID": {
+     "id": "bHmu",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "DER",
+      "number": 1
+     }
+    },
+    "Limitations": {
+     "id": "b%7D%3EN",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "الاشتقاق أولي ويحتاج إلى اختبار مقابل أدبيات أوسع.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "الاشتقاق أولي ويحتاج إلى اختبار مقابل أدبيات أوسع.",
+       "href": null
+      }
+     ]
+    },
+    "Last Reviewed": {
+     "id": "d%3CTp",
+     "type": "date",
+     "date": {
+      "start": "2026-09-25",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Inputs": {
+     "id": "lr%5E%3A",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "AMA Marketing Competency Model + CIM Global Professional Marketing Framework + AMA Definition of Marketing",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "AMA Marketing Competency Model + CIM Global Professional Marketing Framework + AMA Definition of Marketing",
+       "href": null
+      }
+     ]
+    },
+    "Reasoning": {
+     "id": "orC%7B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "لو استُخدم إطار واحد فقط، قد تُهمل فئات موجودة في إطار آخر أو في الأدبيات الأكاديمية. لذلك يجب استخدام عدة أطر كاختبارات تغطية، لا كتصنيف وحيد.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "لو استُخدم إطار واحد فقط، قد تُهمل فئات موجودة في إطار آخر أو في الأدبيات الأكاديمية. لذلك يجب استخدام عدة أطر كاختبارات تغطية، لا كتصنيف وحيد.",
+       "href": null
+      }
+     ]
+    },
+    "Confidence": {
+     "id": "p%3EzU",
+     "type": "select",
+     "select": {
+      "id": "fbae84da-d799-439d-8746-b931b22e1ba7",
+      "name": "Moderate",
+      "color": "yellow"
+     }
+    },
+    "Status": {
+     "id": "reg~",
+     "type": "select",
+     "select": {
+      "id": "718025bd-4e6b-4c5e-872f-7f47fec3f9c2",
+      "name": "Needs Test",
+      "color": "orange"
+     }
+    },
+    "Evidence IDs": {
+     "id": "%7DZdi",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "AMA/CIM evidence pages في KOS — Evidence",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "AMA/CIM evidence pages في KOS — Evidence",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "DER-001 — Coverage benchmark should be multi-source",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "DER-001 — Coverage benchmark should be multi-source",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/DER-001-Coverage-benchmark-should-be-multi-source-3e658a0779e88189bdaff2c438922add",
+   "public_url": null,
+   "archived": false
+  }
+ ],
+ "row_query_error": null
+}

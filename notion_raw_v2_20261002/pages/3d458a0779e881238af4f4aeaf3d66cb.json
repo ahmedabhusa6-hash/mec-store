@@ -1,0 +1,5712 @@
+{
+ "capture_reason": "NEWLY_ACCESSIBLE",
+ "captured_at": "2026-10-02T12:26:31+03:00",
+ "title": "مشروع بيع الخدمات الرقمية عبر Telegram — Payment Architecture & ProdSeller",
+ "last_edited": "2026-09-21T15:33:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3d458a07-79e8-8123-8af4-f4aeaf3d66cb",
+  "created_time": "2026-09-07T19:23:00.000Z",
+  "last_edited_time": "2026-09-21T15:33:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": {
+   "type": "emoji",
+   "emoji": "💳"
+  },
+  "parent": {
+   "type": "workspace",
+   "workspace": true
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "title": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "مشروع بيع الخدمات الرقمية عبر Telegram — Payment Architecture & ProdSeller",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "مشروع بيع الخدمات الرقمية عبر Telegram — Payment Architecture & ProdSeller",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/Telegram-Payment-Architecture-ProdSeller-3d458a0779e881238af4f4aeaf3d66cb",
+  "public_url": null,
+  "archived": false,
+  "request_id": "84a738eb-a1e3-4b6f-bb7d-cee74b2253a7"
+ },
+ "block_count": 570,
+ "blocks": [
+  {
+   "id": "ecf40263-8f81-4d50-a0f4-8214b31f76ad",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "Store Brand"
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "6b5261b5-e57a-4e91-b059-aa3f19c97939",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Proposed name: وصلة رقمية — Wasla Digital"
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "bf5095d0-5f0f-499b-b6f9-5c8b4f646fb3",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Brand decision status: Working brand candidate; visual identity direction in development; final naming/trademark/domain/Telegram-handle decision pending."
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "405940b6-255c-45ed-9076-3e1ebe4644ff",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Positioning direction: A digital-services storefront delivered through Telegram, with local Yemeni payment collection and ProdSeller used as a downstream supplier. The brand should remain independent of any single supplier or product category."
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "9a60d152-41bc-41af-b631-870ccc1291d3",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "New Review Scope — Supplier PDF + Store Architecture"
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "c7d2b3ac-8326-49c1-8f48-4f9e3cc2b486",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "The uploaded supplier PDF is evidence for the current ProdSeller store/product model only. Image-based information must be treated as a point-in-time snapshot and not as a permanent catalog, price list, or inventory guarantee. The system must retrieve current supplier data where the API supports it."
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "f58d5bea-e23d-4dbe-b5a6-254e7f0c3466",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "Supplier-side risks to verify before publication"
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "c9245541-4e85-4b10-9cf3-7ebdf84b07bc",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Product type must be classified before sale: key, activation link, invitation/admin, account/access credential, educational/eligibility product, subscription, or other delivery mode."
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "57c768b3-4686-4d21-b0f2-3f67b2a26b5b",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Supplier availability does not by itself prove that resale is permitted by the original service provider."
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "0d69ffde-e637-41bd-9f54-43c5dc83a128",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Products with account credentials, full access, invitations, or educational eligibility require product-specific Terms/ToS and fulfillment-risk review before listing."
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "c997939a-1486-4555-a0c7-4a7a23ebf5a7",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Supplier stock and price may change; the storefront must not hard-code historical values as authoritative."
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "f17afad8-933a-486e-b31d-9d728630fd66",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Fulfillment behavior varies by product; the order engine must support multiple delivery models instead of assuming every product returns a simple text key."
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "3ce32b2c-c4c6-4ff3-8990-4277e4f0b94e",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "Canonical storefront flow"
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "254ef0cc-90ff-4a58-a03d-3d19ae22322e",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Customer → Telegram storefront → product eligibility check → current price/stock check → order creation → YER payment → payment verification → idempotency gate → ProdSeller API → fulfillment adapter → customer delivery → audit/warranty state."
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "4cbf67c4-a813-49b6-9d53-d26da79cb578",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "Required Product Catalog fields"
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "18ef22cc-ea8e-4acc-91f0-81429557d7c0",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "product_id"
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "8ffae16a-a478-4759-84ce-1417718280f1",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "public_name"
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "fe4dea73-80b7-4ce4-8496-0ad7b973b401",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "supplier_product_id"
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "450d3428-fe18-41c9-a531-11f45cac4212",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "category"
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "74c1c98f-3e9c-47bf-b3dc-2b58d112e8e5",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "fulfillment_type"
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "76c2a150-6dce-4d3a-9b2f-187cbfd83204",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "supplier_price"
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "3d1eda2e-7046-4050-9197-4484e0254cf0",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "customer_price_yer"
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "f74b3c45-153c-43d6-b93f-9a47a551cd40",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "stock_state"
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "498ed50f-852d-4557-b03c-ce4690f57998",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "eligibility_state"
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "79cb6c1a-2ee0-44a9-9d38-cb6923e9956a",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "resale_policy_state"
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "5c745acc-25c2-4fe4-b047-aa08d12b74ea",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "warranty_policy"
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "3adb3679-5ab3-4689-81e3-df81f0c365e1",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "delivery_instructions"
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "f21786b3-efef-4d70-87ff-d52cbadd37d9",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "refund_policy"
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "9d29f5d1-1def-424b-934b-ab06b4db3799",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "last_synced_at"
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "5f4f783f-d2ac-4de7-a4d0-80decfa4f8d6",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "The storefront must be able to suppress a product when its stock, price, resale permission, or fulfillment requirements are not sufficiently verified."
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "a08d1f42-e3cf-4c2e-9249-87e1456e3083",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Current Critical Questions"
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "4cb1d935-af46-45e5-a5ea-021b28c13866",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Which Yemeni payment provider can legally and technically serve this project as an individual operator?"
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "06fd8bd2-3caa-41f3-92c1-f8dd8cfe283f",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Can the provider issue a merchant capability/API or reliable transaction-status mechanism without a Commercial Register?"
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "ac962db4-8b3a-44c0-b7dc-79171a823738",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Which ProdSeller products are suitable for resale and which should be excluded?"
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "28469ad1-91b7-461f-9f36-69f868ab91e6",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Which fulfillment modes can be automated safely through the ProdSeller API?"
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "911c7d1c-91bf-4443-b046-fb78087b5c59",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "What warranty/refund rules apply per product type?"
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "dfef694f-617d-4f7d-b26a-6e042d366b18",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "How will ambiguous payment and supplier responses be reconciled without duplicate fulfillment?"
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "3b79d016-5536-43d6-b13d-6c30679fe977",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Decision Rule"
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "00fea606-c363-4b25-8866-051d61fa4423",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Do not build or publish the complete catalog until payment eligibility, product resale eligibility, and fulfillment behavior have been verified to the level required for each product."
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "9249c3ce-00a1-4bec-9005-53e5949bd77e",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Naming Candidates"
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "0afe19c1-b375-460e-86df-2c2073a4e153",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "وصلة رقمية — Wasla Digital"
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "4aa16207-e018-4c87-86e4-b82a759cb791",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "مدار — Madar"
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "507d197d-e200-4e0f-80d0-c9f9d086bccf",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "نواة — Nawa"
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "ca2b75e6-ed2a-45ac-8565-62708575c805",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "رواق — Riwaq"
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "b391d670-5844-41a1-8650-27d0dd1702d8",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "رفد — Rafad"
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "886f0c34-05c5-46a6-bdb6-6e3bbdbd1cd5",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "أثر — Athar"
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "b3e01b62-dbe4-4bef-8922-8842bb1da7cd",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "ديم — Deem"
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "3dc3d7bb-08f6-4b34-8cbf-6bd55ac8fb5a",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "مجرى — Majra"
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "c6fd08b2-8261-4c28-958d-43c001523312",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "مداد — Midad"
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "329c9463-666d-4a75-9b7f-3a5e60e8fa72",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "تشكيل — Tashkeel"
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "d132163d-a03b-44d3-9061-0741580ce88d",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Current preferred candidate: وصلة رقمية — Wasla Digital"
+   ],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "1316be1d-08ac-47d7-a55b-695cecf8e5ac",
+   "type": "divider",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-12T22:10:00.000Z",
+   "edited": "2026-09-12T22:10:00.000Z"
+  },
+  {
+   "id": "80b04a6d-cb7c-45e9-8897-3e21d8cddfe8",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "Canonical Bilingual Project Brief"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "b565768c-0e8f-4474-ac8c-9e5208b59bb1",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "English — Canonical Project Definition"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "43d0f4c5-aae9-4262-9134-794eb44203be",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "Strategic Objective"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "030db911-cb34-48ee-b6b9-d539bd977be9",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Build a Telegram-based digital commerce system for customers in Yemen. Telegram is the customer interface; a Yemeni payment provider is the local collection layer in Yemeni Rial (YER); ProdSeller is the downstream supplier accessed through its API."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "33f1e3d3-8b0a-4adf-a66a-d21d135d6907",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "The customer must not be required to use Binance, USDT, or ProdSeller directly."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "f91e83e3-03b0-407b-8fad-833546989345",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "Core Financial Separation"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "0a2b39ed-5dde-45f4-bac1-c30de0e4ffbe",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Two financial flows must remain logically and operationally separate:"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "50a441a3-abf4-449a-8bb9-b231548b5219",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Customer collection: Customer → Yemeni payment provider → merchant balance."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "98b12a3a-09fe-4065-8f79-96333d8952eb",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Supplier settlement: Operator working capital → approved settlement method → ProdSeller balance."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "9f6343e6-12cb-44d6-a772-a781961eeecc",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Supplier settlement must never be treated as the customer payment gateway."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "5203b523-aacd-4687-b576-6c1c7e1535d2",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "Canonical Order Flow"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "dc9fe64d-8a6c-4e6c-82f3-d1263614945b",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Telegram Bot → Product Catalog → Pricing Engine → Order Creation → Local Payment Request → Payment Verification → Idempotency Gate → ProdSeller API → Supplier Result → Delivery to Telegram → Audit Record."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "977466d3-3e27-451f-a183-6a30684f7db5",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "Payment Provider Selection Rule"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "38cc3a55-6464-4620-80d8-c2cfc01c332d",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Do not choose a provider because it is popular or has a merchant application. The provider is eligible only if the required merchant capability is contractually/technically available for this project."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "59299a8c-631b-4db3-ab1d-4453cfd19773",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Minimum acceptable capability:"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "999e6fe9-ad70-4aef-b144-3312300e2e0b",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Merchant account appropriate for the activity."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "e2db54d5-1d66-47fb-b12c-f2c1bbae2278",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Payment API, or a reliable Transaction Inquiry / Status API."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "d3346cbc-2ded-4a08-bc36-c5382c8b1c8a",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "A way to bind payment to a unique order/reference."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "cb865071-63c1-4f74-8612-6a0a8fa1a2ed",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Verifiable payment state."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "83e30a32-c81a-45f2-8fc9-bfdb5a1c1368",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Support for YER."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "7d2f6710-74e7-4d10-9f19-b2b347693aeb",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Permission to operate the intended digital-service activity."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "5e0895ad-d008-4d22-8e29-6f32be5d8776",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Webhook/Callback is preferred but not mandatory if reliable transaction-status polling is available."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "03016285-c36c-46e2-a768-5dec7e1867dd",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "Critical Regulatory/Eligibility Question"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "f7065faf-8db6-495c-8dd5-e5c9aa343773",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Do not assume that a personal wallet can be used for commercial collection, and do not assume that an API can be obtained without a Commercial Register."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "d945a0ad-2e99-453c-aed5-072c9aac3ea0",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "The project must separately verify:"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "bcb279e0-37e4-49cc-84cf-61d54aa2948a",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Personal wallet eligibility."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "10ce4148-015d-4aee-a6d7-8d23084fe577",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Merchant account eligibility."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "d851782c-f282-42ad-a368-5b98abc46528",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Payment gateway eligibility."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "29511e2d-c878-4b3d-8a2f-357a82d6592c",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "API access eligibility."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "2c6c456e-2a4b-4979-8817-a2925304241f",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Commercial Register requirement."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "3deb3c17-68ef-4635-abd1-8844fed277d0",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "KYC requirements."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "db477788-2ea0-4070-b5c1-10f45e9c436f",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Digital-services / resale restrictions."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "3ce604f2-6b3a-4438-9767-365303fa67a4",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "A provider is considered UNVERIFIED until the relevant requirement is supported by authoritative evidence."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "a2b2e18c-ad6b-4a56-bf4b-839672c94037",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "Failure-Safe Order State Model"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "d8b6f5f1-3d53-4498-94a2-df3a762f0a24",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "The implementation must explicitly handle:"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "a946c345-f3d9-4fef-ae85-24d2cc57689a",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "duplicate payment;"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "a22ff643-90be-4a11-8bf1-d60ee6297f35",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "duplicate webhook/callback;"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "49c58963-8e5b-42dd-bdc7-707524f99f09",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "late payment;"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "763df6f7-4d6a-4733-a955-0739af6cf246",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "wrong payment amount;"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "36d1b7ac-2a6f-499d-b799-349d3d2d1733",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "unknown transaction;"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "5bb5f3cd-c131-4506-8040-524998a95fe2",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "payment confirmed while supplier order fails;"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "265be147-4225-4fb4-a1a3-60e1ba6f969c",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "supplier order succeeds while Telegram delivery fails;"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "7aca213e-8d91-4505-a6de-cb77e3558923",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "payment-provider timeout;"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "efa11802-ca5a-432d-ba92-0af42d325eec",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "supplier timeout;"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "34109f9a-b181-4fdf-85d5-a32bd74ddd95",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "retry after an ambiguous response;"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "45d3c279-22fa-4a6f-8a48-8ef9839c2a07",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "concurrent requests for the same order."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "295fa433-f197-46fe-9161-39c475abafc1",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Every state transition must be deterministic, auditable, and idempotent."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "0fac027f-e922-435f-bcd9-b56594b38601",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "Supplier Integration"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "89de78eb-7c7c-4188-b588-1d6c9df27d8e",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "ProdSeller is an external supplier, not the customer-facing system."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "4425fb96-1bcf-45ba-baa1-31dc50abcc76",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "The integration must protect the ProdSeller API key, prevent duplicate supplier orders, record supplier order identifiers, and reconcile supplier state with the internal order state."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "9c8dd762-7f71-46d0-b75e-daf25f4a3ed6",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "Pricing"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "fda8d374-5e29-46f0-b627-131405b818ae",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Customer price must be derived from actual economics:"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "e06ec9c2-316c-483e-8ac9-91f4e7560887",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Supplier Cost + Payment Fees + Settlement/FX Cost + Risk Reserve + Profit = Customer Price."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "cffc5d25-ab16-42b9-8dc0-8e1175dd63da",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Supplier prices and inventory may change; the system must not assume that a previously observed price or stock level remains valid."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "1423ee97-c959-4d37-b25c-3b3be1510c23",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "MVP Strategy"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "2fa61a44-0a4f-46ae-8b7b-89bc5e2b6067",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Start with one eligible payment provider, one Telegram bot, one validated payment flow, and the ProdSeller integration. Add a second payment provider only after the first path is proven."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "51a0b22b-bb54-4628-8db4-95b253c228f4",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "The payment layer must be implemented behind an abstraction so the provider can later be replaced without rewriting the order engine or ProdSeller integration."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "22a13b48-b1c8-4391-b784-b1a25557efe6",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "Evidence Standard"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "a9a66373-e542-4594-9a82-a7736c1d6b0a",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Classify every material statement as one of:"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "2540fc79-9e92-4ba3-84aa-a3f6c71461dd",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "PROVEN — supported by direct evidence."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "9131c9d6-05c2-4c73-aad9-a31a6db247f3",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "PARTIALLY PROVEN — some required evidence exists, but not all."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "8b0c6874-0d0f-4701-b4aa-5ba4d128858b",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "UNVERIFIED — insufficient authoritative evidence."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "1e6ea05e-062b-4ba7-9924-f1f62417ae26",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "CONTRADICTED — reliable sources disagree."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "e3334964-83bc-4fc2-bf82-3d4f643e965e",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "BLOCKED — cannot be resolved without an external dependency."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "95be167f-5e18-4524-b8b9-d6c81fec3e25",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Notion describes intent, decisions, assumptions, and history. The running code, tests, Git history, and runtime evidence establish implementation reality. Neither source should automatically override the other."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "41c46727-5893-4423-a630-d3b82d4d5f3f",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "Immediate Decision Gate"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "26444476-f7f8-4d5d-9152-05496b1a89c5",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Do not build the final automated payment path until the first candidate provider confirms, preferably in writing, that the project can legally/contractually use the required merchant capability and technical verification mechanism."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "fd9b14df-551d-424e-ae76-6c5c69b4ff37",
+   "type": "divider",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "61feb392-afca-4f16-bf69-2eeb411fb2de",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "العربية — التعريف المرجعي للمشروع"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "be95b708-eaa1-4979-8b6b-a1de2b98bf83",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "الهدف الاستراتيجي"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "693abcb2-09fc-4d1b-bee8-bb2c611387d8",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "بناء نظام تجارة رقمية عبر Telegram موجه للعملاء في اليمن؛ يكون Telegram واجهة العميل، ويكون مزود دفع يمني طبقة التحصيل بالريال اليمني، بينما يكون ProdSeller موردًا خلفيًا يتم الوصول إليه عبر API."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "5c6833ab-72c6-45ac-aaea-6b97ae45499b",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "لا ينبغي أن يُطلب من العميل النهائي استخدام Binance أو USDT أو التعامل المباشر مع ProdSeller."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "0e041d95-f8cc-4a24-bf75-2df4ab7fafdc",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "الفصل المالي الأساسي"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "71d55ae7-976f-4fbe-a259-01901661a575",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "يجب الفصل منطقيًا وتشغيليًا بين مسارين ماليين:"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "b4d588aa-f63d-46b9-bda6-b3c84fd6fa72",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "تحصيل العميل: العميل → مزود الدفع اليمني → رصيد التاجر."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "e2df9781-868e-4830-851f-b754502e4a4c",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "تسوية المورد: رأس المال التشغيلي → وسيلة التسوية المعتمدة → رصيد ProdSeller."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "1d5b9d74-f040-4078-abe0-b2785421774a",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "لا يجوز اعتبار تسوية رصيد ProdSeller بوابة دفع للعميل."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "1973b656-5bc1-4b32-9a87-469307601c31",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "التدفق المرجعي للطلب"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "c8600f8c-6388-44a6-8001-5733557e2acc",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Telegram Bot → كتالوج المنتجات → محرك التسعير → إنشاء الطلب → طلب الدفع المحلي → التحقق من الدفع → بوابة منع التكرار → ProdSeller API → نتيجة المورد → تسليم المنتج عبر Telegram → سجل تدقيق."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "bd58e94d-f82b-4efa-83bf-8efd9e6b8653",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "قاعدة اختيار مزود الدفع"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "f3757c10-f7e4-46b4-afb3-3b5389910fc9",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "لا يتم اختيار المحفظة بسبب الشهرة أو لمجرد امتلاكها تطبيقًا للتاجر. يكون المزود مؤهلًا فقط عندما تكون القدرات المطلوبة متاحة لهذا المشروع تعاقديًا وتقنيًا."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "8936bb29-497b-430c-a79a-e06cdff8f384",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "الحد الأدنى المطلوب:"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "c5641300-e144-4b6e-ac7f-f69e44edc446",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "حساب تاجر مناسب لطبيعة النشاط."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "cb4531c6-d86d-4b70-97a8-f1724a2a9de5",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Payment API أو Transaction Inquiry / Status API موثوق."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "250ffb48-e215-4ee5-aeff-b8a916baa9c8",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "وسيلة لربط عملية الدفع بطلب أو مرجع فريد."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "1f7dc0ba-f6d7-48ca-a8ee-7b7218fbc933",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "إمكانية إثبات حالة الدفع."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "831d73c7-fbbf-4022-998f-662c63a16286",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "دعم الريال اليمني."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "168f18ac-2c1e-4eed-9ae3-cc4cee2d88e3",
+   "type": "bulleted_list_item",
+   "has_children": true,
+   "text": [
+    "السماح بنشاط بيع الخدمات الرقمية المقصود."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-12T21:57:00.000Z"
+  },
+  {
+   "id": "af14e156-e9f4-4d47-9a28-358f006dd405",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "الـWebhook/Callback مفضل، لكنه ليس شرطًا مطلقًا إذا كان الاستعلام الموثوق عن حالة العملية متاحًا."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-12T21:57:00.000Z"
+  },
+  {
+   "id": "155eef73-3002-4d38-bf71-f77e4e1220b5",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "السؤال التنظيمي الحاسم"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "31ab0655-3f08-4ed4-a9bf-8f2004b3b670",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "لا يُفترض أن المحفظة الشخصية تسمح بالتحصيل التجاري، ولا يُفترض أن الحصول على API ممكن بدون سجل تجاري."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "5d38db11-6903-4f95-9dfa-dbaa852dc002",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "يجب التحقق بصورة منفصلة من:"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "b9fdb4d9-8b65-4e65-a679-50bcdf60409f",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "أهلية المحفظة الشخصية."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "fa12acde-96a1-403a-b418-4e1affc25659",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "أهلية حساب التاجر."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "9735e6f8-5b0e-40de-9ffd-7c4142700fff",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "أهلية بوابة الدفع."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "12d818c5-f223-4132-bc17-240128a47686",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "أهلية الوصول إلى API."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "f82b17d2-ead5-4d85-9e5b-0814189faaa1",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "شرط السجل التجاري."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "8a8bf91e-5ee6-4291-80ef-bb536fb484d7",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "متطلبات KYC."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "75d48d8e-66bc-421d-ac60-8f7d52fad3e0",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "قيود بيع الخدمات الرقمية وإعادة البيع."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "60df7994-6041-4f6f-88b2-b71ef565cc80",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "لا يُعتبر أي ادعاء مثبتًا حتى تدعمه جهة موثوقة أو دليل مباشر."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "2b2b859b-3776-4e4e-a7e5-02d12eab72e3",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "نموذج الحالات الآمن للطلب"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "4f806cb3-e13c-45b0-80da-8f58b0cac69a",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "يجب أن يتعامل النظام صراحةً مع:"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "bfc830e0-2b1f-4d1f-8581-25eb20aec989",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "الدفع المكرر."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "bc5c630e-bffd-4a50-ba0d-2d49732da4f0",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "تكرار Webhook/Callback."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "e62eb61b-195c-40f6-a577-c1bf59338b1d",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "الدفع المتأخر."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "e4f5e6aa-3a85-47ea-98ef-f03aab717ff6",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "دفع مبلغ خاطئ."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "8d2b39c3-c33b-4904-9f62-30e2057271c3",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "معاملة غير معروفة."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "66043df9-3725-4a4d-9ea0-e85fe6195e0f",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "تأكيد الدفع مع فشل إنشاء طلب المورد."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "79ddfc40-ba2e-4189-b222-851e4de4041b",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "نجاح طلب المورد مع فشل التسليم عبر Telegram."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "cdcb5366-8b7f-4094-9755-a36804479977",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "انتهاء مهلة مزود الدفع."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "4e3db130-9d96-470c-8661-ddc280abd9e0",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "انتهاء مهلة المورد."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "6fab605b-3b9a-4f43-8795-7295fecb29dd",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "إعادة المحاولة بعد استجابة غامضة."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "bf777ef7-c15c-4ce8-96e2-8ed61f09760a",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "الطلبات المتزامنة على نفس العملية."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "055d1325-2cb5-4d43-b752-bc83cc7b1895",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "كل انتقال للحالة يجب أن يكون حتميًا وقابلًا للتدقيق ومحصنًا ضد التكرار."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "b7a13b9d-0dd9-4632-abbb-d78fcf27ab3b",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "تكامل المورد"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "a6fbff3e-4b4a-4983-9714-27acb4014d99",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "ProdSeller مورد خارجي وليس واجهة العميل."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "8485a9c5-a7e0-4ade-8cff-e84494a9fda4",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "يجب حماية مفتاح API، ومنع تنفيذ الطلب لدى المورد مرتين، وحفظ معرف طلب المورد، وتحقيق المطابقة بين حالة المورد والحالة الداخلية للطلب."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "b65f6519-dfd1-4a07-963b-3b593c6ee743",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "التسعير"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "2bcb3707-b3eb-45e7-90a7-f6bcedc475f9",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "سعر العميل يجب أن ينتج من الاقتصاد الفعلي للعملية:"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "58492a3e-f227-4918-8f5c-08b5934b9c4f",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "تكلفة المورد + رسوم الدفع + تكلفة/فرق التسوية والصرف + احتياطي المخاطر + الربح = سعر العميل."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "ec6ea16a-979d-4702-9a9e-9f1244a4ed4f",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "أسعار ومخزون ProdSeller قابلة للتغير، لذلك لا يجوز افتراض ثبات السعر أو المخزون الذي تمت رؤيته سابقًا."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "def48fc7-ba0f-4523-8158-626bb7a05e8c",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "استراتيجية MVP"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "b3d13bd0-cf34-40cf-ba2d-e4a2048e8d41",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "ابدأ بمزود دفع واحد مؤهل، وبوت Telegram واحد، وتدفق دفع واحد تم التحقق منه، وتكامل ProdSeller. لا تضف مزودًا ثانيًا إلا بعد إثبات المسار الأول."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "705f1c77-354c-48ff-8249-330dab06205f",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "يجب وضع طبقة الدفع خلف abstraction حتى يمكن استبدال المزود لاحقًا دون إعادة كتابة Order Engine أو تكامل ProdSeller."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "5b26d471-536b-448c-8c8d-0894f51d27ed",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "معيار الأدلة"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "9046ae61-8e90-44d4-a744-ab5133576bce",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "يجب تصنيف كل معلومة جوهرية إلى إحدى الحالات التالية:"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "24175883-7ae2-4c54-bfd8-8906d8c7f1ff",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "PROVEN / مثبت — توجد أدلة مباشرة."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "f59a0767-700e-41f9-8717-61e6eafff698",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "PARTIALLY PROVEN / مثبت جزئيًا — توجد بعض الأدلة لكن المتطلبات لم تثبت كلها."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "ca4ca627-968d-42e0-9994-a249c7074e9d",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "UNVERIFIED / غير مثبت — الأدلة الموثوقة غير كافية."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "569bc781-e84e-40ee-ac41-437311941aed",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "CONTRADICTED / متعارض — توجد مصادر موثوقة متعارضة."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "53979190-bc94-4e34-82dc-bd5946f80fe6",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "BLOCKED / متعطل — لا يمكن حسمها دون اعتماد خارجي."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "bdb2df80-754b-46fa-87f3-1a7aeb491d7c",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Notion يوثق النية والقرارات والافتراضات والتاريخ، بينما الكود الفعلي والاختبارات وGit وأدلة التشغيل تثبت واقع التنفيذ. لا يجوز افتراض أن أحد المصدرين يلغي الآخر تلقائيًا."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "bcfec054-9194-490f-8f19-2dbfe56b5018",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "بوابة القرار الفورية"
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "17e17d30-9a09-42f7-95aa-6e99edcaaa26",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "لا يبدأ بناء مسار الدفع الآلي النهائي قبل أن يؤكد أول مزود مرشح، ويفضل كتابيًا، أن المشروع يستطيع استخدام القدرة التجارية المطلوبة وآلية التحقق التقنية بصورة نظامية ومناسبة."
+   ],
+   "created": "2026-09-07T19:42:00.000Z",
+   "edited": "2026-09-07T19:42:00.000Z"
+  },
+  {
+   "id": "8a56b944-d6e9-4d73-b59c-26690a3df54f",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "الغرض"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "4df718b3-6242-49a8-9336-55e8c2fd1b65",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "بناء مشروع فردي لبيع خدمات ومنتجات رقمية عبر Telegram في اليمن، بحيث يكون Telegram Bot هو واجهة العميل، وتكون خدمات الدفع اليمنية طبقة تحصيل بالريال اليمني، بينما يكون ProdSeller موردًا خلفيًا يتم الوصول إليه عبر API لتنفيذ الطلبات."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "974013c7-e897-4e57-9fa0-8b2313a6ef75",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "1. الفكرة الصحيحة"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "0155525f-ca32-4c3b-a100-d352bd0cea5a",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "المشروع ليس «بوتًا مربوطًا بمحفظة» فقط، بل نظام تجارة رقمي بطبقتين منفصلتين:"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "52d8fee2-5622-469c-a013-0fb2abd875c0",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "طبقة العميل والتحصيل"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "dfb561d2-41fe-49e9-8d04-f9047d525e89",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Telegram Bot → اختيار المنتج → إنشاء Order → تحديد السعر بالريال اليمني → الدفع المحلي → إثبات/تحقق الدفع → اعتماد الطلب."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "d105736b-9951-4039-ae91-cd1609026347",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "طبقة المورد والتسوية"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "856b0f22-07a4-4f7f-9a93-9d7d47da8f82",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Order Approved → ProdSeller API → استلام نتيجة المورد → تسليم المنتج للعميل."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "db1d0ce1-48c9-485e-8fbd-0a5e3ff38f29",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "تمويل رصيد ProdSeller منفصل عن تحصيل العملاء. الطرق التي يوفرها المورد حاليًا هي Binance Pay وCryptoBot باستخدام USDT وUSDT BEP20. لا ينبغي جعل العميل النهائي يتعامل مع هذه الطبقات."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "714971ae-b459-4f13-8030-5fdaabb051df",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "2. الهدف التشغيلي النهائي"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "adf9da0a-5aea-4ac7-8f72-e2c73bf8d6db",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Telegram Bot"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "ec3e9367-dfbf-4043-a3bc-462686f6d36d",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ Product Catalog"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "e6ca6dd7-4572-4a18-af36-cde1097fc9e5",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ Pricing Engine"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "414277f9-94c7-4000-9653-797ab5fcb3b6",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ Order Engine"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "f12566cd-601d-4a1e-aa77-2af25dc5eed3",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ Yemen Payment Provider"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "20fef992-3fca-475f-beeb-993de0774552",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ Payment Verification"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "602c4ab7-a425-4033-9a4a-3e41b683fa1e",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ Idempotency / Anti-duplicate Control"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "8682f937-829a-4bb6-ad0b-db7b831d7762",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ ProdSeller API"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "743073c8-0a4a-4129-9c77-992d99406736",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ Supplier Result"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "2f3ceaa5-0b96-42e0-83f5-d75bb902be02",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ Delivery to Telegram"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "6aae821d-5afc-4124-8bf5-18cd94b725d1",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ Audit Log"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "a8f22a14-2e35-4e6e-8e5e-934fee7b7327",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "3. المبدأ الحاكم للدفع"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "0e1ad45d-49e1-4def-a094-d70a8f214621",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "لا يجب اختيار المحفظة لمجرد أنها مشهورة أو تملك تطبيق تاجر. الشرط الحاسم هو أن تستطيع الخدمة دعم أحد مسارين موثوقين:"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "a2c5c7b7-5be7-4671-9e93-c1cc3330abcb",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Webhook / Callback عند نجاح الدفع."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "fa60e151-6076-4ca1-a45b-795fba6d8c36",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Transaction Inquiry / Status API يسمح للنظام بالاستعلام عن حالة عملية دفع مرتبطة بـOrder ID فريد."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "ffc63a3c-af82-44a2-8716-bf959596c3e7",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "وجود Webhook أفضل، لكنه ليس شرطًا مطلقًا في المرحلة الأولى. Polling الموثوق يمكن أن يكون بديلًا عمليًا."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "21ee100f-1aa4-4ec1-aa2a-e0c08595bc35",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "4. مشكلة السجل التجاري"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "140fff9f-0c50-477e-beb6-930221851dca",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "عدم امتلاك سجل تجاري ليس استنتاجًا بأنه لا يمكن تشغيل المشروع. يجب الفصل بين:"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "72473d6d-3b3d-4d69-9bcb-8448716fd3be",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "فتح محفظة شخصية."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "e73f377c-8ace-4409-b88d-2221c6443a7e",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "فتح حساب تاجر."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "e18c14d5-cbbf-4d93-a6c9-6be81b0261e4",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "تفعيل Payment Gateway."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "fa793b9d-2336-4267-aa0f-13668b4b35ca",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "الحصول على Merchant API."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "33d38c9c-e29a-4e71-9e8f-a2e5a11d94e4",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "السماح للفرد ببيع خدمات رقمية."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "e9c6845c-f789-43d4-a2a8-017fbf48968d",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "حتى الآن يجب التعامل مع «هل يقبل مزود معين فردًا بلا سجل تجاري للحصول على Merchant API؟» باعتبارها نقطة تحقق خارجية يجب إثباتها كتابيًا من المزود، وليس افتراضًا عامًا."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "1e4d52cd-c250-4fb9-8041-5d62dff2a3b6",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "5. المرشحون للدراسة"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "0ad4e4da-0000-4521-86fc-5c27f3788828",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "الأولوية للتحقق من:"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "b68df788-aa97-487b-b245-b4e96c2a10c4",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Cash Pay"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "12e92fea-6487-49ea-bb5e-51cb80fa250d",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "SabaCash"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-11T18:18:00.000Z"
+  },
+  {
+   "id": "03a9f864-332d-437b-85c1-72acf958fb01",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Jeeb"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "e06a3d69-8402-470f-87ac-227df0d8d9ca",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Floosak"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "89183d63-77ac-4567-bb27-986dd08c14ae",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Jawali"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "b2226bf2-16b7-424a-a7b6-9456f9eafa59",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Mobile Money"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "bfed9eb1-81be-4ca4-8ba6-a6a597b28a38",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Tamkeen"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "c644eb79-2c4f-4dc7-bddf-cd692b2393f2",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "ONE Cash"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "61cff8b8-bda0-4095-a15c-479eb4574f10",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Easy Wallet"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "d1de2c97-235f-4a26-8b68-b53a13cfeb88",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Kuraimi"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "a80b82fa-e75f-41e4-8796-ac472ac36e91",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "WeNet"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "c341a0a9-4818-42f4-86c0-599be69d6462",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "لكل مزود يجب تسجيل:"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "77c436be-ab04-4052-bd80-4e4598097bc6",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Merchant Account"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "b6a80a80-5622-4fd2-bdc0-e016a2f0e001",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "API رسمي"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "7983a0cf-f6c1-40d8-a9b2-eeb59005bed8",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "وثائق API"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "f00c9ed4-ee8c-4907-9555-1f93158912fe",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Payment Request"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "3bf28e3f-6026-49c2-b77d-2360e79fab7e",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Transaction Inquiry"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "64ce3fdf-c117-48b3-a4ed-64465af39f1c",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Webhook / Callback"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "120193c9-6878-47a1-a95a-fabc64c25704",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "QR"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "3bb1237f-df7e-4e83-bd48-dac73e977be4",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Payment Link"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "ccdf4bbf-7da3-437a-afcc-22605067d34d",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "دعم YER"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "8399c60e-c47b-436d-ad13-d56f3eed8497",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "KYC"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "ecf316f2-2042-42f0-94bf-97cba9d9b167",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "شرط السجل التجاري"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "bf8f208b-b2b7-494c-8c51-2181b9c2ad2f",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "قبول الفرد"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "23217cc9-56b5-4e3e-9565-18be72abd96e",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "الرسوم والحدود"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "014d2d0f-bace-4332-8683-3cb691874d6b",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "طريقة التفعيل"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "0dfae0ec-ee14-4a58-ae61-cdca0f37a11c",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "قيود بيع الخدمات الرقمية"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "4077de90-5dbf-4a02-a879-8192c797e676",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "6. الترتيب الأولي — غير نهائي"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "45c8bb03-c49d-428a-8f30-59bc78e88788",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "هذا الترتيب توجيهي فقط، وليس قرارًا نهائيًا قبل التحقق المباشر:"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "84874b29-88af-4494-aad0-25759aa64b5c",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Cash Pay: مرشح أول لأن وجود منتج دفع إلكتروني للتكامل مع المتاجر/التطبيقات واضح، لكن قبول فرد بلا سجل تجاري وWebhook يحتاجان إثباتًا مباشرًا."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "b0c85748-b9c0-48e6-afef-5590e51b0b8f",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Jeeb: مرشح تقني قوي، لكن شروط Merchant للفرد وWebhook تحتاج تحققًا مباشرًا."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-12T21:58:00.000Z"
+  },
+  {
+   "id": "77c2d5a3-06e9-465b-8a06-382eb1ff26cc",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Floosak: مرشح قوي تقنيًا، خصوصًا إذا أمكن إنشاء عملية ذات معرف فريد والتحقق من حالتها برمجيًا؛ تفعيل Merchant للفرد يحتاج إثباتًا رسميًا."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "827c74f2-a05f-4f59-b280-d8e7719e9cd4",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Jawali: مهم بسبب وجود مسار دفع/استعلام إلكتروني؛ عدم وجود Webhook معلن لا يمنع استخدام Inquiry/Polling إن كان متاحًا وموثوقًا."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "a88b24f7-e392-48b5-9f75-a625178de5f5",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Mobile Money / Kuraimi / WeNet: لا تُستبعد، لكن لا تكون نقطة البدء طالما أن المتطلبات التجارية أو المؤسسية قد تكون أثقل."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "8dcdab5a-bb9b-4260-bd67-131f9e253072",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Tamkeen / ONE Cash / Easy / SabaCash: تصلح للدراسة كمنافذ تحصيل أو بدائل، لكن لا يُفترض وجود Merchant API/Webhook دون توثيق."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "4d7c4836-0f22-408b-aded-40f53a1d48cb",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "7. معمارية MVP"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "cfadd4b3-58a3-45e1-a4d6-07e01b9943fd",
+   "type": "code",
+   "has_children": false,
+   "text": [
+    "flowchart TD\n A[Telegram Client] --> B[Telegram Bot]\n B --> C[Product Catalog]\n C --> D[Order Engine]\n D --> E[Payment Request]\n E --> F[Yemen Payment Provider]\n F --> G[Payment Verification]\n G --> H{PAID?}\n H -- No --> G\n H -- Yes --> I[Idempotency Check]\n I --> J[ProdSeller API]\n J --> K[Supplier Result]\n K --> L[Delivery to Telegram]"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "875ca2b7-05b6-467b-8a2b-acee7c378850",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "8. نموذج بيانات الطلب"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "c72f0c9c-d202-485e-945e-0fa072db702b",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "يجب أن يمتلك كل طلب:"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "9d07048e-b3a1-4158-a8d6-233ee4de8c6b",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "order_id داخلي فريد."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "40bb4a19-0e4d-4a87-8fe2-9042f8a6a9fd",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "telegram_user_id."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "aa67065a-eb97-4bf0-9a16-bf94556cf806",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "product_id."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "bb05f1f9-09f0-4efd-813e-94a5608f0da2",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "supplier_price."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "4186d1d3-7003-4794-96e1-cc26002496a0",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "customer_price_yer."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "037ee538-505b-41ec-a801-07cc13a987ba",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "payment_provider."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "aadb95ec-4e6e-4b20-8349-4231b6a42310",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "payment_request_id أو transaction_id."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "1716a600-1b00-41d2-9272-756cadbe3a8f",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "payment_status."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "375c3298-0f71-402b-99fe-317a4121d61c",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "supplier_order_id."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "e1c5586f-b589-4916-a9f7-09bfdd3483da",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "supplier_status."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "572c3074-9727-4d92-b2b8-82bf6262bda2",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "delivery_status."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "8c1d8255-1a14-4b1b-a3a4-c26f32ac8fa9",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "timestamps."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "4603d0ff-3cef-4e87-aae2-4910c036c1a1",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "audit trail."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "abe8ae1a-34f1-4742-acae-43b345589eeb",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "الهدف هو منع الحالات التالية:"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "4b6515a2-d306-439c-8d2d-8370e9294ebd",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "دفع واحد وتنفيذ الطلب مرتين."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "77731546-f233-4835-acd5-c4e50052ee01",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "تنفيذ الطلب قبل التأكد من الدفع."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "01c939cf-05a0-4fb0-a0bd-2d304c17077b",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "نجاح الدفع مع فشل المورد."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "48e4f6fd-b881-4fe8-9e20-e108d803430b",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "نجاح المورد وفشل إرسال النتيجة للعميل."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "d04be62b-9d6f-41e8-9a74-55d25dace25f",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "انتهاء صلاحية الطلب ثم وصول الدفع متأخرًا."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "f4e5ee42-bf98-4d24-8cb8-f8ec2740b3e4",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "9. التسوية مع ProdSeller"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "b8d78487-6ba1-4c6c-bcfb-0d67692cd126",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "يجب الفصل بين مسارين ماليين:"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "357fcd29-34b1-4896-a365-21e8a91ea99e",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "مسار العميل:"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "6bcadbc0-8f36-4687-b380-e8619d7930b8",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "YER → محفظتك/بوابة الدفع اليمنية."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "9ea58370-6051-4534-a4b4-7cfedd594bd7",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "مسار المورد:"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "8d18f14c-eb65-4a64-acef-1dd5ba241b6b",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "رأس مالك التشغيلي → USDT/Binance أو وسيلة التسوية التي يقبلها ProdSeller → رصيد ProdSeller."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "9fc0a277-c430-418b-b6d9-5b8961fe0c41",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "لا يجب استخدام أموال طلب لم يتم تأكيده لتمويل طلب آخر دون وجود محاسبة واضحة للرصيد."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "6cf6bf4e-aecf-4622-9c33-d77fa0ffa77b",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "10. التسعير"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "73813816-b4bb-4f0b-8c10-2df03c8cebc7",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "السعر النهائي ليس supplier_price فقط. يجب احتساب:"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "7c6fd5c6-946f-4722-841a-698d9b5d1bef",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "تكلفة المورد."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "dc4dbce7-8b11-466d-8f30-c9f46af0464a",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "رسوم الدفع المحلي."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "3434f461-b0c6-45d7-b37b-5148e8fb39b9",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "فرق سعر الصرف."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "b86a31b5-86b6-4248-9411-4f658bcd7153",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "احتياطي المرتجعات/الفشل."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "79d7eb55-7f2f-4fc3-9f81-2f8abfd87e76",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "هامش الربح."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "48081585-5911-4752-9bba-08e7417e0466",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "صيغة أولية:"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "aaa6cb32-82a9-4109-9459-de0c116bfbe9",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "سعر البيع = تكلفة المورد + تكلفة الدفع + تكلفة/هامش التحويل + احتياطي المخاطر + الربح."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "34189582-c31c-47ed-8a2b-fdcda9a15206",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "11. نقاط الفشل الواقعية"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "0192c332-ab22-489e-9e7a-aabeadcb8234",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "مزود الدفع قد يقبل الأفراد كمستخدمين لكنه لا يمنحهم Merchant API."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "52589338-b44b-4656-8baa-fba6f50bd3af",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "وجود API لا يعني وجود Webhook."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "958310f0-6d80-461d-9ea6-9391e37ccfda",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "وجود Webhook لا يعني أنه موثوق أو قابل للاعتماد دون تحقق إضافي."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "e806e45e-822e-4f74-885c-a7908b838061",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "QR أو التحويل اليدوي قد يكون مناسبًا للـMVP لكنه لا يكفي كدليل دفع آلي بمفرده."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "fe7a1223-a9da-40f0-9b71-261c51b42302",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "أسعار ProdSeller والمخزون تتغير؛ لا ينبغي تخزين سعر ثابت دون آلية مزامنة."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "0f9cb879-69e2-4b1c-a5e3-bdea77585506",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "المورد قد يسلم الطلب بعد تأخير أو يعيد حالة فشل؛ Order Engine يجب أن يكون قابلًا لإعادة المحاولة بأمان."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "44978c63-7ccf-41a0-a531-ffef43c98e49",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "بعض الخدمات الرقمية قد تكون لها شروط استخدام أو قيود إعادة بيع؛ يجب فحص شروط المورد والمنتج قبل تشغيله تجاريًا."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "cfc852ef-aebd-4f02-bb0a-fdd18e529cfa",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "التعامل مع أموال العملاء قد يفرض متطلبات تنظيمية لا يحسمها مجرد امتلاك محفظة شخصية."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "46f45648-dcbe-4a3c-a7e2-11431e38d789",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "P2P/USDT طبقة تسوية وليس بوابة دفع العميل."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "dab8040b-de69-461e-8016-b06ecb353955",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "API Keys والأسرار يجب ألا تدخل Notion أو الرسائل أو Git."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "b1591cc4-8de1-432d-896f-0f6edab51661",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "12. استراتيجية التنفيذ"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "e09bd6d9-590e-416f-93a3-bca29b9847d0",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "المرحلة 0 — تحقق الجدوى:"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "e551afe8-5663-427b-a85c-cedb4c8705dd",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "احصل على إجابة مباشرة من 3–4 مزودي الدفع عن Merchant API + Inquiry/Webhook + قبول الفرد بلا سجل تجاري + بيع الخدمات الرقمية."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "8278e8a4-1bd9-4609-8e57-043a1be34f0b",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "المرحلة 1 — MVP:"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "7d74c8bf-c16a-448c-af49-6927f5af274d",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "محفظة واحدة + Telegram Bot + تحقق دفع واحد + ProdSeller API + تسجيل الطلبات."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "0a7b096a-092d-4e60-88a6-0f330be4e0ff",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "المرحلة 2 — أتمتة:"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "e730c2a3-04a2-4079-8c0d-b3dbe3da862a",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Webhook إن توفر، وإلا Polling موثوق، مع Idempotency وRetries وAudit Logs."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "270864ea-7cd4-439f-9522-66c6622adb09",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "المرحلة 3 — التوسع:"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "4f1ec644-df3a-4c63-98de-5ebdb5b37827",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "إضافة مزود دفع احتياطي وإدارة أسعار ومخزون ProdSeller مركزيًا."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "39fcf122-7722-49b9-929e-d87093e04e56",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "13. السؤال الحاسم الذي يجب أن يجيب عنه البحث الخارجي"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "08a6a5a6-f919-4e2e-a7aa-55785df5391f",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "«ما أفضل مزود دفع في اليمن لشخص/مشروع صغير لا يملك سجلًا تجاريًا، ويحتاج استقبال YER من عملاء Telegram ثم التحقق البرمجي من الدفع وتنفيذ الطلب عبر ProdSeller API؟»"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "fc98ab39-3ba6-4c52-9d43-7488af402ebf",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "الحكم النهائي يجب أن يبنى على الأدلة الرسمية، لا على شهرة المحفظة."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "0a0d69d3-8e18-45d3-b17d-49c96ab1333b",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "14. ما تم التحقق منه في Notion"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "65710123-69f5-4b8b-ac04-119334add244",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "تمت مراجعة مساحة Notion بحثًا عن آثار مباشرة لهذا المشروع باستخدام كلمات مرتبطة بـTelegram والدفع والتجارة الإلكترونية. توجد صفحات ومشاريع أخرى تتناول Telegram والدفع والبنوك الرقمية والتجارة، لكن لم يظهر حتى الآن مستند مخصص لمشروع ProdSeller + تحصيل YER عبر محفظة يمنية. من ذلك يتضح أن هذا المشروع يحتاج صفحة مرجعية مستقلة بدل خلطه مع المشاريع الأخرى. تظهر في المساحة صفحة عن البنوك الرقمية، وصفحات عن مشاريع Telegram مختلفة، لكنها ليست هذه المواصفة. fileciteturn5file0L2-L11 fileciteturn4file0L2-L12"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "3c70a4d1-c949-428d-871d-ed49ede32b63",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "15. حالة القرار الحالية"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "8c76f5f1-a49d-4e78-b023-e026348c9559",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "الحالة: DISCOVERY / UNVERIFIED (بلا تغيير جوهري حتى 2026-09-13)"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-12T21:48:00.000Z"
+  },
+  {
+   "id": "081ccb85-4058-4d41-8e56-61b4fdad43ae",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "لا يوجد قرار نهائي بشأن محفظة الدفع حتى يتم توثيق أربعة شروط:"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "7dcdedd5-6d6d-4068-b435-5a79c3a56155",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "قبول الحساب للفرد في هذا الاستخدام."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "7edf53cd-5d9c-48ac-bc8a-9e3cef13c7d2",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "تفعيل Merchant/API."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "be85bc7c-6e3a-4a7e-8542-8df707e31805",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "وجود Inquiry أو Webhook فعلي."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "e58666bd-d151-48a0-a801-7d87330ffcd8",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "السماح باستخدام الخدمة لتحصيل قيمة الخدمات الرقمية."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "6813c4ba-2889-4edb-b2d3-498fb2f5685c",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "تحديث حي (Live Log):"
+   ],
+   "created": "2026-09-12T21:48:00.000Z",
+   "edited": "2026-09-12T21:48:00.000Z"
+  },
+  {
+   "id": "9e2d603d-fcdb-48bf-b17e-46561c2063bd",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "تم إرسال استفسار رسمي فعلي إلى جوالي (info@wejawali.com) بتاريخ 2026-09-08 — ارتد فورًا (bounce، نطاق غير موجود)."
+   ],
+   "created": "2026-09-12T21:48:00.000Z",
+   "edited": "2026-09-12T21:48:00.000Z"
+  },
+  {
+   "id": "2da5e2b5-5480-4144-a3d4-776f47d5e03d",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "تم تصحيح الإرسال إلى info@jawali.com.ye بنفس اليوم — لم يرتد، ولا يوجد رد حتى 2026-09-13 (٥ أيام). لا يُعتبر عدم الارتداد دليل تسليم، فقط غياب رفض فوري."
+   ],
+   "created": "2026-09-12T21:48:00.000Z",
+   "edited": "2026-09-12T21:48:00.000Z"
+  },
+  {
+   "id": "d844e718-786c-433d-a52d-a1de6f2b0ad0",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "تم تجهيز مسودات (بلا عنوان مؤكد) لثمانية مزودين إضافيين: كاش/تمكين، الكريمي، موبايل موني/CAC، سبأكاش، ون كاش، فلوسك، القطيبي، بنك الأمل — بانتظار الحصول على عنوان بريد صحيح عبر اتصال هاتفي مباشر."
+   ],
+   "created": "2026-09-12T21:48:00.000Z",
+   "edited": "2026-09-12T21:48:00.000Z"
+  },
+  {
+   "id": "530d61eb-c79b-4e50-b315-8c90a2b03ed6",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "خلاصة حتى الآن: لا يوجد أي مزود أثبت أيًا من الشروط الأربعة أعلاه. الحالة تبقى DISCOVERY/UNVERIFIED فعليًا، وليست BLOCKED فقط بسبب انتظار الرد — بل لأن لا قناة تواصل مؤكدة تصل لصانع قرار تقني/تجاري لدى 8 من 9 مزودين مُتصل بهم."
+   ],
+   "created": "2026-09-12T21:48:00.000Z",
+   "edited": "2026-09-12T21:48:00.000Z"
+  },
+  {
+   "id": "25f5327b-16a3-4918-8136-d735cae0fa66",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "16. قاعدة أدلة"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "2c313bd3-fb56-4b12-bd39-2db88cd4c0da",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "PROVEN: مثبت من مصدر رسمي أو تجربة تنفيذية يمكن إعادة إنتاجها."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "b04b6d1c-8934-49a8-a337-26867977aa08",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "PARTIALLY PROVEN: توجد دلائل قوية لكن أحد عناصر التكامل غير مثبت."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "c0e91bde-a2b6-402a-99ec-005e39956666",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "UNVERIFIED: لم يوجد دليل كافٍ."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "d8924a31-66b7-478b-9c49-3a630b30e3ca",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "INFERENCE: استنتاج تحليلي وليس حقيقة خارجية."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "48e03d4f-0382-4895-9ff7-afecedb3f73e",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "أي معلومة مالية أو تنظيمية قابلة للتغير يجب إعادة التحقق منها قبل تحويلها إلى قرار تنفيذي."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "e3ef11b8-a184-40d9-a94a-625914068a9c",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "17. البيانات الحساسة"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "5c8318ef-cb18-4a32-9356-b83460028b82",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "لا تُخزن API Keys أو كلمات المرور أو مفاتيح الدفع أو أسرار Telegram أو Binance داخل هذه الصفحة. يجب استخدام placeholders فقط، وتخزين الأسرار في Secret Manager أو متغيرات بيئة."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "e5738a8a-476a-4470-9d16-a29b9588ab49",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "18. الخطوة التالية المعتمدة"
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "732dd7cf-4a3b-41c0-b539-ab4234e0c79d",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "الحصول على ردود موثقة من Cash Pay وJeeb وFloosak وJawali، ثم بناء مصفوفة قرار نهائية واختيار مزود واحد للـMVP، مع تصميم عقدة Payment Adapter بحيث يمكن تبديل مزود الدفع لاحقًا دون إعادة بناء Order Engine أو تكامل ProdSeller."
+   ],
+   "created": "2026-09-07T19:23:00.000Z",
+   "edited": "2026-09-07T19:23:00.000Z"
+  },
+  {
+   "id": "2ac183c7-3c95-424c-ba4a-ab29b0b5f389",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "تحديث تنفيذي (2026-09-13): بريد جوالي الفعلي ارتد ثم أُعيد إرساله لعنوان مصحح، بلا رد حتى الآن. لم يُعثر على أي بريد مؤكد لـ 8 من 9 مزودين إضافيين (كاش، الكريمي، موبايل موني، سبأكاش، ون كاش، فلوسك، القطيبي، بنك الأمل) — الخطوة الوحيدة المتبقية فعليًا هي اتصال هاتفي مباشر بهذه الجهات للحصول على رد مكتوب على الشروط الأربعة، لأن البحث المكتبي وحده أثبت أنه لا يكفي مع هذه الجهات."
+   ],
+   "created": "2026-09-12T21:48:00.000Z",
+   "edited": "2026-09-12T21:48:00.000Z"
+  },
+  {
+   "id": "8cf5e966-c4f6-438d-a2c5-ae3687453218",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "Bilingual Project Record / السجل ثنائي اللغة"
+   ],
+   "created": "2026-09-11T18:15:00.000Z",
+   "edited": "2026-09-11T18:15:00.000Z"
+  },
+  {
+   "id": "a34d4221-4803-479a-a47e-85234fe42295",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "English — Project Definition"
+   ],
+   "created": "2026-09-11T18:15:00.000Z",
+   "edited": "2026-09-11T18:15:00.000Z"
+  },
+  {
+   "id": "ef59896a-b188-4548-ae1a-a24472d66a28",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "This project is a Telegram-based digital services commerce system for customers in Yemen. Telegram is the customer interface; a Yemeni payment provider is the local collection layer for YER; ProdSeller is a backend supplier accessed through its API. Customer payment collection and supplier balance funding are separate financial flows."
+   ],
+   "created": "2026-09-11T18:15:00.000Z",
+   "edited": "2026-09-11T18:15:00.000Z"
+  },
+  {
+   "id": "2dbea2ef-cf1d-47ad-92e4-29684cbb0a0a",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "The target transaction is:"
+   ],
+   "created": "2026-09-11T18:15:00.000Z",
+   "edited": "2026-09-11T18:15:00.000Z"
+  },
+  {
+   "id": "f1ab5b5c-4042-4851-84e5-8647927a2f08",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Customer → Telegram Bot → Product Selection → Order Creation → YER Payment → Payment Verification → ProdSeller API → Supplier Result → Customer Delivery."
+   ],
+   "created": "2026-09-11T18:15:00.000Z",
+   "edited": "2026-09-11T18:15:00.000Z"
+  },
+  {
+   "id": "26abc899-0b3e-4a3a-9dc2-a2a338091582",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "The supplier-settlement flow is separate:"
+   ],
+   "created": "2026-09-11T18:15:00.000Z",
+   "edited": "2026-09-11T18:15:00.000Z"
+  },
+  {
+   "id": "6320831b-3f70-4111-809d-24ceb24a479f",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Operating Capital → USDT/Binance or another method accepted by ProdSeller → ProdSeller Balance."
+   ],
+   "created": "2026-09-11T18:15:00.000Z",
+   "edited": "2026-09-11T18:15:00.000Z"
+  },
+  {
+   "id": "da8bfa6b-aab7-4e20-b919-1b8ce16e640f",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "The payment provider must be replaceable. A Webhook/Callback is preferred, but a reliable Transaction Inquiry/Status API with controlled polling is acceptable for the MVP. A personal wallet account must never be assumed to grant merchant/API privileges. Merchant eligibility, KYC, commercial-registration requirements, digital-goods restrictions, fees, limits, and technical capabilities must be verified with authoritative evidence."
+   ],
+   "created": "2026-09-11T18:15:00.000Z",
+   "edited": "2026-09-11T18:15:00.000Z"
+  },
+  {
+   "id": "c0e57ff7-321a-466c-b1ba-34149b723d74",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "The system must protect against duplicate payments, duplicate supplier orders, late payments, wrong amounts, provider timeouts, supplier failures, Telegram delivery failures, and inconsistent intermediate states. Every order needs a unique internal order ID, payment transaction reference, supplier order reference, explicit state transitions, idempotency controls, retries where safe, and an audit trail."
+   ],
+   "created": "2026-09-11T18:15:00.000Z",
+   "edited": "2026-09-11T18:15:00.000Z"
+  },
+  {
+   "id": "fa18fa01-085e-4e98-b5c5-792a1bd455eb",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "العربية — تعريف المشروع"
+   ],
+   "created": "2026-09-11T18:15:00.000Z",
+   "edited": "2026-09-11T18:15:00.000Z"
+  },
+  {
+   "id": "73461ff5-a0ba-4c93-bb73-c43bc5706b63",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "المشروع عبارة عن نظام تجارة لبيع الخدمات والمنتجات الرقمية عبر Telegram للعملاء في اليمن. يكون Telegram واجهة العميل، ويكون مزود دفع يمني طبقة تحصيل الريال اليمني، بينما يكون ProdSeller موردًا خلفيًا يتم الوصول إليه عبر API. ويجب فصل تحصيل أموال العملاء عن تمويل رصيد المورد."
+   ],
+   "created": "2026-09-11T18:15:00.000Z",
+   "edited": "2026-09-11T18:15:00.000Z"
+  },
+  {
+   "id": "61bbacdf-e2e1-4fe3-9397-be16f597ffdf",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "مسار الطلب المستهدف:"
+   ],
+   "created": "2026-09-11T18:15:00.000Z",
+   "edited": "2026-09-11T18:15:00.000Z"
+  },
+  {
+   "id": "4d01a536-8aea-46b3-8a1a-1e1cbd916c1d",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "العميل → بوت Telegram → اختيار المنتج → إنشاء الطلب → الدفع بالريال اليمني → التحقق من الدفع → ProdSeller API → نتيجة المورد → تسليم المنتج للعميل."
+   ],
+   "created": "2026-09-11T18:15:00.000Z",
+   "edited": "2026-09-11T18:15:00.000Z"
+  },
+  {
+   "id": "09b6a85e-1cb0-45ff-929c-aab3e9035874",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "ومسار تمويل المورد منفصل:"
+   ],
+   "created": "2026-09-11T18:15:00.000Z",
+   "edited": "2026-09-11T18:15:00.000Z"
+  },
+  {
+   "id": "c352184a-18eb-4a19-8ac1-0241c824e8a8",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "رأس مال تشغيلي → USDT/Binance أو وسيلة أخرى يقبلها ProdSeller → رصيد ProdSeller."
+   ],
+   "created": "2026-09-11T18:15:00.000Z",
+   "edited": "2026-09-11T18:15:00.000Z"
+  },
+  {
+   "id": "72948e8a-88b6-41d8-bacc-8bdf42fb7df9",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "يجب أن يكون مزود الدفع قابلًا للاستبدال. ويفضل Webhook/Callback، لكن يمكن استخدام Transaction Inquiry/Status API مع Polling منضبط وموثوق في مرحلة MVP. لا يجوز افتراض أن المحفظة الشخصية تمنح صلاحيات التاجر أو API. يجب إثبات أهلية التاجر، ومتطلبات KYC والسجل التجاري، وقيود بيع الخدمات الرقمية، والرسوم والحدود والقدرات التقنية بمصادر موثوقة."
+   ],
+   "created": "2026-09-11T18:15:00.000Z",
+   "edited": "2026-09-11T18:15:00.000Z"
+  },
+  {
+   "id": "f9dfff53-9421-4b2e-8a05-84c0d8a4b0bd",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "يجب حماية النظام من تكرار الدفع، وتكرار تنفيذ الطلب لدى المورد، والدفع المتأخر، والمبالغ الخاطئة، وانتهاء المهلة، وفشل المورد، وفشل تسليم Telegram، وحالات الحالة غير المتسقة. ويجب أن يمتلك كل طلب معرفًا داخليًا فريدًا، ومرجع عملية الدفع، ومرجع طلب المورد، وانتقالات حالة واضحة، وضوابط Idempotency، وآليات Retry آمنة عند الحاجة، وسجل تدقيق."
+   ],
+   "created": "2026-09-11T18:15:00.000Z",
+   "edited": "2026-09-11T18:15:00.000Z"
+  },
+  {
+   "id": "e80b92e9-69f7-4422-a424-6e6c910dca6e",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "Project Adversarial Audit & Remediation — English Master Prompt"
+   ],
+   "created": "2026-09-11T18:15:00.000Z",
+   "edited": "2026-09-11T18:15:00.000Z"
+  },
+  {
+   "id": "be61edd6-a87f-4833-aa13-3fb97652f1fb",
+   "type": "code",
+   "has_children": false,
+   "text": [
+    "Act as a Principal Software Architect, Senior Systems Analyst, Security Engineer, Backend/API Engineer, DevOps/SRE Engineer, QA Engineer, and Business Systems Analyst.\n\nYour task is to perform an adversarial, evidence-driven audit of the current project, reconcile the actual implementation with the specifications and decisions recorded in Notion, identify defects and gaps, remediate what can be safely remediated, and prove the resulting state with tests and evidence.\n\n## 1. Source-of-Truth Hierarchy\n\nEstablish reality from evidence, not assumptions.\n\nPriority:\n1. Actual repository code and database/migration state.\n2. Git history, branches, pull requests, CI/CD and workflow results.\n3. Automated tests and their actual outputs.\n4. Runtime, deployment and production evidence.\n5. Notion specifications, decisions, requirements, incidents and historical context.\n6. Authoritative external documentation for external providers and platform rules.\n\nDo not treat Notion as proof that a feature exists.\nDo not treat code as proof that a documented requirement is still correct.\nWhen sources conflict, explicitly classify each statement as Reality, Intended Specification, Historical Decision, Unverified Assumption, or External Dependency.\nNever invent missing facts.\n\n## 2. Repository and Environment Discovery\n\nBefore changing anything, inspect:\n- repository identity and active branch\n- git status and recent commits\n- remotes and relevant branches\n- pull requests and workflow runs\n- project structure\n- dependency manifests\n- environment/configuration handling\n- database schema and migrations\n- API routes and integrations\n- authentication and authorization\n- logging and error handling\n- tests\n- deployment configuration\n- documentation\n\nBuild an accurate current-state model before making modifications.\n\n## 3. Notion Review\n\nReview the Notion workspace for all material related to this project, including:\n- project specification\n- architecture\n- requirements\n- decisions and history\n- acceptance criteria\n- open questions\n- previous audits\n- incidents\n- implementation notes\n- deployment/readiness notes\n- Telegram, payment, ProdSeller and commerce-related project records\n\nStart from the current project page:\n\"مشروع بيع الخدمات الرقمية عبر Telegram — Payment Architecture & ProdSeller\"\n\nAlso inspect related or historical pages when they materially affect the current implementation.\n\n## 4. Evidence Matrix\n\nFor every important requirement or decision, record:\nRequirement → Expected Behavior → Notion Evidence → Code Evidence → Test Evidence → Runtime Evidence → Status.\n\nUse only these statuses:\nPROVEN\nPARTIALLY PROVEN\nUNVERIFIED\nCONTRADICTED\nMISSING\nBLOCKED\n\nDo not use \"complete\", \"ready\", or equivalent wording without sufficient evidence.\n\n## 5. Adversarial Architecture Review\n\nActively try to break the system.\n\nInspect:\n- separation of responsibilities\n- coupling and hidden dependencies\n- single points of failure\n- state consistency\n- concurrency and race conditions\n- retry safety\n- idempotency\n- extensibility\n- provider abstraction\n- unnecessary coupling between Telegram, payment providers and ProdSeller\n\nThe payment provider must remain replaceable.\n\n## 6. Payment System Review\n\nValidate the complete flow:\nCustomer → Telegram Bot → Product → Order → YER Price → Payment → Verification → Supplier Execution → Delivery.\n\nTest or reason about:\n- duplicate payment\n- duplicate webhook/callback\n- late payment\n- wrong amount\n- unknown transaction\n- provider timeout\n- supplier timeout\n- supplier rejection\n- Telegram delivery failure\n- database failure\n- concurrent checkout\n- concurrent retry\n- partially completed transaction\n\nA Webhook/Callback is preferred but is not mandatory if a reliable Transaction Inquiry/Status API can safely support controlled polling.\n\nDo not assume:\n- a personal wallet can be used as a merchant account\n- a merchant account includes API access\n- an API includes Webhooks\n- a QR payment is automatically verifiable\n- a provider accepting individuals for wallets also accepts individuals for merchant/API services\n\n## 7. ProdSeller Integration Review\n\nVerify:\n- authentication and secret handling\n- product retrieval\n- price handling\n- stock handling\n- order creation\n- supplier order IDs\n- supplier status handling\n- timeout behavior\n- retries\n- idempotency\n- reconciliation\n- delivery of supplier results\n\nTreat ProdSeller as a backend supplier, not as the customer-facing payment layer.\n\nSupplier funding is a separate financial flow from customer collections.\n\n## 8. Security Review\n\nSearch for:\n- API keys\n- bot tokens\n- passwords\n- credentials\n- secrets in source control\n- secrets in Notion\n- sensitive logs\n- insecure environment handling\n- authorization flaws\n- webhook spoofing\n- replay attacks\n- missing signature verification\n- unsafe input handling\n- SQL injection\n- command injection\n- SSRF\n- sensitive-data exposure\n\nNever print or reproduce real secrets. If one is exposed, identify the exposure without revealing the value and recommend rotation.\n\n## 9. Database and State-Machine Review\n\nValidate:\n- schema integrity\n- uniqueness constraints\n- foreign keys\n- indexes\n- transaction boundaries\n- payment/order/supplier state consistency\n- audit trail\n- migration correctness\n\nEvery order must have at minimum:\n- internal unique order ID\n- Telegram user ID\n- product ID\n- supplier cost\n- customer YER price\n- payment provider\n- payment request/transaction ID\n- payment status\n- supplier order ID\n- supplier status\n- delivery status\n- timestamps\n- audit trail\n\nPrevent duplicate supplier fulfillment from retries or duplicated payment notifications.\n\n## 10. Pricing and Business Logic Review\n\nVerify that pricing can account for:\nSupplier cost + payment fees + exchange effects + risk reserve + profit.\n\nDo not assume supplier prices or stock remain static.\nCheck whether synchronization is required.\n\n## 11. Production Readiness\n\nAudit:\n- environment separation\n- secrets management\n- migrations\n- monitoring\n- health checks\n- backups\n- rollback\n- retries and timeouts\n- rate limiting\n- dependency failure behavior\n- deployment process\n- CI/CD gates\n\nProduction readiness must be evidence-based.\n\n## 12. Remediation\n\nClassify findings:\nP0 = critical security or operation blocker\nP1 = major functional/financial defect\nP2 = significant operational/engineering defect\nP3 = non-critical improvement\n\nFix P0 first, then P1, then P2 when within scope.\nDo not expand the product unnecessarily.\nAfter every fix:\n- run targeted tests\n- run relevant regression tests\n- inspect the diff\n- verify the resulting behavior\n\nDo not claim a defect is fixed because the code merely looks correct.\n\n## 13. Scope Protection\n\nDo not redesign correct working parts for stylistic reasons.\nDo not change business rules, product scope, external providers, database architecture, or established decisions unless evidence shows a defect, security problem, contradiction, failed requirement, or justified decision change.\n\nWhen an external dependency requires access or approval that is unavailable, classify the item as BLOCKED rather than inventing a workaround.\n\n## 14. Git and Change Discipline\n\nBefore changes:\n- confirm clean/known git state\n- establish baseline\n\nDuring changes:\n- keep changes focused\n- preserve unrelated work\n- do not expose secrets\n- do not delete data or files without necessity\n\nAfter changes:\n- run tests\n- review git diff\n- review git status\n- perform regression review\n\nUse available GitHub capabilities freely for repository operations, branches, pull requests and workflows when authorized. Do not assume permissions that are not actually available.\n\n## 15. Notion Drift Analysis\n\nCompare Notion with the actual implementation.\nIdentify:\n- requirements documented but not implemented\n- implemented behavior not documented\n- obsolete decisions\n- unsupported assumptions\n- open questions\n- externally blocked dependencies\n\nDo not rewrite Notion merely to make it agree with the code. First distinguish Reality, Intended State and Decision Needed.\n\n## 16. Final Deliverable\n\nReturn results in this exact structure:\n\nA. Executive Verdict\nB. Current Reality Audit\nC. Evidence Matrix\nD. Gap Register\nE. Security Findings\nF. Payment/System Findings\nG. ProdSeller Integration Findings\nH. Telegram Findings\nI. Database and State-Machine Findings\nJ. Pricing/Business Logic Findings\nK. CI/CD and Production Readiness\nL. Notion Drift\nM. Changes Made\nN. Verification and Test Results\nO. Remaining Risks and External Blockers\nP. Final Status\n\nFor every finding include evidence, impact, root cause, recommended or implemented fix, and verification status.\n\nFinal Status must be exactly one of:\nGREEN = sufficient evidence for operation within defined scope\nYELLOW = operational but material risks or unverified areas remain\nRED = major defect or safety issue prevents confidence\nBLOCKED = external dependency prevents completion of a required validation or action\n\nNever claim \"everything is fixed\" or \"fully production ready\" unless the evidence genuinely supports that conclusion.\n\nStart with discovery and audit. Continue through remediation and verification without waiting for approval unless a real external blocker, destructive action, production-impacting change, or business decision requires explicit human authorization."
+   ],
+   "created": "2026-09-11T18:15:00.000Z",
+   "edited": "2026-09-11T18:15:00.000Z"
+  },
+  {
+   "id": "4b0c380f-75bf-4038-9717-bf92c446b47c",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "PDF Review — ProdSeller Supplier Store"
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "25f04b96-3031-4875-ba1e-ef1b24e9bd55",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "English — Evidence-Based Review"
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "859720bb-d90d-4d18-8dc3-a5933e07af21",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "The attached 39-page PDF is a visual evidence pack of the ProdSeller supplier bot. The screenshots show the supplier catalog, product descriptions, prices, stock indicators, bulk discounts, deposit methods, profile/orders, API access, referral program, support, and language settings."
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "765c9fab-e398-4bee-8d2b-958d6fbd18aa",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "Confirmed from the screenshots"
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "25cf4e92-c2b8-452b-afce-1512717fbda8",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "ProdSeller provides an API access area specifically stating that the API key can be used to sell available products through the user's own bot or website."
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "2a9c54b9-4833-4016-8d7f-e35bb3f205bb",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "The deposit menu shown in the screenshots contains Binance Pay, CryptoBot (USDT), and USDT BEP20 on BNB Smart Chain."
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "49fb7230-e395-45b3-bd31-f8ecf0d1f1e2",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Product stock and prices are displayed per product and can change; therefore the store must treat supplier price/stock as dynamic data."
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "c2e3ae7e-3e88-4d4b-bab9-a5fc7cd97648",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Several products have different fulfillment models: account credentials, activation/redeem links, invite/admin access, keys, and account-based subscriptions."
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "0a13b12d-7766-4496-a439-f4c7cab97ebb",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Some products show bulk pricing, which may materially change unit economics."
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "daa6a516-4ac7-4e08-8fe6-7f96786979e6",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "The catalog includes products with potentially sensitive or policy-dependent access models, including email accounts, streaming accounts, educational plans, student licenses, and account credentials."
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "6e78be32-63d5-4bb7-abff-f944f6b1a1be",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "Critical findings"
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "477c8d5c-9ec2-4565-a485-d4e153fb41db",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Supplier integration feasibility: The PDF supports the existence of a ProdSeller API intended for resale, but it does not by itself prove the complete API contract. The actual API documentation must be inspected before implementation."
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "8ad9c80e-2322-468e-a7cd-0da6ec5a1596",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Dynamic catalog: Prices and stock shown in the PDF must not be hard-coded as permanent values."
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "d03df6a2-c68f-447d-ab40-78999be56521",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Product-risk segmentation is mandatory: Products should be classified before publication. High-risk categories include third-party accounts/credentials, educational or student plans, shared/full-access accounts, and products whose resale rights are unclear."
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "1a2280c4-2c7b-4ef0-ad43-3f48a849d617",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Fulfillment-model abstraction is required: The store should support at least key delivery, redeem/activation link, invite/admin access, and credential-based delivery as distinct fulfillment types."
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "40d91f55-aa08-4109-b1f4-f34965feb98c",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Customer disclosure: The store must clearly state what the buyer receives, warranty period, access model, and any restrictions before payment."
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "c06ca997-ac32-44f9-9cdb-057cc9082e36",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Warranty/refund state: Supplier warranty periods vary by product; the order model must record product-specific warranty rules rather than using one global warranty."
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "883cf8a8-125a-4263-9f06-7deb87f80ae0",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Supplier reliability: The order engine must handle supplier timeout, delayed fulfillment, out-of-stock conditions, and ambiguous API responses."
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "aa5ba8d4-571e-44ba-a8fe-26c7e027cad9",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Security: Never place the ProdSeller API key in the frontend, Notion, source control, logs, or customer-facing messages."
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "a1a58ac6-1233-47e1-b3f9-44ad5da4196b",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "Notion reconciliation"
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "a21b32cc-33db-4b1e-b5bd-136f03d56b2f",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "The current Notion project brief is consistent with the core supplier architecture: Telegram is the customer interface, the local Yemeni payment provider is the collection layer, and ProdSeller is the downstream supplier. The PDF adds an important missing dimension: product/fulfillment risk classification must become an explicit part of the store design."
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "a347a7ef-1207-4c8f-bf2e-cff63aeeae0f",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "Recommended store architecture"
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "b55a1b97-fad8-4406-a310-80140770f81d",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Telegram Bot → Catalog → Product Eligibility Check → Price/Stock Refresh → Order → Local Payment → Verified Payment → Idempotency Gate → ProdSeller API → Fulfillment Adapter → Delivery → Warranty/Audit Record."
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "4f3c3604-536f-4589-ac42-10e0573fb95d",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "العربية — مراجعة ملف المورد"
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "da7d2155-7ba6-4af5-bf66-a2c9b563fe9c",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "الملف المرفق يتكون من 39 صفحة مصورة من بوت ProdSeller، ويعرض الكتالوج والمنتجات والأسعار والمخزون والخصومات والودائع وواجهة API والطلبات والدعم والإحالة واللغات."
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "48c73ab7-24d7-4843-ad47-2d4f7e12a94f",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "ما تؤكده الصور"
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "66800cea-8c0a-400f-bd8c-dd8e3f6d9f6a",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "يوجد قسم API واضح يذكر استخدام مفتاح API لبيع المنتجات عبر بوت أو موقع خاص بالمستخدم."
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "dfc8edf6-ef03-40e9-9f75-74e08b2ce9c9",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "وسائل الإيداع الظاهرة: Binance Pay وCryptoBot بعملة USDT وUSDT BEP20 على شبكة BNB Smart Chain."
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "b6e8cf80-b27a-4c74-9ca1-5b7411625ebe",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "الأسعار والمخزون يظهران على مستوى المنتج ويتغيران، لذلك لا يجوز اعتبار البيانات الظاهرة ثابتة."
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "142b917c-bce2-4ead-a6a3-573470e98293",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "المنتجات تستخدم نماذج تسليم مختلفة: مفاتيح، روابط تفعيل/استرداد، دعوات وإدارة، بيانات دخول وحسابات."
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "0a0e479c-45b4-414a-8695-a097c5b8566a",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "توجد أسعار جملة لبعض المنتجات، ما يؤثر في هامش الربح."
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "b6439059-e896-4f0d-955a-39e6f47ace7c",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "توجد منتجات تتطلب حذرًا خاصًا، مثل حسابات البريد والحسابات ذات الوصول الكامل والخطط التعليمية/الطلابية وبيانات الدخول."
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "7d5d0f0a-b873-46bf-841b-3b37d17a62a8",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "الاستنتاجات الحرجة"
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "1ce01454-b12f-49b9-83b8-5bf1caa9f14b",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "الملف يثبت وجود واجهة API موجهة لإعادة البيع، لكنه لا يثبت بمفرده تفاصيل عقد API؛ يجب فحص وثائق API الفعلية."
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "c8cf00de-88b7-464f-904f-52669be00f2e",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "السعر والمخزون بيانات ديناميكية ويجب جلبهما/مزامنتهما قبل البيع."
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "ac1bc541-bb41-4438-963b-8f97db912c63",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "يجب تصنيف المنتجات قبل نشرها، مع استبعاد أو تعليق المنتجات التي تكون حقوق إعادة بيعها أو شروط استخدامها غير واضحة."
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "69959e59-ceb3-4d21-acd5-fd57b364d7f3",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "يجب تصميم النظام وفق نوع التسليم، وليس وفق اسم المنتج فقط."
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "c4a9fcd3-1870-4374-b4af-b30afdfb11c3",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "يجب إظهار ما سيستلمه العميل ومدة الضمان وطريقة الوصول والقيود قبل الدفع."
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "1bcf06f4-1bbe-46bf-bc4c-0fe989ff7dd6",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "مدة الضمان تختلف حسب المنتج، لذلك يجب تخزينها لكل منتج."
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "d278e140-596b-4813-9bd1-1c68ec7d2c30",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "يجب التعامل مع فشل المورد والتأخير والنفاد والاستجابة الغامضة بأمان."
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "4b7738ef-3131-4479-9964-a08e7d0288af",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "مفتاح ProdSeller API سر تشغيلي ولا يوضع في Notion أو Git أو السجلات أو واجهة العميل."
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "80989428-696f-45ad-8b42-3b49a0252683",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "إضافة مطلوبة للمشروع"
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "aac2b274-f3e1-4273-a75c-b3d1a92d341b",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "أصبح من الضروري إضافة Product Eligibility & Fulfillment Risk Layer إلى تصميم المتجر قبل إطلاق الكتالوج."
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "e1ae9db1-1ea9-4850-bb89-ad0749b6300f",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "Store Naming Shortlist"
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "b2f3562b-3263-4b01-ba37-839c9f78b009",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "English"
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "5ca57b19-6ee9-4b22-ae8c-820ed31ca869",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Wasla — وصلة"
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "4b374b3e-1264-49bf-b2c4-e1919c28097f",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Madar — مدار"
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "5f061865-7c82-4480-8fc1-598b793f3470",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Nawa — نواة"
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "8594205e-d310-450b-856b-782222610c40",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Riwaq — رواق"
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "b6828e81-d13b-4e95-88b9-37d9a3cb08ce",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Rafad — رفد"
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "16be2cf7-4ed4-4d55-b242-6b88ca1ab0d7",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Athar — أثر"
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "693fd507-a767-4c15-8c87-90b220aae9a5",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Deem — ديم"
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "8bce4a29-6ae4-4220-be84-05fe4fc770ba",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Majra — مجرى"
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "9845e323-4072-496a-9add-3150930a93ef",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Midad — مداد"
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "d7de44ab-cd9b-48a8-a7c9-da15344750e4",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Tashkeel — تشكيل"
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "37ab1032-12bd-49f4-bc22-62ebd4334659",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Names are preliminary brand candidates only. Domain, Telegram handle, trademark, and commercial-name availability must be checked before adoption."
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "8ce8844e-63c9-4beb-a87a-1f287e77e08f",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "العربية"
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "b1a38ad1-f81d-4423-ba57-15c53381b459",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "وصلة"
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "222f012f-0cd7-4d72-952a-ccd2894f2f0e",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "مدار"
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "40807aeb-cdb6-47bf-8908-1cf2295e6df5",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "نواة"
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "6c66f8d9-c404-4cd5-820c-1c197ac955e4",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "رواق"
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "c0f214a7-9ae0-463e-a513-dd7df67d02c2",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "رفد"
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "636a3c9e-cd9a-4fdb-9e41-c54fb1a6816b",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "أثر"
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "61235475-1cc2-49e4-b053-54fba5bb0156",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "ديم"
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "e274fdc2-0ebd-4f66-8fc7-be78281b4c2f",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "مجرى"
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "9832ab9a-b01c-4c42-b86c-484a3463d912",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "مداد"
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "5773a621-62b7-4213-863a-c21aa6193657",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "تشكيل"
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "6f15be34-f4f7-4734-9ea1-e7ee48b9e655",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "هذه أسماء أولية للهوية فقط، ويجب فحص توفر الاسم التجاري والدومين ومعرف Telegram والعلامة التجارية قبل الاعتماد النهائي."
+   ],
+   "created": "2026-09-12T21:19:00.000Z",
+   "edited": "2026-09-12T21:19:00.000Z"
+  },
+  {
+   "id": "1967d7bd-c60e-4222-b47e-4850ab1b4081",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "الحل النهائي المُقفل للمعمارية (2026-09-13)"
+   ],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "a83604b0-99c5-4163-aead-8a56dc632a1b",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "1. ما هو مُقفل ونهائي (لا يُعاد نقاشه إلا بدليل جديد)"
+   ],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "e78bd6b4-a4ca-4f1f-a2ca-454d0b2f1266",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "تدفق الطلب:"
+   ],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "e36e7334-b14a-4a18-8215-e5733b01fe7c",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Telegram Bot → Product Catalog (مُصفّى) → Product Eligibility Gate → Pricing Engine → Order Engine → Payment Adapter (interface موحدة) → [مزود دفع يمني] → Payment Verification → Idempotency Gate → ProdSeller API → Supplier Result → Delivery → Audit Log"
+   ],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "a0f12045-025a-414f-b509-f13d493e545f",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "قاعدة الفصل المالي: تحصيل العميل (YER عبر مزود يمني) ≠ تسوية المورد (USDT/Binance/CryptoBot إلى ProdSeller). لا تُخلط أبدًا."
+   ],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "696cb072-a9d1-48b2-b893-754d6a3de216",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Payment Adapter: واجهة موحدة بثلاث دوال فقط: createPaymentRequest(order_id, amount), checkStatus(order_id), handleCallback(payload) — أي مزود يُدمج خلفها لاحقًا دون تعديل Order Engine."
+   ],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "263eba4d-3496-4c20-a315-f68ecb7c1166",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "2. Product Eligibility Gate — بوابة إلزامية قبل نشر أي منتج (جديد، غير قابل للتفاوض)"
+   ],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "fa3aa7fe-1b5d-4200-9868-86d8fadcd95e",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "سبب الإضافة: مراجعة كتالوج ProdSeller الفعلي (39 صورة مرفقة) كشفت منتجات تتجاوز \"حقوق إعادة بيع غير واضحة\" إلى مؤشرات وصول غير مصرّح به."
+   ],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "1256dcc5-63e6-4a4b-987c-71638e87dd01",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "استبعاد دائم — ممنوع نشرها مهما كان الهامش:"
+   ],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "5fb22abf-737e-44ea-9d11-05cece485df8",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "أي منتج يعتمد على \"Gmail backup codes\" أو أي تجاوز مصادقة ثنائية على حساب لم يُنشئه المورد للعميل مباشرة (نمط استيلاء حساب)."
+   ],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "d122e9cb-2cd5-44f9-853d-f6a1609ae792",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "أي منتج \"Admin panel invite\" على نطاق مؤسسي/تعليمي (مثل Autodesk Admin) يتطلب تغيير بريد/كلمة مرور حساب لا يملكه البائع."
+   ],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "040ec4dd-fd22-4c3c-a28a-d9e36165e124",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "أي حساب Gmail \"جاهز\" بدون مصدر إنشاء شرعي موثق."
+   ],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "2b8997bd-2c26-4e4d-8345-b257ef7dc25b",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "تصنيف \"خطر متوسط\" — يتطلب تنبيه صريح للعميل قبل الدفع (نص إفصاح إلزامي في الكتالوج):"
+   ],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "2deacb2c-28e0-4db6-aeaa-d475c748f1e3",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "حسابات \"Edu/Student\" (JetBrains, Figma, Miro, edX, Notion) المُعاد بيعها لغير طلاب — مخالفة لشروط الخصم التعليمي."
+   ],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "66045ddc-9529-4b52-8777-863550aa1c0c",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "حسابات بث مشتركة (HBO Max, Peacock, Prime Video, Adobe Express) ببيانات دخول واحدة لعدة مشترين — مخالفة ToS للمنصة الأصلية."
+   ],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "e51b7352-71dd-47e3-89ef-a35b174347d7",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "القاعدة التشغيلية: كل SKU من ProdSeller يمر عبر Eligibility Gate قبل ظهوره في بوت العميل. SKU بلا تصنيف = غير منشور افتراضيًا (fail-safe افتراضي وليس استثناء)."
+   ],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "8ea205ca-08cd-40bb-8d06-1fa9069b74f2",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "3. المحفظة الرقمية الكاملة في اليمن (مصدر أساسي: بحث Google Play الفعلي للمستخدم + بحث ويب)"
+   ],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "3b2c6d06-758f-4b92-9711-7d2c0041e13e",
+   "type": "table",
+   "has_children": true,
+   "text": [],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "4fee8acf-8614-4aa0-b40e-3d882b0a89cb",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "70dc2c68-adde-47bd-8a12-6d4f3208c588",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "c1f81220-7350-4956-9f17-4ed6d3ff718b",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "5b01138e-eeac-403e-bf1d-f6711c8bf22e",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "9d7e4bc0-d6a7-4147-ae9f-f915593c9cb5",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "8a92f539-3bff-4cb7-99b5-8f1e470835d8",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "f1576b73-353c-4a6a-a616-b371328afb1c",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "9830e6dd-3ac2-4236-ba24-0d3ef4fba570",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "41d9a22a-9030-421e-a998-242f6727278f",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "7ca1b183-e259-402a-940e-e43594f343e7",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "b67b16ae-f19a-4412-9d46-ab77eed83745",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "17cc8be0-867c-49ee-b595-569f13df5183",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "f4ec79a1-b572-4932-9d5d-8df290a009a5",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "61f9cd7b-fb59-4397-8c2b-dc3e8fa255a5",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "c91946d4-3786-4d7f-b400-0def55332c67",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "78b7c76c-1d72-4dfd-95b3-d05fa90054f0",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "6391a032-aa34-4c2f-b9e4-094f65463c56",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "f1e620c5-c0d0-4dae-8646-4e284c93ddc7",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "7f86f9af-2f78-4d57-b740-91ed0fa8dd9c",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "41a8090c-cd3e-438b-9ac5-ba8b222a0c1e",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "8a6b0689-a352-41c6-bbef-54b02a67c5bc",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "7ce9605c-c93e-4060-b4be-a57d9e8f389b",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "434ea6a5-57b0-4637-ba78-dfe23b44d770",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "مستبعد من القائمة عمدًا: كل تطبيقات العملات المشفرة والمحافظ العالمية التي ظهرت في نتائج Google Play بالمصادفة (Binance، OKX، Trust Wallet، Google Wallet، WE Pay مصر، Saba Wallet الإفريقي — تشابه اسم فقط مع SabaCash اليمنية، إلخ)."
+   ],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "d0c16958-fdc9-4537-ae09-15bca24cb896",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "4. الفجوة الوحيدة المتبقية فعليًا (خارجية، لا تُحل بالكتابة)"
+   ],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "f958aa83-4a25-4daf-a1e9-73974a0d8a5f",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "لا يوجد حتى الآن رد مكتوب من أي مزود من القائمة الحالية يؤكد: (أ) قبول فرد بلا سجل تجاري، (ب) تفعيل Merchant/API فعلي، (ج) وجود Webhook أو Inquiry موثوق. هذا ليس نقصًا في التحليل — إنه اعتماد خارجي حقيقي (BLOCKED حسب معيار الأدلة في القسم 16 أعلاه) يتطلب اتصالًا هاتفيًا مباشرًا، وليس بحثًا إضافيًا."
+   ],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-21T15:33:00.000Z"
+  },
+  {
+   "id": "6927a424-281e-4ddc-a157-a4e70173a445",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "5. سجل التحقق من هذه المحادثة (2026-09-13)"
+   ],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "1b5da7bb-a129-4915-8e8c-8df8efc48e7a",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "تم فحص Gmail فعليًا: لا يوجد رد من جوالي أو أي مزود آخر حتى هذه اللحظة."
+   ],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "16f9d675-bc4d-445a-95c5-5d5657e1fcb7",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "تم تأكيد أن ProdSeller يمتلك مفتاح API فعال (0 طلبات حتى الآن) وكتالوج ديناميكي حقيقي (وليس افتراضًا)."
+   ],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "58f75122-0423-445d-89c6-7a61a4a46925",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "تم استبعاد الخلط بين \"Saba Wallet\" (بنك إفريقي) و\"SabaCash\" اليمنية — كيانان مختلفان بالكامل رغم تشابه الاسم."
+   ],
+   "created": "2026-09-12T21:49:00.000Z",
+   "edited": "2026-09-12T21:49:00.000Z"
+  },
+  {
+   "id": "3633ebe8-b4d2-46bd-bdbc-ef5158b34c5d",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "Brand Direction — Working Name"
+   ],
+   "created": "2026-09-12T22:05:00.000Z",
+   "edited": "2026-09-12T22:05:00.000Z"
+  },
+  {
+   "id": "98331e18-8931-448d-a92a-ab3ffc06d245",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "وصلة رقمية | Wasla Digital"
+   ],
+   "created": "2026-09-12T22:05:00.000Z",
+   "edited": "2026-09-12T22:05:00.000Z"
+  },
+  {
+   "id": "300ab4d8-187f-4326-a72f-3dc2d61bf128",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Current naming candidate selected by the project owner for evaluation. This is a working brand name, not yet a final trademark/domain/handle decision."
+   ],
+   "created": "2026-09-12T22:05:00.000Z",
+   "edited": "2026-09-12T22:05:00.000Z"
+  },
+  {
+   "id": "7f92c1fa-5afa-44f6-a401-6a25e9b95b55",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Why the name fits"
+   ],
+   "created": "2026-09-12T22:05:00.000Z",
+   "edited": "2026-09-12T22:05:00.000Z"
+  },
+  {
+   "id": "27e23b0b-8876-4d84-88dd-5481015e8146",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "وصلة expresses the core commercial role of the platform: connecting the customer to a digital service/product."
+   ],
+   "created": "2026-09-12T22:05:00.000Z",
+   "edited": "2026-09-12T22:05:00.000Z"
+  },
+  {
+   "id": "7db98787-c04d-4098-9efc-885cf5f911b1",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "رقمية immediately clarifies the category without restricting the store to one supplier or one product type."
+   ],
+   "created": "2026-09-12T22:05:00.000Z",
+   "edited": "2026-09-12T22:05:00.000Z"
+  },
+  {
+   "id": "99858779-b19d-468e-8aa2-c11ba1d775df",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "The name remains usable if the backend supplier changes from ProdSeller or if additional suppliers/payment providers are added."
+   ],
+   "created": "2026-09-12T22:05:00.000Z",
+   "edited": "2026-09-12T22:05:00.000Z"
+  },
+  {
+   "id": "47fb8364-927f-471e-827b-522d6bbc18c8",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "It is compatible with the current architecture: Telegram Bot → Local Payment → Order Engine → Supplier API → Delivery."
+   ],
+   "created": "2026-09-12T22:05:00.000Z",
+   "edited": "2026-09-12T22:05:00.000Z"
+  },
+  {
+   "id": "48f3554b-5577-4b04-a613-c9b55de48b54",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Naming risks to verify before final adoption"
+   ],
+   "created": "2026-09-12T22:05:00.000Z",
+   "edited": "2026-09-12T22:05:00.000Z"
+  },
+  {
+   "id": "ed8bf739-be7b-4a9c-9300-0472f083484f",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Trademark/name availability in the target market."
+   ],
+   "created": "2026-09-12T22:05:00.000Z",
+   "edited": "2026-09-12T22:05:00.000Z"
+  },
+  {
+   "id": "98e61a2c-b795-4fae-80e4-3b92cf8b79bb",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Telegram username availability."
+   ],
+   "created": "2026-09-12T22:05:00.000Z",
+   "edited": "2026-09-12T22:05:00.000Z"
+  },
+  {
+   "id": "ecd1af89-60b4-4d18-8907-3daf05f23dc6",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Domain availability and consistency."
+   ],
+   "created": "2026-09-12T22:05:00.000Z",
+   "edited": "2026-09-12T22:05:00.000Z"
+  },
+  {
+   "id": "bbf39ad4-ea92-495b-ac7e-43ef969e9aec",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Search discoverability and collision with existing businesses."
+   ],
+   "created": "2026-09-12T22:05:00.000Z",
+   "edited": "2026-09-12T22:05:00.000Z"
+  },
+  {
+   "id": "a2388846-6c94-4478-bf34-2e0dd2a99378",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Whether the Arabic/English pairing should be وصلة رقمية | Wasla Digital or a different English rendering."
+   ],
+   "created": "2026-09-12T22:05:00.000Z",
+   "edited": "2026-09-12T22:05:00.000Z"
+  },
+  {
+   "id": "d45d743b-5c17-45ad-b55e-ad5d0c8152c3",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "Brand Candidate Shortlist"
+   ],
+   "created": "2026-09-12T22:05:00.000Z",
+   "edited": "2026-09-12T22:05:00.000Z"
+  },
+  {
+   "id": "d5e47ddf-33ad-4104-93cb-7c56f6c3c6c6",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "وصلة رقمية | Wasla Digital — strongest current candidate"
+   ],
+   "created": "2026-09-12T22:05:00.000Z",
+   "edited": "2026-09-12T22:05:00.000Z"
+  },
+  {
+   "id": "f501ae25-7af6-4968-8a94-735252f98f96",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "مدار رقمي | Madar Digital"
+   ],
+   "created": "2026-09-12T22:05:00.000Z",
+   "edited": "2026-09-12T22:05:00.000Z"
+  },
+  {
+   "id": "194c0dfd-527d-426d-a73b-00d28b46ca48",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "نواة رقمية | Nawa Digital"
+   ],
+   "created": "2026-09-12T22:05:00.000Z",
+   "edited": "2026-09-12T22:05:00.000Z"
+  },
+  {
+   "id": "061dc72a-afbe-4d37-9af7-fd3e58d1847b",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "رفد رقمي | Rafad Digital"
+   ],
+   "created": "2026-09-12T22:05:00.000Z",
+   "edited": "2026-09-12T22:05:00.000Z"
+  },
+  {
+   "id": "2fe9d845-a509-464c-b326-1fc4ca0eff53",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "أثر رقمي | Athar Digital"
+   ],
+   "created": "2026-09-12T22:05:00.000Z",
+   "edited": "2026-09-12T22:05:00.000Z"
+  },
+  {
+   "id": "90d8aefe-2aaa-4467-8ad1-72a3c680bf3e",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "رواق رقمي | Riwaq Digital"
+   ],
+   "created": "2026-09-12T22:05:00.000Z",
+   "edited": "2026-09-12T22:05:00.000Z"
+  },
+  {
+   "id": "60c335fc-f14d-4924-90f2-cd7fa8fd5bd5",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "ديم رقمي | Deem Digital"
+   ],
+   "created": "2026-09-12T22:05:00.000Z",
+   "edited": "2026-09-12T22:05:00.000Z"
+  },
+  {
+   "id": "463ec06c-f869-43ad-af35-2d3a1b903910",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "مجرى رقمي | Majra Digital"
+   ],
+   "created": "2026-09-12T22:05:00.000Z",
+   "edited": "2026-09-12T22:05:00.000Z"
+  },
+  {
+   "id": "cb29b6a4-8f49-443c-a41f-3702d4ffd8c3",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "مداد رقمي | Midad Digital"
+   ],
+   "created": "2026-09-12T22:05:00.000Z",
+   "edited": "2026-09-12T22:05:00.000Z"
+  },
+  {
+   "id": "240e5db7-7215-4045-beb8-cc7689658646",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "وصلتي | Waslati"
+   ],
+   "created": "2026-09-12T22:05:00.000Z",
+   "edited": "2026-09-12T22:05:00.000Z"
+  },
+  {
+   "id": "d71b676d-ee72-4644-846a-a1e1f5954c04",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Decision Rule"
+   ],
+   "created": "2026-09-12T22:05:00.000Z",
+   "edited": "2026-09-12T22:05:00.000Z"
+  },
+  {
+   "id": "09944e12-555e-42c2-b31e-80c3f1236424",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Do not treat the shortlist as a final naming decision until availability, legal/search collision, domain, and Telegram handle checks are completed."
+   ],
+   "created": "2026-09-12T22:05:00.000Z",
+   "edited": "2026-09-12T22:05:00.000Z"
+  },
+  {
+   "id": "a1781c8d-399d-4a4b-919f-f587b2044600",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Brand Identity — Working Direction — 2026-09-21"
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "6e6ec223-b254-4409-853e-ebbddbc33711",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "Brand Concept"
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "dfa38c92-c2b5-4ade-9e8c-121173644d05",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Wasla Digital / وصلة رقمية is positioned around the core idea of connection: connecting the customer in Yemen to a digital product or service through a controlled commerce layer. The identity should communicate connection, trust, digital utility, simplicity, and scalability without being tied to ProdSeller or any single product category."
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "1206967e-a274-4a5b-88bd-b7c882d47a03",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "Logo Concept"
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "dc54dd2c-e768-4b46-b9c8-0eac2d9213a8",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "The current concept uses two interconnected forms with a central gold element."
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "90208b31-30ec-4339-8e88-6f6b7cac3b34",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "The two forms represent two sides of the transaction: customer-side interaction and service-side fulfillment."
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "412013b6-b45a-412a-aa69-8a384234d830",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "The central element represents the connection or completion point."
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "dd43132e-1971-4c8b-88ce-1674e4fb30de",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "The visual language may suggest continuity and flow, but these are secondary interpretations rather than requirements."
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "90775c91-993c-4bba-ae74-1fe010df679c",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "The final mark must be distinctive enough to avoid looking like a generic chain or infinity symbol."
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "3bedbcd3-06ae-4b02-83f1-f24f78e6b5b6",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Differentiation should come primarily from silhouette, negative space, proportions, interlock logic, and the central accent rather than added detail."
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "a3e9ff68-641d-4502-8b7a-7b6d98f5b061",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "Color Direction"
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "b6145093-6c30-4e93-b533-bba899498f16",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Primary Deep Teal: #063B38"
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "18a432a6-8843-413a-954e-1fd114cc64e0",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Secondary Teal: #0B6B5E"
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "e674fb31-1341-4fcf-ac33-12d43dd2eed1",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Light Teal Accent: #35B89A"
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "c99d02da-3ec4-44b3-9217-09174083bc59",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Gold Accent: #C9A34E"
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "d020fd37-31b8-4a06-bb56-ea8c4b879df3",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Off White: #F5F7F6"
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "f240f0f5-d8f9-4f15-9e3a-19b4e9e9645c",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Near Black: #07110F"
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "fb3a5832-a600-42d7-9af7-5f128932743d",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Usage rule:"
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "7a19e729-b5be-4907-9679-548fcf382769",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Deep Teal = primary brand foundation and dark UI surfaces."
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "c95fdb7f-e43c-4eb8-82bb-420d53d4472c",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Teal = secondary brand elements."
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "981a081a-f5cd-4beb-aa72-b9efa0842325",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Light Teal = limited digital highlights."
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "62ed4e71-5b00-48aa-9bb8-464098f2346c",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Gold = focal/value accent; do not allow it to dominate the system."
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "028570cf-6a14-41ff-881a-d91b21ff7d49",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Off White and Near Black = primary light/dark interface neutrals."
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "5ab11f54-3c5e-422e-b3b1-1f526a7c68cb",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "Visual Direction"
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "51609a91-e7b7-4fe7-a42d-8b55366213df",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "The identity should be modern, digital, professional, calm, and scalable."
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "0179abb1-3f7c-499e-9d43-dfe1dbf081c7",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Avoid positioning the brand as a luxury-fashion identity, a generic technology startup, or a loud discount store."
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "58a4fe55-2153-4771-954a-5e3f8871a56f",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "Required Logo System"
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "b975a20f-72f1-4666-b6e0-3ec05baeb520",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "The final identity work must validate:"
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "ff14b9f9-04e0-40d8-9aa0-f798c50ef15f",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Primary logo."
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "fecfbf67-2edb-429c-aed4-9605adb54ac0",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Horizontal lockup."
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "a7fd0375-356e-40d7-9820-6bdf96f61d35",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Stacked lockup."
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "1f010434-2950-4588-b54a-44cd4a4d038d",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "App icon."
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "60415253-7318-4a13-b723-5c096a720178",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Telegram avatar."
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "d469aff0-b767-487a-9b89-9a0d04c8482d",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Favicon."
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "2662c267-14e1-4203-8c07-e13f9fa30a1d",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Light-background version."
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "99288058-36c8-4930-b693-4af23b8aa5ad",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Dark-background version."
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "eb7187ee-4565-4847-a42b-dd5bd9d4e6aa",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "One-color black version."
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "f827b702-5bf5-48c8-ac92-0e60b6f8f054",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "One-color white version."
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "32090c0a-56e8-403a-a24a-ccaa6c4f217f",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Small-size reproduction."
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "3aa8ff2e-e03c-44e1-8c4c-71759a969a8c",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "Presentation Format"
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "903590d2-759d-422a-a86f-5fda0fbc3667",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "The brand-identity presentation should use a 16:9 canvas and show the logo, Arabic and English name, color palette with HEX values, light/dark variants, monochrome variants, app/Telegram icon applications, and a limited set of practical digital mockups."
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "e5502eff-34b0-4ddc-8daa-addb3a91cd5c",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "Current Status"
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "66457f92-888a-4e47-b6dd-84e2a855f40f",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "CONCEPT — NOT FINAL."
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "52bfd54e-5609-4d48-b8ba-5acf723549c4",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "The current direction is approved for further design development, not for final brand adoption. Final adoption remains dependent on logo distinctiveness testing and availability checks for the name, domain, Telegram handle, and relevant trademark/name collisions."
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "dbac2be6-bd74-46ef-a21b-8b88c630845d",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Project Output Standard — Current"
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "fc5d3742-8092-4b08-b87e-f3c84283392e",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "For subsequent project reviews and decisions, structure the output as:"
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "b7292492-56e7-49ce-9714-a2414e0db9c3",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "المجال → نوع المهمة → الحالة → الهدف → التحليل → القرار → المبررات → المحسوم → غير المحسوم → الثغرات/المخاطر → القيود → المخرج النهائي → الخطوة التالية."
+   ],
+   "created": "2026-09-21T15:28:00.000Z",
+   "edited": "2026-09-21T15:28:00.000Z"
+  },
+  {
+   "id": "2357dd65-f18f-46dc-844d-1360d58e3021",
+   "type": "divider",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-21T15:33:00.000Z",
+   "edited": "2026-09-21T15:33:00.000Z"
+  },
+  {
+   "id": "fc8ece3b-1979-45fc-b887-8de232e68be0",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "سجل المزامنة المرجعي — 21 سبتمبر 2026"
+   ],
+   "created": "2026-09-21T15:33:00.000Z",
+   "edited": "2026-09-21T15:33:00.000Z"
+  },
+  {
+   "id": "e52afe9e-a2f4-4b13-a600-6d44fd344790",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "الحالة الحالية"
+   ],
+   "created": "2026-09-21T15:33:00.000Z",
+   "edited": "2026-09-21T15:33:00.000Z"
+  },
+  {
+   "id": "a3ac43d8-736a-40d1-96a4-5550b55f11cd",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Notion: الصفحة المرجعية الرئيسية للمشروع متاحة، وتحتوي على التعريف المعماري، بوابات القرار، مخاطر المنتجات، طبقة الدفع، تكامل ProdSeller، واتجاه الهوية."
+   ],
+   "created": "2026-09-21T15:33:00.000Z",
+   "edited": "2026-09-21T15:33:00.000Z"
+  },
+  {
+   "id": "ff0aa28f-da48-4e5f-923b-d5d34caa29e5",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "GitHub: اتصال GitHub المرتبط بهذه الجلسة لا يملك حاليًا أي Installation أو Repository متاحًا. البحث عن Business-Analysis وTelegram وProdSeller لم يُرجع أي مستودع."
+   ],
+   "created": "2026-09-21T15:33:00.000Z",
+   "edited": "2026-09-21T15:33:00.000Z"
+  },
+  {
+   "id": "5cbf1583-8583-4456-9848-d6bfb86fa030",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "النتيجة: حالة التنفيذ البرمجي الفعلية BLOCKED / غير مثبتة من GitHub في هذه الجلسة. لا يجوز تسجيل أي ادعاء عن الكود أو الاختبارات أو الـdeployments باعتباره واقعًا حاليًا دون وصول فعلي للمستودع."
+   ],
+   "created": "2026-09-21T15:33:00.000Z",
+   "edited": "2026-09-21T15:33:00.000Z"
+  },
+  {
+   "id": "e8bac561-9220-4950-b832-2a538c56d1a8",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "قاعدة مصدر الحقيقة"
+   ],
+   "created": "2026-09-21T15:33:00.000Z",
+   "edited": "2026-09-21T15:33:00.000Z"
+  },
+  {
+   "id": "f091265b-048d-44b7-ad36-7225b38abac7",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Notion: النية، القرارات، الافتراضات، المتطلبات، والسجل التاريخي."
+   ],
+   "created": "2026-09-21T15:33:00.000Z",
+   "edited": "2026-09-21T15:33:00.000Z"
+  },
+  {
+   "id": "29a9feb3-3c2a-4b63-b06f-b94231e36e89",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "GitHub + الاختبارات + التشغيل الفعلي: واقع التنفيذ البرمجي عند توفر الوصول."
+   ],
+   "created": "2026-09-21T15:33:00.000Z",
+   "edited": "2026-09-21T15:33:00.000Z"
+  },
+  {
+   "id": "7ddaf513-e50c-4db9-859a-33df9612ef4d",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "عند التعارض: لا تُلغى إحدى الطبقتين تلقائيًا؛ يُسجّل التعارض ويُحسم بالدليل الأقرب إلى نوع الادعاء."
+   ],
+   "created": "2026-09-21T15:33:00.000Z",
+   "edited": "2026-09-21T15:33:00.000Z"
+  },
+  {
+   "id": "54b513ff-1a3b-463a-af7e-6b6ec140c9e9",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "تصحيحات تشغيلية"
+   ],
+   "created": "2026-09-21T15:33:00.000Z",
+   "edited": "2026-09-21T15:33:00.000Z"
+  },
+  {
+   "id": "c1ea1c5e-421c-48fe-a121-336b29083456",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "تم استبدال الإشارة العددية السابقة إلى «الـ19» في قائمة مزودي الدفع بعبارة القائمة الحالية لتجنب تعارض العدد مع الإدخالات الفعلية والكيانات المتشابهة."
+   ],
+   "created": "2026-09-21T15:33:00.000Z",
+   "edited": "2026-09-21T15:33:00.000Z"
+  },
+  {
+   "id": "f43afba8-680a-4621-948c-e26cc8040597",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "لا يُعتبر أي مزود دفع مؤهلًا نهائيًا لمجرد وجود API أو منتج تاجر؛ تبقى أهلية النشاط، الحساب التجاري، KYC، وآلية التحقق الفعلية بحاجة إلى دليل مباشر."
+   ],
+   "created": "2026-09-21T15:33:00.000Z",
+   "edited": "2026-09-21T15:33:00.000Z"
+  },
+  {
+   "id": "1d8abed8-0496-4d89-85fb-8f3b67d251b2",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "لا يُعتبر أي منتج من ProdSeller صالحًا للنشر إلا بعد اجتياز Product Eligibility Gate وتصنيف طريقة التسليم وحقوق إعادة البيع ومخاطر الضمان/الاسترداد."
+   ],
+   "created": "2026-09-21T15:33:00.000Z",
+   "edited": "2026-09-21T15:33:00.000Z"
+  },
+  {
+   "id": "ceeb0956-aaaa-40ff-b95b-f15d8c1fbac0",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "لا توجد في هذه المزامنة أدلة جديدة تبرر نقل أي عنصر من UNVERIFIED/BLOCKED إلى PROVEN."
+   ],
+   "created": "2026-09-21T15:33:00.000Z",
+   "edited": "2026-09-21T15:33:00.000Z"
+  },
+  {
+   "id": "8bb8497a-cc11-42af-8895-b0277022eb81",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "أولوية التنفيذ التالية"
+   ],
+   "created": "2026-09-21T15:33:00.000Z",
+   "edited": "2026-09-21T15:33:00.000Z"
+  },
+  {
+   "id": "e9736510-28f1-43e0-80c1-6603a5f782c0",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "إعادة ربط GitHub بالمشروع وتحديد المستودع الفعلي، ثم مطابقة الحالة البرمجية الفعلية (الفرع، آخر commits، بنية المشروع، الاختبارات، Workflows، وEvidence التشغيل) مع هذه الصفحة وتحديثها بناءً على الدليل فقط."
+   ],
+   "created": "2026-09-21T15:33:00.000Z",
+   "edited": "2026-09-21T15:33:00.000Z"
+  },
+  {
+   "id": "527a0737-224b-4023-b076-45fee2ff02ff",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "الحالة المرجعية حتى هذا التاريخ: المعمارية والقرارات موثقة في Notion؛ التنفيذ البرمجي غير قابل للإثبات من GitHub عبر الاتصال الحالي."
+   ],
+   "created": "2026-09-21T15:33:00.000Z",
+   "edited": "2026-09-21T15:33:00.000Z"
+  }
+ ]
+}

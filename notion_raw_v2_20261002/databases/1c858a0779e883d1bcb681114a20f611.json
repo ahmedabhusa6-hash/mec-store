@@ -1,0 +1,998 @@
+{
+ "capture_reason": "CHANGED",
+ "title": "الواجبات",
+ "schema": {
+  "object": "database",
+  "id": "1c858a07-79e8-83d1-bcb6-81114a20f611",
+  "cover": null,
+  "icon": {
+   "type": "icon",
+   "icon": {
+    "name": "gradebook",
+    "color": "gray"
+   }
+  },
+  "created_time": "2026-07-24T22:57:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_time": "2026-07-24T22:57:00.000Z",
+  "title": [
+   {
+    "type": "text",
+    "text": {
+     "content": "الواجبات",
+     "link": null
+    },
+    "annotations": {
+     "bold": false,
+     "italic": false,
+     "strikethrough": false,
+     "underline": false,
+     "code": false,
+     "color": "default"
+    },
+    "plain_text": "الواجبات",
+    "href": null
+   }
+  ],
+  "description": [],
+  "is_inline": true,
+  "database_type": null,
+  "properties": {
+   "تاريخ الاستحقاق": {
+    "id": "_UjC",
+    "name": "تاريخ الاستحقاق",
+    "description": null,
+    "type": "date",
+    "date": {}
+   },
+   "تم": {
+    "id": "%60N~j",
+    "name": "تم",
+    "description": null,
+    "type": "checkbox",
+    "checkbox": {}
+   },
+   "المقرّر": {
+    "id": "w%3FC%3B",
+    "name": "المقرّر",
+    "description": null,
+    "type": "relation",
+    "relation": {
+     "database_id": "c2958a07-79e8-8280-87d2-8176dad0cf82",
+     "data_source_id": "5e958a07-79e8-8305-ad3f-871ce815c12e",
+     "type": "dual_property",
+     "dual_property": {
+      "synced_property_name": "الواجبات",
+      "synced_property_id": "qkkc"
+     }
+    }
+   },
+   "اسم الواجب": {
+    "id": "title",
+    "name": "اسم الواجب",
+    "description": null,
+    "type": "title",
+    "title": {}
+   }
+  },
+  "parent": {
+   "type": "page_id",
+   "page_id": "ca158a07-79e8-8216-8e12-011d93e9dadf"
+  },
+  "url": "https://app.notion.com/p/1c858a0779e883d1bcb681114a20f611",
+  "public_url": null,
+  "in_trash": false,
+  "archived": false,
+  "request_id": "3abe39d6-abc1-45ee-ad79-749bab62adb3"
+ },
+ "row_count": 12,
+ "rows": [
+  {
+   "object": "page",
+   "id": "6c058a07-79e8-830f-885c-819b577bac69",
+   "created_time": "2026-07-24T22:57:00.000Z",
+   "last_edited_time": "2026-07-24T22:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "1c858a07-79e8-83d1-bcb6-81114a20f611"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "تاريخ الاستحقاق": {
+     "id": "_UjC",
+     "type": "date",
+     "date": {
+      "start": "2024-05-25",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "تم": {
+     "id": "%60N~j",
+     "type": "checkbox",
+     "checkbox": false
+    },
+    "المقرّر": {
+     "id": "w%3FC%3B",
+     "type": "relation",
+     "relation": [
+      {
+       "id": "94658a07-79e8-83da-a6bc-8142a5b5809b"
+      }
+     ],
+     "has_more": false
+    },
+    "اسم الواجب": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "الاختبار النهائي",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "الاختبار النهائي",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/6c058a0779e8830f885c819b577bac69",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "29d58a07-79e8-8337-a4ce-8136773c3a23",
+   "created_time": "2026-07-24T22:57:00.000Z",
+   "last_edited_time": "2026-07-24T22:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "1c858a07-79e8-83d1-bcb6-81114a20f611"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "تاريخ الاستحقاق": {
+     "id": "_UjC",
+     "type": "date",
+     "date": {
+      "start": "2024-05-22",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "تم": {
+     "id": "%60N~j",
+     "type": "checkbox",
+     "checkbox": false
+    },
+    "المقرّر": {
+     "id": "w%3FC%3B",
+     "type": "relation",
+     "relation": [
+      {
+       "id": "44a58a07-79e8-82f2-9487-816137856f12"
+      }
+     ],
+     "has_more": false
+    },
+    "اسم الواجب": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "الاختبار النهائي",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "الاختبار النهائي",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/29d58a0779e88337a4ce8136773c3a23",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "bff58a07-79e8-8251-866a-814e51804518",
+   "created_time": "2026-07-24T22:57:00.000Z",
+   "last_edited_time": "2026-07-24T22:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "1c858a07-79e8-83d1-bcb6-81114a20f611"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "تاريخ الاستحقاق": {
+     "id": "_UjC",
+     "type": "date",
+     "date": {
+      "start": "2024-05-20",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "تم": {
+     "id": "%60N~j",
+     "type": "checkbox",
+     "checkbox": false
+    },
+    "المقرّر": {
+     "id": "w%3FC%3B",
+     "type": "relation",
+     "relation": [
+      {
+       "id": "21158a07-79e8-8304-923c-818ec0bdba06"
+      }
+     ],
+     "has_more": false
+    },
+    "اسم الواجب": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "الاختبار النهائي",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "الاختبار النهائي",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/bff58a0779e88251866a814e51804518",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "94958a07-79e8-8279-86c1-81da713ad2cf",
+   "created_time": "2026-07-24T22:57:00.000Z",
+   "last_edited_time": "2026-07-24T22:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "1c858a07-79e8-83d1-bcb6-81114a20f611"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "تاريخ الاستحقاق": {
+     "id": "_UjC",
+     "type": "date",
+     "date": {
+      "start": "2024-04-20",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "تم": {
+     "id": "%60N~j",
+     "type": "checkbox",
+     "checkbox": false
+    },
+    "المقرّر": {
+     "id": "w%3FC%3B",
+     "type": "relation",
+     "relation": [
+      {
+       "id": "94658a07-79e8-83da-a6bc-8142a5b5809b"
+      }
+     ],
+     "has_more": false
+    },
+    "اسم الواجب": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "الورقة البحثية",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "الورقة البحثية",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/94958a0779e8827986c181da713ad2cf",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "da158a07-79e8-8295-bc4d-0187af81cc22",
+   "created_time": "2026-07-24T22:57:00.000Z",
+   "last_edited_time": "2026-07-24T22:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "1c858a07-79e8-83d1-bcb6-81114a20f611"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "تاريخ الاستحقاق": {
+     "id": "_UjC",
+     "type": "date",
+     "date": {
+      "start": "2024-04-17",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "تم": {
+     "id": "%60N~j",
+     "type": "checkbox",
+     "checkbox": false
+    },
+    "المقرّر": {
+     "id": "w%3FC%3B",
+     "type": "relation",
+     "relation": [
+      {
+       "id": "44a58a07-79e8-82f2-9487-816137856f12"
+      }
+     ],
+     "has_more": false
+    },
+    "اسم الواجب": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "تسليم المشروع",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "تسليم المشروع",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/da158a0779e88295bc4d0187af81cc22",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "dbb58a07-79e8-8225-9dce-8161a48eb58d",
+   "created_time": "2026-07-24T22:57:00.000Z",
+   "last_edited_time": "2026-07-24T22:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "1c858a07-79e8-83d1-bcb6-81114a20f611"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "تاريخ الاستحقاق": {
+     "id": "_UjC",
+     "type": "date",
+     "date": {
+      "start": "2024-04-15",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "تم": {
+     "id": "%60N~j",
+     "type": "checkbox",
+     "checkbox": false
+    },
+    "المقرّر": {
+     "id": "w%3FC%3B",
+     "type": "relation",
+     "relation": [
+      {
+       "id": "21158a07-79e8-8304-923c-818ec0bdba06"
+      }
+     ],
+     "has_more": false
+    },
+    "اسم الواجب": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "تقرير المختبر 2",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "تقرير المختبر 2",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/2-dbb58a0779e882259dce8161a48eb58d",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "81c58a07-79e8-83aa-acea-81f99235c9c2",
+   "created_time": "2026-07-24T22:57:00.000Z",
+   "last_edited_time": "2026-07-24T22:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "1c858a07-79e8-83d1-bcb6-81114a20f611"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "تاريخ الاستحقاق": {
+     "id": "_UjC",
+     "type": "date",
+     "date": {
+      "start": "2024-03-15",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "تم": {
+     "id": "%60N~j",
+     "type": "checkbox",
+     "checkbox": false
+    },
+    "المقرّر": {
+     "id": "w%3FC%3B",
+     "type": "relation",
+     "relation": [
+      {
+       "id": "94658a07-79e8-83da-a6bc-8142a5b5809b"
+      }
+     ],
+     "has_more": false
+    },
+    "اسم الواجب": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "الاختبار النصفي",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "الاختبار النصفي",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/81c58a0779e883aaacea81f99235c9c2",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "10f58a07-79e8-83af-be4c-8103aa5c4084",
+   "created_time": "2026-07-24T22:57:00.000Z",
+   "last_edited_time": "2026-07-24T22:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "1c858a07-79e8-83d1-bcb6-81114a20f611"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "تاريخ الاستحقاق": {
+     "id": "_UjC",
+     "type": "date",
+     "date": {
+      "start": "2024-03-12",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "تم": {
+     "id": "%60N~j",
+     "type": "checkbox",
+     "checkbox": false
+    },
+    "المقرّر": {
+     "id": "w%3FC%3B",
+     "type": "relation",
+     "relation": [
+      {
+       "id": "44a58a07-79e8-82f2-9487-816137856f12"
+      }
+     ],
+     "has_more": false
+    },
+    "اسم الواجب": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "الاختبار النصفي",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "الاختبار النصفي",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/10f58a0779e883afbe4c8103aa5c4084",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "ac958a07-79e8-82ea-864d-811105d3690e",
+   "created_time": "2026-07-24T22:57:00.000Z",
+   "last_edited_time": "2026-07-24T22:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "1c858a07-79e8-83d1-bcb6-81114a20f611"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "تاريخ الاستحقاق": {
+     "id": "_UjC",
+     "type": "date",
+     "date": {
+      "start": "2024-03-10",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "تم": {
+     "id": "%60N~j",
+     "type": "checkbox",
+     "checkbox": false
+    },
+    "المقرّر": {
+     "id": "w%3FC%3B",
+     "type": "relation",
+     "relation": [
+      {
+       "id": "21158a07-79e8-8304-923c-818ec0bdba06"
+      }
+     ],
+     "has_more": false
+    },
+    "اسم الواجب": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "الاختبار النصفي",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "الاختبار النصفي",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/ac958a0779e882ea864d811105d3690e",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "edd58a07-79e8-83d7-87ba-01481355707a",
+   "created_time": "2026-07-24T22:57:00.000Z",
+   "last_edited_time": "2026-07-24T22:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "1c858a07-79e8-83d1-bcb6-81114a20f611"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "تاريخ الاستحقاق": {
+     "id": "_UjC",
+     "type": "date",
+     "date": {
+      "start": "2024-02-10",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "تم": {
+     "id": "%60N~j",
+     "type": "checkbox",
+     "checkbox": true
+    },
+    "المقرّر": {
+     "id": "w%3FC%3B",
+     "type": "relation",
+     "relation": [
+      {
+       "id": "94658a07-79e8-83da-a6bc-8142a5b5809b"
+      }
+     ],
+     "has_more": false
+    },
+    "اسم الواجب": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "تقرير المختبر 1",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "تقرير المختبر 1",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/1-edd58a0779e883d787ba01481355707a",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "16058a07-79e8-83a8-add3-81a54de201e1",
+   "created_time": "2026-07-24T22:57:00.000Z",
+   "last_edited_time": "2026-07-24T22:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "1c858a07-79e8-83d1-bcb6-81114a20f611"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "تاريخ الاستحقاق": {
+     "id": "_UjC",
+     "type": "date",
+     "date": {
+      "start": "2024-02-07",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "تم": {
+     "id": "%60N~j",
+     "type": "checkbox",
+     "checkbox": false
+    },
+    "المقرّر": {
+     "id": "w%3FC%3B",
+     "type": "relation",
+     "relation": [
+      {
+       "id": "44a58a07-79e8-82f2-9487-816137856f12"
+      }
+     ],
+     "has_more": false
+    },
+    "اسم الواجب": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "الاختبار القصير 1",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "الاختبار القصير 1",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/1-16058a0779e883a8add381a54de201e1",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "cc058a07-79e8-83c4-8379-8145b5a3f6b2",
+   "created_time": "2026-07-24T22:57:00.000Z",
+   "last_edited_time": "2026-07-24T22:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "1c858a07-79e8-83d1-bcb6-81114a20f611"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "تاريخ الاستحقاق": {
+     "id": "_UjC",
+     "type": "date",
+     "date": {
+      "start": "2024-02-05",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "تم": {
+     "id": "%60N~j",
+     "type": "checkbox",
+     "checkbox": false
+    },
+    "المقرّر": {
+     "id": "w%3FC%3B",
+     "type": "relation",
+     "relation": [
+      {
+       "id": "21158a07-79e8-8304-923c-818ec0bdba06"
+      }
+     ],
+     "has_more": false
+    },
+    "اسم الواجب": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "مجموعة المسائل 1",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "مجموعة المسائل 1",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/1-cc058a0779e883c483798145b5a3f6b2",
+   "public_url": null,
+   "archived": false
+  }
+ ]
+}

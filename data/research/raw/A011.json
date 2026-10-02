@@ -1,0 +1,41 @@
+{
+  "action": {
+    "action_id": "A011",
+    "branch": "BR-OFFICIAL-ANCHORS",
+    "sku_id": "SKU-SW-001",
+    "objective": "Lock official reference: Windows 11 Pro license price",
+    "discovery_family": "Product-first (official publisher)",
+    "method": "official-anchor",
+    "query": "Windows 11 Pro license price official Microsoft Store"
+  },
+  "results": [
+    {
+      "url": "https://learn.microsoft.com",
+      "name": "Windows 11: How to activate Pro upgrade after reinstall?",
+      "snippet": "Jul 16, 2023 — If you have the License Key, you can try going to Settings-About-Product key and Activation-change product key. You can go into your Microsoft ...",
+      "host_name": "learn.microsoft.com",
+      "rank": 0,
+      "date": "Jul 16, 2023",
+      "favicon": ""
+    },
+    {
+      "url": "https://www.walmart.com",
+      "name": "Microsoft Windows 11 Pro 64-BIT (USB)",
+      "snippet": "Upgrade to Microsoft Windows 11 Pro 64-BIT (USB ) for enhanced multitasking, stronger security with Windows Hello and BitLocker, virtual desktops.",
+      "host_name": "www.walmart.com",
+      "rank": 1,
+      "date": "",
+      "favicon": ""
+    },
+    {
+      "url": "https://www.techspot.com",
+      "name": "Grab a discounted Windows 11 Pro license for just $29",
+      "snippet": "Jun 17, 2023 — For a limited time, you can grab a license of Windows 11 Professional for the jaw-dropping price of $29.99.",
+      "host_name": "www.techspot.com",
+      "rank": 2,
+      "date": "Jun 17, 2023",
+      "favicon": ""
+    }
+  ],
+  "timestamp": "2026-09-26T21:04:22.570Z"
+}

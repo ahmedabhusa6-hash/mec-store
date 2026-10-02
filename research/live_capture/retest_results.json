@@ -1,0 +1,117 @@
+[
+ {
+  "test": "GET /",
+  "verdict": "PASS",
+  "detail": "HTTP 200 in 254ms (want 200)"
+ },
+ {
+  "test": "GET /intel",
+  "verdict": "PASS",
+  "detail": "HTTP 200 in 194ms (want 200)"
+ },
+ {
+  "test": "GET /nope-404",
+  "verdict": "PASS",
+  "detail": "HTTP 404 in 231ms (want 404)"
+ },
+ {
+  "test": "GET /api",
+  "verdict": "PASS",
+  "detail": "HTTP 200 in 185ms (want 200)"
+ },
+ {
+  "test": "404 Arabic page",
+  "verdict": "FAIL",
+  "detail": "<!DOCTYPE html><html lang=\"ar\" dir=\"rtl\"><head><meta charSet=\"utf-8\"/><meta name"
+ },
+ {
+  "test": "security headers (5)",
+  "verdict": "PASS",
+  "detail": "ALL PRESENT (CSP/HSTS/XFO/XCTO/RP)"
+ },
+ {
+  "test": "admin stats NO token",
+  "verdict": "PASS",
+  "detail": "HTTP 401 (BEFORE: 200 + leaked SaraShamari)"
+ },
+ {
+  "test": "admin stats BAD token",
+  "verdict": "PASS",
+  "detail": "HTTP 401"
+ },
+ {
+  "test": "admin stats GOOD token",
+  "verdict": "PASS",
+  "detail": "HTTP 200 orders.total=17"
+ },
+ {
+  "test": "admin sync NO token",
+  "verdict": "PASS",
+  "detail": "HTTP 401 in 0.2s (BEFORE: 200 after 25s real sync)"
+ },
+ {
+  "test": "catalog 37 products",
+  "verdict": "PASS",
+  "detail": "HTTP 200 products=37 | latencies: [1804, 233, 265]ms (BEFORE: 2500-2700ms)"
+ },
+ {
+  "test": "wallet state",
+  "verdict": "PASS",
+  "detail": "HTTP 200 balance=13.01 txs=11"
+ },
+ {
+  "test": "SANDBOX checkout DELIVERS",
+  "verdict": "PASS",
+  "detail": "routed={\"ok\": true, \"status\": \"delivered\", \"winner\": \"ps\", \"cashback\": 0.01} (BEFORE: failed+refund)"
+ },
+ {
+  "test": "order delivered + SANDBOX receipt",
+  "verdict": "PASS",
+  "detail": "status=delivered winner=ps receipt=SANDBOX-marked ✓ steps=1"
+ },
+ {
+  "test": "cashback credited",
+  "verdict": "PASS",
+  "detail": "cashback=$0.01"
+ },
+ {
+  "test": "TRC20 checkout payment instructions",
+  "verdict": "PASS",
+  "detail": "addr=TMECSandbox000000C7Y amount=1.65 cents=96"
+ },
+ {
+  "test": "TRC20 confirm delivers (sandbox)",
+  "verdict": "PASS",
+  "detail": "HTTP 200 status=delivered"
+ },
+ {
+  "test": "confirm idempotency",
+  "verdict": "PASS",
+  "detail": "HTTP 200 idempotent=True"
+ },
+ {
+  "test": "rate limiting on checkout",
+  "verdict": "FAIL",
+  "detail": "codes=[400, 400, 400, 400, 400, 400, 400, 400, 400, 400, 400, 400, 400, 400] in 2.8s (BEFORE: all 200, no limit)"
+ },
+ {
+  "test": "invalid input still rejected",
+  "verdict": "PASS",
+  "detail": "HTTP 400 بيانات ناقصة: slug + جوال صحيح مطلوبان (+966/+967)"
+ },
+ {
+  "test": "negative deposit still rejected",
+  "verdict": "PASS",
+  "detail": "HTTP 400"
+ },
+ {
+  "test": "huge deposit still rejected",
+  "verdict": "PASS",
+  "detail": "HTTP 400"
+ },
+ {
+  "test": "SQLi-ish phone rejected (tight regex)",
+  "verdict": "PASS",
+  "detail": "HTTP 400 (BEFORE: accepted as valid phone)"
+ }
+]

@@ -1,0 +1,225 @@
+{
+ "capture_reason": "CHANGED",
+ "title": "People",
+ "schema": {
+  "object": "database",
+  "id": "d3d58a07-79e8-82df-b0d8-014512d331ec",
+  "cover": null,
+  "icon": {
+   "type": "icon",
+   "icon": {
+    "name": "user-circle",
+    "color": "gray"
+   }
+  },
+  "created_time": "2026-07-24T22:57:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "00000000-0000-0000-0000-000000000000"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "00000000-0000-0000-0000-000000000000"
+  },
+  "last_edited_time": "2026-07-24T22:57:00.000Z",
+  "title": [
+   {
+    "type": "text",
+    "text": {
+     "content": "People",
+     "link": null
+    },
+    "annotations": {
+     "bold": false,
+     "italic": false,
+     "strikethrough": false,
+     "underline": false,
+     "code": false,
+     "color": "default"
+    },
+    "plain_text": "People",
+    "href": null
+   }
+  ],
+  "description": [],
+  "is_inline": false,
+  "database_type": null,
+  "properties": {
+   "Name": {
+    "id": "title",
+    "name": "Name",
+    "description": null,
+    "type": "title",
+    "title": {}
+   },
+   "About": {
+    "id": "people%3Aabout",
+    "name": "About",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Person": {
+    "id": "people%3Aperson",
+    "name": "Person",
+    "description": null,
+    "type": "people",
+    "people": {}
+   },
+   "Membership Type": {
+    "id": "people%3Amembership_type",
+    "name": "Membership Type",
+    "description": null,
+    "type": "select",
+    "select": {
+     "options": [
+      {
+       "id": "owner",
+       "name": "Workspace owner",
+       "color": "red",
+       "description": null
+      },
+      {
+       "id": "membership_admin",
+       "name": "Membership admin",
+       "color": "green",
+       "description": null
+      },
+      {
+       "id": "member",
+       "name": "Member",
+       "color": "blue",
+       "description": null
+      },
+      {
+       "id": "restricted_member",
+       "name": "Restricted member",
+       "color": "yellow",
+       "description": null
+      },
+      {
+       "id": "page_guest",
+       "name": "Guest",
+       "color": "yellow",
+       "description": null
+      },
+      {
+       "id": "none",
+       "name": "Deactivated",
+       "color": "gray",
+       "description": null
+      }
+     ]
+    }
+   }
+  },
+  "parent": {
+   "type": "workspace",
+   "workspace": true
+  },
+  "url": "https://app.notion.com/p/d3d58a0779e882dfb0d8014512d331ec",
+  "public_url": null,
+  "in_trash": false,
+  "archived": false,
+  "request_id": "925c10ac-25f5-4309-831c-99d266ab8279"
+ },
+ "row_count": 1,
+ "rows": [
+  {
+   "object": "page",
+   "id": "32e58a07-79e8-8364-9378-0183a950e6d4",
+   "created_time": "2026-07-24T22:57:00.000Z",
+   "last_edited_time": "2026-07-24T22:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "00000000-0000-0000-0000-000000000000"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "00000000-0000-0000-0000-000000000000"
+   },
+   "cover": {
+    "type": "external",
+    "external": {
+     "url": "https://app.notion.com/images/page-cover/nationalMuseumOfAsianArt_landscapeWithGibbonsAndCranes.jpg"
+    }
+   },
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "d3d58a07-79e8-82df-b0d8-014512d331ec"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Ahmed Ahmed",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Ahmed Ahmed",
+       "href": null
+      }
+     ]
+    },
+    "About": {
+     "id": "people%3Aabout",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Email": {
+     "id": "people%3Aemail",
+     "type": "rollup",
+     "rollup": {
+      "type": "array",
+      "array": [],
+      "function": "show_original"
+     }
+    },
+    "Person": {
+     "id": "people%3Aperson",
+     "type": "people",
+     "people": [
+      {
+       "object": "user",
+       "id": "3a7d872b-594c-8189-8121-000244e53bc8",
+       "name": "Ahmed Ahmed",
+       "avatar_url": null,
+       "type": "person",
+       "person": {
+        "email": "tasahom.1998@gmail.com",
+        "email_verified": true
+       }
+      }
+     ]
+    },
+    "Membership Type": {
+     "id": "people%3Amembership_type",
+     "type": "select",
+     "select": {
+      "id": "owner",
+      "name": "Workspace owner",
+      "color": "red"
+     }
+    }
+   },
+   "url": "https://app.notion.com/p/Ahmed-Ahmed-32e58a0779e8836493780183a950e6d4",
+   "public_url": null,
+   "archived": false
+  }
+ ]
+}

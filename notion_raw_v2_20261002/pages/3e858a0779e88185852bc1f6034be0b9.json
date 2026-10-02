@@ -1,0 +1,331 @@
+{
+ "capture_reason": "NEW",
+ "captured_at": "2026-10-02T12:06:31+03:00",
+ "title": "نتائج الدفعة 2 — MEC-2.1 (173 SKU من P2، تشغيلة MEC2-20260927-B2)",
+ "last_edited": "2026-09-27T04:02:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e858a07-79e8-8185-852b-c1f6034be0b9",
+  "created_time": "2026-09-27T02:37:00.000Z",
+  "last_edited_time": "2026-09-27T04:02:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3e758a07-79e8-8187-9e89-00278adc0ead"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3e758a07-79e8-8187-9e89-00278adc0ead"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "page_id",
+   "page_id": "3e658a07-79e8-81c4-9cdd-d7b74626d61f"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "title": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "نتائج الدفعة 2 — MEC-2.1 (173 SKU من P2، تشغيلة MEC2-20260927-B2)",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "نتائج الدفعة 2 — MEC-2.1 (173 SKU من P2، تشغيلة MEC2-20260927-B2)",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/2-MEC-2-1-173-SKU-P2-MEC2-20260927-B2-3e858a0779e88185852bc1f6034be0b9",
+  "public_url": null,
+  "archived": false,
+  "request_id": "ceeab432-1da0-4fe7-9454-2790d793fc62"
+ },
+ "block_count": 27,
+ "blocks": [
+  {
+   "id": "3e858a07-79e8-8161-8fa0-d901ec9de819",
+   "type": "callout",
+   "has_children": false,
+   "text": [
+    "نتائج الدفعة الثانية (MEC-2.1) — 173 SKU من أولوية P2 · تشغيلة MEC2-20260927-B2 · 2026-09-27. مستوى الدليل: معلن (مقتطف بحث) لكل العروض — القراءة المباشرة للصفحات مؤجلة بسبب استنفاد حصة الوظائف البعيدة (خطأ 477 طويل النافذة، §19). هذه صفحة نتائج تشغيلية، لا ترقية إصدار ولا حسم قرارات."
+   ],
+   "created": "2026-09-27T02:37:00.000Z",
+   "edited": "2026-09-27T02:37:00.000Z"
+  },
+  {
+   "id": "3e858a07-79e8-817c-8572-f290868438e8",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "1 · حدود التشغيلة (صادقة)"
+   ],
+   "created": "2026-09-27T02:37:00.000Z",
+   "edited": "2026-09-27T02:37:00.000Z"
+  },
+  {
+   "id": "3e858a07-79e8-812d-9116-caf24bdae833",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "121 استعلامًا مخططًا → 115 ناجحًا (صفر إخفاق قبل الحجب) + 15 مؤجلًا بحصة 477 طويلة النافذة (>45 دقيقة رغم التبريد — يُحتمل حصة تراكمية يومية ~230 استعلامًا عبر الجلسات)."
+   ],
+   "created": "2026-09-27T02:37:00.000Z",
+   "edited": "2026-09-27T02:37:00.000Z"
+  },
+  {
+   "id": "3e858a07-79e8-8117-a489-cb470d8eaaf7",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "الإيقاع المطبق: 5 ثوانٍ بين الاستعلامات + تبريد 15 ثانية عند الفشل + استئناف آمن بميزانية زمنية (درس MEC-2.0 مُطبق)."
+   ],
+   "created": "2026-09-27T02:37:00.000Z",
+   "edited": "2026-09-27T02:37:00.000Z"
+  },
+  {
+   "id": "3e858a07-79e8-8198-818d-ce8c77f2668f",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "18 SKU بحالة Rate-Limited — الاستئناف موثق كسكربت في المخرجات المحلية (sku_database.md §هـ)."
+   ],
+   "created": "2026-09-27T02:37:00.000Z",
+   "edited": "2026-09-27T02:37:00.000Z"
+  },
+  {
+   "id": "3e858a07-79e8-8122-ac8f-e3ae542bdad1",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "2 · ملخص التغطية"
+   ],
+   "created": "2026-09-27T02:37:00.000Z",
+   "edited": "2026-09-27T02:37:00.000Z"
+  },
+  {
+   "id": "3e858a07-79e8-81ea-bc51-c13cdf292caa",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "219 سجل SKU إجمالًا الآن (46 دفعة 1 + 173 دفعة 2)."
+   ],
+   "created": "2026-09-27T02:37:00.000Z",
+   "edited": "2026-09-27T02:37:00.000Z"
+  },
+  {
+   "id": "3e858a07-79e8-81cf-85d3-cd95f31e042c",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "47 SKU بعروض معلنة (31 بهوية مطابقة تمامًا + 16 بهوية مجاورة موسومة) · 26 بخط أساس رسمي موثق · 108 Lead-only (ضجيج مستبعد بمراجعة يدوية) · 18 مؤجلًا."
+   ],
+   "created": "2026-09-27T02:37:00.000Z",
+   "edited": "2026-09-27T02:37:00.000Z"
+  },
+  {
+   "id": "3e858a07-79e8-8150-8357-ef5665499b08",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "ضجيج الاستخراج الآلي استُبعد بمراجعة بشرية (بطاقات المتاجر نفسها Eneba/Kinguin GC تلوت استعلامات Steam/Xbox/Google — مستبعدة وموثقة كنقاط سلوك قنوات)."
+   ],
+   "created": "2026-09-27T02:37:00.000Z",
+   "edited": "2026-09-27T02:37:00.000Z"
+  },
+  {
+   "id": "3e858a07-79e8-81e0-afda-efd696d6b479",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "3 · أهم الاكتشافات السعرية (معلنة 27/09)"
+   ],
+   "created": "2026-09-27T02:37:00.000Z",
+   "edited": "2026-09-27T02:37:00.000Z"
+  },
+  {
+   "id": "3e858a07-79e8-81b9-bb44-ecc8f95f8b35",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "PSN 20 USD: $19.04 · PSN 25 USD: $23.67 (إينابا، -5%) — أول أسعار PSN أمريكية معلنة تحت الاسمي في المشروع."
+   ],
+   "created": "2026-09-27T02:37:00.000Z",
+   "edited": "2026-09-27T02:37:00.000Z"
+  },
+  {
+   "id": "3e858a07-79e8-8191-b31c-e1d5ff0c9439",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "PSN 50 EUR: $50.83–54.18 (cdkeyprices/gg.deals) · Razer Gold 50: $47.00–48.54 · GTA V: $6.79–9.71 (الرسمي انخفض إلى $29.99) · Elden Ring: $46.44 · AC Shadows: $21.48 · Black Myth: $34.28 (Driffle)."
+   ],
+   "created": "2026-09-27T02:37:00.000Z",
+   "edited": "2026-09-27T02:37:00.000Z"
+  },
+  {
+   "id": "3e858a07-79e8-81d6-b1dd-f107dc49ec8c",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Windows 10 Pro: £0.75 (~$1.02) · Office 2024 Pro Plus: $0.60 (Keys4us) — يعزز رصد Keyforsteam €0.56 المباشر السابق عبر مصدر مستقل ثانٍ."
+   ],
+   "created": "2026-09-27T02:37:00.000Z",
+   "edited": "2026-09-27T02:37:00.000Z"
+  },
+  {
+   "id": "3e858a07-79e8-81a1-b261-d2d9137689eb",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Valorant 2050 VP: $19.49 · Welkin Moon: $4.99 رسمي · M365 Personal سنة: $61.24 · مقعد Spotify Family (بائع TG هندي): ₹119 (~$1.37) — يعزز نموذج استخراج المقاعد العائلية الموثق في MEC-2.0."
+   ],
+   "created": "2026-09-27T02:37:00.000Z",
+   "edited": "2026-09-27T02:37:00.000Z"
+  },
+  {
+   "id": "3e858a07-79e8-8101-b3f7-f4e547ccaafb",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "eSIM: أمريكا من $4.00 (Airalo) · السعودية 10GB/7d $24.00 · الإمارات 3GB/30d $7.85 (eSIMCard)."
+   ],
+   "created": "2026-09-27T02:37:00.000Z",
+   "edited": "2026-09-27T02:37:00.000Z"
+  },
+  {
+   "id": "3e858a07-79e8-815a-a1ec-e23647def1c3",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "SMM (أرضيات لوحات): IG من $0.01–0.09/1000 · TG أعضاء من $0.07 · يوتيوب مشتركون من $0.06 · تيك توك ~$1.50."
+   ],
+   "created": "2026-09-27T02:37:00.000Z",
+   "edited": "2026-09-27T02:37:00.000Z"
+  },
+  {
+   "id": "3e858a07-79e8-812e-aa89-e44b221edefb",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "أرقام افتراضية: TG مصر من $1.61 (PvaPins) · WA أمريكي/بريطاني $0.99/شهر (نموذج إيجار ≠ OTP لمرة واحدة)."
+   ],
+   "created": "2026-09-27T02:37:00.000Z",
+   "edited": "2026-09-27T02:37:00.000Z"
+  },
+  {
+   "id": "3e858a07-79e8-8138-b86c-e86f85a0b402",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "4 · الاكتشافات الهيكلية"
+   ],
+   "created": "2026-09-27T02:37:00.000Z",
+   "edited": "2026-09-27T02:37:00.000Z"
+  },
+  {
+   "id": "3e858a07-79e8-81a7-ac3d-d5c1b46f7a96",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "سوق العلاوة الأرجنتيني: بطاقات PSN الأرجنتينية تُباع فوق قيمتها الاسمية (بطاقة $50 عند ~$67.91 عبر K4G؛ معدل $1.35/دولار) — البطاقة أداة وصول مراجَح لمتجر أرخص داخليًا. العرض الوحيد تحتها ($34.81 إينابا) كان «نفد» لحظة الرصد."
+   ],
+   "created": "2026-09-27T02:37:00.000Z",
+   "edited": "2026-09-27T02:37:00.000Z"
+  },
+  {
+   "id": "3e858a07-79e8-8113-a2ce-ccda77991f88",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "«رمادي» ليس مرادف «أرخص»: G2A يبيع 660 PUBG UC بـ$26.61 فوق الرسمي $9.99 (+166%) — تسعير راحة الدفع البديل لا الخصم. مقابل ذلك منتديات رمادية (sythe.org): 2800 V-Bucks بـ$6.99 بلا أي حماية منصة."
+   ],
+   "created": "2026-09-27T02:37:00.000Z",
+   "edited": "2026-09-27T02:37:00.000Z"
+  },
+  {
+   "id": "3e858a07-79e8-81b8-bb57-f0a4b5f6b4fc",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "لا توجد فوترة سنوية رسمية لChatGPT Plus (نص help.openai) — كل عرض «Plus 12 شهرًا» في السوق الرمادي بناء غير رسمي بطبيعته (مقاعد/حسابات) وليس خصمًا عن خطة رسمية."
+   ],
+   "created": "2026-09-27T02:37:00.000Z",
+   "edited": "2026-09-27T02:37:00.000Z"
+  },
+  {
+   "id": "3e858a07-79e8-8130-9de4-d4a7b94f0887",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "خطوط رسمية وثّقتها المقتطفات: ChatGPT Go $8 · Claude Max $100/$200 · Midjourney Basic $10 (سنوي $8/ش) / Standard $30 · GitHub Copilot Pro $10 · Disney+ Ads $9.99 · Google One 100GB $1.99 · PS+ Essential 3 أشهر $24.99 / سنة $79.99 · PUBG UC رسمي 325=$4.99/660=$9.99/1800=$24.99."
+   ],
+   "created": "2026-09-27T02:37:00.000Z",
+   "edited": "2026-09-27T02:37:00.000Z"
+  },
+  {
+   "id": "3e858a07-79e8-811c-8437-e349cefe01ba",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "5 · المخرجات المحدثة"
+   ],
+   "created": "2026-09-27T02:37:00.000Z",
+   "edited": "2026-09-27T02:37:00.000Z"
+  },
+  {
+   "id": "3e858a07-79e8-818e-83c5-c8a90f38adc4",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "supplier_intelligence.html v2.1 (جدول تفاعلي للدفعة 2 + 173 صفًا) · sku_database.md (قسم MEC-2.1) · offers_intelligence.json (batch2_run + 219 سجلًا) · catalog_v42.json (دفتر تغطية الدفعة 2) · تطبيق Next.js (تبويب «الدفعة 2 (173)»)."
+   ],
+   "created": "2026-09-27T02:37:00.000Z",
+   "edited": "2026-09-27T02:37:00.000Z"
+  },
+  {
+   "id": "3e858a07-79e8-8169-a011-dd43cce4b286",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "سجلات التشغيل: action_ledger.json (RB-001..115) · findings_index_b2.json (468 نتيجة) · batch2_intelligence_draft.json."
+   ],
+   "created": "2026-09-27T02:37:00.000Z",
+   "edited": "2026-09-27T02:37:00.000Z"
+  },
+  {
+   "id": "3e858a07-79e8-81b1-b4d2-cf08a0606499",
+   "type": "callout",
+   "has_children": false,
+   "text": [
+    "تذكير حوكمي: v4.2 ما زالت مرشح عمل غير معتمد (بوابة Bootstrap D1 مفتوحة) · D1–D7 كلها بيد المستخدم · توصية D5 (تدوير التوكن) ما زالت عاجلة. المزامنة التالية المقترحة: بعد إعادة الاستعلامات الـ15 المؤجلة أو حسم D1/D2."
+   ],
+   "created": "2026-09-27T02:37:00.000Z",
+   "edited": "2026-09-27T02:37:00.000Z"
+  },
+  {
+   "id": "3e858a07-79e8-8103-8afa-c82227c0311e",
+   "type": "callout",
+   "has_children": false,
+   "text": [
+    "تحديث MEC-2.2 (صباح 2026-09-27): الاستئناف المؤجل (15 استعلامًا) ما زال معلقًا على تصفير الحصة — سكربت الاستئناف رُقّي ليصبح ذاتيًا بالكامل (إعادة محاولة الفاشل + إزالة التكرارات) ومراقب حصة آلي يعمل الآن (scripts/quota_watcher.py) ويفتح خط الأنابيب تلقائيًا عند التصفيير. حزمة القرارات المفوَّضة (D1/D2/D5 + B2B) صدرت وموثقة في صفحة نتائج MEC-2.2 الشقيقة تحت المرجع الحاكم."
+   ],
+   "created": "2026-09-27T04:02:00.000Z",
+   "edited": "2026-09-27T04:02:00.000Z"
+  }
+ ]
+}

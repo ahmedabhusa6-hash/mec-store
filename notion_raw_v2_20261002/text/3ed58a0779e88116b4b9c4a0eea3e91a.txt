@@ -1,0 +1,149 @@
+Final Deep Research Prompt — Provider Intelligence Engine
+========================================
+تقمص دور استشاري ومحلل نظم ومهندس أوامر نخبوي متعدد التخصصات، ويكون التخصص السيادي للمهمة هو:
+Provider/Supplier Intelligence & Multi-API Orchestration Architecture
+اجعل المهمة بحثًا تقنيًا واستخباراتيًا قائمًا على الأدلة، وليس بحثًا وصفيًا أو تجميعيًا.
+السياق
+لدي نحو 300 Telegram Bot، وكل بوت مرتبط بمورد/متجر مختلف ويمنح API Key ووثائق API قد تكون Swagger/OpenAPI أو Documentation عادية. قد توفر APIs قدرات مثل products، prices، stock، balance، order creation، order status، fulfillment.
+مهم: لا تعتبر Telegram Bot هو Worker. اعتبر كل مورد كـProvider، وكل API credential مورد وصول، والتنفيذ مركزيًا عبر HTTP/API إلا حيث تكون Telegram نفسها جزءًا من capability المطلوب اختبارها.
+الهدف
+تحديد أفضل طريقة لبناء نظام مركزي يستطيع:
+تسجيل الموردين.
+اكتشاف API capabilities.
+تحليل OpenAPI/Swagger عند توفره.
+استخدام fallback عند غياب المواصفة.
+توحيد الموردين خلف Canonical Provider API.
+جمع catalogs.
+تطبيع المنتجات.
+مطابقة المنتج نفسه بين الموردين.
+مقارنة price/stock/fees/delivery/reliability.
+قياس الأداء تاريخيًا.
+احتساب effective cost.
+اختيار المورد الأنسب لكل منتج وفق Decision Policy قابلة للتدقيق.
+ابحث بعمق عن
+GitHub projects كاملة أو جزئية.
+Telegram reseller/digital-goods supplier APIs.
+multi-supplier systems.
+supplier aggregation.
+catalog synchronization.
+product matching/entity resolution.
+lexical/fuzzy/semantic matching.
+embeddings/pgvector.
+price intelligence.
+supplier scoring/ranking.
+order routing.
+OpenAPI/Swagger discovery.
+Arazzo/workflow execution.
+API testing/contract testing/property-based testing.
+API change detection.
+reliability/health measurement.
+safe purchase testing.
+secrets management.
+منهج البحث
+ابحث باستخدام مرادفات متعددة، ثم لا تعتمد على نتيجة البحث إلا بعد فحص المصدر الأصلي.
+لكل GitHub candidate:
+repository URL
+description
+README
+architecture
+relevant source files
+tests
+license
+creation/update/activity
+whether active/archived
+implementation maturity
+reusable components
+exact feature evidence
+limitations
+لا تنسب أي feature لمشروع إلا إذا ثبت من README أو source code أو official docs.
+نموذج الأدلة الإلزامي
+لكل نتيجة:
+FACT = حقيقة موثقة.
+FINDING = نتيجة من البحث.
+INFERENCE = استنتاج هندسي.
+RECOMMENDATION = توصية مبنية على الأدلة.
+استخدم أيضًا Evidence State:
+DECLARED
+OBSERVED
+HISTORICAL
+INFERRED
+UNKNOWN
+ولا تسمح بتعامل النظام مع INFERRED/UNKNOWN على أنها حقيقة مكافئة لـOBSERVED.
+الاختبار الآمن
+قسّم الاختبارات إلى:
+DISCOVERY → READ-ONLY → SAFE WORKFLOW → SANDBOX/TEST → CONTROLLED REAL MICRO-ORDER
+لا تنفذ purchase حقيقي تلقائيًا لمجرد وجود endpoint. ضع:
+explicit allowlist
+budget cap
+idempotency
+timeout
+retry limits
+circuit breaker
+rate limits
+audit trail
+secret redaction
+kill switch
+Product Matching
+لا تعتمد على embeddings وحدها.
+استخدم طبقات:
+exact IDs / SKU / product code
+normalized fields
+domain attributes
+lexical/fuzzy matching
+semantic embeddings
+confidence threshold
+human review للحالات الحرجة
+وبالنسبة للمنتجات الرقمية، ادرس attributes مثل:
+product type، duration، region، account type، slot/individual، activation method، warranty، delivery mode، quantity، renewal/non-renewal، restrictions.
+Decision Model
+لا تستخدم "أفضل متجر" كترتيب أحادي إلا بعد تحديد policy.
+افصل:
+cheapest
+fastest
+most reliable
+highest stock
+best effective cost
+best value
+best provider for this product
+واستخدم Pareto analysis عند الحاجة بدل إخفاء trade-offs في رقم واحد.
+Architecture المطلوبة
+Provider Registry
+→ Discovery
+→ OpenAPI Parser / Documentation Parser
+→ Capability Detection
+→ Provider Adapter
+→ Canonical API
+→ Catalog Collection
+→ Product Normalization
+→ Entity Resolution
+→ Price/Stock Intelligence
+→ Reliability History
+→ Effective Cost
+→ Supplier Decision Engine
+→ Historical Database
+→ Dashboard/Reports
+ادرس كذلك:
+rate limiting، queueing، adaptive concurrency، retries، timeout، circuit breaker، idempotency، pagination، auth، API versioning، error normalization، secrets، observability، auditability، dry-run.
+المقارنة مع GitHub
+بعد الفحص أنشئ:
+أقرب 5–10 مشاريع فعلية.
+ماذا يوفر كل مشروع.
+ما الذي يمكن إعادة استخدامه.
+ما الذي لا يوفره.
+درجة قرب وظيفية مبنية على الأدلة فقط، دون تقييم انطباعي.
+Gap Analysis.
+Build vs Integrate vs Fork.
+المخرجات النهائية
+أجب بدقة عن:
+هل يوجد مشروع جاهز يحقق معظم النظام؟
+ما أقرب المشاريع؟
+ما أفضل المكونات القابلة لإعادة الاستخدام؟
+ما الفجوات التقنية؟
+ما architecture الأنسب؟
+ما الذي يجب بناؤه من الصفر؟
+ما الذي يجب عدم بنائه لأن له معيارًا/أداة مفتوحة المصدر جاهزة؟
+أعط الأولوية للمصادر الأصلية: GitHub repositories، source code، official specifications، official documentation.
+لا تخمّن.
+لا تختلق.
+لا تساوِ بين مشروع اسمه قريب ومشروع يطبق الوظيفة فعليًا.
+وعندما لا توجد أدلة كافية، اكتب: UNKNOWN / INSUFFICIENT EVIDENCE.

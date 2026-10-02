@@ -1,0 +1,52 @@
+# Claude Sonnet 5 Workspace — Research & Drafts
+
+> id=3e758a07-79e8-81e6-90b1-ca37ecff13ec | url=https://app.notion.com/p/Claude-Sonnet-5-Workspace-Research-Drafts-3e758a0779e881e690b1ca37ecff13ec | label=HUB-CHILD
+
+## Content
+## Role
+**Research · Architecture · Prompt Engineering · Drafting · Experimentation**
+This workspace is owned by the Claude development function.
+## Purpose
+- Perform external research.
+- Develop Prompt architecture and revisions.
+- Produce Draft and Candidate versions.
+- Record supporting evidence and design rationale.
+- Run research-oriented tests and document results.
+## Authority
+**Draft ≠ Approved.**
+Claude owns this workspace and may edit its research, architecture, experiments, drafts, and Candidate Prompt text.
+Claude may not:
+- edit the ChatGPT Workspace;
+- edit ChatGPT audit findings;
+- alter the Operating Protocol or governance rules;
+- alter Canonical approval state or promotion status;
+- delete historical records;
+- silently merge competing Candidates;
+- overwrite authoritative source text with an inferred reconstruction.
+The **Prompt Working Reference** is the only shared prompt-development surface Claude may directly edit. Claude may update Prompt Text and Draft Evolution there, but not Canonical authority, approval metadata, Version Registry authority fields, or Decision outcomes.
+## Draft rule
+Every Candidate must identify:
+- Parent Version ID
+- Author
+- Change Summary
+- Reason
+- Evidence / Sources
+- Tests Passed
+- Tests Failed
+- Known Limitations
+- Governance-Touching: yes / no / unsure
+## Handoff to ChatGPT
+A submitted Candidate must include:
+- Candidate Version ID
+- Parent Version ID
+- Exact Prompt text or changed sections
+- Change Log
+- Evidence
+- Validation results
+- Open questions
+Do not assume ChatGPT has access to this workspace unless the relevant content is explicitly transferred.
+## Notion-First Relay Protocol
+Claude receives a controlled Handoff Packet, not the entire historical conversation.
+Each Handoff identifies the current version, objective, relevant findings, constraints, tests, evidence requirements, and the exact requested output.
+After completing the task, return the full result to the user for transport back to ChatGPT. Do not assume Notion has been updated unless the user explicitly reports that ChatGPT archived it.
+Do not spend tokens restating historical context that is not required for the current test.

@@ -1,0 +1,173 @@
+{
+ "capture_reason": "NEWLY_ACCESSIBLE",
+ "captured_at": "2026-10-02T12:16:49+03:00",
+ "title": "Pricing",
+ "last_edited": "2026-09-25T20:54:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e658a07-79e8-8140-ae0b-d4a43895fa15",
+  "created_time": "2026-09-25T20:54:00.000Z",
+  "last_edited_time": "2026-09-25T20:54:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "a14def36-fe3f-4246-90b4-2872da859364"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "Parent": {
+    "id": "%3EfF%5E",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Product & Offer",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Product & Offer",
+      "href": null
+     }
+    ]
+   },
+   "Status": {
+    "id": "IPP%3A",
+    "type": "select",
+    "select": {
+     "id": "e7888fac-ae22-41bc-b271-a51886ca1be3",
+     "name": "Mapped",
+     "color": "blue"
+    }
+   },
+   "Last Reviewed": {
+    "id": "MoVl",
+    "type": "date",
+    "date": {
+     "start": "2026-09-25",
+     "end": null,
+     "time_zone": null
+    }
+   },
+   "Domain ID": {
+    "id": "RoQ%7B",
+    "type": "unique_id",
+    "unique_id": {
+     "prefix": "DOM",
+     "number": 7
+    }
+   },
+   "Level": {
+    "id": "WOQt",
+    "type": "select",
+    "select": {
+     "id": "f608097f-a2fb-4dde-ac38-77d20067a906",
+     "name": "Value Creation",
+     "color": "yellow"
+    }
+   },
+   "Priority": {
+    "id": "_rIt",
+    "type": "select",
+    "select": {
+     "id": "aa6624d0-3af9-4ec0-a22c-f35d5c479f4b",
+     "name": "High",
+     "color": "orange"
+    }
+   },
+   "Description": {
+    "id": "jF%3A%3E",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "استراتيجية التسعير، القيمة، المرونة، الخصومات، التسعير السلوكي والتجاري.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "استراتيجية التسعير، القيمة، المرونة، الخصومات، التسعير السلوكي والتجاري.",
+      "href": null
+     }
+    ]
+   },
+   "Evidence Basis": {
+    "id": "u%3Fc%5D",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Academic pricing literature; professional frameworks",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Academic pricing literature; professional frameworks",
+      "href": null
+     }
+    ]
+   },
+   "Name": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Pricing",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Pricing",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/Pricing-3e658a0779e88140ae0bd4a43895fa15",
+  "public_url": null,
+  "archived": false,
+  "request_id": "7e40d46c-2cc8-411d-9ef6-9fbb2227b238"
+ },
+ "block_count": 0,
+ "blocks": []
+}

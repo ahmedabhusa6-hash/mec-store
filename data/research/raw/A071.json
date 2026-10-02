@@ -1,0 +1,13 @@
+{
+  "action": {
+    "action_id": "A071",
+    "branch": "BR-EXCLUSION-SCREEN",
+    "sku_id": "SKU-AI-001",
+    "objective": "RETRY (A066 rate-limited): cheap ChatGPT Plus shared-account market signal check",
+    "discovery_family": "Community/Forum-first",
+    "method": "signal-check-retry",
+    "query": "buy cheap ChatGPT Plus shared account telegram resale"
+  },
+  "error": "Function invoke failed with status 429: {\"error\":\"Too many requests, please try again later\"}",
+  "timestamp": "2026-09-26T21:09:39.367Z"
+}

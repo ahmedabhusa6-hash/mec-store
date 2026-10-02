@@ -1,0 +1,69 @@
+Accounting Systems — Governance Addendum — 2026-09-30
+========================================
+Purpose
+حفظ القيود التشغيلية والحَوْكمية الواردة في Trigger المحادثة بتاريخ 2026-09-30 بوصفها قواعد خاصة بمنظومة Accounting Systems — Continuous Knowledge & Classification Operation. هذه الصفحة لا تستبدل المرجع الحاكم؛ بل تسد التفاصيل التي لا تظهر في ملخص الصفحة الحاكمة.
+Trigger Model
+كل تشغيل SCHEDULED هو دورة مستقلة:
+Read State → Determine Next Work → Process → Commit → Verify → Persist → Stop.
+لا يوجد Live Continuous Process بين الدورات. نهاية الدورة لا تعني نهاية المنظومة. NO_CHANGE لا يوقف التشغيل، وBLOCKED حالة دورة وليست إيقافًا نهائيًا، وPARTIAL تستخدم عندما يُنفذ جزء موثوق ويبقى جزء مفتوح.
+Canonical Operation
+Discovery → Triage → Research → Validation → Classification → Conflict Check → Synthesis → Knowledge Commit → Verify → Quality Control → Gap Detection → Prioritize → Persist State.
+تحديد العمل التالي يعتمد على الحالة المحفوظة والموثقة فقط، لا على ذاكرة غير موثقة.
+Entity / Provenance Separation
+السلسلة المرجعية:
+Research_ID → Source_ID → Evidence_ID → Claim_ID → Classification_ID / Knowledge_ID → Change_ID → Cycle_ID.
+لا تُعامل Research / Source / Evidence / Claim / Classification Decision / Knowledge Asset ككيان واحد.
+قبل إنشاء Knowledge Asset جديد يجب تنفيذ SEARCH EXISTING KNOWLEDGE ومطابقة الكيان والادعاء والإصدار والسياق.
+Multidimensional Classification
+يجب فصل الأبعاد التالية وعدم دمجها في فئة واحدة:
+System Type; Functional Scope; Deployment; Architecture; Licensing; Accounting Standards/Localization; Organizational Structure; Integrations; Reporting/Control; Market/Geography; Product Maturity.
+لا يُملأ أي بُعد بلا Evidence. عند غياب الدليل يستخدم UNKNOWN.
+System Identity
+الهرمية:
+Vendor → Product → Edition/Plan → Version → Module/Feature → Localization.
+أي معلومة تتأثر بالنسخة أو الخطة أو الدولة أو التاريخ تربط بهذه الأبعاد عندما تكون ذات صلة.
+Controlled State Vocabulary
+الحالات المسموحة فقط:
+DISCOVERED, TRIAGED, RESEARCHING, VALIDATING, SYNTHESIZED, ACTIVE, CONTESTED, CONFLICTED, INSUFFICIENT_EVIDENCE, DUPLICATE, OUTDATED, SUPERSEDED, REJECTED.
+لا انتقال مباشر من DISCOVERED إلى ACTIVE. ولا انتقال من CONFLICTED إلى ACTIVE دون تحقق موثق. ولا انتقال مباشر من SUPERSEDED / REJECTED / DUPLICATE إلى ACTIVE.
+Change / Conflict / Commit Separation
+Change Type: CREATED, CONFIRMED, UPDATED, CORRECTED, CONTEXTUALIZED, DUPLICATED, SUPERSEDED, REJECTED.
+Conflict Status: NONE, OPEN, PARTIALLY_RESOLVED, RESOLVED.
+Commit Status: NOT_ATTEMPTED, PREPARED, COMMITTED, VERIFIED, FAILED, RECONCILING, RETRY_REQUIRED.
+لا يجوز خلط State / Change / Conflict / Commit.
+Conflict Protocol
+Detect → Identify Claims → Verify Conflict → Compare Context/Timeframe/Product/Version/Edition/Market/Definitions/Methods/Measurement → Assess Evidence Quality → Seek Independent Evidence → Classify Conflict → Decide → Record Rationale.
+أنواع التعارض:
+CONTEXT_CONFLICT, TEMPORAL_CONFLICT, POPULATION_CONFLICT, METHODOLOGICAL_CONFLICT, MEASUREMENT_CONFLICT, INTERPRETIVE_CONFLICT, EMPIRICAL_CONFLICT، ومع الأنظمة المحاسبية:
+VERSION_CONFLICT, EDITION_CONFLICT, LOCALIZATION_CONFLICT.
+عند عدم الحسم تبقى الحالة CONTESTED أو CONFLICTED.
+Commit / Recovery Protocol
+PREPARE → WRITE → VERIFY.
+لا يُعد التغيير نافذًا قبل تحقق الالتزام. عند الفشل:
+DO NOT CLAIM SUCCESS → PRESERVE LAST_VERIFIED_STATE → RECORD PENDING_CHANGE → RECONCILE → RETRY SAFELY → VERIFY.
+عند UNKNOWN يجب تنفيذ RECONCILE FIRST.
+يُستخدم Change_ID + Knowledge_ID + Cycle_ID لمنع التكرار. لا تُسجل الدورة كمكتملة قبل الالتزام والتحقق والحفظ.
+Source Discipline
+الأولوية للمصادر الأصلية والرسمية، ثم المصادر المستقلة المهنية أو الأكاديمية. يجب الفصل بين Vendor Claim وVerified Fact. لا تُبنى قاعدة تصنيف لمجرد استخدام المورد تسمية تسويقية.
+Priority Logic
+تحديد الأولوية نوعي وفق:
+Impact × Relevance × Evidence Gap × Novelty × Actionability
+مع مراعاة Classification Uncertainty.
+لا تُخترع درجات رقمية غير موثقة.
+Post-Commit Gap Detection
+بعد كل Commit متحقق منه افحص:
+UNKNOWN / WEAK EVIDENCE / OUTDATED / CONFLICTED / UNCLASSIFIED / MISCLASSIFIED / MISSING CONTEXT / MISSING VERSION / MISSING LOCALIZATION / MISSING SOURCE.
+تُضاف الفجوات المهمة إلى Accounting Systems — Research Queue.
+Audit Trail
+كل دورة تُسجل في KOS — Continuous Knowledge Cycle Log، وكل تغيير مهم في Accounting Systems — Change Log، مع حفظ:
+Research IDs / Evidence Refs / Knowledge IDs / Change IDs / context.
+لا يُحذف التاريخ. SUPERSEDED ≠ DELETED.
+Current Research Direction
+الأولوية البحثية الممتدة من هذه المواصفة:
+تطوير واختبار Multidimensional Accounting Systems Taxonomy.
+البدء بـ Functional Scope.
+التحقق المستقل من الحد الفاصل بين Accounting Software وERP with Accounting.
+اختبار بقية المحاور عبر منتجات ونسخ وأسواق متعددة.
+بالنسبة للمحور الحالي: التحقق التجريبي من الفصل بين Architecture وIntegrations قبل إنشاء Controlled Vocabulary مستقل لـ Integrations.
+Preservation Rule
+هذه الصفحة Governance Addendum لحفظ تفاصيل Trigger 2026-09-30 التي يجب ألا تضيع بحذف المحادثة. عند التعارض مع حالة معرفية لاحقة موثقة، تُستخدم آلية Conflict Check / Reconciliation ولا يُعاد تفسير التاريخ بصمت.

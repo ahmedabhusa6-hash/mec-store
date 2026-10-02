@@ -1,0 +1,158 @@
+# Cycle 1 — Claude Handoff — v4.1 Independent Validation
+Copy-ready Claude message
+We have completed a pre-Claude repair pass on the Supplier Intelligence Research Engine.
+CURRENT GOVERNANCE
+- Claude Workspace = Research, Architecture, Prompt Engineering, Drafting, Experimentation, Candidate Development.
+- ChatGPT Workspace = Review, Audit, Stress Testing, Validation.
+- Canonical Registry = sole authority for an Approved Prompt.
+- Interaction Archive = persistent record of every cycle, handoff, response, audit, decision, and canonical update.
+- Notion is the durable system of record. Chat is transport only.
+- v4.0 remains preserved as the historical baseline comparator.
+- v4.1 is the current Candidate under validation.
+- v4.1 is NOT Approved.
+- Do not modify Notion during this task.
+- Do not promote any version to Approved.
+- Do not silently introduce governance rules.
+CURRENT CANDIDATE
+Version: v4.1
+Parent: v4.0
+Artifact:  z.ai  Supplier Intelligence Research Prompt
+Status: Candidate
+MISSION
+Independently validate v4.1.
+Do not assume that the repairs are correct.
+Do not merely review the wording.
+Try to falsify the architecture and the repairs.
+PERMITTED CONTEXT
+Use only the attached/current v4.1 Candidate and this handoff as the active task context. Historical project context is preserved in Notion and does not need to be repeated unless a specific item is required to evaluate the task.
+EXTERNAL RESEARCH
+Perform fresh external research on:
+- Agentic Deep Research
+- Search Planning and Query Diversification
+- Evidence and Execution Provenance
+- Entity Resolution and Blocking
+- Candidate Generation and Recall Preservation
+- Research Stopping Criteria
+- Multi-Agent Research Architectures
+- Human/Agent Oversight
+- Agent Evaluation
+Prefer primary or academic sources. Distinguish evidence from inference.
+INTEGRATED TEST
+Create and execute a realistic test that stresses:
+- multiple suppliers
+- multiple offers
+- SKU/tier/duration differences
+- public vs B2B pricing
+- reseller vs upstream ambiguity
+- copied/mirrored sources
+- source independence
+- freshness
+- guarantee claims
+- resale-right claims
+- inaccessible sources
+- contradictory evidence
+- high-value candidates without obvious Stage-1 blocking signals
+- query-path changes
+- budget allocation
+- stopping conditions
+- failure recovery
+- scope control
+BASELINE COMPARISON
+Compare:
+A. v4.0 baseline behavior
+B. v4.1 candidate behavior
+Explicitly validate the v4.1 repairs:
+- Runtime Scope Lock
+- Run Contract and Research Action Auditability
+- Evidence Integrity
+- Freshness semantics
+- Guarantee semantics
+- Transaction Verification
+- Entity Resolution Stage 0
+- Blocking recall preservation
+- Coverage Obligations
+- Query Diversification
+- Search Budget controls
+- Hypothesis minimum exploration
+- Explicit stopping states
+- Exclusion quarantine
+- Effective Acquisition Cost
+- Final Audit Record
+ADVERSARIAL TEST
+Attempt to break v4.1 through:
+- false entity merge
+- false entity split
+- false upstream inference
+- upstream incorrectly treated as cheapest
+- stale price treated as current
+- undated price mishandling
+- copied sources treated as independent
+- inaccessible source treated as non-existent
+- guarantee absence inferred from incomplete retrieval
+- resale authorization inferred from availability
+- early stopping
+- blocking-induced false negatives
+- silent scope mutation
+- abandoned hypotheses
+- branch budget starvation
+- contradiction suppression
+FINDINGS
+For every material finding provide:
+- Finding ID
+- v4.0 behavior
+- v4.1 behavior
+- Expected behavior
+- Evidence
+- Impact
+- Severity
+- Failure Class
+- Whether the repair is sufficient
+- Proposed correction
+- Regression risk
+- Required test
+Failure classes:
+Prompt Bug
+Prompt Gap
+Research Logic Gap
+Data Model Gap
+Evidence Gap
+Operational Gap
+Governance Gap
+REPAIR DISCIPLINE
+Do not create v4.2 merely because another improvement is theoretically possible.
+Create a new Candidate only when the test demonstrates a real defect or evidence-supported material gap.
+Keep repairs minimal and targeted.
+Do not rewrite unrelated sections for style.
+GOVERNANCE ISSUE
+There is currently no Approved Prompt in the Canonical Registry.
+The existing promotion gate assumes:
+Candidate Parent Version ID = Current Approved Version ID
+This creates a bootstrap problem for first approval.
+Treat this as a Governance Decision, not a prompt defect.
+Do not resolve it silently.
+Return the proposed bootstrap rule as an Open Governance Decision for the user.
+FINAL OUTPUT
+Return exactly:
+- External Research Findings
+- Integrated Test Case
+- v4.0 Baseline Results
+- v4.1 Results
+- Repair Validation Matrix
+- Adversarial Findings
+- Entity Resolution Audit
+- Evidence / Provenance Audit
+- Pricing / Freshness / Guarantee / Resale Audit
+- Budget and Stopping Audit
+- Scope-Control Audit
+- Findings Register
+- Repairs Required
+- Candidate Revision, if justified
+- Regression Tests
+- Remaining Risks
+- Governance Decisions Required from User
+- ChatGPT Handoff Package
+The purpose is independent falsification and validation of v4.1, not confirmation of the previous repair pass.
+Return the complete result.
+Transport
+Send this message to Claude.
+When Claude finishes, paste the  complete Claude response  back into ChatGPT. Do not summarize it before returning it; ChatGPT will archive and analyze it.

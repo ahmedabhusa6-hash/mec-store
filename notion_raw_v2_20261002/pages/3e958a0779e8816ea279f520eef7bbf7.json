@@ -1,0 +1,1211 @@
+{
+ "capture_reason": "NEW",
+ "captured_at": "2026-10-02T12:06:31+03:00",
+ "title": "AUTO-CYCLE-0062 — CLOUDFLARE NATIVE DURABLE SUBSTRATE RESEARCH",
+ "last_edited": "2026-09-28T05:04:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e958a07-79e8-816e-a279-f520eef7bbf7",
+  "created_time": "2026-09-28T05:04:00.000Z",
+  "last_edited_time": "2026-09-28T05:04:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "page_id",
+   "page_id": "3e658a07-79e8-81da-8a9f-cb80d02481aa"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "title": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "AUTO-CYCLE-0062 — CLOUDFLARE NATIVE DURABLE SUBSTRATE RESEARCH",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "AUTO-CYCLE-0062 — CLOUDFLARE NATIVE DURABLE SUBSTRATE RESEARCH",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/AUTO-CYCLE-0062-CLOUDFLARE-NATIVE-DURABLE-SUBSTRATE-RESEARCH-3e958a0779e8816ea279f520eef7bbf7",
+  "public_url": null,
+  "archived": false,
+  "request_id": "18e70a72-591f-4d42-8c6b-24e92f17a6c8"
+ },
+ "block_count": 115,
+ "blocks": [
+  {
+   "id": "fd5a2fd3-aa9f-4938-b4e1-fc5d6f7b45d3",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Cycle_ID"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "66676ba0-65f4-4161-84fe-ce23e26ea16a",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "AUTO-CYCLE-0062"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "5092f7d2-771e-4f9d-9605-434b5c85dab5",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Trigger"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "38ebaf5b-87c2-4834-a0f5-6b1822a86df8",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Scheduled Central Automation run. Scope: Central Automation Runtime only."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "491ff6fa-0900-4e50-ae8d-c94249b14a53",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "State Before"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "31f5b553-5c14-4912-93ac-7e3db2eff370",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Loaded AUTO-CYCLE-0061 directly from Notion. Native Notion verification for 0061 remains unverified; it is therefore treated as persisted historical state, not Notion-native VERIFIED."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "2eb61d28-36f0-45c0-a818-376f2be30688",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Pre-Flight / Overlap / Ownership"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "43ba59ab-be8d-4f63-82e1-87980c7c0411",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Automation inventory: exactly one enabled Central Automation trigger."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "dbda92c2-c140-4f86-a1c0-b2b9f1c58753",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "No duplicate was detected."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "3ee75491-0c59-48ae-a83c-98f581d4e2eb",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "No automation outside Central Automation was modified."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "7fd664d1-96a0-4388-88c9-c09e5f99eeb2",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Highest-Value Gap"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "1e2d9cfb-48ce-4279-851d-7eb9b75576ea",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Authorized independent Central Runtime repository + verified deployment path."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "b69b2257-8127-44f3-abb0-179c4534762c",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Live Reconciliation"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "8688b0f7-5621-4c1e-9c9b-36ce3525383d",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "GitHub — VERIFIED"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "b45088b8-3efe-4d1d-b40c-8bc94158fff4",
+   "type": "bulleted_list_item",
+   "has_children": true,
+   "text": [
+    "Owner inventory currently contains exactly three repositories:"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "4fdc8662-c21b-4020-957e-da9f63e3868a",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "AhmedMar98/Prompt-"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "88e8b826-a176-4d85-82d6-87934fd8b0fa",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "AhmedMar98/Telegram"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "41b622cc-f1f0-46f5-98bd-7da9b5a7c681",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "AhmedMar98/Umm-sara"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "3c3e59d4-2866-4ff7-a911-467149257e02",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "AhmedMar98/Umm-sara default branch = main."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "8eba2201-4f9f-4ff3-ac31-f640035007a4",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "No independent Central Runtime repository is present."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "912f74b5-63b4-47a4-b734-876955481612",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "No repository-creation mutation was attempted."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "6bf07c9e-7292-4ffd-a79d-727992eb369c",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "Render — VERIFIED"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "69137487-54fe-4441-9525-3ca970a71022",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Workspace = My Workspace (tea-d9nbisvqj5pc73eile10)."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "4547fad7-50d1-44b4-a337-ed7531db042b",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Exactly one web service: umm-sarah-web."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "6fd6898d-1cde-4d02-8b5e-bebe89cfb92f",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Repository = https://github.com/AhmedMar98/Umm-sara."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "dac2f75b-6f13-4acb-b082-a1fac852c4b0",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Branch = main."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "3afb3e24-f8ee-4c78-88ad-21a0fdf97766",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Plan = free."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "64b56fc9-84b1-46ed-b09d-ecd0972156cd",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "central-automation-queue-dev: Free, available, Valkey 8.1.10, persistenceMode=off."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "2df72677-e763-4a95-bf24-cb6e6686b665",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "central-automation-state-dev: Free Postgres, available, expires 2026-10-25 22:16:03 +03:00."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "16814fe1-c566-4028-9647-92e17b1f8bde",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "No independent Central Runtime service is deployed."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "0943d81e-7a3f-40f8-bcac-996a97600ace",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Deep Research / Fresh Evidence"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "ecc59f9d-c0e0-46d8-b988-4eb5670be1cb",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "FACT — Cloudflare Durable Objects"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "79ebd1d1-d9e1-40de-b870-477ba3cfe041",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Cloudflare Durable Objects are available on Free and Paid plans. SQLite-backed Durable Objects are available on Free; current Free limits include 5 GB total SQLite storage, 100 Durable Object classes, 100,000 requests/day, 100,000 rows read/day, and 100,000 rows written/day. Durable Objects provide stateful coordination primitives suitable for distributed systems."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "8b753739-3270-40e2-bb5d-467f2b4b8ae3",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Source: https://developers.cloudflare.com/durable-objects/"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "9c095a23-4e83-4ddd-b8d9-e73893d41abe",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Source: https://developers.cloudflare.com/durable-objects/platform/limits/"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "c8454ee7-b51e-4a3f-a493-85147a03d840",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "FACT — Cloudflare Queues"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "c883dbfe-9798-4852-a146-ca92937e8230",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Cloudflare Queues are available on Free and Paid plans and provide guaranteed delivery, retries, delays, batching, and Dead Letter Queues. Free currently includes 10,000 operations/day and up to 10,000 queues; Free message retention is 24 hours. Paid retention defaults to 4 days and can be configured up to 14 days."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "406ed9fc-375a-4dcd-bf40-6ad5aabda224",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Source: https://developers.cloudflare.com/queues/"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "a96cd135-2ac4-42a0-bdd0-add15f672e87",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Source: https://developers.cloudflare.com/queues/platform/pricing/"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "abdb1ec4-8ec0-4813-a7e9-3180c3158c0a",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "FACT — Cloudflare Workflows"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "e14e0692-38ba-4c67-a64f-ba36e9fea853",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Workflows remains available on Free and Paid and provides durable multi-step execution, retries, persisted state, and observability. Free has explicit execution/step/state/retention limits."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "7d89a44c-68dd-4f8d-901e-9c054aa82735",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Source: https://developers.cloudflare.com/workflows/reference/limits/"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "6ece4238-c811-4e37-895b-4418676cb96b",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "FACT — Render"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "7cee13b2-9267-42eb-afbc-8bf81e09f7d9",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Render Free Key Value is in-memory only and loses state on restart. Free Postgres expires after 30 days and has no backups."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "0e9129d3-ff27-4e0b-837c-b116accac89d",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Source: https://render.com/docs/key-value"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "3905a5c5-3a99-4608-b2a6-1c80ff4339cc",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Source: https://render.com/docs/free"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "18108a68-547d-4710-8b89-123f1d08fdf8",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "FACT — GitHub Repository Creation"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "6327c87b-bd0a-44f5-b803-1b28785cf7d2",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "GitHub's REST API supports POST /user/repos; fine-grained tokens require Repository creation write or Administration write permission. The connected GitHub tool surface still does not expose an authorized repository-creation action."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "34973c62-9a25-451a-bde5-dbbfb614962f",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Source: https://docs.github.com/en/rest/repos/repos"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "08685f4e-5a20-4d28-96f3-fa58315700ab",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Independent Alternatives"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "adbb0b02-2ac8-46a7-a332-ebd3a49bb78b",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Independent Repository + Cloudflare Durable Objects + Cloudflare Queues + Workflows"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "6e4acee5-87d3-4cc5-ab38-c27f2ad94c30",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Independent Repository + self-owned Control Plane/Worker + durable database/queue"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "2ae3df0f-35d4-4d29-b1ae-a2e2b2512eb6",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Independent Repository + Render Worker + paid durable state"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "18362a2a-84a1-438e-a397-5a9c573c9957",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Independent Repository + Oracle Always Free Compute, subject to tenancy/region/capacity verification"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "c7420a98-efe1-4c3b-ab5b-13a0488ec6d5",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Independent GitLab/Bitbucket Repository + independent compute"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "f06293ce-b413-4bb4-b1b4-ca2d03ec8885",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Comparison / Decision"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "e089b7a6-876b-48dc-b35d-d795325f24b5",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "NEW CANDIDATE: Cloudflare-native Durable Runtime substrate"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "374c7951-adaf-4530-877d-49f9b608d623",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "The combination of Durable Objects + Queues + Workflows is materially stronger than the previously evaluated Workflows-only architecture for the stated requirements:"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "31aa6105-92ce-49ed-ade5-73caafed8451",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Durable state / coordination: Durable Objects SQLite"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "db2adcb6-b9e5-48f1-934d-a80108ec41fa",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Durable queue / delivery: Queues"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "568c8301-eaff-4125-9284-7e300bfb772f",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Orchestration / retries / long-running workflow state: Workflows"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "41bc0568-184e-4d8e-a56e-0f06ee0dc490",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "DLQ / retry support: Queues"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "862ef2a4-7bba-4f54-9458-dc10ac5fd5af",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Ownership / serialization primitives: Durable Objects"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "fb1359c1-565f-4cd8-adf2-120fc7a5310f",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "However, this does not remove the primary blocker: an independently owned repository and verified deployment path are still required."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "355a7f88-ccc7-4530-a850-8b5e7d483490",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Decision"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "d37d4a79-1aa7-471d-a9ef-573187fb8401",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "KEEP REPOSITORY ISOLATION GATE"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "142e2038-7535-4413-a5d0-0832d4f97d83",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Do not use or modify Umm-sara, main, or umm-sarah-web as Central Runtime infrastructure."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "b3b6fb99-d502-4024-a2ec-e5c8a6678699",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Do not provision paid resources without explicit authorization."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "74c32441-840b-4832-879d-c63e6da90bb7",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Architecture direction updated: if repository/deployment isolation becomes available, evaluate Cloudflare-native Durable Objects + Queues + Workflows as the first implementation candidate instead of treating Workflows alone as the complete Runtime."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "37c4b3f6-257a-4b6c-9492-96656d593fc2",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Side-Effect Check"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "879dac2a-e496-48f2-914c-40a7ccf9c50f",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "No safe in-scope infrastructure mutation is available in this run."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "55597663-c773-4d8a-936b-4a546558775a",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Repository creation is not exposed by the connected GitHub tools."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "a2f1decf-5e08-47c2-97fd-94d98b5cc23a",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Cloudflare account/deployment tools are not currently connected."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "30cbbbeb-bac0-4c31-a15c-a7a47c8f4000",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Paid provisioning is not authorized."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "05b4a7e2-b5f2-402f-82aa-581b3e8a9ff1",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Business repository use would violate the isolation requirement."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "6d89a060-3e39-4111-9670-0c9152ada1e5",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Fix Applied"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "27e9779a-d3a3-4b68-909d-cf9b9c86be53",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Read-only reconciliation + fresh independent research + architecture candidate update only."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "f22a60f9-1e2c-4f3b-bbf0-1991dee2a84f",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "No business repository mutation. No branch mutation. No paid-resource creation. No deployment."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "616fdc00-269b-430d-9676-b25deaceac1e",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Verification"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "c8ab450d-bde4-4017-97f1-04b584835263",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Central trigger count = VERIFIED: 1"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "91baf92c-1ea6-4ff5-b5f3-56797f8494b6",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "GitHub owner inventory = VERIFIED"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "45fdc01d-0500-4f90-a6b9-c807528d8a26",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Render service inventory = VERIFIED"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "bb127c61-acd7-4cba-933c-24d54fead802",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Render Queue persistenceMode=off = VERIFIED"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "8d1e1ddc-5ba6-48d4-961f-203250f6749a",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Render State existence/expiry = VERIFIED"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "4663c8d0-e6ba-4460-af7b-bf49bc27affe",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Cloudflare Durable Objects candidate evidence = VERIFIED from official docs"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "fe409276-22a4-4b1b-834b-c3a8103b2267",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Cloudflare Queues candidate evidence = VERIFIED from official docs"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "2ab622b1-1cff-4b33-83fe-2238e3749202",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Independent repository = NOT_VERIFIED"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "89347fb0-e461-47fd-b188-973f2cdefe14",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Independent deployment path = NOT_VERIFIED"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "8337beca-a10c-4ba8-83b1-fadf5d4ed222",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Durable production queue = NOT_IMPLEMENTED"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "c481a90c-d2b2-4d39-bac0-e6fe070da47e",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Durable production state = NOT_IMPLEMENTED"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "a4a2b58e-6a94-4176-8eaf-2de313404785",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Lease/ownership/idempotency/recovery/observability = NOT_IMPLEMENTED"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "41ac03a6-60d0-42d5-9c49-4611c1d0cff7",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Commit_Status"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "cbd22702-b49f-4225-84ad-bd4838b13d45",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "PREPARED"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "12f3b9fc-1dd9-47b2-853c-82edeb56fddc",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Blockers"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "09fea42a-3923-4aae-8a91-ad4118828f40",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "No authorized repository-creation action exposed by the connected GitHub tools."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "733dea13-378b-4dde-b46b-942e5e2d61df",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "No connected Cloudflare deployment/control-plane tool is available in the current tool surface."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "cb4eb033-d8eb-4918-9115-22d4343520d7",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Paid-resource authorization is not established."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "0e60bb3c-0db4-4360-b16f-1d8845dbd938",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Existing Render Free Queue is non-durable."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "ca35ff96-3ce2-46d4-a76b-4997234b6ca0",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Existing Free Postgres is temporary and not suitable as the final production state store."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "1619d19b-5ae7-4535-beba-73d3b7254675",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "State After"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "b7ea6c24-83c0-48bd-aa6e-19a6b879a08e",
+   "type": "code",
+   "has_children": false,
+   "text": [
+    "CENTRAL_RUNTIME        = DESIGNED / NOT_DEPLOYED\nREPOSITORY_ISOLATION   = BLOCKED\nINDEPENDENT_REPOSITORY = NOT_VERIFIED\nDEPLOYMENT_PATH        = NOT_VERIFIED\n\nCLOUDFLARE_NATIVE_SUBSTRATE = CANDIDATE / NOT_IMPLEMENTED\nDURABLE_OBJECTS              = CANDIDATE / NOT_IMPLEMENTED\nCLOUDFLARE_QUEUES            = CANDIDATE / NOT_IMPLEMENTED\nCLOUDFLARE_WORKFLOWS         = CANDIDATE / NOT_IMPLEMENTED\n\nCENTRAL_QUEUE_DEV      = FREE / NON-DURABLE\nCENTRAL_STATE_DEV      = FREE / TEMPORARY\n\nBUSINESS_PROJECT_MUTATION = NONE\nUmm-sara                  = UNCHANGED\nmain                      = UNCHANGED\numm-sarah-web             = UNCHANGED"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "f141a712-8a60-4fb9-9a75-c3d5aeb92ef3",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Quality Control"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "28c66b65-91f9-472c-a155-2d2ff2bc589c",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "UNKNOWN remains separated from VERIFIED."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "eef5077c-9a63-4a57-8a31-5f7220bc0bf3",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "No implementation claim was promoted to IMPLEMENTED_VERIFIED."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "71f37e0a-8dee-42f6-a910-cda63bc33f52",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "A materially new architecture candidate was identified and independently validated."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "81408d63-d4bb-4d47-b3ea-20f6c5222655",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "The new candidate reduces the need for an external queue/state pair, but does not resolve repository/deployment authorization."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "91971be6-8448-4928-b247-65457b55b8aa",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Next Work"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "ff56b5d6-39d9-476a-bf98-912daf258462",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Establish an authorized independent repository creation path."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "49775eb1-6f6b-4177-858f-fa16bb6a541b",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Establish a verified independent deployment path with Cloudflare or another isolated platform."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "77dced27-036c-47db-a45c-a8feea3db5d2",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "If Cloudflare path becomes available, design the minimal slice around Durable Object state + Queue + Workflow orchestration."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "c1f5b198-57da-4a96-bd86-4163b0484797",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Then implement Lease/Ownership and idempotency keys."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "5b651c0c-919b-486d-8cae-6cdd2001f7d7",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Add recovery, DLQ/quarantine, retry budgets, backpressure, circuit breaking, and observability."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "47bc6c8d-5b05-4b0e-abdf-e64ce64d2512",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Test restart/resume, duplicate delivery, UNKNOWN reconciliation, retry storm, backpressure, and watchdog behavior."
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "169c9885-1ee2-4434-bddf-6f6dee7191fb",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Cycle Status"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  },
+  {
+   "id": "398fe805-d8d2-457d-a7e3-1fc20de77f4c",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "PARTIAL"
+   ],
+   "created": "2026-09-28T05:04:00.000Z",
+   "edited": "2026-09-28T05:04:00.000Z"
+  }
+ ]
+}

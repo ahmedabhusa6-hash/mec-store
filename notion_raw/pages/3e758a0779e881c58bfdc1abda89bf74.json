@@ -1,0 +1,1124 @@
+{
+ "page": {
+  "id": "3e758a07-79e8-81c5-8bfd-c1abda89bf74",
+  "title": "Cycle 1 — ChatGPT Analysis & Pre-Claude Decision",
+  "url": "https://app.notion.com/p/Cycle-1-ChatGPT-Analysis-Pre-Claude-Decision-3e758a0779e881c58bfdc1abda89bf74"
+ },
+ "blocks": [
+  {
+   "object": "block",
+   "id": "eb7df1d4-d585-454b-978f-4751ce1d45c8",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81c5-8bfd-c1abda89bf74"
+   },
+   "created_time": "2026-09-26T16:55:00.000Z",
+   "last_edited_time": "2026-09-26T16:55:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Decision",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Decision",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "4f4de2aa-eb12-409e-a914-c83b843431a0",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81c5-8bfd-c1abda89bf74"
+   },
+   "created_time": "2026-09-26T16:55:00.000Z",
+   "last_edited_time": "2026-09-26T16:55:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Do not send the old v4.0 test brief. The correct next target is v4.1.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Do not send the old v4.0 test brief. The correct next target is v4.1.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "f5d4dbe3-0847-47ac-9487-2c2dcf6ec661",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81c5-8bfd-c1abda89bf74"
+   },
+   "created_time": "2026-09-26T16:55:00.000Z",
+   "last_edited_time": "2026-09-26T16:55:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Pre-Claude Work Completed",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Pre-Claude Work Completed",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "1dfd9192-9cb0-4c16-85ea-be2c55367bf4",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81c5-8bfd-c1abda89bf74"
+   },
+   "created_time": "2026-09-26T16:55:00.000Z",
+   "last_edited_time": "2026-09-26T16:55:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "The v4.0 prompt was reviewed in full. Technical defects and gaps previously recorded were checked against the current architecture and external research. Targeted repairs were consolidated into v4.1 Candidate.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "The v4.0 prompt was reviewed in full. Technical defects and gaps previously recorded were checked against the current architecture and external research. Targeted repairs were consolidated into v4.1 Candidate.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "3582e676-f5ca-46de-95d3-35c4eb0a9b6e",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81c5-8bfd-c1abda89bf74"
+   },
+   "created_time": "2026-09-26T16:55:00.000Z",
+   "last_edited_time": "2026-09-26T16:55:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "External Validation Basis",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "External Validation Basis",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "86cba33b-c19f-4594-8e25-96eb2d644b25",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81c5-8bfd-c1abda89bf74"
+   },
+   "created_time": "2026-09-26T16:55:00.000Z",
+   "last_edited_time": "2026-09-26T16:55:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Current 2026 research was checked for:",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Current 2026 research was checked for:",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "d8e8b6cc-2c84-4d62-8903-6ff49d549266",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81c5-8bfd-c1abda89bf74"
+   },
+   "created_time": "2026-09-26T16:55:00.000Z",
+   "last_edited_time": "2026-09-26T16:55:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "process-level provenance and execution traceability for LLM agents",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "process-level provenance and execution traceability for LLM agents",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "d0e1cf0e-52dc-4779-8b2b-8769adeb9322",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81c5-8bfd-c1abda89bf74"
+   },
+   "created_time": "2026-09-26T16:55:00.000Z",
+   "last_edited_time": "2026-09-26T16:55:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "evidence-to-claim auditability",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "evidence-to-claim auditability",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "13f4bb81-ec7b-49d4-a520-063446bad845",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81c5-8bfd-c1abda89bf74"
+   },
+   "created_time": "2026-09-26T16:55:00.000Z",
+   "last_edited_time": "2026-09-26T16:55:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "entity-resolution blocking and false-negative risk",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "entity-resolution blocking and false-negative risk",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "c2b151d6-d790-42ed-b148-888fae6cc1f7",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81c5-8bfd-c1abda89bf74"
+   },
+   "created_time": "2026-09-26T16:55:00.000Z",
+   "last_edited_time": "2026-09-26T16:55:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "long-running agent context handoff and persistent artifacts",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "long-running agent context handoff and persistent artifacts",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "e19eace2-b5b9-4476-aa76-5e2bd6e482d8",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81c5-8bfd-c1abda89bf74"
+   },
+   "created_time": "2026-09-26T16:55:00.000Z",
+   "last_edited_time": "2026-09-26T16:55:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "current Claude long-context/project capabilities",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "current Claude long-context/project capabilities",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "145fe562-a8f8-4724-90af-859523eb3795",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81c5-8bfd-c1abda89bf74"
+   },
+   "created_time": "2026-09-26T16:55:00.000Z",
+   "last_edited_time": "2026-09-26T16:55:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "The research supports preserving durable state outside the transient chat context and using explicit evidence/action provenance for auditable agent workflows. citeturn249229academia12turn249229academia13turn249229search10turn249229search5",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "The research supports preserving durable state outside the transient chat context and using explicit evidence/action provenance for auditable agent workflows. citeturn249229academia12turn249229academia13turn249229search10turn249229search5",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "e37765fd-c12c-4cf9-a1d9-8df320dd5760",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81c5-8bfd-c1abda89bf74"
+   },
+   "created_time": "2026-09-26T16:55:00.000Z",
+   "last_edited_time": "2026-09-26T16:55:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Notion-First Architecture",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Notion-First Architecture",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "57bf90e4-dffe-4872-9c8b-0d11eba0520a",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81c5-8bfd-c1abda89bf74"
+   },
+   "created_time": "2026-09-26T16:55:00.000Z",
+   "last_edited_time": "2026-09-26T16:55:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Notion becomes the persistent system of record. The chat channels are transport only.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Notion becomes the persistent system of record. The chat channels are transport only.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "cab2a6ba-0e04-4532-bfe0-5fb4ebf17014",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81c5-8bfd-c1abda89bf74"
+   },
+   "created_time": "2026-09-26T16:55:00.000Z",
+   "last_edited_time": "2026-09-26T16:55:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "The user should not need to reproduce project history manually. ChatGPT generates one controlled Claude handoff per cycle. Claude returns its complete result. ChatGPT archives, audits, reconciles, and generates the next handoff.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "The user should not need to reproduce project history manually. ChatGPT generates one controlled Claude handoff per cycle. Claude returns its complete result. ChatGPT archives, audits, reconciles, and generates the next handoff.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "93b58908-9434-4506-8832-82e06f09e62c",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81c5-8bfd-c1abda89bf74"
+   },
+   "created_time": "2026-09-26T16:55:00.000Z",
+   "last_edited_time": "2026-09-26T16:55:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Token Control",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Token Control",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "fc12c93a-6816-4b10-9616-6d7fc0114435",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81c5-8bfd-c1abda89bf74"
+   },
+   "created_time": "2026-09-26T16:55:00.000Z",
+   "last_edited_time": "2026-09-26T16:55:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Archiving alone does not reduce Claude's token usage. Token reduction comes from sending a minimal sufficient Handoff Packet instead of repeatedly sending the full historical transcript. Claude Projects can provide persistent project knowledge, but the workflow still needs an explicit controlled handoff/state packet for deterministic versioning and auditability. citeturn249229search0turn249229search10",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Archiving alone does not reduce Claude's token usage. Token reduction comes from sending a minimal sufficient Handoff Packet instead of repeatedly sending the full historical transcript. Claude Projects can provide persistent project knowledge, but the workflow still needs an explicit controlled handoff/state packet for deterministic versioning and auditability. citeturn249229search0turn249229search10",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "abdc8f94-fc91-4c7c-b9e5-15238fc6106f",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81c5-8bfd-c1abda89bf74"
+   },
+   "created_time": "2026-09-26T16:55:00.000Z",
+   "last_edited_time": "2026-09-26T16:55:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Governance Status",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Governance Status",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "a82c4a8e-4868-4fd2-be64-4a454a28dadf",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81c5-8bfd-c1abda89bf74"
+   },
+   "created_time": "2026-09-26T16:55:00.000Z",
+   "last_edited_time": "2026-09-26T16:55:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "v4.0 = historical baseline comparator",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "v4.0 = historical baseline comparator",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "d4110ecb-77af-488d-909e-8cac98e245a8",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81c5-8bfd-c1abda89bf74"
+   },
+   "created_time": "2026-09-26T16:55:00.000Z",
+   "last_edited_time": "2026-09-26T16:55:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "v4.1 = current Candidate",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "v4.1 = current Candidate",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "aa649e6d-f2f7-414c-840a-e84e9640b56a",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81c5-8bfd-c1abda89bf74"
+   },
+   "created_time": "2026-09-26T16:55:00.000Z",
+   "last_edited_time": "2026-09-26T16:55:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Approved Prompt = none",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Approved Prompt = none",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "afecd09d-098a-4170-9bf6-dac3158eb01a",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81c5-8bfd-c1abda89bf74"
+   },
+   "created_time": "2026-09-26T16:55:00.000Z",
+   "last_edited_time": "2026-09-26T16:55:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Bootstrap first-approval rule = Open Governance Decision",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Bootstrap first-approval rule = Open Governance Decision",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "8c90fab4-d044-468d-a7df-2270098bfdb5",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81c5-8bfd-c1abda89bf74"
+   },
+   "created_time": "2026-09-26T16:55:00.000Z",
+   "last_edited_time": "2026-09-26T16:55:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "No automatic approval or canonical promotion",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "No automatic approval or canonical promotion",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "dddd0d2c-1da5-43af-b29e-2eb47b369c93",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81c5-8bfd-c1abda89bf74"
+   },
+   "created_time": "2026-09-26T16:55:00.000Z",
+   "last_edited_time": "2026-09-26T16:55:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Current Action",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Current Action",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "c0829b2c-b58f-44ee-b773-8c9d637c1c36",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81c5-8bfd-c1abda89bf74"
+   },
+   "created_time": "2026-09-26T16:55:00.000Z",
+   "last_edited_time": "2026-09-26T16:55:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Prepare one Claude Handoff for independent v4.1 validation.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Prepare one Claude Handoff for independent v4.1 validation.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  }
+ ]
+}

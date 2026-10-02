@@ -1,0 +1,5930 @@
+{
+ "summary": {
+  "generated": "2026-09-27",
+  "actions_ok": 64,
+  "findings_total": 259,
+  "unique_hosts": [
+   "1sabs.ru",
+   "admix.software",
+   "apps.apple.com",
+   "armada.kz",
+   "au.lifehacker.com",
+   "blog.laozhang.ai",
+   "budgenie.fr",
+   "buywisely.com.au",
+   "cd-keys.online",
+   "cdn.loc.gov",
+   "cloudinsight.cc",
+   "community.openai.com",
+   "creditforstartups.com",
+   "cursomanipulacionalimentos.com",
+   "cyprus-mail.com",
+   "detect.expert",
+   "diamonddo.com",
+   "digeneo.com",
+   "digitalmarket.world",
+   "discord.com",
+   "dundle.com",
+   "electronics.alibaba.com",
+   "eloboost24.eu",
+   "en-jordan.likecard.com",
+   "en.itemsatis.com",
+   "es.godeal24.com",
+   "esim.holafly.com",
+   "etravelsim.com",
+   "fdback.io",
+   "felloai.com",
+   "fightercountry.org",
+   "finance.yahoo.com",
+   "forums.redflagdeals.com",
+   "forums.whirlpool.net.au",
+   "forums.x-plane.org",
+   "foxreload.com",
+   "frisoer-islandsbrygge.dk",
+   "funpay.com",
+   "gamecardshop.com",
+   "gameflip.com",
+   "geekberry.net",
+   "gemini.google",
+   "gg.deals",
+   "ggkeys.com",
+   "ggsel.net",
+   "giftycode.com",
+   "gist.github.com",
+   "global.microless.com",
+   "gocdkeys.com",
+   "goldengrouprealestate.com",
+   "grambase.ai",
+   "help.netflix.com",
+   "help.openai.com",
+   "k4g.com",
+   "linustechtips.com",
+   "livecards.net",
+   "lorellascacco.it",
+   "lzt.market",
+   "maketecheasier.com",
+   "marix.app",
+   "mbuotidemetukafia.com.ng",
+   "mobimatter.com",
+   "mystars.tg",
+   "needunlocks.com",
+   "newspapers.cityofwayne.org",
+   "nexsms.net",
+   "oaklandpostonline.com",
+   "padiepal.com",
+   "palpa.co.jp",
+   "psp-news.dcemu.co.uk",
+   "pumble.com",
+   "qresear.ch",
+   "reseller.fazercards.com",
+   "ro.scribd.com",
+   "roamic.com",
+   "royalcdkeys.com",
+   "royalsubz.com",
+   "sawankr.com",
+   "shopkeyonline.com",
+   "slickdeals.net"
+  ],
+  "skus_with_findings": 46
+ },
+ "findings": [
+  {
+   "action_id": "RA-001",
+   "query": "eneba steam gift card 20 USD price",
+   "discovery_family": "Marketplace-first",
+   "targets": [
+    "SKU-GC037",
+    "SKU-GC039"
+   ],
+   "url": "https://www.eneba.com",
+   "host": "www.eneba.com",
+   "title": "Buy Steam Wallet Gift Card 20 EUR key for a Cheaper Price!",
+   "snippet": "Visit Eneba Store and buy Steam Wallet Gift Card 20 EUR key ! Saw a nice deal? Or just a couple of euros short from that awesome game? We've got you covered!",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-002",
+   "query": "turgame steam wallet gift card 20 USD price",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-GC037"
+   ],
+   "url": "https://www.noshfar.com",
+   "host": "www.noshfar.com",
+   "title": "Steam Balance Shop Card + Clearance Buy Wallet Gift 20 USD",
+   "snippet": "Steam Balance Shop Card + Clearance Buy Wallet Gift 20 USD Turgame ; US$ 38.25 · 1-11 ; US$ 34.43 · 12-35 ; US$ 29.84 · 36-59 ; US$ 19.89 · 60+.",
+   "date": "",
+   "prices_seen": [
+    "$38.25",
+    "$34.43",
+    "$29.84",
+    "$19.89"
+   ]
+  },
+  {
+   "action_id": "RA-002",
+   "query": "turgame steam wallet gift card 20 USD price",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-GC037"
+   ],
+   "url": "https://mbuotidemetukafia.com.ng",
+   "host": "mbuotidemetukafia.com.ng",
+   "title": "Key Steam Steam Key",
+   "snippet": "More information about Key Steam. Steam key, Buy Steam Wallet Gift Card 20 USD Turgame , Steam Random Key Hipopotamya. Read more",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-002",
+   "query": "turgame steam wallet gift card 20 USD price",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-GC037"
+   ],
+   "url": "https://frisoer-islandsbrygge.dk",
+   "host": "frisoer-islandsbrygge.dk",
+   "title": "Buy A Steam Wallet Gift Card 25 Usd Steam Key And Start",
+   "snippet": "Buy a steam wallet gift card 25 usd steam key turgame steam. Am Mittag ... 25 bn by 2032 from usd 7, Eur to usd euros to us dollars exchange rate .",
+   "date": "",
+   "prices_seen": [
+    "usd7"
+   ]
+  },
+  {
+   "action_id": "RA-002",
+   "query": "turgame steam wallet gift card 20 USD price",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-GC037"
+   ],
+   "url": "https://ro.scribd.com",
+   "host": "ro.scribd.com",
+   "title": "Xbox Gift Card Offers in Turkey | PDF",
+   "snippet": "The document provides information about purchasing Xbox ₺100 TRY Gift Cards for Turkey, including pricing , seller ratings, and activation details. Read more",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-002",
+   "query": "turgame steam wallet gift card 20 USD price",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-GC037"
+   ],
+   "url": "https://forums.whirlpool.net.au",
+   "host": "forums.whirlpool.net.au",
+   "title": "Purchase Digital XBox One Games From Other Regions",
+   "snippet": "Sep 26, 2018 — At the payment screen enter your gift card 16 digit code. Redeem codes and buy game. If you get an error, wait 72 hours with no other account ... Read more",
+   "date": "Sep 26, 2018",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-002",
+   "query": "turgame steam wallet gift card 20 USD price",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-GC037"
+   ],
+   "url": "https://www.revera.tech",
+   "host": "www.revera.tech",
+   "title": "Image Exceptional Of Steam Wallet Gift Card | ZAR 500",
+   "snippet": "Steam ZAR 500 Gift Card . Digital code will be emailed, Steam Wallet ARS Gift Card Game Lover BD, Buy Steam Wallet Gift Card 5 USD Turgame ...",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-003",
+   "query": "kinguin steam gift card 50 USD price",
+   "discovery_family": "Marketplace-first",
+   "targets": [
+    "SKU-GC039"
+   ],
+   "url": "https://www.g2a.com",
+   "host": "www.g2a.com",
+   "title": "Steam Gift Card 50 USD - Steam Key - AZERBAIJAN",
+   "snippet": "Steam Gift Cards are prepaid digital codes that add 50 USD funds to a Steam Wallet, giving players a convenient way to buy games, downloadable content, ... Read more",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-003",
+   "query": "kinguin steam gift card 50 USD price",
+   "discovery_family": "Marketplace-first",
+   "targets": [
+    "SKU-GC039"
+   ],
+   "url": "https://gg.deals",
+   "host": "gg.deals",
+   "title": "Buy Steam Wallet Gift Card 50 USD - Nicaragua",
+   "snippet": "Right now, the lowest Steam Wallet Gift Card 50 USD - Nicaragua price can be found on Eneba at $56.05. Kinguin Kinguin Shop now … the cheapest current price is ...",
+   "date": "",
+   "prices_seen": [
+    "$56.05"
+   ]
+  },
+  {
+   "action_id": "RA-003",
+   "query": "kinguin steam gift card 50 USD price",
+   "discovery_family": "Marketplace-first",
+   "targets": [
+    "SKU-GC039"
+   ],
+   "url": "https://www.keysforgames.com.au",
+   "host": "www.keysforgames.com.au",
+   "title": "Buy Steam 50 USD CD Key | Prices as low as ✔️AU $9",
+   "snippet": "Buy Steam 50 USD Key for Steam . On Keysforgames.com.au you can find it for only ✔️AU $9. Compare Prices , buy and activate Steam 50 USD CD key now.",
+   "date": "",
+   "prices_seen": [
+    "$9",
+    "$9"
+   ]
+  },
+  {
+   "action_id": "RA-003",
+   "query": "kinguin steam gift card 50 USD price",
+   "discovery_family": "Marketplace-first",
+   "targets": [
+    "SKU-GC039"
+   ],
+   "url": "https://smartshopuk.co.uk",
+   "host": "smartshopuk.co.uk",
+   "title": "Kinguin Steam Wallet USD 50 Gift Card BY Price Comparison | | 0",
+   "snippet": "Steam Gift Cards and Wallet Codes are an easy way to put money into your own Steam Wallet or give the perfect gift of games to your friend or family member.",
+   "date": "",
+   "prices_seen": [
+    "USD50"
+   ]
+  },
+  {
+   "action_id": "RA-003",
+   "query": "kinguin steam gift card 50 USD price",
+   "discovery_family": "Marketplace-first",
+   "targets": [
+    "SKU-GC039"
+   ],
+   "url": "https://finance.yahoo.com",
+   "host": "finance.yahoo.com",
+   "title": "OffGamers has been Appointed by Kinguin.net as an",
+   "snippet": "Dec 15, 2017 — To check out the Kinguin Gift Cards , which are currently available in six different amounts ranging from 3 Euros to 50 Euros, please visit https ... Read more",
+   "date": "Dec 15, 2017",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-003",
+   "query": "kinguin steam gift card 50 USD price",
+   "discovery_family": "Marketplace-first",
+   "targets": [
+    "SKU-GC039"
+   ],
+   "url": "https://giftycode.com",
+   "host": "giftycode.com",
+   "title": "Shop – Page 75",
+   "snippet": "Stores, Kinguin , Kinguin USD . $51.98. Description The Kinguin card is a digital gift card used to purchase discounted games and software on Kinguin , offering.",
+   "date": "",
+   "prices_seen": [
+    "$51.98"
+   ]
+  },
+  {
+   "action_id": "RA-004",
+   "query": "g2a steam wallet gift card 20 USD price",
+   "discovery_family": "Marketplace-first",
+   "targets": [
+    "SKU-GC037"
+   ],
+   "url": "https://www.g2a.com",
+   "host": "www.g2a.com",
+   "title": "Steam Gift Card 105 USD - Steam Key - UNITED STATES",
+   "snippet": "Steam Gift Cards are prepaid digital codes that add 105 USD funds to a Steam Wallet , 16.93 USD 17.36 USD -2% OFFERS FROM 32 SELLERS Steam Gift Card 20 USD",
+   "date": "",
+   "prices_seen": [
+    "USD17.36"
+   ]
+  },
+  {
+   "action_id": "RA-005",
+   "query": "cdkeys steam wallet gift card price",
+   "discovery_family": "Marketplace-first",
+   "targets": [
+    "SKU-GC037"
+   ],
+   "url": "https://www.kinguin.net",
+   "host": "www.kinguin.net",
+   "title": "Steam Wallet USD 100 Gift Card BY - Kinguin",
+   "snippet": "Steam Wallet USD 100 Gift Card BY ・ $140.42 $134.80 - $5.62Save ・ available starting from $140.42 102.91$67.30. CD Key 48.42$6.38",
+   "date": "",
+   "prices_seen": [
+    "USD100",
+    "$140.42",
+    "$134.80",
+    "$5.62",
+    "$140.42",
+    "$67.30"
+   ]
+  },
+  {
+   "action_id": "RA-005",
+   "query": "cdkeys steam wallet gift card price",
+   "discovery_family": "Marketplace-first",
+   "targets": [
+    "SKU-GC037"
+   ],
+   "url": "https://k4g.com",
+   "host": "k4g.com",
+   "title": "Buy Steam Gift Card 33 USD United States Steam CD Key",
+   "snippet": "Buy Steam Gift Card 33 USD United States Steam CD Key (CD Key) – Steam, region: United States. From EUR 29.94. Instant delivery. Safe & cheap at K4G.com.",
+   "date": "",
+   "prices_seen": [
+    "EUR29.94"
+   ]
+  },
+  {
+   "action_id": "RA-005",
+   "query": "cdkeys steam wallet gift card price",
+   "discovery_family": "Marketplace-first",
+   "targets": [
+    "SKU-GC037"
+   ],
+   "url": "https://www.cjs-cdkeys.com",
+   "host": "www.cjs-cdkeys.com",
+   "title": "Steam Wallet Card 25 USD Code - Instant Email Delivery",
+   "snippet": "This Steam gift card gives you 25 USD of balance in your Steam Wallet . All of our Steam Wallet codes are discounted from the usual face value!",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-005",
+   "query": "cdkeys steam wallet gift card price",
+   "discovery_family": "Marketplace-first",
+   "targets": [
+    "SKU-GC037"
+   ],
+   "url": "https://gg.deals",
+   "host": "gg.deals",
+   "title": "Buy Steam Wallet Gift Card 8 USD - United States",
+   "snippet": "Currently, the lowest Steam Wallet Gift Card 8 USD - United States price can be obtained on G2A at $9.23. : FromCurrent price : $5.00 … cheapest current price ...",
+   "date": "",
+   "prices_seen": [
+    "$9.23",
+    "$5.00"
+   ]
+  },
+  {
+   "action_id": "RA-005",
+   "query": "cdkeys steam wallet gift card price",
+   "discovery_family": "Marketplace-first",
+   "targets": [
+    "SKU-GC037"
+   ],
+   "url": "https://cd-keys.online",
+   "host": "cd-keys.online",
+   "title": "Steam Wallet Card £10 Global Activation Code",
+   "snippet": "Price €14.42. Add to cart. More. In stock. Steam Wallet UAH 100 Gift Card UA Quick view. Reference: 325479. Steam Wallet UAH 100 Gift Card UA. (0). Read more",
+   "date": "",
+   "prices_seen": [
+    "€14.42",
+    "£10"
+   ]
+  },
+  {
+   "action_id": "RA-005",
+   "query": "cdkeys steam wallet gift card price",
+   "discovery_family": "Marketplace-first",
+   "targets": [
+    "SKU-GC037"
+   ],
+   "url": "https://www.allkeyshop.com",
+   "host": "www.allkeyshop.com",
+   "title": "Steam Card US | Compare Prices",
+   "snippet": "Compare Steam Wallet Gift card prices to … 1 USD $1.47 +$0.55. CDKeys $42.47 01.",
+   "date": "",
+   "prices_seen": [
+    "$1.47",
+    "$0.55",
+    "$42.47"
+   ]
+  },
+  {
+   "action_id": "RA-006",
+   "query": "eneba playstation network card 50 USD price",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-GC047",
+    "SKU-GC049"
+   ],
+   "url": "https://www.eneba.com",
+   "host": "www.eneba.com",
+   "title": "PlayStation Network Card 50 EUR (IE) PSN Key IRELAND",
+   "snippet": "PSN Gift Card 50 EUR (IE ) | Visit Eneba store and buy PSN code! Want to utilize PlayStation potential maximally? PSN gift cards are a great tool for that!",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-007",
+   "query": "playstation network card 50 USD cheapest price comparison",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-GC049"
+   ],
+   "url": "https://www.kinguin.net",
+   "host": "www.kinguin.net",
+   "title": "PlayStation Network Card USD 50 Gift Card US",
+   "snippet": "a 5% discount for your next purchase! (often games are way cheaper compared to EU or USA store ) The gift card is easy to redeem. The Best price at this moment",
+   "date": "",
+   "prices_seen": [
+    "USD50"
+   ]
+  },
+  {
+   "action_id": "RA-007",
+   "query": "playstation network card 50 USD cheapest price comparison",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-GC049"
+   ],
+   "url": "https://www.g2a.com",
+   "host": "www.g2a.com",
+   "title": "PlayStation Network Gift Card 50 USD - PSN Key - OMAN",
+   "snippet": "Get the best deals on PlayStation Network Gift Card 50 USD - PSN Key - OMAN at the most attractive prices on the market. Don't overpay – buy cheap on G2A.",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-007",
+   "query": "playstation network card 50 USD cheapest price comparison",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-GC049"
+   ],
+   "url": "https://buywisely.com.au",
+   "host": "buywisely.com.au",
+   "title": "Playstation Network Card 50 USD - Price History, Comparison &",
+   "snippet": "$50.00 - $82.95. in 3 offers. The lowest price for Playstation Network Card 50 USD right now is $50.00 at EB Games Australia, compared across 3 retailers. The ...",
+   "date": "",
+   "prices_seen": [
+    "$50.00",
+    "$82.95",
+    "$50.00"
+   ]
+  },
+  {
+   "action_id": "RA-007",
+   "query": "playstation network card 50 USD cheapest price comparison",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-GC049"
+   ],
+   "url": "https://www.ebay.com",
+   "host": "www.ebay.com",
+   "title": "Sony Playstation Store $50 Psn Gift Card - Ps5 Ps4 Ps3.gift",
+   "snippet": "Playstation Store $50 Psn Gift Card … 99.8% positive Message $73.41/eaor Best Offer Was $79.79 Save $6.38 (8% off)",
+   "date": "",
+   "prices_seen": [
+    "$50",
+    "$73.41",
+    "$79.79",
+    "$6.38",
+    "$50"
+   ]
+  },
+  {
+   "action_id": "RA-007",
+   "query": "playstation network card 50 USD cheapest price comparison",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-GC049"
+   ],
+   "url": "https://www.allkeyshop.com",
+   "host": "www.allkeyshop.com",
+   "title": "Buy PSN Card 50 PLN Playstation Network Compare Prices",
+   "snippet": "Buy Playstation Network Card 50 PLN Online Cheaper. Compare prices for PSN Cards 50 PLN Code to add funds to the Playstation wallet.",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-007",
+   "query": "playstation network card 50 USD cheapest price comparison",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-GC049"
+   ],
+   "url": "https://www.facebook.com",
+   "host": "www.facebook.com",
+   "title": "PlayStation Network PSN Gift Card $50: Prices, Deals, and",
+   "snippet": "You can often find $50 PSN gift cards for less than face value, with deals around $43.50-$44 reported, and sellers offering them for PKR 14,000 or Rs. 13,740 ...",
+   "date": "",
+   "prices_seen": [
+    "$50",
+    "$43.50",
+    "$44",
+    "$50"
+   ]
+  },
+  {
+   "action_id": "RA-008",
+   "query": "turgame psn playstation card 10 USD lebanon price",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-GC051"
+   ],
+   "url": "https://www.turgame.com",
+   "host": "www.turgame.com",
+   "title": "PlayStation Finland 20 EUR",
+   "snippet": "PlayStation Lebanon 10 USD Sold Out. PlayStation Lebanon 10 USD 441,90 TRY. Current price is: 743,87 TRY.",
+   "date": "",
+   "prices_seen": [
+    "USD441,90"
+   ]
+  },
+  {
+   "action_id": "RA-008",
+   "query": "turgame psn playstation card 10 USD lebanon price",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-GC051"
+   ],
+   "url": "https://www.instagram.com",
+   "host": "www.instagram.com",
+   "title": "Photo by Qk Gadgets (@qkteamgadgets) · August 28, 2026",
+   "snippet": "Photo by Qk Gadgets on August 28, 2026. May be a video game screenshot.",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-008",
+   "query": "turgame psn playstation card 10 USD lebanon price",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-GC051"
+   ],
+   "url": "https://www.ozbargain.com.au",
+   "host": "www.ozbargain.com.au",
+   "title": "InspirePassion (#51060) - OzBargain User Profile",
+   "snippet": "... TurGame Gift Card . Any tips for how to get the canva yearly plan. It only offers me the monthly plan. There doesn't seem to be a way to change the plan from ...",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-009",
+   "query": "psn card 10 USD united states cheapest",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-GC047"
+   ],
+   "url": "https://www.loaded.com/10-playstation-store-gift-card-ps3-ps4-ps-vita-digital-code?srsltid=AU7gw4WSUjeOC-oHKHdK99YmvZQ4ZohkXjjRJaZK-WTLs41fU6FWLL3k",
+   "host": "www.loaded.com",
+   "title": "Buy PlayStation Store Gift Card - 10 USD (US) CD Key",
+   "snippet": "Digital code delivered instantly. Best prices on game keys. Get your ... PlayStation Store Gift Card - 10 USD (US) Key. $9.99. $9.79. 2% Off. PSN (US). 50 ...",
+   "date": "",
+   "prices_seen": [
+    "$9.99",
+    "$9.79"
+   ]
+  },
+  {
+   "action_id": "RA-009",
+   "query": "psn card 10 USD united states cheapest",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-GC047"
+   ],
+   "url": "https://livecards.net/en/10-ps-nc-america-usd",
+   "host": "livecards.net",
+   "title": "Cheapest PSN Card 10 USD - PlayStation Network USA",
+   "snippet": "✓ Best Price Guaranteed – Buy the cheapest PSN Card 10 USD - PlayStation Network USA digital key at Livecards.net. ✓ 100% Secure & Legitimate – Trusted by ...",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-009",
+   "query": "psn card 10 USD united states cheapest",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-GC047"
+   ],
+   "url": "https://www.eneba.com/us/psn-playstation-network-card-10-usd-usa-psn-key-united-states?srsltid=AU7gw4VjTx6bQmOX4C-GNC1ayxKXsY7eH7rYdAP83lF1OmUXUvYUUl-d",
+   "host": "www.eneba.com",
+   "title": "PlayStation Card 10 USD (USA) | Buy cheaper PSN code!",
+   "snippet": "Visit Eneba store and buy 10 USD PSN card for the best price! We offer a wide selection of cheaper PlayStation cards and more! Value:10 USD 1 USD 5% Cashback $ ...",
+   "date": "",
+   "prices_seen": [
+    "USD1",
+    "USD5"
+   ]
+  },
+  {
+   "action_id": "RA-009",
+   "query": "psn card 10 USD united states cheapest",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-GC047"
+   ],
+   "url": "https://www.amazon.com/PlayStation-Store-Gift-Card-Digital/dp/B00GAC1D2G",
+   "host": "www.amazon.com",
+   "title": "$10 -PlayStation Store Gift Card [Digital Code] : Video Games",
+   "snippet": "Buy $10 -PlayStation Store Gift Card [Digital Code]: Currently, this item is available only to customers located in the United States.",
+   "date": "",
+   "prices_seen": [
+    "$10",
+    "$10"
+   ]
+  },
+  {
+   "action_id": "RA-009",
+   "query": "psn card 10 USD united states cheapest",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-GC047"
+   ],
+   "url": "https://www.playstation.com/en-us/playstation-gift-cards",
+   "host": "www.playstation.com",
+   "title": "PlayStation gift cards",
+   "snippet": "Unlock a world of possibilities with pre-paid cards redeemable in PlayStation Store - the biggest PlayStation library in the world.",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-009",
+   "query": "psn card 10 USD united states cheapest",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-GC047"
+   ],
+   "url": "https://walgreens.thegiftcardshop.com/sony-playstation-10-email",
+   "host": "walgreens.thegiftcardshop.com",
+   "title": "Sony PlayStation Store $10 - Walgreens - The Gift Card Shop",
+   "snippet": "Shop the Sony PlayStation $10 egift card today from The Gift Card Shop. eGift orders are delivered within 5 minutes but can take up to 24 hours. PlayStation® ...",
+   "date": "",
+   "prices_seen": [
+    "$10",
+    "$10"
+   ]
+  },
+  {
+   "action_id": "RA-010",
+   "query": "apple itunes gift card UAE 100 AED price",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-GC062",
+    "SKU-GC063",
+    "SKU-GC064",
+    "SKU-GC065"
+   ],
+   "url": "https://www.apple.com",
+   "host": "www.apple.com",
+   "title": "Apple Gift Card - Apple (AE)",
+   "snippet": "The Apple Gift Card for everything Apple: products, accessories, services and more. Apple Account balance of AED 100 , AED 100 to be added,",
+   "date": "",
+   "prices_seen": [
+    "AED100",
+    "AED100"
+   ]
+  },
+  {
+   "action_id": "RA-010",
+   "query": "apple itunes gift card UAE 100 AED price",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-GC062",
+    "SKU-GC063",
+    "SKU-GC064",
+    "SKU-GC065"
+   ],
+   "url": "https://startselect.com",
+   "host": "startselect.com",
+   "title": "Buy AED 100 Apple Gift Card—Email Delivery",
+   "snippet": "Buy AED 100 Apple Gift Card—Email. Available in AED 50-5000 . Use it for purchases at any Apple Store location, in United Arab Emirates only.",
+   "date": "",
+   "prices_seen": [
+    "AED100",
+    "AED50",
+    "AED100"
+   ]
+  },
+  {
+   "action_id": "RA-010",
+   "query": "apple itunes gift card UAE 100 AED price",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-GC062",
+    "SKU-GC063",
+    "SKU-GC064",
+    "SKU-GC065"
+   ],
+   "url": "https://www.amazon.ae",
+   "host": "www.amazon.ae",
+   "title": "AED 100 Apple Gift Card — App Store, iTunes, iPhone",
+   "snippet": "AED 100 Apple Gift Card — App Store, iTunes, iPhone, iPad, AirPods, MacBook, accessories and more. Details Price (AED 100.00x) $50 | Digital Voucher | Xbox One ...",
+   "date": "",
+   "prices_seen": [
+    "AED100",
+    "AED100.00",
+    "$50",
+    "AED100"
+   ]
+  },
+  {
+   "action_id": "RA-010",
+   "query": "apple itunes gift card UAE 100 AED price",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-GC062",
+    "SKU-GC063",
+    "SKU-GC064",
+    "SKU-GC065"
+   ],
+   "url": "https://www.g2a.com",
+   "host": "www.g2a.com",
+   "title": "Buy Apple iTunes Gift Card 100 AED - iTunes Key",
+   "snippet": "Apple iTunes Gift Cards are prepaid digital codes that add 100 AED to an Apple Account balance, giving users a convenient way to buy apps, music, movies, ... Read more",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-010",
+   "query": "apple itunes gift card UAE 100 AED price",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-GC062",
+    "SKU-GC063",
+    "SKU-GC064",
+    "SKU-GC065"
+   ],
+   "url": "https://dundle.com",
+   "host": "dundle.com",
+   "title": "Buy Apple Gift Card Online | Instant Email Delivery",
+   "snippet": "AED 50.00. Buy Now. Apple Gift Card AED 100 logo. Apple Gift Card AED 100. Instant delivery. Flag of AE United Arab Emirates. 284 dundle Coins. AED 100.00. Buy ... Read more",
+   "date": "",
+   "prices_seen": [
+    "AED50.00",
+    "AED100",
+    "AED100",
+    "AED100.00"
+   ]
+  },
+  {
+   "action_id": "RA-010",
+   "query": "apple itunes gift card UAE 100 AED price",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-GC062",
+    "SKU-GC063",
+    "SKU-GC064",
+    "SKU-GC065"
+   ],
+   "url": "https://www.play-asia.com",
+   "host": "www.play-asia.com",
+   "title": "Apple Gift Card 100 AED | United Arab Emirates Account",
+   "snippet": "Apple Gift Card 100 AED | United Arab Emirates Account digital ; US$32.69 ; Ends in 2d 4:59:55 ; Store Value · AED 100 ; Specs. Value. 100 Dhs ; Value. 100 Dhs ... Read more",
+   "date": "",
+   "prices_seen": [
+    "$32.69",
+    "AED100"
+   ]
+  },
+  {
+   "action_id": "RA-011",
+   "query": "apple gift card 50 AED dubai buy online",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-GC062"
+   ],
+   "url": "https://www.scribd.com",
+   "host": "www.scribd.com",
+   "title": "Zoberetimifid | PDF | Copyright",
+   "snippet": "The document provides a detailed guide on the Swift gloves in Old School RuneScape (OSRS), including their requirements, effects, and how to obtain them. Read more",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-012",
+   "query": "itunes gift card UAE cheapest price reseller",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-GC062",
+    "SKU-GC063"
+   ],
+   "url": "https://www.noon.com",
+   "host": "www.noon.com",
+   "title": "Apple iTunes Gift Card 1000 AED UAE Digital Code",
+   "snippet": "Digital code for Apple iTunes Gift Card valued at 1000 AED · Valid for use within the United Arab Emirates (UAE) · Redeemable on App Store, iTunes, and Apple ...",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-012",
+   "query": "itunes gift card UAE cheapest price reseller",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-GC062",
+    "SKU-GC063"
+   ],
+   "url": "https://en-jordan.likecard.com",
+   "host": "en-jordan.likecard.com",
+   "title": "United Arab Emirates Cards Buy Now at the Best Price",
+   "snippet": "Buy United Arab Emirates cards at the best price from LikeCard . Valid only for UAE transactions in Apple properties. call 800-275-2273. Store AED 100 for a",
+   "date": "",
+   "prices_seen": [
+    "AED100"
+   ]
+  },
+  {
+   "action_id": "RA-012",
+   "query": "itunes gift card UAE cheapest price reseller",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-GC062",
+    "SKU-GC063"
+   ],
+   "url": "https://www.buysellvouchers.com",
+   "host": "www.buysellvouchers.com",
+   "title": "Buy ITunes Gift Card 50 AED (UAE Version) for $14",
+   "snippet": "Buy ITunes Gift Card 50 AED (UAE Version) Total price:14.00 USD Times sold: 0Available: 25 Buy now Seller",
+   "date": "",
+   "prices_seen": [
+    "$14"
+   ]
+  },
+  {
+   "action_id": "RA-012",
+   "query": "itunes gift card UAE cheapest price reseller",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-GC062",
+    "SKU-GC063"
+   ],
+   "url": "https://gg.deals",
+   "host": "gg.deals",
+   "title": "Buy Apple iTunes Gift Card 150 AED - United Arab Emirates",
+   "snippet": "We have determined that the lowest Apple iTunes Gift Card 150 AED - United Arab Emirates price is available on Eneba at $46.79 . Current Prices. Historical Low. Read more",
+   "date": "",
+   "prices_seen": [
+    "$46.79"
+   ]
+  },
+  {
+   "action_id": "RA-012",
+   "query": "itunes gift card UAE cheapest price reseller",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-GC062",
+    "SKU-GC063"
+   ],
+   "url": "https://giftycode.com",
+   "host": "giftycode.com",
+   "title": "App Store & iTunes United Arab Emirates Gift Card (AE)",
+   "snippet": "App Store & iTunes United Arab Emirates Gift Card (AE) for United Arab Emirates: 50–5000 AED · from 13.99 USD. Instant code delivery and payment with ...",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-012",
+   "query": "itunes gift card UAE cheapest price reseller",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-GC062",
+    "SKU-GC063"
+   ],
+   "url": "https://padiepal.com",
+   "host": "padiepal.com",
+   "title": "App Store & iTunes UAE Gift Card",
+   "snippet": "Not redeemable at Apple resellers … call 1-800-275-2273. A purchase fee of USD 2.00 applies per card . Call us: +44 7453403245 Email: support@padiepal.com",
+   "date": "",
+   "prices_seen": [
+    "USD2.00"
+   ]
+  },
+  {
+   "action_id": "RA-013",
+   "query": "gg.deals steam gift card price comparison",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-GC037",
+    "SKU-GC049"
+   ],
+   "url": "https://gg.deals",
+   "host": "gg.deals",
+   "title": "Buy cheap Through the Ages Steam Key 🏷️ Best Price",
+   "snippet": "Compare Prices from 9 stores to find the Best Deals for Through the Ages Steam CD key. Buy the game 8% cheaper with GG.deals!",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-013",
+   "query": "gg.deals steam gift card price comparison",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-GC037",
+    "SKU-GC049"
+   ],
+   "url": "https://www.resetera.com",
+   "host": "www.resetera.com",
+   "title": "New to Steam. At first glance, game prices are extremely",
+   "snippet": "Jun 19, 2022 — Compare prices of video games from almost 60 stores , find the best game deals online.",
+   "date": "Jun 19, 2022",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-014",
+   "query": "chatgpt plus subscription price official 20 dollars",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-AI001"
+   ],
+   "url": "https://smartaitoolslist.com",
+   "host": "smartaitoolslist.com",
+   "title": "ChatGPT vs Claude in 2026: Full Comparison | SmartAIToolsList",
+   "snippet": "May 1, 2026 — Price, Best For. ChatGPT Plus, ☆ 4.7, $20/mo , All-around assistant with the largest plugin ecosystem, Try Now →. Claude Pro, ☆ 4.8, $20/mo ... Read more",
+   "date": "May 1, 2026",
+   "prices_seen": [
+    "$20",
+    "$20"
+   ]
+  },
+  {
+   "action_id": "RA-014",
+   "query": "chatgpt plus subscription price official 20 dollars",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-AI001"
+   ],
+   "url": "https://toolsrated.vercel.app",
+   "host": "toolsrated.vercel.app",
+   "title": "7 Best AI Browsers in 2026 (Comet vs Atlas vs Dia, Tested)",
+   "snippet": "Aug 12, 2026 — ChatGPT Atlas has a free tier for basic features, but its standout agent mode requires ChatGPT Plus at $20/mo . Dia is the outlier at ~$20/mo ... Read more",
+   "date": "Aug 12, 2026",
+   "prices_seen": [
+    "$20",
+    "$20"
+   ]
+  },
+  {
+   "action_id": "RA-014",
+   "query": "chatgpt plus subscription price official 20 dollars",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-AI001"
+   ],
+   "url": "https://digitalmarket.world",
+   "host": "digitalmarket.world",
+   "title": "Freelancer Tool Stack Recommendations - digital economy",
+   "snippet": "AI data analysis tools likeChatGPTAdvanced Data Analysis ( Plus subscription $20/month) canautomategeneration of summaries and charts, but privacy must be ...",
+   "date": "",
+   "prices_seen": [
+    "$20"
+   ]
+  },
+  {
+   "action_id": "RA-015",
+   "query": "chatgpt plus cheap reseller price buy",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-AI001"
+   ],
+   "url": "https://www.reddit.com/r/steamregionaltricks/comments/1ux9pqg/cheapest_way_to_get_chatgpt_plus",
+   "host": "www.reddit.com",
+   "title": "cheapest way to get chatgpt plus? : r/steamregionaltricks",
+   "snippet": "whats the cheapest way to get chatgpt plus on my account?",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-015",
+   "query": "chatgpt plus cheap reseller price buy",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-AI001"
+   ],
+   "url": "https://www.eldorado.gg/chatgpt-plus-cheap/t/385",
+   "host": "www.eldorado.gg",
+   "title": "ChatGPT Plus Cheap | Plus - 1 Month from $14.8",
+   "snippet": "Get Cheap ChatGPT Plus on Eldorado.gg and save on leading AI model. Create images, do research, write code and more without spending too much!",
+   "date": "",
+   "prices_seen": [
+    "$14.8"
+   ]
+  },
+  {
+   "action_id": "RA-015",
+   "query": "chatgpt plus cheap reseller price buy",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-AI001"
+   ],
+   "url": "https://royalsubz.com/blog/how-to-get-chatgpt-plus-cheap",
+   "host": "royalsubz.com",
+   "title": "How to Get ChatGPT Plus Cheap in 2026 — 5 Real Ways",
+   "snippet": "ChatGPT Plus costs $20/month. Here are 5 legitimate ways to get it cheaper — including paying with Bkash, Nagad or binance : a verified ...",
+   "date": "Apr 17, 2026",
+   "prices_seen": [
+    "$20"
+   ]
+  },
+  {
+   "action_id": "RA-015",
+   "query": "chatgpt plus cheap reseller price buy",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-AI001"
+   ],
+   "url": "https://www.g2a.com/chatgpt-plus-1-user-1-month-chatgpt-account-global-i10000505514002",
+   "host": "www.g2a.com",
+   "title": "Buy ChatGPT Plus (1 User, 1 Month)",
+   "snippet": "Get the best deals on ChatGPT Plus. GLOBAL at the most attractive prices on the market. 19.10 USD Save 2.12 USD with Plus Premium This seller offers Exclusive ...",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-015",
+   "query": "chatgpt plus cheap reseller price buy",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-AI001"
+   ],
+   "url": "https://www.youtube.com/watch?v=F9QMOVIO3jo",
+   "host": "www.youtube.com",
+   "title": "How to Get ChatGPT Plus for Cheap in 2026 (Step-by-",
+   "snippet": "ChatGPT Plus 1 month starting around $2.43 and ChatGPT Plus 12 months starting around $30 depending on the seller. Delivery is often completed ...",
+   "date": "",
+   "prices_seen": [
+    "$2.43",
+    "$30"
+   ]
+  },
+  {
+   "action_id": "RA-015",
+   "query": "chatgpt plus cheap reseller price buy",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-AI001"
+   ],
+   "url": "https://funpay.com/en/lots/3559",
+   "host": "funpay.com",
+   "title": "ChatGPT Subscription for sale",
+   "snippet": "FunPay is a marketplace where any gamer can profitably buy ChatGPT Subscription directly from another gamer. We ensure cheap prices and safe trading.",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-016",
+   "query": "ggsel chatgpt plus price",
+   "discovery_family": "Channel-first",
+   "targets": [
+    "SKU-AI005"
+   ],
+   "url": "https://ggsel.net",
+   "host": "ggsel.net",
+   "title": "Buy from ArtemAI – more than 0 offers on",
+   "snippet": "ChatGPT Plus 1 Month | Activation on your account | No foreign card required (copy. 8 $. ChatGPT Plus 1 Month | Activation on your account | No foreign card ... Read more",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-017",
+   "query": "z2u chatgpt plus account price",
+   "discovery_family": "Channel-first",
+   "targets": [
+    "SKU-AI005"
+   ],
+   "url": "https://www.z2u.com",
+   "host": "www.z2u.com",
+   "title": "Perplexity AI ACCOUNTS en venta, Compra y vende",
+   "snippet": "Perplexity Pro + ChatGPT Plus | AI Power Bundle | Shared Access … 💥Original Price - 40 $ ( Limited Period Offer 4.5$ ) 15mins NJDigital más bajo $4.72",
+   "date": "",
+   "prices_seen": [
+    "$4.72"
+   ]
+  },
+  {
+   "action_id": "RA-018",
+   "query": "claude pro subscription price official",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-AI006"
+   ],
+   "url": "https://www.totalum.app",
+   "host": "www.totalum.app",
+   "title": "Claude Code Pricing in 2026: Plans, Costs, and How to",
+   "snippet": "May 29, 2026 — Claude Code pricing in 2026 spans a free tier, a $ 20 per month Pro plan , two Max plans at $100 and $200 per month, paid Team and Enterprise ... Read more",
+   "date": "May 29, 2026",
+   "prices_seen": [
+    "$20",
+    "$100",
+    "$200"
+   ]
+  },
+  {
+   "action_id": "RA-018",
+   "query": "claude pro subscription price official",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-AI006"
+   ],
+   "url": "https://palpa.co.jp",
+   "host": "palpa.co.jp",
+   "title": "Claude Pricing Plans | Comparing Pro, Team, and API",
+   "snippet": "Jul 9, 2026 — Pro ($20/month or $17/month billed annually ) — Full access to advanced capabilities including Claude Code, Claude Cowork, Research, Projects, ... Read more",
+   "date": "Jul 9, 2026",
+   "prices_seen": [
+    "$20",
+    "$17"
+   ]
+  },
+  {
+   "action_id": "RA-018",
+   "query": "claude pro subscription price official",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-AI006"
+   ],
+   "url": "https://subbuddy.io",
+   "host": "subbuddy.io",
+   "title": "Claude's June 15 Credit Change: What It Actually Costs",
+   "snippet": "Jun 3, 2026 — If you pay $ 20 a month for Claude Pro and you only ever chat with it in a browser, you can stop reading after this sentence: nothing about ... Read more",
+   "date": "Jun 3, 2026",
+   "prices_seen": [
+    "$20"
+   ]
+  },
+  {
+   "action_id": "RA-018",
+   "query": "claude pro subscription price official",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-AI006"
+   ],
+   "url": "https://www.facebook.com",
+   "host": "www.facebook.com",
+   "title": "What Does Claude Subscription Get You",
+   "snippet": "Claude Pro costs $20/month and gives you access to Claude's best models, higher usage limits, and tools like Claude Code and Claude Cowork. Read more",
+   "date": "",
+   "prices_seen": [
+    "$20"
+   ]
+  },
+  {
+   "action_id": "RA-018",
+   "query": "claude pro subscription price official",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-AI006"
+   ],
+   "url": "https://fdback.io",
+   "host": "fdback.io",
+   "title": "How Much Does Claude Code Actually Cost?",
+   "snippet": "Aug 20, 2026 — Claude Code costs $20–$200/month for individuals: Pro is $20/month ($17/month billed annually), and Max is $100 or $200/month for 5x or 20x Pro ...",
+   "date": "Aug 20, 2026",
+   "prices_seen": [
+    "$20",
+    "$200",
+    "$20",
+    "$17",
+    "$100",
+    "$200"
+   ]
+  },
+  {
+   "action_id": "RA-018",
+   "query": "claude pro subscription price official",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-AI006"
+   ],
+   "url": "https://sawankr.com",
+   "host": "sawankr.com",
+   "title": "Claude AI Plans & Pricing Explained (2026) - sawankr.com",
+   "snippet": "May 7, 2026 — For most people, Claude Pro at $20 per month is the correct plan. It covers roughly 90% of users, includes all models and all tools, and ... Read more",
+   "date": "May 7, 2026",
+   "prices_seen": [
+    "$20"
+   ]
+  },
+  {
+   "action_id": "RA-019",
+   "query": "claude pro cheap reseller buy",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-AI006"
+   ],
+   "url": "https://www.itemsatis.com",
+   "host": "www.itemsatis.com",
+   "title": "✅ [7 DAYS] Claude Max | Claude .. Listing No: #5798654",
+   "snippet": "Web listing available now on Itemsatis. EEKLY ULTRA ECONOMICAL CLAUDE MAX PACKAGE ・ ⭐️ CLAUDE PRO AFFORDABLE CHAT ・ 30M Tokens. SELLER PRODUCTS offered for ...",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-019",
+   "query": "claude pro cheap reseller buy",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-AI006"
+   ],
+   "url": "https://en.itemsatis.com",
+   "host": "en.itemsatis.com",
+   "title": "GUARANTEED +⭐️ [LIMITED STOCK] | Listing No: #5778448",
+   "snippet": "Check out and buy this ad now on Itemsatis. + Claude API Key - 100.000.000 Tokens. This posting has been closed by administrators. Ad Price 114,90 TRY. SELLER ...",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-020",
+   "query": "gemini advanced google AI pro subscription price",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-AI008"
+   ],
+   "url": "https://admix.software",
+   "host": "admix.software",
+   "title": "Is Gemini Advanced Worth $25/Month? | Admix Blog",
+   "snippet": "Mar 22, 2026 — $ 25/mo for Google AI + 2TB storage. Gemini Advanced is the most expensive consumer AI subscription at $25/month, bundled into Google One AI ...",
+   "date": "Mar 22, 2026",
+   "prices_seen": [
+    "$25",
+    "$25",
+    "$25"
+   ]
+  },
+  {
+   "action_id": "RA-020",
+   "query": "gemini advanced google AI pro subscription price",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-AI008"
+   ],
+   "url": "https://cloudinsight.cc",
+   "host": "cloudinsight.cc",
+   "title": "Gemini Pricing Complete Guide 2026: Free vs Paid Version",
+   "snippet": "Is the NT$650/month subscription worth it? This is the first question many people ask when evaluating AI tools. Google Gemini's pricing structure is more ...",
+   "date": "",
+   "prices_seen": [
+    "$650"
+   ]
+  },
+  {
+   "action_id": "RA-020",
+   "query": "gemini advanced google AI pro subscription price",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-AI008"
+   ],
+   "url": "https://tech.yahoo.com",
+   "host": "tech.yahoo.com",
+   "title": "Google overhauls its AI plans - which one should you now",
+   "snippet": "May 19, 2026 — Google has cut the monthly price from $250 to $200 . At that cost, you get a usage limit 20 times higher in the Gemini app ・ the AI Pro plan at ...",
+   "date": "May 19, 2026",
+   "prices_seen": [
+    "$250",
+    "$200"
+   ]
+  },
+  {
+   "action_id": "RA-020",
+   "query": "gemini advanced google AI pro subscription price",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-AI008"
+   ],
+   "url": "https://www.g2a.com",
+   "host": "www.g2a.com",
+   "title": "Google AI Gemini Advanced 6 Months",
+   "snippet": "As of June 2026, it costs $ 19.99 per month with no annual option listed on the official page. It sits between the $7.99 AI Plus tier and the $249.99 AI Ultra , ...",
+   "date": "",
+   "prices_seen": [
+    "$19.99",
+    "$7.99",
+    "$249.99"
+   ]
+  },
+  {
+   "action_id": "RA-020",
+   "query": "gemini advanced google AI pro subscription price",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-AI008"
+   ],
+   "url": "https://www.savingadvice.com",
+   "host": "www.savingadvice.com",
+   "title": "Google's New Gemini Plan Could Save You $40 a Year—Is It",
+   "snippet": "Jun 26, 2025 — Previously, users paid $19.99 per month for the Gemini Advanced plan. offers the same features for $199.99 per year, shaving $40 off the total  ...",
+   "date": "Jun 26, 2025",
+   "prices_seen": [
+    "$19.99",
+    "$199.99",
+    "$40",
+    "$40"
+   ]
+  },
+  {
+   "action_id": "RA-020",
+   "query": "gemini advanced google AI pro subscription price",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-AI008"
+   ],
+   "url": "https://www.etsy.com",
+   "host": "www.etsy.com",
+   "title": "Gemini AI Pro 24 Month Full Access",
+   "snippet": "Gemini AI Pro 24 Month Full Access | Google AI Pro 5TB + Gemini Advanced | ... subscription. ## What's Included * ✓ 24 ... Sale Price $19.05 $19.05. $38.10 ...",
+   "date": "",
+   "prices_seen": [
+    "$19.05",
+    "$19.05",
+    "$38.10"
+   ]
+  },
+  {
+   "action_id": "RA-021",
+   "query": "gemini pro cheap reseller subscription",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-AI008"
+   ],
+   "url": "https://gemini.google/subscriptions",
+   "host": "gemini.google",
+   "title": "Google AI Pro & Ultra — get access to Gemini 3.1 Pro & more",
+   "snippet": "Google AI Plus · $4.99 · Get 2x higher usage access than Free ; Google AI Pro · $19.99 · Get 4x higher usage access than Free ; Google AI Ultra · $99.99 · $99.99/ month ...",
+   "date": "",
+   "prices_seen": [
+    "$4.99",
+    "$19.99",
+    "$99.99",
+    "$99.99"
+   ]
+  },
+  {
+   "action_id": "RA-021",
+   "query": "gemini pro cheap reseller subscription",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-AI008"
+   ],
+   "url": "https://www.g2a.com/google-ai-gemini-pro-12-months-gemini-account-global-i10000510949008",
+   "host": "www.g2a.com",
+   "title": "Google AI Gemini Pro 12 Months - Gemini Account - GLOBAL",
+   "snippet": "It sits between the $7.99 AI Plus tier and the $249.99 AI Ultra tier and is the plan recommended for most professional and power-user workflows. What is the ...",
+   "date": "",
+   "prices_seen": [
+    "$7.99",
+    "$249.99"
+   ]
+  },
+  {
+   "action_id": "RA-021",
+   "query": "gemini pro cheap reseller subscription",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-AI008"
+   ],
+   "url": "https://www.gamsgo.com/details/gemini",
+   "host": "www.gamsgo.com",
+   "title": "Buy Gemini Pro Sharing Accounts - 90% OFF Yearly Plans",
+   "snippet": "Better value: Gemini AI Pro services on GamsGo are usually cheaper than the official subscription. GamsGo Gemini AI Pro Top Up can be as low as about $3.50/ ...",
+   "date": "",
+   "prices_seen": [
+    "$3.50"
+   ]
+  },
+  {
+   "action_id": "RA-021",
+   "query": "gemini pro cheap reseller subscription",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-AI008"
+   ],
+   "url": "https://blog.laozhang.ai/en/posts/stable-cheap-gemini-pro-upgrade",
+   "host": "blog.laozhang.ai",
+   "title": "Stable & Cheap Gemini Pro Upgrade: 8 Proven Methods",
+   "snippet": "At $199.99 per year, the annual plan works out to approximately $16.67 per month, saving you about $40 compared to paying monthly over the same ...",
+   "date": "Feb 22, 2026",
+   "prices_seen": [
+    "$199.99",
+    "$16.67",
+    "$40"
+   ]
+  },
+  {
+   "action_id": "RA-021",
+   "query": "gemini pro cheap reseller subscription",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-AI008"
+   ],
+   "url": "https://www.youtube.com/watch?v=icaGLJ_S07k&vl=en",
+   "host": "www.youtube.com",
+   "title": "How to Get Gemini Pro at Cheap Price",
+   "snippet": "In this video, I'll show you the best ways to save money on your Gemini Advanced / Gemini Pro subscription without missing premium AI ...",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-021",
+   "query": "gemini pro cheap reseller subscription",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-AI008"
+   ],
+   "url": "https://www.z2u.com/gemini/accounts-5-28045",
+   "host": "www.z2u.com",
+   "title": "Cheap Gemini Accounts Trade Platform",
+   "snippet": "This page lists a wide range of Gemini accounts from verified sellers on Z2U. You can compare different access types, plan durations, and feature bundles — ...",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-022",
+   "query": "perplexity pro subscription price",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-AI012"
+   ],
+   "url": "https://gameflip.com",
+   "host": "gameflip.com",
+   "title": "1 Year TRIAL Subscription PERPLEXITY Key GLOBAL",
+   "snippet": "Perplexity PRO - 1 Year TRIAL Subscription PERPLEXITY Key GLOBAL $ 3.99 USD Digital Code. Works for NEW accounts only",
+   "date": "",
+   "prices_seen": [
+    "$3.99"
+   ]
+  },
+  {
+   "action_id": "RA-022",
+   "query": "perplexity pro subscription price",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-AI012"
+   ],
+   "url": "https://www.capterra.com.au",
+   "host": "www.capterra.com.au",
+   "title": "Perplexity Cost & Reviews",
+   "snippet": "Learn more about Perplexity price , benefits, and disadvantages for businesses in Australia. I had a pro account, 1 year paid subscription.",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-022",
+   "query": "perplexity pro subscription price",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-AI012"
+   ],
+   "url": "https://www.makeuseof.com",
+   "host": "www.makeuseof.com",
+   "title": "I Have ChatGPT Plus and Perplexity Pro Subscriptions",
+   "snippet": "Jan 13, 2025 — It's not one or the other; here's how to use ChatGPT Plus and Perplexity Pro together for maximum efficiency.",
+   "date": "Jan 13, 2025",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-022",
+   "query": "perplexity pro subscription price",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-AI012"
+   ],
+   "url": "https://budgenie.fr",
+   "host": "budgenie.fr",
+   "title": "How to get Perplexity cheaper (€4/month) without a VPN",
+   "snippet": "Jul 14, 2026 — Discover the best way to get Perplexity Pro for as little as €4/month instead of €20/month, securely and without using a VPN.",
+   "date": "Jul 14, 2026",
+   "prices_seen": [
+    "€4",
+    "€20",
+    "€4"
+   ]
+  },
+  {
+   "action_id": "RA-022",
+   "query": "perplexity pro subscription price",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-AI012"
+   ],
+   "url": "https://www.thurrott.com",
+   "host": "www.thurrott.com",
+   "title": "Perplexity AI Pro",
+   "snippet": "Sep 13, 2024 — I got a free Pro subscription for a year through Xfinity rewards. It looks just like ChatGPT but has more LLMs to choose from. Generating images ... Read more",
+   "date": "Sep 13, 2024",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-023",
+   "query": "canva pro subscription price official",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-AI032"
+   ],
+   "url": "https://www.canva.com/en/pricing",
+   "host": "www.canva.com",
+   "title": "Plans and pricing",
+   "snippet": "Plans and pricing ; Free. Design anything and bring your ideas to life. No cost, just creativity. ; Pro. Unlock premium content, more powerful design tools, and ...",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-023",
+   "query": "canva pro subscription price official",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-AI032"
+   ],
+   "url": "https://www.canva.com/pro",
+   "host": "www.canva.com",
+   "title": "Canva Pro | Your all-in-one design solution",
+   "snippet": "Canva Pro is the perfect subscription for individuals who want to create professional content fast. With access to premium content, and AI-powered features, ...",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-023",
+   "query": "canva pro subscription price official",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-AI032"
+   ],
+   "url": "https://www.withorb.com/blog/canva-pricing",
+   "host": "www.withorb.com",
+   "title": "Canva pricing plans and cost breakdown for 2025 - Orb Billing",
+   "snippet": "So, how much is a Canva Pro subscription? The answer is $15/month or $120/year per person. This Canva subscription cost provides access to all premium features.",
+   "date": "",
+   "prices_seen": [
+    "$15",
+    "$120"
+   ]
+  },
+  {
+   "action_id": "RA-023",
+   "query": "canva pro subscription price official",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-AI032"
+   ],
+   "url": "https://felloai.com/canva-pricing",
+   "host": "felloai.com",
+   "title": "Canva Pricing 2026: How Much Does Canva Cost?",
+   "snippet": "Canva Pro is $18/mo, Business $25/user, and the free plan is $0. See every Canva price, what each plan includes, and AI credits cost.",
+   "date": "Sep 22, 2026",
+   "prices_seen": [
+    "$18",
+    "$25",
+    "$0"
+   ]
+  },
+  {
+   "action_id": "RA-023",
+   "query": "canva pro subscription price official",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-AI032"
+   ],
+   "url": "https://www.stylefactoryproductions.com/blog/canva-pricing",
+   "host": "www.stylefactoryproductions.com",
+   "title": "Canva Pricing (2026) — Which Plan is Best? - Style Factory",
+   "snippet": "It depends on whether you are using 'Canva Pro' or 'Canva Business'. Canva Pro costs $18 per month, and the pricing for Canva Business costs $25 ...",
+   "date": "Jul 21, 2026",
+   "prices_seen": [
+    "$18",
+    "$25"
+   ]
+  },
+  {
+   "action_id": "RA-023",
+   "query": "canva pro subscription price official",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-AI032"
+   ],
+   "url": "https://www.canva.com/help/biling-payment-plans",
+   "host": "www.canva.com",
+   "title": "Billing, payments, and plans - Canva Help Center",
+   "snippet": "Billing and plan management. Manage invoices, plans, and fix billing issues ; Payment methods. Learn about and manage Canva's supported payment methods.",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-024",
+   "query": "canva pro cheap reseller invite",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-AI032"
+   ],
+   "url": "https://www.etsy.com",
+   "host": "www.etsy.com",
+   "title": "Little Dumpling Baby Shower Bundle, Bao Dim Sum",
+   "snippet": "The bundle includes a menu, a calendar for guests to guess the baby's arrival date, a welcome sign, a game card with a dumpling illustration, and several game ...",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-024",
+   "query": "canva pro cheap reseller invite",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-AI032"
+   ],
+   "url": "https://www.raket.ph",
+   "host": "www.raket.ph",
+   "title": "Video Editing - I can provide basic editing inputs to your",
+   "snippet": "Starting at $79.6 Delivered in 4 days Apply discount code Total $89.15. Canva Templates: Your Ultimate Creative Toolkit! Canva Wedding RSVP Invitation.  ...",
+   "date": "",
+   "prices_seen": [
+    "$79.6",
+    "$89.15"
+   ]
+  },
+  {
+   "action_id": "RA-025",
+   "query": "netflix standard plan price usa 2026",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-DS002"
+   ],
+   "url": "https://lorellascacco.it",
+   "host": "lorellascacco.it",
+   "title": "%netflix trial version with credit card in jp",
+   "snippet": "4 days ago — Netflix （ネットフリックス）の公式無料トライアルは、2019年12月に終了しており、 2026 年8月現在は提供されていません。 しかし、ドコモ・au・ ... Read more",
+   "date": "Sep 23, 2026",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-026",
+   "query": "netflix premium plan price usa",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-DS003"
+   ],
+   "url": "https://www.expedia.com",
+   "host": "www.expedia.com",
+   "title": "Top Hotels Closest to Ellingen in Ellingen from $103",
+   "snippet": "Stay close to Ellingen in Ellingen. Find hotels with walking distance to the station from $103. Compare room rates , hotel reviews and availability.",
+   "date": "",
+   "prices_seen": [
+    "$103",
+    "$103"
+   ]
+  },
+  {
+   "action_id": "RA-026",
+   "query": "netflix premium plan price usa",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-DS003"
+   ],
+   "url": "https://www.airbnb.com",
+   "host": "www.airbnb.com",
+   "title": "The Radiance Manila Bay Waterfront Vacation Rentals",
+   "snippet": "stream on a 50\" smart TV with Netflix & Prime, Netflix , AppleTV+ & HBO Max 🎯. The Radiance Manila Bay vacation rentals start at $10 per night before taxes and ...",
+   "date": "",
+   "prices_seen": [
+    "$10"
+   ]
+  },
+  {
+   "action_id": "RA-026",
+   "query": "netflix premium plan price usa",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-DS003"
+   ],
+   "url": "https://www.instagram.com",
+   "host": "www.instagram.com",
+   "title": "Super Stream App",
+   "snippet": "-Get FREE PREMIUM access if active subscriber. Plans : 520 and up -Prepaid Loads: 500. Just download the app or visit our website. 200 Mbps + Netflix Php1,798/ ...",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-027",
+   "query": "netflix 12 months subscription cheap turkey argentina",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-DS004"
+   ],
+   "url": "https://cyprus-mail.com",
+   "host": "cyprus-mail.com",
+   "title": "Where Netflix binge-watching comes cheap",
+   "snippet": "Sep 22, 2021 — When it comes to the cheapest Netflix standard plans, Argentina and Turkey are the most affordable in monthly fees as well as yearly costs ... Read more",
+   "date": "Sep 22, 2021",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-027",
+   "query": "netflix 12 months subscription cheap turkey argentina",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-DS004"
+   ],
+   "url": "https://www.ozbargain.com.au",
+   "host": "www.ozbargain.com.au",
+   "title": "Netflix Monthly: Basic TL₺63.99 (~A$3.66), Standard",
+   "snippet": "Netflix Argentina is now ARS999 (A$6.10) for the Basic Plan and ARS2,399 (A$14.64) for the Premium Plan (in the last Netflix post, Argentina prices were ARS699",
+   "date": "",
+   "prices_seen": [
+    "$6.10",
+    "$14.64",
+    "$3.66"
+   ]
+  },
+  {
+   "action_id": "RA-027",
+   "query": "netflix 12 months subscription cheap turkey argentina",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-DS004"
+   ],
+   "url": "https://technext24.com",
+   "host": "technext24.com",
+   "title": "Sub-Saharan African countries to pay less for Netflix",
+   "snippet": "Feb 21, 2023 — Netflix hit various countries with price hikes, including the US, Argentina , Turkey , and Denmark. Turkey are the most cost-effective countries ...",
+   "date": "Feb 21, 2023",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-027",
+   "query": "netflix 12 months subscription cheap turkey argentina",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-DS004"
+   ],
+   "url": "https://x.com",
+   "host": "x.com",
+   "title": "You Can Pay $0 for Every Subscription You Have",
+   "snippet": "Aug 9, 2026 — Netflix $23/mo , Netflix: 30% off for 3 months. Some services charge 60-80% less in Turkey, Argentina, Netflix: Turkey: $4/mo vs $23 US. Steam ...",
+   "date": "Aug 9, 2026",
+   "prices_seen": [
+    "$23",
+    "$4",
+    "$23",
+    "$0"
+   ]
+  },
+  {
+   "action_id": "RA-027",
+   "query": "netflix 12 months subscription cheap turkey argentina",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-DS004"
+   ],
+   "url": "https://forums.redflagdeals.com",
+   "host": "forums.redflagdeals.com",
+   "title": "Cheaper Netflix - YMMV (non Canadian subscription)",
+   "snippet": "Nov 6, 2025 — Argentina has much cheaper rates . Netflix needs to locate you in Argentina to offer pricing in pesos. CAD $10.50, to $11.30 (as exchange ...",
+   "date": "Nov 6, 2025",
+   "prices_seen": [
+    "$10.50",
+    "$11.30"
+   ]
+  },
+  {
+   "action_id": "RA-027",
+   "query": "netflix 12 months subscription cheap turkey argentina",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-DS004"
+   ],
+   "url": "https://www.facebook.com",
+   "host": "www.facebook.com",
+   "title": "Lionel ⁠Messi is close to completing a deal to ⁠buy Spanish",
+   "snippet": "Messi is getting salary, streaming rights, apparel share. Apple streaming subscription already skyrocketed, jumped from $80 to $420",
+   "date": "",
+   "prices_seen": [
+    "$80",
+    "$420"
+   ]
+  },
+  {
+   "action_id": "RA-028",
+   "query": "netflix subscription cheap reseller shared account",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-DS002"
+   ],
+   "url": "https://www.g2g.com",
+   "host": "www.g2g.com",
+   "title": "Buy NFLX 4K UHD Premium & Shared Accounts",
+   "snippet": "Get NFLX accounts with 4K UHD streaming or shared plans . Verified sellers, escrow protection, 14-day insurance, instant delivery, 24/7 support. 1.00 USD 1",
+   "date": "",
+   "prices_seen": [
+    "USD1"
+   ]
+  },
+  {
+   "action_id": "RA-028",
+   "query": "netflix subscription cheap reseller shared account",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-DS002"
+   ],
+   "url": "https://www.gamsgo.com",
+   "host": "www.gamsgo.com",
+   "title": "Reliable Netflix Access | 4K & Ad-Free Viewing",
+   "snippet": "you can visit the GamsGo marketplace to find a cheap Netflix account and compare prices and subscription periods from multiple sellers.",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-028",
+   "query": "netflix subscription cheap reseller shared account",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-DS002"
+   ],
+   "url": "https://www.z2u.com",
+   "host": "www.z2u.com",
+   "title": "Netflix Accounts Cheapest price for Sale, Buy",
+   "snippet": "Cheap Netflix Account at Z2U.com , free admission, Quick share your member account … 17 Offers from $1.87 12>. No contract, no cancellation fees, no commitment.",
+   "date": "",
+   "prices_seen": [
+    "$1.87"
+   ]
+  },
+  {
+   "action_id": "RA-028",
+   "query": "netflix subscription cheap reseller shared account",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-DS002"
+   ],
+   "url": "https://help.netflix.com",
+   "host": "help.netflix.com",
+   "title": "Sharing your Netflix account",
+   "snippet": "Account owners on a Standard or Premium plan in many countries can share Netflix with someone who doesn't live with them by adding an extra member to their ... Read more",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-028",
+   "query": "netflix subscription cheap reseller shared account",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-DS002"
+   ],
+   "url": "https://www.g2a.com",
+   "host": "www.g2a.com",
+   "title": "Buy Netflix Subscriptions | Best Online Deals on G2A.COM",
+   "snippet": "Get a Netflix subscription and enjoy your favorite VOD content for less. Explore cheap Netflix deals and find the best subscription offers on G2A.COM.",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-028",
+   "query": "netflix subscription cheap reseller shared account",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-DS002"
+   ],
+   "url": "https://electronics.alibaba.com",
+   "host": "electronics.alibaba.com",
+   "title": "Netflix Reseller Guide: How to Evaluate Legitimacy & Risk",
+   "snippet": "Jul 21, 2026 — ❓Is it legal to buy a shared Netflix account ? While not criminal for end users, it breaches Netflix's Terms of Service. You forfeit support ... Read more",
+   "date": "Jul 21, 2026",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-029",
+   "query": "spotify premium individual price usa",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-DS006"
+   ],
+   "url": "https://www.spotify.com",
+   "host": "www.spotify.com",
+   "title": "Listen without limits. Try 1 month of Premium Individual",
+   "snippet": "Affordable plans for any situation ; Individual. US$0 for 1 month . US$3.29/month after. 1 Premium account ; Student. US$0 for 1 month. US$1.69/month after. 1 ... Read more",
+   "date": "",
+   "prices_seen": [
+    "$0",
+    "$3.29",
+    "$0",
+    "$1.69",
+    "Try1"
+   ]
+  },
+  {
+   "action_id": "RA-029",
+   "query": "spotify premium individual price usa",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-DS006"
+   ],
+   "url": "https://support.spotify.com",
+   "host": "support.spotify.com",
+   "title": "Basic plans - Spotify",
+   "snippet": "Basic plans ; Premium Individual . Basic Individual. Ad-free music listening; Download to listen offline; Play songs in any order; High audio quality; Travel ... Read more",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-029",
+   "query": "spotify premium individual price usa",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-DS006"
+   ],
+   "url": "https://www.nerdwallet.com",
+   "host": "www.nerdwallet.com",
+   "title": "How Much Does Spotify Cost?",
+   "snippet": "Aug 18, 2026 — Spotify Premium accounts cost $6.99 for students, $ 12.99 for individuals and $21.99 for families per month. Individuals pay $12.99 and couples ...",
+   "date": "Aug 18, 2026",
+   "prices_seen": [
+    "$6.99",
+    "$12.99",
+    "$21.99",
+    "$12.99"
+   ]
+  },
+  {
+   "action_id": "RA-030",
+   "query": "spotify premium 12 months cheap deal",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-DS007"
+   ],
+   "url": "https://www.spotify.com/us/premium",
+   "host": "www.spotify.com",
+   "title": "Spotify Premium - Spotify (USA)",
+   "snippet": "$0 for 1 month, then $12.99 per month after. Offer only available if you haven't tried Premium before. Terms apply. Plan members under 13 get Premium benefits ...",
+   "date": "",
+   "prices_seen": [
+    "$0",
+    "$12.99"
+   ]
+  },
+  {
+   "action_id": "RA-030",
+   "query": "spotify premium 12 months cheap deal",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-DS007"
+   ],
+   "url": "https://www.groupon.com/coupons/spotify?srsltid=AU7gw4UKx19TrreMraVfYYziz0Y5sL_115IBXBPjMaaPHViYeCPVMvzF",
+   "host": "www.groupon.com",
+   "title": "Spotify Coupon & Promo Code September 2026",
+   "snippet": "20% Off 12 Months Premium Subscription + Free Shipping Only. Normally $9.99 per month, for a limited time get your first month for free.",
+   "date": "",
+   "prices_seen": [
+    "$9.99"
+   ]
+  },
+  {
+   "action_id": "RA-030",
+   "query": "spotify premium 12 months cheap deal",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-DS007"
+   ],
+   "url": "https://www.spotify.com/us/student",
+   "host": "www.spotify.com",
+   "title": "Spotify Premium Student with Hulu (With Ads).",
+   "snippet": "Try Spotify Premium Student free for 1 month, then $6.99 per month after. Offer currently includes access to Hulu (With Ads), subject to eligibility.",
+   "date": "",
+   "prices_seen": [
+    "$6.99"
+   ]
+  },
+  {
+   "action_id": "RA-030",
+   "query": "spotify premium 12 months cheap deal",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-DS007"
+   ],
+   "url": "https://www.g2a.com/spotify-premium-manual-top-up-individual-12-months-spotify-global-i10000514955006",
+   "host": "www.g2a.com",
+   "title": "Buy Spotify Premium Manual Top-Up (Individual 12 Months)",
+   "snippet": "Get the best deals on Spotify Premium Manual Top-Up (Individual 12 Months) This item is out of stock … 3.53 USD 75.67 USD -95%",
+   "date": "",
+   "prices_seen": [
+    "USD75.67"
+   ]
+  },
+  {
+   "action_id": "RA-030",
+   "query": "spotify premium 12 months cheap deal",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-DS007"
+   ],
+   "url": "https://www.reddit.com/r/beermoneyuk/comments/1olmuqu/cheapest_way_to_get_12_months_spotify_premium",
+   "host": "www.reddit.com",
+   "title": "Cheapest way to get 12 months Spotify Premium?",
+   "snippet": "12month gift card is currently £120 at various retailers. The plan: Buy ・ price of £16 then 10% cashback. It's about 1£ per month ・ for free. ...",
+   "date": "",
+   "prices_seen": [
+    "£120",
+    "£16"
+   ]
+  },
+  {
+   "action_id": "RA-030",
+   "query": "spotify premium 12 months cheap deal",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-DS007"
+   ],
+   "url": "https://www.eldorado.gg/spotify-premium/t/252",
+   "host": "www.eldorado.gg",
+   "title": "Spotify Subscription from $10.48 for Premium - 12 Months",
+   "snippet": "Buy Cheapest Spotify Premium on Eldorado.gg. Spotify Premium - 12 Months Premium - 12 Months $155.88 -93%* $11.00 … and a payment fee is added at checkout.",
+   "date": "",
+   "prices_seen": [
+    "$155.88",
+    "$11.00",
+    "$10.48"
+   ]
+  },
+  {
+   "action_id": "RA-031",
+   "query": "youtube premium individual price usa",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-DS010"
+   ],
+   "url": "https://www.audiosciencereview.com",
+   "host": "www.audiosciencereview.com",
+   "title": "Topping DX5 Review (DAC & HP Amp) | Page 35",
+   "snippet": "Mar 25, 2022 — DX3 Pro+ for $140 (or $145 for the \"Used Very Good\") on Amazon. Amazon.com Sometimes they have the DX5 for $200 rock bottom used price , listen ...",
+   "date": "Mar 25, 2022",
+   "prices_seen": [
+    "$140",
+    "$145",
+    "$200"
+   ]
+  },
+  {
+   "action_id": "RA-031",
+   "query": "youtube premium individual price usa",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-DS010"
+   ],
+   "url": "https://www.airbnb.ca",
+   "host": "www.airbnb.ca",
+   "title": "Vacation rentals with a pool in Shah Alam",
+   "snippet": "prices starting at Shah Alam vacation rentals start at $14 CAD per night before taxes and fees. Enjoy premium amenities … + YouTube , Netflix & Movie Microwave",
+   "date": "",
+   "prices_seen": [
+    "$14"
+   ]
+  },
+  {
+   "action_id": "RA-031",
+   "query": "youtube premium individual price usa",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-DS010"
+   ],
+   "url": "https://cdn.loc.gov",
+   "host": "cdn.loc.gov",
+   "title": "Long Comment Regarding a Proposed Exemption Under",
+   "snippet": "Mar 17, 2015 — Vudu and Flixster also offer services whereby consumers who purchased DVDs can obtain low cost digital copies of the films they have collected. Read more",
+   "date": "Mar 17, 2015",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-032",
+   "query": "youtube premium 12 months cheap turkey",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-DS011"
+   ],
+   "url": "https://wmcentre.net",
+   "host": "wmcentre.net",
+   "title": "youtube premium for 1/12/24 months",
+   "snippet": "Aug 6, 2026 — YouTube Premium /Family - 1/ 12 /24 Months ☑️Region: Turkey , but works all over the world. ✅100% Guarantee: Lifetime. Subscriptions are available ...",
+   "date": "Aug 6, 2026",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-032",
+   "query": "youtube premium 12 months cheap turkey",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-DS011"
+   ],
+   "url": "https://forums.redflagdeals.com",
+   "host": "forums.redflagdeals.com",
+   "title": "Cheap YouTube (intl) Crackdown",
+   "snippet": "Jun 20, 2024 — Turkey , Ukraine YouTube groups. ($22.99 x 12 months ÷ 6 people) to get that roughly $50/yr figure. 1.96$ Works out to 4.33$ per month . $ Works ...",
+   "date": "Jun 20, 2024",
+   "prices_seen": [
+    "$22.99",
+    "$50"
+   ]
+  },
+  {
+   "action_id": "RA-032",
+   "query": "youtube premium 12 months cheap turkey",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-DS011"
+   ],
+   "url": "https://www.ozbargain.com.au",
+   "host": "www.ozbargain.com.au",
+   "title": "A$2.57), Family TRY ₺59.99 (~A$5.14) @ YouTube Turkey",
+   "snippet": "Oct 21, 2022 — YouTube Premium : Individual TRY ₺29.99 (~A$2.57), Family TRY ₺59.99 (~A$5.14) $22.99/mth for family plans … pay for 12 months upfront, $4.40AUD ...",
+   "date": "Oct 21, 2022",
+   "prices_seen": [
+    "$2.57",
+    "$5.14",
+    "$22.99",
+    "$4.40",
+    "$2.57",
+    "$5.14"
+   ]
+  },
+  {
+   "action_id": "RA-032",
+   "query": "youtube premium 12 months cheap turkey",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-DS011"
+   ],
+   "url": "https://www.cheapies.nz",
+   "host": "www.cheapies.nz",
+   "title": "YouTube Premium Cheap Access",
+   "snippet": "Jan 25, 2024 — months , so $6.69 per month . You can pay for 6, 12 or 24 months and there's an option to auto renew. d paid for another 12 months only a couple ...",
+   "date": "Jan 25, 2024",
+   "prices_seen": [
+    "$6.69"
+   ]
+  },
+  {
+   "action_id": "RA-032",
+   "query": "youtube premium 12 months cheap turkey",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-DS011"
+   ],
+   "url": "https://geekberry.net",
+   "host": "geekberry.net",
+   "title": "YouTube Increases Premium Family Plan Prices in Turkey",
+   "snippet": "Jun 12, 2026 — YouTube Premium Family plan will increase from TRY 159.99 to TRY 239.99. This represents a roughly 50% increase in the subscription cost. 19, ...",
+   "date": "Jun 12, 2026",
+   "prices_seen": [
+    "TRY159.99",
+    "TRY239.99"
+   ]
+  },
+  {
+   "action_id": "RA-032",
+   "query": "youtube premium 12 months cheap turkey",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-DS011"
+   ],
+   "url": "https://www.giverefer.com",
+   "host": "www.giverefer.com",
+   "title": "YouTube Premium Referral — 12 Friends, 12 Months",
+   "snippet": "YouTube Premium gives one free month per friend who becomes a paying subscriber, so twelve months free means recruiting twelve people onto a recurring bill",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-033",
+   "query": "nordvpn 2 year plan price official",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-DS025"
+   ],
+   "url": "https://www.ozbargain.com.au",
+   "host": "www.ozbargain.com.au",
+   "title": "NordVPN: 96% Cashback (Uncapped) for New VPN Plan",
+   "snippet": "May 20, 2023 — Tracking at $145.47 … you do 2 years ? https:// nordvpn .com/ pricing / hit in 2 years time with full fee.",
+   "date": "May 20, 2023",
+   "prices_seen": [
+    "$145.47"
+   ]
+  },
+  {
+   "action_id": "RA-034",
+   "query": "nordvpn cheapest deal reseller key",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-DS025"
+   ],
+   "url": "https://www.allkeyshop.com/blog/en-us/buy-nordvpn-cd-key-compare-prices",
+   "host": "www.allkeyshop.com",
+   "title": "NordVPN Prices – Compare Deals & Buy Cheaper VPN Keys",
+   "snippet": "The lowest subscription price for NordVPN is $4.88 at K4G, with 0% Off. We'll show you all the available promo codes and K4G coupons to help you save money.",
+   "date": "",
+   "prices_seen": [
+    "$4.88"
+   ]
+  },
+  {
+   "action_id": "RA-034",
+   "query": "nordvpn cheapest deal reseller key",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-DS025"
+   ],
+   "url": "https://www.reddit.com/r/nordvpn/comments/1m7o0gg/whats_the_absolute_best_deal_i_can_get_when",
+   "host": "www.reddit.com",
+   "title": "What's the ABSOLUTE BEST deal i can get when buying",
+   "snippet": "Wanting to get a VPN for gaming, as well as accessing any restricted websites if they may come up. As a UK resident, I noticed i get charged 20% in tax, ...",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-034",
+   "query": "nordvpn cheapest deal reseller key",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-DS025"
+   ],
+   "url": "https://www.g2a.com/nordvpn-complete-vpn-service-nordpass-pc-android-mac-ios-10-devices-2-years-nordvpn-key-global-i10000079049017",
+   "host": "www.g2a.com",
+   "title": "NordVPN Complete VPN Service +NordPass (PC, Android",
+   "snippet": "Get the best deals on NordVPN Complete VPN Service +NordPass (PC, Android, Mac, iOS) (10 Devices, 2 Years) - NordVPN Key - GLOBAL at the most attractive ...",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-034",
+   "query": "nordvpn cheapest deal reseller key",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-DS025"
+   ],
+   "url": "https://support.nordvpn.com/hc/en-us/articles/19477702164369-How-to-get-NordVPN-cheaper",
+   "host": "support.nordvpn.com",
+   "title": "How to get NordVPN cheaper – Live Chat, VPN Setup,",
+   "snippet": "NordVPN coupons - here, you can find special monthly deals. Affiliate coupon codes - we recommend checking out if your favorite content creators are a part of ...",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-034",
+   "query": "nordvpn cheapest deal reseller key",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-DS025"
+   ],
+   "url": "https://www.youtube.com/watch?v=yEU9y8v-Yvo&vl=en",
+   "host": "www.youtube.com",
+   "title": "How To Lock In The LOWEST NordVPN Price?",
+   "snippet": "NordVPN's cheapest plans are commonly tied to the 2-year Basic plan, with pricing usually starting around $2.91 to $3.09/month depending on the ...",
+   "date": "",
+   "prices_seen": [
+    "$2.91",
+    "$3.09"
+   ]
+  },
+  {
+   "action_id": "RA-034",
+   "query": "nordvpn cheapest deal reseller key",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-DS025"
+   ],
+   "url": "https://www.techradar.com/coupons/nord-vpn",
+   "host": "www.techradar.com",
+   "title": "NordVPN Coupons Codes in Sep 2026 | 75% OFF",
+   "snippet": "Get 75% off orders. Save 70% on 2-year plans plus get 4 extra months free. NordVPN often offers a range of VPN deals which can lower price by as much as 80%",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-035",
+   "query": "telegram premium 1 month price official",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-DS037"
+   ],
+   "url": "https://www.scribd.com",
+   "host": "www.scribd.com",
+   "title": "Amanda Bynes Course Membership Info | PDF",
+   "snippet": "This document introduces a course offered by Amanda Bynes, highlighting the benefits of purchasing directly from them for complete courses and updates. Read more",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-035",
+   "query": "telegram premium 1 month price official",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-DS037"
+   ],
+   "url": "https://needunlocks.com",
+   "host": "needunlocks.com",
+   "title": "Reseller Pricing / Server Service",
+   "snippet": "Delivery Time. Click Tool Pro 1 Month Premium Activation. 1 -3 Hours. 1 -3 Hours ... Delivery Time. DHRU FUSION SCRIPT RENEW 1 YEAR + SUPPORT + TELEGRAM (Auto Api). Read more",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-036",
+   "query": "telegram premium 12 months cheap reseller gift",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-DS039"
+   ],
+   "url": "https://www.g2a.com",
+   "host": "www.g2a.com",
+   "title": "Buy 50 Telegram Premium Members | Cheap on G2A.COM",
+   "snippet": "Premium support after your purchase. 12 Months . 0.96 USD per month. + VAT if applicable. billed every year. 11.49 USD. 35.88 USD. -68%. + VAT if applicable.",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-036",
+   "query": "telegram premium 12 months cheap reseller gift",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-DS039"
+   ],
+   "url": "https://www.buysellvouchers.com",
+   "host": "www.buysellvouchers.com",
+   "title": "Buy Telegram Premium Gift Cards Canada",
+   "snippet": "Telegram 3M Premium Redeem Code Stockable. 744 · $12.23. 666 Sold ; Telegram Premium⭐️ (Via Username)| 1 Year. 77 · $28.60. 37 Sold ; Telegram Premium 12 month ... Read more",
+   "date": "",
+   "prices_seen": [
+    "$12.23",
+    "$28.60"
+   ]
+  },
+  {
+   "action_id": "RA-036",
+   "query": "telegram premium 12 months cheap reseller gift",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-DS039"
+   ],
+   "url": "https://digeneo.com",
+   "host": "digeneo.com",
+   "title": "Telegram Premium 12 months - Digeneo",
+   "snippet": "Telegram GLOBAL 12 months GIFT CARD . Telegram. Telegram Premium 12 months. Face value: 32 USD; Region: GLOBAL; Delivery: Within 30 min. Works on accounts from ... Read more",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-036",
+   "query": "telegram premium 12 months cheap reseller gift",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-DS039"
+   ],
+   "url": "https://1sabs.ru",
+   "host": "1sabs.ru",
+   "title": "Upgrade Telegram Premium 3-12M | FAST, FULL WARRANTY",
+   "snippet": "Sold 25 pcs. ... We are a direct provider (not a reseller ), offering official Telegram Premium upgrades with full safety, fast processing, and complete warranty. Read more",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-036",
+   "query": "telegram premium 12 months cheap reseller gift",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-DS039"
+   ],
+   "url": "https://lzt.market",
+   "host": "lzt.market",
+   "title": "Buy an account Gifts, Telegram Premium, 12+ days | Page 3",
+   "snippet": "Telegram Premium 156 pcs . Cost from 10 ₽ up to 50 ₽ 95 pcs. Telegram Premium 156 pcs. Discord 148 pcs. Discord Nitro (Trial), 2+ months 103 pcs. Telegram 156 ... Read more",
+   "date": "",
+   "prices_seen": [
+    "₽95"
+   ]
+  },
+  {
+   "action_id": "RA-036",
+   "query": "telegram premium 12 months cheap reseller gift",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-DS039"
+   ],
+   "url": "https://www.kinguin.net",
+   "host": "www.kinguin.net",
+   "title": "Telegram Premium - 12 Months Subscription Gift",
+   "snippet": "Telegram conta ora oltre 900 milioni di utenti attivi mensili . Con Premium puoi seguire fino a 1000 canali , creare e condividere fino a 30 cartelle di ...",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-037",
+   "query": "telegram premium gift cheap buy stars",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-DS037",
+    "SKU-DS039"
+   ],
+   "url": "https://starsearn.com",
+   "host": "starsearn.com",
+   "title": "Can You Buy Telegram Premium with Stars? 2026 Rules",
+   "snippet": "No — Telegram Stars cannot pay for Telegram Premium . They are separate products with separate checkouts. Stars are a spend-as-you-go currency for bots, creator ... Read more",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-037",
+   "query": "telegram premium gift cheap buy stars",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-DS037",
+    "SKU-DS039"
+   ],
+   "url": "https://www.g2a.com",
+   "host": "www.g2a.com",
+   "title": "Buy Telegram Stars Top-Up 🥇 Best Prices",
+   "snippet": "Get the best deals on Telegram Stars Top-Up. ⭐ Discover unbeatable prices, amazing sales, and exclusive offers. Shop now and save big!",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-037",
+   "query": "telegram premium gift cheap buy stars",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-DS037",
+    "SKU-DS039"
+   ],
+   "url": "https://www.buysellvouchers.com",
+   "host": "www.buysellvouchers.com",
+   "title": "Cheapest Country For Telegram Premium Gift Cards",
+   "snippet": "Jan 14, 2026 — BuySellVouchers gives users a reliable and flexible way to buy Telegram Premium gift cards at competitive prices. The platform is built ... Read more",
+   "date": "Jan 14, 2026",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-037",
+   "query": "telegram premium gift cheap buy stars",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-DS037",
+    "SKU-DS039"
+   ],
+   "url": "https://telegram.org",
+   "host": "telegram.org",
+   "title": "Terms of Service for Telegram Stars",
+   "snippet": "Telegram Stars are virtual items that allow users to purchase digital goods and services from bots and mini apps inside the Telegram ecosystem, send gifts to ... Read more",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-037",
+   "query": "telegram premium gift cheap buy stars",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-DS037",
+    "SKU-DS039"
+   ],
+   "url": "https://www.topuplive.com",
+   "host": "www.topuplive.com",
+   "title": "How to Buy Telegram Stars for Cheaper?",
+   "snippet": "Jun 18, 2026 — Buy Telegram Stars cheaper in 2026 with TOPUPlive! Get up to 23% discount on Telegram Stars top-up. Instant delivery, secure payment, ...",
+   "date": "Jun 18, 2026",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-037",
+   "query": "telegram premium gift cheap buy stars",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-DS037",
+    "SKU-DS039"
+   ],
+   "url": "https://mystars.tg",
+   "host": "mystars.tg",
+   "title": "How to Buy Telegram Premium with Crypto — 2026 Guide",
+   "snippet": "Apr 15, 2026 — Buy Telegram Premium with TON or USDT — and skip the app-store cut. No card, no KYC, no region locks. Gift Premium with crypto — no app-store ...",
+   "date": "Apr 15, 2026",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-038",
+   "query": "discord nitro 1 month price official",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-DS042"
+   ],
+   "url": "https://discord.com",
+   "host": "discord.com",
+   "title": "Nitro Benefits and Features",
+   "snippet": "Supercharge your chats with some of Nitro's most-loved perks. $ 2.99 / MONTH . Get Nitro Basic. Custom emoji anywhere. Read more",
+   "date": "",
+   "prices_seen": [
+    "$2.99"
+   ]
+  },
+  {
+   "action_id": "RA-038",
+   "query": "discord nitro 1 month price official",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-DS042"
+   ],
+   "url": "https://www.g2a.com",
+   "host": "www.g2a.com",
+   "title": "Discord Nitro 🥇 Best Prices",
+   "snippet": "Discord Nitro Price Comparison ; Discord Nitro Trial 3 Months · 1.11 USD ; Discord Nitro 1 Month · 2.69 USD ; Discord Nitro Trial 1 Month · 1.18 USD. Read more",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-038",
+   "query": "discord nitro 1 month price official",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-DS042"
+   ],
+   "url": "https://gg.deals",
+   "host": "gg.deals",
+   "title": "Buy Discord Nitro - 1 Month - lowest price",
+   "snippet": "1 Month from $8.18 1 Month Trial from $0.70. Right now, the lowest Discord Nitro - 1 Month price can be obtained on Eldorado.gg at $8.18.",
+   "date": "",
+   "prices_seen": [
+    "$8.18",
+    "$0.70",
+    "$8.18"
+   ]
+  },
+  {
+   "action_id": "RA-038",
+   "query": "discord nitro 1 month price official",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-DS042"
+   ],
+   "url": "https://www.amazon.com",
+   "host": "www.amazon.com",
+   "title": "Discord Nitro 1-Month Subscription Gift Card [Digital Code]",
+   "snippet": "Buy Discord Nitro 1-Month Subscription Gift Card … | $ 50 (plus $4.95 Purchase Fee) $100 (plus $5.95 Purchase Fee)",
+   "date": "",
+   "prices_seen": [
+    "$50",
+    "$4.95",
+    "$100",
+    "$5.95"
+   ]
+  },
+  {
+   "action_id": "RA-038",
+   "query": "discord nitro 1 month price official",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-DS042"
+   ],
+   "url": "https://www.g2g.com",
+   "host": "www.g2g.com",
+   "title": "Buy Gift Card for Nitro on G2G.com – Fast & Secure Access",
+   "snippet": "From 3.27 USD 1 . These gift codes let you activate Nitro membership. Whether you need a 1 - month boost or a longer subscription like Discord Nitro 1 year, based ...",
+   "date": "",
+   "prices_seen": [
+    "USD1"
+   ]
+  },
+  {
+   "action_id": "RA-038",
+   "query": "discord nitro 1 month price official",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-DS042"
+   ],
+   "url": "https://pumble.com",
+   "host": "pumble.com",
+   "title": "Discord Pricing for 2026: Detailed Breakdown of Prices",
+   "snippet": "Mar 25, 2026 — If you pay in US dollars, the monthly Discord Nitro price will be $ 9.99 per person or $99.99 if you pay annually.",
+   "date": "Mar 25, 2026",
+   "prices_seen": [
+    "$9.99",
+    "$99.99"
+   ]
+  },
+  {
+   "action_id": "RA-039",
+   "query": "discord nitro cheap reseller gift code",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-DS042"
+   ],
+   "url": "https://www.scribd.com",
+   "host": "www.scribd.com",
+   "title": "Zoberetimifid | PDF | Copyright",
+   "snippet": "The document provides a detailed guide on the Swift gloves in Old School RuneScape (OSRS), including their requirements, effects, and how to obtain them. Read more",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-040",
+   "query": "windows 11 pro key cheapest price comparison",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-SW001"
+   ],
+   "url": "https://gist.github.com",
+   "host": "gist.github.com",
+   "title": "my proxmox cluster",
+   "snippet": "If you know someone running one of the board with latest windows 11 its easy ... this might just come out much cheaper but has of cource a giant footprint ... Read more",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-040",
+   "query": "windows 11 pro key cheapest price comparison",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-SW001"
+   ],
+   "url": "https://www.jumia.co.ke",
+   "host": "www.jumia.co.ke",
+   "title": "Buy refurbished warranty Online",
+   "snippet": "EliteBook 840 G6 -8th Gen -Core I5, 16GB RAM, 512GB-SSD Windows 11 Pro Installed 6Months Warranty REFURBISHED. Model: Elite. Book 840 G5 Processor: ... Read more",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-040",
+   "query": "windows 11 pro key cheapest price comparison",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-SW001"
+   ],
+   "url": "http://www.newegg.com",
+   "host": "www.newegg.com",
+   "title": "HP 15.6\" Intel Core i3-4005U 4GB Memory DDR3 1600",
+   "snippet": "Comparing this HP to Lenovo 59439232 Notebook Intel Celeron N2840 (2.16GHz) 4GB Memory 500GB HDD Intel HD Which would be better for a student to open and use? Read more",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-040",
+   "query": "windows 11 pro key cheapest price comparison",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-SW001"
+   ],
+   "url": "https://www.carousell.sg",
+   "host": "www.carousell.sg",
+   "title": "100+ Hp power For Sale | Laptops & Notebooks",
+   "snippet": "⚡ Key Specifications ❤️ Intel Core i7 – 11th Generation ❤️ 16GB RAM ... 11th Gen 16Gb RAM 512GB SSD windows 11 Pro . S$540. Like new. Free delivery. Read more",
+   "date": "",
+   "prices_seen": [
+    "$540"
+   ]
+  },
+  {
+   "action_id": "RA-040",
+   "query": "windows 11 pro key cheapest price comparison",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-SW001"
+   ],
+   "url": "https://www.worthrated.com",
+   "host": "www.worthrated.com",
+   "title": "Best Windows Tablets (2026) - WorthRated",
+   "snippet": "Real listing prices in this comparison ranged from $93.99 (WXUNJA Android 16 Tablet) to $699.99 (Fusion5 2026 Version 12\" 2K Display Windows 11 Tablet PC with ... Read more",
+   "date": "",
+   "prices_seen": [
+    "$93.99",
+    "$699.99"
+   ]
+  },
+  {
+   "action_id": "RA-041",
+   "query": "cjs cd keys windows 11 professional price",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-SW001"
+   ],
+   "url": "https://www.cjs-cdkeys.com",
+   "host": "www.cjs-cdkeys.com",
+   "title": "Microsoft Windows 11 Home CD Key - Instant Delivery at",
+   "snippet": "Buy CD Key / Serial for Windows 11 Home (Genuine Digital Download) at CJS CD Keys and receive your key instantly after payment. Genuine and unused.",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-042",
+   "query": "keyforsteam windows 11 pro key preis",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-SW001"
+   ],
+   "url": "https://linustechtips.com",
+   "host": "linustechtips.com",
+   "title": "Do you prefer Rise of the Tomb Raider or DOOM?",
+   "snippet": "Oct 28, 2017 — I'd be more inclined to purchase through G2A or Kinguin rather than resorting to piracy ( key for Steam over malware downloads). I may have a key ... Read more",
+   "date": "Oct 28, 2017",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-042",
+   "query": "keyforsteam windows 11 pro key preis",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-SW001"
+   ],
+   "url": "https://www.allkeyshop.com",
+   "host": "www.allkeyshop.com",
+   "title": "Destiny Archives",
+   "snippet": "Windows 11 Pro. Wincdkey. $1.22 · 01. Office 2024 Professional Plus. Keys4us. $0.65 · 01. How to Fish. Steam. $7.99 · 01. Crimson Desert. K4G. $40.72 · 01. STAR ... Read more",
+   "date": "",
+   "prices_seen": [
+    "$1.22",
+    "$0.65",
+    "$7.99",
+    "$40.72"
+   ]
+  },
+  {
+   "action_id": "RA-042",
+   "query": "keyforsteam windows 11 pro key preis",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-SW001"
+   ],
+   "url": "https://www.g2a.com",
+   "host": "www.g2a.com",
+   "title": "THE TEAR Steam Key GLOBAL - Cheap",
+   "snippet": "... work on G2A.COM. Microsoft Windows 11 Pro - PC Microsoft Key GLOBAL. Microsoft Windows 11 Pro - PC. Microsoft. •. Key. •. GLOBAL. 22.97 USD. 149.38 USD. -85%. Read more",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-042",
+   "query": "keyforsteam windows 11 pro key preis",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-SW001"
+   ],
+   "url": "https://www.cjs-cdkeys.com",
+   "host": "www.cjs-cdkeys.com",
+   "title": "ESSENCE Steam Key - Sofortige Lieferung",
+   "snippet": "Windows 11 Professional CD Key (Digital Download). £9.49. Microsoft Office Professional Plus 2021 CD Key (Digital Download). £12.49. Windows 10 Professional CD ... Read more",
+   "date": "",
+   "prices_seen": [
+    "£9.49",
+    "£12.49"
+   ]
+  },
+  {
+   "action_id": "RA-042",
+   "query": "keyforsteam windows 11 pro key preis",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-SW001"
+   ],
+   "url": "https://www.techpowerup.com",
+   "host": "www.techpowerup.com",
+   "title": "Intel 10th Gen Core KA Marvel's Avengers SKUs Don't",
+   "snippet": "Aug 19, 2020 — The worst thing is that currently releasing copies of a game costs next to nothing - it's just a key for Steam /Epic etc... So skimping on it is ... Read more",
+   "date": "Aug 19, 2020",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-042",
+   "query": "keyforsteam windows 11 pro key preis",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-SW001"
+   ],
+   "url": "https://forums.x-plane.org",
+   "host": "forums.x-plane.org",
+   "title": "What country is x plane made in?",
+   "snippet": "Apr 26, 2017 — Hi there, I was just curious, what country x plane is made in? Any help is greatly appreciated. Thanks in advance.",
+   "date": "Apr 26, 2017",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-043",
+   "query": "ggsel windows 11 pro price rubles",
+   "discovery_family": "Channel-first",
+   "targets": [
+    "SKU-SW001"
+   ],
+   "url": "https://global.microless.com",
+   "host": "global.microless.com",
+   "title": "NCTS W385 QSALE W Series POS System, 15.6\" FHD + 8",
+   "snippet": "Buy Online with Best Price . 8GB DDR4 RAM, 512GB NVMe M.2 SSD, Windows 11 Pro , Silver. Windows 11 PRO Speaker: 423W … 2 SSD, Windows 11 Pro , Silver",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-043",
+   "query": "ggsel windows 11 pro price rubles",
+   "discovery_family": "Channel-first",
+   "targets": [
+    "SKU-SW001"
+   ],
+   "url": "https://armada.kz",
+   "host": "armada.kz",
+   "title": "Диванчик/софа - ARMADA",
+   "snippet": "Диванчик/софа (700) 327-90-27 ・ >ИНТЕРНЕТ МАГАЗИН ЦИФРОВЫХ ТОВАРОВ</b>. Windows 10/11 Pro 32/64 bit Лицензия ・ 8 (727) 327 90 27",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-043",
+   "query": "ggsel windows 11 pro price rubles",
+   "discovery_family": "Channel-first",
+   "targets": [
+    "SKU-SW001"
+   ],
+   "url": "https://visitulaanbaatar.net",
+   "host": "visitulaanbaatar.net",
+   "title": "Ulaanbaatar-Regional Development Forum: Time for",
+   "snippet": "Mar 11, 2024 — The Government of Mongolia announced 2024 as the \"Year to Support Regional Development\". In this context, the \"Ulaanbaatar-Regional ...",
+   "date": "Mar 11, 2024",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-043",
+   "query": "ggsel windows 11 pro price rubles",
+   "discovery_family": "Channel-first",
+   "targets": [
+    "SKU-SW001"
+   ],
+   "url": "https://goldengrouprealestate.com",
+   "host": "goldengrouprealestate.com",
+   "title": "A Perfect Winter Day in Golden",
+   "snippet": "Jan 14, 2020 — Prices are reasonable but. The price for the entire database is 5000 USDT. The price for 1 GEO is 700 USDT. Tier 1 countries. For any details, ...",
+   "date": "Jan 14, 2020",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-043",
+   "query": "ggsel windows 11 pro price rubles",
+   "discovery_family": "Channel-first",
+   "targets": [
+    "SKU-SW001"
+   ],
+   "url": "https://www.thesixskills.com",
+   "host": "www.thesixskills.com",
+   "title": "The Six Skills of Goal Setting",
+   "snippet": "Nov 5, 2020 — Here are 6 skills (DESIGN) that you can work on in order to help you set goals in your life so that you can move forward towards your destiny: D ... Read more",
+   "date": "Nov 5, 2020",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-043",
+   "query": "ggsel windows 11 pro price rubles",
+   "discovery_family": "Channel-first",
+   "targets": [
+    "SKU-SW001"
+   ],
+   "url": "https://diamonddo.com",
+   "host": "diamonddo.com",
+   "title": "Diamond Do Growth Oil",
+   "snippet": "Diamond Do Growth Oil is the ultimate healing product for your hair and skin! It is known for helping women and men treat hair loss and skin irritation.",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-044",
+   "query": "office 2021 pro plus key cheapest price",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-SW004",
+    "SKU-SW005"
+   ],
+   "url": "https://es.godeal24.com",
+   "host": "es.godeal24.com",
+   "title": "Office 2021 Pro Plus - 1 PC",
+   "snippet": "Office 2021 Pro Plus - 1 PC Special Price 83,03 € Regular Price 450,99 €. Special Price 236,82 € Regular Price 296,24 €. Special Price 342,76 €",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-044",
+   "query": "office 2021 pro plus key cheapest price",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-SW004",
+    "SKU-SW005"
+   ],
+   "url": "https://www.jumia.com.ng",
+   "host": "www.jumia.com.ng",
+   "title": "Windows laptop for microsoft office at Best Prices Online",
+   "snippet": "Office 2021 Pro Plus LTSC … ₦ 35,000.00 ₦ 60,000.00 -42% Windows 10 Processor: Pro + Laptop ProBook",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-044",
+   "query": "office 2021 pro plus key cheapest price",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-SW004",
+    "SKU-SW005"
+   ],
+   "url": "https://gamecardshop.com",
+   "host": "gamecardshop.com",
+   "title": "Microsoft Windows 10 Home + Microsoft Office 2021",
+   "snippet": "Microsoft Office 2021 Professional Plus License for 3 PC ... € 99,99 Original price was: € 99,99. € 29,99 Current price is: € 29,99. VAT included. Read more",
+   "date": "",
+   "prices_seen": [
+    "€99,99",
+    "€99,99",
+    "€29,99",
+    "€29,99"
+   ]
+  },
+  {
+   "action_id": "RA-045",
+   "query": "office 2024 pro plus key cheapest price",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-SW006"
+   ],
+   "url": "https://es.godeal24.com",
+   "host": "es.godeal24.com",
+   "title": "Office 2024 Home",
+   "snippet": "Office 2024 Pro Plus LTSC Key (1 PC). Special Price 49,98 € Regular Price 59,99 €. Office 2024 Pro Plus Key (1 PC) -31%. Add to ... Read more",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-045",
+   "query": "office 2024 pro plus key cheapest price",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-SW006"
+   ],
+   "url": "https://shopkeyonline.com",
+   "host": "shopkeyonline.com",
+   "title": "Pro Plus Tag",
+   "snippet": "2024 Pro Plus fir Windows €24.50 … + Office 2024 Pro Plus Bouquet €42.45 Original price was: €42.45. €36.90 Current price is: €36.90.",
+   "date": "",
+   "prices_seen": [
+    "€24.50",
+    "€42.45",
+    "€42.45",
+    "€36.90",
+    "€36.90"
+   ]
+  },
+  {
+   "action_id": "RA-045",
+   "query": "office 2024 pro plus key cheapest price",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-SW006"
+   ],
+   "url": "https://static.cdkdeals.com",
+   "host": "static.cdkdeals.com",
+   "title": "Buy your desired Cheap software keys, Game CD",
+   "snippet": "CDKdeals is a great online store for shopping Windows 12 keys , pc game keys , steam game keys and so on. Pro Plus CD Key Pack",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-046",
+   "query": "royalcdkeys office 2021 pro plus price",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-SW004"
+   ],
+   "url": "https://www.allkeyshop.com",
+   "host": "www.allkeyshop.com",
+   "title": "Buy Microsoft Office Professional 2021 CD KEY Compare",
+   "snippet": "The best price for Microsoft Office Professional 2021 PC is 31.49€ at Licensigo. We'll show you all the available promo codes and Licensigo coupons to help you ... Read more",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-046",
+   "query": "royalcdkeys office 2021 pro plus price",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-SW004"
+   ],
+   "url": "https://slickdeals.net",
+   "host": "slickdeals.net",
+   "title": "Windows 10/11 Pro + Office 2021 Pro Plus Retail. $7.10",
+   "snippet": "Jun 24, 2023 — Verified with Slickdeals mods. Price is 6.50 Euro, approx. $7.10 USD https:// royalcdkeys .com/products/...o- plus -key. About the Poster. Read more",
+   "date": "Jun 24, 2023",
+   "prices_seen": [
+    "$7.10",
+    "$7.10"
+   ]
+  },
+  {
+   "action_id": "RA-046",
+   "query": "royalcdkeys office 2021 pro plus price",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-SW004"
+   ],
+   "url": "https://royalcdkeys.com",
+   "host": "royalcdkeys.com",
+   "title": "Microsoft Office 2021 Pro Plus LTSC Product Key",
+   "snippet": "RoyalCDKeys . Software · Games · Subscriptions ... Regular price : €4,59 EUR. Sale price : €4,59 EUR; Regular price : €130,00 EUR. Unit ... Read more",
+   "date": "",
+   "prices_seen": [
+    "€4,59",
+    "€4,59",
+    "€130,00"
+   ]
+  },
+  {
+   "action_id": "RA-046",
+   "query": "royalcdkeys office 2021 pro plus price",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-SW004"
+   ],
+   "url": "https://voyages-moto.fr",
+   "host": "voyages-moto.fr",
+   "title": "Office Key Microsoft Office 2021 Professional Plus LTSC Key",
+   "snippet": "Sep 13, 2026 — Office Key Microsoft Office 2021 Professional Plus LTSC Key Lifetime License – RoyalCDKeys . Item no : EAD96440975. sold recently ... Read more",
+   "date": "Sep 13, 2026",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-047",
+   "query": "gocdkeys office 2021 price",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-SW004"
+   ],
+   "url": "https://gocdkeys.com",
+   "host": "gocdkeys.com",
+   "title": "Buy Cheap Microsoft Office Home 2024 Key 🏷️ | Gocdkeys",
+   "snippet": "The cheapest price is $2.90 (no fees, -0%) at Keys4us with a rating of 4.9 (1.3k reviews) · Region Global · We compare prices at 11 verified stores with ... Read more",
+   "date": "",
+   "prices_seen": [
+    "$2.90"
+   ]
+  },
+  {
+   "action_id": "RA-047",
+   "query": "gocdkeys office 2021 price",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-SW004"
+   ],
+   "url": "https://www.allkeyshop.com",
+   "host": "www.allkeyshop.com",
+   "title": "Buy Microsoft Office 2021 Pro Plus CD KEY Compare Prices",
+   "snippet": "The best price for a Microsoft Office 2021 Pro Plus PC license is $ 0.53 at Keys4us . $8.54 PremiumCDkeys … $9.80 one package.",
+   "date": "",
+   "prices_seen": [
+    "$0.53",
+    "$8.54",
+    "$9.80"
+   ]
+  },
+  {
+   "action_id": "RA-047",
+   "query": "gocdkeys office 2021 price",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-SW004"
+   ],
+   "url": "https://www.tweaktown.com",
+   "host": "www.tweaktown.com",
+   "title": "Microsoft Office 2021 licenses from $13.32 with GoDeal24",
+   "snippet": "Jun 6, 2022 — Office 2021 for only $13.32 … official price of $439.99. The lowest price of Office 2021 is only $13.32/PC! CD-KEY (32/64 Bit) - $7.59",
+   "date": "Jun 6, 2022",
+   "prices_seen": [
+    "$13.32",
+    "$439.99",
+    "$13.32",
+    "$7.59",
+    "$13.32"
+   ]
+  },
+  {
+   "action_id": "RA-047",
+   "query": "gocdkeys office 2021 price",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-SW004"
+   ],
+   "url": "https://www.cjs-cdkeys.com",
+   "host": "www.cjs-cdkeys.com",
+   "title": "Microsoft Office Professional Plus 2021 CD Key",
+   "snippet": "Microsoft Office 2021 at CJS CD Keys . Genuine and unused. £264.46 12.49 £12.49 (You save £247.94) NO Hidden Fees! Paypal Accepted! Our prices are some of the ...",
+   "date": "",
+   "prices_seen": [
+    "£264.46",
+    "£12.49",
+    "£247.94"
+   ]
+  },
+  {
+   "action_id": "RA-047",
+   "query": "gocdkeys office 2021 price",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-SW004"
+   ],
+   "url": "https://www.g2a.com",
+   "host": "www.g2a.com",
+   "title": "Microsoft Office 2021 - Cheap Keys",
+   "snippet": "Cheap Keys OFFERS FROM 45 SELLERS. GLOBAL 18.58 USD 619.87 USD OFFERS FROM 2 SELLERS. GLOBAL 21.69 USD. Vast selection in best prices",
+   "date": "",
+   "prices_seen": [
+    "USD619.87"
+   ]
+  },
+  {
+   "action_id": "RA-047",
+   "query": "gocdkeys office 2021 price",
+   "discovery_family": "Seller-first",
+   "targets": [
+    "SKU-SW004"
+   ],
+   "url": "https://ggkeys.com",
+   "host": "ggkeys.com",
+   "title": "Office 2021 Professional Plus Key",
+   "snippet": "156.00 $ Original price was: 156.00 $. 30.00 $ Current price is: 30.00 $. You save 126.00 $ (81%) today! Office 2021 Professional Plus Key quantity. Add ... Read more",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-048",
+   "query": "xbox game pass ultimate 1 month price official",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-GK021"
+   ],
+   "url": "https://www.scribd.com",
+   "host": "www.scribd.com",
+   "title": "Zoberetimifid | PDF | Copyright",
+   "snippet": "The document provides a detailed guide on the Swift gloves in Old School RuneScape (OSRS), including their requirements, effects, and how to obtain them. Read more",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-048",
+   "query": "xbox game pass ultimate 1 month price official",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-GK021"
+   ],
+   "url": "https://qresear.ch",
+   "host": "qresear.ch",
+   "title": "QResear.ch - The 8chan/8kun QResearch Board Search",
+   "snippet": "QResear.ch - The biggest QAnon Resource! The 8chan/8kun QResearch Board (3,478 Results) WEF-members are available now. Record $300 Trillion & other finance news",
+   "date": "",
+   "prices_seen": [
+    "$300"
+   ]
+  },
+  {
+   "action_id": "RA-048",
+   "query": "xbox game pass ultimate 1 month price official",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-GK021"
+   ],
+   "url": "http://psp-news.dcemu.co.uk",
+   "host": "psp-news.dcemu.co.uk",
+   "title": "PSP News - Wraggys Beer Reviews",
+   "snippet": "Mar 24, 2004 — its price cut to $149, the console's sales rose by some 216 per cent in the week. Xbox in monthly sales for the first time. QT integration ( ...",
+   "date": "Mar 24, 2004",
+   "prices_seen": [
+    "$149"
+   ]
+  },
+  {
+   "action_id": "RA-049",
+   "query": "xbox game pass ultimate 3 months cheapest price",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-GK022"
+   ],
+   "url": "https://www.amazon.com/Xbox-Game-Pass-Ultimate-Membership/dp/B07TGNFVWV",
+   "host": "www.amazon.com",
+   "title": "XBOX Game Pass Ultimate | 3 Month Membership",
+   "snippet": "Xbox Game Pass Ultimate includes 20% off the purchase price of select titles in the Xbox Game Pass library, plus 10% of purchase price back in Rewards points, ...",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-049",
+   "query": "xbox game pass ultimate 3 months cheapest price",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-GK022"
+   ],
+   "url": "https://www.g2a.com/category/xbox-game-pass-c3351",
+   "host": "www.g2a.com",
+   "title": "XBOX Game Pass Ultimate - Buy Cheaper!",
+   "snippet": "Xbox Game Pass Premium - $14.99/month; PC Game Pass - $13.99/month; Xbox Game Pass Ultimate - $22.99/month; Xbox Game Pass Starter Edition - no extra charge for ...",
+   "date": "",
+   "prices_seen": [
+    "$14.99",
+    "$13.99",
+    "$22.99"
+   ]
+  },
+  {
+   "action_id": "RA-049",
+   "query": "xbox game pass ultimate 3 months cheapest price",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-GK022"
+   ],
+   "url": "https://www.xbox.com/en-US/xbox-game-pass/compare",
+   "host": "www.xbox.com",
+   "title": "Compare XBOX Game Pass Plans",
+   "snippet": "Game Pass $22.99/month. Get up to $100 per year at the Store just by playing the games you love. Score up to 30% value on select Game Pass library games.",
+   "date": "",
+   "prices_seen": [
+    "$22.99",
+    "$100"
+   ]
+  },
+  {
+   "action_id": "RA-049",
+   "query": "xbox game pass ultimate 3 months cheapest price",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-GK022"
+   ],
+   "url": "https://gg.deals/subscription/xbox-game-pass-ultimate-3-months",
+   "host": "gg.deals",
+   "title": "Buy Xbox Game Pass Ultimate - 3 Months - lowest price",
+   "snippet": "Currently, the lowest Xbox Game Pass Ultimate - 3 Months price can be found on Loaded at $46.19 (33% off). Current price: $13.75",
+   "date": "",
+   "prices_seen": [
+    "$46.19",
+    "$13.75"
+   ]
+  },
+  {
+   "action_id": "RA-049",
+   "query": "xbox game pass ultimate 3 months cheapest price",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-GK022"
+   ],
+   "url": "https://www.reddit.com/r/XboxGamePass/comments/1p5xgsm/xbox_game_pass_ultimate_for_less_than_2999_a",
+   "host": "www.reddit.com",
+   "title": "Xbox Game Pass Ultimate, for LESS than $29.99 a month.",
+   "snippet": "Xbox Game Pass Ultimate, for LESS than $29.99 a month. approximately $13.63 a month 25 months. 3 months of Xbox Game Pass Ultimate. 12-Month: $ ...",
+   "date": "",
+   "prices_seen": [
+    "$29.99",
+    "$13.63",
+    "$29.99"
+   ]
+  },
+  {
+   "action_id": "RA-049",
+   "query": "xbox game pass ultimate 3 months cheapest price",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-GK022"
+   ],
+   "url": "https://www.facebook.com/groups/1675594809369195/posts/3875584896036831",
+   "host": "www.facebook.com",
+   "title": "Where to buy 3 months of Xbox Game Pass Ultimate?",
+   "snippet": "Im looking for a good place to buy 3 months worth of game pass ultimate, I tried going on the Microsoft page but for some reason they don’t have a ...",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-050",
+   "query": "eneba xbox game pass ultimate price",
+   "discovery_family": "Marketplace-first",
+   "targets": [
+    "SKU-GK021"
+   ],
+   "url": "https://www.eneba.com",
+   "host": "www.eneba.com",
+   "title": "Xbox Game Pass Ultimate (1 Month) for a good price!",
+   "snippet": "Buy Xbox Game Pass Ultimate 1 Month . Visit Eneba to buy a neat Xbox subscriptions pack! Xbox Game Pass Ultimate games and Gold benefits for you to enjoy.",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-051",
+   "query": "cdkeys xbox game pass ultimate 3 month",
+   "discovery_family": "Marketplace-first",
+   "targets": [
+    "SKU-GK022"
+   ],
+   "url": "https://www.loaded.com",
+   "host": "www.loaded.com",
+   "title": "3 Monate Xbox Game Pass Ultimate Xbox One / PC (USA)",
+   "snippet": "Kaufe 3 Monate Xbox Game Pass Ultimate Xbox One / PC (USA) CD Key . Digitaler Code sofort geliefert. Bester Preis für Spiele-Keys. Hol dir deinen 3 Monate ...",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-051",
+   "query": "cdkeys xbox game pass ultimate 3 month",
+   "discovery_family": "Marketplace-first",
+   "targets": [
+    "SKU-GK022"
+   ],
+   "url": "https://www.androidheadlines.com",
+   "host": "www.androidheadlines.com",
+   "title": "Best Xbox Game Pass Ultimate Deals - Updated May 2022",
+   "snippet": "Xbox Game Pass Ultimate – 3 Month Subscription | Eneba. - $41.23 ; XBOX GAME PASS ULTIMATE XBOX ONE / PC - 3 months | CDKeys.com. - $28.99 ; XBOX GAME PASS XBOX ... Read more",
+   "date": "",
+   "prices_seen": [
+    "$41.23",
+    "$28.99"
+   ]
+  },
+  {
+   "action_id": "RA-051",
+   "query": "cdkeys xbox game pass ultimate 3 month",
+   "discovery_family": "Marketplace-first",
+   "targets": [
+    "SKU-GK022"
+   ],
+   "url": "https://www.cheapassgamer.com",
+   "host": "www.cheapassgamer.com",
+   "title": "Cdkey got 3 month xbox live gold for $8.69.",
+   "snippet": "May 28, 2022 — Cdkey got 3 month xbox live gold for $8.69. deal for $9 for 3 months Game Pass Ultimate , if you use a VPN and buy from Turkey. Ultimate for ...",
+   "date": "May 28, 2022",
+   "prices_seen": [
+    "$8.69",
+    "$9",
+    "$8.69"
+   ]
+  },
+  {
+   "action_id": "RA-051",
+   "query": "cdkeys xbox game pass ultimate 3 month",
+   "discovery_family": "Marketplace-first",
+   "targets": [
+    "SKU-GK022"
+   ],
+   "url": "https://forums.redflagdeals.com",
+   "host": "forums.redflagdeals.com",
+   "title": "Xbox Game Pass Ultimate Current/Existing Subscribers: 50",
+   "snippet": "Jun 23, 2023 — CDKeys offers 50-Day of Xbox Game Pass Ultimate via Xbox Live Gold Conversion for $9.99 when you follow the instructions below.",
+   "date": "Jun 23, 2023",
+   "prices_seen": [
+    "$9.99"
+   ]
+  },
+  {
+   "action_id": "RA-052",
+   "query": "free fire 110 diamonds price cheapest top up",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-GT001"
+   ],
+   "url": "https://www.weldersupply.com",
+   "host": "www.weldersupply.com",
+   "title": "2577 Welding Equipment & Supplies for sale from $1.05",
+   "snippet": "Welding Equipment, supplies, machines and accessories for sale from top name brands like Miller, Hypertherm and Victor at the best prices .",
+   "date": "",
+   "prices_seen": [
+    "$1.05"
+   ]
+  },
+  {
+   "action_id": "RA-052",
+   "query": "free fire 110 diamonds price cheapest top up",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-GT001"
+   ],
+   "url": "https://www.yelp.com",
+   "host": "www.yelp.com",
+   "title": "LITTLE TOKYO JAPANESE RESTAURANT - CLOSED",
+   "snippet": "Hidden gem. Fair prices . Fantastic portions. Intimate space. Delicious food. Attentive and respectful service. If you like sushi eat here. Read more",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-052",
+   "query": "free fire 110 diamonds price cheapest top up",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-GT001"
+   ],
+   "url": "https://fightercountry.org",
+   "host": "fightercountry.org",
+   "title": "1_SOF_SEPT/OCT 19_001-025.indd",
+   "snippet": "Oct 18, 2019 — We have the BEST SELECTION and BEST PRICES $268 Queen Panel Bed Sofa with Pillows $468(A-6203) • Loveseat $42 • Chair $ • Accent Chair $ • ...",
+   "date": "Oct 18, 2019",
+   "prices_seen": [
+    "$268",
+    "$468",
+    "$42"
+   ]
+  },
+  {
+   "action_id": "RA-052",
+   "query": "free fire 110 diamonds price cheapest top up",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-GT001"
+   ],
+   "url": "https://www.bestwestern.fr",
+   "host": "www.bestwestern.fr",
+   "title": "Best Western Plus Hacienda Hotel Old Town",
+   "snippet": "The Best Western Plus Hacienda Hotel Old Town is ideally located in the center of San Diego. Come and experience our hotel near the major tourist ...",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-052",
+   "query": "free fire 110 diamonds price cheapest top up",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-GT001"
+   ],
+   "url": "https://www.airbnb.com",
+   "host": "www.airbnb.com",
+   "title": "Vacation rentals with breakfast in Bandarawela",
+   "snippet": "Nightly prices starting at Bandarawela vacation rentals start at $10 per night before taxes and fees Verified guest reviews Over 110 verified reviews … wind ...",
+   "date": "",
+   "prices_seen": [
+    "$10"
+   ]
+  },
+  {
+   "action_id": "RA-052",
+   "query": "free fire 110 diamonds price cheapest top up",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-GT001"
+   ],
+   "url": "https://newspapers.cityofwayne.org",
+   "host": "newspapers.cityofwayne.org",
+   "title": "TheWayn~ - Wayne County, Nebraska Newspaper Archive",
+   "snippet": "Oct 16, 2008 — Each of the panelists was given the opportunity to present his or her views on the current situation and offer suggestions for those concerned ... Read more",
+   "date": "Oct 16, 2008",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-109",
+   "query": "spotify premium plans official pricing",
+   "discovery_family": "Document-first",
+   "targets": [
+    "SKU-DS006"
+   ],
+   "url": "https://www.spotify.com",
+   "host": "www.spotify.com",
+   "title": "Spotify Premium: 2 months for free",
+   "snippet": "Just $12.99/month after trial . Cancel anytime. Get 2 months for $0. This offer is only for users who haven't tried Premium before ... Read more",
+   "date": "",
+   "prices_seen": [
+    "$12.99",
+    "$0"
+   ]
+  },
+  {
+   "action_id": "RA-109",
+   "query": "spotify premium plans official pricing",
+   "discovery_family": "Document-first",
+   "targets": [
+    "SKU-DS006"
+   ],
+   "url": "https://finance.yahoo.com",
+   "host": "finance.yahoo.com",
+   "title": "Spotify Plans U.S. Price Hike For Early 2026",
+   "snippet": "Nov 25, 2025 — In the U.S., Spotify Premium is currently $11.99 a month , up from $9.99 when it launched more than a decade ago.",
+   "date": "Nov 25, 2025",
+   "prices_seen": [
+    "$11.99",
+    "$9.99"
+   ]
+  },
+  {
+   "action_id": "RA-109",
+   "query": "spotify premium plans official pricing",
+   "discovery_family": "Document-first",
+   "targets": [
+    "SKU-DS006"
+   ],
+   "url": "https://oaklandpostonline.com",
+   "host": "oaklandpostonline.com",
+   "title": "Spotify announces price increases across all premium plans",
+   "snippet": "Jan 28, 2026 — Under the new pricing structure, the Individual plan will increase from $11.99 to $12.99 per month . The Duo plan will rise from $16.99 to $18.99 ... Read more",
+   "date": "Jan 28, 2026",
+   "prices_seen": [
+    "$11.99",
+    "$12.99",
+    "$16.99",
+    "$18.99"
+   ]
+  },
+  {
+   "action_id": "RA-109",
+   "query": "spotify premium plans official pricing",
+   "discovery_family": "Document-first",
+   "targets": [
+    "SKU-DS006"
+   ],
+   "url": "https://www.dincolfx.com",
+   "host": "www.dincolfx.com",
+   "title": "Everything You Need to Know About Spotify Premium Plans",
+   "snippet": "Learn everything about Spotify Premium subscription plans , features, pricing options, benefits, and how to choose the right plan for your listening needs.",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-109",
+   "query": "spotify premium plans official pricing",
+   "discovery_family": "Document-first",
+   "targets": [
+    "SKU-DS006"
+   ],
+   "url": "https://www.techspot.com",
+   "host": "www.techspot.com",
+   "title": "Spotify plans US subscription price hike for early 2026",
+   "snippet": "Nov 25, 2025 — Spotify Premium currently goes for $11.99 a month . Today, a premium individual plan will set you back $11.99 after a free four-month trial ...",
+   "date": "Nov 25, 2025",
+   "prices_seen": [
+    "$11.99",
+    "$11.99"
+   ]
+  },
+  {
+   "action_id": "RA-110",
+   "query": "netflix plans official pricing current",
+   "discovery_family": "Document-first",
+   "targets": [
+    "SKU-DS002"
+   ],
+   "url": "https://smartbuy.alibaba.com",
+   "host": "smartbuy.alibaba.com",
+   "title": "How to Choose the Best Netflix Subscription Plan in 2024",
+   "snippet": "Nov 24, 2025 — As of 2024, U.S. pricing stands at: Basic with Ads: $6.99/month Standard: $15.49/month Premium: $22.99/month Prices differ internationally—for. ...",
+   "date": "Nov 24, 2025",
+   "prices_seen": [
+    "$6.99",
+    "$15.49",
+    "$22.99"
+   ]
+  },
+  {
+   "action_id": "RA-110",
+   "query": "netflix plans official pricing current",
+   "discovery_family": "Document-first",
+   "targets": [
+    "SKU-DS002"
+   ],
+   "url": "https://www.ign.com",
+   "host": "www.ign.com",
+   "title": "Netflix Announces Yet Another Price Hike as it Adds",
+   "snippet": "Jan 21, 2025 — the ad-supported tier is going from $ 6.99 to $7.99 per month , standard ad-free will rise from $15.49 to $17.99 per month, and the premium tier ...",
+   "date": "Jan 21, 2025",
+   "prices_seen": [
+    "$6.99",
+    "$7.99",
+    "$15.49",
+    "$17.99"
+   ]
+  },
+  {
+   "action_id": "RA-110",
+   "query": "netflix plans official pricing current",
+   "discovery_family": "Document-first",
+   "targets": [
+    "SKU-DS002"
+   ],
+   "url": "https://maketecheasier.com",
+   "host": "maketecheasier.com",
+   "title": "Everything You Need to Know About Netflix Basic with Ads",
+   "snippet": "Dec 1, 2022 — A subscription costs only $ 6.99 a month . runs $15.50/month. The Premium plan allows four devices simultaneously and 4K HDR at $20/month. ...",
+   "date": "Dec 1, 2022",
+   "prices_seen": [
+    "$6.99",
+    "$15.50",
+    "$20"
+   ]
+  },
+  {
+   "action_id": "RA-110",
+   "query": "netflix plans official pricing current",
+   "discovery_family": "Document-first",
+   "targets": [
+    "SKU-DS002"
+   ],
+   "url": "https://au.lifehacker.com",
+   "host": "au.lifehacker.com",
+   "title": "Wait, How Much Does Netflix Cost Now?",
+   "snippet": "Jan 23, 2025 — Of course, that adds up fast: Premium's $24.99 per month cost goes up to $33.98 when adding one user, and $42.97 when adding two. Imagine ... Read more",
+   "date": "Jan 23, 2025",
+   "prices_seen": [
+    "$24.99",
+    "$33.98",
+    "$42.97"
+   ]
+  },
+  {
+   "action_id": "RA-111",
+   "query": "microsoft windows 11 pro price official",
+   "discovery_family": "Document-first",
+   "targets": [
+    "SKU-SW001"
+   ],
+   "url": "https://cursomanipulacionalimentos.com",
+   "host": "cursomanipulacionalimentos.com",
+   "title": "Dell Latitude 7430 14 DELL LATITUDE 7430 12th GEN",
+   "snippet": "16GB/512 SSD WINDOWS 11 PRO +MICROSOFT OFFICE 2024. US$ 268 Pay in 4 interest-free payments of $67 … null Enjoy 20% off shipping US$ 160.8 tips 60+",
+   "date": "",
+   "prices_seen": [
+    "$268",
+    "$67",
+    "$160.8"
+   ]
+  },
+  {
+   "action_id": "RA-112",
+   "query": "cheapest free fire diamonds pubg uc mobile legends top up store",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-GT001",
+    "SKU-GT004",
+    "SKU-GT008"
+   ],
+   "url": "https://www.scribd.com",
+   "host": "www.scribd.com",
+   "title": "Zoberetimifid | PDF | Copyright",
+   "snippet": "The document provides a detailed guide on the Swift gloves in Old School RuneScape (OSRS), including their requirements, effects, and how to obtain them. Read more",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-113",
+   "query": "valorant vp fortnite v-bucks robux price buy",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-GT011",
+    "SKU-GT014",
+    "SKU-GT016"
+   ],
+   "url": "https://eloboost24.eu",
+   "host": "eloboost24.eu",
+   "title": "Unranked / Russia / 10 Champions / 8 Skins / League of",
+   "snippet": "Buy this Unranked League of Legends Account for $ 15.79 on EB24. Looking for Valorant accounts? 11 EPIC SKINS ✨ 40 RP. V -Bucks111 Skins130",
+   "date": "",
+   "prices_seen": [
+    "$15.79"
+   ]
+  },
+  {
+   "action_id": "RA-113",
+   "query": "valorant vp fortnite v-bucks robux price buy",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-GT011",
+    "SKU-GT014",
+    "SKU-GT016"
+   ],
+   "url": "https://www.scribd.com",
+   "host": "www.scribd.com",
+   "title": "Zoberetimifid | PDF | Copyright",
+   "snippet": "The document provides a detailed guide on the Swift gloves in Old School RuneScape (OSRS), including their requirements, effects, and how to obtain them. Read more",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-114",
+   "query": "esim data package usa uae saudi price cheapest",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-ES001",
+    "SKU-ES003",
+    "SKU-ES005"
+   ],
+   "url": "https://mobimatter.com",
+   "host": "mobimatter.com",
+   "title": "Buy eSIM for the Middle East from $0.8 per GB",
+   "snippet": "Price range ; Half Global 36 GB. 3 · 36 GB. $29.99 ; Half Global 24 GB. 3 · 24 GB. $21.99 ; Half Global 12 GB. 3 · 12 GB. $12.99 ; Half Global 30 GB Yearly. 3 · 30 GB. Read more",
+   "date": "",
+   "prices_seen": [
+    "$29.99",
+    "$21.99",
+    "$12.99",
+    "$0.8"
+   ]
+  },
+  {
+   "action_id": "RA-114",
+   "query": "esim data package usa uae saudi price cheapest",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-ES001",
+    "SKU-ES003",
+    "SKU-ES005"
+   ],
+   "url": "https://roamic.com",
+   "host": "roamic.com",
+   "title": "Saudi Arabia eSIM from $2.99 | Unlimited Data & Instant",
+   "snippet": "Saudi Arabia eSIM from just $2.99 – enjoy unlimited data, fast activation, and reliable coverage with the best option for staying connected.",
+   "date": "",
+   "prices_seen": [
+    "$2.99",
+    "$2.99"
+   ]
+  },
+  {
+   "action_id": "RA-114",
+   "query": "esim data package usa uae saudi price cheapest",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-ES001",
+    "SKU-ES003",
+    "SKU-ES005"
+   ],
+   "url": "https://etravelsim.com",
+   "host": "etravelsim.com",
+   "title": "USA eSIM from $3.50 — Unlimited 5G Data",
+   "snippet": "ETravelSim's 1 GB plan is $3.50 for 30 days , and unlimited is $59 for 30 days — over 80% cheaper than carrier roaming for a 2-week US trip. Read more",
+   "date": "",
+   "prices_seen": [
+    "$3.50",
+    "$59",
+    "$3.50"
+   ]
+  },
+  {
+   "action_id": "RA-114",
+   "query": "esim data package usa uae saudi price cheapest",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-ES001",
+    "SKU-ES003",
+    "SKU-ES005"
+   ],
+   "url": "https://esim.holafly.com",
+   "host": "esim.holafly.com",
+   "title": "eSIM Saudi Arabia | Best eSIM with Unlimited Data Plans",
+   "snippet": "lower the price! Total $ 6.90USD . Save up to 10% compared to similar travel eSIMs.",
+   "date": "",
+   "prices_seen": [
+    "$6.90"
+   ]
+  },
+  {
+   "action_id": "RA-114",
+   "query": "esim data package usa uae saudi price cheapest",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-ES001",
+    "SKU-ES003",
+    "SKU-ES005"
+   ],
+   "url": "https://www.trip.com",
+   "host": "www.trip.com",
+   "title": "Saudi Arabia eSIM for Travel",
+   "snippet": "Best Value Saudi Arabia eSIM Plans - I Did The Math! ; Duration (Days). Total Data . Price ( US $) ; 1 day. 500MB. $1.09 ; 3 days. 1GB. $2.18 ; 5 days. 3GB. $6.12 ; 7 ... Read more",
+   "date": "",
+   "prices_seen": [
+    "$1.09",
+    "$2.18",
+    "$6.12"
+   ]
+  },
+  {
+   "action_id": "RA-114",
+   "query": "esim data package usa uae saudi price cheapest",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-ES001",
+    "SKU-ES003",
+    "SKU-ES005"
+   ],
+   "url": "https://www.airalo.com",
+   "host": "www.airalo.com",
+   "title": "Saudi Arabia eSIM, from $4.50 USD",
+   "snippet": "Data packs with real local rates. UnlimitedGB $12.50 USD . UnlimitedGB $18.50 Selects. UnlimitedGB $97.00 USD Selects current package to proceed to checkout.",
+   "date": "",
+   "prices_seen": [
+    "$12.50",
+    "$18.50",
+    "$97.00",
+    "$4.50"
+   ]
+  },
+  {
+   "action_id": "RA-115",
+   "query": "buy telegram virtual number sms activation cheapest price",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-VN001",
+    "SKU-VN003",
+    "SKU-VN004"
+   ],
+   "url": "https://smscode.gg",
+   "host": "smscode.gg",
+   "title": "Telegram SMS Verification",
+   "snippet": "Receive SMS verification codes for Telegram from 33 countries. Starting from $0.006. Instant delivery, no subscription. Numbers from $0.006 ⟩ Buy virtual ...",
+   "date": "",
+   "prices_seen": [
+    "$0.006",
+    "$0.006"
+   ]
+  },
+  {
+   "action_id": "RA-115",
+   "query": "buy telegram virtual number sms activation cheapest price",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-VN001",
+    "SKU-VN003",
+    "SKU-VN004"
+   ],
+   "url": "https://detect.expert",
+   "host": "detect.expert",
+   "title": "Affordable Cyprus Virtual Numbers for telegram",
+   "snippet": "Access cost-effective Cyprus virtual numbers for telegram SMS activations . Detect Expert's reliable virtual numbers streamline your verification processes.",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-115",
+   "query": "buy telegram virtual number sms activation cheapest price",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-VN001",
+    "SKU-VN003",
+    "SKU-VN004"
+   ],
+   "url": "https://nexsms.net",
+   "host": "nexsms.net",
+   "title": "2026 SMS Verification Platform Testing",
+   "snippet": "Jun 8, 2026 — Very low prices for Russian numbers . Good ~$0.60–1.30 ~$0.20–0.50. It offers both physical SIM and virtual numbers , Prices are moderate, Its ~$ ...",
+   "date": "Jun 8, 2026",
+   "prices_seen": [
+    "$0.60",
+    "$0.20"
+   ]
+  },
+  {
+   "action_id": "RA-115",
+   "query": "buy telegram virtual number sms activation cheapest price",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-VN001",
+    "SKU-VN003",
+    "SKU-VN004"
+   ],
+   "url": "https://apps.apple.com",
+   "host": "apps.apple.com",
+   "title": "Virtual Number -SMS Activate - App Store - Apple",
+   "snippet": "No SIM needed. Get a virtual number in 150+ countries , receive SMS codes in seconds, and keep your real number private. Stop giving out your real phone ... Read more",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-115",
+   "query": "buy telegram virtual number sms activation cheapest price",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-VN001",
+    "SKU-VN003",
+    "SKU-VN004"
+   ],
+   "url": "https://sms-pro.guru",
+   "host": "sms-pro.guru",
+   "title": "Buy a virtual number for SMS Start",
+   "snippet": "A virtual number lets you receive an SMS with a confirmation code to register or activate an account on Start without using your main phone number . It is ... Read more",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-115",
+   "query": "buy telegram virtual number sms activation cheapest price",
+   "discovery_family": "Price-first",
+   "targets": [
+    "SKU-VN001",
+    "SKU-VN003",
+    "SKU-VN004"
+   ],
+   "url": "https://www.blackhatworld.com",
+   "host": "www.blackhatworld.com",
+   "title": "Best way to create another telegram account ?",
+   "snippet": "Jan 1, 2025 — Buy virtual number on sms - activate/5sim or each other save your Tdata backup make cloud password make log in on some devices. You're great Read more",
+   "date": "Jan 1, 2025",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-116",
+   "query": "openai api credits reloadly api pricing",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-AP001",
+    "SKU-AP004"
+   ],
+   "url": "https://help.openai.com",
+   "host": "help.openai.com",
+   "title": "Setting up and managing prepaid API billing",
+   "snippet": "Choose your initial credit purchase amount. The minimum purchase is $5, and the default amount is $10. Review Use auto- reload before confirming your purchase. ...",
+   "date": "",
+   "prices_seen": [
+    "$5",
+    "$10"
+   ]
+  },
+  {
+   "action_id": "RA-116",
+   "query": "openai api credits reloadly api pricing",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-AP001",
+    "SKU-AP004"
+   ],
+   "url": "https://community.openai.com",
+   "host": "community.openai.com",
+   "title": "How can I get Free Trial Credits? - API",
+   "snippet": "Dec 26, 2022 — So, based on my experience, what you really get is roughly 2.7$ dollars of free credits , which is what I was able to spend in 3 month, as the ... Read more",
+   "date": "Dec 26, 2022",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-116",
+   "query": "openai api credits reloadly api pricing",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-AP001",
+    "SKU-AP004"
+   ],
+   "url": "https://www.cloudzero.com",
+   "host": "www.cloudzero.com",
+   "title": "OpenAI API pricing in 2026: every model from Astra to Luna",
+   "snippet": "Sep 4, 2026 — OpenAI API pricing runs $ 0.20 to $50 per 1M tokens . OpenAI API costs range from $0.20 to $30 per million input tokens. OpenAI API billing runs ...",
+   "date": "Sep 4, 2026",
+   "prices_seen": [
+    "$0.20",
+    "$50",
+    "$0.20",
+    "$30"
+   ]
+  },
+  {
+   "action_id": "RA-116",
+   "query": "openai api credits reloadly api pricing",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-AP001",
+    "SKU-AP004"
+   ],
+   "url": "https://creditforstartups.com",
+   "host": "creditforstartups.com",
+   "title": "OpenAI API Pricing 2026: GPT-5.6 Rates, Plans & Credits",
+   "snippet": "Sep 2, 2026 — OpenAI API pricing per million tokens: GPT-5.6 from $0.20 , GPT-5.5 $5/$30, GPT-5.4 $2.50/$15. $1,500 standard, $780 with caching.",
+   "date": "Sep 2, 2026",
+   "prices_seen": [
+    "$0.20",
+    "$5",
+    "$30",
+    "$2.50",
+    "$15",
+    "$1,500"
+   ]
+  },
+  {
+   "action_id": "RA-116",
+   "query": "openai api credits reloadly api pricing",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-AP001",
+    "SKU-AP004"
+   ],
+   "url": "https://www.g2.com",
+   "host": "www.g2.com",
+   "title": "OpenAI API Pricing: A Complete Breakdown for 2026",
+   "snippet": "Jul 8, 2026 — API pricing starts at $0.10 input per . New accounts receive $5 in free credits with no credit card required. and credits expire after a set ...",
+   "date": "Jul 8, 2026",
+   "prices_seen": [
+    "$0.10",
+    "$5"
+   ]
+  },
+  {
+   "action_id": "RA-116",
+   "query": "openai api credits reloadly api pricing",
+   "discovery_family": "Product-first",
+   "targets": [
+    "SKU-AP001",
+    "SKU-AP004"
+   ],
+   "url": "https://www.reloadly.com",
+   "host": "www.reloadly.com",
+   "title": "Airtime, Data Bundles and Gift Cards Pricing",
+   "snippet": "Start building today with free credits and full API access . Airtime. Top-up mobile phones with our easy, fast, and secure mobile recharge API. Get Pricing. Read more",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-117",
+   "query": "gift cards wholesale distributor bulk supplier B2B",
+   "discovery_family": "B2B/Catalog-oriented",
+   "targets": [
+    "SKU-GC037",
+    "SKU-GC049"
+   ],
+   "url": "https://www.yelp.com",
+   "host": "www.yelp.com",
+   "title": "Best Pecan Pralines near The Galleria Newsstand in San",
+   "snippet": "Reviews on Pecan Pralines near The Galleria Newsstand - See's Candies, Dandelion Chocolate, Teuscher Chocolate, La Fromagerie, Socola Chocolatier, ...",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-117",
+   "query": "gift cards wholesale distributor bulk supplier B2B",
+   "discovery_family": "B2B/Catalog-oriented",
+   "targets": [
+    "SKU-GC037",
+    "SKU-GC049"
+   ],
+   "url": "https://www.accio.com",
+   "host": "www.accio.com",
+   "title": "br3 battery model name - Best Suppliers & Prices",
+   "snippet": "Looking for the br3 battery model name? Discover verified suppliers , competitive pricing, and top-quality options. Click to find reliable sources with ...",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-117",
+   "query": "gift cards wholesale distributor bulk supplier B2B",
+   "discovery_family": "B2B/Catalog-oriented",
+   "targets": [
+    "SKU-GC037",
+    "SKU-GC049"
+   ],
+   "url": "https://www.scribd.com",
+   "host": "www.scribd.com",
+   "title": "Zoberetimifid | PDF | Copyright",
+   "snippet": "The document provides a detailed guide on the Swift gloves in Old School RuneScape (OSRS), including their requirements, effects, and how to obtain them. Read more",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-117",
+   "query": "gift cards wholesale distributor bulk supplier B2B",
+   "discovery_family": "B2B/Catalog-oriented",
+   "targets": [
+    "SKU-GC037",
+    "SKU-GC049"
+   ],
+   "url": "https://thecleverbusiness.com",
+   "host": "thecleverbusiness.com",
+   "title": "18 Best Custom Mother's Day Gift Print-On-Demand",
+   "snippet": "These are the 18 best print-on-demand companies offering customizable Mother's Day gifts at competitive prices with no minimum order quantity.",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-118",
+   "query": "telegram premium cheap reseller gift price",
+   "discovery_family": "Bot-first",
+   "targets": [
+    "SKU-DS037",
+    "SKU-DS039"
+   ],
+   "url": "https://www.danielbrummitt.com",
+   "host": "www.danielbrummitt.com",
+   "title": "ICE (In Case of Emergency) Backup of This Site—Spread Like",
+   "snippet": "Feb 6, 2025 — (Note: Must be purchased over e-mail correspondence and includes a 10% Monero discount. Not responding to email (2024-07-02).) +textil4you - ... Read more",
+   "date": "Feb 6, 2025",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-119",
+   "query": "telegram store sell gift cards digital products channel",
+   "discovery_family": "Bot-first",
+   "targets": [
+    "SKU-GC037",
+    "SKU-GC062"
+   ],
+   "url": "https://marix.app/library/guides/google-play-telegram-shop",
+   "host": "marix.app",
+   "title": "How to Sell Google Play Gift Cards Through a Telegram Shop",
+   "snippet": "A complete guide to launching and running a Google Play Gift Card Telegram shop — bot setup, supplier integration, payment methods, and scaling tactics for ...",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-119",
+   "query": "telegram store sell gift cards digital products channel",
+   "discovery_family": "Bot-first",
+   "targets": [
+    "SKU-GC037",
+    "SKU-GC062"
+   ],
+   "url": "https://t.me/s/Tbayplatform?before=405",
+   "host": "t.me",
+   "title": "Tbay: Sell Gift Cards",
+   "snippet": "Tbay: Nigeria's top gift card selling platform. Visit our website: https://tbay.store. Join Our Telegram Mini App & Sell: https://t.me/TbayApp_bot · Download ...",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-119",
+   "query": "telegram store sell gift cards digital products channel",
+   "discovery_family": "Bot-first",
+   "targets": [
+    "SKU-GC037",
+    "SKU-GC062"
+   ],
+   "url": "https://reseller.fazercards.com/en/blog/telegram-bot-gift-cards-sell",
+   "host": "reseller.fazercards.com",
+   "title": "Sell Gift Cards via Telegram Bot",
+   "snippet": "Create a Telegram bot to sell gift cards. Telegram bots are popular for selling digital products — low friction, instant messaging. expanding ...",
+   "date": "Dec 10, 2023",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-119",
+   "query": "telegram store sell gift cards digital products channel",
+   "discovery_family": "Bot-first",
+   "targets": [
+    "SKU-GC037",
+    "SKU-GC062"
+   ],
+   "url": "https://themarketingheaven.com/how-can-i-sell-digital-products-on-telegram",
+   "host": "themarketingheaven.com",
+   "title": "How Can I Sell Digital Products on Telegram? -",
+   "snippet": "Creating a Telegram channel is the first step towards selling your digital products on this platform. Utilize channel customization techniques",
+   "date": "Feb 4, 2024",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-119",
+   "query": "telegram store sell gift cards digital products channel",
+   "discovery_family": "Bot-first",
+   "targets": [
+    "SKU-GC037",
+    "SKU-GC062"
+   ],
+   "url": "https://grambase.ai/use-cases/sell-accounts-keys",
+   "host": "grambase.ai",
+   "title": "Sell Digital Goods with Inventory Management",
+   "snippet": "Sell gift cards, license keys, and limited digital goods in Telegram with auto-delivery and real-time inventory tracking.",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-119",
+   "query": "telegram store sell gift cards digital products channel",
+   "discovery_family": "Bot-first",
+   "targets": [
+    "SKU-GC037",
+    "SKU-GC062"
+   ],
+   "url": "https://www.reddit.com/r/Scams/comments/1fv4rw3/another_telegram_scammer_that_sells_bogus_amazon",
+   "host": "www.reddit.com",
+   "title": "Another telegram scammer that sells bogus Amazon gift",
+   "snippet": "Another telegram scammer that sells bogus Amazon gift cards and PayPal accounts. Be ware of the telegram channel. Telegram digital giftcard scam",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-120",
+   "query": "turgame wholesale program reseller API",
+   "discovery_family": "Referral-first",
+   "targets": [
+    "SKU-GC037"
+   ],
+   "url": "https://wholesale.turgame.com",
+   "host": "wholesale.turgame.com",
+   "title": "Definite Play is the leading wholesaler of USA, UK, EU and",
+   "snippet": "API access for real-time ordering and fulfillment . We also have an API available which. Values range from $5 to $200 for USA, £10 to £200 for UK and EUR 20 to ...",
+   "date": "",
+   "prices_seen": [
+    "$5",
+    "$200",
+    "£10",
+    "£200",
+    "EUR20"
+   ]
+  },
+  {
+   "action_id": "RA-120",
+   "query": "turgame wholesale program reseller API",
+   "discovery_family": "Referral-first",
+   "targets": [
+    "SKU-GC037"
+   ],
+   "url": "https://foxreload.com",
+   "host": "foxreload.com",
+   "title": "Wholesale Game Codes & Gift Card API",
+   "snippet": "May 8, 2026 — FoxReload gives resellers, marketplaces and fintech platforms instant access to game top-ups, gift cards and digital products via one unified  ...",
+   "date": "May 8, 2026",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-120",
+   "query": "turgame wholesale program reseller API",
+   "discovery_family": "Referral-first",
+   "targets": [
+    "SKU-GC037"
+   ],
+   "url": "https://reseller.fazercards.com",
+   "host": "reseller.fazercards.com",
+   "title": "FazerCards - Digital Products Reseller Platform",
+   "snippet": "A wholesale reseller API like FazerCards gives you programmatic access to many brands and categories, bulk -oriented pricing tiers, and automation ( API + ...",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-120",
+   "query": "turgame wholesale program reseller API",
+   "discovery_family": "Referral-first",
+   "targets": [
+    "SKU-GC037"
+   ],
+   "url": "https://www.rewordin.com",
+   "host": "www.rewordin.com",
+   "title": "Bulk Gift Card API for Business — Buy Gift Cards in Bulk",
+   "snippet": "A bulk gift card API is a programmatic interface that lets a business send large volumes of digital gift cards directly from its own software",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-120",
+   "query": "turgame wholesale program reseller API",
+   "discovery_family": "Referral-first",
+   "targets": [
+    "SKU-GC037"
+   ],
+   "url": "https://xsolla.com",
+   "host": "xsolla.com",
+   "title": "Game reseller program for game keys, top-ups, vouchers &",
+   "snippet": "One platform to source and sell game keys, top-ups, API-integrated reseller operations . instantly, at wholesale prices.",
+   "date": "",
+   "prices_seen": []
+  },
+  {
+   "action_id": "RA-120",
+   "query": "turgame wholesale program reseller API",
+   "discovery_family": "Referral-first",
+   "targets": [
+    "SKU-GC037"
+   ],
+   "url": "https://www.turgame.com",
+   "host": "www.turgame.com",
+   "title": "About Us",
+   "snippet": "The fastest-growing website in the market for digital games and digital gift cards. We are focused on providing you with the best and most secure platform for ... Read more",
+   "date": "",
+   "prices_seen": []
+  }
+ ],
+ "by_sku_count": {
+  "SKU-GC037": 32,
+  "SKU-GC039": 7,
+  "SKU-GC047": 7,
+  "SKU-GC049": 13,
+  "SKU-GC051": 3,
+  "SKU-GC062": 19,
+  "SKU-GC063": 12,
+  "SKU-GC064": 6,
+  "SKU-GC065": 6,
+  "SKU-AI001": 9,
+  "SKU-AI005": 2,
+  "SKU-AI006": 8,
+  "SKU-AI008": 12,
+  "SKU-AI012": 5,
+  "SKU-AI032": 8,
+  "SKU-DS002": 11,
+  "SKU-DS003": 3,
+  "SKU-DS004": 6,
+  "SKU-DS006": 8,
+  "SKU-DS007": 6,
+  "SKU-DS010": 3,
+  "SKU-DS011": 6,
+  "SKU-DS025": 7,
+  "SKU-DS037": 9,
+  "SKU-DS039": 13,
+  "SKU-DS042": 7,
+  "SKU-SW001": 19,
+  "SKU-SW004": 13,
+  "SKU-SW005": 3,
+  "SKU-SW006": 3,
+  "SKU-GK021": 4,
+  "SKU-GK022": 10,
+  "SKU-GT001": 7,
+  "SKU-GT004": 1,
+  "SKU-GT008": 1,
+  "SKU-GT011": 2,
+  "SKU-GT014": 2,
+  "SKU-GT016": 2,
+  "SKU-ES001": 6,
+  "SKU-ES003": 6,
+  "SKU-ES005": 6,
+  "SKU-VN001": 6,
+  "SKU-VN003": 6,
+  "SKU-VN004": 6,
+  "SKU-AP001": 6,
+  "SKU-AP004": 6
+ },
+ "verify_candidates": {
+  "SKU-GC037": [
+   {
+    "url": "https://www.kinguin.net",
+    "host": "www.kinguin.net",
+    "title": "Steam Wallet USD 100 Gift Card BY - Kinguin",
+    "prices_seen": [
+     "USD100",
+     "$140.42",
+     "$134.80",
+     "$5.62",
+     "$140.42",
+     "$67.30"
+    ],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://wholesale.turgame.com",
+    "host": "wholesale.turgame.com",
+    "title": "Definite Play is the leading wholesaler of USA, UK, EU and",
+    "prices_seen": [
+     "$5",
+     "$200",
+     "£10",
+     "£200",
+     "EUR20"
+    ],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://www.allkeyshop.com",
+    "host": "www.allkeyshop.com",
+    "title": "Steam Card US | Compare Prices",
+    "prices_seen": [
+     "$1.47",
+     "$0.55",
+     "$42.47"
+    ],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://gg.deals",
+    "host": "gg.deals",
+    "title": "Buy Steam Wallet Gift Card 8 USD - United States",
+    "prices_seen": [
+     "$9.23",
+     "$5.00"
+    ],
+    "channel_priority": "notion-channel"
+   }
+  ],
+  "SKU-GC039": [
+   {
+    "url": "https://gg.deals",
+    "host": "gg.deals",
+    "title": "Buy Steam Wallet Gift Card 50 USD - Nicaragua",
+    "prices_seen": [
+     "$56.05"
+    ],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://www.eneba.com",
+    "host": "www.eneba.com",
+    "title": "Buy Steam Wallet Gift Card 20 EUR key for a Cheaper Price!",
+    "prices_seen": [],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://www.g2a.com",
+    "host": "www.g2a.com",
+    "title": "Steam Gift Card 50 USD - Steam Key - AZERBAIJAN",
+    "prices_seen": [],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://www.keysforgames.com.au",
+    "host": "www.keysforgames.com.au",
+    "title": "Buy Steam 50 USD CD Key | Prices as low as ✔️AU $9",
+    "prices_seen": [
+     "$9",
+     "$9"
+    ],
+    "channel_priority": "other"
+   }
+  ],
+  "SKU-GC047": [
+   {
+    "url": "https://www.eneba.com/us/psn-playstation-network-card-10-usd-usa-psn-key-united-states?srsltid=AU7gw4VjTx6bQmOX4C-GNC1ayxKXsY7eH7rYdAP83lF1OmUXUvYUUl-d",
+    "host": "www.eneba.com",
+    "title": "PlayStation Card 10 USD (USA) | Buy cheaper PSN code!",
+    "prices_seen": [
+     "USD1",
+     "USD5"
+    ],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://www.eneba.com",
+    "host": "www.eneba.com",
+    "title": "PlayStation Network Card 50 EUR (IE) PSN Key IRELAND",
+    "prices_seen": [],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://www.loaded.com/10-playstation-store-gift-card-ps3-ps4-ps-vita-digital-code?srsltid=AU7gw4WSUjeOC-oHKHdK99YmvZQ4ZohkXjjRJaZK-WTLs41fU6FWLL3k",
+    "host": "www.loaded.com",
+    "title": "Buy PlayStation Store Gift Card - 10 USD (US) CD Key",
+    "prices_seen": [
+     "$9.99",
+     "$9.79"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://www.amazon.com/PlayStation-Store-Gift-Card-Digital/dp/B00GAC1D2G",
+    "host": "www.amazon.com",
+    "title": "$10 -PlayStation Store Gift Card [Digital Code] : Video Games",
+    "prices_seen": [
+     "$10",
+     "$10"
+    ],
+    "channel_priority": "other"
+   }
+  ],
+  "SKU-GC049": [
+   {
+    "url": "https://www.kinguin.net",
+    "host": "www.kinguin.net",
+    "title": "PlayStation Network Card USD 50 Gift Card US",
+    "prices_seen": [
+     "USD50"
+    ],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://www.eneba.com",
+    "host": "www.eneba.com",
+    "title": "PlayStation Network Card 50 EUR (IE) PSN Key IRELAND",
+    "prices_seen": [],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://www.g2a.com",
+    "host": "www.g2a.com",
+    "title": "PlayStation Network Gift Card 50 USD - PSN Key - OMAN",
+    "prices_seen": [],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://www.allkeyshop.com",
+    "host": "www.allkeyshop.com",
+    "title": "Buy PSN Card 50 PLN Playstation Network Compare Prices",
+    "prices_seen": [],
+    "channel_priority": "notion-channel"
+   }
+  ],
+  "SKU-GC051": [
+   {
+    "url": "https://www.turgame.com",
+    "host": "www.turgame.com",
+    "title": "PlayStation Finland 20 EUR",
+    "prices_seen": [
+     "USD441,90"
+    ],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://www.instagram.com",
+    "host": "www.instagram.com",
+    "title": "Photo by Qk Gadgets (@qkteamgadgets) · August 28, 2026",
+    "prices_seen": [],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://www.ozbargain.com.au",
+    "host": "www.ozbargain.com.au",
+    "title": "InspirePassion (#51060) - OzBargain User Profile",
+    "prices_seen": [],
+    "channel_priority": "other"
+   }
+  ],
+  "SKU-GC062": [
+   {
+    "url": "https://gg.deals",
+    "host": "gg.deals",
+    "title": "Buy Apple iTunes Gift Card 150 AED - United Arab Emirates",
+    "prices_seen": [
+     "$46.79"
+    ],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://www.g2a.com",
+    "host": "www.g2a.com",
+    "title": "Buy Apple iTunes Gift Card 100 AED - iTunes Key",
+    "prices_seen": [],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://reseller.fazercards.com/en/blog/telegram-bot-gift-cards-sell",
+    "host": "reseller.fazercards.com",
+    "title": "Sell Gift Cards via Telegram Bot",
+    "prices_seen": [],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://www.apple.com",
+    "host": "www.apple.com",
+    "title": "Apple Gift Card - Apple (AE)",
+    "prices_seen": [
+     "AED100",
+     "AED100"
+    ],
+    "channel_priority": "official"
+   }
+  ],
+  "SKU-GC063": [
+   {
+    "url": "https://gg.deals",
+    "host": "gg.deals",
+    "title": "Buy Apple iTunes Gift Card 150 AED - United Arab Emirates",
+    "prices_seen": [
+     "$46.79"
+    ],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://www.g2a.com",
+    "host": "www.g2a.com",
+    "title": "Buy Apple iTunes Gift Card 100 AED - iTunes Key",
+    "prices_seen": [],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://www.apple.com",
+    "host": "www.apple.com",
+    "title": "Apple Gift Card - Apple (AE)",
+    "prices_seen": [
+     "AED100",
+     "AED100"
+    ],
+    "channel_priority": "official"
+   },
+   {
+    "url": "https://www.amazon.ae",
+    "host": "www.amazon.ae",
+    "title": "AED 100 Apple Gift Card — App Store, iTunes, iPhone",
+    "prices_seen": [
+     "AED100",
+     "AED100.00",
+     "$50",
+     "AED100"
+    ],
+    "channel_priority": "other"
+   }
+  ],
+  "SKU-GC064": [
+   {
+    "url": "https://www.g2a.com",
+    "host": "www.g2a.com",
+    "title": "Buy Apple iTunes Gift Card 100 AED - iTunes Key",
+    "prices_seen": [],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://www.apple.com",
+    "host": "www.apple.com",
+    "title": "Apple Gift Card - Apple (AE)",
+    "prices_seen": [
+     "AED100",
+     "AED100"
+    ],
+    "channel_priority": "official"
+   },
+   {
+    "url": "https://www.amazon.ae",
+    "host": "www.amazon.ae",
+    "title": "AED 100 Apple Gift Card — App Store, iTunes, iPhone",
+    "prices_seen": [
+     "AED100",
+     "AED100.00",
+     "$50",
+     "AED100"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://dundle.com",
+    "host": "dundle.com",
+    "title": "Buy Apple Gift Card Online | Instant Email Delivery",
+    "prices_seen": [
+     "AED50.00",
+     "AED100",
+     "AED100",
+     "AED100.00"
+    ],
+    "channel_priority": "other"
+   }
+  ],
+  "SKU-GC065": [
+   {
+    "url": "https://www.g2a.com",
+    "host": "www.g2a.com",
+    "title": "Buy Apple iTunes Gift Card 100 AED - iTunes Key",
+    "prices_seen": [],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://www.apple.com",
+    "host": "www.apple.com",
+    "title": "Apple Gift Card - Apple (AE)",
+    "prices_seen": [
+     "AED100",
+     "AED100"
+    ],
+    "channel_priority": "official"
+   },
+   {
+    "url": "https://www.amazon.ae",
+    "host": "www.amazon.ae",
+    "title": "AED 100 Apple Gift Card — App Store, iTunes, iPhone",
+    "prices_seen": [
+     "AED100",
+     "AED100.00",
+     "$50",
+     "AED100"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://dundle.com",
+    "host": "dundle.com",
+    "title": "Buy Apple Gift Card Online | Instant Email Delivery",
+    "prices_seen": [
+     "AED50.00",
+     "AED100",
+     "AED100",
+     "AED100.00"
+    ],
+    "channel_priority": "other"
+   }
+  ],
+  "SKU-AI001": [
+   {
+    "url": "https://www.g2a.com/chatgpt-plus-1-user-1-month-chatgpt-account-global-i10000505514002",
+    "host": "www.g2a.com",
+    "title": "Buy ChatGPT Plus (1 User, 1 Month)",
+    "prices_seen": [],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=F9QMOVIO3jo",
+    "host": "www.youtube.com",
+    "title": "How to Get ChatGPT Plus for Cheap in 2026 (Step-by-",
+    "prices_seen": [
+     "$2.43",
+     "$30"
+    ],
+    "channel_priority": "official"
+   },
+   {
+    "url": "https://smartaitoolslist.com",
+    "host": "smartaitoolslist.com",
+    "title": "ChatGPT vs Claude in 2026: Full Comparison | SmartAIToolsList",
+    "prices_seen": [
+     "$20",
+     "$20"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://toolsrated.vercel.app",
+    "host": "toolsrated.vercel.app",
+    "title": "7 Best AI Browsers in 2026 (Comet vs Atlas vs Dia, Tested)",
+    "prices_seen": [
+     "$20",
+     "$20"
+    ],
+    "channel_priority": "other"
+   }
+  ],
+  "SKU-AI005": [
+   {
+    "url": "https://www.z2u.com",
+    "host": "www.z2u.com",
+    "title": "Perplexity AI ACCOUNTS en venta, Compra y vende",
+    "prices_seen": [
+     "$4.72"
+    ],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://ggsel.net",
+    "host": "ggsel.net",
+    "title": "Buy from ArtemAI – more than 0 offers on",
+    "prices_seen": [],
+    "channel_priority": "notion-channel"
+   }
+  ],
+  "SKU-AI006": [
+   {
+    "url": "https://fdback.io",
+    "host": "fdback.io",
+    "title": "How Much Does Claude Code Actually Cost?",
+    "prices_seen": [
+     "$20",
+     "$200",
+     "$20",
+     "$17",
+     "$100",
+     "$200"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://www.totalum.app",
+    "host": "www.totalum.app",
+    "title": "Claude Code Pricing in 2026: Plans, Costs, and How to",
+    "prices_seen": [
+     "$20",
+     "$100",
+     "$200"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://palpa.co.jp",
+    "host": "palpa.co.jp",
+    "title": "Claude Pricing Plans | Comparing Pro, Team, and API",
+    "prices_seen": [
+     "$20",
+     "$17"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://subbuddy.io",
+    "host": "subbuddy.io",
+    "title": "Claude's June 15 Credit Change: What It Actually Costs",
+    "prices_seen": [
+     "$20"
+    ],
+    "channel_priority": "other"
+   }
+  ],
+  "SKU-AI008": [
+   {
+    "url": "https://www.g2a.com",
+    "host": "www.g2a.com",
+    "title": "Google AI Gemini Advanced 6 Months",
+    "prices_seen": [
+     "$19.99",
+     "$7.99",
+     "$249.99"
+    ],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://www.g2a.com/google-ai-gemini-pro-12-months-gemini-account-global-i10000510949008",
+    "host": "www.g2a.com",
+    "title": "Google AI Gemini Pro 12 Months - Gemini Account - GLOBAL",
+    "prices_seen": [
+     "$7.99",
+     "$249.99"
+    ],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://www.z2u.com/gemini/accounts-5-28045",
+    "host": "www.z2u.com",
+    "title": "Cheap Gemini Accounts Trade Platform",
+    "prices_seen": [],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=icaGLJ_S07k&vl=en",
+    "host": "www.youtube.com",
+    "title": "How to Get Gemini Pro at Cheap Price",
+    "prices_seen": [],
+    "channel_priority": "official"
+   }
+  ],
+  "SKU-AI012": [
+   {
+    "url": "https://budgenie.fr",
+    "host": "budgenie.fr",
+    "title": "How to get Perplexity cheaper (€4/month) without a VPN",
+    "prices_seen": [
+     "€4",
+     "€20",
+     "€4"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://gameflip.com",
+    "host": "gameflip.com",
+    "title": "1 Year TRIAL Subscription PERPLEXITY Key GLOBAL",
+    "prices_seen": [
+     "$3.99"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://www.capterra.com.au",
+    "host": "www.capterra.com.au",
+    "title": "Perplexity Cost & Reviews",
+    "prices_seen": [],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://www.makeuseof.com",
+    "host": "www.makeuseof.com",
+    "title": "I Have ChatGPT Plus and Perplexity Pro Subscriptions",
+    "prices_seen": [],
+    "channel_priority": "other"
+   }
+  ],
+  "SKU-AI032": [
+   {
+    "url": "https://www.canva.com/en/pricing",
+    "host": "www.canva.com",
+    "title": "Plans and pricing",
+    "prices_seen": [],
+    "channel_priority": "official"
+   },
+   {
+    "url": "https://www.canva.com/pro",
+    "host": "www.canva.com",
+    "title": "Canva Pro | Your all-in-one design solution",
+    "prices_seen": [],
+    "channel_priority": "official"
+   },
+   {
+    "url": "https://www.canva.com/help/biling-payment-plans",
+    "host": "www.canva.com",
+    "title": "Billing, payments, and plans - Canva Help Center",
+    "prices_seen": [],
+    "channel_priority": "official"
+   },
+   {
+    "url": "https://felloai.com/canva-pricing",
+    "host": "felloai.com",
+    "title": "Canva Pricing 2026: How Much Does Canva Cost?",
+    "prices_seen": [
+     "$18",
+     "$25",
+     "$0"
+    ],
+    "channel_priority": "other"
+   }
+  ],
+  "SKU-DS002": [
+   {
+    "url": "https://www.z2u.com",
+    "host": "www.z2u.com",
+    "title": "Netflix Accounts Cheapest price for Sale, Buy",
+    "prices_seen": [
+     "$1.87"
+    ],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://www.g2a.com",
+    "host": "www.g2a.com",
+    "title": "Buy Netflix Subscriptions | Best Online Deals on G2A.COM",
+    "prices_seen": [],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://help.netflix.com",
+    "host": "help.netflix.com",
+    "title": "Sharing your Netflix account",
+    "prices_seen": [],
+    "channel_priority": "official"
+   },
+   {
+    "url": "https://www.ign.com",
+    "host": "www.ign.com",
+    "title": "Netflix Announces Yet Another Price Hike as it Adds",
+    "prices_seen": [
+     "$6.99",
+     "$7.99",
+     "$15.49",
+     "$17.99"
+    ],
+    "channel_priority": "other"
+   }
+  ],
+  "SKU-DS003": [
+   {
+    "url": "https://www.expedia.com",
+    "host": "www.expedia.com",
+    "title": "Top Hotels Closest to Ellingen in Ellingen from $103",
+    "prices_seen": [
+     "$103",
+     "$103"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://www.airbnb.com",
+    "host": "www.airbnb.com",
+    "title": "The Radiance Manila Bay Waterfront Vacation Rentals",
+    "prices_seen": [
+     "$10"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://www.instagram.com",
+    "host": "www.instagram.com",
+    "title": "Super Stream App",
+    "prices_seen": [],
+    "channel_priority": "other"
+   }
+  ],
+  "SKU-DS004": [
+   {
+    "url": "https://x.com",
+    "host": "x.com",
+    "title": "You Can Pay $0 for Every Subscription You Have",
+    "prices_seen": [
+     "$23",
+     "$4",
+     "$23",
+     "$0"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://www.ozbargain.com.au",
+    "host": "www.ozbargain.com.au",
+    "title": "Netflix Monthly: Basic TL₺63.99 (~A$3.66), Standard",
+    "prices_seen": [
+     "$6.10",
+     "$14.64",
+     "$3.66"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://forums.redflagdeals.com",
+    "host": "forums.redflagdeals.com",
+    "title": "Cheaper Netflix - YMMV (non Canadian subscription)",
+    "prices_seen": [
+     "$10.50",
+     "$11.30"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://www.facebook.com",
+    "host": "www.facebook.com",
+    "title": "Lionel ⁠Messi is close to completing a deal to ⁠buy Spanish",
+    "prices_seen": [
+     "$80",
+     "$420"
+    ],
+    "channel_priority": "other"
+   }
+  ],
+  "SKU-DS006": [
+   {
+    "url": "https://www.spotify.com",
+    "host": "www.spotify.com",
+    "title": "Listen without limits. Try 1 month of Premium Individual",
+    "prices_seen": [
+     "$0",
+     "$3.29",
+     "$0",
+     "$1.69",
+     "Try1"
+    ],
+    "channel_priority": "official"
+   },
+   {
+    "url": "https://www.spotify.com",
+    "host": "www.spotify.com",
+    "title": "Spotify Premium: 2 months for free",
+    "prices_seen": [
+     "$12.99",
+     "$0"
+    ],
+    "channel_priority": "official"
+   },
+   {
+    "url": "https://support.spotify.com",
+    "host": "support.spotify.com",
+    "title": "Basic plans - Spotify",
+    "prices_seen": [],
+    "channel_priority": "official"
+   },
+   {
+    "url": "https://www.nerdwallet.com",
+    "host": "www.nerdwallet.com",
+    "title": "How Much Does Spotify Cost?",
+    "prices_seen": [
+     "$6.99",
+     "$12.99",
+     "$21.99",
+     "$12.99"
+    ],
+    "channel_priority": "other"
+   }
+  ],
+  "SKU-DS007": [
+   {
+    "url": "https://www.g2a.com/spotify-premium-manual-top-up-individual-12-months-spotify-global-i10000514955006",
+    "host": "www.g2a.com",
+    "title": "Buy Spotify Premium Manual Top-Up (Individual 12 Months)",
+    "prices_seen": [
+     "USD75.67"
+    ],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://www.spotify.com/us/premium",
+    "host": "www.spotify.com",
+    "title": "Spotify Premium - Spotify (USA)",
+    "prices_seen": [
+     "$0",
+     "$12.99"
+    ],
+    "channel_priority": "official"
+   },
+   {
+    "url": "https://www.spotify.com/us/student",
+    "host": "www.spotify.com",
+    "title": "Spotify Premium Student with Hulu (With Ads).",
+    "prices_seen": [
+     "$6.99"
+    ],
+    "channel_priority": "official"
+   },
+   {
+    "url": "https://www.eldorado.gg/spotify-premium/t/252",
+    "host": "www.eldorado.gg",
+    "title": "Spotify Subscription from $10.48 for Premium - 12 Months",
+    "prices_seen": [
+     "$155.88",
+     "$11.00",
+     "$10.48"
+    ],
+    "channel_priority": "other"
+   }
+  ],
+  "SKU-DS010": [
+   {
+    "url": "https://www.audiosciencereview.com",
+    "host": "www.audiosciencereview.com",
+    "title": "Topping DX5 Review (DAC & HP Amp) | Page 35",
+    "prices_seen": [
+     "$140",
+     "$145",
+     "$200"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://www.airbnb.ca",
+    "host": "www.airbnb.ca",
+    "title": "Vacation rentals with a pool in Shah Alam",
+    "prices_seen": [
+     "$14"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://cdn.loc.gov",
+    "host": "cdn.loc.gov",
+    "title": "Long Comment Regarding a Proposed Exemption Under",
+    "prices_seen": [],
+    "channel_priority": "other"
+   }
+  ],
+  "SKU-DS011": [
+   {
+    "url": "https://www.ozbargain.com.au",
+    "host": "www.ozbargain.com.au",
+    "title": "A$2.57), Family TRY ₺59.99 (~A$5.14) @ YouTube Turkey",
+    "prices_seen": [
+     "$2.57",
+     "$5.14",
+     "$22.99",
+     "$4.40",
+     "$2.57",
+     "$5.14"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://forums.redflagdeals.com",
+    "host": "forums.redflagdeals.com",
+    "title": "Cheap YouTube (intl) Crackdown",
+    "prices_seen": [
+     "$22.99",
+     "$50"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://geekberry.net",
+    "host": "geekberry.net",
+    "title": "YouTube Increases Premium Family Plan Prices in Turkey",
+    "prices_seen": [
+     "TRY159.99",
+     "TRY239.99"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://www.cheapies.nz",
+    "host": "www.cheapies.nz",
+    "title": "YouTube Premium Cheap Access",
+    "prices_seen": [
+     "$6.69"
+    ],
+    "channel_priority": "other"
+   }
+  ],
+  "SKU-DS025": [
+   {
+    "url": "https://www.allkeyshop.com/blog/en-us/buy-nordvpn-cd-key-compare-prices",
+    "host": "www.allkeyshop.com",
+    "title": "NordVPN Prices – Compare Deals & Buy Cheaper VPN Keys",
+    "prices_seen": [
+     "$4.88"
+    ],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://www.g2a.com/nordvpn-complete-vpn-service-nordpass-pc-android-mac-ios-10-devices-2-years-nordvpn-key-global-i10000079049017",
+    "host": "www.g2a.com",
+    "title": "NordVPN Complete VPN Service +NordPass (PC, Android",
+    "prices_seen": [],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=yEU9y8v-Yvo&vl=en",
+    "host": "www.youtube.com",
+    "title": "How To Lock In The LOWEST NordVPN Price?",
+    "prices_seen": [
+     "$2.91",
+     "$3.09"
+    ],
+    "channel_priority": "official"
+   },
+   {
+    "url": "https://support.nordvpn.com/hc/en-us/articles/19477702164369-How-to-get-NordVPN-cheaper",
+    "host": "support.nordvpn.com",
+    "title": "How to get NordVPN cheaper – Live Chat, VPN Setup,",
+    "prices_seen": [],
+    "channel_priority": "official"
+   }
+  ],
+  "SKU-DS037": [
+   {
+    "url": "https://www.g2a.com",
+    "host": "www.g2a.com",
+    "title": "Buy Telegram Stars Top-Up 🥇 Best Prices",
+    "prices_seen": [],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://telegram.org",
+    "host": "telegram.org",
+    "title": "Terms of Service for Telegram Stars",
+    "prices_seen": [],
+    "channel_priority": "official"
+   },
+   {
+    "url": "https://www.scribd.com",
+    "host": "www.scribd.com",
+    "title": "Amanda Bynes Course Membership Info | PDF",
+    "prices_seen": [],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://needunlocks.com",
+    "host": "needunlocks.com",
+    "title": "Reseller Pricing / Server Service",
+    "prices_seen": [],
+    "channel_priority": "other"
+   }
+  ],
+  "SKU-DS039": [
+   {
+    "url": "https://www.g2a.com",
+    "host": "www.g2a.com",
+    "title": "Buy 50 Telegram Premium Members | Cheap on G2A.COM",
+    "prices_seen": [],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://www.kinguin.net",
+    "host": "www.kinguin.net",
+    "title": "Telegram Premium - 12 Months Subscription Gift",
+    "prices_seen": [],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://www.g2a.com",
+    "host": "www.g2a.com",
+    "title": "Buy Telegram Stars Top-Up 🥇 Best Prices",
+    "prices_seen": [],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://telegram.org",
+    "host": "telegram.org",
+    "title": "Terms of Service for Telegram Stars",
+    "prices_seen": [],
+    "channel_priority": "official"
+   }
+  ],
+  "SKU-DS042": [
+   {
+    "url": "https://gg.deals",
+    "host": "gg.deals",
+    "title": "Buy Discord Nitro - 1 Month - lowest price",
+    "prices_seen": [
+     "$8.18",
+     "$0.70",
+     "$8.18"
+    ],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://www.g2a.com",
+    "host": "www.g2a.com",
+    "title": "Discord Nitro 🥇 Best Prices",
+    "prices_seen": [],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://discord.com",
+    "host": "discord.com",
+    "title": "Nitro Benefits and Features",
+    "prices_seen": [
+     "$2.99"
+    ],
+    "channel_priority": "official"
+   },
+   {
+    "url": "https://www.amazon.com",
+    "host": "www.amazon.com",
+    "title": "Discord Nitro 1-Month Subscription Gift Card [Digital Code]",
+    "prices_seen": [
+     "$50",
+     "$4.95",
+     "$100",
+     "$5.95"
+    ],
+    "channel_priority": "other"
+   }
+  ],
+  "SKU-SW001": [
+   {
+    "url": "https://www.allkeyshop.com",
+    "host": "www.allkeyshop.com",
+    "title": "Destiny Archives",
+    "prices_seen": [
+     "$1.22",
+     "$0.65",
+     "$7.99",
+     "$40.72"
+    ],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://www.cjs-cdkeys.com",
+    "host": "www.cjs-cdkeys.com",
+    "title": "ESSENCE Steam Key - Sofortige Lieferung",
+    "prices_seen": [
+     "£9.49",
+     "£12.49"
+    ],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://www.cjs-cdkeys.com",
+    "host": "www.cjs-cdkeys.com",
+    "title": "Microsoft Windows 11 Home CD Key - Instant Delivery at",
+    "prices_seen": [],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://www.g2a.com",
+    "host": "www.g2a.com",
+    "title": "THE TEAR Steam Key GLOBAL - Cheap",
+    "prices_seen": [],
+    "channel_priority": "notion-channel"
+   }
+  ],
+  "SKU-SW004": [
+   {
+    "url": "https://royalcdkeys.com",
+    "host": "royalcdkeys.com",
+    "title": "Microsoft Office 2021 Pro Plus LTSC Product Key",
+    "prices_seen": [
+     "€4,59",
+     "€4,59",
+     "€130,00"
+    ],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://www.allkeyshop.com",
+    "host": "www.allkeyshop.com",
+    "title": "Buy Microsoft Office 2021 Pro Plus CD KEY Compare Prices",
+    "prices_seen": [
+     "$0.53",
+     "$8.54",
+     "$9.80"
+    ],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://www.cjs-cdkeys.com",
+    "host": "www.cjs-cdkeys.com",
+    "title": "Microsoft Office Professional Plus 2021 CD Key",
+    "prices_seen": [
+     "£264.46",
+     "£12.49",
+     "£247.94"
+    ],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://gocdkeys.com",
+    "host": "gocdkeys.com",
+    "title": "Buy Cheap Microsoft Office Home 2024 Key 🏷️ | Gocdkeys",
+    "prices_seen": [
+     "$2.90"
+    ],
+    "channel_priority": "notion-channel"
+   }
+  ],
+  "SKU-SW005": [
+   {
+    "url": "https://gamecardshop.com",
+    "host": "gamecardshop.com",
+    "title": "Microsoft Windows 10 Home + Microsoft Office 2021",
+    "prices_seen": [
+     "€99,99",
+     "€99,99",
+     "€29,99",
+     "€29,99"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://es.godeal24.com",
+    "host": "es.godeal24.com",
+    "title": "Office 2021 Pro Plus - 1 PC",
+    "prices_seen": [],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://www.jumia.com.ng",
+    "host": "www.jumia.com.ng",
+    "title": "Windows laptop for microsoft office at Best Prices Online",
+    "prices_seen": [],
+    "channel_priority": "other"
+   }
+  ],
+  "SKU-SW006": [
+   {
+    "url": "https://shopkeyonline.com",
+    "host": "shopkeyonline.com",
+    "title": "Pro Plus Tag",
+    "prices_seen": [
+     "€24.50",
+     "€42.45",
+     "€42.45",
+     "€36.90",
+     "€36.90"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://es.godeal24.com",
+    "host": "es.godeal24.com",
+    "title": "Office 2024 Home",
+    "prices_seen": [],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://static.cdkdeals.com",
+    "host": "static.cdkdeals.com",
+    "title": "Buy your desired Cheap software keys, Game CD",
+    "prices_seen": [],
+    "channel_priority": "other"
+   }
+  ],
+  "SKU-GK021": [
+   {
+    "url": "https://www.eneba.com",
+    "host": "www.eneba.com",
+    "title": "Xbox Game Pass Ultimate (1 Month) for a good price!",
+    "prices_seen": [],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://qresear.ch",
+    "host": "qresear.ch",
+    "title": "QResear.ch - The 8chan/8kun QResearch Board Search",
+    "prices_seen": [
+     "$300"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "http://psp-news.dcemu.co.uk",
+    "host": "psp-news.dcemu.co.uk",
+    "title": "PSP News - Wraggys Beer Reviews",
+    "prices_seen": [
+     "$149"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://www.scribd.com",
+    "host": "www.scribd.com",
+    "title": "Zoberetimifid | PDF | Copyright",
+    "prices_seen": [],
+    "channel_priority": "other"
+   }
+  ],
+  "SKU-GK022": [
+   {
+    "url": "https://www.g2a.com/category/xbox-game-pass-c3351",
+    "host": "www.g2a.com",
+    "title": "XBOX Game Pass Ultimate - Buy Cheaper!",
+    "prices_seen": [
+     "$14.99",
+     "$13.99",
+     "$22.99"
+    ],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://gg.deals/subscription/xbox-game-pass-ultimate-3-months",
+    "host": "gg.deals",
+    "title": "Buy Xbox Game Pass Ultimate - 3 Months - lowest price",
+    "prices_seen": [
+     "$46.19",
+     "$13.75"
+    ],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://www.xbox.com/en-US/xbox-game-pass/compare",
+    "host": "www.xbox.com",
+    "title": "Compare XBOX Game Pass Plans",
+    "prices_seen": [
+     "$22.99",
+     "$100"
+    ],
+    "channel_priority": "official"
+   },
+   {
+    "url": "https://www.reddit.com/r/XboxGamePass/comments/1p5xgsm/xbox_game_pass_ultimate_for_less_than_2999_a",
+    "host": "www.reddit.com",
+    "title": "Xbox Game Pass Ultimate, for LESS than $29.99 a month.",
+    "prices_seen": [
+     "$29.99",
+     "$13.63",
+     "$29.99"
+    ],
+    "channel_priority": "other"
+   }
+  ],
+  "SKU-GT001": [
+   {
+    "url": "https://fightercountry.org",
+    "host": "fightercountry.org",
+    "title": "1_SOF_SEPT/OCT 19_001-025.indd",
+    "prices_seen": [
+     "$268",
+     "$468",
+     "$42"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://www.weldersupply.com",
+    "host": "www.weldersupply.com",
+    "title": "2577 Welding Equipment & Supplies for sale from $1.05",
+    "prices_seen": [
+     "$1.05"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://www.airbnb.com",
+    "host": "www.airbnb.com",
+    "title": "Vacation rentals with breakfast in Bandarawela",
+    "prices_seen": [
+     "$10"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://www.yelp.com",
+    "host": "www.yelp.com",
+    "title": "LITTLE TOKYO JAPANESE RESTAURANT - CLOSED",
+    "prices_seen": [],
+    "channel_priority": "other"
+   }
+  ],
+  "SKU-GT004": [
+   {
+    "url": "https://www.scribd.com",
+    "host": "www.scribd.com",
+    "title": "Zoberetimifid | PDF | Copyright",
+    "prices_seen": [],
+    "channel_priority": "other"
+   }
+  ],
+  "SKU-GT008": [
+   {
+    "url": "https://www.scribd.com",
+    "host": "www.scribd.com",
+    "title": "Zoberetimifid | PDF | Copyright",
+    "prices_seen": [],
+    "channel_priority": "other"
+   }
+  ],
+  "SKU-GT011": [
+   {
+    "url": "https://eloboost24.eu",
+    "host": "eloboost24.eu",
+    "title": "Unranked / Russia / 10 Champions / 8 Skins / League of",
+    "prices_seen": [
+     "$15.79"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://www.scribd.com",
+    "host": "www.scribd.com",
+    "title": "Zoberetimifid | PDF | Copyright",
+    "prices_seen": [],
+    "channel_priority": "other"
+   }
+  ],
+  "SKU-GT014": [
+   {
+    "url": "https://eloboost24.eu",
+    "host": "eloboost24.eu",
+    "title": "Unranked / Russia / 10 Champions / 8 Skins / League of",
+    "prices_seen": [
+     "$15.79"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://www.scribd.com",
+    "host": "www.scribd.com",
+    "title": "Zoberetimifid | PDF | Copyright",
+    "prices_seen": [],
+    "channel_priority": "other"
+   }
+  ],
+  "SKU-GT016": [
+   {
+    "url": "https://eloboost24.eu",
+    "host": "eloboost24.eu",
+    "title": "Unranked / Russia / 10 Champions / 8 Skins / League of",
+    "prices_seen": [
+     "$15.79"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://www.scribd.com",
+    "host": "www.scribd.com",
+    "title": "Zoberetimifid | PDF | Copyright",
+    "prices_seen": [],
+    "channel_priority": "other"
+   }
+  ],
+  "SKU-ES001": [
+   {
+    "url": "https://mobimatter.com",
+    "host": "mobimatter.com",
+    "title": "Buy eSIM for the Middle East from $0.8 per GB",
+    "prices_seen": [
+     "$29.99",
+     "$21.99",
+     "$12.99",
+     "$0.8"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://www.airalo.com",
+    "host": "www.airalo.com",
+    "title": "Saudi Arabia eSIM, from $4.50 USD",
+    "prices_seen": [
+     "$12.50",
+     "$18.50",
+     "$97.00",
+     "$4.50"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://etravelsim.com",
+    "host": "etravelsim.com",
+    "title": "USA eSIM from $3.50 — Unlimited 5G Data",
+    "prices_seen": [
+     "$3.50",
+     "$59",
+     "$3.50"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://www.trip.com",
+    "host": "www.trip.com",
+    "title": "Saudi Arabia eSIM for Travel",
+    "prices_seen": [
+     "$1.09",
+     "$2.18",
+     "$6.12"
+    ],
+    "channel_priority": "other"
+   }
+  ],
+  "SKU-ES003": [
+   {
+    "url": "https://mobimatter.com",
+    "host": "mobimatter.com",
+    "title": "Buy eSIM for the Middle East from $0.8 per GB",
+    "prices_seen": [
+     "$29.99",
+     "$21.99",
+     "$12.99",
+     "$0.8"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://www.airalo.com",
+    "host": "www.airalo.com",
+    "title": "Saudi Arabia eSIM, from $4.50 USD",
+    "prices_seen": [
+     "$12.50",
+     "$18.50",
+     "$97.00",
+     "$4.50"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://etravelsim.com",
+    "host": "etravelsim.com",
+    "title": "USA eSIM from $3.50 — Unlimited 5G Data",
+    "prices_seen": [
+     "$3.50",
+     "$59",
+     "$3.50"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://www.trip.com",
+    "host": "www.trip.com",
+    "title": "Saudi Arabia eSIM for Travel",
+    "prices_seen": [
+     "$1.09",
+     "$2.18",
+     "$6.12"
+    ],
+    "channel_priority": "other"
+   }
+  ],
+  "SKU-ES005": [
+   {
+    "url": "https://mobimatter.com",
+    "host": "mobimatter.com",
+    "title": "Buy eSIM for the Middle East from $0.8 per GB",
+    "prices_seen": [
+     "$29.99",
+     "$21.99",
+     "$12.99",
+     "$0.8"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://www.airalo.com",
+    "host": "www.airalo.com",
+    "title": "Saudi Arabia eSIM, from $4.50 USD",
+    "prices_seen": [
+     "$12.50",
+     "$18.50",
+     "$97.00",
+     "$4.50"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://etravelsim.com",
+    "host": "etravelsim.com",
+    "title": "USA eSIM from $3.50 — Unlimited 5G Data",
+    "prices_seen": [
+     "$3.50",
+     "$59",
+     "$3.50"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://www.trip.com",
+    "host": "www.trip.com",
+    "title": "Saudi Arabia eSIM for Travel",
+    "prices_seen": [
+     "$1.09",
+     "$2.18",
+     "$6.12"
+    ],
+    "channel_priority": "other"
+   }
+  ],
+  "SKU-VN001": [
+   {
+    "url": "https://apps.apple.com",
+    "host": "apps.apple.com",
+    "title": "Virtual Number -SMS Activate - App Store - Apple",
+    "prices_seen": [],
+    "channel_priority": "official"
+   },
+   {
+    "url": "https://smscode.gg",
+    "host": "smscode.gg",
+    "title": "Telegram SMS Verification",
+    "prices_seen": [
+     "$0.006",
+     "$0.006"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://nexsms.net",
+    "host": "nexsms.net",
+    "title": "2026 SMS Verification Platform Testing",
+    "prices_seen": [
+     "$0.60",
+     "$0.20"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://detect.expert",
+    "host": "detect.expert",
+    "title": "Affordable Cyprus Virtual Numbers for telegram",
+    "prices_seen": [],
+    "channel_priority": "other"
+   }
+  ],
+  "SKU-VN003": [
+   {
+    "url": "https://apps.apple.com",
+    "host": "apps.apple.com",
+    "title": "Virtual Number -SMS Activate - App Store - Apple",
+    "prices_seen": [],
+    "channel_priority": "official"
+   },
+   {
+    "url": "https://smscode.gg",
+    "host": "smscode.gg",
+    "title": "Telegram SMS Verification",
+    "prices_seen": [
+     "$0.006",
+     "$0.006"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://nexsms.net",
+    "host": "nexsms.net",
+    "title": "2026 SMS Verification Platform Testing",
+    "prices_seen": [
+     "$0.60",
+     "$0.20"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://detect.expert",
+    "host": "detect.expert",
+    "title": "Affordable Cyprus Virtual Numbers for telegram",
+    "prices_seen": [],
+    "channel_priority": "other"
+   }
+  ],
+  "SKU-VN004": [
+   {
+    "url": "https://apps.apple.com",
+    "host": "apps.apple.com",
+    "title": "Virtual Number -SMS Activate - App Store - Apple",
+    "prices_seen": [],
+    "channel_priority": "official"
+   },
+   {
+    "url": "https://smscode.gg",
+    "host": "smscode.gg",
+    "title": "Telegram SMS Verification",
+    "prices_seen": [
+     "$0.006",
+     "$0.006"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://nexsms.net",
+    "host": "nexsms.net",
+    "title": "2026 SMS Verification Platform Testing",
+    "prices_seen": [
+     "$0.60",
+     "$0.20"
+    ],
+    "channel_priority": "other"
+   },
+   {
+    "url": "https://detect.expert",
+    "host": "detect.expert",
+    "title": "Affordable Cyprus Virtual Numbers for telegram",
+    "prices_seen": [],
+    "channel_priority": "other"
+   }
+  ],
+  "SKU-AP001": [
+   {
+    "url": "https://www.reloadly.com",
+    "host": "www.reloadly.com",
+    "title": "Airtime, Data Bundles and Gift Cards Pricing",
+    "prices_seen": [],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://help.openai.com",
+    "host": "help.openai.com",
+    "title": "Setting up and managing prepaid API billing",
+    "prices_seen": [
+     "$5",
+     "$10"
+    ],
+    "channel_priority": "official"
+   },
+   {
+    "url": "https://community.openai.com",
+    "host": "community.openai.com",
+    "title": "How can I get Free Trial Credits? - API",
+    "prices_seen": [],
+    "channel_priority": "official"
+   },
+   {
+    "url": "https://creditforstartups.com",
+    "host": "creditforstartups.com",
+    "title": "OpenAI API Pricing 2026: GPT-5.6 Rates, Plans & Credits",
+    "prices_seen": [
+     "$0.20",
+     "$5",
+     "$30",
+     "$2.50",
+     "$15",
+     "$1,500"
+    ],
+    "channel_priority": "other"
+   }
+  ],
+  "SKU-AP004": [
+   {
+    "url": "https://www.reloadly.com",
+    "host": "www.reloadly.com",
+    "title": "Airtime, Data Bundles and Gift Cards Pricing",
+    "prices_seen": [],
+    "channel_priority": "notion-channel"
+   },
+   {
+    "url": "https://help.openai.com",
+    "host": "help.openai.com",
+    "title": "Setting up and managing prepaid API billing",
+    "prices_seen": [
+     "$5",
+     "$10"
+    ],
+    "channel_priority": "official"
+   },
+   {
+    "url": "https://community.openai.com",
+    "host": "community.openai.com",
+    "title": "How can I get Free Trial Credits? - API",
+    "prices_seen": [],
+    "channel_priority": "official"
+   },
+   {
+    "url": "https://creditforstartups.com",
+    "host": "creditforstartups.com",
+    "title": "OpenAI API Pricing 2026: GPT-5.6 Rates, Plans & Credits",
+    "prices_seen": [
+     "$0.20",
+     "$5",
+     "$30",
+     "$2.50",
+     "$15",
+     "$1,500"
+    ],
+    "channel_priority": "other"
+   }
+  ]
+ }
+}

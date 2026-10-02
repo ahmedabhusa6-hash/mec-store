@@ -1,0 +1,13 @@
+# CKC-003 — Canonical trigger verification
+Cycle Note
+هذه الدورة اعتمدت المرجع التشغيلي v2 بوصفه المرجع الحاكم.
+Canonical Loop
+KNOWLEDGE STATE → DISCOVERY → TRIAGE → RESEARCH → VALIDATION → CONFLICT CHECK → SYNTHESIS → KNOWLEDGE COMMIT → QUALITY CONTROL → GAP DETECTION → PRIORITY QUEUE → PERSIST STATE → NEXT TRIGGER
+Canonical Trigger Rule
+يوجد Trigger مجدول واحد فقط للمنظومة. الجدولة = Repeated Discrete Runs.
+State Separation
+Knowledge State ≠ Change Type ≠ Conflict Status
+Closure Rule
+State Updated + Changes Recorded + Conflicts Recorded + Gaps Identified + Next Work Determined + State Persisted
+Operational Truth
+لا يوجد ادعاء بتشغيل حي 24/7 بين الدورات، ولا Event-Driven أو Background إلا عند توفر الآلية فعليًا.

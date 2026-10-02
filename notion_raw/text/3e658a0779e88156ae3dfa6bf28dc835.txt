@@ -1,0 +1,10 @@
+# Functional Scope — Accounting Systems Taxonomy Node
+Claim: Functional Scope must be a first-class dimension in the accounting-systems taxonomy.
+Definition: classify a product by the breadth and integration of its business/financial functions, not by the vendor's category label.
+Observed evidence: Microsoft Dynamics 365 Finance documents GL, AP, AR, budgeting, cash/bank, cost accounting, fixed assets and financial reporting; SAP S/4HANA Cloud General Ledger integrates with asset accounting, AP/AR, management accounting, procurement and treasury; Oracle Fusion Cloud Financials includes GL, intercompany, payables, receivables, payments, cash management, tax, expenses and assets; Xero explicitly contrasts accounting software's financial focus with broader ERP scope while noting the boundary can blur.
+Applicability: taxonomy design and product classification.
+Limitations: all evidence in this first cycle is vendor-published; an independent accounting/ERP taxonomy source is still required before treating the boundary rule as fully validated.
+Research Refs: ASR-5 / functional-scope-boundary
+Evidence Refs: EVIDENCE — D365 Finance functional scope; EVIDENCE — SAP S/4HANA Cloud integrated accounting scope; EVIDENCE — Oracle Fusion Cloud Financials scope; EVIDENCE — Xero accounting vs ERP boundary
+Provenance: Microsoft Learn; SAP Help Portal; Oracle Documentation; Xero official documentation.
+Next Verification: triangulate against independent professional/academic ERP/accounting-system taxonomies.

@@ -1,0 +1,211 @@
+{
+ "capture_reason": "NEW",
+ "captured_at": "2026-10-02T12:06:31+03:00",
+ "title": "AUTO-CYCLE-0074 — DIRECT DEPLOYMENT PATH RESEARCH",
+ "last_edited": "2026-09-28T17:10:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e958a07-79e8-81bd-8c92-f82fa48badb7",
+  "created_time": "2026-09-28T17:10:00.000Z",
+  "last_edited_time": "2026-09-28T17:10:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "page_id",
+   "page_id": "3e658a07-79e8-81da-8a9f-cb80d02481aa"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "title": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "AUTO-CYCLE-0074 — DIRECT DEPLOYMENT PATH RESEARCH",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "AUTO-CYCLE-0074 — DIRECT DEPLOYMENT PATH RESEARCH",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/AUTO-CYCLE-0074-DIRECT-DEPLOYMENT-PATH-RESEARCH-3e958a0779e881bd8c92f82fa48badb7",
+  "public_url": null,
+  "archived": false,
+  "request_id": "d5bff9b5-cecb-4398-af17-977917ac01be"
+ },
+ "block_count": 15,
+ "blocks": [
+  {
+   "id": "bc499a47-2318-4377-94a3-fafa3d6596a4",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Cycle_ID: AUTO-CYCLE-0074"
+   ],
+   "created": "2026-09-28T17:10:00.000Z",
+   "edited": "2026-09-28T17:10:00.000Z"
+  },
+  {
+   "id": "0c3cdc5f-8430-4585-a3a3-5011b2b8888c",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Trigger: Central Continuous Automation System trigger."
+   ],
+   "created": "2026-09-28T17:10:00.000Z",
+   "edited": "2026-09-28T17:10:00.000Z"
+  },
+  {
+   "id": "a38517df-635e-4af9-98a3-dc3c9c392a4d",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "State Before: Loaded AUTO-CYCLE-0073 from Notion. Native Notion verification remains unverified; therefore it is treated as persisted historical state, not Notion-native VERIFIED."
+   ],
+   "created": "2026-09-28T17:10:00.000Z",
+   "edited": "2026-09-28T17:10:00.000Z"
+  },
+  {
+   "id": "7fa0586d-3be6-469f-87ce-6300975d4900",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Pre-flight / Ownership: Automation registry shows exactly one enabled automation matching the Central Continuous Automation System purpose. No duplicate central trigger was modified. Other automations remain outside scope."
+   ],
+   "created": "2026-09-28T17:10:00.000Z",
+   "edited": "2026-09-28T17:10:00.000Z"
+  },
+  {
+   "id": "a3da0a46-32fe-48b9-8777-cb05ca5c9647",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Highest-Value Gap: Independent Central Runtime repository/codebase plus a verified independent deployment path."
+   ],
+   "created": "2026-09-28T17:10:00.000Z",
+   "edited": "2026-09-28T17:10:00.000Z"
+  },
+  {
+   "id": "ba037701-6cc7-42b9-b90c-e62e94d89b22",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Deep Research / New Evidence: A new non-Replit deployment path was investigated. GitHub's official REST API explicitly supports creating a repository for the authenticated user through POST /user/repos, requiring repository-creation or administration write permission. The connected GitHub toolset exposes repository listing/read and repository-content/branch/commit mutations, but exposes no repository-creation action. Therefore the documented GitHub capability is not equivalent to an available connected execution capability. Cloudflare's current official documentation also confirms a Workers Script Upload API that can deploy a Worker without requiring Workers Builds, but this requires authenticated Cloudflare API access; no connected Cloudflare execution tool is available in the current tool surface. citeturn0search0turn0search2turn0search9"
+   ],
+   "created": "2026-09-28T17:10:00.000Z",
+   "edited": "2026-09-28T17:10:00.000Z"
+  },
+  {
+   "id": "f67a13a7-bb45-4ee9-894e-a94a8addb4fb",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Independent Alternatives: (1) GitHub independent repository + Cloudflare Script Upload API; (2) Replit isolated codebase + independent deployment; (3) independent repository + Cloudflare Durable Objects/Queues/Workflows; (4) independent repository + Render Worker + durable paid state; (5) independent repository + Oracle Always Free Compute."
+   ],
+   "created": "2026-09-28T17:10:00.000Z",
+   "edited": "2026-09-28T17:10:00.000Z"
+  },
+  {
+   "id": "5dbda4fa-b158-47b5-bc39-881ec1de344e",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Decision: KEEP REPOSITORY ISOLATION GATE. The newly validated architectural path is technically viable in principle, but execution is blocked by the absence of an authenticated repository-creation and/or Cloudflare deployment connector. Do not use an existing business repository or branch as a substitute."
+   ],
+   "created": "2026-09-28T17:10:00.000Z",
+   "edited": "2026-09-28T17:10:00.000Z"
+  },
+  {
+   "id": "998a0f59-7d36-4bdd-ace7-b2af6778883e",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Fix Applied: NO INFRASTRUCTURE MUTATION. No business project, repository, branch, service, or paid resource was changed."
+   ],
+   "created": "2026-09-28T17:10:00.000Z",
+   "edited": "2026-09-28T17:10:00.000Z"
+  },
+  {
+   "id": "044b67e9-eefc-4e84-b380-aedcfcf24b1b",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Verification: GitHub repository creation = capability documented officially but NOT EXECUTED. Cloudflare direct Worker upload = capability documented officially but NOT EXECUTED. Independent repository identity = NOT VERIFIED. Independent deployment = NOT VERIFIED. Business mutation = NONE VERIFIED."
+   ],
+   "created": "2026-09-28T17:10:00.000Z",
+   "edited": "2026-09-28T17:10:00.000Z"
+  },
+  {
+   "id": "c5dae59d-7704-464e-b509-96361226be58",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Persistence: Cycle record created in the Central Automation Runtime log. Read-back verification required."
+   ],
+   "created": "2026-09-28T17:10:00.000Z",
+   "edited": "2026-09-28T17:10:00.000Z"
+  },
+  {
+   "id": "15cc37e5-8bdb-4335-aee9-a4a9be20f692",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Quality Control: The previous Replit block is not retried because this cycle introduced a genuinely different execution path. Remaining UNKNOWN: authenticated repository creation path, Cloudflare credentials/connector, independent codebase identity, durable state, durable queue, lease/ownership, idempotency, recovery, observability."
+   ],
+   "created": "2026-09-28T17:10:00.000Z",
+   "edited": "2026-09-28T17:10:00.000Z"
+  },
+  {
+   "id": "71d0fb57-1eaf-4934-baad-a489dbe2eaf7",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "State After: CENTRAL_RUNTIME = DESIGNED / NOT_DEPLOYED; REPOSITORY_ISOLATION = BLOCKED; INDEPENDENT_REPOSITORY = NOT_VERIFIED; DEPLOYMENT_PATH = NOT_VERIFIED; BUSINESS_MUTATION = NONE VERIFIED."
+   ],
+   "created": "2026-09-28T17:10:00.000Z",
+   "edited": "2026-09-28T17:10:00.000Z"
+  },
+  {
+   "id": "098b9efb-65ac-4a0e-a005-2e437e6cee91",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Next Work: Obtain/enable a genuinely non-interactive connected path that can create the independent repository or upload/deploy an isolated Worker with authorized credentials; then verify identity and deployment before implementing runtime primitives."
+   ],
+   "created": "2026-09-28T17:10:00.000Z",
+   "edited": "2026-09-28T17:10:00.000Z"
+  },
+  {
+   "id": "a424eefd-1228-4add-87f4-d522dcc662a4",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Cycle Status: PARTIAL"
+   ],
+   "created": "2026-09-28T17:10:00.000Z",
+   "edited": "2026-09-28T17:10:00.000Z"
+  }
+ ]
+}

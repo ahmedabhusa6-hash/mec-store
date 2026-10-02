@@ -1,0 +1,4363 @@
+{
+ "capture_reason": "CHANGED",
+ "title": "Research Queue",
+ "schema": {
+  "object": "database",
+  "id": "41543987-e610-4557-bf71-8fd24c913494",
+  "cover": null,
+  "icon": null,
+  "created_time": "2026-09-25T20:50:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_time": "2026-09-25T20:54:00.000Z",
+  "title": [
+   {
+    "type": "text",
+    "text": {
+     "content": "Research Queue",
+     "link": null
+    },
+    "annotations": {
+     "bold": false,
+     "italic": false,
+     "strikethrough": false,
+     "underline": false,
+     "code": false,
+     "color": "default"
+    },
+    "plain_text": "Research Queue",
+    "href": null
+   }
+  ],
+  "description": [
+   {
+    "type": "text",
+    "text": {
+     "content": "قائمة البحث المستمرة وترتيب الأسئلة والمسارات والمصادر المطلوبة.",
+     "link": null
+    },
+    "annotations": {
+     "bold": false,
+     "italic": false,
+     "strikethrough": false,
+     "underline": false,
+     "code": false,
+     "color": "default"
+    },
+    "plain_text": "قائمة البحث المستمرة وترتيب الأسئلة والمسارات والمصادر المطلوبة.",
+    "href": null
+   }
+  ],
+  "is_inline": false,
+  "database_type": null,
+  "properties": {
+   "Gaps": {
+    "id": "HzzA",
+    "name": "Gaps",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Status": {
+    "id": "H%7CCT",
+    "name": "Status",
+    "description": null,
+    "type": "select",
+    "select": {
+     "options": [
+      {
+       "id": "513b2c5c-1c86-4a7e-8387-c06b9a33047c",
+       "name": "Backlog",
+       "color": "gray",
+       "description": null
+      },
+      {
+       "id": "6089d555-0bb3-46b7-9a51-2f733cfa65fa",
+       "name": "In Progress",
+       "color": "blue",
+       "description": null
+      },
+      {
+       "id": "3d2cbd2a-7799-4bca-9811-a1a37231e339",
+       "name": "Verification",
+       "color": "orange",
+       "description": null
+      },
+      {
+       "id": "0fa2562c-6140-4708-bf55-5e298d10dfd9",
+       "name": "Analysis",
+       "color": "purple",
+       "description": null
+      },
+      {
+       "id": "16e93b6d-ec83-4c4c-9896-b6c8af39dd56",
+       "name": "Integrated",
+       "color": "green",
+       "description": null
+      },
+      {
+       "id": "a82faf50-e31f-43b1-af0b-9c90d825f2fc",
+       "name": "Needs Follow-up",
+       "color": "yellow",
+       "description": null
+      },
+      {
+       "id": "1d92e7ad-b1ba-4e60-ab2e-91356d42a2f0",
+       "name": "Closed",
+       "color": "brown",
+       "description": null
+      }
+     ]
+    }
+   },
+   "Why It Matters": {
+    "id": "L~IB",
+    "name": "Why It Matters",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Priority": {
+    "id": "P%3FCA",
+    "name": "Priority",
+    "description": null,
+    "type": "select",
+    "select": {
+     "options": [
+      {
+       "id": "f481b6ea-c8d7-4d4d-a010-08750a5e0672",
+       "name": "Critical",
+       "color": "red",
+       "description": null
+      },
+      {
+       "id": "5080fb47-7b80-4c2b-9096-8d2b70805dbe",
+       "name": "High",
+       "color": "orange",
+       "description": null
+      },
+      {
+       "id": "8bce19d1-f7f7-450a-95b7-099f8a239757",
+       "name": "Medium",
+       "color": "yellow",
+       "description": null
+      },
+      {
+       "id": "b6f48fe0-0cd0-495d-8def-56c31a4a9a45",
+       "name": "Low",
+       "color": "gray",
+       "description": null
+      }
+     ]
+    }
+   },
+   "Last Attempt": {
+    "id": "Vr%5Dv",
+    "name": "Last Attempt",
+    "description": null,
+    "type": "date",
+    "date": {}
+   },
+   "Question": {
+    "id": "VsPM",
+    "name": "Question",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Domain": {
+    "id": "b%5BhU",
+    "name": "Domain",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Findings": {
+    "id": "kFaj",
+    "name": "Findings",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Research ID": {
+    "id": "kr%40%3F",
+    "name": "Research ID",
+    "description": null,
+    "type": "unique_id",
+    "unique_id": {
+     "prefix": "RSH"
+    }
+   },
+   "Next Action": {
+    "id": "uZ%7Cc",
+    "name": "Next Action",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Sources Needed": {
+    "id": "%7BhQt",
+    "name": "Sources Needed",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Name": {
+    "id": "title",
+    "name": "Name",
+    "description": null,
+    "type": "title",
+    "title": {}
+   }
+  },
+  "parent": {
+   "type": "page_id",
+   "page_id": "3e658a07-79e8-812f-b628-dde61492e5b2"
+  },
+  "url": "https://app.notion.com/p/41543987e6104557bf718fd24c913494",
+  "public_url": null,
+  "in_trash": false,
+  "archived": false,
+  "request_id": "25716bfd-d610-4dde-8639-544966b25570"
+ },
+ "row_count": 19,
+ "rows": [
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-8189-9792-e31a88df8c52",
+   "created_time": "2026-09-26T02:49:00.000Z",
+   "last_edited_time": "2026-09-26T14:05:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "41543987-e610-4557-bf71-8fd24c913494"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Gaps": {
+     "id": "HzzA",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "None for Research Queue lifecycle; source/evidence provenance remains maintained in KOS Sources/Evidence.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "None for Research Queue lifecycle; source/evidence provenance remains maintained in KOS Sources/Evidence.",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "H%7CCT",
+     "type": "select",
+     "select": {
+      "id": "1d92e7ad-b1ba-4e60-ab2e-91356d42a2f0",
+      "name": "Closed",
+      "color": "brown"
+     }
+    },
+    "Why It Matters": {
+     "id": "L~IB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Prevents duplicate research and avoids treating an auto-increment Research Queue ID as an independent research stream.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Prevents duplicate research and avoids treating an auto-increment Research Queue ID as an independent research stream.",
+       "href": null
+      }
+     ]
+    },
+    "Priority": {
+     "id": "P%3FCA",
+     "type": "select",
+     "select": {
+      "id": "b6f48fe0-0cd0-495d-8def-56c31a4a9a45",
+      "name": "Low",
+      "color": "gray"
+     }
+    },
+    "Last Attempt": {
+     "id": "Vr%5Dv",
+     "type": "date",
+     "date": null
+    },
+    "Question": {
+     "id": "VsPM",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "N/A — legacy source-shaped row, not a research question.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "N/A — legacy source-shaped row, not a research question.",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "b%5BhU",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Findings": {
+     "id": "kFaj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Validated as a Source/Evidence record mistakenly placed in Research Queue. Canonical research stream is RSH-17; canonical source is SRC-RSH17-004 and evidence is EVD-RSH17-004.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Validated as a Source/Evidence record mistakenly placed in Research Queue. Canonical research stream is RSH-17; canonical source is SRC-RSH17-004 and evidence is EVD-RSH17-004.",
+       "href": null
+      }
+     ]
+    },
+    "Research ID": {
+     "id": "kr%40%3F",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "RSH",
+      "number": 19
+     }
+    },
+    "Next Action": {
+     "id": "uZ%7Cc",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Do not process this row as an independent Research Item. Use RSH-17 and the canonical SRC-RSH17-004 / EVD-RSH17-004 records.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Do not process this row as an independent Research Item. Use RSH-17 and the canonical SRC-RSH17-004 / EVD-RSH17-004 records.",
+       "href": null
+      }
+     ]
+    },
+    "Sources Needed": {
+     "id": "%7BhQt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "N/A",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "N/A",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "LEGACY / MISCLASSIFIED — SRC-RSH17-004 — Data-driven agility UK retail experimental evidence",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "LEGACY / MISCLASSIFIED — SRC-RSH17-004 — Data-driven agility UK retail experimental evidence",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/LEGACY-MISCLASSIFIED-SRC-RSH17-004-Data-driven-agility-UK-retail-experimental-evidence-3e758a0779e881899792e31a88df8c52",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-8190-84f5-f2bfdb843395",
+   "created_time": "2026-09-26T00:11:00.000Z",
+   "last_edited_time": "2026-09-26T00:13:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "41543987-e610-4557-bf71-8fd24c913494"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Gaps": {
+     "id": "HzzA",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Independent replications and transfer tests for the registered claims, especially beyond the original pricing, eBay SME analytics, and broad brand-loyalty evidence contexts.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Independent replications and transfer tests for the registered claims, especially beyond the original pricing, eBay SME analytics, and broad brand-loyalty evidence contexts.",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "H%7CCT",
+     "type": "select",
+     "select": {
+      "id": "a82faf50-e31f-43b1-af0b-9c90d825f2fc",
+      "name": "Needs Follow-up",
+      "color": "yellow"
+     }
+    },
+    "Why It Matters": {
+     "id": "L~IB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "The final Stage Gate requires promotion at claim level, not architecture level. A reusable evidence register prevents strong evidence for one link from being generalized to adjacent links.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "The final Stage Gate requires promotion at claim level, not architecture level. A reusable evidence register prevents strong evidence for one link from being generalized to adjacent links.",
+       "href": null
+      }
+     ]
+    },
+    "Priority": {
+     "id": "P%3FCA",
+     "type": "select",
+     "select": {
+      "id": "5080fb47-7b80-4c2b-9096-8d2b70805dbe",
+      "name": "High",
+      "color": "orange"
+     }
+    },
+    "Last Attempt": {
+     "id": "Vr%5Dv",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Question": {
+     "id": "VsPM",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Which mechanism claims have sufficiently bounded evidence to be reused independently, and exactly what does each evidence design justify?",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Which mechanism claims have sufficiently bounded evidence to be reused independently, and exactly what does each evidence design justify?",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "b%5BhU",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Marketing knowledge architecture / evidence calibration",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Marketing knowledge architecture / evidence calibration",
+       "href": null
+      }
+     ]
+    },
+    "Findings": {
+     "id": "kFaj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Claim-level evidence register completed and persisted in CKC-RSH18-001. Three mechanism groups are bounded by supported outcome, level, context, evidence design and non-supported inference; no universal causal principle was promoted.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Claim-level evidence register completed and persisted in CKC-RSH18-001. Three mechanism groups are bounded by supported outcome, level, context, evidence design and non-supported inference; no universal causal principle was promoted.",
+       "href": null
+      }
+     ]
+    },
+    "Research ID": {
+     "id": "kr%40%3F",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "RSH",
+      "number": 18
+     }
+    },
+    "Next Action": {
+     "id": "uZ%7Cc",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Run independent replication/transfer testing for one registered claim at a time, beginning with the highest-value causal gap, and update only the affected claim-level evidence fields.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Run independent replication/transfer testing for one registered claim at a time, beginning with the highest-value causal gap, and update only the affected claim-level evidence fields.",
+       "href": null
+      }
+     ]
+    },
+    "Sources Needed": {
+     "id": "%7BhQt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Existing RSH-16/RSH-17 evidence plus the brand-loyalty meta-model evidence.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Existing RSH-16/RSH-17 evidence plus the brand-loyalty meta-model evidence.",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Claim-Level Evidence Register — Marketing Mechanisms",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Claim-Level Evidence Register — Marketing Mechanisms",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Claim-Level-Evidence-Register-Marketing-Mechanisms-3e758a0779e8819084f5f2bfdb843395",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-81e8-9bd1-e549b196fdcb",
+   "created_time": "2026-09-26T00:10:00.000Z",
+   "last_edited_time": "2026-09-26T14:01:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "41543987-e610-4557-bf71-8fd24c913494"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Gaps": {
+     "id": "HzzA",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "تبقى السببية المباشرة الصارمة للرابط market agility → firm financial performance، والتمييز التجريبي بين market agility وmarketing agility، والوساطة الكاملة analytics → market agility → performance، والنتائج طويلة الأجل المتكررة عبر قطاعات وجغرافيات متعددة. الدليل الطولي الحالي يقيس competitive advantage كخرج نهائي، لا firm financial performance مباشرة.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "تبقى السببية المباشرة الصارمة للرابط market agility → firm financial performance، والتمييز التجريبي بين market agility وmarketing agility، والوساطة الكاملة analytics → market agility → performance، والنتائج طويلة الأجل المتكررة عبر قطاعات وجغرافيات متعددة. الدليل الطولي الحالي يقيس competitive advantage كخرج نهائي، لا firm financial performance مباشرة.",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "H%7CCT",
+     "type": "select",
+     "select": {
+      "id": "a82faf50-e31f-43b1-af0b-9c90d825f2fc",
+      "name": "Needs Follow-up",
+      "color": "yellow"
+     }
+    },
+    "Why It Matters": {
+     "id": "L~IB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "RSH2 contains an analytics→agility→performance chain based partly on observational evidence. A randomized field experiment can calibrate which portions of the chain have stronger causal support and which are context-specific.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "RSH2 contains an analytics→agility→performance chain based partly on observational evidence. A randomized field experiment can calibrate which portions of the chain have stronger causal support and which are context-specific.",
+       "href": null
+      }
+     ]
+    },
+    "Priority": {
+     "id": "P%3FCA",
+     "type": "select",
+     "select": {
+      "id": "5080fb47-7b80-4c2b-9096-8d2b70805dbe",
+      "name": "High",
+      "color": "orange"
+     }
+    },
+    "Last Attempt": {
+     "id": "Vr%5Dv",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Question": {
+     "id": "VsPM",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Which links in the marketing-analytics performance chain are causally supported, and which links remain theory- or observation-based?",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Which links in the marketing-analytics performance chain are causally supported, and which links remain theory- or observation-based?",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "b%5BhU",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Marketing analytics / organizational capability / data-driven decision making",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Marketing analytics / organizational capability / data-driven decision making",
+       "href": null
+      }
+     ]
+    },
+    "Findings": {
+     "id": "kFaj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "أصبح لدى RSH-17 دليل مستقل ومتغاير على الرابط downstream، مع إضافة دليل طولي محكّم: Alghamdi & Agag (2024) استخدما بيانات موجتين من شركات تجزئة سعودية (T=677 وT+1=569) وتحليل Cross-Lagged Panel، ودعما الأثر الزمني في المسار data-driven innovation capabilities → marketing agility → competitive advantage. وتظل أدلة 2025 UK multisource + panel تربط marketing agility بالربحية قصيرة/طويلة الأجل، لكنها ليست تعرّضًا عشوائيًا؛ كما أن دراسات 2026 الناشئة تظهر تغايرًا حسب السياق والقياس. الصورة الحالية: الدليل الزمني/الارتباطي أصبح أقوى، لكن السببية المباشرة لرابط market/marketing agility → firm financial performance ما تزال غير محسومة، والوساطة الكاملة analytics → agility → performance لم تثبت سببيًا.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "أصبح لدى RSH-17 دليل مستقل ومتغاير على الرابط downstream، مع إضافة دليل طولي محكّم: Alghamdi & Agag (2024) استخدما بيانات موجتين من شركات تجزئة سعودية (T=677 وT+1=569) وتحليل Cross-Lagged Panel، ودعما الأثر الزمني في المسار data-driven innovation capabilities → marketing agility → competitive advantage. وتظل أدلة 2025 UK multisource + panel تربط marketing agility بالربحية قصيرة/طويلة الأجل، لكنها ليست تعرّضًا عشوائيًا؛ كما أن دراسات 2026 الناشئة تظهر تغايرًا حسب السياق والقياس. الصورة الحالية: الدليل الزمني/الارتباطي أصبح أقوى، لكن السببية المباشرة لرابط market/marketing agility → firm financial performance ما تزال غير محسومة، والوساطة الكاملة analytics → agility → performance لم تثبت سببيًا.",
+       "href": null
+      }
+     ]
+    },
+    "Research ID": {
+     "id": "kr%40%3F",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "RSH",
+      "number": 17
+     }
+    },
+    "Next Action": {
+     "id": "uZ%7Cc",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "اختبار causal identification للرابط market/marketing agility → firm financial performance باستخدام randomized intervention أو quasi-experiment أو panel قوي مع temporal ordering، مع قياس agility والأداء المالي في الوحدة نفسها؛ ثم إعادة تقييم الوساطة الكاملة analytics → agility → performance.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "اختبار causal identification للرابط market/marketing agility → firm financial performance باستخدام randomized intervention أو quasi-experiment أو panel قوي مع temporal ordering، مع قياس agility والأداء المالي في الوحدة نفسها؛ ثم إعادة تقييم الوساطة الكاملة analytics → agility → performance.",
+       "href": null
+      }
+     ]
+    },
+    "Sources Needed": {
+     "id": "%7BhQt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Randomized or quasi-experimental studies that directly manipulate or strongly identify market/marketing agility and measure downstream financial outcomes; longitudinal studies with same-unit mediator/outcome measurement; studies that distinguish market agility from marketing agility; replications across sectors/geographies.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Randomized or quasi-experimental studies that directly manipulate or strongly identify market/marketing agility and measure downstream financial outcomes; longitudinal studies with same-unit mediator/outcome measurement; studies that distinguish market agility from marketing agility; replications across sectors/geographies.",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Causal Validation — Marketing Analytics to Performance",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Causal Validation — Marketing Analytics to Performance",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Causal-Validation-Marketing-Analytics-to-Performance-3e758a0779e881e89bd1e549b196fdcb",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-8115-9857-fd6e77d032f1",
+   "created_time": "2026-09-26T00:09:00.000Z",
+   "last_edited_time": "2026-09-26T00:09:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "41543987-e610-4557-bf71-8fd24c913494"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Gaps": {
+     "id": "HzzA",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Field/market evidence for realized sales and long-run effects; product, consumer-knowledge and promotion-context boundaries.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Field/market evidence for realized sales and long-run effects; product, consumer-knowledge and promotion-context boundaries.",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "H%7CCT",
+     "type": "select",
+     "select": {
+      "id": "a82faf50-e31f-43b1-af0b-9c90d825f2fc",
+      "name": "Needs Follow-up",
+      "color": "yellow"
+     }
+    },
+    "Why It Matters": {
+     "id": "L~IB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Pricing is a representative mechanism with both experimental/quasi-experimental and meta-analytic evidence. A focused causal audit can test whether the Master Map should distinguish causal support for the mediator from causal support for downstream business outcomes.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Pricing is a representative mechanism with both experimental/quasi-experimental and meta-analytic evidence. A focused causal audit can test whether the Master Map should distinguish causal support for the mediator from causal support for downstream business outcomes.",
+       "href": null
+      }
+     ]
+    },
+    "Priority": {
+     "id": "P%3FCA",
+     "type": "select",
+     "select": {
+      "id": "5080fb47-7b80-4c2b-9096-8d2b70805dbe",
+      "name": "High",
+      "color": "orange"
+     }
+    },
+    "Last Attempt": {
+     "id": "Vr%5Dv",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Question": {
+     "id": "VsPM",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Does reference-price anchoring have sufficient causal evidence to represent anchor → expected-price evaluation → purchase-related response as a reusable mechanism, and under what boundaries?",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Does reference-price anchoring have sufficient causal evidence to represent anchor → expected-price evaluation → purchase-related response as a reusable mechanism, and under what boundaries?",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "b%5BhU",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Behavioral pricing / consumer judgment / marketing mechanism",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Behavioral pricing / consumer judgment / marketing mechanism",
+       "href": null
+      }
+     ]
+    },
+    "Findings": {
+     "id": "kFaj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Causal calibration completed: price presentation/reference-price evidence strongly supports valuation/perceived-savings effects; the anchor→expected-price latitude→purchase-intention pathway has bounded quasi-experimental support; universal realized-sales/profit effects remain unverified.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Causal calibration completed: price presentation/reference-price evidence strongly supports valuation/perceived-savings effects; the anchor→expected-price latitude→purchase-intention pathway has bounded quasi-experimental support; universal realized-sales/profit effects remain unverified.",
+       "href": null
+      }
+     ]
+    },
+    "Research ID": {
+     "id": "kr%40%3F",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "RSH",
+      "number": 16
+     }
+    },
+    "Next Action": {
+     "id": "uZ%7Cc",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Start a second bounded causal-validation stream at organizational level, preferably marketing analytics → market agility → firm performance.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Start a second bounded causal-validation stream at organizational level, preferably marketing analytics → market agility → firm performance.",
+       "href": null
+      }
+     ]
+    },
+    "Sources Needed": {
+     "id": "%7BhQt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Reference-price meta-analysis; quasi-experimental marketing study; independent anchoring meta-analysis; field pricing evidence.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Reference-price meta-analysis; quasi-experimental marketing study; independent anchoring meta-analysis; field pricing evidence.",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Causal Validation — Reference-Price Anchoring Mechanism",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Causal Validation — Reference-Price Anchoring Mechanism",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Causal-Validation-Reference-Price-Anchoring-Mechanism-3e758a0779e881159857fd6e77d032f1",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8182-928e-c316f113cdc7",
+   "created_time": "2026-09-25T22:36:00.000Z",
+   "last_edited_time": "2026-09-26T00:08:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "41543987-e610-4557-bf71-8fd24c913494"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Gaps": {
+     "id": "HzzA",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Causal validation of representative mechanisms; tested application/experiment grounding; cross-context transfer validity.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Causal validation of representative mechanisms; tested application/experiment grounding; cross-context transfer validity.",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "H%7CCT",
+     "type": "select",
+     "select": {
+      "id": "a82faf50-e31f-43b1-af0b-9c90d825f2fc",
+      "name": "Needs Follow-up",
+      "color": "yellow"
+     }
+    },
+    "Why It Matters": {
+     "id": "L~IB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "KNG-43 has bounded coverage and a validated initial dependency model, but the mechanism layer is still derived at a high level. Deeper mapping is required before a later Stage Gate can assess promotion beyond SYNTHESIZED.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "KNG-43 has bounded coverage and a validated initial dependency model, but the mechanism layer is still derived at a high level. Deeper mapping is required before a later Stage Gate can assess promotion beyond SYNTHESIZED.",
+       "href": null
+      }
+     ]
+    },
+    "Priority": {
+     "id": "P%3FCA",
+     "type": "select",
+     "select": {
+      "id": "f481b6ea-c8d7-4d4d-a010-08750a5e0672",
+      "name": "Critical",
+      "color": "red"
+     }
+    },
+    "Last Attempt": {
+     "id": "Vr%5Dv",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Question": {
+     "id": "VsPM",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "What mechanisms and dependency relationships connect the Master Map layers, and where do those relationships change by domain, level, context, or method?",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "What mechanisms and dependency relationships connect the Master Map layers, and where do those relationships change by domain, level, context, or method?",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "b%5BhU",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Marketing knowledge architecture / theory / mechanism mapping",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Marketing knowledge architecture / theory / mechanism mapping",
+       "href": null
+      }
+     ]
+    },
+    "Findings": {
+     "id": "kFaj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "RSH-15 has completed mechanism mapping, comparative outcome testing, moderator/context transfer testing, schema completion, provenance reconciliation, adversarial exception testing, and the formal KNG-43 Stage Gate. The Stage Gate holds KNG-43 at SYNTHESIZED because structural readiness is satisfied but causal evidence, tested application grounding and broader transfer validity are not.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "RSH-15 has completed mechanism mapping, comparative outcome testing, moderator/context transfer testing, schema completion, provenance reconciliation, adversarial exception testing, and the formal KNG-43 Stage Gate. The Stage Gate holds KNG-43 at SYNTHESIZED because structural readiness is satisfied but causal evidence, tested application grounding and broader transfer validity are not.",
+       "href": null
+      }
+     ]
+    },
+    "Research ID": {
+     "id": "kr%40%3F",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "RSH",
+      "number": 15
+     }
+    },
+    "Next Action": {
+     "id": "uZ%7Cc",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Start a bounded causal-validation stream, selecting one high-value mechanism at a time and matching claim, level, evidence design, context and application before any promotion.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Start a bounded causal-validation stream, selecting one high-value mechanism at a time and matching claim, level, evidence design, context and application before any promotion.",
+       "href": null
+      }
+     ]
+    },
+    "Sources Needed": {
+     "id": "%7BhQt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Marketing theory and mechanism literature; consumer psychology; pricing/channel/retailing; innovation; CRM/CX; digital/MarTech; service and societal marketing evidence.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Marketing theory and mechanism literature; consumer psychology; pricing/channel/retailing; innovation; CRM/CX; digital/MarTech; service and societal marketing evidence.",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Deepen Marketing Master Map — Cross-Layer Mechanisms & Dependencies",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Deepen Marketing Master Map — Cross-Layer Mechanisms & Dependencies",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Deepen-Marketing-Master-Map-Cross-Layer-Mechanisms-Dependencies-3e658a0779e88182928ec316f113cdc7",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-815e-90dd-d5fbb6d53dec",
+   "created_time": "2026-09-25T21:57:00.000Z",
+   "last_edited_time": "2026-09-25T22:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "41543987-e610-4557-bf71-8fd24c913494"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Gaps": {
+     "id": "HzzA",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "القياس/operationalization التفصيلي، B2B/B2C boundary conditions، institutional/macromarketing critiques، وبعض النماذج المعاصرة.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "القياس/operationalization التفصيلي، B2B/B2C boundary conditions، institutional/macromarketing critiques، وبعض النماذج المعاصرة.",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "H%7CCT",
+     "type": "select",
+     "select": {
+      "id": "a82faf50-e31f-43b1-af0b-9c90d825f2fc",
+      "name": "Needs Follow-up",
+      "color": "yellow"
+     }
+    },
+    "Why It Matters": {
+     "id": "L~IB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "تمنع اختزال قرار الشراء والتبادل في نموذج تسويقي واحد، وتكمل الطبقة النظرية الأساسية.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "تمنع اختزال قرار الشراء والتبادل في نموذج تسويقي واحد، وتكمل الطبقة النظرية الأساسية.",
+       "href": null
+      }
+     ]
+    },
+    "Priority": {
+     "id": "P%3FCA",
+     "type": "select",
+     "select": {
+      "id": "8bce19d1-f7f7-450a-95b7-099f8a239757",
+      "name": "Medium",
+      "color": "yellow"
+     }
+    },
+    "Last Attempt": {
+     "id": "Vr%5Dv",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Question": {
+     "id": "VsPM",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Map the core buyer-behavior and marketing-as-exchange theories, constructs, mechanisms, and empirical boundaries needed to complete RSH-3.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Map the core buyer-behavior and marketing-as-exchange theories, constructs, mechanisms, and empirical boundaries needed to complete RSH-3.",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "b%5BhU",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Foundations / Consumer Behavior / Exchange",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Foundations / Consumer Behavior / Exchange",
+       "href": null
+      }
+     ]
+    },
+    "Findings": {
+     "id": "kFaj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "تمت تغطية theory/construct architecture، exchange evolution، classical buyer models، contemporary adaptive decision research، وحدود القياس. أصبحت RSH-11 متماسكة كطبقة تأسيسية، لكن بقيت نقاط تتطلب مسارًا منفصلًا للقياس والمؤسسات/B2B.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "تمت تغطية theory/construct architecture، exchange evolution، classical buyer models، contemporary adaptive decision research، وحدود القياس. أصبحت RSH-11 متماسكة كطبقة تأسيسية، لكن بقيت نقاط تتطلب مسارًا منفصلًا للقياس والمؤسسات/B2B.",
+       "href": null
+      }
+     ]
+    },
+    "Research ID": {
+     "id": "kr%40%3F",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "RSH",
+      "number": 13
+     }
+    },
+    "Next Action": {
+     "id": "uZ%7Cc",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "إحالة القياس والoperationalization إلى RSH-12، ثم العودة إلى RSH-11 فقط عندما تتطلب فجوة B2B/B2C أو النماذج المعاصرة ذلك.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "إحالة القياس والoperationalization إلى RSH-12، ثم العودة إلى RSH-11 فقط عندما تتطلب فجوة B2B/B2C أو النماذج المعاصرة ذلك.",
+       "href": null
+      }
+     ]
+    },
+    "Sources Needed": {
+     "id": "%7BhQt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Howard & Sheth; Bagozzi; Journal of Marketing Research; Journal of Consumer Research; foundational academic sources",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Howard & Sheth; Bagozzi; Journal of Marketing Research; Journal of Consumer Research; foundational academic sources",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "RSH-11 — Buyer Behavior + Exchange Foundations",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "RSH-11 — Buyer Behavior + Exchange Foundations",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/RSH-11-Buyer-Behavior-Exchange-Foundations-3e658a0779e8815e90ddd5fbb6d53dec",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-816f-986c-dd41f7ce0288",
+   "created_time": "2026-09-25T21:57:00.000Z",
+   "last_edited_time": "2026-09-25T22:38:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "41543987-e610-4557-bf71-8fd24c913494"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Gaps": {
+     "id": "HzzA",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "تبقى: التحقق التطبيقي للمقاييس عبر الأسواق، البنية الرقمية للشراء المؤسسي، لجان الشراء متعددة الأطراف، تطبيق institutional theory على حالات B2B رقمية، واختبار قابلية النقل عبر أسواق/قطاعات محددة.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "تبقى: التحقق التطبيقي للمقاييس عبر الأسواق، البنية الرقمية للشراء المؤسسي، لجان الشراء متعددة الأطراف، تطبيق institutional theory على حالات B2B رقمية، واختبار قابلية النقل عبر أسواق/قطاعات محددة.",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "H%7CCT",
+     "type": "select",
+     "select": {
+      "id": "a82faf50-e31f-43b1-af0b-9c90d825f2fc",
+      "name": "Needs Follow-up",
+      "color": "yellow"
+     }
+    },
+    "Why It Matters": {
+     "id": "L~IB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "تمنع بناء خريطة نظرية غير قابلة للقياس أو تجاهل مستوى النظام/المؤسسات.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "تمنع بناء خريطة نظرية غير قابلة للقياس أو تجاهل مستوى النظام/المؤسسات.",
+       "href": null
+      }
+     ]
+    },
+    "Priority": {
+     "id": "P%3FCA",
+     "type": "select",
+     "select": {
+      "id": "8bce19d1-f7f7-450a-95b7-099f8a239757",
+      "name": "Medium",
+      "color": "yellow"
+     }
+    },
+    "Last Attempt": {
+     "id": "Vr%5Dv",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Question": {
+     "id": "VsPM",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Map institutional and macromarketing foundations and connect major constructs to operational definitions and measurement approaches.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Map institutional and macromarketing foundations and connect major constructs to operational definitions and measurement approaches.",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "b%5BhU",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Foundations / Macromarketing / Measurement",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Foundations / Macromarketing / Measurement",
+       "href": null
+      }
+     ]
+    },
+    "Findings": {
+     "id": "kFaj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "تم إكمال طبقات القياس، صلاحية المقارنة عبر السياقات، الشراء التنظيمي، الأنظمة التسويقية، ثم توسيع التحليل إلى التبادل المؤسسي والسياسة العامة والتوزيع. الأدلة تشير إلى أن المؤسسات والقواعد والشرعية وآليات التحكم تشكل شروط التبادل؛ وأن تحليل الأنظمة التسويقية يتطلب تحديد الحدود والتدفقات والمدخلات والمخرجات والقياس؛ وأن القنوات تجمع محددات اقتصادية واجتماعية-سياسية؛ وأن التسويق والسياسة العامة يشكلان حدًا بحثيًا مستقلًا. كما اكتملت مصفوفة مستويات التحليل، ولم يتم ترقية أي ادعاء سببي إلى Principle.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "تم إكمال طبقات القياس، صلاحية المقارنة عبر السياقات، الشراء التنظيمي، الأنظمة التسويقية، ثم توسيع التحليل إلى التبادل المؤسسي والسياسة العامة والتوزيع. الأدلة تشير إلى أن المؤسسات والقواعد والشرعية وآليات التحكم تشكل شروط التبادل؛ وأن تحليل الأنظمة التسويقية يتطلب تحديد الحدود والتدفقات والمدخلات والمخرجات والقياس؛ وأن القنوات تجمع محددات اقتصادية واجتماعية-سياسية؛ وأن التسويق والسياسة العامة يشكلان حدًا بحثيًا مستقلًا. كما اكتملت مصفوفة مستويات التحليل، ولم يتم ترقية أي ادعاء سببي إلى Principle.",
+       "href": null
+      }
+     ]
+    },
+    "Research ID": {
+     "id": "kr%40%3F",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "RSH",
+      "number": 14
+     }
+    },
+    "Next Action": {
+     "id": "uZ%7Cc",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "بدء الدورة البحثية التالية من فجوات التطبيق: B2B digital buying + measurement invariance applied validation، ثم إعادة دمج النتائج في Master Map.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "بدء الدورة البحثية التالية من فجوات التطبيق: B2B digital buying + measurement invariance applied validation، ثم إعادة دمج النتائج في Master Map.",
+       "href": null
+      }
+     ]
+    },
+    "Sources Needed": {
+     "id": "%7BhQt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Journal of Macromarketing; marketing measurement literature; foundational institutional work; original scale-development studies",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Journal of Macromarketing; marketing measurement literature; foundational institutional work; original scale-development studies",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "RSH-12 — Institutional Macromarketing + Construct Measurement",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "RSH-12 — Institutional Macromarketing + Construct Measurement",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/RSH-12-Institutional-Macromarketing-Construct-Measurement-3e658a0779e8816f986cdd41f7ce0288",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8107-9c72-c49fda2a5025",
+   "created_time": "2026-09-25T20:52:00.000Z",
+   "last_edited_time": "2026-09-25T20:52:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "41543987-e610-4557-bf71-8fd24c913494"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Gaps": {
+     "id": "HzzA",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Status": {
+     "id": "H%7CCT",
+     "type": "select",
+     "select": {
+      "id": "513b2c5c-1c86-4a7e-8387-c06b9a33047c",
+      "name": "Backlog",
+      "color": "gray"
+     }
+    },
+    "Why It Matters": {
+     "id": "L~IB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Map modern execution across the customer lifecycle.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Map modern execution across the customer lifecycle.",
+       "href": null
+      }
+     ]
+    },
+    "Priority": {
+     "id": "P%3FCA",
+     "type": "select",
+     "select": {
+      "id": "5080fb47-7b80-4c2b-9096-8d2b70805dbe",
+      "name": "High",
+      "color": "orange"
+     }
+    },
+    "Last Attempt": {
+     "id": "Vr%5Dv",
+     "type": "date",
+     "date": {
+      "start": "2026-09-25",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Question": {
+     "id": "VsPM",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Study SEO, search, social, paid media, performance marketing, conversion, acquisition, retention, CRM, loyalty, and growth.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Study SEO, search, social, paid media, performance marketing, conversion, acquisition, retention, CRM, loyalty, and growth.",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "b%5BhU",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Digital / Growth",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Digital / Growth",
+       "href": null
+      }
+     ]
+    },
+    "Findings": {
+     "id": "kFaj",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Research ID": {
+     "id": "kr%40%3F",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "RSH",
+      "number": 9
+     }
+    },
+    "Next Action": {
+     "id": "uZ%7Cc",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Sources Needed": {
+     "id": "%7BhQt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Platform documentation; peer-reviewed studies; effectiveness research; case libraries",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Platform documentation; peer-reviewed studies; effectiveness research; case libraries",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Build Digital, Acquisition, Retention & Growth system",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Build Digital, Acquisition, Retention & Growth system",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Build-Digital-Acquisition-Retention-Growth-system-3e658a0779e881079c72c49fda2a5025",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-810f-aef2-d7e02d297014",
+   "created_time": "2026-09-25T20:52:00.000Z",
+   "last_edited_time": "2026-09-25T20:52:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "41543987-e610-4557-bf71-8fd24c913494"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Gaps": {
+     "id": "HzzA",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Status": {
+     "id": "H%7CCT",
+     "type": "select",
+     "select": {
+      "id": "513b2c5c-1c86-4a7e-8387-c06b9a33047c",
+      "name": "Backlog",
+      "color": "gray"
+     }
+    },
+    "Why It Matters": {
+     "id": "L~IB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Establish the core strategic decision layer.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Establish the core strategic decision layer.",
+       "href": null
+      }
+     ]
+    },
+    "Priority": {
+     "id": "P%3FCA",
+     "type": "select",
+     "select": {
+      "id": "5080fb47-7b80-4c2b-9096-8d2b70805dbe",
+      "name": "High",
+      "color": "orange"
+     }
+    },
+    "Last Attempt": {
+     "id": "Vr%5Dv",
+     "type": "date",
+     "date": {
+      "start": "2026-09-25",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Question": {
+     "id": "VsPM",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Study segmentation, targeting, positioning, value proposition, category dynamics, differentiation, and competitive strategy.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Study segmentation, targeting, positioning, value proposition, category dynamics, differentiation, and competitive strategy.",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "b%5BhU",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Strategy",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Strategy",
+       "href": null
+      }
+     ]
+    },
+    "Findings": {
+     "id": "kFaj",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Research ID": {
+     "id": "kr%40%3F",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "RSH",
+      "number": 6
+     }
+    },
+    "Next Action": {
+     "id": "uZ%7Cc",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Sources Needed": {
+     "id": "%7BhQt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Academic texts; Journal of Marketing; professional frameworks; case evidence",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Academic texts; Journal of Marketing; professional frameworks; case evidence",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Build STP and positioning system",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Build STP and positioning system",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Build-STP-and-positioning-system-3e658a0779e8810faef2d7e02d297014",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8114-9701-ddde93aaf389",
+   "created_time": "2026-09-25T20:52:00.000Z",
+   "last_edited_time": "2026-09-25T20:52:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "41543987-e610-4557-bf71-8fd24c913494"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Gaps": {
+     "id": "HzzA",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Status": {
+     "id": "H%7CCT",
+     "type": "select",
+     "select": {
+      "id": "513b2c5c-1c86-4a7e-8387-c06b9a33047c",
+      "name": "Backlog",
+      "color": "gray"
+     }
+    },
+    "Why It Matters": {
+     "id": "L~IB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Keep the knowledge base current in fast-changing areas.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Keep the knowledge base current in fast-changing areas.",
+       "href": null
+      }
+     ]
+    },
+    "Priority": {
+     "id": "P%3FCA",
+     "type": "select",
+     "select": {
+      "id": "5080fb47-7b80-4c2b-9096-8d2b70805dbe",
+      "name": "High",
+      "color": "orange"
+     }
+    },
+    "Last Attempt": {
+     "id": "Vr%5Dv",
+     "type": "date",
+     "date": {
+      "start": "2026-09-25",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Question": {
+     "id": "VsPM",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Study AI in marketing, automation, personalization, data quality, privacy, agentic workflows, and emerging practices.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Study AI in marketing, automation, personalization, data quality, privacy, agentic workflows, and emerging practices.",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "b%5BhU",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Technology / AI",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Technology / AI",
+       "href": null
+      }
+     ]
+    },
+    "Findings": {
+     "id": "kFaj",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Research ID": {
+     "id": "kr%40%3F",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "RSH",
+      "number": 11
+     }
+    },
+    "Next Action": {
+     "id": "uZ%7Cc",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Sources Needed": {
+     "id": "%7BhQt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Current official documentation; 2026 research; academic and professional sources",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Current official documentation; 2026 research; academic and professional sources",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Build AI, MarTech & Future Marketing system",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Build AI, MarTech & Future Marketing system",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Build-AI-MarTech-Future-Marketing-system-3e658a0779e881149701ddde93aaf389",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-811a-a209-d23b2a19e51e",
+   "created_time": "2026-09-25T20:52:00.000Z",
+   "last_edited_time": "2026-09-25T21:56:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "41543987-e610-4557-bf71-8fd24c913494"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Gaps": {
+     "id": "HzzA",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "لم يكتمل بعد: Theory of Buyer Behavior على مستوى construct/model detail؛ Marketing-as-Exchange theory؛ Institutional/Macromarketing foundations؛ operational definitions and measurement scales للـconstructs؛ مقارنة تاريخية منهجية كاملة للمدارس؛ واختبار مدى توافق/اختلاف هذه الأطر في مستويات التحليل المختلفة.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "لم يكتمل بعد: Theory of Buyer Behavior على مستوى construct/model detail؛ Marketing-as-Exchange theory؛ Institutional/Macromarketing foundations؛ operational definitions and measurement scales للـconstructs؛ مقارنة تاريخية منهجية كاملة للمدارس؛ واختبار مدى توافق/اختلاف هذه الأطر في مستويات التحليل المختلفة.",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "H%7CCT",
+     "type": "select",
+     "select": {
+      "id": "0fa2562c-6140-4708-bf55-5e298d10dfd9",
+      "name": "Analysis",
+      "color": "purple"
+     }
+    },
+    "Why It Matters": {
+     "id": "L~IB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Prevent the system from becoming a collection of tactics without theoretical structure.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Prevent the system from becoming a collection of tactics without theoretical structure.",
+       "href": null
+      }
+     ]
+    },
+    "Priority": {
+     "id": "P%3FCA",
+     "type": "select",
+     "select": {
+      "id": "5080fb47-7b80-4c2b-9096-8d2b70805dbe",
+      "name": "High",
+      "color": "orange"
+     }
+    },
+    "Last Attempt": {
+     "id": "Vr%5Dv",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Question": {
+     "id": "VsPM",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Identify the core constructs, theories, schools, and historical development of marketing.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Identify the core constructs, theories, schools, and historical development of marketing.",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "b%5BhU",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Foundations",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Foundations",
+       "href": null
+      }
+     ]
+    },
+    "Findings": {
+     "id": "kFaj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "تم تثبيت طبقة theory/constructs من خلال مصادر أكاديمية أصلية: Hunt (1983) للتفكير في النظرية العامة، Alderson & Martin (1965) للمنظور النظمي/القنوات، Kohli & Jaworski (1990) لمفهوم market orientation، Morgan & Hunt (1994) للعلاقات والثقة/الالتزام، Vargo & Lusch (2004) للـservice-dominant logic، ومصدر 2026 لمشكلة broadening/boundarying. الناتج الحالي هو خريطة طبقية للنظريات والآليات، وليس نظرية موحدة واحدة.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "تم تثبيت طبقة theory/constructs من خلال مصادر أكاديمية أصلية: Hunt (1983) للتفكير في النظرية العامة، Alderson & Martin (1965) للمنظور النظمي/القنوات، Kohli & Jaworski (1990) لمفهوم market orientation، Morgan & Hunt (1994) للعلاقات والثقة/الالتزام، Vargo & Lusch (2004) للـservice-dominant logic، ومصدر 2026 لمشكلة broadening/boundarying. الناتج الحالي هو خريطة طبقية للنظريات والآليات، وليس نظرية موحدة واحدة.",
+       "href": null
+      }
+     ]
+    },
+    "Research ID": {
+     "id": "kr%40%3F",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "RSH",
+      "number": 3
+     }
+    },
+    "Next Action": {
+     "id": "uZ%7Cc",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "استكمال RSH-3 في مسارين مترابطين: (1) Buyer Behavior + Exchange foundations، (2) Institutional/Macromarketing + construct operationalization. ثم إجراء Conflict Check على العلاقات النظرية قبل إنشاء Pattern أو Principle أعلى تجريدًا.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "استكمال RSH-3 في مسارين مترابطين: (1) Buyer Behavior + Exchange foundations، (2) Institutional/Macromarketing + construct operationalization. ثم إجراء Conflict Check على العلاقات النظرية قبل إنشاء Pattern أو Principle أعلى تجريدًا.",
+       "href": null
+      }
+     ]
+    },
+    "Sources Needed": {
+     "id": "%7BhQt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "AMA definitions; textbooks; Journal of Marketing; Journal of Consumer Research; Marketing Science",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "AMA definitions; textbooks; Journal of Marketing; Journal of Consumer Research; Marketing Science",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Map the scientific foundations of marketing",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Map the scientific foundations of marketing",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Map-the-scientific-foundations-of-marketing-3e658a0779e8811aa209d23b2a19e51e",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-813d-8938-f701ce6b82f9",
+   "created_time": "2026-09-25T20:52:00.000Z",
+   "last_edited_time": "2026-09-25T20:52:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "41543987-e610-4557-bf71-8fd24c913494"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Gaps": {
+     "id": "HzzA",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Status": {
+     "id": "H%7CCT",
+     "type": "select",
+     "select": {
+      "id": "513b2c5c-1c86-4a7e-8387-c06b9a33047c",
+      "name": "Backlog",
+      "color": "gray"
+     }
+    },
+    "Why It Matters": {
+     "id": "L~IB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Make research methodology a first-class capability.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Make research methodology a first-class capability.",
+       "href": null
+      }
+     ]
+    },
+    "Priority": {
+     "id": "P%3FCA",
+     "type": "select",
+     "select": {
+      "id": "5080fb47-7b80-4c2b-9096-8d2b70805dbe",
+      "name": "High",
+      "color": "orange"
+     }
+    },
+    "Last Attempt": {
+     "id": "Vr%5Dv",
+     "type": "date",
+     "date": {
+      "start": "2026-09-25",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Question": {
+     "id": "VsPM",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Cover qualitative, quantitative, experimental, sampling, survey design, interviews, customer research, market sizing, and competitive research.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Cover qualitative, quantitative, experimental, sampling, survey design, interviews, customer research, market sizing, and competitive research.",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "b%5BhU",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Market Research",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Market Research",
+       "href": null
+      }
+     ]
+    },
+    "Findings": {
+     "id": "kFaj",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Research ID": {
+     "id": "kr%40%3F",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "RSH",
+      "number": 4
+     }
+    },
+    "Next Action": {
+     "id": "uZ%7Cc",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Sources Needed": {
+     "id": "%7BhQt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Peer-reviewed research; professional standards; academic texts",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Peer-reviewed research; professional standards; academic texts",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Build the Market Research knowledge spine",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Build the Market Research knowledge spine",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Build-the-Market-Research-knowledge-spine-3e658a0779e8813d8938f701ce6b82f9",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-813e-b235-dac4a2f3fb65",
+   "created_time": "2026-09-25T20:52:00.000Z",
+   "last_edited_time": "2026-09-25T20:52:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "41543987-e610-4557-bf71-8fd24c913494"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Gaps": {
+     "id": "HzzA",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Status": {
+     "id": "H%7CCT",
+     "type": "select",
+     "select": {
+      "id": "513b2c5c-1c86-4a7e-8387-c06b9a33047c",
+      "name": "Backlog",
+      "color": "gray"
+     }
+    },
+    "Why It Matters": {
+     "id": "L~IB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Cover the full communication architecture without making content the center of the system.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Cover the full communication architecture without making content the center of the system.",
+       "href": null
+      }
+     ]
+    },
+    "Priority": {
+     "id": "P%3FCA",
+     "type": "select",
+     "select": {
+      "id": "5080fb47-7b80-4c2b-9096-8d2b70805dbe",
+      "name": "High",
+      "color": "orange"
+     }
+    },
+    "Last Attempt": {
+     "id": "Vr%5Dv",
+     "type": "date",
+     "date": {
+      "start": "2026-09-25",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Question": {
+     "id": "VsPM",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Study brand strategy, identity, image, equity, reputation, advertising, PR, content, copywriting, storytelling, influencer and direct marketing.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Study brand strategy, identity, image, equity, reputation, advertising, PR, content, copywriting, storytelling, influencer and direct marketing.",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "b%5BhU",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Brand / Communication",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Brand / Communication",
+       "href": null
+      }
+     ]
+    },
+    "Findings": {
+     "id": "kFaj",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Research ID": {
+     "id": "kr%40%3F",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "RSH",
+      "number": 8
+     }
+    },
+    "Next Action": {
+     "id": "uZ%7Cc",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Sources Needed": {
+     "id": "%7BhQt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Brand research; advertising research; professional bodies; case studies",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Brand research; advertising research; professional bodies; case studies",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Build Brand & Marketing Communications system",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Build Brand & Marketing Communications system",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Build-Brand-Marketing-Communications-system-3e658a0779e8813eb235dac4a2f3fb65",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8157-aac3-ff469116b175",
+   "created_time": "2026-09-25T20:52:00.000Z",
+   "last_edited_time": "2026-09-25T20:52:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "41543987-e610-4557-bf71-8fd24c913494"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Gaps": {
+     "id": "HzzA",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Status": {
+     "id": "H%7CCT",
+     "type": "select",
+     "select": {
+      "id": "513b2c5c-1c86-4a7e-8387-c06b9a33047c",
+      "name": "Backlog",
+      "color": "gray"
+     }
+    },
+    "Why It Matters": {
+     "id": "L~IB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Create the behavioral layer that connects to strategy and execution.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Create the behavioral layer that connects to strategy and execution.",
+       "href": null
+      }
+     ]
+    },
+    "Priority": {
+     "id": "P%3FCA",
+     "type": "select",
+     "select": {
+      "id": "5080fb47-7b80-4c2b-9096-8d2b70805dbe",
+      "name": "High",
+      "color": "orange"
+     }
+    },
+    "Last Attempt": {
+     "id": "Vr%5Dv",
+     "type": "date",
+     "date": {
+      "start": "2026-09-25",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Question": {
+     "id": "VsPM",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Map consumer decision making, perception, motivation, emotion, habits, social influence, trust, risk, and post-purchase behavior.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Map consumer decision making, perception, motivation, emotion, habits, social influence, trust, risk, and post-purchase behavior.",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "b%5BhU",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Consumer Behavior",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Consumer Behavior",
+       "href": null
+      }
+     ]
+    },
+    "Findings": {
+     "id": "kFaj",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Research ID": {
+     "id": "kr%40%3F",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "RSH",
+      "number": 5
+     }
+    },
+    "Next Action": {
+     "id": "uZ%7Cc",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Sources Needed": {
+     "id": "%7BhQt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Journal of Consumer Research; Journal of Consumer Psychology; behavioral science literature",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Journal of Consumer Research; Journal of Consumer Psychology; behavioral science literature",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Build Consumer Behavior & Decision Science core",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Build Consumer Behavior & Decision Science core",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Build-Consumer-Behavior-Decision-Science-core-3e658a0779e88157aac3ff469116b175",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8164-a439-d073a5874304",
+   "created_time": "2026-09-25T20:52:00.000Z",
+   "last_edited_time": "2026-09-25T22:36:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "41543987-e610-4557-bf71-8fd24c913494"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Gaps": {
+     "id": "HzzA",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Deeper mechanism/dependency mapping in moderate-coverage domains; additional edge cases may be required for specific future applications. KNG-43 is not promoted to ACTIVE because the architecture remains a derived design with documented scope limits.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Deeper mechanism/dependency mapping in moderate-coverage domains; additional edge cases may be required for specific future applications. KNG-43 is not promoted to ACTIVE because the architecture remains a derived design with documented scope limits.",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "H%7CCT",
+     "type": "select",
+     "select": {
+      "id": "16e93b6d-ec83-4c4c-9896-b6c8af39dd56",
+      "name": "Integrated",
+      "color": "green"
+     }
+    },
+    "Why It Matters": {
+     "id": "L~IB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Ensure no major branch is missing and prevent over-weighting digital/content topics.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Ensure no major branch is missing and prevent over-weighting digital/content topics.",
+       "href": null
+      }
+     ]
+    },
+    "Priority": {
+     "id": "P%3FCA",
+     "type": "select",
+     "select": {
+      "id": "f481b6ea-c8d7-4d4d-a010-08750a5e0672",
+      "name": "Critical",
+      "color": "red"
+     }
+    },
+    "Last Attempt": {
+     "id": "Vr%5Dv",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Question": {
+     "id": "VsPM",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Validate a complete taxonomy of marketing domains against independent professional and academic sources.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Validate a complete taxonomy of marketing domains against independent professional and academic sources.",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "b%5BhU",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Marketing taxonomy",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Marketing taxonomy",
+       "href": null
+      }
+     ]
+    },
+    "Findings": {
+     "id": "kFaj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "RSH-1 is integrated at bounded scope. The current selected book layer is 30 unique titles; the older Consumer Behavior 14th edition is retained as historical superseded and excluded from that count. The declared specialist-journal control set and edge-case tests support a multidimensional architecture with explicit dependencies among question/domain, theory/construct, mechanism, level, method/evidence, context/market and application/experiment, plus transversal technology and historical/paradigm overlays.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "RSH-1 is integrated at bounded scope. The current selected book layer is 30 unique titles; the older Consumer Behavior 14th edition is retained as historical superseded and excluded from that count. The declared specialist-journal control set and edge-case tests support a multidimensional architecture with explicit dependencies among question/domain, theory/construct, mechanism, level, method/evidence, context/market and application/experiment, plus transversal technology and historical/paradigm overlays.",
+       "href": null
+      }
+     ]
+    },
+    "Research ID": {
+     "id": "kr%40%3F",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "RSH",
+      "number": 1
+     }
+    },
+    "Next Action": {
+     "id": "uZ%7Cc",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Start a new bounded research stream for cross-layer mechanisms/dependencies and use its results for a later Stage Gate review of KNG-43.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Start a new bounded research stream for cross-layer mechanisms/dependencies and use its results for a later Stage Gate review of KNG-43.",
+       "href": null
+      }
+     ]
+    },
+    "Sources Needed": {
+     "id": "%7BhQt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "AMA competency model; CIM GPMF; academic marketing textbooks; major journals",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "AMA competency model; CIM GPMF; academic marketing textbooks; major journals",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Validate the Marketing Master Map",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Validate the Marketing Master Map",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Validate-the-Marketing-Master-Map-3e658a0779e88164a439d073a5874304",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8188-a4ce-eae4673a2973",
+   "created_time": "2026-09-25T20:52:00.000Z",
+   "last_edited_time": "2026-09-25T20:52:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "41543987-e610-4557-bf71-8fd24c913494"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Gaps": {
+     "id": "HzzA",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Status": {
+     "id": "H%7CCT",
+     "type": "select",
+     "select": {
+      "id": "513b2c5c-1c86-4a7e-8387-c06b9a33047c",
+      "name": "Backlog",
+      "color": "gray"
+     }
+    },
+    "Why It Matters": {
+     "id": "L~IB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Create the core long-form reference layer.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Create the core long-form reference layer.",
+       "href": null
+      }
+     ]
+    },
+    "Priority": {
+     "id": "P%3FCA",
+     "type": "select",
+     "select": {
+      "id": "f481b6ea-c8d7-4d4d-a010-08750a5e0672",
+      "name": "Critical",
+      "color": "red"
+     }
+    },
+    "Last Attempt": {
+     "id": "Vr%5Dv",
+     "type": "date",
+     "date": {
+      "start": "2026-09-25",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Question": {
+     "id": "VsPM",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Identify and verify at least 20 high-value books spanning strategy, consumer behavior, branding, research, pricing, digital, analytics, growth, and marketing science.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Identify and verify at least 20 high-value books spanning strategy, consumer behavior, branding, research, pricing, digital, analytics, growth, and marketing science.",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "b%5BhU",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Foundations / References",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Foundations / References",
+       "href": null
+      }
+     ]
+    },
+    "Findings": {
+     "id": "kFaj",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Research ID": {
+     "id": "kr%40%3F",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "RSH",
+      "number": 2
+     }
+    },
+    "Next Action": {
+     "id": "uZ%7Cc",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Sources Needed": {
+     "id": "%7BhQt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Publisher pages; ISBN records; library catalogs; author/publisher sources",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Publisher pages; ISBN records; library catalogs; author/publisher sources",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Build the 20+ Core Marketing Books Library",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Build the 20+ Core Marketing Books Library",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Build-the-20-Core-Marketing-Books-Library-3e658a0779e88188a4ceeae4673a2973",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-818d-b1d0-c87f7cd6a405",
+   "created_time": "2026-09-25T20:52:00.000Z",
+   "last_edited_time": "2026-09-25T20:52:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "41543987-e610-4557-bf71-8fd24c913494"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Gaps": {
+     "id": "HzzA",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Status": {
+     "id": "H%7CCT",
+     "type": "select",
+     "select": {
+      "id": "513b2c5c-1c86-4a7e-8387-c06b9a33047c",
+      "name": "Backlog",
+      "color": "gray"
+     }
+    },
+    "Why It Matters": {
+     "id": "L~IB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Cover the value creation, capture, and delivery layer.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Cover the value creation, capture, and delivery layer.",
+       "href": null
+      }
+     ]
+    },
+    "Priority": {
+     "id": "P%3FCA",
+     "type": "select",
+     "select": {
+      "id": "5080fb47-7b80-4c2b-9096-8d2b70805dbe",
+      "name": "High",
+      "color": "orange"
+     }
+    },
+    "Last Attempt": {
+     "id": "Vr%5Dv",
+     "type": "date",
+     "date": {
+      "start": "2026-09-25",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Question": {
+     "id": "VsPM",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Study product strategy, product marketing, offers, pricing, channels, distribution, retail, e-commerce, and omnichannel.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Study product strategy, product marketing, offers, pricing, channels, distribution, retail, e-commerce, and omnichannel.",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "b%5BhU",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Commercial / Product",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Commercial / Product",
+       "href": null
+      }
+     ]
+    },
+    "Findings": {
+     "id": "kFaj",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Research ID": {
+     "id": "kr%40%3F",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "RSH",
+      "number": 7
+     }
+    },
+    "Next Action": {
+     "id": "uZ%7Cc",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Sources Needed": {
+     "id": "%7BhQt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Academic research; professional frameworks; industry evidence",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Academic research; professional frameworks; industry evidence",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Build Product, Offer, Pricing & Distribution system",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Build Product, Offer, Pricing & Distribution system",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Build-Product-Offer-Pricing-Distribution-system-3e658a0779e8818db1d0c87f7cd6a405",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8197-8a45-ed348172491f",
+   "created_time": "2026-09-25T20:52:00.000Z",
+   "last_edited_time": "2026-09-25T20:52:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "41543987-e610-4557-bf71-8fd24c913494"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Gaps": {
+     "id": "HzzA",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Status": {
+     "id": "H%7CCT",
+     "type": "select",
+     "select": {
+      "id": "513b2c5c-1c86-4a7e-8387-c06b9a33047c",
+      "name": "Backlog",
+      "color": "gray"
+     }
+    },
+    "Why It Matters": {
+     "id": "L~IB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Prevent vanity metrics and weak causal claims.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Prevent vanity metrics and weak causal claims.",
+       "href": null
+      }
+     ]
+    },
+    "Priority": {
+     "id": "P%3FCA",
+     "type": "select",
+     "select": {
+      "id": "5080fb47-7b80-4c2b-9096-8d2b70805dbe",
+      "name": "High",
+      "color": "orange"
+     }
+    },
+    "Last Attempt": {
+     "id": "Vr%5Dv",
+     "type": "date",
+     "date": {
+      "start": "2026-09-25",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Question": {
+     "id": "VsPM",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Study KPIs, CAC, LTV, ROI, ROAS, attribution, incrementality, experimentation, causal inference, and marketing mix modeling.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Study KPIs, CAC, LTV, ROI, ROAS, attribution, incrementality, experimentation, causal inference, and marketing mix modeling.",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "b%5BhU",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Analytics / Measurement",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Analytics / Measurement",
+       "href": null
+      }
+     ]
+    },
+    "Findings": {
+     "id": "kFaj",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Research ID": {
+     "id": "kr%40%3F",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "RSH",
+      "number": 10
+     }
+    },
+    "Next Action": {
+     "id": "uZ%7Cc",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Sources Needed": {
+     "id": "%7BhQt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Marketing Science; peer-reviewed research; official measurement documentation",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Marketing Science; peer-reviewed research; official measurement documentation",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Build Analytics, Measurement & Marketing Science system",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Build Analytics, Measurement & Marketing Science system",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Build-Analytics-Measurement-Marketing-Science-system-3e658a0779e881978a45ed348172491f",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81f0-866f-f46bca3773dd",
+   "created_time": "2026-09-25T20:52:00.000Z",
+   "last_edited_time": "2026-09-25T20:52:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "41543987-e610-4557-bf71-8fd24c913494"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Gaps": {
+     "id": "HzzA",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Status": {
+     "id": "H%7CCT",
+     "type": "select",
+     "select": {
+      "id": "513b2c5c-1c86-4a7e-8387-c06b9a33047c",
+      "name": "Backlog",
+      "color": "gray"
+     }
+    },
+    "Why It Matters": {
+     "id": "L~IB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Separate experience from general evidence while preserving practical learning.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Separate experience from general evidence while preserving practical learning.",
+       "href": null
+      }
+     ]
+    },
+    "Priority": {
+     "id": "P%3FCA",
+     "type": "select",
+     "select": {
+      "id": "5080fb47-7b80-4c2b-9096-8d2b70805dbe",
+      "name": "High",
+      "color": "orange"
+     }
+    },
+    "Last Attempt": {
+     "id": "Vr%5Dv",
+     "type": "date",
+     "date": {
+      "start": "2026-09-25",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Question": {
+     "id": "VsPM",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Create a structured library of cases, experiments, practitioner insights, and documented outcomes.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Create a structured library of cases, experiments, practitioner insights, and documented outcomes.",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "b%5BhU",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Cases / Practice",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Cases / Practice",
+       "href": null
+      }
+     ]
+    },
+    "Findings": {
+     "id": "kFaj",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Research ID": {
+     "id": "kr%40%3F",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "RSH",
+      "number": 12
+     }
+    },
+    "Next Action": {
+     "id": "uZ%7Cc",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Sources Needed": {
+     "id": "%7BhQt",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "WARC; company case studies; practitioner sources; academic cases",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "WARC; company case studies; practitioner sources; academic cases",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Build the Case & Practitioner Evidence Library",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Build the Case & Practitioner Evidence Library",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Build-the-Case-Practitioner-Evidence-Library-3e658a0779e881f0866ff46bca3773dd",
+   "public_url": null,
+   "archived": false
+  }
+ ]
+}

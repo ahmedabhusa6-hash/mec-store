@@ -1,0 +1,134 @@
+{
+ "capture_reason": "NEWLY_ACCESSIBLE",
+ "captured_at": "2026-10-02T12:16:49+03:00",
+ "title": "Xero",
+ "last_edited": "2026-09-25T20:01:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e658a07-79e8-8195-bed8-ff74e2a8e83a",
+  "created_time": "2026-09-25T20:01:00.000Z",
+  "last_edited_time": "2026-09-25T20:01:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "102d3400-edaa-45e3-8a54-c9c805d465ed"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "Status": {
+    "id": "%3Fp%3Ek",
+    "type": "status",
+    "status": {
+     "id": "74fba241-06ba-433f-84e1-ba5ef614926e",
+     "name": "تم",
+     "color": "green"
+    }
+   },
+   "Entity Type": {
+    "id": "YBX%7C",
+    "type": "select",
+    "select": {
+     "id": "92b5b9bd-e993-4df5-8424-f1af8d23770f",
+     "name": "Company",
+     "color": "blue"
+    }
+   },
+   "Geographic Scope": {
+    "id": "%5Bz_Y",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Global",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Global",
+      "href": null
+     }
+    ]
+   },
+   "Parent Entity": {
+    "id": "_uUF",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Industry Scope": {
+    "id": "kF%5B%5C",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Accounting software / cloud accounting",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Accounting software / cloud accounting",
+      "href": null
+     }
+    ]
+   },
+   "Notes": {
+    "id": "psFm",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Name": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Xero",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Xero",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/Xero-3e658a0779e88195bed8ff74e2a8e83a",
+  "public_url": null,
+  "archived": false,
+  "request_id": "75dcdded-615f-4242-a2e2-95abfe7da587"
+ },
+ "block_count": 0,
+ "blocks": []
+}

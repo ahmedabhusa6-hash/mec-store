@@ -1,0 +1,234 @@
+{
+  "run": "MEC-5.0 Agent B",
+  "mission": "Public vs API/wholesale price gap research: Kinguin, SEAGM, OffGamers",
+  "date_accessed": "2026-09-27",
+  "targets": {
+    "kinguin": {
+      "target": "Kinguin (kinguin.net) — global game key marketplace",
+      "api_program_exists": true,
+      "api_program_name": "Kinguin Integration (ESA eCommerce API)",
+      "access_requirements": "1) Create Kinguin ID account; 2) Apply at https://www.kinguin.net/integration via 'APPLY FOR ACCESS' button; 3) Manual approval (auto-approved if already an active Kinguin Seller, notification by e-mail); 4) API key issued in Dashboard > MY STORES (https://www.kinguin.net/integration/dashboard/stores); 5) default billing address on Kinguin ID required to place orders; 6) SANDBOX: self-registration at https://sandbox.kinguin.net/integration with separate credentials, then 'ask your business manager to fill your account with balance'. API itself free to qualified online retailers (per launch coverage). Auth: 'X-Api-Key' HTTP header. Production: https://gateway.kinguin.net/esa/api — Sandbox: https://gateway.sandbox.kinguin.net/esa/api",
+      "api_endpoint_structure": {
+        "products": [
+          "GET /v1/products (search: name, platform, genre, kinguinId, productId, regionId, tags, updatedSince..., limit<=100)",
+          "GET /v1/products/{kinguinId}",
+          "GET /v2/products/{productId}"
+        ],
+        "orders": [
+          "POST /v2/order (products[{productId|kinguinId, qty, price, offerId}], couponCode)",
+          "GET /v2/order/{orderId}/keys"
+        ],
+        "other": [
+          "balance/v1",
+          "webhooks (order.status, product.update)",
+          "platforms/regions/genres endpoints (2025)"
+        ],
+        "product_price_fields": "Single 'price' (float) on product + per-offer 'offers[].price' with 'merchantName', 'qty', 'textQty', 'cheapestOfferId', 'offersCount', 'totalQty'. Order payload must echo the product price. NO separate retailPrice/wholesalePrice fields — wholesale is exposed per-offer as offers[].wholesale = {enabled: bool, tiers: [{level, price}]}"
+      },
+      "wholesale_pricing_evidence": [
+        {
+          "evidence": "Official Wholesale feature doc (features/Wholesale.md) with worked example: Counter-Strike: Source Steam CD Key (kinguinId 1949, merchant KinguinHK), base price 5.79, wholesale tiers L1=5.50 (qty 10+), L2=5.40 (qty 50+), L3=5.30 (qty 100+), L4=5.20 (qty 500+). Rules: wholesale only for offers with wholesale.enabled=true and qty>9; offerId required; max offer qty 1000; max total order qty 1000; paginate keys if >100.",
+          "source": "https://github.com/kinguinltdhk/Kinguin-eCommerce-API/blob/master/features/Wholesale.md (fetched raw 2026-09-27)",
+          "date": "2026-09-27"
+        },
+        {
+          "evidence": "CHANGELOG 2024-06-18: 'Added: wholesale purchasing; added offers.availableQty and offers.availableTextQty fields; quantity limit per offer is 9 (regular), max 10 unique items per order'.",
+          "source": "https://github.com/kinguinltdhk/Kinguin-eCommerce-API/blob/master/CHANGELOG.md",
+          "date": "2026-09-27"
+        },
+        {
+          "evidence": "Order v2 doc: 'The qty limit for one offer is 9. The maximum number of items in products is 10. For the wholesale purchases the limit is 1k. offerId required only for wholesale purchases.'",
+          "source": "https://github.com/kinguinltdhk/Kinguin-eCommerce-API/blob/master/api/order/v2/README.md",
+          "date": "2026-09-27"
+        },
+        {
+          "evidence": "Launch coverage: 'The newly released API is free to qualified online retailers and makes it easy to list, price, and sell thousands of video games' (Oct 18, 2018).",
+          "source": "https://europeangaming.eu (via web-search snippet; direct fetch Cloudflare-403)",
+          "date": "2026-09-27"
+        },
+        {
+          "evidence": "Kinguin self-description: 'Kinguin API for eCommerce is a digital key distribution system, which links Kinguin's marketplace database with an external online store.' (kinguin.net, Oct 9, 2023, via web-search snippet)",
+          "source": "https://www.kinguin.net (via web-search snippet)",
+          "date": "2026-09-27"
+        }
+      ],
+      "dual_price_rows": [
+        {
+          "product": "Counter-Strike: Source Steam CD Key (kinguinId 1949) — wholesale tier 1 (qty 10+)",
+          "public_price": 5.79,
+          "api_wholesale_price": 5.5,
+          "gap_pct": 5.0,
+          "source": "Official API docs example: github.com/kinguinltdhk/Kinguin-eCommerce-API features/Wholesale.md",
+          "date": "2026-09-27"
+        },
+        {
+          "product": "Counter-Strike: Source Steam CD Key — wholesale tier 2 (qty 50+)",
+          "public_price": 5.79,
+          "api_wholesale_price": 5.4,
+          "gap_pct": 6.7,
+          "source": "Official API docs example: features/Wholesale.md",
+          "date": "2026-09-27"
+        },
+        {
+          "product": "Counter-Strike: Source Steam CD Key — wholesale tier 3 (qty 100+)",
+          "public_price": 5.79,
+          "api_wholesale_price": 5.3,
+          "gap_pct": 8.5,
+          "source": "Official API docs example: features/Wholesale.md",
+          "date": "2026-09-27"
+        },
+        {
+          "product": "Counter-Strike: Source Steam CD Key — wholesale tier 4 (qty 500+)",
+          "public_price": 5.79,
+          "api_wholesale_price": 5.2,
+          "gap_pct": 10.2,
+          "source": "Official API docs example: features/Wholesale.md",
+          "date": "2026-09-27"
+        }
+      ],
+      "live_checks": [
+        {
+          "endpoint": "https://gateway.kinguin.net/esa/api/v1/products?name=forza&limit=1",
+          "result": "HTTP 401 {kind:Authentication, detail:Unauthorized} — endpoint LIVE, auth-gated"
+        },
+        {
+          "endpoint": "https://gateway.sandbox.kinguin.net/esa/api/v1/products?name=counter&limit=1",
+          "result": "HTTP 401 {kind:Authentication} — sandbox LIVE"
+        },
+        {
+          "endpoint": "https://api.github.com/repos/kinguinltdhk/Kinguin-eCommerce-API",
+          "result": "HTTP 200, repo active, last updated 2026-09-18, 50 stars — API docs actively maintained"
+        }
+      ],
+      "blocked_pages": [
+        "https://www.kinguin.net/developer/api (Cloudflare 403)",
+        "https://www.kinguin.net/integration (Cloudflare 403)",
+        "https://www.kinguin.net/integration/dashboard/stores (Cloudflare 403)",
+        "https://sandbox.kinguin.net/integration (Cloudflare 403)",
+        "https://gateway.kinguin.net root (404, but /esa/api/* live)",
+        "https://europeangaming.eu Kinguin API article (Cloudflare 403)",
+        "https://cdkeyprices.com CS:Source price page (403) — retail comparison blocked",
+        "https://gg.deals/game/counter-strike-source/ (Cloudflare 403) — retail comparison blocked",
+        "archive.org wayback (unreachable/timeout)"
+      ],
+      "raw_notes": "Kinguin = STRONGEST API target of the three: fully documented public B2B API (ESA/eCommerce API) with self-serve sandbox, and a documented wholesale tier system per-offer (4 levels, qty 10+/50+/100+/500+). Docs example shows 5.0-10.2% gap between API base price and wholesale tiers. IMPORTANT CAVEAT: the 5.79/5.50/5.40/5.30/5.20 numbers are the OFFICIAL DOCUMENTATION EXAMPLE (single product), not a scraped catalog — live catalog prices require approved API key (not obtainable without account+approval). API base price itself = reseller cost from Kinguin (reseller then applies own markup); Kinguin retail site adds buyer-protection fee on top, so effective public-vs-API gap for a store operator is larger than the tier discounts alone, but retail comparison fetches were Cloudflare-blocked (recorded, not fabricated)."
+    },
+    "seagm": {
+      "target": "SEAGM (seagm.com) — SEA digital marketplace, SEA Gamer Mall Sdn Bhd (MY)",
+      "api_program_exists": false,
+      "access_requirements": "No public API. B2B via Partnership application form at https://www.seagm.com/page/index?view=partnership: select service type (Merchant/Reseller, Agent, Bulk Purchase, Supplier), usage (Resell / Purchase on behalf of Third Party / Giveaway / Others), targeted markets, monthly transaction volume (<10 to 10,000+), average transaction value, current monthly volume (USD up to Above 300,000), 'Starting Funds with SEAGM (USD)' options: 3,000 / 5,000 / 10,000 / 30,000 / 50,000, 'Minimum Order Quantity' free text with placeholder example 'E.g. USD 10,000', payment currency (USD/MYR), company info — then SEAGM business team responds (quote/negotiation-based onboarding).",
+      "wholesale_pricing_evidence": [
+        {
+          "evidence": "Partnership form field 'Types of Services' includes 'Bulk Purchase' and 'Merchant / Reseller' + 'Agent' + 'Supplier' — official B2B/wholesale channels exist.",
+          "source": "https://www.seagm.com/page/index?view=partnership (fetched HTTP 200)",
+          "date": "2026-09-27"
+        },
+        {
+          "evidence": "Form field 'Starting Funds with SEAGM (USD)' options 3,000/5,000/10,000/30,000/50,000 and 'Minimum Order Quantity E.g. USD 10,000' — implies deposit/prepaid-funding model for reseller accounts, no public discount schedule.",
+          "source": "https://www.seagm.com/page/index?view=partnership",
+          "date": "2026-09-27"
+        },
+        {
+          "evidence": "api.seagm.com is live but returns app-version JSON {code:600011, message:'Please update to the latest version...'} — internal mobile-app API, NOT a public reseller API.",
+          "source": "https://api.seagm.com (direct fetch)",
+          "date": "2026-09-27"
+        },
+        {
+          "evidence": "Third-party reseller platform markets itself as 'SEAGM alternative for resellers' comparing prices/catalog/API/onboarding ('Ищете альтернативу SEAGM? Сравнение FazerCards и SEAGM для реселлеров: цены, каталог, API, оплата, скорость онбординга'), confirming SEAGM is used as a reseller sourcing channel in the market.",
+          "source": "https://reseller.fazercards.com (web-search snippet, May 24, 2026)",
+          "date": "2026-09-27"
+        }
+      ],
+      "dual_price_rows": [],
+      "live_checks": [
+        {
+          "endpoint": "https://www.seagm.com/",
+          "result": "HTTP 200 (server-rendered, fetchable)"
+        },
+        {
+          "endpoint": "https://www.seagm.com/page/index?view=partnership",
+          "result": "HTTP 200 — partnership form captured"
+        },
+        {
+          "endpoint": "https://api.seagm.com",
+          "result": "HTTP 200 JSON app-version error (internal app API)"
+        },
+        {
+          "endpoint": "help.seagm.com help center",
+          "result": "custom SPA; sitemap/hc article crawl shows only consumer how-to articles (no reseller/bulk/API articles); /api/v2 Zendesk-style endpoints rewritten to store homepage"
+        }
+      ],
+      "blocked_pages": [
+        "https://www.seagm.com/bulk (404)",
+        "https://www.seagm.com/reseller (404)",
+        "https://www.seagm.com/api (404)",
+        "https://www.seagm.com/b2b, /wholesale (404)",
+        "https://www.seagm.com/page/index?view=bulk|reseller|api|dealer → 'Unable to find the page you are looking for' (soft-404)"
+      ],
+      "raw_notes": "SEAGM: NO public API and NO public wholesale price list. B2B is real but quote-based via Partnership form (Merchant/Reseller, Agent, Bulk Purchase, Supplier; starting funds USD 3k-50k; min order example USD 10k). Sister marketplace KALEOZ (kaleoz.com) linked from SEAGM footer (same group). Any wholesale discount schedule would only surface post-application (needs account manager contact) — candidate for Phase 2 'inquiry-based' data collection, not for public-scrape gap analysis."
+    },
+    "offgamers": {
+      "target": "OffGamers (offgamers.com) — digital games & gift cards, Hydron Holdings subsidiary (also owns G2G.com)",
+      "api_program_exists": true,
+      "access_requirements": "Two distinct tracks: (1) SUPPLIER-side API — official 'Merchant Deck' B2B partnership (Hydron Holdings): 'Publishers and brand owners can retail their products for both B2C and C2C markets', 'Seamless API Feature: Pricing control feature, Threshold control, Self inventory management', 'One Integration for Two Portals' (OffGamers + G2G), 'Zero listing and account maintenance fees', contact = OffGamers Global Pte. Ltd. Singapore HQ + OffGamers Sdn. Bhd. Malaysia. (2) BUYER-side reseller program — via helpdesk ticket category 'I want to be a Reseller' (application-based, quote-based). No self-serve API keys, no public developer docs.",
+      "wholesale_pricing_evidence": [
+        {
+          "evidence": "Official Merchant Deck PDF (merchant_deck_v9.pdf, 3.2MB, 9+ pages) downloaded from hydron.holdings: 'Seamless API Feature — Pricing control feature, Threshold control, Self inventory management'; 'One Integration for Two Portals'; 'Zero listing and account maintenance fees, with no additional charges for price updates'; 'No Forex Exchange Risk'; 'Low Fees & High Credit Card Acceptance Rate'; 'International Chargeback Protected'; 200+ payment options; 21+ settlement currencies; 5200 brands; 16M registered users; 35M transactions.",
+          "source": "https://hydron.holdings/merchant_deck_v9.pdf (linked from https://hydron.holdings/services/offgamers)",
+          "date": "2026-09-27"
+        },
+        {
+          "evidence": "Helpdesk ticket submission form contains official category 'I want to be a Reseller' — reseller onboarding channel exists (application-based).",
+          "source": "https://helpdesk.offgamers.com/support/tickets/new",
+          "date": "2026-09-27"
+        },
+        {
+          "evidence": "Public Membership Tier System (loyalty, not wholesale): Member→Bronze (first completed order)→Silver (USD $500 total spending)→Gold (USD $3,000)→Platinum (USD $10,000); 'The actual OffGamers Points issued is based on the membership status at the time of purchase'; upgrades within 24-72h. (Points = effective volume rebate for public buyers.)",
+          "source": "https://helpdesk.offgamers.com/support/solutions/articles/5000884236-membership-tier-system (modified Aug 5, 2026)",
+          "date": "2026-09-27"
+        }
+      ],
+      "dual_price_rows": [],
+      "live_checks": [
+        {
+          "endpoint": "https://www.offgamers.com/",
+          "result": "HTTP 200 but Vue SPA shell (JS-rendered); rendered via headless browser — homepage product feed + footer extracted"
+        },
+        {
+          "endpoint": "https://hydron.holdings/services/offgamers",
+          "result": "HTTP 200 rendered: 'OffGamers, a proud Hydron Holdings subsidiary with over 20 years of experience... Official. Trusted. Lowest Prices - Every day.' + Merchant Deck download"
+        },
+        {
+          "endpoint": "https://helpdesk.offgamers.com (Freshdesk)",
+          "result": "HTTP 200 — full knowledge base crawled: 8 folders (Getting Started 19, Purchase 18, Code Redemption 118, FAQ 36, Device Pin 9, Policy 4, Technical 5, Scam Alert 39) — ZERO reseller/bulk/API/wholesale articles"
+        },
+        {
+          "endpoint": "SPA routes /affiliate /affiliate-program /merchant /partner /bulk",
+          "result": "rendered = 'Sorry, this page can't be found' — no public reseller/affiliate pages"
+        }
+      ],
+      "blocked_pages": [
+        "https://www.offgamers.com/sitemap.xml (returns SPA HTML, not a sitemap)",
+        "OffGamers SPA unknown-route soft-404s (see live_checks)"
+      ],
+      "raw_notes": "OffGamers: B2B exists in two forms — supplier-side official API integration (Merchant Deck: publish products to OffGamers+G2G with pricing control, zero listing fees) and buyer-side reseller program (helpdesk 'I want to be a Reseller' category, quote-based). NO public wholesale price list, NO public reseller API docs, NO bulk discount schedule. Public differential mechanism = Membership Tier System (spend-based OG Points: Silver $500 / Gold $3,000 / Platinum $10,000) — a loyalty rebate, not a price gap. Corporate structure: OffGamers = Hydron Holdings subsidiary alongside G2G (marketplace) and Pipwave (payments)."
+    }
+  },
+  "cross_target_summary": {
+    "kinguin": "API program YES (public docs + sandbox + live gateway). Wholesale tiers documented: 5.0-10.2% off API base price at qty 10/50/100/500+ (official doc example, Counter-Strike: Source 5.79→5.20).",
+    "seagm": "API program NO (public). Quote-based B2B partnership (reseller/bulk/supplier) with starting funds USD 3k-50k; no public prices.",
+    "offgamers": "API program YES on supplier side (Merchant Deck: publish via API to OffGamers+G2G, zero listing fees); buyer-side reseller = application only; no public prices; loyalty tiers instead (Platinum at $10k spend).",
+    "comparison_to_prior_runs": "ProdSeller (avg API gap 12.0%) and StackVault (avg gap 19.9%, 274 products) remain the highest-yield differential-pricing sources. Kinguin offers a smaller but DOCUMENTED 5-10% wholesale tier gap with institutional-grade access (sandbox, webhooks). SEAGM/OffGamers are inquiry-gated — pricing not observable without account/manager contact.",
+    "recommended_next_actions": [
+      "Kinguin: register sandbox account (sandbox.kinguin.net/integration) → sandbox API key → pull live product catalog with offers[].wholesale tiers → compute real catalog-wide gap distribution (not just docs example).",
+      "SEAGM: submit Partnership form (Bulk Purchase / Merchant-Reseller) to obtain dealer price list; alternatively monitor public SEAGM retail prices vs Turgame/K4G baselines already in catalog.",
+      "OffGamers: contact via Merchant Deck HQ (OffGamers Global Pte. Ltd.) for reseller terms; use 'I want to be a Reseller' helpdesk category; quantify OG Points rebate value per tier from public pages as a proxy."
+    ]
+  },
+  "method": {
+    "web_searches_used": 14,
+    "search_tool": "z-ai function web_search",
+    "fetch_tool": "curl UA Mozilla/5.0 timeout 15s + agent-browser headless for JS/SPA pages",
+    "raw_evidence_dir": "research/mec5/agentB_raw/"
+  }
+}

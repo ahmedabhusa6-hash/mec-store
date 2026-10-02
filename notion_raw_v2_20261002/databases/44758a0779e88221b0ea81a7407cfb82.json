@@ -1,0 +1,513 @@
+{
+ "capture_reason": "CHANGED",
+ "title": "ملاحظات الصف الدراسي ",
+ "schema": {
+  "object": "database",
+  "id": "44758a07-79e8-8221-b0ea-81a7407cfb82",
+  "cover": {
+   "type": "external",
+   "external": {
+    "url": "https://images.unsplash.com/photo-1483546416237-76fd26bbcdd1?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb"
+   }
+  },
+  "icon": {
+   "type": "icon",
+   "icon": {
+    "name": "pencil",
+    "color": "lightgray"
+   }
+  },
+  "created_time": "2026-07-24T22:57:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_time": "2026-07-24T22:57:00.000Z",
+  "title": [
+   {
+    "type": "text",
+    "text": {
+     "content": "ملاحظات الصف الدراسي ",
+     "link": null
+    },
+    "annotations": {
+     "bold": false,
+     "italic": false,
+     "strikethrough": false,
+     "underline": false,
+     "code": false,
+     "color": "default"
+    },
+    "plain_text": "ملاحظات الصف الدراسي ",
+    "href": null
+   }
+  ],
+  "description": [
+   {
+    "type": "text",
+    "text": {
+     "content": "انقر على ",
+     "link": null
+    },
+    "annotations": {
+     "bold": false,
+     "italic": false,
+     "strikethrough": false,
+     "underline": false,
+     "code": false,
+     "color": "default"
+    },
+    "plain_text": "انقر على ",
+    "href": null
+   },
+   {
+    "type": "text",
+    "text": {
+     "content": "جديد ",
+     "link": null
+    },
+    "annotations": {
+     "bold": false,
+     "italic": false,
+     "strikethrough": false,
+     "underline": false,
+     "code": true,
+     "color": "gray_background"
+    },
+    "plain_text": "جديد ",
+    "href": null
+   },
+   {
+    "type": "text",
+    "text": {
+     "content": "في أعلى يسار الجدول لإضافة ملاحظة جديدة. سيتم إضافة تاريخ الإنشاء تلقائياً. \nانقر على كل ملاحظة واملأ الصفحة بما ترغب به، مثل: النصوص والصور والروابط ومقاطع الفيديو.",
+     "link": null
+    },
+    "annotations": {
+     "bold": false,
+     "italic": false,
+     "strikethrough": false,
+     "underline": false,
+     "code": false,
+     "color": "default"
+    },
+    "plain_text": "في أعلى يسار الجدول لإضافة ملاحظة جديدة. سيتم إضافة تاريخ الإنشاء تلقائياً. \nانقر على كل ملاحظة واملأ الصفحة بما ترغب به، مثل: النصوص والصور والروابط ومقاطع الفيديو.",
+    "href": null
+   }
+  ],
+  "is_inline": false,
+  "database_type": null,
+  "properties": {
+   "رمز المادة": {
+    "id": "8b2%60",
+    "name": "رمز المادة",
+    "description": null,
+    "type": "select",
+    "select": {
+     "options": [
+      {
+       "id": "fd5be175-99bf-43ca-8687-3b1899b5783a",
+       "name": "CSCI 104",
+       "color": "purple",
+       "description": null
+      },
+      {
+       "id": "74caac9f-57b0-4611-bfe8-4962b2ac15fb",
+       "name": "LIT 455",
+       "color": "blue",
+       "description": null
+      },
+      {
+       "id": "b9c3710a-ea5c-4b62-b9f9-87b3769b1192",
+       "name": "BIO 10",
+       "color": "gray",
+       "description": null
+      },
+      {
+       "id": "3ecb1311-24ff-4f19-949f-fab706931801",
+       "name": "DESIGN 101",
+       "color": "pink",
+       "description": null
+      },
+      {
+       "id": "ec43f93f-7947-42d1-a3a3-cce3c0f8e8fc",
+       "name": "MAT 201",
+       "color": "yellow",
+       "description": null
+      }
+     ]
+    }
+   },
+   "تاريخ الإنشاء": {
+    "id": "%60W_p",
+    "name": "تاريخ الإنشاء",
+    "description": null,
+    "type": "created_time",
+    "created_time": {}
+   },
+   "اسم المادة": {
+    "id": "title",
+    "name": "اسم المادة",
+    "description": null,
+    "type": "title",
+    "title": {}
+   }
+  },
+  "parent": {
+   "type": "workspace",
+   "workspace": true
+  },
+  "url": "https://app.notion.com/p/44758a0779e88221b0ea81a7407cfb82",
+  "public_url": null,
+  "in_trash": false,
+  "archived": false,
+  "request_id": "1e64f8b3-9eb4-474e-a5ad-fc5308d65dfc"
+ },
+ "row_count": 5,
+ "rows": [
+  {
+   "object": "page",
+   "id": "68258a07-79e8-8277-a2f2-01ae393059cb",
+   "created_time": "2026-07-24T22:57:00.000Z",
+   "last_edited_time": "2026-07-24T22:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": {
+    "type": "emoji",
+    "emoji": "🤖"
+   },
+   "parent": {
+    "type": "database_id",
+    "database_id": "44758a07-79e8-8221-b0ea-81a7407cfb82"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "رمز المادة": {
+     "id": "8b2%60",
+     "type": "select",
+     "select": {
+      "id": "fd5be175-99bf-43ca-8687-3b1899b5783a",
+      "name": "CSCI 104",
+      "color": "purple"
+     }
+    },
+    "تاريخ الإنشاء": {
+     "id": "%60W_p",
+     "type": "created_time",
+     "created_time": "2026-07-24T22:57:00.000Z"
+    },
+    "اسم المادة": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "مادة CS104: المحاضرة 5",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "مادة CS104: المحاضرة 5",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/CS104-5-68258a0779e88277a2f201ae393059cb",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "67c58a07-79e8-8214-a22a-817fa6ad27b9",
+   "created_time": "2026-07-24T22:57:00.000Z",
+   "last_edited_time": "2026-07-24T22:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": {
+    "type": "emoji",
+    "emoji": "🦠"
+   },
+   "parent": {
+    "type": "database_id",
+    "database_id": "44758a07-79e8-8221-b0ea-81a7407cfb82"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "رمز المادة": {
+     "id": "8b2%60",
+     "type": "select",
+     "select": {
+      "id": "b9c3710a-ea5c-4b62-b9f9-87b3769b1192",
+      "name": "BIO 10",
+      "color": "gray"
+     }
+    },
+    "تاريخ الإنشاء": {
+     "id": "%60W_p",
+     "type": "created_time",
+     "created_time": "2026-07-24T22:57:00.000Z"
+    },
+    "اسم المادة": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "مقدمة في علم الأحياء الخلوي: المحاضرة 2",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "مقدمة في علم الأحياء الخلوي: المحاضرة 2",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/2-67c58a0779e88214a22a817fa6ad27b9",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "f8158a07-79e8-8270-9590-01e9d815b613",
+   "created_time": "2026-07-24T22:57:00.000Z",
+   "last_edited_time": "2026-07-24T22:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": {
+    "type": "emoji",
+    "emoji": "🎨"
+   },
+   "parent": {
+    "type": "database_id",
+    "database_id": "44758a07-79e8-8221-b0ea-81a7407cfb82"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "رمز المادة": {
+     "id": "8b2%60",
+     "type": "select",
+     "select": {
+      "id": "3ecb1311-24ff-4f19-949f-fab706931801",
+      "name": "DESIGN 101",
+      "color": "pink"
+     }
+    },
+    "تاريخ الإنشاء": {
+     "id": "%60W_p",
+     "type": "created_time",
+     "created_time": "2026-07-24T22:57:00.000Z"
+    },
+    "اسم المادة": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "تصميم تجربة المستخدم: المحاضرة 6",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "تصميم تجربة المستخدم: المحاضرة 6",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/6-f8158a0779e88270959001e9d815b613",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "7c258a07-79e8-8375-8cb4-816464cda8ef",
+   "created_time": "2026-07-24T22:57:00.000Z",
+   "last_edited_time": "2026-07-24T22:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": {
+    "type": "emoji",
+    "emoji": "📐"
+   },
+   "parent": {
+    "type": "database_id",
+    "database_id": "44758a07-79e8-8221-b0ea-81a7407cfb82"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "رمز المادة": {
+     "id": "8b2%60",
+     "type": "select",
+     "select": {
+      "id": "ec43f93f-7947-42d1-a3a3-cce3c0f8e8fc",
+      "name": "MAT 201",
+      "color": "yellow"
+     }
+    },
+    "تاريخ الإنشاء": {
+     "id": "%60W_p",
+     "type": "created_time",
+     "created_time": "2026-07-24T22:57:00.000Z"
+    },
+    "اسم المادة": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "حساب التفاضل والتكامل: المحاضرة 3",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "حساب التفاضل والتكامل: المحاضرة 3",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/3-7c258a0779e883758cb4816464cda8ef",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "56e58a07-79e8-83c6-9ee4-81b32b566232",
+   "created_time": "2026-07-24T22:57:00.000Z",
+   "last_edited_time": "2026-07-24T22:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": {
+    "type": "emoji",
+    "emoji": "🇬🇧"
+   },
+   "parent": {
+    "type": "database_id",
+    "database_id": "44758a07-79e8-8221-b0ea-81a7407cfb82"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "رمز المادة": {
+     "id": "8b2%60",
+     "type": "select",
+     "select": {
+      "id": "74caac9f-57b0-4611-bfe8-4962b2ac15fb",
+      "name": "LIT 455",
+      "color": "blue"
+     }
+    },
+    "تاريخ الإنشاء": {
+     "id": "%60W_p",
+     "type": "created_time",
+     "created_time": "2026-07-24T22:57:00.000Z"
+    },
+    "اسم المادة": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "الأدب البريطاني: المحاضرة 3",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "الأدب البريطاني: المحاضرة 3",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/3-56e58a0779e883c69ee481b32b566232",
+   "public_url": null,
+   "archived": false
+  }
+ ]
+}

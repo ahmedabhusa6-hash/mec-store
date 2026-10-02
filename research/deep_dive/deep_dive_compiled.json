@@ -1,0 +1,173 @@
+{
+  "run": "MEC-4.0-deep-dive",
+  "generated": "2026-09-28",
+  "trigger": "user request: شرح متعمق لكل نقطة + ProdSeller API كأفضل خيار + دولا + توكن Notion + منصات MENA + تحديث الموقع ورفعه",
+  "point1_prodseller": {
+    "verdict": "الأفضل بين كل بوابات B2B المتاحة — أخف دخولًا وأعلى شفافية",
+    "identities": {
+      "bot": "@prodsellerbot",
+      "channel": "t.me/ProdSellerOfficial",
+      "support": "@ProdsellerSupport",
+      "admin": "@sookbit",
+      "whatsapp_urgent_only": "+33 7 53 43 44 42",
+      "api_base": "https://prodseller.com/v1",
+      "api_docs_public": "https://prodseller.com/api-docs/",
+      "admin_panel": "https://prodseller.com (ProdsellerAdmin SPA)"
+    },
+    "scale": {"users": "15K+", "monthly_active": "8K+", "api_users": "500+"},
+    "entry_path": [
+      "1. افتح بوت @prodsellerbot في تيليجرام واضغط Start",
+      "2. أنشئ حسابًا (لا KYC ولا مستندات أعمال — أخف بوابة في السوق)",
+      "3. اشحن رصيد USDT BEP20 (مؤتمت بالكامل منذ 08/07) أو Binance Pay أو PayPal يدوي (لمن لا يملك كريبتو)",
+      "4. من لوحة prodseller.com ← API Manager ← ولّد مفتاح psk_...",
+      "5. استدعِ GET /v1/products بمفتاحك — كل الأسعار تنكشف فورًا (price = سعر مفتاحك الفعلي، publicPrice = المرجعي)",
+      "6. POST /v1/orders للشراء — خصم من الرصيد وتسليم فوري للمفتاح"
+    ],
+    "api_structure": {
+      "auth": "هيدر X-API-Key: psk_...",
+      "rate_limit": "300 طلب / 15 دقيقة لكل IP",
+      "endpoints": ["GET /v1/products", "GET /v1/products/:id", "GET /v1/balance", "POST /v1/orders", "GET /v1/orders", "GET /v1/orders/:id"],
+      "price_fields": "price (ما ستُحاسب عليه فعليًا — قد يكون مخصصًا لحسابك) مقابل publicPrice (المعلن للمرجعية)",
+      "discounts": "membershipDiscount + bulkDiscount تُطبقان على الطلب تلقائيًا",
+      "idempotency": "هيدر Idempotency-Key مدعوم — حماية من الطلبات المكررة",
+      "activation_products": "بعض المنتجات تتطلب email في الطلب (تفعيل يدوي) — الحالة: pending ← paid ← delivered",
+      "history": "الإصدار القديم http://51.77.244.194 ← انتقل إلى HTTPS prodseller.com في 12/08"
+    },
+    "payments": {
+      "usdt_bep20": "مؤتمت بالكامل — فوري (معلن 08/07)",
+      "binance_pay": "متاح",
+      "paypal": "شحن يدوي عبر الأدمن (أُضيف 09/08 — لدول بلا كريبتو)",
+      "min_deposit": "غير معلن [بحاجة للتحقق عند الدخول] — أرخص منتج $0.015 فرص الاختبار رخيصة جدًا"
+    },
+    "three_tier_pricing": {
+      "structure": "سعر البوت العام > سعر API (خصم 3-8%) > سعر الجملة Bulk (خصم إضافي 3-10%)",
+      "advertised": "«خصم حتى 35% عن الأسعار العامة لمستخدمي API» (منشور 20/07)"
+    },
+    "price_timeline_2026": [
+      {"date": "07-08", "product": "CapCut Pro 30d", "retail": 1.70, "api": null, "bulk": 1.60, "note": "bulk +10"},
+      {"date": "07-13", "product": "Outlook/Hotmail", "retail": 0.03, "api": null, "bulk": null, "note": "بريد جاهز"},
+      {"date": "07-13", "product": "iCloud Mail", "retail": 0.07, "api": null, "bulk": null, "note": ""},
+      {"date": "07-13", "product": "Notion", "retail": 1.40, "api": null, "bulk": 1.20, "note": "bulk +3"},
+      {"date": "07-17", "product": "Adobe Express 12M", "retail": 0.94, "api": null, "bulk": 0.85, "note": "bulk +5"},
+      {"date": "07-21", "product": "Gemini 18M", "retail": 0.55, "api": null, "bulk": 0.43, "note": ""},
+      {"date": "07-23", "product": "Outlook/Hotmail", "retail": 0.02, "api": 0.015, "bulk": 0.015, "note": "أرخص مادة خام مرصودة"},
+      {"date": "07-23", "product": "iLovePDF 1Y", "retail": 0.80, "api": 0.70, "bulk": 0.70, "note": "هبط من $1.00 نفس اليوم"},
+      {"date": "07-23", "product": "Spotify Premium 3M", "retail": 0.95, "api": 0.85, "bulk": null, "note": "أول سعر Spotify مرصود منهم"},
+      {"date": "07-24", "product": "Coursera Plus 1Y", "retail": 1.00, "api": 0.84, "bulk": 0.84, "note": ""},
+      {"date": "07-24", "product": "Office 365 1Y", "retail": 0.30, "api": 0.20, "bulk": 0.20, "note": "ضمان كامل"},
+      {"date": "07-24", "product": "CapCut Pro Team 30d", "retail": 1.55, "api": 1.45, "bulk": 1.45, "note": ""},
+      {"date": "07-25", "product": "Adobe CC Admin (14 دعوة)", "retail": 3.70, "api": 3.30, "bulk": 3.30, "note": "نفد خلال ساعات"},
+      {"date": "07-26", "product": "Canva Pro EDU Admin", "retail": 5.50, "api": 5.00, "bulk": 5.00, "note": ""},
+      {"date": "07-28", "product": "Gemini 18M", "retail": 1.00, "api": null, "bulk": null, "note": "انقطع عالميًا ثم عاد بطريقة تفعيل جديدة — ذروة السعر"},
+      {"date": "08-02", "product": "Windows 11 Pro Retail", "retail": 1.50, "api": null, "bulk": null, "note": "مفتاح مدى الحياة — قارن الرسمي $199"},
+      {"date": "08-04", "product": "Gemini 18M", "retail": 0.45, "api": 0.39, "bulk": 0.39, "note": ""},
+      {"date": "08-05", "product": "CapCut Pro Private 30d", "retail": 1.39, "api": 1.29, "bulk": 1.29, "note": ""},
+      {"date": "08-09", "product": "Figma Pro EDU 2Y", "retail": 7.50, "api": null, "bulk": null, "note": "Email|Password"},
+      {"date": "09-11", "product": "Gemini 18M Flash", "retail": 0.43, "api": 0.40, "bulk": 0.39, "note": ""},
+      {"date": "09-19", "product": "Gmail Stable", "retail": 0.80, "api": 0.75, "bulk": 0.60, "note": ""},
+      {"date": "09-19", "product": "Super Grok", "retail": 2.90, "api": null, "bulk": null, "note": "الطريقة الرسمية الهندية 231 INR=$2.30 (نشروها مجانًا 12/07!)"},
+      {"date": "09-20", "product": "ChatGPT K12 + Codex", "retail": 3.90, "api": 3.80, "bulk": null, "note": "ضمان 24 ساعة فقط"},
+      {"date": "09-20", "product": "Office 365 Plus 1Y", "retail": 0.29, "api": 0.17, "bulk": 0.17, "note": "حسابات خاصة — كلمة مرور قابلة للتغيير"},
+      {"date": "09-23", "product": "CapCut 7D", "retail": 0.14, "api": 0.13, "bulk": 0.12, "note": ""},
+      {"date": "09-23", "product": "CapCut 6D", "retail": 0.10, "api": 0.09, "bulk": 0.09, "note": ""},
+      {"date": "09-23", "product": "Adobe Express 12M (Link)", "retail": 0.39, "api": 0.37, "bulk": null, "note": "هبط -58% خلال شهرين من $0.94"},
+      {"date": "09-24", "product": "Duolingo Super 12M", "retail": 0.37, "api": 0.36, "bulk": 0.34, "note": "حرب أسعار: $0.59 (19/09) ← $0.45 (23/09) ← $0.37"},
+      {"date": "09-27", "product": "Gemini 18M", "retail": 0.48, "api": null, "bulk": 0.44, "note": "أحدث سعر — منشور البارحة"},
+      {"date": "09-27", "product": "CapCut 1M", "retail": 1.29, "api": 1.25, "bulk": 1.20, "note": "ضمان شهر كامل"}
+    ],
+    "volatility_evidence": [
+      {"product": "Gemini 18M", "story": "قصة كاملة في 3 أشهر: $0.43 (يوليو) ← انقطاع عالمي 28/07 ← $1.00 ذروة ← $0.80 ← $0.44 (سبتمبر) — تأرجح 127% يثبت هشاشة منتجات المصانع وسرعة إعادة التموين بطريقة جديدة"},
+      {"product": "Duolingo 12M", "story": "$0.59 ← $0.45 ← $0.37 خلال 5 أيام (19-24 سبتمبر) — حرب أسعار مفتوحة"},
+      {"product": "Adobe Express 12M", "story": "$0.94 (17 يوليو) ← $0.39 (23 سبتمبر) = -58% في شهرين"},
+      {"product": "CapCut Pro 30d", "story": "$1.70 (يوليو) ← $1.39 (أغسطس) = -18%"}
+    ],
+    "methods_published_free": [
+      "Super Grok رسميًا بـ231 INR ($2.30) عبر بطاقة هندية — نشروا الطريقة مجانًا (12/07) ثم باعوا المنتج $2.90",
+      "ChatGPT Plus عرض تركيا المجاني بعنوان تركي كامل (07/07)",
+      "ChatGPT Go 3M كوبونات IP المكسيك $0.25 (12/07)",
+      "PDF2Go 1Y مجانًا بطريقة EDU Mail (15/08)",
+      "IPVanish VPN شهري بطريقة (15/08)"
+    ],
+    "risk_signals": [
+      "روابط Gemini تعطلت ثم أُصلحت (16/09) — هشاشة المنتج",
+      "أدمن واحد يدير 200+ رسالة يوميًا (اعتراف 26/07) — عنق زجاجة تشغيلي",
+      "«نعيد بناء الثقة» (27/08) — إشارة مشاكل دعم سابقة",
+      "رسائل خطأ بالفرنسية + واتساب فرنسي + لا بيانات شركة = تشغيل مجهول الهوية",
+      "الضمانات متفاوتة: 24 ساعة (ChatGPT K12) إلى مدى الحياة (Win11)"
+    ],
+    "b2b_gate_comparison": [
+      {"gate": "ProdSeller API", "entry": "بوت TG + رصيد USDT — لا KYC", "pricing_visibility": "قناة عامة (79 منشور سعر) + API كامل بعد المفتاح", "kye": "لا شيء مرصود", "verdict": "الأخف والأسرع — الموصى به أولًا"},
+      {"gate": "Turgame Wholesale", "entry": "تسجيل بريد + دخول لوحة", "pricing_visibility": "خلف الدخول [غير معروف]", "kye": "غير معروف", "verdict": "ثانويًا — أقوى كتالوج بطاقات MENA"},
+      {"gate": "FazerCards Reseller", "entry": "تسجيل بريد", "pricing_visibility": "خلف الدخول [غير معروف]", "kye": "غير معروف", "verdict": "ثالثًا"},
+      {"gate": "Reloadly", "entry": "تسجيل أعمال + KYC كامل + إيداع", "pricing_visibility": "API بعد الموافقة", "kye": "كامل", "verdict": "للتشغيل الفعلي لاحقًا لا للاستطلاع"}
+    ]
+  },
+  "point2_dolaa": {
+    "status": "النموذج معكوس بالكامل — الحاسبة جاهزة — تنقص قائمة الأسعار الفعلية فقط",
+    "what_we_need_from_user": [
+      "رابط قناة دولا في تيليجرام (@handle) أو اسم المستخدم — أو",
+      "لقطات شاشة لقائمة أسعاره (من بوته أو قناته أو متجره) — أو",
+      "أي منتجات محددة اشتريتها منه بأسعارها (نكفي 10-15 منتج لبناء الجدول)"
+    ],
+    "findings_this_run": [
+      "الحساب @dolaa غير موجود في تيليجرام (فُحص 28/09 — صفحة Contact فارغة)",
+      "بحث عربي واسع (4 صياغات) لم يجد أثرًا مفهرسًا للمتجر — النطاقات متوقفة كما وُثق 27/09",
+      "اكتشفنا المنظومة المنافسة التي يعمل فيها: متجر رمز RAMZ (نتفلكس/شاهد VIP/OSN/أمازون) · يمن توب · محفظة فلوسك · egatec-center — كلها تبيع نفس العائلات في نفس السوق"
+    ],
+    "margin_calculator_ready": {
+      "logic": "(سعر بيع دولا) − (أدنى كلفة جملة مرصودة) = الهامش الإجمالي القابل للقياس",
+      "example_with_fresh_wholesale": [
+        {"item": "ChatGPT Plus (هش)", "wholesale_floor": 2.80, "dolaa_estimated_selling": 6.67, "gross_margin_pct": 58},
+        {"item": "Gemini 18M", "wholesale_floor": 0.44, "market_retail": 0.85, "gross_margin_pct": 93},
+        {"item": "Office 365 سنة", "wholesale_floor": 0.17, "market_range": "0.99-2.99", "gross_margin_pct": "83-94"},
+        {"item": "Duolingo 12M", "wholesale_floor": 0.34, "market_retail": 0.85, "gross_margin_pct": 60}
+      ],
+      "note": "بمجرد وصول أسعار دولا الفعلية: نطبق المعادلة على كل منتج وننتج جدول هوامشه الحقيقي فورًا — الحاسبة محفوظة في supply_chain_economics.md §11"
+    },
+    "notion_token_d5_steps": [
+      "1. افتح my.integrations.com (أو Notion ← Settings ← My connections) ← تكامل «موردين»",
+      "2. Secrets ← Generate new token / Reset ← انسخ التوكن الجديد (يبدأ بـ ntn_ — يُعرض مرة واحدة)",
+      "3. افتح /home/z/my-project/.env ← استبدل قيمة NOTION_TOKEN= بالتوكن الجديد",
+      "4. Reset يبطل التوكن القديم تلقائيًا (إن أنشأت تكاملًا جديدًا: أعد دعوته لصفحات المشروع)",
+      "5. (موصى به) قلّص Access/Capabilities لصفحات المشروع فقط",
+      "6. أرسل «تحقق من التوكن» في الجلسة — أمر تحقق جاهز ينفذ ping مباشر"
+    ]
+  },
+  "point3_mena_expansion": {
+    "verdict": "توسعة طبيعية عالية القيمة — 4 منصات بسلم أسعار موثق بالكامل من Turgame + فروقات إقليمية ضخمة",
+    "shahid": {
+      "official": {"vip_monthly_usd": 13.99, "vip_bigtime_monthly_usd": 16.99, "us_launch": "8.99/شهر أو 79.99/سنة", "zain_iraq_carrier": "4999 IQD (~$3.80)/شهر"},
+      "turgame_market_eur": {
+        "3M_algeria": 9.47, "3M_egypt": 9.52, "3M_libya": 10.41, "3M_tunisia": 10.58, "3M_morocco": 10.94,
+        "3M_palestine": 11.74, "3M_lebanon": 11.76, "3M_jordan": 12.59,
+        "3M_oman": 31.20, "3M_bahrain": 31.45, "3M_uae": 32.48, "3M_kuwait": 33.48, "3M_qatar": 34.42,
+        "12M_egypt": 33.16
+      },
+      "marketplaces": {"kinguin_1m": 6.77, "gamsgo_1m": 7.0},
+      "key_insight": "شمال إفريقيا €9.5/3 أشهر مقابل الخليج €34/3 أشهر = فارق 3.6x — نفس الاشتراك! مصر 12 شهر €33.16 = €2.76/شهر أي 80% تحت الرسمي العالمي — أكبر فرصة تحكيم إقليمي في كل الكتالوج"
+    },
+    "starzplay": {
+      "turgame_uae_aed_eur": {"1M": "40 AED = €10.22", "3M": "100 AED = €25.48", "6M": "195 AED = €49.68", "12M": "330 AED = €89.07"},
+      "key_insight": "السنة €89.07 = €7.42/شهر — السلم الإماراتي الكامل متاح للشراء البحت من Turgame اليوم"
+    },
+    "anghami": {
+      "turgame_eur": {"1M_egypt": 2.60, "1M_jordan": 5.20, "1M_kuwait": 5.20, "3M_egypt": 7.81, "3M_jordan": 15.61},
+      "key_insight": "مصر أرخص سوق (€2.60/شهر) — فارق 2x مع الأردن/الكويت — منتج خفيف مناسب كـupsell رخيص"
+    },
+    "osn_plus": {
+      "turgame_gc_eur": {"3M_kuwait": 33.83, "6M_morocco": 35.82, "12M_morocco": 59.68},
+      "key_insight": "حزمة Epic Bundle مع شاهد وDisney+ (أُطلقت أواخر 2025) — Anghami شركة عامة بإيرادات FY2025 = $99.3M — المنصات الأربع تعمل عبر بطاقات هدايا = نموذج تسليم مطابق لعملياتنا الحالية"
+    },
+    "expansion_plan": {
+      "sku_estimate": "40-60 SKU جديدًا (شاهد × 13 منطقة × مدد، StarzPlay × 4 مدد، أنغامي × 3 مناطق، OSN+ × 3)",
+      "priority": "شاهد أولًا (أكبر فروقات) ← أنغامي (أرخص دخول) ← StarzPlay (سلم واحد نظيف) ← OSN+",
+      "decision": "قرار متاح عند الطلب — جاهز للتنفيذ كدفعة P4 عند موافقتك"
+    }
+  },
+  "evidence_classes": {
+    "directly_observed": "كل أسعار ProdSeller (79 منشورًا مؤرخًا من القناة الرسمية) + وثائق API + بيانات Turgame MENA (استخراج سابق 27/09)",
+    "documented": "أسعار شاهد الرسمية وZain Iraq وKinguin وGamsGo (من البحث 28/09)",
+    "inferred": "مقارنات الهوامش وهيكلة التسعير ثلاثي الطبقات",
+    "assumption": "الحد الأدنى للإيداع في ProdSeller وسياسات الاستبدال — تحتاج حسابًا للتحقق"
+  }
+}

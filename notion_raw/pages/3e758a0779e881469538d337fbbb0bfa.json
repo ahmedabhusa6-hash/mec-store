@@ -1,0 +1,54 @@
+{
+ "page": {
+  "id": "3e758a07-79e8-8146-9538-d337fbbb0bfa",
+  "title": "Bootstrap approval gate when no Approved Prompt exists",
+  "url": "https://app.notion.com/p/Bootstrap-approval-gate-when-no-Approved-Prompt-exists-3e758a0779e881469538d337fbbb0bfa"
+ },
+ "blocks": [
+  {
+   "object": "block",
+   "id": "4b1c2d57-5fa4-4502-8f06-1164d8bdc381",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-8146-9538-d337fbbb0bfa"
+   },
+   "created_time": "2026-09-26T16:48:00.000Z",
+   "last_edited_time": "2026-09-26T16:48:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Proposed bootstrap rule: When no Approved Prompt exists, the first approval may promote a Candidate that passes required review/tests and is explicitly approved by the user, provided it belongs to the latest validated lineage. After the first Approved version exists, the standard Parent Version ID = current Approved Version ID promotion gate applies.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Proposed bootstrap rule: When no Approved Prompt exists, the first approval may promote a Candidate that passes required review/tests and is explicitly approved by the user, provided it belongs to the latest validated lineage. After the first Approved version exists, the standard Parent Version ID = current Approved Version ID promotion gate applies.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  }
+ ]
+}

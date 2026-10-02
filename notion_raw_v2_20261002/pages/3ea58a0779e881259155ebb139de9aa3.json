@@ -1,0 +1,904 @@
+{
+ "capture_reason": "NEW",
+ "captured_at": "2026-10-02T12:06:31+03:00",
+ "title": "Reasoning Trail — Deep Marketing Conversation — 2026-09-30",
+ "last_edited": "2026-09-29T22:36:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3ea58a07-79e8-8125-9155-ebb139de9aa3",
+  "created_time": "2026-09-29T22:33:00.000Z",
+  "last_edited_time": "2026-09-29T22:36:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": {
+   "type": "emoji",
+   "emoji": "🧭"
+  },
+  "parent": {
+   "type": "page_id",
+   "page_id": "3e758a07-79e8-8190-bbb5-d8a724ae8a5f"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "title": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Reasoning Trail — Deep Marketing Conversation — 2026-09-30",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Reasoning Trail — Deep Marketing Conversation — 2026-09-30",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/Reasoning-Trail-Deep-Marketing-Conversation-2026-09-30-3ea58a0779e881259155ebb139de9aa3",
+  "public_url": null,
+  "archived": false,
+  "request_id": "cf4df936-5cee-4b71-a118-02640a7227c8"
+ },
+ "block_count": 84,
+ "blocks": [
+  {
+   "id": "d2f2dc47-c717-4534-bd55-e5646437be4e",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "MASTER MIGRATION LINK — 2026-09-30"
+   ],
+   "created": "2026-09-29T22:36:00.000Z",
+   "edited": "2026-09-29T22:36:00.000Z"
+  },
+  {
+   "id": "9832a51e-bab1-49b9-8bfb-2f0754962bc8",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "MASTER MIGRATION RECORD — Deep Marketing Conversation — 2026-09-30"
+   ],
+   "created": "2026-09-29T22:36:00.000Z",
+   "edited": "2026-09-29T22:36:00.000Z"
+  },
+  {
+   "id": "a40972a4-d81d-4c9e-b418-beec104c2d27",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Purpose"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "5083407f-0373-40c2-8549-bd508ec61511",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "هذا السجل ينقل مسار الاستدلال القابل لإعادة الاستخدام من المحادثة المرجعية إلى Notion، بهدف منع فقدان سياق القرارات عند أرشفة/حذف المحادثة. هذا السجل ليس نقلًا حرفيًا لسلسلة التفكير الخاصة، بل Decision/Audit Rationale Trail يقتصر على المبررات والروابط الاستدلالية التي يمكن توثيقها وإعادة فحصها."
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "ac1b50c6-2d64-4564-9dc7-117054d3f4b5",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Attribution Rule"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "9c48a8a9-7e05-40a1-812e-8071825b3f2e",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "لا تُنسب أي معلومة إلى هذه المحادثة لمجرد أنها موجودة الآن في Notion. النسبة هنا تقتصر على ما ظهر في سياق المحادثة الحالي. أما السجلات التي ظهرت لاحقًا في Notion دون إثبات من transcript فلا تُنسب تلقائيًا إلى هذه المحادثة."
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "dfb9a6b8-67e3-40ed-bcc0-887e8418f653",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Governing Reasoning Sequence"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "8abd3f7b-dc2a-4b11-a295-c0e98e6171e9",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Understand → Analyze → Verify → Detect Gaps/Problems → Solve → Persist Knowledge/State → Define Next Work"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "13ddff66-afbf-43c4-8fb5-5f40a5090984",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "وعند وجود حالة غير مؤكدة:"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "f764c2eb-6151-4fd6-9204-2e70260887ee",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "UNKNOWN → RECONCILE FIRST → VERIFY → RESUME / RETRY SAFELY"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "d7e60329-57da-4681-ad4b-82fe1c110785",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "وعند فشل الكتابة أو الالتزام:"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "a36d3e5c-550c-43e2-a5b1-ace54a77bb19",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Preserve Last Verified State → Record Pending Change → Reconcile → Retry Safely → Verify"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "c45c34e1-da45-4ad2-bc2e-835a501be5b0",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Core Reasoning Decisions"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "1c06dc4e-a0c5-45a6-84d4-a8b957be7e67",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "1. Layered Marketing Master Map"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "360541cf-1bdc-4873-94fb-03148173cc79",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "الاستدلال المعتمد: لا يكفي تنظيم المعرفة التسويقية كتقسيم مسطح للمجالات. يجب فصل السؤال/الظاهرة عن المجال، والنظرية/البناء، والآلية، والنتيجة، ومستوى التحليل، والمنهج/الدليل، والسياق، والتطبيق. النتيجة: KNG-43 = Marketing Master Map should be layered, not flat، مع اعتباره معمارية مشتقة لا Taxonomy عالميًا حصريًا."
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "bd8ddec9-8cbb-4e04-b533-0d6d59d5402c",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "2. Architecture ≠ Claim-Level Evidence"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "9d7df3f4-d309-4059-b164-7ed6d140c1d5",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "اكتملت بنية KNG-43 لا تعني أن كل روابطها مثبتة بالقوة نفسها. لذلك قُررت معايرة قوة الدليل على مستوى link / outcome / design / context، وعدم ترقية المعرفة المركبة إلى ACTIVE لمجرد اكتمال هيكلها."
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "c3ea4d1b-4df0-41e2-bead-e15577b9603f",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "3. RSH-17: تفكيك السلسلة السببية"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "7d377f53-071e-4795-bcc9-dd96a02ba2f0",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "تم رفض اختزال السلسلة:"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "9d1ca90c-910a-43f8-b36c-c61d8ca9f733",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Analytics → Market Agility → Firm Performance"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "bed10a81-6df7-4e82-be6d-0cb669ad9f1f",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "إلى Claim سببي واحد."
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "52675e8b-c624-4666-98cd-7ff25fff0cdb",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "الاستدلال: يمكن أن يكون الرابط upstream مدعومًا تجريبيًا، بينما يكون الرابط downstream أو الوساطة الكاملة أقل قوة أو observational فقط. لذلك تُقيّم كل حلقة على حدة."
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "e409b625-38f7-4a8d-883e-9c8c4b79742b",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "4. RSH-17: الحالة لا تُغلق عند اكتمال دورة واحدة"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "2bde1cfb-435f-418b-b2cf-f361a570aee9",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "تم الفصل بين:"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "53e04c53-165f-48be-84f4-46145cad74bc",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Cycle Status و Research Item Status."
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "27476518-b5f7-41aa-96a3-b145439d685f",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "لذلك يمكن أن تكون دورة بحث محددة COMPLETED / VERIFIED بينما يبقى RSH-17 = Needs Follow-up بسبب فجوات السببية، والوساطة، والآثار طويلة الأجل، والنقل بين السياقات."
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "882777d3-8e18-455c-adbc-dafddeadf666",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "5. Evidence Heterogeneity ≠ Logical Contradiction"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "4639893c-fd65-4ef4-b9d5-ad3c93d944b5",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "ظهور نتائج مختلفة حول market agility → firm performance لا يعني تلقائيًا تعارضًا منطقيًا. يجب أولًا فحص السياق، الفترة الزمنية، المجتمع/السوق، التعريفات، القياس، والمنهج. النتيجة المسجلة كانت contextualized heterogeneity بدل فرض تعارض جوهري غير مثبت."
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "ce85dc4f-f5ed-4650-9f65-9816ef785ec5",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "6. No Universal Causal Generalization"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "7bbc03f6-2899-4aae-a248-079a2f712aee",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "الاستدلال: وجود RCT أو experimental evidence في سياق محدد لا يسمح وحده بتعميم سببي عالمي. لذلك بقيت نتائج eBay / UK / Rwanda وغيرها bounded by context، ولم تتحول إلى مبدأ تسويقي عام دون أدلة نقل وتكرار مناسبة."
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "dce64248-7606-4c41-b628-36e786a1347a",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "7. Provenance Must Not Be Reconstructed by Guessing"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "4ded0715-0682-4a38-ac2c-99992abf1d5a",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "عندما كانت عضوية علاقة KNG-43 Evidence Links غير مؤكدة، تم رفض overwrite التخميني. القاعدة: إذا تعذرت استعادة membership التاريخية بصورة موثوقة، فالحالة RECONCILING / OPEN إلى أن تتوفر أدلة كافية."
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "3a6ed2ba-4781-49b7-a82b-8f1c4d4dff87",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "8. Automation State Must Be Tool-Verified"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "4e5555b7-0243-4484-9b17-440cfca5c409",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "وجود Automation باسم Deep Marketing Canonical Trigger لا يثبت أنه فعال. الاستدلال التشغيلي اعتمد على فحص الحالة الفعلية للأداة. النتيجة التي ثبتت في مسار التدقيق: Deep Marketing Canonical Trigger = DISABLED و Deep Marketing — Scheduled Knowledge Cycles = DISABLED. لذلك لا يجوز وصف Deep Marketing بأنه Scheduled Active أو Live 24/7 دون تحقق جديد."
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "7f2b67b6-2f4d-4b29-b557-47fe1214b7d7",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "9. Scheduled ≠ Live Continuous"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "30e2014b-dc55-4eff-b6e9-46ca8a1ffefa",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "الاستمرارية المقصودة هي:"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "65422c95-5278-4a6e-964c-da821e201646",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Persist State → Determine Next Work → Next Trigger → Resume"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "0f08574e-09b0-4af6-8dba-01e8f04c1937",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "وليست إبقاء نموذج واحد قيد التشغيل المستمر. كل Trigger هو Run منفصل له بداية ونهاية وحالة محفوظة."
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "5bf436d3-a6b3-4328-8900-bef343b38da6",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "10. State / Change / Conflict / Commit Are Separate"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "d923a3b2-c962-41c9-849e-d6efbfaeaa2e",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "تم تثبيت الفصل بين:"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "c34ecf43-f004-4bf2-b537-d3aad52dac1c",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Knowledge State"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "7380f9eb-9e65-4ecc-9579-b69edc59b002",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Change Type"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "92929fc6-c72e-4fa1-9368-04985fff6def",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Conflict Status"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "9d4752d5-f0df-451d-9815-756eac3095c1",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Commit Status"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "6d6821e1-f772-4c9e-9d01-3a7e16d9ba73",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "الهدف منع أخطاء من نوع اعتبار COMPLETED دليلًا على إغلاق Research Item، أو اعتبار Contextualized في Contradiction Log مساويًا تلقائيًا لـ Conflict Status."
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "2e93e053-bf06-4b9f-a803-999a9d968e18",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "11. No Silent Deletion"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "13f68e00-2911-4a97-9d67-b283525b9bb2",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "SUPERSEDED ≠ DELETED. البيانات التاريخية أو المكررة لا تُحذف بصمت. الإجراء الآمن للسجلات غير المتوافقة هو:"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "b969555c-2a59-44ec-af19-244329d971d5",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "IDENTIFY → MAP → VALIDATE → MIGRATE → VERIFY"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "693e3882-eea9-45b0-8093-801dc4aeb527",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Evidence Calibration Logic Preserved"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "2ee3359f-f011-4c6a-9bb2-8c4113dec103",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "النتيجة المعرفية الأهم في نهاية المسار:"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "8ec0d160-8651-49f3-9d0d-c87e54c1bdaa",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "توجد أدلة تجريبية مستقلة تدعم أجزاء مختلفة من المسار."
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "71744c67-f03b-4252-8591-a437d192f2c6",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "توجد أدلة observational / SEM تدعم علاقات وسيطة في بعض السياقات."
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "6b45edbe-82b8-4f38-a884-51770bf91db3",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "لا يوجد في هذا السجل ما يبرر إعلان الوساطة الكاملة Analytics → Market Agility → Firm Performance كعلاقة سببية عامة."
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "3c40be50-d079-4cf2-b9d9-2c361bb7fe36",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "لذلك بقي RSH-17 = Needs Follow-up و KNG-43 = SYNTHESIZED."
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "d9a77210-f660-464e-b29d-d4d43cab293b",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Operational Integrity Findings"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "5a03991b-c396-4094-b3d7-b294d72e6334",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "تم رصد State Drift بين بعض النصوص التاريخية والحالة الفعلية للأتمتة."
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "30dd6f18-f5e6-4246-8fca-2ba550631446",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "تم الحفاظ على الفصل بين historical state و verified current state."
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "44c4a168-64ea-47c9-a8cd-27d9dbbe3e72",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "تم رصد خطر duplicate research/source records، مع قاعدة عدم اعتبار النسخة المكررة دليلًا مستقلًا دون Entity/Source Resolution."
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "9f6bd3c3-e1cb-482d-84e7-4441ca9000e6",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "تم رصد خطر provenance loss عند الكتابة غير الآمنة."
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "4225daf4-2f67-4a99-a7ff-cd75df02b2f0",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "تم رصد خطر mixed-design conflation عند دمج نتائج تجريبية وارتباطية في Claim واحد."
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "e98f78f0-369f-4491-abf3-dad9097217da",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "تم رصد خطر transfer overreach عند نقل النتائج من سياق محدود إلى قاعدة عامة."
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "de23c8a5-b165-4722-b4e1-5c8b293c4008",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Current Research Continuity"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "94222ae3-1b68-43a0-8715-4a1966ff8468",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "الحالة التي ينبغي أن يبدأ منها العمل التالي هي:"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "b1c7f011-b193-422a-a89c-59d8ccb34a40",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "KNG-43 = SYNTHESIZED"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "a8ff07ae-43b9-450d-8a58-ccb5a2918b3d",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Conflict Status = NONE"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "28eca2ba-f76f-49e8-bfd3-bf28e1495e95",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "RSH-15 = Needs Follow-up"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "0d7c0719-3512-47a3-af9e-346ce9d3f86b",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "RSH-16 = Needs Follow-up"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "dac20afc-02c7-41a2-bd58-f482c8ca030f",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "RSH-17 = Needs Follow-up"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "6bf2b5f9-9d75-4c4a-8115-1cae26bb5a84",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "RSH-18 = Needs Follow-up"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "89c1d20d-c03c-473d-af93-9c0204526556",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "ولـRSH-17:"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "2b49bd01-f353-42f6-aabc-e7e47f8e91dd",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Next Work: direct causal / strong quasi-experimental / strong longitudinal identification of market agility → firm financial performance, ثم اختبار الوساطة الكاملة analytics → market agility → financial performance."
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "ff084335-6649-4633-a23e-011ee82f2192",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Attribution Boundary"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "83380cc5-f223-4fe2-b559-6b55dfe59c6c",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "المعرفات مثل KNG-43 و RSH-15..18 ظهرت ضمن سياق المحادثة، لكن هذا لا يعني أن كل Cycle IDs اللاحقة الموجودة حاليًا في Notion أُنشئت داخل هذه المحادثة. لا تُنسب السجلات اللاحقة مثل CKC-RSH17-008/009/010 إلى هذه المحادثة دون دليل مستقل على مصدرها."
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "2a8d5a1f-9919-4eee-aea0-bc070116fd5c",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Deletion Safety"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "150cc9c2-5d31-4429-88e3-16757d60d03a",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "قبل حذف المحادثة الأصلية، يجب الاحتفاظ بهذا السجل مع:"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "fe0f81df-c370-421f-8937-7bd0327921ae",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Decision rationale"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "b7683217-ff08-42d8-9c47-e8d46b4249cc",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "State corrections"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "b54c1292-58d9-4ed2-8e10-29846bd7adfe",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Attribution boundaries"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "50aed659-4617-4d4c-87ff-be0c3018ee96",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Open gaps / Next Work"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "5309381f-c757-4163-9f01-35f666d20358",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Provenance/reconciliation rationale"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "014af580-43bb-4ee9-bcf8-8cd5a5c91bb4",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Automation-state verification logic"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "7b40bbd4-9f7e-4df3-8b29-f02b6df01a4e",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "هذا السجل مقصود كبديل دائم لسياق الاستدلال القابل لإعادة الاستخدام، وليس كبديل عن السجل الأصلي إذا كانت هناك حاجة إلى مراجعة المحادثة نفسها."
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "adf418fb-19ac-4a2b-84db-1d25cc0e67db",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Source"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  },
+  {
+   "id": "6e1c3901-6b19-4176-8f62-496f9d3eb3b6",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "مرجع نطاق العمل — Deep Marketing Conversation — 2026-09-26"
+   ],
+   "created": "2026-09-29T22:33:00.000Z",
+   "edited": "2026-09-29T22:33:00.000Z"
+  }
+ ]
+}

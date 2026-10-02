@@ -1,0 +1,691 @@
+{
+ "capture_reason": "NEW",
+ "captured_at": "2026-10-02T12:06:31+03:00",
+ "title": "AUTO-CYCLE-0045 — REPOSITORY CREATION PATH RECONCILIATION",
+ "last_edited": "2026-09-27T12:07:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e858a07-79e8-810c-b812-fc850788ad41",
+  "created_time": "2026-09-27T12:07:00.000Z",
+  "last_edited_time": "2026-09-27T12:07:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "page_id",
+   "page_id": "3e658a07-79e8-81da-8a9f-cb80d02481aa"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "title": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "AUTO-CYCLE-0045 — REPOSITORY CREATION PATH RECONCILIATION",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "AUTO-CYCLE-0045 — REPOSITORY CREATION PATH RECONCILIATION",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/AUTO-CYCLE-0045-REPOSITORY-CREATION-PATH-RECONCILIATION-3e858a0779e8810cb812fc850788ad41",
+  "public_url": null,
+  "archived": false,
+  "request_id": "612709db-ce8d-4d21-8bec-e6c2bfb67c18"
+ },
+ "block_count": 63,
+ "blocks": [
+  {
+   "id": "f9e6d20d-4ba2-44d9-a4a6-ea3278f66741",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "Cycle Metadata"
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "4471b525-d128-4dde-90e0-c0cd9c85775b",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Cycle_ID: AUTO-CYCLE-0045"
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "540f2484-4c32-4ca1-a4e6-3064f9f85e59",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Trigger: Scheduled Central Automation run"
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "f54969f0-8210-46d5-937e-acfc64e709dc",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Scope: Central Automation Runtime only"
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "7f6a61cf-4e3f-4776-b577-a46fea9149aa",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "State Before: CENTRAL_RUNTIME = DESIGNED / NOT_DEPLOYED; REPOSITORY_ISOLATION = BLOCKED; PRODUCTION_DURABLE_STATE = BLOCKED; last verified persisted record = AUTO-CYCLE-0044."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "836e782f-a4ed-4d93-b18b-9bed97b653ef",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "State After: CENTRAL_RUNTIME = DESIGNED / NOT_DEPLOYED; REPOSITORY_ISOLATION = BLOCKED; PRODUCTION_DURABLE_STATE = BLOCKED; BUSINESS_PROJECT_MUTATION = NONE."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "2fde87fb-089e-4774-8213-1ebacca614e8",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "Pre-Flight / Ownership"
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "2ede9cc6-2ad9-4b8f-861c-516388e54ddb",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Exactly one enabled Central Automation trigger is present."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "768089a3-ed8b-405a-9844-684932f3b5fc",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "No duplicate Central Automation trigger was created, disabled, or modified."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "40b2c875-b5bc-4bbc-a5bd-a4edaabad12e",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "No unrelated automation was changed."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "dc5bce6c-996c-4d97-99f2-94d77883e29e",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "Highest-Value Gap"
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "80e0db93-15d4-466d-a796-dd1015f632f3",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Authorized independent Central Runtime repository + verified deployment path remains the gating dependency."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "7a40a75c-1162-48af-8e49-dca6e9a5ea29",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "Live Evidence"
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "9f53841a-1308-49e5-ab21-536bed32fd24",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "GitHub owner-affiliation inventory returned exactly three owned repositories: Prompt-, Telegram, and Umm-sara."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "eaaf75ef-5169-4190-a8df-201cc55c3059",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Direct get_repo(AhmedMar98/Umm-sara) returned repository ID 1378003756, default branch main, and repository permissions exposed as admin/maintain/push/pull/triage."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "05d753ac-ac22-406f-96e4-fdaa7fd296e4",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "GitHub installations query returned no installations."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "de9623e0-45e0-422b-9bec-871ffd37528a",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "No independent Central Runtime repository was verified."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "c3c8ce18-de05-4d4b-b28f-e368dd229cf1",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "No GitHub connector action exists in the available toolset for creating a new repository; only repository-level mutation actions are exposed."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "40941c08-24b8-47b8-9384-16ac2c378602",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Official GitHub documentation confirms that POST /user/repos creates an independent repository and requires repository-creation/administration write permission for fine-grained access. This validates the platform capability, not access through the current connector. GitHub repository API"
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "a9aaff77-8420-497a-84cd-7f02045cf67b",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "Research / Independent Alternatives"
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "c8dbf973-bcbb-4a54-b9be-d4cdcd5078e1",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "GitHub independent repository: preferred; platform capability verified, current connector creation path absent."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "80f02956-3313-4aaf-9915-318f54b1e043",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "GitLab independent project/repository: technically viable; GitLab requires permission to add projects to the target namespace. GitLab project creation"
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "fa47f9e0-6b19-40df-b729-71b6145a7275",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Bitbucket independent repository: technically viable; Bitbucket Cloud exposes a repository creation API. Bitbucket repository API"
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "143c1045-e2b3-46b7-a22d-2ba8bf30188c",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Render Workflows / Worker: orchestration/runtime candidates, but do not remove the independent-codebase requirement."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "0cd540e7-07f9-46d8-8c99-93dc1d617c95",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "Evidence Classification"
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "3c88457d-7abb-41f8-8d70-6e2d3ca53f48",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "FACT: The current GitHub owner-affiliation inventory contains only Prompt-, Telegram, and Umm-sara."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "24733bf3-c849-4aee-9df5-fc687e8839d6",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "FACT: Umm-sara remains a business repository on main; it was not modified."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "837e991a-212c-47b3-9931-d9c3c29f3046",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "FACT: The current connector exposes no repository-creation action."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "bfbebdd0-4bd5-4eae-b29d-45c648c21bb5",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "FACT: GitHub officially supports authenticated-user repository creation through POST /user/repos with the documented permission requirements."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "5d93bcb6-8fc7-4f87-b0b1-63783221997a",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "UNKNOWN: Whether the account can create a repository through a non-connector path."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "2175b844-4265-49ad-bde4-160ca78ca91b",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "RECOMMENDATION: Do not use an existing business repository or branch to bypass the repository gate."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "de5965ae-3736-4fee-8afc-2c6769da8fba",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "Decision"
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "164f2ab7-efb3-428c-b4de-f22c114bcf75",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "KEEP ARCHITECTURE + KEEP REPOSITORY GATE + DO NOT BYPASS BUSINESS ISOLATION."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "d3b3c7bd-cb5f-49a9-9046-a6474a8e5c2a",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "No business repository, branch, or main branch is to be used as a temporary Central Runtime codebase. No paid infrastructure was provisioned."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "6a7144b6-6bf7-4edd-8827-b63a1c62a5e3",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "Fix Applied"
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "d2026a92-e0af-487a-8264-7a5770e705cd",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Reconciled GitHub owner-affiliation inventory, direct business repository identity, and installation state."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "3736b8cf-4717-40b1-8b2a-9c3ec3f4fd70",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Confirmed that the repository-creation capability is a platform feature but is not an executable action in the current connector."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "17761d92-ad1c-446d-ba57-d60e8c9c9f6a",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "No infrastructure mutation performed."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "2104da0d-e973-4e7b-9c4a-f4623b91e908",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "No business project mutation performed."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "2625ba1c-be97-4cb4-ab66-d3290961a979",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "Verification"
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "7d8b79c9-ca1b-4d60-a74e-65bfe1f6120d",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Central Automation trigger: verified enabled; no duplicate introduced."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "b28f7340-28a6-418e-a39d-e084a53b0aac",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "GitHub owner repositories: verified."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "2172919b-7eed-4556-99a7-d19e7543e2ef",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Umm-sara: verified unchanged."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "f751f750-703e-4d6c-a0a1-81f1143a8c28",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "main: verified as default branch; no write performed."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "615c31fa-c672-4120-b452-c43682f8751c",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Independent Central Runtime repository: NOT VERIFIED."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "7295378f-65a1-4980-aaf6-3c604916ccad",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Production Central Runtime: NOT DEPLOYED."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "ecfe3495-9277-4ac1-96b5-8238f2c227cf",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Production durable state: NOT ESTABLISHED."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "7ec8b766-e28d-4a85-88bc-1e2393c76e32",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "Persistence"
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "1bec1db5-e14e-415c-96e0-5d8ba0b8767e",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "This cycle record was created under the Central Automation Runtime log. Read-back verification is required before treating the record as persisted."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "d2bde68e-340d-4b71-b599-f0cc049a71db",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "Quality Control / New Gaps"
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "8eb7b8e8-fac3-4b52-bd30-702b971d4ad2",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "BLOCKER: no authorized independent repository-creation path is exposed in the current toolset."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "93f3eaaf-f2f0-49c5-b507-c31ca12ed7e2",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "UNKNOWN: non-connector repository-creation capability."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "31fae384-bcd4-4e9e-9169-9c5c4de2eb6d",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "BLOCKER: production durable compute/state remains unprovisioned."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "d91bd0ad-d479-42e8-838c-f6cf23fa74c7",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "MISSING IMPLEMENTATION: Control Plane, isolated Execution Plane, recovery tests, observability, and backup/restore."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "9a0af3ce-cfaf-47e6-8922-cb594b3a8755",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "OUTDATED/CONFLICTED: prior cycle records with PENDING_READBACK must not override current live evidence until reconciled."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "04a16483-37aa-4b3c-a3f9-d6be5ec04aac",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "Next Work"
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "a4460dab-d5cd-41a3-902a-53c08baee564",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Establish an authorized independent Central Runtime repository path."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "631cd7b4-54f8-4311-aee5-64d3a0cc5bf7",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Verify repository identity, write access, secret boundary, and deployment integration."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "3f48f0ed-00b7-4aa5-87d8-0cdb2c589701",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Revalidate production billing/resource authorization only after the repository gate is satisfied."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "a35b6f5f-30fb-4769-bf61-5c063f41be37",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Deploy the minimum Control Plane and isolated Execution Plane."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "9e0cd511-285d-465f-8643-0672ea50d34f",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Test duplicate delivery, UNKNOWN reconciliation, retry storm, backpressure, restart/resume, watchdog, recovery, and backup/restore."
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "c1b45b6a-c848-4bf6-aca1-7b66bba7837b",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Commit_Status: PREPARED"
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  },
+  {
+   "id": "f56730a3-8364-49ef-b935-6827c68c63c8",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Cycle Status: PARTIAL"
+   ],
+   "created": "2026-09-27T12:07:00.000Z",
+   "edited": "2026-09-27T12:07:00.000Z"
+  }
+ ]
+}

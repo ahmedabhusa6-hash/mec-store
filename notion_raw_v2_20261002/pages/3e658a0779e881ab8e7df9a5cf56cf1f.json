@@ -1,0 +1,326 @@
+{
+ "capture_reason": "NEWLY_ACCESSIBLE",
+ "captured_at": "2026-10-02T12:06:31+03:00",
+ "title": "UPD-003 — ONYX distributor program operational design verified",
+ "last_edited": "2026-09-25T21:04:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e658a07-79e8-81ab-8e7d-f9a5cf56cf1f",
+  "created_time": "2026-09-25T21:04:00.000Z",
+  "last_edited_time": "2026-09-25T21:04:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "2d1337a6-e0ad-4334-81a3-a3c3090f4b68"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "New Source IDs": {
+    "id": "%3AfEO",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "ONYX ERP — Become a Distributor / Agent Program",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "ONYX ERP — Become a Distributor / Agent Program",
+      "href": null
+     }
+    ]
+   },
+   "Knowledge ID": {
+    "id": "%3ClpM",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Affected IDs": {
+    "id": "%3FIV%5B",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "كيف يعمل برنامج الشركاء/الموزعين لـONYX فعليًا من الاستقطاب إلى التفعيل إلى الـPipeline والإيراد؟; Case — Ultimate Solutions Partner Enablement & ONYX; Benchmark — ONYX / YemenSoft vs Global Knowledge Patterns",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "كيف يعمل برنامج الشركاء/الموزعين لـONYX فعليًا من الاستقطاب إلى التفعيل إلى الـPipeline والإيراد؟; Case — Ultimate Solutions Partner Enablement & ONYX; Benchmark — ONYX / YemenSoft vs Global Knowledge Patterns",
+      "href": null
+     }
+    ]
+   },
+   "Commit Status": {
+    "id": "%40m%7BP",
+    "type": "select",
+    "select": null
+   },
+   "Timestamp": {
+    "id": "AnVl",
+    "type": "date",
+    "date": null
+   },
+   "Previous Knowledge": {
+    "id": "W%7Cbr",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "وجود برنامج شراكة/توزيع رسمي موثق على مستوى capability، مع فجوة في تفاصيل التشغيل.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "وجود برنامج شراكة/توزيع رسمي موثق على مستوى capability، مع فجوة في تفاصيل التشغيل.",
+      "href": null
+     }
+    ]
+   },
+   "Previous State": {
+    "id": "YqmY",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "New Knowledge": {
+    "id": "_xc_",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "صفحة ONYX الرسمية توثق دورة تشغيل قناة مفصلة: eligibility → market study → staff training → preliminary approval → documentation → first-year trial contract → annual marketing plan + quarterly measurement → up to 60-day enablement → market entry → continuous technical/sales support, public listing and system/update support.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "صفحة ONYX الرسمية توثق دورة تشغيل قناة مفصلة: eligibility → market study → staff training → preliminary approval → documentation → first-year trial contract → annual marketing plan + quarterly measurement → up to 60-day enablement → market entry → continuous technical/sales support, public listing and system/update support.",
+      "href": null
+     }
+    ]
+   },
+   "Verification Status": {
+    "id": "aI%7DE",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Date": {
+    "id": "gcYj",
+    "type": "date",
+    "date": {
+     "start": "2026-09-26",
+     "end": null,
+     "time_zone": null
+    }
+   },
+   "Change Type": {
+    "id": "kvFO",
+    "type": "select",
+    "select": null
+   },
+   "Reason": {
+    "id": "miME",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "فحص مباشر للصفحة الرسمية لطلب وكالة التوزيع كشف تفاصيل تشغيلية كانت أعمق من السجل السابق.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "فحص مباشر للصفحة الرسمية لطلب وكالة التوزيع كشف تفاصيل تشغيلية كانت أعمق من السجل السابق.",
+      "href": null
+     }
+    ]
+   },
+   "Impact": {
+    "id": "qLLb",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "ينتقل الـBenchmark من إثبات وجود channel capability إلى توصيف operating design قابل للمقارنة مع نماذج partner enablement العالمية. تبقى effectiveness وexecution data فجوة مستقلة.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "ينتقل الـBenchmark من إثبات وجود channel capability إلى توصيف operating design قابل للمقارنة مع نماذج partner enablement العالمية. تبقى effectiveness وexecution data فجوة مستقلة.",
+      "href": null
+     }
+    ]
+   },
+   "Research Refs": {
+    "id": "riCL",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Update ID": {
+    "id": "sAYh",
+    "type": "unique_id",
+    "unique_id": {
+     "prefix": "UPD",
+     "number": 3
+    }
+   },
+   "Evidence Refs": {
+    "id": "%7BXeY",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "New State": {
+    "id": "%7CCsR",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Cycle ID": {
+    "id": "%7CP%60Y",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Name": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "UPD-003 — ONYX distributor program operational design verified",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "UPD-003 — ONYX distributor program operational design verified",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/UPD-003-ONYX-distributor-program-operational-design-verified-3e658a0779e881ab8e7df9a5cf56cf1f",
+  "public_url": null,
+  "archived": false,
+  "request_id": "9d1f6e51-635b-4114-a21c-e6f38cae84c0"
+ },
+ "block_count": 6,
+ "blocks": [
+  {
+   "id": "b464aadc-3878-4626-a48c-c880e28dae8a",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Verified operating design"
+   ],
+   "created": "2026-09-25T21:04:00.000Z",
+   "edited": "2026-09-25T21:04:00.000Z"
+  },
+  {
+   "id": "46d542a5-31d5-4c04-8cc2-0e82200e66d4",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "The public ONYX distributor page documents a multi-step channel process rather than a simple contact/referral mechanism."
+   ],
+   "created": "2026-09-25T21:04:00.000Z",
+   "edited": "2026-09-25T21:04:00.000Z"
+  },
+  {
+   "id": "83401da1-e3cc-4874-b25c-742a81b86f4c",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Evidence boundary"
+   ],
+   "created": "2026-09-25T21:04:00.000Z",
+   "edited": "2026-09-25T21:04:00.000Z"
+  },
+  {
+   "id": "27cbd59f-efbb-4cc6-9b49-204997a40e48",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "This establishes the designed operating process. It does not establish that every listed distributor follows the process, nor the commercial results produced by it."
+   ],
+   "created": "2026-09-25T21:04:00.000Z",
+   "edited": "2026-09-25T21:04:00.000Z"
+  },
+  {
+   "id": "470f7274-539d-4c68-8b87-eb8349bbf718",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Historical-count boundary"
+   ],
+   "created": "2026-09-25T21:04:00.000Z",
+   "edited": "2026-09-25T21:04:00.000Z"
+  },
+  {
+   "id": "0c470b9c-a7a4-4081-a7ed-7dae167e0bf2",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "The same page contains a statement of more than 88 branches/points/agents explicitly tied to the end of 2017. That figure is historical and is not used as a current count."
+   ],
+   "created": "2026-09-25T21:04:00.000Z",
+   "edited": "2026-09-25T21:04:00.000Z"
+  }
+ ]
+}

@@ -1,0 +1,228 @@
+{
+ "capture_reason": "NEWLY_ACCESSIBLE",
+ "captured_at": "2026-10-02T12:16:49+03:00",
+ "title": "CIM — Global Professional Marketing Framework",
+ "last_edited": "2026-09-25T20:52:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e658a07-79e8-818d-8fc5-d8c310203325",
+  "created_time": "2026-09-25T20:52:00.000Z",
+  "last_edited_time": "2026-09-25T20:52:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "9a9c3c4f-b95c-46f8-82a4-c73a6e45a308"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "Last Checked": {
+    "id": "H%3CaR",
+    "type": "date",
+    "date": {
+     "start": "2026-09-25",
+     "end": null,
+     "time_zone": null
+    }
+   },
+   "Limitations": {
+    "id": "Kyv%5D",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Professional competency framework; combine with academic evidence and practice.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Professional competency framework; combine with academic evidence and practice.",
+      "href": null
+     }
+    ]
+   },
+   "Type": {
+    "id": "%60nyH",
+    "type": "select",
+    "select": {
+     "id": "d5c38f89-20c4-4ded-b91f-6d56b67dd928",
+     "name": "Framework",
+     "color": "green"
+    }
+   },
+   "Relevance": {
+    "id": "cku%40",
+    "type": "select",
+    "select": {
+     "id": "12b5f5b1-d4d1-4017-ad06-a7220ca01005",
+     "name": "High",
+     "color": "green"
+    }
+   },
+   "Authority": {
+    "id": "dx%7CD",
+    "type": "select",
+    "select": {
+     "id": "d464e1c1-3b8a-47ec-a829-9c88f38a9be6",
+     "name": "High",
+     "color": "green"
+    }
+   },
+   "URL": {
+    "id": "m%5DA%5D",
+    "type": "url",
+    "url": "https://www.cim.co.uk/membership/cim-standards/global-professional-marketing-framework-gpmf/"
+   },
+   "License": {
+    "id": "m~%7Cd",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "CC BY-NC-ND 4.0 for the framework.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "CC BY-NC-ND 4.0 for the framework.",
+      "href": null
+     }
+    ]
+   },
+   "Next Review": {
+    "id": "pjbQ",
+    "type": "date",
+    "date": {
+     "start": "2026-10-25",
+     "end": null,
+     "time_zone": null
+    }
+   },
+   "Asset ID": {
+    "id": "xiMz",
+    "type": "unique_id",
+    "unique_id": {
+     "prefix": "AST",
+     "number": 2
+    }
+   },
+   "Creator / Organization": {
+    "id": "yBhI",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "The Chartered Institute of Marketing",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "The Chartered Institute of Marketing",
+      "href": null
+     }
+    ]
+   },
+   "Maintenance": {
+    "id": "%7B%5C%3Cg",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "CIM maintains the framework as a professional standard.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "CIM maintains the framework as a professional standard.",
+      "href": null
+     }
+    ]
+   },
+   "Integration Decision": {
+    "id": "%7DMlJ",
+    "type": "select",
+    "select": {
+     "id": "54da7096-863c-4639-ba7f-c7eb534a8f31",
+     "name": "Integrate",
+     "color": "green"
+    }
+   },
+   "Evidence Quality": {
+    "id": "~fjz",
+    "type": "select",
+    "select": {
+     "id": "48ccb764-59f4-446b-955f-38e52dd9e973",
+     "name": "Strong",
+     "color": "green"
+    }
+   },
+   "Name": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "CIM — Global Professional Marketing Framework",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "CIM — Global Professional Marketing Framework",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/CIM-Global-Professional-Marketing-Framework-3e658a0779e8818d8fc5d8c310203325",
+  "public_url": null,
+  "archived": false,
+  "request_id": "462ed1bf-0132-4b18-a226-1ca0970d3747"
+ },
+ "block_count": 0,
+ "blocks": []
+}

@@ -1,0 +1,159 @@
+# مرجع حاكم — Visual Direction & Full Lifecycle Production
+قاعدة القراءة الإلزامية:  هذه الصفحة هي المرجع الحاكم لأي جلسة لاحقة تخص تصميم وتطوير هذا المشروع. تُقرأ أولاً قبل أي تحليل أو تعديل أو تنفيذ. لا يُفترض أن العناصر الحالية قابلة للاستبدال لمجرد الرغبة في التجديد.
+1. الهدف
+رفع المنتج الحالي إلى مستوى إنتاجي وبصري متقدم مع  الحفاظ على الهوية الناجحة وتطويرها ، وليس إعادة اختراعها.
+المبدأ:
+Preserve → Refine → Elevate → Verify
+2. العناصر البصرية المحمية
+العنصران المركزيان الحاليان هما:
+- اللؤلؤة Pearl  — المجسم الرئيسي.
+- القوس Arch  — العنصر البنيوي البصري المرتبط بها.
+هما جزء من  Core Visual Identity .
+ممنوع حذفهما أو استبدالهما أو تغيير مفهومهما إلا بدليل قوي يثبت وجود مشكلة جوهرية.
+المطلوب:
+نفس الهوية + تنفيذ أعلى جودة.
+3. معيار اتخاذ قرار التصميم
+قبل أي تغيير:
+Current State → Problem → Root Cause → Proposed Improvement → Expected Gain → Regression Risk
+التصنيف:
+- KEEP  = العنصر ناجح ولا يحتاج تغييراً جوهرياً.
+- REFINE  = جيد ويحتاج صقلاً.
+- ELEVATE  = جيد ويمكن رفع مستواه بوضوح.
+- REPLACE  = لا يستخدم إلا عند ثبوت خلل جوهري.
+لا يُعتبر اختلاف التصميم تحسناً بحد ذاته.
+4. الاتجاه البصري
+اللغة البصرية تُبنى حول:
+Pearl + Arch + Light + Depth + Typography + Motion
+المطلوب تطوير:
+- التكوين.
+- الإضاءة.
+- العمق.
+- الخامات.
+- التايبوغرافيا.
+- الجرافيكس.
+- الحركة.
+- الانتقالات.
+- التفاعل.
+مع بقاء اللؤلؤة والقوس محور المشهد.
+5. Hero
+يُعامل الـHero كمشهد بصري متكامل:
+Arch → Pearl → Light → Typography → CTA → Atmosphere
+اللؤلؤة هي نقطة الارتكاز البصرية الأساسية، والقوس عنصر بنيوي داعم.
+لا يجوز للمؤثرات أو النصوص أو البطاقات منافسة مركز المشهد.
+6. Pearl Art Direction
+يمكن تطوير:
+- Material realism.
+- Lighting.
+- Reflections.
+- Highlights.
+- Shadows.
+- Depth.
+- Camera.
+- Scale.
+- Motion.
+- Interaction.
+- Relationship with Arch.
+لكن:
+Same Pearl Identity → Higher Execution Quality
+7. Arch Art Direction
+يمكن تطوير:
+- proportions.
+- depth.
+- material.
+- lighting.
+- edges.
+- scale.
+- spatial relationship with Pearl.
+- transitions.
+الهدف:
+Architectural Presence + Elegance + Depth
+8. Typography
+التايبوغرافيا جزء من الهوية، وتشمل:
+- Arabic/Latin typefaces.
+- weights.
+- scale.
+- hierarchy.
+- line-height.
+- spacing.
+- RTL.
+- mixed Arabic/Latin.
+- numbers.
+ممنوع استخدام letter-spacing غير مناسب للعربية.
+9. Color
+اللون نظام وليس زخرفة:
+Primary / Secondary / Accent / Background / Surface / Text / Border / States
+الـAccent يجب أن يبقى نادراً وذا قيمة.
+لا تُعاد ألوان شعارات أو علامات المنتجات الموجودة داخل صور المنتجات.
+10. Lighting & Depth
+الضوء يجب أن يخدم:
+Focus + Depth + Material + Narrative
+والعمق:
+Foreground → Midground → Hero → Background
+لا تستخدم Glow أو Glassmorphism أو Particles بلا وظيفة واضحة.
+11. Graphics
+الجرافيكس الجديدة يجب أن تدعم الهوية ولا تنافس:
+Pearl + Arch
+أي عنصر لا يخدم:
+Identity / Narrative / Depth / Interaction / Hierarchy
+مرشح للحذف.
+12. Motion & Transitions
+الحركة ليست زينة.
+كل حركة يجب أن تحدد:
+Trigger + Purpose + Duration + Easing + Direction + Performance
+لغة الحركة الأساسية:
+Pearl/Arch → Hero Content → Section Transitions → UI Interaction → Decorative Motion
+يجب أن تشعر الأقسام كمشاهد متصلة، لا صفحات منفصلة.
+13. Responsive Art Direction
+Mobile ليس Desktop مصغراً.
+يُعاد تكوين:
+- Pearl.
+- Arch.
+- Typography.
+- Graphics.
+- CTA.
+- spacing.
+- composition.
+مع الحفاظ على:
+Identity → Hierarchy → Presence
+14. UX / Frontend
+جمال التصميم لا يعوض:
+- ضعف UX.
+- أخطاء التفاعل.
+- مشاكل RTL.
+- مشاكل الوصولية.
+- ضعف الأداء.
+- أخطاء runtime.
+كلها جزء من المنتج النهائي.
+15. Performance
+لا تُخفض جودة الهوية بصرياً قبل تحسين التنفيذ تقنياً.
+الأولوية:
+Code Splitting + Lazy Loading + Asset Optimization + Rendering Optimization + Motion Optimization
+ثم، عند الضرورة فقط، خفض الجودة بشكل مدروس.
+16. Runtime / 3D Resilience
+فشل WebGL أو تحميل مشهد 3D يجب ألا يسقط التطبيق.
+المطلوب:
+Failure → Controlled Fallback → Application Remains Usable
+ويُحافظ الـFallback قدر الإمكان على حضور الهوية الأساسية.
+17. Full Lifecycle
+الدورة الإلزامية:
+Audit → Diagnose → Preserve → Creative Direction → Refine → Elevate → Implement → Integrate → Optimize → Test → Deploy → Verify → Release
+18. Evidence-Driven Validation
+لا يُعتمد أي ادعاء دون دليل.
+No Evidence = No Pass
+التصنيف:
+- PASS
+- FAIL
+- UNVERIFIED
+Unknown ≠ Pass
+وأي مشكلة مكتشفة تمر عبر:
+Root Cause → Fix → Rebuild → Retest
+19. Release Gate
+لا يعتبر الإصدار مكتملًا إلا إذا كانت النسخة:
+Designed → Implemented → Integrated → Tested → Fixed → Rebuilt → Deployed → Verified → Released
+وأي عنصر بصري أساسي ناجح لا يُستبدل لمجرد التجديد.
+20. القاعدة النهائية
+لا تهدم ما هو ناجح لتثبت أنك صممت شيئاً جديداً.
+حافظ على الفكرة. ارفع مستوى التنفيذ.
+الهدف:
+The Same Core Identity — Executed at a Significantly Higher Level.
+يجب قراءة هذه الصفحة أولاً قبل أي جلسة تصميم أو تطوير لاحقة، وتُستخدم كمرجع حاكم عند تعارض أي توجيه لاحق معها، ما لم يصدر قرار صريح بتغييرها.

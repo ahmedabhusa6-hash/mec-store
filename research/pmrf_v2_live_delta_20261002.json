@@ -1,0 +1,87 @@
+{
+ "execution_timestamp": "2026-10-02T07:11:55+03:00",
+ "endpoint": "https://decohomz.com/sv-api/products",
+ "http_total_now": 280,
+ "http_total_prev_witness": 282,
+ "prefix_distribution_now": {
+  "dummy/other": 1,
+  "cb_": 228,
+  "ps_": 20,
+  "mr_": 31
+ },
+ "prefix_distribution_prev": {
+  "cb_": 229,
+  "ps_": 20,
+  "mr_": 32,
+  "dummy/other": 1
+ },
+ "dropped_since_0210_scan": {
+  "cb_6ab4fd13c08045e8dd0b9143": {
+   "name": "😀 Gmail Random IP 2020-2024",
+   "price": 1.72
+  },
+  "mr_magic-pattern": {
+   "name": "Magic Patterns Starter 12m",
+   "price": 4.8
+  }
+ },
+ "added_since_0210_scan": {},
+ "price_changed_since_0210_scan": {},
+ "price_witnesses_now": {
+  "chatgpt go": {
+   "name": "🎨 ChatGPT Go 1 Month (10-Day Warranty)",
+   "price": 3.66,
+   "stock": 13,
+   "id": "cb_6abb2c37a3c899e943106"
+  },
+  "codex": {
+   "name": "🤖 1B Credit API Codex 14 Days - full warranty",
+   "price": 41.44,
+   "stock": 39,
+   "id": "cb_6ab3f5f90944def028bf1"
+  },
+  "capcut": {
+   "name": "🎨 Capcut Pro 1 Month FW",
+   "price": 1.6,
+   "stock": 115,
+   "id": "ps_6a2fda51035a6d898f210"
+  },
+  "gemini": {
+   "name": "🌐 Gemini Pro 18 Months (Activation Link)",
+   "price": 0.67,
+   "stock": 0,
+   "id": "ps_6a31035939dc014325da2"
+  },
+  "office": {
+   "name": "😶‍🌫️ Microsoft Office 365 - 2 Years full warranty",
+   "price": 2.45,
+   "stock": 5,
+   "id": "cb_6ab38ed80944def028ad9"
+  },
+  "canva": {
+   "name": "🖌️ Canva Pro 2 yrs FW",
+   "price": 0.77,
+   "stock": 10,
+   "id": "ps_6a316a7b1777fc2347835"
+  },
+  "adobe": {
+   "name": "😎 Adobe All Apps 7 Days no warranty",
+   "price": 2.21,
+   "stock": 0,
+   "id": "cb_6aa5594edf59fbc6fe1b7"
+  },
+  "duolingo": {
+   "name": "🦉 Duolingo Max 12 Months full warranty",
+   "price": 21.44,
+   "stock": 33,
+   "id": "cb_6aacd3d35271203cb12c0"
+  },
+  "grok": {
+   "name": "🚀 Grok Super 6-7 Days - (full warranty)",
+   "price": 4.58,
+   "stock": 0,
+   "id": "cb_6aba6c9431a482e3ae2a1"
+  }
+ },
+ "cost_field_present": false
+}

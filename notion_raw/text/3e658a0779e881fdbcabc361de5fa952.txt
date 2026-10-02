@@ -1,0 +1,826 @@
+# مرجع هندسة نظام الأتمتة المستمرة 24/7 — قالب قابل لإعادة الاستخدام
+1. تعريف المرجع
+هذا المستند هو  مرجع تأسيسي عام  لهندسة أنظمة الأتمتة التشغيلية المستمرة 24/7، وليس مرجعًا لمجال أعمال محدد.
+الغرض منه هو إعادة استخدام نفس المنهج عند بدء أي مشروع جديد يحتاج إلى:
+- تشغيل متكرر ومستمر.
+- تنفيذ ذاتي أو شبه ذاتي.
+- حالة تشغيلية مستديمة.
+- طوابير أعمال.
+- استئناف بعد الانقطاع.
+- تحقق قبل اعتماد النتائج.
+- تعافٍ من الأعطال.
+- مراقبة تشغيلية.
+- سجل تدقيق.
+- تحديد للعمل التالي.
+هذا المرجع لا يفترض نوع المشروع. يمكن تطبيقه على البحث، التشغيل، خدمة العملاء، المعالجة، التكاملات، الوكلاء، البيانات، المراقبة، المحتوى، العمليات التجارية، أو أي Workflow قابل للأتمتة.
+2. الفكرة المركزية
+النظام المطلوب ليس «بوتًا ينفذ أمرًا».
+هو  Continuous Operations System :
+نظام يبقى فعالًا تشغيليًا عبر دورات تنفيذ متتابعة، مع حفظ الحالة بين الدورات، وتحديد العمل التالي، والتعافي من الفشل، دون نهاية مقصودة.
+النموذج:
+TRIGGER → LOAD STATE → PLAN → EXECUTE → VALIDATE → COMMIT → PERSIST → NEXT WORK → NEXT TRIGGER
+والتعافي:
+FAILURE → CLASSIFY → PRESERVE STATE → RECOVER/RETRY/ESCALATE → VALIDATE → RESUME
+3. تعريف 24/7
+المعنى الصحيح
+24/7 لا يعني أن عملية واحدة تبقى مفتوحة إلى الأبد.
+المعنى الهندسي:
+No Planned Termination
+أي:
+- لا يوجد تاريخ انتهاء مقصود للتشغيل.
+- تنتهي كل دورة على حدة.
+- تبقى الحالة محفوظة.
+- يبدأ Trigger لاحق دورة جديدة.
+- لا يتوقف النظام لمجرد انتهاء مهمة أو دورة أو عدم وجود عمل.
+النموذج:
+Cycle 1 → Persist → Cycle 2 → Persist → Cycle 3 → … → ∞
+إذن:
+Scheduled ≠ Live Continuous Process
+بل:
+Scheduled = Repeated Discrete Runs
+4. الهدف المعماري
+يجب أن يكون النظام:
+Persistent + Resumable + Idempotent + Observable + Recoverable + State-Aware
+أي:
+- Persistent: حالته لا تعتمد على الذاكرة المؤقتة.
+- Resumable: يستطيع الاستئناف.
+- Idempotent: لا يسبب التكرار الضار.
+- Observable: يمكن معرفة ما حدث.
+- Recoverable: يستطيع التعافي من الأعطال.
+- State-Aware: يعرف موقع كل عمل داخل دورة الحياة.
+5. المعمارية المرجعية
+┌─────────────────────────────┐
+│        TRIGGER LAYER        │
+└──────────────┬──────────────┘
+               ↓
+┌─────────────────────────────┐
+│      ORCHESTRATION          │
+└──────────────┬──────────────┘
+               ↓
+┌─────────────────────────────┐
+│          STATE              │
+└──────────────┬──────────────┘
+               ↓
+┌─────────────────────────────┐
+│           QUEUE             │
+└──────────────┬──────────────┘
+               ↓
+┌─────────────────────────────┐
+│         PLANNER             │
+└──────────────┬──────────────┘
+               ↓
+┌─────────────────────────────┐
+│         EXECUTOR            │
+└──────────────┬──────────────┘
+               ↓
+┌─────────────────────────────┐
+│        VALIDATOR            │
+└──────────────┬──────────────┘
+               ↓
+┌─────────────────────────────┐
+│          COMMIT             │
+└──────────────┬──────────────┘
+               ↓
+┌─────────────────────────────┐
+│      PERSISTENT STATE       │
+└──────────────┬──────────────┘
+               ↓
+┌─────────────────────────────┐
+│       NEXT WORK             │
+└──────────────┬──────────────┘
+               ↓
+         NEXT TRIGGER
+
+      ┌───────────────────┐
+      │ WATCHDOG /        │
+      │ RECOVERY ENGINE   │
+      └─────────┬─────────┘
+                ↓
+        مراقبة + تعافٍ
+6. المكونات الأساسية
+6.1 Trigger Engine
+مسؤول عن بدء الدورات.
+أنواع Trigger الممكنة:
+- SCHEDULED
+- EVENT
+- MANUAL
+- RETRY
+- RECOVERY
+- DEPENDENCY_COMPLETION
+- QUEUE_AVAILABLE
+- WATCHDOG
+قاعدة:
+لا توجد دورة بلا سبب تشغيل واضح يمكن تتبعه.
+6.2 Orchestrator
+يدير الدورة:
+- تحميل الحالة.
+- قراءة الطابور.
+- تحديد العمل.
+- ترتيب التنفيذ.
+- التحكم في الاعتماديات.
+- استدعاء التنفيذ.
+- تشغيل التحقق.
+- اعتماد التغيير.
+- تحديد الخطوة التالية.
+6.3 Persistent State
+يحفظ:
+- حالة النظام.
+- حالة كل مهمة.
+- حالة التنفيذ.
+- نقاط الاستئناف.
+- آخر نتيجة متحقق منها.
+- التغييرات المعلقة.
+- الأخطاء.
+- الإعادات.
+- العمل التالي.
+- الاعتماديات.
+6.4 Work Queue
+كل عمل يجب أن يكون وحدة قابلة للتتبع.
+الحد الأدنى:
+- Task_ID
+- Type
+- Objective
+- Priority
+- Status
+- Dependencies
+- Input
+- Expected_Output
+- Validation_Rules
+- Retry_Count
+- Last_Attempt
+- Checkpoint
+- Next_Action
+6.5 Planner
+يحدد  ما الذي يمكن وينبغي تنفيذه الآن .
+عوامل الاختيار:
+- Priority
+- Readiness
+- Dependencies
+- Deadline
+- Impact
+- Retry State
+- Risk
+- Resource Availability
+6.6 Executor
+ينفذ المهمة الفعلية.
+يجب أن يكون التنفيذ:
+- قابلًا للتجزئة.
+- قابلًا للاستئناف.
+- قابلًا للتتبع.
+- غير مكرر ضارًا.
+6.7 Validator
+لا يكفي أن يرجع المنفذ SUCCESS.
+التسلسل:
+EXECUTE → VALIDATE → VERIFIED
+6.8 Commit Layer
+التغيير لا يصبح رسميًا إلا بعد:
+PREPARE → WRITE → VERIFY → COMMIT CONFIRMED
+6.9 Recovery Engine
+مسؤول عن:
+- تصنيف الفشل.
+- حفظ آخر حالة صحيحة.
+- إعادة المحاولة عند ملاءمتها.
+- الاستئناف من Checkpoint.
+- المصالحة عند وجود نتيجة مجهولة.
+- التصعيد عند الحاجة.
+6.10 Watchdog
+لا ينفذ العمل الأساسي؛ يراقب صحة النظام.
+يراقب:
+- Last Heartbeat
+- Last Successful Cycle
+- Queue Stagnation
+- Repeated Failures
+- Long-running Jobs
+- Dead Jobs
+- Commit Failures
+- Verification Failures
+7. الفصل الإلزامي بين مستويات الحالة
+لا تستخدم Status واحدًا لكل شيء.
+System State
+أمثلة:
+- STARTING
+- READY
+- RUNNING
+- DEGRADED
+- RECOVERING
+- PAUSED
+- BLOCKED
+- STOPPED
+Cycle State
+أمثلة:
+- TRIGGERED
+- INITIALIZING
+- PLANNING
+- EXECUTING
+- VALIDATING
+- COMMITTING
+- COMPLETED
+- PARTIAL
+- BLOCKED
+- FAILED
+- RECOVERING
+- NO_CHANGE
+Task State
+أمثلة:
+- QUEUED
+- READY
+- RUNNING
+- WAITING
+- RETRYING
+- COMPLETED
+- FAILED
+- BLOCKED
+- CANCELLED
+- DEAD_LETTER
+8. الحالة ليست نتيجة واحدة
+مثال تشغيلي صحيح:
+System = RUNNING
+Cycle = PARTIAL
+Task A = COMPLETED
+Task B = FAILED
+Task C = BLOCKED
+Task D = QUEUED
+فشل مهمة واحدة لا يعني فشل النظام.
+Task Failure ≠ System Failure
+9. دورة التشغيل المعيارية
+TRIGGER
+↓
+LOAD SYSTEM STATE
+↓
+HEALTH CHECK
+↓
+READ QUEUE
+↓
+SELECT NEXT WORK
+↓
+CHECK DEPENDENCIES
+↓
+EXECUTE
+↓
+VALIDATE
+↓
+COMMIT
+↓
+UPDATE STATE
+↓
+PERSIST
+↓
+DETERMINE NEXT WORK
+↓
+END CYCLE
+↓
+WAIT FOR NEXT TRIGGER
+10. الاستمرارية
+إذا كانت قائمة الأعمال فارغة:
+Queue Empty → NO_WORK → Persist → Wait → Next Trigger
+إذا لم يتغير شيء:
+NO_CHANGE → Persist → Wait → Next Trigger
+إذن:
+NO_WORK ≠ STOP
+NO_CHANGE ≠ STOP
+11. الاستئناف Checkpointing
+العملية الكبيرة يجب ألا تكون كتلة واحدة غير قابلة للاستئناف.
+مثال:
+Task
+├── Step 1 ✓
+├── Step 2 ✓
+├── Step 3 ✓
+├── Step 4 ✗
+└── Step 5 -
+عند الاستئناف:
+Resume from Step 4
+وليس إعادة العملية كاملة بلا سبب.
+12. Idempotency
+كل تنفيذ يحتاج إلى هوية قابلة للتتبع:
+- Task_ID
+- Execution_ID
+- Attempt_ID
+- Change_ID
+- Cycle_ID
+عند إعادة التشغيل:
+Check Existing Execution
+↓
+Already Committed?
+├── YES → DO NOT DUPLICATE
+└── NO → RESUME / RETRY
+13. نتيجة التنفيذ المجهولة
+أخطر حالة ليست FAILED فقط، بل:
+UNKNOWN
+مثال:
+- أرسل النظام طلبًا.
+- انقطع الاتصال.
+- لم نعرف هل نفذت العملية أم لا.
+هنا:
+UNKNOWN ≠ SAFE TO RETRY
+القاعدة:
+UNKNOWN → RECONCILE FIRST → THEN RETRY IF SAFE
+لا تعاد العملية بشكل أعمى.
+14. Commit Failure
+عند فشل الكتابة:
+FAILURE
+↓
+DO NOT CLAIM SUCCESS
+↓
+PRESERVE LAST VERIFIED STATE
+↓
+MARK PENDING CHANGE
+↓
+RECONCILE
+↓
+RETRY SAFELY
+↓
+VERIFY
+مثال:
+Last_Verified_State = ACTIVE
+Pending_Change = NEW_STATE
+Commit_Status = FAILED
+ولا يصبح:
+State = NEW_STATE
+إلا بعد تحقق فعلي.
+15. حالات Commit
+- NOT_ATTEMPTED
+- PREPARED
+- COMMITTED
+- VERIFIED
+- FAILED
+- RECONCILING
+- RETRY_REQUIRED
+قاعدة:
+Commit Success ≠ Commit Verification
+16. Dependency Management
+إذا كانت:
+A → B → C → D
+وفشلت B:
+A = COMPLETED
+B = FAILED
+C = BLOCKED
+D = BLOCKED
+لا يجوز تنفيذ C قبل إزالة سبب الاعتماد.
+17. Human-in-the-Loop
+الاستقلالية يجب أن تكون Policy-Controlled.
+المستويات:
+- AUTO_ALLOWED
+- AUTO_WITH_VALIDATION
+- HUMAN_APPROVAL_REQUIRED
+- FORBIDDEN
+المهام الحساسة لا تُنفذ تلقائيًا لمجرد أن Agent قادر عليها.
+18. سجل التدقيق Audit Trail
+يجب تسجيل الحد الأدنى:
+- Event_ID
+- Timestamp
+- Actor
+- Entity
+- Previous_State
+- New_State
+- Action
+- Result
+- Correlation_ID
+الهدف:
+إعادة بناء ما حدث دون الاعتماد على الذاكرة الحوارية.
+19. Observability
+نظام 24/7 يحتاج إلى رؤية تشغيلية.
+يجب أن يمكن الإجابة عن:
+- ماذا حدث؟
+- متى؟
+- لماذا؟
+- على أي مهمة؟
+- ما الحالة السابقة؟
+- ما الذي تغير؟
+- هل تم التحقق؟
+- ما الخطأ؟
+- هل تمت الاستعادة؟
+- ما العمل التالي؟
+20. مؤشرات تشغيلية أساسية
+- System Uptime
+- Successful Cycles
+- Failed Cycles
+- Partial Cycles
+- Queue Depth
+- Queue Age
+- Retry Rate
+- Failure Rate
+- Dead Letter Count
+- Recovery Success Rate
+- Commit Failure Rate
+- Verification Failure Rate
+- Average Execution Time
+- Last Successful Cycle
+- Last Heartbeat
+21. الفرق بين Automation وAgent وOrchestrator
+Automation
+ينفذ قاعدة أو إجراء محدد.
+Agent
+يمكنه اتخاذ قرارات وتنفيذ سلسلة أعمال أكثر مرونة.
+Orchestrator
+يدير تدفق النظام والاعتماديات والحالة.
+Continuous Automation System
+هو المنظومة الكاملة:
+Automation + Agent + Orchestrator + State + Queue + Recovery + Validation + Observability
+22. مكان الذكاء الاصطناعي
+لا تجعل AI هو البنية التحتية للنظام.
+الأصح:
+Automation Infrastructure
+↓
+Orchestrator
+↓
+AI Agent
+↓
+Decision / Reasoning
+↓
+Execution Tools
+↓
+Validation
+↓
+Persistent State
+الذكاء الاصطناعي مكوّن داخل النظام وليس النظام كاملًا.
+23. مواصفة المهمة Task Contract
+كل مهمة جديدة ينبغي أن تملك:
+- Task_ID
+- Objective
+- Input
+- Constraints
+- Dependencies
+- Expected_Output
+- Validation_Rules
+- Execution_Policy
+- Retry_Policy
+- Timeout
+- Priority
+- Current_State
+- Checkpoint
+- Last_Result
+- Error_State
+- Next_Action
+24. مخرجات الدورة الدقيقة
+كل Cycle يجب أن ينتج سجلًا منظمًا، وليس رسالة عامة.
+الحد الأدنى:
+- Cycle_ID
+- Trigger
+- Start_Time
+- End_Time
+- State_Before
+- State_After
+- Tasks_Selected
+- Tasks_Executed
+- Tasks_Completed
+- Tasks_Failed
+- Tasks_Blocked
+- Tasks_Retried
+- Changes_Made
+- Changes_Verified
+- Errors
+- Warnings
+- Recovery_Actions
+- Next_Work
+- Commit_Status
+- Cycle_Status
+25. حالات الدورة الحرجة
+COMPLETED
+التنفيذ والالتزام والتحقق اكتملت.
+PARTIAL
+جزء موثوق اكتمل وجزء بقي مفتوحًا.
+BLOCKED
+تعذر الاستمرار بسبب قيد فعلي.
+FAILED
+فشلت الدورة على مستوى لا يمكن التعامل معه ضمن الدورة الحالية.
+NO_CHANGE
+لم يحدث تغير مادي.
+NO_CHANGE لا يوقف النظام.
+26. مبدأ آخر حالة متحقق منها
+يجب الاحتفاظ دائمًا بـ:
+Last_Verified_State
+وهو المرجع عند:
+- فشل الكتابة.
+- انقطاع التنفيذ.
+- نتيجة مجهولة.
+- فشل المصالحة.
+- الاستئناف.
+هذه القيمة أهم من آخر قيمة غير متحقق منها.
+27. Recovery Matrix
+تصنيف مبسط:
+28. قاعدة التعامل مع الفشل
+لا تستخدم:
+FAIL → STOP SYSTEM
+بل:
+FAIL → CLASSIFY → RECOVER/RETRY/BLOCK/ESCALATE
+فشل مهمة لا يوقف المهام المستقلة عنها.
+29. Watchdog Logic
+نموذج مراقبة:
+CHECK HEARTBEAT
+↓
+CHECK LAST SUCCESS
+↓
+CHECK QUEUE STAGNATION
+↓
+CHECK REPEATED FAILURES
+↓
+CHECK LONG JOBS
+↓
+CHECK DEAD JOBS
+↓
+IF ANOMALY
+    ↓
+RECOVERY / ALERT
+ELSE
+    ↓
+HEALTHY
+30. قواعد منع الأخطاء المعمارية
+يحظر اعتماد النظام على:
+- ذاكرة المحادثة.
+- Context مؤقت.
+- متغير محلي داخل عملية.
+- نتيجة API غير متحقق منها.
+- افتراض أن العملية لم تُنفذ لأن النتيجة لم تصل.
+- إعادة التنفيذ دون فحص الهوية والحالة.
+- إنشاء سجل جديد بدل تحديث سجل قائم دون سبب.
+- اعتبار نجاح التنفيذ نجاحًا نهائيًا.
+- اعتبار انتهاء دورة انتهاء النظام.
+31. قانون الاستمرارية
+القاعدة الحاكمة:
+Cycle Completion ≠ System Completion
+نهاية الدورة:
+PERSIST STATE → WAIT FOR NEXT TRIGGER → START NEXT CYCLE
+وليست:
+COMPLETE → STOP
+32. شروط النظام الذي يدّعي Continuous Operation
+لا يعتبر النظام مستمرًا تشغيليًا إلا إذا توفرت:
+- Persistent State
+- Trigger
+- Repeatable Execution
+- Queue or Work Source
+- Planning
+- Validation
+- Commit
+- State Persistence
+- Failure Recovery
+- Next-Work Determination
+- Observability
+إذا نقصت عناصر جوهرية، يجب وصف النظام بدقة بدل تسميته 24/7 بشكل مطلق.
+33. قالب بدء مشروع جديد
+عند إنشاء أي مشروع جديد، ابدأ بهذا النموذج:
+A. Project Identity
+- Project_ID
+- Project_Name
+- Purpose
+- Domain
+- Owner
+B. Operating Objective
+- ما الذي يجب أن يستمر النظام في فعله؟
+- ما تعريف النجاح؟
+- ما الذي يخرج من النظام؟
+C. Trigger Model
+- Scheduled
+- Event
+- Manual
+- Retry
+- Recovery
+- Dependency
+D. Work Model
+- ما هي وحدة العمل؟
+- ما Queue؟
+- ما الأولوية؟
+- ما الاعتماديات؟
+E. State Model
+- System States
+- Cycle States
+- Task States
+F. Execution Model
+- Executor
+- Tools
+- Timeouts
+- Retry Policy
+- Idempotency
+G. Validation
+- ماذا يعني Verified؟
+- ما معايير القبول؟
+- ما الذي يمنع Commit؟
+H. Persistence
+- أين تحفظ الحالة؟
+- ما الذي يجب ألا يضيع؟
+- ما Checkpoint؟
+I. Recovery
+- ما أنواع الفشل؟
+- ما الذي يعاد تلقائيًا؟
+- ما الذي يحتاج تدخلًا؟
+J. Human Approval
+- ما الحالات التي تحتاج موافقة؟
+K. Observability
+- ما الذي يجب مراقبته؟
+- ما مؤشرات الصحة؟
+- ما Alert Conditions؟
+L. Audit
+- ما الذي يسجل؟
+- كيف نستعيد التسلسل التاريخي؟
+M. Continuous Loop
+- ما الذي يحدد العمل التالي؟
+- متى يبدأ Trigger التالي؟
+- ماذا يحدث عندما لا يوجد عمل؟
+34. Checklist قبل تشغيل أي مشروع 24/7
+- يوجد Trigger واضح. [ ]
+- توجد حالة مستديمة. [ ]
+- يوجد تعريف لوحدة العمل. [ ]
+- يوجد Queue أو Work Source. [ ]
+- توجد Dependencies. [ ]
+- يوجد Executor. [ ]
+- توجد Validation Rules. [ ]
+- يوجد Commit واضح. [ ]
+- يوجد Idempotency. [ ]
+- يوجد Checkpointing عند الحاجة. [ ]
+- توجد Retry Policy. [ ]
+- توجد Recovery Policy. [ ]
+- توجد Last Verified State. [ ]
+- يوجد Audit Log. [ ]
+- توجد Observability. [ ]
+- يوجد Watchdog أو بديل مراقبة. [ ]
+- يوجد تعريف لـNO_WORK. [ ]
+- يوجد تعريف لـNO_CHANGE. [ ]
+- توجد سياسة Human Approval. [ ]
+- لا توجد ادعاءات بتنفيذ غير متحقق منه. [ ]
+35. Anti-Patterns
+1. Infinite Loop داخل جلسة واحدة
+غير موثوق.
+2. Schedule بلا State
+ينتج دورات منفصلة غير مدركة للسياق.
+3. AI Agent بلا Orchestration
+يصعب استئنافه ومراقبته.
+4. Retry بلا Idempotency
+قد يكرر العمليات.
+5. Commit بلا Verification
+قد يعطي حالة خاطئة.
+6. Failure = Stop
+يقتل الاستمرارية.
+7. Unknown = Retry
+قد ينتج أثرًا مزدوجًا.
+8. Queue واحدة بلا Dependency Model
+تؤدي إلى تنفيذ غير صالح.
+9. Logs بلا State
+يعرف النظام ما حدث ولا يعرف أين يقف.
+10. State بلا Audit
+يصعب تفسير تغيراتها.
+36. المبدأ الأهم
+النظام الجيد لا يقاس فقط بقدرته على  تنفيذ العمل .
+بل بقدرته على:
+KNOW → DECIDE → EXECUTE → VERIFY → REMEMBER → RECOVER → RESUME
+أي:
+يعرف حالته، يقرر العمل، ينفذه، يتحقق منه، يحفظ ما حدث، يتعافى من الفشل، ثم يستأنف.
+37. قاعدة التسمية المهمة
+لا تستخدم تعبيرات فضفاضة مثل:
+- «شغال دائمًا».
+- «لا يتوقف».
+- «ذكاء يعمل 24 ساعة».
+استخدم وصفًا هندسيًا:
+Persistent recurring automation with stateful execution, recovery, and next-work scheduling.
+وإذا كان النظام قائمًا على دورات مجدولة:
+Continuous operation through repeated discrete execution cycles.
+38. الخلاصة التشغيلية
+النظام المطلوب هو  محرك عمليات مستمرة  وليس مجرد Automation Script أو Bot.
+جوهره:
+Trigger
+→ State
+→ Queue
+→ Plan
+→ Execute
+→ Validate
+→ Commit
+→ Persist
+→ Observe
+→ Recover
+→ Determine Next Work
+→ Next Trigger
+→ …
+والاستمرارية لا تأتي من بقاء جلسة مفتوحة، بل من  استدامة الحالة واستمرار Trigger واستقلال الدورات وقابلية الاستئناف والتعافي.
+39. الخلاصة الشاملة القابلة لإعادة الاستخدام
+عند بدء مشروع جديد، لا تبدأ بالسؤال:
+«ما الأداة التي ستنفذ المهمة؟»
+ابدأ بالأسئلة:
+- ما العملية التي يجب أن تستمر؟
+- ما وحدة العمل؟
+- ما Trigger؟
+- ما الحالة التي يجب حفظها؟
+- كيف نحدد العمل التالي؟
+- كيف ننفذ؟
+- كيف نتحقق؟
+- كيف نعتمد التغيير؟
+- ماذا يحدث عند الفشل؟
+- كيف نعرف هل التنفيذ الأول حدث أم لا؟
+- كيف نستأنف بعد الانقطاع؟
+- كيف نمنع التكرار؟
+- كيف نراقب النظام؟
+- متى نحتاج إنسانًا؟
+- ما الذي يبقى محفوظًا بعد انتهاء الدورة؟
+إذا كانت هذه الأسئلة محسومة، يمكن بناء نظام 24/7 قابل للتوسع بصورة صحيحة.
+40. القواعد غير القابلة للتفاوض
+Persistent State > Context Memory
+Validated State > Unverified Result
+Execution ≠ Validation
+Validation ≠ Commit
+Commit ≠ Verification
+Unknown ≠ Safe Retry
+Task Failure ≠ System Failure
+NO_WORK ≠ STOP
+NO_CHANGE ≠ STOP
+Cycle Completion ≠ System Completion
+Scheduled ≠ Live Process
+Idempotency is mandatory for retryable actions
+Recovery must preserve the last verified state
+No claim of execution without verified execution
+The system continues by state persistence + next trigger, not by one immortal process
+41. استخدام هذا المرجع عند مشروع جديد
+عند بدء مشروع جديد، يُنشأ  Project Operations Specification  منفصل، ثم يحدد:
+PROJECT → WORK UNITS → TRIGGERS → STATES → QUEUE → EXECUTION → VALIDATION → COMMIT → RECOVERY → OBSERVABILITY → CONTINUITY
+ولا تُنسخ كل التفاصيل آليًا إلى المشروع؛ يتم أخذ ما ينطبق فقط مع الحفاظ على المبادئ الحاكمة.
+42. تاريخ هذا المرجع
+نوع المستند:  Reusable Operating Architecture Reference
+الغرض:  إعادة استخدامه كأساس عند تصميم أي مشروع أتمتة مستمرة جديد
+النطاق:  عام وغير مرتبط بمجال محدد
+المصدر:  خلاصة التحليل والعصف الذهني المنفذ في هذه المحادثة
+القاعدة:  أي تعديل على المبادئ الأساسية يجب أن يكون قرارًا تشغيليًا صريحًا، وليس استنتاجًا ضمنيًا.
+43. Hardening Review — 2026-09-26
+أظهرت المراجعة المعمارية أن المواصفة الأساسية كانت قوية في State / Validation / Commit / Recovery، لكنها تحتاج إلى طبقة Reliability & Distributed-Execution أكثر صراحة.
+الفجوات التي تم اعتماد إصلاحها في المواصفة
+43.1 منع تداخل الدورات
+لا يُفترض أن الجدولة تمنع تشغيل دورتين على نفس العمل في الوقت نفسه.
+يجب استخدام  lock / lease / execution ownership  أو آلية مكافئة قبل Claim العمل.
+43.2 Retry Budget
+لا يكفي تحديد عدد محاولات لكل مهمة فقط؛ يجب أن توجد  ميزانية إعادة محاولة مجمعة  لحماية النظام والاعتماديات من Retry Storm.
+43.3 Exponential Backoff + Jitter
+إعادة المحاولة تكون مع Backoff مناسب، ويُفضّل وجود عشوائية زمنية عند التوازي لتقليل thundering herd.
+43.4 Circuit Breaker
+عند استمرار فشل dependency، لا تستمر المهام في ضربها. افتح Circuit مؤقتًا، ثم اختبر الاستعادة قبل إعادة المرور الطبيعي.
+43.5 Dead-Letter / Poison Job Isolation
+المهمة التي تفشل بشكل دائم لا يجوز أن تدور إلى الأبد في الطابور الرئيسي.
+بعد شروط محددة تنقل إلى  Dead-Letter / Quarantine  مع الحفاظ على سجلها وإمكانية إعادة إدخالها بعد الإصلاح.
+43.6 Backpressure + Queue Durability
+عند ارتفاع معدل المنتجين فوق قدرة المستهلكين، يجب أن يصبح Queue جزءًا من التحكم في الحمل، مع مراقبة Queue Depth / Queue Age واتخاذ قرار بالتوسعة أو تأخير أو إسقاط العمل غير الحرج بحسب السياسة.
+43.7 At-Least-Once كافتراض افتراضي
+لا يُفترض Exactly-Once على مستوى النظام كاملًا. يجب أن تكون عمليات الاستهلاك idempotent، ويجب تتبع Message/Execution IDs لمنع الأثر المزدوج.
+43.8 Visibility / Lease Timeout
+العمل المأخوذ من Queue يحتاج إلى مهلة ownership قابلة للتجديد عند العمليات الطويلة حتى لا يستلم عامل ثانٍ المهمة قبل انتهاء الأول، مع بقاء الحاجة إلى idempotency.
+43.9 Priority Fairness / Starvation
+الأولوية العالية قد تمنع الأعمال الأقل أولوية من الوصول إلى التنفيذ. يجب دعم سياسة Fairness/Aging عندما يتطلب المشروع ذلك.
+43.10 Dual-Write Protection
+إذا احتاجت العملية إلى تحديث حالة دائمة وإرسال رسالة/حدث، يجب فحص  dual-write risk  واستخدام Transactional Outbox أو آلية تحقق مكافئة عندما ينطبق النمط.
+43.11 Durable Execution / Checkpointed Progress
+الأعمال الطويلة ينبغي تصميمها كخطوات قابلة للاستئناف مع حفظ تقدم durable، بدل الاعتماد على ذاكرة العامل.
+43.12 Observability موحدة
+يجب ربط Logs + Metrics + Traces بسياق تنفيذ مشترك مثل Execution_ID / Correlation_ID، بحيث يمكن تتبع رحلة العملية عبر المكونات.
+43.13 SLO / Alert Quality
+المراقبة ليست مجرد جمع Logs؛ يجب تحديد إشارات صحة ذات معنى، وألا ينتج النظام Alerts غير قابلة للفعل أو ضوضاء تؤدي إلى Alert Fatigue.
+43.14 حدود الاستقلالية
+يجب تعريف ما يمكن إصلاحه تلقائيًا، وما يحتاج موافقة بشرية، وما يجب منعه. لا يكفي أن تكون الأداة قادرة على التنفيذ.
+الأدلة الخارجية المستخدمة في هذه المراجعة
+- Microsoft Azure Architecture Center — Transient Fault Handling / Retry Budget / Circuit Breaker / Retry Storm:  https://learn.microsoft.com/en-us/azure/architecture/best-practices/transient-faults
+- Microsoft Azure Architecture Center — Circuit Breaker:  https://learn.microsoft.com/en-us/azure/architecture/patterns/circuit-breaker
+- Microsoft Azure Architecture Center — Queue-Based Load Leveling:  https://learn.microsoft.com/en-us/azure/architecture/patterns/queue-based-load-leveling
+- Microsoft Durable Task — durable execution, persistence, recovery, long-running workflows:  https://learn.microsoft.com/en-us/azure/durable-task/common/what-is-durable-task
+- AWS Step Functions — redrive and preserved successful step history:  https://docs.aws.amazon.com/step-functions/latest/dg/redrive-executions.html
+- AWS Prescriptive Guidance — Transactional Outbox:  https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/transactional-outbox.html
+- microservices.io  — Transactional Outbox:  https://microservices.io/patterns/data/transactional-outbox
+- microservices.io  — Idempotent Consumer:  https://microservices.io/patterns/communication-style/idempotent-consumer.html
+- OpenTelemetry — observability and telemetry signals:  https://opentelemetry.io/docs/what-is-opentelemetry/
+- Google SRE — Monitoring Distributed Systems:  https://sre.google/sre-book/monitoring-distributed-systems/
+قرار المراجعة
+المواصفة الأصلية  صالحة كأساس ، لكنها لم تكن مكتملة بما يكفي لنظام موزع أو عالي الاعتمادية قبل إضافة هذه الطبقة.
+الحالة الحالية للمواصفة:  HARDENED — ARCHITECTURE BASELINE
+مهم: هذا التحديث أصلح  المواصفة والنموذج التشغيلي . لا يجوز اعتباره تنفيذًا لبنية تحتية فعلية غير موجودة في البيئة الحالية. إنشاء Queue فعلية أو Lock/Lease service أو Workers أو Durable Runtime يحتاج إلى مكونات تشغيلية فعلية مرتبطة بالمشروع.
+44. Hardening Gate قبل اعتبار أي مشروع 24/7 جاهزًا
+يجب اجتياز هذه البوابات:
+- Trigger Reliability
+- Overlap Protection
+- Durable State
+- Queue Durability
+- Ownership / Lease
+- Idempotency
+- Retry Budget
+- Backoff + Jitter
+- Circuit Breaker عند الحاجة
+- Dead-Letter / Quarantine
+- Backpressure
+- Checkpoint / Resume
+- Unknown Outcome Reconciliation
+- Dual-Write Protection عند الحاجة
+- Validation + Commit Verification
+- Observability
+- SLO / Alerting
+- Security / Secrets
+- Backup / Disaster Recovery
+- Human Approval Policy
+- Capacity / Cost Limits
+- Recovery Test
+- Failure Injection Test
+- Restart / Resume Test
+لا يُوصف المشروع بأنه Production-Ready 24/7 قبل اجتياز البوابات المناسبة له.
+Canonical Execution Directive — 2026-09-26
+نفّذ دورة واحدة من منظومة الأتمتة المركزية 24/7. النطاق: المنظومة نفسها فقط.
+TRIGGER → LOAD VERIFIED STATE → PRE-FLIGHT → OVERLAP/OWNERSHIP CHECK → IDENTIFY GAP → RESEARCH/COMPARE ALTERNATIVES → VALIDATE → DESIGN FIX → SIDE-EFFECT CHECK → APPLY SAFE FIX → VERIFY → PERSIST → QC → DETECT NEW GAPS → PRIORITIZE → NEXT TRIGGER
+القواعد: لا ادعاء بلا تنفيذ متحقق؛  SPECIFICATION_FIXED ≠ IMPLEMENTED_VERIFIED ≠ BLOCKED ؛  UNKNOWN → RECONCILE FIRST ؛ لا Retry بلا حدود؛ افترض  at-least-once  ما لم يثبت غير ذلك؛ احمِ الآثار الجانبية بـidempotency؛ لا تتجاوز Billing/Permissions؛ لا تخلط Runtime المركزي مع مشاريع قائمة.
+في كل دورة: افحص الفجوات، ابحث عن بدائل حتى بعد العثور على حل، طبّق الإصلاح غير المدمّر عندما تدعمه الأدوات فعليًا، ثم سجّل الدليل والحالة وBlockers وNext Work في Notion.
+معيار إضافي — البحث عن بدائل تشغيل بلا اشتراك مدفوع
+عند وجود عائق Billing أو طلب صريح لتجنب الاشتراكات، يجب أن تبحث كل دورة عن منصات بديلة لـRender وغيرها، مع تصنيف دقيق:
+- $0/month:  خطة مجانية بلا رسم شهري.
+- Free Tier محدود:  مجانية ضمن حدود تشغيلية واضحة.
+- Trial/Credit:  مجانية مؤقتة أو قائمة على رصيد تجريبي.
+- Paid:  تتطلب اشتراكًا/دفعًا للاستخدام المطلوب.
+لا يكفي إثبات السعر؛ يجب التحقق من ملاءمة المنصة لمتطلبات Central Runtime: scheduling، background workers، queue، durable state، persistence، retries، ownership/lease، recovery، observability، execution limits، sleep/scale-to-zero، وrepository isolation.
+قاعدة:  Free ≠ Production 24/7.
+ولا يجوز اعتبار $0 دليلًا على الاستمرارية أو durability.

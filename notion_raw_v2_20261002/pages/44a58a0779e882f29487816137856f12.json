@@ -1,0 +1,147 @@
+{
+ "capture_reason": "NEWLY_ACCESSIBLE",
+ "captured_at": "2026-10-02T12:26:31+03:00",
+ "title": "التفاضل والتكامل 1",
+ "last_edited": "2026-07-24T22:57:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "44a58a07-79e8-82f2-9487-816137856f12",
+  "created_time": "2026-07-24T22:57:00.000Z",
+  "last_edited_time": "2026-07-24T22:57:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": {
+   "type": "external",
+   "external": {
+    "url": "https://images.unsplash.com/photo-1597616087703-c9d49dcedd1b?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb"
+   }
+  },
+  "icon": {
+   "type": "emoji",
+   "emoji": "📐"
+  },
+  "parent": {
+   "type": "database_id",
+   "database_id": "c2958a07-79e8-8280-87d2-8176dad0cf82"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "رمز المقرّر": {
+    "id": "CbJs",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "MATH 120",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "MATH 120",
+      "href": null
+     }
+    ]
+   },
+   "الواجبات": {
+    "id": "qkkc",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "16058a07-79e8-83a8-add3-81a54de201e1"
+     },
+     {
+      "id": "10f58a07-79e8-83af-be4c-8103aa5c4084"
+     },
+     {
+      "id": "da158a07-79e8-8295-bc4d-0187af81cc22"
+     },
+     {
+      "id": "29d58a07-79e8-8337-a4ce-8136773c3a23"
+     }
+    ],
+    "has_more": false
+   },
+   "Course Name": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "التفاضل والتكامل 1",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "التفاضل والتكامل 1",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/1-44a58a0779e882f29487816137856f12",
+  "public_url": null,
+  "archived": false,
+  "request_id": "5377fdd1-4962-408f-b480-e9bc5d57cb2e"
+ },
+ "block_count": 4,
+ "blocks": [
+  {
+   "id": "f7358a07-79e8-827b-be2d-0130117558ac",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "↑ قسم الواجبات أعلاه هو المكان المخصّص لإضافة واجبات هذا المقرّر."
+   ],
+   "created": "2026-07-24T22:57:00.000Z",
+   "edited": "2026-07-24T22:57:00.000Z"
+  },
+  {
+   "id": "1c958a07-79e8-83d2-8333-81ce7c67800a",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "روابط سريعة"
+   ],
+   "created": "2026-07-24T22:57:00.000Z",
+   "edited": "2026-07-24T22:57:00.000Z"
+  },
+  {
+   "id": "1de58a07-79e8-83a3-b41c-01a89d29753b",
+   "type": "divider",
+   "has_children": false,
+   "text": [],
+   "created": "2026-07-24T22:57:00.000Z",
+   "edited": "2026-07-24T22:57:00.000Z"
+  },
+  {
+   "id": "08658a07-79e8-83bd-92ca-015b5b3cbb10",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [],
+   "created": "2026-07-24T22:57:00.000Z",
+   "edited": "2026-07-24T22:57:00.000Z"
+  }
+ ]
+}

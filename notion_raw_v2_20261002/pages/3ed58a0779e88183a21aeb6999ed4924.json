@@ -1,0 +1,1301 @@
+{
+ "capture_reason": "NEW",
+ "captured_at": "2026-10-02T12:06:31+03:00",
+ "title": "Deep Research Findings — Supplier Intelligence — 2026-10-02",
+ "last_edited": "2026-10-02T02:32:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3ed58a07-79e8-8183-a21a-eb6999ed4924",
+  "created_time": "2026-10-02T02:32:00.000Z",
+  "last_edited_time": "2026-10-02T02:32:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "page_id",
+   "page_id": "3ed58a07-79e8-81b3-954f-e116cd960d77"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "title": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Deep Research Findings — Supplier Intelligence — 2026-10-02",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Deep Research Findings — Supplier Intelligence — 2026-10-02",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/Deep-Research-Findings-Supplier-Intelligence-2026-10-02-3ed58a0779e88183a21aeb6999ed4924",
+  "public_url": null,
+  "archived": false,
+  "request_id": "34c9e039-0c5c-401a-91dc-2cdc790cf60e"
+ },
+ "block_count": 127,
+ "blocks": [
+  {
+   "id": "b594db05-8159-4c40-92f4-ab18f4669b95",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "نطاق البحث"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "14f03b5d-c35b-4c21-a79e-f3cda18fb8aa",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "تم فحص GitHub والمصادر الرسمية المرتبطة بـ OpenAPI وArazzo وTelegram واختبارات API، مع التركيز على المشاريع القابلة لإعادة الاستخدام في نظام متعدد مزودي الخدمات."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "3538f7c7-625a-4f4e-bbe6-487a525fd057",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "النتيجة الرئيسية"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "61dffd75-fac4-4af6-9de8-f2f826d42048",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "FINDING: لم يظهر في البحث مشروع عام واحد يجمع جميع الطبقات المطلوبة معًا: مئات Telegram Providers + API discovery + provider normalization + catalog aggregation + product matching + price/stock intelligence + reliability measurement + supplier decisioning."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "6fc0d9fe-8bca-43be-bdc2-ec38c356f9f8",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "الموجود هو مجموعة مشاريع متخصصة يمكن تركيبها."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "d468fd94-daab-44c3-8080-b76cf394178b",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "تدقيق معماري حاسم"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "b5b19715-a50c-4e53-ae48-79e46c57fd54",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "INFERENCE: تمثيل النظام على أنه \"300 بوت = 300 عامل\" غير دقيق. إذا كانت البوتات تمنح API Keys ووثائق HTTP APIs، فإن وحدة التنفيذ الحقيقية هي Provider Credential + API Endpoint + Adapter. لا توجد حاجة لأن تمر طلبات المورد عبر Telegram Bot بعد الحصول على API access."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "ebc2b7eb-ebdd-4a3b-9852-065f43dc9d0d",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Telegram قد يدخل في طبقة onboarding/credential issuance أو في اختبار محادثات معينة، لكنه ليس طبقة النقل الأساسية للـREST APIs."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "6e46dab6-d8c5-47e5-ab13-f673197dab0f",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Telegram Bot-to-Bot Communication موجود رسميًا في حالات وشروط محددة، لكنه ليس أساسًا مناسبًا لربط كل الموردين، لأن Telegram يفرض قيودًا على استقبال رسائل البوتات من بعضها خارج السياقات المدعومة."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "57836a4a-9e6e-45d2-8474-4de50298c6b6",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "أبرز المشاريع"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "e96c80b9-9c32-4434-a243-2ccef0779ae4",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "1. jentic/arazzo-engine"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "db043427-65e7-49d3-956c-bf1c600d0a7b",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "الغرض: تنفيذ workflows وفق Arazzo، مع Runner وGenerator. الـRunner ينفذ workflows ويعالج authentication وتمرير المعلمات والمنطق الشرطي والأخطاء، والـGenerator يحلل OpenAPI ويولد workflows."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "ff8d3e18-8a93-4f2d-b5ae-fd6ab5ffe751",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "الحالة الموثقة من GitHub: Public، غير مؤرشف، Python، Apache-2.0، 64 stars و14 forks و31 issue مفتوحة عند الفحص، وآخر تحديث للمستودع 2026-09-11 بحسب واجهة GitHub API."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "123d4dfc-d17e-4fbd-9fc6-4ec018ca25a7",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "الاستخدام المناسب: طبقة workflow execution/reference، وليس نظام Supplier Intelligence كامل."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "48fd776b-1932-4ced-b03b-4383e6ad50fe",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "2. FerdinandoConte/shopify-supplier-sync-orchestrator"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "31168706-9a7d-4f70-8e09-2d6776daed25",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "الغرض: multi-supplier synchronization؛ يدعم supplier adapters، جلب المنتجات، normalization، price tracking، dynamic supplier scoring، order routing، order tracking وdry-run."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "3dd80508-d5d0-4a6d-8044-763c7f47d002",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "الحالة الموثقة من GitHub: JavaScript، MIT، غير مؤرشف، مشروع حديث جدًا أُنشئ في 2026-03-14، 0 stars و0 forks عند الفحص."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "96d1a638-c0fc-4498-9209-96b2faec0fbd",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "الاستخدام المناسب: مرجع معماري مباشر لمنطق supplier adapters وscoring وorder routing، وليس قاعدة جاهزة ناضجة للنظام كله."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "b516a423-7a29-44b0-b564-062d8b3591c1",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "3. fuad-hasan-safat/supplier-product-matcher"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "fdc3c279-6a38-4a3c-b501-9a27e2c659d2",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "الغرض: مطابقة كتالوجات الموردين باستخدام LLM normalization + embeddings + PostgreSQL/pgvector + cosine similarity."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "82b754c0-1b06-4fb4-a82a-3b28df5fa21e",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "الحالة الموثقة: TypeScript، public، غير مؤرشف، مشروع صغير وحديث أُنشئ 2026-06-20، 0 stars و0 forks عند الفحص، ولا ظهر LICENSE file في المسار المتوقع أثناء الفحص."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "51122612-c1b2-40e8-928c-c8fd6dfdabfd",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "الاستخدام المناسب: مرجع/نواة لمطابقة المنتجات. لا ينبغي افتراض أنه حل إنتاجي لمئات الموردين."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "07bba43c-fe27-4577-9aad-531ed805620c",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "4. odhasu/tgbot"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "76966052-cbc4-4b7c-9cf4-1f1dce067a4a",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "الغرض: Telegram reseller bot يستخدم Canboso Buyer API لجلب catalog وstock وwholesale pricing وتنفيذ supplier purchases وتسليم credentials وتسجيل wholesale cost وgross margin."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "2305a334-06ee-40e3-8f60-687804c65f1d",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "الحالة: Python، public، غير مؤرشف، مشروع حديث أُنشئ 2026-08-17، 0 stars و0 forks عند الفحص، ولم يظهر LICENSE file أثناء الفحص."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "ddc6f008-e13b-4573-8bce-08e44615959c",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "الاستخدام المناسب: مرجع عملي لطبقة Telegram reseller + supplier buyer API."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "ad152778-2958-47bb-bec0-f0d0b9c5e05d",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "5. jentic/Arazzo + OAI/Arazzo-Specification"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "52d212c8-e44e-407e-a4bf-5cb05e393ddc",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Arazzo هو معيار رسمي من OpenAPI Initiative لوصف وتسلسل استدعاءات API للوصول إلى نتيجة معينة. النسخة الحالية المنشورة رسميًا هي Arazzo 1.1.0 بتاريخ 2026-05-17."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "4c5cd6a5-69fa-49e4-be6a-27324f05bbf0",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "الاستخدام المناسب: تعريف workflows مثل:"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "acc6d2aa-91b2-4a5f-8106-7f9749233e2a",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "discover product"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "1252b2f9-71a1-42c0-8f1c-9a6d7059f0d3",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "check balance"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "b8cbaa8d-63e2-41f8-90fa-9aaa76b228c6",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "create order"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "d1490187-4609-4a9e-be60-580746fc107b",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "fetch order"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "1a8b17df-27e7-42a8-8dbc-209062e5f45f",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "validate delivery"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "a910005b-1b8a-4980-8c6c-129030a40e9b",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "كما توجد أدوات تنفيذ وتوليد مبنية على المواصفة."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "82a292f6-2210-4ed0-ae08-6b98d4e373b5",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "6. BhairavDataFlow/procure-ai"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "e95b99ea-f7e6-4efe-8729-6b9d175f152d",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "الغرض: procurement intelligence؛ supplier matching، ranking، RFQ، quote intelligence، bid comparison، PO generation مع human approval."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "b0894d87-8117-4142-aedd-a28027737be9",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "الحالة: Python، public، غير مؤرشف، مشروع حديث أُنشئ في 2026-08-30، 0 stars و0 forks عند الفحص، ولا ظهر LICENSE file في المسار المتوقع."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "72be91d0-5550-46de-9196-2338746517dd",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "الاستخدام المناسب: مرجع لمنطق Supplier Intelligence متعدد المعايير وليس أساس النظام."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "fb1fea48-136e-464d-8559-6ebdf5a3b69b",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "7. maharanirizki/VSOA"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "2f9a9da1-5a01-44be-988b-2c1282643506",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "مرجع لنمذجة Vendor Selection and Order Allocation باستخدام optimization. يتعامل مع السعر، الجودة/العيوب، الاعتمادية، on-time delivery، القدرة، repair turnaround، warranty وغيرها، مع أوزان وأهداف وقيود."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "c53a8f4e-7cde-454a-a163-caf2ed645662",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "الاستخدام المناسب: مرجع Decision/Optimization Layer وليس integration framework."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "9a9557a3-6878-4829-9982-07e23ea626d5",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "8. merurjs/mercur"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "73ba2d69-c3d0-45ea-8223-5834a176150a",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Marketplace engine فوق Medusa يدعم multi-vendor catalog/offers/commissions/payouts. المستودع MIT، public، وذو نشاط مرتفع جدًا عند الفحص. لكنه لا يحل Supplier Intelligence المطلوب. كما أن README يوضح أن بعض قدرات Enterprise المتقدمة مثل EAN matching وBuy Box/winning-offer engine وmaster-data governance وmulti-channel stock sync ليست جزءًا من الـopen-source core."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "879089e0-3a5f-444c-9b7f-3fe43e0fd285",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "الاستخدام المناسب: مرجع لمنصة marketplace، وليس محرك الموردين نفسه."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "69a00d21-1909-4cf5-8153-23b4b7052e43",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "مكونات مفتوحة المصدر مهمة"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "88e92c4d-3678-467f-b2f3-a4465a91c150",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Redocly CLI"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "67c9491a-925a-4087-a728-6d0b165a7e19",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "يمكنه linting وbundling لـOpenAPI، ويدعم أيضًا Arazzo. هذا مفيد لتطبيع وثائق الموردين والتحقق منها قبل التشغيل."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "184d4e2f-0742-48d2-b79d-787522114529",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Schemathesis"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "9324c60f-f4a2-4f86-83de-8b0dfa7f0e14",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "يولد اختبارات property-based من OpenAPI، ويدعم OpenAPI 2.0 و3.0 و3.1 و3.2، كما يدعم workflows متعددة الخطوات واختبارات الحالة. مناسب لاختبار APIs المصرح بها، لكن لا ينبغي تشغيل fuzzing العدواني مباشرة على APIs حقيقية للموردين دون ضوابط."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "693bf7ff-8ec1-4952-b77e-a772c87bf3e0",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "oasdiff"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "bc46c8c6-1592-4330-9f97-b96d03c0c9c4",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "يقارن إصدارات OpenAPI ويكشف breaking changes ويستطيع إنتاج changelog. مفيد لمراقبة تغيّر API للمورد عبر الزمن."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "8de4edbb-28f2-4323-92dc-7bc0a14361c3",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "RapidFuzz"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "989e856e-760c-4f75-8ba2-d8b75425b90d",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "مفيد للمطابقة النصية السريعة قبل اللجوء إلى embeddings."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "054abbbe-50dc-4e9d-80a3-6267411ac830",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "pgvector"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "a8897d89-ad88-4a32-bddf-1d4712bc26d5",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "يمكن استخدامه داخل PostgreSQL للمطابقة المتجهية والبحث الدلالي."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "c8c665fd-b7f0-41d1-bc8c-41a433277e1f",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "OpenAPI / Arazzo Facts"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "125e81ae-85c3-4704-b297-5ab5a84bd051",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "OpenAPI هو معيار وصفي للـHTTP APIs يسمح باكتشاف قدرات API وفهمها آليًا عندما تكون المواصفة صحيحة. الموقع الرسمي يعرض نسخًا منشورة حديثة، ومنها OpenAPI 3.2.1."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "e3407305-a963-4b39-bb78-88b24f1b7d16",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Arazzo 1.1.0 هو المعيار الحالي المنشور لوصف workflows متعددة الاستدعاءات."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "5da2e0c6-ebdc-48ca-9982-762c4fcb2634",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "Gap Analysis"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "bb76d798-50e2-4f33-b05e-1cf85904fb30",
+   "type": "table",
+   "has_children": true,
+   "text": [],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "785490f3-9912-4a58-a766-2b88bfb4ea3c",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "94e8b8b6-c0c8-4dab-8901-f3e3145ae75c",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "b2045dfd-5974-444c-b73b-e814c6646421",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "f6efc1f7-6d62-4685-940d-dfe4743c23e7",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "1431a7f0-5435-45fb-af36-dd779a9eb36f",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "3aa56816-6a8f-41c4-acfc-a3f38a290c92",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "01607627-6843-4990-b56f-118096b30d7f",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "02d97faf-ac94-4f32-b2cf-1d23fbe4c727",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "c764b4ad-974d-4ae5-9d8f-5f13056faf30",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "0bbc5abf-a5a2-4159-b983-931a04361b7d",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "4b71c59e-3b61-43dd-b60a-77ae5ff12bdc",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "19252606-ace9-4878-b9a5-49a3616b0007",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "0c7dbe59-e4a1-4db0-882f-47ba8dc6f199",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "dea088b0-a9c1-4eb7-a3fc-456152003a74",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "abbb2414-5a90-42d1-be20-5a52ee1f9da3",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "Gap الحقيقي الذي يجب بناؤه"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "ea8725c0-d9aa-40c0-a2a4-affbd5de9a87",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Provider Registry"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "ac0db582-a7d0-470b-af34-5611bdb2dd71",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Capability Matrix"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "aed3357b-d4c9-4f5d-9859-ebe84b2d8cd6",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Discovery/Fallback layer"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "cec7ac7b-ff68-4308-b1a3-b05cf0db2c6a",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Adapter contract"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "bf8fb44d-cec1-47ab-8ea4-61c86f3c1e68",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Canonical Product Model"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "a4883ff8-42b5-4501-9282-89c6f28b299b",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Product Entity Resolution"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "9ea9393a-d9c0-4db6-942a-89eae7113f77",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Provider Health History"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "08f6114e-67fd-4d56-8d3a-77852f2d99a1",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Effective Cost Model"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "ca60ebf0-45d6-47fa-b348-ff51abdf7658",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Evidence/Confidence Model"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "78eeac3c-6d92-4ac1-a493-bb1ef7406872",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Decision Engine"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "ba3d1b27-584b-4f4b-b67c-1ba65b31a08e",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Historical snapshots"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "dc0979ab-e8a6-4eb5-ada3-6593274742cc",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Safe execution policy"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "a9767a84-7038-43ae-bba5-b85b013a3f4e",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "تعديل مهم في نموذج الأدلة"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "c7e2f629-e8d6-4c15-9409-b18206de790f",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "بدل اعتبار كل خاصية حقيقة، يجب تخزين مصدرها وحالتها:"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "c863f662-2bc4-48ff-be06-49bb1814c981",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "DECLARED — مذكورة في docs/provider"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "55ba7700-7475-4160-85df-b1eb17b53dac",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "OBSERVED — شوهدت في اختبار فعلي"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "a49feddc-eb34-47ba-9d17-2a8cf47da800",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "HISTORICAL — مدعومة ببيانات زمنية"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "5bd94442-3bee-4c9b-b370-91c0e605b20d",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "INFERRED — استنتاج"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "88ae0247-7a0b-4c2f-b15b-d390a60213d7",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "UNKNOWN — لا توجد أدلة كافية"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "9d6b0198-7776-45a6-93aa-c3f33d847346",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "لا يجوز أن تنتقل UNKNOWN أو INFERRED إلى حقيقة تشغيلية مساوية لـOBSERVED."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "ea221125-7e0e-4a4f-b80e-14e4f9a19ec3",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "قرار هندسي"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "204ee75c-f10f-4e7a-880d-e7cbd3d0fb45",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "RECOMMENDATION: لا تبدأ Fork لمشروع واحد."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "0d9f1e34-1782-4983-87ee-fb53ccdf5b8e",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "السبب: لا يوجد مشروع واحد يغطي المطلوب، والمشاريع الأقرب إما صغيرة وحديثة أو متخصصة في طبقة واحدة."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "5d93425a-18f6-42db-b2a1-796f1e398613",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "المسار الأنسب:"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "33fde81c-8e17-4a7c-93bd-56f396df544a",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "استخدام standards/tools للمراحل المعيارية."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "d9fcd2d8-f597-419c-aa98-0188660db7e1",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "أخذ Supplier Adapter + scoring patterns من مشاريع متعددة الموردين كمرجع."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "5e369d8d-ea8b-4d04-8336-72e3640acf22",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "استخدام Arazzo كصيغة workflow عندما تكون مناسبة."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "6ead2ecb-e11d-4051-a7e6-b6f5da3aeadc",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "استخدام Schemathesis/Redocly/oasdiff في طبقة API quality."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "14ca3cbb-2d6e-48d0-9252-9ebfb8b4448f",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "بناء Provider Intelligence Core الخاص بك حول نموذج canonical وevidence وhistory وdecisioning."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "1b827eaf-ca49-4784-be1f-28c80f89c682",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "مصادر رسمية"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "5c762f21-420c-4a5b-acde-37fc6829c849",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "OpenAPI Specification: https://spec.openapis.org/oas/"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "d0f2ab9a-bb97-48a5-bc3b-f8fd2a5691e5",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Arazzo Specification: https://spec.openapis.org/arazzo/"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "9f146fcf-3b78-4ff2-befb-a1e41f2428b2",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Telegram Bots FAQ: https://core.telegram.org/bots/faq"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "93735ff5-a5d0-4a86-9426-bd3457bce9e7",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Telegram Bot-to-Bot: https://core.telegram.org/api/bots/bot-to-bot"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "b95f1ee4-9e6f-46d1-9651-7c4363ef880c",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Redocly CLI: https://redocly.com/docs/cli"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "eed8047b-aed8-4ae1-ae2d-59a5b5e9ae35",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Schemathesis: https://schemathesis.readthedocs.io/"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "ea1e6071-3345-49de-8e0c-c2bc82d17ef7",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "مصادر GitHub"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "deb83dc6-4340-4b53-ab71-6cf57878285e",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "https://github.com/jentic/arazzo-engine"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "9247cef7-8adc-4039-9f6f-81cf69bb438f",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "https://github.com/FerdinandoConte/shopify-supplier-sync-orchestrator"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "01439ccd-5108-4b88-abf9-401cf4ada99f",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "https://github.com/fuad-hasan-safat/supplier-product-matcher"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "c3f85e62-6f9e-414e-8f4e-7b9041b994ed",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "https://github.com/odhasu/tgbot"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "7e4906fc-45a8-4574-a7b0-a798fa91786d",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "https://github.com/BhairavDataFlow/procure-ai"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "6c5ef45d-cb76-42f2-bede-5c9c5b6e494e",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "https://github.com/maharanirizki/VSOA"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "28e45fb4-d14b-4863-b176-c4116c294ed8",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "https://github.com/mercurjs/mercur"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "db18fcd3-777e-4f68-a476-2c2c82b1431d",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "https://github.com/OAI/Arazzo-Specification"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "b47b9697-82e2-4436-ad04-96419acd5c9e",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "7. تصحيح إصدار مهم"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "0d41f56e-56ef-40d2-a54c-762d7e068e09",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "المعيار الرسمي الحالي هو Arazzo 1.1.0 (2026-05-17). لكن README لحزمة @jentic/arazzo-runner في monorepo jentic-arazzo-tools يذكر حاليًا دعم Arazzo 1.0.0 و1.0.1 ودعم OpenAPI 2.0 و3.0.x و3.1.x، مع وصف الحزمة بأنها تحت تطوير مكثف وغير منشورة بعد إلى npm. لذلك يجب اعتبارها مرجعًا/مكوّنًا يحتاج تحقق إصدار وتوافق، لا افتراض أنها تدعم أحدث معيار تلقائيًا."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "c0d52115-0a62-454a-8582-02f17cadcf47",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "8. مبدأ بحث نهائي"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "fd5549c8-ced6-4e00-aa57-961d1a9fc14d",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "عدم وجود مشروع مطابق في نتائج البحث لا يثبت عدم وجوده مطلقًا. الصياغة الصحيحة هي:"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "f901b74a-17f6-4c2e-b01e-ad15fb71b4cf",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "لم يُعثر على مشروع عام موثّق يطابق النظام كاملًا ضمن نطاق المصادر والعبارات التي تم فحصها."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "f779a73b-de4e-4801-b882-31d3e1192fbf",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "كما تم تصحيح إشارة سابقة إلى مشروع باسم CommerceLink: لم أستطع تثبيت مستودع GitHub عام مطابق لوصفه السابق ضمن البحث الحالي، ولذلك لا يُعتمد كمرجع مثبت في النسخة الحالية."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  }
+ ]
+}

@@ -1,0 +1,6978 @@
+{
+ "rejected": [
+  {
+   "domain": "rfp.wiki",
+   "reason": "directory/media/aggregator host"
+  },
+  {
+   "domain": "worldradiohistory.com",
+   "reason": "QC manual reject: content archive"
+  },
+  {
+   "domain": "f6s.com",
+   "reason": "directory/media/aggregator host"
+  },
+  {
+   "domain": "slashdot.org",
+   "reason": "directory/media/aggregator host"
+  },
+  {
+   "domain": "sourceforge.net",
+   "reason": "directory/media/aggregator host"
+  },
+  {
+   "domain": "justdial.com",
+   "reason": "directory/media/aggregator host"
+  },
+  {
+   "domain": "globalsources.com",
+   "reason": "directory/media/aggregator host"
+  },
+  {
+   "domain": "apis.io",
+   "reason": "directory/media/aggregator host"
+  },
+  {
+   "domain": "porsa.io",
+   "reason": "QC manual reject: commerce storefront SaaS for digital sellers — enablement tool, not distributor"
+  },
+  {
+   "domain": "revenuebase.ai",
+   "reason": "QC manual reject: B2B leads/data company, not goods distribution"
+  },
+  {
+   "domain": "digitalheroesco.com",
+   "reason": "QC manual reject: dev agency"
+  },
+  {
+   "domain": "checkthat.ai",
+   "reason": "QC manual reject: AI tool, not distribution"
+  },
+  {
+   "domain": "wholesale.orange.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "tecpinion.com",
+   "reason": "QC manual reject: casino/sweepstakes software — not digital goods distribution"
+  },
+  {
+   "domain": "sologe.net",
+   "reason": "QC manual reject: iGaming B2B marketplace — not digital goods distribution"
+  },
+  {
+   "domain": "lynon.com",
+   "reason": "QC manual reject: iGaming casino software (out of scope)"
+  },
+  {
+   "domain": "shi.com",
+   "reason": "QC manual reject: enterprise IT reseller; page Cloudflare-blocked, soft categories only, unverifiable"
+  },
+  {
+   "domain": "gartner.com",
+   "reason": "QC manual reject: research firm"
+  },
+  {
+   "domain": "toriihq.com",
+   "reason": "QC manual reject: SaaS management tool"
+  },
+  {
+   "domain": "host.acuite.in",
+   "reason": "directory/media/aggregator host"
+  },
+  {
+   "domain": "dir.indiamart.com",
+   "reason": "directory/media/aggregator host"
+  },
+  {
+   "domain": "electronics.alibaba.com",
+   "reason": "directory/media/aggregator host"
+  },
+  {
+   "domain": "adivaha.com",
+   "reason": "QC manual reject: white-label travel booking platform — wrong vertical (travel)"
+  },
+  {
+   "domain": "amasty.com",
+   "reason": "QC manual reject: single-brand plugin vendor/dev company"
+  },
+  {
+   "domain": "whop.com",
+   "reason": "QC manual reject: digital products marketplace operator — MARKETPLACE_ONLY per rule"
+  },
+  {
+   "domain": "epixelmlmsoftware.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: marketing/agency tool"
+  },
+  {
+   "domain": "finhive.africa",
+   "reason": "QC manual reject: fintech infrastructure"
+  },
+  {
+   "domain": "aciworldwide.com",
+   "reason": "QC manual reject: payments technology — not goods distribution"
+  },
+  {
+   "domain": "developer.orange.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "unipesa.com",
+   "reason": "QC manual reject: fintech platform — not goods distribution"
+  },
+  {
+   "domain": "sendowl.com",
+   "reason": "QC manual reject: digital product cart/delivery SaaS for sellers — enablement tool (consistent with porsa.io)"
+  },
+  {
+   "domain": "conduitdigital.us",
+   "reason": "QC manual reject: marketing agency"
+  },
+  {
+   "domain": "tembi.io",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "graphy.com",
+   "reason": "QC manual reject: creator course platform"
+  },
+  {
+   "domain": "infobip.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "sdk.finance",
+   "reason": "QC manual reject: white-label payment platform"
+  },
+  {
+   "domain": "embedcard.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: fintech/payments (money movement, not goods distribution)"
+  },
+  {
+   "domain": "alarabiya.net",
+   "reason": "directory/media/aggregator host"
+  },
+  {
+   "domain": "cards.salla.com",
+   "reason": "QC manual reject: Salla e-commerce platform feature (Shopify-like) — platform SaaS, not distributor"
+  },
+  {
+   "domain": "pentabank.sk",
+   "reason": "directory/media/aggregator host"
+  },
+  {
+   "domain": "simon-kucher.com",
+   "reason": "directory/media/aggregator host"
+  },
+  {
+   "domain": "b2bmarketplace.corrios.com",
+   "reason": "directory/media/aggregator host"
+  },
+  {
+   "domain": "atwix.com",
+   "reason": "directory/media/aggregator host"
+  },
+  {
+   "domain": "neocurrency.com",
+   "reason": "QC manual reject: crypto/fintech — not digital goods distribution"
+  },
+  {
+   "domain": "zimpler.com",
+   "reason": "QC manual reject: payments (A2A)"
+  },
+  {
+   "domain": "softgamings.com",
+   "reason": "QC manual reject: iGaming/casino software — not digital goods distribution"
+  },
+  {
+   "domain": "prnewswire.co.uk",
+   "reason": "QC manual reject: press release distribution"
+  },
+  {
+   "domain": "eternitylaw.com",
+   "reason": "QC manual reject: law firm"
+  },
+  {
+   "domain": "bit2me.com",
+   "reason": "QC manual reject: crypto exchange"
+  },
+  {
+   "domain": "maxab.io",
+   "reason": "QC manual reject: B2B e-commerce for physical retail/grocery MENA — not digital goods"
+  },
+  {
+   "domain": "alconost.com",
+   "reason": "QC manual reject: localization agency"
+  },
+  {
+   "domain": "helloduty.com",
+   "reason": "QC manual reject: CRM/dialer tool"
+  },
+  {
+   "domain": "workke.co.ke",
+   "reason": "QC manual reject: QC reject: job board"
+  },
+  {
+   "domain": "expressdigitals.com",
+   "reason": "QC manual reject: web services"
+  },
+  {
+   "domain": "spxcommerce.com",
+   "reason": "QC manual reject: enterprise e-commerce platform software — not goods distribution"
+  },
+  {
+   "domain": "xtivia.com",
+   "reason": "QC manual reject: IT services — not goods distribution"
+  },
+  {
+   "domain": "cloudeagle.ai",
+   "reason": "QC manual reject: SaaS management tool"
+  },
+  {
+   "domain": "apmultimedianewsroom.com",
+   "reason": "QC manual reject: media newsroom content"
+  },
+  {
+   "domain": "dms.psc.sc.gov",
+   "reason": "directory/media/aggregator host"
+  },
+  {
+   "domain": "importer.tradekey.com",
+   "reason": "QC manual reject: B2B trade leads directory — discovery infra"
+  },
+  {
+   "domain": "attackshark.ca",
+   "reason": "QC manual reject: physical gaming keyboards"
+  },
+  {
+   "domain": "webridge.co",
+   "reason": "QC manual reject: React dev agency — not goods distribution"
+  },
+  {
+   "domain": "purevpn.com",
+   "reason": "QC manual reject: VPN single-category service, no multi-category digital goods"
+  },
+  {
+   "domain": "emergeapp.net",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "zaelab.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "marix.cc",
+   "reason": "QC manual reject: RELATED_ENTITY — same company as marix.app (Russian/English storefronts)"
+  },
+  {
+   "domain": "website.informer.com",
+   "reason": "QC manual reject: web stats directory — not a supplier"
+  },
+  {
+   "domain": "digimarconwakefield.co.uk",
+   "reason": "QC manual reject: marketing conference"
+  },
+  {
+   "domain": "lansweeper.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "softanics.com",
+   "reason": "QC manual reject: software dev vendor (single-brand)"
+  },
+  {
+   "domain": "pymnts.com",
+   "reason": "QC manual reject: payments news — media"
+  },
+  {
+   "domain": "coingate.com",
+   "reason": "QC manual reject: crypto payment gateway — money movement, not goods distribution"
+  },
+  {
+   "domain": "api.market",
+   "reason": "QC manual reject: AI/data API marketplace — wrong vertical (not digital goods)"
+  },
+  {
+   "domain": "indelec.com",
+   "reason": "QC manual reject: lightning protection (physical)"
+  },
+  {
+   "domain": "corrios.com",
+   "reason": "directory/media/aggregator host"
+  },
+  {
+   "domain": "avanta.info",
+   "reason": "QC manual reject: B2B commerce platform, no digital-goods evidence"
+  },
+  {
+   "domain": "digitalcommerce360.com",
+   "reason": "QC manual reject: e-commerce research/news — media"
+  },
+  {
+   "domain": "innoloft.com",
+   "reason": "QC manual reject: industrial B2B innovation platform"
+  },
+  {
+   "domain": "bookingkit.com",
+   "reason": "QC manual reject: booking SaaS for attractions"
+  },
+  {
+   "domain": "inyad.com",
+   "reason": "QC manual reject: fintech, insufficient digital-goods evidence"
+  },
+  {
+   "domain": "currentasia.com",
+   "reason": "QC manual reject: marketing agency"
+  },
+  {
+   "domain": "virtocommerce.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "bizasean.com",
+   "reason": "QC manual reject: business directory"
+  },
+  {
+   "domain": "digitalagencynetwork.com",
+   "reason": "QC manual reject: agency network directory"
+  },
+  {
+   "domain": "accio.com",
+   "reason": "QC manual reject: AI sourcing tool"
+  },
+  {
+   "domain": "ft.com",
+   "reason": "QC manual reject: news publisher (bot-blocked, category from noise)"
+  },
+  {
+   "domain": "stripe.com",
+   "reason": "QC manual reject: payments processor"
+  },
+  {
+   "domain": "dlocal.com",
+   "reason": "QC manual reject: payments infrastructure"
+  },
+  {
+   "domain": "pxp.io",
+   "reason": "QC manual reject: payments platform"
+  },
+  {
+   "domain": "checkout.com",
+   "reason": "QC manual reject: payments processor"
+  },
+  {
+   "domain": "promaticsindia.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: fintech/payments (money movement, not goods distribution)"
+  },
+  {
+   "domain": "m.made-in-china.com",
+   "reason": "directory/media/aggregator host"
+  },
+  {
+   "domain": "seller.alibaba.com",
+   "reason": "directory/media/aggregator host"
+  },
+  {
+   "domain": "cdn.prod.website-files.com",
+   "reason": "QC manual reject: CDN artifact, not an entity"
+  },
+  {
+   "domain": "allwirelessexpo.com",
+   "reason": "QC manual reject: trade expo/event — not supplier"
+  },
+  {
+   "domain": "vouchermatic.app",
+   "reason": "QC manual reject: voucher campaign marketing tool — not goods distribution"
+  },
+  {
+   "domain": "databridgemarketresearch.com",
+   "reason": "QC manual reject: market research firm"
+  },
+  {
+   "domain": "apify.com",
+   "reason": "QC manual reject: web scraping platform — dev tool, not goods distribution"
+  },
+  {
+   "domain": "trakkr.ai",
+   "reason": "QC manual reject: AI visibility/SEO platform — Streaming category false positive"
+  },
+  {
+   "domain": "founder.deals",
+   "reason": "QC manual reject: iGaming B2B marketplace — wrong vertical"
+  },
+  {
+   "domain": "payonus.com",
+   "reason": "QC manual reject: payments infrastructure"
+  },
+  {
+   "domain": "igamingafrika.com",
+   "reason": "QC manual reject: iGaming news site — not goods distribution"
+  },
+  {
+   "domain": "news.cision.com",
+   "reason": "QC manual reject: press release newswire — media, not supplier"
+  },
+  {
+   "domain": "sparxsystems.com",
+   "reason": "QC manual reject: UML modeling tools — not goods distribution"
+  },
+  {
+   "domain": "tec-it.com",
+   "reason": "QC manual reject: barcode software vendor (single-brand)"
+  },
+  {
+   "domain": "revshare.so",
+   "reason": "QC manual reject: attribution tool"
+  },
+  {
+   "domain": "wigmorewholesale.com",
+   "reason": "QC manual reject: physical goods wholesaler — not digital"
+  },
+  {
+   "domain": "tradeindia.com",
+   "reason": "directory/media/aggregator host"
+  },
+  {
+   "domain": "docs.appotapay.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "infobot.rikers.org",
+   "reason": "directory/media/aggregator host"
+  },
+  {
+   "domain": "dailypost.ng",
+   "reason": "QC manual reject: QC reject: news/media outlet"
+  },
+  {
+   "domain": "softswiss.com",
+   "reason": "QC manual reject: iGaming/casino software provider — not digital goods distribution"
+  },
+  {
+   "domain": "bbusiness.online",
+   "reason": "QC manual reject: blog/content site"
+  },
+  {
+   "domain": "capgemini.com",
+   "reason": "QC manual reject: IT consulting"
+  },
+  {
+   "domain": "a-pay.one",
+   "reason": "QC manual reject: payments gateway (money movement, not goods distribution)"
+  },
+  {
+   "domain": "momo.mtn.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "ericsson.com",
+   "reason": "directory/media/aggregator host"
+  },
+  {
+   "domain": "assets.orange.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "arabic.alibaba.com",
+   "reason": "directory/media/aggregator host"
+  },
+  {
+   "domain": "imaeurope.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: marketing/agency tool"
+  },
+  {
+   "domain": "portaone.com",
+   "reason": "QC manual reject: UCaaS/billing software — not goods distribution"
+  },
+  {
+   "domain": "revolut.com",
+   "reason": "QC manual reject: neobank/fintech — not digital goods distribution"
+  },
+  {
+   "domain": "orderchamp.com",
+   "reason": "directory/media/aggregator host"
+  },
+  {
+   "domain": "faire.com",
+   "reason": "directory/media/aggregator host"
+  },
+  {
+   "domain": "made-in-china.com",
+   "reason": "directory/media/aggregator host"
+  },
+  {
+   "domain": "computerweekly.com",
+   "reason": "QC manual reject: IT news magazine — media, not supplier"
+  },
+  {
+   "domain": "insidetelecom.com",
+   "reason": "QC manual reject: QC reject: news/media outlet"
+  },
+  {
+   "domain": "docs.interswitchgroup.com",
+   "reason": "DUPLICATE/RELATED of interswitchgroup.com"
+  },
+  {
+   "domain": "einpresswire.com",
+   "reason": "QC manual reject: QC reject: news/media outlet"
+  },
+  {
+   "domain": "aimoo.com",
+   "reason": "directory/media/aggregator host"
+  },
+  {
+   "domain": "alibaba.com",
+   "reason": "directory/media/aggregator host"
+  },
+  {
+   "domain": "techzola.com",
+   "reason": "QC manual reject: headless commerce SaaS — not goods distribution"
+  },
+  {
+   "domain": "americanbanker.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: fintech/payments (money movement, not goods distribution); soft categories only (subscriptions/software words can be inc"
+  },
+  {
+   "domain": "dingconnect.com",
+   "reason": "DUPLICATE/RELATED of dingconnect.com"
+  },
+  {
+   "domain": "diliprinter.en.made-in-china.com",
+   "reason": "directory/media/aggregator host"
+  },
+  {
+   "domain": "vondera.app",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "app.usepassport.ai",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "buildwithfern.com",
+   "reason": "QC manual reject: API docs SDK generator — dev tool"
+  },
+  {
+   "domain": "buildwithorbit.ai",
+   "reason": "QC manual reject: AI API tool — dev tool"
+  },
+  {
+   "domain": "postman.com",
+   "reason": "QC manual reject: API testing tool — dev tool"
+  },
+  {
+   "domain": "apisjson.org",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "crawlee.dev",
+   "reason": "QC manual reject: scraping library — dev tool"
+  },
+  {
+   "domain": "dlocal.statuspage.io",
+   "reason": "QC manual reject: status page — infra, not entity"
+  },
+  {
+   "domain": "hellosign.com",
+   "reason": "QC manual reject: e-signature SaaS — not goods distribution"
+  },
+  {
+   "domain": "merge.dev",
+   "reason": "QC manual reject: integration infrastructure SaaS — not goods distribution"
+  },
+  {
+   "domain": "relay.app",
+   "reason": "QC manual reject: automation — dev tool"
+  },
+  {
+   "domain": "reloadly.com",
+   "reason": "KNOWN_ENTITY (root reloadly.com)"
+  },
+  {
+   "domain": "translatex.com",
+   "reason": "QC manual reject: translation API — not goods distribution"
+  },
+  {
+   "domain": "wholesale.turgame.com",
+   "reason": "KNOWN_ENTITY (root turgame.com)"
+  },
+  {
+   "domain": "wordpress.org",
+   "reason": "QC manual reject: CMS — not a supplier"
+  },
+  {
+   "domain": "2fwww.spotify.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "account.cashtie.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: fintech/payments (money movement, not goods distribution)"
+  },
+  {
+   "domain": "account.xbox.com",
+   "reason": "QC manual reject: Microsoft Xbox platform page — not a supplier entity"
+  },
+  {
+   "domain": "accounts.spotify.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "activepieces.com",
+   "reason": "QC manual reject: workflow automation tool — not a goods distributor"
+  },
+  {
+   "domain": "adgully.me",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: marketing/agency tool"
+  },
+  {
+   "domain": "ads.spotify.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "africavirtualnumbers.com",
+   "reason": "QC manual reject: single-service virtual numbers — no multi-category digital goods"
+  },
+  {
+   "domain": "ai-on-mac.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "airalo.go.link",
+   "reason": "KNOWN_BRAND (token airalo)"
+  },
+  {
+   "domain": "aistudio.dropshot.io",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "aitoolsquad.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "apicommons.org",
+   "reason": "QC manual reject: API commons directory — dev resource, not supplier"
+  },
+  {
+   "domain": "app.getreditus.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "apresolve.spotify.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "arcadecontest.xbox.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "artists.spotify.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "arwriterai.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "assets-xbxweb.xbox.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "authors.spotify.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "aws-1-eu-west-3.pooler.supabase.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "bigcommerce.co.uk",
+   "reason": "QC manual reject: e-commerce SaaS platform — not goods distribution"
+  },
+  {
+   "domain": "block.github.io",
+   "reason": "QC manual reject: dev tool page"
+  },
+  {
+   "domain": "bolt.new",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "boostero.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "botdog.co",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "buvei.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "ccpayment.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: fintech/payments (money movement, not goods distribution)"
+  },
+  {
+   "domain": "cdnjs.cloudflare.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "challenges.cloudflare.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "chargebackgurus.com",
+   "reason": "QC manual reject: QC reject: chargeback/fraud SaaS"
+  },
+  {
+   "domain": "chargeflow.io",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "citedindex.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "claude.ai",
+   "reason": "QC manual reject: AI assistant — not a supplier"
+  },
+  {
+   "domain": "clay.com",
+   "reason": "QC manual reject: lead enrichment SaaS — not a supplier"
+  },
+  {
+   "domain": "cline.bot",
+   "reason": "QC manual reject: AI coding agent — dev tool"
+  },
+  {
+   "domain": "codingclave.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "commercelayer.io",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "commercetools.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "compass-ssl.xbox.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "core.telegram.org",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "cosmistack.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: physical medical goods; soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "creators.spotify.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "creditforstartups.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "cursor.com",
+   "reason": "QC manual reject: AI code editor — dev tool"
+  },
+  {
+   "domain": "desktop.telegram.org",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "developer.spotify.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "developers.cloudflare.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "developers.justt.ai",
+   "reason": "QC manual reject: chargeback management SaaS — not goods distribution"
+  },
+  {
+   "domain": "device.maxmind.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "diamonddo.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "digitalapplied.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: marketing/agency tool"
+  },
+  {
+   "domain": "discord.com",
+   "reason": "QC manual reject: chat platform holder — Nitro is first-party subscription, not B2B distribution"
+  },
+  {
+   "domain": "discord.gg",
+   "reason": "QC manual reject: chat platform holder (alt domain) — same as discord.com"
+  },
+  {
+   "domain": "docs.domoai.app",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "docs.erpnext.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "docs.gitlab.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "docs.hevodata.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "docs.railway.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "documentation.apicommons.org",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "dreamscape.xbox.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "dropboxsign.com",
+   "reason": "QC manual reject: e-signature SaaS — not goods distribution"
+  },
+  {
+   "domain": "dupple.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "effecthub.net",
+   "reason": "QC manual reject: AI tools catalog — not goods distribution"
+  },
+  {
+   "domain": "en.itemsatis.com",
+   "reason": "QC manual reject: moved to MARKETPLACE_ONLY registry — P2P marketplace (subdomain)"
+  },
+  {
+   "domain": "en.sequra.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: fintech/payments (money movement, not goods distribution); soft categories only (subscriptions/software words can be inc"
+  },
+  {
+   "domain": "fdback.io",
+   "reason": "QC manual reject: feedback SaaS — not goods distribution"
+  },
+  {
+   "domain": "felloai.com",
+   "reason": "QC manual reject: AI client app — not goods distribution"
+  },
+  {
+   "domain": "g-engine.net",
+   "reason": "QC manual reject: marketplace ENGINE software vendor — not a distributor"
+  },
+  {
+   "domain": "gamblingcommission.gov.uk",
+   "reason": "QC manual reject: UK government regulator site — not a business entity in scope"
+  },
+  {
+   "domain": "gear.xbox.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "gemwholesale.co.uk",
+   "reason": "QC manual reject: physical surplus wholesaler — not digital"
+  },
+  {
+   "domain": "getshim.tech",
+   "reason": "QC manual reject: SaaS tool — soft-only"
+  },
+  {
+   "domain": "ggsel.org",
+   "reason": "KNOWN_BRAND (token ggsel)"
+  },
+  {
+   "domain": "giftdeals.io",
+   "reason": "QC manual reject: gift card deal COMPARISON site — DISCOVERY_SOURCE, not supplier"
+  },
+  {
+   "domain": "gog.com",
+   "reason": "QC manual reject: CD Projekt first-party game store — B2C platform, not B2B distributor"
+  },
+  {
+   "domain": "grafit.agency",
+   "reason": "QC manual reject: agency"
+  },
+  {
+   "domain": "growpanel.net",
+   "reason": "QC manual reject: QC reject: SMM panel (social media metrics)"
+  },
+  {
+   "domain": "hub.docker.com",
+   "reason": "QC manual reject: container registry — dev infra"
+  },
+  {
+   "domain": "ifeeltech.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "influencermarketinghub.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: marketing/agency tool; soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "instantview.telegram.org",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "integrately.com",
+   "reason": "QC manual reject: app automation SaaS — not goods distribution"
+  },
+  {
+   "domain": "investors.spotify.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "jmrinfotech.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "justanotherpanel.com",
+   "reason": "QC manual reject: QC reject: SMM panel (social media metrics)"
+  },
+  {
+   "domain": "kaleoz.com",
+   "reason": "QC manual reject: moved to MARKETPLACE_ONLY registry — P2P marketplace, not counted per spec"
+  },
+  {
+   "domain": "kaspersky.com",
+   "reason": "QC manual reject: security software PUBLISHER itself — not a reseller/distributor"
+  },
+  {
+   "domain": "kaspersky.com.vn",
+   "reason": "QC manual reject: security software publisher regional — same as kaspersky.com"
+  },
+  {
+   "domain": "lagrowthmachine.com",
+   "reason": "QC manual reject: marketing automation — not goods distribution"
+  },
+  {
+   "domain": "latenode.com",
+   "reason": "QC manual reject: workflow automation SaaS — not goods distribution"
+  },
+  {
+   "domain": "lexlabtools.com",
+   "reason": "QC manual reject: SaaS tools marketplace — soft-only"
+  },
+  {
+   "domain": "locator.kaspersky.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "macos.telegram.org",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "makeheadway.com",
+   "reason": "QC manual reject: book summary app — not goods distribution"
+  },
+  {
+   "domain": "marketplace.xbox.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "mcp.composio.dev",
+   "reason": "QC manual reject: MCP/dev integration toolkit — not goods distribution"
+  },
+  {
+   "domain": "monday.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "mrkeyshop.com",
+   "reason": "QC manual reject: B2C software key retail, subscriptions-only, no B2B/wholesale program"
+  },
+  {
+   "domain": "murongtech.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "n8n.io",
+   "reason": "QC manual reject: QC reject: productivity/work SaaS"
+  },
+  {
+   "domain": "nanazon.com",
+   "reason": "QC manual reject: B2C AI subscription retail — soft-only category"
+  },
+  {
+   "domain": "nango.dev",
+   "reason": "QC manual reject: integration infra — dev tool"
+  },
+  {
+   "domain": "news.xbox.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "newsroom.spotify.com",
+   "reason": "QC manual reject: Spotify newsroom — platform holder, not a distributor"
+  },
+  {
+   "domain": "nexsms.net",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "nucal.com",
+   "reason": "QC manual reject: integration platform — dev tool"
+  },
+  {
+   "domain": "oaklandpostonline.com",
+   "reason": "QC manual reject: QC reject: news/media outlet"
+  },
+  {
+   "domain": "odoo.com",
+   "reason": "QC manual reject: ERP software — not goods distribution"
+  },
+  {
+   "domain": "office.com",
+   "reason": "QC manual reject: Microsoft platform holder — not a reseller/distributor"
+  },
+  {
+   "domain": "ones.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "onesmm.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "onlinesim.io",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "onlyfive-website.vercel.app",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "onlysmm.net",
+   "reason": "QC manual reject: QC reject: SMM panel (social media metrics)"
+  },
+  {
+   "domain": "open.spotify.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "optimus.tech",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "pabbly.com",
+   "reason": "QC manual reject: marketing/sales SaaS — not goods distribution"
+  },
+  {
+   "domain": "partners.kaspersky.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "paxsmm.com",
+   "reason": "QC manual reject: QC reject: SMM panel (social media metrics)"
+  },
+  {
+   "domain": "paytweak.com",
+   "reason": "QC manual reject: payment links — not goods distribution"
+  },
+  {
+   "domain": "perplexity.ai",
+   "reason": "QC manual reject: AI search — not a supplier"
+  },
+  {
+   "domain": "pipedream.com",
+   "reason": "QC manual reject: automation — dev tool"
+  },
+  {
+   "domain": "pixel-static.spotify.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "pixel.spotify.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "planeks.net",
+   "reason": "QC manual reject: dev agency — not goods distribution"
+  },
+  {
+   "domain": "playstation.com",
+   "reason": "QC manual reject: platform holder official store — not a reseller/distributor"
+  },
+  {
+   "domain": "portal.office.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "prod-wf1.discord.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "prodseller.com",
+   "reason": "QC manual reject: KNOWN brand alias (ProdSeller .io is the registered known entity) — brand-name match, not a new entity"
+  },
+  {
+   "domain": "progressier.app",
+   "reason": "QC manual reject: PWA dev tool — not goods distribution"
+  },
+  {
+   "domain": "projecteuclid.org",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "promos.discord.gg",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "psprices.com",
+   "reason": "QC manual reject: game price tracker — comparison/discovery site, not supplier"
+  },
+  {
+   "domain": "raycast.com",
+   "reason": "QC manual reject: desktop launcher app — not goods distribution"
+  },
+  {
+   "domain": "rdegges.com",
+   "reason": "QC manual reject: personal blog"
+  },
+  {
+   "domain": "runsolo.io",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "saasinspector.com",
+   "reason": "QC manual reject: SaaS review site — not goods distribution"
+  },
+  {
+   "domain": "setup.office.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "silamoney.com",
+   "reason": "QC manual reject: payments infrastructure — not goods distribution"
+  },
+  {
+   "domain": "smithery.ai",
+   "reason": "QC manual reject: MCP server directory — not goods distribution"
+  },
+  {
+   "domain": "smmdir.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "smmpanelus.com",
+   "reason": "QC manual reject: SMM marketing panel — not goods distribution"
+  },
+  {
+   "domain": "smmpwr.com",
+   "reason": "QC manual reject: QC reject: SMM panel (social media metrics)"
+  },
+  {
+   "domain": "smmreal.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "smmstride.net",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "smmtrustpanel.com",
+   "reason": "QC manual reject: QC reject: SMM panel (social media metrics)"
+  },
+  {
+   "domain": "smscode.gg",
+   "reason": "QC manual reject: single-service virtual numbers — no multi-category digital goods"
+  },
+  {
+   "domain": "snappydigits.com",
+   "reason": "QC manual reject: single-service virtual numbers — not multi-category digital goods"
+  },
+  {
+   "domain": "social-india.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "softgile.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "softreviewed.com",
+   "reason": "QC manual reject: software review site — not goods distribution"
+  },
+  {
+   "domain": "solidgate.com",
+   "reason": "QC manual reject: payment orchestration — not goods distribution"
+  },
+  {
+   "domain": "solidsmm.com",
+   "reason": "QC manual reject: QC reject: SMM panel (social media metrics)"
+  },
+  {
+   "domain": "space48.com",
+   "reason": "QC manual reject: e-commerce agency — services, not distribution"
+  },
+  {
+   "domain": "spotify.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "sqspthemes.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "store.playstation.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "subtracker.io",
+   "reason": "QC manual reject: subscription tracking app — not goods distribution"
+  },
+  {
+   "domain": "supabase.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "support-dev.discord.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "support.atlassian.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "support.discord.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "support.spotify.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "support.xbox.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "swwpa.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "syncgtm.com",
+   "reason": "QC manual reject: GTM/marketing orchestration SaaS — not goods distribution"
+  },
+  {
+   "domain": "tallysolutions.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "tekpon.com",
+   "reason": "QC manual reject: SaaS procurement — not goods distribution"
+  },
+  {
+   "domain": "telegram.org",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "telegramboost.shop",
+   "reason": "QC manual reject: QC reject: SMM panel (social media metrics)"
+  },
+  {
+   "domain": "themarketingheaven.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: marketing/agency tool"
+  },
+  {
+   "domain": "thepaypers.com",
+   "reason": "QC manual reject: payments news — not goods distribution"
+  },
+  {
+   "domain": "thesmartaistack.com",
+   "reason": "QC manual reject: AI tool reviews — not goods distribution"
+  },
+  {
+   "domain": "toolsrated.vercel.app",
+   "reason": "QC manual reject: tool review site — not goods distribution"
+  },
+  {
+   "domain": "translations.telegram.org",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "truesmmpanel.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "tuningdigital.com",
+   "reason": "QC manual reject: AI tool reviews — not goods distribution"
+  },
+  {
+   "domain": "u002faccount.xbox.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "u002fassets-xbxweb.xbox.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "u002fgear.xbox.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "u002fnews.xbox.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "u002fsupport.xbox.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "u002fwww.xbox.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "u002fxboxdesignlab.xbox.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "ui-incubator.com",
+   "reason": "QC manual reject: React components — not goods distribution"
+  },
+  {
+   "domain": "upskillwise.com",
+   "reason": "QC manual reject: education platform — not goods distribution"
+  },
+  {
+   "domain": "userjot.com",
+   "reason": "QC manual reject: feedback SaaS — not goods distribution"
+  },
+  {
+   "domain": "videohighlight.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "videokr.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental); web infrastructure"
+  },
+  {
+   "domain": "wayflyer.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "wholesale2b.com",
+   "reason": "QC manual reject: physical dropship catalog — not digital goods"
+  },
+  {
+   "domain": "wholesaleclearance.co.uk",
+   "reason": "QC manual reject: physical liquidation/bankrupt stock wholesaler — not digital"
+  },
+  {
+   "domain": "windows.net",
+   "reason": "QC manual reject: .NET/Microsoft dev platform — not a supplier"
+  },
+  {
+   "domain": "www.accaglobal.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "www.airbnb.ca",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "www.airbnb.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "www.ama.org",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "www.bestpmjobs.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "www.botlaunch.io",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "www.boxo.io",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "www.businessinsider.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "www.cliprise.app",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "www.cloudflare.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "www.daraz.pk",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "www.digitalapplied.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "www.docsie.io",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "www.domoai.app",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "www.fahimai.com",
+   "reason": "DUPLICATE/RELATED of fahimai.com"
+  },
+  {
+   "domain": "www.g2g.com",
+   "reason": "DUPLICATE/RELATED of g2g.com"
+  },
+  {
+   "domain": "www.gizmochina.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "www.guideflow.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "www.itemsatis.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "www.kaleoz.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "www.koyeb.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "www.lazada.com.my",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "www.lazada.sg",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "www.mangorecharge.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "www.mheducation.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "www.myengineeringbuddy.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "www.odoo.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "www.paypal.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "www.playstation.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "www.premiumcdkeys.com",
+   "reason": "DUPLICATE/RELATED of premiumcdkeys.com"
+  },
+  {
+   "domain": "www.rapidevelopers.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "www.savingadvice.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "www.servnetuk.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "www.spotify.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "www.toolsurf.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "www.tradingview.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "www.trulycritic.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "www.vendr.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "www.visma.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "www.warc.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "www.withorb.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "www.xbox.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "www.xero.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "wysor.io",
+   "reason": "QC manual reject: AI workspace — not goods distribution"
+  },
+  {
+   "domain": "xbox.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "xboxdesignlab.xbox.com",
+   "reason": "QC manual reject: (root match)"
+  },
+  {
+   "domain": "y.uno",
+   "reason": "QC manual reject: payments infrastructure — not goods distribution"
+  },
+  {
+   "domain": "yoast.com",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "yoyomedia.in",
+   "reason": "QC manual reject: QC auto-suspect confirmed reject: soft categories only (subscriptions/software words can be incidental)"
+  },
+  {
+   "domain": "zohoflow.com",
+   "reason": "QC manual reject: automation — dev tool"
+  },
+  {
+   "domain": "zygris.com",
+   "reason": "QC manual reject: AI listing tool — not goods distribution"
+  }
+ ],
+ "insufficient": [
+  {
+   "domain": "yelp.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "apache.googlesource.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "lists.apache.org",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "perkupapp.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "mordorintelligence.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "calameo.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "africanmediaagency.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "android.googlesource.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "telecomsxchange.com",
+   "reason": "domain not reachable (HTTP 0)"
+  },
+  {
+   "domain": "blog.udn.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "gerrit.googlesource.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "vasculitis.org.uk",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "s26.q4cdn.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "kasikornbank.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "vip.stock.finance.sina.com.cn",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "wanderlog.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "sudarva.com",
+   "reason": "weak evidence"
+  },
+  {
+   "domain": "bookdepot.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "rayburntrading.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "internationalsexguide.nl",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "g.blicky.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "jobtoday.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "kaggle.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "alioth-lists.debian.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "geokniga.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "resaal.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "createsell.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "kittl.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "inkfluenceai.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "kanzum.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "african.business",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "tingg.africa",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "nevadabusiness.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "picclick.co.uk",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "suppliergo.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "stackshare.io",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "e-comprofits.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "co-manufacturing.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "europe.republic.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "6dtechnologies.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "dev.seamless.se",
+   "reason": "domain not reachable (HTTP 0)"
+  },
+  {
+   "domain": "cha7n.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "digitalcarddc.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "startselect.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "jawwalpay.ps",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "coolcrad.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "ertikaa.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "ir.cmbc.com.cn",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "synqo.eu",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "gamblersconnect.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "bitaqaty.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "basatapay.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "digitainasia.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "lib.ipran.ru",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "sweetstudy.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "ndl.ethernet.edu.et",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "grandbay.com.tw",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "jkappconsulting.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "plusworld.ru",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "api.duma.gov.ru",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "library.oapen.org",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "wipo.int",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "reestr.digital.gov.ru",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "arbicon.ru",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "eec.eaeunion.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "psc.ky.gov",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "yumpu.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "gate.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "developer.android.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "studocu.vn",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "aitools.aiting.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "store.steampowered.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "toptantr.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "alisdijital.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "bayiliklistesi.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "easytoptan.com.tr",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "celik-halat.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "dundarelektrik.com.tr",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "selfany.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "devart.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "cognillo.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "businessresearchinsights.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "m.yelp.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "forum.reallusion.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "fivemissionsmore.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "trivax.com.br",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "bitchute.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "stuartbruce.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "vibemart.app",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "highcardrate.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "giftcard8.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "dailytimesng.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "kewaskumhistoricalsociety.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "lists.nceas.ucsb.edu",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "gc.cuny.edu",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "lists.fedoraproject.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "globpulse.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "the-ela.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "gift.cards",
+   "reason": "domain not reachable (HTTP 0)"
+  },
+  {
+   "domain": "giftatrip.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "oakleycapitalinvestments.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "diggecard.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "elfina.kz",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "optoviki.kz",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "magnumopt.kz",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "insales.kz",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "rackwave.io",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "martinique.desertcart.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "argentino.com.ar",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "mayoristas.salveregina.com.ar",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "articulo.mercadolibre.com.ar",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "mivitrina.parservicios.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "revistapym.com.co",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "md.kompass.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "cart200.ro",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "matyco.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "download.brother.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "eur-lex.europa.eu",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "military.eu",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "bestangro.ro",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "rommerskirchen.de.expertini.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "hockenheim.de.expertini.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "nintendo-ds.dcemu.co.uk",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "vc.ru",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "rdv-medecin.ma",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "crnogorskiportal.me",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "medallasramirez.cl",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "mi-matlabululum.sch.id",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "telemetr.io",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "nitroxyz.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "zuvchig.mn",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "apsk.kr",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "pinnacle.co.za",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "eleader.biz",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "sourcesecurity.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "tdafrica.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "legacy.alghad.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "developingtelecoms.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "waredock.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "globaltradeplaza.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "sendvalu.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "kobidirekt.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "oyunfor.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "turkpin.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "videogamewholesale.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "wholesale.gamestop.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "item4gamer.com",
+   "reason": "domain not reachable (HTTP 0)"
+  },
+  {
+   "domain": "smartbrokercrmportal.icicidirect.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "publicnow.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "dspace.ut.ee",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "anhydrytowe-wylewki.pl",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "chobetours.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "deutschland.curriculumstrategico.it",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "epsvi.ca",
+   "reason": "weak evidence"
+  },
+  {
+   "domain": "simplifiedlivingsolutions.ca",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "techbanq.net",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "mzwallace.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "elaard.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "goldapple.ae",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "al-sharq.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "bybit.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "nbk.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "biia.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "sellnchill.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "dksh.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "bloximages.chicago2.vip.townnews.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "asx.com.au",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "forum.ragezone.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "bseindia.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "accenture.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "indiatoday.in",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "amtaweb.org",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "conf.sfu-kras.ru",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "nyingmainstitute.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "cockadoodledans.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "nfcw.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "shopto.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "chanarcillo.cl",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "foranglers.co.za",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "infinmobile.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "ai.paytabs.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "network.global",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "cld.eu",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "minalima.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "qogita.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "stonemaiergames.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "sellasist.pl",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "europages.pl",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "danelfin.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "telepolis.pl",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "sip.lex.pl",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "konferencje.bank.pl",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "spidersweb.pl",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "partners.pagolatino.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "fuji-marketing-ui.dev.fuji.idt.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "web.givex.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "aseworkshop.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "azafinance.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "symphony-solutions.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "data.seoul.go.kr",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "krivet.re.kr",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "dl.kotra.or.kr",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "t1.kakaocdn.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "sk-inc.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "grant-documents.thevc.kr",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "blog.naver.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "motie.go.kr",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "kiep.go.kr",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "tanukisoftware.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "itp.net",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "support.goldensoftware.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "europeanstack.io",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "docs.oracle.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "img.electronicdesign.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "justbrand.co.za",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "ensun.io",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "hivve.co.za",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "aimsciences.org",
+   "reason": "domain not reachable (HTTP 0)"
+  },
+  {
+   "domain": "prtimes.jp",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "commercepick.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "giftee.co.jp",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "shushoku.meidaisha.co.jp",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "auba.eiicon.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "fujisan.co.jp",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "superdelivery.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "emida.com",
+   "reason": "weak evidence"
+  },
+  {
+   "domain": "6wresearch.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "archive.newportbeachlibrary.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "thegatewaydigital.com",
+   "reason": "domain not reachable (HTTP 0)"
+  },
+  {
+   "domain": "smartico.ai",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "eforgrup.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "europages.com.tr",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "yazilim.pro",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "kurumsal.bitti-gitti.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "hbl.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "chimoney.io",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "eversend.co",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "blog.faciotech.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "moleonline.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "hikvision.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "ebay.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "market.us",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "diacorporate.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "gopas.sk",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "esimcard.com",
+   "reason": "domain not reachable (HTTP 0)"
+  },
+  {
+   "domain": "telnyx.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "2skymobile.com",
+   "reason": "domain not reachable (HTTP 0)"
+  },
+  {
+   "domain": "zetexa.com",
+   "reason": "domain not reachable (HTTP 0)"
+  },
+  {
+   "domain": "pressreleasehub.pa.media",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "recarga.net.co",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "lkbitronic.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "venderecargas.co",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "venderecarga.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "blog.mozilla.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "intralinkgroup.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "hqts.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "dealstream.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "research.hktdc.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "sourceready.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "itenspace.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "thriwe.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "loyaltyplus.cloud",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "betterfinance.eu",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "sofw.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "ssmv.ac.in",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "beem.africa",
+   "reason": "weak evidence"
+  },
+  {
+   "domain": "tasonic.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "hnhiring.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "doi.org",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "stu.cn.ua",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "nubip.edu.ua",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "envamedya.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "florenceconsultant.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "nbuviap.gov.ua",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "mealsonwheelsetx.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "threebestrated.com.au",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "xwiki.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "kernel.googlesource.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "openknowledge.worldbank.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "kalkine.ca",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "dev.slugkit.dev",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "bagsplaza.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "asharq.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "dalilmadina.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "repositorio.unb.br",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "documenter.getpostman.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "portal.dropboxpartners.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "cantarus.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "lgm.rocks",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "047b5cc1d9bf430aab1cbfd6c25abeb5-578cc93811dc.cdn.forter.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "1-800-baskets.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "10-findings.md",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "1cf6bd410ea24a5484946fd3590ef680-578cc93811dc.cdn.forter.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "1digi.shop",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "1sabs.ru",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "22battle.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "252dpurchase-skyborne-epic-pack-edition-battle.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "2542116.fls.doubleclick.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "2fa.co.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "2fa.live",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "2fhelp.netflix.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "2fspecs.openid.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "303magazine.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "3a-modern-warfare-4-battle.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "4721227.fls.doubleclick.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "563d9d4c30064f0aabf7a462d79d6a06-578cc93811dc.cdn.forter.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "578cc93811dc.cdn4.forter.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "715ab2cf5b704febbf4e929fce74a5ba-578cc93811dc.cdn.forter.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "956325725386-4505pvsrhg9k3e4b9es5ok0ht2ltlv8b.apps.googleusercontent.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "9annas.tn",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "a.style.top",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "aadl.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "abbonamenti.it",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "about-airalo.fast",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "academic.oup.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "academy.openai.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "aclanthology.org",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "activation-progress.in",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "activity.id",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "ad.doubleclick.net",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "adjust.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "agentaya.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "agupubs.onlinelibrary.wiley.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "aihaven.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "aikido.dev",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "airmoney-and-membership.profile.voucher",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "airports-airport.app",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "airports-country.app",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "airports-hub.app",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "aisel.aisnet.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "aisola-lab.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "aitoolanalysis.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "aitoolradar.io",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "aitoolsbreakdown.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "aitoolsofthetrade.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "aiversehub.store",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "aiversus.app",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "aiyogeum.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "ajax.googleapis.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "allmodern.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "almomaiz.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "almomaizcard.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "aloa.co",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "alphes-corner.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "amarela.com.br",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "amazon.com.tr",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "amazon.de",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "amazon.in",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "ame.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "amirarahim.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "analytics-browser-gtm-wrapper-2.36.0.min.js.br",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "androidauthority.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "anonymflow.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "aonevoip.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "api.bitrefill.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "api.fzr.cards",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "api.mindbox.ru",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "api.nghimmo.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "api.oaistatsig.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "apifocus.net",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "apix-drive.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "app-stores.app",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "app-stores.play",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "app.adjust.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "app.notion.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "app.smartsheet.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "app.termly.io",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "apps.rokt.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "appstoreprice.net",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "appstoreprice.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "ar.aliexpress.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "armada.kz",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "arstechnica.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "ashtrei.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "asianesim.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "asset-bottom-bar.buy",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "asset-bottom-bar.top",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "assets.adobedtm.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "assets.applytosupply.digitalmarketplace.service.gov.uk",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "assets.eneba.games",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "assets.nflxext.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "assets.xboxservices.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "atdmt.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "au.lifehacker.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "auth-cdn.oaistatic.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "auth.openai.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "autokeyworder.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "avatars.steamstatic.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "avito.ru",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "avon.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "awin.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "azurewebsites.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "b2bsoftware.uk",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "backboard.railway.app",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "baixardoc.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "barnestest.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "battle.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "beatlescovers.bizerks.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "behance.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "bestcreates.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "bettersmm.pro",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "bhn.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "bidtrans.eu",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "birchlane.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "bitrefill.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "blog.internxt.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "blog.ovhcloud.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "blog.thekclaut.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "blue-esim.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "bluehost.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "body-text--xll.new",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "body.app",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "boingboing.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "bol.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "booking.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "bototp.site",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "bottom-bar.buy",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "bottom-bar.topup",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "brawl.games",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "breathehr.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "brightowldigital.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "brimore.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "budgenie.fr",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "builtbybit.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "business.adobe.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "button.button.pay",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "buyantiviruskey.in",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "buyhatke.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "buylegitpassports.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "buywisely.com.au",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "bytesim.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "c.statcounter.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "call.us.in.app",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "callhippo.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "callstay.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "candboutfitters.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "candidate.md",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "capiter.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "cardkudo.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "cards.wmtransfer.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "careerkarma.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "careersidekick.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "carousell.sg",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "cart-navigation.summary-cta.topup",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "cart-navigation.summary-title.topup",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "cart-navigation.topup",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "cartona.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "cbsaustin.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "cd-keys.online",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "cdkeyprices.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "cdkeysforgames.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "cdn-spotify-experiments.conductrics.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "cdn.amplitude.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "cdn.branch.io",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "cdn.brevo.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "cdn.by.wonderpush.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "cdn.cloudflare.steamstatic.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "cdn.cookielaw.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "cdn.gtranslate.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "cdn.localizeapi.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "cdn.openai.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "cdn.segment.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "cdn.tailwindcss.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "cdn3.forter.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "cdn6.forter.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "cdn9.forter.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "change-device.my",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "change-password.new",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "changelog.md",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "chapincompra.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "chasseur.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "chat.message.link.opens.new",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "chat.mop.card",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "chat.mop.enter.new",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "chat.mop.paypal.billing.id",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "chat.mop.zip.code",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "chat.new",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "chatgpt-sites.lzw.me",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "chatgpt.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "chatgpt.pro",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "chatgpt.workspace.feature.app",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "chatgpt.workspace.model.pro",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "cheapdigitaldownload.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "checkout-airmoney-payment.card",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "checkout-code-or-airmoney.code",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "checkout-credit-card-form.card",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "checkout-credit-card-form.pay",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "checkout-pay-with-card.pay",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "checkout-plan-info.pay",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "checkout-saved-card.card",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "checkout-use-new-card.card",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "checkout.wallets.pay",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "clarratools.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "claymentine.fr",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "clickup.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "clouddamcdnprodep.azureedge.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "cms-assets.xboxservices.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "cntraveller.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "codessender.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "colnect.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "com.eneba.app",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "com.tr",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "com.turgame.app",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "community.dropbox.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "community.openai.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "comparesmmpanel.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "connect.facebook.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "console.deepgram.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "contabo.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "cookie-compliance.co",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "copycatcafe.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "corp.freee.co.jp",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "credit-cards.profile.card",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "credit-cards.profile.cards",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "cultivertruffe.fr",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "current.id",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "cursomanipulacionalimentos.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "cybernews.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "cyberpresso.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "cyprus-mail.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "d1011j0lbv5k1u.cloudfront.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "d3e54v103j8qbb.cloudfront.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "database.md",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "datareportal.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "date.now",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "deadline.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "decohomz.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "deel.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "devcentral.nasqueron.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "developer.bitrefill.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "developers.openai.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "dialogs.refund.credit",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "didvirtualnumbers.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "digitalmarket.world",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "digitalnomads.world",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "ding.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "discordmerch.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "discordstatus.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "discussions.unity.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "docs.alokai.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "docs.cinnox.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "docs.hetzner.cloud",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "docs.hetzner.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "docs.klarna.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "docs.midjourney.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "docs.replicated.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "docs.teamsoclo.site",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "documents.edenprairie.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "dongvanfb.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "dswa.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "duc-dop-error-guide.pages.dev",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "duoplanet.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "e3.365dm.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "easwaaqmisr.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "ebay.ca",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "ec.nintendo.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "edocs.buttecounty.ca",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "eduemailshop.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "edumail.edu.pl",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "egciq.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "egram.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "eldorado.gg",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "elements.envato.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "elsupplier.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "email.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "en-jordan.likecard.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "en-saudi.likecard.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "en.deezercommunity.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "encore.scdn.co",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "encrypted-tbn0.gstatic.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "entrust.override.proof-of-address.upload.link",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "epixelsolutions.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "eplatforms.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "eqtesady.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "eresources.nlb.gov.sg",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "erlang.org",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "es.godeal24.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "eshop-prices.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "esim-global.vip",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "esimdb.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "esims.io",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "esimvip.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "ewave.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "example.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "exchangerates.org.uk",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "experience.dropbox.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "experience.id",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "famiboards.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "familypro.io",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "fanswiz.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "fanytel.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "faturaplan.com.br",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "fightercountry.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "files.spawningpool.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "finance.biggo.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "findings.md",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "findock.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "fitsmallbusiness.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "flightsimulator.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "fliphtml5.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "fonts.googleapis.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "fonts.gstatic.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "footer.link",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "footer.site",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "footer.store",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "forum.lowyat.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "forums.macrumors.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "forums.redflagdeals.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "forums.sufficientvelocity.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "forums.whirlpool.net.au",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "forums.x-plane.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "fox.withemes.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "freakingnomads.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "fruitbouquets.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "ftp.richmondbizsense.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "funpay.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "fursov.me",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "fxglory.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "g2play.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "gahezmarket.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "gala-global.org",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "galaxystore.samsung.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "gameboost.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "games.helpcenter.games",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "games.helpcenter.panel.games",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "gameseal.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "gamma.app",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "gate.io",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "gdnlife.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "geekberry.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "genvoice.pro",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "geolocation.onetrust.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "get-opt.phh.info.vn",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "get-started-faq.link",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "get-started-hero.link",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "get-started-info-cards.card",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "get.in",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "get.workable.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "giaiphapmmo.vn",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "github.co",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "github.community",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "githubstatus.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "global.microless.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "global.reload",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "global.top",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "globalnews.ca",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "glwholesalers.com.au",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "gmail.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "gmpg.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "go.onelink.me",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "goldengrouprealestate.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "googleads.g.doubleclick.net",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "gorzdrav.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "gpt.teamsoclo.site",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "gr4vy.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "greghainge.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "grok.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "gtplanet.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "gtranslate.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "guides.justwatch.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "habibiaccounts.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "hashphone.app",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "header.my",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "header.store",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "help.dropbox.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "help.netflix.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "help.nflxext.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "help.openai.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "help.sap.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "help.shahid.mbc.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "help.skillshare.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "helpforum.sky.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "hermes.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "hero-carousel.store",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "hesablar.az",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "hotels.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "hotmail.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "how-receive-package.card",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "how-renewals-work.pay",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "how-to-use-airalo.store",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "how-transfer-works.card",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "hu-manity.co",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "hubspotonwebflow.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "huskyboost.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "hybrid-analysis.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "i.pinimg.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "i.ytimg.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "icash.one",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "ideas.repec.org",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "idsa.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "iluvsmmpanel.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "images.ctfassets.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "images.unsplash.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "img-prod-cms-rt-microsoft-com.akamaized.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "img.best",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "img1.wsimg.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "imgproxy.eneba.games",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "imphenzia.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "incomm.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "indent.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "insider-gaming.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "insider.windows.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "insigh.to",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "integration-flow.md",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "introversion.co.uk",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "inveon.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "invite-confirmation.buy",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "invite-friends-dialog.link",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "invite-preview-card.card",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "invoiceninja.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "ios.cfw.guide",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "ir.unimas.my",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "ithub.global.ssl.fastly.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "jamasoftware.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "jarir.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "jaxstate.freeforums.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "jo.anaanas.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "jobs.ashbyhq.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "jobtoday.us",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "journals.sagepub.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "js-na1.hs-scripts.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "js.hs-analytics.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "js.hs-banner.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "js.hsadspixel.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "js.usemessages.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "json.teamsoclo.site",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "jtsmmpanel.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "justcall.io",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "kabasakalonline.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "kaktussen-reisen.jimdofree.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "kalkine.com.au",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "kanzenai.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "kathleenjasper.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "kentcoders.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "keysforgames.com.au",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "kuwaittimes.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "lantern.roeye.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "lantern.roeyecdn.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "launch.id",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "learn.chatgpt.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "legitsms.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "lesmamsdamour.fr",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "lfpublic.avon.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "lfpubweb.cityofdenton.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "lh3.googleusercontent.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "limyu.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "linustechtips.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "lists.gnu.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "live.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "live.icai.org",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "locations.card",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "login.live.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "login.microsoftonline.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "lookout.lake-elsinore.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "lorellascacco.it",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "loyalty-change-dialog.gold",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "loyalty-program.gold",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "loyalty-program.info",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "lunguletu.tntsoftware.ro",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "lzt.market",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "m.aumarquepage.store",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "m.media-amazon.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "mada-r.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "magazine.my",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "magazines.marinelink.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "mail.zope.dev",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "mailforspam.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "mailtemp.vn",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "maketecheasier.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "manage-renewals-payment.pay",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "manage.autodesk.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "marketingscience.info",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "marketplace.tellent.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "mashable.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "masteringthemix.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "mbc-lite-strapi-s3-backup.s3.us-east-1.amazonaws.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "mbuotidemetukafia.com.ng",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "mc.yandex.ru",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "mec-store-production.up.railway.app",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "mec-store.sa",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "mec.sa",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "medschoolbro.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "megacenter.sa",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "megamenu.store",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "mergeapi.typeform.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "metromirror.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "metronome.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "mezha.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "microservices.io",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "mmo4me.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "mobilesim.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "modestmitkus.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "mof.gov.ae",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "moov.topup.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "mp.aicart.ro",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "mrreviewai.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "msdn.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "msxboxspacejamsweeps.gmrpreprod.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "musskart.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "mwf.app",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "my-esim-top-ups.buy",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "my-esims-list.top",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "my-esims.detail.topup",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "my.dnshe.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "my.integrations.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "my.nordaccount.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "mybundle.tv",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "myesims-card.top",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "myiptvforum.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "myscp.onlinelibrary.wiley.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "mysmm.co",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "nascar.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "nationwidetickets.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "need.help.signing.in",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "netader.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "netflix.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "netko.com.pl",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "neutrixflow.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "news.ycombinator.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "newspapers.cityofwayne.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "nex.io",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "nflshop.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "nibble-app.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "nicesmmpanel.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "nicolesy.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "nightlinkescort.cz",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "nlcorp.app.netsuite.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "nobject.keys",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "note.business.moneyforward.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "notonthehighstreet.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "numerique.banq.qc.ca",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "nvibi.pro",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "nxtgen-stack.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "nytimes.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "object.keys",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "odoo.sh",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "officialclicks.org",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "ogp.me",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "ondustrial.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "onerf.xbox.cn",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "onetrust-banner-sdk.otflat.top",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "onfido.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "onlinelibrary.wiley.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "onyxproerp.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "openai.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "openstax.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "opentelemetry.io",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "oplatu.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "order-details.profile.info",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "order-info.card",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "order-list-item.link",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "otp-verify-dialog.code",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "outlook.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "outlook.live.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "ozbargain.com.au",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "pagead2.googlesyndication.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "palletclearance.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "palpa.co.jp",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "partner.ultimate-sa.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "paseto.io",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "payhip.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "payment.ggsel.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "paypal-status.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "pcisecuritystandards.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "pdtest.siigo.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "pe56d.s3.amazonaws.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "pedl.cepr.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "performance.now",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "perigold.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "perplexity.procdk91.store",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "personal.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "pikabu.ru",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "piktochart.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "plan-details.topup",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "platform.domoai.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "play-asia.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "play-lh.googleusercontent.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "portal.cloudflarepartners.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "portal.stripe.partners",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "primonotes.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "prmotion.me",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "prod-cdata-secure.sprinklr.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "profile.account.change-email.new",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "profile.account.info",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "profile.autodesk.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "progress.md",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "projuktihub.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "promoclock.co",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "promptgalaxyai.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "prx.oniket.workers.dev",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "ps.live",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "ps3.gift",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "psyche.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "publicdocs.santa-ana.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "publicsuffix.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "pubsonline.informs.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "pumble.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "pxmart.mediatagtw.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "questden.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "quickbooks.intuit.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "quillbot.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "readme.md",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "records.cityofukiah.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "redboxdigital.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "redeem-voucher.code",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "redeem-voucher.one",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "redeem.teamsoclo.site",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "refund-confirmation-dialog.new",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "regoncraft.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "remita.net",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "render.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "renewals-faq.pay",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "rentry.co",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "research.em-lyon.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "reset-password.new",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "resilientsystems.co",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "reviewcost.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "rg.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "rgfashion.shop",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "richmond.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "ritzherald.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "roamic.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "royalestreams.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "royalsubz.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "s.w.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "s3-eu-west-1.amazonaws.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "s3.amazonaws.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "sa-highlight-entry-chat-now-button.sa",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "sa-highlight-entry-no-thanks-button.sa",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "saily.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "sandbase.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "savemart.thegiftcardshop.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "sawankr.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "sb.scorecardresearch.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "sc-static.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "sc.lfeeder.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "scenes.my",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "scenes.my-sim-detail.topup",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "schema.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "screenpages.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "sdk.nsureapi.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "search.proquest.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "search.worldcat.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "seller.ggsel.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "semplice.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "sendowl.canny.io",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "serve.albacross.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "shahid.mbc.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "shop.app",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "shop.elsevier.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "shop.spreadshirt.fr",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "shop.xboxgamestudios.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "shopbelong.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "shopee.co.id",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "shopkeyonline.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "sibautomation.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "sign.in",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "signup.live.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "signup.voucher",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "sitekit.withgoogle.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "skillhub.cloud.tencent.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "skillshop.withgoogle.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "skip.for.now",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "skype.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "slickdeals.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "slopepay.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "sloptv.co",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "slynumber.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "smartaitoolslist.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "smartcdkeys.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "smartshopuk.co.uk",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "smarttoolspath.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "smmcompare.org",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "smmfaq.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "smmpanelcompare.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "smspool.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "snap.licdn.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "solidstarts.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "space.bilibili.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "sparxitsolutions.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "spotifyforvendors.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "spreedly.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "stacksocial.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "starsearn.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "statad.ru",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "statcounter.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "static-cdn.jtvnw.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "static.ads-twitter.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "static.cdkdeals.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "static.cloudflareinsights.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "static.doubleclick.net",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "static.eneba.games",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "static.ggsel.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "static.zdassets.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "stcyrilchurch-tucson.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "steamcommunity.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "stopstealingphotos.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "store-images.s-microsoft.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "store-location-breadcrumb.store",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "store-operator-details.topup",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "store.nintendo.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "studfile.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "studylib.net",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "sunsetcoworking.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "supplier.code",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "suttonunited.proboards.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "swagger.io",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "sweat.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "tabitoken.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "tagerly.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "tailwindcss.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "take-card.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "talabeyah.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "tawfeer.io",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "tawk.to",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "tawredaat.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "techmusea.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "technext24.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "techpresso.co",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "teegara.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "telegra.ph",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "tempumail.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "theagentsindex.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "thebitjoy.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "thecleverbusiness.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "theguardian.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "thewisemarketer.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "thrillist.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "tijarahub.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "tinyhost.shop",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "tollfreeforwarding.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "toolbunny.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "top-fwz1.mail.ru",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "top.mail.ru",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "top4smm.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "torob.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "tp.yt.app",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "tr.snapchat.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "tracker-rms.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "trafficmanager.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "transfer-faqs.card",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "transfer-list.card",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "transfer-list.link",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "transfer-share.link",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "traxion.gg",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "trust.openai.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "tscript.id",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "twitch.tv",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "u002fassets.xboxservices.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "u002fc.s-microsoft.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "u002fcdn.builder.io",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "u002fcms-assets.xboxservices.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "u002fcopilot.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "u002fshop.xboxgamestudios.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "u002ftwitter.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "u002fwa.me",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "u002fwww.battle.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "u002fwww.lametayel.co",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "u002fwww.w3.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "u002fwww.websitename.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "u003ebattle.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "u003eggsel.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "u003emicrosoft.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "u003exbox.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "up.railway.app",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "us.forums.blizzard.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "useinsider.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "useproactiveai.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "v2.ionpartnersaccountant.co.uk",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "validation.stripe.card",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "validations.code",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "validations.new",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "validations.primer.card",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "validations.stripe.card",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "validations.stripe.new",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "validations.stripe.online",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "validations.stripe.pin",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "validations.voucher",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "vanschneider.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "velocity.co.ke",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "vendor.revleads.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "vercel.link",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "verrespec.ca",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "vibi.pro",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "vibi.top",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "viotp.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "virtnum.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "visa-indonesia.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "visitulaanbaatar.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "vndrco.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "vndro.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "voyages-moto.fr",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "vuestorefront.io",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "vyceai.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "wa.me",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "walgreens.thegiftcardshop.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "weblink.ci.wheatridge.co",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "weibo.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "weixin.qq.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "whatsyoura.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "wholesale.md",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "wholesalescout.co.uk",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "widget.reviews.io",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "window.history.state.key",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "window.performance.now",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "window.top",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "wine.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "wired.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "wise.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "workarea.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "worklog.md",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "wrike.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "wtfda.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.acumatica.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.aeecenter.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.aimadefor.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "www.amazon.ae",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.amazon.ca",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.amazon.co.jp",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.amazon.de",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.amazon.in",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "www.androidcentral.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.androidheadlines.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.anonymflow.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.anygen.io",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "www.audiosciencereview.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.autodesk.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.avito.ru",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.banani.co",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.batterymap.co",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.battle.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.bestbuy.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.bestwestern.fr",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "www.bitrefill.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.blackhatworld.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.bogleheads.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.brainscape.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "www.buymmog.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.canva.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.capcut.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "www.capterra.com.au",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.cardsouq.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.carousell.com.hk",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.cash4car.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.cdkeyit.it",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.cdkeynl.nl",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.cdkeysforgames.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.cdw.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.cengage.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.cheapassgamer.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.cim.co.uk",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "www.clavecd.es",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.cliffsnotes.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.clippard.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "www.cloudtalk.io",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "www.codashop.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.complaintsboard.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.cp24.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.cpricewatch.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.danielbrummitt.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.datev.de",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.deploystic.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.digitalmusicnews.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.digitaltrends.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.ding.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.discoup.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.disneyplus.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.dlcompare.co.uk",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.dlcompare.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.dropbox.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "www.duolingo.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.dwin1.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.ebay.ca",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.ebay.es",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.elcarretondelibros.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.eldorado.gg",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.emerald.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.entertainersworldwide.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.epicnpc.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.eqtesady.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.etsy.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.exchangerates.org.uk",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "www.expedia.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.facebookblueprint.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "www.fi.freelancer.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "www.flatio.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.flipkart.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.forth.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.friendbookmark.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.g2play.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.gamersoutlet.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.gamestar.de",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.gamesworldegypt.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.gamivo.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.gappsy.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "www.giverefer.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.goclecd.fr",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.google-analytics.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "www.googleadservices.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.googleoptimize.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.googletagmanager.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.gptinf.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.greenspek.net",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "www.groupon.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.gstatic.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.gtplanet.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.hiresaudio.online",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.hktvmall.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.honestaireview.org",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "www.hotukdeals.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.hrkgame.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.ign.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.iheart.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.incomm.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.instant-gaming.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.ipcook.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "www.iplum.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "www.iq.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.iq.zain.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.itemku.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.jarir.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.jdhodges.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "www.jumia.co.ke",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.jumia.com.ng",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.justanswer.co.uk",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.justanswer.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.keysforgames.com.au",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.kkday.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.klarna.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.ksdk.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.labsmobile.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "www.larksuite.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.laweekly.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "www.lemon8-app.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.lifeatspotify.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.loaded.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.lowermysubs.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.lucaexpress.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.master-bg.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.mmocs.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.mone.gg",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.moremins.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.msoms-anime.net",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.mtcgame.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.myhabit.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.nerdwallet.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.netader.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.netcup.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "www.netflix.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.netsuite.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.newegg.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.noon.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.noshfar.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.oecd.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.opensourceshakespeare.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.oriccabattery.co.uk",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.orlandomagazine.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.ozbargain.com.au",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.pcmag.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.pearson.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.play-asia.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.playerup.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.polygon.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.postgresql.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.pricecharting.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.producerelease.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.projectmanager.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "www.psyche.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.qoyod.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.radio.it",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.radioluisterennu.nl",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.raket.ph",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.razer.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.redditstatic.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.resetera.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.revera.tech",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.rewarble.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.sage.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.samsclub.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.sap.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "www.scdn.co",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.schema.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.search-danchoirealestate.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.shoprite.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.siigo.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.simplifyit.com.sg",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.siteprice.org",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "www.skillshare.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.smmlin.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "www.smsz.net",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "www.snapchat.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.sportskeeda.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.statcounter.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.streetinsider.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.stylefactoryproductions.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "www.super1foods.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.sythe.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.tandfonline.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.taskrhino.ca",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.techharry.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "www.techpowerup.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.techradar.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.thesixskills.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.theworkflowfinder.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "www.threads.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.timeout.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.tokopedia.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.tossabledigits.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.totalum.app",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.transparenttextures.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.travellingpies.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.trip.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.tunesbank.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.turgame.co",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.tvguide.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.tweaktown.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.twitch.tv",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "www.vidaplayer.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.vogue.fr",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.voidstar.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.w3.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.wabi-app.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "www.walmart.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.wcdairynews.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.weldersupply.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.whathifi.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.wikidata.org",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.windowscentral.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.wjunction.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.worthrated.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.xxlgamer.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "www.zatca.gov.sa",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "www.zillow.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "wwwmarketing.scdn.co",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "wyrel.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "xbox.cn",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "yaraplus.org",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "yarnpkg.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "yemensoft.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "yopmail.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "you.can.start.a.new",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "yourparts.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "youtubei-att.googleapis.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "ytcsi.now",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "zapier.com",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "zatca.gov.sa",
+   "reason": "missing digital-category evidence"
+  },
+  {
+   "domain": "zubasms.com",
+   "reason": "missing B2B evidence"
+  },
+  {
+   "domain": "zuora.com",
+   "reason": "missing B2B evidence"
+  }
+ ]
+}

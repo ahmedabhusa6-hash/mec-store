@@ -1,0 +1,440 @@
+{
+ "capture_reason": "NEWLY_ACCESSIBLE",
+ "captured_at": "2026-10-02T12:16:49+03:00",
+ "title": "Deep Dive — Zoho Books Localized Growth System",
+ "last_edited": "2026-09-25T20:11:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e658a07-79e8-814b-aa15-ec63082e2e01",
+  "created_time": "2026-09-25T20:11:00.000Z",
+  "last_edited_time": "2026-09-25T20:11:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "a87d8f7b-de51-419c-aa6d-90b81e0d7b21"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "Context": {
+    "id": "%3BcyS",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Accounting software across highly localized tax/compliance environments.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Accounting software across highly localized tax/compliance environments.",
+      "href": null
+     }
+    ]
+   },
+   "Situation": {
+    "id": "Dqr%7D",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Zoho Books combines accountant partner enablement, webinars/product tours, academy resources, free/trial paths and localized pricing/compliance surfaces. In Saudi Arabia it exposes SAR pricing; in UAE its eInvoicing content connects the product to local regulatory/ASP workflows.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Zoho Books combines accountant partner enablement, webinars/product tours, academy resources, free/trial paths and localized pricing/compliance surfaces. In Saudi Arabia it exposes SAR pricing; in UAE its eInvoicing content connects the product to local regulatory/ASP workflows.",
+      "href": null
+     }
+    ]
+   },
+   "Entity Link": {
+    "id": "ElSP",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "3e658a07-79e8-81b5-aed0-dc96e8dffa3b"
+     }
+    ],
+    "has_more": false
+   },
+   "Evidence Links": {
+    "id": "FYu%3A",
+    "type": "relation",
+    "relation": [],
+    "has_more": false
+   },
+   "Market": {
+    "id": "LVaJ",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Global + localized markets including Saudi/UAE",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Global + localized markets including Saudi/UAE",
+      "href": null
+     }
+    ]
+   },
+   "Constraints": {
+    "id": "MgJ%7D",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Offers and compliance deadlines evolve; regional pages must be revalidated.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Offers and compliance deadlines evolve; regional pages must be revalidated.",
+      "href": null
+     }
+    ]
+   },
+   "Confidence": {
+    "id": "Mhr%5B",
+    "type": "select",
+    "select": {
+     "id": "e872a95c-be8c-4dea-83d7-6192450960df",
+     "name": "High",
+     "color": "green"
+    }
+   },
+   "Segment": {
+    "id": "S%7Cat",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "SMB + accountants + finance users",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "SMB + accountants + finance users",
+      "href": null
+     }
+    ]
+   },
+   "Observed Outcome": {
+    "id": "TDBm",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Integrated public architecture is documented; comparative conversion by region/channel is not.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Integrated public architecture is documented; comparative conversion by region/channel is not.",
+      "href": null
+     }
+    ]
+   },
+   "Objective": {
+    "id": "UwXv",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Reconstruct how content, education, product evaluation and localization interact.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Reconstruct how content, education, product evaluation and localization interact.",
+      "href": null
+     }
+    ]
+   },
+   "Status": {
+    "id": "WKe%3B",
+    "type": "status",
+    "status": {
+     "id": "6b06f923-0b48-4a06-b0f5-de1916f018c1",
+     "name": "تم",
+     "color": "green"
+    }
+   },
+   "Evidence References": {
+    "id": "gCUd",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Zoho Books partner program, webinars, academy, Saudi pricing, UAE eInvoicing.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Zoho Books partner program, webinars, academy, Saudi pricing, UAE eInvoicing.",
+      "href": null
+     }
+    ]
+   },
+   "Date": {
+    "id": "jpdJ",
+    "type": "date",
+    "date": null
+   },
+   "Channels": {
+    "id": "vZLG",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "SEO/content, webinars, product tours, academy, partner program, localized pricing, compliance education, trial/free plan.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "SEO/content, webinars, product tours, academy, partner program, localized pricing, compliance education, trial/free plan.",
+      "href": null
+     }
+    ]
+   },
+   "Mechanism": {
+    "id": "xauN",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Education/utility → guided product proof → localized compliance/value proposition → trial/plan → professional or self-service adoption.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Education/utility → guided product proof → localized compliance/value proposition → trial/plan → professional or self-service adoption.",
+      "href": null
+     }
+    ]
+   },
+   "Name": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Deep Dive — Zoho Books Localized Growth System",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Deep Dive — Zoho Books Localized Growth System",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/Deep-Dive-Zoho-Books-Localized-Growth-System-3e658a0779e8814baa15ec63082e2e01",
+  "public_url": null,
+  "archived": false,
+  "request_id": "5a4ef5ce-f5ca-458c-be05-ebb3843bb164"
+ },
+ "block_count": 11,
+ "blocks": [
+  {
+   "id": "23f90ba6-c511-4c51-8a77-d8f19c948405",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Discovery"
+   ],
+   "created": "2026-09-25T20:11:00.000Z",
+   "edited": "2026-09-25T20:11:00.000Z"
+  },
+  {
+   "id": "0739afde-2d59-4074-8b08-e4c3f5661fe9",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Educational content and expert sessions target practical questions."
+   ],
+   "created": "2026-09-25T20:11:00.000Z",
+   "edited": "2026-09-25T20:11:00.000Z"
+  },
+  {
+   "id": "c259a47b-dac8-4797-b0e4-f209df784cf4",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Demonstration"
+   ],
+   "created": "2026-09-25T20:11:00.000Z",
+   "edited": "2026-09-25T20:11:00.000Z"
+  },
+  {
+   "id": "01b0475c-8277-464f-868b-282e2ff71f91",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Guided product tours make workflows visible."
+   ],
+   "created": "2026-09-25T20:11:00.000Z",
+   "edited": "2026-09-25T20:11:00.000Z"
+  },
+  {
+   "id": "a7980f4d-e096-4d54-b8b1-1766f3f3a17a",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Localization"
+   ],
+   "created": "2026-09-25T20:11:00.000Z",
+   "edited": "2026-09-25T20:11:00.000Z"
+  },
+  {
+   "id": "5c31b19e-1145-4c51-8373-7fdd5e3ee323",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Currency, country tax/compliance and regional contact paths adapt the commercial surface."
+   ],
+   "created": "2026-09-25T20:11:00.000Z",
+   "edited": "2026-09-25T20:11:00.000Z"
+  },
+  {
+   "id": "2ee232f9-5153-4563-963e-a99da469f0c3",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Conversion"
+   ],
+   "created": "2026-09-25T20:11:00.000Z",
+   "edited": "2026-09-25T20:11:00.000Z"
+  },
+  {
+   "id": "f6bd293d-7935-4974-bc0f-56a0c5523dfd",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Trial/free-plan mechanisms create lower-friction entry."
+   ],
+   "created": "2026-09-25T20:11:00.000Z",
+   "edited": "2026-09-25T20:11:00.000Z"
+  },
+  {
+   "id": "a2a60de1-890f-4a51-81e4-c1d9797e221c",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Partner route"
+   ],
+   "created": "2026-09-25T20:11:00.000Z",
+   "edited": "2026-09-25T20:11:00.000Z"
+  },
+  {
+   "id": "889b64d8-e925-47de-930c-e74c416ecf65",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Accountant program creates professional trust and distribution."
+   ],
+   "created": "2026-09-25T20:11:00.000Z",
+   "edited": "2026-09-25T20:11:00.000Z"
+  },
+  {
+   "id": "28f015f4-073e-4893-8f25-73234ffd6a1f",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Reusable architecture: education + product proof + local adaptation + low-friction entry."
+   ],
+   "created": "2026-09-25T20:11:00.000Z",
+   "edited": "2026-09-25T20:11:00.000Z"
+  }
+ ]
+}

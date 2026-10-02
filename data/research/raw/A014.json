@@ -1,0 +1,23 @@
+{
+  "action": {
+    "action_id": "A014",
+    "branch": "BR-OFFICIAL-ANCHORS",
+    "sku_id": "SKU-SUB-001",
+    "objective": "RETRY (A003 failed): Spotify Premium Individual official price — changed query construction",
+    "discovery_family": "Product-first (official publisher)",
+    "method": "official-anchor-retry",
+    "query": "Spotify Premium Individual subscription cost 11.99 month US price"
+  },
+  "results": [
+    {
+      "url": "https://rateyourmusic.com",
+      "name": "Cinemon by Cinemon (Album, Progressive Rock): Reviews",
+      "snippet": "Feb 7, 2009 — Cinemon, an Album by Cinemon. Released 7 February 2009. Genres: Progressive Rock.",
+      "host_name": "rateyourmusic.com",
+      "rank": 0,
+      "date": "Feb 7, 2009",
+      "favicon": ""
+    }
+  ],
+  "timestamp": "2026-09-26T21:05:11.539Z"
+}

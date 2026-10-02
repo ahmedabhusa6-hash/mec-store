@@ -1,0 +1,868 @@
+مشروع بيع الخدمات الرقمية عبر Telegram — Payment Architecture & ProdSeller
+========================================
+Store Brand
+Proposed name: وصلة رقمية — Wasla Digital
+Brand decision status: Working brand candidate; visual identity direction in development; final naming/trademark/domain/Telegram-handle decision pending.
+Positioning direction: A digital-services storefront delivered through Telegram, with local Yemeni payment collection and ProdSeller used as a downstream supplier. The brand should remain independent of any single supplier or product category.
+New Review Scope — Supplier PDF + Store Architecture
+The uploaded supplier PDF is evidence for the current ProdSeller store/product model only. Image-based information must be treated as a point-in-time snapshot and not as a permanent catalog, price list, or inventory guarantee. The system must retrieve current supplier data where the API supports it.
+Supplier-side risks to verify before publication
+Product type must be classified before sale: key, activation link, invitation/admin, account/access credential, educational/eligibility product, subscription, or other delivery mode.
+Supplier availability does not by itself prove that resale is permitted by the original service provider.
+Products with account credentials, full access, invitations, or educational eligibility require product-specific Terms/ToS and fulfillment-risk review before listing.
+Supplier stock and price may change; the storefront must not hard-code historical values as authoritative.
+Fulfillment behavior varies by product; the order engine must support multiple delivery models instead of assuming every product returns a simple text key.
+Canonical storefront flow
+Customer → Telegram storefront → product eligibility check → current price/stock check → order creation → YER payment → payment verification → idempotency gate → ProdSeller API → fulfillment adapter → customer delivery → audit/warranty state.
+Required Product Catalog fields
+product_id
+public_name
+supplier_product_id
+category
+fulfillment_type
+supplier_price
+customer_price_yer
+stock_state
+eligibility_state
+resale_policy_state
+warranty_policy
+delivery_instructions
+refund_policy
+last_synced_at
+The storefront must be able to suppress a product when its stock, price, resale permission, or fulfillment requirements are not sufficiently verified.
+Current Critical Questions
+Which Yemeni payment provider can legally and technically serve this project as an individual operator?
+Can the provider issue a merchant capability/API or reliable transaction-status mechanism without a Commercial Register?
+Which ProdSeller products are suitable for resale and which should be excluded?
+Which fulfillment modes can be automated safely through the ProdSeller API?
+What warranty/refund rules apply per product type?
+How will ambiguous payment and supplier responses be reconciled without duplicate fulfillment?
+Decision Rule
+Do not build or publish the complete catalog until payment eligibility, product resale eligibility, and fulfillment behavior have been verified to the level required for each product.
+Naming Candidates
+وصلة رقمية — Wasla Digital
+مدار — Madar
+نواة — Nawa
+رواق — Riwaq
+رفد — Rafad
+أثر — Athar
+ديم — Deem
+مجرى — Majra
+مداد — Midad
+تشكيل — Tashkeel
+Current preferred candidate: وصلة رقمية — Wasla Digital
+Canonical Bilingual Project Brief
+English — Canonical Project Definition
+Strategic Objective
+Build a Telegram-based digital commerce system for customers in Yemen. Telegram is the customer interface; a Yemeni payment provider is the local collection layer in Yemeni Rial (YER); ProdSeller is the downstream supplier accessed through its API.
+The customer must not be required to use Binance, USDT, or ProdSeller directly.
+Core Financial Separation
+Two financial flows must remain logically and operationally separate:
+Customer collection: Customer → Yemeni payment provider → merchant balance.
+Supplier settlement: Operator working capital → approved settlement method → ProdSeller balance.
+Supplier settlement must never be treated as the customer payment gateway.
+Canonical Order Flow
+Telegram Bot → Product Catalog → Pricing Engine → Order Creation → Local Payment Request → Payment Verification → Idempotency Gate → ProdSeller API → Supplier Result → Delivery to Telegram → Audit Record.
+Payment Provider Selection Rule
+Do not choose a provider because it is popular or has a merchant application. The provider is eligible only if the required merchant capability is contractually/technically available for this project.
+Minimum acceptable capability:
+Merchant account appropriate for the activity.
+Payment API, or a reliable Transaction Inquiry / Status API.
+A way to bind payment to a unique order/reference.
+Verifiable payment state.
+Support for YER.
+Permission to operate the intended digital-service activity.
+Webhook/Callback is preferred but not mandatory if reliable transaction-status polling is available.
+Critical Regulatory/Eligibility Question
+Do not assume that a personal wallet can be used for commercial collection, and do not assume that an API can be obtained without a Commercial Register.
+The project must separately verify:
+Personal wallet eligibility.
+Merchant account eligibility.
+Payment gateway eligibility.
+API access eligibility.
+Commercial Register requirement.
+KYC requirements.
+Digital-services / resale restrictions.
+A provider is considered UNVERIFIED until the relevant requirement is supported by authoritative evidence.
+Failure-Safe Order State Model
+The implementation must explicitly handle:
+duplicate payment;
+duplicate webhook/callback;
+late payment;
+wrong payment amount;
+unknown transaction;
+payment confirmed while supplier order fails;
+supplier order succeeds while Telegram delivery fails;
+payment-provider timeout;
+supplier timeout;
+retry after an ambiguous response;
+concurrent requests for the same order.
+Every state transition must be deterministic, auditable, and idempotent.
+Supplier Integration
+ProdSeller is an external supplier, not the customer-facing system.
+The integration must protect the ProdSeller API key, prevent duplicate supplier orders, record supplier order identifiers, and reconcile supplier state with the internal order state.
+Pricing
+Customer price must be derived from actual economics:
+Supplier Cost + Payment Fees + Settlement/FX Cost + Risk Reserve + Profit = Customer Price.
+Supplier prices and inventory may change; the system must not assume that a previously observed price or stock level remains valid.
+MVP Strategy
+Start with one eligible payment provider, one Telegram bot, one validated payment flow, and the ProdSeller integration. Add a second payment provider only after the first path is proven.
+The payment layer must be implemented behind an abstraction so the provider can later be replaced without rewriting the order engine or ProdSeller integration.
+Evidence Standard
+Classify every material statement as one of:
+PROVEN — supported by direct evidence.
+PARTIALLY PROVEN — some required evidence exists, but not all.
+UNVERIFIED — insufficient authoritative evidence.
+CONTRADICTED — reliable sources disagree.
+BLOCKED — cannot be resolved without an external dependency.
+Notion describes intent, decisions, assumptions, and history. The running code, tests, Git history, and runtime evidence establish implementation reality. Neither source should automatically override the other.
+Immediate Decision Gate
+Do not build the final automated payment path until the first candidate provider confirms, preferably in writing, that the project can legally/contractually use the required merchant capability and technical verification mechanism.
+العربية — التعريف المرجعي للمشروع
+الهدف الاستراتيجي
+بناء نظام تجارة رقمية عبر Telegram موجه للعملاء في اليمن؛ يكون Telegram واجهة العميل، ويكون مزود دفع يمني طبقة التحصيل بالريال اليمني، بينما يكون ProdSeller موردًا خلفيًا يتم الوصول إليه عبر API.
+لا ينبغي أن يُطلب من العميل النهائي استخدام Binance أو USDT أو التعامل المباشر مع ProdSeller.
+الفصل المالي الأساسي
+يجب الفصل منطقيًا وتشغيليًا بين مسارين ماليين:
+تحصيل العميل: العميل → مزود الدفع اليمني → رصيد التاجر.
+تسوية المورد: رأس المال التشغيلي → وسيلة التسوية المعتمدة → رصيد ProdSeller.
+لا يجوز اعتبار تسوية رصيد ProdSeller بوابة دفع للعميل.
+التدفق المرجعي للطلب
+Telegram Bot → كتالوج المنتجات → محرك التسعير → إنشاء الطلب → طلب الدفع المحلي → التحقق من الدفع → بوابة منع التكرار → ProdSeller API → نتيجة المورد → تسليم المنتج عبر Telegram → سجل تدقيق.
+قاعدة اختيار مزود الدفع
+لا يتم اختيار المحفظة بسبب الشهرة أو لمجرد امتلاكها تطبيقًا للتاجر. يكون المزود مؤهلًا فقط عندما تكون القدرات المطلوبة متاحة لهذا المشروع تعاقديًا وتقنيًا.
+الحد الأدنى المطلوب:
+حساب تاجر مناسب لطبيعة النشاط.
+Payment API أو Transaction Inquiry / Status API موثوق.
+وسيلة لربط عملية الدفع بطلب أو مرجع فريد.
+إمكانية إثبات حالة الدفع.
+دعم الريال اليمني.
+السماح بنشاط بيع الخدمات الرقمية المقصود.
+الـWebhook/Callback مفضل، لكنه ليس شرطًا مطلقًا إذا كان الاستعلام الموثوق عن حالة العملية متاحًا.
+السؤال التنظيمي الحاسم
+لا يُفترض أن المحفظة الشخصية تسمح بالتحصيل التجاري، ولا يُفترض أن الحصول على API ممكن بدون سجل تجاري.
+يجب التحقق بصورة منفصلة من:
+أهلية المحفظة الشخصية.
+أهلية حساب التاجر.
+أهلية بوابة الدفع.
+أهلية الوصول إلى API.
+شرط السجل التجاري.
+متطلبات KYC.
+قيود بيع الخدمات الرقمية وإعادة البيع.
+لا يُعتبر أي ادعاء مثبتًا حتى تدعمه جهة موثوقة أو دليل مباشر.
+نموذج الحالات الآمن للطلب
+يجب أن يتعامل النظام صراحةً مع:
+الدفع المكرر.
+تكرار Webhook/Callback.
+الدفع المتأخر.
+دفع مبلغ خاطئ.
+معاملة غير معروفة.
+تأكيد الدفع مع فشل إنشاء طلب المورد.
+نجاح طلب المورد مع فشل التسليم عبر Telegram.
+انتهاء مهلة مزود الدفع.
+انتهاء مهلة المورد.
+إعادة المحاولة بعد استجابة غامضة.
+الطلبات المتزامنة على نفس العملية.
+كل انتقال للحالة يجب أن يكون حتميًا وقابلًا للتدقيق ومحصنًا ضد التكرار.
+تكامل المورد
+ProdSeller مورد خارجي وليس واجهة العميل.
+يجب حماية مفتاح API، ومنع تنفيذ الطلب لدى المورد مرتين، وحفظ معرف طلب المورد، وتحقيق المطابقة بين حالة المورد والحالة الداخلية للطلب.
+التسعير
+سعر العميل يجب أن ينتج من الاقتصاد الفعلي للعملية:
+تكلفة المورد + رسوم الدفع + تكلفة/فرق التسوية والصرف + احتياطي المخاطر + الربح = سعر العميل.
+أسعار ومخزون ProdSeller قابلة للتغير، لذلك لا يجوز افتراض ثبات السعر أو المخزون الذي تمت رؤيته سابقًا.
+استراتيجية MVP
+ابدأ بمزود دفع واحد مؤهل، وبوت Telegram واحد، وتدفق دفع واحد تم التحقق منه، وتكامل ProdSeller. لا تضف مزودًا ثانيًا إلا بعد إثبات المسار الأول.
+يجب وضع طبقة الدفع خلف abstraction حتى يمكن استبدال المزود لاحقًا دون إعادة كتابة Order Engine أو تكامل ProdSeller.
+معيار الأدلة
+يجب تصنيف كل معلومة جوهرية إلى إحدى الحالات التالية:
+PROVEN / مثبت — توجد أدلة مباشرة.
+PARTIALLY PROVEN / مثبت جزئيًا — توجد بعض الأدلة لكن المتطلبات لم تثبت كلها.
+UNVERIFIED / غير مثبت — الأدلة الموثوقة غير كافية.
+CONTRADICTED / متعارض — توجد مصادر موثوقة متعارضة.
+BLOCKED / متعطل — لا يمكن حسمها دون اعتماد خارجي.
+Notion يوثق النية والقرارات والافتراضات والتاريخ، بينما الكود الفعلي والاختبارات وGit وأدلة التشغيل تثبت واقع التنفيذ. لا يجوز افتراض أن أحد المصدرين يلغي الآخر تلقائيًا.
+بوابة القرار الفورية
+لا يبدأ بناء مسار الدفع الآلي النهائي قبل أن يؤكد أول مزود مرشح، ويفضل كتابيًا، أن المشروع يستطيع استخدام القدرة التجارية المطلوبة وآلية التحقق التقنية بصورة نظامية ومناسبة.
+الغرض
+بناء مشروع فردي لبيع خدمات ومنتجات رقمية عبر Telegram في اليمن، بحيث يكون Telegram Bot هو واجهة العميل، وتكون خدمات الدفع اليمنية طبقة تحصيل بالريال اليمني، بينما يكون ProdSeller موردًا خلفيًا يتم الوصول إليه عبر API لتنفيذ الطلبات.
+1. الفكرة الصحيحة
+المشروع ليس «بوتًا مربوطًا بمحفظة» فقط، بل نظام تجارة رقمي بطبقتين منفصلتين:
+طبقة العميل والتحصيل
+Telegram Bot → اختيار المنتج → إنشاء Order → تحديد السعر بالريال اليمني → الدفع المحلي → إثبات/تحقق الدفع → اعتماد الطلب.
+طبقة المورد والتسوية
+Order Approved → ProdSeller API → استلام نتيجة المورد → تسليم المنتج للعميل.
+تمويل رصيد ProdSeller منفصل عن تحصيل العملاء. الطرق التي يوفرها المورد حاليًا هي Binance Pay وCryptoBot باستخدام USDT وUSDT BEP20. لا ينبغي جعل العميل النهائي يتعامل مع هذه الطبقات.
+2. الهدف التشغيلي النهائي
+Telegram Bot
+→ Product Catalog
+→ Pricing Engine
+→ Order Engine
+→ Yemen Payment Provider
+→ Payment Verification
+→ Idempotency / Anti-duplicate Control
+→ ProdSeller API
+→ Supplier Result
+→ Delivery to Telegram
+→ Audit Log
+3. المبدأ الحاكم للدفع
+لا يجب اختيار المحفظة لمجرد أنها مشهورة أو تملك تطبيق تاجر. الشرط الحاسم هو أن تستطيع الخدمة دعم أحد مسارين موثوقين:
+Webhook / Callback عند نجاح الدفع.
+Transaction Inquiry / Status API يسمح للنظام بالاستعلام عن حالة عملية دفع مرتبطة بـOrder ID فريد.
+وجود Webhook أفضل، لكنه ليس شرطًا مطلقًا في المرحلة الأولى. Polling الموثوق يمكن أن يكون بديلًا عمليًا.
+4. مشكلة السجل التجاري
+عدم امتلاك سجل تجاري ليس استنتاجًا بأنه لا يمكن تشغيل المشروع. يجب الفصل بين:
+فتح محفظة شخصية.
+فتح حساب تاجر.
+تفعيل Payment Gateway.
+الحصول على Merchant API.
+السماح للفرد ببيع خدمات رقمية.
+حتى الآن يجب التعامل مع «هل يقبل مزود معين فردًا بلا سجل تجاري للحصول على Merchant API؟» باعتبارها نقطة تحقق خارجية يجب إثباتها كتابيًا من المزود، وليس افتراضًا عامًا.
+5. المرشحون للدراسة
+الأولوية للتحقق من:
+Cash Pay
+SabaCash
+Jeeb
+Floosak
+Jawali
+Mobile Money
+Tamkeen
+ONE Cash
+Easy Wallet
+Kuraimi
+WeNet
+لكل مزود يجب تسجيل:
+Merchant Account
+API رسمي
+وثائق API
+Payment Request
+Transaction Inquiry
+Webhook / Callback
+QR
+Payment Link
+دعم YER
+KYC
+شرط السجل التجاري
+قبول الفرد
+الرسوم والحدود
+طريقة التفعيل
+قيود بيع الخدمات الرقمية
+6. الترتيب الأولي — غير نهائي
+هذا الترتيب توجيهي فقط، وليس قرارًا نهائيًا قبل التحقق المباشر:
+Cash Pay: مرشح أول لأن وجود منتج دفع إلكتروني للتكامل مع المتاجر/التطبيقات واضح، لكن قبول فرد بلا سجل تجاري وWebhook يحتاجان إثباتًا مباشرًا.
+Jeeb: مرشح تقني قوي، لكن شروط Merchant للفرد وWebhook تحتاج تحققًا مباشرًا.
+Floosak: مرشح قوي تقنيًا، خصوصًا إذا أمكن إنشاء عملية ذات معرف فريد والتحقق من حالتها برمجيًا؛ تفعيل Merchant للفرد يحتاج إثباتًا رسميًا.
+Jawali: مهم بسبب وجود مسار دفع/استعلام إلكتروني؛ عدم وجود Webhook معلن لا يمنع استخدام Inquiry/Polling إن كان متاحًا وموثوقًا.
+Mobile Money / Kuraimi / WeNet: لا تُستبعد، لكن لا تكون نقطة البدء طالما أن المتطلبات التجارية أو المؤسسية قد تكون أثقل.
+Tamkeen / ONE Cash / Easy / SabaCash: تصلح للدراسة كمنافذ تحصيل أو بدائل، لكن لا يُفترض وجود Merchant API/Webhook دون توثيق.
+7. معمارية MVP
+flowchart TD
+ A[Telegram Client] --> B[Telegram Bot]
+ B --> C[Product Catalog]
+ C --> D[Order Engine]
+ D --> E[Payment Request]
+ E --> F[Yemen Payment Provider]
+ F --> G[Payment Verification]
+ G --> H{PAID?}
+ H -- No --> G
+ H -- Yes --> I[Idempotency Check]
+ I --> J[ProdSeller API]
+ J --> K[Supplier Result]
+ K --> L[Delivery to Telegram]
+8. نموذج بيانات الطلب
+يجب أن يمتلك كل طلب:
+order_id داخلي فريد.
+telegram_user_id.
+product_id.
+supplier_price.
+customer_price_yer.
+payment_provider.
+payment_request_id أو transaction_id.
+payment_status.
+supplier_order_id.
+supplier_status.
+delivery_status.
+timestamps.
+audit trail.
+الهدف هو منع الحالات التالية:
+دفع واحد وتنفيذ الطلب مرتين.
+تنفيذ الطلب قبل التأكد من الدفع.
+نجاح الدفع مع فشل المورد.
+نجاح المورد وفشل إرسال النتيجة للعميل.
+انتهاء صلاحية الطلب ثم وصول الدفع متأخرًا.
+9. التسوية مع ProdSeller
+يجب الفصل بين مسارين ماليين:
+مسار العميل:
+YER → محفظتك/بوابة الدفع اليمنية.
+مسار المورد:
+رأس مالك التشغيلي → USDT/Binance أو وسيلة التسوية التي يقبلها ProdSeller → رصيد ProdSeller.
+لا يجب استخدام أموال طلب لم يتم تأكيده لتمويل طلب آخر دون وجود محاسبة واضحة للرصيد.
+10. التسعير
+السعر النهائي ليس supplier_price فقط. يجب احتساب:
+تكلفة المورد.
+رسوم الدفع المحلي.
+فرق سعر الصرف.
+احتياطي المرتجعات/الفشل.
+هامش الربح.
+صيغة أولية:
+سعر البيع = تكلفة المورد + تكلفة الدفع + تكلفة/هامش التحويل + احتياطي المخاطر + الربح.
+11. نقاط الفشل الواقعية
+مزود الدفع قد يقبل الأفراد كمستخدمين لكنه لا يمنحهم Merchant API.
+وجود API لا يعني وجود Webhook.
+وجود Webhook لا يعني أنه موثوق أو قابل للاعتماد دون تحقق إضافي.
+QR أو التحويل اليدوي قد يكون مناسبًا للـMVP لكنه لا يكفي كدليل دفع آلي بمفرده.
+أسعار ProdSeller والمخزون تتغير؛ لا ينبغي تخزين سعر ثابت دون آلية مزامنة.
+المورد قد يسلم الطلب بعد تأخير أو يعيد حالة فشل؛ Order Engine يجب أن يكون قابلًا لإعادة المحاولة بأمان.
+بعض الخدمات الرقمية قد تكون لها شروط استخدام أو قيود إعادة بيع؛ يجب فحص شروط المورد والمنتج قبل تشغيله تجاريًا.
+التعامل مع أموال العملاء قد يفرض متطلبات تنظيمية لا يحسمها مجرد امتلاك محفظة شخصية.
+P2P/USDT طبقة تسوية وليس بوابة دفع العميل.
+API Keys والأسرار يجب ألا تدخل Notion أو الرسائل أو Git.
+12. استراتيجية التنفيذ
+المرحلة 0 — تحقق الجدوى:
+احصل على إجابة مباشرة من 3–4 مزودي الدفع عن Merchant API + Inquiry/Webhook + قبول الفرد بلا سجل تجاري + بيع الخدمات الرقمية.
+المرحلة 1 — MVP:
+محفظة واحدة + Telegram Bot + تحقق دفع واحد + ProdSeller API + تسجيل الطلبات.
+المرحلة 2 — أتمتة:
+Webhook إن توفر، وإلا Polling موثوق، مع Idempotency وRetries وAudit Logs.
+المرحلة 3 — التوسع:
+إضافة مزود دفع احتياطي وإدارة أسعار ومخزون ProdSeller مركزيًا.
+13. السؤال الحاسم الذي يجب أن يجيب عنه البحث الخارجي
+«ما أفضل مزود دفع في اليمن لشخص/مشروع صغير لا يملك سجلًا تجاريًا، ويحتاج استقبال YER من عملاء Telegram ثم التحقق البرمجي من الدفع وتنفيذ الطلب عبر ProdSeller API؟»
+الحكم النهائي يجب أن يبنى على الأدلة الرسمية، لا على شهرة المحفظة.
+14. ما تم التحقق منه في Notion
+تمت مراجعة مساحة Notion بحثًا عن آثار مباشرة لهذا المشروع باستخدام كلمات مرتبطة بـTelegram والدفع والتجارة الإلكترونية. توجد صفحات ومشاريع أخرى تتناول Telegram والدفع والبنوك الرقمية والتجارة، لكن لم يظهر حتى الآن مستند مخصص لمشروع ProdSeller + تحصيل YER عبر محفظة يمنية. من ذلك يتضح أن هذا المشروع يحتاج صفحة مرجعية مستقلة بدل خلطه مع المشاريع الأخرى. تظهر في المساحة صفحة عن البنوك الرقمية، وصفحات عن مشاريع Telegram مختلفة، لكنها ليست هذه المواصفة. fileciteturn5file0L2-L11 fileciteturn4file0L2-L12
+15. حالة القرار الحالية
+الحالة: DISCOVERY / UNVERIFIED (بلا تغيير جوهري حتى 2026-09-13)
+لا يوجد قرار نهائي بشأن محفظة الدفع حتى يتم توثيق أربعة شروط:
+قبول الحساب للفرد في هذا الاستخدام.
+تفعيل Merchant/API.
+وجود Inquiry أو Webhook فعلي.
+السماح باستخدام الخدمة لتحصيل قيمة الخدمات الرقمية.
+تحديث حي (Live Log):
+تم إرسال استفسار رسمي فعلي إلى جوالي (info@wejawali.com) بتاريخ 2026-09-08 — ارتد فورًا (bounce، نطاق غير موجود).
+تم تصحيح الإرسال إلى info@jawali.com.ye بنفس اليوم — لم يرتد، ولا يوجد رد حتى 2026-09-13 (٥ أيام). لا يُعتبر عدم الارتداد دليل تسليم، فقط غياب رفض فوري.
+تم تجهيز مسودات (بلا عنوان مؤكد) لثمانية مزودين إضافيين: كاش/تمكين، الكريمي، موبايل موني/CAC، سبأكاش، ون كاش، فلوسك، القطيبي، بنك الأمل — بانتظار الحصول على عنوان بريد صحيح عبر اتصال هاتفي مباشر.
+خلاصة حتى الآن: لا يوجد أي مزود أثبت أيًا من الشروط الأربعة أعلاه. الحالة تبقى DISCOVERY/UNVERIFIED فعليًا، وليست BLOCKED فقط بسبب انتظار الرد — بل لأن لا قناة تواصل مؤكدة تصل لصانع قرار تقني/تجاري لدى 8 من 9 مزودين مُتصل بهم.
+16. قاعدة أدلة
+PROVEN: مثبت من مصدر رسمي أو تجربة تنفيذية يمكن إعادة إنتاجها.
+PARTIALLY PROVEN: توجد دلائل قوية لكن أحد عناصر التكامل غير مثبت.
+UNVERIFIED: لم يوجد دليل كافٍ.
+INFERENCE: استنتاج تحليلي وليس حقيقة خارجية.
+أي معلومة مالية أو تنظيمية قابلة للتغير يجب إعادة التحقق منها قبل تحويلها إلى قرار تنفيذي.
+17. البيانات الحساسة
+لا تُخزن API Keys أو كلمات المرور أو مفاتيح الدفع أو أسرار Telegram أو Binance داخل هذه الصفحة. يجب استخدام placeholders فقط، وتخزين الأسرار في Secret Manager أو متغيرات بيئة.
+18. الخطوة التالية المعتمدة
+الحصول على ردود موثقة من Cash Pay وJeeb وFloosak وJawali، ثم بناء مصفوفة قرار نهائية واختيار مزود واحد للـMVP، مع تصميم عقدة Payment Adapter بحيث يمكن تبديل مزود الدفع لاحقًا دون إعادة بناء Order Engine أو تكامل ProdSeller.
+تحديث تنفيذي (2026-09-13): بريد جوالي الفعلي ارتد ثم أُعيد إرساله لعنوان مصحح، بلا رد حتى الآن. لم يُعثر على أي بريد مؤكد لـ 8 من 9 مزودين إضافيين (كاش، الكريمي، موبايل موني، سبأكاش، ون كاش، فلوسك، القطيبي، بنك الأمل) — الخطوة الوحيدة المتبقية فعليًا هي اتصال هاتفي مباشر بهذه الجهات للحصول على رد مكتوب على الشروط الأربعة، لأن البحث المكتبي وحده أثبت أنه لا يكفي مع هذه الجهات.
+Bilingual Project Record / السجل ثنائي اللغة
+English — Project Definition
+This project is a Telegram-based digital services commerce system for customers in Yemen. Telegram is the customer interface; a Yemeni payment provider is the local collection layer for YER; ProdSeller is a backend supplier accessed through its API. Customer payment collection and supplier balance funding are separate financial flows.
+The target transaction is:
+Customer → Telegram Bot → Product Selection → Order Creation → YER Payment → Payment Verification → ProdSeller API → Supplier Result → Customer Delivery.
+The supplier-settlement flow is separate:
+Operating Capital → USDT/Binance or another method accepted by ProdSeller → ProdSeller Balance.
+The payment provider must be replaceable. A Webhook/Callback is preferred, but a reliable Transaction Inquiry/Status API with controlled polling is acceptable for the MVP. A personal wallet account must never be assumed to grant merchant/API privileges. Merchant eligibility, KYC, commercial-registration requirements, digital-goods restrictions, fees, limits, and technical capabilities must be verified with authoritative evidence.
+The system must protect against duplicate payments, duplicate supplier orders, late payments, wrong amounts, provider timeouts, supplier failures, Telegram delivery failures, and inconsistent intermediate states. Every order needs a unique internal order ID, payment transaction reference, supplier order reference, explicit state transitions, idempotency controls, retries where safe, and an audit trail.
+العربية — تعريف المشروع
+المشروع عبارة عن نظام تجارة لبيع الخدمات والمنتجات الرقمية عبر Telegram للعملاء في اليمن. يكون Telegram واجهة العميل، ويكون مزود دفع يمني طبقة تحصيل الريال اليمني، بينما يكون ProdSeller موردًا خلفيًا يتم الوصول إليه عبر API. ويجب فصل تحصيل أموال العملاء عن تمويل رصيد المورد.
+مسار الطلب المستهدف:
+العميل → بوت Telegram → اختيار المنتج → إنشاء الطلب → الدفع بالريال اليمني → التحقق من الدفع → ProdSeller API → نتيجة المورد → تسليم المنتج للعميل.
+ومسار تمويل المورد منفصل:
+رأس مال تشغيلي → USDT/Binance أو وسيلة أخرى يقبلها ProdSeller → رصيد ProdSeller.
+يجب أن يكون مزود الدفع قابلًا للاستبدال. ويفضل Webhook/Callback، لكن يمكن استخدام Transaction Inquiry/Status API مع Polling منضبط وموثوق في مرحلة MVP. لا يجوز افتراض أن المحفظة الشخصية تمنح صلاحيات التاجر أو API. يجب إثبات أهلية التاجر، ومتطلبات KYC والسجل التجاري، وقيود بيع الخدمات الرقمية، والرسوم والحدود والقدرات التقنية بمصادر موثوقة.
+يجب حماية النظام من تكرار الدفع، وتكرار تنفيذ الطلب لدى المورد، والدفع المتأخر، والمبالغ الخاطئة، وانتهاء المهلة، وفشل المورد، وفشل تسليم Telegram، وحالات الحالة غير المتسقة. ويجب أن يمتلك كل طلب معرفًا داخليًا فريدًا، ومرجع عملية الدفع، ومرجع طلب المورد، وانتقالات حالة واضحة، وضوابط Idempotency، وآليات Retry آمنة عند الحاجة، وسجل تدقيق.
+Project Adversarial Audit & Remediation — English Master Prompt
+Act as a Principal Software Architect, Senior Systems Analyst, Security Engineer, Backend/API Engineer, DevOps/SRE Engineer, QA Engineer, and Business Systems Analyst.
+
+Your task is to perform an adversarial, evidence-driven audit of the current project, reconcile the actual implementation with the specifications and decisions recorded in Notion, identify defects and gaps, remediate what can be safely remediated, and prove the resulting state with tests and evidence.
+
+## 1. Source-of-Truth Hierarchy
+
+Establish reality from evidence, not assumptions.
+
+Priority:
+1. Actual repository code and database/migration state.
+2. Git history, branches, pull requests, CI/CD and workflow results.
+3. Automated tests and their actual outputs.
+4. Runtime, deployment and production evidence.
+5. Notion specifications, decisions, requirements, incidents and historical context.
+6. Authoritative external documentation for external providers and platform rules.
+
+Do not treat Notion as proof that a feature exists.
+Do not treat code as proof that a documented requirement is still correct.
+When sources conflict, explicitly classify each statement as Reality, Intended Specification, Historical Decision, Unverified Assumption, or External Dependency.
+Never invent missing facts.
+
+## 2. Repository and Environment Discovery
+
+Before changing anything, inspect:
+- repository identity and active branch
+- git status and recent commits
+- remotes and relevant branches
+- pull requests and workflow runs
+- project structure
+- dependency manifests
+- environment/configuration handling
+- database schema and migrations
+- API routes and integrations
+- authentication and authorization
+- logging and error handling
+- tests
+- deployment configuration
+- documentation
+
+Build an accurate current-state model before making modifications.
+
+## 3. Notion Review
+
+Review the Notion workspace for all material related to this project, including:
+- project specification
+- architecture
+- requirements
+- decisions and history
+- acceptance criteria
+- open questions
+- previous audits
+- incidents
+- implementation notes
+- deployment/readiness notes
+- Telegram, payment, ProdSeller and commerce-related project records
+
+Start from the current project page:
+"مشروع بيع الخدمات الرقمية عبر Telegram — Payment Architecture & ProdSeller"
+
+Also inspect related or historical pages when they materially affect the current implementation.
+
+## 4. Evidence Matrix
+
+For every important requirement or decision, record:
+Requirement → Expected Behavior → Notion Evidence → Code Evidence → Test Evidence → Runtime Evidence → Status.
+
+Use only these statuses:
+PROVEN
+PARTIALLY PROVEN
+UNVERIFIED
+CONTRADICTED
+MISSING
+BLOCKED
+
+Do not use "complete", "ready", or equivalent wording without sufficient evidence.
+
+## 5. Adversarial Architecture Review
+
+Actively try to break the system.
+
+Inspect:
+- separation of responsibilities
+- coupling and hidden dependencies
+- single points of failure
+- state consistency
+- concurrency and race conditions
+- retry safety
+- idempotency
+- extensibility
+- provider abstraction
+- unnecessary coupling between Telegram, payment providers and ProdSeller
+
+The payment provider must remain replaceable.
+
+## 6. Payment System Review
+
+Validate the complete flow:
+Customer → Telegram Bot → Product → Order → YER Price → Payment → Verification → Supplier Execution → Delivery.
+
+Test or reason about:
+- duplicate payment
+- duplicate webhook/callback
+- late payment
+- wrong amount
+- unknown transaction
+- provider timeout
+- supplier timeout
+- supplier rejection
+- Telegram delivery failure
+- database failure
+- concurrent checkout
+- concurrent retry
+- partially completed transaction
+
+A Webhook/Callback is preferred but is not mandatory if a reliable Transaction Inquiry/Status API can safely support controlled polling.
+
+Do not assume:
+- a personal wallet can be used as a merchant account
+- a merchant account includes API access
+- an API includes Webhooks
+- a QR payment is automatically verifiable
+- a provider accepting individuals for wallets also accepts individuals for merchant/API services
+
+## 7. ProdSeller Integration Review
+
+Verify:
+- authentication and secret handling
+- product retrieval
+- price handling
+- stock handling
+- order creation
+- supplier order IDs
+- supplier status handling
+- timeout behavior
+- retries
+- idempotency
+- reconciliation
+- delivery of supplier results
+
+Treat ProdSeller as a backend supplier, not as the customer-facing payment layer.
+
+Supplier funding is a separate financial flow from customer collections.
+
+## 8. Security Review
+
+Search for:
+- API keys
+- bot tokens
+- passwords
+- credentials
+- secrets in source control
+- secrets in Notion
+- sensitive logs
+- insecure environment handling
+- authorization flaws
+- webhook spoofing
+- replay attacks
+- missing signature verification
+- unsafe input handling
+- SQL injection
+- command injection
+- SSRF
+- sensitive-data exposure
+
+Never print or reproduce real secrets. If one is exposed, identify the exposure without revealing the value and recommend rotation.
+
+## 9. Database and State-Machine Review
+
+Validate:
+- schema integrity
+- uniqueness constraints
+- foreign keys
+- indexes
+- transaction boundaries
+- payment/order/supplier state consistency
+- audit trail
+- migration correctness
+
+Every order must have at minimum:
+- internal unique order ID
+- Telegram user ID
+- product ID
+- supplier cost
+- customer YER price
+- payment provider
+- payment request/transaction ID
+- payment status
+- supplier order ID
+- supplier status
+- delivery status
+- timestamps
+- audit trail
+
+Prevent duplicate supplier fulfillment from retries or duplicated payment notifications.
+
+## 10. Pricing and Business Logic Review
+
+Verify that pricing can account for:
+Supplier cost + payment fees + exchange effects + risk reserve + profit.
+
+Do not assume supplier prices or stock remain static.
+Check whether synchronization is required.
+
+## 11. Production Readiness
+
+Audit:
+- environment separation
+- secrets management
+- migrations
+- monitoring
+- health checks
+- backups
+- rollback
+- retries and timeouts
+- rate limiting
+- dependency failure behavior
+- deployment process
+- CI/CD gates
+
+Production readiness must be evidence-based.
+
+## 12. Remediation
+
+Classify findings:
+P0 = critical security or operation blocker
+P1 = major functional/financial defect
+P2 = significant operational/engineering defect
+P3 = non-critical improvement
+
+Fix P0 first, then P1, then P2 when within scope.
+Do not expand the product unnecessarily.
+After every fix:
+- run targeted tests
+- run relevant regression tests
+- inspect the diff
+- verify the resulting behavior
+
+Do not claim a defect is fixed because the code merely looks correct.
+
+## 13. Scope Protection
+
+Do not redesign correct working parts for stylistic reasons.
+Do not change business rules, product scope, external providers, database architecture, or established decisions unless evidence shows a defect, security problem, contradiction, failed requirement, or justified decision change.
+
+When an external dependency requires access or approval that is unavailable, classify the item as BLOCKED rather than inventing a workaround.
+
+## 14. Git and Change Discipline
+
+Before changes:
+- confirm clean/known git state
+- establish baseline
+
+During changes:
+- keep changes focused
+- preserve unrelated work
+- do not expose secrets
+- do not delete data or files without necessity
+
+After changes:
+- run tests
+- review git diff
+- review git status
+- perform regression review
+
+Use available GitHub capabilities freely for repository operations, branches, pull requests and workflows when authorized. Do not assume permissions that are not actually available.
+
+## 15. Notion Drift Analysis
+
+Compare Notion with the actual implementation.
+Identify:
+- requirements documented but not implemented
+- implemented behavior not documented
+- obsolete decisions
+- unsupported assumptions
+- open questions
+- externally blocked dependencies
+
+Do not rewrite Notion merely to make it agree with the code. First distinguish Reality, Intended State and Decision Needed.
+
+## 16. Final Deliverable
+
+Return results in this exact structure:
+
+A. Executive Verdict
+B. Current Reality Audit
+C. Evidence Matrix
+D. Gap Register
+E. Security Findings
+F. Payment/System Findings
+G. ProdSeller Integration Findings
+H. Telegram Findings
+I. Database and State-Machine Findings
+J. Pricing/Business Logic Findings
+K. CI/CD and Production Readiness
+L. Notion Drift
+M. Changes Made
+N. Verification and Test Results
+O. Remaining Risks and External Blockers
+P. Final Status
+
+For every finding include evidence, impact, root cause, recommended or implemented fix, and verification status.
+
+Final Status must be exactly one of:
+GREEN = sufficient evidence for operation within defined scope
+YELLOW = operational but material risks or unverified areas remain
+RED = major defect or safety issue prevents confidence
+BLOCKED = external dependency prevents completion of a required validation or action
+
+Never claim "everything is fixed" or "fully production ready" unless the evidence genuinely supports that conclusion.
+
+Start with discovery and audit. Continue through remediation and verification without waiting for approval unless a real external blocker, destructive action, production-impacting change, or business decision requires explicit human authorization.
+PDF Review — ProdSeller Supplier Store
+English — Evidence-Based Review
+The attached 39-page PDF is a visual evidence pack of the ProdSeller supplier bot. The screenshots show the supplier catalog, product descriptions, prices, stock indicators, bulk discounts, deposit methods, profile/orders, API access, referral program, support, and language settings.
+Confirmed from the screenshots
+ProdSeller provides an API access area specifically stating that the API key can be used to sell available products through the user's own bot or website.
+The deposit menu shown in the screenshots contains Binance Pay, CryptoBot (USDT), and USDT BEP20 on BNB Smart Chain.
+Product stock and prices are displayed per product and can change; therefore the store must treat supplier price/stock as dynamic data.
+Several products have different fulfillment models: account credentials, activation/redeem links, invite/admin access, keys, and account-based subscriptions.
+Some products show bulk pricing, which may materially change unit economics.
+The catalog includes products with potentially sensitive or policy-dependent access models, including email accounts, streaming accounts, educational plans, student licenses, and account credentials.
+Critical findings
+Supplier integration feasibility: The PDF supports the existence of a ProdSeller API intended for resale, but it does not by itself prove the complete API contract. The actual API documentation must be inspected before implementation.
+Dynamic catalog: Prices and stock shown in the PDF must not be hard-coded as permanent values.
+Product-risk segmentation is mandatory: Products should be classified before publication. High-risk categories include third-party accounts/credentials, educational or student plans, shared/full-access accounts, and products whose resale rights are unclear.
+Fulfillment-model abstraction is required: The store should support at least key delivery, redeem/activation link, invite/admin access, and credential-based delivery as distinct fulfillment types.
+Customer disclosure: The store must clearly state what the buyer receives, warranty period, access model, and any restrictions before payment.
+Warranty/refund state: Supplier warranty periods vary by product; the order model must record product-specific warranty rules rather than using one global warranty.
+Supplier reliability: The order engine must handle supplier timeout, delayed fulfillment, out-of-stock conditions, and ambiguous API responses.
+Security: Never place the ProdSeller API key in the frontend, Notion, source control, logs, or customer-facing messages.
+Notion reconciliation
+The current Notion project brief is consistent with the core supplier architecture: Telegram is the customer interface, the local Yemeni payment provider is the collection layer, and ProdSeller is the downstream supplier. The PDF adds an important missing dimension: product/fulfillment risk classification must become an explicit part of the store design.
+Recommended store architecture
+Telegram Bot → Catalog → Product Eligibility Check → Price/Stock Refresh → Order → Local Payment → Verified Payment → Idempotency Gate → ProdSeller API → Fulfillment Adapter → Delivery → Warranty/Audit Record.
+العربية — مراجعة ملف المورد
+الملف المرفق يتكون من 39 صفحة مصورة من بوت ProdSeller، ويعرض الكتالوج والمنتجات والأسعار والمخزون والخصومات والودائع وواجهة API والطلبات والدعم والإحالة واللغات.
+ما تؤكده الصور
+يوجد قسم API واضح يذكر استخدام مفتاح API لبيع المنتجات عبر بوت أو موقع خاص بالمستخدم.
+وسائل الإيداع الظاهرة: Binance Pay وCryptoBot بعملة USDT وUSDT BEP20 على شبكة BNB Smart Chain.
+الأسعار والمخزون يظهران على مستوى المنتج ويتغيران، لذلك لا يجوز اعتبار البيانات الظاهرة ثابتة.
+المنتجات تستخدم نماذج تسليم مختلفة: مفاتيح، روابط تفعيل/استرداد، دعوات وإدارة، بيانات دخول وحسابات.
+توجد أسعار جملة لبعض المنتجات، ما يؤثر في هامش الربح.
+توجد منتجات تتطلب حذرًا خاصًا، مثل حسابات البريد والحسابات ذات الوصول الكامل والخطط التعليمية/الطلابية وبيانات الدخول.
+الاستنتاجات الحرجة
+الملف يثبت وجود واجهة API موجهة لإعادة البيع، لكنه لا يثبت بمفرده تفاصيل عقد API؛ يجب فحص وثائق API الفعلية.
+السعر والمخزون بيانات ديناميكية ويجب جلبهما/مزامنتهما قبل البيع.
+يجب تصنيف المنتجات قبل نشرها، مع استبعاد أو تعليق المنتجات التي تكون حقوق إعادة بيعها أو شروط استخدامها غير واضحة.
+يجب تصميم النظام وفق نوع التسليم، وليس وفق اسم المنتج فقط.
+يجب إظهار ما سيستلمه العميل ومدة الضمان وطريقة الوصول والقيود قبل الدفع.
+مدة الضمان تختلف حسب المنتج، لذلك يجب تخزينها لكل منتج.
+يجب التعامل مع فشل المورد والتأخير والنفاد والاستجابة الغامضة بأمان.
+مفتاح ProdSeller API سر تشغيلي ولا يوضع في Notion أو Git أو السجلات أو واجهة العميل.
+إضافة مطلوبة للمشروع
+أصبح من الضروري إضافة Product Eligibility & Fulfillment Risk Layer إلى تصميم المتجر قبل إطلاق الكتالوج.
+Store Naming Shortlist
+English
+Wasla — وصلة
+Madar — مدار
+Nawa — نواة
+Riwaq — رواق
+Rafad — رفد
+Athar — أثر
+Deem — ديم
+Majra — مجرى
+Midad — مداد
+Tashkeel — تشكيل
+Names are preliminary brand candidates only. Domain, Telegram handle, trademark, and commercial-name availability must be checked before adoption.
+العربية
+وصلة
+مدار
+نواة
+رواق
+رفد
+أثر
+ديم
+مجرى
+مداد
+تشكيل
+هذه أسماء أولية للهوية فقط، ويجب فحص توفر الاسم التجاري والدومين ومعرف Telegram والعلامة التجارية قبل الاعتماد النهائي.
+الحل النهائي المُقفل للمعمارية (2026-09-13)
+1. ما هو مُقفل ونهائي (لا يُعاد نقاشه إلا بدليل جديد)
+تدفق الطلب:
+Telegram Bot → Product Catalog (مُصفّى) → Product Eligibility Gate → Pricing Engine → Order Engine → Payment Adapter (interface موحدة) → [مزود دفع يمني] → Payment Verification → Idempotency Gate → ProdSeller API → Supplier Result → Delivery → Audit Log
+قاعدة الفصل المالي: تحصيل العميل (YER عبر مزود يمني) ≠ تسوية المورد (USDT/Binance/CryptoBot إلى ProdSeller). لا تُخلط أبدًا.
+Payment Adapter: واجهة موحدة بثلاث دوال فقط: createPaymentRequest(order_id, amount), checkStatus(order_id), handleCallback(payload) — أي مزود يُدمج خلفها لاحقًا دون تعديل Order Engine.
+2. Product Eligibility Gate — بوابة إلزامية قبل نشر أي منتج (جديد، غير قابل للتفاوض)
+سبب الإضافة: مراجعة كتالوج ProdSeller الفعلي (39 صورة مرفقة) كشفت منتجات تتجاوز "حقوق إعادة بيع غير واضحة" إلى مؤشرات وصول غير مصرّح به.
+استبعاد دائم — ممنوع نشرها مهما كان الهامش:
+أي منتج يعتمد على "Gmail backup codes" أو أي تجاوز مصادقة ثنائية على حساب لم يُنشئه المورد للعميل مباشرة (نمط استيلاء حساب).
+أي منتج "Admin panel invite" على نطاق مؤسسي/تعليمي (مثل Autodesk Admin) يتطلب تغيير بريد/كلمة مرور حساب لا يملكه البائع.
+أي حساب Gmail "جاهز" بدون مصدر إنشاء شرعي موثق.
+تصنيف "خطر متوسط" — يتطلب تنبيه صريح للعميل قبل الدفع (نص إفصاح إلزامي في الكتالوج):
+حسابات "Edu/Student" (JetBrains, Figma, Miro, edX, Notion) المُعاد بيعها لغير طلاب — مخالفة لشروط الخصم التعليمي.
+حسابات بث مشتركة (HBO Max, Peacock, Prime Video, Adobe Express) ببيانات دخول واحدة لعدة مشترين — مخالفة ToS للمنصة الأصلية.
+القاعدة التشغيلية: كل SKU من ProdSeller يمر عبر Eligibility Gate قبل ظهوره في بوت العميل. SKU بلا تصنيف = غير منشور افتراضيًا (fail-safe افتراضي وليس استثناء).
+3. المحفظة الرقمية الكاملة في اليمن (مصدر أساسي: بحث Google Play الفعلي للمستخدم + بحث ويب)
+مستبعد من القائمة عمدًا: كل تطبيقات العملات المشفرة والمحافظ العالمية التي ظهرت في نتائج Google Play بالمصادفة (Binance، OKX، Trust Wallet، Google Wallet، WE Pay مصر، Saba Wallet الإفريقي — تشابه اسم فقط مع SabaCash اليمنية، إلخ).
+4. الفجوة الوحيدة المتبقية فعليًا (خارجية، لا تُحل بالكتابة)
+لا يوجد حتى الآن رد مكتوب من أي مزود من القائمة الحالية يؤكد: (أ) قبول فرد بلا سجل تجاري، (ب) تفعيل Merchant/API فعلي، (ج) وجود Webhook أو Inquiry موثوق. هذا ليس نقصًا في التحليل — إنه اعتماد خارجي حقيقي (BLOCKED حسب معيار الأدلة في القسم 16 أعلاه) يتطلب اتصالًا هاتفيًا مباشرًا، وليس بحثًا إضافيًا.
+5. سجل التحقق من هذه المحادثة (2026-09-13)
+تم فحص Gmail فعليًا: لا يوجد رد من جوالي أو أي مزود آخر حتى هذه اللحظة.
+تم تأكيد أن ProdSeller يمتلك مفتاح API فعال (0 طلبات حتى الآن) وكتالوج ديناميكي حقيقي (وليس افتراضًا).
+تم استبعاد الخلط بين "Saba Wallet" (بنك إفريقي) و"SabaCash" اليمنية — كيانان مختلفان بالكامل رغم تشابه الاسم.
+Brand Direction — Working Name
+وصلة رقمية | Wasla Digital
+Current naming candidate selected by the project owner for evaluation. This is a working brand name, not yet a final trademark/domain/handle decision.
+Why the name fits
+وصلة expresses the core commercial role of the platform: connecting the customer to a digital service/product.
+رقمية immediately clarifies the category without restricting the store to one supplier or one product type.
+The name remains usable if the backend supplier changes from ProdSeller or if additional suppliers/payment providers are added.
+It is compatible with the current architecture: Telegram Bot → Local Payment → Order Engine → Supplier API → Delivery.
+Naming risks to verify before final adoption
+Trademark/name availability in the target market.
+Telegram username availability.
+Domain availability and consistency.
+Search discoverability and collision with existing businesses.
+Whether the Arabic/English pairing should be وصلة رقمية | Wasla Digital or a different English rendering.
+Brand Candidate Shortlist
+وصلة رقمية | Wasla Digital — strongest current candidate
+مدار رقمي | Madar Digital
+نواة رقمية | Nawa Digital
+رفد رقمي | Rafad Digital
+أثر رقمي | Athar Digital
+رواق رقمي | Riwaq Digital
+ديم رقمي | Deem Digital
+مجرى رقمي | Majra Digital
+مداد رقمي | Midad Digital
+وصلتي | Waslati
+Decision Rule
+Do not treat the shortlist as a final naming decision until availability, legal/search collision, domain, and Telegram handle checks are completed.
+Brand Identity — Working Direction — 2026-09-21
+Brand Concept
+Wasla Digital / وصلة رقمية is positioned around the core idea of connection: connecting the customer in Yemen to a digital product or service through a controlled commerce layer. The identity should communicate connection, trust, digital utility, simplicity, and scalability without being tied to ProdSeller or any single product category.
+Logo Concept
+The current concept uses two interconnected forms with a central gold element.
+The two forms represent two sides of the transaction: customer-side interaction and service-side fulfillment.
+The central element represents the connection or completion point.
+The visual language may suggest continuity and flow, but these are secondary interpretations rather than requirements.
+The final mark must be distinctive enough to avoid looking like a generic chain or infinity symbol.
+Differentiation should come primarily from silhouette, negative space, proportions, interlock logic, and the central accent rather than added detail.
+Color Direction
+Primary Deep Teal: #063B38
+Secondary Teal: #0B6B5E
+Light Teal Accent: #35B89A
+Gold Accent: #C9A34E
+Off White: #F5F7F6
+Near Black: #07110F
+Usage rule:
+Deep Teal = primary brand foundation and dark UI surfaces.
+Teal = secondary brand elements.
+Light Teal = limited digital highlights.
+Gold = focal/value accent; do not allow it to dominate the system.
+Off White and Near Black = primary light/dark interface neutrals.
+Visual Direction
+The identity should be modern, digital, professional, calm, and scalable.
+Avoid positioning the brand as a luxury-fashion identity, a generic technology startup, or a loud discount store.
+Required Logo System
+The final identity work must validate:
+Primary logo.
+Horizontal lockup.
+Stacked lockup.
+App icon.
+Telegram avatar.
+Favicon.
+Light-background version.
+Dark-background version.
+One-color black version.
+One-color white version.
+Small-size reproduction.
+Presentation Format
+The brand-identity presentation should use a 16:9 canvas and show the logo, Arabic and English name, color palette with HEX values, light/dark variants, monochrome variants, app/Telegram icon applications, and a limited set of practical digital mockups.
+Current Status
+CONCEPT — NOT FINAL.
+The current direction is approved for further design development, not for final brand adoption. Final adoption remains dependent on logo distinctiveness testing and availability checks for the name, domain, Telegram handle, and relevant trademark/name collisions.
+Project Output Standard — Current
+For subsequent project reviews and decisions, structure the output as:
+المجال → نوع المهمة → الحالة → الهدف → التحليل → القرار → المبررات → المحسوم → غير المحسوم → الثغرات/المخاطر → القيود → المخرج النهائي → الخطوة التالية.
+سجل المزامنة المرجعي — 21 سبتمبر 2026
+الحالة الحالية
+Notion: الصفحة المرجعية الرئيسية للمشروع متاحة، وتحتوي على التعريف المعماري، بوابات القرار، مخاطر المنتجات، طبقة الدفع، تكامل ProdSeller، واتجاه الهوية.
+GitHub: اتصال GitHub المرتبط بهذه الجلسة لا يملك حاليًا أي Installation أو Repository متاحًا. البحث عن Business-Analysis وTelegram وProdSeller لم يُرجع أي مستودع.
+النتيجة: حالة التنفيذ البرمجي الفعلية BLOCKED / غير مثبتة من GitHub في هذه الجلسة. لا يجوز تسجيل أي ادعاء عن الكود أو الاختبارات أو الـdeployments باعتباره واقعًا حاليًا دون وصول فعلي للمستودع.
+قاعدة مصدر الحقيقة
+Notion: النية، القرارات، الافتراضات، المتطلبات، والسجل التاريخي.
+GitHub + الاختبارات + التشغيل الفعلي: واقع التنفيذ البرمجي عند توفر الوصول.
+عند التعارض: لا تُلغى إحدى الطبقتين تلقائيًا؛ يُسجّل التعارض ويُحسم بالدليل الأقرب إلى نوع الادعاء.
+تصحيحات تشغيلية
+تم استبدال الإشارة العددية السابقة إلى «الـ19» في قائمة مزودي الدفع بعبارة القائمة الحالية لتجنب تعارض العدد مع الإدخالات الفعلية والكيانات المتشابهة.
+لا يُعتبر أي مزود دفع مؤهلًا نهائيًا لمجرد وجود API أو منتج تاجر؛ تبقى أهلية النشاط، الحساب التجاري، KYC، وآلية التحقق الفعلية بحاجة إلى دليل مباشر.
+لا يُعتبر أي منتج من ProdSeller صالحًا للنشر إلا بعد اجتياز Product Eligibility Gate وتصنيف طريقة التسليم وحقوق إعادة البيع ومخاطر الضمان/الاسترداد.
+لا توجد في هذه المزامنة أدلة جديدة تبرر نقل أي عنصر من UNVERIFIED/BLOCKED إلى PROVEN.
+أولوية التنفيذ التالية
+إعادة ربط GitHub بالمشروع وتحديد المستودع الفعلي، ثم مطابقة الحالة البرمجية الفعلية (الفرع، آخر commits، بنية المشروع، الاختبارات، Workflows، وEvidence التشغيل) مع هذه الصفحة وتحديثها بناءً على الدليل فقط.
+الحالة المرجعية حتى هذا التاريخ: المعمارية والقرارات موثقة في Notion؛ التنفيذ البرمجي غير قابل للإثبات من GitHub عبر الاتصال الحالي.

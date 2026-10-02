@@ -1,0 +1,2 @@
+# Bootstrap approval gate when no Approved Prompt exists
+Proposed bootstrap rule: When no Approved Prompt exists, the first approval may promote a Candidate that passes required review/tests and is explicitly approved by the user, provided it belongs to the latest validated lineage. After the first Approved version exists, the standard Parent Version ID = current Approved Version ID promotion gate applies.

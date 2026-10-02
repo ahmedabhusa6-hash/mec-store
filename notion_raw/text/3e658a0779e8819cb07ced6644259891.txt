@@ -1,0 +1,17 @@
+# UPD — Adopt Governing Reference v3
+Change Record
+Change_ID: auto-assigned by Knowledge Change Log
+Knowledge_ID: Deep Marketing — Continuous Knowledge Operation Standard
+Cycle_ID: current user-triggered governance cycle
+Change_Type: UPDATED
+Previous_State: ACTIVE / v2 operating reference
+New_State: ACTIVE / v3 governing reference
+Reason: المستخدم اعتمد نصًا جديدًا كمرجع تشغيلي حاكم، مع قواعد صريحة للسلطة، State/Change/Conflict separation، atomic commit، idempotency، Last Verified State، canonical trigger، وlegacy handling.
+Evidence_Refs: Verified Notion fetch of governing standard and cycle-log schema; verified scheduler inspection.
+Research_Refs: Governance verification.
+Commit_Status: VERIFIED
+Verification_Status: VERIFIED for Notion reference update; NOT YET VERIFIED for ONE CANONICAL TRIGGER because the scheduler reports a legacy active task whose update API returns task no longer available.
+Timestamp: 2026-09-26
+Provenance: Cycle → Research → Sources/Tool State → Evidence → Claim → Knowledge_ID → Change_ID → Previous/New State → Commit_Status → Verified State.
+Superseded: Any prior operational workflow that conflicts with v3.
+SUPERSEDED ≠ DELETED.

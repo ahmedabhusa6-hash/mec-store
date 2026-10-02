@@ -1,0 +1,13 @@
+{
+  "action": {
+    "action_id": "A028",
+    "branch": "BR-MARKETPLACE-KEY",
+    "sku_id": "SKU-KEY-001",
+    "objective": "Discover marketplace offers: Minecraft Java Bedrock key",
+    "discovery_family": "Marketplace-first",
+    "method": "brand-query",
+    "query": "Minecraft Java Bedrock PC key cheap Eneba Kinguin price"
+  },
+  "error": "Function invoke failed with status 500: {\"result\":null,\"error\":\"Search failed: request failed with status 422: {\\\"code\\\":422,\\\"data\\\":null,\\\"message\\\":\\\"No search results available for query Minecraft Java Bedrock PC key cheap Eneba Kinguin price\\\",\\\"name\\\":\\\"AssertionFailureError\\\",\\\"readableMessage\\\":\\\"AssertionFailureError: No search results available for query Minecraft Java Bedrock PC key cheap Eneba Kinguin price\\\",\\\"status\\\":42206}\\n\"}",
+  "timestamp": "2026-09-26T21:05:31.701Z"
+}

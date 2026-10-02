@@ -1,0 +1,902 @@
+<!doctype html><html lang="en"><head>
+    
+    <meta charset="utf-8">
+    <title>Power your business with our mobile top-up API</title>
+    
+      <link rel="shortcut icon" href="https://blog.dingconnect.com/hubfs/Favicon%2032px.png">
+    
+    <meta name="description" content="No.1 top-up API for all businesses. Trusted by over 8,000 partners worldwide.
+">
+    
+    
+    
+    
+    <!--script src="https://www.dingconnect.com/Content/sass/stylesheets/include/global/scripts/functions.js"></script-->
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="/hs/hsstatic/jquery-libs/static-1.1/jquery/jquery-1.7.1.js"></script>
+<script>hsjQuery = window['jQuery'];</script>
+    <meta property="og:description" content="No.1 top-up API for all businesses. Trusted by over 8,000 partners worldwide.
+">
+    <meta property="og:title" content="Power your business with our mobile top-up API">
+    <meta name="twitter:description" content="No.1 top-up API for all businesses. Trusted by over 8,000 partners worldwide.
+">
+    <meta name="twitter:title" content="Power your business with our mobile top-up API">
+
+    
+
+    
+    <style>
+a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
+</style>
+
+<link rel="stylesheet" href="https://blog.dingconnect.com/hubfs/hub_generated/template_assets/1/40479058129/1742878507902/template_main.min.css">
+<link rel="stylesheet" href="https://blog.dingconnect.com/hubfs/hub_generated/module_assets/1/40488247500/1742859479625/module_related-post-listing.min.css">
+    
+
+    
+
+
+<link rel="amphtml" href="https://blog.dingconnect.com/business/mobile-top-up-api?hs_amp=true">
+
+<meta property="og:image" content="https://blog.dingconnect.com/hubfs/Power%20up%20business%202.png">
+<meta property="og:image:width" content="534">
+<meta property="og:image:height" content="400">
+
+<meta name="twitter:image" content="https://blog.dingconnect.com/hubfs/Power%20up%20business%202.png">
+
+
+<meta property="og:url" content="https://blog.dingconnect.com/business/mobile-top-up-api">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="canonical" href="https://blog.dingconnect.com/business/mobile-top-up-api">
+
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/rss+xml" href="https://blog.dingconnect.com/business/rss.xml">
+<meta name="twitter:domain" content="blog.dingconnect.com">
+<script src="//platform.linkedin.com/in.js" type="text/javascript">
+    lang: en_US
+</script>
+
+<meta http-equiv="content-language" content="en">
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script>
+      
+      
+  
+          window.onscroll = function () {
+              fixMenu(); 
+          };
+
+          console.log("new scripts loaded");
+
+          function fixMenu() {
+              document.getElementsByClassName("dropdown-main-menu")[0].style.display = "none";
+              document.getElementsByClassName("dropdown-burger-menu")[0].style.display = "none";
+
+              if (window.pageYOffset > 110) {
+                  document.getElementsByTagName("header")[0].classList.add('sticky');
+              } else {
+                  document.getElementsByTagName("header")[0].classList.remove('sticky');
+              }
+          }
+
+          function evclick(event) {
+              var dropDownElement = document.getElementsByClassName("dropdown-main-menu")[0];
+
+              var clickedInside = dropDownElement.contains(event.target);
+              if (!clickedInside) {
+                  dropDownElement.style.display = "none";
+                  document.removeEventListener('click', evclick, true);
+              }
+          }
+
+          function showLanguageDropDown() {
+              var dropDownElement = document.getElementsByClassName("dropdown-main-menu")[0];
+
+              dropDownElement.style.display = "block";
+              setTimeout(function () {
+                  document.addEventListener('click', evclick, true);
+              }, 100);
+
+          }
+
+
+          function showDropDownBurger() {
+              document.getElementsByClassName("dropdown-burger-menu")[0].style.display = "block";
+          }
+
+
+          function openBurgerMenu() {
+                          
+           setTimeout(function () {
+
+              document.getElementById("burger__hovf").style.display = 'block';
+           }, 100); 
+            
+            
+              //document.getElementsByClassName("burger-menu")[0].style.marginRight = "0px";
+              //document.getElementsByClassName("burger-menu")[0].style.opacity = 1;
+
+
+          }
+
+
+          function closeBurgerMenu() {
+              //document.getElementsByClassName("burger-menu")[0].style.marginRight = "-100%";
+              //document.getElementsByClassName("burger-menu")[0].style.opacity = 0;
+
+              document.getElementById("burger__hovf").style.display = 'none';
+
+          }
+
+
+          function doOnLoad() {
+
+              var specifiedElement = document.getElementById('dropdown-main-menu');
+
+              document.addEventListener('click', function (event) {
+                  var isClickInside = specifiedElement.contains(event.target);
+
+                  if (!isClickInside) {
+                      document.getElementsByClassName("dropdown-main-menu")[0].style.display = "none";
+                  }
+              });
+
+          }
+
+
+          function showApiDoc (ind, title) {
+              var diiv = document.getElementsByClassName("api-doc");
+              var liis = document.getElementsByClassName("toc");
+              var i;
+              //alert(diiv.length);
+              for (i = 0; i < diiv.length; i++) {
+                  diiv[i].style.display = "none";
+                  liis[i].classList.remove("--active");
+              }
+              liis[ind].classList.add("--active");
+              diiv[ind].style.display = "block";
+
+              document.getElementById("mobile-doc-title").innerHTML = title;
+              document.getElementById("mobile-doc-menu").style.display = 'none';
+          }
+
+          function openMobileDocMenu() {
+              document.getElementById("mobile-doc-menu").style.display = 'block';
+          }
+
+          function inverseMenuColor() {
+              var liis = document.getElementsByClassName("mainmenu__item");
+              for (i = 0; i < liis.length; i++) {
+                  liis[i].classList.add("--inverse");
+              }
+          }
+
+          function openPrefixDropdown() {
+              var dropDownElement = document.getElementById("prefix-dropdown");
+
+              dropDownElement.style.display = "block";
+              setTimeout(function () {
+                  document.addEventListener('click', evclickPrefix, true);
+              }, 100);
+
+              document.onkeypress = function (evt) {
+                  evt = evt || window.event;
+                  var charCode = evt.keyCode || evt.which;
+                  if ((charCode > 96) && (charCode < 123)) {
+                      var charStr = String.fromCharCode(charCode).toUpperCase();
+                      var optionEL = document.getElementsByClassName("letter-" + charStr)[0];
+                      var offsTop = optionEL.offsetTop;
+                      document.getElementById("prefix-dropdown").scrollTop = offsTop;
+                  }
+              };
+          }
+
+          function evclickPrefix(event) {
+              var dropDownElement = document.getElementById("prefix-dropdown");
+
+              var clickedInside = dropDownElement.contains(event.target);
+              if (!clickedInside) {
+                  dropDownElement.style.display = "none";
+                  document.removeEventListener('click', evclickPrefix, true);
+                  document.onkeypress = function (evt) { }
+              }
+          }
+
+          function changePrefix(iso, val, text) {
+              document.getElementById('prefix-dropdown').style.display = 'none';
+              document.getElementById('countryCodeDiv').innerHTML = "+" + val;
+              document.getElementById('countryCodeDiv').title = text;
+              document.getElementById('countryFlagDiv').title = text;
+              document.getElementById('InternationalPrefix').value = val;
+              document.getElementById('countryFlag').style.backgroundImage = "url('https://imagerepo.ding.com/flag/" + iso + ".svg')";
+              document.getElementById('PhoneNumber').focus();
+
+          }
+
+      
+        function closeLanguageDropdown() {
+              setTimeout(function () {
+                  document.getElementById("dropdown-main-menu").style.display = "none";
+              }, 100);
+        }
+      
+        function closeLanguageDropdownBurger() {
+              setTimeout(function () {
+                  document.getElementById("dropdown-burger-menu").style.display = "none";
+              }, 100);
+        }
+
+    </script>
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  <meta name="generator" content="HubSpot"></head>
+  <body>
+    <div id="page">
+      <!--div class="header-background"></div-->
+
+      
+        <div data-global-resource-path="DingConnect Theme 1/templates/partials/header.html"><header>
+    <div class="header-main__container">
+        <div class="header-main">
+            <a href="https://www.dingconnect.com/">
+                <div class="header-main__logo">
+                    <img src="https://www.dingconnect.com/Content/images/logo/dingConnect-logo-white.svg" class="logo-image">
+                </div>
+            </a>
+            <div class="header-main__nav">
+                <ul class="mainmenu">
+
+                    <li class="mainmenu__item">
+                        <a id="header-api" href="https://www.dingconnect.com/Api/Description/" class="--color_primary-white">
+                            API
+                        </a>
+                    </li>
+                    
+                    <li class="mainmenu__item mainmenu__item--active">
+                        <a href="https://blog.dingconnect.com/business" class="--color_primary-white">
+                            Learn
+                        </a>
+                    </li>
+
+                    <li onclick="showLanguageDropDown();" id="anguageD" class="mainmenu__item --color_primary-white">
+                        <div class="icon icon__language-selector-flag icon--smallest --margin-right-8"></div>
+                        EN
+                        <div class="icon icon__small-arrow-down-white icon--tiny --margin-left-8"></div>
+
+                        <ul id="dropdown-main-menu" class="dropdown-main-menu">
+                            <div>
+                                <li onmouseup="closeLanguageDropdown();">
+                                  English
+                                </li>
+                            </div>
+                        </ul>
+                    </li>
+
+                    <li class="mainmenu__item mainmenu__item__login --display-flex">
+                        <button id="@pageSection-header-loginBtn" onclick="location.href='https://www.dingconnect.com/SignIn/';" class="button--invert button--smaller" style="height:auto; padding-top:6px; padding-bottom:6px;">
+                            Login
+                        </button>
+                    </li>
+                    <li class="mainmenu__item">
+                        <button id="" onclick="location.href='https://www.dingconnect.com/SignUp';" class="button--primary button--smaller">
+                            Get started
+                        </button>
+                    </li>
+                    
+                </ul>
+                <div class="burger" onclick="openBurgerMenu();">
+                    <img src="https://www.dingconnect.com/Content/images/icons/icon__burger.svg" width="20">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="burger-menu__container">
+        <div id="burger__hovf" class="burger-menu--hide-overflow" style="display:none;">
+            <div class="burger-menu">
+                <div class="burger-menu__top --margin-bottom-32">
+                    <div style="float:left; display:flex; flex-direction:row; align-items: center;" onclick="showDropDownBurger();">
+                        <div class="icon icon__language-selector-flag icon--smallest --margin-right-8"></div>
+                       EN
+                        <div class="icon icon__small-arrow-down-spruce icon--tiny --margin-left-8"></div>
+
+                        <ul id="dropdown-burger-menu" class="dropdown-burger-menu">
+                                <li onclick="closeLanguageDropdownBurger();">
+                                    English
+                                </li>
+
+                        </ul>
+                    </div>
+                    <div style="float:right;" onclick="closeBurgerMenu();">
+                        <div class="icon icon__burger-close icon--smallest --margin-left-8"></div>
+                    </div>
+                </div>
+                <ul>
+                    API
+                    <li>
+                        <a href="https://www.dingconnect.com/Api/Description" class="--color_primary-spruce">
+                            Documentation
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@https://www.dingconnect.com/Api" class="--color_primary-spruce">
+                            Methods
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.dingconnect.com/Api/Faq" class="--color_primary-spruce">
+                            FAQ
+                        </a>
+                    </li>
+                </ul>
+                
+                        <ul>
+                            Learn
+                            <li>
+                                <a href="https://blog.dingconnect.com/business" class="--color_primary-spruce">
+                                    Business Blog
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://blog.dingconnect.com/promotions" class="--color_primary-spruce">
+                                    Promotions
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.dingconnect.com/Learn/CoverageMap" class="--color_primary-spruce">
+                                    Coverage Map
+                                </a>
+                            </li>
+                        </ul>
+                
+                <a href="https://www.dingconnect.com/SignUp">
+                    <button class="button--primary button--small">
+                        Get started
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+        <div class="header-sub__container">
+            <div class="header-sub">
+                <ul class="submenu">
+                    <li class="submenu__item submenu__item--active">
+                      <a href="https://blog.dingconnect.com/business">
+                      Business blog
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="https://blog.dingconnect.com/promotions">
+                      Promotions
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="https://www.dingconnect.com/Learn/CoverageMap">
+                      Coverage Map
+                      </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+
+</header></div>
+      
+      
+      
+      
+         
+
+
+
+<section style="" class="contentHeader section--left section--right section--fullwidth --background-color_primary-spruce --color_primary-white">
+    <div class="grid-halfs --align-halfs-center --margin-bottom-64">
+        <div class="grid-halfs__one --flex-column --margin-bottom-64">
+
+            <h1 class="--margin-top-8">
+                Business blog
+            </h1>
+  
+        </div>
+      <div>
+        
+      </div>
+    </div>
+</section>
+
+<div style="margin-top:-68px; height:70px;">
+<div style="background-color:white; height:70px; margin-right:8%; border-top-right-radius:32px;">
+    &nbsp;
+  </div>
+</div>
+
+
+<section class="section--fullwidth section--left section--right section--white">
+<div style="display:grid; grid-template-columns: 1fr auto 1fr; background-color:white;">
+<div>
+            <div class="blog-post__social-sharing social-icons-left">
+              <span class="--margin-bottom-16">Share on</span>
+              
+                <a href="https://twitter.com/intent/tweet?text=I+found+this+interesting+blog+post&amp;url=https://blog.dingconnect.com/business/mobile-top-up-api" target="_blank" rel="noopener" class="social-links__icon">
+                <div class="social-link__container">
+                  <span id="hs_cos_wrapper_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" aria-labelledby="twitter1" role="img"><title id="twitter1">Share this blog post on Twitter</title><g id="twitter1_layer"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" /></g></svg></span>
+                </div>  
+                </a>
+              
+              
+              
+                <a href="http://www.facebook.com/share.php?u=https://blog.dingconnect.com/business/mobile-top-up-api" target="_blank" rel="noopener" class="social-links__icon">
+                <div class="social-link__container">
+                  <span id="hs_cos_wrapper_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 264 512" aria-labelledby="facebook-f2" role="img"><title id="facebook-f2">Share this blog post on Facebook</title><g id="facebook-f2_layer"><path d="M76.7 512V283H0v-91h76.7v-71.7C76.7 42.4 124.3 0 193.8 0c33.3 0 61.9 2.5 70.2 3.6V85h-48.2c-37.8 0-45.1 18-45.1 44.3V192H256l-11.7 91h-73.6v229" /></g></svg></span>
+                  </div>
+                </a>
+              
+              
+                <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://blog.dingconnect.com/business/mobile-top-up-api" target="_blank" rel="noopener" class="social-links__icon">
+                <div class="social-link__container">
+                  <span id="hs_cos_wrapper_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512" aria-labelledby="linkedin-in3" role="img"><title id="linkedin-in3">Share this blog post on LinkedIn</title><g id="linkedin-in3_layer"><path d="M100.3 480H7.4V180.9h92.9V480zM53.8 140.1C24.1 140.1 0 115.5 0 85.8 0 56.1 24.1 32 53.8 32c29.7 0 53.8 24.1 53.8 53.8 0 29.7-24.1 54.3-53.8 54.3zM448 480h-92.7V334.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V480h-92.8V180.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V480z" /></g></svg></span>
+                  </div>
+                </a>
+               
+          </div>
+  </div>
+  <div style="min-width:50%; max-width:700px;">
+<main class="body-container-wrapper">
+  <div class="body-container body-container--blog-post">
+    <div class="content-wrapper content-wrapper--narrow">
+
+      
+      <article class="blog-post">
+
+        
+        <div class="blog-post__header">
+          
+            <div class="blog-post__tags --margin-top-32 --margin-bottom-16" style="display:flex; flex-direction:row;">
+              
+                <a class="blog-post__tag-link" href="https://blog.dingconnect.com/business/tag/product-updates">
+                              <button class="featured" style="margin-top:0px;margin-right:16px;">
+                                    Product Updates
+                              </button>
+                </a>
+              
+            </div>
+          
+          <h2 class=""><span id="hs_cos_wrapper_name" class="hs_cos_wrapper hs_cos_wrapper_meta_field hs_cos_wrapper_type_text" style="" data-hs-cos-general-type="meta_field" data-hs-cos-type="text">Power your business with our mobile top-up API</span></h2>
+          <div class="--margin-top-16">
+            10-Sep-2021  
+          </div>
+          
+          <!--div class="blog-post__meta">
+            
+              <a class="blog-card__author-name" href="https://blog.dingconnect.com/business/author/dingconnect">DingConnect</a>
+          </div-->
+          
+
+        </div>
+        
+
+        
+        <div class="blog-post__image --margin-top-32 --margin-bottom-32">
+            <img src="https://blog.dingconnect.com/hubfs/Power%20up%20business%202.png" width="100%">
+        </div>
+        
+
+        
+        <section class="blog-post__body">
+          <span id="hs_cos_wrapper_post_body" class="hs_cos_wrapper hs_cos_wrapper_meta_field hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="meta_field" data-hs-cos-type="rich_text"><p style="font-weight: bold;"><span style="color: #00535f;">No.1 top-up API for all businesses. Trusted by over 8,000 partners worldwide.</span></p>
+<!--more-->
+<ul>
+<li style="font-size: 16px; text-align: justify; font-weight: normal;">
+<p>Partner with DingConnect to gain unparalleled access to a growing audience of 5 billion prepaid mobile customers. Sell online, in store, and everywhere in‑between.</p>
+</li>
+<li style="font-size: 16px; text-align: justify; font-weight: normal;">&nbsp;</li>
+</ul>
+<ul>
+<li>
+<p>If you haven’t created your free DingConnect account yet, simply sign-up <a href="https://www.dingconnect.com/SignUp" rel="noopener" target="_blank"><span style="text-decoration: underline;"><span style="font-weight: bold;">here</span> </span></a>and you will be selling international mobile recharge in instants.</p>
+</li>
+</ul>
+<ul>
+<li style="font-size: 16px; text-align: justify; font-weight: normal;">&nbsp;</li>
+<li style="font-size: 16px; text-align: justify; font-weight: normal;">&nbsp;</li>
+</ul>
+<div class="hs-embed-wrapper" data-service="youtube" data-responsive="true" style="position: relative; overflow: hidden; width: 100%; height: auto; padding: 0px; max-width: 650px; max-height: 367.25px; min-width: 256px; display: block; margin: auto;"><div class="hs-embed-content-wrapper"><div style="position: relative; overflow: hidden; max-width: 100%; padding-bottom: 56.5%; margin: 0px;" data-mce-style="position: relative; overflow: hidden; max-width: 100%; padding-bottom: 56.5%; margin: 0px;"><iframe style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" xml="lang" src="https://www.youtube.com/embed/DuNHh9ncO9U?feature=oembed" width="200" height="113" frameborder="0" allowfullscreen data-mce-src="https://www.youtube.com/embed/DuNHh9ncO9U?feature=oembed" data-mce-style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; border: none;"></iframe></div></div></div>
+<p style="font-size: 16px; font-weight: bold; text-align: justify;">&nbsp;</p>
+<p style="font-size: 16px; font-weight: bold; text-align: justify;">If you would like to discuss business partnership opportunities with us or learn more about our API, reach out to us <span style="text-decoration: underline;"><a href="https://landingpage.dingconnect.com/top-up-api" rel="noopener" target="_blank" style="font-weight: bold;">here</a></span>.</p>
+<p style="font-size: 16px; font-weight: bold; text-align: justify;">&nbsp;</p>
+<p style="font-size: 16px; font-weight: bold; text-align: justify;">&nbsp;</p></span>
+        </section>
+        
+
+        
+        <footer class="blog-post__footer"> 
+          
+
+          
+
+
+        </footer>
+        
+
+      </article>
+      
+
+
+    
+    
+          <div class="blog-post__social-sharing2 social-icons-bottom" style="margin-top:-64px; margin-bottom:150px;">
+              <span style="margin-right:16px;">Share on</span>
+              
+                <a href="https://twitter.com/intent/tweet?text=I+found+this+interesting+blog+post&amp;url=https://blog.dingconnect.com/business/mobile-top-up-api" target="_blank" rel="noopener" class="social-links__icon">
+                <div class="social-link__container">
+                  <span id="hs_cos_wrapper_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" aria-labelledby="twitter4" role="img"><title id="twitter4">Share this blog post on Twitter</title><g id="twitter4_layer"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" /></g></svg></span>
+                </div>  
+                </a>
+              
+              
+              
+                <a href="http://www.facebook.com/share.php?u=https://blog.dingconnect.com/business/mobile-top-up-api" target="_blank" rel="noopener" class="social-links__icon">
+                <div class="social-link__container">
+                  <span id="hs_cos_wrapper_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 264 512" aria-labelledby="facebook-f5" role="img"><title id="facebook-f5">Share this blog post on Facebook</title><g id="facebook-f5_layer"><path d="M76.7 512V283H0v-91h76.7v-71.7C76.7 42.4 124.3 0 193.8 0c33.3 0 61.9 2.5 70.2 3.6V85h-48.2c-37.8 0-45.1 18-45.1 44.3V192H256l-11.7 91h-73.6v229" /></g></svg></span>
+                  </div>
+                </a>
+              
+              
+                <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://blog.dingconnect.com/business/mobile-top-up-api" target="_blank" rel="noopener" class="social-links__icon">
+                <div class="social-link__container">
+                  <span id="hs_cos_wrapper_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512" aria-labelledby="linkedin-in6" role="img"><title id="linkedin-in6">Share this blog post on LinkedIn</title><g id="linkedin-in6_layer"><path d="M100.3 480H7.4V180.9h92.9V480zM53.8 140.1C24.1 140.1 0 115.5 0 85.8 0 56.1 24.1 32 53.8 32c29.7 0 53.8 24.1 53.8 53.8 0 29.7-24.1 54.3-53.8 54.3zM448 480h-92.7V334.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V480h-92.8V180.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V480z" /></g></svg></span>
+                  </div>
+                </a>
+               
+          </div>
+    
+    
+    
+    
+    </div>
+
+    
+    
+
+  </div>
+</main>
+  </div>
+  <div>
+  </div>
+  </div>
+</section>  
+
+
+<section class="section--fullwidth --background-color_primary-breeze star-background-2">
+    <div class="star-background-3 --margin-top-64 --margin-bottom-64">
+    </div>
+</section>
+
+<section class=" --page-padding-right" style="margin-left:8%; border-top-left-radius: 32px; z-index:5; width:92%;">
+<div style="display:grid; grid-template-columns: 1fr auto 1fr; padding-right:8%;">
+<div>
+  
+  </div>
+  <div style="min-width:50%; max-width:700px;">
+
+
+      <div class="content-wrapper --margin-top-128">
+          <div id="hs_cos_wrapper_blog_related_posts" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+  
+
+<section class="blog-related-posts">
+  <h2 class="blog-related-posts__title --margin-bottom-32">Related Blog Posts</h2>
+  <div class="blog-related-posts__list">
+
+<article class="related-post">
+  
+    <div class="related-post__image-wrapper">
+                                  <div style="width:100%;">
+
+                                      <div>
+                                           <img width="100%" src="https://blog.dingconnect.com/hubfs/Blog/Euronet_vert%20Banner.jpg" alt="DingConnect Euronet Partnership"> 
+                                      </div> 
+                                    
+                                  </div>
+    </div>
+  
+  <section class="related-post__content">
+    
+      <div class="">
+        
+          <a class="related-post__tag-link" href="https://blog.dingconnect.com/business/tag/press-centre">
+                  <button class="featured" style="margin-top:0px;">
+                          Press Centre
+                  </button>
+          </a>
+        
+      </div>
+    
+    <h3 class="related-post__title"><a href="https://blog.dingconnect.com/business/euronet-poland-integrates-global-top-up-api">Euronet Poland and Ding join forces to help Ukrainian diaspora stay connected</a></h3>
+    <div class="related-post__post-summary"><p style="text-align: justify; font-weight: normal;">The new partnership means millions of Ukrainians, who are financially supporting family back home, can now avail of airtime transfer in over 3,500 POS shops across...</p></div>
+    <div class="related-post__author">
+      
+        <a class="related-post__author-name" href="https://blog.dingconnect.com/business/author/dingconnect">DingConnect</a>
+    </div>
+                                    <div style="mrgin-top:16px;">
+                                    <a class="blog-card__button button button" href="https://blog.dingconnect.com/business/euronet-poland-integrates-global-top-up-api" style="margin-top:16px;">
+                                        <div style="margin-top:16px;
+                                                     color:#d900c7; padding-right:15px; float:left;
+                                                    margin-right:auto;
+                                                    background-position:100% 50%; 
+                                                    background-size:8px;
+                                                    background-repeat:no-repeat;
+                                                    background-image:url('https://blog.dingconnect.com/hs-fs/hubfs/dingconnect/images/icons/right-arrow-1-sunset.svg')"> 
+                                            Read More
+                                        </div>
+                                    </a>
+                                    </div>  </section>
+</article>
+
+
+
+  
+
+<article class="related-post">
+  
+    <div class="related-post__image-wrapper">
+                                  <div style="width:100%;">
+
+                                      <div>
+                                           <img width="100%" src="https://blog.dingconnect.com/hubfs/Blog/Payit%20Banner.png" alt="DingConnect api business partner payit"> 
+                                      </div> 
+                                    
+                                  </div>
+    </div>
+  
+  <section class="related-post__content">
+    
+      <div class="">
+        
+          <a class="related-post__tag-link" href="https://blog.dingconnect.com/business/tag/press-centre">
+                  <button class="featured" style="margin-top:0px;">
+                          Press Centre
+                  </button>
+          </a>
+        
+      </div>
+    
+    <h3 class="related-post__title"><a href="https://blog.dingconnect.com/business/mena-first-wallet-to-offer-mobile-top-up-api">payit integrates DingConnect global top-up API</a></h3>
+    <div class="related-post__post-summary"><p style="font-size: 15px; text-align: justify; font-weight: normal;">As Ding continues to expand globally, we’re delighted to welcome new DingConnect partner payit, the UAE’s first, fully-digital wallet powered by First Abu Dhabi Bank...</p></div>
+    <div class="related-post__author">
+      
+        <a class="related-post__author-name" href="https://blog.dingconnect.com/business/author/dingconnect">DingConnect</a>
+    </div>
+                                    <div style="mrgin-top:16px;">
+                                    <a class="blog-card__button button button" href="https://blog.dingconnect.com/business/mena-first-wallet-to-offer-mobile-top-up-api" style="margin-top:16px;">
+                                        <div style="margin-top:16px;
+                                                     color:#d900c7; padding-right:15px; float:left;
+                                                    margin-right:auto;
+                                                    background-position:100% 50%; 
+                                                    background-size:8px;
+                                                    background-repeat:no-repeat;
+                                                    background-image:url('https://blog.dingconnect.com/hs-fs/hubfs/dingconnect/images/icons/right-arrow-1-sunset.svg')"> 
+                                            Read More
+                                        </div>
+                                    </a>
+                                    </div>  </section>
+</article>
+
+  </div>
+</section>
+
+
+
+</div>
+      </div>
+
+    
+  </div>
+  <div>
+    
+  </div>
+  </div>
+</section>
+
+
+ 
+        
+      
+      
+        <div data-global-resource-path="DingConnect Theme 1/templates/partials/footer.html"><footer class="section--left section--white" style="z-index:100;">
+ 
+    <div class="footer__links">
+ 
+        <div class="footer__stanza">
+                <div class="stanza__title">
+                    Company
+                </div>
+ 
+            <a class="footer__link" href="https://www.ding.com/about-us" target="_blank">
+                <div class="stanza__item">
+                    About us
+                </div>
+                </a>
+            <a class="footer__link" href="https://company.ding.com/press/" target="_blank">
+                <div class="stanza__item">
+                    Press
+                </div>
+            </a>
+ 
+            <a class="footer__link" href="https://company.ding.com/careers/" target="_blank">
+                <div class="stanza__item">
+                    Careers
+                </div>
+            </a>
+        </div>
+ 
+        <div class="footer__stanza">
+            <div class="stanza__title">
+                    Legal
+            </div>
+            <a class="footer__link" href="https://www.dingconnect.com/en-US/Footer/PublicPrivacyNotice" target="_blank">
+                <div class="stanza__item">
+                    Privacy Notice
+                </div>
+            </a>
+            <a class="footer__link" href="https://www.dingconnect.com/en-US/Footer/NewPublicTermsAndConditions" target="_blank">
+                <div class="stanza__item">
+                    Terms And Conditions
+                </div>
+            </a>
+            <a class="footer__link" href="https://www.dingconnect.com/en-US/Footer/PublicCookiesStatement" target="_blank">
+                <div class="stanza__item">
+                     Cookies Policy
+                </div>
+            </a>
+</div>
+ 
+        <div class="footer__stanza">
+            <div class="stanza__title">
+                Connect
+            </div>
+            <div class="stanza__item flex--row">
+                <a href="https://www.facebook.com/DingBusiness" target="_blank">
+                    <div class="icon icon--smaller icon__socialFacebook"></div>
+                </a>
+                <a href="https://twitter.com/dingHQ" target="_blank">
+                    <div class="icon icon--smaller icon__socialTwitter"></div>
+                </a>
+                <a href="https://www.linkedin.com/company/231271" target="_blank">
+                    <div class="icon icon--smaller icon__socialLinkedIn"></div>
+                </a>
+            </div>
+        </div>
+ 
+        <div class="footer__motto">
+            A little goes a long way
+            &nbsp;
+            <div class="icon icon__sunsetStar icon--small "></div>
+        </div>
+ 
+    </div>
+ 
+    <div class="footer__copyright --margin-top-64">
+        © EZETOP @2021. All rights reserved.
+    </div>
+ 
+</footer>
+ 
+ 
+ 
+ 
+<div class="footer__end" style="z-index:100;">
+    Ezetop Unlimited Company t/a Ding \ Registered in Ireland under company number 422514 \ 3 Shelbourne Buildings, Crampton Avenue, Shelbourne Road, Ballsbridge, Dublin 4, Ireland
+</div></div>
+      
+      
+    </div>
+    
+<!-- HubSpot performance collection script -->
+<script defer src="/hs/hsstatic/content-cwv-embed/static-1.1293/embed.js"></script>
+<script src="https://blog.dingconnect.com/hubfs/hub_generated/template_assets/1/40479059575/1742878508518/template_main.min.js"></script>
+<script>
+var hsVars = hsVars || {}; hsVars['language'] = 'en';
+</script>
+
+<script src="/hs/hsstatic/cos-i18n/static-1.53/bundles/project.js"></script>
+
+<!-- Start of HubSpot Analytics Code -->
+<script type="text/javascript">
+var _hsq = _hsq || [];
+_hsq.push(["setContentType", "blog-post"]);
+_hsq.push(["setCanonicalUrl", "https:\/\/blog.dingconnect.com\/business\/mobile-top-up-api"]);
+_hsq.push(["setPageId", "53437989238"]);
+_hsq.push(["setContentMetadata", {
+    "contentPageId": 53437989238,
+    "legacyPageId": "53437989238",
+    "contentFolderId": null,
+    "contentGroupId": 35307701429,
+    "abTestId": null,
+    "languageVariantId": 53437989238,
+    "languageCode": "en",
+    
+    
+}]);
+</script>
+
+<script type="text/javascript" id="hs-script-loader" async defer src="/hs/scriptloader/6898384.js"></script>
+<!-- End of HubSpot Analytics Code -->
+
+
+<script type="text/javascript">
+var hsVars = {
+    render_id: "36e30c14-0912-4f62-8066-47db51e7f698",
+    ticks: 1783411094080,
+    page_id: 53437989238,
+    
+    content_group_id: 35307701429,
+    portal_id: 6898384,
+    app_hs_base_url: "https://app.hubspot.com",
+    cp_hs_base_url: "https://cp.hubspot.com",
+    language: "en",
+    analytics_page_type: "blog-post",
+    scp_content_type: "",
+    
+    analytics_page_id: "53437989238",
+    category_id: 3,
+    folder_id: 0,
+    is_hubspot_user: false
+}
+</script>
+
+
+<script defer src="/hs/hsstatic/HubspotToolsMenu/static-1.640/js/index.js"></script>
+
+
+
+<div id="fb-root"></div>
+  <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.0";
+  fjs.parentNode.insertBefore(js, fjs);
+ }(document, 'script', 'facebook-jssdk'));</script> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+ 
+
+
+  
+</body></html>

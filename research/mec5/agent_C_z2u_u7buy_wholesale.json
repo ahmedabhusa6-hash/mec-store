@@ -1,0 +1,263 @@
+{
+ "run": "MEC-5.0 Agent C",
+ "agent": "general-purpose (Z2U + U7BUY + wholesale-rate APIs)",
+ "date_accessed_utc": "2026-09-27",
+ "method": "14 web searches (z-ai web_search function) + direct curl fetches + Nuxt chunk reverse-engineering + headless-browser docs render; every number carries source URL + exact quote; no fabricated prices",
+ "targets": [
+  {
+   "target": "Z2U (z2u.com)",
+   "api_program_exists": false,
+   "api_program_note": "No publicly documented API. api.z2u.com subdomain exists but blocks public access (403, Chinese '访问被禁止' = access forbidden). No public API docs found (probed /api, /apiDocs, /openapi, /developer, /api/index, /apidoc => all 404). A members-only 'Distribution' page exists (z2u.com/Distribution/index) but redirects to login.",
+   "access_requirements": "Z2U is a C2C marketplace: 'Become Seller' registration is free (sellprocess page); Z2U Business Account offered for business sellers ('Selling as a business? ... Sign up or upgrade your Z2U Business Account'). Distribution program = login-gated (requirements unknown).",
+   "wholesale_pricing_evidence": [
+    {
+     "source": "https://www.z2u.com/pricingPolicy",
+     "quote": "Z2U is a marketplace. Sellers are responsible for independently setting the prices of their goods and services. Z2U does not require sellers to follow a fixed resale price, minimum resale price, or uniform market price",
+     "interpretation": "No platform price list at all -> no public-vs-API price gap can exist at platform level; prices are seller-set C2C"
+    },
+    {
+     "source": "https://www.z2u.com/faq/what-are-the-fees-to-sell.html",
+     "quote": "Default Order Processing Fee: 5%-9% ... According to different store levels, sellers can enjoy additional fee reductions. ... PayPal 2.99%+0.99USD ... Payoneer 2.99%+2.99USD ... Bitcoin 3.99%+0.0003BTC",
+     "interpretation": "Marketplace monetization = seller commission (5-9% default, lower with store level) + withdrawal fees; this is the platform's cut, not a buyer-facing API discount"
+    },
+    {
+     "source": "https://www.z2u.com/faq/Z2U-Affiliate-Program-FAQ.html (search snippet)",
+     "quote": "You'll make 20% of the order processing fee for the people you bring to Z2U, and 3% of the order processing fee for people who they bring to Z2U",
+     "interpretation": "Affiliate payout = share of Z2U's commission, not a discount tier"
+    },
+    {
+     "source": "https://www.ipcook.com (search snippet, 2026 article 'Buy Discord Accounts: 7 Best Platforms & Full Guide')",
+     "quote": "Z2U: ... Bulk Discounts: Automatic 10% discount when you buy 500+ accounts",
+     "interpretation": "THIRD-PARTY claim of seller-set bulk discount (10% at 500+ units) - unverified, seller-level not platform-level",
+     "grade": "secondary/unverified"
+    },
+    {
+     "source": "https://codingclave.com (search snippet, 2026-05-25 'Clapper Coin Recharge Website Development')",
+     "quote": "The reseller arbitrage that works in 2026: source coins at distributor pricing (typically 20-30% off in-app retail through Z2U-style bulk",
+     "interpretation": "THIRD-PARTY claim of distributor pricing 20-30% off retail via Z2U-style bulk sourcing - unverified, no official Z2U page confirms",
+     "grade": "secondary/unverified"
+    }
+   ],
+   "dual_price_rows": [],
+   "blocked_pages": [
+    {"url": "https://api.z2u.com/", "status": "403", "detail": "returns Chinese 403 page '访问被禁止' (access forbidden) - internal API gateway, no public docs"},
+    {"url": "https://www.z2u.com/Distribution/index", "status": "login-wall", "detail": "redirects to Login page; Distribution program content not publicly accessible"}
+   ],
+   "raw_notes": "Z2U homepage (306KB) contains zero occurrences of 'API'/'wholesale'/'reseller'/'bulk'. Company: Macro Excellence Technology Limited, Hong Kong. Seller flow = register -> list -> deliver -> get paid; fee FAQ captured in full. Conclusion for MEC-5: Z2U does NOT offer a documented public API tier with differential pricing; it is a C2C marketplace where the only 'gap' economics are the platform's 5-9% commission + withdrawal fees. Any API-style bulk access (Distribution page) is behind login."
+  },
+  {
+   "target": "U7BUY (u7buy.com)",
+   "api_program_exists": true,
+   "api_program_note": "U7BUY Seller API Integration confirmed via reverse-engineering of the site's Nuxt build. Member-area route /member/api (all locales) renders an API application page with App ID / App Secret / App URL credentials, webhook configuration, and a 'View Api Guide' link that appears only after approval. Backend gateway live at api.u7buy.com/prod-api/. IMPORTANT: this is a SUPPLY-SIDE (seller) API for managing offers/orders - no evidence of buyer-facing differential API pricing.",
+   "access_requirements": "Logged-in member (seller) account -> click Apply -> fill application reason (textarea, maxlength 100: 'Tell us about how you are going to do with API function') -> email verification code + captcha -> returns one-time-view App Secret ('This is a one time view secret key. you can not recover it once you close this window. However, you can still generate new apl key at any time') -> status 'Application Under Review' -> after approval (applyStatus flag 1): API Credentials + 'View Api Guide' documentation link + Webhook settings.",
+   "wholesale_pricing_evidence": [
+    {
+     "source": "https://www.u7buy.com/_nuxt/cyxA3H63.js (member API page chunk, fetched 2026-09-27)",
+     "quote": "strong class 'str' text: 'Seller API Integration'; form labels: 'App ID', 'App Secret', 'App Url'; buttons: 'Apply' / 'ReApply' / 'Reset' / 'Get' / 'Copy'",
+     "interpretation": "API is branded 'Seller API Integration' - for sellers to manage stores, not a wholesale purchase tier"
+    },
+    {
+     "source": "https://www.u7buy.com/_i18n/8c5358e0/en/messages.json (official locale strings, fetched 2026-09-27)",
+     "quote": "\"title\": \"Manage Your Store with API\", \"desc\": \"Manage your orders and offers with API, you can add offers in bulk in a few minutes. You can also check your orders or set up notifications\", \"explanatoryNote\": \"Use these credentials to interact with the U7BUY Seller API.\"",
+     "interpretation": "Official program wording: bulk offer management + order checks + notifications = supply-side automation"
+    },
+    {
+     "source": "https://www.u7buy.com/_nuxt/4ruJ5dIe.js (API service module, fetched 2026-09-27)",
+     "quote": "endpoints: /member/api/sendVerifyCode, /member/api/generate, /member/api/apply, /member/api/apiInfo, /member/api/webhook/url/check, /member/api/event/subscribed, /member/api/webhook/url",
+     "interpretation": "Confirmed live API endpoints for application + credentials + webhooks"
+    },
+    {
+     "source": "https://api.u7buy.com/prod-api/ (live probe 2026-09-27)",
+     "quote": "{\"code\": 401, \"msg\": \"未能读取到有效 token\", \"data\": null} (='could not read a valid token')",
+     "interpretation": "Gateway is token-gated; /prod-api/swagger-ui, /v3/api-docs, /doc.html, /swagger-resources all return 403 - no public docs"
+    },
+    {
+     "source": "https://www.u7buy.com/_i18n/8c5358e0/en/messages.json (seller economics strings)",
+     "quote": "\"fee\": \"Transactlon Fee (Per Purchase): \", \"feeAfter\": \"% of Sales\" ... \"rulesDesc1\": \"1. U7BUY service fees and promotion costs will be included additionally in the final price displayed to the buyers, it is fully paid by buyers.\" ... \"rulesDesc3\": \"3. Your actual selling income is equal to Your Selling Price you set for the product, it won't be affected by the service fee charged to the buyers.\" ... \"desc23\": \"U7BUY will charge a 2.5% currency conversion commission.\" ... \"Commissionfee\": \"Commission fee(10%)\"",
+     "interpretation": "Marketplace economics: seller transaction fee (variable % of sales; a 'Commission fee(10%)' label exists in order UI), buyer-paid service fees added on top of seller price, 2.5% FX commission on withdrawal"
+    },
+    {
+     "source": "https://www.u7buy.com/affiliate (fetched 2026-09-27)",
+     "quote": "\"Earn up to 20% commission + exclusive bonuses for every sale. Start promoting today!\" ... \"Share your referral links to gaming-related items on U7BUY.COM and earn up to 20% commissions for every purchase made through your links\"",
+     "interpretation": "Affiliate (referral) channel = up to 20% commission to referrers - NOT a wholesale price tier for buyers"
+    }
+   ],
+   "dual_price_rows": [],
+   "blocked_pages": [
+    {"url": "https://www.u7buy.com/api", "status": "cloudflare-challenge (headless browser) / client-rendered Nuxt SPA via curl", "detail": "page content recovered by fetching JS chunks directly (_nuxt/cyxA3H63.js + service 4ruJ5dIe.js + i18n messages.json) instead of rendering"},
+    {"url": "https://api.u7buy.com/prod-api/*", "status": "401/403 token-gated", "detail": "API gateway requires App token; swagger/doc endpoints 403"}
+   ],
+   "raw_notes": "U7BUY = retail storefront (Bounty Hunter Technology Co., Limited, 'Copyright 2003-2026') + C2C seller layer + Seller API (supply automation) + affiliate program (20%). NO wholesale/buyer API pricing found anywhere public. Seller API webhook events: Stock Reaches Threshold, Stock Runs Out, New Order Received, Order Completed. Batch upload UI for sellers: 'How to upload 100 offers at a time?'. Conclusion for MEC-5: API exists but is NOT a differential-pricing channel - it is inventory/order automation for sellers; prices seen by API-integrated sellers are their own prices."
+  },
+  {
+   "target": "Reloadly (reloadly.com) - published wholesale-rate API benchmark #1",
+   "api_program_exists": true,
+   "api_program_note": "Fully public, self-service B2B API with PUBLISHED per-product wholesale discounts off face value. Gift Cards API (base https://giftcards.reloadly.com, 200+ brands, 13,000+ products, 140+ countries) - every product object carries discountPercentage + senderFee/senderFeePercentage; dedicated Discounts endpoints. Airtime API (base https://topups.reloadly.com) - per-operator commissions.",
+   "access_requirements": "Free self-service signup ('Get API Keys' / 'Signup for free... Easy account signup in less than 2 minutes!'); OAuth 2.0 client_credentials (client_id + client_secret from dashboard); sandbox + production environments; usage-based billing ('Usage based billing, no contracts, no shenanigans').",
+   "wholesale_pricing_evidence": [
+    {
+     "source": "https://docs.reloadly.com/gift-cards (rendered 2026-09-27)",
+     "quote": "Some of the information included in the product's details are the product's name, denomination type, discount rate, fixed amounts where applicable, country's details, and brand details attached to the product.",
+     "interpretation": "Discount rate is a first-class field of every gift card product = published wholesale rate"
+    },
+    {
+     "source": "https://docs.reloadly.com/gift-cards - Get Products sample response",
+     "quote": "{\"productId\": 1, \"productName\": \"1-800-PetSupplies\", ... \"senderFee\": 205.29, \"senderFeePercentage\": 1, \"discountPercentage\": 7.5, \"denominationType\": \"FIXED\", \"recipientCurrencyCode\": \"USD\" ... \"senderCurrencyCode\": \"NGN\"}",
+     "interpretation": "Doc sample: 7.5% discount off face value for the API buyer on this brand (plus 1% sender fee)"
+    },
+    {
+     "source": "https://docs.reloadly.com/gift-cards/Discounts/Get-Discounts",
+     "quote": "The GiftCard Discounts feature gives you access to every gift card offering a discount at the point of purchase. Important data in the details of each discount include the discount percentage and details of the gift card product that's offering the discount. ... sample: {\"product\": {\"productId\": 28, \"productName\": \"Apple Music 12 month Canada\", \"countryCode\": \"CA\"}, \"discountPercentage\": 2}",
+     "interpretation": "Dedicated wholesale-discount listing endpoint; doc sample: Apple Music 12m Canada = 2% discount"
+    },
+    {
+     "source": "https://docs.reloadly.com/airtime - Get Commissions",
+     "quote": "The data on Commissions provides you with details of operators that offer a percentage discount for every airtime... sample: {\"operator\": {\"operatorId\": 1, \"name\": \"Afghan Wireless Afghanistan\", ...}, \"percentage\": 10, \"internationalPercentage\": 10, \"localPercentage\": 0}",
+     "interpretation": "Airtime wholesale = per-operator commission (doc sample 10% international); operator records also embed commission/internationalDiscount/localDiscount fields (sample: commission 4.42, internationalDiscount 4.42, localDiscount 0 for a COP operator)"
+    },
+    {
+     "source": "https://docs.reloadly.com/gift-cards - FX Rates sample",
+     "quote": "{\"senderCurrency\": \"EUR\", \"senderAmount\": 88.50978, \"recipientCurrency\": \"USD\", \"recipientAmount\": 94.99}",
+     "interpretation": "FX conversion layer on top of discount (cost in sender currency vs face value in recipient currency)"
+    }
+   ],
+   "dual_price_rows": [
+    {
+     "product": "1-800-PetSupplies gift card (doc sample, FIXED denomination)",
+     "public_price": "face value (recipient denomination, USD)",
+     "api_wholesale_price": "face value minus discountPercentage 7.5 (plus senderFeePercentage 1)",
+     "gap_pct": 7.5,
+     "source": "https://docs.reloadly.com/gift-cards (Get Products 200 sample)",
+     "date": "2026-09-27",
+     "caveat": "documentation sample value, not live rate; live rates require free API account"
+    },
+    {
+     "product": "Apple Music 12 month Canada (productId 28, doc sample)",
+     "public_price": "face value",
+     "api_wholesale_price": "face value minus discountPercentage 2",
+     "gap_pct": 2.0,
+     "source": "https://docs.reloadly.com/gift-cards/Discounts/Get-Discounts (200 sample)",
+     "date": "2026-09-27",
+     "caveat": "documentation sample value, not live rate"
+    },
+    {
+     "product": "Afghan Wireless Afghanistan airtime topup (doc sample)",
+     "public_price": "face value (topup amount)",
+     "api_wholesale_price": "face value minus internationalPercentage 10",
+     "gap_pct": 10.0,
+     "source": "https://docs.reloadly.com/airtime (Get Commissions 200 sample)",
+     "date": "2026-09-27",
+     "caveat": "documentation sample value, not live rate"
+    }
+   ],
+   "blocked_pages": [
+    {"url": "https://www.reloadly.com/pricing", "status": "200 but JS SPA shell (same 154KB shell for all routes)", "detail": "pricing content only renders client-side; no published fee schedule crawled - but discount model is documented in API docs instead"}
+   ],
+   "raw_notes": "Reloadly is the industry's cleanest example of PUBLISHED differential API pricing: wholesale = face value minus per-brand discountPercentage (gift cards, sample 2-7.5%) minus per-operator commission (airtime, sample up to 10% international), plus sender fees + FX spread. Live per-brand values are queryable by any free API account via GET /discounts - meaning wholesale rates are effectively public-with-free-account. Docs also list senderFee/senderFeePercentage per product (sample: 205.29 NGN / 1%)."
+  },
+  {
+   "target": "DingConnect (ding.com/connect, dingconnect.com) - published wholesale-rate API benchmark #2",
+   "api_program_exists": true,
+   "api_program_note": "Yes - free top-up API ('Level 0 REST web service'), 8,000+ partners, top-ups + e-gift cards + bill payments in 150+ countries (DingPartner+). BUT wholesale discount rates are NOT published publicly - they are per-account and visible only on the logged-in 'Products & Pricing' page or via the API.",
+   "access_requirements": "Free self-service signup (dingconnect.com/SignUp: 'Join DingConnect to integrate with our mobile top-up API... Get your free account now'); business partnership contact for larger deals; API credentials after registration.",
+   "wholesale_pricing_evidence": [
+    {
+     "source": "https://www.dingconnect.com/Api/Faq (search snippet, page itself Cloudflare-blocked)",
+     "quote": "All versions of the API connect to the same system. Your account credentials, products, discounts etc. will remain the same. All your transactions (regardless ...",
+     "interpretation": "Confirms per-account discounts exist but are tied to credentials (i.e., negotiated/account-level wholesale rates, not published)"
+    },
+    {
+     "source": "https://blog.dingconnect.com/promotions (fetched 2026-09-27)",
+     "quote": "Here you will find supplementary material on our latest operator and product promotions. All available promotions are accessible from the Products & Pricing page, or through our API.",
+     "interpretation": "'Products & Pricing' page = inside logged-in platform; pricing (incl. promotions/bonuses) is API-visible to partners only"
+    },
+    {
+     "source": "https://blog.dingconnect.com/business/mobile-top-up-api (fetched 2026-09-27)",
+     "quote": "No.1 top-up API for all businesses. Trusted by over 8,000 partners worldwide. Partner with DingConnect to gain unparalleled access to a growing audience of 5 billion prepaid mobile customers. ... simply sign-up here and you will be selling international mobile recharge in instants.",
+     "interpretation": "Free-entry B2B API program confirmed; company = Ezetop Unlimited Company t/a Ding, Dublin, Ireland"
+    },
+    {
+     "source": "https://musskart.com (search snippet 2026-07-10, third-party)",
+     "quote": "DingConnect-style providers. Set your margin. FX Spread ~2-3% cross-border. On a ₦50,000 diaspora top-up a 2.5% spread is about ₦1,250 on top",
+     "interpretation": "THIRD-PARTY estimate of typical topup-API economics (2-3% FX spread margin) - not DingConnect's own published numbers",
+     "grade": "secondary/unverified"
+    }
+   ],
+   "dual_price_rows": [],
+   "blocked_pages": [
+    {"url": "https://www.ding.com/connect", "status": "403 Cloudflare", "detail": "curl blocked"},
+    {"url": "https://www.dingconnect.com/ (home, /Api, /Api/Faq, /SignUp)", "status": "403 Cloudflare hard block", "detail": "blocked for both curl and headless browser ('Sorry, you have been blocked' - no solvable challenge); FAQ content only via search snippet"},
+    {"url": "https://dingconnect.zendesk.com/hc/en-us/categories/17856272784273-API-Guide", "status": "403", "detail": "zendesk help center blocked"},
+    {"url": "http://archive.org/wayback/available + web.archive.org", "status": "timeout", "detail": "Wayback Machine unreachable from sandbox (2 attempts, 20-25s timeouts)"}
+   ],
+   "raw_notes": "DingConnect = classic negotiated-wholesale model: free API entry, but rates ('products, discounts') are account-specific and behind login. No published discount percentages found anywhere public. Access requirements minimal (free signup). For MEC-5 benchmark: contrast with Reloadly (published per-brand discounts) - DingConnect keeps the same structure private."
+  },
+  {
+   "target": "Bitrefill (bitrefill.com) - published wholesale-rate API benchmark #3",
+   "api_program_exists": true,
+   "api_program_note": "Yes - fully public developer docs (docs.bitrefill.com) for REST API v2 (https://api.bitrefill.com/v2, Basic auth API_ID:API_SECRET) + MCP server for AI agents (https://api.bitrefill.com/mcp, OAuth 2.1 or API key, 12 tools, guest checkout, 30 req/min). Two API modes: Business API (your own purchases / resell flow) and Affiliate API (referred orders + commissions). Model = revenue share / affiliate commission, NOT published discount off face value.",
+   "access_requirements": "API keys from account settings (bitrefill.com/account/developers); MCP partners use OAuth or client-credentials tokens; guest checkout possible with client-credentials token (no Bitrefill account needed for the buyer); widget/B2B partnerships via 'Become a partner' contact (negotiated revenue share).",
+   "wholesale_pricing_evidence": [
+    {
+     "source": "https://www.bitrefill.com/integrate/?hl=en (fetched 2026-09-27)",
+     "quote": "Gain access to our entire catalogue and offer thousands of gift cards to your customers worldwide, while earning a passive income from each sale. ... you gain access to the entire catalogue without any integration or ongoing costs. We provide an integration that enables your users to purchase whatever they want from Bitrefill, within your application or website and we handle customer support... Talk to us today to see what revenue share may be available for your project.",
+     "interpretation": "B2B widget model = NEGOTIATED revenue share per project - no published wholesale discount"
+    },
+    {
+     "source": "https://www.bitrefill.com/affiliate (fetched 2026-09-27)",
+     "quote": "Get a personal link that will reward your Bitrefill Store Credits with 1% of your audience purchases, forever. ... The 1% commission goes instantly to you, every time at the moment your referee completes a purchase.",
+     "interpretation": "PUBLISHED affiliate commission = 1% (paid in store credit) - the only public percentage in Bitrefill's partner economics"
+    },
+    {
+     "source": "https://docs.bitrefill.com/docs/commissions (fetched 2026-09-27)",
+     "quote": "The Commissions endpoint lets you track your affiliate earnings programmatically. ... Commission Object: amount_satoshi / amount_eur / amount_usd / balance / order / date ... Commissions are paid out according to your affiliate agreement.",
+     "interpretation": "Affiliate payouts are per-agreement (negotiated), tracked via API"
+    },
+    {
+     "source": "https://docs.bitrefill.com/docs/integration-flow.md (Resell Bitrefill Products, updated 2026-03-16)",
+     "quote": "This guide describes the standard integration flow for B2B partners: 1. Cache the product catalog 2. Create an invoice 3. Pay the invoice (Via balance or crypto) 4. Receive webhook 5. Deliver to user",
+     "interpretation": "B2B resellers BUY AT LISTED PRICES via balance/crypto - no discounted wholesale rate documented; margin comes from their own markup or negotiated revenue share"
+    },
+    {
+     "source": "https://www.bitrefill.com/agents (fetched 2026-09-27)",
+     "quote": "The Commerce Layer for AI Agents ... Bitrefill gives AI agents real-world purchasing power. 10,000+ digital products across 180+ countries, all on crypto-native rails. No KYC. No credit cards. No friction.",
+     "interpretation": "New agent/MCP commerce channel (retail parity pricing, affiliate attribution via ?ref=<code>)"
+    }
+   ],
+   "dual_price_rows": [
+    {
+     "product": "Bitrefill affiliate commission (all products, referral channel)",
+     "public_price": "n/a (retail price parity for API buyers)",
+     "api_wholesale_price": "affiliate earns 1% of referred purchase value in store credit",
+     "gap_pct": 1.0,
+     "source": "https://www.bitrefill.com/affiliate",
+     "date": "2026-09-27",
+     "caveat": "1% is an affiliate COMMISSION, not a discount off face value; no wholesale discount is published"
+    }
+   ],
+   "blocked_pages": [
+    {"url": "https://www.bitrefill.com/b2b", "status": "404", "detail": "page retired; footer now points to /integrate and /agents"},
+    {"url": "https://developer.bitrefill.com/", "status": "DNS unresolved", "detail": "old developer subdomain no longer resolves; current docs at docs.bitrefill.com"}
+   ],
+   "raw_notes": "Bitrefill (Airfill Prepaid AB, Stockholm) = public API + MCP but RETAIL-PRICED; partner economics = negotiated widget revenue share + 1% affiliate commission (published) + BRGC batch purchases for B2B (bulk Bitrefill gift cards at value). Docs include test products, webhooks, rate limits (30 req/min MCP; 20 req/min BRGC list). Conclusion for MEC-5 benchmark: Bitrefill demonstrates the 'revenue-share instead of published-discount' B2B model."
+  }
+ ],
+ "cross_benchmark_summary": {
+  "models_found": {
+   "reloadly": "PUBLISHED per-product discountPercentage (gift cards; doc samples 2-7.5%) + per-operator commissions (airtime; sample 10% international) - wholesale rates effectively public with free API account",
+   "dingconnect": "NEGOTIATED per-account discounts, login-gated 'Products & Pricing' - structure confirmed, numbers not public",
+   "bitrefill": "REVENUE-SHARE + affiliate (1% published) - API buyers pay retail parity",
+   "z2u": "C2C marketplace, seller-set prices, platform commission 5-9% - no API price tier",
+   "u7buy": "Seller (supply-side) API with App ID/Secret + webhooks - no buyer-facing differential pricing"
+  },
+  "comparison_to_prior_mec5_findings": "ProdSeller (public API+bulk tiers, avg API gap 12.0%) and StackVault (avg gap 19.9%) remain the only confirmed PUBLIC-vs-API dual-price suppliers so far. Among industry benchmarks, only Reloadly publishes wholesale discounts openly (2-10% doc samples); DingConnect hides them behind free login; Bitrefill replaces discounts with revenue share.",
+  "actionable_next_steps": [
+   "Open free Reloadly account -> GET /discounts live pull = full per-brand wholesale table (2-10%+ range expected) for P3 benchmarking",
+   "Open free DingConnect account -> 'Products & Pricing' page = live per-operator wholesale rates (currently unmeasured)",
+   "U7BUY: apply for Seller API (needs account + reason + email verify) only if supply-side automation is strategically useful - it is NOT a cheaper buying channel",
+   "Z2U: no API route; treat as C2C retail market only (cost = seller price + 0 buyer-side platform discount; platform takes 5-9% from seller)"
+  ]
+ },
+ "searches_used": 14,
+ "files_saved": "research/mec5/agent_c_raw/ (24 raw HTML/JS/JSON/MD captures)"
+}

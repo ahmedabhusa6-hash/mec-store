@@ -1,0 +1,13 @@
+{
+  "action": {
+    "action_id": "A061",
+    "branch": "BR-MARKETPLACE-GC",
+    "sku_id": "SKU-GC-001",
+    "objective": "Close evidence gap: Eneba Steam Wallet 20 USD US-region offer",
+    "discovery_family": "Marketplace-first",
+    "method": "offer-detail",
+    "query": "eneba.com Steam Wallet Gift Card 20 USD United States"
+  },
+  "error": "Function invoke failed with status 429: {\"error\":\"Too many requests, please try again later\"}",
+  "timestamp": "2026-09-26T21:08:06.706Z"
+}

@@ -1,0 +1,928 @@
+{
+ "execution_timestamp": "2026-10-02T03:49:15.439895+03:00",
+ "tests": {
+  "R1_live_recount": {
+   "total": 281,
+   "cb": 229,
+   "ps": 20,
+   "mr": 31,
+   "other": 1,
+   "user_claim_cb_357": "REFUTED — live cb_ = 229; 357 = pre-migration archive total",
+   "pagination_probe": "identical payload with ?limit=2000&offset=0 (207744 bytes = byte-identical)",
+   "bearer_probe": "svr_ Bearer returns same public payload"
+  },
+  "R1_delta_vs_0317": {
+   "gone": [
+    "mr_magic-pattern"
+   ],
+   "new": []
+  },
+  "R2_reconciliation_357": {
+   "archive_total": 357,
+   "archive_ps": 319,
+   "archive_mr": 37,
+   "migrated_ps_to_cb": 153,
+   "kept_as_ps": 16,
+   "dropped_ps": 62,
+   "mr_kept": 30,
+   "mr_gone": 7,
+   "mr_gone_ids": [
+    "mr_brain-fm",
+    "mr_grok-bot",
+    "mr_lovable-1m",
+    "mr_magic-pattern",
+    "mr_manus-pro",
+    "mr_notion-edu-plus",
+    "mr_resend-pro"
+   ],
+   "cb_new_vs_archive": 29,
+   "dropped_ps_sample": [
+    "so beautiful chatgpt plus apple pay month full warranty",
+    "acc chat gpt business d d warranty",
+    "admin notion business months full warranty",
+    "admin notion business team month full warranty",
+    "adobe full app bypass version month full warranty",
+    "api m token claude day full warranty",
+    "api m token claude days full warranty",
+    "api gpt astra m day full warranty",
+    "chat gpt has been versioned for students for months without warranty",
+    "chat gpt plus pay upi month no warranty",
+    "chat gpt plus month warranty h",
+    "chat gpt plus month warranty h pay upi",
+    "chatgpt business slot full warranty",
+    "chatgpt business slot shared for month with full warranty",
+    "chatgpt gmail free months no warranty",
+    "chatgpt offers plus for month no warranty",
+    "chatgpt plus month h warranty",
+    "chatgpt plus month pay upi hour warranty",
+    "chatgpt plus days days warranty",
+    "chatgpt plus account level months months warranty",
+    "chatgpt plus apple pay month full warranty",
+    "chatgpt plus apple pay d full warranty",
+    "chatgpt plus apple pay gmail d full warranty",
+    "chatgpt plus ggpay d h warranty",
+    "chatgpt plus gmail d full warranty"
+   ],
+   "cb_new_sample": [
+    "chatgpt plus month d warranty",
+    "capcut pro days full warranty",
+    "code lovable lite year no warranty",
+    "lovable lite months no warranty",
+    "lovable pro month warranty d",
+    "lovable pro credit month day warranty",
+    "lovable pro credit days d warranty",
+    "lovable lite slot year warranty months",
+    "gmail random ip trial youtube",
+    "facebook blue check dormant months login warranty",
+    "increase k flow fanpage in year no warranty",
+    "increase k personal facebook flow no warranty",
+    "meta facebook chat account is not guaranteed",
+    "official blue tick facebook guaranteed login",
+    "via facebook chat support meta does not provide a warranty",
+    "kling per month h warranty",
+    "grok super days full warranty",
+    "grok xai api key month d warranty",
+    "upgrade official owner super grok months full warranty",
+    "upgrading the official owner grok heavy for month without warranty",
+    "upgrading the original owner grok super month without warranty",
+    "gmail new login all",
+    "gmail old date x without services including otp api",
+    "gmail us random date x x",
+    "hong kong number very sms gmail live days",
+    "us very sms gmail number live days",
+    "code redeem aws amazon web services",
+    "lart ai seedance k credit month warranty h",
+    "lartai credit month no warranty"
+   ],
+   "accounting": "153 migrated + 16 kept-ps + 62 dropped = 319 old-ps ; live cb_ = 153 migrated + 29 new = 229"
+  },
+  "R3_objectid_match": {
+   "n_cb_hex": 229,
+   "n_ps_fresh": 26,
+   "overlap": 0,
+   "matches": []
+  },
+  "R4_name_matching": {
+   "prodseller": {
+    "entity": "ProdSeller(fresh)",
+    "n_entity": 26,
+    "n_cb": 182,
+    "name_matches": 0,
+    "matches": []
+   },
+   "laha": {
+    "entity": "laha/ver_pixel",
+    "n_entity": 11,
+    "n_cb": 182,
+    "name_matches": 0,
+    "matches": []
+   },
+   "aivx": {
+    "entity": "AIVerseX",
+    "n_entity": 34,
+    "n_cb": 182,
+    "name_matches": 0,
+    "matches": []
+   },
+   "geminishop": {
+    "entity": "GeminiShop",
+    "n_entity": 6,
+    "n_cb": 182,
+    "name_matches": 0,
+    "matches": []
+   },
+   "acczone": {
+    "entity": "acczone/Mike",
+    "n_entity": 4,
+    "n_cb": 182,
+    "name_matches": 0,
+    "matches": []
+   }
+  },
+  "R5_family_overlap": {
+   "cb_families": {
+    "other": 146,
+    "discord": 21,
+    "gmail": 19,
+    "chatgpt": 9,
+    "youtube": 5,
+    "office": 4,
+    "cursor": 3,
+    "adobe": 3,
+    "duolingo": 3,
+    "apple": 3,
+    "claude": 2,
+    "perplexity": 2,
+    "capcut": 2,
+    "kling": 2,
+    "express": 2,
+    "copilot": 1,
+    "canva": 1,
+    "spotify": 1
+   },
+   "entities": {
+    "ProdSeller": {
+     "gmail": 1,
+     "other": 12,
+     "adobe": 1,
+     "capcut": 5,
+     "office": 1,
+     "canva": 2,
+     "gemini": 1,
+     "chatgpt": 1,
+     "duolingo": 1,
+     "apple": 1
+    },
+    "laha": {
+     "chatgpt": 3,
+     "other": 4,
+     "gemini": 2,
+     "capcut": 2,
+     "claude": 3,
+     "duolingo": 1
+    },
+    "AIVerseX": {
+     "netflix": 1,
+     "spotify": 1,
+     "duolingo": 1,
+     "adobe": 1,
+     "apple": 1,
+     "cursor": 1,
+     "other": 25,
+     "office": 1,
+     "youtube": 1,
+     "gemini": 1,
+     "capcut": 1
+    },
+    "GeminiShop": {
+     "netflix": 1,
+     "duolingo": 1,
+     "adobe": 1,
+     "apple": 1,
+     "gemini": 1,
+     "chatgpt": 1
+    },
+    "acczone": {
+     "adobe": 1,
+     "apple": 1,
+     "duolingo": 1,
+     "gemini": 1
+    }
+   }
+  },
+  "R6_desc_templates": {
+   "shared_with_prodseller": 0,
+   "shared_with_laha": 0,
+   "ps_top_templates": [
+    [
+     "you will receive fresh gmail format gmail | password",
+     1
+    ],
+    [
+     "full access to all ilovepdf tools | unlimited document processing | access across web, mobile, and desktop",
+     1
+    ],
+    [
+     "- you will receive a redeem link , open it and login with your email you will upgraded instantly to premium member of adobe express for # months . | - no vpn , no visa or payemnt required , simple as #+#=#",
+     1
+    ],
+    [
+     "-full # days private pro team account . | -maximum # devices , with full warranty . | -stable account full # days (no #days renew ).",
+     1
+    ],
+    [
+     "microsoft office # plus – # month + # months (gift) subscription | what's included: | • microsoft word",
+     1
+    ],
+    [
+     "you will get a full email access. | secure your email and change the password. | the product is verified with documents and full activated.",
+     1
+    ],
+    [
+     "google storage # tb subscription # month | -no vpn or cc required for activation ! just click to activate and dooooomm !!! | - activation link (global)",
+     1
+    ],
+    [
+     "-activation in email's customers(full private account). | -full warranty # yrs im canva pro edu. | -all pro features is activated even all ai features .",
+     1
+    ]
+   ],
+   "laha_top_templates": [
+    [
+     "api #m token codex # day - full warranty",
+     3
+    ],
+    [
+     "api #m token claude # day - full warranty",
+     3
+    ],
+    [
+     "chatgpt plus # month ggpay - warranty # day",
+     1
+    ],
+    [
+     "chatgpt pre-registered account using @gmail ( free not plus )",
+     1
+    ],
+    [
+     "chatgpt plus # month upi @gmail- warranty #h",
+     1
+    ],
+    [
+     "gemini pro — # months (links)",
+     1
+    ],
+    [
+     "tool jio gemini pro extractor, check link, scan panel",
+     1
+    ],
+    [
+     "capcut pro #d - full warranty",
+     1
+    ]
+   ]
+  },
+  "R7_gemini12pro": {
+   "posts_on_page": 20,
+   "first": "2026-07-01T04:43",
+   "last": "2026-09-30T15:22",
+   "max_gap_days": 9.8,
+   "recent_texts": [
+    "Gemini GPT Channel pinned «🥳Paid Promotion🥳   Looking for premium digital services without the hassle? 👀  We offer 100% official premium subscriptions at highly affordable prices—no bypasss, no cracked accounts, no unofficial methods.  Explore our products and order instantly&#33;  🤖 Bot:…»",
+    "🥳Paid Promotion🥳\n\n\nLooking for premium digital services without the hassle? 👀\n\nWe offer 100% official premium subscriptions at highly affordable prices—no bypasss, no cracked accounts, no unofficial methods.\n\nExplore our products and order instantly&#33;\n\n🤖 Bot: @nevakeystore_bot\n🔗 https://t.me/nevakeystore_bot\n💬 Support: @NevaAI_Shop",
+    "🥳🥳Paid Promotion🥳🥳\n\n🔥 Looking for the BEST digital product prices?\n\n💎 Gemini 18 Months → From &#036;0.40\n🤖 ChatGPT Plus → From &#036;1\n🚀 Super Grok → From &#036;1\n🎬 CapCut Pro\n🎨 Adobe CC\n💙 Canva\n🌍 NordVPN\n📚 Notion\n...50+ products available.\n\n✅ Instant Delivery\n✅ Wholesale Prices\n✅ Automatic Bot\n✅ Trusted Store\n\n🛒 Buy Here:\n👉 @pixora_digital_bot",
+    "🥳🥳Paid Promotion🥳🥳\n\n🔥 GEMINI PRO FLASH SALE 🔥\n\n🚀 Gemini Pro — 18M Activation Links\n💰 FROM &#036;0.40 EACH\n⏳ LIMITED TIME ONLY&#33;\n\n⚡️ Instant • Affordable • Limited Stock\n\n😍 Get yours now: \n@Gemini_shop_Robot\n\n💎 Currently Also giving Very High Refer and earn Rewards 💎",
+    "⚡️ FLASH SALE ALERT&#33; ⚡️\n\n⭐ Product: Gemini PRO 18M 🍃\n\n🎉 Bulk Discount Offers\n✅ Buy 1 – 199 → &#036;0.60 each\n✅ Buy 200 – 499 → &#036;0.50 each\n✅ Buy 500+ → &#036;0.40 each\n\n👉 Grab yours now: @AIXpress_Bot ✈️",
+    "🔥 GEMINI PRO — 18 MONTH AI ACTIVATION LINKS 🔥\n\n🚀 Gemini Pro Activation Links\n\n🔥 1–9 → &#036;0.65/each\n🔥 9–99 → &#036;0.60/each\n🔥 100–1000 → &#036;0.57/each\n\n⚡️ Instant Delivery • Easy Activation\n\n✨ Get access to powerful AI features\n💎 Genuine Activation Links\n🔥 Fast &amp; hassle-free delivery\n🎁 High Referral Rewards Available\n\n🛒 Get yours now:\n🔠 @Gemini_Shop_Robot\n⏰ Limited stock — grab yours before the price changes&#33;\n\n🚛 BULK DEALS &amp; RESELLERS\n🈹 Special pricing available for bulk orders &amp; resellers&#33;\n📞 Contact: @Gemini_support_1\n\n🔥 Gemini Pro at just &#036;0.65 — Why pay more? 🔥",
+    "⚡️ PREMIUM SUBSCRIPTIONS AT WHOLESALE RATES ⚡️\n\n💙Instant auto-delivery. 10,000+ users on the bot.\n\n👋 Duolingo Super 12M — 1.50 USDT\n🌄 Adobe Express 12M — 1.00 USDT\n🎧 Apple Music 5M — 0.85 USDT\n🌐 Gemini Links 18M — 0.40 USDT\n\n🤖 Order here → https://t.me/Gemini_Shop_Robot?start=shop\n\n━━━━━━━━━━━━━━━\n\n😀 UPI · USDT (BEP20 / Polygon) · LTC · Binance Pay\n🔥 Coupon lands the second your payment clears\n🔵 Bulk Gemini rates — DM @Gemini_support_1\n\n━━━━━━━━━━━━━━━\n💎 RUNNING YOUR OWN SHOP?\n\n🔑Grab a free API key inside the bot and plug our stock straight into your panel or bot — live pricing, instant orders, full order history.\n\n♥️ Docs → https://reseller.aivaulthub.store/api/v1/docs",
+    "⚡️ DIGITAL PRODUCTS FOR RESELLERS\n\nDirect supplier focused on resellers and bulk buyers — competitive volume pricing, reliable stock and automated delivery.\n\nPopular products:\n\n✨ Gemini Pro · 18 Months — from &#036;0.70\n📕 Coursera Plus · 12 Months — from &#036;0.75\n🛡 NordVPN · 3 Months — from &#036;2.00\n❤️ Lovable Pro Lite · 12 Months — from &#036;5.75\n🧑‍🏫 Duolingo Super · 12 Months — from &#036;0.35\n  ↳  Many more products available\n\n⚙️ API available — integrate DigitalCore into your own store and automate orders.\nRegular buyers can qualify for additional discounts.\n\n🤖 Telegram Bot: @DCoreStoreBot\n🌐 Website: digitalcore.top\n📖 API Documentation: https://digitalcore.top/docs\n✔️ Contact: @DGTsupply"
+   ]
+  },
+  "R8_verdicts": {
+   "ProdSeller": "NO_OVERLAP",
+   "laha/ver_pixel": "NO_OVERLAP",
+   "AIVerseX": "NO_OVERLAP",
+   "GeminiShop": "NO_OVERLAP",
+   "acczone/Mike_E_0": "NO_OVERLAP"
+  }
+ },
+ "entity_catalogs": {
+  "prodseller_fresh": {
+   "n": 26,
+   "id_format": "raw Mongo ObjectId (24hex)",
+   "items": [
+    {
+     "id": "6a612473af18a2a83bc049a0",
+     "name": "Gmails Accounts",
+     "price": 0.6,
+     "publicPrice": 0.65,
+     "inStock": true,
+     "sold": 798
+    },
+    {
+     "id": "6a6207cf92969197bb382958",
+     "name": "iLovePdf Premium 1Yr",
+     "price": 0.45,
+     "publicPrice": 0.49,
+     "inStock": true,
+     "sold": 665
+    },
+    {
+     "id": "6a5b873847b606c66fc160b2",
+     "name": "Adobe Express 12M",
+     "price": 0.35,
+     "publicPrice": 0.39,
+     "inStock": true,
+     "sold": 752
+    },
+    {
+     "id": "6a2fda51035a6d898f2106fe",
+     "name": "Capcut Pro 1 Month FW",
+     "price": 1.25,
+     "publicPrice": 1.29,
+     "inStock": true,
+     "sold": 18548
+    },
+    {
+     "id": "6a2fe23a1c8697b163aedcbd",
+     "name": "Microsoft Office 365 Plus 1 year",
+     "price": 0.21,
+     "publicPrice": 0.29,
+     "inStock": true,
+     "sold": 5261
+    },
+    {
+     "id": "6a2fdb4f035a6d898f2106ff",
+     "name": "Canva Pro Admin (500 invitations)",
+     "price": 2.5,
+     "publicPrice": 2.9,
+     "inStock": true,
+     "sold": 266
+    },
+    {
+     "id": "6a31035939dc014325da2c66",
+     "name": "Gemini Pro 18Months (link)",
+     "price": 0.6,
+     "publicPrice": 0.65,
+     "inStock": true,
+     "sold": 223803
+    },
+    {
+     "id": "6a316a7b1777fc2347835653",
+     "name": "Canva Pro 2 yrs FW",
+     "price": 0.6,
+     "publicPrice": 0.6,
+     "inStock": true,
+     "sold": 912
+    },
+    {
+     "id": "6a3d636221735658e32bd2a6",
+     "name": "Prime Video 6 Months ",
+     "price": 1.5,
+     "publicPrice": 1.7,
+     "inStock": true,
+     "sold": 253
+    },
+    {
+     "id": "6a54b931351561c645a43e8c",
+     "name": "Notion Plus 12M",
+     "price": 1.1,
+     "publicPrice": 1.3,
+     "inStock": true,
+     "sold": 475
+    },
+    {
+     "id": "6a4bf6b502999800df9660b1",
+     "name": "Capcut Pro 7D FW",
+     "price": 0.13,
+     "publicPrice": 0.14,
+     "inStock": true,
+     "sold": 3220
+    },
+    {
+     "id": "6a495a5f02999800df961920",
+     "name": "ChatGPT Plus K12 Edu 2 years",
+     "price": 3.4,
+     "publicPrice": 3.5,
+     "inStock": false,
+     "sold": 1568
+    },
+    {
+     "id": "6a75800fcf6984bb8b9bdc66",
+     "name": "Miro Lifetime Panel 100 invite",
+     "price": 8,
+     "publicPrice": 9,
+     "inStock": true,
+     "sold": 17
+    },
+    {
+     "id": "6a7826d9cf6984bb8ba101e8",
+     "name": "Figma Pro Edu 2yrs",
+     "price": 3.4,
+     "publicPrice": 3.6,
+     "inStock": false,
+     "sold": 139
+    },
+    {
+     "id": "6a7e3ab79c0c1126fff286f0",
+     "name": "CAPCUT PRO 6 MONTHS ",
+     "price": 8.5,
+     "publicPrice": 8.9,
+     "inStock": true,
+     "sold": 631
+    },
+    {
+     "id": "6a820a0b969a9635841ddb30",
+     "name": "edX Premium 12Months",
+     "price": 1.1,
+     "publicPrice": 1.3,
+     "inStock": true,
+     "sold": 251
+    },
+    {
+     "id": "6a8834a1fb032a732128e7bc",
+     "name": "Avira Prime 3 Months ",
+     "price": 0.8,
+     "publicPrice": 0.9,
+     "inStock": true,
+     "sold": 33
+    },
+    {
+     "id": "6a88be06fb032a73212a202b",
+     "name": "JetBrains Edu Pack 12m",
+     "price": 3,
+     "publicPrice": 3,
+     "inStock": true,
+     "sold": 34
+    },
+    {
+     "id": "6a8ad927f870e3b3430c7b18",
+     "name": "Framer AI 1 Year ",
+     "price": 6,
+     "publicPrice": 6,
+     "inStock": true,
+     "sold": 16
+    },
+    {
+     "id": "6a9008ee63bcf8795dfebd88",
+     "name": "Autodesk Admin 3000 invite",
+     "price": 10,
+     "publicPrice": 11,
+     "inStock": true,
+     "sold": 35
+    },
+    {
+     "id": "6a93e9fdd46143eb34b0d774",
+     "name": "HBO MAX 3 MONTHS",
+     "price": 1.5,
+     "publicPrice": 1.8,
+     "inStock": true,
+     "sold": 130
+    },
+    {
+     "id": "6aa4551bc76bc3aeb2ebe88e",
+     "name": "CAPCUT PRO 1600 CREDITS",
+     "price": 1.6,
+     "publicPrice": 1.65,
+     "inStock": true,
+     "sold": 596
+    },
+    {
+     "id": "6aa5bafb77c587d75cbe2a8e",
+     "name": "Duolingo Super 12M old",
+     "price": 0.38,
+     "publicPrice": 0.39,
+     "inStock": true,
+     "sold": 1760
+    },
+    {
+     "id": "6ab4064f67d72e6ef6369597",
+     "name": "Capcut pro 6 days FW",
+     "price": 0.09,
+     "publicPrice": 0.1,
+     "inStock": false,
+     "sold": 220
+    },
+    {
+     "id": "6abeace70dbb401865ffb2d2",
+     "name": "Apple TV 12 Months Link",
+     "price": 1.4,
+     "publicPrice": 1.5,
+     "inStock": true,
+     "sold": 14
+    },
+    {
+     "id": "6abeb3210dbb401865ffe95f",
+     "name": "Wispr Flow 12M Edu",
+     "price": 5.6,
+     "publicPrice": 6,
+     "inStock": true,
+     "sold": 0
+    }
+   ]
+  },
+  "laha_verpixel": {
+   "n": 15,
+   "id_format": "numeric",
+   "items": [
+    {
+     "id": 15,
+     "name": "ChatGPT Plus 1 Month GGPay - Warranty 1 Day",
+     "category": "ChatGPT",
+     "price": 180000,
+     "stock": 0
+    },
+    {
+     "id": 20,
+     "name": "ChatGPT Pre-registered account using @gmail ( free not plus )",
+     "category": "ChatGPT",
+     "price": 3500,
+     "stock": 0
+    },
+    {
+     "id": 23,
+     "name": "ChatGPT Plus 1  Month UPI @gmail- Warranty 5h",
+     "category": "ChatGPT",
+     "price": 120000,
+     "stock": 19
+    },
+    {
+     "id": 36,
+     "name": "API 10M Token Codex 1 Day - Full Warranty",
+     "category": "ChatGPT",
+     "price": 46000,
+     "stock": 0
+    },
+    {
+     "id": 37,
+     "name": "API 50M Token Codex 1 Day -  Full Warranty",
+     "category": "ChatGPT",
+     "price": 70000,
+     "stock": 14
+    },
+    {
+     "id": 38,
+     "name": "API 100M Token Codex 1 Day -  Full Warranty",
+     "category": "ChatGPT",
+     "price": 90000,
+     "stock": 13
+    },
+    {
+     "id": 14,
+     "name": "Gemini Pro — 18 Months (Links)",
+     "category": "Gemini AI",
+     "price": 26000,
+     "stock": 33
+    },
+    {
+     "id": 66,
+     "name": "Tool Jio Gemini Pro Extractor, Check Link, Scan Panel",
+     "category": "Gemini AI",
+     "price": 3000000,
+     "stock": 1
+    },
+    {
+     "id": 21,
+     "name": "CAPCUT PRO 30D - Full Warranty",
+     "category": "Capcut",
+     "price": 55000,
+     "stock": "preorder"
+    },
+    {
+     "id": 70,
+     "name": "Capcut 6 Month - Full Warranty",
+     "category": "Capcut",
+     "price": 260000,
+     "stock": "preorder"
+    },
+    {
+     "id": 32,
+     "name": "API 10M Token Claude 1 Day - Full Warranty",
+     "category": "Claude",
+     "price": 46000,
+     "stock": 15
+    },
+    {
+     "id": 33,
+     "name": "API 50M Token Claude 1 Day - Full Warranty",
+     "category": "Claude",
+     "price": 99000,
+     "stock": 15
+    },
+    {
+     "id": 34,
+     "name": "API 100M Token Claude 1 Day - Full Warranty",
+     "category": "Claude",
+     "price": 135000,
+     "stock": 35
+    },
+    {
+     "id": 28,
+     "name": "Dropshot AI 600 Credits (W12H)",
+     "category": "Dropshot AI",
+     "price": 18000,
+     "stock": 4
+    },
+    {
+     "id": 74,
+     "name": "Duolingo Super 12 Month",
+     "category": "Duolingo",
+     "price": 18500,
+     "stock": "preorder"
+    }
+   ]
+  },
+  "aivx_aiversehub": {
+   "n": 35,
+   "id_format": "service_XXXX",
+   "items": [
+    {
+     "id": "service_1786031496",
+     "name": "Netflix 1M Premium 4K HDR",
+     "price": 2.5,
+     "stock": 0
+    },
+    {
+     "id": "service_1787461848",
+     "name": "Spotify 3M Redeem Link",
+     "price": 0.35,
+     "stock": 0
+    },
+    {
+     "id": "service_1788995417",
+     "name": "Duolingo Super 12M",
+     "price": 0.4,
+     "stock": 0
+    },
+    {
+     "id": "service_1788995793",
+     "name": "Adobe Express 12M",
+     "price": 0.4,
+     "stock": 180
+    },
+    {
+     "id": "service_1788996027",
+     "name": "Apple Music 5M",
+     "price": 0.85,
+     "stock": 207
+    },
+    {
+     "id": "service_1789408882",
+     "name": "Cursor Pro 12M",
+     "price": 70.0,
+     "stock": 0
+    },
+    {
+     "id": "service_1789409173",
+     "name": "ElevenLabs Creator 12M",
+     "price": 35.0,
+     "stock": 0
+    },
+    {
+     "id": "service_1789409348",
+     "name": "Factory 12M",
+     "price": 15.0,
+     "stock": 1
+    },
+    {
+     "id": "service_1789409519",
+     "name": "Framer Pro 12M",
+     "price": 10.0,
+     "stock": 3
+    },
+    {
+     "id": "service_1789409622",
+     "name": "Gamma Pro 12M",
+     "price": 20.0,
+     "stock": 1
+    },
+    {
+     "id": "service_1789409720",
+     "name": "Google AI Pro 12M",
+     "price": 13.0,
+     "stock": 0
+    },
+    {
+     "id": "service_1789409889",
+     "name": "Granola Business",
+     "price": 3.0,
+     "stock": 1
+    },
+    {
+     "id": "service_1789409984",
+     "name": "Gumloop Pro 12M",
+     "price": 4.0,
+     "stock": 0
+    },
+    {
+     "id": "service_1789410069",
+     "name": "Higgsfield Pro 12M",
+     "price": 80.0,
+     "stock": 0
+    },
+    {
+     "id": "service_1789410298",
+     "name": "Lovable Pro 12M",
+     "price": 30.0,
+     "stock": 1
+    },
+    {
+     "id": "service_1789410408",
+     "name": "Magic Patterns Starter 12M",
+     "price": 2.0,
+     "stock": 0
+    },
+    {
+     "id": "service_1789410490",
+     "name": "Manus Pro 12M",
+     "price": 30.0,
+     "stock": 0
+    },
+    {
+     "id": "service_1789410718",
+     "name": "Mobbin 10x Seat 12M",
+     "price": 7.0,
+     "stock": 0
+    },
+    {
+     "id": "service_1789410815",
+     "name": "Notion Business 12M",
+     "price": 12.0,
+     "stock": 0
+    },
+    {
+     "id": "service_1789410924",
+     "name": "Railway Hobby 12M",
+     "price": 8.0,
+     "stock": 0
+    },
+    {
+     "id": "service_1789411059",
+     "name": "Replit Core 12M",
+     "price": 20.0,
+     "stock": 0
+    },
+    {
+     "id": "service_1789411123",
+     "name": "Runway Pro 12M",
+     "price": 25.0,
+     "stock": 0
+    },
+    {
+     "id": "service_1789411280",
+     "name": "Supabase Pro",
+     "price": 25.0,
+     "stock": 1
+    },
+    {
+     "id": "service_1789411795",
+     "name": "Supercut Pro 10 Seat 12M",
+     "price": 3.0,
+     "stock": 2
+    },
+    {
+     "id": "service_1789411892",
+     "name": "Warp Build 12M",
+     "price": 4.2,
+     "stock": 0
+    },
+    {
+     "id": "service_1789412002",
+     "name": "Wispr Flow Pro 12M",
+     "price": 8.0,
+     "stock": 0
+    },
+    {
+     "id": "service_1789412047",
+     "name": "N8N Starter 12M",
+     "price": 8.0,
+     "stock": 1
+    },
+    {
+     "id": "service_1789412108",
+     "name": "Linear Business 12M",
+     "price": 15.0,
+     "stock": 1
+    },
+    {
+     "id": "service_1789412219",
+     "name": "Resend Pro 12M",
+     "price": 25.0,
+     "stock": 1
+    },
+    {
+     "id": "service_1790117096",
+     "name": "Amazon Prime Video 6M",
+     "price": 1.5,
+     "stock": 0
+    },
+    {
+     "id": "service_1790449955",
+     "name": "Microsoft Office 365 Plus",
+     "price": 0.29,
+     "stock": 835
+    },
+    {
+     "id": "service_1790495433",
+     "name": "YouTube Premium 3M",
+     "price": 2.5,
+     "stock": 3
+    },
+    {
+     "id": "service_1790521745",
+     "name": "Notion Business 3M",
+     "price": 1.5,
+     "stock": 16
+    },
+    {
+     "id": "service_1790697017",
+     "name": "Gemini Pro 18M ( Reactivation URLs )",
+     "price": 0.8,
+     "stock": 0
+    },
+    {
+     "id": "service_1790733433",
+     "name": "Capcut Pro 7D FW",
+     "price": 0.29,
+     "stock": 66
+    }
+   ]
+  },
+  "geminishop_aivaulthub": {
+   "n": 6,
+   "id_format": "service_XXXX",
+   "items": [
+    {
+     "id": "service_1788186586",
+     "name": "Netflix 1M 4K HDR",
+     "stock": 0,
+     "tier_price": 10.0
+    },
+    {
+     "id": "service_1789190756",
+     "name": "Duolingo 12M",
+     "stock": 90,
+     "tier_price": 0.35
+    },
+    {
+     "id": "service_1789191781",
+     "name": "Adobe Express 12M",
+     "stock": 138,
+     "tier_price": 0.4
+    },
+    {
+     "id": "service_1789191878",
+     "name": "Apple Music 5M",
+     "stock": 123,
+     "tier_price": 0.4
+    },
+    {
+     "id": "service_gemini_reactivate",
+     "name": "Gemini Links 18m New Url",
+     "stock": 153,
+     "tier_price": 0.8
+    },
+    {
+     "id": "service_1790855554",
+     "name": "ChatGPT  Plus UPI (24H)",
+     "stock": 10,
+     "tier_price": 5.0
+    }
+   ]
+  },
+  "acczone_mike": {
+   "n": 4,
+   "id_format": "UPPER_SNAKE key",
+   "items": [
+    {
+     "key": "ADOBE_EXPRESS",
+     "name": "Adobe Express 12M",
+     "price": 0.3,
+     "is_active": 1,
+     "created_at": "2026-09-18 04:34:43"
+    },
+    {
+     "key": "APPLE_MUSIC_PREPAID_V2",
+     "name": "Apple Music 5M",
+     "price": 0.3,
+     "is_active": 1,
+     "created_at": "2026-09-18 04:37:57"
+    },
+    {
+     "key": "DUOLINGO",
+     "name": "Duolingo Super 12M",
+     "price": 0.35,
+     "is_active": 1,
+     "created_at": "2026-09-18 04:33:39"
+    },
+    {
+     "key": "geminilive",
+     "name": "Gemini Pro 18M NEW",
+     "price": 0.69,
+     "is_active": 1,
+     "created_at": "2026-09-30 15:35:04"
+    }
+   ]
+  }
+ }
+}

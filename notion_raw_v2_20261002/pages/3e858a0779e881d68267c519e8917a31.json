@@ -1,0 +1,296 @@
+{
+ "capture_reason": "NEW",
+ "captured_at": "2026-10-02T12:06:31+03:00",
+ "title": "Cycle 10 — MEC-2.3 Direct-Observation Wave (StackVault cost exposure + 59 direct offers) + Batch-3 launch infrastructure",
+ "last_edited": "2026-09-27T05:10:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e858a07-79e8-81d6-8267-c519e8917a31",
+  "created_time": "2026-09-27T05:10:00.000Z",
+  "last_edited_time": "2026-09-27T05:10:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3e758a07-79e8-8187-9e89-00278adc0ead"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3e758a07-79e8-8187-9e89-00278adc0ead"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "e844ab12-d846-4974-9651-0892464966e5"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "Actor": {
+    "id": "%3B%3Cag",
+    "type": "select",
+    "select": {
+     "id": "2fa84fac-4f8f-45ca-86bd-48ad2531dc79",
+     "name": "z.ai Runtime (Super Z)",
+     "color": "yellow"
+    }
+   },
+   "Record ID": {
+    "id": "Frzf",
+    "type": "unique_id",
+    "unique_id": {
+     "prefix": "IA",
+     "number": 14
+    }
+   },
+   "Parent Record ID": {
+    "id": "Gg%3C%3B",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Stage": {
+    "id": "HM%40I",
+    "type": "select",
+    "select": {
+     "id": "edb6da10-f8a5-4eb5-b759-96458c110b14",
+     "name": "ChatGPT Analysis",
+     "color": "blue"
+    }
+   },
+   "Findings / Changes": {
+    "id": "Ht%5D%7D",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "الاكتشاف المركزي: واجهة StackVault الخلفية (decohomz.com/sv-api/products) تكشف حقل كلفة الشراء لـ274/275 منتجًا — أول رؤية مباشرة لسعر توريد بائع تجزئة في تاريخ المشروع. معادلة التسعير: البيع = الكلفة × 1.2 (هامش وسيط 16.7%). سلّم كلفة ChatGPT Plus كاملًا: $2.80 أساسي ← $10.67 ضمان كامل ← $17.14 تجديد رسمي (فارق 6 أضعاف داخل المنتج الواحد). قياسات انتشار حية: Gemini 18M جملة $0.65 ← تجزئة $0.85 (+31%)، Duolingo جملة $0.37 ← تجزئة $0.85 (+130%)، Office 365 كلفة داخلية $0.21 ≈ جملة ProdSeller $0.17 (تقارب مصدرين). Turgame: 117 منتجًا مسعّرًا مباشرة (بطاقات TL بمعدل موحد $2.048/100TL — معدل FX معلّم للتحقق). 59 عرضًا جديدًا بمستوى «مرصود مباشرة» مدمجة في offers_intelligence.json (118/236 SKU بعروض).",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "الاكتشاف المركزي: واجهة StackVault الخلفية (decohomz.com/sv-api/products) تكشف حقل كلفة الشراء لـ274/275 منتجًا — أول رؤية مباشرة لسعر توريد بائع تجزئة في تاريخ المشروع. معادلة التسعير: البيع = الكلفة × 1.2 (هامش وسيط 16.7%). سلّم كلفة ChatGPT Plus كاملًا: $2.80 أساسي ← $10.67 ضمان كامل ← $17.14 تجديد رسمي (فارق 6 أضعاف داخل المنتج الواحد). قياسات انتشار حية: Gemini 18M جملة $0.65 ← تجزئة $0.85 (+31%)، Duolingo جملة $0.37 ← تجزئة $0.85 (+130%)، Office 365 كلفة داخلية $0.21 ≈ جملة ProdSeller $0.17 (تقارب مصدرين). Turgame: 117 منتجًا مسعّرًا مباشرة (بطاقات TL بمعدل موحد $2.048/100TL — معدل FX معلّم للتحقق). 59 عرضًا جديدًا بمستوى «مرصود مباشرة» مدمجة في offers_intelligence.json (118/236 SKU بعروض).",
+      "href": null
+     }
+    ]
+   },
+   "Objective": {
+    "id": "Nyoo",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "تنفيذ «اكمل ولا تتوقف»: إطلاق الدفعة 3 (218 P3) رغم حجب حصة الوظائف البعيدة (477/429 منذ ~02:10) عبر بناء طبقة رصد HTTP مباشرة مستقلة عن الحصة + تجهيز بنية الدفعة 3 الكاملة للإطلاق الفوري عند التصفيير.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "تنفيذ «اكمل ولا تتوقف»: إطلاق الدفعة 3 (218 P3) رغم حجب حصة الوظائف البعيدة (477/429 منذ ~02:10) عبر بناء طبقة رصد HTTP مباشرة مستقلة عن الحصة + تجهيز بنية الدفعة 3 الكاملة للإطلاق الفوري عند التصفيير.",
+      "href": null
+     }
+    ]
+   },
+   "Version ID": {
+    "id": "SZr_",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "v4.2 Candidate — Promotion-Ready (unchanged; awaiting user word only)",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "v4.2 Candidate — Promotion-Ready (unchanged; awaiting user word only)",
+      "href": null
+     }
+    ]
+   },
+   "Decision Required": {
+    "id": "W%40%5Dt",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "لا قرار حوكمي جديد — الدفعة 3 أُطلقت بتفويض «اكمل» المسبق (خطة الجلسة المنفصلة كانت أصلاً معتمدة). v4.2 تبقى Candidate/Promotion-Ready.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "لا قرار حوكمي جديد — الدفعة 3 أُطلقت بتفويض «اكمل» المسبق (خطة الجلسة المنفصلة كانت أصلاً معتمدة). v4.2 تبقى Candidate/Promotion-Ready.",
+      "href": null
+     }
+    ]
+   },
+   "Evidence / Sources": {
+    "id": "Z%5DbK",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "research/b3_direct_observations.json (قنوات §19: 122 رسالة) + research/b3_stackvault_api.json (275 منتجًا بالكلفة) + research/b3_turgame_categories.json (117 منتجًا) + download/offers_intelligence.json قسم b3_direct_run + supply_chain_economics.md §10 + sku_database.md قسم MEC-2.3 + supplier_intelligence.html v2.3 + Next.js تبويب «الموجة المباشرة» (tsc نظيف).",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "research/b3_direct_observations.json (قنوات §19: 122 رسالة) + research/b3_stackvault_api.json (275 منتجًا بالكلفة) + research/b3_turgame_categories.json (117 منتجًا) + download/offers_intelligence.json قسم b3_direct_run + supply_chain_economics.md §10 + sku_database.md قسم MEC-2.3 + supplier_intelligence.html v2.3 + Next.js تبويب «الموجة المباشرة» (tsc نظيف).",
+      "href": null
+     }
+    ]
+   },
+   "Canonical Impact": {
+    "id": "cF%3D_",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "لا ترقية. إضافة معرفية: كلفة الشراء الجملية لبائع تجزئة رُصدت مباشرة — ترفع دقة كل جداول الهوامش السابقة من «تقديرية» إلى «قابلة للحساب» (اقسم سعر StackVault على 1.2).",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "لا ترقية. إضافة معرفية: كلفة الشراء الجملية لبائع تجزئة رُصدت مباشرة — ترفع دقة كل جداول الهوامش السابقة من «تقديرية» إلى «قابلة للحساب» (اقسم سعر StackVault على 1.2).",
+      "href": null
+     }
+    ]
+   },
+   "Cycle": {
+    "id": "mFTS",
+    "type": "number",
+    "number": 10
+   },
+   "Message to Send": {
+    "id": "mu%3CH",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Date": {
+    "id": "ovi%3A",
+    "type": "date",
+    "date": {
+     "start": "2026-09-27",
+     "end": null,
+     "time_zone": null
+    }
+   },
+   "Status": {
+    "id": "vW%40y",
+    "type": "select",
+    "select": {
+     "id": "0cb245dd-a819-4f89-9daf-00ab6f61d17b",
+     "name": "Committed",
+     "color": "default"
+    }
+   },
+   "Received Output / Archive": {
+    "id": "wFNY",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Next Action": {
+    "id": "%7DEXV",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "عند تصفير الحصة (المراقب يعمل): الـ15 المؤجلة ← تنقيح ← دمج ← 143 استعلام الدفعة 3 ← تنقيح ← دمج ← التحديث النهائي الثلاثي (D2) + Word برامجي شامل.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "عند تصفير الحصة (المراقب يعمل): الـ15 المؤجلة ← تنقيح ← دمج ← 143 استعلام الدفعة 3 ← تنقيح ← دمج ← التحديث النهائي الثلاثي (D2) + Word برامجي شامل.",
+      "href": null
+     }
+    ]
+   },
+   "Record": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Cycle 10 — MEC-2.3 Direct-Observation Wave (StackVault cost exposure + 59 direct offers) + Batch-3 launch infrastructure",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Cycle 10 — MEC-2.3 Direct-Observation Wave (StackVault cost exposure + 59 direct offers) + Batch-3 launch infrastructure",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/Cycle-10-MEC-2-3-Direct-Observation-Wave-StackVault-cost-exposure-59-direct-offers-Batch-3-l-3e858a0779e881d68267c519e8917a31",
+  "public_url": null,
+  "archived": false,
+  "request_id": "0ebb0b63-3494-4af1-a046-2c2378cbd420"
+ },
+ "block_count": 1,
+ "blocks": [
+  {
+   "id": "3e858a07-79e8-810f-9449-c7e246e9deb2",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "الحالة المعرفية: كل أرقام هذه الدورة موسومة [مرصود مباشرة] بتاريخ ولقطة — عدا حقل الكلفة فهو قيمة داخلية لنظام البائع غير قابلة للتدقيق الخارجي [بحاجة للتحقق عبر حساب B2B]. الأسعار إعلانية (لا معاملات منفذة) باستثناء مشتريات مؤكدة يبثها البائعون أنفسهم في قنواتهم."
+   ],
+   "created": "2026-09-27T05:10:00.000Z",
+   "edited": "2026-09-27T05:10:00.000Z"
+  }
+ ]
+}

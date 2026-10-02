@@ -1,0 +1,59 @@
+# Bitrefill Documentation
+
+> Documentation for Bitrefill
+
+Append .md to any documentation page URL to get its markdown version.
+
+## Guides
+- [Bitrefill API Documentation](https://docs.bitrefill.com/docs/api-overview.md)
+- [Quickstart](https://docs.bitrefill.com/docs/quickstart-2.md): Make your first API call and complete a purchase in minutes.
+- [Core Concepts](https://docs.bitrefill.com/docs/core-concepts.md): Understand products, invoices, orders, and eSIMs before you start building.
+- [Resell Bitrefill Products](https://docs.bitrefill.com/docs/integration-flow.md): Standard integration pattern for B2B partners.
+- [Track Referrals](https://docs.bitrefill.com/docs/tracking-referrals.md): Understand how referral filtering works in the Affiliate API.
+- [Track Affiliate Earnings](https://docs.bitrefill.com/docs/commissions.md): Track and manage your affiliate earnings via the API.
+- [Fund the Account Balance](https://docs.bitrefill.com/docs/account-deposits.md): Adding funds to your account via the API.
+- [Buy Batches of Bitrefill Gift Cards](https://docs.bitrefill.com/docs/brgc-batches.md): Create batches of Bitrefill Gift Cards for B2B partners.
+- [Searching Products](https://docs.bitrefill.com/docs/searching-products.md): Find products by name, country, or category.
+- [Gift Cards](https://docs.bitrefill.com/docs/gift-cards.md): Working with digital gift card products.
+- [eSIMs](https://docs.bitrefill.com/docs/esims.md): Working with eSIM products via the API.
+- [Phone Top-ups](https://docs.bitrefill.com/docs/phone-topups.md): Working with mobile refill products.
+- [Crypto Payments](https://docs.bitrefill.com/docs/crypto-payments.md): Paying with Bitcoin, Ethereum, and other cryptocurrencies.
+- [Refunds](https://docs.bitrefill.com/docs/refunds.md): Understanding when and how refunds work.
+- [Rate Limits](https://docs.bitrefill.com/docs/rate-limits.md): Understand API rate limits and how to handle them.
+- [Webhooks](https://docs.bitrefill.com/docs/webhooks.md): Receive real-time notifications when invoices are completed.
+- [Test products](https://docs.bitrefill.com/docs/test-products.md): Complete reference of test products
+- [Error Codes](https://docs.bitrefill.com/docs/error-codes.md): Complete reference of API error codes.
+- [eCommerce MCP Server](https://docs.bitrefill.com/docs/ecommerce-mcp.md): Connect your AI assistant to Bitrefill and purchase gift cards, eSIMs, refills, and bill payments directly from your conversations.
+- [Setup Guides](https://docs.bitrefill.com/docs/setup-guides.md): Step-by-step instructions to connect your AI assistant to Bitrefill MCP.
+- [Use with ChatGPT](https://docs.bitrefill.com/docs/use-with-chatgpt.md): Connect ChatGPT to Bitrefill MCP for purchasing gift cards and eSIMs.
+- [Use with Claude Desktop](https://docs.bitrefill.com/docs/use-with-claude-chat.md): Connect Claude Desktop to Bitrefill MCP for purchasing gift cards and eSIMs.
+- [Use with Claude Code](https://docs.bitrefill.com/docs/use-with-claude-code.md): Connect Claude Code CLI to Bitrefill MCP for purchasing gift cards and eSIMs.
+- [Use with Cursor](https://docs.bitrefill.com/docs/use-with-cursor.md): Connect Cursor IDE to Bitrefill MCP for purchasing gift cards and eSIMs.
+- [Partner Integration Guide](https://docs.bitrefill.com/docs/mcp-partner-integration-guide.md): Build an agent or MCP client on Bitrefill's MCP server: authentication, guest checkout, affiliate attribution and how to test.
+- [Development MCP Server](https://docs.bitrefill.com/docs/development-mcp.md)
+
+## API Reference
+- [Ping server](https://docs.bitrefill.com/reference/get_ping.md)
+- [Retrieves your account balance](https://docs.bitrefill.com/reference/get_accounts-balance.md)
+- [Lists your commissions as an affiliate. (FOR AFFILIATES ONLY)](https://docs.bitrefill.com/reference/get_commissions.md)
+- [Searches for providers for the specified phone number](https://docs.bitrefill.com/reference/get_check-phone-number-1.md)
+- [Retrieve product list.](https://docs.bitrefill.com/reference/get_products.md)
+- [Retrieve eSIM product list.](https://docs.bitrefill.com/reference/get_products-esims.md)
+- [Retrieve a single product by id.](https://docs.bitrefill.com/reference/get_products-id.md)
+- [Retrieve a single eSIM product by id.](https://docs.bitrefill.com/reference/get_products-esims-id.md)
+- [Search products by query.](https://docs.bitrefill.com/reference/get_products-search.md)
+- [Retrieve user invoices.](https://docs.bitrefill.com/reference/get_invoices.md)
+- [Create a new invoice.](https://docs.bitrefill.com/reference/post_invoices.md)
+- [Create a new eSIM invoice.](https://docs.bitrefill.com/reference/post_esims.md)
+- [Retrieve a single invoice by id.](https://docs.bitrefill.com/reference/get_invoices-id.md)
+- [Retrieve a single eSIM invoice by id.](https://docs.bitrefill.com/reference/get_esims-invoice-id.md)
+- [Trigger the payment of an unpaid invoice. Can only be used for invoices with 'balance' payment method.](https://docs.bitrefill.com/reference/post_invoices-id-pay.md)
+- [Trigger the payment of an unpaid eSIM invoice. Can only be used for invoices with 'balance' payment method.](https://docs.bitrefill.com/reference/post_esims-invoice-id-pay.md)
+- [Retrieve user orders.](https://docs.bitrefill.com/reference/get_orders.md)
+- [Retrieve a single order by id.](https://docs.bitrefill.com/reference/get_orders-id.md)
+- [Retrieve user esims.](https://docs.bitrefill.com/reference/get_esims.md)
+- [Retrieve a single eSIM by id.](https://docs.bitrefill.com/reference/get_esims-id.md)
+- [Create a new BRGC batch](https://docs.bitrefill.com/reference/post_brgc-batches.md): Creates a new BRGC batch and charges your account. The process is: 1. Balance is checked to ensure you have sufficient funds 2. Batch generation is queued (async job) 3. Cards are generated and…
+- [List your BRGC batches](https://docs.bitrefill.com/reference/get_brgc-batches.md): Retrieves all BRGC batches created by your account with pagination.  **Rate Limit**: 20 requests per minute
+- [Get a specific BRGC batch by ID](https://docs.bitrefill.com/reference/get_brgc-batches-batchid.md): Retrieves detailed information about a specific batch. You can only access batches you created.  **Rate Limit**: 60 requests per 10 minutes
+- [Create a deposit invoice](https://docs.bitrefill.com/reference/post_accounts-deposit.md): Creates an invoice to add funds to your account balance. Pay the invoice with cryptocurrency to top up your account.  **Notes:** - Cannot use balance as payment method - BTC deposits must use…

@@ -1,0 +1,2921 @@
+{
+ "page": {
+  "id": "3e658a07-79e8-8156-8302-d191ff06baa6",
+  "title": "RSH-1 — Overlap / Gap Matrix — Corrected v2",
+  "url": "https://app.notion.com/p/RSH-1-Overlap-Gap-Matrix-Corrected-v2-3e658a0779e881568302d191ff06baa6"
+ },
+ "blocks": [
+  {
+   "object": "block",
+   "id": "f84ba1a5-6662-4b01-ba59-502dd1c60688",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8156-8302-d191ff06baa6"
+   },
+   "created_time": "2026-09-25T22:02:00.000Z",
+   "last_edited_time": "2026-09-25T22:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Research_ID: RSH-1",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Research_ID: RSH-1",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "c0389cc9-8192-4122-b271-35d3acb9d4af",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8156-8302-d191ff06baa6"
+   },
+   "created_time": "2026-09-25T22:02:00.000Z",
+   "last_edited_time": "2026-09-25T22:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Artifact status: Corrected working research artifact — not a Knowledge Asset.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Artifact status: Corrected working research artifact — not a Knowledge Asset.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "df0e3375-0e84-4b42-92f9-816876d1762e",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8156-8302-d191ff06baa6"
+   },
+   "created_time": "2026-09-25T22:02:00.000Z",
+   "last_edited_time": "2026-09-25T22:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Correction: The verified selected book inventory is ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Correction: The verified selected book inventory is ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "30 unique titles",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "30 unique titles",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": ", not 28. Two additional rows are duplicate candidate audit records and are retained as rejected history.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": ", not 28. Two additional rows are duplicate candidate audit records and are retained as rejected history.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "4d3adede-98a1-43e6-8da4-63a29685e41a",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8156-8302-d191ff06baa6"
+   },
+   "created_time": "2026-09-25T22:02:00.000Z",
+   "last_edited_time": "2026-09-25T22:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Coverage Matrix",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Coverage Matrix",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "89ea9969-3a2d-462b-b0c9-69cb94c8908b",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8156-8302-d191ff06baa6"
+   },
+   "created_time": "2026-09-25T22:02:00.000Z",
+   "last_edited_time": "2026-09-25T22:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": true,
+   "in_trash": false,
+   "type": "table",
+   "table": {
+    "table_width": 4,
+    "has_column_header": true,
+    "has_row_header": false
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "f6e81e7e-34f2-46f7-a51a-f78ed804fac6",
+   "parent": {
+    "type": "block_id",
+    "block_id": "89ea9969-3a2d-462b-b0c9-69cb94c8908b"
+   },
+   "created_time": "2026-09-25T22:02:00.000Z",
+   "last_edited_time": "2026-09-25T22:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "table_row",
+   "table_row": {
+    "cells": [
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Dimension",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Dimension",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Current representation",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Current representation",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Assessment",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Assessment",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Next verification",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Next verification",
+       "href": null
+      }
+     ]
+    ]
+   },
+   "archived": false,
+   "_depth": 1
+  },
+  {
+   "object": "block",
+   "id": "75ddd55a-9324-49fd-af84-53bdbcdef4d4",
+   "parent": {
+    "type": "block_id",
+    "block_id": "89ea9969-3a2d-462b-b0c9-69cb94c8908b"
+   },
+   "created_time": "2026-09-25T22:02:00.000Z",
+   "last_edited_time": "2026-09-25T22:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "table_row",
+   "table_row": {
+    "cells": [
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "General marketing / value / process",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "General marketing / value / process",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Current general marketing textbooks + JM/JMR",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Current general marketing textbooks + JM/JMR",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Strong",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Strong",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Check conceptual boundary coverage",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Check conceptual boundary coverage",
+       "href": null
+      }
+     ]
+    ]
+   },
+   "archived": false,
+   "_depth": 1
+  },
+  {
+   "object": "block",
+   "id": "39cac4ec-9cab-4961-ac00-dde37de886e2",
+   "parent": {
+    "type": "block_id",
+    "block_id": "89ea9969-3a2d-462b-b0c9-69cb94c8908b"
+   },
+   "created_time": "2026-09-25T22:02:00.000Z",
+   "last_edited_time": "2026-09-25T22:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "table_row",
+   "table_row": {
+    "cells": [
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Strategy / STP / positioning",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Strategy / STP / positioning",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Marketing Management; Marketing Strategy; Positioning; Competitive Strategy",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Marketing Management; Marketing Strategy; Positioning; Competitive Strategy",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Strong",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Strong",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Test strategic theory depth",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Test strategic theory depth",
+       "href": null
+      }
+     ]
+    ]
+   },
+   "archived": false,
+   "_depth": 1
+  },
+  {
+   "object": "block",
+   "id": "e35e733f-09c5-4b48-a7fd-4c7224a9f68a",
+   "parent": {
+    "type": "block_id",
+    "block_id": "89ea9969-3a2d-462b-b0c9-69cb94c8908b"
+   },
+   "created_time": "2026-09-25T22:02:00.000Z",
+   "last_edited_time": "2026-09-25T22:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "table_row",
+   "table_row": {
+    "cells": [
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Consumer behavior / decision science",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Consumer behavior / decision science",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Consumer Behavior + JCR",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Consumer Behavior + JCR",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Strong",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Strong",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Expand construct/theory map",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Expand construct/theory map",
+       "href": null
+      }
+     ]
+    ]
+   },
+   "archived": false,
+   "_depth": 1
+  },
+  {
+   "object": "block",
+   "id": "2850deae-c06e-4eee-bae1-b243fa8d694b",
+   "parent": {
+    "type": "block_id",
+    "block_id": "89ea9969-3a2d-462b-b0c9-69cb94c8908b"
+   },
+   "created_time": "2026-09-25T22:02:00.000Z",
+   "last_edited_time": "2026-09-25T22:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "table_row",
+   "table_row": {
+    "cells": [
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Marketing research / methods",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Marketing research / methods",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Marketing Research + JMR + JCR",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Marketing Research + JMR + JCR",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Strong",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Strong",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Test causal, experimental and qualitative depth",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Test causal, experimental and qualitative depth",
+       "href": null
+      }
+     ]
+    ]
+   },
+   "archived": false,
+   "_depth": 1
+  },
+  {
+   "object": "block",
+   "id": "43a00d21-25d3-411d-92b0-b8ceca795f4f",
+   "parent": {
+    "type": "block_id",
+    "block_id": "89ea9969-3a2d-462b-b0c9-69cb94c8908b"
+   },
+   "created_time": "2026-09-25T22:02:00.000Z",
+   "last_edited_time": "2026-09-25T22:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "table_row",
+   "table_row": {
+    "cells": [
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Brand / brand equity",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Brand / brand equity",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Keller + Aaker + Kapferer",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Keller + Aaker + Kapferer",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Strong",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Strong",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Test empirical generalizability",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Test empirical generalizability",
+       "href": null
+      }
+     ]
+    ]
+   },
+   "archived": false,
+   "_depth": 1
+  },
+  {
+   "object": "block",
+   "id": "0c120b19-bb21-4eb7-a98d-69efa5b1c46e",
+   "parent": {
+    "type": "block_id",
+    "block_id": "89ea9969-3a2d-462b-b0c9-69cb94c8908b"
+   },
+   "created_time": "2026-09-25T22:02:00.000Z",
+   "last_edited_time": "2026-09-25T22:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "table_row",
+   "table_row": {
+    "cells": [
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Product / innovation",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Product / innovation",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "General texts + Product Design and Development",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "General texts + Product Design and Development",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Moderate",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Moderate",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Add marketing-specific innovation boundary testing",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Add marketing-specific innovation boundary testing",
+       "href": null
+      }
+     ]
+    ]
+   },
+   "archived": false,
+   "_depth": 1
+  },
+  {
+   "object": "block",
+   "id": "356330ab-1336-43b5-b654-e13c5a397f7a",
+   "parent": {
+    "type": "block_id",
+    "block_id": "89ea9969-3a2d-462b-b0c9-69cb94c8908b"
+   },
+   "created_time": "2026-09-25T22:02:00.000Z",
+   "last_edited_time": "2026-09-25T22:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "table_row",
+   "table_row": {
+    "cells": [
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Pricing / value capture",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Pricing / value capture",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Pricing Strategy + general texts",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Pricing Strategy + general texts",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Strong",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Strong",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Test pricing theory and experiments",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Test pricing theory and experiments",
+       "href": null
+      }
+     ]
+    ]
+   },
+   "archived": false,
+   "_depth": 1
+  },
+  {
+   "object": "block",
+   "id": "9a5339f9-a7d1-4b6c-893d-320ba2926531",
+   "parent": {
+    "type": "block_id",
+    "block_id": "89ea9969-3a2d-462b-b0c9-69cb94c8908b"
+   },
+   "created_time": "2026-09-25T22:02:00.000Z",
+   "last_edited_time": "2026-09-25T22:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "table_row",
+   "table_row": {
+    "cells": [
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Channels / distribution",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Channels / distribution",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Marketing Channels + general texts",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Marketing Channels + general texts",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Strong",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Strong",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Test retail/omnichannel boundary",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Test retail/omnichannel boundary",
+       "href": null
+      }
+     ]
+    ]
+   },
+   "archived": false,
+   "_depth": 1
+  },
+  {
+   "object": "block",
+   "id": "2749efb2-ca02-4520-a0a8-6a24e21a535a",
+   "parent": {
+    "type": "block_id",
+    "block_id": "89ea9969-3a2d-462b-b0c9-69cb94c8908b"
+   },
+   "created_time": "2026-09-25T22:02:00.000Z",
+   "last_edited_time": "2026-09-25T22:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "table_row",
+   "table_row": {
+    "cells": [
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Retailing / omnichannel",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Retailing / omnichannel",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "General texts + dedicated Journal of Retailing boundary",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "General texts + dedicated Journal of Retailing boundary",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Partial in books; dedicated research field verified",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Partial in books; dedicated research field verified",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Specialized retailing literature",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Specialized retailing literature",
+       "href": null
+      }
+     ]
+    ]
+   },
+   "archived": false,
+   "_depth": 1
+  },
+  {
+   "object": "block",
+   "id": "7fb180bb-d2ba-4c16-87d4-0b8746771752",
+   "parent": {
+    "type": "block_id",
+    "block_id": "89ea9969-3a2d-462b-b0c9-69cb94c8908b"
+   },
+   "created_time": "2026-09-25T22:02:00.000Z",
+   "last_edited_time": "2026-09-25T22:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "table_row",
+   "table_row": {
+    "cells": [
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "IMC / advertising / communications",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "IMC / advertising / communications",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Belch & Belch + Fill/Turnbull + general texts",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Belch & Belch + Fill/Turnbull + general texts",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Strong",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Strong",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Test media/measurement depth",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Test media/measurement depth",
+       "href": null
+      }
+     ]
+    ]
+   },
+   "archived": false,
+   "_depth": 1
+  },
+  {
+   "object": "block",
+   "id": "59f62383-0951-4987-95e6-c9c5badf7612",
+   "parent": {
+    "type": "block_id",
+    "block_id": "89ea9969-3a2d-462b-b0c9-69cb94c8908b"
+   },
+   "created_time": "2026-09-25T22:02:00.000Z",
+   "last_edited_time": "2026-09-25T22:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "table_row",
+   "table_row": {
+    "cells": [
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Sales / sales management",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Sales / sales management",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Sales Force Management + general texts",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Sales Force Management + general texts",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Strong",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Strong",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Test sales-marketing integration",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Test sales-marketing integration",
+       "href": null
+      }
+     ]
+    ]
+   },
+   "archived": false,
+   "_depth": 1
+  },
+  {
+   "object": "block",
+   "id": "2efcecec-14ed-4e83-8a94-76236fbae0a2",
+   "parent": {
+    "type": "block_id",
+    "block_id": "89ea9969-3a2d-462b-b0c9-69cb94c8908b"
+   },
+   "created_time": "2026-09-25T22:02:00.000Z",
+   "last_edited_time": "2026-09-25T22:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "table_row",
+   "table_row": {
+    "cells": [
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "CRM / CX / relationships",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "CRM / CX / relationships",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Buttle/Maklan + Peppers/Rogers + Relationship Marketing",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Buttle/Maklan + Peppers/Rogers + Relationship Marketing",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Strong",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Strong",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Test lifecycle and causal evidence",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Test lifecycle and causal evidence",
+       "href": null
+      }
+     ]
+    ]
+   },
+   "archived": false,
+   "_depth": 1
+  },
+  {
+   "object": "block",
+   "id": "99fbd4b2-b0d3-4935-8719-c080476b2435",
+   "parent": {
+    "type": "block_id",
+    "block_id": "89ea9969-3a2d-462b-b0c9-69cb94c8908b"
+   },
+   "created_time": "2026-09-25T22:02:00.000Z",
+   "last_edited_time": "2026-09-25T22:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "table_row",
+   "table_row": {
+    "cells": [
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Services",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Services",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Services Marketing + Journal of Service Research",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Services Marketing + Journal of Service Research",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Strong",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Strong",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Continue service-specific theory testing",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Continue service-specific theory testing",
+       "href": null
+      }
+     ]
+    ]
+   },
+   "archived": false,
+   "_depth": 1
+  },
+  {
+   "object": "block",
+   "id": "2c572383-84f2-4b36-802c-bf010470bc7c",
+   "parent": {
+    "type": "block_id",
+    "block_id": "89ea9969-3a2d-462b-b0c9-69cb94c8908b"
+   },
+   "created_time": "2026-09-25T22:02:00.000Z",
+   "last_edited_time": "2026-09-25T22:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "table_row",
+   "table_row": {
+    "cells": [
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "International / cross-cultural",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "International / cross-cultural",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "International Marketing + Journal of International Marketing",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "International Marketing + Journal of International Marketing",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Strong",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Strong",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Test cross-cultural construct comparability",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Test cross-cultural construct comparability",
+       "href": null
+      }
+     ]
+    ]
+   },
+   "archived": false,
+   "_depth": 1
+  },
+  {
+   "object": "block",
+   "id": "00aaa131-8da2-4e82-961d-62565e51f28c",
+   "parent": {
+    "type": "block_id",
+    "block_id": "89ea9969-3a2d-462b-b0c9-69cb94c8908b"
+   },
+   "created_time": "2026-09-25T22:02:00.000Z",
+   "last_edited_time": "2026-09-25T22:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "table_row",
+   "table_row": {
+    "cells": [
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Digital / interactive / technology",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Digital / interactive / technology",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Digital Marketing + Journal of Interactive Marketing",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Digital Marketing + Journal of Interactive Marketing",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Strong",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Strong",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Separate durable principles from platform-dependent practices",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Separate durable principles from platform-dependent practices",
+       "href": null
+      }
+     ]
+    ]
+   },
+   "archived": false,
+   "_depth": 1
+  },
+  {
+   "object": "block",
+   "id": "7954fa79-6b66-4934-8130-865c099dcf79",
+   "parent": {
+    "type": "block_id",
+    "block_id": "89ea9969-3a2d-462b-b0c9-69cb94c8908b"
+   },
+   "created_time": "2026-09-25T22:02:00.000Z",
+   "last_edited_time": "2026-09-25T22:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "table_row",
+   "table_row": {
+    "cells": [
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Analytics / measurement / marketing science",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Analytics / measurement / marketing science",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Marketing Metrics + Marketing Science + JMR + causal-method evidence",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Marketing Metrics + Marketing Science + JMR + causal-method evidence",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Strong",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Strong",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Deeper causal inference and measurement validation",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Deeper causal inference and measurement validation",
+       "href": null
+      }
+     ]
+    ]
+   },
+   "archived": false,
+   "_depth": 1
+  },
+  {
+   "object": "block",
+   "id": "3882ba94-de9a-47c3-ae29-4e1296e0e233",
+   "parent": {
+    "type": "block_id",
+    "block_id": "89ea9969-3a2d-462b-b0c9-69cb94c8908b"
+   },
+   "created_time": "2026-09-25T22:02:00.000Z",
+   "last_edited_time": "2026-09-25T22:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "table_row",
+   "table_row": {
+    "cells": [
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Marketing theory / construct development",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Marketing theory / construct development",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Marketing Theory + JM/JMR + RSH-3",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Marketing Theory + JM/JMR + RSH-3",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Strong as a layer",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Strong as a layer",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Build construct/theory dependency map",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Build construct/theory dependency map",
+       "href": null
+      }
+     ]
+    ]
+   },
+   "archived": false,
+   "_depth": 1
+  },
+  {
+   "object": "block",
+   "id": "f4c62e6d-9d95-44b0-b3bc-bf4c401344fe",
+   "parent": {
+    "type": "block_id",
+    "block_id": "89ea9969-3a2d-462b-b0c9-69cb94c8908b"
+   },
+   "created_time": "2026-09-25T22:02:00.000Z",
+   "last_edited_time": "2026-09-25T22:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "table_row",
+   "table_row": {
+    "cells": [
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Macromarketing / society / public policy",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Macromarketing / society / public policy",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Journal of Macromarketing + JPP&M + JCR society/culture",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Journal of Macromarketing + JPP&M + JCR society/culture",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Strong",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Strong",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Map societal mechanisms and policy contexts",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Map societal mechanisms and policy contexts",
+       "href": null
+      }
+     ]
+    ]
+   },
+   "archived": false,
+   "_depth": 1
+  },
+  {
+   "object": "block",
+   "id": "55019ffe-edfa-49f6-b6f1-626c9f18039a",
+   "parent": {
+    "type": "block_id",
+    "block_id": "89ea9969-3a2d-462b-b0c9-69cb94c8908b"
+   },
+   "created_time": "2026-09-25T22:02:00.000Z",
+   "last_edited_time": "2026-09-25T22:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "table_row",
+   "table_row": {
+    "cells": [
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Social marketing / behavior change",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Social marketing / behavior change",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Journal of Social Marketing",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Journal of Social Marketing",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Dedicated boundary verified",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Dedicated boundary verified",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Test relationship to broader transformative/nonprofit marketing",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Test relationship to broader transformative/nonprofit marketing",
+       "href": null
+      }
+     ]
+    ]
+   },
+   "archived": false,
+   "_depth": 1
+  },
+  {
+   "object": "block",
+   "id": "105af232-3ed9-4448-b41b-05896ed65436",
+   "parent": {
+    "type": "block_id",
+    "block_id": "89ea9969-3a2d-462b-b0c9-69cb94c8908b"
+   },
+   "created_time": "2026-09-25T22:02:00.000Z",
+   "last_edited_time": "2026-09-25T22:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "table_row",
+   "table_row": {
+    "cells": [
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Marketing operations / MarTech",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Marketing operations / MarTech",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Digital/CRM/interactive sources only",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Digital/CRM/interactive sources only",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Underrepresented",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Underrepresented",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Dedicated operations/MarTech research",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Dedicated operations/MarTech research",
+       "href": null
+      }
+     ]
+    ]
+   },
+   "archived": false,
+   "_depth": 1
+  },
+  {
+   "object": "block",
+   "id": "0890f689-0d49-477b-99ff-7bfdffecc8d4",
+   "parent": {
+    "type": "block_id",
+    "block_id": "89ea9969-3a2d-462b-b0c9-69cb94c8908b"
+   },
+   "created_time": "2026-09-25T22:02:00.000Z",
+   "last_edited_time": "2026-09-25T22:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "table_row",
+   "table_row": {
+    "cells": [
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Historical schools / paradigms",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Historical schools / paradigms",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Shaw & Jones + Wilkie & Moore + RSH-3",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Shaw & Jones + Wilkie & Moore + RSH-3",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Present",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Present",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Map schools → constructs → mechanisms → methods",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Map schools → constructs → mechanisms → methods",
+       "href": null
+      }
+     ]
+    ]
+   },
+   "archived": false,
+   "_depth": 1
+  },
+  {
+   "object": "block",
+   "id": "e96db04a-9ee7-44e3-84e9-871f8c930773",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8156-8302-d191ff06baa6"
+   },
+   "created_time": "2026-09-25T22:02:00.000Z",
+   "last_edited_time": "2026-09-25T22:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Architecture Candidate — not yet canonical",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Architecture Candidate — not yet canonical",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "253ed22c-27aa-48bf-abfc-97a5e7e0dc78",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8156-8302-d191ff06baa6"
+   },
+   "created_time": "2026-09-25T22:02:00.000Z",
+   "last_edited_time": "2026-09-25T22:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Phenomenon / Question → Domain / Function → Theory / Construct → Mechanism → Level of Analysis → Method / Evidence → Context / Market → Application / Experiment",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Phenomenon / Question → Domain / Function → Theory / Construct → Mechanism → Level of Analysis → Method / Evidence → Context / Market → Application / Experiment",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "e5fe7b63-ed1b-414e-9f0d-7cc2fa59eac6",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8156-8302-d191ff06baa6"
+   },
+   "created_time": "2026-09-25T22:02:00.000Z",
+   "last_edited_time": "2026-09-25T22:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "This is a research hypothesis for architecture. It is not an ACTIVE canonical taxonomy.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "This is a research hypothesis for architecture. It is not an ACTIVE canonical taxonomy.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "dc0cb81b-dcab-4d63-8d77-5116e1c9ddb7",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8156-8302-d191ff06baa6"
+   },
+   "created_time": "2026-09-25T22:02:00.000Z",
+   "last_edited_time": "2026-09-25T22:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Gate Result",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Gate Result",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "fcbbede9-0813-4b00-af9e-eaa6c1b5857f",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8156-8302-d191ff06baa6"
+   },
+   "created_time": "2026-09-25T22:02:00.000Z",
+   "last_edited_time": "2026-09-25T22:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Current evidence supports a multidimensional Master Map. The 30-book source layer is broad, while specialized journals and methodological sources prevent conflation of domains with theory, mechanism, level, method, or context.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Current evidence supports a multidimensional Master Map. The 30-book source layer is broad, while specialized journals and methodological sources prevent conflation of domains with theory, mechanism, level, method, or context.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "ad049b09-ecdd-4ff0-9b52-4eb9f4ec3553",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8156-8302-d191ff06baa6"
+   },
+   "created_time": "2026-09-25T22:02:00.000Z",
+   "last_edited_time": "2026-09-25T22:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Remaining Targeted Gaps",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Remaining Targeted Gaps",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "a68e10b1-87df-4c27-aa39-85912926ede4",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8156-8302-d191ff06baa6"
+   },
+   "created_time": "2026-09-25T22:02:00.000Z",
+   "last_edited_time": "2026-09-25T22:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Marketing operations/MarTech; nonprofit/transformative marketing beyond the social-marketing boundary; deeper interpretive/qualitative methodology; additional historical/theory-school mapping; final specialized-journal sweep.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Marketing operations/MarTech; nonprofit/transformative marketing beyond the social-marketing boundary; deeper interpretive/qualitative methodology; additional historical/theory-school mapping; final specialized-journal sweep.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "46718297-9500-4bad-aa82-556ec9446aff",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8156-8302-d191ff06baa6"
+   },
+   "created_time": "2026-09-25T22:02:00.000Z",
+   "last_edited_time": "2026-09-25T22:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Provenance",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Provenance",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "7d864f77-9a7d-46c7-a740-3d805705bb53",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8156-8302-d191ff06baa6"
+   },
+   "created_time": "2026-09-25T22:02:00.000Z",
+   "last_edited_time": "2026-09-25T22:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "RSH-1 → 30-book layer + general/specialized journal evidence + causal-method evidence → Evidence → KNG-43 → CHG-RSH1-006 correction → corrected matrix v2.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "RSH-1 → 30-book layer + general/specialized journal evidence + causal-method evidence → Evidence → KNG-43 → CHG-RSH1-006 correction → corrected matrix v2.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  }
+ ]
+}

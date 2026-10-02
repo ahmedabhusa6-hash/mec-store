@@ -1,0 +1,114 @@
+Deep Research Findings — Supplier Intelligence — 2026-10-02
+========================================
+نطاق البحث
+تم فحص GitHub والمصادر الرسمية المرتبطة بـ OpenAPI وArazzo وTelegram واختبارات API، مع التركيز على المشاريع القابلة لإعادة الاستخدام في نظام متعدد مزودي الخدمات.
+النتيجة الرئيسية
+FINDING: لم يظهر في البحث مشروع عام واحد يجمع جميع الطبقات المطلوبة معًا: مئات Telegram Providers + API discovery + provider normalization + catalog aggregation + product matching + price/stock intelligence + reliability measurement + supplier decisioning.
+الموجود هو مجموعة مشاريع متخصصة يمكن تركيبها.
+تدقيق معماري حاسم
+INFERENCE: تمثيل النظام على أنه "300 بوت = 300 عامل" غير دقيق. إذا كانت البوتات تمنح API Keys ووثائق HTTP APIs، فإن وحدة التنفيذ الحقيقية هي Provider Credential + API Endpoint + Adapter. لا توجد حاجة لأن تمر طلبات المورد عبر Telegram Bot بعد الحصول على API access.
+Telegram قد يدخل في طبقة onboarding/credential issuance أو في اختبار محادثات معينة، لكنه ليس طبقة النقل الأساسية للـREST APIs.
+Telegram Bot-to-Bot Communication موجود رسميًا في حالات وشروط محددة، لكنه ليس أساسًا مناسبًا لربط كل الموردين، لأن Telegram يفرض قيودًا على استقبال رسائل البوتات من بعضها خارج السياقات المدعومة.
+أبرز المشاريع
+1. jentic/arazzo-engine
+الغرض: تنفيذ workflows وفق Arazzo، مع Runner وGenerator. الـRunner ينفذ workflows ويعالج authentication وتمرير المعلمات والمنطق الشرطي والأخطاء، والـGenerator يحلل OpenAPI ويولد workflows.
+الحالة الموثقة من GitHub: Public، غير مؤرشف، Python، Apache-2.0، 64 stars و14 forks و31 issue مفتوحة عند الفحص، وآخر تحديث للمستودع 2026-09-11 بحسب واجهة GitHub API.
+الاستخدام المناسب: طبقة workflow execution/reference، وليس نظام Supplier Intelligence كامل.
+2. FerdinandoConte/shopify-supplier-sync-orchestrator
+الغرض: multi-supplier synchronization؛ يدعم supplier adapters، جلب المنتجات، normalization، price tracking، dynamic supplier scoring، order routing، order tracking وdry-run.
+الحالة الموثقة من GitHub: JavaScript، MIT، غير مؤرشف، مشروع حديث جدًا أُنشئ في 2026-03-14، 0 stars و0 forks عند الفحص.
+الاستخدام المناسب: مرجع معماري مباشر لمنطق supplier adapters وscoring وorder routing، وليس قاعدة جاهزة ناضجة للنظام كله.
+3. fuad-hasan-safat/supplier-product-matcher
+الغرض: مطابقة كتالوجات الموردين باستخدام LLM normalization + embeddings + PostgreSQL/pgvector + cosine similarity.
+الحالة الموثقة: TypeScript، public، غير مؤرشف، مشروع صغير وحديث أُنشئ 2026-06-20، 0 stars و0 forks عند الفحص، ولا ظهر LICENSE file في المسار المتوقع أثناء الفحص.
+الاستخدام المناسب: مرجع/نواة لمطابقة المنتجات. لا ينبغي افتراض أنه حل إنتاجي لمئات الموردين.
+4. odhasu/tgbot
+الغرض: Telegram reseller bot يستخدم Canboso Buyer API لجلب catalog وstock وwholesale pricing وتنفيذ supplier purchases وتسليم credentials وتسجيل wholesale cost وgross margin.
+الحالة: Python، public، غير مؤرشف، مشروع حديث أُنشئ 2026-08-17، 0 stars و0 forks عند الفحص، ولم يظهر LICENSE file أثناء الفحص.
+الاستخدام المناسب: مرجع عملي لطبقة Telegram reseller + supplier buyer API.
+5. jentic/Arazzo + OAI/Arazzo-Specification
+Arazzo هو معيار رسمي من OpenAPI Initiative لوصف وتسلسل استدعاءات API للوصول إلى نتيجة معينة. النسخة الحالية المنشورة رسميًا هي Arazzo 1.1.0 بتاريخ 2026-05-17.
+الاستخدام المناسب: تعريف workflows مثل:
+discover product
+check balance
+create order
+fetch order
+validate delivery
+كما توجد أدوات تنفيذ وتوليد مبنية على المواصفة.
+6. BhairavDataFlow/procure-ai
+الغرض: procurement intelligence؛ supplier matching، ranking، RFQ، quote intelligence، bid comparison، PO generation مع human approval.
+الحالة: Python، public، غير مؤرشف، مشروع حديث أُنشئ في 2026-08-30، 0 stars و0 forks عند الفحص، ولا ظهر LICENSE file في المسار المتوقع.
+الاستخدام المناسب: مرجع لمنطق Supplier Intelligence متعدد المعايير وليس أساس النظام.
+7. maharanirizki/VSOA
+مرجع لنمذجة Vendor Selection and Order Allocation باستخدام optimization. يتعامل مع السعر، الجودة/العيوب، الاعتمادية، on-time delivery، القدرة، repair turnaround، warranty وغيرها، مع أوزان وأهداف وقيود.
+الاستخدام المناسب: مرجع Decision/Optimization Layer وليس integration framework.
+8. merurjs/mercur
+Marketplace engine فوق Medusa يدعم multi-vendor catalog/offers/commissions/payouts. المستودع MIT، public، وذو نشاط مرتفع جدًا عند الفحص. لكنه لا يحل Supplier Intelligence المطلوب. كما أن README يوضح أن بعض قدرات Enterprise المتقدمة مثل EAN matching وBuy Box/winning-offer engine وmaster-data governance وmulti-channel stock sync ليست جزءًا من الـopen-source core.
+الاستخدام المناسب: مرجع لمنصة marketplace، وليس محرك الموردين نفسه.
+مكونات مفتوحة المصدر مهمة
+Redocly CLI
+يمكنه linting وbundling لـOpenAPI، ويدعم أيضًا Arazzo. هذا مفيد لتطبيع وثائق الموردين والتحقق منها قبل التشغيل.
+Schemathesis
+يولد اختبارات property-based من OpenAPI، ويدعم OpenAPI 2.0 و3.0 و3.1 و3.2، كما يدعم workflows متعددة الخطوات واختبارات الحالة. مناسب لاختبار APIs المصرح بها، لكن لا ينبغي تشغيل fuzzing العدواني مباشرة على APIs حقيقية للموردين دون ضوابط.
+oasdiff
+يقارن إصدارات OpenAPI ويكشف breaking changes ويستطيع إنتاج changelog. مفيد لمراقبة تغيّر API للمورد عبر الزمن.
+RapidFuzz
+مفيد للمطابقة النصية السريعة قبل اللجوء إلى embeddings.
+pgvector
+يمكن استخدامه داخل PostgreSQL للمطابقة المتجهية والبحث الدلالي.
+OpenAPI / Arazzo Facts
+OpenAPI هو معيار وصفي للـHTTP APIs يسمح باكتشاف قدرات API وفهمها آليًا عندما تكون المواصفة صحيحة. الموقع الرسمي يعرض نسخًا منشورة حديثة، ومنها OpenAPI 3.2.1.
+Arazzo 1.1.0 هو المعيار الحالي المنشور لوصف workflows متعددة الاستدعاءات.
+Gap Analysis
+Gap الحقيقي الذي يجب بناؤه
+Provider Registry
+Capability Matrix
+Discovery/Fallback layer
+Adapter contract
+Canonical Product Model
+Product Entity Resolution
+Provider Health History
+Effective Cost Model
+Evidence/Confidence Model
+Decision Engine
+Historical snapshots
+Safe execution policy
+تعديل مهم في نموذج الأدلة
+بدل اعتبار كل خاصية حقيقة، يجب تخزين مصدرها وحالتها:
+DECLARED — مذكورة في docs/provider
+OBSERVED — شوهدت في اختبار فعلي
+HISTORICAL — مدعومة ببيانات زمنية
+INFERRED — استنتاج
+UNKNOWN — لا توجد أدلة كافية
+لا يجوز أن تنتقل UNKNOWN أو INFERRED إلى حقيقة تشغيلية مساوية لـOBSERVED.
+قرار هندسي
+RECOMMENDATION: لا تبدأ Fork لمشروع واحد.
+السبب: لا يوجد مشروع واحد يغطي المطلوب، والمشاريع الأقرب إما صغيرة وحديثة أو متخصصة في طبقة واحدة.
+المسار الأنسب:
+استخدام standards/tools للمراحل المعيارية.
+أخذ Supplier Adapter + scoring patterns من مشاريع متعددة الموردين كمرجع.
+استخدام Arazzo كصيغة workflow عندما تكون مناسبة.
+استخدام Schemathesis/Redocly/oasdiff في طبقة API quality.
+بناء Provider Intelligence Core الخاص بك حول نموذج canonical وevidence وhistory وdecisioning.
+مصادر رسمية
+OpenAPI Specification: https://spec.openapis.org/oas/
+Arazzo Specification: https://spec.openapis.org/arazzo/
+Telegram Bots FAQ: https://core.telegram.org/bots/faq
+Telegram Bot-to-Bot: https://core.telegram.org/api/bots/bot-to-bot
+Redocly CLI: https://redocly.com/docs/cli
+Schemathesis: https://schemathesis.readthedocs.io/
+مصادر GitHub
+https://github.com/jentic/arazzo-engine
+https://github.com/FerdinandoConte/shopify-supplier-sync-orchestrator
+https://github.com/fuad-hasan-safat/supplier-product-matcher
+https://github.com/odhasu/tgbot
+https://github.com/BhairavDataFlow/procure-ai
+https://github.com/maharanirizki/VSOA
+https://github.com/mercurjs/mercur
+https://github.com/OAI/Arazzo-Specification
+7. تصحيح إصدار مهم
+المعيار الرسمي الحالي هو Arazzo 1.1.0 (2026-05-17). لكن README لحزمة @jentic/arazzo-runner في monorepo jentic-arazzo-tools يذكر حاليًا دعم Arazzo 1.0.0 و1.0.1 ودعم OpenAPI 2.0 و3.0.x و3.1.x، مع وصف الحزمة بأنها تحت تطوير مكثف وغير منشورة بعد إلى npm. لذلك يجب اعتبارها مرجعًا/مكوّنًا يحتاج تحقق إصدار وتوافق، لا افتراض أنها تدعم أحدث معيار تلقائيًا.
+8. مبدأ بحث نهائي
+عدم وجود مشروع مطابق في نتائج البحث لا يثبت عدم وجوده مطلقًا. الصياغة الصحيحة هي:
+لم يُعثر على مشروع عام موثّق يطابق النظام كاملًا ضمن نطاق المصادر والعبارات التي تم فحصها.
+كما تم تصحيح إشارة سابقة إلى مشروع باسم CommerceLink: لم أستطع تثبيت مستودع GitHub عام مطابق لوصفه السابق ضمن البحث الحالي، ولذلك لا يُعتمد كمرجع مثبت في النسخة الحالية.

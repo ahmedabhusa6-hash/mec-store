@@ -1,0 +1,72 @@
+# Validate the Marketing Master Map
+Cycle 001 — Preliminary Master Map Validation
+Evidence date:  2026-09-26
+Verified external evidence
+- AMA Marketing Competency Model: six domains covering ethics, essential capabilities, strategy & planning, content & branding, channels & technology, and data & analytics.
+- CIM Global Professional Marketing Framework: eight capability areas embedded within Direction, Capability, Professionalism, and Impact: leadership & management, digital agility, customer experience, proposition development, commercial, data & insight, brand & reputation, and marketing communications.
+- Pearson,  Principles of Marketing , 19th ed.: environment, marketing information/insights, consumer and business buyer behavior, STP, product/services/brands, new product development, pricing, channels, retail/wholesale, IMC, advertising/PR, selling/promotion, digital, competitive advantage, global marketplace, sustainability/ethics.
+- McGraw Hill marketing course structure: overview/value, ethics, strategy, environment, global, research, consumer behavior, B2B, STP, product/branding, innovation, services, pricing, supply chain/channel management, retail/omnichannel, IMC, digital, advertising/sales/promotion, PR, personal selling, and CRM.
+- Journal of Marketing states that the discipline accepts broad substantive marketing questions across theories, methods, and levels of analysis and explicitly distinguishes marketing-management/strategy and consumer-research work from purely methodological work.
+Gate status
+Completed:  preliminary independent-source comparison.
+Verified:  broad coverage is supported by multiple professional and academic structures.
+Inferred:  one professional framework should not be treated as the sole taxonomy; the system needs a layered taxonomy that separates domains, functions, mechanisms, methods, tools, and applications.
+Derived:  Master Map should preserve independent branches for research/insight, consumer/decision science, strategy/STP, value/product, pricing, channels/distribution, brand/communications, CRM/CX, analytics/measurement, technology/MarTech/AI, ethics/sustainability, and specialized contexts.
+Conflicting:  no material conflict found in this first pass; differences are mainly in granularity and purpose of the frameworks.
+Gaps:  deeper academic literature comparison, additional textbooks, specialized subfields, and boundary testing.
+Next Direction:  Academic Source Architecture → 20+ Core Books → taxonomy comparison → gap/overlap resolution → Stage Gate review.
+Source links
+- https://www.ama.org/ama-marketing-competency-model/
+- https://www.cim.co.uk/membership/cim-standards/global-professional-marketing-framework-gpmf/
+- https://www.pearson.com/en-us/subject-catalog/p/principles-of-marketing/P200000009859/9780137991839
+- https://www.mheducation.com/content/dam/mhe/blog/higher-ed/2024/pdfs/connect-master-marketing.pdf
+- https://www.ama.org/editorial-guidelines-journal-of-marketing/
+RSH-1 — Overlap / Gap Matrix Working Artifact
+  Research_ID: RSH-1
+  Artifact status: Working research artifact — not a Knowledge Asset.
+  Current inventory control: 30 unique current selected book titles; BOOK-3 (Consumer Behavior 14th ed.) is historical superseded and excluded from the current count; BOOK-7 (15th ed., 2026) is the current selected record.
+  Evidence date: 2026-09-26
+  Coverage Matrix
+  Architecture Decision — current, not final
+  The current evidence supports treating the Master Map as a  multidimensional architecture  rather than a single hierarchy. The working stack is:
+  Phenomenon / Question ↔ Domain / Function → Theory / Construct → Mechanism → Level of Analysis → Method / Evidence → Context / Market → Application / Experiment
+  Cross-cutting overlays:
+  - Technology / MarTech:  transversal implementation and data/automation infrastructure.
+  - History / schools:  temporal and intellectual genealogy across theories and constructs.
+  - Paradigm / impact:  research-orientation layer, including transformative research.
+  The arrows represent dependencies to test, not a claim that every study follows one fixed sequence. This architecture is a research hypothesis, not an ACTIVE canonical taxonomy.
+  Cross-Layer Dependency Test
+  The candidate dependency model was stress-tested against consumer psychology, qualitative/interpretive inquiry, retailing, product innovation, MarTech, and nonprofit/transformative contexts. The model remains coherent when domain, theory, mechanism, level, method, context and application are treated as distinct but connected dimensions. No test produced a material contradiction; unresolved work is primarily deeper mechanism mapping and edge-case testing.
+  Gate Result
+  - Book layer: broad functional/managerial coverage.
+  - Journal layer: required to cover theory development, methodological scope, consumer paradigms, quantitative modeling, societal/public-policy context, international/cross-cultural context, and service research.
+  - No material empirical contradiction was identified in this boundary pass.
+  - Remaining gaps are coverage gaps, not established absence claims.
+  Boundary Gate — Operations / MarTech / Nonprofit / Transformative
+  - Marketing Operations / MarTech:  supported as a cross-functional technology/infrastructure layer intersecting marketing and IT, data, automation, and execution; not modeled as a simple channel.
+  - Nonprofit / public-sector marketing:  supported as a contextual application domain with distinct organizational purposes and stakeholder configurations.
+  - Transformative marketing/consumer research:  supported as an impact-oriented paradigm/research lens with implications for validity, stakeholder engagement, and research design.
+  - Conflict check:  no material empirical contradiction identified; the sources primarily differ by dimension, purpose, level, and research orientation.
+  - Architecture implication:  keep technology/MarTech transversal, model nonprofit/public-sector as context, and model transformative research as a paradigm/impact lens rather than forcing all three into one functional branch.
+  Bounded Specialist-Journal Sweep
+  Control principle:  completeness is evaluated against a declared control set, not against an unbounded universe of all marketing journals.
+  Current control set reviewed across prior and current cycles:  Journal of Marketing; Journal of Marketing Research; Journal of Consumer Research; Journal of Consumer Psychology; Journal of Consumer Behaviour; Marketing Science; Journal of Service Research; Journal of Interactive Marketing; Journal of International Marketing; Journal of Public Policy & Marketing; Journal of Macromarketing; Marketing Theory; Journal of Retailing; Journal of Product Innovation Management; Journal of Marketing Theory and Practice; Journal of Nonprofit & Public Sector Marketing.
+  Coverage result:  the control set spans general marketing, consumer research/psychology, quantitative marketing science, services, interactive/digital, international, public policy/society, theory/interpretive, retailing, innovation, managerial practice, and nonprofit/public-sector contexts. This is a bounded coverage audit, not a claim that every marketing journal has been enumerated.
+  Stage Gate
+  Result: HOLD at SYNTHESIZED.  The multidimensional architecture is strongly boundary-supported across the declared control set, and the dependency model has passed an initial cross-domain coherence test. ACTIVE promotion remains deferred because deeper mechanism/dependency mapping, edge-case testing, and explicit overlap/conflict review are still required; universal exhaustiveness is not claimed.
+  Next Gate
+  Complete the remaining methodological and subfield tests, then perform final Stage Gate review against the governing ACTIVE criteria.
+RSH-1 — Overlap / Gap Matrix — Corrected v2
+  Research_ID: RSH-1
+  Artifact status: Corrected working research artifact — not a Knowledge Asset.
+  Correction: The verified selected book inventory is  30 unique titles , not 28. Two additional rows are duplicate candidate audit records and are retained as rejected history.
+  Coverage Matrix
+  Architecture Candidate — not yet canonical
+  Phenomenon / Question → Domain / Function → Theory / Construct → Mechanism → Level of Analysis → Method / Evidence → Context / Market → Application / Experiment
+  This is a research hypothesis for architecture. It is not an ACTIVE canonical taxonomy.
+  Gate Result
+  Current evidence supports a multidimensional Master Map. The 30-book source layer is broad, while specialized journals and methodological sources prevent conflation of domains with theory, mechanism, level, method, or context.
+  Remaining Targeted Gaps
+  Marketing operations/MarTech; nonprofit/transformative marketing beyond the social-marketing boundary; deeper interpretive/qualitative methodology; additional historical/theory-school mapping; final specialized-journal sweep.
+  Provenance
+  RSH-1 → 30-book layer + general/specialized journal evidence + causal-method evidence → Evidence → KNG-43 → CHG-RSH1-006 correction → corrected matrix v2.

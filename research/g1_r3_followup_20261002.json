@@ -1,0 +1,185 @@
+{
+ "execution_timestamp": "2026-10-02T04:19:52.159451+03:00",
+ "tests": {
+  "F1": {
+   "n": 2,
+   "sample": {
+    "service_id": "service_1788129242",
+    "name": "Gemini Pro 18 Months",
+    "price": 0.65,
+    "stock": 0
+   },
+   "response_key": "services",
+   "vs_aiversex": {
+    "common": 0,
+    "aix_only": [
+     "gemini pro 18 months",
+     "gemini pro 18m 2"
+    ],
+    "aivx_only": [
+     "adobe express 12m",
+     "amazon prime video 6m",
+     "apple music 5m",
+     "capcut pro 7d fw",
+     "cursor pro 12m",
+     "duolingo super 12m",
+     "elevenlabs creator 12m",
+     "factory 12m",
+     "framer pro 12m",
+     "gamma pro 12m",
+     "gemini pro 18m reactivation urls",
+     "google ai pro 12m",
+     "granola business",
+     "gumloop pro 12m",
+     "higgsfield pro 12m",
+     "linear business 12m",
+     "lovable pro 12m",
+     "magic patterns starter 12m",
+     "manus pro 12m",
+     "microsoft office 365 plus"
+    ]
+   },
+   "vs_cb_matches": 0,
+   "vs_cb_samples": []
+  },
+  "F2": {
+   "title": "Reseller API",
+   "version": "1.0.0",
+   "servers": [
+    {
+     "url": "/telegram/api"
+    }
+   ],
+   "endpoints": [
+    "GET /v1/me :: Me",
+    "GET /v1/products :: List Products",
+    "GET /v1/products/{product_id} :: Get Product Endpoint",
+    "POST /v1/orders :: Place Order",
+    "GET /v1/orders :: List Orders",
+    "GET /v1/orders/{order_id} :: Get Order Endpoint",
+    "POST /v1/orders/{order_id}/inputs :: Resubmit Inputs",
+    "POST /v1/orders/{order_id}/tickets :: Open Ticket",
+    "POST /v1/tickets/{ticket_id}/messages :: Append Ticket Message",
+    "GET /v1/tickets/{ticket_id} :: Get Ticket Endpoint",
+    "GET /v1/tickets :: List Tickets",
+    "POST /v1/tickets/{ticket_id}/close :: Close Ticket Endpoint"
+   ]
+  },
+  "F3": {
+   "title": "Quản Lý Bán Hàng",
+   "metas": [
+    [
+     "viewport",
+     "width=device-width, initial-scale=1.0"
+    ]
+   ],
+   "scripts": [
+    "/assets/index-D016Jdqo.js"
+   ]
+  },
+  "F4": {
+   "ip_map": {
+    "canboso.com": [
+     "157.10.44.46"
+    ],
+    "prodseller.com": [
+     "51.77.244.194"
+    ],
+    "aixpress.shop": [
+     "188.166.90.19"
+    ],
+    "aiversehub.store": [
+     "188.166.90.19"
+    ],
+    "reseller.aivaulthub.store": [
+     "157.245.67.54"
+    ],
+    "cgpt-active.pro": [
+     "104.21.5.125",
+     "172.67.133.115"
+    ],
+    "digitalcore.top": [
+     "104.21.46.177",
+     "172.67.168.208"
+    ],
+    "stackvault.shop": [
+     "75.2.60.5"
+    ],
+    "gpt.teamsoclo.site": [
+     "104.21.44.56",
+     "172.67.195.219"
+    ],
+    "lahastore.up.railway.app": [
+     "69.46.46.122"
+    ]
+   },
+   "shared_ips": {
+    "188.166.90.19": [
+     "aixpress.shop",
+     "aiversehub.store"
+    ]
+   }
+  },
+  "F5": {
+   "balance": {
+    "success": true,
+    "lang": "en",
+    "botSource": "binance",
+    "walletCurrency": "USD",
+    "requester": {
+     "chatId": 7334478984,
+     "name": "Z555Mm"
+    },
+    "balance": 0,
+    "balanceUsd": 0,
+    "balanceText": "$0.00",
+    "usdtBalance": 0,
+    "balanceVnd": 0,
+    "usdRate": 25945,
+    "updatedAt": null
+   },
+   "promotions_sample": {
+    "productId": "6a6e1fa44e24e64b8f019eed",
+    "name": "🔥ChatGPT Plus K12 Edu 2 Years 12h Warranty",
+    "description": "✨ ChatGPT K12 account with 24-hour warranty  \n✨ Format: Account | Password | 2FA  \n✨ Product has a 24-hour warranty. If you check the package and account and encounter any issues, please message immediately for support.  \n✨ No warranty for Codex numbered versions, only self-updated versions  \n✨ Product description:  \n✨ This is the ChatGPT Teacher package, abbreviated as K12  \n✨ In terms of usage, the Codex quota of K12 is as good as Plus  \n✨ Anyone who needs Codex at a good price can consider this product.  \n✨ Especially, the K12 family this time has been live for nearly a month when adding members, so the likelihood of long-term live activity is very high  \n✨User guide: https://docs.google.com/document/d/1XcODdzlQJyeJbzXt61mEMYbkDv_xctY9d52-KihtH5I/edit?tab=t.0  \n\n- Customers join the Workspace themselves with the instructions provided when purchasing the product. Please read and follow them.  \n- Some accounts have not enabled 2FA; please help enable it, no code is needed.",
+    "emoji": "chatgpt",
+    "productType": "account",
+    "price": {
+     "amount": 3.43,
+     "currency": "USD",
+     "text": "$3.43"
+    },
+    "availability": {
+     "available": 19,
+     "sold": 452
+    },
+    "promotions": [
+     {
+      "type": "bulk_bonus",
+      "minQty": 20,
+      "bonusQty": 2
+     },
+     {
+      "type": "bulk_bonus",
+      "minQty": 50,
+      "bonusQty": 5
+     },
+     {
+      "type": "bulk_bonus",
+      "minQty": 100,
+      "bonusQty": 10
+     }
+    ]
+   },
+   "price_structure": {
+    "amount": 1.87,
+    "currency": "USD",
+    "text": "$1.87"
+   },
+   "availability_structure": {
+    "available": 0,
+    "sold": 13803
+   }
+  }
+ }
+}

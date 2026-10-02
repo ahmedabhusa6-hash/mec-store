@@ -1,0 +1,13 @@
+{
+  "action": {
+    "action_id": "A065",
+    "branch": "BR-MENA-SEEDS",
+    "sku_id": null,
+    "objective": "RETRY (A034 failed): Mega Center — Arabic query construction",
+    "discovery_family": "Language-first (AR) + Seller-first (seed)",
+    "method": "seed-verify-retry",
+    "query": "ميغا سنتر متجر بطاقات شحن رقمية العاب"
+  },
+  "error": "Function invoke failed with status 429: {\"error\":\"Too many requests, please try again later\"}",
+  "timestamp": "2026-09-26T21:08:06.733Z"
+}

@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ProdSeller API Documentation</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg:       #0f0f17;
+      --card:     #1a1a2e;
+      --border:   rgba(255,255,255,.08);
+      --accent:   #7c3aed;
+      --accent2:  #a78bfa;
+      --text:     #e2e8f0;
+      --muted:    #94a3b8;
+      --green:    #22c55e;
+      --blue:     #3b82f6;
+      --orange:   #f97316;
+      --red:      #ef4444;
+      --code-bg:  #12121e;
+    }
+    body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.6; }
+
+    /* Layout */
+    .layout { display: flex; min-height: 100vh; }
+    .sidebar { width: 260px; background: var(--card); border-right: 1px solid var(--border); padding: 28px 0; position: sticky; top: 0; height: 100vh; overflow-y: auto; flex-shrink: 0; }
+    .content { flex: 1; padding: 48px 64px; max-width: 900px; }
+
+    /* Sidebar */
+    .brand { padding: 0 24px 28px; border-bottom: 1px solid var(--border); }
+    .brand-logo { display: flex; align-items: center; gap: 10px; margin-bottom: 4px; }
+    .brand-icon { width: 32px; height: 32px; background: var(--accent); border-radius: 8px; display: flex; align-items: center; justify-content: center; }
+    .brand-icon svg { width: 18px; height: 18px; stroke: #fff; fill: none; stroke-width: 2; }
+    .brand-name { font-weight: 700; font-size: 1rem; }
+    .brand-version { font-size: .72rem; color: var(--muted); }
+    .nav-section { padding: 20px 12px 8px; }
+    .nav-section-title { font-size: .68rem; font-weight: 600; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); padding: 0 12px; margin-bottom: 6px; }
+    .nav-link { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 8px; text-decoration: none; color: var(--muted); font-size: .85rem; transition: all .15s; }
+    .nav-link:hover, .nav-link.active { background: rgba(124,58,237,.12); color: var(--accent2); }
+    .method-pill { font-size: .6rem; font-weight: 700; padding: 2px 6px; border-radius: 4px; flex-shrink: 0; }
+    .get    { background: rgba(34,197,94,.15);  color: var(--green); }
+    .post   { background: rgba(59,130,246,.15); color: var(--blue); }
+
+    /* Content */
+    h1 { font-size: 2.2rem; font-weight: 800; margin-bottom: 12px; background: linear-gradient(135deg, #fff, var(--accent2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    h2 { font-size: 1.4rem; font-weight: 700; margin: 48px 0 16px; padding-bottom: 10px; border-bottom: 1px solid var(--border); }
+    h3 { font-size: 1.05rem; font-weight: 600; margin: 28px 0 12px; }
+    p  { color: var(--muted); margin-bottom: 14px; }
+    a  { color: var(--accent2); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .hero-desc { font-size: 1.05rem; color: var(--muted); margin-bottom: 32px; max-width: 600px; }
+
+    /* Base URL box */
+    .base-url { display: flex; align-items: center; gap: 12px; background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 14px 18px; margin-bottom: 36px; }
+    .base-url-label { font-size: .75rem; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; white-space: nowrap; }
+    .base-url-val { font-family: monospace; font-size: .9rem; color: var(--accent2); }
+
+    /* Info cards */
+    .info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-bottom: 36px; }
+    .info-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 20px; }
+    .info-card-icon { width: 36px; height: 36px; border-radius: 8px; display: flex; align-items: center; justify-content: center; margin-bottom: 12px; }
+    .info-card-icon svg { width: 18px; height: 18px; stroke: currentColor; fill: none; stroke-width: 2; }
+    .info-card-icon.purple { background: rgba(124,58,237,.15); color: var(--accent2); }
+    .info-card-icon.green  { background: rgba(34,197,94,.15);  color: var(--green); }
+    .info-card-icon.blue   { background: rgba(59,130,246,.15); color: var(--blue); }
+    .info-card h4 { font-size: .9rem; font-weight: 600; margin-bottom: 6px; }
+    .info-card p  { font-size: .82rem; margin: 0; }
+
+    /* Endpoint blocks */
+    .endpoint { background: var(--card); border: 1px solid var(--border); border-radius: 12px; margin-bottom: 24px; overflow: hidden; }
+    .endpoint-header { display: flex; align-items: center; gap: 14px; padding: 16px 20px; border-bottom: 1px solid var(--border); }
+    .method-badge { font-size: .72rem; font-weight: 700; padding: 4px 10px; border-radius: 6px; flex-shrink: 0; }
+    .method-badge.get    { background: rgba(34,197,94,.15);  color: var(--green); }
+    .method-badge.post   { background: rgba(59,130,246,.15); color: var(--blue); }
+    .endpoint-path { font-family: monospace; font-size: .95rem; font-weight: 600; }
+    .endpoint-desc { font-size: .82rem; color: var(--muted); margin-left: auto; }
+    .endpoint-body { padding: 20px; }
+    .endpoint-body > p { margin-bottom: 16px; }
+    .param-table { width: 100%; border-collapse: collapse; font-size: .83rem; margin: 16px 0; }
+    .param-table th { text-align: left; padding: 8px 12px; background: rgba(255,255,255,.04); color: var(--muted); font-size: .72rem; text-transform: uppercase; letter-spacing: .06em; }
+    .param-table td { padding: 10px 12px; border-top: 1px solid var(--border); vertical-align: top; }
+    .param-table td:first-child { font-family: monospace; color: var(--accent2); }
+    .required { color: var(--red); font-size: .7rem; vertical-align: super; }
+    .optional { color: var(--muted); font-size: .72rem; }
+
+    /* Code blocks */
+    pre { background: var(--code-bg); border: 1px solid var(--border); border-radius: 8px; padding: 16px 18px; overflow-x: auto; font-family: monospace; font-size: .83rem; line-height: 1.7; margin: 12px 0; }
+    code { font-family: monospace; font-size: .85em; background: rgba(124,58,237,.15); color: var(--accent2); padding: 2px 6px; border-radius: 4px; }
+    .lang-tag { font-size: .7rem; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; margin-bottom: 4px; }
+    .cmt { color: #4a5568; }
+    .str { color: #68d391; }
+    .key { color: var(--accent2); }
+    .num { color: #f6ad55; }
+    .bool { color: #76e4f7; }
+    .kw  { color: #f97316; }
+
+    /* Auth box */
+    .auth-box { background: rgba(124,58,237,.08); border: 1px solid rgba(124,58,237,.2); border-radius: 10px; padding: 18px 20px; margin-bottom: 28px; }
+    .auth-box h4 { font-size: .9rem; font-weight: 600; margin-bottom: 8px; color: var(--accent2); }
+    .auth-box p { font-size: .85rem; margin: 0; }
+
+    /* Error table */
+    .error-table { width: 100%; border-collapse: collapse; font-size: .83rem; }
+    .error-table th { text-align: left; padding: 10px 14px; background: rgba(255,255,255,.04); color: var(--muted); font-size: .72rem; text-transform: uppercase; }
+    .error-table td { padding: 10px 14px; border-top: 1px solid var(--border); }
+    .error-table td:first-child { font-family: monospace; font-weight: 700; color: var(--red); }
+
+    /* Footer */
+    .footer { margin-top: 80px; padding-top: 28px; border-top: 1px solid var(--border); font-size: .82rem; color: var(--muted); }
+
+    @media (max-width: 768px) {
+      .layout { flex-direction: column; }
+      .sidebar { width: 100%; height: auto; position: static; }
+      .content { padding: 28px 20px; }
+    }
+  </style>
+</head>
+<body>
+<div class="layout">
+
+  <!-- Sidebar nav -->
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-logo">
+        <div class="brand-icon">
+          <svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+        </div>
+        <div class="brand-name">ProdSeller</div>
+      </div>
+      <div class="brand-version">Public API · v1</div>
+    </div>
+
+    <div class="nav-section">
+      <div class="nav-section-title">Introduction</div>
+      <a href="#overview"       class="nav-link">Overview</a>
+      <a href="#authentication" class="nav-link">Authentication</a>
+      <a href="#errors"         class="nav-link">Errors</a>
+    </div>
+
+    <div class="nav-section">
+      <div class="nav-section-title">Endpoints</div>
+      <a href="#get-products"    class="nav-link"><span class="method-pill get">GET</span>  Products list</a>
+      <a href="#get-product"     class="nav-link"><span class="method-pill get">GET</span>  Product by ID</a>
+      <a href="#get-balance"     class="nav-link"><span class="method-pill get">GET</span>  Balance</a>
+      <a href="#post-orders"     class="nav-link"><span class="method-pill post">POST</span> Create order</a>
+      <a href="#list-orders"     class="nav-link"><span class="method-pill get">GET</span>  List orders</a>
+      <a href="#get-order"       class="nav-link"><span class="method-pill get">GET</span>  Order status</a>
+    </div>
+
+    <div class="nav-section">
+      <div class="nav-section-title">Examples</div>
+      <a href="#example-python"   class="nav-link">Python</a>
+      <a href="#example-node"     class="nav-link">Node.js</a>
+      <a href="#example-telegram" class="nav-link">Telegram Bot</a>
+    </div>
+  </aside>
+
+  <!-- Main content -->
+  <main class="content">
+
+    <section id="overview">
+      <h1>ProdSeller API</h1>
+      <p class="hero-desc">
+        Resell products from your balance on any bot or website. Authenticate with your API key,
+        list available products, create orders deducted from your balance, and get instant key delivery.
+      </p>
+
+      <div class="base-url">
+        <span class="base-url-label">Base URL</span>
+        <span class="base-url-val">https://prodseller.com/v1</span>
+      </div>
+
+      <div class="info-grid">
+        <div class="info-card">
+          <div class="info-card-icon purple">
+            <svg viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          </div>
+          <h4>API Key Auth</h4>
+          <p>Send your key in the <code>X-API-Key</code> header with every request.</p>
+        </div>
+        <div class="info-card">
+          <div class="info-card-icon green">
+            <svg viewBox="0 0 24 24"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          </div>
+          <h4>Balance-based</h4>
+          <p>Orders are deducted directly from your USDT balance — no payment step needed.</p>
+        </div>
+        <div class="info-card">
+          <div class="info-card-icon blue">
+            <svg viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          </div>
+          <h4>Rate limit</h4>
+          <p>300 requests per 15 minutes per IP. Use the <code>X-RateLimit-*</code> headers to track usage.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Authentication -->
+    <section id="authentication">
+      <h2>Authentication</h2>
+      <p>Every request must include your API key in the <code>X-API-Key</code> request header. Get or generate your key in the ProdSeller admin panel under <strong>API Manager</strong>.</p>
+
+      <div class="auth-box">
+        <h4>Header format</h4>
+        <p><code>X-API-Key: [REDACTED-PRODSELLER-KEY]</code></p>
+      </div>
+
+      <div class="lang-tag">Example request</div>
+      <pre><span class="cmt"># curl</span>
+curl -H <span class="str">"X-API-Key: psk_YOUR_KEY"</span> https://prodseller.com/v1/balance</pre>
+    </section>
+
+    <!-- Errors -->
+    <section id="errors">
+      <h2>Error Handling</h2>
+      <p>All errors return a JSON object with an <code>error</code> field and a standard HTTP status code.</p>
+      <pre><span class="cmt">// Error response shape</span>
+{
+  <span class="key">"error"</span>: <span class="str">"Solde insuffisant"</span>
+}</pre>
+
+      <table class="error-table">
+        <thead><tr><th>Code</th><th>Meaning</th></tr></thead>
+        <tbody>
+          <tr><td>401</td><td>API key missing, invalid, or disabled</td></tr>
+          <tr><td>400</td><td>Bad request — missing or invalid parameter</td></tr>
+          <tr><td>402</td><td>Insufficient balance</td></tr>
+          <tr><td>404</td><td>Resource not found</td></tr>
+          <tr><td>409</td><td>Conflict — e.g., out of stock</td></tr>
+          <tr><td>429</td><td>Rate limit exceeded</td></tr>
+          <tr><td>500</td><td>Internal server error</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- GET /products -->
+    <section id="get-products">
+      <h2>Endpoints</h2>
+      <div class="endpoint">
+        <div class="endpoint-header">
+          <span class="method-badge get">GET</span>
+          <span class="endpoint-path">/v1/products</span>
+          <span class="endpoint-desc">List all active products</span>
+        </div>
+        <div class="endpoint-body">
+          <p>Returns all active products available for purchase. <code>price</code> is the actual unit price <strong>your API key</strong> will be charged at <code>POST /v1/orders</code> — it already reflects any account-specific or API-wide fixed price set for this product. <code>publicPrice</code> is the standard listed price, shown for reference/comparison only. Check <code>requiresEmailActivation</code> before ordering — see <a href="#post-orders">POST /v1/orders</a> below.</p>
+          <div class="lang-tag">Response</div>
+          <pre>{
+  <span class="key">"products"</span>: [
+    {
+      <span class="key">"id"</span>:          <span class="str">"64abc..."</span>,
+      <span class="key">"name"</span>:        <span class="str">"Netflix 1 Month"</span>,
+      <span class="key">"description"</span>: <span class="str">"Premium account"</span>,
+      <span class="key">"price"</span>:       <span class="num">4.99</span>, <span class="cmt">// what you will actually be charged</span>
+      <span class="key">"publicPrice"</span>: <span class="num">5.99</span>, <span class="cmt">// standard listed price, for reference</span>
+      <span class="key">"imageUrl"</span>:    <span class="str">"https://..."</span>,
+      <span class="key">"delivery"</span>:    { <span class="key">"type"</span>: <span class="str">"instant"</span> },
+      <span class="key">"sold"</span>:        <span class="num">120</span>,
+      <span class="key">"inStock"</span>:     <span class="bool">true</span>,
+      <span class="key">"requiresEmailActivation"</span>: <span class="bool">false</span> <span class="cmt">// if true, POST /v1/orders needs "email"</span>
+    }
+  ]
+}</pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- GET /products/:id -->
+    <section id="get-product">
+      <div class="endpoint">
+        <div class="endpoint-header">
+          <span class="method-badge get">GET</span>
+          <span class="endpoint-path">/v1/products/:id</span>
+          <span class="endpoint-desc">Get product details</span>
+        </div>
+        <div class="endpoint-body">
+          <table class="param-table">
+            <thead><tr><th>Parameter</th><th>Type</th><th>Description</th></tr></thead>
+            <tbody>
+              <tr><td>id <span class="required">*</span></td><td>string</td><td>MongoDB product ID</td></tr>
+            </tbody>
+          </table>
+          <div class="lang-tag">Response</div>
+          <pre>{
+  <span class="key">"id"</span>:      <span class="str">"64abc..."</span>,
+  <span class="key">"name"</span>:    <span class="str">"Netflix 1 Month"</span>,
+  <span class="key">"price"</span>:   <span class="num">4.99</span>, <span class="cmt">// what you will actually be charged</span>
+  <span class="key">"publicPrice"</span>: <span class="num">5.99</span>, <span class="cmt">// standard listed price, for reference</span>
+  <span class="key">"stock"</span>:   <span class="num">47</span>,   <span class="cmt">// null for custom-delivery products</span>
+  <span class="key">"delivery"</span>: { <span class="key">"type"</span>: <span class="str">"instant"</span> },
+  <span class="key">"requiresEmailActivation"</span>: <span class="bool">false</span> <span class="cmt">// if true, POST /v1/orders needs "email"</span>
+}</pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- GET /balance -->
+    <section id="get-balance">
+      <div class="endpoint">
+        <div class="endpoint-header">
+          <span class="method-badge get">GET</span>
+          <span class="endpoint-path">/v1/balance</span>
+          <span class="endpoint-desc">Get your current balance</span>
+        </div>
+        <div class="endpoint-body">
+          <p>Returns the balance and membership tier of the user linked to the API key.</p>
+          <div class="lang-tag">Response</div>
+          <pre>{
+  <span class="key">"telegramId"</span>: <span class="num">123456789</span>,
+  <span class="key">"username"</span>:   <span class="str">"mybot"</span>,
+  <span class="key">"balance"</span>:    <span class="num">25.50</span>,
+  <span class="key">"membership"</span>: <span class="str">"gold"</span>
+}</pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- POST /orders -->
+    <section id="post-orders">
+      <div class="endpoint">
+        <div class="endpoint-header">
+          <span class="method-badge post">POST</span>
+          <span class="endpoint-path">/v1/orders</span>
+          <span class="endpoint-desc">Create an order (deducts balance)</span>
+        </div>
+        <div class="endpoint-body">
+          <p>Purchases a product and delivers the key(s) instantly. The order amount is deducted from your balance. Your membership discount is applied automatically.</p>
+          <div class="auth-box">
+            <h4>Recommended: prevent duplicate charges</h4>
+            <p>Send a stable, unique <code>Idempotency-Key</code> header for each customer checkout (maximum 100 characters). Retrying the same checkout with the same key returns the first order without charging the balance again.</p>
+          </div>
+
+          <h3>Request body</h3>
+          <table class="param-table">
+            <thead><tr><th>Field</th><th>Type</th><th>Description</th></tr></thead>
+            <tbody>
+              <tr><td>productId <span class="required">*</span></td><td>string</td><td>Product ID to purchase</td></tr>
+              <tr><td>quantity</td><td>number</td><td>Quantity (default: 1)</td></tr>
+              <tr><td>email <span class="required">*</span></td><td>string</td><td>Required only when the product's <code>requiresEmailActivation</code> is <code>true</code> (see <a href="#list-products">GET /v1/products</a>). The account/subscription is activated manually onto this email — it is not a free-text note.</td></tr>
+              <tr><td>emails <span class="required">*</span></td><td>string[]</td><td>Use instead of <code>email</code> when <code>quantity &gt; 1</code> on an activation product: one address per unit, array length must equal <code>quantity</code>.</td></tr>
+            </tbody>
+          </table>
+
+          <div class="lang-tag">Request</div>
+          <pre>{
+  <span class="key">"productId"</span>: <span class="str">"64abc..."</span>,
+  <span class="key">"quantity"</span>:  <span class="num">1</span>
+}</pre>
+
+          <div class="lang-tag">Response (instant delivery)</div>
+          <pre>{
+  <span class="key">"orderId"</span>:       <span class="str">"64xyz..."</span>,
+  <span class="key">"status"</span>:        <span class="str">"delivered"</span>,
+  <span class="key">"product"</span>:       { <span class="key">"id"</span>: <span class="str">"64abc..."</span>, <span class="key">"name"</span>: <span class="str">"Netflix 1 Month"</span> },
+  <span class="key">"quantity"</span>:      <span class="num">1</span>,
+  <span class="key">"amount"</span>:        <span class="num">4.99</span>,
+  <span class="key">"membershipDiscount"</span>: <span class="num">5</span>,
+  <span class="key">"bulkDiscount"</span>:       <span class="bool">null</span>,
+  <span class="key">"discountAmount"</span>:  <span class="num">0.25</span>,
+  <span class="key">"deliveredKey"</span>:  <span class="str">"email:pass123"</span>,   <span class="cmt">// single key</span>
+  <span class="key">"deliveredKeys"</span>: [<span class="str">"key1"</span>, <span class="str">"key2"</span>],  <span class="cmt">// multiple (quantity > 1)</span>
+  <span class="key">"createdAt"</span>:     <span class="str">"2026-01-15T10:30:00Z"</span>
+}</pre>
+
+          <h3>Products that require email activation (e.g. shared/family plans)</h3>
+          <p>Some products (check <code>requiresEmailActivation</code> on the product) aren't handed over as a raw key — instead our team activates the subscription directly on the email address you provide. For these, <code>email</code> (or <code>emails</code> for <code>quantity &gt; 1</code>) is required in the request body, or the order is rejected with <code>400</code>.</p>
+
+          <div class="lang-tag">Request (activation product)</div>
+          <pre>{
+  <span class="key">"productId"</span>: <span class="str">"64def..."</span>,
+  <span class="key">"quantity"</span>:  <span class="num">1</span>,
+  <span class="key">"email"</span>:     <span class="str">"customer@gmail.com"</span>
+}</pre>
+
+          <div class="lang-tag">Response (activation product)</div>
+          <pre>{
+  <span class="key">"orderId"</span>:  <span class="str">"64xyz..."</span>,
+  <span class="key">"status"</span>:   <span class="str">"paid"</span>,   <span class="cmt">// not "delivered" yet — activation is manual</span>
+  <span class="key">"product"</span>:  { <span class="key">"id"</span>: <span class="str">"64def..."</span>, <span class="key">"name"</span>: <span class="str">"Canva Pro 2 yrs FW"</span> },
+  <span class="key">"quantity"</span>: <span class="num">1</span>,
+  <span class="key">"amount"</span>:   <span class="num">9.99</span>,
+  <span class="key">"activation"</span>: { <span class="key">"emails"</span>: [<span class="str">"customer@gmail.com"</span>], <span class="key">"eta"</span>: <span class="str">"ASAP"</span> },
+  <span class="key">"createdAt"</span>: <span class="str">"2026-01-15T10:30:00Z"</span>
+}</pre>
+          <p><code>deliveredKey</code>/<code>deliveredKeys</code> are intentionally omitted from this response — the key is reserved but withheld until it's activated on the email you sent. Poll <code>GET /v1/orders/:id</code> until <code>status</code> becomes <code>"delivered"</code>; only then will <code>deliveredKey</code>/<code>deliveredKeys</code> appear.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- GET /orders -->
+    <section id="list-orders">
+      <div class="endpoint">
+        <div class="endpoint-header">
+          <span class="method-badge get">GET</span>
+          <span class="endpoint-path">/v1/orders</span>
+          <span class="endpoint-desc">List your orders</span>
+        </div>
+        <div class="endpoint-body">
+          <p>Returns your own order history (every order placed with this account's API key), newest first. Use this to recover order IDs if your integration didn't store them.</p>
+          <table class="param-table">
+            <thead><tr><th>Parameter</th><th>Type</th><th>Description</th></tr></thead>
+            <tbody>
+              <tr><td>page</td><td>number</td><td>Page number, default 1</td></tr>
+              <tr><td>limit</td><td>number</td><td>Results per page, default 50, max 200</td></tr>
+              <tr><td>status</td><td>string</td><td>Filter by status: pending | paid | delivered | failed</td></tr>
+            </tbody>
+          </table>
+          <div class="lang-tag">Response</div>
+          <pre>{
+  <span class="key">"orders"</span>: [
+    {
+      <span class="key">"orderId"</span>:      <span class="str">"64xyz..."</span>,
+      <span class="key">"status"</span>:       <span class="str">"delivered"</span>,
+      <span class="key">"product"</span>:      { <span class="key">"id"</span>: <span class="str">"..."</span>, <span class="key">"name"</span>: <span class="str">"..."</span> },
+      <span class="key">"quantity"</span>:     <span class="num">1</span>,
+      <span class="key">"amount"</span>:       <span class="num">4.99</span>,
+      <span class="key">"deliveredKey"</span>: <span class="str">"email:pass"</span>,
+      <span class="key">"createdAt"</span>:    <span class="str">"2026-08-10T12:00:00.000Z"</span>
+    }
+  ],
+  <span class="key">"pagination"</span>: { <span class="key">"page"</span>: <span class="num">1</span>, <span class="key">"limit"</span>: <span class="num">50</span>, <span class="key">"total"</span>: <span class="num">3</span>, <span class="key">"pages"</span>: <span class="num">1</span> }
+}</pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- GET /orders/:id -->
+    <section id="get-order">
+      <div class="endpoint">
+        <div class="endpoint-header">
+          <span class="method-badge get">GET</span>
+          <span class="endpoint-path">/v1/orders/:id</span>
+          <span class="endpoint-desc">Get order status</span>
+        </div>
+        <div class="endpoint-body">
+          <table class="param-table">
+            <thead><tr><th>Parameter</th><th>Type</th><th>Description</th></tr></thead>
+            <tbody>
+              <tr><td>id <span class="required">*</span></td><td>string</td><td>Order ID returned from POST /orders</td></tr>
+            </tbody>
+          </table>
+          <div class="lang-tag">Response</div>
+          <pre>{
+  <span class="key">"orderId"</span>:      <span class="str">"64xyz..."</span>,
+  <span class="key">"status"</span>:       <span class="str">"delivered"</span>,  <span class="cmt">// pending | paid | delivered | failed</span>
+  <span class="key">"product"</span>:      { <span class="key">"id"</span>: <span class="str">"..."</span>, <span class="key">"name"</span>: <span class="str">"..."</span> },
+  <span class="key">"quantity"</span>:     <span class="num">1</span>,
+  <span class="key">"amount"</span>:       <span class="num">4.99</span>,
+  <span class="key">"deliveredKey"</span>: <span class="str">"email:pass"</span>
+}</pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- Examples -->
+    <section id="example-python">
+      <h2>Code Examples</h2>
+      <h3>Python</h3>
+      <div class="lang-tag">Python — buy a product</div>
+      <pre><span class="kw">import</span> requests
+
+API_KEY  = <span class="str">"psk_YOUR_KEY_HERE"</span>
+BASE_URL = <span class="str">"https://prodseller.com/v1"</span>
+HEADERS  = { <span class="str">"X-API-Key"</span>: API_KEY }
+
+<span class="cmt"># 1. List products</span>
+products = requests.get(f<span class="str">"{BASE_URL}/products"</span>, headers=HEADERS).json()[<span class="str">"products"</span>]
+product  = products[<span class="num">0</span>]
+print(f<span class="str">"Buying: {product['name']} — ${product['price']}"</span>)
+
+<span class="cmt"># 2. Check balance</span>
+balance = requests.get(f<span class="str">"{BASE_URL}/balance"</span>, headers=HEADERS).json()[<span class="str">"balance"</span>]
+print(f<span class="str">"Balance: ${balance}"</span>)
+
+<span class="cmt"># 3. Create order</span>
+order = requests.post(f<span class="str">"{BASE_URL}/orders"</span>, headers=HEADERS, json={
+    <span class="str">"productId"</span>: product[<span class="str">"id"</span>],
+    <span class="str">"quantity"</span>: <span class="num">1</span>
+}).json()
+
+print(f<span class="str">"Key: {order.get('deliveredKey')}"</span>)</pre>
+    </section>
+
+    <section id="example-node">
+      <h3>Node.js</h3>
+      <div class="lang-tag">Node.js — buy a product</div>
+      <pre><span class="kw">const</span> API_KEY  = <span class="str">'psk_YOUR_KEY_HERE'</span>;
+<span class="kw">const</span> BASE_URL = <span class="str">'https://prodseller.com/v1'</span>;
+<span class="kw">const</span> headers  = { <span class="str">'X-API-Key'</span>: API_KEY, <span class="str">'Content-Type'</span>: <span class="str">'application/json'</span>, <span class="str">'Idempotency-Key'</span>: <span class="str">'checkout_123'</span> };
+
+<span class="cmt">// List products</span>
+<span class="kw">const</span> { products } = <span class="kw">await</span> fetch(`${BASE_URL}/products`, { headers }).then(r => r.json());
+
+<span class="cmt">// Buy first product</span>
+<span class="kw">const</span> order = <span class="kw">await</span> fetch(`${BASE_URL}/orders`, {
+  method: <span class="str">'POST'</span>, headers,
+  body: JSON.stringify({ productId: products[<span class="num">0</span>].id, quantity: <span class="num">1</span> })
+}).then(r => r.json());
+
+console.log(<span class="str">'Delivered key:'</span>, order.deliveredKey);</pre>
+    </section>
+
+    <section id="example-telegram">
+      <h3>Telegram Bot (python-telegram-bot)</h3>
+      <div class="lang-tag">Python — Telegram bot handler</div>
+      <pre><span class="kw">from</span> telegram <span class="kw">import</span> Update
+<span class="kw">from</span> telegram.ext <span class="kw">import</span> CommandHandler, ApplicationBuilder
+<span class="kw">import</span> requests
+
+API_KEY = <span class="str">"psk_YOUR_KEY"</span>
+HEADERS = { <span class="str">"X-API-Key"</span>: API_KEY }
+BASE    = <span class="str">"https://prodseller.com/v1"</span>
+
+<span class="kw">async def</span> buy(update: Update, context):
+    args = context.args
+    <span class="kw">if</span> <span class="kw">not</span> args:
+        <span class="kw">await</span> update.message.reply_text(<span class="str">"Usage: /buy &lt;productId&gt;"</span>)
+        <span class="kw">return</span>
+
+    resp  = requests.post(f<span class="str">"{BASE}/orders"</span>, headers=HEADERS,
+                          json={ <span class="str">"productId"</span>: args[<span class="num">0</span>], <span class="str">"quantity"</span>: <span class="num">1</span> })
+    order = resp.json()
+
+    <span class="kw">if</span> <span class="str">"error"</span> <span class="kw">in</span> order:
+        <span class="kw">await</span> update.message.reply_text(f<span class="str">"❌ {order['error']}"</span>)
+    <span class="kw">else</span>:
+        key = order.get(<span class="str">"deliveredKey"</span>, <span class="str">"(pending delivery)"</span>)
+        <span class="kw">await</span> update.message.reply_text(f<span class="str">"✅ Order #{order['orderId'][:8]}\n\n🔑 {key}"</span>)
+
+app = ApplicationBuilder().token(<span class="str">"BOT_TOKEN"</span>).build()
+app.add_handler(CommandHandler(<span class="str">"buy"</span>, buy))
+app.run_polling()</pre>
+    </section>
+
+    <div class="footer">
+      <p>ProdSeller API v1 · <a href="https://prodseller.com" target="_blank">prodseller.com</a></p>
+    </div>
+
+  </main>
+</div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+[
+ {
+  "section": "identity",
+  "ok": true,
+  "detail": "موردين"
+ },
+ {
+  "section": "ia_schema",
+  "ok": true,
+  "detail": "props: Actor(select), Record ID(unique_id), Parent Record ID(rich_text), Stage(select), Findings / Changes(rich_text), Objective(rich_text), Version ID(rich_text), Decision Required(rich_text), Evidence / Sources(rich_text), Canonical Impact(rich_text), Cycle(number), Message to Send(rich_text), Date(date), Status(select), Received Output / Archive(rich_text), Next Action(rich_text), Record(title)"
+ },
+ {
+  "section": "row_select_skip:Actor",
+  "ok": false,
+  "detail": "value 'z.ai Runtime (Super Z)' not in options ['User', 'ChatGPT', 'Claude', 'System']"
+ },
+ {
+  "section": "row_select_skip:Stage",
+  "ok": false,
+  "detail": "value 'Runtime Evidence + Analysis' not in options ['User Input', 'ChatGPT Analysis', 'Claude Handoff', 'Claude Response', 'ChatGPT Audit', 'Decision']"
+ },
+ {
+  "section": "row_select_skip:Status",
+  "ok": false,
+  "detail": "value 'Committed' not in options ['Open', 'Prepared', 'Awaiting User', 'Received', 'Audited', 'Superseded']"
+ },
+ {
+  "section": "cycle6_row",
+  "ok": true,
+  "detail": "3e858a07-79e8-812b-b58d-eb28bf42c7f0"
+ },
+ {
+  "section": "row_select_skip:Actor",
+  "ok": false,
+  "detail": "value 'z.ai Runtime (Super Z)' not in options ['User', 'ChatGPT', 'Claude', 'System']"
+ },
+ {
+  "section": "row_select_skip:Stage",
+  "ok": false,
+  "detail": "value 'Runtime Research + Knowledge Commit' not in options ['User Input', 'ChatGPT Analysis', 'Claude Handoff', 'Claude Response', 'ChatGPT Audit', 'Decision']"
+ },
+ {
+  "section": "row_select_skip:Status",
+  "ok": false,
+  "detail": "value 'Committed' not in options ['Open', 'Prepared', 'Awaiting User', 'Received', 'Audited', 'Superseded']"
+ },
+ {
+  "section": "cycle7_row",
+  "ok": true,
+  "detail": "3e858a07-79e8-8183-8513-ca9ff8642de7"
+ },
+ {
+  "section": "mec2_results_page",
+  "ok": true,
+  "detail": "3e858a07-79e8-8114-9eaa-e89e40d0ef56"
+ },
+ {
+  "section": "op_protocol_sync",
+  "ok": true,
+  "detail": "3e858a07-79e8-81fd-baf4-cda6a0e09120"
+ },
+ {
+  "section": "prompt_hist_sync",
+  "ok": true,
+  "detail": "3e858a07-79e8-813c-b1d1-d9d1f6fbbc8d"
+ }
+]

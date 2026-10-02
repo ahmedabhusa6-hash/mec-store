@@ -1,0 +1,134 @@
+{
+ "capture_reason": "NEWLY_ACCESSIBLE",
+ "captured_at": "2026-10-02T12:16:49+03:00",
+ "title": "YemenSoft",
+ "last_edited": "2026-09-25T20:11:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e658a07-79e8-81df-a111-f4a208fcb1eb",
+  "created_time": "2026-09-25T20:11:00.000Z",
+  "last_edited_time": "2026-09-25T20:11:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "102d3400-edaa-45e3-8a54-c9c805d465ed"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "Status": {
+    "id": "%3Fp%3Ek",
+    "type": "status",
+    "status": {
+     "id": "74fba241-06ba-433f-84e1-ba5ef614926e",
+     "name": "تم",
+     "color": "green"
+    }
+   },
+   "Entity Type": {
+    "id": "YBX%7C",
+    "type": "select",
+    "select": {
+     "id": "92b5b9bd-e993-4df5-8424-f1af8d23770f",
+     "name": "Company",
+     "color": "blue"
+    }
+   },
+   "Geographic Scope": {
+    "id": "%5Bz_Y",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Yemen / regional",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Yemen / regional",
+      "href": null
+     }
+    ]
+   },
+   "Parent Entity": {
+    "id": "_uUF",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Industry Scope": {
+    "id": "kF%5B%5C",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "ERP / accounting / digital finance",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "ERP / accounting / digital finance",
+      "href": null
+     }
+    ]
+   },
+   "Notes": {
+    "id": "psFm",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Name": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "YemenSoft",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "YemenSoft",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/YemenSoft-3e658a0779e881dfa111f4a208fcb1eb",
+  "public_url": null,
+  "archived": false,
+  "request_id": "aa4aab91-d76f-4e4d-b0ff-93c8c77400de"
+ },
+ "block_count": 0,
+ "blocks": []
+}

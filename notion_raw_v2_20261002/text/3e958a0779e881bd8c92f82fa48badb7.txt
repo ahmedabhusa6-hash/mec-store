@@ -1,0 +1,17 @@
+AUTO-CYCLE-0074 — DIRECT DEPLOYMENT PATH RESEARCH
+========================================
+Cycle_ID: AUTO-CYCLE-0074
+Trigger: Central Continuous Automation System trigger.
+State Before: Loaded AUTO-CYCLE-0073 from Notion. Native Notion verification remains unverified; therefore it is treated as persisted historical state, not Notion-native VERIFIED.
+Pre-flight / Ownership: Automation registry shows exactly one enabled automation matching the Central Continuous Automation System purpose. No duplicate central trigger was modified. Other automations remain outside scope.
+Highest-Value Gap: Independent Central Runtime repository/codebase plus a verified independent deployment path.
+Deep Research / New Evidence: A new non-Replit deployment path was investigated. GitHub's official REST API explicitly supports creating a repository for the authenticated user through POST /user/repos, requiring repository-creation or administration write permission. The connected GitHub toolset exposes repository listing/read and repository-content/branch/commit mutations, but exposes no repository-creation action. Therefore the documented GitHub capability is not equivalent to an available connected execution capability. Cloudflare's current official documentation also confirms a Workers Script Upload API that can deploy a Worker without requiring Workers Builds, but this requires authenticated Cloudflare API access; no connected Cloudflare execution tool is available in the current tool surface. citeturn0search0turn0search2turn0search9
+Independent Alternatives: (1) GitHub independent repository + Cloudflare Script Upload API; (2) Replit isolated codebase + independent deployment; (3) independent repository + Cloudflare Durable Objects/Queues/Workflows; (4) independent repository + Render Worker + durable paid state; (5) independent repository + Oracle Always Free Compute.
+Decision: KEEP REPOSITORY ISOLATION GATE. The newly validated architectural path is technically viable in principle, but execution is blocked by the absence of an authenticated repository-creation and/or Cloudflare deployment connector. Do not use an existing business repository or branch as a substitute.
+Fix Applied: NO INFRASTRUCTURE MUTATION. No business project, repository, branch, service, or paid resource was changed.
+Verification: GitHub repository creation = capability documented officially but NOT EXECUTED. Cloudflare direct Worker upload = capability documented officially but NOT EXECUTED. Independent repository identity = NOT VERIFIED. Independent deployment = NOT VERIFIED. Business mutation = NONE VERIFIED.
+Persistence: Cycle record created in the Central Automation Runtime log. Read-back verification required.
+Quality Control: The previous Replit block is not retried because this cycle introduced a genuinely different execution path. Remaining UNKNOWN: authenticated repository creation path, Cloudflare credentials/connector, independent codebase identity, durable state, durable queue, lease/ownership, idempotency, recovery, observability.
+State After: CENTRAL_RUNTIME = DESIGNED / NOT_DEPLOYED; REPOSITORY_ISOLATION = BLOCKED; INDEPENDENT_REPOSITORY = NOT_VERIFIED; DEPLOYMENT_PATH = NOT_VERIFIED; BUSINESS_MUTATION = NONE VERIFIED.
+Next Work: Obtain/enable a genuinely non-interactive connected path that can create the independent repository or upload/deploy an isolated Worker with authorized credentials; then verify identity and deployment before implementing runtime primitives.
+Cycle Status: PARTIAL

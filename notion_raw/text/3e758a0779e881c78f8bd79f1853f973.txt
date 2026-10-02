@@ -1,0 +1,28 @@
+# تصحيح الحالة المرجعية — Deep Marketing — 2026-09-26
+هذه الصفحة تصحح الحالة التشغيلية الحالية بعد تدقيق المحادثة المرجعية، ولا تنشئ Research Item جديدًا.
+1. الحالة الحالية المحققة
+- KNG-43 =  SYNTHESIZED ؛ Conflict Status =  NONE .
+- RSH-15 =  Needs Follow-up .
+- RSH-16 =  Needs Follow-up ؛ معايرة السببية اكتملت، وتبقى فجوات النقل والآثار طويلة الأجل.
+- RSH-17 =  Needs Follow-up ؛ أضيف دليل تجريبي مستقل على BDAC → market agility في UK retail SMEs، بينما market agility → firm performance والوساطة الكاملة ما تزال مفتوحة.
+- RSH-18 =  Needs Follow-up ؛ سجل الأدلة على مستوى الادعاء مكتمل، والـreplication/transfer ما يزال مفتوحًا.
+2. التصحيح الحاسم
+فحص الأتمتة الفعلي بتاريخ 2026-09-26 أظهر:
+- Deep Marketing Canonical Trigger = DISABLED .
+- Deep Marketing — Scheduled Knowledge Cycles = DISABLED .
+- لم تُجرَ أي عملية enable/disable ضمن هذا التدقيق.
+النتيجة: المنهج التشغيلي مطبق على هذه المحادثة، لكن  التنفيذ المجدول المتكرر لـDeep Marketing غير فعّال حاليًا . لا يجوز وصفه بأنه active أو 24/7 live دون تغيير خارجي مصرح به والتحقق منه.
+3. فجوة provenance المفتوحة
+CKC-RSH17-004 سجل أن مجموعة  KNG-43 Evidence Links  الكاملة لم تكن قابلة للتحقق، وCKC-RSH17-005 أضاف EVD-RSH17-004 دون تعديل KNG-43. لذلك لم يُجرَ overwrite للعلاقة دون إعادة بناء موثوقة.
+4. الدليل الجديد المتحقق
+Aldossary & Agag (2026),  Journal of Retailing and Consumer Services , 90, 104716، يذكر أن Study 1 (N=248) يقدم دليلًا سببيًا على أن قوة Big Data Analytics Capabilities تزيد market agility في UK retail SMEs، وأن Study 2 (N=96) يختبر شروطًا حدّية مرتبطة بالعلاقة. هذا الدليل يدعم الرابط upstream في سياقه المحدد، ولا يثبت وحده market agility → firm performance أو الوساطة الكاملة.  https://doi.org/10.1016/j.jretconser.2025.104716
+5. العمل التالي
+- Reconcile KNG-43 Evidence Links واستعادة المجموعة الكاملة دون overwrite غير آمن.
+- بعد تحقق provenance: مواصلة RSH-17 في causal validation للرابط market agility → firm performance.
+- عدم إنشاء Research Item مكرر يغطي الفجوة نفسها.
+- عند أي Trigger لاحق: Read State → Pre-flight → Determine Next Work → Execute one unit → Commit/Verify → Persist → Next Work.
+6. حدود هذا التصحيح
+- لا ترقية لـKNG-43 إلى ACTIVE.
+- لا تعديل لإعدادات الأتمتة.
+- لا اعتبار للدليل المشتق أو التطبيق المستنتج كـExperiment Result ما لم يُختبر فعليًا.
+- لا اعتبار للبحث الخارجي وحده Knowledge Commit؛ يجب ربطه بالـEvidence والحالة وprovenance.

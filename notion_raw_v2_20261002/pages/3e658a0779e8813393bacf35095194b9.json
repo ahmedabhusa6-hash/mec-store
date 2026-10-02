@@ -1,0 +1,224 @@
+{
+ "capture_reason": "NEWLY_ACCESSIBLE",
+ "captured_at": "2026-10-02T12:16:49+03:00",
+ "title": "Siigo's accountant partner program rewards successful referrals with points and tiered benefits, including education, directory participation, discounts and commercial support.",
+ "last_edited": "2026-09-25T20:07:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e658a07-79e8-8133-93ba-cf35095194b9",
+  "created_time": "2026-09-25T20:07:00.000Z",
+  "last_edited_time": "2026-09-25T20:07:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "230f9103-4d44-47a5-b69f-fef368560b20"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "Conflicting Evidence": {
+    "id": "RNcx",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Date": {
+    "id": "Td%60A",
+    "type": "date",
+    "date": null
+   },
+   "Source Link": {
+    "id": "%5DC%40H",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "3e658a07-79e8-81dc-b2dd-e698f26e25e7"
+     }
+    ],
+    "has_more": false
+   },
+   "Scope": {
+    "id": "_UPZ",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Siigo Partners; 2026 program page",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Siigo Partners; 2026 program page",
+      "href": null
+     }
+    ]
+   },
+   "Confidence": {
+    "id": "eU%3BK",
+    "type": "select",
+    "select": {
+     "id": "dce844a7-249c-496d-b071-eaf2fb18d172",
+     "name": "High",
+     "color": "green"
+    }
+   },
+   "Source Reference": {
+    "id": "kuxt",
+    "type": "url",
+    "url": "https://pdtest.siigo.com/siigo-contador/partners/"
+   },
+   "Case Link": {
+    "id": "mBHn",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "3e658a07-79e8-81f8-ab52-f4e79b33ebff"
+     }
+    ],
+    "has_more": false
+   },
+   "Notes": {
+    "id": "oKLy",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Program terms are time-sensitive and hosted on a pdtest subdomain; verify current production terms before execution.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Program terms are time-sensitive and hosted on a pdtest subdomain; verify current production terms before execution.",
+      "href": null
+     }
+    ]
+   },
+   "Exact Reference": {
+    "id": "q~Kl",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Referral point rules, Partner through Diamond tiers, Academy, directory, benefits and commercial adviser support.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Referral point rules, Partner through Diamond tiers, Academy, directory, benefits and commercial adviser support.",
+      "href": null
+     }
+    ]
+   },
+   "Evidence Status": {
+    "id": "ymog",
+    "type": "status",
+    "status": {
+     "id": "e45b624d-0043-43ed-a63f-e4bedb218a01",
+     "name": "تم",
+     "color": "green"
+    }
+   },
+   "Evidence Type": {
+    "id": "yzj%7D",
+    "type": "select",
+    "select": {
+     "id": "a099258a-d98e-44c4-829b-d41b0e0ca8ee",
+     "name": "Direct",
+     "color": "green"
+    }
+   },
+   "Independence Group": {
+    "id": "zZtm",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Siigo-Official-Partner-Program",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Siigo-Official-Partner-Program",
+      "href": null
+     }
+    ]
+   },
+   "Entity Link": {
+    "id": "zgKu",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "3e658a07-79e8-8186-8801-e7847d5d5816"
+     }
+    ],
+    "has_more": false
+   },
+   "Claim": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Siigo's accountant partner program rewards successful referrals with points and tiered benefits, including education, directory participation, discounts and commercial support.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Siigo's accountant partner program rewards successful referrals with points and tiered benefits, including education, directory participation, discounts and commercial support.",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/Siigo-s-accountant-partner-program-rewards-successful-referrals-with-points-and-tiered-benefits-inc-3e658a0779e8813393bacf35095194b9",
+  "public_url": null,
+  "archived": false,
+  "request_id": "46d04bfd-7eca-49c5-9d74-afe04bc15e98"
+ },
+ "block_count": 0,
+ "blocks": []
+}

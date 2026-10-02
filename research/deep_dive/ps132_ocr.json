@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "Product Name *\nCapcut Pro 1 Month FW\nDescription\n-Full 30 days private Pro Team account .\n-Maximum 2 devices , with full warranty .\n-Stable Account full 30 days (no 7days renew ).\n-Login to mobile App first next to laptop (desktop\nPrice (USD) *\n$ 1.37\nProfit per unit:\nAPI Price (optional)\n$ 1.29",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1790529534,
+  "id": "20260928011852f048550b2aa84064",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "20260928011852f048550b2aa84064",
+  "usage": {
+    "completion_tokens": 86,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 404,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 490
+  }
+}

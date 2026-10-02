@@ -1,0 +1,198 @@
+{
+ "capture_reason": "NEWLY_ACCESSIBLE",
+ "captured_at": "2026-10-02T12:16:49+03:00",
+ "title": "ONYX ERP — Become a Distributor / Agent Program",
+ "last_edited": "2026-09-25T21:03:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e658a07-79e8-81ee-86f6-d9f4caca7f7a",
+  "created_time": "2026-09-25T21:03:00.000Z",
+  "last_edited_time": "2026-09-25T21:03:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "14095699-6e8c-412e-8098-df126ba6935d"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "Publisher": {
+    "id": "%3CqWU",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "ONYX ERP",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "ONYX ERP",
+      "href": null
+     }
+    ]
+   },
+   "Source Type": {
+    "id": "%3FFa%5D",
+    "type": "select",
+    "select": {
+     "id": "b8404c3b-bb42-4e04-8300-32ad0c3628b1",
+     "name": "Official",
+     "color": "blue"
+    }
+   },
+   "Industry Scope": {
+    "id": "%40L%3Bw",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "ERP / channel / distribution / partner enablement",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "ERP / channel / distribution / partner enablement",
+      "href": null
+     }
+    ]
+   },
+   "Notes": {
+    "id": "GU%3Fp",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Official ONYX distributor/agent page. The page describes eligibility, formal documentation, market-study requirements, employee nomination and training, a first-year trial distribution contract, first-year marketing plan and quarterly measurement tools, up to 60 days of onboarding preparation, technical/sales support, free system access for the distributor's own establishment, public listing/branding, updates, and a distributor request form.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Official ONYX distributor/agent page. The page describes eligibility, formal documentation, market-study requirements, employee nomination and training, a first-year trial distribution contract, first-year marketing plan and quarterly measurement tools, up to 60 days of onboarding preparation, technical/sales support, free system access for the distributor's own establishment, public listing/branding, updates, and a distributor request form.",
+      "href": null
+     }
+    ]
+   },
+   "Access Date": {
+    "id": "R%3F_%5B",
+    "type": "date",
+    "date": {
+     "start": "2026-09-26",
+     "end": null,
+     "time_zone": null
+    }
+   },
+   "Authority Tier": {
+    "id": "UBqL",
+    "type": "select",
+    "select": {
+     "id": "a391aa6e-2d67-443f-b676-b385004557dc",
+     "name": "Tier 1",
+     "color": "green"
+    }
+   },
+   "Publication Date": {
+    "id": "ZgiG",
+    "type": "date",
+    "date": null
+   },
+   "Source Status": {
+    "id": "kdcG",
+    "type": "status",
+    "status": {
+     "id": "4f3f06d3-87d1-4036-a378-57d1cfb78fd0",
+     "name": "تم",
+     "color": "green"
+    }
+   },
+   "URL": {
+    "id": "vIuR",
+    "type": "url",
+    "url": "https://onyxproerp.com/%D9%83%D9%8F%D9%86-%D8%A3%D8%AD%D8%AF-%D9%88%D9%83%D9%84%D8%A7%D8%A6%D9%86%D8%A7/"
+   },
+   "Geographic Scope": {
+    "id": "wL%5ER",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "International; public page lists Yemen and multiple overseas markets",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "International; public page lists Yemen and multiple overseas markets",
+      "href": null
+     }
+    ]
+   },
+   "Name": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "ONYX ERP — Become a Distributor / Agent Program",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "ONYX ERP — Become a Distributor / Agent Program",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/ONYX-ERP-Become-a-Distributor-Agent-Program-3e658a0779e881ee86f6d9f4caca7f7a",
+  "public_url": null,
+  "archived": false,
+  "request_id": "a9f66b0a-4714-498e-9104-10d5d2fbad60"
+ },
+ "block_count": 0,
+ "blocks": []
+}

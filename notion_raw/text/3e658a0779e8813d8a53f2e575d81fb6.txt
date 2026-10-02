@@ -1,0 +1,74 @@
+# RSH2 — Cross-Layer Mechanism Matrix
+Research_ID: RSH2
+Artifact status: Working research artifact — not a Knowledge Asset.
+Architecture Implication
+Mechanisms are not interchangeable across domains. The same top-level outcome (e.g., loyalty, performance, behavior change) can be reached through different mediators and different boundary conditions. Therefore, the Master Map should store  mechanism chains , not only domain labels.
+Reliability Rules
+- Meta-analytic evidence = strongest current mechanism support in this matrix.
+- Single experiments/empirical studies = local mechanism evidence, not universal law.
+- Review/bibliometric evidence = mechanism candidate or thematic structure unless causal evidence is separately established.
+- Journal scope statements = domain-structure evidence, not causal proof.
+Next Test
+Compare mechanism chains across at least three domains sharing an outcome (e.g., loyalty or performance) and test whether the mediator, level, and boundary conditions remain distinct.
+Comparative Mechanism Test
+Shared outcome: loyalty / repurchase
+- Customer value:  benefits/sacrifices → perceived value → satisfaction/WOM/repurchase-related outcomes.
+- Brand:  brand offer/alignment → brand experience + consumer-brand bonding → loyalty.
+- E-commerce trust:  privacy/service-quality/site factors → online trust → loyalty/repeat-purchase intention.
+Result:  same broad outcome family, different mediators and boundary conditions. The mechanism layer therefore cannot be collapsed into the outcome layer.
+Shared outcome: performance
+- Product innovation:  customer participation → stage-specific learning/co-development effects → time-to-market / innovation performance → new-product financial performance.
+- Digital capability:  digital marketing capabilities → organizational capability deployment → firm performance.
+- Channels:  channel structure/governance/coordination → intermediation and coordination mechanisms → value/cost/supply-chain outcomes.
+Result:  the performance endpoint is not a sufficient descriptor of the causal chain.
+Comparative Test Decision
+Passed at bounded scope.  Cross-domain comparison supports keeping mechanism/mediator, level and boundary conditions as independent fields in the Master Map. This is not an exhaustive meta-analysis of all marketing mechanisms.
+RSH2 Expansion — B2B / International / CRM / Analytics
+Comparative Boundary Result — Context Moderation
+The B2B, international, CRM and analytics evidence strengthens a common rule:  transferability is conditional . The same mechanism label can change strength, direction, or intermediary structure when the market, organizational configuration, stage, method or stakeholder relationship changes. Therefore  Boundary / Moderator  is a first-class field in the Master Map, not a footnote.
+Next Test
+Use the expanded matrix to test whether the same moderator logic holds across B2B, international, CRM/CX and analytics cases without collapsing context-specific findings into a universal rule.
+Structural Omission Test — 2026-09-26
+The current matrix is strong for  Antecedent → Mechanism/Mediator → Outcome → Boundary → Evidence , but the full Master Map also requires two explicit links for each mechanism record:
+- Theory / Construct:  what explanatory concept is instantiated or tested by the mechanism.
+- Application / Experiment:  what managerial intervention, market action, or empirical test operationalizes the mechanism.
+Additional control fields remain:
+- Question / Phenomenon  — why the mechanism is being examined.
+- Level of Analysis  — consumer, dyad, organization, channel, market/system, etc.
+- Method / Evidence  — how the mechanism is established and what causal strength is justified.
+Structural result
+Omission detected and isolated.  This does not invalidate the current mechanism findings; it means the mechanism matrix is not yet a complete operational representation of the full Master Map.
+Required next version
+Extend each mechanism record to:
+Question / Phenomenon → Domain → Theory / Construct → Antecedent → Mechanism / Mediator → Outcome → Level → Method / Evidence → Boundary / Moderator → Context / Market → Application / Experiment
+This is a schema requirement for the knowledge architecture, not a claim that every empirical study will populate every field with equal granularity.
+Schema Completion — Theory / Construct + Application / Experiment
+Schema Control
+Theory / Construct  and  Application / Experiment  are now explicit fields. A filled field must carry one of two provenance labels in later records:  Evidence-established  or  Derived application/experiment . This prevents proposed managerial use from being mistaken for empirical proof.
+Full-Schema Coherence Pass — 2026-09-26
+The representative mechanism set is now normalized against the complete record schema. The following table is the control template for future mechanism records; entries marked  Derived  are not presented as empirical evidence.
+Coherence Result
+All required layers are now representable in a normalized mechanism record. This closes the  schema representation  gap. It does not close the  evidence strength  gap: some application mappings remain derived, and some mechanism chains need stronger causal evidence.
+Adversarial Exception Audit — 2026-09-26
+Exception 1 — Personalization
+Prior mechanism records include personalization/privacy trade-offs and strong consumer–brand relationships increasing the perceived benefits of information disclosure. New experimental evidence shows personalization can also repel customers when it embarrasses them, while transparency can mitigate some personalization downsides. citeturn999537search0turn999537search2turn999537search13
+Interpretation:  apparent contradiction resolves as a  context/mediator boundary , not an empirical collapse of the personalization construct. The mechanism must record perceived control, privacy risk, relationship strength and potential embarrassment/identity threat where relevant.
+Exception 2 — Omnichannel / retail
+Existing omnichannel evidence includes both complementary and cannibalizing cross-channel effects. A 2024 grocery field experiment found digital and print promotion support produced different sales pathways, reinforcing that channel effects depend on the channel configuration and target response. citeturn999537search9turn999537search11
+Interpretation:  channel addition is not intrinsically complementary or cannibalizing; the mechanism depends on cross-channel interaction and source of sales.
+Exception 3 — Service measurement
+Field and laboratory experiments show that post-service experience surveys can themselves alter subsequent purchase timing. citeturn999537search14
+Interpretation:  measurement is not always a neutral observation layer. In some designs, the measurement instrument can become an intervention/antecedent.
+Exception 4 — Permission / privacy
+Privacy concerns can reduce permission granting, while content relevance or entertainment can mitigate the effect. citeturn999537search6
+Interpretation:  digital permission mechanisms require benefit–risk trade-off fields rather than a single privacy-risk variable.
+Exception Audit Result
+Passed as boundary detection.  No exception requires deleting or replacing the core mechanism architecture. Instead, the exceptions demonstrate why the architecture requires explicit moderators, mediators, measurement conditions, and context. Apparent contradictions were reclassified as context-dependent mechanisms where the evidence supports that interpretation.
+Evidence-Strength Layer — 2026-09-26
+Mechanism claims are now classified by the strength justified by their evidence design:
+Current calibration examples
+- Reference-price anchoring:  valuation/perceived-savings support = strong aggregate evidence; anchor → expected-price latitude → purchase intention = bounded quasi-experimental causal support; realized sales/profit = not established in this stream.
+- Marketing analytics:  analytics dashboard access → increased DDD/performance monitoring → SME sales = causal field-experiment support in the eBay context; analytics → market agility → firm performance = observational/SEM support in the available study.
+- Personalization:  multiple experimental studies establish conditional downside pathways; there is no universal positive personalization effect.
+Operating rule
+The Master Map must store  evidence strength per link , not one global evidence grade for the whole mechanism chain.

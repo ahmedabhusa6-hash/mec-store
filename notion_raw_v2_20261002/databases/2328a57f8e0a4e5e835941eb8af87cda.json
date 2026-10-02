@@ -1,0 +1,1816 @@
+{
+ "capture_reason": "CHANGED",
+ "title": "Decision Log — Supplier Intelligence",
+ "schema": {
+  "object": "database",
+  "id": "2328a57f-8e0a-4e5e-8359-41eb8af87cda",
+  "cover": null,
+  "icon": null,
+  "created_time": "2026-09-26T15:24:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_time": "2026-09-26T15:25:00.000Z",
+  "title": [
+   {
+    "type": "text",
+    "text": {
+     "content": "Decision Log — Supplier Intelligence",
+     "link": null
+    },
+    "annotations": {
+     "bold": false,
+     "italic": false,
+     "strikethrough": false,
+     "underline": false,
+     "code": false,
+     "color": "default"
+    },
+    "plain_text": "Decision Log — Supplier Intelligence",
+    "href": null
+   }
+  ],
+  "description": [
+   {
+    "type": "text",
+    "text": {
+     "content": "Controlled record of architectural, technical, and governance decisions affecting the Supplier Intelligence system and Prompt evolution.",
+     "link": null
+    },
+    "annotations": {
+     "bold": false,
+     "italic": false,
+     "strikethrough": false,
+     "underline": false,
+     "code": false,
+     "color": "default"
+    },
+    "plain_text": "Controlled record of architectural, technical, and governance decisions affecting the Supplier Intelligence system and Prompt evolution.",
+    "href": null
+   }
+  ],
+  "is_inline": false,
+  "database_type": null,
+  "properties": {
+   "Decision ID": {
+    "id": "%3D%60SQ",
+    "name": "Decision ID",
+    "description": null,
+    "type": "unique_id",
+    "unique_id": {
+     "prefix": "DEC"
+    }
+   },
+   "Status": {
+    "id": "FwYF",
+    "name": "Status",
+    "description": null,
+    "type": "select",
+    "select": {
+     "options": [
+      {
+       "id": "9396fdc5-0213-4965-97ba-02de44c071a8",
+       "name": "Open",
+       "color": "yellow",
+       "description": null
+      },
+      {
+       "id": "d5ac126b-c97e-4144-ba31-b293250f6972",
+       "name": "Approved",
+       "color": "green",
+       "description": null
+      },
+      {
+       "id": "edc95c1c-121b-4626-aa02-e3bd7e8994ef",
+       "name": "Rejected",
+       "color": "red",
+       "description": null
+      },
+      {
+       "id": "f12ca186-9bee-4395-b030-04e7bb2c06f4",
+       "name": "Superseded",
+       "color": "brown",
+       "description": null
+      }
+     ]
+    }
+   },
+   "User Decision": {
+    "id": "SO%7Dj",
+    "name": "User Decision",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Impact": {
+    "id": "VlXX",
+    "name": "Impact",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Evidence / Sources": {
+    "id": "%60aJN",
+    "name": "Evidence / Sources",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Rationale": {
+    "id": "e%3DE%3E",
+    "name": "Rationale",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Alternatives Considered": {
+    "id": "wyas",
+    "name": "Alternatives Considered",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Decision Type": {
+    "id": "xBuI",
+    "name": "Decision Type",
+    "description": null,
+    "type": "select",
+    "select": {
+     "options": [
+      {
+       "id": "ce0041ca-aa2f-4cca-8ca5-e50c2a081716",
+       "name": "Governance",
+       "color": "red",
+       "description": null
+      },
+      {
+       "id": "05c8aae4-5381-4dbd-a139-85756d8eb466",
+       "name": "Technical Repair",
+       "color": "green",
+       "description": null
+      },
+      {
+       "id": "48c3d01b-8d1d-4743-ba3e-7ebf56f6ab30",
+       "name": "Architecture",
+       "color": "blue",
+       "description": null
+      }
+     ]
+    }
+   },
+   "Related Version ID": {
+    "id": "yMC%3E",
+    "name": "Related Version ID",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Proposer": {
+    "id": "yNA%3B",
+    "name": "Proposer",
+    "description": null,
+    "type": "select",
+    "select": {
+     "options": [
+      {
+       "id": "6277f623-ccdc-4e90-a314-9ac2d82fda0e",
+       "name": "ChatGPT",
+       "color": "blue",
+       "description": null
+      },
+      {
+       "id": "21311a71-fd15-49a6-a54c-c4ea30646268",
+       "name": "Claude Sonnet 5",
+       "color": "purple",
+       "description": null
+      },
+      {
+       "id": "c22c6f09-ccb9-463f-abdd-8e8e67049e3e",
+       "name": "User",
+       "color": "green",
+       "description": null
+      },
+      {
+       "id": "9f3274c5-4309-4d9c-8603-6a78b9d59c96",
+       "name": "Joint",
+       "color": "yellow",
+       "description": null
+      }
+     ]
+    }
+   },
+   "Decision Summary": {
+    "id": "%7Dbyd",
+    "name": "Decision Summary",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Date": {
+    "id": "%7Dd%5E%7D",
+    "name": "Date",
+    "description": null,
+    "type": "date",
+    "date": {}
+   },
+   "Decision": {
+    "id": "title",
+    "name": "Decision",
+    "description": null,
+    "type": "title",
+    "title": {}
+   }
+  },
+  "parent": {
+   "type": "page_id",
+   "page_id": "3e758a07-79e8-81f8-8732-c94c560c5b3d"
+  },
+  "url": "https://app.notion.com/p/2328a57f8e0a4e5e835941eb8af87cda",
+  "public_url": null,
+  "in_trash": false,
+  "archived": false,
+  "request_id": "fe4b2563-0540-4a81-884a-b1940c9eced7"
+ },
+ "row_count": 7,
+ "rows": [
+  {
+   "object": "page",
+   "id": "3e858a07-79e8-8161-84c4-df33064f75d5",
+   "created_time": "2026-09-27T16:30:00.000Z",
+   "last_edited_time": "2026-09-27T16:30:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3e758a07-79e8-8187-9e89-00278adc0ead"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3e758a07-79e8-8187-9e89-00278adc0ead"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "2328a57f-8e0a-4e5e-8359-41eb8af87cda"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Decision ID": {
+     "id": "%3D%60SQ",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "DEC",
+      "number": 7
+     }
+    },
+    "Status": {
+     "id": "FwYF",
+     "type": "select",
+     "select": null
+    },
+    "User Decision": {
+     "id": "SO%7Dj",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Impact": {
+     "id": "VlXX",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Evidence / Sources": {
+     "id": "%60aJN",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Rationale": {
+     "id": "e%3DE%3E",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Alternatives Considered": {
+     "id": "wyas",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Decision Type": {
+     "id": "xBuI",
+     "type": "select",
+     "select": null
+    },
+    "Related Version ID": {
+     "id": "yMC%3E",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Proposer": {
+     "id": "yNA%3B",
+     "type": "select",
+     "select": null
+    },
+    "Decision Summary": {
+     "id": "%7Dbyd",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Date": {
+     "id": "%7Dd%5E%7D",
+     "type": "date",
+     "date": null
+    },
+    "Decision": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "D1 — RESOLVED: v4.2 → Approved عبر قاعدة الاستثناء التأسيسي (27/09)",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "D1 — RESOLVED: v4.2 → Approved عبر قاعدة الاستثناء التأسيسي (27/09)",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/D1-RESOLVED-v4-2-Approved-27-09-3e858a0779e8816184c4df33064f75d5",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-815a-965b-e8f7392c5bc1",
+   "created_time": "2026-09-26T20:47:00.000Z",
+   "last_edited_time": "2026-09-26T20:47:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "2328a57f-8e0a-4e5e-8359-41eb8af87cda"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Decision ID": {
+     "id": "%3D%60SQ",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "DEC",
+      "number": 6
+     }
+    },
+    "Status": {
+     "id": "FwYF",
+     "type": "select",
+     "select": {
+      "id": "d5ac126b-c97e-4144-ba31-b293250f6972",
+      "name": "Approved",
+      "color": "green"
+     }
+    },
+    "User Decision": {
+     "id": "SO%7Dj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Approved",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Approved",
+       "href": null
+      }
+     ]
+    },
+    "Impact": {
+     "id": "VlXX",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "يمنع حصر المحرك في المتاجر أو المنتجات فقط، ويجعل جميع عائلات المنتجات والخدمات المسجلة في المشروع جزءًا صريحًا من نطاق الاكتشاف، مع الحفاظ على SKU كحقل تشغيل مستقل.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "يمنع حصر المحرك في المتاجر أو المنتجات فقط، ويجعل جميع عائلات المنتجات والخدمات المسجلة في المشروع جزءًا صريحًا من نطاق الاكتشاف، مع الحفاظ على SKU كحقل تشغيل مستقل.",
+       "href": null
+      }
+     ]
+    },
+    "Evidence / Sources": {
+     "id": "%60aJN",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "المرجع الحاكم للمشروع؛ المواصفة التشغيلية للبحث العميق؛ v4.1 Candidate؛ سياق المحادثة الحالي.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "المرجع الحاكم للمشروع؛ المواصفة التشغيلية للبحث العميق؛ v4.1 Candidate؛ سياق المحادثة الحالي.",
+       "href": null
+      }
+     ]
+    },
+    "Rationale": {
+     "id": "e%3DE%3E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "المرجع الحاكم للمشروع ينص على تغطية فئات منتجات وخدمات رقمية متعددة، بينما v4.1 يتطلب SKU فعليًا قبل المقارنة. الجمع بين المستويين يجب أن يكون صريحًا.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "المرجع الحاكم للمشروع ينص على تغطية فئات منتجات وخدمات رقمية متعددة، بينما v4.1 يتطلب SKU فعليًا قبل المقارنة. الجمع بين المستويين يجب أن يكون صريحًا.",
+       "href": null
+      }
+     ]
+    },
+    "Alternatives Considered": {
+     "id": "wyas",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "حصر النطاق في المنتجات فقط؛ أو اعتبار أمثلة واجهة ",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "حصر النطاق في المنتجات فقط؛ أو اعتبار أمثلة واجهة ",
+       "href": null
+      },
+      {
+       "type": "text",
+       "text": {
+        "content": "z.ai",
+        "link": {
+         "url": "http://z.ai/"
+        }
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "z.ai",
+       "href": "http://z.ai/"
+      },
+      {
+       "type": "text",
+       "text": {
+        "content": " مثل eSIM/SaaS/Gift Card/API Pack هي SKU الحالي. لم يتم اعتماد أي منهما.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": " مثل eSIM/SaaS/Gift Card/API Pack هي SKU الحالي. لم يتم اعتماد أي منهما.",
+       "href": null
+      }
+     ]
+    },
+    "Decision Type": {
+     "id": "xBuI",
+     "type": "select",
+     "select": {
+      "id": "48c3d01b-8d1d-4743-ba3e-7ebf56f6ab30",
+      "name": "Architecture",
+      "color": "blue"
+     }
+    },
+    "Related Version ID": {
+     "id": "yMC%3E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Scope-Product-Service-Coverage-1.0",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Scope-Product-Service-Coverage-1.0",
+       "href": null
+      }
+     ]
+    },
+    "Proposer": {
+     "id": "yNA%3B",
+     "type": "select",
+     "select": {
+      "id": "c22c6f09-ccb9-463f-abdd-8e8e67049e3e",
+      "name": "User",
+      "color": "green"
+     }
+    },
+    "Decision Summary": {
+     "id": "%7Dbyd",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "تثبيت أن نطاق Supplier Intelligence يشمل المنتجات والخدمات الرقمية معًا، مع فصل فئة المنتج/الخدمة عن الـSKU الفعلي، وعدم اعتبار أي فئة SKU محددة لهذا التشغيل دون إدخال صريح.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "تثبيت أن نطاق Supplier Intelligence يشمل المنتجات والخدمات الرقمية معًا، مع فصل فئة المنتج/الخدمة عن الـSKU الفعلي، وعدم اعتبار أي فئة SKU محددة لهذا التشغيل دون إدخال صريح.",
+       "href": null
+      }
+     ]
+    },
+    "Date": {
+     "id": "%7Dd%5E%7D",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Decision": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "DEC — Product & Service Scope Clarification for Supplier Intelligence",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "DEC — Product & Service Scope Clarification for Supplier Intelligence",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/DEC-Product-Service-Scope-Clarification-for-Supplier-Intelligence-3e758a0779e8815a965be8f7392c5bc1",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-8109-8aa2-c48af8422e3f",
+   "created_time": "2026-09-26T18:41:00.000Z",
+   "last_edited_time": "2026-09-26T18:41:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "2328a57f-8e0a-4e5e-8359-41eb8af87cda"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Decision ID": {
+     "id": "%3D%60SQ",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "DEC",
+      "number": 5
+     }
+    },
+    "Status": {
+     "id": "FwYF",
+     "type": "select",
+     "select": {
+      "id": "d5ac126b-c97e-4144-ba31-b293250f6972",
+      "name": "Approved",
+      "color": "green"
+     }
+    },
+    "User Decision": {
+     "id": "SO%7Dj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Approved",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Approved",
+       "href": null
+      }
+     ]
+    },
+    "Impact": {
+     "id": "VlXX",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "يمنع خلط محرك بحث الموردين مع طبقة تسليم/تطوير Claude ومع الـPrompt Compiler العام. الـGeneric Compiler مرجع منفصل فقط، ولا يُدمج تلقائيًا في Supplier Intelligence.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "يمنع خلط محرك بحث الموردين مع طبقة تسليم/تطوير Claude ومع الـPrompt Compiler العام. الـGeneric Compiler مرجع منفصل فقط، ولا يُدمج تلقائيًا في Supplier Intelligence.",
+       "href": null
+      }
+     ]
+    },
+    "Evidence / Sources": {
+     "id": "%60aJN",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "قرار المستخدم في المحادثة الحالية + سجل Prompt Development History + Operating Protocol + Current v4.1 Candidate.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "قرار المستخدم في المحادثة الحالية + سجل Prompt Development History + Operating Protocol + Current v4.1 Candidate.",
+       "href": null
+      }
+     ]
+    },
+    "Rationale": {
+     "id": "e%3DE%3E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "لكل طبقة وظيفة ومرجعية مختلفة؛ خلطها قد ينقل وحدات غير مرتبطة إلى المحرك الأساسي أو يغيّر حدوده التشغيلية.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "لكل طبقة وظيفة ومرجعية مختلفة؛ خلطها قد ينقل وحدات غير مرتبطة إلى المحرك الأساسي أو يغيّر حدوده التشغيلية.",
+       "href": null
+      }
+     ]
+    },
+    "Alternatives Considered": {
+     "id": "wyas",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "دمج الطبقات الثلاث في Prompt واحد؛ أو اعتبار الـGeneric Compiler جزءًا من Supplier Intelligence. تم رفض هذين المسارين تشغيليًا.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "دمج الطبقات الثلاث في Prompt واحد؛ أو اعتبار الـGeneric Compiler جزءًا من Supplier Intelligence. تم رفض هذين المسارين تشغيليًا.",
+       "href": null
+      }
+     ]
+    },
+    "Decision Type": {
+     "id": "xBuI",
+     "type": "select",
+     "select": {
+      "id": "ce0041ca-aa2f-4cca-8ca5-e50c2a081716",
+      "name": "Governance",
+      "color": "red"
+     }
+    },
+    "Related Version ID": {
+     "id": "yMC%3E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Governance-Compiler-Separation-1.0",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Governance-Compiler-Separation-1.0",
+       "href": null
+      }
+     ]
+    },
+    "Proposer": {
+     "id": "yNA%3B",
+     "type": "select",
+     "select": {
+      "id": "c22c6f09-ccb9-463f-abdd-8e8e67049e3e",
+      "name": "User",
+      "color": "green"
+     }
+    },
+    "Decision Summary": {
+     "id": "%7Dbyd",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ثبت واعتماد الفصل التشغيلي بين Primary Supplier Research Prompt وClaude Handoff Prompt وGeneric EXECUTION-PROMPT COMPILER — student services.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ثبت واعتماد الفصل التشغيلي بين Primary Supplier Research Prompt وClaude Handoff Prompt وGeneric EXECUTION-PROMPT COMPILER — student services.",
+       "href": null
+      }
+     ]
+    },
+    "Date": {
+     "id": "%7Dd%5E%7D",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Decision": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "DEC — Approved Separation of Supplier Intelligence Prompt Layers",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "DEC — Approved Separation of Supplier Intelligence Prompt Layers",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/DEC-Approved-Separation-of-Supplier-Intelligence-Prompt-Layers-3e758a0779e881098aa2c48af8422e3f",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-81cc-90a8-e861b78cbc96",
+   "created_time": "2026-09-26T17:58:00.000Z",
+   "last_edited_time": "2026-09-26T17:58:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "2328a57f-8e0a-4e5e-8359-41eb8af87cda"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Decision ID": {
+     "id": "%3D%60SQ",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "DEC",
+      "number": 4
+     }
+    },
+    "Status": {
+     "id": "FwYF",
+     "type": "select",
+     "select": {
+      "id": "d5ac126b-c97e-4144-ba31-b293250f6972",
+      "name": "Approved",
+      "color": "green"
+     }
+    },
+    "User Decision": {
+     "id": "SO%7Dj",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Impact": {
+     "id": "VlXX",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Evidence / Sources": {
+     "id": "%60aJN",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Rationale": {
+     "id": "e%3DE%3E",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Alternatives Considered": {
+     "id": "wyas",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Decision Type": {
+     "id": "xBuI",
+     "type": "select",
+     "select": {
+      "id": "ce0041ca-aa2f-4cca-8ca5-e50c2a081716",
+      "name": "Governance",
+      "color": "red"
+     }
+    },
+    "Related Version ID": {
+     "id": "yMC%3E",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Proposer": {
+     "id": "yNA%3B",
+     "type": "select",
+     "select": {
+      "id": "c22c6f09-ccb9-463f-abdd-8e8e67049e3e",
+      "name": "User",
+      "color": "green"
+     }
+    },
+    "Decision Summary": {
+     "id": "%7Dbyd",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Claude owns and edits its workspace and the Prompt Working Reference; ChatGPT owns and edits its workspace and review/operational records; Canonical approval and governance remain user-controlled.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Claude owns and edits its workspace and the Prompt Working Reference; ChatGPT owns and edits its workspace and review/operational records; Canonical approval and governance remain user-controlled.",
+       "href": null
+      }
+     ]
+    },
+    "Date": {
+     "id": "%7Dd%5E%7D",
+     "type": "date",
+     "date": null
+    },
+    "Decision": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "DEC — Explicit ChatGPT Claude Edit Boundaries",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "DEC — Explicit ChatGPT Claude Edit Boundaries",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/DEC-Explicit-ChatGPT-Claude-Edit-Boundaries-3e758a0779e881cc90a8e861b78cbc96",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-8126-b026-d83bbc16f557",
+   "created_time": "2026-09-26T17:51:00.000Z",
+   "last_edited_time": "2026-09-26T17:51:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "2328a57f-8e0a-4e5e-8359-41eb8af87cda"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Decision ID": {
+     "id": "%3D%60SQ",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "DEC",
+      "number": 3
+     }
+    },
+    "Status": {
+     "id": "FwYF",
+     "type": "select",
+     "select": {
+      "id": "d5ac126b-c97e-4144-ba31-b293250f6972",
+      "name": "Approved",
+      "color": "green"
+     }
+    },
+    "User Decision": {
+     "id": "SO%7Dj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Approved by user: project-linked Notion pages, databases, records, and artifacts may be handled automatically as normal working surfaces for this project, using whatever read/archive/update/organization flow is operationally appropriate for ChatGPT↔Claude collaboration. Unrelated projects/material remain protected and require explicit user authorization.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Approved by user: project-linked Notion pages, databases, records, and artifacts may be handled automatically as normal working surfaces for this project, using whatever read/archive/update/organization flow is operationally appropriate for ChatGPT↔Claude collaboration. Unrelated projects/material remain protected and require explicit user authorization.",
+       "href": null
+      }
+     ]
+    },
+    "Impact": {
+     "id": "VlXX",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Removes the need for per-action permission inside the current Supplier Intelligence project scope while preserving strict isolation from unrelated projects and artifacts.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Removes the need for per-action permission inside the current Supplier Intelligence project scope while preserving strict isolation from unrelated projects and artifacts.",
+       "href": null
+      }
+     ]
+    },
+    "Evidence / Sources": {
+     "id": "%60aJN",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "User explicit approval in current conversation; Operating Protocol — Notion-First ChatGPT ↔ Claude Relay.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "User explicit approval in current conversation; Operating Protocol — Notion-First ChatGPT ↔ Claude Relay.",
+       "href": null
+      }
+     ]
+    },
+    "Rationale": {
+     "id": "e%3DE%3E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "The user explicitly authorized automatic handling of all material directly linked to Adaptive Supplier Intelligence Research Engine so the workflow can operate efficiently for both ChatGPT and Claude.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "The user explicitly authorized automatic handling of all material directly linked to Adaptive Supplier Intelligence Research Engine so the workflow can operate efficiently for both ChatGPT and Claude.",
+       "href": null
+      }
+     ]
+    },
+    "Alternatives Considered": {
+     "id": "wyas",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Per-action permission requests inside project scope; keeping project-linked Notion read-only by default. Both superseded by explicit user authorization.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Per-action permission requests inside project scope; keeping project-linked Notion read-only by default. Both superseded by explicit user authorization.",
+       "href": null
+      }
+     ]
+    },
+    "Decision Type": {
+     "id": "xBuI",
+     "type": "select",
+     "select": {
+      "id": "ce0041ca-aa2f-4cca-8ca5-e50c2a081716",
+      "name": "Governance",
+      "color": "red"
+     }
+    },
+    "Related Version ID": {
+     "id": "yMC%3E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Project-Scope-Authorization-1.0",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Project-Scope-Authorization-1.0",
+       "href": null
+      }
+     ]
+    },
+    "Proposer": {
+     "id": "yNA%3B",
+     "type": "select",
+     "select": {
+      "id": "c22c6f09-ccb9-463f-abdd-8e8e67049e3e",
+      "name": "User",
+      "color": "green"
+     }
+    },
+    "Decision Summary": {
+     "id": "%7Dbyd",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Project-linked Notion working surfaces are authorized for normal project operations; out-of-scope content remains protected.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Project-linked Notion working surfaces are authorized for normal project operations; out-of-scope content remains protected.",
+       "href": null
+      }
+     ]
+    },
+    "Date": {
+     "id": "%7Dd%5E%7D",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Decision": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "DEC — Project-Scope Notion Working Authorization",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "DEC — Project-Scope Notion Working Authorization",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/DEC-Project-Scope-Notion-Working-Authorization-3e758a0779e88126b026d83bbc16f557",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-8146-9538-d337fbbb0bfa",
+   "created_time": "2026-09-26T16:48:00.000Z",
+   "last_edited_time": "2026-09-26T16:48:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "2328a57f-8e0a-4e5e-8359-41eb8af87cda"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Decision ID": {
+     "id": "%3D%60SQ",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "DEC",
+      "number": 2
+     }
+    },
+    "Status": {
+     "id": "FwYF",
+     "type": "select",
+     "select": {
+      "id": "9396fdc5-0213-4965-97ba-02de44c071a8",
+      "name": "Open",
+      "color": "yellow"
+     }
+    },
+    "User Decision": {
+     "id": "SO%7Dj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Required",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Required",
+       "href": null
+      }
+     ]
+    },
+    "Impact": {
+     "id": "VlXX",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Governance lifecycle only; does not change supplier-research logic itself.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Governance lifecycle only; does not change supplier-research logic itself.",
+       "href": null
+      }
+     ]
+    },
+    "Evidence / Sources": {
+     "id": "%60aJN",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Canonical Registry promotion gate and current Operational State; current Version Registry state.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Canonical Registry promotion gate and current Operational State; current Version Registry state.",
+       "href": null
+      }
+     ]
+    },
+    "Rationale": {
+     "id": "e%3DE%3E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "The current promotion rule requires Candidate.Parent Version ID = current Approved Version ID, but the registry currently has no Approved Version. Without a bootstrap clause, the first approval is structurally impossible.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "The current promotion rule requires Candidate.Parent Version ID = current Approved Version ID, but the registry currently has no Approved Version. Without a bootstrap clause, the first approval is structurally impossible.",
+       "href": null
+      }
+     ]
+    },
+    "Alternatives Considered": {
+     "id": "wyas",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "1) Keep current rule and accept a deadlock. 2) Allow first approval from latest validated lineage candidate when Approved is empty, then enforce normal Parent=Current Approved afterward. 3) Create an artificial v0 Approved baseline.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "1) Keep current rule and accept a deadlock. 2) Allow first approval from latest validated lineage candidate when Approved is empty, then enforce normal Parent=Current Approved afterward. 3) Create an artificial v0 Approved baseline.",
+       "href": null
+      }
+     ]
+    },
+    "Decision Type": {
+     "id": "xBuI",
+     "type": "select",
+     "select": {
+      "id": "ce0041ca-aa2f-4cca-8ca5-e50c2a081716",
+      "name": "Governance",
+      "color": "red"
+     }
+    },
+    "Related Version ID": {
+     "id": "yMC%3E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "v4.1",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "v4.1",
+       "href": null
+      }
+     ]
+    },
+    "Proposer": {
+     "id": "yNA%3B",
+     "type": "select",
+     "select": {
+      "id": "6277f623-ccdc-4e90-a314-9ac2d82fda0e",
+      "name": "ChatGPT",
+      "color": "blue"
+     }
+    },
+    "Decision Summary": {
+     "id": "%7Dbyd",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Add an explicit bootstrap exception so the first Candidate can be promoted after required review/tests and explicit user approval when the Approved state is empty.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Add an explicit bootstrap exception so the first Candidate can be promoted after required review/tests and explicit user approval when the Approved state is empty.",
+       "href": null
+      }
+     ]
+    },
+    "Date": {
+     "id": "%7Dd%5E%7D",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26T00:00:00.000+00:00",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Decision": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Bootstrap approval gate when no Approved Prompt exists",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Bootstrap approval gate when no Approved Prompt exists",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Bootstrap-approval-gate-when-no-Approved-Prompt-exists-3e758a0779e881469538d337fbbb0bfa",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-81a4-a1a8-df1b46304ebc",
+   "created_time": "2026-09-26T15:24:00.000Z",
+   "last_edited_time": "2026-09-26T15:24:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "2328a57f-8e0a-4e5e-8359-41eb8af87cda"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Decision ID": {
+     "id": "%3D%60SQ",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "DEC",
+      "number": 1
+     }
+    },
+    "Status": {
+     "id": "FwYF",
+     "type": "select",
+     "select": {
+      "id": "d5ac126b-c97e-4144-ba31-b293250f6972",
+      "name": "Approved",
+      "color": "green"
+     }
+    },
+    "User Decision": {
+     "id": "SO%7Dj",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Approved explicitly by the user.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Approved explicitly by the user.",
+       "href": null
+      }
+     ]
+    },
+    "Impact": {
+     "id": "VlXX",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Applies to future Prompt development, review, testing, version promotion, and synchronization.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Applies to future Prompt development, review, testing, version promotion, and synchronization.",
+       "href": null
+      }
+     ]
+    },
+    "Evidence / Sources": {
+     "id": "%60aJN",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Approved by explicit user instruction in the current conversation; supported by the collaboration architecture review already recorded in the project.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Approved by explicit user instruction in the current conversation; supported by the collaboration architecture review already recorded in the project.",
+       "href": null
+      }
+     ]
+    },
+    "Rationale": {
+     "id": "e%3DE%3E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Separates review from drafting and authority, prevents competing final versions, preserves independent workspaces, and creates one controlled source of truth.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Separates review from drafting and authority, prevents competing final versions, preserves independent workspaces, and creates one controlled source of truth.",
+       "href": null
+      }
+     ]
+    },
+    "Alternatives Considered": {
+     "id": "wyas",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Shared editable Prompt across both agents; dual canonical sources; automatic merge. These are not adopted.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Shared editable Prompt across both agents; dual canonical sources; automatic merge. These are not adopted.",
+       "href": null
+      }
+     ]
+    },
+    "Decision Type": {
+     "id": "xBuI",
+     "type": "select",
+     "select": {
+      "id": "ce0041ca-aa2f-4cca-8ca5-e50c2a081716",
+      "name": "Governance",
+      "color": "red"
+     }
+    },
+    "Related Version ID": {
+     "id": "yMC%3E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Architecture-3SPACE-1.0",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Architecture-3SPACE-1.0",
+       "href": null
+      }
+     ]
+    },
+    "Proposer": {
+     "id": "yNA%3B",
+     "type": "select",
+     "select": {
+      "id": "c22c6f09-ccb9-463f-abdd-8e8e67049e3e",
+      "name": "User",
+      "color": "green"
+     }
+    },
+    "Decision Summary": {
+     "id": "%7Dbyd",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Adopt three-space operating model: ChatGPT Workspace for review and analysis; Claude Workspace for research, development, and drafts; Canonical Registry as the sole authority for the approved Prompt.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Adopt three-space operating model: ChatGPT Workspace for review and analysis; Claude Workspace for research, development, and drafts; Canonical Registry as the sole authority for the approved Prompt.",
+       "href": null
+      }
+     ]
+    },
+    "Date": {
+     "id": "%7Dd%5E%7D",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26T00:00:00.000+00:00",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Decision": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "DEC — Establish ChatGPT / Claude / Canonical three-space governance",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "DEC — Establish ChatGPT / Claude / Canonical three-space governance",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/DEC-Establish-ChatGPT-Claude-Canonical-three-space-governance-3e758a0779e881a4a1a8df1b46304ebc",
+   "public_url": null,
+   "archived": false
+  }
+ ]
+}

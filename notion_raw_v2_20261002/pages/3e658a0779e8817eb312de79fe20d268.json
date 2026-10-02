@@ -1,0 +1,173 @@
+{
+ "capture_reason": "NEWLY_ACCESSIBLE",
+ "captured_at": "2026-10-02T12:16:49+03:00",
+ "title": "Branding",
+ "last_edited": "2026-09-25T20:54:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e658a07-79e8-817e-b312-de79fe20d268",
+  "created_time": "2026-09-25T20:54:00.000Z",
+  "last_edited_time": "2026-09-25T20:54:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "a14def36-fe3f-4246-90b4-2872da859364"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "Parent": {
+    "id": "%3EfF%5E",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Marketing Strategy",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Marketing Strategy",
+      "href": null
+     }
+    ]
+   },
+   "Status": {
+    "id": "IPP%3A",
+    "type": "select",
+    "select": {
+     "id": "e7888fac-ae22-41bc-b271-a51886ca1be3",
+     "name": "Mapped",
+     "color": "blue"
+    }
+   },
+   "Last Reviewed": {
+    "id": "MoVl",
+    "type": "date",
+    "date": {
+     "start": "2026-09-25",
+     "end": null,
+     "time_zone": null
+    }
+   },
+   "Domain ID": {
+    "id": "RoQ%7B",
+    "type": "unique_id",
+    "unique_id": {
+     "prefix": "DOM",
+     "number": 9
+    }
+   },
+   "Level": {
+    "id": "WOQt",
+    "type": "select",
+    "select": {
+     "id": "69474789-0c9d-4e4b-ba20-3e51e7522b54",
+     "name": "Brand & Communication",
+     "color": "pink"
+    }
+   },
+   "Priority": {
+    "id": "_rIt",
+    "type": "select",
+    "select": {
+     "id": "3587b6c2-7409-48eb-852c-4c6f245fca6a",
+     "name": "Critical",
+     "color": "red"
+    }
+   },
+   "Description": {
+    "id": "jF%3A%3E",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "استراتيجية العلامة، الهوية، الصورة، القيمة، الوعي، السمعة، الثقة، بنية العلامة.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "استراتيجية العلامة، الهوية، الصورة، القيمة، الوعي، السمعة، الثقة، بنية العلامة.",
+      "href": null
+     }
+    ]
+   },
+   "Evidence Basis": {
+    "id": "u%3Fc%5D",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "AMA Competency Model; CIM GPMF",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "AMA Competency Model; CIM GPMF",
+      "href": null
+     }
+    ]
+   },
+   "Name": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Branding",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Branding",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/Branding-3e658a0779e8817eb312de79fe20d268",
+  "public_url": null,
+  "archived": false,
+  "request_id": "1fc436eb-4dbd-4af4-8c70-c27fd3d6d656"
+ },
+ "block_count": 0,
+ "blocks": []
+}

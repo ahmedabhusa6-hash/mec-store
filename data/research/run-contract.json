@@ -1,0 +1,54 @@
+{
+  "run_id": "SI-BATCH1-20260926",
+  "prompt_version": "v4.1 Candidate",
+  "started_utc": "2026-09-26T21:02:52Z",
+  "program_scope": "400+ digital product/service SKU catalog — multi-batch program, internally partitioned by family",
+  "this_session": "Batch 1",
+  "user_request": "Global Price Intelligence across 400+ digital product/service SKUs; supplier discovery as primary mechanism; upstream/legitimacy/resale as supporting dimensions; output Web Page + Markdown",
+  "interpreted_objective": "PRICE INTELLIGENCE — discover, compare, verify and structure prices of digital products/services globally with exact SKU comparability and evidence-graded verification. Determine Cheapest Advertised / Cheapest Directly Observed / Cheapest Without Documented Guarantee / Cheapest With Documented Guarantee / Effective Acquisition Cost where evidence permits.",
+  "immutable_constraints": [
+    "Never claim 'cheapest in the world' — only scoped formulation",
+    "Discovered ≠ Verified ≠ Supplier ≠ Upstream ≠ Primary Source ≠ Lowest Verified Price",
+    "Advertised Price ≠ Transaction Price; Availability ≠ Purchase",
+    "Search failure ≠ Non-Existence",
+    "No fabricated numbers/links/names/prices — missing = Unknown",
+    "SKU identity must be locked before price comparison",
+    "Region-aware SKU matching; no supplier geographic exclusion",
+    "Multi-scenario volume evaluation; tiers never generalized"
+  ],
+  "blocking_fields_at_start": ["Product/SKU — resolved as 400+ SKU catalog program with Batch 1 execution"],
+  "open_fields": ["Volume per SKU = Multi-Scenario", "Purchase region per SKU = SKU-identity-dependent"],
+  "research_scope": {
+    "sku_families": ["AI/SaaS", "Digital Subscriptions", "Gift Cards", "Game Top-up", "Game Keys", "Software/Licenses", "eSIM/Telecom", "SMM Services", "Virtual Numbers/SMS"],
+    "supplier_discovery": "Global — no geographic exclusion",
+    "sku_matching": "Region-aware"
+  },
+  "evidence_standard": "Claim → Evidence → Verification State; snippets = Lead/Advertised level unless directly retrieved; independent dimensions kept separate (Price Evidence Level, Freshness, Authority, Independence, Transaction Verification)",
+  "complexity_class": "C4",
+  "action_budget": { "cap": 96, "reserve": 24, "per_branch_max_pct": 35 },
+  "coverage_obligations_seeded": ["Product-first (official anchors)", "Price-first", "Seller-first (marketplaces + keyshops)", "Marketplace/Channel-first", "B2B/Catalog (DT One/Reloadly/Ding)", "Community/Bot-channel leads re-verification", "Language/market expansion (MENA/TR/RU)"],
+  "tool_access_limitations": [
+    "Search via z-ai web_search (snippet-level evidence by default)",
+    "Direct page retrieval limited by bot-protection on some commercial sites — failures recorded honestly as Retrieval Failed",
+    "No Telegram access — bot/channel leads remain Unverified Leads unless web evidence found",
+    "No transaction capability — Transaction Verification = Not Performed for all offers"
+  ],
+  "seeds_policy": "All 73 historical Notion leads = Unverified Leads in Open-Items Ledger; re-verified during run; never treated as current facts",
+  "batch1_candidate_skus": [
+    { "sku_id": "SKU-AI-001", "family": "AI/SaaS", "product": "OpenAI ChatGPT Plus", "plan": "Plus monthly", "identity_status": "to-lock" },
+    { "sku_id": "SKU-AI-002", "family": "AI/SaaS", "product": "Google Gemini (AI Pro)", "plan": "AI Pro monthly", "identity_status": "to-lock" },
+    { "sku_id": "SKU-SUB-001", "family": "Digital Subscriptions", "product": "Spotify Premium Individual", "plan": "1 month", "identity_status": "to-lock" },
+    { "sku_id": "SKU-SUB-002", "family": "Digital Subscriptions", "product": "Netflix Standard", "plan": "1 month", "identity_status": "to-lock" },
+    { "sku_id": "SKU-SUB-003", "family": "Digital Subscriptions", "product": "NordVPN", "plan": "1 year", "identity_status": "to-lock" },
+    { "sku_id": "SKU-GC-001", "family": "Gift Cards", "product": "Steam Wallet", "denomination": "$20 USD", "identity_status": "to-lock" },
+    { "sku_id": "SKU-GC-002", "family": "Gift Cards", "product": "Apple iTunes/App Store", "denomination": "$25 USD", "identity_status": "to-lock" },
+    { "sku_id": "SKU-GC-003", "family": "Gift Cards", "product": "Google Play", "denomination": "$25 USD", "identity_status": "to-lock" },
+    { "sku_id": "SKU-TOP-001", "family": "Game Top-up", "product": "PUBG Mobile UC", "denomination": "660 UC", "identity_status": "to-lock" },
+    { "sku_id": "SKU-TOP-002", "family": "Game Top-up", "product": "Free Fire Diamonds", "denomination": "520 Diamonds", "identity_status": "to-lock" },
+    { "sku_id": "SKU-SW-001", "family": "Software/Licenses", "product": "Windows 11 Pro", "license": "retail/OEM key", "identity_status": "to-lock" },
+    { "sku_id": "SKU-KEY-001", "family": "Game Keys", "product": "Minecraft Java & Bedrock", "edition": "PC key global", "identity_status": "to-lock" },
+    { "sku_id": "SKU-ESIM-001", "family": "eSIM/Telecom", "product": "Regional eSIM data pack", "denomination": "10GB/30 days", "identity_status": "to-lock" },
+    { "sku_id": "SKU-SMM-001", "family": "SMM Services", "product": "Instagram Followers", "quantity": "1000 followers", "identity_status": "to-lock" },
+    { "sku_id": "SKU-VN-001", "family": "Virtual Numbers/SMS", "product": "Virtual number SMS verification", "identity_status": "to-lock" }
+  ]
+}

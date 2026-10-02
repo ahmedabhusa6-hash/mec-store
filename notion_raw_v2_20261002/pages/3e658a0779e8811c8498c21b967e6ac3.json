@@ -1,0 +1,200 @@
+{
+ "capture_reason": "NEWLY_ACCESSIBLE",
+ "captured_at": "2026-10-02T12:16:49+03:00",
+ "title": "كيف تؤثر البنية المالية/المدفوعات في تصميم وتسويق البرمجيات الرقمية في اليمن حسب المنطقة والقطاع؟",
+ "last_edited": "2026-09-25T20:10:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e658a07-79e8-811c-8498-c21b967e6ac3",
+  "created_time": "2026-09-25T20:10:00.000Z",
+  "last_edited_time": "2026-09-25T20:10:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "c5aa8b9a-13b6-4611-9e63-9b880d2ad8ea"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "Why It Matters": {
+    "id": "EIs%3C",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "قد يكون القيد التشغيلي أقوى من الرسالة التسويقية في بعض قطاعات المنتجات المالية الرقمية.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "قد يكون القيد التشغيلي أقوى من الرسالة التسويقية في بعض قطاعات المنتجات المالية الرقمية.",
+      "href": null
+     }
+    ]
+   },
+   "Next Research Action": {
+    "id": "FS%60%5D",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "جمع مصادر رسمية/قطاعية يمنية ومقابلات/بيانات مؤسساتية قبل أي استنتاج عن سلوك العميل.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "جمع مصادر رسمية/قطاعية يمنية ومقابلات/بيانات مؤسساتية قبل أي استنتاج عن سلوك العميل.",
+      "href": null
+     }
+    ]
+   },
+   "Knowledge Link": {
+    "id": "O%7D%60Y",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "3e658a07-79e8-8111-a965-dcce690a70a4"
+     }
+    ],
+    "has_more": false
+   },
+   "Evidence Gap": {
+    "id": "U%5Edc",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "نقص بيانات حديثة ومجزأة حسب القطاع والمنطقة حول payment behavior, digital wallet adoption, B2B collection and software purchasing criteria.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "نقص بيانات حديثة ومجزأة حسب القطاع والمنطقة حول payment behavior, digital wallet adoption, B2B collection and software purchasing criteria.",
+      "href": null
+     }
+    ]
+   },
+   "Notes": {
+    "id": "WyaF",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Answer": {
+    "id": "XEZA",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Known Evidence": {
+    "id": "bT%3Ej",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "World Bank documents on digital payments, interoperability and exchange-rate fragmentation.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "World Bank documents on digital payments, interoperability and exchange-rate fragmentation.",
+      "href": null
+     }
+    ]
+   },
+   "Entity Link": {
+    "id": "k_JM",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "3e658a07-79e8-818f-b96d-d984a208ce83"
+     }
+    ],
+    "has_more": false
+   },
+   "Research Status": {
+    "id": "p%5EId",
+    "type": "status",
+    "status": {
+     "id": "eeb0bf1c-4783-4e4b-8092-a186bf7e659b",
+     "name": "لم تبدأ",
+     "color": "default"
+    }
+   },
+   "Priority": {
+    "id": "zTh%5C",
+    "type": "select",
+    "select": {
+     "id": "078bd797-8109-4f36-9c15-46654ef34e27",
+     "name": "High",
+     "color": "red"
+    }
+   },
+   "Question": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "كيف تؤثر البنية المالية/المدفوعات في تصميم وتسويق البرمجيات الرقمية في اليمن حسب المنطقة والقطاع؟",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "كيف تؤثر البنية المالية/المدفوعات في تصميم وتسويق البرمجيات الرقمية في اليمن حسب المنطقة والقطاع؟",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/3e658a0779e8811c8498c21b967e6ac3",
+  "public_url": null,
+  "archived": false,
+  "request_id": "28c7f543-eae3-4be9-a070-daee66574e71"
+ },
+ "block_count": 0,
+ "blocks": []
+}

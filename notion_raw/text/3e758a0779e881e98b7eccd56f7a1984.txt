@@ -1,0 +1,7 @@
+# CKC-RSH17-010 — Provenance attribution reconciliation
+Research_ID: RSH-17
+Reconciliation finding:
+KNG-43 Evidence Links contains 31 refs and includes EVD-RSH17-LONG-01. The KNG-43 record labels Last Changed By Cycle = CKC-RSH17-009, while the separately fetched CKC-RSH17-009 record was created as a duplicate-source audit with NO_CHANGE.
+Decision:
+The persisted provenance state is verified. The actor/cycle attribution of the write is not independently proven and must not be inferred. No historical record is deleted or rewritten.
+Knowledge state unchanged: KNG-43 SYNTHESIZED; RSH-17 Needs Follow-up.

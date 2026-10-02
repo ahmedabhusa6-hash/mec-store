@@ -1,0 +1,2218 @@
+{
+ "generated": "2026-09-28T20:32:25.424683",
+ "total_records": 146,
+ "entities": [
+  {
+   "name": "Turgame",
+   "domain": "turgame.com",
+   "aliases": [
+    "turgame",
+    "definite play"
+   ],
+   "source": "entity_registry",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "Eneba",
+   "domain": "eneba.com",
+   "aliases": [],
+   "source": "entity_registry",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "FazerCards",
+   "domain": "reseller.fazercards.com",
+   "aliases": [
+    "fazercards",
+    "fazer cards"
+   ],
+   "source": "entity_registry",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "Reloadly",
+   "domain": "reloadly.com",
+   "aliases": [],
+   "source": "entity_registry",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "GGSel",
+   "domain": "ggsel.net",
+   "aliases": [
+    "ggsel",
+    "gg sel"
+   ],
+   "source": "entity_registry",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "Keyforsteam",
+   "domain": "keyforsteam.de",
+   "aliases": [],
+   "source": "entity_registry",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "CJS CD Keys",
+   "domain": "cjs-cdkeys.com",
+   "aliases": [
+    "cjs cdkeys"
+   ],
+   "source": "entity_registry",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "Kinguin / G2A / Z2U / Allkeyshop / GG.deals / CDKeys / RoyalCDKeys / Gocdkeys / Keys4us",
+   "domain": "",
+   "aliases": [],
+   "source": "entity_registry",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "Microsoft / Xbox",
+   "domain": "microsoft.com",
+   "aliases": [],
+   "source": "entity_registry",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "Netflix / Spotify / YouTube / Discord / Telegram / OpenAI / NordVPN / Airalo / MobiMatter",
+   "domain": "",
+   "aliases": [],
+   "source": "entity_registry",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "ProdSeller",
+   "domain": "prodseller.io",
+   "aliases": [
+    "prodseller",
+    "ps seller"
+   ],
+   "source": "store supplier + mec research",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "Kinguin",
+   "domain": "kinguin.net",
+   "aliases": [],
+   "source": "marketplace known",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "G2A",
+   "domain": "g2a.com",
+   "aliases": [
+    "g2a pay"
+   ],
+   "source": "marketplace known",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "Z2U",
+   "domain": "z2u.com",
+   "aliases": [],
+   "source": "marketplace known (mec5)",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "U7Buy",
+   "domain": "u7buy.com",
+   "aliases": [],
+   "source": "mec5 research",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "OffGamers",
+   "domain": "offgamers.com",
+   "aliases": [
+    "off gamers"
+   ],
+   "source": "mec5 research",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "SEA Gamer Mall",
+   "domain": "seagm.com",
+   "aliases": [
+    "seagm",
+    "sea gamer"
+   ],
+   "source": "mec5 research",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "GamsGo",
+   "domain": "gamsgo.com",
+   "aliases": [
+    "gamsgo"
+   ],
+   "source": "mec5 research",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "AllKeyShop",
+   "domain": "allkeyshop.com",
+   "aliases": [
+    "allkeyshop"
+   ],
+   "source": "price comparison known",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "GG.deals",
+   "domain": "gg.deals",
+   "aliases": [],
+   "source": "price comparison known",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "CDKeys",
+   "domain": "cdkeys.com",
+   "aliases": [
+    "cd keys"
+   ],
+   "source": "retailer known",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "RoyalCDKeys",
+   "domain": "royalcdkeys.com",
+   "aliases": [],
+   "source": "retailer known",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "GoCDKeys",
+   "domain": "gocdkeys.com",
+   "aliases": [],
+   "source": "retailer known",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "Keys4us",
+   "domain": "keys4us.com",
+   "aliases": [],
+   "source": "retailer known",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "Driffy",
+   "domain": "driffy.com",
+   "aliases": [],
+   "source": "marketplace known",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "K4G",
+   "domain": "k4g.com",
+   "aliases": [
+    "k4g"
+   ],
+   "source": "b2b/b2c marketplace (b3 research)",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "Plati.market",
+   "domain": "plati.market",
+   "aliases": [
+    "plati",
+    "plati market"
+   ],
+   "source": "ru marketplace (b3)",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "Digiseller",
+   "domain": "digiseller.com",
+   "aliases": [
+    "digi seller",
+    "digiseller"
+   ],
+   "source": "ru platform (b3)",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "BitTopup",
+   "domain": "bittopup.com",
+   "aliases": [
+    "bit topup"
+   ],
+   "source": "b3 research",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "StackVault",
+   "domain": "stackvault.shop",
+   "aliases": [
+    "stack vault"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "Acczone",
+   "domain": "acczone.store",
+   "aliases": [
+    "acczone store",
+    "awz"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "HitMeow",
+   "domain": "hitmeow.com",
+   "aliases": [
+    "premikey",
+    "premikey bots",
+    "hitmeow shop"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "Neva AI",
+   "domain": "neva-ai.com",
+   "aliases": [
+    "nevakeystore",
+    "neva"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "Fin Ai Support",
+   "domain": "finai.support",
+   "aliases": [
+    "veriyfersupportbot",
+    "fin ai"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "Gamisell",
+   "domain": "gamisell.com",
+   "aliases": [
+    "gamisell"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "Evolution Era",
+   "domain": "evolutionera.io",
+   "aliases": [
+    "evo era"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "insightXpro",
+   "domain": "insightxpro.com",
+   "aliases": [
+    "insightxpro"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "AISUBS.ID",
+   "domain": "aisubs.id",
+   "aliases": [],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "Verifier",
+   "domain": "verifier.support",
+   "aliases": [
+    "verifierbot",
+    "verifier group"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "Gemini12Pro",
+   "domain": "gemini12pro.com",
+   "aliases": [
+    "gemini12pro"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "Bite Store",
+   "domain": "bitestore.io",
+   "aliases": [
+    "learnwith_alex",
+    "bite store"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "MobiMatter",
+   "domain": "mobimatter.com",
+   "aliases": [],
+   "source": "esim b2b (registry)",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "Airalo",
+   "domain": "airalo.com",
+   "aliases": [],
+   "source": "esim brand + partner",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "NordVPN",
+   "domain": "nordvpn.com",
+   "aliases": [],
+   "source": "brand known",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "SheerID",
+   "domain": "sheerid.com",
+   "aliases": [],
+   "source": "verification service known",
+   "layer": "ENTITY"
+  },
+  {
+   "name": "Binance Pay",
+   "domain": "binance.com",
+   "aliases": [
+    "binance pay"
+   ],
+   "source": "payment rail known",
+   "layer": "ENTITY"
+  }
+ ],
+ "brands": [
+  "OpenAI",
+  "Anthropic",
+  "Google",
+  "xAI",
+  "DeepSeek",
+  "Perplexity",
+  "Midjourney",
+  "Poe",
+  "Suno",
+  "ElevenLabs",
+  "Runway",
+  "Ideogram",
+  "Leonardo AI",
+  "Krea",
+  "Recraft",
+  "Character.AI",
+  "Gamma",
+  "Mistral AI",
+  "Jasper",
+  "Sider",
+  "Manus",
+  "Microsoft",
+  "Adobe",
+  "Notion",
+  "Canva",
+  "GitHub",
+  "Anysphere",
+  "Grammarly",
+  "QuillBot",
+  "Freepik",
+  "Envato",
+  "Shutterstock",
+  "Kittl",
+  "Framer",
+  "Valve",
+  "Sony",
+  "Apple",
+  "Amazon",
+  "Nintendo",
+  "Razer",
+  "Netflix",
+  "Spotify",
+  "Roblox",
+  "PlayStation",
+  "Binance",
+  "Various",
+  "Garena",
+  "Tencent",
+  "Moonton",
+  "Riot Games",
+  "Epic Games",
+  "HoYoverse",
+  "EA",
+  "Activision",
+  "Supercell",
+  "miHoYo",
+  "Various publishers",
+  "JetBrains",
+  "Unity",
+  "Various providers",
+  "Various panels",
+  "Disney",
+  "Warner Bros.",
+  "Hulu",
+  "Paramount",
+  "Peacock",
+  "Crunchyroll",
+  "Audible",
+  "Deezer",
+  "Dropbox",
+  "MEGA",
+  "Slack",
+  "Zoom",
+  "Trello",
+  "Jira",
+  "Telegram",
+  "Discord",
+  "Twitch",
+  "YouTube",
+  "iQIYI",
+  "Youku",
+  "Vimeo",
+  "SoundCloud",
+  "LinkedIn",
+  "Medium",
+  "Patreon",
+  "Coursera",
+  "Skillshare",
+  "Duolingo",
+  "ExpressVPN",
+  "Surfshark",
+  "Figma",
+  "Monday.com",
+  "ClickUp",
+  "Asana",
+  "Miro",
+  "Ding",
+  "DT One",
+  "Blackhawk Network",
+  "InComm"
+ ],
+ "match_index": {
+  "turgame": {
+   "name": "Turgame",
+   "domain": "turgame.com",
+   "aliases": [
+    "turgame",
+    "definite play"
+   ],
+   "source": "entity_registry",
+   "layer": "ENTITY"
+  },
+  "definite play": {
+   "name": "Turgame",
+   "domain": "turgame.com",
+   "aliases": [
+    "turgame",
+    "definite play"
+   ],
+   "source": "entity_registry",
+   "layer": "ENTITY"
+  },
+  "turgame.com": {
+   "name": "Turgame",
+   "domain": "turgame.com",
+   "aliases": [
+    "turgame",
+    "definite play"
+   ],
+   "source": "entity_registry",
+   "layer": "ENTITY"
+  },
+  "eneba": {
+   "name": "Eneba",
+   "domain": "eneba.com",
+   "aliases": [],
+   "source": "entity_registry",
+   "layer": "ENTITY"
+  },
+  "eneba.com": {
+   "name": "Eneba",
+   "domain": "eneba.com",
+   "aliases": [],
+   "source": "entity_registry",
+   "layer": "ENTITY"
+  },
+  "fazercards": {
+   "name": "FazerCards",
+   "domain": "reseller.fazercards.com",
+   "aliases": [
+    "fazercards",
+    "fazer cards"
+   ],
+   "source": "entity_registry",
+   "layer": "ENTITY"
+  },
+  "fazer cards": {
+   "name": "FazerCards",
+   "domain": "reseller.fazercards.com",
+   "aliases": [
+    "fazercards",
+    "fazer cards"
+   ],
+   "source": "entity_registry",
+   "layer": "ENTITY"
+  },
+  "reseller.fazercards.com": {
+   "name": "FazerCards",
+   "domain": "reseller.fazercards.com",
+   "aliases": [
+    "fazercards",
+    "fazer cards"
+   ],
+   "source": "entity_registry",
+   "layer": "ENTITY"
+  },
+  "reloadly": {
+   "name": "Reloadly",
+   "domain": "reloadly.com",
+   "aliases": [],
+   "source": "entity_registry",
+   "layer": "ENTITY"
+  },
+  "reloadly.com": {
+   "name": "Reloadly",
+   "domain": "reloadly.com",
+   "aliases": [],
+   "source": "entity_registry",
+   "layer": "ENTITY"
+  },
+  "ggsel": {
+   "name": "GGSel",
+   "domain": "ggsel.net",
+   "aliases": [
+    "ggsel",
+    "gg sel"
+   ],
+   "source": "entity_registry",
+   "layer": "ENTITY"
+  },
+  "gg sel": {
+   "name": "GGSel",
+   "domain": "ggsel.net",
+   "aliases": [
+    "ggsel",
+    "gg sel"
+   ],
+   "source": "entity_registry",
+   "layer": "ENTITY"
+  },
+  "ggsel.net": {
+   "name": "GGSel",
+   "domain": "ggsel.net",
+   "aliases": [
+    "ggsel",
+    "gg sel"
+   ],
+   "source": "entity_registry",
+   "layer": "ENTITY"
+  },
+  "keyforsteam": {
+   "name": "Keyforsteam",
+   "domain": "keyforsteam.de",
+   "aliases": [],
+   "source": "entity_registry",
+   "layer": "ENTITY"
+  },
+  "keyforsteam.de": {
+   "name": "Keyforsteam",
+   "domain": "keyforsteam.de",
+   "aliases": [],
+   "source": "entity_registry",
+   "layer": "ENTITY"
+  },
+  "cjs cd keys": {
+   "name": "CJS CD Keys",
+   "domain": "cjs-cdkeys.com",
+   "aliases": [
+    "cjs cdkeys"
+   ],
+   "source": "entity_registry",
+   "layer": "ENTITY"
+  },
+  "cjs cdkeys": {
+   "name": "CJS CD Keys",
+   "domain": "cjs-cdkeys.com",
+   "aliases": [
+    "cjs cdkeys"
+   ],
+   "source": "entity_registry",
+   "layer": "ENTITY"
+  },
+  "cjs-cdkeys.com": {
+   "name": "CJS CD Keys",
+   "domain": "cjs-cdkeys.com",
+   "aliases": [
+    "cjs cdkeys"
+   ],
+   "source": "entity_registry",
+   "layer": "ENTITY"
+  },
+  "kinguin / g2a / z2u / allkeyshop / gg.deals / cdkeys / royalcdkeys / gocdkeys / keys4us": {
+   "name": "Kinguin / G2A / Z2U / Allkeyshop / GG.deals / CDKeys / RoyalCDKeys / Gocdkeys / Keys4us",
+   "domain": "",
+   "aliases": [],
+   "source": "entity_registry",
+   "layer": "ENTITY"
+  },
+  "microsoft / xbox": {
+   "name": "Microsoft / Xbox",
+   "domain": "microsoft.com",
+   "aliases": [],
+   "source": "entity_registry",
+   "layer": "ENTITY"
+  },
+  "microsoft.com": {
+   "name": "Microsoft / Xbox",
+   "domain": "microsoft.com",
+   "aliases": [],
+   "source": "entity_registry",
+   "layer": "ENTITY"
+  },
+  "netflix / spotify / youtube / discord / telegram / openai / nordvpn / airalo / mobimatter": {
+   "name": "Netflix / Spotify / YouTube / Discord / Telegram / OpenAI / NordVPN / Airalo / MobiMatter",
+   "domain": "",
+   "aliases": [],
+   "source": "entity_registry",
+   "layer": "ENTITY"
+  },
+  "prodseller": {
+   "name": "ProdSeller",
+   "domain": "prodseller.io",
+   "aliases": [
+    "prodseller",
+    "ps seller"
+   ],
+   "source": "store supplier + mec research",
+   "layer": "ENTITY"
+  },
+  "ps seller": {
+   "name": "ProdSeller",
+   "domain": "prodseller.io",
+   "aliases": [
+    "prodseller",
+    "ps seller"
+   ],
+   "source": "store supplier + mec research",
+   "layer": "ENTITY"
+  },
+  "prodseller.io": {
+   "name": "ProdSeller",
+   "domain": "prodseller.io",
+   "aliases": [
+    "prodseller",
+    "ps seller"
+   ],
+   "source": "store supplier + mec research",
+   "layer": "ENTITY"
+  },
+  "kinguin": {
+   "name": "Kinguin",
+   "domain": "kinguin.net",
+   "aliases": [],
+   "source": "marketplace known",
+   "layer": "ENTITY"
+  },
+  "kinguin.net": {
+   "name": "Kinguin",
+   "domain": "kinguin.net",
+   "aliases": [],
+   "source": "marketplace known",
+   "layer": "ENTITY"
+  },
+  "g2a": {
+   "name": "G2A",
+   "domain": "g2a.com",
+   "aliases": [
+    "g2a pay"
+   ],
+   "source": "marketplace known",
+   "layer": "ENTITY"
+  },
+  "g2a pay": {
+   "name": "G2A",
+   "domain": "g2a.com",
+   "aliases": [
+    "g2a pay"
+   ],
+   "source": "marketplace known",
+   "layer": "ENTITY"
+  },
+  "g2a.com": {
+   "name": "G2A",
+   "domain": "g2a.com",
+   "aliases": [
+    "g2a pay"
+   ],
+   "source": "marketplace known",
+   "layer": "ENTITY"
+  },
+  "z2u": {
+   "name": "Z2U",
+   "domain": "z2u.com",
+   "aliases": [],
+   "source": "marketplace known (mec5)",
+   "layer": "ENTITY"
+  },
+  "z2u.com": {
+   "name": "Z2U",
+   "domain": "z2u.com",
+   "aliases": [],
+   "source": "marketplace known (mec5)",
+   "layer": "ENTITY"
+  },
+  "u7buy": {
+   "name": "U7Buy",
+   "domain": "u7buy.com",
+   "aliases": [],
+   "source": "mec5 research",
+   "layer": "ENTITY"
+  },
+  "u7buy.com": {
+   "name": "U7Buy",
+   "domain": "u7buy.com",
+   "aliases": [],
+   "source": "mec5 research",
+   "layer": "ENTITY"
+  },
+  "offgamers": {
+   "name": "OffGamers",
+   "domain": "offgamers.com",
+   "aliases": [
+    "off gamers"
+   ],
+   "source": "mec5 research",
+   "layer": "ENTITY"
+  },
+  "off gamers": {
+   "name": "OffGamers",
+   "domain": "offgamers.com",
+   "aliases": [
+    "off gamers"
+   ],
+   "source": "mec5 research",
+   "layer": "ENTITY"
+  },
+  "offgamers.com": {
+   "name": "OffGamers",
+   "domain": "offgamers.com",
+   "aliases": [
+    "off gamers"
+   ],
+   "source": "mec5 research",
+   "layer": "ENTITY"
+  },
+  "sea gamer mall": {
+   "name": "SEA Gamer Mall",
+   "domain": "seagm.com",
+   "aliases": [
+    "seagm",
+    "sea gamer"
+   ],
+   "source": "mec5 research",
+   "layer": "ENTITY"
+  },
+  "seagm": {
+   "name": "SEA Gamer Mall",
+   "domain": "seagm.com",
+   "aliases": [
+    "seagm",
+    "sea gamer"
+   ],
+   "source": "mec5 research",
+   "layer": "ENTITY"
+  },
+  "sea gamer": {
+   "name": "SEA Gamer Mall",
+   "domain": "seagm.com",
+   "aliases": [
+    "seagm",
+    "sea gamer"
+   ],
+   "source": "mec5 research",
+   "layer": "ENTITY"
+  },
+  "seagm.com": {
+   "name": "SEA Gamer Mall",
+   "domain": "seagm.com",
+   "aliases": [
+    "seagm",
+    "sea gamer"
+   ],
+   "source": "mec5 research",
+   "layer": "ENTITY"
+  },
+  "gamsgo": {
+   "name": "GamsGo",
+   "domain": "gamsgo.com",
+   "aliases": [
+    "gamsgo"
+   ],
+   "source": "mec5 research",
+   "layer": "ENTITY"
+  },
+  "gamsgo.com": {
+   "name": "GamsGo",
+   "domain": "gamsgo.com",
+   "aliases": [
+    "gamsgo"
+   ],
+   "source": "mec5 research",
+   "layer": "ENTITY"
+  },
+  "allkeyshop": {
+   "name": "AllKeyShop",
+   "domain": "allkeyshop.com",
+   "aliases": [
+    "allkeyshop"
+   ],
+   "source": "price comparison known",
+   "layer": "ENTITY"
+  },
+  "allkeyshop.com": {
+   "name": "AllKeyShop",
+   "domain": "allkeyshop.com",
+   "aliases": [
+    "allkeyshop"
+   ],
+   "source": "price comparison known",
+   "layer": "ENTITY"
+  },
+  "gg.deals": {
+   "name": "GG.deals",
+   "domain": "gg.deals",
+   "aliases": [],
+   "source": "price comparison known",
+   "layer": "ENTITY"
+  },
+  "cdkeys": {
+   "name": "CDKeys",
+   "domain": "cdkeys.com",
+   "aliases": [
+    "cd keys"
+   ],
+   "source": "retailer known",
+   "layer": "ENTITY"
+  },
+  "cd keys": {
+   "name": "CDKeys",
+   "domain": "cdkeys.com",
+   "aliases": [
+    "cd keys"
+   ],
+   "source": "retailer known",
+   "layer": "ENTITY"
+  },
+  "cdkeys.com": {
+   "name": "CDKeys",
+   "domain": "cdkeys.com",
+   "aliases": [
+    "cd keys"
+   ],
+   "source": "retailer known",
+   "layer": "ENTITY"
+  },
+  "royalcdkeys": {
+   "name": "RoyalCDKeys",
+   "domain": "royalcdkeys.com",
+   "aliases": [],
+   "source": "retailer known",
+   "layer": "ENTITY"
+  },
+  "royalcdkeys.com": {
+   "name": "RoyalCDKeys",
+   "domain": "royalcdkeys.com",
+   "aliases": [],
+   "source": "retailer known",
+   "layer": "ENTITY"
+  },
+  "gocdkeys": {
+   "name": "GoCDKeys",
+   "domain": "gocdkeys.com",
+   "aliases": [],
+   "source": "retailer known",
+   "layer": "ENTITY"
+  },
+  "gocdkeys.com": {
+   "name": "GoCDKeys",
+   "domain": "gocdkeys.com",
+   "aliases": [],
+   "source": "retailer known",
+   "layer": "ENTITY"
+  },
+  "keys4us": {
+   "name": "Keys4us",
+   "domain": "keys4us.com",
+   "aliases": [],
+   "source": "retailer known",
+   "layer": "ENTITY"
+  },
+  "keys4us.com": {
+   "name": "Keys4us",
+   "domain": "keys4us.com",
+   "aliases": [],
+   "source": "retailer known",
+   "layer": "ENTITY"
+  },
+  "driffy": {
+   "name": "Driffy",
+   "domain": "driffy.com",
+   "aliases": [],
+   "source": "marketplace known",
+   "layer": "ENTITY"
+  },
+  "driffy.com": {
+   "name": "Driffy",
+   "domain": "driffy.com",
+   "aliases": [],
+   "source": "marketplace known",
+   "layer": "ENTITY"
+  },
+  "k4g": {
+   "name": "K4G",
+   "domain": "k4g.com",
+   "aliases": [
+    "k4g"
+   ],
+   "source": "b2b/b2c marketplace (b3 research)",
+   "layer": "ENTITY"
+  },
+  "k4g.com": {
+   "name": "K4G",
+   "domain": "k4g.com",
+   "aliases": [
+    "k4g"
+   ],
+   "source": "b2b/b2c marketplace (b3 research)",
+   "layer": "ENTITY"
+  },
+  "plati.market": {
+   "name": "Plati.market",
+   "domain": "plati.market",
+   "aliases": [
+    "plati",
+    "plati market"
+   ],
+   "source": "ru marketplace (b3)",
+   "layer": "ENTITY"
+  },
+  "plati": {
+   "name": "Plati.market",
+   "domain": "plati.market",
+   "aliases": [
+    "plati",
+    "plati market"
+   ],
+   "source": "ru marketplace (b3)",
+   "layer": "ENTITY"
+  },
+  "plati market": {
+   "name": "Plati.market",
+   "domain": "plati.market",
+   "aliases": [
+    "plati",
+    "plati market"
+   ],
+   "source": "ru marketplace (b3)",
+   "layer": "ENTITY"
+  },
+  "digiseller": {
+   "name": "Digiseller",
+   "domain": "digiseller.com",
+   "aliases": [
+    "digi seller",
+    "digiseller"
+   ],
+   "source": "ru platform (b3)",
+   "layer": "ENTITY"
+  },
+  "digi seller": {
+   "name": "Digiseller",
+   "domain": "digiseller.com",
+   "aliases": [
+    "digi seller",
+    "digiseller"
+   ],
+   "source": "ru platform (b3)",
+   "layer": "ENTITY"
+  },
+  "digiseller.com": {
+   "name": "Digiseller",
+   "domain": "digiseller.com",
+   "aliases": [
+    "digi seller",
+    "digiseller"
+   ],
+   "source": "ru platform (b3)",
+   "layer": "ENTITY"
+  },
+  "bittopup": {
+   "name": "BitTopup",
+   "domain": "bittopup.com",
+   "aliases": [
+    "bit topup"
+   ],
+   "source": "b3 research",
+   "layer": "ENTITY"
+  },
+  "bit topup": {
+   "name": "BitTopup",
+   "domain": "bittopup.com",
+   "aliases": [
+    "bit topup"
+   ],
+   "source": "b3 research",
+   "layer": "ENTITY"
+  },
+  "bittopup.com": {
+   "name": "BitTopup",
+   "domain": "bittopup.com",
+   "aliases": [
+    "bit topup"
+   ],
+   "source": "b3 research",
+   "layer": "ENTITY"
+  },
+  "stackvault": {
+   "name": "StackVault",
+   "domain": "stackvault.shop",
+   "aliases": [
+    "stack vault"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  "stack vault": {
+   "name": "StackVault",
+   "domain": "stackvault.shop",
+   "aliases": [
+    "stack vault"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  "stackvault.shop": {
+   "name": "StackVault",
+   "domain": "stackvault.shop",
+   "aliases": [
+    "stack vault"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  "acczone": {
+   "name": "Acczone",
+   "domain": "acczone.store",
+   "aliases": [
+    "acczone store",
+    "awz"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  "acczone store": {
+   "name": "Acczone",
+   "domain": "acczone.store",
+   "aliases": [
+    "acczone store",
+    "awz"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  "awz": {
+   "name": "Acczone",
+   "domain": "acczone.store",
+   "aliases": [
+    "acczone store",
+    "awz"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  "acczone.store": {
+   "name": "Acczone",
+   "domain": "acczone.store",
+   "aliases": [
+    "acczone store",
+    "awz"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  "hitmeow": {
+   "name": "HitMeow",
+   "domain": "hitmeow.com",
+   "aliases": [
+    "premikey",
+    "premikey bots",
+    "hitmeow shop"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  "premikey": {
+   "name": "HitMeow",
+   "domain": "hitmeow.com",
+   "aliases": [
+    "premikey",
+    "premikey bots",
+    "hitmeow shop"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  "premikey bots": {
+   "name": "HitMeow",
+   "domain": "hitmeow.com",
+   "aliases": [
+    "premikey",
+    "premikey bots",
+    "hitmeow shop"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  "hitmeow shop": {
+   "name": "HitMeow",
+   "domain": "hitmeow.com",
+   "aliases": [
+    "premikey",
+    "premikey bots",
+    "hitmeow shop"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  "hitmeow.com": {
+   "name": "HitMeow",
+   "domain": "hitmeow.com",
+   "aliases": [
+    "premikey",
+    "premikey bots",
+    "hitmeow shop"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  "neva ai": {
+   "name": "Neva AI",
+   "domain": "neva-ai.com",
+   "aliases": [
+    "nevakeystore",
+    "neva"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  "nevakeystore": {
+   "name": "Neva AI",
+   "domain": "neva-ai.com",
+   "aliases": [
+    "nevakeystore",
+    "neva"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  "neva": {
+   "name": "Neva AI",
+   "domain": "neva-ai.com",
+   "aliases": [
+    "nevakeystore",
+    "neva"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  "neva-ai.com": {
+   "name": "Neva AI",
+   "domain": "neva-ai.com",
+   "aliases": [
+    "nevakeystore",
+    "neva"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  "fin ai support": {
+   "name": "Fin Ai Support",
+   "domain": "finai.support",
+   "aliases": [
+    "veriyfersupportbot",
+    "fin ai"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  "veriyfersupportbot": {
+   "name": "Fin Ai Support",
+   "domain": "finai.support",
+   "aliases": [
+    "veriyfersupportbot",
+    "fin ai"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  "fin ai": {
+   "name": "Fin Ai Support",
+   "domain": "finai.support",
+   "aliases": [
+    "veriyfersupportbot",
+    "fin ai"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  "finai.support": {
+   "name": "Fin Ai Support",
+   "domain": "finai.support",
+   "aliases": [
+    "veriyfersupportbot",
+    "fin ai"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  "gamisell": {
+   "name": "Gamisell",
+   "domain": "gamisell.com",
+   "aliases": [
+    "gamisell"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  "gamisell.com": {
+   "name": "Gamisell",
+   "domain": "gamisell.com",
+   "aliases": [
+    "gamisell"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  "evolution era": {
+   "name": "Evolution Era",
+   "domain": "evolutionera.io",
+   "aliases": [
+    "evo era"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  "evo era": {
+   "name": "Evolution Era",
+   "domain": "evolutionera.io",
+   "aliases": [
+    "evo era"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  "evolutionera.io": {
+   "name": "Evolution Era",
+   "domain": "evolutionera.io",
+   "aliases": [
+    "evo era"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  "insightxpro": {
+   "name": "insightXpro",
+   "domain": "insightxpro.com",
+   "aliases": [
+    "insightxpro"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  "insightxpro.com": {
+   "name": "insightXpro",
+   "domain": "insightxpro.com",
+   "aliases": [
+    "insightxpro"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  "aisubs.id": {
+   "name": "AISUBS.ID",
+   "domain": "aisubs.id",
+   "aliases": [],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  "verifier": {
+   "name": "Verifier",
+   "domain": "verifier.support",
+   "aliases": [
+    "verifierbot",
+    "verifier group"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  "verifierbot": {
+   "name": "Verifier",
+   "domain": "verifier.support",
+   "aliases": [
+    "verifierbot",
+    "verifier group"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  "verifier group": {
+   "name": "Verifier",
+   "domain": "verifier.support",
+   "aliases": [
+    "verifierbot",
+    "verifier group"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  "verifier.support": {
+   "name": "Verifier",
+   "domain": "verifier.support",
+   "aliases": [
+    "verifierbot",
+    "verifier group"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  "gemini12pro": {
+   "name": "Gemini12Pro",
+   "domain": "gemini12pro.com",
+   "aliases": [
+    "gemini12pro"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  "gemini12pro.com": {
+   "name": "Gemini12Pro",
+   "domain": "gemini12pro.com",
+   "aliases": [
+    "gemini12pro"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  "bite store": {
+   "name": "Bite Store",
+   "domain": "bitestore.io",
+   "aliases": [
+    "learnwith_alex",
+    "bite store"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  "learnwith_alex": {
+   "name": "Bite Store",
+   "domain": "bitestore.io",
+   "aliases": [
+    "learnwith_alex",
+    "bite store"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  "bitestore.io": {
+   "name": "Bite Store",
+   "domain": "bitestore.io",
+   "aliases": [
+    "learnwith_alex",
+    "bite store"
+   ],
+   "source": "mec2 channel entity",
+   "layer": "ENTITY"
+  },
+  "mobimatter": {
+   "name": "MobiMatter",
+   "domain": "mobimatter.com",
+   "aliases": [],
+   "source": "esim b2b (registry)",
+   "layer": "ENTITY"
+  },
+  "mobimatter.com": {
+   "name": "MobiMatter",
+   "domain": "mobimatter.com",
+   "aliases": [],
+   "source": "esim b2b (registry)",
+   "layer": "ENTITY"
+  },
+  "airalo": {
+   "name": "Airalo",
+   "domain": "airalo.com",
+   "aliases": [],
+   "source": "esim brand + partner",
+   "layer": "ENTITY"
+  },
+  "airalo.com": {
+   "name": "Airalo",
+   "domain": "airalo.com",
+   "aliases": [],
+   "source": "esim brand + partner",
+   "layer": "ENTITY"
+  },
+  "nordvpn": {
+   "name": "NordVPN",
+   "domain": "nordvpn.com",
+   "aliases": [],
+   "source": "brand known",
+   "layer": "ENTITY"
+  },
+  "nordvpn.com": {
+   "name": "NordVPN",
+   "domain": "nordvpn.com",
+   "aliases": [],
+   "source": "brand known",
+   "layer": "ENTITY"
+  },
+  "sheerid": {
+   "name": "SheerID",
+   "domain": "sheerid.com",
+   "aliases": [],
+   "source": "verification service known",
+   "layer": "ENTITY"
+  },
+  "sheerid.com": {
+   "name": "SheerID",
+   "domain": "sheerid.com",
+   "aliases": [],
+   "source": "verification service known",
+   "layer": "ENTITY"
+  },
+  "binance pay": {
+   "name": "Binance Pay",
+   "domain": "binance.com",
+   "aliases": [
+    "binance pay"
+   ],
+   "source": "payment rail known",
+   "layer": "ENTITY"
+  },
+  "binance.com": {
+   "name": "Binance Pay",
+   "domain": "binance.com",
+   "aliases": [
+    "binance pay"
+   ],
+   "source": "payment rail known",
+   "layer": "ENTITY"
+  },
+  "openai": {
+   "name": "OpenAI",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "anthropic": {
+   "name": "Anthropic",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "google": {
+   "name": "Google",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "xai": {
+   "name": "xAI",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "deepseek": {
+   "name": "DeepSeek",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "perplexity": {
+   "name": "Perplexity",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "midjourney": {
+   "name": "Midjourney",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "poe": {
+   "name": "Poe",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "suno": {
+   "name": "Suno",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "elevenlabs": {
+   "name": "ElevenLabs",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "runway": {
+   "name": "Runway",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "ideogram": {
+   "name": "Ideogram",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "leonardo ai": {
+   "name": "Leonardo AI",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "krea": {
+   "name": "Krea",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "recraft": {
+   "name": "Recraft",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "character.ai": {
+   "name": "Character.AI",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "gamma": {
+   "name": "Gamma",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "mistral ai": {
+   "name": "Mistral AI",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "jasper": {
+   "name": "Jasper",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "sider": {
+   "name": "Sider",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "manus": {
+   "name": "Manus",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "microsoft": {
+   "name": "Microsoft",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "adobe": {
+   "name": "Adobe",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "notion": {
+   "name": "Notion",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "canva": {
+   "name": "Canva",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "github": {
+   "name": "GitHub",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "anysphere": {
+   "name": "Anysphere",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "grammarly": {
+   "name": "Grammarly",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "quillbot": {
+   "name": "QuillBot",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "freepik": {
+   "name": "Freepik",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "envato": {
+   "name": "Envato",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "shutterstock": {
+   "name": "Shutterstock",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "kittl": {
+   "name": "Kittl",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "framer": {
+   "name": "Framer",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "valve": {
+   "name": "Valve",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "sony": {
+   "name": "Sony",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "apple": {
+   "name": "Apple",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "amazon": {
+   "name": "Amazon",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "nintendo": {
+   "name": "Nintendo",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "razer": {
+   "name": "Razer",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "netflix": {
+   "name": "Netflix",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "spotify": {
+   "name": "Spotify",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "roblox": {
+   "name": "Roblox",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "playstation": {
+   "name": "PlayStation",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "binance": {
+   "name": "Binance",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "various": {
+   "name": "Various",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "garena": {
+   "name": "Garena",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "tencent": {
+   "name": "Tencent",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "moonton": {
+   "name": "Moonton",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "riot games": {
+   "name": "Riot Games",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "epic games": {
+   "name": "Epic Games",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "hoyoverse": {
+   "name": "HoYoverse",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "ea": {
+   "name": "EA",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "activision": {
+   "name": "Activision",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "supercell": {
+   "name": "Supercell",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "mihoyo": {
+   "name": "miHoYo",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "various publishers": {
+   "name": "Various publishers",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "jetbrains": {
+   "name": "JetBrains",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "unity": {
+   "name": "Unity",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "various providers": {
+   "name": "Various providers",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "various panels": {
+   "name": "Various panels",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "disney": {
+   "name": "Disney",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "warner bros.": {
+   "name": "Warner Bros.",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "hulu": {
+   "name": "Hulu",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "paramount": {
+   "name": "Paramount",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "peacock": {
+   "name": "Peacock",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "crunchyroll": {
+   "name": "Crunchyroll",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "audible": {
+   "name": "Audible",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "deezer": {
+   "name": "Deezer",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "dropbox": {
+   "name": "Dropbox",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "mega": {
+   "name": "MEGA",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "slack": {
+   "name": "Slack",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "zoom": {
+   "name": "Zoom",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "trello": {
+   "name": "Trello",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "jira": {
+   "name": "Jira",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "telegram": {
+   "name": "Telegram",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "discord": {
+   "name": "Discord",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "twitch": {
+   "name": "Twitch",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "youtube": {
+   "name": "YouTube",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "iqiyi": {
+   "name": "iQIYI",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "youku": {
+   "name": "Youku",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "vimeo": {
+   "name": "Vimeo",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "soundcloud": {
+   "name": "SoundCloud",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "linkedin": {
+   "name": "LinkedIn",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "medium": {
+   "name": "Medium",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "patreon": {
+   "name": "Patreon",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "coursera": {
+   "name": "Coursera",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "skillshare": {
+   "name": "Skillshare",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "duolingo": {
+   "name": "Duolingo",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "expressvpn": {
+   "name": "ExpressVPN",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "surfshark": {
+   "name": "Surfshark",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "figma": {
+   "name": "Figma",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "monday.com": {
+   "name": "Monday.com",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "clickup": {
+   "name": "ClickUp",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "asana": {
+   "name": "Asana",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "miro": {
+   "name": "Miro",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "ding": {
+   "name": "Ding",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "dt one": {
+   "name": "DT One",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "blackhawk network": {
+   "name": "Blackhawk Network",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  },
+  "incomm": {
+   "name": "InComm",
+   "domain": "",
+   "aliases": [],
+   "source": "catalog_v42",
+   "layer": "BRAND"
+  }
+ }
+}

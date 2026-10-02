@@ -1,0 +1,172 @@
+{
+ "run": "G-1a R2",
+ "ts": "2026-10-02T01:42:46.038864+00:00",
+ "sections": {
+  "crtsh": {
+   "ok": false,
+   "status": 0,
+   "error": "TimeoutError('The read operation timed out')"
+  },
+  "crtsh2": {
+   "ok": false,
+   "status": 502,
+   "error": "HTTP Error 502: Bad Gateway"
+  },
+  "tg_images": {
+   "sookbit": {
+    "image": "https://cdn4.telesco.pe/file/CvlGFIetT6Yg2YHXA5hPKpAeldowfgwEOkVmMz8qD9oLPwH99b86E3-1H-2JWoXXrDuzjxX0idW0iytPxwT4Ab6tJqYPfInNjMZdBjMmue7mTjj3EU3PJ4pOGi28WCYSpv94thvGs3JNBHqPw9LAhJeeTy98qqMgnQI24BHhqNT0Q5dR4Uznix7udv4-Tb_VUlqlDnVLpGfnFTVgadnU0-Y5QgwDtCfjZZHJM4kcLRO_jb-PYFnK5N0W8Ps5_9fu0vZL4SLqQKD81qJBsMToHmsJNF8i8SHMFkGZoSUlGEgwlvtRYDta41tR8rABlJ8-l1JdeI2dHBqXmzYgUKLYFw.jpg",
+    "desc": "Shop Bot: https://t.me/ProdSellerBot?start=ref_5574095571 Channel:https://t.me/ProdSellerOfficial"
+   },
+   "ProdsellerSupport": {
+    "image": "https://cdn4.telesco.pe/file/J6TiE7FZgEZOkhTtWs5eRdtciB6y_Hp8vKfwJ4p_Ey3SGBmRgGTYCozqWZ5HHCs7od7-CZVvIsXb9p118tbYQQgkB_he7ngV7zaqaUl5HftpEr0-enlnh4L0pNLSvHL3rI1TRQhMdMzQnOBOaPDC41OBbkbgawZaxiziDN9XEC14FJzjxjcsxc9SKL4jbMrpdWg2q1p35FlvG6mtf4v1UM_t5fHWX6e_z_EX_Nlx1PSzJYA0hiSmmSRNxJhCF2U1qp9xCyqBMJa5C2aiD5r4eBQNqYgKT9sOlP77DDyGO48Ic6UXhUlJqoJLqCPAT0i8xPY3uDc0MFrGlnMKnyuXrA.jpg",
+    "desc": "Bot : https://t.me/ProdSellerBot?start=ref_8848514093"
+   },
+   "prodsellerbot": {
+    "image": "https://cdn4.telesco.pe/file/vegMN3rMwTJ-7nrC6YL2xCjjjrQ2eV4RT9v4VLHusM9Sp55tOlmVEX8ZUKHDzYhqzBTwjI_abjlmZXYmTiHYiHZpTFn1zfKQ2FZv06_v6LSjgSwUN6DgPWa2ONcxstNNVSkzWIAieJWsfp-wFrTlODpT31oQngYKfZ3UAE5OJfnJNtWMKgvo0tmMV52dZCE2zmBYCVrr8Z6JnrB8-jnYMvhazkc5n5B7gvP_1DKq5GuwOSREaw9E9xqTMyw_gr03uzB-EilX9UlKMGs71nTsXy571nHkagZ4QMrZx2z1zz-7e-lrzrrs2e2ojXhreYEDyPNidE35yllW4RoD2oEt0g.jpg",
+    "desc": "Support: https://t.me/prodsellersupport     Channel:https://t.me/ProdSellerOfficial"
+   },
+   "ProdSellerOfficial": {
+    "image": "https://cdn4.telesco.pe/file/bmVIwISaIoo8CTIoxyLp4JrrrJhZ6vYSGHzq4dM3x1dgcFMLLUNjgW0oL0osbLU4cC47isixXz4-UZquaEFAVu3H2EVkxO1UzNrZPt3i26A9NYJzPONDdRQUQdsLH6jcLx9nBw6kIWsooK5Cs4dW_cNQGw6wNKxMKiRzNy4nPpSmoiKyFDP6ByVSDq9x_QXWYESiVm106sANh-JtEzucP_H4h279BlRofCbye_wp8W2by0gBGbARiivKTQadYxD0PqJ-2a3g6SO5TMG6oQAlNof_05w_G0h_ewsBkSN7ygKiIUM79vRKiRuqa7rE1XDdPN_rCLtflaMUHR5mxdBdlQ.jpg",
+    "desc": "admin : https://t.me/sookbit\tBOT: https://t.me/prodsellerbot"
+   }
+  },
+  "downloaded_images": {
+   "sookbit": {
+    "path": "/home/z/my-project/research/g1a_media/tg_sookbit.jpg",
+    "bytes": 19219
+   },
+   "ProdsellerSupport": {
+    "path": "/home/z/my-project/research/g1a_media/tg_ProdsellerSupport.jpg",
+    "bytes": 33841
+   },
+   "prodsellerbot": {
+    "path": "/home/z/my-project/research/g1a_media/tg_prodsellerbot.jpg",
+    "bytes": 33548
+   },
+   "ProdSellerOfficial": {
+    "path": "/home/z/my-project/research/g1a_media/tg_ProdSellerOfficial.jpg",
+    "bytes": 33872
+   }
+  },
+  "spa": {
+   "scripts": [
+    "polyfills-5CFQRCPP.js",
+    "main-DIXDGZWA.js"
+   ],
+   "js_total_chars": 119217,
+   "emails": [],
+   "tg_refs": [],
+   "phones_fr": [],
+   "angular_routes": [
+    "**",
+    "/admin/activations",
+    "/admin/adjustments",
+    "/admin/api-manager",
+    "/admin/dashboard",
+    "/admin/deposits",
+    "/admin/leaderboard",
+    "/admin/memberships",
+    "/admin/methods",
+    "/admin/my-referrals",
+    "/admin/orders",
+    "/admin/products",
+    "/admin/settings/admins",
+    "/admin/settings/bot-menu",
+    "/admin/settings/deposit-methods",
+    "/admin/settings/maintenance",
+    "/admin/stats",
+    "/admin/users",
+    "/admin/withdraws",
+    "/engine.io",
+    "account",
+    "activations",
+    "address-lookup",
+    "adjustments",
+    "admin",
+    "admin/forbidden",
+    "admin/forgot-password",
+    "admin/login",
+    "admins",
+    "api-manager",
+    "binance",
+    "dashboard",
+    "deliveries",
+    "deposit-methods",
+    "deposits",
+    "leaderboard",
+    "maintenance",
+    "memberships",
+    "methods",
+    "my-referrals",
+    "orders",
+    "products",
+    "settings",
+    "settings/bot-menu",
+    "stats",
+    "users",
+    "users/:telegramId",
+    "withdraws"
+   ],
+   "titles": [
+    "ProdSeller"
+   ],
+   "vn_markers": [],
+   "api_paths": []
+  },
+  "api_docs": {
+   "emails": [
+    "customer@gmail.com"
+   ],
+   "contact_strings": [],
+   "len": 30801
+  },
+  "wayback": {
+   "cdx": {
+    "ok": false,
+    "status": 0,
+    "error": "URLError(TimeoutError('timed out'))"
+   },
+   "cdx_ip": {
+    "ok": false,
+    "status": 0,
+    "error": "URLError(TimeoutError('timed out'))"
+   }
+  },
+  "tg_id_grep": {
+   "sookbit_id": [
+    {
+     "file": "research/g1a_r1_domain_intel_20261002.json",
+     "contexts": [
+      "s\": 200,     \"final_url\": \"https://t.me/sookbit\",     \"og_description\": \"Shop Bot: https://t.me/ProdSellerBot?start=ref_5574095571 Channel:https://t.me/ProdSellerOfficial\",     \"og_title\": \"Prodseller.com\"    },    \"ProdsellerSupport\": {   "
+     ]
+    },
+    {
+     "file": "research/sv_supply5_live_check.json",
+     "contexts": [
+      ": \"bot\",    \"http\": 200,    \"og_title\": \"Prodseller.com\",    \"og_desc\": \"Shop Bot: https://t.me/ProdSellerBot?start=ref_5574095571 Channel:https://t.me/ProdSellerOfficial\"   },   \"prodseller_io\": {    \"url\": \"https://prodseller.io/\",    \"st"
+     ]
+    },
+    {
+     "file": "research/sv_supply5_live_check_prev_20260930.json",
+     "contexts": [
+      ": \"bot\",    \"http\": 200,    \"og_title\": \"Prodseller.com\",    \"og_desc\": \"Shop Bot: https://t.me/ProdSellerBot?start=ref_5574095571 Channel:https://t.me/ProdSellerOfficial\"   },   \"prodseller_io\": {    \"url\": \"https://prodseller.io/\",    \"st"
+     ]
+    },
+    {
+     "file": "research/prodseller_live/fresh_2026-09-29.json",
+     "contexts": [
+      "kbit\": {    \"http\": 200,    \"og_title\": \"Prodseller.com\",    \"og_desc\": \"Shop Bot: https://t.me/ProdSellerBot?start=ref_5574095571 Channel:https://t.me/ProdSellerOfficial\",    \"n_messages\": 0,    \"dates\": [],    \"messages\": []   }  },  \"pri"
+     ]
+    }
+   ],
+   "support_id": [
+    {
+     "file": "research/g1a_r1_domain_intel_20261002.json",
+     "contexts": [
+      "0,     \"final_url\": \"https://t.me/ProdsellerSupport\",     \"og_description\": \"Bot : https://t.me/ProdSellerBot?start=ref_8848514093\",     \"og_title\": \"Prodseller Support\"    },    \"prodsellerbot\": {     \"ok\": true,     \"status\": 200,     \"fi"
+     ]
+    }
+   ]
+  }
+ }
+}

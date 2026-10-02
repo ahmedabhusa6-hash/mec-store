@@ -1,0 +1,149 @@
+{
+  "generated": "2026-09-27",
+  "run": "MEC2-20260927",
+  "registry_source": "Notion Governing Reference §19 — Telegram Reference Registry (2026-09-25) — user message 2026-09-27 = verbatim registry",
+  "probe_method": "Direct HTTP (t.me server-rendered pages + t.me/s/ public previews + stackvault.shop), paced 1.6s",
+  "probe_result": "31/31 entities HTTP 200 — first successful registry verification in project history (prior sessions: 'No Telegram access')",
+  "epistemic_labels": ["مرصود مباشرة 27/09", "مستند مصدر خارجي", "استنتاج", "افتراض"],
+  "clusters": [
+    {
+      "name": "Gemini GPT / Gemini12Pro",
+      "language": "الصينية",
+      "entities": ["t.me/gemini12pro_channel (قناة)", "t.me/gemini12pro (دردشة)", "t.me/gemini12pro_bot (بوت Gemini Pixel Helper)"],
+      "scale": {"channel_subscribers": 142797, "chat_members": 131924, "chat_online": 3006},
+      "role_in_chain": "مصنع/بائع تجزئة لترقيات AI — بوت استخراج روابط عروض Google One AI Pro (Pixel/طلاب) ووصف نفسه: 公益升级机器人 (بوت ترقية 'ذي منفعة عامة')",
+      "products_observed": ["Gemini Link 18 شهرًا", "GPT Plus Apple Pay شهر (مستقر، ليس UPI)", "Code GPT K12 سنتان", "Cursor Pro شهر", "CapCut Pro", "حسابات Gemini بريد 2010-201x", "Google Gemini Ultra ×20 بالجملة"],
+      "prices_observed": [{"item": "Gemini AI Pro 18m (عرض مدفوع عبر @AiVerseXBot)", "price_usd": 0.45, "tier": "تجزئة"}, {"item": "نفس المنتج عبر @Gt_Verified للجملة", "price_usd": null, "tier": "جملة بسعر أقل"}],
+      "promotion_model": "منشورات 'Paid Promotion' مدفوعة لبائعين خارجيين — القناة نفسها وسيط إعلاني ضخم",
+      "independent_reputation": "لا مراجعات مستقلة؛ إدراج أدلة فقط: tgstat + minitelegram ('أداة لاستخراج روابط العروض') + TGFind [مرصود]",
+      "risk_grade": "متوسط-عالٍ (منتجات مبنية على استغلال عروض تنتهك ToS؛ Google خفّضت العروض 12→6 أشهر مع Pixel 11 = خطر انقطاع عرض)",
+      "status": "حيّ — مُوثّق مباشرة"
+    },
+    {
+      "name": "Verifier Group (طبقة الثقة)",
+      "language": "الإنجليزية/الروسية",
+      "entities": ["t.me/verifierg (قناة/دردشة)", "@Veriyferbot (بوت الوسيط)", "@VeirfyerSupportbot (دعم = Fin Ai Support)"],
+      "scale": {"members": 25948, "online": 1508},
+      "role_in_chain": "وسيط ضمان/Escrow للسوق — 'معاملات إيداع مباشرة داخل البوت' + ضمان ثلاثة أشهر موثق نصيًا + قناة يوتيوب @veriyfyer",
+      "independent_reputation": "لا مراجعات مستقلة موثوقة؛ الوظيفة موثقة من صفحة القناة نفسها [مرصود مباشرة]",
+      "risk_grade": "الوسيط نفسه غير قابل للتحقق خارجيًا — الثقة فيه افتراض تشغيلي للسوق وليس ضمانة موضوعية",
+      "status": "حيّ — مُوثّق مباشرة"
+    },
+    {
+      "name": "ProdSeller",
+      "language": "الإنجليزية",
+      "entities": ["t.me/ProdSellerOfficial (قناة، 4,676)", "@ProdSellerBot (بوت)", "مشرف @sookbit"],
+      "role_in_chain": "موزع جملة + API (الطبقة العليا للبائعين الصغار): '15K+ مستخدم، 8K+ نشط شهريًا، 500+ مستخدم API، تكامل مجاني'",
+      "products_observed": ["Gemini 18m", "Duolingo Super 12m", "Gmail مستقر"],
+      "prices_observed": [
+        {"item": "Gemini 18 شهرًا — فلاش", "price_usd": 0.43, "tier": "تجزئة"},
+        {"item": "Gemini 18 شهرًا — API", "price_usd": 0.40, "tier": "جملة عبر API"},
+        {"item": "Gemini 18 شهرًا — جملة كبيرة", "price_usd": 0.39, "tier": "جملة"},
+        {"item": "Duolingo Super 12m — رابط/API/جملة", "price_usd": [0.59, 0.55, 0.50], "tier": "متدرج"},
+        {"item": "Gmail مستقر — حساب/API/جملة", "price_usd": [0.80, 0.75, 0.60], "tier": "متدرج"}
+      ],
+      "independent_reputation": "لا أثر مراجعات مستقلة [غياب دليل موثق]",
+      "risk_grade": "متوسط (ادعاءات الحجم غير قابلة للتحقق؛ نموذج API يشير لاستقرار تشغيلي نسبي)",
+      "status": "حيّ — مُوثّق مباشرة"
+    },
+    {
+      "name": "Acczone",
+      "language": "الإنجليزية",
+      "entities": ["رابط الدعوة الخاص +AWZ-Jl8sydhiMzYy = قناة ACCZONE STORE (3,650 مشتركًا)", "@Acczone_Store_bot", "@acczone_gemini_link_bot (فاحص روابط Gemini)", "@acczone_logs (سجل مخزون، 8,316)", "دعم @Mike_E_0"],
+      "role_in_chain": "مزود جملة معلن: 'نحن أكبر مزود لجميع المنتجات' — بنية كاملة: متجر خاص + فاحص + سجلات + دعم",
+      "identity_resolution": "الرابط الخاص في السجل §19 = قناة Acczone Store نفسها [مرصود مباشرة — يحسم هوية الرابط]",
+      "independent_reputation": "لا أثر مراجعات مستقلة [غياب دليل موثق]",
+      "risk_grade": "متوسط-عالٍ (ادعاء 'الأكبر' غير موثق؛ سجل Logs منشأة ثقة داخلية لا دليل خارجي)",
+      "status": "حيّ — مُوثّق مباشرة"
+    },
+    {
+      "name": "StackVault",
+      "language": "الإنجليزية",
+      "entities": ["stackvault.shop (متجر ويب)", "@stackvault_bot", "@stackvault_support"],
+      "role_in_chain": "متجر تجزئة منظم: 248 منتجًا، نظام رصيد، دفع USDT، 'بائع Telegram'، دعم 24/7، تسليم فوري",
+      "prices_observed": [
+        {"item": "ChatGPT Plus — شهر ('حساب رسمي' + ضمان)", "price_usd": 4.99},
+        {"item": "Netflix Premium — شهر (حساب خاص)", "price_usd": 3.99},
+        {"item": "Spotify Premium — شهر (حساب خاص)", "price_usd": 4.49},
+        {"item": "Microsoft 365 — سنة/5 أجهزة (ضمان)", "price_usd": 9.99},
+        {"item": "Canva Pro Teams — شهر", "price_usd": 6.49},
+        {"item": "Coursera Plus — سنة", "price_usd": 29.99}
+      ],
+      "identity_resolution": "الاسم يتعارض مع منتج SaaS مختلف ('StackVault' لإدارة الاشتراكات في متاجر الصفقات) — لا علاقة بينهما [مرصود]",
+      "independent_reputation": "لا مراجعات مستقلة تحت هذا الاسم؛ الأصل الموثق الوحيد: سجل تفاوض تاريخي (450 سطرًا) محفوظ في Notion [مستند]",
+      "risk_grade": "متوسط (متجر منظم الظاهر + هوية مجهولة الجوهر؛ الدفع مسبق بالرصيد/USDT)",
+      "status": "حيّ — يحسم حالة 404 الموثقة في الدورة 5 (تغيّر حالة لا خطأ سجل)"
+    },
+    {
+      "name": "HitMeow / PremiKey",
+      "language": "الإنجليزية/الفيتنامية",
+      "entities": ["t.me/HitMeowShop (قناة، 1,848)", "@PremiKeyBot (= HitMeow Shop🌐)", "@Premikey_bot (= HitMeow Shop🇻🇳 سوق فيتنام)", "@HitmeowSupport", "مشرف @vahnix"],
+      "identity_resolution": "بوتا PremiKey في السجل يحملان اسم HitMeow Shop — عناق واحدة لا علامتين [مرصود مباشرة]",
+      "role_in_chain": "بائع تجزئة AI + ناشر معرفة طرق: وثّق طريقة SheerID الطلابية (شراء تحقق من Xianyu → اشتراك شهر → تحقق طلابي → 4 أشهر)",
+      "prices_observed": [{"item": "ChatGPT Business/Plus VIP", "price_usd": null, "note": "'أسعار خارقة الانخفاض' — بلا رقم معلن"}],
+      "independent_reputation": "لا أثر مراجعات مستقلة [غياب دليل موثق]",
+      "risk_grade": "عالٍ (ناشر طرق استغلال؛ منشورات مختلطة بمحتوى مجاني مشبوه: مفاتيح API مكشوفة، روابط AWS)",
+      "status": "حيّ — مُوثّق مباشرة"
+    },
+    {
+      "name": "AISUBS.ID",
+      "language": "الإندونيسية",
+      "entities": ["t.me/AISUBSID (قناة، 304)", "@Aisubsglobalbot", "مؤسس @AisubsIDFounder"],
+      "role_in_chain": "مصنع حسابات ChatGPT Plus موثق المنهج: 'طريقة UPI' — إقرار نصي بنجاح 1–2% (من 1000 حساب ≈ 10–20 Plus)، وتوقع رفع الأسعار مع ترقيع الطريقة",
+      "prices_observed": [{"item": "ChatGPT Plus (مخزون متغير)", "price_usd": null, "note": "سعر غير معلن في المنشورات؛ إشارات ارتفاع"}],
+      "independent_reputation": "لا أثر مراجعات مستقلة [غياب دليل موثق]",
+      "risk_grade": "عالٍ (منتج مصنّع بطرق هشة تنتهك ToS؛ البائع نفسه يوثق هشاشة المعروض)",
+      "status": "حيّ — مُوثّق مباشرة"
+    },
+    {
+      "name": "Evo Era",
+      "language": "الإنجليزية/العربية",
+      "entities": ["t.me/Evo_Era_updates (قناة، 2,319)", "@Evolution_Era_bot", "مشرف @adham_H11"],
+      "role_in_chain": "بائع تجزئة آلي: إشعارات مشتريات مباشرة + مكافآت إحالة $0.05",
+      "prices_observed": [
+        {"item": "ChatGPT Plus — حساب ضمان ساعتين (2HW)", "price_usdt": 4.50},
+        {"item": "'Factory 12m' — فلاش", "price_usdt": 17.00, "old": 18.50, "note": "خصم 8% — منتج 12 شهرًا 'مصنعي'"}
+      ],
+      "independent_reputation": "لا أثر مراجعات مستقلة [غياب دليل موثق]",
+      "risk_grade": "متوسط-عالٍ (ضمان ساعتين فقط = مؤشر جودة منخفض)",
+      "status": "حيّ — مُوثّق مباشرة"
+    },
+    {
+      "name": "learnwith_Alex / Bite Store",
+      "language": "الإنجليزية",
+      "entities": ["t.me/learnwith_Alex (قناة، 3,019)", "@Bite_storee_bot (بوت المتجر المرتبط بالقناة)"],
+      "role_in_chain": "بائع طرق وأدوات: 'طريقة بريد Edu جديد مع فيديو تعليمي' + لوحات Canva",
+      "prices_observed": [{"item": "Canva 500 User Panel — فلاش", "price_usd": 2.50, "old": 3.99}],
+      "fraud_flag": "مرصود منشور يتضمن أرقام بطاقات مولدة مع CVV عشوائي ('gen|rnd') لخدمات AI/بث — محتوى احتيالي صريح: يُستبعد من أي توصية ويُوثّق لحصر D4 [مرصود مباشرة — تصنيف محتوى لا اتهام أشخاص]",
+      "independent_reputation": "لا أثر مراجعات مستقلة [غياب دليل موثق]",
+      "risk_grade": "حرج (محتوى احتيالي موثق ضمن المنشورات العامة)",
+      "status": "حيّ — مُوثّق مباشرة"
+    },
+    {
+      "name": "متاجر صغيرة (بوتات فردية)",
+      "entities": ["@Gamisellbot (Gamisell Shop)", "@insightXpro_bot (INSIGHT STORE)", "@nevakeystore_bot (Neva AI — كان Neva Key Store)", "@p_a_store_bot (P A Store)", "@storeBatmanBot (storebat)", "@Mike_E_0 (حساب دعم Acczone)"],
+      "role_in_chain": "بوتات تجزئة فردية بلا قنوات جماهيرية موثقة — طبقة أدنى في السلسلة",
+      "identity_resolution": "nevakeystore_bot يعرض الآن باسم 'Neva AI' — تحول من مفاتيح إلى اشتراكات AI [مرصود]",
+      "independent_reputation": "لا أثر مراجعات مستقلة لأي منها [غياب دليل موثق]",
+      "risk_grade": "غير قابل للتقييم الفردي — تعامل فقط عبر وسيط ضمان",
+      "status": "حيّة — مُوثّقة مباشرة (صفحات البوتات)"
+    }
+  ],
+  "cross_cluster_findings": {
+    "trust_architecture": "السوق يعوض غياب السمعة العامة بـ: بوت وسيط (Verifier: ضمان 3 أشهر + Escrow داخل البوت، 25,948 عضوًا) + قنوات Logs (إثبات تنفيذ) + إشعارات مشتريات مباشرة + إحالات مدفوعة",
+    "payment_rail": "USDT هو وحدة التسعير المرصودة ('4.50 USDT'، '17.0 USDT') + نظام رصيد مسبق (StackVault)",
+    "promotion_economy": "القنوات الكبرى تبيع إعلانات ('Paid Promotion' على قناة 142K) — طبقة إعلانات داخل السوق نفسه",
+    "wholesale_to_retail_spread": "مرصود مباشرة في منتج واحد متطابق (Gemini 18m): جملة $0.39 → API $0.40 → تجزئة $0.43–0.59 — هوامش طبقة 10–51%",
+    "supply_shocks": "إشارات ندرة موثقة نصيًا من البائعين أنفسهم: ترقيع UPI (نجاح 1–2%) + تقليص Google عروض Pixel (12→6 أشهر) = أسعار صاعدة"
+  },
+  "better_channels_verdict": {
+    "question": "هل توجد قنوات أفضل من سعر هذه القنوات؟",
+    "answer_layers": [
+      {"layer": "للشراء الفردي المشروع بأقل مخاطرة", "verdict": "الفوترة السنوية الرسمية (ChatGPT $200/سنة=$16.67/شهر؛ Gemini $199.99/سنة) + منصات المفاتيح الموثقة بحماية مشترٍ (Eneba/Kinguin/Driffy) — موثقة في تشغيلات سابقة"},
+      {"layer": "لأرخص سعر ممكن (رمادي)", "verdict": "القنوات المرصودة هنا هي الطبقة الأدنى المتاحة للجمهور (Gemini 18m بـ$0.39–0.59)؛ 'الأفضل' منها لا يوجد بمعنى أرخص للوحدة الواحدة إلا بالجملة"},
+      {"layer": "للحجم/الجملة", "verdict": "الصعود للمنبع: ProdSeller API (Gemini $0.40، يتطلب حساب API) وGGSel للسوق الروسي (ChatGPT 749₽≈$9.44 مستقرة) وبوابات Turgame/Reloadly/FazerCards (تسعير B2B خلف تسجيل) — موثقة كمنابع أعلى"},
+      {"layer": "تحذير جوهري", "verdict": "بعض القنوات المدرجة (learnwith_Alex) تحمل محتوى احتيالًا صريحًا — 'أفضل' يعني أيضًا استبعاد هذه؛ وأي سعر أقل من كلفة الاقتناء المادية = علامة احتيال محتمل لا صفقة"}
+    ],
+    "bottom_line": "نعم للمشروع بكميات (المنبع B2B/API أرخص 5–15% من تجزئة Telegram مع استقرار أعلى)؛ لا للفرد الباحث عن وحدة واحدة أرخص مما هو معروض في هذه القنوات — هذه القنوات نفسها هي الطبقة الأدنى المرصودة، وفارقها عن المنبع هامش طبقة صغير لا يستحق المخاطرة لفرد واحد"
+  }
+}

@@ -1,0 +1,242 @@
+{
+ "capture_reason": "NEWLY_ACCESSIBLE",
+ "captured_at": "2026-10-02T12:16:49+03:00",
+ "title": "PRN-001 — Use professional frameworks as coverage benchmarks, not complete taxonomies",
+ "last_edited": "2026-09-25T20:52:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e658a07-79e8-81f8-b386-ccc676791c90",
+  "created_time": "2026-09-25T20:52:00.000Z",
+  "last_edited_time": "2026-09-25T20:52:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "eafe011b-51e6-4f41-8cbc-e6aa32c6b8d1"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "Principle ID": {
+    "id": "Gbhj",
+    "type": "unique_id",
+    "unique_id": {
+     "prefix": "PRN",
+     "number": 1
+    }
+   },
+   "Status": {
+    "id": "Ihlt",
+    "type": "select",
+    "select": {
+     "id": "f55e601a-939f-42b9-a2b9-f06442833dc9",
+     "name": "Candidate",
+     "color": "gray"
+    }
+   },
+   "Evidence Strength": {
+    "id": "NgXL",
+    "type": "select",
+    "select": {
+     "id": "4d8db4fd-aa8a-4330-b662-eb4f4a22d03b",
+     "name": "Moderate",
+     "color": "yellow"
+    }
+   },
+   "Limitations": {
+    "id": "TlEo",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "لا يثبت أن AMA أو CIM يزعمان أن أطرهما غير مكتملة؛ هذه قاعدة تشغيلية مستنبطة من اختلاف أغراض الأطر.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "لا يثبت أن AMA أو CIM يزعمان أن أطرهما غير مكتملة؛ هذه قاعدة تشغيلية مستنبطة من اختلاف أغراض الأطر.",
+      "href": null
+     }
+    ]
+   },
+   "Type": {
+    "id": "UgqM",
+    "type": "select",
+    "select": {
+     "id": "78e6acda-10cb-41b4-88f9-4863b93c0fb8",
+     "name": "Principle",
+     "color": "blue"
+    }
+   },
+   "Statement": {
+    "id": "Xhdv",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "استخدم الأطر المهنية لتدقيق التغطية والكفاءات، ولا تعتبر أي إطار مهني بمفرده الخريطة العلمية أو التشغيلية الكاملة للتخصص.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "استخدم الأطر المهنية لتدقيق التغطية والكفاءات، ولا تعتبر أي إطار مهني بمفرده الخريطة العلمية أو التشغيلية الكاملة للتخصص.",
+      "href": null
+     }
+    ]
+   },
+   "Conditions": {
+    "id": "%5EHs%3F",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "يُستخدم كقاعدة منهجية إلى أن تُراجع مقابل أطر وأدلة إضافية.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "يُستخدم كقاعدة منهجية إلى أن تُراجع مقابل أطر وأدلة إضافية.",
+      "href": null
+     }
+    ]
+   },
+   "Last Reviewed": {
+    "id": "eXuX",
+    "type": "date",
+    "date": {
+     "start": "2026-09-25",
+     "end": null,
+     "time_zone": null
+    }
+   },
+   "Source IDs": {
+    "id": "nG%7B%3A",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "AMA; CIM",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "AMA; CIM",
+      "href": null
+     }
+    ]
+   },
+   "Context": {
+    "id": "%7BV_O",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "بناء نظام معرفة شامل لأي تخصص؛ التطبيق الحالي على التسويق.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "بناء نظام معرفة شامل لأي تخصص؛ التطبيق الحالي على التسويق.",
+      "href": null
+     }
+    ]
+   },
+   "Evidence IDs": {
+    "id": "%7DqxD",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "AMA Marketing Competency Model; CIM GPMF; AMA Definition",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "AMA Marketing Competency Model; CIM GPMF; AMA Definition",
+      "href": null
+     }
+    ]
+   },
+   "Name": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "PRN-001 — Use professional frameworks as coverage benchmarks, not complete taxonomies",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "PRN-001 — Use professional frameworks as coverage benchmarks, not complete taxonomies",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/PRN-001-Use-professional-frameworks-as-coverage-benchmarks-not-complete-taxonomies-3e658a0779e881f8b386ccc676791c90",
+  "public_url": null,
+  "archived": false,
+  "request_id": "93b676e5-a201-4890-9651-5c9a457c0e50"
+ },
+ "block_count": 0,
+ "blocks": []
+}

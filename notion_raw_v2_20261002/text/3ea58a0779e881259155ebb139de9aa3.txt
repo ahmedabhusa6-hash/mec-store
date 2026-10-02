@@ -1,0 +1,86 @@
+Reasoning Trail — Deep Marketing Conversation — 2026-09-30
+========================================
+MASTER MIGRATION LINK — 2026-09-30
+MASTER MIGRATION RECORD — Deep Marketing Conversation — 2026-09-30
+Purpose
+هذا السجل ينقل مسار الاستدلال القابل لإعادة الاستخدام من المحادثة المرجعية إلى Notion، بهدف منع فقدان سياق القرارات عند أرشفة/حذف المحادثة. هذا السجل ليس نقلًا حرفيًا لسلسلة التفكير الخاصة، بل Decision/Audit Rationale Trail يقتصر على المبررات والروابط الاستدلالية التي يمكن توثيقها وإعادة فحصها.
+Attribution Rule
+لا تُنسب أي معلومة إلى هذه المحادثة لمجرد أنها موجودة الآن في Notion. النسبة هنا تقتصر على ما ظهر في سياق المحادثة الحالي. أما السجلات التي ظهرت لاحقًا في Notion دون إثبات من transcript فلا تُنسب تلقائيًا إلى هذه المحادثة.
+Governing Reasoning Sequence
+Understand → Analyze → Verify → Detect Gaps/Problems → Solve → Persist Knowledge/State → Define Next Work
+وعند وجود حالة غير مؤكدة:
+UNKNOWN → RECONCILE FIRST → VERIFY → RESUME / RETRY SAFELY
+وعند فشل الكتابة أو الالتزام:
+Preserve Last Verified State → Record Pending Change → Reconcile → Retry Safely → Verify
+Core Reasoning Decisions
+1. Layered Marketing Master Map
+الاستدلال المعتمد: لا يكفي تنظيم المعرفة التسويقية كتقسيم مسطح للمجالات. يجب فصل السؤال/الظاهرة عن المجال، والنظرية/البناء، والآلية، والنتيجة، ومستوى التحليل، والمنهج/الدليل، والسياق، والتطبيق. النتيجة: KNG-43 = Marketing Master Map should be layered, not flat، مع اعتباره معمارية مشتقة لا Taxonomy عالميًا حصريًا.
+2. Architecture ≠ Claim-Level Evidence
+اكتملت بنية KNG-43 لا تعني أن كل روابطها مثبتة بالقوة نفسها. لذلك قُررت معايرة قوة الدليل على مستوى link / outcome / design / context، وعدم ترقية المعرفة المركبة إلى ACTIVE لمجرد اكتمال هيكلها.
+3. RSH-17: تفكيك السلسلة السببية
+تم رفض اختزال السلسلة:
+Analytics → Market Agility → Firm Performance
+إلى Claim سببي واحد.
+الاستدلال: يمكن أن يكون الرابط upstream مدعومًا تجريبيًا، بينما يكون الرابط downstream أو الوساطة الكاملة أقل قوة أو observational فقط. لذلك تُقيّم كل حلقة على حدة.
+4. RSH-17: الحالة لا تُغلق عند اكتمال دورة واحدة
+تم الفصل بين:
+Cycle Status و Research Item Status.
+لذلك يمكن أن تكون دورة بحث محددة COMPLETED / VERIFIED بينما يبقى RSH-17 = Needs Follow-up بسبب فجوات السببية، والوساطة، والآثار طويلة الأجل، والنقل بين السياقات.
+5. Evidence Heterogeneity ≠ Logical Contradiction
+ظهور نتائج مختلفة حول market agility → firm performance لا يعني تلقائيًا تعارضًا منطقيًا. يجب أولًا فحص السياق، الفترة الزمنية، المجتمع/السوق، التعريفات، القياس، والمنهج. النتيجة المسجلة كانت contextualized heterogeneity بدل فرض تعارض جوهري غير مثبت.
+6. No Universal Causal Generalization
+الاستدلال: وجود RCT أو experimental evidence في سياق محدد لا يسمح وحده بتعميم سببي عالمي. لذلك بقيت نتائج eBay / UK / Rwanda وغيرها bounded by context، ولم تتحول إلى مبدأ تسويقي عام دون أدلة نقل وتكرار مناسبة.
+7. Provenance Must Not Be Reconstructed by Guessing
+عندما كانت عضوية علاقة KNG-43 Evidence Links غير مؤكدة، تم رفض overwrite التخميني. القاعدة: إذا تعذرت استعادة membership التاريخية بصورة موثوقة، فالحالة RECONCILING / OPEN إلى أن تتوفر أدلة كافية.
+8. Automation State Must Be Tool-Verified
+وجود Automation باسم Deep Marketing Canonical Trigger لا يثبت أنه فعال. الاستدلال التشغيلي اعتمد على فحص الحالة الفعلية للأداة. النتيجة التي ثبتت في مسار التدقيق: Deep Marketing Canonical Trigger = DISABLED و Deep Marketing — Scheduled Knowledge Cycles = DISABLED. لذلك لا يجوز وصف Deep Marketing بأنه Scheduled Active أو Live 24/7 دون تحقق جديد.
+9. Scheduled ≠ Live Continuous
+الاستمرارية المقصودة هي:
+Persist State → Determine Next Work → Next Trigger → Resume
+وليست إبقاء نموذج واحد قيد التشغيل المستمر. كل Trigger هو Run منفصل له بداية ونهاية وحالة محفوظة.
+10. State / Change / Conflict / Commit Are Separate
+تم تثبيت الفصل بين:
+Knowledge State
+Change Type
+Conflict Status
+Commit Status
+الهدف منع أخطاء من نوع اعتبار COMPLETED دليلًا على إغلاق Research Item، أو اعتبار Contextualized في Contradiction Log مساويًا تلقائيًا لـ Conflict Status.
+11. No Silent Deletion
+SUPERSEDED ≠ DELETED. البيانات التاريخية أو المكررة لا تُحذف بصمت. الإجراء الآمن للسجلات غير المتوافقة هو:
+IDENTIFY → MAP → VALIDATE → MIGRATE → VERIFY
+Evidence Calibration Logic Preserved
+النتيجة المعرفية الأهم في نهاية المسار:
+توجد أدلة تجريبية مستقلة تدعم أجزاء مختلفة من المسار.
+توجد أدلة observational / SEM تدعم علاقات وسيطة في بعض السياقات.
+لا يوجد في هذا السجل ما يبرر إعلان الوساطة الكاملة Analytics → Market Agility → Firm Performance كعلاقة سببية عامة.
+لذلك بقي RSH-17 = Needs Follow-up و KNG-43 = SYNTHESIZED.
+Operational Integrity Findings
+تم رصد State Drift بين بعض النصوص التاريخية والحالة الفعلية للأتمتة.
+تم الحفاظ على الفصل بين historical state و verified current state.
+تم رصد خطر duplicate research/source records، مع قاعدة عدم اعتبار النسخة المكررة دليلًا مستقلًا دون Entity/Source Resolution.
+تم رصد خطر provenance loss عند الكتابة غير الآمنة.
+تم رصد خطر mixed-design conflation عند دمج نتائج تجريبية وارتباطية في Claim واحد.
+تم رصد خطر transfer overreach عند نقل النتائج من سياق محدود إلى قاعدة عامة.
+Current Research Continuity
+الحالة التي ينبغي أن يبدأ منها العمل التالي هي:
+KNG-43 = SYNTHESIZED
+Conflict Status = NONE
+RSH-15 = Needs Follow-up
+RSH-16 = Needs Follow-up
+RSH-17 = Needs Follow-up
+RSH-18 = Needs Follow-up
+ولـRSH-17:
+Next Work: direct causal / strong quasi-experimental / strong longitudinal identification of market agility → firm financial performance, ثم اختبار الوساطة الكاملة analytics → market agility → financial performance.
+Attribution Boundary
+المعرفات مثل KNG-43 و RSH-15..18 ظهرت ضمن سياق المحادثة، لكن هذا لا يعني أن كل Cycle IDs اللاحقة الموجودة حاليًا في Notion أُنشئت داخل هذه المحادثة. لا تُنسب السجلات اللاحقة مثل CKC-RSH17-008/009/010 إلى هذه المحادثة دون دليل مستقل على مصدرها.
+Deletion Safety
+قبل حذف المحادثة الأصلية، يجب الاحتفاظ بهذا السجل مع:
+Decision rationale
+State corrections
+Attribution boundaries
+Open gaps / Next Work
+Provenance/reconciliation rationale
+Automation-state verification logic
+هذا السجل مقصود كبديل دائم لسياق الاستدلال القابل لإعادة الاستخدام، وليس كبديل عن السجل الأصلي إذا كانت هناك حاجة إلى مراجعة المحادثة نفسها.
+Source
+مرجع نطاق العمل — Deep Marketing Conversation — 2026-09-26

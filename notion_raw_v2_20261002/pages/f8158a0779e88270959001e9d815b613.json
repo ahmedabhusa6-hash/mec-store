@@ -1,0 +1,232 @@
+{
+ "capture_reason": "NEWLY_ACCESSIBLE",
+ "captured_at": "2026-10-02T12:26:31+03:00",
+ "title": "تصميم تجربة المستخدم: المحاضرة 6",
+ "last_edited": "2026-07-24T22:57:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "f8158a07-79e8-8270-9590-01e9d815b613",
+  "created_time": "2026-07-24T22:57:00.000Z",
+  "last_edited_time": "2026-07-24T22:57:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": {
+   "type": "emoji",
+   "emoji": "🎨"
+  },
+  "parent": {
+   "type": "database_id",
+   "database_id": "44758a07-79e8-8221-b0ea-81a7407cfb82"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "رمز المادة": {
+    "id": "8b2%60",
+    "type": "select",
+    "select": {
+     "id": "3ecb1311-24ff-4f19-949f-fab706931801",
+     "name": "DESIGN 101",
+     "color": "pink"
+    }
+   },
+   "تاريخ الإنشاء": {
+    "id": "%60W_p",
+    "type": "created_time",
+    "created_time": "2026-07-24T22:57:00.000Z"
+   },
+   "اسم المادة": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "تصميم تجربة المستخدم: المحاضرة 6",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "تصميم تجربة المستخدم: المحاضرة 6",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/6-f8158a0779e88270959001e9d815b613",
+  "public_url": null,
+  "archived": false,
+  "request_id": "1d0ae25d-5a4c-48e0-924a-a3da06233def"
+ },
+ "block_count": 16,
+ "blocks": [
+  {
+   "id": "dea58a07-79e8-8317-b985-81066e3ff830",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "مراحل التفكير التصميمي الخمس"
+   ],
+   "created": "2026-07-24T22:57:00.000Z",
+   "edited": "2026-07-24T22:57:00.000Z"
+  },
+  {
+   "id": "4fa58a07-79e8-82dc-a328-014a559db2e6",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "التعاطف: فهم المستخدمين واحتياجاتهم وتجاربهم ودوافعهم من خلال الملاحظة والتفاعل."
+   ],
+   "created": "2026-07-24T22:57:00.000Z",
+   "edited": "2026-07-24T22:57:00.000Z"
+  },
+  {
+   "id": "47c58a07-79e8-82cc-8640-8197a501591c",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "التحديد: صياغة مشكلة المستخدم بوضوح بناءً على الرؤى المكتسبة خلال مرحلة التعاطف."
+   ],
+   "created": "2026-07-24T22:57:00.000Z",
+   "edited": "2026-07-24T22:57:00.000Z"
+  },
+  {
+   "id": "58758a07-79e8-83d9-8504-81ca24c58954",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "توليد الأفكار: توليد مجموعة واسعة من الأفكار والحلول المبتكرة التي تلبي احتياجات المستخدم."
+   ],
+   "created": "2026-07-24T22:57:00.000Z",
+   "edited": "2026-07-24T22:57:00.000Z"
+  },
+  {
+   "id": "b3858a07-79e8-834c-8f9b-8177f405917c",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "النمذجة الأولية: تطوير نماذج أولية للمنتج أو الميزات لاستكشاف حلول المشكلات المطروحة."
+   ],
+   "created": "2026-07-24T22:57:00.000Z",
+   "edited": "2026-07-24T22:57:00.000Z"
+  },
+  {
+   "id": "4ab58a07-79e8-82e3-8d7a-01f8d861f682",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "الاختبار: التحقق من صحة الحلول من خلال ملاحظات المستخدمين، مع إدراك أن هذه المرحلة قد تعيدك إلى مراحل سابقة لمزيد من التنقيح والتحسين."
+   ],
+   "created": "2026-07-24T22:57:00.000Z",
+   "edited": "2026-07-24T22:57:00.000Z"
+  },
+  {
+   "id": "afc58a07-79e8-8273-8853-01028a44f0d5",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [],
+   "created": "2026-07-24T22:57:00.000Z",
+   "edited": "2026-07-24T22:57:00.000Z"
+  },
+  {
+   "id": "af058a07-79e8-8227-842b-01e40e585cb5",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "التطبيق في مشاريع تصميم تجربة المستخدم"
+   ],
+   "created": "2026-07-24T22:57:00.000Z",
+   "edited": "2026-07-24T22:57:00.000Z"
+  },
+  {
+   "id": "e3458a07-79e8-8319-b460-81459722e997",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "أبحاث المستخدم: إجراء المقابلات والاستبيانات والملاحظات لجمع رؤى حول المستخدمين."
+   ],
+   "created": "2026-07-24T22:57:00.000Z",
+   "edited": "2026-07-24T22:57:00.000Z"
+  },
+  {
+   "id": "80858a07-79e8-8310-99db-01438501b92b",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "إنشاء الشخصيات: تطوير شخصيات مستخدم مفصّلة بناءً على البحث لتوجيه عملية التصميم."
+   ],
+   "created": "2026-07-24T22:57:00.000Z",
+   "edited": "2026-07-24T22:57:00.000Z"
+  },
+  {
+   "id": "a9058a07-79e8-82b5-aa0b-01739c59c5f3",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "رسم خريطة الرحلة: تصور رحلة المستخدم لتحديد المشكلات وفرص التحسين."
+   ],
+   "created": "2026-07-24T22:57:00.000Z",
+   "edited": "2026-07-24T22:57:00.000Z"
+  },
+  {
+   "id": "c6e58a07-79e8-8273-8e4c-0129f9424a89",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "النمذجة الأولية: إنشاء نماذج أولية تفاعلية لاختبار المفاهيم وتحسينها."
+   ],
+   "created": "2026-07-24T22:57:00.000Z",
+   "edited": "2026-07-24T22:57:00.000Z"
+  },
+  {
+   "id": "74958a07-79e8-83e2-81ce-0144d74d4d7d",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "اختبار قابلية الاستخدام: جمع ملاحظات المستخدمين حول النماذج الأولية للتحقق من التصميم وتحسينه."
+   ],
+   "created": "2026-07-24T22:57:00.000Z",
+   "edited": "2026-07-24T22:57:00.000Z"
+  },
+  {
+   "id": "f4f58a07-79e8-8241-aed2-81ffb477e9be",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [],
+   "created": "2026-07-24T22:57:00.000Z",
+   "edited": "2026-07-24T22:57:00.000Z"
+  },
+  {
+   "id": "27158a07-79e8-836f-8d2b-018a579e9790",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "شاهد الفيديو التالي:"
+   ],
+   "created": "2026-07-24T22:57:00.000Z",
+   "edited": "2026-07-24T22:57:00.000Z"
+  },
+  {
+   "id": "78b58a07-79e8-824c-8762-01cf410b4a00",
+   "type": "video",
+   "has_children": false,
+   "text": [],
+   "created": "2026-07-24T22:57:00.000Z",
+   "edited": "2026-07-24T22:57:00.000Z"
+  }
+ ]
+}

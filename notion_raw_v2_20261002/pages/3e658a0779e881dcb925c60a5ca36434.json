@@ -1,0 +1,380 @@
+{
+ "capture_reason": "NEWLY_ACCESSIBLE",
+ "captured_at": "2026-10-02T12:16:49+03:00",
+ "title": "Insight — Zoho يستخدم التعليم كجزء من تجربة التقييم",
+ "last_edited": "2026-09-25T20:05:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e658a07-79e8-81dc-b925-c60a5ca36434",
+  "created_time": "2026-09-25T20:05:00.000Z",
+  "last_edited_time": "2026-09-25T20:05:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "393c008b-5797-481d-8466-3376979e3a96"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "Created By Cycle": {
+    "id": "%3F_Gq",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Change Type": {
+    "id": "%40k%7CH",
+    "type": "select",
+    "select": null
+   },
+   "Supersedes": {
+    "id": "AIZQ",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Applications": {
+    "id": "B%3B%7Cq",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Superseded By": {
+    "id": "CGHy",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Evidence Links": {
+    "id": "F%3E%3Dw",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "3e658a07-79e8-818f-b85e-c427111aa41d"
+     }
+    ],
+    "has_more": false
+   },
+   "Provenance": {
+    "id": "K%40rK",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Confidence": {
+    "id": "KggN",
+    "type": "select",
+    "select": {
+     "id": "7abbba0d-ca2f-4227-8c71-75c141082ed2",
+     "name": "High",
+     "color": "green"
+    }
+   },
+   "Failure Conditions": {
+    "id": "MhLs",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Research Refs": {
+    "id": "Oh%5E%60",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Related Knowledge Links": {
+    "id": "PEgK",
+    "type": "relation",
+    "relation": [],
+    "has_more": false
+   },
+   "Notes": {
+    "id": "Q%3CFE",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Mechanism": {
+    "id": "VLO_",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Expert-led webinar + guided product tour + localized scheduling/content.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Expert-led webinar + guided product tour + localized scheduling/content.",
+      "href": null
+     }
+    ]
+   },
+   "Source Dates": {
+    "id": "WFDF",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Evidence Strength": {
+    "id": "WgMB",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Context": {
+    "id": "%5BScl",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Accounting software where configuration and compliance can create evaluation friction.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Accounting software where configuration and compliance can create evaluation friction.",
+      "href": null
+     }
+    ]
+   },
+   "Last Verified": {
+    "id": "%5Bdn%3C",
+    "type": "date",
+    "date": null
+   },
+   "Conflict Status": {
+    "id": "%5B%7BSe",
+    "type": "select",
+    "select": null
+   },
+   "Case Links": {
+    "id": "%5CTHn",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "3e658a07-79e8-814e-9d8d-fe842fc60c53"
+     }
+    ],
+    "has_more": false
+   },
+   "Known Limitations": {
+    "id": "%5CWaz",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Maturity": {
+    "id": "%60H%40V",
+    "type": "select",
+    "select": {
+     "id": "86a6551c-d6b9-4709-bee2-c7b56a7ecda6",
+     "name": "Emerging",
+     "color": "blue"
+    }
+   },
+   "Statement": {
+    "id": "b%3FiZ",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Zoho Books يحول التعليم إلى تجربة موجهة: الجولات والندوات تشرح إعداد الحساب والمعاملات والمصالحة والضرائب والتكاملات، مع نسخ محلية وإيقاع متكرر.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Zoho Books يحول التعليم إلى تجربة موجهة: الجولات والندوات تشرح إعداد الحساب والمعاملات والمصالحة والضرائب والتكاملات، مع نسخ محلية وإيقاع متكرر.",
+      "href": null
+     }
+    ]
+   },
+   "Knowledge ID": {
+    "id": "c%3D%5B~",
+    "type": "unique_id",
+    "unique_id": {
+     "prefix": "KNG",
+     "number": 14
+    }
+   },
+   "Last Changed By Cycle": {
+    "id": "dTG%3B",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Applicable Context": {
+    "id": "dogZ",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Status": {
+    "id": "fbG%3F",
+    "type": "status",
+    "status": {
+     "id": "e02f61a2-adc1-4978-b26a-35bc4ab239fb",
+     "name": "تم",
+     "color": "green"
+    }
+   },
+   "First Observed": {
+    "id": "gX%3B%3A",
+    "type": "date",
+    "date": null
+   },
+   "Last Updated": {
+    "id": "iuwj",
+    "type": "date",
+    "date": null
+   },
+   "Next Verification": {
+    "id": "jm%60b",
+    "type": "date",
+    "date": null
+   },
+   "Source Refs": {
+    "id": "ol%7B%5E",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Constraints": {
+    "id": "qFdV",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "لا يثبت المصدر conversion من webinar إلى paid customer.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "لا يثبت المصدر conversion من webinar إلى paid customer.",
+      "href": null
+     }
+    ]
+   },
+   "Experiments": {
+    "id": "qZJd",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Knowledge State": {
+    "id": "rHSr",
+    "type": "select",
+    "select": null
+   },
+   "Sources": {
+    "id": "tWCH",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Previous Version": {
+    "id": "vbb%40",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Conditions": {
+    "id": "yaOp",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "المنتج يحتاج شرحًا عمليًا قبل التبني، والعميل يريد رؤية workflow حقيقي.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "المنتج يحتاج شرحًا عمليًا قبل التبني، والعميل يريد رؤية workflow حقيقي.",
+      "href": null
+     }
+    ]
+   },
+   "Entity Links": {
+    "id": "%7CEwQ",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "3e658a07-79e8-81b5-aed0-dc96e8dffa3b"
+     }
+    ],
+    "has_more": false
+   },
+   "Research Questions": {
+    "id": "%7CtAF",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Knowledge Type": {
+    "id": "~QXO",
+    "type": "select",
+    "select": {
+     "id": "7e55b03a-5a1b-46f0-b557-c10f772e13aa",
+     "name": "Insight",
+     "color": "blue"
+    }
+   },
+   "Name": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Insight — Zoho يستخدم التعليم كجزء من تجربة التقييم",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Insight — Zoho يستخدم التعليم كجزء من تجربة التقييم",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/Insight-Zoho-3e658a0779e881dcb925c60a5ca36434",
+  "public_url": null,
+  "archived": false,
+  "request_id": "86deedf5-3031-4de6-9776-81976da46fd1"
+ },
+ "block_count": 0,
+ "blocks": []
+}

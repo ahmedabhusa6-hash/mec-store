@@ -1,0 +1,574 @@
+{
+ "capture_reason": "CHANGED",
+ "title": "Stage Analysis",
+ "schema": {
+  "object": "database",
+  "id": "2499c2a6-0adc-474c-897c-4e4261b9ac84",
+  "cover": null,
+  "icon": null,
+  "created_time": "2026-09-25T20:50:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_time": "2026-09-25T20:50:00.000Z",
+  "title": [
+   {
+    "type": "text",
+    "text": {
+     "content": "Stage Analysis",
+     "link": null
+    },
+    "annotations": {
+     "bold": false,
+     "italic": false,
+     "strikethrough": false,
+     "underline": false,
+     "code": false,
+     "color": "default"
+    },
+    "plain_text": "Stage Analysis",
+    "href": null
+   }
+  ],
+  "description": [
+   {
+    "type": "text",
+    "text": {
+     "content": "بوابة تحليلية إلزامية في نهاية كل مرحلة لتوثيق الاكتشافات والتحقق والاستنتاجات والفجوات والمسار التالي.",
+     "link": null
+    },
+    "annotations": {
+     "bold": false,
+     "italic": false,
+     "strikethrough": false,
+     "underline": false,
+     "code": false,
+     "color": "default"
+    },
+    "plain_text": "بوابة تحليلية إلزامية في نهاية كل مرحلة لتوثيق الاكتشافات والتحقق والاستنتاجات والفجوات والمسار التالي.",
+    "href": null
+   }
+  ],
+  "is_inline": false,
+  "database_type": null,
+  "properties": {
+   "Next Direction": {
+    "id": "%3Bu%5B%5C",
+    "name": "Next Direction",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Unknown": {
+    "id": "%3DYO%3E",
+    "name": "Unknown",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Derived": {
+    "id": "%3Di~q",
+    "name": "Derived",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Objective": {
+    "id": "BuLx",
+    "name": "Objective",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Stage ID": {
+    "id": "F_BH",
+    "name": "Stage ID",
+    "description": null,
+    "type": "unique_id",
+    "unique_id": {
+     "prefix": "STG"
+    }
+   },
+   "Completed": {
+    "id": "G%3DJ%5C",
+    "name": "Completed",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Verified": {
+    "id": "RBw%60",
+    "name": "Verified",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Discovered": {
+    "id": "WjvH",
+    "name": "Discovered",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Inferred": {
+    "id": "%5CQtD",
+    "name": "Inferred",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Decision": {
+    "id": "%60d%3Ct",
+    "name": "Decision",
+    "description": null,
+    "type": "select",
+    "select": {
+     "options": [
+      {
+       "id": "d2b9e4d2-61e5-4e6d-9963-ae6f15cd87bf",
+       "name": "Continue",
+       "color": "green",
+       "description": null
+      },
+      {
+       "id": "e36abc80-7819-4565-b790-032e0068f220",
+       "name": "Branch",
+       "color": "yellow",
+       "description": null
+      },
+      {
+       "id": "88acc079-e9f5-43aa-8bae-aad651fbdbe7",
+       "name": "Rework",
+       "color": "orange",
+       "description": null
+      },
+      {
+       "id": "94e510cd-dfe6-4d22-a377-71bf1b5ac4fd",
+       "name": "Gate",
+       "color": "blue",
+       "description": null
+      },
+      {
+       "id": "1b9e1c49-ec4f-4ccf-8551-780a83208b34",
+       "name": "Blocked",
+       "color": "red",
+       "description": null
+      }
+     ]
+    }
+   },
+   "Rejected": {
+    "id": "i%60jz",
+    "name": "Rejected",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Review Date": {
+    "id": "w%5CM~",
+    "name": "Review Date",
+    "description": null,
+    "type": "date",
+    "date": {}
+   },
+   "Stage": {
+    "id": "xD_%3A",
+    "name": "Stage",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Conflicting": {
+    "id": "zIJ%3E",
+    "name": "Conflicting",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Gaps": {
+    "id": "%7C%60xC",
+    "name": "Gaps",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Name": {
+    "id": "title",
+    "name": "Name",
+    "description": null,
+    "type": "title",
+    "title": {}
+   }
+  },
+  "parent": {
+   "type": "page_id",
+   "page_id": "3e658a07-79e8-812f-b628-dde61492e5b2"
+  },
+  "url": "https://app.notion.com/p/2499c2a60adc474c897c4e4261b9ac84",
+  "public_url": null,
+  "in_trash": false,
+  "archived": false,
+  "request_id": "d9a884d0-d6a3-4bfe-9d27-7f5bdc483695"
+ },
+ "row_count": 1,
+ "rows": [
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-810f-b443-c9894b9ba985",
+   "created_time": "2026-09-25T20:52:00.000Z",
+   "last_edited_time": "2026-09-25T20:52:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "2499c2a6-0adc-474c-897c-4e4261b9ac84"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Next Direction": {
+     "id": "%3Bu%5B%5C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ابدأ بجمع والتحقق من 20+ كتابًا مرجعيًا، وبناء Source Universe أكاديمي، ثم تنفيذ Deep Domain Research لكل مجال رئيسي.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ابدأ بجمع والتحقق من 20+ كتابًا مرجعيًا، وبناء Source Universe أكاديمي، ثم تنفيذ Deep Domain Research لكل مجال رئيسي.",
+       "href": null
+      }
+     ]
+    },
+    "Unknown": {
+     "id": "%3DYO%3E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "التغطية الأكاديمية الكاملة للمجال، قائمة الكتب الأساسية، خريطة النظريات، والربط التفصيلي بين الوظائف والمجالات والمقاييس.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "التغطية الأكاديمية الكاملة للمجال، قائمة الكتب الأساسية، خريطة النظريات، والربط التفصيلي بين الوظائف والمجالات والمقاييس.",
+       "href": null
+      }
+     ]
+    },
+    "Derived": {
+     "id": "%3Di~q",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "استخدام AMA وCIM كمرجعين مستقلين لاختبار التغطية، مع إبقاء الخريطة النهائية مفتوحة للتعديل عبر الأبحاث الأكاديمية والتطبيقات.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "استخدام AMA وCIM كمرجعين مستقلين لاختبار التغطية، مع إبقاء الخريطة النهائية مفتوحة للتعديل عبر الأبحاث الأكاديمية والتطبيقات.",
+       "href": null
+      }
+     ]
+    },
+    "Objective": {
+     "id": "BuLx",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "تثبيت هدف النظام، بناء الخريطة الأولية، تفكيكها، وبدء هندسة المصادر.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "تثبيت هدف النظام، بناء الخريطة الأولية، تفكيكها، وبدء هندسة المصادر.",
+       "href": null
+      }
+     ]
+    },
+    "Stage ID": {
+     "id": "F_BH",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "STG",
+      "number": 1
+     }
+    },
+    "Completed": {
+     "id": "G%3DJ%5C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "تم إنشاء صفحة التسويق العميق، تحديد التشغيل المستمر، وإعادة استخدام بنية KOS التسويقية الموجودة بدل تكرارها.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "تم إنشاء صفحة التسويق العميق، تحديد التشغيل المستمر، وإعادة استخدام بنية KOS التسويقية الموجودة بدل تكرارها.",
+       "href": null
+      }
+     ]
+    },
+    "Verified": {
+     "id": "RBw%60",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "AMA Marketing Competency Model؛ CIM GPMF؛ AMA Definition of Marketing؛ AMA 2026 State of Marketing Careers؛ AMA 2026 Future Trends.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "AMA Marketing Competency Model؛ CIM GPMF؛ AMA Definition of Marketing؛ AMA 2026 State of Marketing Careers؛ AMA 2026 Future Trends.",
+       "href": null
+      }
+     ]
+    },
+    "Discovered": {
+     "id": "WjvH",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "أطر مهنية مستقلة يمكن استخدامها كـCoverage Benchmarks؛ موارد تعليمية رسمية من Google وMeta؛ مصادر بحثية/معرفية من Ehrenberg-Bass وWARC.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "أطر مهنية مستقلة يمكن استخدامها كـCoverage Benchmarks؛ موارد تعليمية رسمية من Google وMeta؛ مصادر بحثية/معرفية من Ehrenberg-Bass وWARC.",
+       "href": null
+      }
+     ]
+    },
+    "Inferred": {
+     "id": "%5CQtD",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "لا يوجد إطار مهني واحد يكفي وحده لبناء taxonomy كاملة؛ يجب تركيب الخريطة من طبقات: تعريفات/نظرية + كفاءات مهنية + بحث/دليل + وظائف + تطبيق + تقنيات.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "لا يوجد إطار مهني واحد يكفي وحده لبناء taxonomy كاملة؛ يجب تركيب الخريطة من طبقات: تعريفات/نظرية + كفاءات مهنية + بحث/دليل + وظائف + تطبيق + تقنيات.",
+       "href": null
+      }
+     ]
+    },
+    "Decision": {
+     "id": "%60d%3Ct",
+     "type": "select",
+     "select": {
+      "id": "d2b9e4d2-61e5-4e6d-9963-ae6f15cd87bf",
+      "name": "Continue",
+      "color": "green"
+     }
+    },
+    "Rejected": {
+     "id": "i%60jz",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "اعتبار المحتوى أو Copywriting أو Digital Marketing مركز التسويق؛ اعتبار الشهرة أو وجود المورد دليلًا على الجودة؛ اعتبار تقارير الاتجاهات دليلًا سببيًا.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "اعتبار المحتوى أو Copywriting أو Digital Marketing مركز التسويق؛ اعتبار الشهرة أو وجود المورد دليلًا على الجودة؛ اعتبار تقارير الاتجاهات دليلًا سببيًا.",
+       "href": null
+      }
+     ]
+    },
+    "Review Date": {
+     "id": "w%5CM~",
+     "type": "date",
+     "date": {
+      "start": "2026-09-25",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Stage": {
+     "id": "xD_%3A",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Phases 0–3",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Phases 0–3",
+       "href": null
+      }
+     ]
+    },
+    "Conflicting": {
+     "id": "zIJ%3E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "لا يوجد تعارض جوهري مثبت في هذه المرحلة؛ ما يزال الاختلاف بين الأطر اختلافًا في زاوية التصنيف أكثر من كونه تناقضًا.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "لا يوجد تعارض جوهري مثبت في هذه المرحلة؛ ما يزال الاختلاف بين الأطر اختلافًا في زاوية التصنيف أكثر من كونه تناقضًا.",
+       "href": null
+      }
+     ]
+    },
+    "Gaps": {
+     "id": "%7C%60xC",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "الحاجة إلى مراجعة كتب مرجعية وأبحاث محكمة؛ توسيع الخريطة خارج الأطر المهنية؛ بناء طبقة Consumer Behavior وMarketing Science؛ إضافة مصدر أكاديمي مستقل لكل محور رئيسي.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "الحاجة إلى مراجعة كتب مرجعية وأبحاث محكمة؛ توسيع الخريطة خارج الأطر المهنية؛ بناء طبقة Consumer Behavior وMarketing Science؛ إضافة مصدر أكاديمي مستقل لكل محور رئيسي.",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "STG-001 — Foundation & Architecture Review",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "STG-001 — Foundation & Architecture Review",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/STG-001-Foundation-Architecture-Review-3e658a0779e8810fb443c9894b9ba985",
+   "public_url": null,
+   "archived": false
+  }
+ ]
+}

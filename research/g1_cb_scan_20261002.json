@@ -1,0 +1,1707 @@
+{
+ "execution_timestamp": "2026-10-02T03:17:58.139161+03:00",
+ "reference": "PMRF v1.0 G-1",
+ "tests": {
+  "T3_cb_mongo": {
+   "n_hex_ids": 229,
+   "total_cb": 229,
+   "window_utc": [
+    "2026-06-01T05:47:08+00:00",
+    "2026-10-01T05:27:00+00:00"
+   ],
+   "span_hours": 2927.7,
+   "clusters": [
+    {
+     "from": "2026-06-01T08:47",
+     "to": "2026-06-01T08:47",
+     "n": 1
+    },
+    {
+     "from": "2026-08-02T04:53",
+     "to": "2026-08-02T04:53",
+     "n": 1
+    },
+    {
+     "from": "2026-08-26T11:52",
+     "to": "2026-08-26T11:52",
+     "n": 1
+    },
+    {
+     "from": "2026-08-27T16:04",
+     "to": "2026-08-27T17:59",
+     "n": 3
+    },
+    {
+     "from": "2026-08-28T12:39",
+     "to": "2026-08-28T17:35",
+     "n": 2
+    },
+    {
+     "from": "2026-08-31T13:15",
+     "to": "2026-08-31T13:15",
+     "n": 1
+    },
+    {
+     "from": "2026-09-04T19:46",
+     "to": "2026-09-04T19:46",
+     "n": 1
+    },
+    {
+     "from": "2026-09-06T06:41",
+     "to": "2026-09-06T06:41",
+     "n": 1
+    },
+    {
+     "from": "2026-09-07T06:28",
+     "to": "2026-09-07T06:28",
+     "n": 1
+    },
+    {
+     "from": "2026-09-07T23:07",
+     "to": "2026-09-07T23:07",
+     "n": 1
+    },
+    {
+     "from": "2026-09-08T14:37",
+     "to": "2026-09-08T14:37",
+     "n": 1
+    },
+    {
+     "from": "2026-09-10T10:33",
+     "to": "2026-09-10T10:33",
+     "n": 1
+    },
+    {
+     "from": "2026-09-10T18:51",
+     "to": "2026-09-10T20:48",
+     "n": 2
+    },
+    {
+     "from": "2026-09-11T17:18",
+     "to": "2026-09-11T17:18",
+     "n": 1
+    },
+    {
+     "from": "2026-09-12T16:48",
+     "to": "2026-09-12T16:53",
+     "n": 3
+    },
+    {
+     "from": "2026-09-14T14:53",
+     "to": "2026-09-14T14:53",
+     "n": 1
+    },
+    {
+     "from": "2026-09-16T08:17",
+     "to": "2026-09-16T08:17",
+     "n": 1
+    },
+    {
+     "from": "2026-09-17T11:43",
+     "to": "2026-09-17T11:43",
+     "n": 1
+    },
+    {
+     "from": "2026-09-18T08:42",
+     "to": "2026-09-18T09:40",
+     "n": 100
+    },
+    {
+     "from": "2026-09-18T18:08",
+     "to": "2026-09-18T21:30",
+     "n": 2
+    },
+    {
+     "from": "2026-09-19T21:44",
+     "to": "2026-09-19T22:03",
+     "n": 19
+    },
+    {
+     "from": "2026-09-20T15:56",
+     "to": "2026-09-20T18:04",
+     "n": 10
+    },
+    {
+     "from": "2026-09-21T06:33",
+     "to": "2026-09-21T06:33",
+     "n": 1
+    },
+    {
+     "from": "2026-09-21T15:11",
+     "to": "2026-09-21T15:11",
+     "n": 1
+    },
+    {
+     "from": "2026-09-22T15:53",
+     "to": "2026-09-22T19:32",
+     "n": 3
+    },
+    {
+     "from": "2026-09-23T11:33",
+     "to": "2026-09-23T18:53",
+     "n": 6
+    },
+    {
+     "from": "2026-09-24T06:49",
+     "to": "2026-09-24T19:46",
+     "n": 17
+    },
+    {
+     "from": "2026-09-25T10:09",
+     "to": "2026-09-25T10:09",
+     "n": 1
+    },
+    {
+     "from": "2026-09-25T17:49",
+     "to": "2026-09-25T20:51",
+     "n": 14
+    },
+    {
+     "from": "2026-09-26T13:02",
+     "to": "2026-09-26T19:21",
+     "n": 6
+    },
+    {
+     "from": "2026-09-27T08:02",
+     "to": "2026-09-27T08:03",
+     "n": 6
+    },
+    {
+     "from": "2026-09-27T14:55",
+     "to": "2026-09-27T14:55",
+     "n": 1
+    },
+    {
+     "from": "2026-09-27T21:44",
+     "to": "2026-09-27T21:50",
+     "n": 4
+    },
+    {
+     "from": "2026-09-28T08:22",
+     "to": "2026-09-28T16:33",
+     "n": 4
+    },
+    {
+     "from": "2026-09-29T06:10",
+     "to": "2026-09-29T06:10",
+     "n": 1
+    },
+    {
+     "from": "2026-09-29T12:11",
+     "to": "2026-09-29T19:56",
+     "n": 6
+    },
+    {
+     "from": "2026-09-30T06:33",
+     "to": "2026-09-30T06:33",
+     "n": 1
+    },
+    {
+     "from": "2026-09-30T16:29",
+     "to": "2026-09-30T16:29",
+     "n": 1
+    },
+    {
+     "from": "2026-10-01T08:27",
+     "to": "2026-10-01T08:27",
+     "n": 1
+    }
+   ],
+   "hour_histogram": {
+    "06-01 05:00": 1,
+    "08-02 01:00": 1,
+    "08-26 08:00": 1,
+    "08-27 13:00": 1,
+    "08-27 14:00": 2,
+    "08-28 09:00": 1,
+    "08-28 14:00": 1,
+    "08-31 10:00": 1,
+    "09-04 16:00": 1,
+    "09-06 03:00": 1,
+    "09-07 03:00": 1,
+    "09-07 20:00": 1,
+    "09-08 11:00": 1,
+    "09-10 07:00": 1,
+    "09-10 15:00": 1,
+    "09-10 17:00": 1,
+    "09-11 14:00": 1,
+    "09-12 13:00": 3,
+    "09-14 11:00": 1,
+    "09-16 05:00": 1,
+    "09-17 08:00": 1,
+    "09-18 05:00": 23,
+    "09-18 06:00": 77,
+    "09-18 15:00": 1,
+    "09-18 18:00": 1,
+    "09-19 18:00": 17,
+    "09-19 19:00": 2,
+    "09-20 12:00": 1,
+    "09-20 14:00": 8,
+    "09-20 15:00": 1,
+    "09-21 03:00": 1,
+    "09-21 12:00": 1,
+    "09-22 12:00": 2,
+    "09-22 16:00": 1,
+    "09-23 08:00": 1,
+    "09-23 09:00": 1,
+    "09-23 13:00": 2,
+    "09-23 15:00": 2,
+    "09-24 03:00": 1,
+    "09-24 09:00": 1,
+    "09-24 10:00": 6,
+    "09-24 12:00": 8,
+    "09-24 16:00": 1,
+    "09-25 07:00": 1,
+    "09-25 14:00": 7,
+    "09-25 15:00": 6,
+    "09-25 17:00": 1,
+    "09-26 10:00": 1,
+    "09-26 14:00": 1,
+    "09-26 15:00": 1,
+    "09-26 16:00": 3,
+    "09-27 05:00": 6,
+    "09-27 11:00": 1,
+    "09-27 18:00": 4,
+    "09-28 05:00": 1,
+    "09-28 08:00": 1,
+    "09-28 13:00": 2,
+    "09-29 03:00": 1,
+    "09-29 09:00": 1,
+    "09-29 14:00": 2,
+    "09-29 16:00": 3,
+    "09-30 03:00": 1,
+    "09-30 13:00": 1,
+    "10-01 05:00": 1
+   }
+  },
+  "T3b_ps_mongo": {
+   "n": 339,
+   "window_utc": [
+    "2026-06-01T05:47:08+00:00",
+    "2026-10-01T19:23:13+00:00"
+   ],
+   "span_days": 122.6,
+   "daily_histogram": {
+    "06-01": 1,
+    "06-15": 6,
+    "06-16": 4,
+    "06-25": 1,
+    "07-06": 2,
+    "07-13": 2,
+    "07-18": 2,
+    "07-22": 2,
+    "08-02": 1,
+    "08-07": 2,
+    "08-13": 2,
+    "08-16": 2,
+    "08-21": 2,
+    "08-23": 2,
+    "08-26": 1,
+    "08-27": 2,
+    "08-28": 1,
+    "08-30": 2,
+    "08-31": 1,
+    "09-02": 2,
+    "09-07": 3,
+    "09-08": 1,
+    "09-10": 1,
+    "09-11": 5,
+    "09-12": 5,
+    "09-14": 6,
+    "09-16": 2,
+    "09-18": 118,
+    "09-19": 19,
+    "09-20": 11,
+    "09-21": 4,
+    "09-22": 6,
+    "09-23": 11,
+    "09-24": 24,
+    "09-25": 24,
+    "09-26": 18,
+    "09-27": 25,
+    "09-28": 11,
+    "09-29": 3,
+    "10-01": 2
+   }
+  },
+  "T1_cb_vs_ps_archived": {
+   "exact_n": 197,
+   "exact": [
+    [
+     "🎨 ChatGPT Go 1 Month (10-Day Warranty)",
+     "🎨 ChatGPT Go 1 Month (25-Day Warranty)",
+     3.66,
+     3.89,
+     3.24,
+     "cb_6abb2c37a3c899e94310692c",
+     "ps_6ab9e31b31a482e3ae10e793"
+    ],
+    [
+     "🎨 ChatGPT Plus 1 Month full warranty",
+     "🎨 ChatGPT Plus 1 Month full warranty",
+     12.02,
+     12.35,
+     10.29,
+     "cb_6abb80a5dcfd14a98e56ef16",
+     "ps_6abb80a5dcfd14a98e56ef16"
+    ],
+    [
+     "🎨 ChatGPT Plus 1 Month full warranty",
+     "🎨 ChatGPT Plus 1 Month full warranty",
+     11.79,
+     12.35,
+     10.29,
+     "cb_6abd0ed27e196463ea3a567f",
+     "ps_6abb80a5dcfd14a98e56ef16"
+    ],
+    [
+     "🤖 ChatGPT Plus 30 Days (GGPay)",
+     "🤖 ChatGPT Plus 30 Days (GGPay)",
+     8.32,
+     8.31,
+     6.92,
+     "cb_6ab9042f266735c89776a297",
+     "ps_6ab9042f266735c89776a297"
+    ],
+    [
+     "🎨 ChatGPT PRO X5 1 month - 7 Days warranty",
+     "🎨 ChatGPT PRO X5 1 month - 7 Days warranty",
+     78.53,
+     78.53,
+     65.44,
+     "cb_6ab0a59af6d40479fdc3fe64",
+     "ps_6ab0a59af6d40479fdc3fe64"
+    ],
+    [
+     "🎨 ChatGPT Ver Students Plus 4 Months without warranty",
+     "🎨 ChatGPT Ver Students Plus 4 Months without warranty",
+     16.16,
+     16.16,
+     13.46,
+     "cb_6ab7d2db0f9ff38abc2fc24d",
+     "ps_6ab7d2db0f9ff38abc2fc24d"
+    ],
+    [
+     "GPT Plus Level 4, 24H warranty",
+     "GPT Plus Level 4, 24H warranty",
+     23.09,
+     23.09,
+     19.24,
+     "cb_6ab7ed4378e9610e9e36d783",
+     "ps_6ab7ed4378e9610e9e36d783"
+    ],
+    [
+     "🎨 Shared ChatGPT account with a full 1-month warranty",
+     "🎨 Shared ChatGPT account with a full 1-month warranty",
+     5.49,
+     5.5,
+     4.58,
+     "cb_6ab9647a266735c89784e6b4",
+     "ps_6ab9647a266735c89784e6b4"
+    ],
+    [
+     "🎨 Slot GPT Business can be extended by 1 month with full warranty",
+     "🎨 Slot GPT Business can be extended by 1 month with full warranty",
+     19.82,
+     19.66,
+     16.38,
+     "cb_6abc82ed17aa4c8f035618c1",
+     "ps_6ab8a1e1a83a15aa6f6a31dd"
+    ],
+    [
+     "🤖 1B Credit API Codex 14 Days - full warranty",
+     "🤖 1B Credit API Codex 14 Days - full warranty",
+     41.44,
+     41.09,
+     34.24,
+     "cb_6ab3f5f90944def028bf1fe7",
+     "ps_6ab3f5f90944def028bf1fe7"
+    ],
+    [
+     "🤖 1B Credit API Codex 2 Days - full warranty",
+     "🤖 1B Credit API Codex 14 Days - full warranty",
+     23.06,
+     41.09,
+     34.24,
+     "cb_6aacd09c5271203cb12b5525",
+     "ps_6ab3f5f90944def028bf1fe7"
+    ],
+    [
+     "🤖 100M Credit API Codex 1 Day - full warranty",
+     "🤖 50M Credit API Codex 1 Day - full warranty",
+     3.66,
+     2.52,
+     2.1,
+     "cb_6aaccf715271203cb12b2504",
+     "ps_6aaccf535271203cb12b1f8d"
+    ],
+    [
+     "🤖 100M Credit API Codex 5 Days - full warranty",
+     "🤖 50M Credit API Codex 2 Days - full warranty",
+     4.58,
+     2.75,
+     2.29,
+     "cb_6aaccf7f5271203cb12b2724",
+     "ps_6aaff00486b4242014b98b93"
+    ],
+    [
+     "🤖 10M Credit API Codex 1 Day - full warranty",
+     "🤖 50M Credit API Codex 1 Day - full warranty",
+     1.23,
+     2.52,
+     2.1,
+     "cb_6aaccf2e5271203cb12b18d2",
+     "ps_6aaccf535271203cb12b1f8d"
+    ],
+    [
+     "🤖 10M Credit API Codex 2 Days - full warranty",
+     "🤖 50M Credit API Codex 2 Days - full warranty",
+     1.96,
+     2.75,
+     2.29,
+     "cb_6aafeff086b4242014b9880a",
+     "ps_6aaff00486b4242014b98b93"
+    ],
+    [
+     "🤖 200M Credit API Codex 1 Day - full warranty",
+     "🤖 50M Credit API Codex 1 Day - full warranty",
+     5,
+     2.52,
+     2.1,
+     "cb_6aaccfc75271203cb12b3336",
+     "ps_6aaccf535271203cb12b1f8d"
+    ],
+    [
+     "🤖 200M Credit API Codex 5 Days - full warranty",
+     "🤖 50M Credit API Codex 2 Days - full warranty",
+     6.36,
+     2.75,
+     2.29,
+     "cb_6aaccfe95271203cb12b38b6",
+     "ps_6aaff00486b4242014b98b93"
+    ],
+    [
+     "🤖 20M Credit API Codex 1 Day - full warranty",
+     "🤖 50M Credit API Codex 1 Day - full warranty",
+     1.72,
+     2.52,
+     2.1,
+     "cb_6aaccf435271203cb12b1bd3",
+     "ps_6aaccf535271203cb12b1f8d"
+    ],
+    [
+     "🤖 20M Credit API Codex 2 Days - full warranty",
+     "🤖 50M Credit API Codex 2 Days - full warranty",
+     2.45,
+     2.75,
+     2.29,
+     "cb_6aafeffb86b4242014b989ee",
+     "ps_6aaff00486b4242014b98b93"
+    ],
+    [
+     "🤖 500M Credit API Codex 1 Day - full warranty",
+     "🤖 50M Credit API Codex 1 Day - full warranty",
+     9.1,
+     2.52,
+     2.1,
+     "cb_6aaccffd5271203cb12b3bba",
+     "ps_6aaccf535271203cb12b1f8d"
+    ],
+    [
+     "🤖 500M Credit API Codex 3 Days - full warranty",
+     "🤖 50M Credit API Codex 2 Days - full warranty",
+     16.88,
+     2.75,
+     2.29,
+     "cb_6aacd0195271203cb12b4194",
+     "ps_6aaff00486b4242014b98b93"
+    ],
+    [
+     "🤖 50M Credit API Codex 1 Day - full warranty",
+     "🤖 50M Credit API Codex 1 Day - full warranty",
+     2.52,
+     2.52,
+     2.1,
+     "cb_6aaccf535271203cb12b1f8d",
+     "ps_6aaccf535271203cb12b1f8d"
+    ],
+    [
+     "🤖 50M Credit API Codex 2 Days - full warranty",
+     "🤖 50M Credit API Codex 2 Days - full warranty",
+     2.75,
+     2.75,
+     2.29,
+     "cb_6aaff00486b4242014b98b93",
+     "ps_6aaff00486b4242014b98b93"
+    ],
+    [
+     "🤖 ChatGPT Free has phone version Codex 1 month - no warranty",
+     "🤖 ChatGPT Free has phone version Codex 1 month - no warranty",
+     0.4,
+     0.4,
+     0.31,
+     "cb_6ab6b4aea85f2774f238e9e3",
+     "ps_6ab6b4aea85f2774f238e9e3"
+    ],
+    [
+     "🤖 [Astra] API 1B Token Codex 5 Days - full warranty",
+     "🤖 [Astra] API 1B Token Codex 5 Days - full warranty",
+     138.32,
+     138.32,
+     115.26,
+     "cb_6ab68a99a85f2774f231b766",
+     "ps_6ab68a99a85f2774f231b766"
+    ],
+    [
+     "🤖 [Astra] API 100M Token Codex 5 days - full warranty",
+     "🤖 [Astra] API 50M Token Codex 3 Days - full warranty",
+     14.63,
+     7.73,
+     6.44,
+     "cb_6ab68a8da85f2774f231b4dc",
+     "ps_6ab68a12a85f2774f231a207"
+    ],
+    [
+     "🤖 [Astra] API 10M Token Codex 1 Day - full warranty",
+     "🤖 [Astra] API 20M Token Codex 1 Day - full warranty",
+     1.91,
+     3.44,
+     2.86,
+     "cb_6ab689f9a85f2774f2319ed2",
+     "ps_6ab68a04a85f2774f231a046"
+    ],
+    [
+     "🤖 [Astra] API 200M Token Codex 5 Days - full warranty",
+     "🤖 [Astra] API 50M Token Codex 3 Days - full warranty",
+     36.52,
+     7.73,
+     6.44,
+     "cb_6ab68a71a85f2774f231b171",
+     "ps_6ab68a12a85f2774f231a207"
+    ],
+    [
+     "🤖 [Astra] API 20M Token Codex 1 Day - full warranty",
+     "🤖 [Astra] API 20M Token Codex 1 Day - full warranty",
+     3.44,
+     3.44,
+     2.86,
+     "cb_6ab68a04a85f2774f231a046",
+     "ps_6ab68a04a85f2774f231a046"
+    ],
+    [
+     "🤖 [Astra] API 500M Token Codex 5 Days - full warranty",
+     "🤖 [Astra] API 50M Token Codex 3 Days - full warranty",
+     63.99,
+     7.73,
+     6.44,
+     "cb_6ab68a62a85f2774f231af88",
+     "ps_6ab68a12a85f2774f231a207"
+    ],
+    [
+     "🤖 [Astra] API 50M Token Codex 3 Days - full warranty",
+     "🤖 [Astra] API 50M Token Codex 3 Days - full warranty",
+     7.73,
+     7.73,
+     6.44,
+     "cb_6ab68a12a85f2774f231a207",
+     "ps_6ab68a12a85f2774f231a207"
+    ],
+    [
+     "🤶 VIP. API 15M Token Claude 1 Day - full warranty",
+     "🤶 VIP. API 40M Token Claude 1 Day - full warranty",
+     1.73,
+     3.23,
+     2.69,
+     "cb_6a90505c184cbca61b6b3925",
+     "ps_6a9050e4184cbca61b6b49d9"
+    ],
+    [
+     "🤶 VIP. API 40M Token Claude 1 Day - full warranty",
+     "🤶 VIP. API 40M Token Claude 1 Day - full warranty",
+     3.24,
+     3.23,
+     2.69,
+     "cb_6a9050e4184cbca61b6b49d9",
+     "ps_6a9050e4184cbca61b6b49d9"
+    ],
+    [
+     "❓ Upgrade Perplexity max 14K credits for 1 month under the official account - no warranty",
+     "❓ Upgrade Perplexity max 14K credits for 1 month under the official account - no warranty",
+     26.76,
+     27.32,
+     22.76,
+     "cb_6ab39f980944def028b09eac",
+     "ps_6ab39f980944def028b09eac"
+    ],
+    [
+     "🔥CDK Perplexity Pro (iOS) 1 month - full warranty",
+     "🔥CDK Perplexity Pro (iOS) 1 month - full warranty",
+     11.9,
+     11.9,
+     9.91,
+     "cb_6aacd9875271203cb12d2ead",
+     "ps_6aacd9875271203cb12d2ead"
+    ],
+    [
+     "🎨 Capcut Pro 7 Days - no warranty",
+     "🎨 Capcut Pro 7 Days - no warranty",
+     0.16,
+     0.06,
+     0.04,
+     "cb_6ab9f99231a482e3ae149a32",
+     "ps_6ab9f99231a482e3ae149a32"
+    ],
+    [
+     "🖱️ API Cursor Pro 2600 Credits 1 month full warranty",
+     "🖱️ API Cursor Pro 6500 Credits 1 month full warranty",
+     10.01,
+     14.13,
+     11.77,
+     "cb_6aacd3115271203cb12bdabd",
+     "ps_6aacd32d5271203cb12bdef8"
+    ],
+    [
+     "🖱️ API Cursor Pro 400 Credits/day 1 month full warranty",
+     "🖱️ API Cursor Pro 400 Credits/day 1 month full warranty",
+     14.13,
+     14.13,
+     11.77,
+     "cb_6aacd3255271203cb12bdd46",
+     "ps_6aacd3255271203cb12bdd46"
+    ],
+    [
+     "🖱️ API Cursor Pro 6500 Credits 1 month full warranty",
+     "🖱️ API Cursor Pro 6500 Credits 1 month full warranty",
+     14.13,
+     14.13,
+     11.77,
+     "cb_6aacd32d5271203cb12bdef8",
+     "ps_6aacd32d5271203cb12bdef8"
+    ],
+    [
+     "⭐ gamma 10k credit bonus 10k 10 years warranty 3 months",
+     "⭐ gamma 40k credit bonus 40k 10 years warranty 3 months",
+     5.73,
+     13.04,
+     10.86,
+     "cb_6aaff33086b4242014ba2470",
+     "ps_6aaff34186b4242014ba28c3"
+    ]
+   ],
+   "fuzzy_n": 4,
+   "fuzzy_top": [
+    [
+     "LartAI 930 Credit 1 Month (No warranty)",
+     "Lartai 930 credits 1 month (no warranty)",
+     0.984,
+     3.66,
+     3.66,
+     3.05
+    ],
+    [
+     "🎨 ChatGPT Plus 1 Month 3D warranty",
+     "🎨 ChatGPT Plus 1 month - 6H warranty",
+     0.966,
+     8.79,
+     4.62,
+     3.85
+    ],
+    [
+     "🎨 Capcut Pro 5-7 Days - full warranty",
+     "🎨 Capcut Pro 7 Days - no warranty",
+     0.893,
+     0.18,
+     0.06,
+     0.04
+    ],
+    [
+     "⭐ Code Redeem $150 AWS (Amazon Web Services)",
+     "⭐ Code redeem $50 Amazon Web Services (AWS)",
+     0.886,
+     29.72,
+     3.66,
+     3.05
+    ]
+   ]
+  },
+  "T1b_cb_vs_mr_archived": {
+   "exact_n": 0,
+   "exact": [],
+   "fuzzy_n": 0,
+   "fuzzy_top": []
+  },
+  "T4_cb_vs_prodseller_live": {
+   "exact_n": 0,
+   "exact": [],
+   "fuzzy": []
+  },
+  "T2_cb_vs_ps_desc": {
+   "shared_templates": 130,
+   "shared_top": [
+    [
+     "premium digital product with instant delivery.",
+     8,
+     18
+    ],
+    [
+     "private account — can freely change pass & #fa | format: email | pass | #fa | account has been checked for pass & #fa before selling.",
+     2,
+     18
+    ],
+    [
+     "- supports purchasing all items in the discord shop (avatar frames, profile effects, nameplates) at prices much lower than buying as gifts. | - optimizes costs by taking advantage of region-based discounts; purchased items belong to the account permanently (remain even after nitro expires). | - fast and simple process: convenient and secure login via qr code (or account/password), completion time just #–# minutes.",
+     8,
+     8
+    ],
+    [
+     "vibi.pro | vibi.pro is an online ai voice generation tool and an official partner of elevenlabs & minimax. | vibi's commitment to you",
+     5,
+     5
+    ],
+    [
+     "deepseek api — highlighted by deepseek v#.# flash, with multiple model options in one package, flexible usage according to your needs! | also supports claude opus #.#/#/#.#/#.#/#.#, opus #.# max/#.# max, sonnet #/#.#, fable #.#/#, haiku #.#; gpt-# astra/sol, gpt-#.# sol/terra, gpt-#.#, codex auto review, qwen #.# flash, and glm #.# flash. it also includes image generation models gpt image #, gpt image #.# sunburst, and gpt image #.# flare. | #$ is equivalent to approximately #–# million tokens, depending on the model and actual consumption.",
+     4,
+     4
+    ],
+    [
+     "- no sticks yet - can use trial | - format: username|password (mail)|password (discord)|mailkp|#fa (discord) | - get #fa code at: url",
+     4,
+     4
+    ],
+    [
+     "web panel with simple interface, fast operation: just paste the resource/image link into the panel to process and download the file. | main features: | - #-click file download: paste a freepik or magnific link to download immediately, no time wasted logging into an account.",
+     3,
+     3
+    ],
+    [
+     "nitro requires login to activate the package. | please send your account password and #-# backup codes when purchasing. | how to enable #fa and get backup codes: url",
+     3,
+     3
+    ],
+    [
+     "username|pass|#fa format | customers who get the mail should secure their accounts themselves to avoid unnecessary issues | #-hour warranty, once logged in the warranty is void",
+     2,
+     3
+    ],
+    [
+     "requirements: | just need to send your username or x profile link. | the account must be active, not locked/restricted.",
+     2,
+     2
+    ]
+   ],
+   "a_total": 229,
+   "b_total": 319
+  },
+  "T2b_cb_vs_mr_desc": {
+   "shared_templates": 0,
+   "shared_top": [],
+   "a_total": 229,
+   "b_total": 37
+  },
+  "T7_matched_price_ladder": [
+   {
+    "name": "🎨 ChatGPT Go 1 Month (10-Day Warranty)",
+    "cb_price": 3.66,
+    "sv_price_archived": 3.89,
+    "sv_cost_archived": 3.24,
+    "cb_vs_sv_retail_pct": -5.9,
+    "cb_vs_sv_cost_pct": 13.0
+   },
+   {
+    "name": "🎨 ChatGPT Plus 1 Month full warranty",
+    "cb_price": 12.02,
+    "sv_price_archived": 12.35,
+    "sv_cost_archived": 10.29,
+    "cb_vs_sv_retail_pct": -2.7,
+    "cb_vs_sv_cost_pct": 16.8
+   },
+   {
+    "name": "🎨 ChatGPT Plus 1 Month full warranty",
+    "cb_price": 11.79,
+    "sv_price_archived": 12.35,
+    "sv_cost_archived": 10.29,
+    "cb_vs_sv_retail_pct": -4.5,
+    "cb_vs_sv_cost_pct": 14.6
+   },
+   {
+    "name": "🤖 ChatGPT Plus 30 Days (GGPay)",
+    "cb_price": 8.32,
+    "sv_price_archived": 8.31,
+    "sv_cost_archived": 6.92,
+    "cb_vs_sv_retail_pct": 0.1,
+    "cb_vs_sv_cost_pct": 20.2
+   },
+   {
+    "name": "🎨 ChatGPT PRO X5 1 month - 7 Days warranty",
+    "cb_price": 78.53,
+    "sv_price_archived": 78.53,
+    "sv_cost_archived": 65.44,
+    "cb_vs_sv_retail_pct": 0.0,
+    "cb_vs_sv_cost_pct": 20.0
+   },
+   {
+    "name": "🎨 ChatGPT Ver Students Plus 4 Months without warranty",
+    "cb_price": 16.16,
+    "sv_price_archived": 16.16,
+    "sv_cost_archived": 13.46,
+    "cb_vs_sv_retail_pct": 0.0,
+    "cb_vs_sv_cost_pct": 20.1
+   },
+   {
+    "name": "GPT Plus Level 4, 24H warranty",
+    "cb_price": 23.09,
+    "sv_price_archived": 23.09,
+    "sv_cost_archived": 19.24,
+    "cb_vs_sv_retail_pct": 0.0,
+    "cb_vs_sv_cost_pct": 20.0
+   },
+   {
+    "name": "🎨 Shared ChatGPT account with a full 1-month warranty",
+    "cb_price": 5.49,
+    "sv_price_archived": 5.5,
+    "sv_cost_archived": 4.58,
+    "cb_vs_sv_retail_pct": -0.2,
+    "cb_vs_sv_cost_pct": 19.9
+   },
+   {
+    "name": "🎨 Slot GPT Business can be extended by 1 month with full warranty",
+    "cb_price": 19.82,
+    "sv_price_archived": 19.66,
+    "sv_cost_archived": 16.38,
+    "cb_vs_sv_retail_pct": 0.8,
+    "cb_vs_sv_cost_pct": 21.0
+   },
+   {
+    "name": "🤖 1B Credit API Codex 14 Days - full warranty",
+    "cb_price": 41.44,
+    "sv_price_archived": 41.09,
+    "sv_cost_archived": 34.24,
+    "cb_vs_sv_retail_pct": 0.9,
+    "cb_vs_sv_cost_pct": 21.0
+   },
+   {
+    "name": "🤖 1B Credit API Codex 2 Days - full warranty",
+    "cb_price": 23.06,
+    "sv_price_archived": 41.09,
+    "sv_cost_archived": 34.24,
+    "cb_vs_sv_retail_pct": -43.9,
+    "cb_vs_sv_cost_pct": -32.7
+   },
+   {
+    "name": "🤖 100M Credit API Codex 1 Day - full warranty",
+    "cb_price": 3.66,
+    "sv_price_archived": 2.52,
+    "sv_cost_archived": 2.1,
+    "cb_vs_sv_retail_pct": 45.2,
+    "cb_vs_sv_cost_pct": 74.3
+   },
+   {
+    "name": "🤖 100M Credit API Codex 5 Days - full warranty",
+    "cb_price": 4.58,
+    "sv_price_archived": 2.75,
+    "sv_cost_archived": 2.29,
+    "cb_vs_sv_retail_pct": 66.5,
+    "cb_vs_sv_cost_pct": 100.0
+   },
+   {
+    "name": "🤖 10M Credit API Codex 1 Day - full warranty",
+    "cb_price": 1.23,
+    "sv_price_archived": 2.52,
+    "sv_cost_archived": 2.1,
+    "cb_vs_sv_retail_pct": -51.2,
+    "cb_vs_sv_cost_pct": -41.4
+   },
+   {
+    "name": "🤖 10M Credit API Codex 2 Days - full warranty",
+    "cb_price": 1.96,
+    "sv_price_archived": 2.75,
+    "sv_cost_archived": 2.29,
+    "cb_vs_sv_retail_pct": -28.7,
+    "cb_vs_sv_cost_pct": -14.4
+   },
+   {
+    "name": "🤖 200M Credit API Codex 1 Day - full warranty",
+    "cb_price": 5.0,
+    "sv_price_archived": 2.52,
+    "sv_cost_archived": 2.1,
+    "cb_vs_sv_retail_pct": 98.4,
+    "cb_vs_sv_cost_pct": 138.1
+   },
+   {
+    "name": "🤖 200M Credit API Codex 5 Days - full warranty",
+    "cb_price": 6.36,
+    "sv_price_archived": 2.75,
+    "sv_cost_archived": 2.29,
+    "cb_vs_sv_retail_pct": 131.3,
+    "cb_vs_sv_cost_pct": 177.7
+   },
+   {
+    "name": "🤖 20M Credit API Codex 1 Day - full warranty",
+    "cb_price": 1.72,
+    "sv_price_archived": 2.52,
+    "sv_cost_archived": 2.1,
+    "cb_vs_sv_retail_pct": -31.7,
+    "cb_vs_sv_cost_pct": -18.1
+   },
+   {
+    "name": "🤖 20M Credit API Codex 2 Days - full warranty",
+    "cb_price": 2.45,
+    "sv_price_archived": 2.75,
+    "sv_cost_archived": 2.29,
+    "cb_vs_sv_retail_pct": -10.9,
+    "cb_vs_sv_cost_pct": 7.0
+   },
+   {
+    "name": "🤖 500M Credit API Codex 1 Day - full warranty",
+    "cb_price": 9.1,
+    "sv_price_archived": 2.52,
+    "sv_cost_archived": 2.1,
+    "cb_vs_sv_retail_pct": 261.1,
+    "cb_vs_sv_cost_pct": 333.3
+   },
+   {
+    "name": "🤖 500M Credit API Codex 3 Days - full warranty",
+    "cb_price": 16.88,
+    "sv_price_archived": 2.75,
+    "sv_cost_archived": 2.29,
+    "cb_vs_sv_retail_pct": 513.8,
+    "cb_vs_sv_cost_pct": 637.1
+   },
+   {
+    "name": "🤖 50M Credit API Codex 1 Day - full warranty",
+    "cb_price": 2.52,
+    "sv_price_archived": 2.52,
+    "sv_cost_archived": 2.1,
+    "cb_vs_sv_retail_pct": 0.0,
+    "cb_vs_sv_cost_pct": 20.0
+   },
+   {
+    "name": "🤖 50M Credit API Codex 2 Days - full warranty",
+    "cb_price": 2.75,
+    "sv_price_archived": 2.75,
+    "sv_cost_archived": 2.29,
+    "cb_vs_sv_retail_pct": 0.0,
+    "cb_vs_sv_cost_pct": 20.1
+   },
+   {
+    "name": "🤖 ChatGPT Free has phone version Codex 1 month - no warranty",
+    "cb_price": 0.4,
+    "sv_price_archived": 0.4,
+    "sv_cost_archived": 0.31,
+    "cb_vs_sv_retail_pct": 0.0,
+    "cb_vs_sv_cost_pct": 29.0
+   },
+   {
+    "name": "🤖 [Astra] API 1B Token Codex 5 Days - full warranty",
+    "cb_price": 138.32,
+    "sv_price_archived": 138.32,
+    "sv_cost_archived": 115.26,
+    "cb_vs_sv_retail_pct": 0.0,
+    "cb_vs_sv_cost_pct": 20.0
+   },
+   {
+    "name": "🤖 [Astra] API 100M Token Codex 5 days - full warranty",
+    "cb_price": 14.63,
+    "sv_price_archived": 7.73,
+    "sv_cost_archived": 6.44,
+    "cb_vs_sv_retail_pct": 89.3,
+    "cb_vs_sv_cost_pct": 127.2
+   },
+   {
+    "name": "🤖 [Astra] API 10M Token Codex 1 Day - full warranty",
+    "cb_price": 1.91,
+    "sv_price_archived": 3.44,
+    "sv_cost_archived": 2.86,
+    "cb_vs_sv_retail_pct": -44.5,
+    "cb_vs_sv_cost_pct": -33.2
+   },
+   {
+    "name": "🤖 [Astra] API 200M Token Codex 5 Days - full warranty",
+    "cb_price": 36.52,
+    "sv_price_archived": 7.73,
+    "sv_cost_archived": 6.44,
+    "cb_vs_sv_retail_pct": 372.4,
+    "cb_vs_sv_cost_pct": 467.1
+   },
+   {
+    "name": "🤖 [Astra] API 20M Token Codex 1 Day - full warranty",
+    "cb_price": 3.44,
+    "sv_price_archived": 3.44,
+    "sv_cost_archived": 2.86,
+    "cb_vs_sv_retail_pct": 0.0,
+    "cb_vs_sv_cost_pct": 20.3
+   },
+   {
+    "name": "🤖 [Astra] API 500M Token Codex 5 Days - full warranty",
+    "cb_price": 63.99,
+    "sv_price_archived": 7.73,
+    "sv_cost_archived": 6.44,
+    "cb_vs_sv_retail_pct": 727.8,
+    "cb_vs_sv_cost_pct": 893.6
+   },
+   {
+    "name": "🤖 [Astra] API 50M Token Codex 3 Days - full warranty",
+    "cb_price": 7.73,
+    "sv_price_archived": 7.73,
+    "sv_cost_archived": 6.44,
+    "cb_vs_sv_retail_pct": 0.0,
+    "cb_vs_sv_cost_pct": 20.0
+   },
+   {
+    "name": "🤶 VIP. API 15M Token Claude 1 Day - full warranty",
+    "cb_price": 1.73,
+    "sv_price_archived": 3.23,
+    "sv_cost_archived": 2.69,
+    "cb_vs_sv_retail_pct": -46.4,
+    "cb_vs_sv_cost_pct": -35.7
+   },
+   {
+    "name": "🤶 VIP. API 40M Token Claude 1 Day - full warranty",
+    "cb_price": 3.24,
+    "sv_price_archived": 3.23,
+    "sv_cost_archived": 2.69,
+    "cb_vs_sv_retail_pct": 0.3,
+    "cb_vs_sv_cost_pct": 20.4
+   },
+   {
+    "name": "❓ Upgrade Perplexity max 14K credits for 1 month under the official ac",
+    "cb_price": 26.76,
+    "sv_price_archived": 27.32,
+    "sv_cost_archived": 22.76,
+    "cb_vs_sv_retail_pct": -2.0,
+    "cb_vs_sv_cost_pct": 17.6
+   },
+   {
+    "name": "🔥CDK Perplexity Pro (iOS) 1 month - full warranty",
+    "cb_price": 11.9,
+    "sv_price_archived": 11.9,
+    "sv_cost_archived": 9.91,
+    "cb_vs_sv_retail_pct": 0.0,
+    "cb_vs_sv_cost_pct": 20.1
+   },
+   {
+    "name": "🎨 Capcut Pro 7 Days - no warranty",
+    "cb_price": 0.16,
+    "sv_price_archived": 0.06,
+    "sv_cost_archived": 0.04,
+    "cb_vs_sv_retail_pct": 166.7,
+    "cb_vs_sv_cost_pct": 300.0
+   },
+   {
+    "name": "🖱️ API Cursor Pro 2600 Credits 1 month full warranty",
+    "cb_price": 10.01,
+    "sv_price_archived": 14.13,
+    "sv_cost_archived": 11.77,
+    "cb_vs_sv_retail_pct": -29.2,
+    "cb_vs_sv_cost_pct": -15.0
+   },
+   {
+    "name": "🖱️ API Cursor Pro 400 Credits/day 1 month full warranty",
+    "cb_price": 14.13,
+    "sv_price_archived": 14.13,
+    "sv_cost_archived": 11.77,
+    "cb_vs_sv_retail_pct": 0.0,
+    "cb_vs_sv_cost_pct": 20.1
+   },
+   {
+    "name": "🖱️ API Cursor Pro 6500 Credits 1 month full warranty",
+    "cb_price": 14.13,
+    "sv_price_archived": 14.13,
+    "sv_cost_archived": 11.77,
+    "cb_vs_sv_retail_pct": 0.0,
+    "cb_vs_sv_cost_pct": 20.1
+   },
+   {
+    "name": "⭐ gamma 10k credit bonus 10k 10 years warranty 3 months",
+    "cb_price": 5.73,
+    "sv_price_archived": 13.04,
+    "sv_cost_archived": 10.86,
+    "cb_vs_sv_retail_pct": -56.1,
+    "cb_vs_sv_cost_pct": -47.2
+   }
+  ],
+  "T6b_cb_token_mentions": []
+ },
+ "notes": [
+  "Mongo hex in cb_ IDs = supplier-side or sync-side DB creation timestamps (same pattern as ps_ = ProdSeller IDs)"
+ ],
+ "counts": {
+  "cb": 229,
+  "ps": 20,
+  "mr": 32,
+  "other": 1
+ },
+ "cb_title_templates_top30": [
+  [
+   "#k decor discord / profile effect cheap (login type) - full warranty",
+   8
+  ],
+  [
+   "#m credit api codex # day - full warranty",
+   6
+  ],
+  [
+   "#m credit api codex # days - full warranty",
+   6
+  ],
+  [
+   "astra api #m token codex # days - full warranty",
+   4
+  ],
+  [
+   "deepseek api # # month full warranty",
+   4
+  ],
+  [
+   "gamma #k credit bonus #k # years warranty # months",
+   3
+  ],
+  [
+   "discord gifting badge x#",
+   3
+  ],
+  [
+   "duolingo max # months full warranty",
+   3
+  ],
+  [
+   "freepik - magnific premium api web panel #d full warranty",
+   3
+  ],
+  [
+   "chatgpt plus # month full warranty",
+   2
+  ],
+  [
+   "#b credit api codex # days - full warranty",
+   2
+  ],
+  [
+   "astra api #m token codex # day - full warranty",
+   2
+  ],
+  [
+   "vip. api #m token claude # day - full warranty",
+   2
+  ],
+  [
+   "api cursor pro # credits # month full warranty",
+   2
+  ],
+  [
+   "cheap youtube premium slot # months full warranty",
+   2
+  ],
+  [
+   "gmail random ip #-# trial youtube",
+   2
+  ],
+  [
+   "discord clone account # not warranty",
+   2
+  ],
+  [
+   "discord nitro #m token not guaranteed",
+   2
+  ],
+  [
+   "server boost x# level # # month full warranty",
+   2
+  ],
+  [
+   "(can be monetized) upgrade x premium # months full warranty",
+   2
+  ],
+  [
+   "increase #k flow fanpage in # year - no warranty",
+   2
+  ],
+  [
+   "increase #k personal facebook flow - no warranty",
+   2
+  ],
+  [
+   "minimax redeem #k credit",
+   2
+  ],
+  [
+   "minimax redeem #m credit",
+   2
+  ],
+  [
+   "zoom pro # days full warranty",
+   2
+  ],
+  [
+   "chatgpt go # month (#-day warranty)",
+   1
+  ],
+  [
+   "chatgpt plus # month #d warranty",
+   1
+  ],
+  [
+   "chatgpt plus # days (ggpay)",
+   1
+  ],
+  [
+   "chatgpt pro x# # month - # days warranty",
+   1
+  ],
+  [
+   "chatgpt ver students plus # months without warranty",
+   1
+  ]
+ ],
+ "cb_desc_templates_top20": [
+  [
+   "base url: url | model: gpt-#.#-sol, gpt-#-sol, gpt-#.#-sol, gpt-#-luna | user manual: url",
+   14
+  ],
+  [
+   "premium digital product with instant delivery.",
+   8
+  ],
+  [
+   "- supports purchasing all items in the discord shop (avatar frames, profile effects, nameplates) at prices much lower than buying as gifts. | - optimizes costs by taking advantage of region-based discounts; purchased items belong to the account permanently (remain even after nitro expires). | - fast and simple process: convenient and secure login via qr code (or account/password), completion time just #–# minutes.",
+   8
+  ],
+  [
+   "base url: url | model: gpt-astra | user guide: url",
+   5
+  ],
+  [
+   "vibi.pro | vibi.pro is an online ai voice generation tool and an official partner of elevenlabs & minimax. | vibi's commitment to you",
+   5
+  ],
+  [
+   "- no sticks yet - can use trial | - format: username|password (mail)|password (discord)|mailkp|#fa (discord) | - get #fa code at: url",
+   4
+  ],
+  [
+   "deepseek api — highlighted by deepseek v#.# flash, with multiple model options in one package, flexible usage according to your needs! | also supports claude opus #.#/#/#.#/#.#/#.#, opus #.# max/#.# max, sonnet #/#.#, fable #.#/#, haiku #.#; gpt-# astra/sol, gpt-#.# sol/terra, gpt-#.#, codex auto review, qwen #.# flash, and glm #.# flash. it also includes image generation models gpt image #, gpt image #.# sunburst, and gpt image #.# flare. | #$ is equivalent to approximately #–# million tokens, depending on the model and actual consumption.",
+   4
+  ],
+  [
+   "nitro requires login to activate the package. | please send your account password and #-# backup codes when purchasing. | how to enable #fa and get backup codes: url",
+   3
+  ],
+  [
+   "web panel with simple interface, fast operation: just paste the resource/image link into the panel to process and download the file. | main features: | - #-click file download: paste a freepik or magnific link to download immediately, no time wasted logging into an account.",
+   3
+  ],
+  [
+   "private account — can freely change password & #fa | format: email | password | #fa | #-day warranty for lost package or downgraded package",
+   2
+  ],
+  [
+   "private account — can freely change pass & #fa | format: email | pass | #fa | account has been checked for pass & #fa before selling.",
+   2
+  ],
+  [
+   "claude vip high stable api — model extracted from cursor ultra, used for claude code and apps supporting openai/anthropic. | includes high-speed fable, includes opus-#.# (if unavailable, use another model) | estimated tokens: fable #m · opus # #m · sonnet # #m · haiku #.# #m",
+   2
+  ],
+  [
+   "- add slot to the monthly family plan | - every month, an email notification will be sent to the new family group. | - during the process of changing families, a #-month error may occur requiring an email change",
+   2
+  ],
+  [
+   "send the server link to boost. | our side will upgrade it, so it won't affect the server.",
+   2
+  ],
+  [
+   "requirements: | just need to send your username or x profile link. | the account must be active, not locked/restricted.",
+   2
+  ],
+  [
+   "shopping guide | members may drop | no warranty | # purchase = #,# members (success #,#–#,#)",
+   2
+  ],
+  [
+   "how to place an order | - upgrade your own grok account - | ⏱ completed within # hours (may be sooner), calculated during working hours #am–#pm. saturdays & sundays may be slower, we hope everyone is understanding.",
+   2
+  ],
+  [
+   "• official kahoot silver, # month full-time warranty | • customers send their kahoot account + password to get upgraded | upgrade kahoot with many premium features:",
+   2
+  ],
+  [
+   "format: email|pass",
+   2
+  ],
+  [
+   "username|pass|#fa format | customers who get the mail should secure their accounts themselves to avoid unnecessary issues | #-hour warranty, once logged in the warranty is void",
+   2
+  ]
+ ],
+ "cb_desc_markers": {
+  "vn_diacritics": 0,
+  "id_tokens": 2,
+  "has_usdt": false,
+  "has_rupee": false,
+  "has_dong_sym": false,
+  "desc_present": 229
+ },
+ "cb_desc_url_domains": [
+  [
+   "gpt.teamsoclo.site",
+   42
+  ],
+  [
+   "docs.teamsoclo.site",
+   21
+  ],
+  [
+   "tinyurl.com",
+   21
+  ],
+  [
+   "redeem.teamsoclo.site",
+   21
+  ],
+  [
+   "t.me",
+   21
+  ],
+  [
+   "drive.google.com",
+   16
+  ],
+  [
+   "promos.discord.gg",
+   8
+  ],
+  [
+   "docs.google.com",
+   5
+  ],
+  [
+   "www.lartai.com",
+   5
+  ],
+  [
+   "2fa.live",
+   4
+  ],
+  [
+   "vibi.top",
+   4
+  ],
+  [
+   "get-opt.phh.info.vn",
+   4
+  ],
+  [
+   "daily.bddevlab.buzz",
+   2
+  ],
+  [
+   "duc-dop-error-guide.pages.dev",
+   2
+  ],
+  [
+   "g.co",
+   2
+  ]
+ ],
+ "cb_style_markers": {
+  "hitmeow_style_price_line": 0,
+  "hitmeow_sold_accounts": 0,
+  "hitmeow_stock_accounts": 0,
+  "evoera_items_available": 0,
+  "evoera_restocked": 0,
+  "prodseller_check": 3,
+  "warranty_word": 212,
+  "reseller_word": 0,
+  "activation_link": 25,
+  "k12_word": 1
+ },
+ "cb_families": [
+  [
+   "other",
+   146
+  ],
+  [
+   "discord",
+   21
+  ],
+  [
+   "gmail",
+   19
+  ],
+  [
+   "chatgpt",
+   9
+  ],
+  [
+   "youtube",
+   5
+  ],
+  [
+   "office",
+   4
+  ],
+  [
+   "cursor",
+   3
+  ],
+  [
+   "adobe",
+   3
+  ],
+  [
+   "duolingo",
+   3
+  ],
+  [
+   "apple",
+   3
+  ],
+  [
+   "claude",
+   2
+  ],
+  [
+   "perplexity",
+   2
+  ],
+  [
+   "capcut",
+   2
+  ],
+  [
+   "x premium",
+   2
+  ],
+  [
+   "kling",
+   2
+  ],
+  [
+   "copilot",
+   1
+  ],
+  [
+   "canva",
+   1
+  ],
+  [
+   "spotify",
+   1
+  ]
+ ],
+ "cb_family_price_ranges": {
+  "other": {
+   "min": 0.02,
+   "max": 138.32,
+   "n": 146
+  },
+  "discord": {
+   "min": 0.15,
+   "max": 40.23,
+   "n": 21
+  },
+  "gmail": {
+   "min": 0.89,
+   "max": 2.45,
+   "n": 19
+  },
+  "chatgpt": {
+   "min": 0.4,
+   "max": 78.53,
+   "n": 9
+  },
+  "youtube": {
+   "min": 1.77,
+   "max": 6.87,
+   "n": 5
+  },
+  "office": {
+   "min": 1.23,
+   "max": 5.73,
+   "n": 4
+  },
+  "cursor": {
+   "min": 10.01,
+   "max": 14.13,
+   "n": 3
+  },
+  "adobe": {
+   "min": 2.21,
+   "max": 16.23,
+   "n": 3
+  },
+  "duolingo": {
+   "min": 7.55,
+   "max": 21.44,
+   "n": 3
+  },
+  "apple": {
+   "min": 1.96,
+   "max": 2.52,
+   "n": 3
+  },
+  "claude": {
+   "min": 1.73,
+   "max": 3.24,
+   "n": 2
+  },
+  "perplexity": {
+   "min": 11.9,
+   "max": 26.76,
+   "n": 2
+  },
+  "capcut": {
+   "min": 0.16,
+   "max": 0.18,
+   "n": 2
+  },
+  "x premium": {
+   "min": 11.44,
+   "max": 16.0,
+   "n": 2
+  },
+  "kling": {
+   "min": 6.87,
+   "max": 38.06,
+   "n": 2
+  },
+  "copilot": {
+   "min": 3.44,
+   "max": 3.44,
+   "n": 1
+  },
+  "canva": {
+   "min": 0.5,
+   "max": 0.5,
+   "n": 1
+  },
+  "spotify": {
+   "min": 1.96,
+   "max": 1.96,
+   "n": 1
+  }
+ },
+ "cb_stock_top15": [
+  [
+   0,
+   51
+  ],
+  [
+   2,
+   12
+  ],
+  [
+   4,
+   10
+  ],
+  [
+   1,
+   8
+  ],
+  [
+   6,
+   7
+  ],
+  [
+   3,
+   7
+  ],
+  [
+   8,
+   6
+  ],
+  [
+   7,
+   5
+  ],
+  [
+   5,
+   5
+  ],
+  [
+   10,
+   5
+  ],
+  [
+   15,
+   4
+  ],
+  [
+   14,
+   4
+  ],
+  [
+   20,
+   3
+  ],
+  [
+   11,
+   3
+  ],
+  [
+   285,
+   3
+  ]
+ ],
+ "cb_categories": [
+  [
+   "discord/Discord",
+   26
+  ],
+  [
+   "codex/API Codex",
+   22
+  ],
+  [
+   "gmail/Gmail",
+   19
+  ],
+  [
+   "tiktok/TikTok",
+   12
+  ],
+  [
+   "other/Other Products",
+   11
+  ],
+  [
+   "chatgpt/ChatGPT",
+   10
+  ],
+  [
+   "microsoft/Microsoft & Windows 🥸",
+   10
+  ],
+  [
+   "vpn/Avira & Norton & Kaspersky & Others 🔑",
+   9
+  ],
+  [
+   "facebook/Facebook",
+   8
+  ],
+  [
+   "cloud/AWS & GBM",
+   8
+  ]
+ ],
+ "cb_bulk": {
+  "bulkEnabled_true": 1,
+  "with_tiers": 229
+ },
+ "other_products": [
+  {
+   "id": "dummy-free-test",
+   "name": "Free Test Key",
+   "category": "general",
+   "categoryName": "Digital Services",
+   "price": "0",
+   "priceCents": "0",
+   "stock": "999",
+   "inStock": "True",
+   "description": "A free dummy product to test the purchasing flow without spending balance."
+  }
+ ]
+}

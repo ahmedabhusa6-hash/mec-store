@@ -1,0 +1,1394 @@
+{
+ "capture_reason": "CHANGED",
+ "title": "Version Registry — Supplier Intelligence Prompts",
+ "schema": {
+  "object": "database",
+  "id": "d7aa0988-ff99-4bec-a121-5e729f2f7484",
+  "cover": null,
+  "icon": null,
+  "created_time": "2026-09-26T15:23:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_time": "2026-09-26T15:24:00.000Z",
+  "title": [
+   {
+    "type": "text",
+    "text": {
+     "content": "Version Registry — Supplier Intelligence Prompts",
+     "link": null
+    },
+    "annotations": {
+     "bold": false,
+     "italic": false,
+     "strikethrough": false,
+     "underline": false,
+     "code": false,
+     "color": "default"
+    },
+    "plain_text": "Version Registry — Supplier Intelligence Prompts",
+    "href": null
+   }
+  ],
+  "description": [
+   {
+    "type": "text",
+    "text": {
+     "content": "Authoritative version-control register for the Supplier Intelligence Prompt. Status=Approved is the only canonical approved version state; historical versions are retained.",
+     "link": null
+    },
+    "annotations": {
+     "bold": false,
+     "italic": false,
+     "strikethrough": false,
+     "underline": false,
+     "code": false,
+     "color": "default"
+    },
+    "plain_text": "Authoritative version-control register for the Supplier Intelligence Prompt. Status=Approved is the only canonical approved version state; historical versions are retained.",
+    "href": null
+   }
+  ],
+  "is_inline": false,
+  "database_type": null,
+  "properties": {
+   "Evidence / Sources": {
+    "id": "%40_kG",
+    "name": "Evidence / Sources",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Canonical": {
+    "id": "IE~H",
+    "name": "Canonical",
+    "description": null,
+    "type": "checkbox",
+    "checkbox": {}
+   },
+   "Known Limitations": {
+    "id": "OYwg",
+    "name": "Known Limitations",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Version Token": {
+    "id": "Qv%7BX",
+    "name": "Version Token",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Parent Version ID": {
+    "id": "Rx%40d",
+    "name": "Parent Version ID",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Status": {
+    "id": "Rzk%3C",
+    "name": "Status",
+    "description": null,
+    "type": "select",
+    "select": {
+     "options": [
+      {
+       "id": "bca880c1-3b3c-46ab-9d78-554bcb705228",
+       "name": "Draft",
+       "color": "gray",
+       "description": null
+      },
+      {
+       "id": "a1e7c05c-5a4b-41fe-b42d-9d5476b13a26",
+       "name": "Candidate",
+       "color": "yellow",
+       "description": null
+      },
+      {
+       "id": "41966461-7411-4604-8143-5e1577881a14",
+       "name": "Under Review",
+       "color": "blue",
+       "description": null
+      },
+      {
+       "id": "44764954-8c31-4d85-ab98-b8fff222fc41",
+       "name": "Approved",
+       "color": "green",
+       "description": null
+      },
+      {
+       "id": "3e844de7-83f6-49c5-af13-a6f08866eb24",
+       "name": "Superseded",
+       "color": "brown",
+       "description": null
+      },
+      {
+       "id": "34d09c5d-34a2-4300-8ebd-a371e2cf91c5",
+       "name": "Rejected",
+       "color": "red",
+       "description": null
+      }
+     ]
+    }
+   },
+   "Governance-Touching": {
+    "id": "Tp%7Dr",
+    "name": "Governance-Touching",
+    "description": null,
+    "type": "select",
+    "select": {
+     "options": [
+      {
+       "id": "1dab2080-f0e3-40d6-b7e1-5c8d0c4c15be",
+       "name": "Yes",
+       "color": "red",
+       "description": null
+      },
+      {
+       "id": "c06f492c-aa60-41d4-844b-0cd6f92f716d",
+       "name": "No",
+       "color": "green",
+       "description": null
+      },
+      {
+       "id": "b240801e-2142-400d-b092-ba53eed714bb",
+       "name": "Unsure",
+       "color": "yellow",
+       "description": null
+      }
+     ]
+    }
+   },
+   "Version ID": {
+    "id": "UMqr",
+    "name": "Version ID",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Artifact Type": {
+    "id": "VpYu",
+    "name": "Artifact Type",
+    "description": null,
+    "type": "select",
+    "select": {
+     "options": [
+      {
+       "id": "8aa9dccd-cdee-4256-97a8-b465873c1ac2",
+       "name": "z.ai Prompt",
+       "color": "purple",
+       "description": null
+      },
+      {
+       "id": "79900446-25d2-4556-8969-9b54da057ad1",
+       "name": "Compiler",
+       "color": "blue",
+       "description": null
+      },
+      {
+       "id": "97fc6d43-db94-403f-baa2-469ff4cf04ec",
+       "name": "Architecture",
+       "color": "orange",
+       "description": null
+      },
+      {
+       "id": "36753418-1df1-4165-9bc0-c9ca0b41617b",
+       "name": "Protocol",
+       "color": "green",
+       "description": null
+      }
+     ]
+    }
+   },
+   "Author": {
+    "id": "VrBf",
+    "name": "Author",
+    "description": null,
+    "type": "select",
+    "select": {
+     "options": [
+      {
+       "id": "7bea76ae-b82e-4851-8d20-8386956edab7",
+       "name": "ChatGPT",
+       "color": "blue",
+       "description": null
+      },
+      {
+       "id": "929511a0-f5ac-4e02-a62d-8af1a3b5e9f4",
+       "name": "Claude Sonnet 5",
+       "color": "purple",
+       "description": null
+      },
+      {
+       "id": "7387e2c7-9255-403a-ae0e-66223939d4bd",
+       "name": "User",
+       "color": "green",
+       "description": null
+      },
+      {
+       "id": "cf363075-68c4-453b-a836-1928857b1c2a",
+       "name": "Joint",
+       "color": "yellow",
+       "description": null
+      }
+     ]
+    }
+   },
+   "Tests Failed": {
+    "id": "ctQJ",
+    "name": "Tests Failed",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Reason": {
+    "id": "fkU%3F",
+    "name": "Reason",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Tests Passed": {
+    "id": "lgdf",
+    "name": "Tests Passed",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Change Summary": {
+    "id": "mBa~",
+    "name": "Change Summary",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Open Issues": {
+    "id": "rmsY",
+    "name": "Open Issues",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Approved At": {
+    "id": "zV%3DH",
+    "name": "Approved At",
+    "description": null,
+    "type": "date",
+    "date": {}
+   },
+   "Date": {
+    "id": "zo%7DE",
+    "name": "Date",
+    "description": null,
+    "type": "date",
+    "date": {}
+   },
+   "Version": {
+    "id": "title",
+    "name": "Version",
+    "description": null,
+    "type": "title",
+    "title": {}
+   }
+  },
+  "parent": {
+   "type": "page_id",
+   "page_id": "3e758a07-79e8-81f8-8732-c94c560c5b3d"
+  },
+  "url": "https://app.notion.com/p/d7aa0988ff994beca1215e729f2f7484",
+  "public_url": null,
+  "in_trash": false,
+  "archived": false,
+  "request_id": "c598db87-9f9a-4544-a94e-c68be76b9c0c"
+ },
+ "row_count": 3,
+ "rows": [
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-81ee-be01-fb2480f0006f",
+   "created_time": "2026-09-26T21:35:00.000Z",
+   "last_edited_time": "2026-09-27T16:29:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3e758a07-79e8-8187-9e89-00278adc0ead"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "d7aa0988-ff99-4bec-a121-5e729f2f7484"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Evidence / Sources": {
+     "id": "%40_kG",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "User-provided exact file: z_ai_supplier_research_prompt_v4_2_",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "User-provided exact file: z_ai_supplier_research_prompt_v4_2_",
+       "href": null
+      },
+      {
+       "type": "text",
+       "text": {
+        "content": "candidate.md",
+        "link": {
+         "url": "http://candidate.md/"
+        }
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "candidate.md",
+       "href": "http://candidate.md/"
+      },
+      {
+       "type": "text",
+       "text": {
+        "content": "; Claude Cycle 5 response; existing v4.1/v4.2 project records.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "; Claude Cycle 5 response; existing v4.1/v4.2 project records.",
+       "href": null
+      }
+     ]
+    },
+    "Canonical": {
+     "id": "IE~H",
+     "type": "checkbox",
+     "checkbox": false
+    },
+    "Known Limitations": {
+     "id": "OYwg",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "The prompt artifact is verified as a file, but live runtime behavior of v4.2 is not independently verified. Cross-batch persistence is specified conceptually; runtime persistence/storage implementation is not defined by the prompt itself.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "The prompt artifact is verified as a file, but live runtime behavior of v4.2 is not independently verified. Cross-batch persistence is specified conceptually; runtime persistence/storage implementation is not defined by the prompt itself.",
+       "href": null
+      }
+     ]
+    },
+    "Version Token": {
+     "id": "Qv%7BX",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "v4.2|Candidate|2026-09-27",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "v4.2|Candidate|2026-09-27",
+       "href": null
+      }
+     ]
+    },
+    "Parent Version ID": {
+     "id": "Rx%40d",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "v4.1",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "v4.1",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "Rzk%3C",
+     "type": "select",
+     "select": {
+      "id": "44764954-8c31-4d85-ab98-b8fff222fc41",
+      "name": "Approved",
+      "color": "green"
+     }
+    },
+    "Governance-Touching": {
+     "id": "Tp%7Dr",
+     "type": "select",
+     "select": {
+      "id": "c06f492c-aa60-41d4-844b-0cd6f92f716d",
+      "name": "No",
+      "color": "green"
+     }
+    },
+    "Version ID": {
+     "id": "UMqr",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "v4.2",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "v4.2",
+       "href": null
+      }
+     ]
+    },
+    "Artifact Type": {
+     "id": "VpYu",
+     "type": "select",
+     "select": {
+      "id": "8aa9dccd-cdee-4256-97a8-b465873c1ac2",
+      "name": "z.ai Prompt",
+      "color": "purple"
+     }
+    },
+    "Author": {
+     "id": "VrBf",
+     "type": "select",
+     "select": {
+      "id": "929511a0-f5ac-4e02-a62d-8af1a3b5e9f4",
+      "name": "Claude Sonnet 5",
+      "color": "purple"
+     }
+    },
+    "Tests Failed": {
+     "id": "ctQJ",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Live integrated multi-batch runtime test and adversarial execution have not yet been performed.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Live integrated multi-batch runtime test and adversarial execution have not yet been performed.",
+       "href": null
+      }
+     ]
+    },
+    "Reason": {
+     "id": "fkU%3F",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Exact v4.2 Candidate artifact is now available and independently inspectable. User explicitly requested approval/acceptance after review.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Exact v4.2 Candidate artifact is now available and independently inspectable. User explicitly requested approval/acceptance after review.",
+       "href": null
+      }
+     ]
+    },
+    "Tests Passed": {
+     "id": "lgdf",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Exact artifact received and reviewed; v4.2 sections for Catalog Program, Batch, Catalog Coverage Ledger, SKU lifecycle, cross-batch Entity Resolution, catalog budget rollup, and global discovery/region-aware matching are present and internally aligned with the previously identified v4.1 gaps.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Exact artifact received and reviewed; v4.2 sections for Catalog Program, Batch, Catalog Coverage Ledger, SKU lifecycle, cross-batch Entity Resolution, catalog budget rollup, and global discovery/region-aware matching are present and internally aligned with the previously identified v4.1 gaps.",
+       "href": null
+      }
+     ]
+    },
+    "Change Summary": {
+     "id": "mBa~",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Preserves v4.1 and adds Catalog Program/Batch architecture, Catalog Coverage Ledger, SKU lifecycle states, cross-batch entity persistence/resolution, cross-batch budget rollup, and explicit separation of global supplier discovery from region-aware SKU matching.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Preserves v4.1 and adds Catalog Program/Batch architecture, Catalog Coverage Ledger, SKU lifecycle states, cross-batch entity persistence/resolution, cross-batch budget rollup, and explicit separation of global supplier discovery from region-aware SKU matching.",
+       "href": null
+      }
+     ]
+    },
+    "Open Issues": {
+     "id": "rmsY",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Live multi-batch ",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Live multi-batch ",
+       "href": null
+      },
+      {
+       "type": "text",
+       "text": {
+        "content": "z.ai",
+        "link": {
+         "url": "http://z.ai/"
+        }
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "z.ai",
+       "href": "http://z.ai/"
+      },
+      {
+       "type": "text",
+       "text": {
+        "content": " execution; adversarial regression; validation of Catalog Coverage Ledger behavior across multiple Batches; clarification/validation of catalog-level reserve semantics under real execution.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": " execution; adversarial regression; validation of Catalog Coverage Ledger behavior across multiple Batches; clarification/validation of catalog-level reserve semantics under real execution.",
+       "href": null
+      }
+     ]
+    },
+    "Approved At": {
+     "id": "zV%3DH",
+     "type": "date",
+     "date": null
+    },
+    "Date": {
+     "id": "zo%7DE",
+     "type": "date",
+     "date": {
+      "start": "2026-09-27T00:00:00.000+00:00",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Version": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "v4.2 — Catalog/Batch Architecture Candidate",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "v4.2 — Catalog/Batch Architecture Candidate",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/v4-2-Catalog-Batch-Architecture-Candidate-3e758a0779e881eebe01fb2480f0006f",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-814e-a0a3-d84ee18e9047",
+   "created_time": "2026-09-26T16:47:00.000Z",
+   "last_edited_time": "2026-09-26T16:49:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "d7aa0988-ff99-4bec-a121-5e729f2f7484"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Evidence / Sources": {
+     "id": "%40_kG",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Full v4.0 uploaded prompt; current Canonical Registry/Version Registry; DeepSearchQA; BrowseComp; LLM-agent provenance research; entity-resolution blocking literature.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Full v4.0 uploaded prompt; current Canonical Registry/Version Registry; DeepSearchQA; BrowseComp; LLM-agent provenance research; entity-resolution blocking literature.",
+       "href": null
+      }
+     ]
+    },
+    "Canonical": {
+     "id": "IE~H",
+     "type": "checkbox",
+     "checkbox": false
+    },
+    "Known Limitations": {
+     "id": "OYwg",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "No live execution against a real supplier-research case yet. First-approval bootstrap governance remains unresolved because no Approved Prompt currently exists.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "No live execution against a real supplier-research case yet. First-approval bootstrap governance remains unresolved because no Approved Prompt currently exists.",
+       "href": null
+      }
+     ]
+    },
+    "Version Token": {
+     "id": "Qv%7BX",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "v4.1|Candidate|2026-09-26",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "v4.1|Candidate|2026-09-26",
+       "href": null
+      }
+     ]
+    },
+    "Parent Version ID": {
+     "id": "Rx%40d",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "v4.0",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "v4.0",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "Rzk%3C",
+     "type": "select",
+     "select": {
+      "id": "a1e7c05c-5a4b-41fe-b42d-9d5476b13a26",
+      "name": "Candidate",
+      "color": "yellow"
+     }
+    },
+    "Governance-Touching": {
+     "id": "Tp%7Dr",
+     "type": "select",
+     "select": {
+      "id": "c06f492c-aa60-41d4-844b-0cd6f92f716d",
+      "name": "No",
+      "color": "green"
+     }
+    },
+    "Version ID": {
+     "id": "UMqr",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "v4.1",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "v4.1",
+       "href": null
+      }
+     ]
+    },
+    "Artifact Type": {
+     "id": "VpYu",
+     "type": "select",
+     "select": {
+      "id": "8aa9dccd-cdee-4256-97a8-b465873c1ac2",
+      "name": "z.ai Prompt",
+      "color": "purple"
+     }
+    },
+    "Author": {
+     "id": "VrBf",
+     "type": "select",
+     "select": {
+      "id": "7bea76ae-b82e-4851-8d20-8386956edab7",
+      "name": "ChatGPT",
+      "color": "blue"
+     }
+    },
+    "Tests Failed": {
+     "id": "ctQJ",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Live integrated runtime test and adversarial execution not yet performed.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Live integrated runtime test and adversarial execution not yet performed.",
+       "href": null
+      }
+     ]
+    },
+    "Reason": {
+     "id": "fkU%3F",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Pre-Claude repair based on full v4.0 review plus external research. Intended to remove demonstrated/previously logged gaps before independent Claude validation.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Pre-Claude repair based on full v4.0 review plus external research. Intended to remove demonstrated/previously logged gaps before independent Claude validation.",
+       "href": null
+      }
+     ]
+    },
+    "Tests Passed": {
+     "id": "lgdf",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Static cross-section consistency audit; repair alignment against documented v4.0 gap list; external architecture sanity check.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Static cross-section consistency audit; repair alignment against documented v4.0 gap list; external architecture sanity check.",
+       "href": null
+      }
+     ]
+    },
+    "Change Summary": {
+     "id": "mBa~",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Targeted technical repair of v4.0: runtime scope lock, run/action auditability, evidence integrity, freshness semantics, guarantee/transaction semantics, Stage-0 entity candidate generation, coverage obligations, query diversification, operational budget controls, explicit stop states, quarantine handling, acquisition-cost completeness, and audit output.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Targeted technical repair of v4.0: runtime scope lock, run/action auditability, evidence integrity, freshness semantics, guarantee/transaction semantics, Stage-0 entity candidate generation, coverage obligations, query diversification, operational budget controls, explicit stop states, quarantine handling, acquisition-cost completeness, and audit output.",
+       "href": null
+      }
+     ]
+    },
+    "Open Issues": {
+     "id": "rmsY",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Claude independent validation; integrated runtime test; adversarial regression; first-approval bootstrap decision.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Claude independent validation; integrated runtime test; adversarial regression; first-approval bootstrap decision.",
+       "href": null
+      }
+     ]
+    },
+    "Approved At": {
+     "id": "zV%3DH",
+     "type": "date",
+     "date": null
+    },
+    "Date": {
+     "id": "zo%7DE",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26T00:00:00.000+00:00",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Version": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "v4.1 — Pre-Claude Repair Candidate",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "v4.1 — Pre-Claude Repair Candidate",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/v4-1-Pre-Claude-Repair-Candidate-3e758a0779e8814ea0a3d84ee18e9047",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-8179-b7be-f9a147ad7423",
+   "created_time": "2026-09-26T15:24:00.000Z",
+   "last_edited_time": "2026-09-26T15:25:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "d7aa0988-ff99-4bec-a121-5e729f2f7484"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Evidence / Sources": {
+     "id": "%40_kG",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Current v4 prompt and prior project test history in conversation/Notion.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Current v4 prompt and prior project test history in conversation/Notion.",
+       "href": null
+      }
+     ]
+    },
+    "Canonical": {
+     "id": "IE~H",
+     "type": "checkbox",
+     "checkbox": false
+    },
+    "Known Limitations": {
+     "id": "OYwg",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Not yet promoted to Approved. Full approval requires final integrated review and validation.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Not yet promoted to Approved. Full approval requires final integrated review and validation.",
+       "href": null
+      }
+     ]
+    },
+    "Version Token": {
+     "id": "Qv%7BX",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "v4.0|Candidate|2026-09-26",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "v4.0|Candidate|2026-09-26",
+       "href": null
+      }
+     ]
+    },
+    "Parent Version ID": {
+     "id": "Rx%40d",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "v3",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "v3",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "Rzk%3C",
+     "type": "select",
+     "select": {
+      "id": "a1e7c05c-5a4b-41fe-b42d-9d5476b13a26",
+      "name": "Candidate",
+      "color": "yellow"
+     }
+    },
+    "Governance-Touching": {
+     "id": "Tp%7Dr",
+     "type": "select",
+     "select": {
+      "id": "b240801e-2142-400d-b092-ba53eed714bb",
+      "name": "Unsure",
+      "color": "yellow"
+     }
+    },
+    "Version ID": {
+     "id": "UMqr",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "v4.0",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "v4.0",
+       "href": null
+      }
+     ]
+    },
+    "Artifact Type": {
+     "id": "VpYu",
+     "type": "select",
+     "select": {
+      "id": "8aa9dccd-cdee-4256-97a8-b465873c1ac2",
+      "name": "z.ai Prompt",
+      "color": "purple"
+     }
+    },
+    "Author": {
+     "id": "VrBf",
+     "type": "select",
+     "select": {
+      "id": "929511a0-f5ac-4e02-a62d-8af1a3b5e9f4",
+      "name": "Claude Sonnet 5",
+      "color": "purple"
+     }
+    },
+    "Tests Failed": {
+     "id": "ctQJ",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Targeted gaps remained: frontier/stopping semantics, Entity Resolution discovery blind spot, runtime request mutation, price-decision policy, branch control, freshness semantics.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Targeted gaps remained: frontier/stopping semantics, Entity Resolution discovery blind spot, runtime request mutation, price-decision policy, branch control, freshness semantics.",
+       "href": null
+      }
+     ]
+    },
+    "Reason": {
+     "id": "fkU%3F",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Baseline for final repair, collaboration integration, and validation.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Baseline for final repair, collaboration integration, and validation.",
+       "href": null
+      }
+     ]
+    },
+    "Tests Passed": {
+     "id": "lgdf",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Paper Test #2: most core subsystems PASS; targeted issues remained in decision control.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Paper Test #2: most core subsystems PASS; targeted issues remained in decision control.",
+       "href": null
+      }
+     ]
+    },
+    "Change Summary": {
+     "id": "mBa~",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Current supplier-research prototype after v4 architectural redesign and Paper Test #2. Stored as Candidate, not Approved.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Current supplier-research prototype after v4 architectural redesign and Paper Test #2. Stored as Candidate, not Approved.",
+       "href": null
+      }
+     ]
+    },
+    "Open Issues": {
+     "id": "rmsY",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Final integrated system test; collaboration workflow validation; remaining v4 runtime-control refinements.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Final integrated system test; collaboration workflow validation; remaining v4 runtime-control refinements.",
+       "href": null
+      }
+     ]
+    },
+    "Approved At": {
+     "id": "zV%3DH",
+     "type": "date",
+     "date": null
+    },
+    "Date": {
+     "id": "zo%7DE",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26T00:00:00.000+00:00",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Version": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "v4.0 — Current Baseline Candidate",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "v4.0 — Current Baseline Candidate",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/v4-0-Current-Baseline-Candidate-3e758a0779e88179b7bef9a147ad7423",
+   "public_url": null,
+   "archived": false
+  }
+ ]
+}

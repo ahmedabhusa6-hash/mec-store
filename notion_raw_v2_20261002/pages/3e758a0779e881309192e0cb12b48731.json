@@ -1,0 +1,1189 @@
+{
+ "capture_reason": "CHANGED",
+ "captured_at": "2026-10-02T12:06:31+03:00",
+ "title": "🧬 Prompt Development History — Supplier Intelligence",
+ "last_edited": "2026-09-27T01:03:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e758a07-79e8-8130-9192-e0cb12b48731",
+  "created_time": "2026-09-26T18:14:00.000Z",
+  "last_edited_time": "2026-09-27T01:03:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3e758a07-79e8-8187-9e89-00278adc0ead"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "page_id",
+   "page_id": "3e758a07-79e8-81fd-b66f-fd8cc3a007c8"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "title": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "🧬 Prompt Development History — Supplier Intelligence",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "🧬 Prompt Development History — Supplier Intelligence",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/Prompt-Development-History-Supplier-Intelligence-3e758a0779e881309192e0cb12b48731",
+  "public_url": null,
+  "archived": false,
+  "request_id": "42d249da-0b55-404d-bf3a-0f51b2e7b459"
+ },
+ "block_count": 116,
+ "blocks": [
+  {
+   "id": "eb779134-2a2c-4be6-9ab9-f58c1f382f71",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Status"
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "c6225134-0b3b-40d0-948e-7b916c2cc631",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Active — Primary Reference & Development History"
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "233dd7bf-3bd3-48a9-8baa-aa47a7203c9e",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Primary Reference Rule"
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "a04a3eda-011e-4910-8cbf-8b982f937ea2",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "The following two materials are now the primary source pair for understanding and developing the Supplier Intelligence system:"
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "3678ffdb-4c8d-411e-9ce1-4a177fa0fa16",
+   "type": "numbered_list_item",
+   "has_children": true,
+   "text": [
+    "Primary Reference A — Original z.ai Supplier Research Prompt"
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "48b8f8f8-276d-4322-9e48-b4408af71e38",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "File: z_ai_supplier_research_prompt.md"
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "f564b63e-e002-4034-82e7-bc74d3976acc",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Role: baseline for the original research-execution logic, rules, data model, verification model, discovery methodology, comparison rules, stopping rules, and output structure."
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "692ce9d9-7477-4035-b936-81f9860d5601",
+   "type": "numbered_list_item",
+   "has_children": true,
+   "text": [
+    "Primary Reference B — The original research text/material submitted together with the Prompt"
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "dee59706-ef97-4053-b719-e6de9b8612c8",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Role: baseline for the actual research objective, requested subject matter, product/service context, intended outputs, and original execution context."
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "2c003e82-700a-444d-8865-c7fd67bc4a79",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Do not replace, rewrite, or reinterpret this source merely because a later Prompt version is cleaner."
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "94a4cfe7-d0ed-46c4-ab45-ce49f398e1a0",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "Pairing Rule"
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "2583afd6-159a-4c29-9572-3d30046d6734",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Prompt + Original Research Text = Primary Reference Pair."
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "dd847e12-6d21-4051-b723-c48c42f6ba23",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Later versions may improve the system, but they must not silently erase the intent, requirements, or important distinctions contained in either member of the pair."
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "75eef6dd-592c-4eae-b025-e8ff313b18f6",
+   "type": "divider",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "0098ba38-cd7b-4706-a2bf-7a49264b200f",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "Development Stage Register"
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "6493cdb8-340b-4a93-ae41-28741ae8eb28",
+   "type": "table",
+   "has_children": true,
+   "text": [],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "693414c7-8392-4197-92bd-9a2821f7d57f",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "9801b6cb-ad83-4807-9793-2cba94a46eda",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "749b7824-362f-4acb-be69-e01532f5fa58",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "f953c5bb-cfee-4e02-a6a4-93b250566eb5",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "d6181072-c371-49e9-9bf1-c92311846594",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "73091d79-807f-4731-8f75-c105c148bbf3",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "644d907e-fb31-4931-b8d0-36c42db5de14",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "28879cd6-bc4f-4c6c-9a05-17059d8491cd",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "f881e665-57c9-4ab9-94d9-e9351fe0f674",
+   "type": "divider",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "db8ee82d-2a80-44e8-9262-884de3df9619",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "Version Lineage"
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "4d0f4e22-e674-4416-b3b0-6e7519b34f62",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Original Primary Reference Pair"
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "be6a26ac-a648-4055-962e-c072fb99c933",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ v2"
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "5dc4cbe2-a6c8-46b0-b0cf-ba3f4217648c",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ v3"
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "a37dde66-b939-4bac-a5fc-1ce2e01fcb47",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ v4.0"
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "8fc3cdf6-79f2-4ff0-9c0e-48126f9e7863",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ v4.1 Candidate"
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "cfc88001-b41e-4698-9f66-a78fc6e6a359",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ Claude Validation / Further Candidate"
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "b0fee7d7-6996-4e9d-a342-649c7d7d134c",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ User Decision"
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "1d43d4f7-bf4b-455e-a075-1c971e5e07e8",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ Approved / Canonical"
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "a44e78fa-6bd5-49ad-b482-fb7646543332",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "No stage may be silently skipped when the skip would remove material history."
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "a5e9bf87-8027-4a7f-be14-c90ef4b8fba3",
+   "type": "divider",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "44e08b09-1ee9-478c-8108-f0f5f694bb8e",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "Stage Governance"
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "680dd12c-38d8-4a01-8b0c-38675a63c42a",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "Primary references"
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "993bdde9-d7d0-4bc1-96fc-2b431d44c32a",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "The original Prompt and the original research text remain preserved as the historical and conceptual baseline."
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "f1ee52b5-6bf3-444e-a5bf-319a5e1baed8",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "Working development"
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "1be87995-7523-4193-9b12-71491c50ba35",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Claude may develop Prompt text in the Prompt Working Reference and Claude Workspace."
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "f1a82040-33d6-4365-9214-37bcff4f6201",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "ChatGPT reviews, tests, audits, and records findings in the ChatGPT-owned surfaces."
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "398eaa32-7256-45c8-a3c4-6303b913c155",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "Canonical authority"
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "aa0474ee-bb6a-4c0c-b127-4ff3e3a61004",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "The Canonical Registry is the protected authority for the Approved Prompt."
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "3ac3eded-b03a-49de-94b0-ab5caca2d4e5",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "No Candidate becomes Approved automatically."
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "c99389d6-06c9-46f2-9480-92f0b29feaf4",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "History preservation"
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "d3bf9cae-ec92-4cb5-83e5-12b80a848c98",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Historical versions and records are preserved."
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "828bede1-0b0e-4940-8c62-cca8168ca0a9",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "A later version supersedes a previous version only through the controlled lifecycle."
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "b53b3002-c330-46da-b0bf-1508e19fc434",
+   "type": "divider",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "42bebab4-4fc5-472c-8964-c8484e4f64b5",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "Change Classification"
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "c76909d3-8fd7-4a30-a50b-82ffd6565a2a",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Every meaningful development change must be classified as one of:"
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "fc398239-fe05-4e8d-a066-8f0a0c3c0fd3",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Existing Project Rule"
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "e8f9ceac-ca10-4104-979a-5ee337af130c",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Evidence-Based Repair"
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "cd233f7b-bc47-48ed-a883-25580cebeda6",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Proposed Governance Decision"
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "18eea676-2902-4556-83f3-8164aaa99b37",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Prompt Evolution"
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "786a0893-29ba-4724-b37c-b1b98cdc2354",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Research Finding"
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "f07bb28d-0b0a-46d8-9c85-90fbe5e046a9",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Unresolved"
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "7159df59-984f-4e57-b59e-3f6d78629aa3",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Never convert a proposal into a rule without the required authority."
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "5f507d8d-2d90-4ff6-b031-022bc35f22e4",
+   "type": "divider",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "2e71f677-9f7b-48d3-9044-f0b0be55e242",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "Current State"
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "a258127f-474e-4153-a1a3-8b478798aee4",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Primary Reference Pair: locked as baseline references."
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "93c2e16e-770d-49ae-a3b8-f91298aeb818",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "v4.0: preserved historical comparator."
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "63cbe878-c9a3-4248-9ada-b6d92271e517",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "v4.1: current Candidate."
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "2106af2a-7107-4d98-8c5b-269afa9922ab",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Approved Prompt: none currently recorded."
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "6fabe225-3378-4ddb-a451-00227d0a8cbc",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Claude: owns direct Prompt Working Reference editing."
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "75eec150-3fd6-49bb-bbe1-53f79ab3f402",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "ChatGPT: owns review, audit, validation, and operational archive."
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "9614169d-9cf9-4ccd-9024-9ab9217a5f80",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "User: final authority for approval, promotion, rollback, and governance decisions."
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "e9f322e5-df01-434f-b913-a013796d0992",
+   "type": "divider",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "1c0a08de-4019-4385-a74b-a243f657e2bf",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "Required Rule for Future Development"
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "f6c940b9-0b97-483d-871f-9084cb6794a6",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Before changing the Prompt, compare the proposed change against:"
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "25943876-ae5b-4719-8fbd-aa85268c93c4",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "A. Original Prompt"
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "379230b4-829e-49e3-89fd-25f33ba32063",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "B. Original Research Text"
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "118151ea-7a0b-413e-885d-1a888cf358d3",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "C. Current Prompt Candidate"
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "215b3f28-866a-429b-a73c-07545b2bcb2b",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "D. Recorded project decisions"
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "75bdf1af-c3e5-4bfa-b80e-7b10f0741116",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "E. Recorded test failures and repairs"
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "cab8db85-4c39-4631-901d-cf6437f8b67f",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "A change is valid only when its purpose and impact are explicit."
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "88a1ca84-c60f-4d67-951f-e737c6a6f7ee",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Do not optimize away an original requirement merely because it is inconvenient or difficult to implement."
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "e6c5d12b-a88d-444d-9225-52e460a053bf",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Do not treat a later Prompt version as proof that an earlier requirement was invalid."
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "22b3649b-cbd4-4cf3-a376-fc8bd4e640a6",
+   "type": "divider",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "e79383df-7785-4b60-95f9-1224cf696796",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "Core Principle"
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "2152674b-a13e-4e1a-9198-c0008c48c092",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "The original Prompt defines the original operating design."
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "77da7470-28de-4200-b93e-dada2e411cd1",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "The original research text defines the original research intent and execution context."
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "01225401-0ab0-41ed-b972-a70fd332b046",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Version history defines how the system evolved."
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "6e3c33b7-acc5-4482-a6db-0ea128f56dc1",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Canonical Registry defines what is officially approved."
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "01f6c650-7bdb-4914-a930-b63dd427187b",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "These four functions must remain distinct."
+   ],
+   "created": "2026-09-26T18:14:00.000Z",
+   "edited": "2026-09-26T18:14:00.000Z"
+  },
+  {
+   "id": "3c2e1859-dbbd-49f3-a956-214e497dba7f",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "✅ Approved Operating Distinction — Prompt Layers"
+   ],
+   "created": "2026-09-26T18:42:00.000Z",
+   "edited": "2026-09-26T18:42:00.000Z"
+  },
+  {
+   "id": "7f42481e-8cfd-4c7d-9054-8340d6b4a93e",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Decision ID: Governance-Compiler-Separation-1.0"
+   ],
+   "created": "2026-09-26T18:42:00.000Z",
+   "edited": "2026-09-26T18:42:00.000Z"
+  },
+  {
+   "id": "544a2b39-5a11-4bcc-b8ae-9f119911e0ad",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Status: Approved"
+   ],
+   "created": "2026-09-26T18:42:00.000Z",
+   "edited": "2026-09-26T18:42:00.000Z"
+  },
+  {
+   "id": "4a54e720-c7b7-4be3-89c3-29bd8ad24000",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Authority: User"
+   ],
+   "created": "2026-09-26T18:42:00.000Z",
+   "edited": "2026-09-26T18:42:00.000Z"
+  },
+  {
+   "id": "59e3e863-c5e9-49db-afcd-de15cd5a382b",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "The project now treats the following as three distinct layers:"
+   ],
+   "created": "2026-09-26T18:42:00.000Z",
+   "edited": "2026-09-26T18:42:00.000Z"
+  },
+  {
+   "id": "187a0e18-0246-4cd7-a8a0-5961e59a903e",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Primary Supplier Research Prompt — the operational research engine for Supplier Intelligence."
+   ],
+   "created": "2026-09-26T18:42:00.000Z",
+   "edited": "2026-09-26T18:42:00.000Z"
+  },
+  {
+   "id": "bff48d02-b2c0-450f-8354-0385462a1410",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Claude Handoff Prompt — the coordination/review/development layer used to direct Claude work on the project and its Prompt."
+   ],
+   "created": "2026-09-26T18:42:00.000Z",
+   "edited": "2026-09-26T18:42:00.000Z"
+  },
+  {
+   "id": "31e92015-4b7e-4fac-9272-c1519b5daeba",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "EXECUTION-PROMPT COMPILER — student services — a separate generic Prompt Compiler reference. It is not part of the Supplier Intelligence engine and must not be inserted into it automatically."
+   ],
+   "created": "2026-09-26T18:42:00.000Z",
+   "edited": "2026-09-26T18:42:00.000Z"
+  },
+  {
+   "id": "0c4575c8-99ee-4231-893e-b53e19385c4a",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "Historical Handoff Rule"
+   ],
+   "created": "2026-09-26T18:42:00.000Z",
+   "edited": "2026-09-26T18:42:00.000Z"
+  },
+  {
+   "id": "c00d1cb5-084c-41a0-af99-c0d333dcbd24",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "The older Claude handoff remains a historical reference. Reuse is permitted only after reconciliation with the current project state, the Primary Reference Pair, v4.1 Candidate, and recorded governance decisions."
+   ],
+   "created": "2026-09-26T18:42:00.000Z",
+   "edited": "2026-09-26T18:42:00.000Z"
+  },
+  {
+   "id": "9c8f4c1d-8dd4-41b1-aec0-1da132276c00",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "Non-Mixing Rule"
+   ],
+   "created": "2026-09-26T18:42:00.000Z",
+   "edited": "2026-09-26T18:42:00.000Z"
+  },
+  {
+   "id": "c23baf33-3c1e-4179-a460-b3e83699f733",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Do not silently merge these layers, transfer unrelated modules, or import unrelated project material into Supplier Intelligence. Any proposed structural or governance change remains subject to the existing authority and approval rules."
+   ],
+   "created": "2026-09-26T18:42:00.000Z",
+   "edited": "2026-09-26T18:42:00.000Z"
+  },
+  {
+   "id": "6f2ac59b-9629-4a9b-aec7-93b74563ad72",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "This section records the user's explicit approval and does not promote any Prompt Candidate to Canonical status."
+   ],
+   "created": "2026-09-26T18:42:00.000Z",
+   "edited": "2026-09-26T18:42:00.000Z"
+  },
+  {
+   "id": "6cfe1ccd-3b14-401b-b803-b4f605366814",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "✅ Approved Scope Clarification — Products + Services"
+   ],
+   "created": "2026-09-26T20:47:00.000Z",
+   "edited": "2026-09-26T20:47:00.000Z"
+  },
+  {
+   "id": "698c04cf-54d8-4331-89ba-01562a9bedd1",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Decision ID: Scope-Product-Service-Coverage-1.0"
+   ],
+   "created": "2026-09-26T20:47:00.000Z",
+   "edited": "2026-09-26T20:47:00.000Z"
+  },
+  {
+   "id": "28f2164b-d5ca-4d3f-8cad-5b165717f2f8",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "تم تثبيت أن منظومة Adaptive Supplier Intelligence Research Engine تبحث في المنتجات والخدمات الرقمية معًا. العائلات الحالية المسجلة للمشروع: AI/SaaS، Gift Cards، Game Top-up، Game Keys، Software/Licenses، eSIM/Telecom، SMM، Virtual Numbers/SMS، Digital Subscriptions، وخدمات رقمية قائمة على API عندما تنطبق، إضافة إلى فئات رقمية أخرى مرتبطة بالنطاق."
+   ],
+   "created": "2026-09-26T20:47:00.000Z",
+   "edited": "2026-09-26T20:47:00.000Z"
+  },
+  {
+   "id": "2be36b63-0b15-46da-a3e6-659e1e02b3ab",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Invariant: Product/Service Family ≠ Actual SKU."
+   ],
+   "created": "2026-09-26T20:47:00.000Z",
+   "edited": "2026-09-26T20:47:00.000Z"
+  },
+  {
+   "id": "d856ed4d-6481-47b2-99df-2743471cf6ac",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "الفئات تحدد نطاق المحرك، لكن كل Run يحتاج SKU فعليًا قابلًا للتحديد قبل المقارنة السعرية. لا تُشتق قيمة SKU من أمثلة واجهة z.ai، ولا تُحوّل الملاحظات التشغيلية الجديدة إلى قاعدة Prompt دون مراجعة."
+   ],
+   "created": "2026-09-26T20:47:00.000Z",
+   "edited": "2026-09-26T20:47:00.000Z"
+  },
+  {
+   "id": "d773eaa2-f93d-409c-b8b5-d3b8f7a8d1d0",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "📌 Cycle 5 State — Claude v4.2 Candidate Reported"
+   ],
+   "created": "2026-09-26T21:29:00.000Z",
+   "edited": "2026-09-26T21:29:00.000Z"
+  },
+  {
+   "id": "edf10c23-2348-414b-8d9a-284f37dcaebb",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Date: 2026-09-27"
+   ],
+   "created": "2026-09-26T21:29:00.000Z",
+   "edited": "2026-09-26T21:29:00.000Z"
+  },
+  {
+   "id": "a8c68784-f0ba-4648-bcdd-221c9f6979b1",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Claude reported creation of v4.2 Candidate, parent v4.1, adding catalog-scale controls: Catalog/Batch objects, Catalog Coverage Ledger, cross-batch Entity persistence, SKU-level lifecycle states, cumulative cross-batch budget rollup, and explicit Global Discovery + Region-Aware SKU Matching wording."
+   ],
+   "created": "2026-09-26T21:29:00.000Z",
+   "edited": "2026-09-26T21:29:00.000Z"
+  },
+  {
+   "id": "32d23bec-8d21-4b69-a42e-98cbe6971916",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Important status distinction: v4.2 is reported by Claude as a Candidate, but its complete exact artifact has not yet been independently verified here. Live multi-batch execution has not yet been performed. The claimed repairs are therefore structurally addressed / pending runtime validation, not runtime-proven."
+   ],
+   "created": "2026-09-26T21:29:00.000Z",
+   "edited": "2026-09-26T21:29:00.000Z"
+  },
+  {
+   "id": "c9c7a6e6-b660-4bcc-afbc-b0b792c706b5",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Next required gate: obtain/verify the exact v4.2 Candidate artifact, then run a real multi-batch adversarial/runtime test before considering any later promotion."
+   ],
+   "created": "2026-09-26T21:29:00.000Z",
+   "edited": "2026-09-26T21:29:00.000Z"
+  },
+  {
+   "id": "43a2eb40-89ef-43c6-98e3-67534e5961c5",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "✅ v4.2 Artifact Verification & User Acceptance — 2026-09-27"
+   ],
+   "created": "2026-09-26T21:35:00.000Z",
+   "edited": "2026-09-26T21:35:00.000Z"
+  },
+  {
+   "id": "8334d7a1-9e06-484d-909b-2ed0a42ad49e",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Artifact: z_ai_supplier_research_prompt_v4_2_candidate.md"
+   ],
+   "created": "2026-09-26T21:35:00.000Z",
+   "edited": "2026-09-26T21:35:00.000Z"
+  },
+  {
+   "id": "230daa6e-bc64-445a-8973-3f8a81b8080e",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "The exact v4.2 Candidate file has now been supplied and reviewed. This resolves the previous artifact-availability gap from Cycle 5."
+   ],
+   "created": "2026-09-26T21:35:00.000Z",
+   "edited": "2026-09-26T21:35:00.000Z"
+  },
+  {
+   "id": "c9c33e2d-d6d9-4526-b6ec-a2fc92e2c7df",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "User decision: v4.2 is accepted as the current working Candidate."
+   ],
+   "created": "2026-09-26T21:35:00.000Z",
+   "edited": "2026-09-26T21:35:00.000Z"
+  },
+  {
+   "id": "0e8d3029-f46d-4df4-b6a4-3e02b36376a3",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Verified at artifact level: Catalog Program/Batch architecture, Catalog Coverage Ledger, SKU lifecycle states, cross-batch Entity Resolution persistence, catalog budget rollup, and explicit separation of global supplier discovery from region-aware SKU matching are present in the file."
+   ],
+   "created": "2026-09-26T21:35:00.000Z",
+   "edited": "2026-09-26T21:35:00.000Z"
+  },
+  {
+   "id": "0b8b76c1-15c7-404c-80c3-ba5f26c44445",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Not yet runtime-proven: live multi-batch execution, cross-batch persistence behavior in the target runtime, and adversarial regression execution."
+   ],
+   "created": "2026-09-26T21:35:00.000Z",
+   "edited": "2026-09-26T21:35:00.000Z"
+  },
+  {
+   "id": "d20ced60-f76e-49a7-ab15-8255c79123cc",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Canonical status: v4.2 is not promoted to Approved/Canonical by this update. The existing promotion gate remains in force until the required live validation is recorded."
+   ],
+   "created": "2026-09-26T21:35:00.000Z",
+   "edited": "2026-09-26T21:35:00.000Z"
+  },
+  {
+   "id": "3e858a07-79e8-813c-b1d1-d9d1f6fbbc8d",
+   "type": "callout",
+   "has_children": false,
+   "text": [
+    "【مزامنة حالة 2026-09-27 — جلسة MEC-2.0】v4.2: مرشح العمل الحالي (مقبول من المستخدم 2026-09-27، غير معتمد). v4.1: محفوظ كوقت تشغيل Batch 1 (2026-09-26). البند المتقادم أعلاه («v4.1: current Candidate») يُقرأ ضمن سياقه التاريخي؛ الحالة الموثقة الراهنة في سجل الإصدارات وسجل Canonical."
+   ],
+   "created": "2026-09-27T01:03:00.000Z",
+   "edited": "2026-09-27T01:03:00.000Z"
+  }
+ ]
+}

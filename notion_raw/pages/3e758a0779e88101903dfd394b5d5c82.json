@@ -1,0 +1,99 @@
+{
+ "page": {
+  "id": "3e758a07-79e8-8101-903d-fd394b5d5c82",
+  "title": "CHG-DM-AUDIT-001 — Correct KNG-43 provenance reconciliation status",
+  "url": "https://app.notion.com/p/CHG-DM-AUDIT-001-Correct-KNG-43-provenance-reconciliation-status-3e758a0779e88101903dfd394b5d5c82"
+ },
+ "blocks": [
+  {
+   "object": "block",
+   "id": "bc32a4fc-48ad-4c71-9d9c-ad1af75a8922",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-8101-903d-fd394b5d5c82"
+   },
+   "created_time": "2026-09-26T14:00:00.000Z",
+   "last_edited_time": "2026-09-26T14:00:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Correction scope: provenance statement only. KNG-43 Knowledge State remains SYNTHESIZED and Conflict Status remains NONE.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Correction scope: provenance statement only. KNG-43 Knowledge State remains SYNTHESIZED and Conflict Status remains NONE.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "5b9e25b2-b781-462f-847c-13e9216a076a",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-8101-903d-fd394b5d5c82"
+   },
+   "created_time": "2026-09-26T14:00:00.000Z",
+   "last_edited_time": "2026-09-26T14:00:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Control decision: do not reconstruct the Evidence Links relation by unsafe overwrite until the full intended evidence set is identified.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Control decision: do not reconstruct the Evidence Links relation by unsafe overwrite until the full intended evidence set is identified.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  }
+ ]
+}

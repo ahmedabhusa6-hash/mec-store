@@ -1,0 +1,1931 @@
+{
+ "capture_reason": "CHANGED",
+ "title": "Accounting Systems — Research Queue",
+ "schema": {
+  "object": "database",
+  "id": "533b6ca8-c624-4be3-ae43-e2913dd89f9c",
+  "cover": null,
+  "icon": null,
+  "created_time": "2026-09-25T21:50:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_time": "2026-09-25T21:50:00.000Z",
+  "title": [
+   {
+    "type": "text",
+    "text": {
+     "content": "Accounting Systems — Research Queue",
+     "link": null
+    },
+    "annotations": {
+     "bold": false,
+     "italic": false,
+     "strikethrough": false,
+     "underline": false,
+     "code": false,
+     "color": "default"
+    },
+    "plain_text": "Accounting Systems — Research Queue",
+    "href": null
+   }
+  ],
+  "description": [
+   {
+    "type": "text",
+    "text": {
+     "content": "Canonical research backlog for the Accounting Systems Continuous Knowledge & Classification Operation.",
+     "link": null
+    },
+    "annotations": {
+     "bold": false,
+     "italic": false,
+     "strikethrough": false,
+     "underline": false,
+     "code": false,
+     "color": "default"
+    },
+    "plain_text": "Canonical research backlog for the Accounting Systems Continuous Knowledge & Classification Operation.",
+    "href": null
+   }
+  ],
+  "is_inline": false,
+  "database_type": null,
+  "properties": {
+   "Findings": {
+    "id": "%3A%7D%3Df",
+    "name": "Findings",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Question": {
+    "id": "%3BYBr",
+    "name": "Question",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Objective": {
+    "id": "%3C%3CK%5C",
+    "name": "Objective",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Gaps": {
+    "id": "%3FEHa",
+    "name": "Gaps",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Priority": {
+    "id": "Trbz",
+    "name": "Priority",
+    "description": null,
+    "type": "select",
+    "select": {
+     "options": [
+      {
+       "id": "6a2453ab-6185-4835-a6fe-e88d1e52d09d",
+       "name": "Critical",
+       "color": "red",
+       "description": null
+      },
+      {
+       "id": "53f3e27a-f009-41c5-9a79-56aa0ff988ec",
+       "name": "High",
+       "color": "orange",
+       "description": null
+      },
+      {
+       "id": "138dc836-e158-4128-913f-8706225a15c9",
+       "name": "Medium",
+       "color": "yellow",
+       "description": null
+      },
+      {
+       "id": "d00b3b2f-4c08-4598-9df9-a19a5a15b3a1",
+       "name": "Low",
+       "color": "gray",
+       "description": null
+      }
+     ]
+    }
+   },
+   "Next Action": {
+    "id": "W%3Cew",
+    "name": "Next Action",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Sources Needed": {
+    "id": "gZwd",
+    "name": "Sources Needed",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Domain": {
+    "id": "lbyT",
+    "name": "Domain",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Status": {
+    "id": "otrs",
+    "name": "Status",
+    "description": null,
+    "type": "select",
+    "select": {
+     "options": [
+      {
+       "id": "99630347-d8db-424b-8479-fe04ae02ae1e",
+       "name": "Backlog",
+       "color": "gray",
+       "description": null
+      },
+      {
+       "id": "56ce09c7-4b40-46a3-8c91-6040a2c64994",
+       "name": "In Progress",
+       "color": "blue",
+       "description": null
+      },
+      {
+       "id": "755af7b9-6ad4-45c7-b430-cb87af5e2396",
+       "name": "Verification",
+       "color": "orange",
+       "description": null
+      },
+      {
+       "id": "d4c6c757-0350-4b9d-b237-721b8e814d90",
+       "name": "Analysis",
+       "color": "purple",
+       "description": null
+      },
+      {
+       "id": "29a6de34-5181-4a1b-9d23-2948e9b4d584",
+       "name": "Integrated",
+       "color": "green",
+       "description": null
+      },
+      {
+       "id": "8d2dafc0-d657-49b3-8a70-1210d2614fa0",
+       "name": "Needs Follow-up",
+       "color": "yellow",
+       "description": null
+      },
+      {
+       "id": "9df726a6-c8f0-4dc0-bb34-e66c159937bf",
+       "name": "Closed",
+       "color": "brown",
+       "description": null
+      }
+     ]
+    }
+   },
+   "Research ID": {
+    "id": "tb%3Fl",
+    "name": "Research ID",
+    "description": null,
+    "type": "unique_id",
+    "unique_id": {
+     "prefix": "ASR"
+    }
+   },
+   "Last Attempt": {
+    "id": "%7BV%40o",
+    "name": "Last Attempt",
+    "description": null,
+    "type": "date",
+    "date": {}
+   },
+   "Research Scope": {
+    "id": "%7CDN%5B",
+    "name": "Research Scope",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Name": {
+    "id": "title",
+    "name": "Name",
+    "description": null,
+    "type": "title",
+    "title": {}
+   }
+  },
+  "parent": {
+   "type": "page_id",
+   "page_id": "3e658a07-79e8-812b-94dd-c53cd6689569"
+  },
+  "url": "https://app.notion.com/p/533b6ca8c6244be3ae43e2913dd89f9c",
+  "public_url": null,
+  "in_trash": false,
+  "archived": false,
+  "request_id": "1ce11bab-fb6b-4997-b854-515e87cb41f7"
+ },
+ "row_count": 6,
+ "rows": [
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-81dc-bb39-eb9ac1a7839d",
+   "created_time": "2026-09-26T14:32:00.000Z",
+   "last_edited_time": "2026-09-26T14:32:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "533b6ca8-c624-4be3-ae43-e2913dd89f9c"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Findings": {
+     "id": "%3A%7D%3Df",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Initial boundary test: Mossa et al. (2025) treats architecture and ERP characteristics including integration as related characteristics; Odoo documents multitier architecture and modules; Frank (2004) studies architectural design for integration of distributed ERP/e-commerce systems. The evidence supports keeping Architecture and Integrations conceptually separate but related; no activation of an Integrations taxonomy node is justified yet.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Initial boundary test: Mossa et al. (2025) treats architecture and ERP characteristics including integration as related characteristics; Odoo documents multitier architecture and modules; Frank (2004) studies architectural design for integration of distributed ERP/e-commerce systems. The evidence supports keeping Architecture and Integrations conceptually separate but related; no activation of an Integrations taxonomy node is justified yet.",
+       "href": null
+      }
+     ]
+    },
+    "Question": {
+     "id": "%3BYBr",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "هل يجب فصل Architecture عن Integrations كأبعاد تصنيف مستقلة، بحيث تصف Architecture البنية/التركيب التقني للنظام بينما تصف Integrations علاقات الاتصال والتبادل والتنسيق مع المكونات أو الأنظمة الأخرى؟",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "هل يجب فصل Architecture عن Integrations كأبعاد تصنيف مستقلة، بحيث تصف Architecture البنية/التركيب التقني للنظام بينما تصف Integrations علاقات الاتصال والتبادل والتنسيق مع المكونات أو الأنظمة الأخرى؟",
+       "href": null
+      }
+     ]
+    },
+    "Objective": {
+     "id": "%3C%3CK%5C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "اختبار الحد المفاهيمي والتطبيقي بين Architecture وIntegrations عبر مصادر ERP مستقلة ومنتجات متعددة، ومنع عدّ التكامل مجرد تسمية معمارية أو العكس.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "اختبار الحد المفاهيمي والتطبيقي بين Architecture وIntegrations عبر مصادر ERP مستقلة ومنتجات متعددة، ومنع عدّ التكامل مجرد تسمية معمارية أو العكس.",
+       "href": null
+      }
+     ]
+    },
+    "Gaps": {
+     "id": "%3FEHa",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Current evidence supports a layered distinction but is not sufficient for a universal controlled vocabulary or full product-level classification. Need cross-product validation and explicit treatment of native internal integration versus external integration.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Current evidence supports a layered distinction but is not sufficient for a universal controlled vocabulary or full product-level classification. Need cross-product validation and explicit treatment of native internal integration versus external integration.",
+       "href": null
+      }
+     ]
+    },
+    "Priority": {
+     "id": "Trbz",
+     "type": "select",
+     "select": {
+      "id": "6a2453ab-6185-4835-a6fe-e88d1e52d09d",
+      "name": "Critical",
+      "color": "red"
+     }
+    },
+    "Next Action": {
+     "id": "W%3Cew",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Test a second ERP/accounting product family where architecture and integration are documented separately; compare internal module composition with external APIs/connectors/middleware and record whether the distinction holds across versions/editions.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Test a second ERP/accounting product family where architecture and integration are documented separately; compare internal module composition with external APIs/connectors/middleware and record whether the distinction holds across versions/editions.",
+       "href": null
+      }
+     ]
+    },
+    "Sources Needed": {
+     "id": "gZwd",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Independent ERP architecture/integration literature; official product architecture and integration documentation from at least one additional ERP/accounting product family.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Independent ERP architecture/integration literature; official product architecture and integration documentation from at least one additional ERP/accounting product family.",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "lbyT",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Taxonomy / Architecture / Integrations",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Taxonomy / Architecture / Integrations",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "otrs",
+     "type": "select",
+     "select": {
+      "id": "56ce09c7-4b40-46a3-8c91-6040a2c64994",
+      "name": "In Progress",
+      "color": "blue"
+     }
+    },
+    "Research ID": {
+     "id": "tb%3Fl",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "ASR",
+      "number": 10
+     }
+    },
+    "Last Attempt": {
+     "id": "%7BV%40o",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Research Scope": {
+     "id": "%7CDN%5B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ERP/accounting products with documented internal modular architecture and external/system integration; distinguish structural architecture, internal composition, integration mechanisms, integration topology and functional integration.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ERP/accounting products with documented internal modular architecture and external/system integration; distinguish structural architecture, internal composition, integration mechanisms, integration topology and functional integration.",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Validate Architecture vs Integrations as separate Accounting Systems taxonomy dimensions",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Validate Architecture vs Integrations as separate Accounting Systems taxonomy dimensions",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Validate-Architecture-vs-Integrations-as-separate-Accounting-Systems-taxonomy-dimensions-3e758a0779e881dcbb39eb9ac1a7839d",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-81c2-a799-cf7128dfa1cd",
+   "created_time": "2026-09-26T13:59:00.000Z",
+   "last_edited_time": "2026-09-26T14:00:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "533b6ca8-c624-4be3-ae43-e2913dd89f9c"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Findings": {
+     "id": "%3A%7D%3Df",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASR-9 validated Architecture as an independent taxonomy dimension. Mossa et al. (2025) provides an independent architecture-based ERP framework; Odoo 19 documents multitier architecture and modular/addon composition.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASR-9 validated Architecture as an independent taxonomy dimension. Mossa et al. (2025) provides an independent architecture-based ERP framework; Odoo 19 documents multitier architecture and modular/addon composition.",
+       "href": null
+      }
+     ]
+    },
+    "Question": {
+     "id": "%3BYBr",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "هل يجب اعتبار Architecture محورًا مستقلًا في تصنيف الأنظمة المحاسبية، وكيف نفصل بنية النظام عن النطاق الوظيفي وطريقة النشر والترخيص؟",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "هل يجب اعتبار Architecture محورًا مستقلًا في تصنيف الأنظمة المحاسبية، وكيف نفصل بنية النظام عن النطاق الوظيفي وطريقة النشر والترخيص؟",
+       "href": null
+      }
+     ]
+    },
+    "Objective": {
+     "id": "%3C%3CK%5C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Determine whether software architecture is a distinct classification dimension from Functional Scope, Deployment and Licensing, and identify evidence-backed architectural descriptors without prematurely fixing a universal architecture taxonomy.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Determine whether software architecture is a distinct classification dimension from Functional Scope, Deployment and Licensing, and identify evidence-backed architectural descriptors without prematurely fixing a universal architecture taxonomy.",
+       "href": null
+      }
+     ]
+    },
+    "Gaps": {
+     "id": "%3FEHa",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Universal Architecture vocabulary remains open. The Architecture-vs-Integration boundary remains open, and architecture may require multiple descriptors rather than one categorical value.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Universal Architecture vocabulary remains open. The Architecture-vs-Integration boundary remains open, and architecture may require multiple descriptors rather than one categorical value.",
+       "href": null
+      }
+     ]
+    },
+    "Priority": {
+     "id": "Trbz",
+     "type": "select",
+     "select": {
+      "id": "6a2453ab-6185-4835-a6fe-e88d1e52d09d",
+      "name": "Critical",
+      "color": "red"
+     }
+    },
+    "Next Action": {
+     "id": "W%3Cew",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Test Architecture descriptors across another ERP/accounting product family, then validate Architecture versus Integration as separate dimensions.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Test Architecture descriptors across another ERP/accounting product family, then validate Architecture versus Integration as separate dimensions.",
+       "href": null
+      }
+     ]
+    },
+    "Sources Needed": {
+     "id": "gZwd",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Mossa, Smith & Bland (2025); Odoo 19 architecture and modularity documentation; additional independent ERP architecture literature if needed.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Mossa, Smith & Bland (2025); Odoo 19 architecture and modularity documentation; additional independent ERP architecture literature if needed.",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "lbyT",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Taxonomy / Architecture",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Taxonomy / Architecture",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "otrs",
+     "type": "select",
+     "select": {
+      "id": "29a6de34-5181-4a1b-9d23-2948e9b4d584",
+      "name": "Integrated",
+      "color": "green"
+     }
+    },
+    "Research ID": {
+     "id": "tb%3Fl",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "ASR",
+      "number": 9
+     }
+    },
+    "Last Attempt": {
+     "id": "%7BV%40o",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Research Scope": {
+     "id": "%7CDN%5B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Independent ERP architecture literature plus current product architecture documentation, with emphasis on modularity, integration, configurability and multi-tier structure.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Independent ERP architecture literature plus current product architecture documentation, with emphasis on modularity, integration, configurability and multi-tier structure.",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Validate Architecture as an independent Accounting Systems taxonomy dimension",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Validate Architecture as an independent Accounting Systems taxonomy dimension",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Validate-Architecture-as-an-independent-Accounting-Systems-taxonomy-dimension-3e758a0779e881c2a799cf7128dfa1cd",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-8134-9caa-fd27706e86fc",
+   "created_time": "2026-09-26T13:58:00.000Z",
+   "last_edited_time": "2026-09-26T13:59:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "533b6ca8-c624-4be3-ae43-e2913dd89f9c"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Findings": {
+     "id": "%3A%7D%3Df",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASR-8 validated Deployment as an independent taxonomy dimension. Business Central documents Online versus On-Premises; Odoo 19 supports Online, ",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASR-8 validated Deployment as an independent taxonomy dimension. Business Central documents Online versus On-Premises; Odoo 19 supports Online, ",
+       "href": null
+      },
+      {
+       "type": "text",
+       "text": {
+        "content": "Odoo.sh",
+        "link": {
+         "url": "http://odoo.sh/"
+        }
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Odoo.sh",
+       "href": "http://odoo.sh/"
+      },
+      {
+       "type": "text",
+       "text": {
+        "content": " and On-Premise; independent literature treats cloud-ERP as a distinct deployment/delivery context. The dimension is separate from System_Type and Functional Scope.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": " and On-Premise; independent literature treats cloud-ERP as a distinct deployment/delivery context. The dimension is separate from System_Type and Functional Scope.",
+       "href": null
+      }
+     ]
+    },
+    "Question": {
+     "id": "%3BYBr",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "هل يجب اعتبار Deployment محورًا مستقلًا عن System_Type، وما هي قيم النشر التي يمكن إثباتها دون اختزالها في Cloud مقابل On-Premise فقط؟",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "هل يجب اعتبار Deployment محورًا مستقلًا عن System_Type، وما هي قيم النشر التي يمكن إثباتها دون اختزالها في Cloud مقابل On-Premise فقط؟",
+       "href": null
+      }
+     ]
+    },
+    "Objective": {
+     "id": "%3C%3CK%5C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Determine whether Deployment is a distinct classification dimension from System_Type, and establish evidence-backed deployment values without conflating hosting/delivery with functional scope.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Determine whether Deployment is a distinct classification dimension from System_Type, and establish evidence-backed deployment values without conflating hosting/delivery with functional scope.",
+       "href": null
+      }
+     ]
+    },
+    "Gaps": {
+     "id": "%3FEHa",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Controlled vocabulary remains intentionally open. Online/Cloud and On-Premises are evidenced; ",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Controlled vocabulary remains intentionally open. Online/Cloud and On-Premises are evidenced; ",
+       "href": null
+      },
+      {
+       "type": "text",
+       "text": {
+        "content": "Odoo.sh",
+        "link": {
+         "url": "http://odoo.sh/"
+        }
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Odoo.sh",
+       "href": "http://odoo.sh/"
+      },
+      {
+       "type": "text",
+       "text": {
+        "content": " is evidenced as a distinct hosted cloud platform context. Hosted, Hybrid, Private Cloud and Public Cloud should not be normalized as universal controlled values without separate definitions/evidence.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": " is evidenced as a distinct hosted cloud platform context. Hosted, Hybrid, Private Cloud and Public Cloud should not be normalized as universal controlled values without separate definitions/evidence.",
+       "href": null
+      }
+     ]
+    },
+    "Priority": {
+     "id": "Trbz",
+     "type": "select",
+     "select": {
+      "id": "6a2453ab-6185-4835-a6fe-e88d1e52d09d",
+      "name": "Critical",
+      "color": "red"
+     }
+    },
+    "Next Action": {
+     "id": "W%3Cew",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Advance to Architecture taxonomy validation. Revisit Deployment vocabulary only when a specific new deployment model requires evidence.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Advance to Architecture taxonomy validation. Revisit Deployment vocabulary only when a specific new deployment model requires evidence.",
+       "href": null
+      }
+     ]
+    },
+    "Sources Needed": {
+     "id": "gZwd",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Microsoft Business Central deployment documentation; Odoo 19 hosting/support documentation; Yasiukovich & Haddara (2020) cloud-ERP research taxonomy; additional independent deployment-model evidence if required.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Microsoft Business Central deployment documentation; Odoo 19 hosting/support documentation; Yasiukovich & Haddara (2020) cloud-ERP research taxonomy; additional independent deployment-model evidence if required.",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "lbyT",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Taxonomy / Deployment",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Taxonomy / Deployment",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "otrs",
+     "type": "select",
+     "select": {
+      "id": "29a6de34-5181-4a1b-9d23-2948e9b4d584",
+      "name": "Integrated",
+      "color": "green"
+     }
+    },
+    "Research ID": {
+     "id": "tb%3Fl",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "ASR",
+      "number": 8
+     }
+    },
+    "Last Attempt": {
+     "id": "%7BV%40o",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Research Scope": {
+     "id": "%7CDN%5B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Current official product documentation plus independent ERP literature covering online/cloud, on-premises, hosted and cloud delivery models.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Current official product documentation plus independent ERP literature covering online/cloud, on-premises, hosted and cloud delivery models.",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Validate Deployment as an independent Accounting Systems taxonomy dimension",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Validate Deployment as an independent Accounting Systems taxonomy dimension",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Validate-Deployment-as-an-independent-Accounting-Systems-taxonomy-dimension-3e758a0779e881349caafd27706e86fc",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-81cf-a715-cf195091f9dd",
+   "created_time": "2026-09-26T03:31:00.000Z",
+   "last_edited_time": "2026-09-26T13:56:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "533b6ca8-c624-4be3-ae43-e2913dd89f9c"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Findings": {
+     "id": "%3A%7D%3Df",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASR-7 edition/plan test completed with Microsoft Dynamics 365 Business Central. Microsoft documents Essentials and Premium within the same product family. Essentials covers finance, sales, operations, purchasing/payables, inventory, supply planning, projects and warehouse management; Premium includes all Essentials capabilities plus Manufacturing and Service Management. Learn documentation also states that the company experience setting controls which functionality is enabled and that Essentials users cannot open Premium-configured companies. This establishes material Edition/Plan → Functional Scope divergence. It does not establish that the plans are different System Types; plan/licensing is context for evaluating the actual functional scope.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASR-7 edition/plan test completed with Microsoft Dynamics 365 Business Central. Microsoft documents Essentials and Premium within the same product family. Essentials covers finance, sales, operations, purchasing/payables, inventory, supply planning, projects and warehouse management; Premium includes all Essentials capabilities plus Manufacturing and Service Management. Learn documentation also states that the company experience setting controls which functionality is enabled and that Essentials users cannot open Premium-configured companies. This establishes material Edition/Plan → Functional Scope divergence. It does not establish that the plans are different System Types; plan/licensing is context for evaluating the actual functional scope.",
+       "href": null
+      }
+     ]
+    },
+    "Question": {
+     "id": "%3BYBr",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "هل يؤدي وجود وحدات مؤسسية منفصلة الترخيص داخل Finance Suite إلى ERP with Accounting، أم يجب إثبات التكامل والنطاق الفعلي في الإصدار/الخطة المستخدمة؟",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "هل يؤدي وجود وحدات مؤسسية منفصلة الترخيص داخل Finance Suite إلى ERP with Accounting، أم يجب إثبات التكامل والنطاق الفعلي في الإصدار/الخطة المستخدمة؟",
+       "href": null
+      }
+     ]
+    },
+    "Objective": {
+     "id": "%3C%3CK%5C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "اختبار أثر الفصل التجاري بين الوحدات على تصنيف System Type، مع فصل Licensing عن Functional Scope وعن native integration.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "اختبار أثر الفصل التجاري بين الوحدات على تصنيف System Type، مع فصل Licensing عن Functional Scope وعن native integration.",
+       "href": null
+      }
+     ]
+    },
+    "Gaps": {
+     "id": "%3FEHa",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "The specific Edition/Plan divergence existence test is no longer open for Business Central. Remaining gaps: broader cross-product Edition/Plan divergence validation; independent evidence directly connecting licensing/package boundaries to System_Type remains open; Saudi-specific Oracle 26C localization remains UNKNOWN; most taxonomy axes beyond Functional Scope lack active evidence-backed Knowledge Assets.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "The specific Edition/Plan divergence existence test is no longer open for Business Central. Remaining gaps: broader cross-product Edition/Plan divergence validation; independent evidence directly connecting licensing/package boundaries to System_Type remains open; Saudi-specific Oracle 26C localization remains UNKNOWN; most taxonomy axes beyond Functional Scope lack active evidence-backed Knowledge Assets.",
+       "href": null
+      }
+     ]
+    },
+    "Priority": {
+     "id": "Trbz",
+     "type": "select",
+     "select": {
+      "id": "53f3e27a-f009-41c5-9a79-56aa0ff988ec",
+      "name": "High",
+      "color": "orange"
+     }
+    },
+    "Next Action": {
+     "id": "W%3Cew",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Use Business Central as the canonical plan-divergence boundary case in the taxonomy. Continue ASR-7 with one cross-product plan/edition case only if needed for robustness, then focus on the independent licensing/classification question without treating price or entitlement as System Type.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Use Business Central as the canonical plan-divergence boundary case in the taxonomy. Continue ASR-7 with one cross-product plan/edition case only if needed for robustness, then focus on the independent licensing/classification question without treating price or entitlement as System Type.",
+       "href": null
+      }
+     ]
+    },
+    "Sources Needed": {
+     "id": "gZwd",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Official product architecture and edition/plan documentation; independent ERP/accounting references where available.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Official product architecture and edition/plan documentation; independent ERP/accounting references where available.",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "lbyT",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Taxonomy / Functional Scope",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Taxonomy / Functional Scope",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "otrs",
+     "type": "select",
+     "select": {
+      "id": "8d2dafc0-d657-49b3-8a70-1210d2614fa0",
+      "name": "Needs Follow-up",
+      "color": "yellow"
+     }
+    },
+    "Research ID": {
+     "id": "tb%3Fl",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "ASR",
+      "number": 7
+     }
+    },
+    "Last Attempt": {
+     "id": "%7BV%40o",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Research Scope": {
+     "id": "%7CDN%5B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Finance suites with separately licensed enterprise modules; native versus optional modules; product architecture and edition/plan context.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Finance suites with separately licensed enterprise modules; native versus optional modules; product architecture and edition/plan context.",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Test finance suite with separately licensed enterprise modules against Scope-before-Label",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Test finance suite with separately licensed enterprise modules against Scope-before-Label",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Test-finance-suite-with-separately-licensed-enterprise-modules-against-Scope-before-Label-3e758a0779e881cfa715cf195091f9dd",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81d2-b33c-f59a3dbf81cc",
+   "created_time": "2026-09-25T21:52:00.000Z",
+   "last_edited_time": "2026-09-26T03:31:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "533b6ca8-c624-4be3-ae43-e2913dd89f9c"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Findings": {
+     "id": "%3A%7D%3Df",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Independent conceptual validation plus current official product tests support functional breadth/integration as the ERP boundary. New boundary cases: Zoho Books and QuickBooks Online Advanced show accounting-centered products can have adjacent, optional, or externally integrated modules; Odoo shows stronger multi-function integrated ERP scope.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Independent conceptual validation plus current official product tests support functional breadth/integration as the ERP boundary. New boundary cases: Zoho Books and QuickBooks Online Advanced show accounting-centered products can have adjacent, optional, or externally integrated modules; Odoo shows stronger multi-function integrated ERP scope.",
+       "href": null
+      }
+     ]
+    },
+    "Question": {
+     "id": "%3BYBr",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "هل يمكن دعم الحد الفاصل بين Accounting Software وERP with Accounting بمراجع مستقلة عن موردي المنتجات، وما التعريف الأدق للنطاق الوظيفي؟",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "هل يمكن دعم الحد الفاصل بين Accounting Software وERP with Accounting بمراجع مستقلة عن موردي المنتجات، وما التعريف الأدق للنطاق الوظيفي؟",
+       "href": null
+      }
+     ]
+    },
+    "Objective": {
+     "id": "%3C%3CK%5C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "اختبار القاعدة الحالية ضد أطر مهنية/أكاديمية أو تعريفات مستقلة، والكشف عن أي قصور أو تعارض.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "اختبار القاعدة الحالية ضد أطر مهنية/أكاديمية أو تعريفات مستقلة، والكشف عن أي قصور أو تعارض.",
+       "href": null
+      }
+     ]
+    },
+    "Gaps": {
+     "id": "%3FEHa",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Exact product classification still requires Edition/Plan/Version/Localization/Market evidence. Native versus external integration and commercially optional modules remain context-sensitive.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Exact product classification still requires Edition/Plan/Version/Localization/Market evidence. Native versus external integration and commercially optional modules remain context-sensitive.",
+       "href": null
+      }
+     ]
+    },
+    "Priority": {
+     "id": "Trbz",
+     "type": "select",
+     "select": {
+      "id": "6a2453ab-6185-4835-a6fe-e88d1e52d09d",
+      "name": "Critical",
+      "color": "red"
+     }
+    },
+    "Next Action": {
+     "id": "W%3Cew",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Test a finance suite with separately licensed enterprise modules; test localization/version divergence; test cases where integration is technically native but commercially optional.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Test a finance suite with separately licensed enterprise modules; test localization/version divergence; test cases where integration is technically native but commercially optional.",
+       "href": null
+      }
+     ]
+    },
+    "Sources Needed": {
+     "id": "gZwd",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Independent professional bodies; academic literature; recognized ERP/accounting references",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Independent professional bodies; academic literature; recognized ERP/accounting references",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "lbyT",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Taxonomy / Functional Scope",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Taxonomy / Functional Scope",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "otrs",
+     "type": "select",
+     "select": {
+      "id": "29a6de34-5181-4a1b-9d23-2948e9b4d584",
+      "name": "Integrated",
+      "color": "green"
+     }
+    },
+    "Research ID": {
+     "id": "tb%3Fl",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "ASR",
+      "number": 6
+     }
+    },
+    "Last Attempt": {
+     "id": "%7BV%40o",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Research Scope": {
+     "id": "%7CDN%5B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Independent ERP/accounting-system definitions, taxonomy literature, academic/professional references, and cross-product classification frameworks.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Independent ERP/accounting-system definitions, taxonomy literature, academic/professional references, and cross-product classification frameworks.",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Validate functional-scope boundary against independent accounting/ERP taxonomy sources",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Validate functional-scope boundary against independent accounting/ERP taxonomy sources",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Validate-functional-scope-boundary-against-independent-accounting-ERP-taxonomy-sources-3e658a0779e881d2b33cf59a3dbf81cc",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8115-981d-c3ce85d77fb9",
+   "created_time": "2026-09-25T21:52:00.000Z",
+   "last_edited_time": "2026-09-26T02:29:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "533b6ca8-c624-4be3-ae43-e2913dd89f9c"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Findings": {
+     "id": "%3A%7D%3Df",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Independent conceptual validation is now triangulated with product-class testing. OpenStax/ACCA/Thuy et al. support functional breadth and integration as ERP boundary concepts; current official product tests add QuickBooks Online (accounting-centered with adjacent inventory/projects), Odoo (integrated multi-function suite), and ERPNext (integrated accounting plus HR/CRM/manufacturing/order/asset domains).",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Independent conceptual validation is now triangulated with product-class testing. OpenStax/ACCA/Thuy et al. support functional breadth and integration as ERP boundary concepts; current official product tests add QuickBooks Online (accounting-centered with adjacent inventory/projects), Odoo (integrated multi-function suite), and ERPNext (integrated accounting plus HR/CRM/manufacturing/order/asset domains).",
+       "href": null
+      }
+     ]
+    },
+    "Question": {
+     "id": "%3BYBr",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ما القاعدة القابلة لإعادة الاستخدام التي تميز النظام المحاسبي عن ERP ذي الوظائف المالية دون الاعتماد على تسمية المورد؟",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ما القاعدة القابلة لإعادة الاستخدام التي تميز النظام المحاسبي عن ERP ذي الوظائف المالية دون الاعتماد على تسمية المورد؟",
+       "href": null
+      }
+     ]
+    },
+    "Objective": {
+     "id": "%3C%3CK%5C",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "بناء أول Classification Rule في محور Functional Scope اعتمادًا على أدلة أولية متعددة الموردين.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "بناء أول Classification Rule في محور Functional Scope اعتمادًا على أدلة أولية متعددة الموردين.",
+       "href": null
+      }
+     ]
+    },
+    "Gaps": {
+     "id": "%3FEHa",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Exact product classification still requires Edition/Plan/Version/Localization/Market evidence; vendor documentation alone does not establish universal boundaries. QuickBooks regional/plan differences and module enablement remain context-sensitive.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Exact product classification still requires Edition/Plan/Version/Localization/Market evidence; vendor documentation alone does not establish universal boundaries. QuickBooks regional/plan differences and module enablement remain context-sensitive.",
+       "href": null
+      }
+     ]
+    },
+    "Priority": {
+     "id": "Trbz",
+     "type": "select",
+     "select": {
+      "id": "6a2453ab-6185-4835-a6fe-e88d1e52d09d",
+      "name": "Critical",
+      "color": "red"
+     }
+    },
+    "Next Action": {
+     "id": "W%3Cew",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Expand Functional Scope testing to additional accounting-centered products and finance suites across editions, versions, and localization/market contexts; specifically test cases where adjacent modules are optional or externally integrated.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Expand Functional Scope testing to additional accounting-centered products and finance suites across editions, versions, and localization/market contexts; specifically test cases where adjacent modules are optional or externally integrated.",
+       "href": null
+      }
+     ]
+    },
+    "Sources Needed": {
+     "id": "gZwd",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Microsoft Dynamics 365 Finance; SAP S/4HANA Cloud; Oracle Fusion Cloud Financials; Xero ERP/accounting scope",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Microsoft Dynamics 365 Finance; SAP S/4HANA Cloud; Oracle Fusion Cloud Financials; Xero ERP/accounting scope",
+       "href": null
+      }
+     ]
+    },
+    "Domain": {
+     "id": "lbyT",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Taxonomy / Functional Scope",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Taxonomy / Functional Scope",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "otrs",
+     "type": "select",
+     "select": {
+      "id": "29a6de34-5181-4a1b-9d23-2948e9b4d584",
+      "name": "Integrated",
+      "color": "green"
+     }
+    },
+    "Research ID": {
+     "id": "tb%3Fl",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "ASR",
+      "number": 5
+     }
+    },
+    "Last Attempt": {
+     "id": "%7BV%40o",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Research Scope": {
+     "id": "%7CDN%5B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Compare core accounting scope with broader enterprise-functional scope across representative current products.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Compare core accounting scope with broader enterprise-functional scope across representative current products.",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Establish functional-scope boundary: Accounting Software vs ERP with Accounting",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Establish functional-scope boundary: Accounting Software vs ERP with Accounting",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Establish-functional-scope-boundary-Accounting-Software-vs-ERP-with-Accounting-3e658a0779e88115981dc3ce85d77fb9",
+   "public_url": null,
+   "archived": false
+  }
+ ]
+}

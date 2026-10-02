@@ -1,0 +1,2130 @@
+{
+ "page": {
+  "id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec",
+  "title": "Claude Sonnet 5 Workspace — Research & Drafts",
+  "url": "https://app.notion.com/p/Claude-Sonnet-5-Workspace-Research-Drafts-3e758a0779e881e690b1ca37ecff13ec"
+ },
+ "blocks": [
+  {
+   "object": "block",
+   "id": "e185fead-ed07-40c1-9c6f-77daa795f9f7",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T15:23:00.000Z",
+   "last_edited_time": "2026-09-26T15:23:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Role",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Role",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "fe4e17de-daa3-4095-b0fa-e9ce5c1dec42",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T15:23:00.000Z",
+   "last_edited_time": "2026-09-26T15:23:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Research · Architecture · Prompt Engineering · Drafting · Experimentation",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Research · Architecture · Prompt Engineering · Drafting · Experimentation",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "ad87e010-48c3-47d5-b88f-05e53298cc84",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T15:23:00.000Z",
+   "last_edited_time": "2026-09-26T15:23:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "This workspace is owned by the Claude development function.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "This workspace is owned by the Claude development function.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "cceedc0d-17b9-448b-9f06-dd2c8a93bbe6",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T15:23:00.000Z",
+   "last_edited_time": "2026-09-26T15:23:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Purpose",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Purpose",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "8ca2f3c4-b040-4705-9481-b1dff506f2cf",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T15:23:00.000Z",
+   "last_edited_time": "2026-09-26T15:23:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Perform external research.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Perform external research.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "7b1f4e13-6b34-45b8-88ac-f447ce80c253",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T15:23:00.000Z",
+   "last_edited_time": "2026-09-26T15:23:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Develop Prompt architecture and revisions.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Develop Prompt architecture and revisions.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "8d49b0bc-a3a5-4b3f-aa43-0e62f3885e47",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T15:23:00.000Z",
+   "last_edited_time": "2026-09-26T15:23:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Produce Draft and Candidate versions.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Produce Draft and Candidate versions.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "97b068b5-07a1-4ca6-898b-3b611f935c94",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T15:23:00.000Z",
+   "last_edited_time": "2026-09-26T15:23:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Record supporting evidence and design rationale.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Record supporting evidence and design rationale.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "d8d3cf84-54f0-4783-8a7b-23fab1554eb3",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T15:23:00.000Z",
+   "last_edited_time": "2026-09-26T15:23:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Run research-oriented tests and document results.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Run research-oriented tests and document results.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "3b483383-3c20-43ba-8a16-be3683b12c0e",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T15:23:00.000Z",
+   "last_edited_time": "2026-09-26T15:23:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Authority",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Authority",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "c4eb8622-923e-4771-9ba0-feaf92401929",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T15:23:00.000Z",
+   "last_edited_time": "2026-09-26T15:23:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Draft ≠ Approved.",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Draft ≠ Approved.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "82057fa0-fa0f-45d2-86d4-c34d8187231e",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T15:23:00.000Z",
+   "last_edited_time": "2026-09-26T17:58:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Claude owns this workspace and may edit its research, architecture, experiments, drafts, and Candidate Prompt text.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Claude owns this workspace and may edit its research, architecture, experiments, drafts, and Candidate Prompt text.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "56fa7267-75e0-42ec-99ca-b438a2aa32b0",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T17:58:00.000Z",
+   "last_edited_time": "2026-09-26T17:58:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Claude may not:",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Claude may not:",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "1946c413-61cc-482a-b2f9-9d337a7a58ae",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T17:58:00.000Z",
+   "last_edited_time": "2026-09-26T17:58:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "edit the ChatGPT Workspace;",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "edit the ChatGPT Workspace;",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "bfa39161-0214-4afc-b1b0-0bf1b4b674b0",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T17:58:00.000Z",
+   "last_edited_time": "2026-09-26T17:58:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "edit ChatGPT audit findings;",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "edit ChatGPT audit findings;",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "5415c329-781f-45f2-a52d-42d10767ee9c",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T17:58:00.000Z",
+   "last_edited_time": "2026-09-26T17:58:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "alter the Operating Protocol or governance rules;",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "alter the Operating Protocol or governance rules;",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "2fe67d00-42c0-4521-802e-f39cace89d64",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T17:58:00.000Z",
+   "last_edited_time": "2026-09-26T17:58:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "alter Canonical approval state or promotion status;",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "alter Canonical approval state or promotion status;",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "f9593e93-a259-4027-878a-09c0fcb19f8e",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T17:58:00.000Z",
+   "last_edited_time": "2026-09-26T17:58:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "delete historical records;",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "delete historical records;",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "6c61e96f-4103-4881-bd9d-ff99bd909184",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T17:58:00.000Z",
+   "last_edited_time": "2026-09-26T17:58:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "silently merge competing Candidates;",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "silently merge competing Candidates;",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "0d94848e-20d9-4ad1-9e17-c6875a9df35d",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T17:58:00.000Z",
+   "last_edited_time": "2026-09-26T17:58:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "overwrite authoritative source text with an inferred reconstruction.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "overwrite authoritative source text with an inferred reconstruction.",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "65c7ec28-af73-4eab-83d3-54c56a0be019",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T17:58:00.000Z",
+   "last_edited_time": "2026-09-26T17:58:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "The ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "The ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "Prompt Working Reference",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Prompt Working Reference",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " is the only shared prompt-development surface Claude may directly edit. Claude may update Prompt Text and Draft Evolution there, but not Canonical authority, approval metadata, Version Registry authority fields, or Decision outcomes.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " is the only shared prompt-development surface Claude may directly edit. Claude may update Prompt Text and Draft Evolution there, but not Canonical authority, approval metadata, Version Registry authority fields, or Decision outcomes.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "328cb8d8-df02-4e12-b12b-d8c30e64caa7",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T15:23:00.000Z",
+   "last_edited_time": "2026-09-26T15:23:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Draft rule",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Draft rule",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "2bc88c90-e444-490d-bc7b-248e9cf60b0d",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T15:23:00.000Z",
+   "last_edited_time": "2026-09-26T15:23:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Every Candidate must identify:",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Every Candidate must identify:",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "08cfad53-7b46-465d-a200-ff3611d6e9b5",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T15:23:00.000Z",
+   "last_edited_time": "2026-09-26T15:23:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Parent Version ID",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Parent Version ID",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "b78afd25-6daf-4288-98a5-e12d74ed7e65",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T15:23:00.000Z",
+   "last_edited_time": "2026-09-26T15:23:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Author",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Author",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "1f154d5d-65bc-456c-a5cd-8bb8ab2505b0",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T15:23:00.000Z",
+   "last_edited_time": "2026-09-26T15:23:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Change Summary",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Change Summary",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "73531be6-1811-430f-ad85-f3ca005696bd",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T15:23:00.000Z",
+   "last_edited_time": "2026-09-26T15:23:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Reason",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Reason",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "26419374-fe4f-4f96-a8e8-9d44e7fbb658",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T15:23:00.000Z",
+   "last_edited_time": "2026-09-26T15:23:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Evidence / Sources",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Evidence / Sources",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "72a8828c-ace1-4ca2-b8c4-2ac454916e84",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T15:23:00.000Z",
+   "last_edited_time": "2026-09-26T15:23:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Tests Passed",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Tests Passed",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "4b350fb4-a891-47f0-923d-7c49dca90af1",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T15:23:00.000Z",
+   "last_edited_time": "2026-09-26T15:23:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Tests Failed",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Tests Failed",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "d3798dd2-3762-4c73-8707-0e87764332da",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T15:23:00.000Z",
+   "last_edited_time": "2026-09-26T15:23:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Known Limitations",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Known Limitations",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "983a88a0-d1de-4b11-b260-6eca401154a2",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T15:23:00.000Z",
+   "last_edited_time": "2026-09-26T15:23:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Governance-Touching: yes / no / unsure",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Governance-Touching: yes / no / unsure",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "1b488cce-9529-4b72-8dff-056e032ed025",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T15:23:00.000Z",
+   "last_edited_time": "2026-09-26T15:23:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Handoff to ChatGPT",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Handoff to ChatGPT",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "a76b985b-09fe-4e68-b521-111f16dc44fd",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T15:23:00.000Z",
+   "last_edited_time": "2026-09-26T15:23:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "A submitted Candidate must include:",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "A submitted Candidate must include:",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "dd88640f-61fa-48ca-a5c5-e76f6bcca18e",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T15:23:00.000Z",
+   "last_edited_time": "2026-09-26T15:23:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Candidate Version ID",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Candidate Version ID",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "b4fe1957-49b0-4130-b715-64c328aa208e",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T15:23:00.000Z",
+   "last_edited_time": "2026-09-26T15:23:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Parent Version ID",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Parent Version ID",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "d150c5c5-fc69-4d5c-853f-a4725d0dfde1",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T15:23:00.000Z",
+   "last_edited_time": "2026-09-26T15:23:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Exact Prompt text or changed sections",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Exact Prompt text or changed sections",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "e4aefca1-737a-467b-8f5d-5f1857f30775",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T15:23:00.000Z",
+   "last_edited_time": "2026-09-26T15:23:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Change Log",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Change Log",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "0ed08e07-6fd5-489c-8678-e69f0df094b7",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T15:23:00.000Z",
+   "last_edited_time": "2026-09-26T15:23:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Evidence",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Evidence",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "53c55fe4-3332-41c9-a0c3-b0b4da25493d",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T15:23:00.000Z",
+   "last_edited_time": "2026-09-26T15:23:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Validation results",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Validation results",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "cf0cd2d2-6914-452b-aada-da9f675a6cbf",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T15:23:00.000Z",
+   "last_edited_time": "2026-09-26T15:23:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Open questions",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Open questions",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "8f0af7d4-5a60-48f6-be43-f6704cc7fdbb",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T15:23:00.000Z",
+   "last_edited_time": "2026-09-26T15:23:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Do not assume ChatGPT has access to this workspace unless the relevant content is explicitly transferred.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Do not assume ChatGPT has access to this workspace unless the relevant content is explicitly transferred.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "802b1e45-f420-4ce2-8726-aae69f7d6806",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T16:55:00.000Z",
+   "last_edited_time": "2026-09-26T16:55:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Notion-First Relay Protocol",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Notion-First Relay Protocol",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "5196410b-ef06-4de1-845a-8d9970dd9446",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T16:55:00.000Z",
+   "last_edited_time": "2026-09-26T16:55:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Claude receives a controlled Handoff Packet, not the entire historical conversation.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Claude receives a controlled Handoff Packet, not the entire historical conversation.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "e8e78c38-0232-45a7-8c93-7894ea870967",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T16:55:00.000Z",
+   "last_edited_time": "2026-09-26T16:55:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Each Handoff identifies the current version, objective, relevant findings, constraints, tests, evidence requirements, and the exact requested output.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Each Handoff identifies the current version, objective, relevant findings, constraints, tests, evidence requirements, and the exact requested output.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "bd8a1124-0332-4947-9ad9-581fee342cee",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T16:55:00.000Z",
+   "last_edited_time": "2026-09-26T16:55:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "After completing the task, return the full result to the user for transport back to ChatGPT. Do not assume Notion has been updated unless the user explicitly reports that ChatGPT archived it.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "After completing the task, return the full result to the user for transport back to ChatGPT. Do not assume Notion has been updated unless the user explicitly reports that ChatGPT archived it.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "3352fb07-0f45-4937-a5de-cdeff1f580dd",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81e6-90b1-ca37ecff13ec"
+   },
+   "created_time": "2026-09-26T16:55:00.000Z",
+   "last_edited_time": "2026-09-26T16:55:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Do not spend tokens restating historical context that is not required for the current test.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Do not spend tokens restating historical context that is not required for the current test.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  }
+ ]
+}

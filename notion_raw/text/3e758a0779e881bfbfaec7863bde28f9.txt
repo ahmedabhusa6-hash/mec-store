@@ -1,0 +1,11 @@
+# Cycle 1 — User Request
+Original Operational Need
+The user requires a  Notion-first operating model :
+- Notion stores the durable project state and archive.
+- Chat is transport only.
+- The user sends work to ChatGPT.
+- ChatGPT prepares the next single message for Claude.
+- The user sends that message to Claude.
+- The user pastes Claude's complete response back to ChatGPT.
+- ChatGPT archives, audits, updates the state, and prepares the next message.
+The objective is to avoid repeatedly sending the entire history to Claude and to preserve every meaningful step.

@@ -1,0 +1,1531 @@
+{
+ "capture_reason": "NEW",
+ "captured_at": "2026-10-02T12:06:31+03:00",
+ "title": "Final Deep Research Prompt — Provider Intelligence Engine",
+ "last_edited": "2026-10-02T02:32:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3ed58a07-79e8-8116-b4b9-c4a0eea3e91a",
+  "created_time": "2026-10-02T02:32:00.000Z",
+  "last_edited_time": "2026-10-02T02:32:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "page_id",
+   "page_id": "3ed58a07-79e8-81b3-954f-e116cd960d77"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "title": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Final Deep Research Prompt — Provider Intelligence Engine",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Final Deep Research Prompt — Provider Intelligence Engine",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/Final-Deep-Research-Prompt-Provider-Intelligence-Engine-3ed58a0779e88116b4b9c4a0eea3e91a",
+  "public_url": null,
+  "archived": false,
+  "request_id": "93f7c03e-dd41-463c-ad53-4e079d08a1e9"
+ },
+ "block_count": 147,
+ "blocks": [
+  {
+   "id": "e973b125-ed73-4a96-931e-452e9c0717b4",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "تقمص دور استشاري ومحلل نظم ومهندس أوامر نخبوي متعدد التخصصات، ويكون التخصص السيادي للمهمة هو:"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "e5f7df1e-450c-4cf3-8779-343c12ebf52f",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Provider/Supplier Intelligence & Multi-API Orchestration Architecture"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "3803fbce-e432-40eb-9307-02bfdf055a80",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "اجعل المهمة بحثًا تقنيًا واستخباراتيًا قائمًا على الأدلة، وليس بحثًا وصفيًا أو تجميعيًا."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "11b6c36c-3973-4adf-8ae1-251c5e2699eb",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "السياق"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "e254d30c-fb67-483b-a631-9f183eec1cdc",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "لدي نحو 300 Telegram Bot، وكل بوت مرتبط بمورد/متجر مختلف ويمنح API Key ووثائق API قد تكون Swagger/OpenAPI أو Documentation عادية. قد توفر APIs قدرات مثل products، prices، stock، balance، order creation، order status، fulfillment."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "a3ef0538-9679-4820-8c87-dd74674a9e5b",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "مهم: لا تعتبر Telegram Bot هو Worker. اعتبر كل مورد كـProvider، وكل API credential مورد وصول، والتنفيذ مركزيًا عبر HTTP/API إلا حيث تكون Telegram نفسها جزءًا من capability المطلوب اختبارها."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "758e2c2f-a422-435c-840f-4f9bb063d14c",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "الهدف"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "525e8785-b07d-4bbd-b773-e7862d6520eb",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "تحديد أفضل طريقة لبناء نظام مركزي يستطيع:"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "2402006b-1275-42d1-bc32-02e835faffde",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "تسجيل الموردين."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "4e71e20a-510d-430b-abef-4dbcef8f228f",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "اكتشاف API capabilities."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "89af6274-6c93-470a-814f-aa5b3d842648",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "تحليل OpenAPI/Swagger عند توفره."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "d928b465-dad7-4960-8aca-31737ad29803",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "استخدام fallback عند غياب المواصفة."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "23c129c9-c44e-49d1-b8a5-8e7809459d7e",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "توحيد الموردين خلف Canonical Provider API."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "ce2231a0-0081-4abd-9f54-781e8b3f09e4",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "جمع catalogs."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "0b024a83-c432-465c-827c-4f7606234158",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "تطبيع المنتجات."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "237a2af0-0e00-432f-8b3f-d0c1ff5ac006",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "مطابقة المنتج نفسه بين الموردين."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "3e883b45-24b6-4668-8f03-55f87575ca71",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "مقارنة price/stock/fees/delivery/reliability."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "b52a0f5f-a351-4f59-ba2a-f54614469f60",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "قياس الأداء تاريخيًا."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "a31732bc-291f-487c-ad99-27bc1ac4911a",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "احتساب effective cost."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "db84426f-5f55-4b0c-a380-3c6290cfc432",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "اختيار المورد الأنسب لكل منتج وفق Decision Policy قابلة للتدقيق."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "69c2cf8d-3318-49ac-9a70-0daaf5d2226d",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "ابحث بعمق عن"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "054e0857-c91f-4073-9673-bb02d4c6a795",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "GitHub projects كاملة أو جزئية."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "12cf5556-bcaa-41f6-b643-5e94de298002",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Telegram reseller/digital-goods supplier APIs."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "6cff0484-fdf3-43a8-9135-f3984555f43c",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "multi-supplier systems."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "a6bd8e1e-6c2e-486d-bc38-fbb9db5ad3d1",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "supplier aggregation."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "df4b9d23-998d-4768-9b1e-952f844b528d",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "catalog synchronization."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "b12fde4b-2a08-4b1b-8d8f-58419910fbec",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "product matching/entity resolution."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "275891fa-62fa-434d-b505-1f68ec1a762a",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "lexical/fuzzy/semantic matching."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "e851032a-fb63-449e-a171-ede3924c0e48",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "embeddings/pgvector."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "7d6a23b0-e633-4ced-b56c-d2ed527e5dbf",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "price intelligence."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "f6803823-ac4e-4493-9bed-a703d411e693",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "supplier scoring/ranking."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "4f2d4e90-91e8-4f0f-bd61-19466b50b6ed",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "order routing."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "5f9318ce-f126-4c06-aa1e-2fd5b4d617bb",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "OpenAPI/Swagger discovery."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "f3557c11-8855-4013-ab10-1cadec19cbc0",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Arazzo/workflow execution."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "e1cac752-0297-4384-ae2b-1e1054f6c7e0",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "API testing/contract testing/property-based testing."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "a937996c-72b4-42f7-9bd9-7420e127892b",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "API change detection."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "008d411b-ba86-4532-b9df-e677a5a35f5e",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "reliability/health measurement."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "ea3b6246-2643-45e0-924d-f244b6f3f3dc",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "safe purchase testing."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "d9846e90-eead-470b-a866-eaaeccc837bc",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "secrets management."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "90e20fa1-3c7e-48cd-b2cc-e047d7456698",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "منهج البحث"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "d4720835-e8c1-4157-a1be-be9d4b5cfaf3",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "ابحث باستخدام مرادفات متعددة، ثم لا تعتمد على نتيجة البحث إلا بعد فحص المصدر الأصلي."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "8a626cbd-8d9b-4cca-a167-aebf1360b15a",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "لكل GitHub candidate:"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "8a61cbd6-3bb8-4747-940c-82008476673b",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "repository URL"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "112ce402-87c1-4642-9cd0-76bdf5037690",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "description"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "e09d834c-0256-437e-9f37-fe4b12bbab16",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "README"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "d27eb75d-d3bd-4e53-bbdd-dddf23f597cb",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "architecture"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "e7112f14-d504-451a-bb4d-fbcb06181a21",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "relevant source files"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "d04b69a0-1d65-4452-bf74-2cefd0eb74a2",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "tests"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "3cd45dce-5b97-4b88-8317-8a2808026850",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "license"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "f5e79785-e9bd-4bf7-b156-66a891296389",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "creation/update/activity"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "29127749-7e17-40ff-8fa3-2a6873aae7e9",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "whether active/archived"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "f7329639-b45e-412f-ab82-33c67a1214f6",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "implementation maturity"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "6501dfa8-7b13-495d-bcd9-0bf088e8e422",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "reusable components"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "88b0175b-5f73-4070-9102-28ca92db1b88",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "exact feature evidence"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "48305e05-ff1c-43eb-9a4e-ca32c373d825",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "limitations"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "0030ce4c-e512-44f1-9d18-018f7c3e85ce",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "لا تنسب أي feature لمشروع إلا إذا ثبت من README أو source code أو official docs."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "bbf2b4a4-0463-4ce5-ac31-5026a70ee33a",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "نموذج الأدلة الإلزامي"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "97327f2c-a121-4797-8931-79d3ec3d6bbc",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "لكل نتيجة:"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "0899bf63-ed18-4a31-9a35-fc4ec9a01242",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "FACT = حقيقة موثقة."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "1e3fcfb8-b35f-4318-8cd3-35cd8cc7090b",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "FINDING = نتيجة من البحث."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "5da2aa51-62a0-4978-823e-3f72eaaaa9bf",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "INFERENCE = استنتاج هندسي."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "37875097-88d9-472a-ba74-9344889465ad",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "RECOMMENDATION = توصية مبنية على الأدلة."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "519e2157-1f1a-45fd-90fc-6198136dd831",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "استخدم أيضًا Evidence State:"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "d8265a12-839c-463a-a63b-e9fc64935416",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "DECLARED"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "5739b5f6-e6d5-465f-8f68-8fd244b9080e",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "OBSERVED"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "f3770f02-547b-45b0-8e17-92f7c80c433e",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "HISTORICAL"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "cea77157-0ce9-4eaa-9475-f696b4ded298",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "INFERRED"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "b55d122e-263a-43d6-882d-e4ddf3b3375a",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "UNKNOWN"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "69966815-6bd8-4908-84f2-e54f8e5ab2b0",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "ولا تسمح بتعامل النظام مع INFERRED/UNKNOWN على أنها حقيقة مكافئة لـOBSERVED."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "e7948f90-2c29-427d-b19e-3293044b88f9",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "الاختبار الآمن"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "6d3c9090-abe2-4038-8dd4-1b625f1c467d",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "قسّم الاختبارات إلى:"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "82cca1d7-8650-449d-a48d-174700783021",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "DISCOVERY → READ-ONLY → SAFE WORKFLOW → SANDBOX/TEST → CONTROLLED REAL MICRO-ORDER"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "b4049401-8cc4-4c42-a864-282c11560eba",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "لا تنفذ purchase حقيقي تلقائيًا لمجرد وجود endpoint. ضع:"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "110be573-2566-471a-8621-1b2aeac4c2e6",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "explicit allowlist"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "a8dc74c6-e3dd-422e-8095-9482b4d7e43f",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "budget cap"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "75c8efd9-af78-406e-9080-dd2efe7e2008",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "idempotency"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "4a6ff063-4bd7-4f31-94ce-503f2766df6f",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "timeout"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "171f54af-9963-44eb-8d16-91d05bea2b4d",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "retry limits"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "aaa8fba3-dff8-4895-8eff-21767d170eaf",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "circuit breaker"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "e1d97e74-11f3-433d-9413-73eaf9143660",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "rate limits"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "06294515-20af-4774-8c40-2a600215e4f0",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "audit trail"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "614ac420-35b5-472e-9c69-7711b412371a",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "secret redaction"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "2c280b30-ceb9-4a0f-a213-f7164ebac70c",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "kill switch"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "1b0959e5-36ac-473b-963a-87b923c0f1de",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Product Matching"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "df02f074-12a0-4b0a-9007-0290f943c7f3",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "لا تعتمد على embeddings وحدها."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "5b0bd8f9-9429-4272-a070-39f667e609d4",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "استخدم طبقات:"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "d8fe340e-b16a-46f7-b414-a3fbf5f637c3",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "exact IDs / SKU / product code"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "c1d278f9-7bf9-4115-9483-f69d5e6d0a8c",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "normalized fields"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "fa1e3670-b728-4d3b-8416-64bd2361965e",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "domain attributes"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "8051c0e9-c398-4c78-bd5a-5d2f8953c4b2",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "lexical/fuzzy matching"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "3c934193-8f94-4a67-a4f9-0654c34431d9",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "semantic embeddings"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "63e42c5c-fd25-45b6-9c63-832bf7d97561",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "confidence threshold"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "0aaf41de-13a5-4cce-9a94-020a973012b0",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "human review للحالات الحرجة"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "47b1bfee-0db5-447e-b619-f6d4172bfbc6",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "وبالنسبة للمنتجات الرقمية، ادرس attributes مثل:"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "175a214f-c4c9-4001-bf94-74b86f96719f",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "product type، duration، region، account type، slot/individual، activation method، warranty، delivery mode، quantity، renewal/non-renewal، restrictions."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "41834a1e-89f2-4846-9d3c-b6b379199e8e",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Decision Model"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "69898093-c499-48c8-8f5a-b4b1c0935172",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "لا تستخدم \"أفضل متجر\" كترتيب أحادي إلا بعد تحديد policy."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "34dfb50f-c7c8-4e1b-9167-a3170bb0808c",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "افصل:"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "a1341320-2790-40a8-bc7e-f01eed4c0600",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "cheapest"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "d8d78dd3-66d8-4279-8571-3c26ec71cad6",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "fastest"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "c47f25e8-4258-461e-be09-18d9c3b90be0",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "most reliable"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "f61319ca-493c-4820-b908-d3fc007fa065",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "highest stock"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "cc2bab28-074d-4b58-8313-8c21c0bd03e3",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "best effective cost"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "ab6aee0c-a34b-4a94-a7fb-ebf96097d153",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "best value"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "407e5ba7-4836-4e97-aa32-f67ae2ad6e08",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "best provider for this product"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "0e974802-0af2-4ac8-a9d4-3c4749ed2ac8",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "واستخدم Pareto analysis عند الحاجة بدل إخفاء trade-offs في رقم واحد."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "b5ca83c5-cee7-451e-99ef-2f34b2b5a3ab",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Architecture المطلوبة"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "ca09460b-cbeb-408e-b71e-bd65187be2bb",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Provider Registry"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "82a8d699-128e-49e5-8067-d01097f58938",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ Discovery"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "c0da724d-7751-4ce2-8c83-b4cc3e8756bf",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ OpenAPI Parser / Documentation Parser"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "de4ec694-4f8a-40bd-a867-16fcf8f905d9",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ Capability Detection"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "11ea23c3-49c6-49da-bdd5-4e3efe3d6553",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ Provider Adapter"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "dbd8bc66-238c-40e7-83cc-abe2fb478da5",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ Canonical API"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "20152c56-e4f3-4f99-82d7-bd4da4a6ef38",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ Catalog Collection"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "32a0ce5a-4238-4048-af1f-17065b7bd882",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ Product Normalization"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "696bd992-2ff6-4486-969c-88fdac531d8e",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ Entity Resolution"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "7143f641-7c0e-4f7c-ba20-6a1dfec730f5",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ Price/Stock Intelligence"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "b1cb5b69-e83f-44d1-be7d-7f646c5aa576",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ Reliability History"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "b062d79d-e403-4e2b-8ab4-ff3f724f846b",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ Effective Cost"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "1e235f3e-8aa2-406e-a21c-289d9b99d99e",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ Supplier Decision Engine"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "ea775b34-40e1-4a4a-a8cf-93daa4f53ee5",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ Historical Database"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "441b10d0-9cfa-426c-b825-4a516fd1638f",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ Dashboard/Reports"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "de1d4eac-6639-4d05-9308-8566c7c7b065",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "ادرس كذلك:"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "abb9d195-a5a9-4832-b6ee-a931777ea013",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "rate limiting، queueing، adaptive concurrency، retries، timeout، circuit breaker، idempotency، pagination، auth، API versioning، error normalization، secrets، observability، auditability، dry-run."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "16974e71-645c-4827-b1c2-0cd9afa5c4fe",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "المقارنة مع GitHub"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "b2a421c0-377b-4861-a349-4429890f5b47",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "بعد الفحص أنشئ:"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "d0394916-54f3-4d4c-9ca0-3a09a3fa403e",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "أقرب 5–10 مشاريع فعلية."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "423d1347-c937-43d4-bcd3-982fa3a85ea0",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "ماذا يوفر كل مشروع."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "63685f90-4af2-44f2-be84-64b560063fad",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "ما الذي يمكن إعادة استخدامه."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "2f5679a6-e2fa-4e42-93fe-26045f3a6245",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "ما الذي لا يوفره."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "980426a7-90de-42a4-a07a-a6edc7a8fc75",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "درجة قرب وظيفية مبنية على الأدلة فقط، دون تقييم انطباعي."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "334669fe-3ee2-4f65-8d20-e7456cb5359b",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Gap Analysis."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "551ede02-1631-4e06-b42c-7e82c2bf2f66",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Build vs Integrate vs Fork."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "8a65d092-c8c1-4fac-a1f8-ec0f1d491901",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "المخرجات النهائية"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "87c5dcd4-7f8f-44ac-8d99-62be0e8e38d2",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "أجب بدقة عن:"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "a09c0df8-780f-4da4-bee2-efcccfd7b200",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "هل يوجد مشروع جاهز يحقق معظم النظام؟"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "7341612f-875f-4722-8115-f28ae100de87",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "ما أقرب المشاريع؟"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "ebecb715-9af5-4ce4-b7a2-d92f3ca9e830",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "ما أفضل المكونات القابلة لإعادة الاستخدام؟"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "1c126754-dcf8-475b-8bf2-3ff93a5d0667",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "ما الفجوات التقنية؟"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "1bd739bc-d3c8-4ca4-92f3-6906fc6a8252",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "ما architecture الأنسب؟"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "d96c4e8d-f5f6-4e8c-8b0d-4ceef5592136",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "ما الذي يجب بناؤه من الصفر؟"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "f635b8a6-a37e-447a-bc2c-bc71787df8bd",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "ما الذي يجب عدم بنائه لأن له معيارًا/أداة مفتوحة المصدر جاهزة؟"
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "7d02ff52-2882-44d2-b8b0-5f7b765c3be7",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "أعط الأولوية للمصادر الأصلية: GitHub repositories، source code، official specifications، official documentation."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "7d545622-af02-4a8a-9d19-7bff07dd1342",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "لا تخمّن."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "90b6c1b9-8996-4a32-bd49-0c6553c7bc0a",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "لا تختلق."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "5aca5749-cc84-4061-b124-1d2a2dc81548",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "لا تساوِ بين مشروع اسمه قريب ومشروع يطبق الوظيفة فعليًا."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  },
+  {
+   "id": "5c658211-1b7a-4aa8-ae0a-52f5f6090578",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "وعندما لا توجد أدلة كافية، اكتب: UNKNOWN / INSUFFICIENT EVIDENCE."
+   ],
+   "created": "2026-10-02T02:32:00.000Z",
+   "edited": "2026-10-02T02:32:00.000Z"
+  }
+ ]
+}

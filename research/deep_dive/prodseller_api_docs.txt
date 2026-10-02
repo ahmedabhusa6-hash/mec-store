@@ -1,0 +1,685 @@
+
+ProdSeller API Documentation
+ProdSeller
+Public API · v1
+Introduction
+Overview
+Authentication
+Errors
+Endpoints
+GET
+  Products list
+GET
+  Product by ID
+GET
+  Balance
+POST
+ Create order
+GET
+  List orders
+GET
+  Order status
+Examples
+Python
+Node.js
+Telegram Bot
+ProdSeller API
+        Resell products from your balance on any bot or website. Authenticate with your API key,
+        list available products, create orders deducted from your balance, and get instant key delivery.
+Base URL
+https://prodseller.com/v1
+API Key Auth
+Send your key in the 
+X-API-Key
+ header with every request.
+Balance-based
+Orders are deducted directly from your USDT balance — no payment step needed.
+Rate limit
+300 requests per 15 minutes per IP. Use the 
+X-RateLimit-*
+ headers to track usage.
+Authentication
+Every request must include your API key in the 
+X-API-Key
+ request header. Get or generate your key in the ProdSeller admin panel under 
+API Manager
+.
+Header format
+X-API-Key: [REDACTED-PRODSELLER-KEY]
+Example request
+# curl
+curl -H 
+"X-API-Key: psk_YOUR_KEY"
+ https://prodseller.com/v1/balance
+Error Handling
+All errors return a JSON object with an 
+error
+ field and a standard HTTP status code.
+// Error response shape
+{
+"error"
+: 
+"Solde insuffisant"
+}
+Code
+Meaning
+401
+API key missing, invalid, or disabled
+400
+Bad request — missing or invalid parameter
+402
+Insufficient balance
+404
+Resource not found
+409
+Conflict — e.g., out of stock
+429
+Rate limit exceeded
+500
+Internal server error
+Endpoints
+GET
+/v1/products
+List all active products
+Returns all active products available for purchase. 
+price
+ is the actual unit price 
+your API key
+ will be charged at 
+POST /v1/orders
+ — it already reflects any account-specific or API-wide fixed price set for this product. 
+publicPrice
+ is the standard listed price, shown for reference/comparison only. Check 
+requiresEmailActivation
+ before ordering — see 
+POST /v1/orders
+ below.
+Response
+{
+"products"
+: [
+    {
+"id"
+:          
+"64abc..."
+,
+"name"
+:        
+"Netflix 1 Month"
+,
+"description"
+: 
+"Premium account"
+,
+"price"
+:       
+4.99
+, 
+// what you will actually be charged
+"publicPrice"
+: 
+5.99
+, 
+// standard listed price, for reference
+"imageUrl"
+:    
+"https://..."
+,
+"delivery"
+:    { 
+"type"
+: 
+"instant"
+ },
+"sold"
+:        
+120
+,
+"inStock"
+:     
+true
+,
+"requiresEmailActivation"
+: 
+false
+// if true, POST /v1/orders needs "email"
+    }
+  ]
+}
+GET
+/v1/products/:id
+Get product details
+Parameter
+Type
+Description
+id 
+*
+string
+MongoDB product ID
+Response
+{
+"id"
+:      
+"64abc..."
+,
+"name"
+:    
+"Netflix 1 Month"
+,
+"price"
+:   
+4.99
+, 
+// what you will actually be charged
+"publicPrice"
+: 
+5.99
+, 
+// standard listed price, for reference
+"stock"
+:   
+47
+,   
+// null for custom-delivery products
+"delivery"
+: { 
+"type"
+: 
+"instant"
+ },
+"requiresEmailActivation"
+: 
+false
+// if true, POST /v1/orders needs "email"
+}
+GET
+/v1/balance
+Get your current balance
+Returns the balance and membership tier of the user linked to the API key.
+Response
+{
+"telegramId"
+: 
+123456789
+,
+"username"
+:   
+"mybot"
+,
+"balance"
+:    
+25.50
+,
+"membership"
+: 
+"gold"
+}
+POST
+/v1/orders
+Create an order (deducts balance)
+Purchases a product and delivers the key(s) instantly. The order amount is deducted from your balance. Your membership discount is applied automatically.
+Recommended: prevent duplicate charges
+Send a stable, unique 
+Idempotency-Key
+ header for each customer checkout (maximum 100 characters). Retrying the same checkout with the same key returns the first order without charging the balance again.
+Request body
+Field
+Type
+Description
+productId 
+*
+string
+Product ID to purchase
+quantity
+number
+Quantity (default: 1)
+email 
+*
+string
+Required only when the product's 
+requiresEmailActivation
+ is 
+true
+ (see 
+GET /v1/products
+). The account/subscription is activated manually onto this email — it is not a free-text note.
+emails 
+*
+string[]
+Use instead of 
+email
+ when 
+quantity > 1
+ on an activation product: one address per unit, array length must equal 
+quantity
+.
+Request
+{
+"productId"
+: 
+"64abc..."
+,
+"quantity"
+:  
+1
+}
+Response (instant delivery)
+{
+"orderId"
+:       
+"64xyz..."
+,
+"status"
+:        
+"delivered"
+,
+"product"
+:       { 
+"id"
+: 
+"64abc..."
+, 
+"name"
+: 
+"Netflix 1 Month"
+ },
+"quantity"
+:      
+1
+,
+"amount"
+:        
+4.99
+,
+"membershipDiscount"
+: 
+5
+,
+"bulkDiscount"
+:       
+null
+,
+"discountAmount"
+:  
+0.25
+,
+"deliveredKey"
+:  
+"email:pass123"
+,   
+// single key
+"deliveredKeys"
+: [
+"key1"
+, 
+"key2"
+],  
+// multiple (quantity > 1)
+"createdAt"
+:     
+"2026-01-15T10:30:00Z"
+}
+Products that require email activation (e.g. shared/family plans)
+Some products (check 
+requiresEmailActivation
+ on the product) aren't handed over as a raw key — instead our team activates the subscription directly on the email address you provide. For these, 
+email
+ (or 
+emails
+ for 
+quantity > 1
+) is required in the request body, or the order is rejected with 
+400
+.
+Request (activation product)
+{
+"productId"
+: 
+"64def..."
+,
+"quantity"
+:  
+1
+,
+"email"
+:     
+"customer@gmail.com"
+}
+Response (activation product)
+{
+"orderId"
+:  
+"64xyz..."
+,
+"status"
+:   
+"paid"
+,   
+// not "delivered" yet — activation is manual
+"product"
+:  { 
+"id"
+: 
+"64def..."
+, 
+"name"
+: 
+"Canva Pro 2 yrs FW"
+ },
+"quantity"
+: 
+1
+,
+"amount"
+:   
+9.99
+,
+"activation"
+: { 
+"emails"
+: [
+"customer@gmail.com"
+], 
+"eta"
+: 
+"ASAP"
+ },
+"createdAt"
+: 
+"2026-01-15T10:30:00Z"
+}
+deliveredKey
+/
+deliveredKeys
+ are intentionally omitted from this response — the key is reserved but withheld until it's activated on the email you sent. Poll 
+GET /v1/orders/:id
+ until 
+status
+ becomes 
+"delivered"
+; only then will 
+deliveredKey
+/
+deliveredKeys
+ appear.
+GET
+/v1/orders
+List your orders
+Returns your own order history (every order placed with this account's API key), newest first. Use this to recover order IDs if your integration didn't store them.
+Parameter
+Type
+Description
+page
+number
+Page number, default 1
+limit
+number
+Results per page, default 50, max 200
+status
+string
+Filter by status: pending | paid | delivered | failed
+Response
+{
+"orders"
+: [
+    {
+"orderId"
+:      
+"64xyz..."
+,
+"status"
+:       
+"delivered"
+,
+"product"
+:      { 
+"id"
+: 
+"..."
+, 
+"name"
+: 
+"..."
+ },
+"quantity"
+:     
+1
+,
+"amount"
+:       
+4.99
+,
+"deliveredKey"
+: 
+"email:pass"
+,
+"createdAt"
+:    
+"2026-08-10T12:00:00.000Z"
+    }
+  ],
+"pagination"
+: { 
+"page"
+: 
+1
+, 
+"limit"
+: 
+50
+, 
+"total"
+: 
+3
+, 
+"pages"
+: 
+1
+ }
+}
+GET
+/v1/orders/:id
+Get order status
+Parameter
+Type
+Description
+id 
+*
+string
+Order ID returned from POST /orders
+Response
+{
+"orderId"
+:      
+"64xyz..."
+,
+"status"
+:       
+"delivered"
+,  
+// pending | paid | delivered | failed
+"product"
+:      { 
+"id"
+: 
+"..."
+, 
+"name"
+: 
+"..."
+ },
+"quantity"
+:     
+1
+,
+"amount"
+:       
+4.99
+,
+"deliveredKey"
+: 
+"email:pass"
+}
+Code Examples
+Python
+Python — buy a product
+import
+ requests
+API_KEY  = 
+"psk_YOUR_KEY_HERE"
+BASE_URL = 
+"https://prodseller.com/v1"
+HEADERS  = { 
+"X-API-Key"
+: API_KEY }
+# 1. List products
+products = requests.get(f
+"{BASE_URL}/products"
+, headers=HEADERS).json()[
+"products"
+]
+product  = products[
+0
+]
+print(f
+"Buying: {product['name']} — ${product['price']}"
+)
+# 2. Check balance
+balance = requests.get(f
+"{BASE_URL}/balance"
+, headers=HEADERS).json()[
+"balance"
+]
+print(f
+"Balance: ${balance}"
+)
+# 3. Create order
+order = requests.post(f
+"{BASE_URL}/orders"
+, headers=HEADERS, json={
+"productId"
+: product[
+"id"
+],
+"quantity"
+: 
+1
+}).json()
+print(f
+"Key: {order.get('deliveredKey')}"
+)
+Node.js
+Node.js — buy a product
+const
+ API_KEY  = 
+'psk_YOUR_KEY_HERE'
+;
+const
+ BASE_URL = 
+'https://prodseller.com/v1'
+;
+const
+ headers  = { 
+'X-API-Key'
+: API_KEY, 
+'Content-Type'
+: 
+'application/json'
+, 
+'Idempotency-Key'
+: 
+'checkout_123'
+ };
+// List products
+const
+ { products } = 
+await
+ fetch(`${BASE_URL}/products`, { headers }).then(r => r.json());
+// Buy first product
+const
+ order = 
+await
+ fetch(`${BASE_URL}/orders`, {
+  method: 
+'POST'
+, headers,
+  body: JSON.stringify({ productId: products[
+0
+].id, quantity: 
+1
+ })
+}).then(r => r.json());
+console.log(
+'Delivered key:'
+, order.deliveredKey);
+Telegram Bot (python-telegram-bot)
+Python — Telegram bot handler
+from
+ telegram 
+import
+ Update
+from
+ telegram.ext 
+import
+ CommandHandler, ApplicationBuilder
+import
+ requests
+API_KEY = 
+"psk_YOUR_KEY"
+HEADERS = { 
+"X-API-Key"
+: API_KEY }
+BASE    = 
+"https://prodseller.com/v1"
+async def
+ buy(update: Update, context):
+    args = context.args
+if
+not
+ args:
+await
+ update.message.reply_text(
+"Usage: /buy <productId>"
+)
+return
+    resp  = requests.post(f
+"{BASE}/orders"
+, headers=HEADERS,
+                          json={ 
+"productId"
+: args[
+0
+], 
+"quantity"
+: 
+1
+ })
+    order = resp.json()
+if
+"error"
+in
+ order:
+await
+ update.message.reply_text(f
+"❌ {order['error']}"
+)
+else
+:
+        key = order.get(
+"deliveredKey"
+, 
+"(pending delivery)"
+)
+await
+ update.message.reply_text(f
+"✅ Order #{order['orderId'][:8]}\n\n🔑 {key}"
+)
+app = ApplicationBuilder().token(
+"BOT_TOKEN"
+).build()
+app.add_handler(CommandHandler(
+"buy"
+, buy))
+app.run_polling()
+ProdSeller API v1 · 
+prodseller.com

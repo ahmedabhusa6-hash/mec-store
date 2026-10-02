@@ -1,0 +1,95 @@
+🔁 Operating Protocol — Notion-First ChatGPT ↔ Claude Relay
+========================================
+Purpose
+Notion is the persistent system of record. Chat is only the transport channel.
+The user should only need to send the current work/request to ChatGPT. ChatGPT prepares the next handoff. The user pastes the prepared handoff to Claude. Claude returns its result. The user pastes Claude's result back to ChatGPT. ChatGPT archives the result, audits it, updates the working state, and prepares the next handoff.
+Project-Scope Authorization
+All Notion pages, databases, records, and artifacts that are directly linked to the Adaptive Supplier Intelligence Research Engine are considered authorized working surfaces for the project's normal operating cycle. ChatGPT may read, relate, archive, update, organize, and maintain these project-linked surfaces in whatever way is operationally appropriate for ChatGPT↔Claude collaboration, while preserving authority boundaries and user approval gates. This authorization applies only to project-linked material; unrelated projects, files, pages, databases, and records remain outside scope unless the user explicitly authorizes their use.
+Authoritative Architecture
+ChatGPT Workspace = review, audit, analysis, validation, repair control.
+Claude Workspace = research, development, experimentation, draft/candidate production.
+Canonical Registry = only authoritative location for an Approved Prompt.
+Interaction Archive = immutable working history of every cycle, handoff, response, audit, decision, and canonical update.
+Edit Authority Matrix
+Boundary Rules
+Each agent edits only the workspace it owns.
+The Prompt Working Reference is the only shared prompt-development surface that Claude may directly edit. Claude may change prompt text and draft evolution there, but may not alter Canonical authority, approval status, governance rules, or unrelated records.
+ChatGPT does not directly rewrite Claude's workspace or Claude's Prompt Working Reference. It audits, identifies repairs, and records findings in its own workspace.
+ChatGPT may update project-linked operational records, archives, audits, and review state, but it must not promote a Candidate, mark a Prompt Approved, or silently change governance.
+The Canonical Registry remains protected: its authority, approval state, version lineage, and promotion gates are never changed by either agent without the user's explicit decision.
+Neither agent may delete historical records, silently merge competing Candidates, or overwrite authoritative source text with an inferred reconstruction.
+When a change affects governance, ownership, authority, promotion, permissions, or the collaboration protocol, classify it as Governance-Touching and route it to the user for decision.
+If ownership or edit authority is ambiguous, do not edit; classify the item as Needs User Decision and preserve the ambiguity in the record.
+Core Loop
+User Input
+→ ChatGPT analyzes
+→ ChatGPT archives the step
+→ ChatGPT prepares one copy-ready Claude Handoff
+→ User sends Handoff to Claude
+→ Claude produces research/draft/test output
+→ User pastes Claude output to ChatGPT
+→ ChatGPT archives Claude output
+→ ChatGPT audits and reconciles it against the current state
+→ ChatGPT records findings/changes/open decisions
+→ ChatGPT prepares the next Claude Handoff
+→ repeat
+Token Preservation Rule
+Do not send the entire historical conversation to Claude on every cycle.
+Each handoff must contain only the minimum sufficient context:
+Current objective
+Current version/state
+Relevant prior findings
+Exact task for this cycle
+Tests/constraints that matter
+Required output format
+References to the persistent Notion records
+The detailed history remains in Notion.
+Archive Rule
+Every meaningful transition is archived as a separate Interaction Archive record:
+User Input
+ChatGPT Analysis
+Claude Handoff
+Claude Response
+ChatGPT Audit
+Decision
+Canonical Update
+No step is considered part of the durable project state until it is archived.
+Handoff Rule
+ChatGPT must produce exactly one primary copy-ready message for Claude per cycle.
+The handoff must identify:
+Version ID
+Parent Version ID
+Current state
+Objective
+Scope
+Task
+Evidence requirements
+Tests
+Constraints
+Required output
+Notion archive references
+Claude must not be asked to edit the Canonical Registry during validation unless explicitly authorized.
+Response Rule
+When Claude responds, the user should paste the response into ChatGPT without manually summarizing it.
+ChatGPT then:
+Archives the raw response.
+Extracts findings.
+Validates claims/evidence.
+Compares against the current Candidate/Canonical state.
+Identifies repairs.
+Separates technical repairs from governance decisions.
+Updates Notion records.
+Prepares the next single handoff message.
+Governance
+No Candidate becomes Approved automatically.
+No historical record is deleted merely because it is superseded.
+No governance rule is inferred from a technical suggestion.
+No competing Candidate is silently merged.
+No stale Candidate is promoted without rebase.
+Current State
+Current Candidate: v4.1
+v4.0: preserved as historical baseline comparator.
+Approved Prompt: none.
+Open Governance Decision: bootstrap rule for first approval when Approved state is empty.
+Current next step: independent Claude validation of v4.1.
+【مزامنة حالة 2026-09-27 — جلسة MEC-2.0】Current Candidate: v4.2 — Catalog/Batch Architecture Candidate (مقبول من المستخدم 2026-09-27، غير معتمد). v4.1: محفوظ كوقت تشغيل Batch 1 (2026-09-26) ومرجع مقارنة تاريخي. لا يوجد Prompt معتمد. بوابة Bootstrap (D1) ما زالت مفتوحة. الخطوة التالية: اختبار حي متعدد الدفعات (الدفعة الثانية تحت v4.2) + انحدار تنافسي. — ملاحظة: أُضيفت هذه المزامنة أسفل الصفحة بدل استبدال نص القسم الأصلي التزاممًا بقاعدة عدم المساس بالمحتوى التاريخي؛ القسم الأصلي متقادم (يذكر v4.1) والنص البديل المقترح موثق في حزمة التحديثات.

@@ -1,0 +1,228 @@
+{
+  "sha": "052e558bcb5069cfc0e0cd0783bf19ca9a0b3b8a",
+  "url": "https://api.github.com/repos/kinguinltdhk/Kinguin-eCommerce-API/git/trees/052e558bcb5069cfc0e0cd0783bf19ca9a0b3b8a",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62c893550adb53d3a8fc29a1584ff831cb829062",
+      "size": 6,
+      "url": "https://api.github.com/repos/kinguinltdhk/Kinguin-eCommerce-API/git/blobs/62c893550adb53d3a8fc29a1584ff831cb829062"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68c79ac0b1b1797441e4c6972ee719259ffa9076",
+      "size": 8213,
+      "url": "https://api.github.com/repos/kinguinltdhk/Kinguin-eCommerce-API/git/blobs/68c79ac0b1b1797441e4c6972ee719259ffa9076"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a3e90bfd60568fc5342e7e8b8789f19d0c4663d",
+      "size": 279,
+      "url": "https://api.github.com/repos/kinguinltdhk/Kinguin-eCommerce-API/git/blobs/0a3e90bfd60568fc5342e7e8b8789f19d0c4663d"
+    },
+    {
+      "path": "api",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bbf971ec4bcac6454b68e7d6e8bb7a8a596c1c9d",
+      "url": "https://api.github.com/repos/kinguinltdhk/Kinguin-eCommerce-API/git/trees/bbf971ec4bcac6454b68e7d6e8bb7a8a596c1c9d"
+    },
+    {
+      "path": "api/ErrorsCodes.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7669c2ec38a17b16ca399d6610245960fa689edb",
+      "size": 1941,
+      "url": "https://api.github.com/repos/kinguinltdhk/Kinguin-eCommerce-API/git/blobs/7669c2ec38a17b16ca399d6610245960fa689edb"
+    },
+    {
+      "path": "api/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2583ffed87b9c1a15488afd5acd3890768d479fc",
+      "size": 1234,
+      "url": "https://api.github.com/repos/kinguinltdhk/Kinguin-eCommerce-API/git/blobs/2583ffed87b9c1a15488afd5acd3890768d479fc"
+    },
+    {
+      "path": "api/balance",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1b46cb60492648b2646e92607a6a48a8ef371c5f",
+      "url": "https://api.github.com/repos/kinguinltdhk/Kinguin-eCommerce-API/git/trees/1b46cb60492648b2646e92607a6a48a8ef371c5f"
+    },
+    {
+      "path": "api/balance/v1",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ecfa2e251c43a20302aedbdac2d732f115376a63",
+      "url": "https://api.github.com/repos/kinguinltdhk/Kinguin-eCommerce-API/git/trees/ecfa2e251c43a20302aedbdac2d732f115376a63"
+    },
+    {
+      "path": "api/balance/v1/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b22427f4029700f273aad73dbaecc631dd57794",
+      "size": 531,
+      "url": "https://api.github.com/repos/kinguinltdhk/Kinguin-eCommerce-API/git/blobs/4b22427f4029700f273aad73dbaecc631dd57794"
+    },
+    {
+      "path": "api/order",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a089979e2adb0d668d5c4bd6ffe4b8c2426d6c8f",
+      "url": "https://api.github.com/repos/kinguinltdhk/Kinguin-eCommerce-API/git/trees/a089979e2adb0d668d5c4bd6ffe4b8c2426d6c8f"
+    },
+    {
+      "path": "api/order/v1",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "34eb184557fc447ddf388d7a9dde00848552083f",
+      "url": "https://api.github.com/repos/kinguinltdhk/Kinguin-eCommerce-API/git/trees/34eb184557fc447ddf388d7a9dde00848552083f"
+    },
+    {
+      "path": "api/order/v1/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bce320145fd259507df481c0d459f673c16a33f",
+      "size": 10961,
+      "url": "https://api.github.com/repos/kinguinltdhk/Kinguin-eCommerce-API/git/blobs/4bce320145fd259507df481c0d459f673c16a33f"
+    },
+    {
+      "path": "api/order/v2",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0007d0a344c9f636e2a7038d8107e6b0bce5dcc5",
+      "url": "https://api.github.com/repos/kinguinltdhk/Kinguin-eCommerce-API/git/trees/0007d0a344c9f636e2a7038d8107e6b0bce5dcc5"
+    },
+    {
+      "path": "api/order/v2/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a701d612a84bc934d754d6b7c545fcc80402e8f9",
+      "size": 6336,
+      "url": "https://api.github.com/repos/kinguinltdhk/Kinguin-eCommerce-API/git/blobs/a701d612a84bc934d754d6b7c545fcc80402e8f9"
+    },
+    {
+      "path": "api/products",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7357acc76335dfecda7f63cf2b3cce1879b7add5",
+      "url": "https://api.github.com/repos/kinguinltdhk/Kinguin-eCommerce-API/git/trees/7357acc76335dfecda7f63cf2b3cce1879b7add5"
+    },
+    {
+      "path": "api/products/v1",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8c1b6932f129a1eac373b7c65c78337424003664",
+      "url": "https://api.github.com/repos/kinguinltdhk/Kinguin-eCommerce-API/git/trees/8c1b6932f129a1eac373b7c65c78337424003664"
+    },
+    {
+      "path": "api/products/v1/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab165b85eb80f5fe4f0c3168c93df15aff2082d9",
+      "size": 20357,
+      "url": "https://api.github.com/repos/kinguinltdhk/Kinguin-eCommerce-API/git/blobs/ab165b85eb80f5fe4f0c3168c93df15aff2082d9"
+    },
+    {
+      "path": "api/products/v2",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "acd1218d81709b44093dab249dabb325e47b0517",
+      "url": "https://api.github.com/repos/kinguinltdhk/Kinguin-eCommerce-API/git/trees/acd1218d81709b44093dab249dabb325e47b0517"
+    },
+    {
+      "path": "api/products/v2/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e282ba652fb24075e9f48d76973255d1c5cb7fd8",
+      "size": 590,
+      "url": "https://api.github.com/repos/kinguinltdhk/Kinguin-eCommerce-API/git/blobs/e282ba652fb24075e9f48d76973255d1c5cb7fd8"
+    },
+    {
+      "path": "features",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f5a62647c797151a6b1b9e3fadcafb4f22e5fcfc",
+      "url": "https://api.github.com/repos/kinguinltdhk/Kinguin-eCommerce-API/git/trees/f5a62647c797151a6b1b9e3fadcafb4f22e5fcfc"
+    },
+    {
+      "path": "features/BuyingPreorders.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13cdaad58fe4d20fdd7f3eda64a88fc9d8adf0ba",
+      "size": 461,
+      "url": "https://api.github.com/repos/kinguinltdhk/Kinguin-eCommerce-API/git/blobs/13cdaad58fe4d20fdd7f3eda64a88fc9d8adf0ba"
+    },
+    {
+      "path": "features/ProductUpdates.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc616ca6b400f31c972223c05a0592c866fbf2bd",
+      "size": 248,
+      "url": "https://api.github.com/repos/kinguinltdhk/Kinguin-eCommerce-API/git/blobs/bc616ca6b400f31c972223c05a0592c866fbf2bd"
+    },
+    {
+      "path": "features/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a550b1d913cb61539c53138ac894c0b47aa9407b",
+      "size": 172,
+      "url": "https://api.github.com/repos/kinguinltdhk/Kinguin-eCommerce-API/git/blobs/a550b1d913cb61539c53138ac894c0b47aa9407b"
+    },
+    {
+      "path": "features/ReturnKeys.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88713ca9cf7fad91180fea24e675f6da32255a48",
+      "size": 575,
+      "url": "https://api.github.com/repos/kinguinltdhk/Kinguin-eCommerce-API/git/blobs/88713ca9cf7fad91180fea24e675f6da32255a48"
+    },
+    {
+      "path": "features/StoreIpWhitelist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05b66f55361690e4a46e3dab5f0f18923347ff14",
+      "size": 425,
+      "url": "https://api.github.com/repos/kinguinltdhk/Kinguin-eCommerce-API/git/blobs/05b66f55361690e4a46e3dab5f0f18923347ff14"
+    },
+    {
+      "path": "features/Webhooks.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "276d977877d1ddb5270a9933b2bb3ed207e52235",
+      "size": 3374,
+      "url": "https://api.github.com/repos/kinguinltdhk/Kinguin-eCommerce-API/git/blobs/276d977877d1ddb5270a9933b2bb3ed207e52235"
+    },
+    {
+      "path": "features/Wholesale.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94fdda80d30d19b793846721214b2ddaa9726f17",
+      "size": 1528,
+      "url": "https://api.github.com/repos/kinguinltdhk/Kinguin-eCommerce-API/git/blobs/94fdda80d30d19b793846721214b2ddaa9726f17"
+    },
+    {
+      "path": "quickstart",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bbc6758d6b41c87b9613f2b4de5ae942a4114dca",
+      "url": "https://api.github.com/repos/kinguinltdhk/Kinguin-eCommerce-API/git/trees/bbc6758d6b41c87b9613f2b4de5ae942a4114dca"
+    },
+    {
+      "path": "quickstart/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63f9d762b4761a3f5f34c977a2c4a50a50f18136",
+      "size": 1968,
+      "url": "https://api.github.com/repos/kinguinltdhk/Kinguin-eCommerce-API/git/blobs/63f9d762b4761a3f5f34c977a2c4a50a50f18136"
+    }
+  ],
+  "truncated": false
+}

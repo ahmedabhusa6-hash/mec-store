@@ -1,0 +1,430 @@
+{
+ "capture_reason": "NEWLY_ACCESSIBLE",
+ "captured_at": "2026-10-02T12:16:49+03:00",
+ "title": "Deep Dive — QuickBooks Marketing System",
+ "last_edited": "2026-09-25T20:11:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e658a07-79e8-81aa-880e-facaa37c00df",
+  "created_time": "2026-09-25T20:11:00.000Z",
+  "last_edited_time": "2026-09-25T20:11:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "a87d8f7b-de51-419c-aa6d-90b81e0d7b21"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "Context": {
+    "id": "%3BcyS",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "SMB accounting.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "SMB accounting.",
+      "href": null
+     }
+    ]
+   },
+   "Situation": {
+    "id": "Dqr%7D",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "QuickBooks combines extensive practical tools/templates/resources with a direct free-trial path and ProAdvisor professional ecosystem.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "QuickBooks combines extensive practical tools/templates/resources with a direct free-trial path and ProAdvisor professional ecosystem.",
+      "href": null
+     }
+    ]
+   },
+   "Entity Link": {
+    "id": "ElSP",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "3e658a07-79e8-8136-943c-f8f069e6f763"
+     }
+    ],
+    "has_more": false
+   },
+   "Evidence Links": {
+    "id": "FYu%3A",
+    "type": "relation",
+    "relation": [],
+    "has_more": false
+   },
+   "Market": {
+    "id": "LVaJ",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Global / US",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Global / US",
+      "href": null
+     }
+    ]
+   },
+   "Constraints": {
+    "id": "MgJ%7D",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Program benefits and offers change by date/market.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Program benefits and offers change by date/market.",
+      "href": null
+     }
+    ]
+   },
+   "Confidence": {
+    "id": "Mhr%5B",
+    "type": "select",
+    "select": {
+     "id": "e872a95c-be8c-4dea-83d7-6192450960df",
+     "name": "High",
+     "color": "green"
+    }
+   },
+   "Segment": {
+    "id": "S%7Cat",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "SMB/self-employed + accounting professionals",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "SMB/self-employed + accounting professionals",
+      "href": null
+     }
+    ]
+   },
+   "Observed Outcome": {
+    "id": "TDBm",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Public architecture clearly demonstrates multiple acquisition paths; channel-level economics are not publicly comparable.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Public architecture clearly demonstrates multiple acquisition paths; channel-level economics are not publicly comparable.",
+      "href": null
+     }
+    ]
+   },
+   "Objective": {
+    "id": "UwXv",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Reconstruct the dual acquisition model visible in QuickBooks public assets.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Reconstruct the dual acquisition model visible in QuickBooks public assets.",
+      "href": null
+     }
+    ]
+   },
+   "Status": {
+    "id": "WKe%3B",
+    "type": "status",
+    "status": {
+     "id": "6b06f923-0b48-4a06-b0f5-de1916f018c1",
+     "name": "تم",
+     "color": "green"
+    }
+   },
+   "Evidence References": {
+    "id": "gCUd",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "QuickBooks Resource Centre, tools/templates, free trial, ProAdvisor.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "QuickBooks Resource Centre, tools/templates, free trial, ProAdvisor.",
+      "href": null
+     }
+    ]
+   },
+   "Date": {
+    "id": "jpdJ",
+    "type": "date",
+    "date": null
+   },
+   "Channels": {
+    "id": "vZLG",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "SEO/content, calculators/templates, free trial, ProAdvisor, training, marketing tools, referrals.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "SEO/content, calculators/templates, free trial, ProAdvisor, training, marketing tools, referrals.",
+      "href": null
+     }
+    ]
+   },
+   "Mechanism": {
+    "id": "xauN",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Task/problem discovery → utility asset → product evaluation; parallel or reinforcing professional recommendation and enablement.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Task/problem discovery → utility asset → product evaluation; parallel or reinforcing professional recommendation and enablement.",
+      "href": null
+     }
+    ]
+   },
+   "Name": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Deep Dive — QuickBooks Marketing System",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Deep Dive — QuickBooks Marketing System",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/Deep-Dive-QuickBooks-Marketing-System-3e658a0779e881aa880efacaa37c00df",
+  "public_url": null,
+  "archived": false,
+  "request_id": "b9cb2f7a-c886-4ed5-ad52-89d1e8a3f569"
+ },
+ "block_count": 10,
+ "blocks": [
+  {
+   "id": "1eac3d0b-b518-4e03-9f6b-54a5cda88516",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Demand"
+   ],
+   "created": "2026-09-25T20:11:00.000Z",
+   "edited": "2026-09-25T20:11:00.000Z"
+  },
+  {
+   "id": "f65adfb7-2616-4a2e-9647-9a8461c5eae4",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Free practical tools map closely to recurring financial jobs-to-be-done."
+   ],
+   "created": "2026-09-25T20:11:00.000Z",
+   "edited": "2026-09-25T20:11:00.000Z"
+  },
+  {
+   "id": "87718f31-89af-4ebc-a209-7e61fdfe2179",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Conversion"
+   ],
+   "created": "2026-09-25T20:11:00.000Z",
+   "edited": "2026-09-25T20:11:00.000Z"
+  },
+  {
+   "id": "f1e1fdb2-7df7-47eb-9aed-46387c988e80",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "30-day trial provides direct product evaluation."
+   ],
+   "created": "2026-09-25T20:11:00.000Z",
+   "edited": "2026-09-25T20:11:00.000Z"
+  },
+  {
+   "id": "f65ddf1a-08f8-4166-8cec-7e0822aa75da",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Trust/distribution"
+   ],
+   "created": "2026-09-25T20:11:00.000Z",
+   "edited": "2026-09-25T20:11:00.000Z"
+  },
+  {
+   "id": "8e99094a-bdb7-4f5c-bd92-fa76109b4c65",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "ProAdvisor creates professional influence and enablement."
+   ],
+   "created": "2026-09-25T20:11:00.000Z",
+   "edited": "2026-09-25T20:11:00.000Z"
+  },
+  {
+   "id": "131150bd-339a-4c48-9196-6c3819341c7f",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Lifecycle"
+   ],
+   "created": "2026-09-25T20:11:00.000Z",
+   "edited": "2026-09-25T20:11:00.000Z"
+  },
+  {
+   "id": "46c1b62e-f625-4407-9012-5b3b803f2868",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Professional education and product resources can continue after acquisition."
+   ],
+   "created": "2026-09-25T20:11:00.000Z",
+   "edited": "2026-09-25T20:11:00.000Z"
+  },
+  {
+   "id": "e0091824-e9bd-4274-94ad-44277f94c669",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Key diagnostic"
+   ],
+   "created": "2026-09-25T20:11:00.000Z",
+   "edited": "2026-09-25T20:11:00.000Z"
+  },
+  {
+   "id": "57d71d26-ed59-4a04-bc9b-691a0f50b490",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "The strategic question is not “content or partner?” but how direct and professional paths interact and where attribution is available."
+   ],
+   "created": "2026-09-25T20:11:00.000Z",
+   "edited": "2026-09-25T20:11:00.000Z"
+  }
+ ]
+}

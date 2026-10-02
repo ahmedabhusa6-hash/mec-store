@@ -1,0 +1,220 @@
+{
+ "capture_reason": "NEWLY_ACCESSIBLE",
+ "captured_at": "2026-10-02T12:16:49+03:00",
+ "title": "A World Bank Yemen project document identifies different exchange rates across areas under different authorities as a challenge for digital payment implementation, and documents prior pilots of digital payments/e-wallets.",
+ "last_edited": "2026-09-25T20:09:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e658a07-79e8-81f4-a884-f2d869fa6594",
+  "created_time": "2026-09-25T20:09:00.000Z",
+  "last_edited_time": "2026-09-25T20:09:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "230f9103-4d44-47a5-b69f-fef368560b20"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "Conflicting Evidence": {
+    "id": "RNcx",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Date": {
+    "id": "Td%60A",
+    "type": "date",
+    "date": null
+   },
+   "Source Link": {
+    "id": "%5DC%40H",
+    "type": "relation",
+    "relation": [],
+    "has_more": false
+   },
+   "Scope": {
+    "id": "_UPZ",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Yemen; project document",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Yemen; project document",
+      "href": null
+     }
+    ]
+   },
+   "Confidence": {
+    "id": "eU%3BK",
+    "type": "select",
+    "select": {
+     "id": "dce844a7-249c-496d-b071-eaf2fb18d172",
+     "name": "High",
+     "color": "green"
+    }
+   },
+   "Source Reference": {
+    "id": "kuxt",
+    "type": "url",
+    "url": "https://documents1.worldbank.org/curated/en/099647503042425828/pdf/IDU-a9d1a6be-30dc-48e6-9318-cf9d26959fb9.pdf"
+   },
+   "Case Link": {
+    "id": "mBHn",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "3e658a07-79e8-8138-b07f-c822012687de"
+     }
+    ],
+    "has_more": false
+   },
+   "Notes": {
+    "id": "oKLy",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Area-specific context; should not be generalized to all users uniformly.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Area-specific context; should not be generalized to all users uniformly.",
+      "href": null
+     }
+    ]
+   },
+   "Exact Reference": {
+    "id": "q~Kl",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Feasibility assessment section discusses different exchange rates and digital-payment pilots.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Feasibility assessment section discusses different exchange rates and digital-payment pilots.",
+      "href": null
+     }
+    ]
+   },
+   "Evidence Status": {
+    "id": "ymog",
+    "type": "status",
+    "status": {
+     "id": "e45b624d-0043-43ed-a63f-e4bedb218a01",
+     "name": "تم",
+     "color": "green"
+    }
+   },
+   "Evidence Type": {
+    "id": "yzj%7D",
+    "type": "select",
+    "select": {
+     "id": "a099258a-d98e-44c4-829b-d41b0e0ca8ee",
+     "name": "Direct",
+     "color": "green"
+    }
+   },
+   "Independence Group": {
+    "id": "zZtm",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "WorldBank-Yemen-Payments-Assessment",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "WorldBank-Yemen-Payments-Assessment",
+      "href": null
+     }
+    ]
+   },
+   "Entity Link": {
+    "id": "zgKu",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "3e658a07-79e8-818f-b96d-d984a208ce83"
+     }
+    ],
+    "has_more": false
+   },
+   "Claim": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "A World Bank Yemen project document identifies different exchange rates across areas under different authorities as a challenge for digital payment implementation, and documents prior pilots of digital payments/e-wallets.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "A World Bank Yemen project document identifies different exchange rates across areas under different authorities as a challenge for digital payment implementation, and documents prior pilots of digital payments/e-wallets.",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/A-World-Bank-Yemen-project-document-identifies-different-exchange-rates-across-areas-under-different-3e658a0779e881f4a884f2d869fa6594",
+  "public_url": null,
+  "archived": false,
+  "request_id": "220cf503-1f12-4bb5-95c8-ba28d38d8acb"
+ },
+ "block_count": 0,
+ "blocks": []
+}

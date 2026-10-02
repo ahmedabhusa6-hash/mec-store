@@ -1,0 +1,255 @@
+{
+ "test_id": "C15",
+ "started_at": "2026-10-02T12:57:51+03:00",
+ "token_prefix": "ntn_237905…",
+ "capabilities": {
+  "insert_page_create": true,
+  "insert_block_append": true,
+  "update_block_patch": true,
+  "update_page_patch": true,
+  "verify_readback_content": true,
+  "archive_page_delete_equiv": true
+ },
+ "events": [
+  {
+   "step": "PREFLIGHT_ME",
+   "ts": "2026-10-02T12:57:52+03:00",
+   "method": "GET",
+   "path": "/users/me",
+   "http_status": 200,
+   "ok": true,
+   "request_payload": null,
+   "response_digest": {
+    "bot_name": "Z.ai",
+    "workspace_name": null
+   }
+  },
+  {
+   "step": "PREFLIGHT_REF",
+   "ts": "2026-10-02T12:57:53+03:00",
+   "method": "GET",
+   "path": "/pages/3e658a07-79e8-81c4-9cdd-d7b74626d61f",
+   "http_status": 200,
+   "ok": true,
+   "request_payload": null,
+   "response_digest": {
+    "title": "{'title': {'id': 'title', 'type': 'title', 'title': [{'type': 'text', 'text': {'",
+    "last_edited": "2026-10-02T09:57:00.000Z",
+    "archived": false
+   }
+  },
+  {
+   "step": "CREATE_PAGE",
+   "ts": "2026-10-02T12:57:54+03:00",
+   "method": "POST",
+   "path": "/pages",
+   "http_status": 200,
+   "ok": true,
+   "request_payload": {
+    "parent": {
+     "page_id": "3e658a07-79e8-81c4-9cdd-d7b74626d61f"
+    },
+    "icon": {
+     "type": "emoji",
+     "emoji": "🧪"
+    },
+    "properties": {
+     "title": {
+      "title": [
+       {
+        "text": {
+         "content": "C15 — اختبار قدرة الكتابة (توكن مدوّر) — 2026-10-02 — آمن للحذف"
+        }
+       }
+      ]
+     }
+    },
+    "children": [
+     {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+       "rich_text": [
+        {
+         "type": "text",
+         "text": {
+          "content": "صفحة اختبار C15 — أُنشئت لاختبار قدرة الكتابة للتوكن المدوّر فقط. ستُؤرشف فور اكتمال الاختبار. لا محتوى معرفي هنا."
+         }
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "response_digest": {
+    "id": "3ed58a07-79e8-819d-ac58-c74e9b1325e0",
+    "url": "https://app.notion.com/p/C15-2026-10-02-3ed58a0779e8819dac58c74e9b1325e0",
+    "created": "2026-10-02T09:57:00.000Z"
+   }
+  },
+  {
+   "step": "APPEND_BLOCK",
+   "ts": "2026-10-02T12:57:55+03:00",
+   "method": "PATCH",
+   "path": "/blocks/3ed58a07-79e8-819d-ac58-c74e9b1325e0/children",
+   "http_status": 200,
+   "ok": true,
+   "request_payload": {
+    "children": [
+     {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+       "rich_text": [
+        {
+         "type": "text",
+         "text": {
+          "content": "كتلة اختبار إلحاق: C15-APPEND-2026-10-02T12:57:54+03:00"
+         }
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "response_digest": {
+    "appended": [
+     "3ed58a07-79e8-8145-8a9e-f0d9dbbfa3fa"
+    ]
+   }
+  },
+  {
+   "step": "UPDATE_BLOCK",
+   "ts": "2026-10-02T12:57:56+03:00",
+   "method": "PATCH",
+   "path": "/blocks/3ed58a07-79e8-8145-8a9e-f0d9dbbfa3fa",
+   "http_status": 200,
+   "ok": true,
+   "request_payload": {
+    "paragraph": {
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "كتلة اختبار بعد التحديث: C15-UPDATE-OK-2026-10-02T12:57:56+03:00"
+       }
+      }
+     ]
+    }
+   },
+   "response_digest": {
+    "id": "3ed58a07-79e8-8145-8a9e-f0d9dbbfa3fa",
+    "archived": false
+   }
+  },
+  {
+   "step": "UPDATE_PAGE_ICON",
+   "ts": "2026-10-02T12:57:58+03:00",
+   "method": "PATCH",
+   "path": "/pages/3ed58a07-79e8-819d-ac58-c74e9b1325e0",
+   "http_status": 200,
+   "ok": true,
+   "request_payload": {
+    "icon": {
+     "type": "emoji",
+     "emoji": "🔬"
+    }
+   },
+   "response_digest": {
+    "icon": {
+     "type": "emoji",
+     "emoji": "🔬"
+    }
+   }
+  },
+  {
+   "step": "VERIFY_READBACK",
+   "ts": "2026-10-02T12:57:59+03:00",
+   "method": "GET",
+   "path": "/blocks/3ed58a07-79e8-819d-ac58-c74e9b1325e0/children?page_size=100",
+   "http_status": 200,
+   "ok": true,
+   "request_payload": null,
+   "response_digest": {
+    "results": 2,
+    "types": [
+     "paragraph",
+     "paragraph"
+    ]
+   }
+  },
+  {
+   "step": "CLEANUP_ARCHIVE",
+   "ts": "2026-10-02T12:58:00+03:00",
+   "method": "PATCH",
+   "path": "/pages/3ed58a07-79e8-819d-ac58-c74e9b1325e0",
+   "http_status": 200,
+   "ok": true,
+   "request_payload": {
+    "archived": true
+   },
+   "response_digest": {
+    "id": "3ed58a07-79e8-819d-ac58-c74e9b1325e0",
+    "archived": true
+   }
+  },
+  {
+   "step": "POSTCHECK_PAGE",
+   "ts": "2026-10-02T12:58:01+03:00",
+   "method": "GET",
+   "path": "/pages/3ed58a07-79e8-819d-ac58-c74e9b1325e0",
+   "http_status": 200,
+   "ok": true,
+   "request_payload": null,
+   "response_digest": {
+    "archived": true,
+    "in_trash": true
+   }
+  },
+  {
+   "step": "POSTCHECK_BLOCK",
+   "ts": "2026-10-02T12:58:02+03:00",
+   "method": "GET",
+   "path": "/blocks/3ed58a07-79e8-819d-ac58-c74e9b1325e0",
+   "http_status": 200,
+   "ok": true,
+   "request_payload": null,
+   "response_digest": {
+    "archived": true,
+    "type": "child_page"
+   }
+  },
+  {
+   "step": "POSTCHECK_REF",
+   "ts": "2026-10-02T12:58:03+03:00",
+   "method": "GET",
+   "path": "/pages/3e658a07-79e8-81c4-9cdd-d7b74626d61f",
+   "http_status": 200,
+   "ok": true,
+   "request_payload": null,
+   "response_digest": {
+    "last_edited": "2026-10-02T09:57:00.000Z",
+    "archived": false
+   }
+  }
+ ],
+ "test_page": {
+  "id": "3ed58a07-79e8-819d-ac58-c74e9b1325e0",
+  "url": "https://app.notion.com/p/C15-2026-10-02-3ed58a0779e8819dac58c74e9b1325e0",
+  "title": "C15 — اختبار قدرة الكتابة (توكن مدوّر) — 2026-10-02 — آمن للحذف"
+ },
+ "residual_footprint": {
+  "test_page_state": {
+   "archived": true,
+   "in_trash": true
+  },
+  "stub_block_state": {
+   "archived": true
+  },
+  "ref_hakim_last_edited_before": "2026-10-02T09:57:00.000Z",
+  "ref_hakim_last_edited_after": "2026-10-02T09:57:00.000Z",
+  "note": "الصفحة في سلة المحذوفات؛ محتوى المرجع الحاكم لم يتغير — فقط طابع آخر تحرير ارتفع (أثر لا مفر منه لأي اختبار كتابة)"
+ },
+ "verdict": "WRITE_FULL (إنشاء + إلحاق + تحديث + أرشفة — كلها ناجحة)",
+ "finished_at": "2026-10-02T12:58:04+03:00"
+}

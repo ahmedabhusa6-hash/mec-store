@@ -1,0 +1,26 @@
+# Cycle 1 — ChatGPT Analysis & Pre-Claude Decision
+Decision
+Do not send the old v4.0 test brief. The correct next target is v4.1.
+Pre-Claude Work Completed
+The v4.0 prompt was reviewed in full. Technical defects and gaps previously recorded were checked against the current architecture and external research. Targeted repairs were consolidated into v4.1 Candidate.
+External Validation Basis
+Current 2026 research was checked for:
+- process-level provenance and execution traceability for LLM agents
+- evidence-to-claim auditability
+- entity-resolution blocking and false-negative risk
+- long-running agent context handoff and persistent artifacts
+- current Claude long-context/project capabilities
+The research supports preserving durable state outside the transient chat context and using explicit evidence/action provenance for auditable agent workflows. citeturn249229academia12turn249229academia13turn249229search10turn249229search5
+Notion-First Architecture
+Notion becomes the persistent system of record. The chat channels are transport only.
+The user should not need to reproduce project history manually. ChatGPT generates one controlled Claude handoff per cycle. Claude returns its complete result. ChatGPT archives, audits, reconciles, and generates the next handoff.
+Token Control
+Archiving alone does not reduce Claude's token usage. Token reduction comes from sending a minimal sufficient Handoff Packet instead of repeatedly sending the full historical transcript. Claude Projects can provide persistent project knowledge, but the workflow still needs an explicit controlled handoff/state packet for deterministic versioning and auditability. citeturn249229search0turn249229search10
+Governance Status
+- v4.0 = historical baseline comparator
+- v4.1 = current Candidate
+- Approved Prompt = none
+- Bootstrap first-approval rule = Open Governance Decision
+- No automatic approval or canonical promotion
+Current Action
+Prepare one Claude Handoff for independent v4.1 validation.

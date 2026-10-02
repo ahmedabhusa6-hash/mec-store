@@ -1,0 +1,149 @@
+Conversation Migration Record — Accounting Systems — 2026-09-30
+========================================
+Scheduler reconciliation: The current Accounting Systems scheduled automation was verified as disabled (Automation ID 6ab6ebfbb7dc8191a81d08f8ceade69e, HOURLY, last run 2026-09-26T14:33:35.144758Z). Treat this as current verified operational state; the older no-automation statement is superseded.
+Migration Scope: هذه المحادثة فقط — Accounting Systems — Continuous Knowledge & Classification Operation.
+Migration Status
+PARTIAL — Core operational state is reconstructable from Notion, but one existing metadata field on ASK-4 remains stale and could not be edited in this run because the Notion write was blocked by the tool safety layer. No unsupported success is claimed.
+1. Persisted Current State
+Knowledge Assets
+Knowledge ID 1 — Functional Scope — Accounting Systems Taxonomy Node: ACTIVE / VERIFIED.
+Knowledge ID 2 — Classification Rule — Scope before Label: ACTIVE / VERIFIED.
+Knowledge ID 3 — Deployment — Accounting Systems Taxonomy Node: ACTIVE / VERIFIED.
+Knowledge ID 4 — Architecture — Accounting Systems Taxonomy Node: ACTIVE / VERIFIED.
+Research
+ASR-5: Integrated.
+ASR-6: Integrated.
+ASR-7: Needs Follow-up.
+ASR-8: Integrated.
+ASR-9: Integrated.
+ASR-10: In Progress.
+Latest Accounting Systems cycle
+CKC-73 — Architecture vs Integrations boundary test
+Cycle Status: COMPLETED.
+Commit Status: VERIFIED.
+Change: ASC-CHG-25.
+Result: Architecture and Integrations are related but not synonymous.
+Architecture remains active.
+Integrations is not activated as an independent taxonomy Knowledge Asset.
+Cross-product validation remains open.
+Latest accounting taxonomy change before this migration
+ASC-CHG-25 — CKC-73-CHG — Contextualize Architecture vs Integrations boundary
+Change Type: CONTEXTUALIZED.
+Commit Status: VERIFIED.
+Knowledge ID: 4.
+Previous State: Architecture active; Architecture-vs-Integration boundary open.
+New State: Architecture active/contextualized; Integration relationships recorded separately; Integrations taxonomy node remains open.
+2. Timeline Reconstruction
+Initial taxonomy
+Functional Scope was established as a first-class taxonomy dimension, followed by the reusable Scope-before-Label System_Type classification rule.
+Functional boundary validation
+ASR-5 and ASR-6 were integrated using independent conceptual evidence plus multi-product boundary tests.
+Licensing / Edition / Plan
+CKC-58 / ASC-CHG-21: Business Central Essentials vs Premium was verified as a material Edition/Plan → Functional Scope divergence.
+Edition/Plan must be captured when it changes the actual available scope.
+Edition/Plan does not itself become System_Type.
+CKC-60 / ASC-CHG-22: independent evidence did not establish a universal licensing → System_Type rule.
+Licensing therefore remains a separate descriptive/tiering/access/scope dimension.
+Deployment
+CKC-62 / ASC-CHG-23: Deployment activated as a separate taxonomy dimension.
+Evidence-backed contexts include Online/cloud-hosted, On-Premises, and Odoo.sh as a distinct hosted cloud platform context.
+Universal controlled vocabulary remains open.
+Architecture
+CKC-63 / ASC-CHG-24: Architecture activated as a separate taxonomy dimension.
+Architecture may require multiple descriptors.
+Universal Architecture vocabulary remains open.
+Architecture vs Integrations
+CKC-73 / ASC-CHG-25: conceptual distinction verified.
+Architecture = system structure/composition.
+Integration = relationships/capabilities connecting components or systems.
+Integrations is not yet an active taxonomy node.
+3. Current Multidimensional Taxonomy State
+Important separation: System_Type is not interchangeable with Functional Scope, Deployment, Architecture, Licensing, Edition/Plan, Version, Module/Feature, Localization, Market, or Integration.
+4. Provenance and Evidence Rules
+The persisted operating model requires:
+Research_ID → Source_ID → Evidence_ID → Claim_ID → Classification_ID / Knowledge_ID → Change_ID → Cycle_ID
+Keep these entities separate.
+Evidence roles already reconciled:
+Vendor / primary product documentation = strongest for product facts.
+Independent academic/professional sources = conceptual or contextual validation.
+Conversation claims = hypotheses unless independently corroborated.
+A source must not be used to support a stronger claim than its scope allows.
+Thuy et al. (2026) is retained as contextual/empirical ERP implementation/integration evidence, not as formal accounting-software-vs-ERP taxonomy proof.
+5. Integrity Corrections Preserved
+A stale ASK-2 latest-cycle linkage was corrected earlier through the integrity audit.
+Historical Change ID 14 remains incomplete/non-verified; it was not retroactively promoted.
+The earlier conversational label ASC-015 was not accepted as a persisted cycle because the Change/Cycle records did not support it.
+The actual persisted sequence must be read from Notion, not inferred from numerical continuity.
+SUPERSEDED ≠ DELETED.
+Historical snapshots must not be rewritten as if they were current state.
+6. Detected Current Metadata Discrepancy
+The current ASK-4 Knowledge Asset is ACTIVE / VERIFIED, but its property Last Changed By Cycle still contains CKC-64.
+The persisted Change Log and Cycle Log explicitly show:
+CKC-73 updated/contextualized ASK-4.
+ASC-CHG-25 references Knowledge ID 4 and records that change.
+Therefore CKC-64 is stale as the last-change pointer for ASK-4.
+Required corrective action: change ASK-4 Last Changed By Cycle to CKC-73 and preserve ASC-CHG-25 as the historical verified change.
+Execution state: not applied in this run because the direct Notion update was blocked. Do not represent it as completed.
+7. Conversation vs Persisted State
+A. Conversation-level material
+The conversation contained classification-boundary reasoning, adversarial testing, product/edition/licensing/deployment/architecture tests, evidence-role corrections, taxonomy design decisions, and persistence/integrity requirements.
+B. Persisted in Notion
+The following are persistently represented:
+canonical hub,
+Governance Addendum 2026-09-30,
+Conversation Scope & Persistence Audit 2026-09-30,
+Research Queue,
+Knowledge Assets,
+Change Log,
+KOS Cycle Log,
+current active taxonomy nodes,
+ASR-5 through ASR-10 states,
+CKC-58, CKC-60, CKC-62, CKC-63 and CKC-73,
+ASC-CHG-21 through ASC-CHG-25 and earlier integrity records.
+C. Not fully persisted
+The exact prose and conversational sequencing of the full chat are not reproduced verbatim.
+The ASK-4 Last Changed By Cycle property is stale and remains to be corrected.
+Some fine-grained conversational rationale exists only through the audit/governance records rather than as a literal transcript.
+D. Not established
+No unsupported additional taxonomy nodes, sources, claims, cycles, or verification states were invented.
+8. Memory / Instructions
+Memory tool status: no direct memory-write capability was available in this run.
+Therefore these remain:
+Memory Candidate — Not Persisted
+Reusable candidates:
+Notion is the canonical persistent project record for this operation.
+Separate Fact / Evidence / Inference / Assumption / Open / Historical states.
+Never infer Cycle ID or Change ID from numerical order.
+Preserve historical records; SUPERSEDED is not DELETED.
+Use Scope-before-Label for System_Type classification.
+Keep System_Type separate from Functional Scope, Deployment, Architecture, Licensing and contextual dimensions.
+Do not claim success before persistence verification.
+On write failure: preserve last verified state, record pending correction, reconcile, retry safely.
+Do not use a contextual source as formal taxonomy proof beyond its evidence scope.
+Search existing Knowledge before creating duplicate Knowledge Assets.
+Keep Research, Source, Evidence, Claim, Knowledge, Change and Cycle as separate provenance entities.
+Product-specific facts and cycle histories belong in Notion, not general memory.
+9. Reconstruction Test
+Assuming this conversation is deleted, the persisted Notion state can reconstruct the core operational state: project scope, governing methodology, active taxonomy nodes, current research states, latest verified accounting cycle, latest verified taxonomy change, unresolved research direction, major historical corrections, and provenance rules.
+The reconstruction is not a byte-for-byte transcript replacement, and the ASK-4 metadata pointer remains a known persistence defect.
+10. Next Work
+ASR-10 — cross-product Architecture vs Integrations validation.
+Required focus:
+second ERP/accounting product family,
+internal/module composition,
+native/internal integration,
+external APIs/connectors/middleware,
+integration topology,
+functional integration,
+version/edition differences.
+Do not activate an Integrations taxonomy node until evidence justifies it.
+11. Authoritative Notion Records
+Accounting Systems — Continuous Knowledge & Classification Operation
+Accounting Systems — Governance Addendum — 2026-09-30
+Conversation Scope & Persistence Audit — Accounting Systems — 2026-09-30
+CKC-73 — Architecture vs Integrations boundary test
+CKC-73-CHG — Contextualize Architecture vs Integrations boundary
+12. Final Reconstruction Decision
+Operational reconstruction: YES — core state is recoverable.
+Complete metadata reconciliation: NO — ASK-4 last-change pointer remains stale and requires a later verified edit.
+Migration Status: PARTIAL.

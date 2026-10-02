@@ -1,0 +1,231 @@
+{
+ "capture_reason": "NEW",
+ "captured_at": "2026-10-02T12:06:31+03:00",
+ "title": "Migration Integrity Correction — ASK-4 Latest Change — 2026-09-30",
+ "last_edited": "2026-09-29T22:46:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3ea58a07-79e8-8159-885e-cbaae3098688",
+  "created_time": "2026-09-29T22:46:00.000Z",
+  "last_edited_time": "2026-09-29T22:46:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "page_id",
+   "page_id": "3e658a07-79e8-812b-94dd-c53cd6689569"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "title": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Migration Integrity Correction — ASK-4 Latest Change — 2026-09-30",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Migration Integrity Correction — ASK-4 Latest Change — 2026-09-30",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/Migration-Integrity-Correction-ASK-4-Latest-Change-2026-09-30-3ea58a0779e88159885ecbaae3098688",
+  "public_url": null,
+  "archived": false,
+  "request_id": "dcaf0694-bab6-4ea8-a4ce-2fd2a2e75397"
+ },
+ "block_count": 17,
+ "blocks": [
+  {
+   "id": "f68aebec-aab9-44e6-ac05-953105346de4",
+   "type": "callout",
+   "has_children": false,
+   "text": [
+    "Type: CORRECTION RECORD / PERSISTENCE EXCEPTION"
+   ],
+   "created": "2026-09-29T22:46:00.000Z",
+   "edited": "2026-09-29T22:46:00.000Z"
+  },
+  {
+   "id": "7091e7e4-21fe-4c8d-b956-a467aad652a7",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "Finding"
+   ],
+   "created": "2026-09-29T22:46:00.000Z",
+   "edited": "2026-09-29T22:46:00.000Z"
+  },
+  {
+   "id": "24c228f6-1456-46e4-8870-7f9227ca0a20",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "ASK-4 — Architecture taxonomy node is ACTIVE / VERIFIED, but its database property Last Changed By Cycle still points to CKC-64."
+   ],
+   "created": "2026-09-29T22:46:00.000Z",
+   "edited": "2026-09-29T22:46:00.000Z"
+  },
+  {
+   "id": "fb137b67-5747-4520-a6e7-8b35c982e742",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "Verified evidence"
+   ],
+   "created": "2026-09-29T22:46:00.000Z",
+   "edited": "2026-09-29T22:46:00.000Z"
+  },
+  {
+   "id": "cdef3159-4f16-4ec1-a050-21516a674a8a",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "CKC-73 explicitly updated/contextualized ASK-4."
+   ],
+   "created": "2026-09-29T22:46:00.000Z",
+   "edited": "2026-09-29T22:46:00.000Z"
+  },
+  {
+   "id": "55201f08-2d23-4f2b-87f9-d31687d0dee3",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "ASC-CHG-25 is the verified Change Log record for that update."
+   ],
+   "created": "2026-09-29T22:46:00.000Z",
+   "edited": "2026-09-29T22:46:00.000Z"
+  },
+  {
+   "id": "d77f2f64-3145-42c6-8b3d-6083aeabb110",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "The KOS Cycle Log identifies CKC-73 as the latest Accounting Systems cycle and associates it with ASR-10 and ASC-CHG-25."
+   ],
+   "created": "2026-09-29T22:46:00.000Z",
+   "edited": "2026-09-29T22:46:00.000Z"
+  },
+  {
+   "id": "850fc3a8-3687-4655-94d8-094f9f4905cf",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "Correct state"
+   ],
+   "created": "2026-09-29T22:46:00.000Z",
+   "edited": "2026-09-29T22:46:00.000Z"
+  },
+  {
+   "id": "ba5ecc42-bd45-4b5c-ba2a-7d2e5a978a9f",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Latest change affecting ASK-4 = CKC-73 / ASC-CHG-25."
+   ],
+   "created": "2026-09-29T22:46:00.000Z",
+   "edited": "2026-09-29T22:46:00.000Z"
+  },
+  {
+   "id": "6100d04d-b15c-4a06-a4e2-43a94db76470",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "Persistence exception"
+   ],
+   "created": "2026-09-29T22:46:00.000Z",
+   "edited": "2026-09-29T22:46:00.000Z"
+  },
+  {
+   "id": "b78a7160-175d-4a60-b9f2-495d4d805189",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "The existing ASK-4 database property could not be edited during this migration because the direct Notion property-write operation was blocked by the tool safety layer."
+   ],
+   "created": "2026-09-29T22:46:00.000Z",
+   "edited": "2026-09-29T22:46:00.000Z"
+  },
+  {
+   "id": "baba879e-f21c-4491-92e5-f6a2c2fe8807",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "Operational handling"
+   ],
+   "created": "2026-09-29T22:46:00.000Z",
+   "edited": "2026-09-29T22:46:00.000Z"
+  },
+  {
+   "id": "72bf39c7-bb65-47b5-aa71-aa3465b8039d",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "The page now contains a visible current metadata override. The database property remains unchanged and must not be treated as authoritative for the latest-cycle pointer until corrected."
+   ],
+   "created": "2026-09-29T22:46:00.000Z",
+   "edited": "2026-09-29T22:46:00.000Z"
+  },
+  {
+   "id": "8d292b12-0453-46b1-8e29-6972610f0648",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "Status"
+   ],
+   "created": "2026-09-29T22:46:00.000Z",
+   "edited": "2026-09-29T22:46:00.000Z"
+  },
+  {
+   "id": "3e29e2d2-7e41-4267-bfd8-21dbd7df6185",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "OPEN — metadata correction pending."
+   ],
+   "created": "2026-09-29T22:46:00.000Z",
+   "edited": "2026-09-29T22:46:00.000Z"
+  },
+  {
+   "id": "c84c50cd-1149-4092-b3e7-25e2e9a738b3",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "Impact"
+   ],
+   "created": "2026-09-29T22:46:00.000Z",
+   "edited": "2026-09-29T22:46:00.000Z"
+  },
+  {
+   "id": "1d23e142-5c35-48ea-9539-833b8029c116",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "No loss of substantive knowledge state. The latest verified state is reconstructable from CKC-73 and ASC-CHG-25. The defect affects provenance/linkage metadata only."
+   ],
+   "created": "2026-09-29T22:46:00.000Z",
+   "edited": "2026-09-29T22:46:00.000Z"
+  }
+ ]
+}

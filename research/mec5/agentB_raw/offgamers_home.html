@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <meta name="apple-mobile-web-app-title" content="OffGamers" />
+    <meta name="google-site-verification" content="1sJRK2TUufpKGkLQRvEqYw9tI0SURtVG3w1o5-QTCzA" />
+    <title>OffGamers Online Game Store - Vue</title>
+
+    <!-- favicon -->
+    <link rel=icon type=image/png sizes=128x128 href="https://static.offgamers.com/OffGamers/assetsvue20260914121110/icons/favicon-128x128.png">
+    <link rel=icon type=image/png sizes=96x96 href="https://static.offgamers.com/OffGamers/assetsvue20260914121110/icons/favicon-96x96.png">
+    <link rel=icon type=image/png sizes=32x32 href="https://static.offgamers.com/OffGamers/assetsvue20260914121110/icons/favicon-32x32.png">
+    <link rel=icon type=image/png sizes=16x16 href="https://static.offgamers.com/OffGamers/assetsvue20260914121110/icons/favicon-16x16.png">
+    <link rel=icon type=image/ico href=favicon.ico>
+
+    <!-- apple touch icon -->
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180"
+        href="https://static.offgamers.com/OffGamers/assetsvue20260914121110/icons/apple-touch-icon-180x180.png?v=1" />
+    <link rel="apple-touch-icon" type="image/png" sizes="167x167"
+        href="https://static.offgamers.com/OffGamers/assetsvue20260914121110/icons/apple-touch-icon-167x167.png?v=1" />
+    <link rel="apple-touch-icon" type="image/png" sizes="152x152"
+        href="https://static.offgamers.com/OffGamers/assetsvue20260914121110/icons/apple-touch-icon-152x152.png?v=1" />
+    <link rel="apple-touch-icon" type="image/png" sizes="120x120"
+        href="https://static.offgamers.com/OffGamers/assetsvue20260914121110/icons/apple-touch-icon-120x120.png?v=1" />
+
+    <link rel=preload href="https://assets.offgamers.com/offer/categories.json?v=2" as=fetch type=application/json
+        crossorigin>
+    <link rel=preload href="https://assets.offgamers.com/offer/keyword.json?v=2" as=fetch type=application/json
+        crossorigin>
+    <link rel=preload href="https://assets.offgamers.com/offer/navigation.json?v=2" as=fetch type=application/json
+        crossorigin>
+    <link rel=dns-prefetch href="https://sls.offgamers.com">
+    <link rel=dns-prefetch href="https://assets.offgamers.com">
+        <link rel=dns-prefetch href=https://analytics.twitter.com>
+    <link rel=dns-prefetch href=https://bat.bing.com>
+    <link rel=dns-prefetch href=https://connect.facebook.net>
+    <link rel=dns-prefetch href=https://googleads.g.doubleclick.net>
+    <link rel=dns-prefetch href=https://identitytoolkit.googleapis.com>
+    <link rel=dns-prefetch href=https://static.ads-twitter.com>
+    <link rel=dns-prefetch href=https://t.co/1/i/adsct>
+    <link rel=dns-prefetch href=https://translate.google.com>
+    <link rel=dns-prefetch href=https://translate.googleapis.com>
+    <link rel=dns-prefetch href=https://widget.freshworks.com>
+    <link rel=dns-prefetch href=https://www.clarity.ms>
+    <link rel=dns-prefetch href=https://www.google.com>
+    <link rel=dns-prefetch href=https://www.googleadservices.com>
+    <link rel=dns-prefetch href=https://www.google-analytics.com>
+    <link rel=dns-prefetch href=https://www.googletagmanager.com>
+    <link rel=preconnect href=https://fonts.googleapis.com>
+    <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
+    <link
+        rel=preload
+        href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@400;500;600&display=swap"
+        as=style
+        crossorigin
+        onload="this.onload=null;this.rel='stylesheet'" />
+    <link
+        rel="preload"
+        href="https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@0;1&display=swap"
+        as="style"
+        crossorigin
+        onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript>
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@400;500;600&display=swap" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@0;1&display=swap"
+            rel="stylesheet" />
+    </noscript>
+
+                                <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="B5BWF-XCV3Z-642XB-4R7RN-3A37E",function(){function e(){if(!i){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.parentNode.appendChild(e),i=!0}}function t(e){i=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",o.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"B5BWF-XCV3Z-642XB-4R7RN-3A37E";var o=document.currentScript||document.getElementsByTagName("script")[0],i=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!i)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="f446r2glyykne2vzki2q-f-95568c53d-clientnsv4-s.akamaihd.net",o="false"=="true"?2:1,i={"ak.v":"41","ak.cp":"1244469","ak.ai":parseInt("812486",10),"ak.ol":"0","ak.cr":5,"ak.ipv":4,"ak.proto":"h2","ak.rid":"3268e78","ak.r":25010,"ak.a2":n,"ak.m":"","ak.n":"essl","ak.cport":42086,"ak.gh":"203.198.20.132","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"","ak.t":"1790530101","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==Q1aUfz5Pmsr7rfrLKgjUKzaDwT/c/uDeU5+v1WIVekz+tXK12h1nzoyVjTwyMAYWb+1FHOANr9k77gO1+Zmp6R7rwuPobyytVXHpreL9SDuePgzipVb36rHLdghhyJtkaigm8SOaU9h8a/jkKt9+ki/AksdqXWky+S+Ksd0sAkbekg8ZjDc+rB8yQtU6+frdfDpfqeTJM1Zc9bifPvKqJbdCiIu8Cdk8IxbOuE9YZD3f3I6FeTNi3H0BD1Nw0YSFoOys0OZwDM5139FCSROOBy/97n+2tPmQ/5SvKpE8hDC1H1q6cCA8awz5FmFRIvVn09xvLC4O2JHGEzoftk0PA7WX820fX7hdlDa2GhDs9YJ8Aer7zXqsGg9fjHm733+m8SukQw7Apuju15FuFrGSr5V7ObsDUFrNeqkkjh6Pun0=","ak.pv":"16","ak.dpoabenc":"","ak.tf":o};if(""!==t)i["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))i["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var e=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+
+<script defer src="https://static.offgamers.com/OffGamers/assetsvue20260914121110/js/offgamers-vue-vendor.js"></script>
+<script defer src="https://static.offgamers.com/OffGamers/assetsvue20260914121110/js/offgamers-vue-app.js"></script>
+<script defer src="https://static.offgamers.com/OffGamers/assetsvue20260914121110/js/offgamers-vue-chunk-common.js"></script>
+<script>
+    window.prerenderReady = false;
+</script>
+
+        <link href="https://static.offgamers.com/OffGamers/assetsvue20260914121110/css/311.7aafe9c1.css" rel=stylesheet>
+        <link href="https://static.offgamers.com/OffGamers/assetsvue20260914121110/css/482.4f0ae914.css" rel=stylesheet>
+        <link href="https://static.offgamers.com/OffGamers/assetsvue20260914121110/css/489.b8316ef0.css" rel=stylesheet>
+        <link href="https://static.offgamers.com/OffGamers/assetsvue20260914121110/css/704.3df023a5.css" rel=stylesheet>
+        <link href="https://static.offgamers.com/OffGamers/assetsvue20260914121110/css/764.1d862376.css" rel=stylesheet>
+        <link href="https://static.offgamers.com/OffGamers/assetsvue20260914121110/css/803.2bf92f4e.css" rel=stylesheet>
+        <link href="https://static.offgamers.com/OffGamers/assetsvue20260914121110/css/app.7e59a9e2.css" rel=stylesheet>
+        <link href="https://static.offgamers.com/OffGamers/assetsvue20260914121110/css/chunk-common.9a001cd2.css" rel=stylesheet>
+        <link href="https://static.offgamers.com/OffGamers/assetsvue20260914121110/css/components.88fd713d.css" rel=stylesheet>
+
+
+<body>
+    <noscript>
+        <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-5MBCB8G5"
+            height=0
+            width=0
+            style="display: none; 
+            visibility: hidden">
+        </iframe>
+    </noscript>
+    <noscript>Please enable javascript to browse this website</noscript>
+    <!-- main content -->
+    <div id=q-app></div>
+    
+</body>
+
+</html>

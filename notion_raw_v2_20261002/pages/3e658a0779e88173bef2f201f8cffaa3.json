@@ -1,0 +1,224 @@
+{
+ "capture_reason": "NEWLY_ACCESSIBLE",
+ "captured_at": "2026-10-02T12:16:49+03:00",
+ "title": "NetSuite CRM supports joint partner campaign management and tracking of leads, closing and co-marketing ROI across partner channels.",
+ "last_edited": "2026-09-25T20:06:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e658a07-79e8-8173-bef2-f201f8cffaa3",
+  "created_time": "2026-09-25T20:06:00.000Z",
+  "last_edited_time": "2026-09-25T20:06:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "230f9103-4d44-47a5-b69f-fef368560b20"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "Conflicting Evidence": {
+    "id": "RNcx",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Date": {
+    "id": "Td%60A",
+    "type": "date",
+    "date": null
+   },
+   "Source Link": {
+    "id": "%5DC%40H",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "3e658a07-79e8-8170-a352-f429c68416e4"
+     }
+    ],
+    "has_more": false
+   },
+   "Scope": {
+    "id": "_UPZ",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "NetSuite CRM partner campaign management",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "NetSuite CRM partner campaign management",
+      "href": null
+     }
+    ]
+   },
+   "Confidence": {
+    "id": "eU%3BK",
+    "type": "select",
+    "select": {
+     "id": "dce844a7-249c-496d-b071-eaf2fb18d172",
+     "name": "High",
+     "color": "green"
+    }
+   },
+   "Source Reference": {
+    "id": "kuxt",
+    "type": "url",
+    "url": "https://nlcorp.app.netsuite.com/portal/jp/products/netsuite/crm/partnerelation/campaigns/index.html"
+   },
+   "Case Link": {
+    "id": "mBHn",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "3e658a07-79e8-818b-b8b6-e4bee4241916"
+     }
+    ],
+    "has_more": false
+   },
+   "Notes": {
+    "id": "oKLy",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Verifies functionality described on the current Japanese product page; does not establish actual ROI.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Verifies functionality described on the current Japanese product page; does not establish actual ROI.",
+      "href": null
+     }
+    ]
+   },
+   "Exact Reference": {
+    "id": "q~Kl",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Joint campaigns, lead/closing/co-marketing ROI tracking and Advanced Partner Center real-time sales/marketing tools are described.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Joint campaigns, lead/closing/co-marketing ROI tracking and Advanced Partner Center real-time sales/marketing tools are described.",
+      "href": null
+     }
+    ]
+   },
+   "Evidence Status": {
+    "id": "ymog",
+    "type": "status",
+    "status": {
+     "id": "e45b624d-0043-43ed-a63f-e4bedb218a01",
+     "name": "تم",
+     "color": "green"
+    }
+   },
+   "Evidence Type": {
+    "id": "yzj%7D",
+    "type": "select",
+    "select": {
+     "id": "a099258a-d98e-44c4-829b-d41b0e0ca8ee",
+     "name": "Direct",
+     "color": "green"
+    }
+   },
+   "Independence Group": {
+    "id": "zZtm",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "NetSuite-Official-CRM-Campaigns",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "NetSuite-Official-CRM-Campaigns",
+      "href": null
+     }
+    ]
+   },
+   "Entity Link": {
+    "id": "zgKu",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "3e658a07-79e8-81b1-8577-daf6c32f67f1"
+     }
+    ],
+    "has_more": false
+   },
+   "Claim": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "NetSuite CRM supports joint partner campaign management and tracking of leads, closing and co-marketing ROI across partner channels.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "NetSuite CRM supports joint partner campaign management and tracking of leads, closing and co-marketing ROI across partner channels.",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/NetSuite-CRM-supports-joint-partner-campaign-management-and-tracking-of-leads-closing-and-co-market-3e658a0779e88173bef2f201f8cffaa3",
+  "public_url": null,
+  "archived": false,
+  "request_id": "20c52314-d00b-4ff7-a596-b19a80dbdaf0"
+ },
+ "block_count": 0,
+ "blocks": []
+}

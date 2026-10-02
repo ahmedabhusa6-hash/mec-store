@@ -1,0 +1,150 @@
+{
+ "execution_timestamp": "2026-10-02T04:20:59.927715+03:00",
+ "S1_family_breakdown": {
+  "discord decor": 8,
+  "discord": 12,
+  "cursor": 3,
+  "perplexity": 1,
+  "gmail": 10,
+  "apple id": 2,
+  "adobe": 1,
+  "youtube": 2,
+  "spotify": 1,
+  "vpn": 6,
+  "ms365/office": 1,
+  "api credits": 7,
+  "other": 57
+ },
+ "S2_ps_live_capcut": {
+  "n": 0,
+  "pairs": []
+ },
+ "S3_outliers": {
+  "low": [
+   {
+    "ratio": 0.08707241226121723,
+    "name": "🎧 Spotify Premium 3-Month Activation Link with No Warranty",
+    "cb": 1.96,
+    "premi": 22.51
+   },
+   {
+    "ratio": 0.3693693693693693,
+    "name": "⭐ Seedance 700~1k credit 1 Day - 1H warranty",
+    "cb": 0.41,
+    "premi": 1.11
+   },
+   {
+    "ratio": 0.4285714285714286,
+    "name": "💰 Discord token 24-hour warranty",
+    "cb": 0.15,
+    "premi": 0.35
+   },
+   {
+    "ratio": 0.4504504504504504,
+    "name": "⭐ Grammarly Pro 7-14 Days - full warranty",
+    "cb": 0.5,
+    "premi": 1.11
+   },
+   {
+    "ratio": 0.4820017559262511,
+    "name": "🦉 Quizlet Plus Unlimited 1 Year - full warranty",
+    "cb": 5.49,
+    "premi": 11.39
+   }
+  ],
+  "high": [
+   {
+    "ratio": 1.298804780876494,
+    "name": "⭐ gamma 40k credit bonus 40k 10 years warranty 3 months",
+    "cb": 13.04,
+    "premi": 10.04
+   },
+   {
+    "ratio": 1.4647887323943662,
+    "name": "Deepseek API $100 1 month full warranty",
+    "cb": 7.28,
+    "premi": 4.97
+   },
+   {
+    "ratio": 1.644736842105263,
+    "name": "Deepseek API $50 1 month full warranty",
+    "cb": 5,
+    "premi": 3.04
+   },
+   {
+    "ratio": 1.671957671957672,
+    "name": "Deepseek API $30 1 month full warranty",
+    "cb": 3.16,
+    "premi": 1.89
+   },
+   {
+    "ratio": 1.7053571428571426,
+    "name": "Deepseek API $10 1 month full warranty",
+    "cb": 1.91,
+    "premi": 1.12
+   }
+  ]
+ },
+ "S4_pool_matrix": {
+  "pool_size": 550,
+  "canboso": 348,
+  "cb": 228,
+  "ps_arch": 287,
+  "ps_live": 20,
+  "canboso_cap_cb": 111,
+  "canboso_cap_arch": 114,
+  "canboso_cap_ps_live": 0,
+  "cb_cap_arch": 196,
+  "in_all_three": 104,
+  "cb_only_n": 25,
+  "cb_only_samples": [
+   "capcut pro 5 7 days full warranty",
+   "chatgpt plus 1 month 3d warranty",
+   "code lovable lite 1 year no warranty",
+   "code redeem 150 aws amazon web services",
+   "gmail old date 2019 202x without services including otp api",
+   "gmail random ip 2020 2023 trial youtube",
+   "gmail us random date 201x 202x",
+   "grok super 6 7 days full warranty",
+   "grok xai api key 100 1 month 30d warranty",
+   "hong kong number very sms gmail live 90 days",
+   "increase 10k flow fanpage in 1 year no warranty",
+   "increase 10k personal facebook flow no warranty",
+   "increase 1k flow fanpage in 1 year no warranty",
+   "increase 1k personal facebook flow no warranty",
+   "lart ai seedance 6k8 credit 1 month warranty 24h"
+  ]
+ },
+ "S5_verdicts": {
+  "premikey_canboso": {
+   "entity": "PremiKey @PremiKeyBot (HitMeow 🇻🇳 cluster — @vahnix)",
+   "platform": "canboso.com — 'Quản Lý Bán Hàng' (VN admin panel) · Vite/React · Binance Pay rails · usdRate 25,945 VND",
+   "api": "GET /api/v2/telegram-buyer/{products,balance,purchase} · X-API-Key tgb_ · v2 generation",
+   "catalog": "349 products / 348 uniq · productId = Mongo hex-24 (separate DB)",
+   "vs_cb_": "names 111/228 · descriptions identical 101/111 · VN-domain fingerprints shared (vibi/phh/dongvanfb/gpmloginapp/2fa.live/lartai/get-opt)",
+   "objectid_overlap": "0/349 vs cb_∪ps_ — DIFFERENT MongoDB (not the ProdSeller platform DB)",
+   "price_direction": "cb_/canboso median 0.91 (p25 0.76, p75 1.07) — cb_ CHEAPER → canboso NOT the visible upstream",
+   "verdict": "SIBLING PANEL — same VN catalog pool, separate platform/DB. HitMeow's own storefront platform. NOT cb_ identity (excluded as DB), but confirms shared pool architecture"
+  },
+  "richai_cgptactive": {
+   "entity": "RichAIStore @RichAIStoreBot (IN wholesale cluster)",
+   "platform": "cgpt-active.pro (Cloudflare) · Reseller API v1.0.0 · 12 endpoints (full order lifecycle + ticketing) · Bearer rsk_ · retail_price vs your_unit_price margin model · AI-Agent integration page (Cursor/Claude Code prompts)",
+   "catalog": "25 products (CDK-focused: Perplexity PRO 12M ...) · numeric IDs + slugs",
+   "vs_cb_": "0 name matches · family overlap partial (grok/gmail/lovable/capcut/perplexity/claude/duolingo)",
+   "verdict": "EXCLUDED as cb_ identity — new fully-documented CDK reseller platform (registered as new entity)"
+  },
+  "aixpress_regenerated": {
+   "entity": "AIXpress @AIXpress_Bot (IN cluster)",
+   "platform": "aixpress.shop = OWN deployment (IP 188.166.90.19 SHARED with aiversehub.store/AIVerseX — same DO box) · bot docs' base URL (aiversehub.store) is STALE — key valid only on aixpress.shop",
+   "catalog": "2 products only (Gemini Pro 18M $0.65 · gemini pro 18m(2) $0.45) · both stock=0 · balance $0",
+   "identity_note": "/me reveals chat_id 7334478984 'A7MED' — the key owner = Ahmed (same TG account across canboso/LahaStore shop ID)",
+   "verdict": "EXCLUDED — dormant/minimal deployment, zero stock, zero overlap with cb_ (and with AIVerseX's 35-product catalog)"
+  },
+  "digitalcore_confirmed": {
+   "entity": "DigitalCore @DCoreStoreBot (digitalcore.top)",
+   "platform": "buyer API /api/user/{me,products,product} · Api-Key UUID · balance $0 / 0 orders",
+   "catalog": "11/11 same products as public · buyer price = qty-1 tier (Gemini 18M $0.80 → $0.70 at 50+) · slug IDs",
+   "verdict": "EXCLUDED as cb_ (0 matches, R2) — buyer tier pricing documented (tier ladder +12-47% over priceFrom)"
+  }
+ }
+}

@@ -1,0 +1,420 @@
+{
+ "capture_reason": "NEWLY_ACCESSIBLE",
+ "captured_at": "2026-10-02T12:16:49+03:00",
+ "title": "Deep Dive — Microsoft Dynamics / Business Central Partner GTM",
+ "last_edited": "2026-09-25T20:11:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e658a07-79e8-810a-96ba-c6c7b897fffe",
+  "created_time": "2026-09-25T20:11:00.000Z",
+  "last_edited_time": "2026-09-25T20:11:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "a87d8f7b-de51-419c-aa6d-90b81e0d7b21"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "Context": {
+    "id": "%3BcyS",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Large global ecosystem requiring scalable multi-partner marketing.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Large global ecosystem requiring scalable multi-partner marketing.",
+      "href": null
+     }
+    ]
+   },
+   "Situation": {
+    "id": "Dqr%7D",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Microsoft's Partner Marketing Center Pro provides campaign planning, customization, localization, publishing and performance tracking. Business Central GTM resources provide partner campaign assets, pitch decks, customer stories and reseller journey support.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Microsoft's Partner Marketing Center Pro provides campaign planning, customization, localization, publishing and performance tracking. Business Central GTM resources provide partner campaign assets, pitch decks, customer stories and reseller journey support.",
+      "href": null
+     }
+    ]
+   },
+   "Entity Link": {
+    "id": "ElSP",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "3e658a07-79e8-81ca-aaa4-f49745e4f7fb"
+     }
+    ],
+    "has_more": false
+   },
+   "Evidence Links": {
+    "id": "FYu%3A",
+    "type": "relation",
+    "relation": [],
+    "has_more": false
+   },
+   "Market": {
+    "id": "LVaJ",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Global",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Global",
+      "href": null
+     }
+    ]
+   },
+   "Constraints": {
+    "id": "MgJ%7D",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Some capabilities depend on partner designation/eligibility.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Some capabilities depend on partner designation/eligibility.",
+      "href": null
+     }
+    ]
+   },
+   "Confidence": {
+    "id": "Mhr%5B",
+    "type": "select",
+    "select": {
+     "id": "e872a95c-be8c-4dea-83d7-6192450960df",
+     "name": "High",
+     "color": "green"
+    }
+   },
+   "Segment": {
+    "id": "S%7Cat",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Business application partners + SMB/mid-market buyers",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Business application partners + SMB/mid-market buyers",
+      "href": null
+     }
+    ]
+   },
+   "Observed Outcome": {
+    "id": "TDBm",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Operational infrastructure is explicitly documented; public materials do not disclose partner-level ROI.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Operational infrastructure is explicitly documented; public materials do not disclose partner-level ROI.",
+      "href": null
+     }
+    ]
+   },
+   "Objective": {
+    "id": "UwXv",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Reconstruct scalable partner campaign operations.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Reconstruct scalable partner campaign operations.",
+      "href": null
+     }
+    ]
+   },
+   "Status": {
+    "id": "WKe%3B",
+    "type": "status",
+    "status": {
+     "id": "6b06f923-0b48-4a06-b0f5-de1916f018c1",
+     "name": "تم",
+     "color": "green"
+    }
+   },
+   "Evidence References": {
+    "id": "gCUd",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Partner Marketing Center Pro; Business Central partner GTM resources.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Partner Marketing Center Pro; Business Central partner GTM resources.",
+      "href": null
+     }
+    ]
+   },
+   "Date": {
+    "id": "jpdJ",
+    "type": "date",
+    "date": null
+   },
+   "Channels": {
+    "id": "vZLG",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Partner campaigns, co-branding, localization, social/content assets, events, sales enablement, reporting.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Partner campaigns, co-branding, localization, social/content assets, events, sales enablement, reporting.",
+      "href": null
+     }
+    ]
+   },
+   "Mechanism": {
+    "id": "xauN",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Centralized enablement → localized deployment → partner execution → measurable campaign activity → sales pipeline.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Centralized enablement → localized deployment → partner execution → measurable campaign activity → sales pipeline.",
+      "href": null
+     }
+    ]
+   },
+   "Name": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Deep Dive — Microsoft Dynamics / Business Central Partner GTM",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Deep Dive — Microsoft Dynamics / Business Central Partner GTM",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/Deep-Dive-Microsoft-Dynamics-Business-Central-Partner-GTM-3e658a0779e8810a96bac6c7b897fffe",
+  "public_url": null,
+  "archived": false,
+  "request_id": "00858dc7-5573-4d89-9354-31e5a8c50adf"
+ },
+ "block_count": 9,
+ "blocks": [
+  {
+   "id": "b315df8f-1c1c-46d2-bc7c-c35045930301",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Enablement layer"
+   ],
+   "created": "2026-09-25T20:11:00.000Z",
+   "edited": "2026-09-25T20:11:00.000Z"
+  },
+  {
+   "id": "9bd47f3c-5d4c-4d14-80e9-4d1795344a3f",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Central library of campaigns and assets."
+   ],
+   "created": "2026-09-25T20:11:00.000Z",
+   "edited": "2026-09-25T20:11:00.000Z"
+  },
+  {
+   "id": "2b4f058f-9459-470f-bbd5-932601becca7",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Adaptation layer"
+   ],
+   "created": "2026-09-25T20:11:00.000Z",
+   "edited": "2026-09-25T20:11:00.000Z"
+  },
+  {
+   "id": "5cf549d9-6bbd-44cf-ba49-b550dd8f645f",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "AI-assisted customization, co-branding and localization."
+   ],
+   "created": "2026-09-25T20:11:00.000Z",
+   "edited": "2026-09-25T20:11:00.000Z"
+  },
+  {
+   "id": "76f82f4d-9566-44ff-8c43-ebfea24a91d5",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Execution layer"
+   ],
+   "created": "2026-09-25T20:11:00.000Z",
+   "edited": "2026-09-25T20:11:00.000Z"
+  },
+  {
+   "id": "647f09ec-d6da-4fbf-a703-7b002aa4dd36",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Partners publish/deploy campaigns."
+   ],
+   "created": "2026-09-25T20:11:00.000Z",
+   "edited": "2026-09-25T20:11:00.000Z"
+  },
+  {
+   "id": "a18c8223-ae65-4757-8e4a-951b1234e289",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Measurement layer"
+   ],
+   "created": "2026-09-25T20:11:00.000Z",
+   "edited": "2026-09-25T20:11:00.000Z"
+  },
+  {
+   "id": "42532701-7334-4ef2-934b-78ea22a79b2d",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Performance tracking and reporting feed back into the campaign operation."
+   ],
+   "created": "2026-09-25T20:11:00.000Z",
+   "edited": "2026-09-25T20:11:00.000Z"
+  },
+  {
+   "id": "47e08d3d-499c-4a44-b690-58c762a26fc9",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Reusable architecture: asset library → adaptation → deployment → measurement loop."
+   ],
+   "created": "2026-09-25T20:11:00.000Z",
+   "edited": "2026-09-25T20:11:00.000Z"
+  }
+ ]
+}

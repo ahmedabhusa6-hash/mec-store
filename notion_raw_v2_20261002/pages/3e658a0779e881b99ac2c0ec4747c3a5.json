@@ -1,0 +1,228 @@
+{
+ "capture_reason": "NEWLY_ACCESSIBLE",
+ "captured_at": "2026-10-02T12:16:49+03:00",
+ "title": "AMA — 2026 State of Marketing Careers Report",
+ "last_edited": "2026-09-25T20:52:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e658a07-79e8-81b9-9ac2-c0ec4747c3a5",
+  "created_time": "2026-09-25T20:52:00.000Z",
+  "last_edited_time": "2026-09-25T20:52:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "9a9c3c4f-b95c-46f8-82a4-c73a6e45a308"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "Last Checked": {
+    "id": "H%3CaR",
+    "type": "date",
+    "date": {
+     "start": "2026-09-25",
+     "end": null,
+     "time_zone": null
+    }
+   },
+   "Limitations": {
+    "id": "Kyv%5D",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Career/skills evidence; some labor-market evidence is U.S.-specific.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Career/skills evidence; some labor-market evidence is U.S.-specific.",
+      "href": null
+     }
+    ]
+   },
+   "Type": {
+    "id": "%60nyH",
+    "type": "select",
+    "select": {
+     "id": "ff15773b-a0f9-4743-b08b-ddf2be4f0560",
+     "name": "Benchmark",
+     "color": "gray"
+    }
+   },
+   "Relevance": {
+    "id": "cku%40",
+    "type": "select",
+    "select": {
+     "id": "12b5f5b1-d4d1-4017-ad06-a7220ca01005",
+     "name": "High",
+     "color": "green"
+    }
+   },
+   "Authority": {
+    "id": "dx%7CD",
+    "type": "select",
+    "select": {
+     "id": "d464e1c1-3b8a-47ec-a829-9c88f38a9be6",
+     "name": "High",
+     "color": "green"
+    }
+   },
+   "URL": {
+    "id": "m%5DA%5D",
+    "type": "url",
+    "url": "https://www.ama.org/marketing-news/2026-career-report/"
+   },
+   "License": {
+    "id": "m~%7Cd",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Public summary; verify reuse terms for full report.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Public summary; verify reuse terms for full report.",
+      "href": null
+     }
+    ]
+   },
+   "Next Review": {
+    "id": "pjbQ",
+    "type": "date",
+    "date": {
+     "start": "2026-10-25",
+     "end": null,
+     "time_zone": null
+    }
+   },
+   "Asset ID": {
+    "id": "xiMz",
+    "type": "unique_id",
+    "unique_id": {
+     "prefix": "AST",
+     "number": 4
+    }
+   },
+   "Creator / Organization": {
+    "id": "yBhI",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "American Marketing Association",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "American Marketing Association",
+      "href": null
+     }
+    ]
+   },
+   "Maintenance": {
+    "id": "%7B%5C%3Cg",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Annual research signal; monitor future editions.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Annual research signal; monitor future editions.",
+      "href": null
+     }
+    ]
+   },
+   "Integration Decision": {
+    "id": "%7DMlJ",
+    "type": "select",
+    "select": {
+     "id": "3a58d13e-c611-4789-9124-5775d9a226ec",
+     "name": "Monitor",
+     "color": "purple"
+    }
+   },
+   "Evidence Quality": {
+    "id": "~fjz",
+    "type": "select",
+    "select": {
+     "id": "48ccb764-59f4-446b-955f-38e52dd9e973",
+     "name": "Strong",
+     "color": "green"
+    }
+   },
+   "Name": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "AMA — 2026 State of Marketing Careers Report",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "AMA — 2026 State of Marketing Careers Report",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/AMA-2026-State-of-Marketing-Careers-Report-3e658a0779e881b99ac2c0ec4747c3a5",
+  "public_url": null,
+  "archived": false,
+  "request_id": "2d6f1766-a572-436b-9cd0-60c432100b2a"
+ },
+ "block_count": 0,
+ "blocks": []
+}

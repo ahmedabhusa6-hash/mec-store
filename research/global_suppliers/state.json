@@ -1,0 +1,31 @@
+{
+ "run": "GDS-2",
+ "counters": {
+  "queries_ok": 163,
+  "queries_fail": 13,
+  "results": 898,
+  "qualified_new": 230,
+  "rejected": 395,
+  "insufficient": 1348
+ },
+ "rate_limit": {
+  "blocked": false,
+  "streak": 3
+ },
+ "checkpoint": {
+  "qualified_total": 230,
+  "last_checkpoint_at": "2026-09-29T04:20+00:00",
+  "checkpoint_number": 2,
+  "note": "GDS-2 session end: 230 qualified; search quota blocked all session; quota-free channels saturated (910 seeds deep-harvested, 1975 domains verified, 1562 files mined)"
+ },
+ "persistence": {
+  "LAST VERIFIED STATE": "230 qualified (GDS-1 131 raw -> QC-cleaned baseline 117 -> GDS-2 230); 163+0 search queries OK this session (quota blocked); 1975 domains page-verified; 408 deep-rescued",
+  "QUALIFIED ENTITIES": "research/global_suppliers/entities/qualified.json (230)",
+  "MARKETPLACE-ONLY (not counted)": "research/global_suppliers/entities/marketplace_only.json (2)",
+  "DUPLICATES/REJECTED": "research/global_suppliers/entities/non_qualified.json + qc_rejects.json (303 documented rejects)",
+  "INSUFFICIENT EVIDENCE": "research/global_suppliers/entities/non_qualified.json (1348 insufficient)",
+  "QUERY PLAN": "research/global_suppliers/queries.json (2528 queries: wave1 262 + wave2 2266; 2365 remaining)",
+  "RESEARCH FRONTIER": "download/gds_dataset_summary_ar.md",
+  "NEXT WORK": "A) when search quota resets: node scripts/global_suppliers/patient_discover.mjs 2000 540 (resumes from ledger, never burns queries on 429) -> process.py -> verify.py -> verify_deeper.py -> qualify.py --rebuild -> qc_review.py -> export. B) QC pattern for new batches: reject fintech/payments-only, news/media, SaaS tools, platform holders (office.com/discord/airbnb), P2P marketplaces -> MARKETPLACE_ONLY registry, comparison sites -> discovery sources. C) diversity: prioritize wave-2 local-language queries (ID/TR/VN/TH/AR/RU/ES/PT)."
+ }
+}

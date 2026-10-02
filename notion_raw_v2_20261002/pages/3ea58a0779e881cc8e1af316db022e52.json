@@ -1,0 +1,721 @@
+{
+ "capture_reason": "NEW",
+ "captured_at": "2026-10-02T12:06:31+03:00",
+ "title": "AUTO-CYCLE-0083 — RECONCILIATION + RUNTIME GATE",
+ "last_edited": "2026-09-29T02:04:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3ea58a07-79e8-81cc-8e1a-f316db022e52",
+  "created_time": "2026-09-29T02:04:00.000Z",
+  "last_edited_time": "2026-09-29T02:04:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "page_id",
+   "page_id": "3e658a07-79e8-81da-8a9f-cb80d02481aa"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "title": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "AUTO-CYCLE-0083 — RECONCILIATION + RUNTIME GATE",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "AUTO-CYCLE-0083 — RECONCILIATION + RUNTIME GATE",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/AUTO-CYCLE-0083-RECONCILIATION-RUNTIME-GATE-3ea58a0779e881cc8e1af316db022e52",
+  "public_url": null,
+  "archived": false,
+  "request_id": "24704b7a-cfd3-4aff-b8f1-5313d13bc830"
+ },
+ "block_count": 66,
+ "blocks": [
+  {
+   "id": "05515ea4-6e55-4428-828a-9c907302e794",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Cycle_ID: AUTO-CYCLE-0083"
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "bd16ac70-d420-41b1-97c0-5df57bc0ac3f",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Trigger: Central Continuous Automation System trigger."
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "bd69d26e-331e-4da1-8bc5-0d864d005e87",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "State Before: AUTO-CYCLE-0082 loaded from Notion."
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "9141a57d-757c-4b9f-b444-1698af8c6a10",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Pre-Flight / Ownership"
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "f1185a71-e0a1-47b3-adc3-79e4646d4d26",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Active automations inspected."
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "43658d05-6182-479a-ad1d-b738a40940bb",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Exactly one enabled automation exists for the Central Automation System purpose: نظام الأتمتة — هندسة وإصلاح 24/7."
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "acfac336-b114-4097-b207-217b1a122be1",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Other enabled automations have different scopes and were not modified."
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "c2580549-6147-4fcd-8d43-92cc22de6659",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "No duplicate Central Automation trigger detected."
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "06a1b459-07ed-45c2-88d4-6f0f295d1312",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Highest-Value Gap"
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "cb74d3af-51c9-4719-8f8b-9b951882692e",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Independent Central Runtime repository/codebase and independently verified deployment path remain blocked."
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "bbe225c6-5989-4aec-9b58-603d9faa23a0",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Secondary reconciliation gap: GitHub generic repository listing conflicts with direct repository and owner-affiliation evidence."
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "5c0b9c69-3b26-43b9-8108-bbbe88ea45a1",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Reconciliation / Evidence"
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "ae329618-e2ae-4719-a4a7-8ae5c3b960ca",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Notion AUTO-CYCLE-0082 was read before decision."
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "e9c90ddb-edfc-4e57-b8d7-0acc7c90d266",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Direct GitHub read for AhmedMar98/Umm-sara previously verified default_branch=main and admin/push permissions."
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "0aff3598-a66e-4431-ba56-171833e3ec91",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "GitHub owner-affiliation listing previously returned exactly three owned repositories: Prompt-, Telegram, and Umm-sara."
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "6569e56f-e30d-4d46-bff5-7303e09be576",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Generic GitHub repository listing previously returned zero; this remains classified as connector-scope conflict, not deletion."
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "4709a860-693b-4ebb-880f-1aab00eabdbb",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Current automation inventory confirms the Central Automation trigger remains enabled and unique for its purpose."
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "4f7c48e5-3cdd-4a0d-972a-ff3f484ee408",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "No Business repository, branch, or service was modified."
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "934d73c9-37ad-4df2-b567-331b4e3556f5",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Research / Independent Alternatives"
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "884383f1-943d-4002-9639-15e334bba187",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Cloudflare Workers + Workflows + Durable Objects/Queues: viable independent architecture candidate, but no connected deployment credential/path was verified."
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "bae0a734-311e-4830-88ea-76ebcd50edbd",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Render Workflows / Background Worker + durable external state: viable candidate, but current connected resources are not an independent production runtime."
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "74107380-31d2-449d-b8c7-04fa03a98959",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Oracle Always Free Compute: independent infrastructure candidate, but no connected execution path is verified."
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "b8b6f501-3400-4da3-85f6-7295779e8c1e",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Replit independent App: prior non-interactive creation path was blocked; no new execution evidence was obtained in this cycle."
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "43259cbc-ee6a-4836-97c4-8657c704a962",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Decision"
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "5da3ab5b-4429-4a60-b7f6-65c6a7797398",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "KEEP REPOSITORY ISOLATION GATE."
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "fe90341f-5d89-4c2d-a232-175be838f523",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "RECONCILE FIRST on GitHub connector scope before any repository-management mutation."
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "f6a649a9-5dcc-44d3-8fdb-cc44b807d50c",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Do not use Umm-sara, main, umm-sarah-web, or any existing Business Runtime as Central Runtime."
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "9c4aca4c-2075-4eea-aaa9-53d24953d271",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Fix Applied"
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "7ee0a57f-46f6-4363-8e64-fd739a55abad",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "NO INFRASTRUCTURE MUTATION."
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "8fa38d28-5dac-4d88-b926-f2b5158a20bd",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "The only safe action this cycle was state reconciliation and confirmation that the existing Central Automation trigger remains unique."
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "4d18da26-ee60-4c2c-b06d-6b7e4be00abf",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Verification"
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "e6ccc8aa-3104-4a52-9e35-d5cff214ac14",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Notion state loaded before decision: VERIFIED."
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "5cb84613-2ee0-4b6b-a8f7-458a8a6f21bb",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Central trigger ownership checked: VERIFIED."
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "e71a06d9-77db-4596-a17d-3f7a314b235e",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "No duplicate Central Automation trigger: VERIFIED."
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "fd8257a0-01b4-4beb-a2c9-9699a343692e",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Business project mutation: NONE VERIFIED."
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "ddce8b98-8274-40f4-9333-bc0955986ae9",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Independent repository creation: NOT VERIFIED."
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "848fabad-2f3d-4bc7-87b1-0d709ff8ce3a",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Independent deployment: NOT VERIFIED."
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "df7ea279-d799-48be-a1fc-3bb8b5e43e15",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "State After"
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "94ba80a2-0414-4921-b163-fe5867153db8",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "CENTRAL_RUNTIME=DESIGNED/NOT_DEPLOYED"
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "0e35aff2-8d49-4fac-af33-af62b88b292a",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "ARCHITECTURE=HARDENED"
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "aa600867-e63e-4e49-85e2-51a1d0712931",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "REPOSITORY_ISOLATION=BLOCKED"
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "8b17bf1d-7f16-445c-b0d7-d4aaaa282449",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "INDEPENDENT_REPOSITORY=NOT_VERIFIED"
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "b6495457-c259-4f03-9bb2-cd15323610b7",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "DEPLOYMENT_PATH=NOT_VERIFIED"
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "7cf80117-73ea-44f0-9446-09cd8b78f8f5",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "DURABLE_STATE=NOT_VERIFIED"
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "6354d71f-3939-4b37-b021-52b656c6e604",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "DURABLE_QUEUE=NOT_VERIFIED"
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "d92db504-111b-43ce-bae4-92b8f2c756ed",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "LEASE/OWNERSHIP=NOT_IMPLEMENTED"
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "a279c127-5da5-4691-917c-a896f42b3946",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "IDEMPOTENCY=NOT_IMPLEMENTED"
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "4bde6277-ec2c-449e-afa5-c9134e14e699",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "RECOVERY=NOT_IMPLEMENTED"
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "4df2935e-05e6-4496-a209-2117425a2837",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "OBSERVABILITY=NOT_IMPLEMENTED"
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "1ddad47e-8d88-4262-a7ff-28c55770b1ea",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "BUSINESS_MUTATION=NONE VERIFIED"
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "a3afb167-9aec-49fc-b7c0-548450de278d",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "GITHUB_INVENTORY=PARTIALLY_RECONCILED / GENERIC_CONNECTOR_CONFLICT_REMAINS"
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "9d222901-06e6-4df8-b09c-c55e49491c68",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Quality Control / New Gaps"
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "3009eba0-06ce-47fe-9060-9d054d3990ab",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "CONNECTOR_SCOPE_CONFLICT remains open."
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "e396cc40-250d-406a-90ee-33ffd4a33d28",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Independent repository creation path missing."
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "adb42d5d-516f-4c05-9709-03a129f94178",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Independent deployment path missing."
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "959f738c-fb28-44d0-bc6f-e64953b0cfbe",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Production durable state and queue missing."
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "8721ade9-cdc3-4f60-985f-995e2391e024",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Failure/recovery test suite missing."
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "a244469d-58ef-4386-b6ea-0f490ad0141a",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Billing authorization for paid production resources remains unverified."
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "521b436e-30da-4907-8e83-124437ba95dc",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Next Work"
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "16b51265-c553-4f58-871c-1044e215e375",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Resolve or bypass the GitHub connector-scope conflict using an authorized direct account/repository-management path."
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "026ed53e-5223-4382-b883-5ed95e164d59",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Establish independent repository/codebase identity without touching Business repositories."
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "53e30763-859c-45f3-8579-4886a2ac3b21",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Verify isolated deployment identity."
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "f3a081bb-be74-4d3c-8b1d-042637bd4e4c",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Only then implement minimal Central Runtime and durable state/queue."
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "c55bc423-58f7-4a5a-accf-01be956f6a89",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Execute Lease/Ownership, duplicate delivery, UNKNOWN reconciliation, retry storm, backpressure, restart/resume, recovery, and observability tests."
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "f8ae6d34-2ef0-4920-8847-2dc895edfa66",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Commit_Status: PREPARED"
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  },
+  {
+   "id": "da5da4ad-245e-462b-b9be-3f3b3a8e928d",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Cycle Status: PARTIAL"
+   ],
+   "created": "2026-09-29T02:04:00.000Z",
+   "edited": "2026-09-29T02:04:00.000Z"
+  }
+ ]
+}

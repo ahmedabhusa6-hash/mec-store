@@ -1,0 +1,243 @@
+{
+ "generated": "2026-09-29T13:50:44.876182+00:00",
+ "link_verification": {
+  "https://stackvault.shop/": {
+   "status": 200,
+   "final_url": "https://stackvault.shop/",
+   "server": "Netlify",
+   "ip_note": "",
+   "size": 34508,
+   "t_ok": true
+  },
+  "https://stackvault.shop/my_orders": {
+   "status": 200,
+   "final_url": "https://stackvault.shop/my_orders",
+   "server": "Netlify",
+   "ip_note": "",
+   "size": 63501,
+   "t_ok": true
+  },
+  "dns_ips": [
+   "75.2.60.5"
+  ],
+  "reverse_dns": {
+   "75.2.60.5": "acd89244c803f7181.awsglobalaccelerator.com"
+  }
+ },
+ "supply_sources": {
+  "catalog_endpoint_used": "https://decohomz.com/sv-api/products",
+  "catalog_size": 354,
+  "captured_at": "2026-09-29T13:50:48.598951+00:00",
+  "id_prefix_census": {
+   "ps": 316,
+   "mr": 37,
+   "dummy": 1
+  },
+  "id_prefix_examples": {
+   "dummy": [
+    {
+     "id": "dummy-free-test",
+     "name": "Free Test Key"
+    }
+   ],
+   "ps": [
+    {
+     "id": "ps_6aacdb525271203cb12d8603",
+     "name": "✅🌐 (can be monetized) Upgrade X Premium 3 months full warranty"
+    },
+    {
+     "id": "ps_6aacdb585271203cb12d874c",
+     "name": "✅🌐 (can be monetized) Upgrade X Premium 6 months full warranty"
+    },
+    {
+     "id": "ps_6ab4b86471af64b485ebe66c",
+     "name": "(💚So Beautiful) Chatgpt Plus Apple Pay 1 month full warranty"
+    },
+    {
+     "id": "ps_6aacd09c5271203cb12b5525",
+     "name": "🤖 1B Credit API Codex 2 Days - full warranty"
+    },
+    {
+     "id": "ps_6aaccf715271203cb12b2504",
+     "name": "🤖 100M Credit API Codex 1 Day - full warranty"
+    }
+   ],
+   "mr": [
+    {
+     "id": "mr_adobe-express-12m",
+     "name": "😎 Adobe Express 12m"
+    },
+    {
+     "id": "mr_amazon-prime-6m",
+     "name": "📺 Amazon Prime Video 6m"
+    },
+    {
+     "id": "mr_apple_music_5m",
+     "name": "🍎 Apple Music 5M"
+    },
+    {
+     "id": "mr_brain-fm",
+     "name": "Brain.fm 1 Year"
+    },
+    {
+     "id": "mr_coursera-premium-12m",
+     "name": "Coursera Premium 12m"
+    }
+   ]
+  },
+  "cost_price_visibility": {
+   "n_with_cost": 353,
+   "note": "costPrice = supplier purchase cost, exposed on public API"
+  },
+  "margin_stats_pct": {
+   "mean": 25.1,
+   "median": 20.1,
+   "min": 15.0,
+   "max": 154.3
+  },
+  "margin_by_category_pct": {
+   "Digital Services": {
+    "mean": 25.7,
+    "n": 172
+   },
+   "AI Subscriptions": {
+    "mean": 23.3,
+    "n": 100
+   },
+   "Design & Editing": {
+    "mean": 25.8,
+    "n": 58
+   },
+   "Software Keys": {
+    "mean": 26.9,
+    "n": 15
+   },
+   "Learning": {
+    "mean": 26.0,
+    "n": 4
+   },
+   "Streaming": {
+    "mean": 23.1,
+    "n": 3
+   },
+   "Bulk Emails": {
+    "mean": 50.0,
+    "n": 1
+   }
+  },
+  "external_signals_in_descriptions": {
+   "teamsoclo.site": {
+    "count": 85,
+    "samples": [
+     {
+      "product": "🤖 1B Credit API Codex 2 Days - full warranty",
+      "hit": "https://gpt.teamsoclo.site/v1"
+     },
+     {
+      "product": "🤖 1B Credit API Codex 2 Days - full warranty",
+      "hit": "https://docs.teamsoclo.site/"
+     },
+     {
+      "product": "🤖 1B Credit API Codex 2 Days - full warranty",
+      "hit": "https://gpt.teamsoclo.site/check"
+     },
+     {
+      "product": "🤖 1B Credit API Codex 2 Days - full warranty",
+      "hit": "https://redeem.teamsoclo.site/"
+     }
+    ]
+   },
+   "ops link": {
+    "count": 49,
+    "samples": [
+     {
+      "product": "🤖 1B Credit API Codex 2 Days - full warranty",
+      "hit": "https://t.me/teamsoclo"
+     },
+     {
+      "product": "🤖 100M Credit API Codex 1 Day - full warranty",
+      "hit": "https://t.me/teamsoclo"
+     },
+     {
+      "product": "🤖 100M Credit API Codex 5 Days - full warranty",
+      "hit": "https://t.me/teamsoclo"
+     },
+     {
+      "product": "🤖 10M Credit API Codex 1 Day - full warranty",
+      "hit": "https://t.me/teamsoclo"
+     }
+    ]
+   },
+   "OTP/SMS provider": {
+    "count": 20,
+    "samples": [
+     {
+      "product": "(💚So Beautiful) Chatgpt Plus Apple Pay 1 month full warranty",
+      "hit": "https://smspool.net"
+     },
+     {
+      "product": "(💚So Beautiful) Chatgpt Plus Apple Pay 1 month full warranty",
+      "hit": "https://viotp.com/."
+     },
+     {
+      "product": "🎨 ACC CHAT GPT BUSINESS 30 D (1D warranty)",
+      "hit": "https://2fa.live"
+     },
+     {
+      "product": "🎨 ChatGPT Plus 1 Month (5H warranty)",
+      "hit": "https://smspool.net"
+     }
+    ]
+   },
+   "raw IP endpoint": {
+    "count": 1,
+    "samples": [
+     {
+      "product": "😀 Old Random Gmail 2010~2022",
+      "hit": "103.116.38.76:3000"
+     }
+    ]
+   }
+  },
+  "catalog_families": {
+   "Digital Services": 173,
+   "AI Subscriptions": 100,
+   "Design & Editing": 58,
+   "Software Keys": 15,
+   "Learning": 4,
+   "Streaming": 3,
+   "Bulk Emails": 1
+  },
+  "ai_saas_family": {
+   "n_products": 124,
+   "sample": [
+    "(💚So Beautiful) Chatgpt Plus Apple Pay 1 month full warranty",
+    "📝 Admin Notion Business 3 months full warranty",
+    "📝 Admin Notion Business Team 1 month full warranty",
+    "😎 Adobe All Apps 7 Days no warranty",
+    "😎 Adobe Express 12m",
+    "🎨 Adobe Express Premium 12 Months",
+    "😎 Adobe Full App Bypass Version 1 Month - full warranty",
+    "😎 Adobe Full Apps (Bypass Version) 2 devices 3 months full w",
+    "😎 Adobe Full Apps provides 2 devices for 30 days with full w",
+    "🤶 API 100M Token Claude 1 Day - full warranty"
+   ]
+  },
+  "stock_sync_hint": {
+   "n": 354,
+   "distinct_values_top": {
+    "0": 117,
+    "1": 25,
+    "4": 13,
+    "3": 12,
+    "5": 12,
+    "2": 10
+   },
+   "note": "999/dummy = test; small ints = synced reseller stock"
+  }
+ },
+ "cross_match_prodseller": {
+  "matched_families": 9,
+  "note": "strict SKU identity matches vs ProdSeller channel listings 2026-09-27"
+ }
+}

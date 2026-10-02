@@ -1,0 +1,3106 @@
+{
+ "generated_at": "2026-10-02T12:26:31+03:00",
+ "operation": "D5 token rotation capture",
+ "token": {
+  "prefix": "ntn_237905…",
+  "workspace": "مساحة عمل Ahmed Ahmed",
+  "workspace_id": "c8558a07-79e8-8108-b685-0003b8f22ec9",
+  "owner": "Ahmed Ahmed (tasahom.1998@gmail.com)",
+  "bot": "Z.ai"
+ },
+ "old_capture": {
+  "index": "/home/z/my-project/notion_raw/00_index.json",
+  "generated_at": "2026-09-26T23:48:03+0000",
+  "pages_indexed": 894,
+  "pages_exported": 546,
+  "databases": 31
+ },
+ "inventory": {
+  "pages": 973,
+  "databases": 31,
+  "search_calls": 11
+ },
+ "delta": {
+  "new_pages": 79,
+  "changed_pages": 10,
+  "unchanged_pages": 884,
+  "new_dbs": 0,
+  "changed_dbs": 31,
+  "unchanged_dbs": 0,
+  "gone_pages": 0,
+  "gone_dbs": 0
+ },
+ "delta_detail": {
+  "new_pages": [
+   {
+    "id": "3ec58a07-79e8-812e-a7eb-f73d377c9ba2",
+    "title": "مرجع حاكم — هندسة Z.ai Agent / GLM",
+    "last_edited": "2026-10-02T04:05:00.000Z",
+    "created": "2026-10-01T23:25:00.000Z",
+    "url": "https://app.notion.com/p/Z-ai-Agent-GLM-3ec58a0779e8812ea7ebf73d377c9ba2",
+    "_class": "NEW"
+   },
+   {
+    "id": "3ed58a07-79e8-8183-a21a-eb6999ed4924",
+    "title": "Deep Research Findings — Supplier Intelligence — 2026-10-02",
+    "last_edited": "2026-10-02T02:32:00.000Z",
+    "created": "2026-10-02T02:32:00.000Z",
+    "url": "https://app.notion.com/p/Deep-Research-Findings-Supplier-Intelligence-2026-10-02-3ed58a0779e88183a21aeb6999ed4924",
+    "_class": "NEW"
+   },
+   {
+    "id": "3ed58a07-79e8-81b3-954f-e116cd960d77",
+    "title": "Supplier Intelligence — Telegram API Providers — Research & System Design",
+    "last_edited": "2026-10-02T02:32:00.000Z",
+    "created": "2026-10-02T02:29:00.000Z",
+    "url": "https://app.notion.com/p/Supplier-Intelligence-Telegram-API-Providers-Research-System-Design-3ed58a0779e881b3954fe116cd960d77",
+    "_class": "NEW"
+   },
+   {
+    "id": "3ed58a07-79e8-8116-b4b9-c4a0eea3e91a",
+    "title": "Final Deep Research Prompt — Provider Intelligence Engine",
+    "last_edited": "2026-10-02T02:32:00.000Z",
+    "created": "2026-10-02T02:32:00.000Z",
+    "url": "https://app.notion.com/p/Final-Deep-Research-Prompt-Provider-Intelligence-Engine-3ed58a0779e88116b4b9c4a0eea3e91a",
+    "_class": "NEW"
+   },
+   {
+    "id": "3eb58a07-79e8-8101-ae55-c665a113b669",
+    "title": "أم سارة — متطلبات إطلاق الموقع والامتثال النظامي في السعودية",
+    "last_edited": "2026-09-30T15:03:00.000Z",
+    "created": "2026-09-30T14:48:00.000Z",
+    "url": "https://app.notion.com/p/3eb58a0779e88101ae55c665a113b669",
+    "_class": "NEW"
+   },
+   {
+    "id": "3eb58a07-79e8-819b-8583-ea2f1f86ec33",
+    "title": "SKey ERP — Master Brand Core | v1 | مسودة اختبار",
+    "last_edited": "2026-09-30T07:48:00.000Z",
+    "created": "2026-09-30T07:48:00.000Z",
+    "url": "https://app.notion.com/p/SKey-ERP-Master-Brand-Core-v1-3eb58a0779e8819b8583ea2f1f86ec33",
+    "_class": "NEW"
+   },
+   {
+    "id": "3eb58a07-79e8-81c4-84b2-ef0b90271b52",
+    "title": "AUTO-CYCLE-0091 — PROVISIONING CAPABILITY RECHECK / BLOCKED",
+    "last_edited": "2026-09-30T02:09:00.000Z",
+    "created": "2026-09-30T02:09:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0091-PROVISIONING-CAPABILITY-RECHECK-BLOCKED-3eb58a0779e881c484b2ef0b90271b52",
+    "_class": "NEW"
+   },
+   {
+    "id": "3eb58a07-79e8-81d6-aced-fa1034327b31",
+    "title": "AUTO-CYCLE-0090 — GITHUB CAPABILITY RECONCILIATION",
+    "last_edited": "2026-09-30T01:06:00.000Z",
+    "created": "2026-09-30T01:06:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0090-GITHUB-CAPABILITY-RECONCILIATION-3eb58a0779e881d6acedfa1034327b31",
+    "_class": "NEW"
+   },
+   {
+    "id": "3eb58a07-79e8-8199-8962-e52654880b56",
+    "title": "AUTO-CYCLE-0089 — LIVE RECONCILIATION + ISOLATION GATE",
+    "last_edited": "2026-09-30T00:02:00.000Z",
+    "created": "2026-09-30T00:02:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0089-LIVE-RECONCILIATION-ISOLATION-GATE-3eb58a0779e881998962e52654880b56",
+    "_class": "NEW"
+   },
+   {
+    "id": "3ea58a07-79e8-8171-bea2-c2ebabf873fd",
+    "title": "AUTO-CYCLE-0088 — PERSISTENCE RECOVERED + RUNTIME GATE",
+    "last_edited": "2026-09-29T23:03:00.000Z",
+    "created": "2026-09-29T23:03:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0088-PERSISTENCE-RECOVERED-RUNTIME-GATE-3ea58a0779e88171bea2c2ebabf873fd",
+    "_class": "NEW"
+   },
+   {
+    "id": "3ea58a07-79e8-81b2-8aaf-ceef82b8cafe",
+    "title": "Conversation Migration Record — Accounting Systems — 2026-09-30",
+    "last_edited": "2026-09-29T22:47:00.000Z",
+    "created": "2026-09-29T22:45:00.000Z",
+    "url": "https://app.notion.com/p/Conversation-Migration-Record-Accounting-Systems-2026-09-30-3ea58a0779e881b28aafceef82b8cafe",
+    "_class": "NEW"
+   },
+   {
+    "id": "3ea58a07-79e8-812c-bb6f-fd9f509499fe",
+    "title": "Conversation Scope & Persistence Audit — Accounting Systems — 2026-09-30",
+    "last_edited": "2026-09-29T22:47:00.000Z",
+    "created": "2026-09-29T22:19:00.000Z",
+    "url": "https://app.notion.com/p/Conversation-Scope-Persistence-Audit-Accounting-Systems-2026-09-30-3ea58a0779e8812cbb6ffd9f509499fe",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e958a07-79e8-8159-b0c4-c7b0553270d9",
+    "title": "موردين فقط",
+    "last_edited": "2026-09-29T22:47:00.000Z",
+    "created": "2026-09-28T18:50:00.000Z",
+    "url": "https://app.notion.com/p/3e958a0779e88159b0c4c7b0553270d9",
+    "_class": "NEW"
+   },
+   {
+    "id": "3ea58a07-79e8-8159-885e-cbaae3098688",
+    "title": "Migration Integrity Correction — ASK-4 Latest Change — 2026-09-30",
+    "last_edited": "2026-09-29T22:46:00.000Z",
+    "created": "2026-09-29T22:46:00.000Z",
+    "url": "https://app.notion.com/p/Migration-Integrity-Correction-ASK-4-Latest-Change-2026-09-30-3ea58a0779e88159885ecbaae3098688",
+    "_class": "NEW"
+   },
+   {
+    "id": "3ea58a07-79e8-8153-a25f-f5027478d321",
+    "title": "Migration — Accounting Systems Conversation — 2026-09-30",
+    "last_edited": "2026-09-29T22:46:00.000Z",
+    "created": "2026-09-29T22:44:00.000Z",
+    "url": "https://app.notion.com/p/Migration-Accounting-Systems-Conversation-2026-09-30-3ea58a0779e88153a25ff5027478d321",
+    "_class": "NEW"
+   },
+   {
+    "id": "3ea58a07-79e8-8151-87d7-f12824282b1c",
+    "title": "MASTER MIGRATION RECORD — Deep Marketing Conversation — 2026-09-30",
+    "last_edited": "2026-09-29T22:39:00.000Z",
+    "created": "2026-09-29T22:36:00.000Z",
+    "url": "https://app.notion.com/p/MASTER-MIGRATION-RECORD-Deep-Marketing-Conversation-2026-09-30-3ea58a0779e8815187d7f12824282b1c",
+    "_class": "NEW"
+   },
+   {
+    "id": "3ea58a07-79e8-8125-9155-ebb139de9aa3",
+    "title": "Reasoning Trail — Deep Marketing Conversation — 2026-09-30",
+    "last_edited": "2026-09-29T22:36:00.000Z",
+    "created": "2026-09-29T22:33:00.000Z",
+    "url": "https://app.notion.com/p/Reasoning-Trail-Deep-Marketing-Conversation-2026-09-30-3ea58a0779e881259155ebb139de9aa3",
+    "_class": "NEW"
+   },
+   {
+    "id": "3ea58a07-79e8-81d7-83b2-ffe445eae8df",
+    "title": "Accounting Systems — Governance Addendum — 2026-09-30",
+    "last_edited": "2026-09-29T22:19:00.000Z",
+    "created": "2026-09-29T22:19:00.000Z",
+    "url": "https://app.notion.com/p/Accounting-Systems-Governance-Addendum-2026-09-30-3ea58a0779e881d783b2ffe445eae8df",
+    "_class": "NEW"
+   },
+   {
+    "id": "3ea58a07-79e8-81f5-8f25-dc8257292b5c",
+    "title": "AUTO-CYCLE-0086 — GITHUB INVENTORY RECONCILIATION",
+    "last_edited": "2026-09-29T05:07:00.000Z",
+    "created": "2026-09-29T05:07:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0086-GITHUB-INVENTORY-RECONCILIATION-3ea58a0779e881f58f25dc8257292b5c",
+    "_class": "NEW"
+   },
+   {
+    "id": "3ea58a07-79e8-8128-bf95-d436b555a404",
+    "title": "AUTO-CYCLE-0085 — REVALIDATION",
+    "last_edited": "2026-09-29T04:05:00.000Z",
+    "created": "2026-09-29T04:05:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0085-REVALIDATION-3ea58a0779e88128bf95d436b555a404",
+    "_class": "NEW"
+   },
+   {
+    "id": "3ea58a07-79e8-81e6-a093-f0685831a2ad",
+    "title": "AUTO-CYCLE-0084 — LIVE RECONCILIATION + RUNTIME GATE",
+    "last_edited": "2026-09-29T03:08:00.000Z",
+    "created": "2026-09-29T03:08:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0084-LIVE-RECONCILIATION-RUNTIME-GATE-3ea58a0779e881e6a093f0685831a2ad",
+    "_class": "NEW"
+   },
+   {
+    "id": "3ea58a07-79e8-81cc-8e1a-f316db022e52",
+    "title": "AUTO-CYCLE-0083 — RECONCILIATION + RUNTIME GATE",
+    "last_edited": "2026-09-29T02:04:00.000Z",
+    "created": "2026-09-29T02:04:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0083-RECONCILIATION-RUNTIME-GATE-3ea58a0779e881cc8e1af316db022e52",
+    "_class": "NEW"
+   },
+   {
+    "id": "3ea58a07-79e8-8178-9ab7-da9270e00ac2",
+    "title": "AUTO-CYCLE-0082 — GITHUB RECONCILIATION + RUNTIME GATE",
+    "last_edited": "2026-09-29T01:04:00.000Z",
+    "created": "2026-09-29T01:04:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0082-GITHUB-RECONCILIATION-RUNTIME-GATE-3ea58a0779e881789ab7da9270e00ac2",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e958a07-79e8-8162-8176-f379beb7d1ba",
+    "title": "AUTO-CYCLE-0079 — RUNTIME ACCESS + DURABILITY RECONCILIATION",
+    "last_edited": "2026-09-28T22:04:00.000Z",
+    "created": "2026-09-28T22:04:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0079-RUNTIME-ACCESS-DURABILITY-RECONCILIATION-3e958a0779e881628176f379beb7d1ba",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e958a07-79e8-815e-b07d-e0e33fd5dfe8",
+    "title": "AUTO-CYCLE-0078 — EXECUTION ACCESS RECONCILIATION",
+    "last_edited": "2026-09-28T21:02:00.000Z",
+    "created": "2026-09-28T21:02:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0078-EXECUTION-ACCESS-RECONCILIATION-3e958a0779e8815eb07de0e33fd5dfe8",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e958a07-79e8-81d6-96ff-da1766b11c39",
+    "title": "AUTO-CYCLE-0077 — LIVE RECONCILIATION + EXECUTION ACCESS GATE",
+    "last_edited": "2026-09-28T20:11:00.000Z",
+    "created": "2026-09-28T20:11:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0077-LIVE-RECONCILIATION-EXECUTION-ACCESS-GATE-3e958a0779e881d696ffda1766b11c39",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e958a07-79e8-8172-b3d2-fc00e75163fc",
+    "title": "AUTO-CYCLE-0076 — EXECUTION ACCESS BOUNDARY RECONCILIATION",
+    "last_edited": "2026-09-28T19:10:00.000Z",
+    "created": "2026-09-28T19:10:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0076-EXECUTION-ACCESS-BOUNDARY-RECONCILIATION-3e958a0779e88172b3d2fc00e75163fc",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e958a07-79e8-8169-a2e9-f5c163a3fb82",
+    "title": "AUTO-CYCLE-0075 — ACCESS BOUNDARY + ALTERNATIVE RESEARCH",
+    "last_edited": "2026-09-28T18:01:00.000Z",
+    "created": "2026-09-28T18:01:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0075-ACCESS-BOUNDARY-ALTERNATIVE-RESEARCH-3e958a0779e88169a2e9f5c163a3fb82",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e958a07-79e8-81bd-8c92-f82fa48badb7",
+    "title": "AUTO-CYCLE-0074 — DIRECT DEPLOYMENT PATH RESEARCH",
+    "last_edited": "2026-09-28T17:10:00.000Z",
+    "created": "2026-09-28T17:10:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0074-DIRECT-DEPLOYMENT-PATH-RESEARCH-3e958a0779e881bd8c92f82fa48badb7",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e958a07-79e8-817b-9987-d01e73f2d8ae",
+    "title": "AUTO-CYCLE-0073 — NON-INTERACTIVE CREATION REVALIDATION",
+    "last_edited": "2026-09-28T16:03:00.000Z",
+    "created": "2026-09-28T16:03:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0073-NON-INTERACTIVE-CREATION-REVALIDATION-3e958a0779e8817b9987d01e73f2d8ae",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e958a07-79e8-8122-b62d-dfbf11a172ef",
+    "title": "AUTO-CYCLE-0072 — NON-INTERACTIVE CODEBASE GATE",
+    "last_edited": "2026-09-28T15:07:00.000Z",
+    "created": "2026-09-28T15:07:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0072-NON-INTERACTIVE-CODEBASE-GATE-3e958a0779e88122b62ddfbf11a172ef",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e958a07-79e8-8198-a466-d11c0957cd5c",
+    "title": "AUTO-CYCLE-0071 — INDEPENDENT CODEBASE GATE",
+    "last_edited": "2026-09-28T14:11:00.000Z",
+    "created": "2026-09-28T14:11:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0071-INDEPENDENT-CODEBASE-GATE-3e958a0779e88198a466d11c0957cd5c",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e958a07-79e8-81d7-8d20-ee4293807ca4",
+    "title": "AUTO-CYCLE-0070 — REPOSITORY CREATION GATE REVALIDATION",
+    "last_edited": "2026-09-28T13:14:00.000Z",
+    "created": "2026-09-28T13:14:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0070-REPOSITORY-CREATION-GATE-REVALIDATION-3e958a0779e881d78d20ee4293807ca4",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e958a07-79e8-812b-88d8-f13e0ddce2a7",
+    "title": "AUTO-CYCLE-0069 — ISOLATION PATH REVALIDATION",
+    "last_edited": "2026-09-28T12:12:00.000Z",
+    "created": "2026-09-28T12:12:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0069-ISOLATION-PATH-REVALIDATION-3e958a0779e8812b88d8f13e0ddce2a7",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e958a07-79e8-8144-93ad-db7e789769e0",
+    "title": "AUTO-CYCLE-0068 — CAPABILITY + DEPLOYMENT GATE",
+    "last_edited": "2026-09-28T11:10:00.000Z",
+    "created": "2026-09-28T11:10:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0068-CAPABILITY-DEPLOYMENT-GATE-3e958a0779e8814493addb7e789769e0",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e958a07-79e8-81bc-bab1-c6cf28e8e28b",
+    "title": "AUTO-CYCLE-0067 — RENDER AUTH RESOLVED + REPOSITORY GATE",
+    "last_edited": "2026-09-28T10:09:00.000Z",
+    "created": "2026-09-28T10:09:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0067-RENDER-AUTH-RESOLVED-REPOSITORY-GATE-3e958a0779e881bcbab1c6cf28e8e28b",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e958a07-79e8-81b1-abc7-f1128cdf9c54",
+    "title": "AUTO-CYCLE-0066 — RENDER WORKSPACE GATE",
+    "last_edited": "2026-09-28T09:06:00.000Z",
+    "created": "2026-09-28T09:06:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0066-RENDER-WORKSPACE-GATE-3e958a0779e881b1abc7f1128cdf9c54",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e958a07-79e8-81ca-96cb-ce32503aaffc",
+    "title": "AUTO-CYCLE-0065 — CAPABILITY RECONCILIATION",
+    "last_edited": "2026-09-28T08:05:00.000Z",
+    "created": "2026-09-28T08:05:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0065-CAPABILITY-RECONCILIATION-3e958a0779e881ca96cbce32503aaffc",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e958a07-79e8-81b9-b6a4-dabf2cc93429",
+    "title": "AUTO-CYCLE-0064 — RECONCILIATION + TOOL-CAPABILITY GATE",
+    "last_edited": "2026-09-28T07:14:00.000Z",
+    "created": "2026-09-28T07:14:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0064-RECONCILIATION-TOOL-CAPABILITY-GATE-3e958a0779e881b9b6a4dabf2cc93429",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e958a07-79e8-8180-8393-c3e110a86b84",
+    "title": "AUTO-CYCLE-0063 — REPOSITORY ISOLATION GATE RECONCILIATION",
+    "last_edited": "2026-09-28T06:11:00.000Z",
+    "created": "2026-09-28T06:11:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0063-REPOSITORY-ISOLATION-GATE-RECONCILIATION-3e958a0779e881808393c3e110a86b84",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e958a07-79e8-816e-a279-f520eef7bbf7",
+    "title": "AUTO-CYCLE-0062 — CLOUDFLARE NATIVE DURABLE SUBSTRATE RESEARCH",
+    "last_edited": "2026-09-28T05:04:00.000Z",
+    "created": "2026-09-28T05:04:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0062-CLOUDFLARE-NATIVE-DURABLE-SUBSTRATE-RESEARCH-3e958a0779e8816ea279f520eef7bbf7",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e958a07-79e8-810c-940a-ea70a843dee8",
+    "title": "AUTO-CYCLE-0061 — REPOSITORY GATE + FRESH LIMITS REVALIDATION",
+    "last_edited": "2026-09-28T04:08:00.000Z",
+    "created": "2026-09-28T04:08:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0061-REPOSITORY-GATE-FRESH-LIMITS-REVALIDATION-3e958a0779e8810c940aea70a843dee8",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e958a07-79e8-81cb-bda1-f894dacdf663",
+    "title": "AUTO-CYCLE-0060 — LIVE RECONCILIATION + DURABILITY GATE",
+    "last_edited": "2026-09-28T03:06:00.000Z",
+    "created": "2026-09-28T03:06:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0060-LIVE-RECONCILIATION-DURABILITY-GATE-3e958a0779e881cbbda1f894dacdf663",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e958a07-79e8-8199-bb95-c4f89e683886",
+    "title": "AUTO-CYCLE-0059 — RECONCILIATION + DURABILITY RESEARCH",
+    "last_edited": "2026-09-28T02:06:00.000Z",
+    "created": "2026-09-28T02:06:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0059-RECONCILIATION-DURABILITY-RESEARCH-3e958a0779e88199bb95c4f89e683886",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e958a07-79e8-814c-b902-fe8ed11dbf78",
+    "title": "AUTO-CYCLE-0058 — LIVE RECONCILIATION + REPOSITORY GATE",
+    "last_edited": "2026-09-28T01:03:00.000Z",
+    "created": "2026-09-28T01:03:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0058-LIVE-RECONCILIATION-REPOSITORY-GATE-3e958a0779e8814cb902fe8ed11dbf78",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e958a07-79e8-81ee-b79c-f04680441066",
+    "title": "AUTO-CYCLE-0057 — LIVE RECONCILIATION + REPOSITORY GATE",
+    "last_edited": "2026-09-28T00:06:00.000Z",
+    "created": "2026-09-28T00:06:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0057-LIVE-RECONCILIATION-REPOSITORY-GATE-3e958a0779e881eeb79cf04680441066",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e858a07-79e8-8165-b26e-e93c86efdabc",
+    "title": "AUTO-CYCLE-0056 — ORACLE ALWAYS FREE RESEARCH + REPOSITORY GATE",
+    "last_edited": "2026-09-27T23:06:00.000Z",
+    "created": "2026-09-27T23:06:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0056-ORACLE-ALWAYS-FREE-RESEARCH-REPOSITORY-GATE-3e858a0779e88165b26ee93c86efdabc",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e858a07-79e8-8142-b419-d4c4e95fadc9",
+    "title": "AUTO-CYCLE-0055 — REPOSITORY GATE RECONCILIATION",
+    "last_edited": "2026-09-27T22:08:00.000Z",
+    "created": "2026-09-27T22:08:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0055-REPOSITORY-GATE-RECONCILIATION-3e858a0779e88142b419d4c4e95fadc9",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e858a07-79e8-815a-b2b2-db06a675c41d",
+    "title": "AUTO-CYCLE-0054 — LIVE RECONCILIATION + DURABILITY / REPOSITORY GATE",
+    "last_edited": "2026-09-27T21:09:00.000Z",
+    "created": "2026-09-27T21:09:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0054-LIVE-RECONCILIATION-DURABILITY-REPOSITORY-GATE-3e858a0779e8815ab2b2db06a675c41d",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e858a07-79e8-8123-b99b-efacbc3a6804",
+    "title": "AUTO-CYCLE-0053 — LIVE STATE RECONCILIATION + DURABILITY GAP",
+    "last_edited": "2026-09-27T20:05:00.000Z",
+    "created": "2026-09-27T20:05:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0053-LIVE-STATE-RECONCILIATION-DURABILITY-GAP-3e858a0779e88123b99befacbc3a6804",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e858a07-79e8-8162-a864-d7bbfbf6ebf5",
+    "title": "AUTO-CYCLE-0052 — EXECUTION-PLANE RESEARCH + REPOSITORY GATE",
+    "last_edited": "2026-09-27T19:06:00.000Z",
+    "created": "2026-09-27T19:06:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0052-EXECUTION-PLANE-RESEARCH-REPOSITORY-GATE-3e858a0779e88162a864d7bbfbf6ebf5",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e858a07-79e8-81ad-9874-f8f6c74e1274",
+    "title": "AUTO-CYCLE-0051 — REPOSITORY CREATION PATH REVALIDATION",
+    "last_edited": "2026-09-27T18:06:00.000Z",
+    "created": "2026-09-27T18:06:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0051-REPOSITORY-CREATION-PATH-REVALIDATION-3e858a0779e881ad9874f8f6c74e1274",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e858a07-79e8-8103-9be8-c804387f6b80",
+    "title": "AUTO-CYCLE-0050 — RECONCILIATION + CURRENT VERIFIED STATE",
+    "last_edited": "2026-09-27T17:03:00.000Z",
+    "created": "2026-09-27T17:03:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0050-RECONCILIATION-CURRENT-VERIFIED-STATE-3e858a0779e881039be8c804387f6b80",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e858a07-79e8-8114-9eaa-e89e40d0ef56",
+    "title": "نتائج MEC-2.0 — تقييم سجل قنوات §19 واقتصاديات سلسلة التوريد — 2026-09-27",
+    "last_edited": "2026-09-27T16:33:00.000Z",
+    "created": "2026-09-27T01:02:00.000Z",
+    "url": "https://app.notion.com/p/MEC-2-0-19-2026-09-27-3e858a0779e881149eaae89e40d0ef56",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e858a07-79e8-8175-90a3-ed06c6185924",
+    "title": "MEC-3.0 — الدفعة 3 مكتملة + الكتالوج مغلق 437/437 + v4.2 APPROVED (27/09)",
+    "last_edited": "2026-09-27T16:33:00.000Z",
+    "created": "2026-09-27T16:33:00.000Z",
+    "url": "https://app.notion.com/p/MEC-3-0-3-437-437-v4-2-APPROVED-27-09-3e858a0779e8817590a3ed06c6185924",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e858a07-79e8-8131-80ac-f14b079d48ea",
+    "title": "Cycle 12 — MEC-3.0 FINAL: Batch-3 complete (218/218, 143/143 OK) + catalog closure 437/437 + v4.2 → APPROVED",
+    "last_edited": "2026-09-27T16:33:00.000Z",
+    "created": "2026-09-27T16:33:00.000Z",
+    "url": "https://app.notion.com/p/Cycle-12-MEC-3-0-FINAL-Batch-3-complete-218-218-143-143-OK-catalog-closure-437-437-v4-2--3e858a0779e8813180acf14b079d48ea",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e858a07-79e8-8161-84c4-df33064f75d5",
+    "title": "D1 — RESOLVED: v4.2 → Approved عبر قاعدة الاستثناء التأسيسي (27/09)",
+    "last_edited": "2026-09-27T16:30:00.000Z",
+    "created": "2026-09-27T16:30:00.000Z",
+    "url": "https://app.notion.com/p/D1-RESOLVED-v4-2-Approved-27-09-3e858a0779e8816184c4df33064f75d5",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e858a07-79e8-81fa-a8d4-d9c16227713b",
+    "title": "AUTO-CYCLE-0049 — RECONCILIATION + STATE GATE",
+    "last_edited": "2026-09-27T16:05:00.000Z",
+    "created": "2026-09-27T16:05:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0049-RECONCILIATION-STATE-GATE-3e858a0779e881faa8d4d9c16227713b",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e858a07-79e8-810e-bf02-d4c1c7981cf4",
+    "title": "AUTO-CYCLE-0048 — REPOSITORY AUTHORIZATION RECONCILIATION",
+    "last_edited": "2026-09-27T15:04:00.000Z",
+    "created": "2026-09-27T15:04:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0048-REPOSITORY-AUTHORIZATION-RECONCILIATION-3e858a0779e8810ebf02d4c1c7981cf4",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e858a07-79e8-817b-b17a-fa6cd39a88aa",
+    "title": "MEC-2.4 — مصفوفة 91 قناة + الهندسة العكسية لنموذج دولا (27/09)",
+    "last_edited": "2026-09-27T13:27:00.000Z",
+    "created": "2026-09-27T13:27:00.000Z",
+    "url": "https://app.notion.com/p/MEC-2-4-91-27-09-3e858a0779e8817bb17afa6cd39a88aa",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e858a07-79e8-81a9-bac1-cb7330f089cb",
+    "title": "Cycle 11 — MEC-2.4 Channel Matrix (91) + Dolaa-model Reverse Engineering (quota-free)",
+    "last_edited": "2026-09-27T13:27:00.000Z",
+    "created": "2026-09-27T13:27:00.000Z",
+    "url": "https://app.notion.com/p/Cycle-11-MEC-2-4-Channel-Matrix-91-Dolaa-model-Reverse-Engineering-quota-free-3e858a0779e881a9bac1cb7330f089cb",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e858a07-79e8-817d-add9-eee0f4618ff1",
+    "title": "AUTO-CYCLE-0046 — REPOSITORY GATE REVALIDATION",
+    "last_edited": "2026-09-27T13:04:00.000Z",
+    "created": "2026-09-27T13:04:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0046-REPOSITORY-GATE-REVALIDATION-3e858a0779e8817dadd9eee0f4618ff1",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e858a07-79e8-810c-b812-fc850788ad41",
+    "title": "AUTO-CYCLE-0045 — REPOSITORY CREATION PATH RECONCILIATION",
+    "last_edited": "2026-09-27T12:07:00.000Z",
+    "created": "2026-09-27T12:07:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0045-REPOSITORY-CREATION-PATH-RECONCILIATION-3e858a0779e8810cb812fc850788ad41",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e858a07-79e8-810c-8507-fc9e76dd66ed",
+    "title": "AUTO-CYCLE-0044 — REPOSITORY GATE RECONCILIATION",
+    "last_edited": "2026-09-27T11:08:00.000Z",
+    "created": "2026-09-27T11:08:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0044-REPOSITORY-GATE-RECONCILIATION-3e858a0779e8810c8507fc9e76dd66ed",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e858a07-79e8-8194-aa99-ee881f2cacb5",
+    "title": "AUTO-CYCLE-0043 — PERSISTENCE RECONCILIATION",
+    "last_edited": "2026-09-27T10:06:00.000Z",
+    "created": "2026-09-27T10:06:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0043-PERSISTENCE-RECONCILIATION-3e858a0779e88194aa99ee881f2cacb5",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e858a07-79e8-8116-b475-c7f9ce49110f",
+    "title": "AUTO-CYCLE-0042 — LIVE RECONCILIATION + SOURCE CONFLICT",
+    "last_edited": "2026-09-27T09:09:00.000Z",
+    "created": "2026-09-27T09:09:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0042-LIVE-RECONCILIATION-SOURCE-CONFLICT-3e858a0779e88116b475c7f9ce49110f",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e858a07-79e8-81b7-89f9-c57f09e0626b",
+    "title": "AUTO-CYCLE-0041 — REPOSITORY GATE + CURRENT EVIDENCE",
+    "last_edited": "2026-09-27T08:11:00.000Z",
+    "created": "2026-09-27T08:11:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0041-REPOSITORY-GATE-CURRENT-EVIDENCE-3e858a0779e881b789f9c57f09e0626b",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e858a07-79e8-8137-bfed-d0868c423987",
+    "title": "AUTO-CYCLE-0040 — STATE RECONCILIATION + CURRENT LIVE EVIDENCE",
+    "last_edited": "2026-09-27T08:08:00.000Z",
+    "created": "2026-09-27T08:08:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0040-STATE-RECONCILIATION-CURRENT-LIVE-EVIDENCE-3e858a0779e88137bfedd0868c423987",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e858a07-79e8-810b-8021-f1b86d820940",
+    "title": "AUTO-CYCLE-0039 — STATE RECONCILIATION + RUNTIME GATE",
+    "last_edited": "2026-09-27T06:05:00.000Z",
+    "created": "2026-09-27T06:05:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0039-STATE-RECONCILIATION-RUNTIME-GATE-3e858a0779e8810b8021f1b86d820940",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e858a07-79e8-81b2-961e-d64bb243e447",
+    "title": "MEC-2.3 — الموجة المباشرة: كشف كلفة الشراء + 59 عرضًا مرصودًا (27/09)",
+    "last_edited": "2026-09-27T05:12:00.000Z",
+    "created": "2026-09-27T05:12:00.000Z",
+    "url": "https://app.notion.com/p/MEC-2-3-59-27-09-3e858a0779e881b2961ed64bb243e447",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e858a07-79e8-81d6-8267-c519e8917a31",
+    "title": "Cycle 10 — MEC-2.3 Direct-Observation Wave (StackVault cost exposure + 59 direct offers) + Batch-3 launch infrastructure",
+    "last_edited": "2026-09-27T05:10:00.000Z",
+    "created": "2026-09-27T05:10:00.000Z",
+    "url": "https://app.notion.com/p/Cycle-10-MEC-2-3-Direct-Observation-Wave-StackVault-cost-exposure-59-direct-offers-Batch-3-l-3e858a0779e881d68267c519e8917a31",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e858a07-79e8-815d-9afc-c37895815aa9",
+    "title": "AUTO-CYCLE-0038 — LIVE RECONCILIATION + IDENTITY CONFLICT",
+    "last_edited": "2026-09-27T05:08:00.000Z",
+    "created": "2026-09-27T05:08:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0038-LIVE-RECONCILIATION-IDENTITY-CONFLICT-3e858a0779e8815d9afcc37895815aa9",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e858a07-79e8-81a5-b20d-e734ca559a3b",
+    "title": "AUTO-CYCLE-0037 — LIVE STATE RECONCILIATION + CURRENT ORCHESTRATION EVIDENCE",
+    "last_edited": "2026-09-27T04:08:00.000Z",
+    "created": "2026-09-27T04:08:00.000Z",
+    "url": "https://app.notion.com/p/AUTO-CYCLE-0037-LIVE-STATE-RECONCILIATION-CURRENT-ORCHESTRATION-EVIDENCE-3e858a0779e881a5b20de734ca559a3b",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e858a07-79e8-8179-99fe-d39ebf72b547",
+    "title": "Cycle 9 — MEC-2.2 Decisions Package (delegated D1/D2/D5 + B2B dossier + D2 first Word execution)",
+    "last_edited": "2026-09-27T04:02:00.000Z",
+    "created": "2026-09-27T04:02:00.000Z",
+    "url": "https://app.notion.com/p/Cycle-9-MEC-2-2-Decisions-Package-delegated-D1-D2-D5-B2B-dossier-D2-first-Word-execution-3e858a0779e8817999fed39ebf72b547",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e858a07-79e8-8185-852b-c1f6034be0b9",
+    "title": "نتائج الدفعة 2 — MEC-2.1 (173 SKU من P2، تشغيلة MEC2-20260927-B2)",
+    "last_edited": "2026-09-27T04:02:00.000Z",
+    "created": "2026-09-27T02:37:00.000Z",
+    "url": "https://app.notion.com/p/2-MEC-2-1-173-SKU-P2-MEC2-20260927-B2-3e858a0779e88185852bc1f6034be0b9",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e858a07-79e8-81bb-8aaf-fac0f9b59908",
+    "title": "نتائج MEC-2.2 — حزمة القرارات المفوَّضة (D1/D2/D5) وملف B2B وجاهزية الترقية",
+    "last_edited": "2026-09-27T04:02:00.000Z",
+    "created": "2026-09-27T04:02:00.000Z",
+    "url": "https://app.notion.com/p/MEC-2-2-D1-D2-D5-B2B-3e858a0779e881bb8aaffac0f9b59908",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e858a07-79e8-817f-97dc-cc65733007bc",
+    "title": "Cycle 8 — MEC-2.1 Batch 2 Execution (173 P2 SKUs, snippet-evidence run)",
+    "last_edited": "2026-09-27T02:38:00.000Z",
+    "created": "2026-09-27T02:37:00.000Z",
+    "url": "https://app.notion.com/p/Cycle-8-MEC-2-1-Batch-2-Execution-173-P2-SKUs-snippet-evidence-run-3e858a0779e8817f97dccc65733007bc",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e858a07-79e8-8183-8513-ca9ff8642de7",
+    "title": "Cycle 7 — MEC-2.0 — §19 Channel Registry Verification + Supply-Chain Economics",
+    "last_edited": "2026-09-27T01:03:00.000Z",
+    "created": "2026-09-27T01:02:00.000Z",
+    "url": "https://app.notion.com/p/Cycle-7-MEC-2-0-19-Channel-Registry-Verification-Supply-Chain-Economics-3e858a0779e881838513ca9ff8642de7",
+    "_class": "NEW"
+   },
+   {
+    "id": "3e858a07-79e8-812b-b58d-eb28bf42c7f0",
+    "title": "Cycle 6 — z.ai Meta-Analysis & Cross-Audit — Batch 1 Results Reconciliation",
+    "last_edited": "2026-09-27T01:03:00.000Z",
+    "created": "2026-09-27T01:02:00.000Z",
+    "url": "https://app.notion.com/p/Cycle-6-z-ai-Meta-Analysis-Cross-Audit-Batch-1-Results-Reconciliation-3e858a0779e8812bb58deb28bf42c7f0",
+    "_class": "NEW"
+   }
+  ],
+  "changed_pages": [
+   {
+    "id": "3e658a07-79e8-8158-b5a9-f63851feddbc",
+    "title": "🧠 Knowledge Operating System — Master Hub",
+    "last_edited": "2026-10-01T23:26:00.000Z",
+    "created": "2026-09-25T20:00:00.000Z",
+    "url": "https://app.notion.com/p/Knowledge-Operating-System-Master-Hub-3e658a0779e88158b5a9f63851feddbc",
+    "_class": "CHANGED"
+   },
+   {
+    "id": "3e558a07-79e8-8190-a6f3-fd335ba776f8",
+    "title": "مرجع حاكم — SKey ERP | Brand & Creative System",
+    "last_edited": "2026-09-30T07:53:00.000Z",
+    "created": "2026-09-24T20:38:00.000Z",
+    "url": "https://app.notion.com/p/SKey-ERP-Brand-Creative-System-3e558a0779e88190a6f3fd335ba776f8",
+    "_class": "CHANGED"
+   },
+   {
+    "id": "3e758a07-79e8-8167-91e5-f754f841eb73",
+    "title": "Architecture — Accounting Systems Taxonomy Node",
+    "last_edited": "2026-09-29T22:46:00.000Z",
+    "created": "2026-09-26T13:59:00.000Z",
+    "url": "https://app.notion.com/p/Architecture-Accounting-Systems-Taxonomy-Node-3e758a0779e8816791e5f754f841eb73",
+    "_class": "CHANGED"
+   },
+   {
+    "id": "3e658a07-79e8-812b-94dd-c53cd6689569",
+    "title": "Accounting Systems — Continuous Knowledge & Classification Operation",
+    "last_edited": "2026-09-29T22:46:00.000Z",
+    "created": "2026-09-25T21:50:00.000Z",
+    "url": "https://app.notion.com/p/Accounting-Systems-Continuous-Knowledge-Classification-Operation-3e658a0779e8812b94ddc53cd6689569",
+    "_class": "CHANGED"
+   },
+   {
+    "id": "3e758a07-79e8-8190-bbb5-d8a724ae8a5f",
+    "title": "مرجع نطاق العمل — Deep Marketing Conversation — 2026-09-26",
+    "last_edited": "2026-09-29T22:41:00.000Z",
+    "created": "2026-09-26T12:50:00.000Z",
+    "url": "https://app.notion.com/p/Deep-Marketing-Conversation-2026-09-26-3e758a0779e88190bbb5d8a724ae8a5f",
+    "_class": "CHANGED"
+   },
+   {
+    "id": "3e658a07-79e8-81c4-9cdd-d7b74626d61f",
+    "title": "مرجع حاكم — قاعدة بيانات أرخص موردي ومتاجر المنتجات والخدمات الرقمية",
+    "last_edited": "2026-09-27T16:33:00.000Z",
+    "created": "2026-09-25T12:25:00.000Z",
+    "url": "https://app.notion.com/p/3e658a0779e881c49cddd7b74626d61f",
+    "_class": "CHANGED"
+   },
+   {
+    "id": "3e758a07-79e8-81ee-be01-fb2480f0006f",
+    "title": "v4.2 — Catalog/Batch Architecture Candidate",
+    "last_edited": "2026-09-27T16:29:00.000Z",
+    "created": "2026-09-26T21:35:00.000Z",
+    "url": "https://app.notion.com/p/v4-2-Catalog-Batch-Architecture-Candidate-3e758a0779e881eebe01fb2480f0006f",
+    "_class": "CHANGED"
+   },
+   {
+    "id": "3e758a07-79e8-8130-9192-e0cb12b48731",
+    "title": "🧬 Prompt Development History — Supplier Intelligence",
+    "last_edited": "2026-09-27T01:03:00.000Z",
+    "created": "2026-09-26T18:14:00.000Z",
+    "url": "https://app.notion.com/p/Prompt-Development-History-Supplier-Intelligence-3e758a0779e881309192e0cb12b48731",
+    "_class": "CHANGED"
+   },
+   {
+    "id": "3e758a07-79e8-819c-872c-e119effe608e",
+    "title": "🔁 Operating Protocol — Notion-First ChatGPT ↔ Claude Relay",
+    "last_edited": "2026-09-27T01:03:00.000Z",
+    "created": "2026-09-26T16:54:00.000Z",
+    "url": "https://app.notion.com/p/Operating-Protocol-Notion-First-ChatGPT-Claude-Relay-3e758a0779e8819c872ce119effe608e",
+    "_class": "CHANGED"
+   },
+   {
+    "id": "3e658a07-79e8-81da-8a9f-cb80d02481aa",
+    "title": "Central Automation Runtime — سجل التنفيذ والبنية الحالية — 2026-09-26",
+    "last_edited": "2026-09-27T00:06:00.000Z",
+    "created": "2026-09-25T22:18:00.000Z",
+    "url": "https://app.notion.com/p/Central-Automation-Runtime-2026-09-26-3e658a0779e881da8a9fcb80d02481aa",
+    "_class": "CHANGED"
+   }
+  ],
+  "new_dbs": [],
+  "changed_dbs": [
+   {
+    "id": "e844ab12-d846-4974-9651-0892464966e5",
+    "title": "🔄 Interaction Archive — Supplier Intelligence",
+    "last_edited": "2026-09-26T18:05:00.000Z",
+    "created": "2026-09-26T16:54:00.000Z",
+    "url": "https://app.notion.com/p/e844ab12d846497496510892464966e5",
+    "_class": "CHANGED"
+   },
+   {
+    "id": "2328a57f-8e0a-4e5e-8359-41eb8af87cda",
+    "title": "Decision Log — Supplier Intelligence",
+    "last_edited": "2026-09-26T15:25:00.000Z",
+    "created": "2026-09-26T15:24:00.000Z",
+    "url": "https://app.notion.com/p/2328a57f8e0a4e5e835941eb8af87cda",
+    "_class": "CHANGED"
+   },
+   {
+    "id": "d7aa0988-ff99-4bec-a121-5e729f2f7484",
+    "title": "Version Registry — Supplier Intelligence Prompts",
+    "last_edited": "2026-09-26T15:24:00.000Z",
+    "created": "2026-09-26T15:23:00.000Z",
+    "url": "https://app.notion.com/p/d7aa0988ff994beca1215e729f2f7484",
+    "_class": "CHANGED"
+   },
+   {
+    "id": "5fd2140e-bbd3-4c1b-8f0a-86f2764e5c1d",
+    "title": "Accounting Systems — Change Log",
+    "last_edited": "2026-09-25T21:53:00.000Z",
+    "created": "2026-09-25T21:53:00.000Z",
+    "url": "https://app.notion.com/p/5fd2140ebbd34c1b8f0a86f2764e5c1d",
+    "_class": "CHANGED"
+   },
+   {
+    "id": "3452c1e8-f4e9-42da-8ce9-52a4556479a9",
+    "title": "Accounting Systems — Knowledge Assets",
+    "last_edited": "2026-09-25T21:50:00.000Z",
+    "created": "2026-09-25T21:50:00.000Z",
+    "url": "https://app.notion.com/p/3452c1e8f4e942da8ce952a4556479a9",
+    "_class": "CHANGED"
+   },
+   {
+    "id": "533b6ca8-c624-4be3-ae43-e2913dd89f9c",
+    "title": "Accounting Systems — Research Queue",
+    "last_edited": "2026-09-25T21:50:00.000Z",
+    "created": "2026-09-25T21:50:00.000Z",
+    "url": "https://app.notion.com/p/533b6ca8c6244be3ae43e2913dd89f9c",
+    "_class": "CHANGED"
+   },
+   {
+    "id": "393c008b-5797-481d-8466-3376979e3a96",
+    "title": "KOS — Knowledge",
+    "last_edited": "2026-09-25T21:45:00.000Z",
+    "created": "2026-09-25T20:00:00.000Z",
+    "url": "https://app.notion.com/p/393c008b5797481d84663376979e3a96",
+    "_class": "CHANGED"
+   },
+   {
+    "id": "2d1337a6-e0ad-4334-81a3-a3c3090f4b68",
+    "title": "Knowledge Change Log",
+    "last_edited": "2026-09-25T21:45:00.000Z",
+    "created": "2026-09-25T20:50:00.000Z",
+    "url": "https://app.notion.com/p/2d1337a6e0ad433481a3a3c3090f4b68",
+    "_class": "CHANGED"
+   },
+   {
+    "id": "af2e47bd-e616-48c9-9a2b-a646ffdb93f9",
+    "title": "KOS — Continuous Knowledge Cycle Log",
+    "last_edited": "2026-09-25T21:45:00.000Z",
+    "created": "2026-09-25T21:32:00.000Z",
+    "url": "https://app.notion.com/p/af2e47bde61648c99a2ba646ffdb93f9",
+    "_class": "CHANGED"
+   },
+   {
+    "id": "41543987-e610-4557-bf71-8fd24c913494",
+    "title": "Research Queue",
+    "last_edited": "2026-09-25T20:54:00.000Z",
+    "created": "2026-09-25T20:50:00.000Z",
+    "url": "https://app.notion.com/p/41543987e6104557bf718fd24c913494",
+    "_class": "CHANGED"
+   },
+   {
+    "id": "a14def36-fe3f-4246-90b4-2872da859364",
+    "title": "Marketing Domains",
+    "last_edited": "2026-09-25T20:54:00.000Z",
+    "created": "2026-09-25T20:53:00.000Z",
+    "url": "https://app.notion.com/p/a14def36fe3f424690b42872da859364",
+    "_class": "CHANGED"
+   },
+   {
+    "id": "e1e6a7d5-c835-4f47-8c90-7ff6f9cc8d19",
+    "title": "Books",
+    "last_edited": "2026-09-25T20:53:00.000Z",
+    "created": "2026-09-25T20:53:00.000Z",
+    "url": "https://app.notion.com/p/e1e6a7d5c8354f478c907ff6f9cc8d19",
+    "_class": "CHANGED"
+   },
+   {
+    "id": "2499c2a6-0adc-474c-897c-4e4261b9ac84",
+    "title": "Stage Analysis",
+    "last_edited": "2026-09-25T20:50:00.000Z",
+    "created": "2026-09-25T20:50:00.000Z",
+    "url": "https://app.notion.com/p/2499c2a60adc474c897c4e4261b9ac84",
+    "_class": "CHANGED"
+   },
+   {
+    "id": "9a9c3c4f-b95c-46f8-82a4-c73a6e45a308",
+    "title": "External Assets",
+    "last_edited": "2026-09-25T20:50:00.000Z",
+    "created": "2026-09-25T20:50:00.000Z",
+    "url": "https://app.notion.com/p/9a9c3c4fb95c46f882a4c73a6e45a308",
+    "_class": "CHANGED"
+   },
+   {
+    "id": "98dbe95b-b675-4374-a90f-974278e1967d",
+    "title": "Contradiction Log",
+    "last_edited": "2026-09-25T20:50:00.000Z",
+    "created": "2026-09-25T20:50:00.000Z",
+    "url": "https://app.notion.com/p/98dbe95bb6754374a90f974278e1967d",
+    "_class": "CHANGED"
+   },
+   {
+    "id": "eafe011b-51e6-4f41-8cbc-e6aa32c6b8d1",
+    "title": "Principles & Rules",
+    "last_edited": "2026-09-25T20:50:00.000Z",
+    "created": "2026-09-25T20:50:00.000Z",
+    "url": "https://app.notion.com/p/eafe011b51e64f418cbce6aa32c6b8d1",
+    "_class": "CHANGED"
+   },
+   {
+    "id": "53f70c7a-c603-4e23-bf53-67d4915dbcc9",
+    "title": "Derivation Register",
+    "last_edited": "2026-09-25T20:50:00.000Z",
+    "created": "2026-09-25T20:50:00.000Z",
+    "url": "https://app.notion.com/p/53f70c7ac6034e23bf5367d4915dbcc9",
+    "_class": "CHANGED"
+   },
+   {
+    "id": "ef1beea4-64f8-4622-9c89-e2a0c661fce2",
+    "title": "Inference Register",
+    "last_edited": "2026-09-25T20:50:00.000Z",
+    "created": "2026-09-25T20:50:00.000Z",
+    "url": "https://app.notion.com/p/ef1beea464f846229c89e2a0c661fce2",
+    "_class": "CHANGED"
+   },
+   {
+    "id": "db0c065c-7f8e-4090-ba13-af5387302d8f",
+    "title": "KOS — Execution Pipeline",
+    "last_edited": "2026-09-25T20:02:00.000Z",
+    "created": "2026-09-25T20:02:00.000Z",
+    "url": "https://app.notion.com/p/db0c065c7f8e4090ba13af5387302d8f",
+    "_class": "CHANGED"
+   },
+   {
+    "id": "c5aa8b9a-13b6-4611-9e63-9b880d2ad8ea",
+    "title": "KOS — Research Questions",
+    "last_edited": "2026-09-25T20:02:00.000Z",
+    "created": "2026-09-25T20:02:00.000Z",
+    "url": "https://app.notion.com/p/c5aa8b9a13b646119e639b880d2ad8ea",
+    "_class": "CHANGED"
+   },
+   {
+    "id": "aee698e7-73fd-4046-a85f-3cc132f66527",
+    "title": "KOS — Applications",
+    "last_edited": "2026-09-25T20:02:00.000Z",
+    "created": "2026-09-25T20:02:00.000Z",
+    "url": "https://app.notion.com/p/aee698e773fd4046a85f3cc132f66527",
+    "_class": "CHANGED"
+   },
+   {
+    "id": "63e0c187-4b8d-459f-972f-f11b4fc8d460",
+    "title": "KOS — Experiments",
+    "last_edited": "2026-09-25T20:02:00.000Z",
+    "created": "2026-09-25T20:02:00.000Z",
+    "url": "https://app.notion.com/p/63e0c1874b8d459f972ff11b4fc8d460",
+    "_class": "CHANGED"
+   },
+   {
+    "id": "230f9103-4d44-47a5-b69f-fef368560b20",
+    "title": "KOS — Evidence",
+    "last_edited": "2026-09-25T20:01:00.000Z",
+    "created": "2026-09-25T20:00:00.000Z",
+    "url": "https://app.notion.com/p/230f91034d4447a5b69ffef368560b20",
+    "_class": "CHANGED"
+   },
+   {
+    "id": "a87d8f7b-de51-419c-aa6d-90b81e0d7b21",
+    "title": "KOS — Cases",
+    "last_edited": "2026-09-25T20:00:00.000Z",
+    "created": "2026-09-25T20:00:00.000Z",
+    "url": "https://app.notion.com/p/a87d8f7bde51419caa6d90b81e0d7b21",
+    "_class": "CHANGED"
+   },
+   {
+    "id": "102d3400-edaa-45e3-8a54-c9c805d465ed",
+    "title": "KOS — Entities",
+    "last_edited": "2026-09-25T20:00:00.000Z",
+    "created": "2026-09-25T20:00:00.000Z",
+    "url": "https://app.notion.com/p/102d3400edaa45e38a54c9c805d465ed",
+    "_class": "CHANGED"
+   },
+   {
+    "id": "14095699-6e8c-412e-8098-df126ba6935d",
+    "title": "KOS — Sources",
+    "last_edited": "2026-09-25T20:00:00.000Z",
+    "created": "2026-09-25T20:00:00.000Z",
+    "url": "https://app.notion.com/p/140956996e8c412e8098df126ba6935d",
+    "_class": "CHANGED"
+   },
+   {
+    "id": "0a658a07-79e8-83e7-a1a7-81922b48ab31",
+    "title": "مدوّنتي",
+    "last_edited": "2026-07-24T22:57:00.000Z",
+    "created": "2026-07-24T22:57:00.000Z",
+    "url": "https://app.notion.com/p/0a658a0779e883e7a1a781922b48ab31",
+    "_class": "CHANGED"
+   },
+   {
+    "id": "1c858a07-79e8-83d1-bcb6-81114a20f611",
+    "title": "الواجبات",
+    "last_edited": "2026-07-24T22:57:00.000Z",
+    "created": "2026-07-24T22:57:00.000Z",
+    "url": "https://app.notion.com/p/1c858a0779e883d1bcb681114a20f611",
+    "_class": "CHANGED"
+   },
+   {
+    "id": "c2958a07-79e8-8280-87d2-8176dad0cf82",
+    "title": "المقرّرات الدراسية",
+    "last_edited": "2026-07-24T22:57:00.000Z",
+    "created": "2026-07-24T22:57:00.000Z",
+    "url": "https://app.notion.com/p/c2958a0779e8828087d28176dad0cf82",
+    "_class": "CHANGED"
+   },
+   {
+    "id": "44758a07-79e8-8221-b0ea-81a7407cfb82",
+    "title": "ملاحظات الصف الدراسي ",
+    "last_edited": "2026-07-24T22:57:00.000Z",
+    "created": "2026-07-24T22:57:00.000Z",
+    "url": "https://app.notion.com/p/44758a0779e88221b0ea81a7407cfb82",
+    "_class": "CHANGED"
+   },
+   {
+    "id": "d3d58a07-79e8-82df-b0d8-014512d331ec",
+    "title": "People",
+    "last_edited": "2026-07-24T22:57:00.000Z",
+    "created": "2026-07-24T22:57:00.000Z",
+    "url": "https://app.notion.com/p/d3d58a0779e882dfb0d8014512d331ec",
+    "_class": "CHANGED"
+   }
+  ],
+  "gone_pages": [],
+  "gone_dbs": []
+ },
+ "c14_accessibility": {
+  "total_unexported": 348,
+  "accessible": 348,
+  "inaccessible": 0,
+  "detail": [
+   {
+    "id": "3e658a07-79e8-81ee-a18a-c05933ccb93f",
+    "title": "Shaw & Jones (2005) — A history of schools of marketing thought",
+    "last_edited": "2026-09-25T21:34:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-816a-adeb-f5188c43b6ae",
+    "title": "UPD-005 — Adopted Deep Marketing Continuous Knowledge Operation Standard",
+    "last_edited": "2026-09-25T21:33:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81f7-a5af-d4d3d34fc8e9",
+    "title": "UPD-006 — Normalized Knowledge provenance and change schema",
+    "last_edited": "2026-09-25T21:33:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81e6-8fc3-f6fd83ac047b",
+    "title": "UPD-004 — Scientific marketing foundation spine expanded",
+    "last_edited": "2026-09-25T21:09:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-813c-b7af-f58a0ae16c48",
+    "title": "Insight — Marketing is a multi-actor value system, not a promotion function",
+    "last_edited": "2026-09-25T21:09:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-813b-8200-d14cfdda8462",
+    "title": "Pearson's Principles of Marketing, 19th edition structures foundational marketing around customer value, the marketing process, marketplace and buyer understanding, customer-value-driven strategy and mix, and extensions such as competitive advantage, global marketplace, sustainability and ethics.",
+    "last_edited": "2026-09-25T21:09:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8182-8acd-cd6e59a22301",
+    "title": "The Journal of Marketing states that its mission is to develop and disseminate knowledge about real-world marketing questions and notes its role in shaping the content and boundaries of the marketing discipline since its founding in 1936.",
+    "last_edited": "2026-09-25T21:09:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-810e-a3a9-d4860abcffbd",
+    "title": "Pearson — Principles of Marketing, 19th Edition",
+    "last_edited": "2026-09-25T21:08:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-816c-8c9d-f3195ada0579",
+    "title": "AMA — Journal of Marketing",
+    "last_edited": "2026-09-25T21:08:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81d8-b74e-e870231b6fe4",
+    "title": "Experiment 03 — Professional-Firm Channel Discovery",
+    "last_edited": "2026-09-25T21:04:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-811f-9494-e5e3a96b97f4",
+    "title": "ONYX's public contact directory also represents authorized distributors in Saudi Arabia, United Arab Emirates, Qatar, Egypt, Somalia, Oman, Palestine, Djibouti, India, China, Kenya, Niger, Ghana, Malaysia, Ethiopia, Iraq and other markets.",
+    "last_edited": "2026-09-25T21:04:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81a4-bf08-fcce31c674d5",
+    "title": "ONYX's public contact directory explicitly lists authorized distributors across multiple Yemeni governorates, including Shabwah, Hajjah, Al Bayda, Amran, Al-Shihr, Seiyun, Al Turbah, Al Dhale'e, Dhamt and Utmah.",
+    "last_edited": "2026-09-25T21:04:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8144-aa96-ef66338d36be",
+    "title": "ONYX ERP — Contact & Authorized Distributor Network",
+    "last_edited": "2026-09-25T21:04:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81ab-8e7d-f9a5cf56cf1f",
+    "title": "UPD-003 — ONYX distributor program operational design verified",
+    "last_edited": "2026-09-25T21:04:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81ba-bee5-dd17151b8532",
+    "title": "Benchmark — ONYX / YemenSoft vs Global Knowledge Patterns",
+    "last_edited": "2026-09-25T21:03:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8131-bae6-eb9c8012a343",
+    "title": "Case — Ultimate Solutions Partner Enablement & ONYX",
+    "last_edited": "2026-09-25T21:03:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81f5-8c3d-c5243f90b676",
+    "title": "كيف يعمل برنامج الشركاء/الموزعين لـONYX فعليًا من الاستقطاب إلى التفعيل إلى الـPipeline والإيراد؟",
+    "last_edited": "2026-09-25T21:03:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8160-bd36-df2c5b6f470c",
+    "title": "ONYX publicly requires prospective distribution agents to be legal business entities registered in their market and to have staff with software/accounting expertise.",
+    "last_edited": "2026-09-25T21:03:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-817f-b6c2-f98aec105255",
+    "title": "ONYX's published distributor process includes a preliminary approval step, a one-week document-submission window, negotiation of obligations, and a first-year trial distribution contract.",
+    "last_edited": "2026-09-25T21:03:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-819b-9e2f-cc5701da7089",
+    "title": "After contracting, ONYX publicly describes a distributor enablement period of up to 60 days to train staff and prepare market-entry tools.",
+    "last_edited": "2026-09-25T21:03:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81b5-bd14-eb6312eeb189",
+    "title": "ONYX publicly states that distributors receive product and sales-method training, technical support, a suitable system for their own establishment at no charge, public listing/branding support, and product-update information.",
+    "last_edited": "2026-09-25T21:03:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81c5-876e-de06dec9e561",
+    "title": "ONYX publicly requires a prospective distributor to submit an initial market study and later a first-year marketing plan with tools to measure achievement every three months.",
+    "last_edited": "2026-09-25T21:03:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81ee-86f6-d9f4caca7f7a",
+    "title": "ONYX ERP — Become a Distributor / Agent Program",
+    "last_edited": "2026-09-25T21:03:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81f9-8764-d0fdcf93b098",
+    "title": "Insight — ONYX ecosystem has a documented partner-enabled GTM layer through Ultimate Solutions",
+    "last_edited": "2026-09-25T21:02:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-811b-8d40-ff6d8f046e45",
+    "title": "هل لدى YemenSoft/ONYX برنامج شركاء رسمي يمكن نمذجته كـPartner Marketing Operating System؟",
+    "last_edited": "2026-09-25T21:02:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-812e-a553-ecd73e290d75",
+    "title": "The official ONYX ERP companies/branches page describes Ultimate Solutions as a sister company of YemenSoft and also identifies Ultimate Solutions as one of YemenSoft group companies.",
+    "last_edited": "2026-09-25T21:01:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8141-9e88-e75edb8df661",
+    "title": "The official ONYX ERP site publicly exposes a distribution-agent pathway and states that distribution requests are approved in regions where the company has no branch.",
+    "last_edited": "2026-09-25T21:01:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8161-8ff6-ec86ce357774",
+    "title": "ONYX ERP — Companies & Branches / YemenSoft Group Structure",
+    "last_edited": "2026-09-25T21:01:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-814b-8302-cfc71008f04f",
+    "title": "Pattern — Partner Marketing Enablement كطبقة GTM متكررة",
+    "last_edited": "2026-09-25T21:01:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8173-b5ac-daf4776cef91",
+    "title": "ما العلاقة التشغيلية والقانونية بين YemenSoft وUltimate Solutions، وهل برنامج Ultimate Solutions للشركاء يمثل قناة GTM مباشرة لـONYX أم منظومة شراكة مستقلة/مرتبطة؟",
+    "last_edited": "2026-09-25T21:00:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81a7-9ae3-d424e71debbe",
+    "title": "UPD-002 — ONYX partner ecosystem evidence materially updated",
+    "last_edited": "2026-09-25T21:00:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-812e-a32b-ec7bfa30c5ae",
+    "title": "Ultimate Solutions publicly states that its authorized distributor network can generate income through sales commissions/incentives.",
+    "last_edited": "2026-09-25T21:00:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-814c-a0b2-d5b906e3397a",
+    "title": "Ultimate Solutions publicly documents a formal partner program for SMEs with authorized distributors.",
+    "last_edited": "2026-09-25T21:00:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-817e-bb67-dcf148b4d59f",
+    "title": "The public ONYX ERP page on Ultimate Solutions' partner site explicitly invites businesses to join the partner program.",
+    "last_edited": "2026-09-25T21:00:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8191-af2f-ce289dd66c82",
+    "title": "Ultimate Solutions publicly describes partner support that includes sales training/support, marketing materials such as brochures, presentations and webinars, and technical support.",
+    "last_edited": "2026-09-25T21:00:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81a2-90eb-d0d39b0cf32a",
+    "title": "Ultimate Solutions — Authorized Partner Program / Partner Portal",
+    "last_edited": "2026-09-25T20:59:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-811c-bc90-d8abab676e69",
+    "title": "Retention, CRM & Loyalty",
+    "last_edited": "2026-09-25T20:54:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8124-b427-e9b4b5e4bbdc",
+    "title": "Marketing Analytics & Measurement",
+    "last_edited": "2026-09-25T20:54:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-812c-93b7-c6fa613144d2",
+    "title": "Marketing Contexts & Specializations",
+    "last_edited": "2026-09-25T20:54:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8140-ae0b-d4a43895fa15",
+    "title": "Pricing",
+    "last_edited": "2026-09-25T20:54:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8142-bdf6-c9e338cfab44",
+    "title": "Data, MarTech & AI",
+    "last_edited": "2026-09-25T20:54:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8143-84d9-e5d807461657",
+    "title": "Customer Experience",
+    "last_edited": "2026-09-25T20:54:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8170-b12a-e4bd43bd1754",
+    "title": "Foundations of Marketing",
+    "last_edited": "2026-09-25T20:54:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-817b-9a7f-d05c1b57c870",
+    "title": "Product & Offer",
+    "last_edited": "2026-09-25T20:54:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-817e-84e8-ee6d4d894448",
+    "title": "Distribution & Channels",
+    "last_edited": "2026-09-25T20:54:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-817e-b312-de79fe20d268",
+    "title": "Branding",
+    "last_edited": "2026-09-25T20:54:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8180-9206-ccd34ed76793",
+    "title": "Marketing Strategy",
+    "last_edited": "2026-09-25T20:54:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81af-9573-f0f029107247",
+    "title": "Adjacent Disciplines",
+    "last_edited": "2026-09-25T20:54:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81bc-93aa-ebc7e9f5ce24",
+    "title": "Psychology & Behavioral Science",
+    "last_edited": "2026-09-25T20:54:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81c9-974c-e51f8e999be9",
+    "title": "Market Research & Consumer Insights",
+    "last_edited": "2026-09-25T20:54:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81e4-a3d8-cc26867b6741",
+    "title": "Marketing Communications",
+    "last_edited": "2026-09-25T20:54:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81e4-ad9b-f1d602e787b0",
+    "title": "Consumer Behavior & Decision Science",
+    "last_edited": "2026-09-25T20:54:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81f0-a680-f3de6fa4072f",
+    "title": "Digital Marketing",
+    "last_edited": "2026-09-25T20:54:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81f2-807b-d06c7a8848f8",
+    "title": "Marketing Operations",
+    "last_edited": "2026-09-25T20:54:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81f7-b2d5-df7e2b90a40f",
+    "title": "Acquisition & Demand Generation",
+    "last_edited": "2026-09-25T20:54:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81cc-a818-f43dd42e7e51",
+    "title": "UPD-001 — Initialize Deep Marketing knowledge system",
+    "last_edited": "2026-09-25T20:52:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81f8-b386-ccc676791c90",
+    "title": "PRN-001 — Use professional frameworks as coverage benchmarks, not complete taxonomies",
+    "last_edited": "2026-09-25T20:52:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8189-bdaf-f2c438922add",
+    "title": "DER-001 — Coverage benchmark should be multi-source",
+    "last_edited": "2026-09-25T20:52:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81a9-860d-dfef3c3b4fed",
+    "title": "INF-001 — Multi-layer taxonomy is required",
+    "last_edited": "2026-09-25T20:52:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-810f-b443-c9894b9ba985",
+    "title": "STG-001 — Foundation & Architecture Review",
+    "last_edited": "2026-09-25T20:52:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8107-9c72-c49fda2a5025",
+    "title": "Build Digital, Acquisition, Retention & Growth system",
+    "last_edited": "2026-09-25T20:52:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-810f-aef2-d7e02d297014",
+    "title": "Build STP and positioning system",
+    "last_edited": "2026-09-25T20:52:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8114-9701-ddde93aaf389",
+    "title": "Build AI, MarTech & Future Marketing system",
+    "last_edited": "2026-09-25T20:52:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-813d-8938-f701ce6b82f9",
+    "title": "Build the Market Research knowledge spine",
+    "last_edited": "2026-09-25T20:52:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-813e-b235-dac4a2f3fb65",
+    "title": "Build Brand & Marketing Communications system",
+    "last_edited": "2026-09-25T20:52:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8157-aac3-ff469116b175",
+    "title": "Build Consumer Behavior & Decision Science core",
+    "last_edited": "2026-09-25T20:52:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8188-a4ce-eae4673a2973",
+    "title": "Build the 20+ Core Marketing Books Library",
+    "last_edited": "2026-09-25T20:52:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-818d-b1d0-c87f7cd6a405",
+    "title": "Build Product, Offer, Pricing & Distribution system",
+    "last_edited": "2026-09-25T20:52:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8197-8a45-ed348172491f",
+    "title": "Build Analytics, Measurement & Marketing Science system",
+    "last_edited": "2026-09-25T20:52:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81f0-866f-f46bca3773dd",
+    "title": "Build the Case & Practitioner Evidence Library",
+    "last_edited": "2026-09-25T20:52:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8101-b6e0-e0941bd9a954",
+    "title": "Ehrenberg-Bass Institute for Marketing Science",
+    "last_edited": "2026-09-25T20:52:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8104-8c59-e4b9d4449585",
+    "title": "AMA — 2026 Future Trends in Marketing",
+    "last_edited": "2026-09-25T20:52:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-811a-a3fb-f9e6f06a004b",
+    "title": "WARC — Marketing Effectiveness & Strategy",
+    "last_edited": "2026-09-25T20:52:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8142-aabe-f2e67e06d811",
+    "title": "AMA — Marketing Competency Model",
+    "last_edited": "2026-09-25T20:52:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8172-95e6-cb5bd3a19a91",
+    "title": "Google Skillshop — Google Ads & Measurement",
+    "last_edited": "2026-09-25T20:52:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-818d-8fc5-d8c310203325",
+    "title": "CIM — Global Professional Marketing Framework",
+    "last_edited": "2026-09-25T20:52:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81b9-9ac2-c0ec4747c3a5",
+    "title": "AMA — 2026 State of Marketing Careers Report",
+    "last_edited": "2026-09-25T20:52:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81c9-9476-ceba031858bc",
+    "title": "Meta Blueprint",
+    "last_edited": "2026-09-25T20:52:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8101-aa1e-d7eb77ff8490",
+    "title": "CIM's Global Professional Marketing Framework connects Direction, Capability, Professionalism, and Impact and defines eight essential marketing capability areas.",
+    "last_edited": "2026-09-25T20:51:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8168-a700-c8cadbfc080b",
+    "title": "AMA's 2026 Future Trends report used a modified Delphi process with 30+ marketing professionals to identify five forces/trends expected to shape marketing over the next five to ten years.",
+    "last_edited": "2026-09-25T20:51:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81bc-931f-f3332e5bbeed",
+    "title": "AMA defines marketing as creating, communicating, delivering, and exchanging offerings that have value.",
+    "last_edited": "2026-09-25T20:51:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81c8-9de4-d0bc7b6cd013",
+    "title": "AMA's 2026 State of Marketing Careers report surveyed 1,412 marketing professionals, analyzed job postings, and interviewed industry leaders to study AI exposure and changing marketing skills and roles.",
+    "last_edited": "2026-09-25T20:51:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81f8-8938-eda1dbf98a17",
+    "title": "AMA's current competency model organizes marketing across six domains and explicitly includes ethics, essential capabilities, strategy/planning, content/branding, channels/technology, and data/analytics.",
+    "last_edited": "2026-09-25T20:51:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81fc-83e7-e7f0ed504f9e",
+    "title": "AMA describes marketing research as the function linking consumers, customers, and the public to marketers through information used to identify opportunities/problems, evaluate actions, monitor performance, and improve understanding.",
+    "last_edited": "2026-09-25T20:51:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8198-986e-d14ab2cee35f",
+    "title": "AMA — 2026 State of Marketing Careers Report",
+    "last_edited": "2026-09-25T20:51:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81a5-b87e-f7bf524ce2ee",
+    "title": "AMA — 2026 Future Trends in Marketing Report",
+    "last_edited": "2026-09-25T20:51:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81ef-9a9c-f5499e35adb8",
+    "title": "AMA — What Is Marketing? / Definition of Marketing",
+    "last_edited": "2026-09-25T20:51:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8128-af87-d2aea0984776",
+    "title": "AMA — The Skills Marketers Need in 2025 and Beyond",
+    "last_edited": "2026-09-25T20:51:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8199-88d7-d5ecf7cc3f3f",
+    "title": "AMA — Marketing Competency Model",
+    "last_edited": "2026-09-25T20:51:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81cf-8a8d-c2a8d2f40092",
+    "title": "CIM — Global Professional Marketing Framework",
+    "last_edited": "2026-09-25T20:51:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8131-9fa2-d882f4215c46",
+    "title": "18 — Final Intelligence & Knowledge Report",
+    "last_edited": "2026-09-25T20:13:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81af-8afd-d6d2d925ffac",
+    "title": "15 — Content / SEO / Acquisition Intelligence",
+    "last_edited": "2026-09-25T20:12:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8162-bb23-dce22393a24e",
+    "title": "17 — Replication & Experiment Framework",
+    "last_edited": "2026-09-25T20:12:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81d9-a0c7-c9f16aec45fe",
+    "title": "16 — ONYX / YemenSoft Benchmark",
+    "last_edited": "2026-09-25T20:12:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81b3-9c3e-dc804291aded",
+    "title": "Application — Sales-Market Knowledge Loop",
+    "last_edited": "2026-09-25T20:12:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81c9-baf8-dc5e92140e08",
+    "title": "Application — Knowledge-Driven Marketing Planning",
+    "last_edited": "2026-09-25T20:12:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-813a-bc3f-c322c3435fcd",
+    "title": "Experiment 04 — Compliance / Infrastructure Content Wedge",
+    "last_edited": "2026-09-25T20:12:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-819a-b71e-e01eee2fb03a",
+    "title": "Experiment 02 — ONYX Demo / Evaluation Friction Test",
+    "last_edited": "2026-09-25T20:12:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81bb-80ad-d5ad610820ed",
+    "title": "Experiment 01 — Problem-Led ONYX Content Pilot",
+    "last_edited": "2026-09-25T20:12:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8199-b50e-e1efddac9936",
+    "title": "ما هي مسارات Content → Lead → Quote → Sale الحالية لـONYX؟",
+    "last_edited": "2026-09-25T20:12:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8147-a03b-c169c956288f",
+    "title": "Insight — ONYX current public acquisition surface is primarily solution-led",
+    "last_edited": "2026-09-25T20:12:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81ae-b142-c2f64a6e912e",
+    "title": "Insight — ONYX has a broad product-to-ecosystem surface",
+    "last_edited": "2026-09-25T20:12:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81df-a111-f4a208fcb1eb",
+    "title": "YemenSoft",
+    "last_edited": "2026-09-25T20:11:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81ff-8dbc-fe9e8b0d9079",
+    "title": "ONYX ERP",
+    "last_edited": "2026-09-25T20:11:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8146-bdbd-e2056e68e21a",
+    "title": "14 — Marketing System Deep Dives",
+    "last_edited": "2026-09-25T20:11:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-815c-82c2-c9baab2e815a",
+    "title": "ما هي أفضل وحدة قياس لمسار Content → Product في SaaS/ERP؟",
+    "last_edited": "2026-09-25T20:11:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81a0-98d5-fbd20d06bdf5",
+    "title": "أي أنواع المحتوى تقود إلى اكتساب يمكن قياسه، وليس مجرد زيارات أو مشاهدة؟",
+    "last_edited": "2026-09-25T20:11:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8111-ab90-f4e3f6cd276b",
+    "title": "Pattern — Utility Asset as Entry Product",
+    "last_edited": "2026-09-25T20:11:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8165-9ed4-f31666b2b7b2",
+    "title": "Pattern — Content Architecture Must Map to Next Action",
+    "last_edited": "2026-09-25T20:11:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81b6-be41-fba0a848ed8d",
+    "title": "Pattern — Content-to-Intent Ladder",
+    "last_edited": "2026-09-25T20:11:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81ea-a340-d6509547cf33",
+    "title": "Pattern — Customer Proof as a Bridge Between Education and Purchase",
+    "last_edited": "2026-09-25T20:11:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-810a-96ba-c6c7b897fffe",
+    "title": "Deep Dive — Microsoft Dynamics / Business Central Partner GTM",
+    "last_edited": "2026-09-25T20:11:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-814b-aa15-ec63082e2e01",
+    "title": "Deep Dive — Zoho Books Localized Growth System",
+    "last_edited": "2026-09-25T20:11:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8168-8dfe-fa1ac977f0c6",
+    "title": "Deep Dive — NetSuite Partner Demand System",
+    "last_edited": "2026-09-25T20:11:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81aa-880e-facaa37c00df",
+    "title": "Deep Dive — QuickBooks Marketing System",
+    "last_edited": "2026-09-25T20:11:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81e8-abd4-d8667af7aa92",
+    "title": "Deep Dive — Xero Marketing System",
+    "last_edited": "2026-09-25T20:11:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81ee-9aca-e33b128fea1a",
+    "title": "Deep Dive — Odoo Marketing System",
+    "last_edited": "2026-09-25T20:11:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8168-983f-e1e66229ff39",
+    "title": "13 — Regional & Global Synthesis",
+    "last_edited": "2026-09-25T20:10:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8147-be69-e52c23ee9a1a",
+    "title": "Pattern — Professional Trust Can Precede Product Discovery",
+    "last_edited": "2026-09-25T20:10:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8151-9077-e7a95dcd51a1",
+    "title": "Pattern — Trust + Utility + Product Evidence Form a Pre-Sale System",
+    "last_edited": "2026-09-25T20:10:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81dc-8cfa-e70994a0e648",
+    "title": "Pattern — Global Core, Local Adapter",
+    "last_edited": "2026-09-25T20:10:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8183-8d68-ed854d269f1c",
+    "title": "كيف تتحول المتطلبات التنظيمية إلى طلب تجاري فعلي، وأي قنوات تلتقط هذا الطلب؟",
+    "last_edited": "2026-09-25T20:10:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81fc-9f45-f43217b43387",
+    "title": "12 — Country Intelligence Matrix",
+    "last_edited": "2026-09-25T20:10:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-811c-8498-c21b967e6ac3",
+    "title": "كيف تؤثر البنية المالية/المدفوعات في تصميم وتسويق البرمجيات الرقمية في اليمن حسب المنطقة والقطاع؟",
+    "last_edited": "2026-09-25T20:10:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-816e-ae1a-eb326c989e56",
+    "title": "Insight — Regulatory Milestones Create Product-Education Windows",
+    "last_edited": "2026-09-25T20:10:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8171-9fd4-eb97b0325744",
+    "title": "Insight — Country Regulation Can Become a Distribution Interface",
+    "last_edited": "2026-09-25T20:10:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81c3-8109-c3a0e1464c35",
+    "title": "Pattern — Regulatory / Infrastructure Context Shapes GTM",
+    "last_edited": "2026-09-25T20:10:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81e1-b5e1-dda03d03b1bd",
+    "title": "Insight — Yemen's Infrastructure Conditions Are Part of GTM Context",
+    "last_edited": "2026-09-25T20:10:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8167-b243-e4d44ee70b51",
+    "title": "Qoyod's official Saudi e-invoicing page positions ZATCA Phase 2 compliance alongside a 14-day free trial and a Talk to Sales path, and states Qoyod connects directly to Fatoora.",
+    "last_edited": "2026-09-25T20:10:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-818c-ad26-d9b63143885f",
+    "title": "YemenSoft's current ONYX ERP portfolio publicly covers accounting, sales, distribution, inventory, HR, production, POS, medical, money transfer and e-wallet solutions.",
+    "last_edited": "2026-09-25T20:10:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81c9-b33e-e241e2841219",
+    "title": "YemenSoft's current website in September 2026 reports educational partnerships in Taiz using ONYX ERP as a practical course and reports a bank wallet launched using YemenSoft wallet technology.",
+    "last_edited": "2026-09-25T20:10:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8138-9ec5-fee948601868",
+    "title": "Country Case — Qoyod Saudi Compliance-Led Product Acquisition",
+    "last_edited": "2026-09-25T20:10:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81f5-900f-f876ac68a9fc",
+    "title": "Country Case — ONYX / YemenSoft as Local ERP Ecosystem",
+    "last_edited": "2026-09-25T20:10:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8177-b376-c42f900cde3e",
+    "title": "Qoyod — Saudi e-Invoicing Product Page",
+    "last_edited": "2026-09-25T20:09:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81a4-8ae6-e20e29883e54",
+    "title": "YemenSoft — ONYX ERP Solutions",
+    "last_edited": "2026-09-25T20:09:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81a5-8fcf-c7a731f78023",
+    "title": "YemenSoft — Current News / Education Partnerships",
+    "last_edited": "2026-09-25T20:09:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8105-a98e-ec1a6883df0f",
+    "title": "DataReportal's Digital 2026 Saudi Arabia report estimates 34.4 million internet users at end-2025 with 99.0% internet penetration and 38.6 million social media user identities in October 2025; the report notes methodological caveats and possible duplication.",
+    "last_edited": "2026-09-25T20:09:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8111-a4da-f5aaa1c6fa2f",
+    "title": "ZATCA announced in July 2026 that Wave 25 covers taxpayers whose VAT-subject revenues exceeded SAR 187,500 in any of 2022–2025, with integration due from February 1, 2027.",
+    "last_edited": "2026-09-25T20:09:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8168-9968-c6b73dad811f",
+    "title": "The UAE Ministry of Finance states that eInvoices are structured invoice data exchanged electronically and reported electronically to the Federal Tax Authority, and maintains the official eInvoicing portal.",
+    "last_edited": "2026-09-25T20:09:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-817f-833b-d3506a6ca653",
+    "title": "ZATCA's Phase 2 e-invoicing rollout requires integration of taxpayer e-invoicing solutions with the Fatoora platform and is implemented in waves.",
+    "last_edited": "2026-09-25T20:09:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81b9-a1e7-de21b6e7cca0",
+    "title": "ZATCA publishes a solution-provider directory covering providers that have met criteria applicable to Phase 1 and Phase 2 e-invoicing requirements; the directory is expressly non-binding and not an authority endorsement.",
+    "last_edited": "2026-09-25T20:09:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81c6-85a2-de504bcbbd45",
+    "title": "The World Bank's 2025 Yemen financial inclusion project supports development of digital payment systems including a Fast Payment System and RTGS under the Central Bank in Aden, and aims to improve interoperability and access to digital financial services.",
+    "last_edited": "2026-09-25T20:09:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81d1-8466-f3e64ed322a5",
+    "title": "DataReportal's Digital 2026 UAE report estimates 11.3 million internet users at end-2025 with 99.0% internet penetration and 12.5 million social media user identities in October 2025, with methodological caveats.",
+    "last_edited": "2026-09-25T20:09:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81e7-a402-cf148d77bf1b",
+    "title": "The UAE Ministry of Finance publishes a list of accredited eInvoicing service providers and says the list is updated periodically.",
+    "last_edited": "2026-09-25T20:09:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81e8-90db-ec1bc96e493c",
+    "title": "The UAE Ministry of Finance announced on April 21, 2026 the launch of the eInvoicing 4-Corner model and stated businesses can select an accredited service provider through EmaraTax.",
+    "last_edited": "2026-09-25T20:09:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81ea-996a-f98f6fbe5f9e",
+    "title": "DataReportal's Digital 2026 Yemen report estimates 6.67 million active social media user identities in October 2025, equal to 15.9% of population; the methodology warns that identities may not represent unique individuals.",
+    "last_edited": "2026-09-25T20:09:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81f4-a884-f2d869fa6594",
+    "title": "A World Bank Yemen project document identifies different exchange rates across areas under different authorities as a challenge for digital payment implementation, and documents prior pilots of digital payments/e-wallets.",
+    "last_edited": "2026-09-25T20:09:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8138-b07f-c822012687de",
+    "title": "Country Case — Yemen Digital Finance Infrastructure Context",
+    "last_edited": "2026-09-25T20:08:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8180-8302-d80498df16bb",
+    "title": "Country Case — UAE eInvoicing Market Context",
+    "last_edited": "2026-09-25T20:08:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81c0-a4ce-fe1c5232d88e",
+    "title": "Country Case — Saudi Arabia Regulatory Demand Context",
+    "last_edited": "2026-09-25T20:08:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8140-9492-d43e28e6b616",
+    "title": "Yemen — Financial Market Infrastructure and Inclusion",
+    "last_edited": "2026-09-25T20:08:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8166-8d2f-f2a3fbdb723a",
+    "title": "Saudi Arabia — Digital 2026",
+    "last_edited": "2026-09-25T20:08:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8174-885b-c028e72bdbc0",
+    "title": "UAE — Electronic Invoicing Official Portal",
+    "last_edited": "2026-09-25T20:08:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81a8-ae96-fd11f7702f54",
+    "title": "UAE — Digital 2026",
+    "last_edited": "2026-09-25T20:08:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81cc-bec8-df6af274e02e",
+    "title": "Saudi Arabia — ZATCA e-Invoicing Phase 2",
+    "last_edited": "2026-09-25T20:08:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81e3-9586-e24b4168b633",
+    "title": "Yemen — Digital 2026",
+    "last_edited": "2026-09-25T20:08:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-818e-a48d-f2d8eaf4cd60",
+    "title": "Saudi Arabia",
+    "last_edited": "2026-09-25T20:08:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-818f-b96d-d984a208ce83",
+    "title": "Yemen",
+    "last_edited": "2026-09-25T20:08:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81cd-8c1c-d761a261a4a7",
+    "title": "United Arab Emirates",
+    "last_edited": "2026-09-25T20:08:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8191-b8af-fb592312cd5d",
+    "title": "11 — Resume Global Research",
+    "last_edited": "2026-09-25T20:08:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8131-967e-e3a4cd1d1ad0",
+    "title": "Insight — Money Forward يجعل Professional Firms بوابة اكتساب",
+    "last_edited": "2026-09-25T20:07:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-819c-87fa-e9fd7424134a",
+    "title": "Insight — Siigo يربط الإحالة بالهوية المهنية والظهور",
+    "last_edited": "2026-09-25T20:07:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81a0-be79-ee3739c38793",
+    "title": "Insight — freee يصمم المنتج حول المؤسسة المهنية",
+    "last_edited": "2026-09-25T20:07:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81ae-bbad-dcef6633c5cd",
+    "title": "Pattern — Professional-Firm-First Distribution",
+    "last_edited": "2026-09-25T20:07:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81e5-98de-e450a02509e6",
+    "title": "Insight — DATEV يجعل الشركاء جزءًا من اكتشاف الحل",
+    "last_edited": "2026-09-25T20:07:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8133-93ba-cf35095194b9",
+    "title": "Siigo's accountant partner program rewards successful referrals with points and tiered benefits, including education, directory participation, discounts and commercial support.",
+    "last_edited": "2026-09-25T20:07:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8151-b66b-d6b58aa31172",
+    "title": "freee states a strategic aim to become de facto standard infrastructure for accounting firms and to expand partnerships by serving both accounting firms and their clients with end-to-end online solutions.",
+    "last_edited": "2026-09-25T20:07:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8151-bd19-f37c0bf962b1",
+    "title": "Siigo Contífico publishes a searchable directory of accountant partners by status, industry, expertise and product.",
+    "last_edited": "2026-09-25T20:07:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81bc-86d9-f2626d5fe565",
+    "title": "DATEV's 2026 Marketplace Expo offers virtual interaction with around 20 marketplace partners and presents partner onboarding around accounting-firm/company cloud workflows and interfaces.",
+    "last_edited": "2026-09-25T20:07:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81d7-b9d2-d61782599afc",
+    "title": "Money Forward states that its Professional Firms channel sells by first having professionals use its services and then delivering them to end users; it also describes close support for distributors and SIers.",
+    "last_edited": "2026-09-25T20:07:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-811b-a2e2-fc3c4467a708",
+    "title": "Siigo Contífico — Accountant Directory",
+    "last_edited": "2026-09-25T20:07:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8122-a72e-f5c3a4daec62",
+    "title": "DATEV — Marketplace Expo 2026",
+    "last_edited": "2026-09-25T20:07:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-816b-b8da-ed2641692648",
+    "title": "Money Forward — Business Segment 2026 Edition",
+    "last_edited": "2026-09-25T20:07:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81dc-b2dd-e698f26e25e7",
+    "title": "Siigo — Accountant Partners / Referral Program",
+    "last_edited": "2026-09-25T20:07:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81f7-b098-d3374a98ff70",
+    "title": "freee — FY2028.6 Investor Factbook",
+    "last_edited": "2026-09-25T20:07:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-810b-8d33-fa3e002816a9",
+    "title": "Case — freee Accounting-Firm Infrastructure",
+    "last_edited": "2026-09-25T20:07:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8157-9617-dfab85628336",
+    "title": "Case — Money Forward Professional-Firm-First Distribution",
+    "last_edited": "2026-09-25T20:07:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81c6-86e1-efa7ab52794f",
+    "title": "Case — DATEV Partner Ecosystem as Workflow Network",
+    "last_edited": "2026-09-25T20:07:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81f8-ab52-f4e79b33ebff",
+    "title": "Case — Siigo Accountant Referral Ecosystem",
+    "last_edited": "2026-09-25T20:07:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-811b-b633-ee8d394c2f65",
+    "title": "Money Forward Cloud",
+    "last_edited": "2026-09-25T20:07:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8152-accf-d678fedf432b",
+    "title": "freee",
+    "last_edited": "2026-09-25T20:07:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8186-8801-e7847d5d5816",
+    "title": "Siigo",
+    "last_edited": "2026-09-25T20:07:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81a8-aaac-f926428fdf92",
+    "title": "DATEV",
+    "last_edited": "2026-09-25T20:07:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8130-8268-c086e604a7bf",
+    "title": "Insight — Netvisor يجعل مكاتب المحاسبة محور التوزيع",
+    "last_edited": "2026-09-25T20:07:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8135-afbf-de6e12279c07",
+    "title": "Pattern — Partner Campaign Operations + Measurement",
+    "last_edited": "2026-09-25T20:07:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-819b-953a-e492c41e83cc",
+    "title": "Insight — NetSuite يربط تمكين الشريك بالقياس",
+    "last_edited": "2026-09-25T20:07:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8173-bef2-f201f8cffaa3",
+    "title": "NetSuite CRM supports joint partner campaign management and tracking of leads, closing and co-marketing ROI across partner channels.",
+    "last_edited": "2026-09-25T20:06:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81d6-b797-cc18724ed48f",
+    "title": "Visma's February 2026 Netvisor growth story states that partnerships with accounting offices have been the driving force of the operation and frames Netvisor as an ecosystem.",
+    "last_edited": "2026-09-25T20:06:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81e2-a717-f01d6ece2e82",
+    "title": "NetSuite partner materials describe co-branded marketing materials, sample campaigns and cooperative marketing funds to accelerate lead generation.",
+    "last_edited": "2026-09-25T20:06:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-813b-8746-c7a56c339375",
+    "title": "Case — Visma Netvisor Accounting-Office-Led Growth",
+    "last_edited": "2026-09-25T20:06:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-818b-b8b6-e4bee4241916",
+    "title": "Case — NetSuite Co-Branded Demand Generation + ROI Tracking",
+    "last_edited": "2026-09-25T20:06:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8119-9959-d7fe369eb989",
+    "title": "Visma / Netvisor",
+    "last_edited": "2026-09-25T20:06:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81b1-8577-daf6c32f67f1",
+    "title": "NetSuite",
+    "last_edited": "2026-09-25T20:06:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-811c-8fc2-f57b966cd89e",
+    "title": "NetSuite — Partnering / Lead-Demand Generation",
+    "last_edited": "2026-09-25T20:06:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8170-a352-f429c68416e4",
+    "title": "NetSuite — Partner Campaign Management and ROI Tracking",
+    "last_edited": "2026-09-25T20:06:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81b2-82ae-d72c03697c88",
+    "title": "Visma — Netvisor Growth Story",
+    "last_edited": "2026-09-25T20:06:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8101-b246-efa46b5b58bc",
+    "title": "ما المزيج الأمثل بين Free Plan وFree Trial وDemo الموجّه حسب تعقيد المنتج ونوع العميل؟",
+    "last_edited": "2026-09-25T20:06:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8111-a231-f200952d96b0",
+    "title": "ما العلاقة القابلة للقياس بين Utility/Education Content وبين Organic Discovery وTrial/Demo Conversion؟",
+    "last_edited": "2026-09-25T20:06:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8111-a965-dcce690a70a4",
+    "title": "Insight — Localized pricing can reduce commercial friction",
+    "last_edited": "2026-09-25T20:06:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81d7-bd83-ff8a29b4c2d3",
+    "title": "Pattern — Low-Friction Product Evaluation",
+    "last_edited": "2026-09-25T20:06:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8109-b0c9-c58ffccfab49",
+    "title": "TallyPrime's MENA demo center combines workflow demonstrations, a free demo request, and a 7-day free trial, with regional contact details for UAE and Saudi Arabia.",
+    "last_edited": "2026-09-25T20:05:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8113-911b-eb1759697c3c",
+    "title": "Zoho Books Saudi Arabia offers a 14-day free trial and an indefinitely available free plan while annual revenue remains below the stated SAR threshold.",
+    "last_edited": "2026-09-25T20:05:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8122-9358-d75ed08d3ada",
+    "title": "Zoho Books offers a Saudi localized pricing page with SAR pricing and regional support/contact paths in addition to the free trial/free-plan mechanisms.",
+    "last_edited": "2026-09-25T20:05:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81b1-affa-ce8feadc2921",
+    "title": "Xero documents a 30-day free trial in its US offer terms; trial features are limited and a subscription is required after expiry to continue.",
+    "last_edited": "2026-09-25T20:05:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-818f-8f8d-def3f56f77bc",
+    "title": "Case — TallyPrime Guided Demo-to-Trial",
+    "last_edited": "2026-09-25T20:05:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81f5-9750-cfe486b14c42",
+    "title": "TallyPrime",
+    "last_edited": "2026-09-25T20:05:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-819d-9b79-c948bbb68d03",
+    "title": "Zoho Books — Saudi Pricing and Free Plan",
+    "last_edited": "2026-09-25T20:05:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81d9-9c7c-d838b31d9349",
+    "title": "TallyPrime — MENA Demo + Trial",
+    "last_edited": "2026-09-25T20:05:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81f1-be4c-e91c85755b95",
+    "title": "Xero — Free Trial / Offer Terms",
+    "last_edited": "2026-09-25T20:05:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-811e-8c5a-cbcdbe422bb5",
+    "title": "Insight — QuickBooks يستخدم المهمة كمدخل محتوى",
+    "last_edited": "2026-09-25T20:05:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8155-abde-c53335a57e95",
+    "title": "Insight — Microsoft يربط تنفيذ الحملة بقياس الأداء",
+    "last_edited": "2026-09-25T20:05:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-815f-8938-fa8ed0261f4f",
+    "title": "Pattern — Partner Marketing as an Operating System",
+    "last_edited": "2026-09-25T20:05:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81a6-b62f-f6513f3cb921",
+    "title": "Insight — SAP يحزم الطلب والثقة والتأهيل داخل برنامج الشريك",
+    "last_edited": "2026-09-25T20:05:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81a7-8c94-cfc48930052f",
+    "title": "Insight — Sage Intacct يمتد بالمحتوى من قبل الشراء إلى ما بعده",
+    "last_edited": "2026-09-25T20:05:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81bd-8925-edf7c966726e",
+    "title": "Pattern — Utility / Education Content as a Pre-Product Layer",
+    "last_edited": "2026-09-25T20:05:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81dc-b925-c60a5ca36434",
+    "title": "Insight — Zoho يستخدم التعليم كجزء من تجربة التقييم",
+    "last_edited": "2026-09-25T20:05:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81e8-a960-f24c941fcd05",
+    "title": "Insight — Xero يبني المحتوى حول مشكلات وممارسات العميل",
+    "last_edited": "2026-09-25T20:05:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8150-a6d9-ef344bb2be5d",
+    "title": "SAP's partner program includes lead generation and nurturing, digital/social selling, website optimization, SAP Store, Partner Finder, customer-reference programs, marketing training and digital campaign resources.",
+    "last_edited": "2026-09-25T20:05:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8176-b663-c35bfadc5449",
+    "title": "QuickBooks provides free accounting and business tools/templates including calculators, invoice generator, financial-statement templates, budgets and business-plan resources.",
+    "last_edited": "2026-09-25T20:05:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8182-b55b-ec95cf530652",
+    "title": "Sage Intacct Resource Center combines data sheets, white papers, videos, events, webinars, training, professional services, community, support and customer success stories, with a direct expert-contact route.",
+    "last_edited": "2026-09-25T20:05:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-818f-b85e-c427111aa41d",
+    "title": "Zoho Books runs live and on-demand webinars and guided product tours that demonstrate account setup, transactions, reconciliation, tax and integrations.",
+    "last_edited": "2026-09-25T20:05:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8191-aa72-d9d819fc2bb0",
+    "title": "Microsoft Partner Marketing Center Pro centralizes campaign planning, publishing and performance tracking and adds AI customization, co-branding, localization, automatic sends and reporting.",
+    "last_edited": "2026-09-25T20:05:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81a1-99f5-df9f1467f45a",
+    "title": "Xero's resource architecture includes small-business guides, customer stories, business templates, accountant/bookkeeper resources and stories, podcasts and a video library.",
+    "last_edited": "2026-09-25T20:05:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81b5-a4c1-e5e0d3c39a4c",
+    "title": "Xero's guide library includes accounting, tax, operations, marketing and reputation topics, alongside free templates, calculators and a glossary.",
+    "last_edited": "2026-09-25T20:05:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81f2-b68c-c13d67b5c478",
+    "title": "Microsoft provides Business Central partners with ready-to-use marketing assets, customer stories, pitch decks, event-in-a-box resources, a 30-day trial path and a defined reseller go-to-market journey.",
+    "last_edited": "2026-09-25T20:05:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-814e-9d8d-fe842fc60c53",
+    "title": "Case — Zoho Books Guided Education-to-Demo",
+    "last_edited": "2026-09-25T20:04:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-815e-93c6-ed45c859cfca",
+    "title": "Case — Microsoft Partner Marketing Center Pro",
+    "last_edited": "2026-09-25T20:04:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8187-bfe0-e22fd29e42e3",
+    "title": "Case — Xero Search-to-Education Resource System",
+    "last_edited": "2026-09-25T20:04:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81b3-9d79-e098727b6aa3",
+    "title": "Case — QuickBooks Utility Content Engine",
+    "last_edited": "2026-09-25T20:04:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81c0-81c5-ea1bdf758aa0",
+    "title": "Case — Sage Intacct Resource-to-Expert System",
+    "last_edited": "2026-09-25T20:04:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81cc-a231-c05430e63121",
+    "title": "Case — SAP Partner Demand Generation System",
+    "last_edited": "2026-09-25T20:04:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8132-86bb-e14cf6aa59b3",
+    "title": "SAP",
+    "last_edited": "2026-09-25T20:04:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81ca-aaa4-f49745e4f7fb",
+    "title": "Microsoft Dynamics 365 / Business Central",
+    "last_edited": "2026-09-25T20:04:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8103-b3e1-ec0204029ba9",
+    "title": "Sage Intacct — Resource Center",
+    "last_edited": "2026-09-25T20:04:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8106-9105-c0179513163a",
+    "title": "Xero — Small Business Resources",
+    "last_edited": "2026-09-25T20:04:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8107-91da-ceb41f9b8f49",
+    "title": "SAP — Partner Program",
+    "last_edited": "2026-09-25T20:04:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-814b-9160-e727ac099c86",
+    "title": "Zoho Books — Academy",
+    "last_edited": "2026-09-25T20:04:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8161-816f-d6e5793acefe",
+    "title": "Microsoft — Business Central Partner Go-to-Market",
+    "last_edited": "2026-09-25T20:04:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8186-a1a2-db33237ceb78",
+    "title": "QuickBooks — Resource Centre",
+    "last_edited": "2026-09-25T20:04:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81ad-b960-ef059bc7a5c4",
+    "title": "Zoho Books — Webinars",
+    "last_edited": "2026-09-25T20:04:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81c9-8d08-cc18a0055ca5",
+    "title": "Microsoft — Partner Marketing Center Pro",
+    "last_edited": "2026-09-25T20:04:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81e9-ba50-d8eadf49cc10",
+    "title": "QuickBooks — Tools and Templates",
+    "last_edited": "2026-09-25T20:04:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8165-9702-ca111c26f490",
+    "title": "ما الشروط التي تجعل Partner Marketing Enablement ينتج عملاء محتملين مؤهلين بدل مجرد نشاط/ظهور تسويقي؟",
+    "last_edited": "2026-09-25T20:03:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8143-84c6-ddafa20b83a8",
+    "title": "Insight — Sage يجمع التسويق والتمكين والشبكة داخل برنامج الشريك",
+    "last_edited": "2026-09-25T20:03:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-819d-8806-dc87b024bb7a",
+    "title": "Insight — Zoho يحول الشريك المهني إلى واجهة نمو وخدمة",
+    "last_edited": "2026-09-25T20:03:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81e1-8dd8-f2bbe8705bad",
+    "title": "Insight — Acumatica يجعل Partner Marketing جزءًا من بنية GTM",
+    "last_edited": "2026-09-25T20:03:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-813a-a96c-d11941da89fc",
+    "title": "Sage provides partners with marketing content and campaigns, expert resources, developer tools, training/certification, and a network connecting customers with partners.",
+    "last_edited": "2026-09-25T20:03:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-816b-b371-daa1fe36811a",
+    "title": "Acumatica's public Resource Center explicitly includes Campaigns in a Box and a Partner Marketing Toolkit alongside content, case studies, customer testimonials and webinars.",
+    "last_edited": "2026-09-25T20:03:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-817b-8b6e-e1947e8570c5",
+    "title": "Zoho's accountant partner program includes GTM marketing collaterals, partner directory visibility, dedicated account management, webinars/meetups, support, and rewards/commissions.",
+    "last_edited": "2026-09-25T20:03:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81dd-a63d-fafc2e32f494",
+    "title": "Acumatica's 2026 SOC 3 report describes partner marketing, campaigns, product marketing, field events, digital marketing and corporate communications as elements of its marketing organization, while stating that products are sold primarily through partners.",
+    "last_edited": "2026-09-25T20:03:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-813a-82b2-c0f8beaaffe4",
+    "title": "Case — Sage Partner Network GTM Enablement",
+    "last_edited": "2026-09-25T20:03:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8160-8a84-cf665eae914e",
+    "title": "Case — Zoho Books Accountant GTM",
+    "last_edited": "2026-09-25T20:03:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-817c-ad55-f1f30d6254c8",
+    "title": "Case — Acumatica Integrated Partner Marketing Organization",
+    "last_edited": "2026-09-25T20:03:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8154-9a4e-c3f3081d1b8a",
+    "title": "Acumatica",
+    "last_edited": "2026-09-25T20:03:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81b5-aed0-dc96e8dffa3b",
+    "title": "Zoho Books / Zoho",
+    "last_edited": "2026-09-25T20:03:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81d3-a7a0-c89a9ae50136",
+    "title": "Sage",
+    "last_edited": "2026-09-25T20:03:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-817e-ab6c-e28e1928df0d",
+    "title": "Sage — Partner Network",
+    "last_edited": "2026-09-25T20:03:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8193-9e13-f34e67528b44",
+    "title": "Zoho Books — Accountant Partner Program",
+    "last_edited": "2026-09-25T20:03:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8199-97a8-fba6ad796e14",
+    "title": "Acumatica — Resource Center",
+    "last_edited": "2026-09-25T20:03:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81d7-8ac9-d8f33d554e46",
+    "title": "Acumatica — SOC 3 Report: Partner Programs, Sales & Marketing",
+    "last_edited": "2026-09-25T20:03:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-810b-b8c4-c9bdbfb52def",
+    "title": "03 — Evidence Extraction",
+    "last_edited": "2026-09-25T20:02:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-810f-ada3-e021b671c02e",
+    "title": "01 — Knowledge System Architecture",
+    "last_edited": "2026-09-25T20:02:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-812c-b4ad-c87d0ee30355",
+    "title": "10 — Expansion Decision",
+    "last_edited": "2026-09-25T20:02:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8130-9f54-cb65b868503e",
+    "title": "09 — Schema Validation",
+    "last_edited": "2026-09-25T20:02:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8169-9de9-d83bb536b869",
+    "title": "07 — Knowledge Objects",
+    "last_edited": "2026-09-25T20:02:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8194-a52f-ea1a2cf02101",
+    "title": "04 — Insight Derivation",
+    "last_edited": "2026-09-25T20:02:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81a1-8240-ff8b225d15dc",
+    "title": "08 — Notion Ingestion",
+    "last_edited": "2026-09-25T20:02:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81af-b2fe-d918a19d2d83",
+    "title": "06 — Context & Transferability",
+    "last_edited": "2026-09-25T20:02:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81d6-bbc6-e3e78097eb6c",
+    "title": "05 — Cross-Case Pattern Synthesis",
+    "last_edited": "2026-09-25T20:02:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81e5-a724-df7f284e5120",
+    "title": "02 — Pilot Scope & Source Verification",
+    "last_edited": "2026-09-25T20:02:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8139-ac3e-e6e33db9386c",
+    "title": "Case — Odoo Partner Ecosystem + Lead Routing",
+    "last_edited": "2026-09-25T20:02:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-819d-8111-c860ff77ba68",
+    "title": "Case — QuickBooks ProAdvisor + Product Trial",
+    "last_edited": "2026-09-25T20:02:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81c0-99bf-e97489d74f19",
+    "title": "Case — Xero Partner Marketing Enablement",
+    "last_edited": "2026-09-25T20:02:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-810f-848b-f1b624eb759b",
+    "title": "Insight — Xero يقلل عبء التسويق على الشريك",
+    "last_edited": "2026-09-25T20:01:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-812b-bd77-f894d8891a98",
+    "title": "Insight — QuickBooks يجمع بين التجربة المباشرة وتأثير المحترف",
+    "last_edited": "2026-09-25T20:01:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-813d-a8bc-e40eb9adb157",
+    "title": "Insight — Odoo يدمج الشريك داخل بنية المبيعات",
+    "last_edited": "2026-09-25T20:01:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8143-800b-d1ddd1a10c1a",
+    "title": "Xero provides partners with SEO guidance, social-media resources, email templates, campaign-in-a-box assets, events/webinar resources, and client-facing marketing collateral.",
+    "last_edited": "2026-09-25T20:01:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8143-8cf9-e641bdf2cfe1",
+    "title": "Odoo CRM supports forwarding leads to reseller/partner organizations and can automatically assign leads based on partner level and location.",
+    "last_edited": "2026-09-25T20:01:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8155-815e-d2a7e6ac7b44",
+    "title": "QuickBooks maintains a ProAdvisor program for accounting, bookkeeping, tax, and consulting professionals and provides marketing-related resources/benefits in its current program structure.",
+    "last_edited": "2026-09-25T20:01:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8173-82a4-e132b9eb05e2",
+    "title": "Odoo's partnership agreement includes partner visibility, sales coaching/webinars, marketing material, partner-event support/promotion, commissions, and account-management benefits for qualifying partner levels.",
+    "last_edited": "2026-09-25T20:01:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81ac-abb3-f37bc447ee79",
+    "title": "Xero operates a partner marketing fund with an approval and reimbursement process for qualifying partner marketing activities in the US.",
+    "last_edited": "2026-09-25T20:01:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81e2-a26c-fa8f3976eef5",
+    "title": "QuickBooks Online offers a 30-day free trial as a direct product-evaluation path.",
+    "last_edited": "2026-09-25T20:01:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8114-8233-ddd2f1649462",
+    "title": "Free Trial",
+    "last_edited": "2026-09-25T20:01:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8136-943c-f8f069e6f763",
+    "title": "QuickBooks / Intuit",
+    "last_edited": "2026-09-25T20:01:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8148-8210-e2e702e2ebf2",
+    "title": "Partner Marketing",
+    "last_edited": "2026-09-25T20:01:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-8195-bed8-ff74e2a8e83a",
+    "title": "Xero",
+    "last_edited": "2026-09-25T20:01:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81e7-839c-cb4b572b6d27",
+    "title": "Partner / Accountant",
+    "last_edited": "2026-09-25T20:01:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81ff-88e6-d249a478396c",
+    "title": "Odoo",
+    "last_edited": "2026-09-25T20:01:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-818b-9eec-d82e57d8c164",
+    "title": "Odoo — Partnership Agreement / Benefits",
+    "last_edited": "2026-09-25T20:00:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81c2-b502-cc5794ea32c0",
+    "title": "Xero — Partner Marketing Toolkit",
+    "last_edited": "2026-09-25T20:00:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81e5-9c32-ebd3cdcadc79",
+    "title": "QuickBooks — Free Trial",
+    "last_edited": "2026-09-25T20:00:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81f3-b561-e26e0f5df47e",
+    "title": "Odoo — Resellers and Lead Assignment",
+    "last_edited": "2026-09-25T20:00:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81f4-97ef-d86e270a1038",
+    "title": "Xero — Partner Marketing Fund",
+    "last_edited": "2026-09-25T20:00:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-81f9-a3fc-ed58fdd88578",
+    "title": "QuickBooks — ProAdvisor Benefits and Tiers",
+    "last_edited": "2026-09-25T20:00:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e658a07-79e8-813d-83db-e9a08f23b4e8",
+    "title": "بحث بث مجتمع البرمجة — التسويق × البرمجة × السوق",
+    "last_edited": "2026-09-25T02:31:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e558a07-79e8-8177-8771-e3bf61af1959",
+    "title": "سجل القرارات المرجعي — منهج العروض التقديمية (Canonical Decision Registry)",
+    "last_edited": "2026-09-24T22:51:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e558a07-79e8-8190-a6f3-fd335ba776f8",
+    "title": "مرجع حاكم — SKey ERP | Brand & Creative System",
+    "last_edited": "2026-09-24T20:38:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3d458a07-79e8-8123-8af4-f4aeaf3d66cb",
+    "title": "مشروع بيع الخدمات الرقمية عبر Telegram — Payment Architecture & ProdSeller",
+    "last_edited": "2026-09-21T15:33:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3b358a07-79e8-8126-9dab-d4a8946808eb",
+    "title": "ملتقى تجار الشمايتين — دليل التأسيس والتشغيل الكامل",
+    "last_edited": "2026-09-21T15:31:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e158a07-79e8-8017-a245-eeaedaf61b17",
+    "title": "",
+    "last_edited": "2026-09-20T22:07:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3e158a07-79e8-8070-afb8-f7578867278d",
+    "title": "معلومات حول تطبيق لاولياء الأمور.",
+    "last_edited": "2026-09-20T21:59:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3c858a07-79e8-8066-91b7-cd64cee78405",
+    "title": "دليل المسار البيعي الشامل — من الاتصال إلى عرض السعر | مسح سوق التربة (1)",
+    "last_edited": "2026-08-26T17:49:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3c858a07-79e8-8125-b505-cb526aa3752c",
+    "title": "مواد غذائية",
+    "last_edited": "2026-08-26T17:49:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3c858a07-79e8-814a-a3e4-d3b27d6d2b8d",
+    "title": "ملابس ومنسوجات",
+    "last_edited": "2026-08-26T17:49:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3c858a07-79e8-8174-b8ac-c15d027cbf72",
+    "title": "سيارات وقطع غيار",
+    "last_edited": "2026-08-26T17:49:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3c858a07-79e8-817a-b619-c52273f2b94f",
+    "title": "ملاحظات وأفكار مفتوحة — للتطبيق اليدوي على الإكسل",
+    "last_edited": "2026-08-26T17:49:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3c858a07-79e8-81ee-be36-ff63fca9be7c",
+    "title": "إلكترونيات",
+    "last_edited": "2026-08-26T17:49:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3c858a07-79e8-81f1-b999-c3938f035b85",
+    "title": "مواد بناء",
+    "last_edited": "2026-08-26T17:49:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3c558a07-79e8-8107-80e4-dbaef95086fc",
+    "title": "دليل المسار البيعي الشامل — من الاتصال إلى عرض السعر | مسح سوق التربة",
+    "last_edited": "2026-08-26T05:46:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3c558a07-79e8-8147-b484-d031cc0e4a90",
+    "title": "مواد بناء",
+    "last_edited": "2026-08-24T21:48:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3c558a07-79e8-814e-9de3-fd47d1c2a3db",
+    "title": "إلكترونيات",
+    "last_edited": "2026-08-24T21:48:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3c558a07-79e8-81ef-aa15-d5ed5c47dde0",
+    "title": "سيارات وقطع غيار",
+    "last_edited": "2026-08-24T21:48:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3c558a07-79e8-814b-8f35-c6d0d4efb2de",
+    "title": "ملابس ومنسوجات",
+    "last_edited": "2026-08-24T21:47:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3c558a07-79e8-8178-9c49-c34d8af31d3f",
+    "title": "مواد غذائية",
+    "last_edited": "2026-08-24T21:47:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3c558a07-79e8-8195-8af6-fbb03b82a2c3",
+    "title": "ملاحظات وأفكار مفتوحة — للتطبيق اليدوي على الإكسل",
+    "last_edited": "2026-08-23T20:56:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3b658a07-79e8-81da-8bc0-c3ba414c762e",
+    "title": "[مرجع] استراتيجية التطوير التشغيلي — ملتقى التاجر الذكي",
+    "last_edited": "2026-08-08T19:35:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3ad58a07-79e8-81de-9574-fe1f909ed4b4",
+    "title": "الفكرة الواقعية — بنية الملف الكاملة (رؤوس أقلام لكل شيت)",
+    "last_edited": "2026-07-30T21:19:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "3ad58a07-79e8-8137-a302-eb0699636b53",
+    "title": "تدقيق موضوعي — المسح الميداني للتربة (سوق التربة، 719 كيان)",
+    "last_edited": "2026-07-30T20:56:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "9c058a07-79e8-83be-858e-81edc1f5e234",
+    "title": "قوّة التفكير الإيجابي",
+    "last_edited": "2026-07-24T22:57:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "a0558a07-79e8-83a8-87c9-0180f9d46abe",
+    "title": "فن عيش اللحظة",
+    "last_edited": "2026-07-24T22:57:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "fd658a07-79e8-8254-b9e8-0167619cf013",
+    "title": "أفضل 10 كتب بالنسبة لي وسبب حبّي لها",
+    "last_edited": "2026-07-24T22:57:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "57958a07-79e8-839d-a51a-01866444b1be",
+    "title": "استكشاف مطابخ جديدة",
+    "last_edited": "2026-07-24T22:57:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "22a58a07-79e8-838d-bb7c-01f91c8e9f88",
+    "title": "هواياتي المفضّلة: كيف أقضي وقت فراغي",
+    "last_edited": "2026-07-24T22:57:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "6c058a07-79e8-830f-885c-819b577bac69",
+    "title": "الاختبار النهائي",
+    "last_edited": "2026-07-24T22:57:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "29d58a07-79e8-8337-a4ce-8136773c3a23",
+    "title": "الاختبار النهائي",
+    "last_edited": "2026-07-24T22:57:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "bff58a07-79e8-8251-866a-814e51804518",
+    "title": "الاختبار النهائي",
+    "last_edited": "2026-07-24T22:57:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "94958a07-79e8-8279-86c1-81da713ad2cf",
+    "title": "الورقة البحثية",
+    "last_edited": "2026-07-24T22:57:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "da158a07-79e8-8295-bc4d-0187af81cc22",
+    "title": "تسليم المشروع",
+    "last_edited": "2026-07-24T22:57:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "dbb58a07-79e8-8225-9dce-8161a48eb58d",
+    "title": "تقرير المختبر 2",
+    "last_edited": "2026-07-24T22:57:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "81c58a07-79e8-83aa-acea-81f99235c9c2",
+    "title": "الاختبار النصفي",
+    "last_edited": "2026-07-24T22:57:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "10f58a07-79e8-83af-be4c-8103aa5c4084",
+    "title": "الاختبار النصفي",
+    "last_edited": "2026-07-24T22:57:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "ac958a07-79e8-82ea-864d-811105d3690e",
+    "title": "الاختبار النصفي",
+    "last_edited": "2026-07-24T22:57:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "edd58a07-79e8-83d7-87ba-01481355707a",
+    "title": "تقرير المختبر 1",
+    "last_edited": "2026-07-24T22:57:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "16058a07-79e8-83a8-add3-81a54de201e1",
+    "title": "الاختبار القصير 1",
+    "last_edited": "2026-07-24T22:57:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "cc058a07-79e8-83c4-8379-8145b5a3f6b2",
+    "title": "مجموعة المسائل 1",
+    "last_edited": "2026-07-24T22:57:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "94658a07-79e8-83da-a6bc-8142a5b5809b",
+    "title": "مقدمة في علم الأحياء",
+    "last_edited": "2026-07-24T22:57:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "21158a07-79e8-8304-923c-818ec0bdba06",
+    "title": "الكيمياء العامة 1",
+    "last_edited": "2026-07-24T22:57:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "44a58a07-79e8-82f2-9487-816137856f12",
+    "title": "التفاضل والتكامل 1",
+    "last_edited": "2026-07-24T22:57:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "93858a07-79e8-8389-8a92-8141283c4fa8",
+    "title": "مقرّر جديد",
+    "last_edited": "2026-07-24T22:57:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "68258a07-79e8-8277-a2f2-01ae393059cb",
+    "title": "مادة CS104: المحاضرة 5",
+    "last_edited": "2026-07-24T22:57:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "67c58a07-79e8-8214-a22a-817fa6ad27b9",
+    "title": "مقدمة في علم الأحياء الخلوي: المحاضرة 2",
+    "last_edited": "2026-07-24T22:57:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "43858a07-79e8-8382-ba11-018e2b7a05fa",
+    "title": "نادي المناظرات",
+    "last_edited": "2026-07-24T22:57:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "f2758a07-79e8-8332-9a18-011efaba5ef0",
+    "title": "ملاحظة",
+    "last_edited": "2026-07-24T22:57:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "f8158a07-79e8-8270-9590-01e9d815b613",
+    "title": "تصميم تجربة المستخدم: المحاضرة 6",
+    "last_edited": "2026-07-24T22:57:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "7c258a07-79e8-8375-8cb4-816464cda8ef",
+    "title": "حساب التفاضل والتكامل: المحاضرة 3",
+    "last_edited": "2026-07-24T22:57:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "56e58a07-79e8-83c6-9ee4-81b32b566232",
+    "title": "الأدب البريطاني: المحاضرة 3",
+    "last_edited": "2026-07-24T22:57:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "32e58a07-79e8-8364-9378-0183a950e6d4",
+    "title": "Ahmed Ahmed",
+    "last_edited": "2026-07-24T22:57:00.000Z",
+    "http": 200
+   },
+   {
+    "id": "ca158a07-79e8-8216-8e12-011d93e9dadf",
+    "title": "مُخطِّط الطالب ",
+    "last_edited": "2026-07-24T22:57:00.000Z",
+    "http": 200
+   }
+  ]
+ },
+ "db_classification_note": "old index db entries carry no last_edited field — 'changed_dbs'=all is a comparison artifact; full DB re-pull = fresh snapshot, not verified edit signal",
+ "capture": {
+  "pages_captured": 53,
+  "dbs_captured": 31,
+  "failed": 0,
+  "skipped_resume": 384
+ }
+}

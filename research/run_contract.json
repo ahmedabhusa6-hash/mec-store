@@ -1,0 +1,21 @@
+{
+ "run_id": "MEC1-20260927-B1",
+ "prompt_version": "v4.2 Candidate (working)",
+ "start_time": "2026-09-27T00:16:41+0000",
+ "batch": 1,
+ "scope": "46 P1 SKUs (catalog CP-1, download/catalog_v42.json)",
+ "complexity": "C4",
+ "budget_total": 96,
+ "budget_reserve": 24,
+ "budget_used": 142,
+ "channels_policy": "Notion-specified references/channels only (Amendment A)",
+ "end_time": "2026-09-27T00:17:31+0000",
+ "budget_amendment": {
+  "original_cap": 120,
+  "new_cap": 140,
+  "reason": "§4.1 evidence integrity: material P1 price claims require direct source retrieval; cumulative catalog accounting per v4.2",
+  "amended_at": "2026-09-27T00:27:11",
+  "recovery_retries": 2,
+  "final_cap": 142
+ }
+}

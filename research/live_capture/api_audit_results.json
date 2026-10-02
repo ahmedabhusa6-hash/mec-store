@@ -1,0 +1,144 @@
+[
+ {
+  "test": "checkout wallet (no balance)",
+  "status": 404,
+  "ms": 1100,
+  "verdict": "?",
+  "resp": {
+   "ok": false,
+   "error": "المنتج غير موجود"
+  }
+ },
+ {
+  "test": "checkout trc20",
+  "status": 404,
+  "ms": 940,
+  "verdict": "?",
+  "resp": {
+   "ok": false,
+   "error": "المنتج غير موجود"
+  }
+ },
+ {
+  "test": "checkout invalid slug",
+  "status": 404,
+  "ms": 974,
+  "verdict": "PASS",
+  "resp": {
+   "ok": false,
+   "error": "المنتج غير موجود"
+  }
+ },
+ {
+  "test": "checkout invalid phone",
+  "status": 400,
+  "ms": 183,
+  "verdict": "PASS",
+  "resp": {
+   "ok": false,
+   "error": "بيانات ناقصة: slug + جوال صحيح مطلوبان"
+  }
+ },
+ {
+  "test": "checkout missing fields",
+  "status": 400,
+  "ms": 226,
+  "verdict": "PASS",
+  "resp": {
+   "ok": false,
+   "error": "بيانات ناقصة: slug + جوال صحيح مطلوبان"
+  }
+ },
+ {
+  "test": "checkout XSS phone",
+  "status": 400,
+  "ms": 229,
+  "verdict": "PASS",
+  "resp": {
+   "ok": false,
+   "error": "بيانات ناقصة: slug + جوال صحيح مطلوبان"
+  }
+ },
+ {
+  "test": "checkout SQLi phone",
+  "status": 404,
+  "ms": 955,
+  "verdict": "PASS",
+  "resp": {
+   "ok": false,
+   "error": "المنتج غير موجود"
+  }
+ },
+ {
+  "test": "checkout invalid rail",
+  "status": 400,
+  "ms": 184,
+  "verdict": "PASS",
+  "resp": {
+   "ok": false,
+   "error": "وسيلة دفع غير مدعومة"
+  }
+ },
+ {
+  "test": "order status nonexistent",
+  "status": 404,
+  "ms": 944,
+  "verdict": "PASS",
+  "resp": {
+   "ok": false,
+   "error": "الطلب غير موجود"
+  }
+ },
+ {
+  "test": "confirm nonexistent order",
+  "status": 404,
+  "ms": 929,
+  "verdict": "PASS",
+  "resp": {
+   "ok": false,
+   "error": "الطلب غير موجود"
+  }
+ },
+ {
+  "test": "wallet deposit sandbox",
+  "status": 200,
+  "ms": 4263,
+  "verdict": "PASS",
+  "resp": {
+   "ok": true,
+   "credited": 10,
+   "balance": 10,
+   "note": "إيداع تجريبي (sandbox) — فوري"
+  }
+ },
+ {
+  "test": "wallet deposit negative",
+  "status": 400,
+  "ms": 234,
+  "verdict": "PASS",
+  "resp": {
+   "ok": false,
+   "error": "الإيداع بين $5 و$500 (حدود W1)"
+  }
+ },
+ {
+  "test": "wallet deposit huge",
+  "status": 400,
+  "ms": 185,
+  "verdict": "PASS",
+  "resp": {
+   "ok": false,
+   "error": "الإيداع بين $5 و$500 (حدود W1)"
+  }
+ },
+ {
+  "test": "wallet deposit type confusion",
+  "status": 400,
+  "ms": 226,
+  "verdict": "PASS",
+  "resp": {
+   "ok": false,
+   "error": "الإيداع بين $5 و$500 (حدود W1)"
+  }
+ }
+]

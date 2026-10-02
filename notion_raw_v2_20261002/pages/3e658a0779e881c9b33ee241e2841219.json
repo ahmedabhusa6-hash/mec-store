@@ -1,0 +1,220 @@
+{
+ "capture_reason": "NEWLY_ACCESSIBLE",
+ "captured_at": "2026-10-02T12:16:49+03:00",
+ "title": "YemenSoft's current website in September 2026 reports educational partnerships in Taiz using ONYX ERP as a practical course and reports a bank wallet launched using YemenSoft wallet technology.",
+ "last_edited": "2026-09-25T20:10:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e658a07-79e8-81c9-b33e-e241e2841219",
+  "created_time": "2026-09-25T20:10:00.000Z",
+  "last_edited_time": "2026-09-25T20:10:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "230f9103-4d44-47a5-b69f-fef368560b20"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "Conflicting Evidence": {
+    "id": "RNcx",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Date": {
+    "id": "Td%60A",
+    "type": "date",
+    "date": null
+   },
+   "Source Link": {
+    "id": "%5DC%40H",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "3e658a07-79e8-81a5-8fcf-c7a731f78023"
+     }
+    ],
+    "has_more": false
+   },
+   "Scope": {
+    "id": "_UPZ",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Yemen; September 2026 current news",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Yemen; September 2026 current news",
+      "href": null
+     }
+    ]
+   },
+   "Confidence": {
+    "id": "eU%3BK",
+    "type": "select",
+    "select": {
+     "id": "dce844a7-249c-496d-b071-eaf2fb18d172",
+     "name": "High",
+     "color": "green"
+    }
+   },
+   "Source Reference": {
+    "id": "kuxt",
+    "type": "url",
+    "url": "https://yemensoft.com/"
+   },
+   "Case Link": {
+    "id": "mBHn",
+    "type": "relation",
+    "relation": [],
+    "has_more": false
+   },
+   "Notes": {
+    "id": "oKLy",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Vendor-reported partnerships/outcomes; independent verification not assumed.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Vendor-reported partnerships/outcomes; independent verification not assumed.",
+      "href": null
+     }
+    ]
+   },
+   "Exact Reference": {
+    "id": "q~Kl",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "September 19, 2026 Community College partnership; September 2026 Al-Rawad University partnership; FAD wallet announcement.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "September 19, 2026 Community College partnership; September 2026 Al-Rawad University partnership; FAD wallet announcement.",
+      "href": null
+     }
+    ]
+   },
+   "Evidence Status": {
+    "id": "ymog",
+    "type": "status",
+    "status": {
+     "id": "e45b624d-0043-43ed-a63f-e4bedb218a01",
+     "name": "تم",
+     "color": "green"
+    }
+   },
+   "Evidence Type": {
+    "id": "yzj%7D",
+    "type": "select",
+    "select": {
+     "id": "9da54198-f1d0-4f75-9cb2-c03a0bda7319",
+     "name": "Reported",
+     "color": "yellow"
+    }
+   },
+   "Independence Group": {
+    "id": "zZtm",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "YemenSoft-Official-Current-News",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "YemenSoft-Official-Current-News",
+      "href": null
+     }
+    ]
+   },
+   "Entity Link": {
+    "id": "zgKu",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "3e658a07-79e8-818f-b96d-d984a208ce83"
+     }
+    ],
+    "has_more": false
+   },
+   "Claim": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "YemenSoft's current website in September 2026 reports educational partnerships in Taiz using ONYX ERP as a practical course and reports a bank wallet launched using YemenSoft wallet technology.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "YemenSoft's current website in September 2026 reports educational partnerships in Taiz using ONYX ERP as a practical course and reports a bank wallet launched using YemenSoft wallet technology.",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/YemenSoft-s-current-website-in-September-2026-reports-educational-partnerships-in-Taiz-using-ONYX-ER-3e658a0779e881c9b33ee241e2841219",
+  "public_url": null,
+  "archived": false,
+  "request_id": "a10637e6-7dd8-4e6f-8122-291ed7a7a572"
+ },
+ "block_count": 0,
+ "blocks": []
+}

@@ -1,0 +1,329 @@
+{
+ "capture_reason": "NEWLY_ACCESSIBLE",
+ "captured_at": "2026-10-02T12:16:49+03:00",
+ "title": "Case — Zoho Books Accountant GTM",
+ "last_edited": "2026-09-25T20:03:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e658a07-79e8-8160-8a84-cf665eae914e",
+  "created_time": "2026-09-25T20:03:00.000Z",
+  "last_edited_time": "2026-09-25T20:03:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "a87d8f7b-de51-419c-aa6d-90b81e0d7b21"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "Context": {
+    "id": "%3BcyS",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Cloud accounting with accountants acting as trusted service providers.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Cloud accounting with accountants acting as trusted service providers.",
+      "href": null
+     }
+    ]
+   },
+   "Situation": {
+    "id": "Dqr%7D",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Zoho's accountant program lists free product access, priority support, rewards/commissions, partner directory listing, dedicated account management, GTM marketing collateral, webinars/meetups and networking.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Zoho's accountant program lists free product access, priority support, rewards/commissions, partner directory listing, dedicated account management, GTM marketing collateral, webinars/meetups and networking.",
+      "href": null
+     }
+    ]
+   },
+   "Entity Link": {
+    "id": "ElSP",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "3e658a07-79e8-81b5-aed0-dc96e8dffa3b"
+     }
+    ],
+    "has_more": false
+   },
+   "Evidence Links": {
+    "id": "FYu%3A",
+    "type": "relation",
+    "relation": [],
+    "has_more": false
+   },
+   "Market": {
+    "id": "LVaJ",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Global / localized regional programs",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Global / localized regional programs",
+      "href": null
+     }
+    ]
+   },
+   "Constraints": {
+    "id": "MgJ%7D",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Benefits depend on partnership progression and revenue/tier goals according to Zoho.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Benefits depend on partnership progression and revenue/tier goals according to Zoho.",
+      "href": null
+     }
+    ]
+   },
+   "Confidence": {
+    "id": "Mhr%5B",
+    "type": "select",
+    "select": {
+     "id": "e872a95c-be8c-4dea-83d7-6192450960df",
+     "name": "High",
+     "color": "green"
+    }
+   },
+   "Segment": {
+    "id": "S%7Cat",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Accountants / bookkeepers / advisory firms",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Accountants / bookkeepers / advisory firms",
+      "href": null
+     }
+    ]
+   },
+   "Observed Outcome": {
+    "id": "TDBm",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Documented partner benefits and GTM support; public evidence reviewed here does not quantify partner-driven acquisition effectiveness.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Documented partner benefits and GTM support; public evidence reviewed here does not quantify partner-driven acquisition effectiveness.",
+      "href": null
+     }
+    ]
+   },
+   "Objective": {
+    "id": "UwXv",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Enable accountants to promote their practice and recommend/manage Zoho solutions for clients.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Enable accountants to promote their practice and recommend/manage Zoho solutions for clients.",
+      "href": null
+     }
+    ]
+   },
+   "Status": {
+    "id": "WKe%3B",
+    "type": "status",
+    "status": {
+     "id": "6b06f923-0b48-4a06-b0f5-de1916f018c1",
+     "name": "تم",
+     "color": "green"
+    }
+   },
+   "Evidence References": {
+    "id": "gCUd",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Zoho Books Accountant Partner Program",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Zoho Books Accountant Partner Program",
+      "href": null
+     }
+    ]
+   },
+   "Date": {
+    "id": "jpdJ",
+    "type": "date",
+    "date": null
+   },
+   "Channels": {
+    "id": "vZLG",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Partner marketing, directory, webinars, incentives, product access, advisory relationship.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Partner marketing, directory, webinars, incentives, product access, advisory relationship.",
+      "href": null
+     }
+    ]
+   },
+   "Mechanism": {
+    "id": "xauN",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Blend product access, economic incentives, visibility, support and GTM collateral to strengthen the accountant partner's ability to serve and acquire clients.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Blend product access, economic incentives, visibility, support and GTM collateral to strengthen the accountant partner's ability to serve and acquire clients.",
+      "href": null
+     }
+    ]
+   },
+   "Name": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Case — Zoho Books Accountant GTM",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Case — Zoho Books Accountant GTM",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/Case-Zoho-Books-Accountant-GTM-3e658a0779e881608a84cf665eae914e",
+  "public_url": null,
+  "archived": false,
+  "request_id": "b06da7f1-e178-4175-9824-234e107b1a62"
+ },
+ "block_count": 0,
+ "blocks": []
+}

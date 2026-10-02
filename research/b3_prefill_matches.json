@@ -1,0 +1,1158 @@
+{
+ "run": "MEC-2.5 quota-free pre-fill (P3 + deferred vs StackVault/Turgame catalogs)",
+ "generated": "2026-09-27",
+ "p3_sv_matches": [
+  {
+   "sku_id": "SKU-AI030",
+   "identity": "Adobe | Adobe Firefly plan | 1 month | Global",
+   "family": "AI/SaaS",
+   "source": "StackVault-API",
+   "n_candidates": 5,
+   "best": {
+    "name": "😎 Adobe Express 12m",
+    "price": 0.64,
+    "cost": 0.5,
+    "stock": 93
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-AI031",
+   "identity": "Notion | Notion AI add-on | 1 month | Global",
+   "family": "AI/SaaS",
+   "source": "StackVault-API",
+   "n_candidates": 2,
+   "best": {
+    "name": "📝 Notion Edu Plus Account",
+    "price": 1.6,
+    "cost": 0.8,
+    "stock": 14
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-AI034",
+   "identity": "Anthropic | Claude Pro annual | 12 months | Global",
+   "family": "AI/SaaS",
+   "source": "StackVault-API",
+   "n_candidates": 8,
+   "best": {
+    "name": "🤶 API 10M Token Claude 1 Day - full warranty",
+    "price": 1.48,
+    "cost": 1.15,
+    "stock": 39
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-AI044",
+   "identity": "Gamma | Gamma Max | 1 month | Global",
+   "family": "AI/SaaS",
+   "source": "StackVault-API",
+   "n_candidates": 12,
+   "best": {
+    "name": "🍿 HBO MAX - 1 month (20-day warranty)",
+    "price": 1.96,
+    "cost": 1.53,
+    "stock": 0
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-AI047",
+   "identity": "Anysphere | Cursor Pro | 1 month | Global",
+   "family": "AI/SaaS",
+   "source": "StackVault-API",
+   "n_candidates": 3,
+   "best": {
+    "name": "🖱️ API Cursor Pro 2600 Credits 1 month full warranty",
+    "price": 10.01,
+    "cost": 8.34,
+    "stock": 1
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-AI048",
+   "identity": "Grammarly | Grammarly Premium | 1 month | Global",
+   "family": "AI/SaaS",
+   "source": "StackVault-API",
+   "n_candidates": 3,
+   "best": {
+    "name": "⭐ Grammarly Pro 7-14 Days - full warranty",
+    "price": 0.5,
+    "cost": 0.39,
+    "stock": 3
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC013",
+   "identity": "Microsoft | Xbox Gift Card | 5 EUR | EU",
+   "family": "Gift Cards",
+   "source": "StackVault-API",
+   "n_candidates": 1,
+   "best": {
+    "name": "🎮 XBOX GAME PASS ULTIMATE - 1 YEAR (1 Month Warranty)",
+    "price": 16.91,
+    "cost": 14.09,
+    "stock": 0
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC014",
+   "identity": "Microsoft | Xbox Gift Card | 15 EUR | EU",
+   "family": "Gift Cards",
+   "source": "StackVault-API",
+   "n_candidates": 1,
+   "best": {
+    "name": "🎮 XBOX GAME PASS ULTIMATE - 1 YEAR (1 Month Warranty)",
+    "price": 16.91,
+    "cost": 14.09,
+    "stock": 0
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC015",
+   "identity": "Microsoft | Xbox Gift Card | 25 EUR | EU",
+   "family": "Gift Cards",
+   "source": "StackVault-API",
+   "n_candidates": 1,
+   "best": {
+    "name": "🎮 XBOX GAME PASS ULTIMATE - 1 YEAR (1 Month Warranty)",
+    "price": 16.91,
+    "cost": 14.09,
+    "stock": 0
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC016",
+   "identity": "Microsoft | Xbox Gift Card | 50 TRY | Turkey",
+   "family": "Gift Cards",
+   "source": "StackVault-API",
+   "n_candidates": 1,
+   "best": {
+    "name": "🎮 XBOX GAME PASS ULTIMATE - 1 YEAR (1 Month Warranty)",
+    "price": 16.91,
+    "cost": 14.09,
+    "stock": 0
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC017",
+   "identity": "Google | Google Play Gift Card | 10 EUR | EU",
+   "family": "Gift Cards",
+   "source": "StackVault-API",
+   "n_candidates": 1,
+   "best": {
+    "name": "📦 Code Redeem 100$ GCP (Google Cloud Platform)",
+    "price": 12.81,
+    "cost": 10.67,
+    "stock": 7
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC018",
+   "identity": "Google | Google Play Gift Card | 25 EUR | EU",
+   "family": "Gift Cards",
+   "source": "StackVault-API",
+   "n_candidates": 1,
+   "best": {
+    "name": "📦 Code Redeem 100$ GCP (Google Cloud Platform)",
+    "price": 12.81,
+    "cost": 10.67,
+    "stock": 7
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC019",
+   "identity": "Google | Google Play Gift Card | 50 SAR | Saudi Arabia",
+   "family": "Gift Cards",
+   "source": "StackVault-API",
+   "n_candidates": 1,
+   "best": {
+    "name": "📦 Code Redeem 100$ GCP (Google Cloud Platform)",
+    "price": 12.81,
+    "cost": 10.67,
+    "stock": 7
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC020",
+   "identity": "Apple | Apple Gift Card / iTunes | 25 EUR | EU",
+   "family": "Gift Cards",
+   "source": "StackVault-API",
+   "n_candidates": 5,
+   "best": {
+    "name": "🍎 Apple ID 2FA Gmail",
+    "price": 1.72,
+    "cost": 1.34,
+    "stock": 39
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC021",
+   "identity": "Apple | Apple Gift Card / iTunes | 50 SAR | Saudi Arabia",
+   "family": "Gift Cards",
+   "source": "StackVault-API",
+   "n_candidates": 5,
+   "best": {
+    "name": "🍎 Apple ID 2FA Gmail",
+    "price": 1.72,
+    "cost": 1.34,
+    "stock": 39
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC023",
+   "identity": "Amazon | Amazon Gift Card | 25 EUR | EU",
+   "family": "Gift Cards",
+   "source": "StackVault-API",
+   "n_candidates": 3,
+   "best": {
+    "name": "📺 Amazon Prime Video 6m",
+    "price": 2.35,
+    "cost": 2,
+    "stock": 14
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC024",
+   "identity": "Amazon | Amazon Gift Card | 50 TRY | Turkey",
+   "family": "Gift Cards",
+   "source": "StackVault-API",
+   "n_candidates": 3,
+   "best": {
+    "name": "📺 Amazon Prime Video 6m",
+    "price": 2.35,
+    "cost": 2,
+    "stock": 14
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC028",
+   "identity": "Spotify | Spotify Gift Card | 60 EUR | EU",
+   "family": "Gift Cards",
+   "source": "StackVault-API",
+   "n_candidates": 1,
+   "best": {
+    "name": "🎧 Spotify Premium 3-Month Activation Link with No Warranty",
+    "price": 1.96,
+    "cost": 1.53,
+    "stock": 3
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC071",
+   "identity": "Google | Google Play Gift Card | 10 USD | Saudi Arabia",
+   "family": "Gift Cards",
+   "source": "StackVault-API",
+   "n_candidates": 1,
+   "best": {
+    "name": "📦 Code Redeem 100$ GCP (Google Cloud Platform)",
+    "price": 12.81,
+    "cost": 10.67,
+    "stock": 7
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC073",
+   "identity": "Google | Google Play Gift Card | 25 USD | Saudi Arabia",
+   "family": "Gift Cards",
+   "source": "StackVault-API",
+   "n_candidates": 1,
+   "best": {
+    "name": "📦 Code Redeem 100$ GCP (Google Cloud Platform)",
+    "price": 12.81,
+    "cost": 10.67,
+    "stock": 7
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC075",
+   "identity": "Google | Google Play Gift Card | 50 USD | Saudi Arabia",
+   "family": "Gift Cards",
+   "source": "StackVault-API",
+   "n_candidates": 1,
+   "best": {
+    "name": "📦 Code Redeem 100$ GCP (Google Cloud Platform)",
+    "price": 12.81,
+    "cost": 10.67,
+    "stock": 7
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC077",
+   "identity": "Google | Google Play Gift Card | 100 USD | Saudi Arabia",
+   "family": "Gift Cards",
+   "source": "StackVault-API",
+   "n_candidates": 1,
+   "best": {
+    "name": "📦 Code Redeem 100$ GCP (Google Cloud Platform)",
+    "price": 12.81,
+    "cost": 10.67,
+    "stock": 7
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC079",
+   "identity": "Amazon | Amazon Gift Card | 10 USD | Saudi Arabia",
+   "family": "Gift Cards",
+   "source": "StackVault-API",
+   "n_candidates": 3,
+   "best": {
+    "name": "📺 Amazon Prime Video 6m",
+    "price": 2.35,
+    "cost": 2,
+    "stock": 14
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC081",
+   "identity": "Amazon | Amazon Gift Card | 25 USD | Saudi Arabia",
+   "family": "Gift Cards",
+   "source": "StackVault-API",
+   "n_candidates": 3,
+   "best": {
+    "name": "📺 Amazon Prime Video 6m",
+    "price": 2.35,
+    "cost": 2,
+    "stock": 14
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC083",
+   "identity": "Amazon | Amazon Gift Card | 50 USD | Saudi Arabia",
+   "family": "Gift Cards",
+   "source": "StackVault-API",
+   "n_candidates": 3,
+   "best": {
+    "name": "📺 Amazon Prime Video 6m",
+    "price": 2.35,
+    "cost": 2,
+    "stock": 14
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC085",
+   "identity": "Amazon | Amazon Gift Card | 100 USD | Saudi Arabia",
+   "family": "Gift Cards",
+   "source": "StackVault-API",
+   "n_candidates": 3,
+   "best": {
+    "name": "📺 Amazon Prime Video 6m",
+    "price": 2.35,
+    "cost": 2,
+    "stock": 14
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-SW012",
+   "identity": "Adobe | Photoshop subscription | 1 month | Global",
+   "family": "Software/Licenses",
+   "source": "StackVault-API",
+   "n_candidates": 5,
+   "best": {
+    "name": "😎 Adobe Express 12m",
+    "price": 0.64,
+    "cost": 0.5,
+    "stock": 93
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-SW013",
+   "identity": "Adobe | Adobe CC All Apps | 1 month | Global",
+   "family": "Software/Licenses",
+   "source": "StackVault-API",
+   "n_candidates": 5,
+   "best": {
+    "name": "😎 Adobe Express 12m",
+    "price": 0.64,
+    "cost": 0.5,
+    "stock": 93
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-SW014",
+   "identity": "Adobe | Adobe Photoshop lifetime key | lifetime | Global",
+   "family": "Software/Licenses",
+   "source": "StackVault-API",
+   "n_candidates": 8,
+   "best": {
+    "name": "😎 Adobe Express 12m",
+    "price": 0.64,
+    "cost": 0.5,
+    "stock": 93
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-SW015",
+   "identity": "Adobe | Adobe Illustrator lifetime key | lifetime | Global",
+   "family": "Software/Licenses",
+   "source": "StackVault-API",
+   "n_candidates": 8,
+   "best": {
+    "name": "😎 Adobe Express 12m",
+    "price": 0.64,
+    "cost": 0.5,
+    "stock": 93
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-SW016",
+   "identity": "Adobe | Adobe Premiere Pro lifetime key | lifetime | Global",
+   "family": "Software/Licenses",
+   "source": "StackVault-API",
+   "n_candidates": 8,
+   "best": {
+    "name": "😎 Adobe Express 12m",
+    "price": 0.64,
+    "cost": 0.5,
+    "stock": 93
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-SW017",
+   "identity": "Adobe | Adobe After Effects lifetime key | lifetime | Global",
+   "family": "Software/Licenses",
+   "source": "StackVault-API",
+   "n_candidates": 8,
+   "best": {
+    "name": "😎 Adobe Express 12m",
+    "price": 0.64,
+    "cost": 0.5,
+    "stock": 93
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-SW018",
+   "identity": "Adobe | Adobe Lightroom lifetime key | lifetime | Global",
+   "family": "Software/Licenses",
+   "source": "StackVault-API",
+   "n_candidates": 8,
+   "best": {
+    "name": "😎 Adobe Express 12m",
+    "price": 0.64,
+    "cost": 0.5,
+    "stock": 93
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-SM007",
+   "identity": "Various panels | YouTube views | one-time | Global",
+   "family": "SMM Services",
+   "source": "StackVault-API",
+   "n_candidates": 1,
+   "best": {
+    "name": "📺 Youtube Premium 3M",
+    "price": 3.6,
+    "cost": 3,
+    "stock": 99
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-SM016",
+   "identity": "Various panels | YouTube 4000 watch hours | one-time | Global",
+   "family": "SMM Services",
+   "source": "StackVault-API",
+   "n_candidates": 1,
+   "best": {
+    "name": "📺 Youtube Premium 3M",
+    "price": 3.6,
+    "cost": 3,
+    "stock": 99
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-SM017",
+   "identity": "Various panels | YouTube Shorts views | one-time | Global",
+   "family": "SMM Services",
+   "source": "StackVault-API",
+   "n_candidates": 1,
+   "best": {
+    "name": "📺 Youtube Premium 3M",
+    "price": 3.6,
+    "cost": 3,
+    "stock": 99
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-SM020",
+   "identity": "Various panels | Discord server members | one-time | Global",
+   "family": "SMM Services",
+   "source": "StackVault-API",
+   "n_candidates": 23,
+   "best": {
+    "name": "Decor is 20% cheaper than the original price if you don't have Nitro (contact ad",
+    "price": 0.02,
+    "cost": 0.01,
+    "stock": 9
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-SM023",
+   "identity": "Various panels | Spotify plays | one-time | Global",
+   "family": "SMM Services",
+   "source": "StackVault-API",
+   "n_candidates": 1,
+   "best": {
+    "name": "🎧 Spotify Premium 3-Month Activation Link with No Warranty",
+    "price": 1.96,
+    "cost": 1.53,
+    "stock": 3
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-DS023",
+   "identity": "Apple | Apple TV+ | 1 month | US",
+   "family": "Digital Subscriptions",
+   "source": "StackVault-API",
+   "n_candidates": 4,
+   "best": {
+    "name": "🍎 Apple ID 2FA Gmail",
+    "price": 1.72,
+    "cost": 1.34,
+    "stock": 39
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-DS033",
+   "identity": "Notion | Notion Plus | 1 month | Global",
+   "family": "Digital Subscriptions",
+   "source": "StackVault-API",
+   "n_candidates": 2,
+   "best": {
+    "name": "📝 Notion Edu Plus Account",
+    "price": 1.6,
+    "cost": 0.8,
+    "stock": 14
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-DS044",
+   "identity": "Discord | Discord Nitro Basic | 1 month | Global",
+   "family": "Digital Subscriptions",
+   "source": "StackVault-API",
+   "n_candidates": 20,
+   "best": {
+    "name": "Decor is 20% cheaper than the original price if you don't have Nitro (contact ad",
+    "price": 0.02,
+    "cost": 0.01,
+    "stock": 9
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-DS065",
+   "identity": "Notion | Notion Plus annual | 12 months | Global",
+   "family": "Digital Subscriptions",
+   "source": "StackVault-API",
+   "n_candidates": 2,
+   "best": {
+    "name": "📝 Notion Edu Plus Account",
+    "price": 1.6,
+    "cost": 0.8,
+    "stock": 14
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-DS070",
+   "identity": "Google | Google One 2TB | 1 month | Global",
+   "family": "Digital Subscriptions",
+   "source": "StackVault-API",
+   "n_candidates": 1,
+   "best": {
+    "name": "📦 Code Redeem 100$ GCP (Google Cloud Platform)",
+    "price": 12.81,
+    "cost": 10.67,
+    "stock": 7
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-DS071",
+   "identity": "Apple | iCloud+ 2TB | 1 month | Global",
+   "family": "Digital Subscriptions",
+   "source": "StackVault-API",
+   "n_candidates": 4,
+   "best": {
+    "name": "🍎 Apple ID 2FA Gmail",
+    "price": 1.72,
+    "cost": 1.34,
+    "stock": 39
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-DS072",
+   "identity": "Google | Google Workspace Individual | 12 months | Global",
+   "family": "Digital Subscriptions",
+   "source": "StackVault-API",
+   "n_candidates": 1,
+   "best": {
+    "name": "📦 Code Redeem 100$ GCP (Google Cloud Platform)",
+    "price": 12.81,
+    "cost": 10.67,
+    "stock": 7
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-DS073",
+   "identity": "Microsoft | Microsoft 365 Business Basic | 1 month | Global",
+   "family": "Digital Subscriptions",
+   "source": "StackVault-API",
+   "n_candidates": 6,
+   "best": {
+    "name": "😶‍🌫️ MS Office 365 Plus 12M",
+    "price": 1.03,
+    "cost": 0.8,
+    "stock": 20
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-DS074",
+   "identity": "Microsoft | Microsoft 365 Business Standard | 1 month | Global",
+   "family": "Digital Subscriptions",
+   "source": "StackVault-API",
+   "n_candidates": 6,
+   "best": {
+    "name": "😶‍🌫️ MS Office 365 Plus 12M",
+    "price": 1.03,
+    "cost": 0.8,
+    "stock": 20
+   },
+   "evidence": "Directly-Observed (backend API 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  }
+ ],
+ "deferred_sv_matches": [
+  {
+   "sku_id": "SKU-DS043",
+   "identity": "Discord | Discord Nitro | 12 months",
+   "source": "StackVault-API",
+   "n_candidates": 21,
+   "best": {
+    "name": "Decor is 20% cheaper than the original price if you don't have Nitro (contact ad",
+    "price": 0.02,
+    "cost": 0.01,
+    "stock": 9
+   }
+  },
+  {
+   "sku_id": "SKU-DS061",
+   "identity": "ExpressVPN | ExpressVPN subscription | 12 months",
+   "source": "StackVault-API",
+   "n_candidates": 2,
+   "best": {
+    "name": "🚚 Express VPN 10 devices 3 days full warranty",
+    "price": 0.75,
+    "cost": 0.58,
+    "stock": 0
+   }
+  },
+  {
+   "sku_id": "SKU-DS062",
+   "identity": "Surfshark | Surfshark subscription | 24 months",
+   "source": "StackVault-API",
+   "n_candidates": 2,
+   "best": {
+    "name": "🦈 SurfShark VPN Android/PC/iOS 7 days full warranty",
+    "price": 0.75,
+    "cost": 0.58,
+    "stock": 0
+   }
+  },
+  {
+   "sku_id": "SKU-DS063",
+   "identity": "Canva | Canva Pro annual | 12 months",
+   "source": "StackVault-API",
+   "n_candidates": 1,
+   "best": {
+    "name": "🖌️ Canva Pro Admin (500 invitations)",
+    "price": 6.6,
+    "cost": 5.5,
+    "stock": 6
+   }
+  }
+ ],
+ "p3_tg_matches": [
+  {
+   "sku_id": "SKU-GC005",
+   "identity": "Valve | Steam Wallet Gift Card | Wallet code | EU",
+   "family": "Gift Cards",
+   "source": "Turgame-retail",
+   "n_candidates": 14,
+   "best": {
+    "name": "Steam India 250 INR",
+    "price": "2,61",
+    "currency": "USD",
+    "url": "https://www.turgame.com/steam-india-250-inr/"
+   },
+   "evidence": "Directly-Observed (product page data 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC006",
+   "identity": "Valve | Steam Wallet Gift Card | Wallet code | Argentina",
+   "family": "Gift Cards",
+   "source": "Turgame-retail",
+   "n_candidates": 14,
+   "best": {
+    "name": "Steam India 250 INR",
+    "price": "2,61",
+    "currency": "USD",
+    "url": "https://www.turgame.com/steam-india-250-inr/"
+   },
+   "evidence": "Directly-Observed (product page data 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC012",
+   "identity": "Sony | PlayStation Network Card | Wallet code | Turkey",
+   "family": "Gift Cards",
+   "source": "Turgame-retail",
+   "n_candidates": 14,
+   "best": {
+    "name": "PlayStation Oman 5 USD",
+    "price": "4,84",
+    "currency": "USD",
+    "url": "https://www.turgame.com/playstation-oman-5-usd/"
+   },
+   "evidence": "Directly-Observed (product page data 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC013",
+   "identity": "Microsoft | Xbox Gift Card | Wallet code | EU",
+   "family": "Gift Cards",
+   "source": "Turgame-retail",
+   "n_candidates": 13,
+   "best": {
+    "name": "XBOX Live Gift Card 25 TL XBOX Key TURKEY",
+    "price": "0,51",
+    "currency": "USD",
+    "url": "https://www.turgame.com/xbox-live-gift-card-25-tl-xbox-key-turkey/"
+   },
+   "evidence": "Directly-Observed (product page data 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC014",
+   "identity": "Microsoft | Xbox Gift Card | Wallet code | EU",
+   "family": "Gift Cards",
+   "source": "Turgame-retail",
+   "n_candidates": 13,
+   "best": {
+    "name": "XBOX Live Gift Card 25 TL XBOX Key TURKEY",
+    "price": "0,51",
+    "currency": "USD",
+    "url": "https://www.turgame.com/xbox-live-gift-card-25-tl-xbox-key-turkey/"
+   },
+   "evidence": "Directly-Observed (product page data 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC015",
+   "identity": "Microsoft | Xbox Gift Card | Wallet code | EU",
+   "family": "Gift Cards",
+   "source": "Turgame-retail",
+   "n_candidates": 13,
+   "best": {
+    "name": "XBOX Live Gift Card 25 TL XBOX Key TURKEY",
+    "price": "0,51",
+    "currency": "USD",
+    "url": "https://www.turgame.com/xbox-live-gift-card-25-tl-xbox-key-turkey/"
+   },
+   "evidence": "Directly-Observed (product page data 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC016",
+   "identity": "Microsoft | Xbox Gift Card | Wallet code | Turkey",
+   "family": "Gift Cards",
+   "source": "Turgame-retail",
+   "n_candidates": 13,
+   "best": {
+    "name": "XBOX Live Gift Card 25 TL XBOX Key TURKEY",
+    "price": "0,51",
+    "currency": "USD",
+    "url": "https://www.turgame.com/xbox-live-gift-card-25-tl-xbox-key-turkey/"
+   },
+   "evidence": "Directly-Observed (product page data 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC017",
+   "identity": "Google | Google Play Gift Card | Card code | EU",
+   "family": "Gift Cards",
+   "source": "Turgame-retail",
+   "n_candidates": 15,
+   "best": {
+    "name": "Google Play Gift Card 25 TL Key TURKEY",
+    "price": "0,51",
+    "currency": "USD",
+    "url": "https://www.turgame.com/google-play-gift-card-25-tl-key-turkey/"
+   },
+   "evidence": "Directly-Observed (product page data 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC018",
+   "identity": "Google | Google Play Gift Card | Card code | EU",
+   "family": "Gift Cards",
+   "source": "Turgame-retail",
+   "n_candidates": 15,
+   "best": {
+    "name": "Google Play Gift Card 25 TL Key TURKEY",
+    "price": "0,51",
+    "currency": "USD",
+    "url": "https://www.turgame.com/google-play-gift-card-25-tl-key-turkey/"
+   },
+   "evidence": "Directly-Observed (product page data 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC019",
+   "identity": "Google | Google Play Gift Card | Card code | Saudi Arabia",
+   "family": "Gift Cards",
+   "source": "Turgame-retail",
+   "n_candidates": 15,
+   "best": {
+    "name": "Google Play Gift Card 25 TL Key TURKEY",
+    "price": "0,51",
+    "currency": "USD",
+    "url": "https://www.turgame.com/google-play-gift-card-25-tl-key-turkey/"
+   },
+   "evidence": "Directly-Observed (product page data 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC020",
+   "identity": "Apple | Apple Gift Card / iTunes | Card code | EU",
+   "family": "Gift Cards",
+   "source": "Turgame-retail",
+   "n_candidates": 15,
+   "best": {
+    "name": "Apple iTunes Gift Card 25 TL iTunes Key TURKEY",
+    "price": "0,51",
+    "currency": "USD",
+    "url": "https://www.turgame.com/app-store-itunes-gift-card-25-tl-itunes-key-turkey/"
+   },
+   "evidence": "Directly-Observed (product page data 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC021",
+   "identity": "Apple | Apple Gift Card / iTunes | Card code | Saudi Arabia",
+   "family": "Gift Cards",
+   "source": "Turgame-retail",
+   "n_candidates": 15,
+   "best": {
+    "name": "Apple iTunes Gift Card 25 TL iTunes Key TURKEY",
+    "price": "0,51",
+    "currency": "USD",
+    "url": "https://www.turgame.com/app-store-itunes-gift-card-25-tl-itunes-key-turkey/"
+   },
+   "evidence": "Directly-Observed (product page data 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC023",
+   "identity": "Amazon | Amazon Gift Card | Card code | EU",
+   "family": "Gift Cards",
+   "source": "Turgame-retail",
+   "n_candidates": 15,
+   "best": {
+    "name": "Amazon Gift Card 100 TL TURKEY",
+    "price": "2,05",
+    "currency": "USD",
+    "url": "https://www.turgame.com/amazon-gift-card-100-tl-turkey/"
+   },
+   "evidence": "Directly-Observed (product page data 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC024",
+   "identity": "Amazon | Amazon Gift Card | Card code | Turkey",
+   "family": "Gift Cards",
+   "source": "Turgame-retail",
+   "n_candidates": 15,
+   "best": {
+    "name": "Amazon Gift Card 100 TL TURKEY",
+    "price": "2,05",
+    "currency": "USD",
+    "url": "https://www.turgame.com/amazon-gift-card-100-tl-turkey/"
+   },
+   "evidence": "Directly-Observed (product page data 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC042",
+   "identity": "Valve | Steam Wallet Gift Card | Wallet code | Turkey",
+   "family": "Gift Cards",
+   "source": "Turgame-retail",
+   "n_candidates": 14,
+   "best": {
+    "name": "Steam India 250 INR",
+    "price": "2,61",
+    "currency": "USD",
+    "url": "https://www.turgame.com/steam-india-250-inr/"
+   },
+   "evidence": "Directly-Observed (product page data 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC044",
+   "identity": "Valve | Steam Wallet Gift Card | Wallet code | Turkey",
+   "family": "Gift Cards",
+   "source": "Turgame-retail",
+   "n_candidates": 14,
+   "best": {
+    "name": "Steam India 250 INR",
+    "price": "2,61",
+    "currency": "USD",
+    "url": "https://www.turgame.com/steam-india-250-inr/"
+   },
+   "evidence": "Directly-Observed (product page data 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC046",
+   "identity": "Valve | Steam Wallet Gift Card | Wallet code | Turkey",
+   "family": "Gift Cards",
+   "source": "Turgame-retail",
+   "n_candidates": 14,
+   "best": {
+    "name": "Steam India 250 INR",
+    "price": "2,61",
+    "currency": "USD",
+    "url": "https://www.turgame.com/steam-india-250-inr/"
+   },
+   "evidence": "Directly-Observed (product page data 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC054",
+   "identity": "Sony | PlayStation Network Card | Wallet code | UK",
+   "family": "Gift Cards",
+   "source": "Turgame-retail",
+   "n_candidates": 14,
+   "best": {
+    "name": "PlayStation Oman 5 USD",
+    "price": "4,84",
+    "currency": "USD",
+    "url": "https://www.turgame.com/playstation-oman-5-usd/"
+   },
+   "evidence": "Directly-Observed (product page data 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC055",
+   "identity": "Sony | PlayStation Network Card | Wallet code | UK",
+   "family": "Gift Cards",
+   "source": "Turgame-retail",
+   "n_candidates": 14,
+   "best": {
+    "name": "PlayStation Oman 5 USD",
+    "price": "4,84",
+    "currency": "USD",
+    "url": "https://www.turgame.com/playstation-oman-5-usd/"
+   },
+   "evidence": "Directly-Observed (product page data 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC056",
+   "identity": "Sony | PlayStation Network Card | Wallet code | UK",
+   "family": "Gift Cards",
+   "source": "Turgame-retail",
+   "n_candidates": 14,
+   "best": {
+    "name": "PlayStation Oman 5 USD",
+    "price": "4,84",
+    "currency": "USD",
+    "url": "https://www.turgame.com/playstation-oman-5-usd/"
+   },
+   "evidence": "Directly-Observed (product page data 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC071",
+   "identity": "Google | Google Play Gift Card | Card code | Saudi Arabia",
+   "family": "Gift Cards",
+   "source": "Turgame-retail",
+   "n_candidates": 15,
+   "best": {
+    "name": "Google Play Gift Card 25 TL Key TURKEY",
+    "price": "0,51",
+    "currency": "USD",
+    "url": "https://www.turgame.com/google-play-gift-card-25-tl-key-turkey/"
+   },
+   "evidence": "Directly-Observed (product page data 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC073",
+   "identity": "Google | Google Play Gift Card | Card code | Saudi Arabia",
+   "family": "Gift Cards",
+   "source": "Turgame-retail",
+   "n_candidates": 15,
+   "best": {
+    "name": "Google Play Gift Card 25 TL Key TURKEY",
+    "price": "0,51",
+    "currency": "USD",
+    "url": "https://www.turgame.com/google-play-gift-card-25-tl-key-turkey/"
+   },
+   "evidence": "Directly-Observed (product page data 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC075",
+   "identity": "Google | Google Play Gift Card | Card code | Saudi Arabia",
+   "family": "Gift Cards",
+   "source": "Turgame-retail",
+   "n_candidates": 15,
+   "best": {
+    "name": "Google Play Gift Card 25 TL Key TURKEY",
+    "price": "0,51",
+    "currency": "USD",
+    "url": "https://www.turgame.com/google-play-gift-card-25-tl-key-turkey/"
+   },
+   "evidence": "Directly-Observed (product page data 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC077",
+   "identity": "Google | Google Play Gift Card | Card code | Saudi Arabia",
+   "family": "Gift Cards",
+   "source": "Turgame-retail",
+   "n_candidates": 15,
+   "best": {
+    "name": "Google Play Gift Card 25 TL Key TURKEY",
+    "price": "0,51",
+    "currency": "USD",
+    "url": "https://www.turgame.com/google-play-gift-card-25-tl-key-turkey/"
+   },
+   "evidence": "Directly-Observed (product page data 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC079",
+   "identity": "Amazon | Amazon Gift Card | Card code | Saudi Arabia",
+   "family": "Gift Cards",
+   "source": "Turgame-retail",
+   "n_candidates": 15,
+   "best": {
+    "name": "Amazon Gift Card 100 TL TURKEY",
+    "price": "2,05",
+    "currency": "USD",
+    "url": "https://www.turgame.com/amazon-gift-card-100-tl-turkey/"
+   },
+   "evidence": "Directly-Observed (product page data 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC081",
+   "identity": "Amazon | Amazon Gift Card | Card code | Saudi Arabia",
+   "family": "Gift Cards",
+   "source": "Turgame-retail",
+   "n_candidates": 15,
+   "best": {
+    "name": "Amazon Gift Card 100 TL TURKEY",
+    "price": "2,05",
+    "currency": "USD",
+    "url": "https://www.turgame.com/amazon-gift-card-100-tl-turkey/"
+   },
+   "evidence": "Directly-Observed (product page data 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC083",
+   "identity": "Amazon | Amazon Gift Card | Card code | Saudi Arabia",
+   "family": "Gift Cards",
+   "source": "Turgame-retail",
+   "n_candidates": 15,
+   "best": {
+    "name": "Amazon Gift Card 100 TL TURKEY",
+    "price": "2,05",
+    "currency": "USD",
+    "url": "https://www.turgame.com/amazon-gift-card-100-tl-turkey/"
+   },
+   "evidence": "Directly-Observed (product page data 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC085",
+   "identity": "Amazon | Amazon Gift Card | Card code | Saudi Arabia",
+   "family": "Gift Cards",
+   "source": "Turgame-retail",
+   "n_candidates": 15,
+   "best": {
+    "name": "Amazon Gift Card 100 TL TURKEY",
+    "price": "2,05",
+    "currency": "USD",
+    "url": "https://www.turgame.com/amazon-gift-card-100-tl-turkey/"
+   },
+   "evidence": "Directly-Observed (product page data 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC102",
+   "identity": "Valve | Steam Wallet Gift Card (TRY) | Wallet code | Turkey",
+   "family": "Gift Cards",
+   "source": "Turgame-retail",
+   "n_candidates": 14,
+   "best": {
+    "name": "Steam India 250 INR",
+    "price": "2,61",
+    "currency": "USD",
+    "url": "https://www.turgame.com/steam-india-250-inr/"
+   },
+   "evidence": "Directly-Observed (product page data 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC103",
+   "identity": "Valve | Steam Wallet Gift Card (TRY) | Wallet code | Turkey",
+   "family": "Gift Cards",
+   "source": "Turgame-retail",
+   "n_candidates": 14,
+   "best": {
+    "name": "Steam India 250 INR",
+    "price": "2,61",
+    "currency": "USD",
+    "url": "https://www.turgame.com/steam-india-250-inr/"
+   },
+   "evidence": "Directly-Observed (product page data 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  },
+  {
+   "sku_id": "SKU-GC104",
+   "identity": "Valve | Steam Wallet Gift Card (TRY) | Wallet code | Turkey",
+   "family": "Gift Cards",
+   "source": "Turgame-retail",
+   "n_candidates": 14,
+   "best": {
+    "name": "Steam India 250 INR",
+    "price": "2,61",
+    "currency": "USD",
+    "url": "https://www.turgame.com/steam-india-250-inr/"
+   },
+   "evidence": "Directly-Observed (product page data 27/09) — ADJACENT-IDENTITY CANDIDATE, needs manual curation"
+  }
+ ],
+ "counts": {
+  "p3_total": 218,
+  "p3_sv_matched": 47,
+  "deferred_matched": 4,
+  "p3_tg_matched": 31,
+  "p3_unique_covered": 59
+ },
+ "caveat": "كل التطابقات مرشحة بدرجة «هوية مجاورة» — التنقيح اليدوي إلزامي قبل أي دمج (درس الضجيج المنهجي من الدفعة 2)"
+}

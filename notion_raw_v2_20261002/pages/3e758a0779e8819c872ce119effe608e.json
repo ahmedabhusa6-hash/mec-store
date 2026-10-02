@@ -1,0 +1,1074 @@
+{
+ "capture_reason": "CHANGED",
+ "captured_at": "2026-10-02T12:06:31+03:00",
+ "title": "🔁 Operating Protocol — Notion-First ChatGPT ↔ Claude Relay",
+ "last_edited": "2026-09-27T01:03:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e758a07-79e8-819c-872c-e119effe608e",
+  "created_time": "2026-09-26T16:54:00.000Z",
+  "last_edited_time": "2026-09-27T01:03:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3e758a07-79e8-8187-9e89-00278adc0ead"
+  },
+  "cover": null,
+  "icon": {
+   "type": "emoji",
+   "emoji": "🔁"
+  },
+  "parent": {
+   "type": "page_id",
+   "page_id": "3e758a07-79e8-81fd-b66f-fd8cc3a007c8"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "title": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "🔁 Operating Protocol — Notion-First ChatGPT ↔ Claude Relay",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "🔁 Operating Protocol — Notion-First ChatGPT ↔ Claude Relay",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/Operating-Protocol-Notion-First-ChatGPT-Claude-Relay-3e758a0779e8819c872ce119effe608e",
+  "public_url": null,
+  "archived": false,
+  "request_id": "10f798a9-136d-4678-96a2-9d7977264251"
+ },
+ "block_count": 103,
+ "blocks": [
+  {
+   "id": "76c53dd5-1e4d-41b5-99c7-f24b2e383496",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Purpose"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "a48ce270-58e5-4bf2-a847-4e0dcf1e2b77",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Notion is the persistent system of record. Chat is only the transport channel."
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "413e063a-a8d3-4e65-9026-5d51edd0a13d",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "The user should only need to send the current work/request to ChatGPT. ChatGPT prepares the next handoff. The user pastes the prepared handoff to Claude. Claude returns its result. The user pastes Claude's result back to ChatGPT. ChatGPT archives the result, audits it, updates the working state, and prepares the next handoff."
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "74a2460f-7c4f-4d7e-b1f7-e385b9592e89",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Project-Scope Authorization"
+   ],
+   "created": "2026-09-26T17:49:00.000Z",
+   "edited": "2026-09-26T17:49:00.000Z"
+  },
+  {
+   "id": "06df81cc-1658-4513-b0c5-54f97b6ebbab",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "All Notion pages, databases, records, and artifacts that are directly linked to the Adaptive Supplier Intelligence Research Engine are considered authorized working surfaces for the project's normal operating cycle. ChatGPT may read, relate, archive, update, organize, and maintain these project-linked surfaces in whatever way is operationally appropriate for ChatGPT↔Claude collaboration, while preserving authority boundaries and user approval gates. This authorization applies only to project-linked material; unrelated projects, files, pages, databases, and records remain outside scope unless the user explicitly authorizes their use."
+   ],
+   "created": "2026-09-26T17:49:00.000Z",
+   "edited": "2026-09-26T17:49:00.000Z"
+  },
+  {
+   "id": "f918a5c8-e8b9-4e20-95cd-99791a0d66f8",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Authoritative Architecture"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "33a2bc01-425c-4d7b-9625-6b1340267401",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "ChatGPT Workspace = review, audit, analysis, validation, repair control."
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "d38bb190-589c-446b-b884-aa2b1fe0d22e",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Claude Workspace = research, development, experimentation, draft/candidate production."
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "412ebc76-f97e-44ba-977a-032421a3c467",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Canonical Registry = only authoritative location for an Approved Prompt."
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "5fcc054b-2f95-49ed-92ee-9a6c856530b7",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Interaction Archive = immutable working history of every cycle, handoff, response, audit, decision, and canonical update."
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "fc0f6a9c-5035-4f5c-9afa-54d645d1ea7a",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Edit Authority Matrix"
+   ],
+   "created": "2026-09-26T17:58:00.000Z",
+   "edited": "2026-09-26T17:58:00.000Z"
+  },
+  {
+   "id": "09ca506b-819c-4ae0-9826-e17be8d5b00f",
+   "type": "table",
+   "has_children": true,
+   "text": [],
+   "created": "2026-09-26T17:58:00.000Z",
+   "edited": "2026-09-26T17:58:00.000Z"
+  },
+  {
+   "id": "1adc5af6-1469-4812-baf0-ce3ba9d6e455",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-26T17:58:00.000Z",
+   "edited": "2026-09-26T17:58:00.000Z"
+  },
+  {
+   "id": "cc050794-d10b-4749-b72f-462064b442cd",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-26T17:58:00.000Z",
+   "edited": "2026-09-26T17:58:00.000Z"
+  },
+  {
+   "id": "40fece9a-9e95-47b9-b42f-5a44a01edcd0",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-26T17:58:00.000Z",
+   "edited": "2026-09-26T17:58:00.000Z"
+  },
+  {
+   "id": "d06b279d-1d31-473f-a0b6-1a9a24958d7f",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-26T17:58:00.000Z",
+   "edited": "2026-09-26T17:58:00.000Z"
+  },
+  {
+   "id": "2c84b4fd-822b-42a6-823c-1f027b1c1d05",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-26T17:58:00.000Z",
+   "edited": "2026-09-26T17:58:00.000Z"
+  },
+  {
+   "id": "323fc6be-83a7-4d54-afd8-206bf30a8c77",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-26T17:58:00.000Z",
+   "edited": "2026-09-26T17:58:00.000Z"
+  },
+  {
+   "id": "2c81ffe5-cc80-421d-b799-154df8b19c42",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-26T17:58:00.000Z",
+   "edited": "2026-09-26T17:58:00.000Z"
+  },
+  {
+   "id": "d94a7b12-696e-4d51-86ba-a9932ca4fd35",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-26T17:58:00.000Z",
+   "edited": "2026-09-26T17:58:00.000Z"
+  },
+  {
+   "id": "ef62e603-4b7d-451c-9bb7-90cb2ee8a384",
+   "type": "table_row",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-26T17:58:00.000Z",
+   "edited": "2026-09-26T17:58:00.000Z"
+  },
+  {
+   "id": "3f266f43-7d4b-42a5-bdbb-6c5eddf04d46",
+   "type": "heading_3",
+   "has_children": false,
+   "text": [
+    "Boundary Rules"
+   ],
+   "created": "2026-09-26T17:58:00.000Z",
+   "edited": "2026-09-26T17:58:00.000Z"
+  },
+  {
+   "id": "9bfd87e1-e54f-46c7-9000-516d2a2ff6fe",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Each agent edits only the workspace it owns."
+   ],
+   "created": "2026-09-26T17:58:00.000Z",
+   "edited": "2026-09-26T17:58:00.000Z"
+  },
+  {
+   "id": "1015fb8d-0455-401d-9b47-6a4aed51d27b",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "The Prompt Working Reference is the only shared prompt-development surface that Claude may directly edit. Claude may change prompt text and draft evolution there, but may not alter Canonical authority, approval status, governance rules, or unrelated records."
+   ],
+   "created": "2026-09-26T17:58:00.000Z",
+   "edited": "2026-09-26T17:58:00.000Z"
+  },
+  {
+   "id": "de6c6b1e-2b8e-4add-a312-edff470c7e7a",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "ChatGPT does not directly rewrite Claude's workspace or Claude's Prompt Working Reference. It audits, identifies repairs, and records findings in its own workspace."
+   ],
+   "created": "2026-09-26T17:58:00.000Z",
+   "edited": "2026-09-26T17:58:00.000Z"
+  },
+  {
+   "id": "1b091b1f-e056-4515-8086-efa8d1d5f00e",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "ChatGPT may update project-linked operational records, archives, audits, and review state, but it must not promote a Candidate, mark a Prompt Approved, or silently change governance."
+   ],
+   "created": "2026-09-26T17:58:00.000Z",
+   "edited": "2026-09-26T17:58:00.000Z"
+  },
+  {
+   "id": "c3bdae54-2e7a-45e6-b53e-742c9698462c",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "The Canonical Registry remains protected: its authority, approval state, version lineage, and promotion gates are never changed by either agent without the user's explicit decision."
+   ],
+   "created": "2026-09-26T17:58:00.000Z",
+   "edited": "2026-09-26T17:58:00.000Z"
+  },
+  {
+   "id": "e48ab640-ec21-4f86-87f2-3286c8ac5c49",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Neither agent may delete historical records, silently merge competing Candidates, or overwrite authoritative source text with an inferred reconstruction."
+   ],
+   "created": "2026-09-26T17:58:00.000Z",
+   "edited": "2026-09-26T17:58:00.000Z"
+  },
+  {
+   "id": "ee0f29ed-dd0a-4b30-a6cf-eb5d52e39e63",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "When a change affects governance, ownership, authority, promotion, permissions, or the collaboration protocol, classify it as Governance-Touching and route it to the user for decision."
+   ],
+   "created": "2026-09-26T17:58:00.000Z",
+   "edited": "2026-09-26T17:58:00.000Z"
+  },
+  {
+   "id": "e077ee92-bd7b-40b5-8e05-f0c646287dc4",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "If ownership or edit authority is ambiguous, do not edit; classify the item as Needs User Decision and preserve the ambiguity in the record."
+   ],
+   "created": "2026-09-26T17:58:00.000Z",
+   "edited": "2026-09-26T17:58:00.000Z"
+  },
+  {
+   "id": "5d9afdb0-2d39-4d27-ac3a-01a7880fd9d6",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Core Loop"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "00553c9b-01db-4e38-9314-03877b35e35c",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "User Input"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "26b04076-6719-4084-a8b0-071a1099d39c",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ ChatGPT analyzes"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "9013e6c3-2728-46f0-b1a5-3ba57ef2e04c",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ ChatGPT archives the step"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "741503c8-3c1b-4bf4-84e9-65bef2407883",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ ChatGPT prepares one copy-ready Claude Handoff"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "70d2262d-aa2f-4e5e-b497-470fad476e6f",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ User sends Handoff to Claude"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "c2b5ac26-9410-49bc-90b6-185d5e17a24a",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ Claude produces research/draft/test output"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "d73754f1-60ff-41f6-bfeb-3ea45045fd2d",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ User pastes Claude output to ChatGPT"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "eb6dffe1-d713-4609-8661-330720d2d7b2",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ ChatGPT archives Claude output"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "9de18149-142a-47e0-8d6e-84abd3f163da",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ ChatGPT audits and reconciles it against the current state"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "c49e5759-2ac6-40ca-bd64-fa9ca5e7be9c",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ ChatGPT records findings/changes/open decisions"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "7f09dcf7-42d3-4120-a541-c1f940744bbf",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ ChatGPT prepares the next Claude Handoff"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "1fc584cf-4ff4-40d3-90bf-6c0d2d8689ea",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "→ repeat"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "a3342488-7994-48d7-ab2e-017e3c49644c",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Token Preservation Rule"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "f0549baf-bb38-490c-9170-c8181640461b",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Do not send the entire historical conversation to Claude on every cycle."
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "2adf8124-7d3f-4dec-b692-d216eb6907b2",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Each handoff must contain only the minimum sufficient context:"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "b1aec098-6c96-4491-8439-809000a29415",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Current objective"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "8e4ba48f-1594-455e-bf7f-39c76ceaa793",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Current version/state"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "8bfe42b2-117f-4219-83f0-e1a807109f22",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Relevant prior findings"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "8280923a-7bf6-4033-aff5-67e152c23edb",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Exact task for this cycle"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "5df9b47f-02e2-4acb-bd92-3adeb56f2cf1",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Tests/constraints that matter"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "7c73cd77-c032-4997-bc43-afa9d74300a7",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Required output format"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "c72aa564-6076-4a24-b807-d0c67b19405e",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "References to the persistent Notion records"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "f150d28c-de3a-48c5-ba70-09731fe17533",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "The detailed history remains in Notion."
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "a6e39337-fec2-4d96-8986-b0fc54b9a118",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Archive Rule"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "23508a5b-4845-43e2-aab4-28585bad6e41",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Every meaningful transition is archived as a separate Interaction Archive record:"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "611c4e2f-6fd1-4c98-ab7a-0c15c8cc16f1",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "User Input"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "81e24851-b58d-45a7-be1f-ecec6ad4fdfe",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "ChatGPT Analysis"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "7d2b3821-3919-4f34-add6-3cee6a5822a4",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Claude Handoff"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "90077977-c861-4eee-bc12-c45e23feae70",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Claude Response"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "120d2d9d-89a1-4a41-a70d-88d770206ee9",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "ChatGPT Audit"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "55e0052f-0f51-4e32-b623-04cd5c167364",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Decision"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "14454267-df70-47cc-a7a2-4901ecbe350f",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Canonical Update"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "6ea2e1e0-9c0a-4ff6-8e95-b64b4c923af0",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "No step is considered part of the durable project state until it is archived."
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "df552918-d42d-4cb7-8052-eee2b6227c0d",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Handoff Rule"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "61ca16b3-97ca-4262-ab67-8b1130243660",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "ChatGPT must produce exactly one primary copy-ready message for Claude per cycle."
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "a34d0c51-e479-465d-ab66-4fbdd009d61f",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "The handoff must identify:"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "461c2c36-decc-4662-8566-798bd7cde804",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Version ID"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "dd721388-4547-4a46-8e38-ff61c94122c1",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Parent Version ID"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "ba313a9e-c12f-422b-a071-2ddef0ae27f7",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Current state"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "c4364623-9eb2-4c9c-9eed-1dc3dad0fda5",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Objective"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "a1c62f97-d4b6-49a0-bcf5-fa5b71d1d31f",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Scope"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "284a793f-2ab3-40af-af11-4ac33964931a",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Task"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "49ea2a1c-5d13-4282-922b-5ba771621a8a",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Evidence requirements"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "260de71f-722b-42cc-8682-5129fb663c31",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Tests"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "0299c276-b505-4ce6-882c-0bb86c3d3d44",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Constraints"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "ce2c934a-ba3c-4627-ac26-1f6232efde89",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Required output"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "0386f9f7-54a9-4582-8785-fff1f8abf83f",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Notion archive references"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "f93e8a18-d98d-4c43-917a-b03bec3d88c1",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Claude must not be asked to edit the Canonical Registry during validation unless explicitly authorized."
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "72b75109-a496-4e33-bdd8-dc520fbbb105",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Response Rule"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "f6a94f52-9f6e-44c8-aef8-88e7b21cf80b",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "When Claude responds, the user should paste the response into ChatGPT without manually summarizing it."
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "3d916108-8f4e-4f5e-bb79-527dfd24bf38",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "ChatGPT then:"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "cbcd8d05-29e2-42ce-8b08-87c010586455",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Archives the raw response."
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "f1ecf95f-9025-4e62-8810-430cab9bb1f6",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Extracts findings."
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "5348b000-17e0-4943-9d66-e168843147d6",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Validates claims/evidence."
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "7d958c25-40f2-455f-bcc1-c8a540700b1a",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Compares against the current Candidate/Canonical state."
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "93cbf968-818a-4b01-8ba3-f9f40348d1b1",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Identifies repairs."
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "38274644-3c9d-4e49-bcb2-5db17f3e587a",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Separates technical repairs from governance decisions."
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "dac61ac6-f34b-420d-90da-661b4b2cd921",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Updates Notion records."
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "ebdfeeec-16b1-47af-bc37-041ae95169db",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Prepares the next single handoff message."
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "89036c0d-c759-4e17-84cf-8847f5f453b8",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Governance"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "a18939fb-eaf1-4d08-a2af-802fd01a6433",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "No Candidate becomes Approved automatically."
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "9f943e04-8e3a-4d58-89a5-c21791548872",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "No historical record is deleted merely because it is superseded."
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "65b5997e-1660-409a-8b05-8fabfcb4d171",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "No governance rule is inferred from a technical suggestion."
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "99caa561-8657-40e7-bb8a-d882c623bda1",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "No competing Candidate is silently merged."
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "3796dcf6-adb8-4c0c-9767-9f5803a2a098",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "No stale Candidate is promoted without rebase."
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "ce333eff-13c7-4eb2-94a6-6bdcab9a3780",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Current State"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "9aae95ae-a6a1-4b81-b300-9872d9771b32",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Current Candidate: v4.1"
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "a820462a-3726-4b5a-a66f-9dadc275d138",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "v4.0: preserved as historical baseline comparator."
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "65ddabc5-d842-40be-9ad6-cba5196fefe1",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Approved Prompt: none."
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "73ec19ca-2c62-4982-9c43-8825ebc3fff7",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Open Governance Decision: bootstrap rule for first approval when Approved state is empty."
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "dcd12d59-6299-4600-95c6-5a6f81e40719",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Current next step: independent Claude validation of v4.1."
+   ],
+   "created": "2026-09-26T16:54:00.000Z",
+   "edited": "2026-09-26T16:54:00.000Z"
+  },
+  {
+   "id": "3e858a07-79e8-81fd-baf4-cda6a0e09120",
+   "type": "callout",
+   "has_children": false,
+   "text": [
+    "【مزامنة حالة 2026-09-27 — جلسة MEC-2.0】Current Candidate: v4.2 — Catalog/Batch Architecture Candidate (مقبول من المستخدم 2026-09-27، غير معتمد). v4.1: محفوظ كوقت تشغيل Batch 1 (2026-09-26) ومرجع مقارنة تاريخي. لا يوجد Prompt معتمد. بوابة Bootstrap (D1) ما زالت مفتوحة. الخطوة التالية: اختبار حي متعدد الدفعات (الدفعة الثانية تحت v4.2) + انحدار تنافسي. — ملاحظة: أُضيفت هذه المزامنة أسفل الصفحة بدل استبدال نص القسم الأصلي التزاممًا بقاعدة عدم المساس بالمحتوى التاريخي؛ القسم الأصلي متقادم (يذكر v4.1) والنص البديل المقترح موثق في حزمة التحديثات."
+   ],
+   "created": "2026-09-27T01:03:00.000Z",
+   "edited": "2026-09-27T01:03:00.000Z"
+  }
+ ]
+}

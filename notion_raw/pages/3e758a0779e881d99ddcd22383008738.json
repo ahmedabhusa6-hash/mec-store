@@ -1,0 +1,279 @@
+{
+ "page": {
+  "id": "3e758a07-79e8-81d9-9ddc-d22383008738",
+  "title": "CHG-RSH2-009 — Formalize KNG-43 Stage Gate hold",
+  "url": "https://app.notion.com/p/CHG-RSH2-009-Formalize-KNG-43-Stage-Gate-hold-3e758a0779e881d99ddcd22383008738"
+ },
+ "blocks": [
+  {
+   "object": "block",
+   "id": "07803887-f399-4dd6-b841-c0cccca230f0",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81d9-9ddc-d22383008738"
+   },
+   "created_time": "2026-09-26T00:08:00.000Z",
+   "last_edited_time": "2026-09-26T00:08:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Research_ID: RSH-15",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Research_ID: RSH-15",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "6a81d0fc-63d3-49f4-a046-f5518778068b",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81d9-9ddc-d22383008738"
+   },
+   "created_time": "2026-09-26T00:08:00.000Z",
+   "last_edited_time": "2026-09-26T00:08:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Change_ID: CHG-RSH2-009",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Change_ID: CHG-RSH2-009",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "e95b8e14-85d8-4535-9e72-79aae600b406",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81d9-9ddc-d22383008738"
+   },
+   "created_time": "2026-09-26T00:08:00.000Z",
+   "last_edited_time": "2026-09-26T00:08:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Stage Gate: HOLD at SYNTHESIZED.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Stage Gate: HOLD at SYNTHESIZED.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "5588bbe0-f917-4002-9906-2ed060b223cb",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81d9-9ddc-d22383008738"
+   },
+   "created_time": "2026-09-26T00:08:00.000Z",
+   "last_edited_time": "2026-09-26T00:08:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Pass: bounded coverage, schema representation, provenance, selected exception handling.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Pass: bounded coverage, schema representation, provenance, selected exception handling.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "9df1db9b-ae1a-4285-9fb0-7ade07c342a3",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81d9-9ddc-d22383008738"
+   },
+   "created_time": "2026-09-26T00:08:00.000Z",
+   "last_edited_time": "2026-09-26T00:08:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Open: causal evidence strength, application grounding, transfer validity.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Open: causal evidence strength, application grounding, transfer validity.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "a78987da-9d8c-4d4f-ad75-e099482fe598",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81d9-9ddc-d22383008738"
+   },
+   "created_time": "2026-09-26T00:08:00.000Z",
+   "last_edited_time": "2026-09-26T00:08:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Decision: no ACTIVE promotion.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Decision: no ACTIVE promotion.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  }
+ ]
+}

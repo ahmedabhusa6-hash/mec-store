@@ -1,0 +1,881 @@
+{
+ "run": "PMRF v3.0 — Phase 1+2 Runtime Discovery + Inventory",
+ "generated_at": "2026-10-02T07:33:35+03:00",
+ "root": "/home/z/my-project",
+ "platform_material": {
+  ".git": {
+   "note": "platform dependency tree — excluded from project knowledge"
+  },
+  "node_modules": {
+   "note": "platform dependency tree — excluded from project knowledge"
+  },
+  "skills": {
+   "note": "platform dependency tree — excluded from project knowledge"
+  },
+  "tool-results": {
+   "files": 53,
+   "bytes": 4685670,
+   "top_ext": {
+    ".txt": 53
+   }
+  }
+ },
+ "project_dirs": {
+  ".github": {
+   "files": 1,
+   "bytes": 973,
+   "ext_top": [
+    [
+     ".yml",
+     1
+    ]
+   ],
+   "subdirs": {
+    "workflows": {
+     "files": 1,
+     "bytes": 973
+    }
+   },
+   "mtime_range": [
+    "2026-09-28T15:15:47+03:00",
+    "2026-09-28T15:15:47+03:00"
+   ],
+   "largest_files": [
+    [
+     ".github/workflows/ci.yml",
+     973
+    ]
+   ]
+  },
+  ".zscripts": {
+   "files": 9,
+   "bytes": 28583,
+   "ext_top": [
+    [
+     ".sh",
+     8
+    ],
+    [
+     ".pid",
+     1
+    ]
+   ],
+   "subdirs": {
+    "(root)": {
+     "files": 9,
+     "bytes": 28583
+    }
+   },
+   "mtime_range": [
+    "2026-05-12T13:06:04+03:00",
+    "2026-09-27T00:02:48+03:00"
+   ],
+   "largest_files": [
+    [
+     ".zscripts/build.sh",
+     7258
+    ],
+    [
+     ".zscripts/start.sh",
+     4419
+    ],
+    [
+     ".zscripts/python-runtime-build.sh",
+     4190
+    ],
+    [
+     ".zscripts/dev.sh",
+     4168
+    ],
+    [
+     ".zscripts/mini-services-start.sh",
+     3326
+    ],
+    [
+     ".zscripts/mini-services-build.sh",
+     2365
+    ],
+    [
+     ".zscripts/mini-services-install.sh",
+     1951
+    ],
+    [
+     ".zscripts/database-runtime-build.sh",
+     901
+    ]
+   ]
+  },
+  "data": {
+   "files": 96,
+   "bytes": 559603,
+   "ext_top": [
+    [
+     ".json",
+     93
+    ],
+    [
+     ".png",
+     2
+    ],
+    [
+     ".jsonl",
+     1
+    ]
+   ],
+   "subdirs": {
+    "research": {
+     "files": 96,
+     "bytes": 559603
+    }
+   },
+   "mtime_range": [
+    "2026-09-27T00:03:44+03:00",
+    "2026-09-27T19:33:21+03:00"
+   ],
+   "largest_files": [
+    [
+     "data/research/desktop-check.png",
+     164857
+    ],
+    [
+     "data/research/actions-log.jsonl",
+     74633
+    ],
+    [
+     "data/research/mobile-check.png",
+     54345
+    ],
+    [
+     "data/research/mec2_search_results.json",
+     47684
+    ],
+    [
+     "data/research/mec2_channels_raw.json",
+     28305
+    ],
+    [
+     "data/research/mec2_stackvault_catalog.json",
+     8765
+    ],
+    [
+     "data/research/waves/wave2.json",
+     6106
+    ],
+    [
+     "data/research/waves/wave3.json",
+     5501
+    ]
+   ]
+  },
+  "db": {
+   "files": 1,
+   "bytes": 24576,
+   "ext_top": [
+    [
+     ".db",
+     1
+    ]
+   ],
+   "subdirs": {
+    "(root)": {
+     "files": 1,
+     "bytes": 24576
+    }
+   },
+   "mtime_range": [
+    "2026-09-27T00:02:57+03:00",
+    "2026-09-27T00:02:57+03:00"
+   ],
+   "largest_files": [
+    [
+     "db/custom.db",
+     24576
+    ]
+   ]
+  },
+  "download": {
+   "files": 52,
+   "bytes": 3777479,
+   "ext_top": [
+    [
+     ".md",
+     28
+    ],
+    [
+     ".docx",
+     10
+    ],
+    [
+     ".json",
+     6
+    ],
+    [
+     ".csv",
+     3
+    ],
+    [
+     ".xlsx",
+     3
+    ],
+    [
+     ".html",
+     1
+    ],
+    [
+     ".pdf",
+     1
+    ]
+   ],
+   "subdirs": {
+    "(root)": {
+     "files": 41,
+     "bytes": 3642215
+    },
+    "PMRF_ARCHIVE": {
+     "files": 1,
+     "bytes": 91170
+    },
+    "مصادر_التوريد_Notion": {
+     "files": 10,
+     "bytes": 44094
+    }
+   },
+   "mtime_range": [
+    "2026-09-26T21:21:11+03:00",
+    "2026-10-02T07:18:00+03:00"
+   ],
+   "largest_files": [
+    [
+     "download/MEC-21_التقرير_الهندسي_النهائي.pdf",
+     899366
+    ],
+    [
+     "download/حزمة_ProdSeller_الجاهزة_2026-09-29.docx",
+     371667
+    ],
+    [
+     "download/gds_qualified_entities.json",
+     334719
+    ],
+    [
+     "download/offers_intelligence.json",
+     272681
+    ],
+    [
+     "download/catalog_v42.json",
+     232345
+    ],
+    [
+     "download/تقرير_استخبارات_StackVault_2026-09-29.docx",
+     192854
+    ],
+    [
+     "download/supplier_intelligence.html",
+     184325
+    ],
+    [
+     "download/جدول_الكتالوج_الموحد_2026-10-02.xlsx",
+     112364
+    ]
+   ]
+  },
+  "examples": {
+   "files": 2,
+   "bytes": 9846,
+   "ext_top": [
+    [
+     ".tsx",
+     1
+    ],
+    [
+     ".ts",
+     1
+    ]
+   ],
+   "subdirs": {
+    "websocket": {
+     "files": 2,
+     "bytes": 9846
+    }
+   },
+   "mtime_range": [
+    "2026-05-12T13:06:05+03:00",
+    "2026-05-12T13:06:05+03:00"
+   ],
+   "largest_files": [
+    [
+     "examples/websocket/frontend.tsx",
+     6310
+    ],
+    [
+     "examples/websocket/server.ts",
+     3536
+    ]
+   ]
+  },
+  "mini-services": {
+   "files": 1,
+   "bytes": 0,
+   "ext_top": [
+    [
+     "(none)",
+     1
+    ]
+   ],
+   "subdirs": {
+    "(root)": {
+     "files": 1,
+     "bytes": 0
+    }
+   },
+   "mtime_range": [
+    "2026-05-12T13:06:05+03:00",
+    "2026-05-12T13:06:05+03:00"
+   ],
+   "largest_files": [
+    [
+     "mini-services/.gitkeep",
+     0
+    ]
+   ]
+  },
+  "notion_raw": {
+   "files": 1124,
+   "bytes": 27664243,
+   "ext_top": [
+    [
+     ".json",
+     578
+    ],
+    [
+     ".txt",
+     546
+    ]
+   ],
+   "subdirs": {
+    "pages": {
+     "files": 546,
+     "bytes": 20165409
+    },
+    "databases": {
+     "files": 31,
+     "bytes": 5706529
+    },
+    "text": {
+     "files": 546,
+     "bytes": 1366219
+    },
+    "(root)": {
+     "files": 1,
+     "bytes": 426086
+    }
+   },
+   "mtime_range": [
+    "2026-09-27T02:48:03+03:00",
+    "2026-09-27T03:01:37+03:00"
+   ],
+   "largest_files": [
+    [
+     "notion_raw/pages/3e658a0779e881c49cddd7b74626d61f.json",
+     5309357
+    ],
+    [
+     "notion_raw/pages/3e658a0779e881da8a9fcb80d02481aa.json",
+     2313067
+    ],
+    [
+     "notion_raw/pages/3e658a0779e88167bd50f36df115d576.json",
+     1780425
+    ],
+    [
+     "notion_raw/databases/af2e47bde61648c99a2ba646ffdb93f9.json",
+     1177734
+    ],
+    [
+     "notion_raw/pages/3e658a0779e88158b5a9f63851feddbc.json",
+     1096724
+    ],
+    [
+     "notion_raw/databases/230f91034d4447a5b69ffef368560b20.json",
+     1073131
+    ],
+    [
+     "notion_raw/pages/3e658a0779e881fdbcabc361de5fa952.json",
+     803965
+    ],
+    [
+     "notion_raw/databases/140956996e8c412e8098df126ba6935d.json",
+     797920
+    ]
+   ]
+  },
+  "prisma": {
+   "files": 2,
+   "bytes": 10393,
+   "ext_top": [
+    [
+     ".prisma",
+     1
+    ],
+    [
+     ".sql",
+     1
+    ]
+   ],
+   "subdirs": {
+    "migrations": {
+     "files": 1,
+     "bytes": 5884
+    },
+    "(root)": {
+     "files": 1,
+     "bytes": 4509
+    }
+   },
+   "mtime_range": [
+    "2026-09-28T16:19:14+03:00",
+    "2026-09-28T16:19:24+03:00"
+   ],
+   "largest_files": [
+    [
+     "prisma/migrations/20260928130000_product_aliases/migration.sql",
+     5884
+    ],
+    [
+     "prisma/schema.prisma",
+     4509
+    ]
+   ]
+  },
+  "public": {
+   "files": 7,
+   "bytes": 343550,
+   "ext_top": [
+    [
+     ".png",
+     4
+    ],
+    [
+     ".txt",
+     1
+    ],
+    [
+     ".svg",
+     1
+    ],
+    [
+     ".ico",
+     1
+    ]
+   ],
+   "subdirs": {
+    "(root)": {
+     "files": 7,
+     "bytes": 343550
+    }
+   },
+   "mtime_range": [
+    "2026-05-12T13:06:05+03:00",
+    "2026-09-28T16:25:18+03:00"
+   ],
+   "largest_files": [
+    [
+     "public/og-image.png",
+     323225
+    ],
+    [
+     "public/apple-icon.png",
+     9987
+    ],
+    [
+     "public/icon.png",
+     5574
+    ],
+    [
+     "public/favicon.ico",
+     2036
+    ],
+    [
+     "public/favicon-32.png",
+     1242
+    ],
+    [
+     "public/logo.svg",
+     1065
+    ],
+    [
+     "public/robots.txt",
+     421
+    ]
+   ]
+  },
+  "research": {
+   "files": 1049,
+   "bytes": 79119968,
+   "ext_top": [
+    [
+     ".json",
+     751
+    ],
+    [
+     ".html",
+     124
+    ],
+    [
+     ".png",
+     94
+    ],
+    [
+     ".md",
+     35
+    ],
+    [
+     ".js",
+     18
+    ],
+    [
+     ".txt",
+     14
+    ],
+    [
+     ".jpg",
+     7
+    ],
+    [
+     ".css",
+     2
+    ]
+   ],
+   "subdirs": {
+    "mec5": {
+     "files": 227,
+     "bytes": 39054397
+    },
+    "pages": {
+     "files": 22,
+     "bytes": 9911644
+    },
+    "audit": {
+     "files": 101,
+     "bytes": 9512993
+    },
+    "global_suppliers": {
+     "files": 186,
+     "bytes": 6680602
+    },
+    "(root)": {
+     "files": 81,
+     "bytes": 6107321
+    },
+    "live_capture": {
+     "files": 28,
+     "bytes": 2905637
+    },
+    "deep_dive": {
+     "files": 27,
+     "bytes": 2085575
+    },
+    "prodseller_live": {
+     "files": 12,
+     "bytes": 1013840
+    },
+    "stackvault_live": {
+     "files": 14,
+     "bytes": 1013687
+    },
+    "actions": {
+     "files": 337,
+     "bytes": 510987
+    },
+    "g1a_media": {
+     "files": 7,
+     "bytes": 243347
+    },
+    "pmrf_v2_build": {
+     "files": 7,
+     "bytes": 79938
+    }
+   },
+   "mtime_range": [
+    "2026-09-27T03:12:50+03:00",
+    "2026-10-02T07:18:00+03:00"
+   ],
+   "largest_files": [
+    [
+     "research/mec5/agentB_raw/offgamers_merchant_deck.pdf",
+     3200268
+    ],
+    [
+     "research/global_suppliers/candidates/candidates.json",
+     2203098
+    ],
+    [
+     "research/mec5/agentA_raw/retail_cat_app-store-card-apple-gift-card.html",
+     1500354
+    ],
+    [
+     "research/mec5/agentA_raw/retail_cat_xbox-live-gift-cards.html",
+     1497529
+    ],
+    [
+     "research/global_suppliers/candidates/verified_pages.json",
+     1323098
+    ],
+    [
+     "research/pages/RA-130.json",
+     1284418
+    ],
+    [
+     "research/pages/RA-126.json",
+     1232143
+    ],
+    [
+     "research/global_suppliers/candidates/harvest.json",
+     1189717
+    ]
+   ]
+  },
+  "scripts": {
+   "files": 259,
+   "bytes": 7909726,
+   "ext_top": [
+    [
+     ".py",
+     178
+    ],
+    [
+     ".json",
+     26
+    ],
+    [
+     ".md",
+     24
+    ],
+    [
+     ".js",
+     20
+    ],
+    [
+     ".mjs",
+     5
+    ],
+    [
+     ".ts",
+     3
+    ],
+    [
+     ".html",
+     2
+    ],
+    [
+     ".sh",
+     1
+    ]
+   ],
+   "subdirs": {
+    "notion": {
+     "files": 34,
+     "bytes": 5607796
+    },
+    "(root)": {
+     "files": 144,
+     "bytes": 1336484
+    },
+    "report": {
+     "files": 38,
+     "bytes": 681647
+    },
+    "global_suppliers": {
+     "files": 23,
+     "bytes": 148459
+    },
+    "audit": {
+     "files": 19,
+     "bytes": 100788
+    },
+    "stackvault": {
+     "files": 1,
+     "bytes": 34552
+    }
+   },
+   "mtime_range": [
+    "2026-09-27T00:03:23+03:00",
+    "2026-10-02T07:33:33+03:00"
+   ],
+   "largest_files": [
+    [
+     "scripts/notion/raw_search.json",
+     4533965
+    ],
+    [
+     "scripts/notion/index.json",
+     366732
+    ],
+    [
+     "scripts/notion/pages/مصدر _ global_digital_products_database_md.md",
+     198044
+    ],
+    [
+     "scripts/notion/pages/مرجع حاكم _ قاعدة بيانات أرخص موردي ومتاجر المنتجات والخدمات الرقمية.md",
+     72432
+    ],
+    [
+     "scripts/notion/pages/مصدر _ cheapest_digital_products_suppliers_database_md.md",
+     61415
+    ],
+    [
+     "scripts/notion/pages/DB_Interaction_Archive.md",
+     59447
+    ],
+    [
+     "scripts/notion/pages/سجل تاريخي _ تفاوض موردي الخدمات الرقمية _ Stack Vault Support.md",
+     56122
+    ],
+    [
+     "scripts/build_catalog.py",
+     53317
+    ]
+   ]
+  },
+  "src": {
+   "files": 80,
+   "bytes": 778536,
+   "ext_top": [
+    [
+     ".tsx",
+     37
+    ],
+    [
+     ".ts",
+     25
+    ],
+    [
+     ".json",
+     17
+    ],
+    [
+     ".css",
+     1
+    ]
+   ],
+   "subdirs": {
+    "lib": {
+     "files": 25,
+     "bytes": 418186
+    },
+    "components": {
+     "files": 28,
+     "bytes": 281746
+    },
+    "app": {
+     "files": 25,
+     "bytes": 74122
+    },
+    "hooks": {
+     "files": 2,
+     "bytes": 4482
+    }
+   },
+   "mtime_range": [
+    "2026-05-12T13:06:05+03:00",
+    "2026-09-28T16:25:36+03:00"
+   ],
+   "largest_files": [
+    [
+     "src/lib/data/batch2-skus.json",
+     92793
+    ],
+    [
+     "src/components/store/store.tsx",
+     54956
+    ],
+    [
+     "src/lib/data/actions.json",
+     48457
+    ],
+    [
+     "src/lib/data/skus.json",
+     36417
+    ],
+    [
+     "src/lib/data/entities-market.json",
+     32583
+    ],
+    [
+     "src/components/intelligence/deep-dive.tsx",
+     28755
+    ],
+    [
+     "src/lib/data/mec7.json",
+     27976
+    ],
+    [
+     "src/components/intelligence/mec7.tsx",
+     24569
+    ]
+   ]
+  },
+  "tests": {
+   "files": 3,
+   "bytes": 4871,
+   "ext_top": [
+    [
+     ".sh",
+     3
+    ]
+   ],
+   "subdirs": {
+    "(root)": {
+     "files": 3,
+     "bytes": 4871
+    }
+   },
+   "mtime_range": [
+    "2026-07-21T09:48:49+03:00",
+    "2026-07-28T11:11:11+03:00"
+   ],
+   "largest_files": [
+    [
+     "tests/database-runtime-build.sh",
+     2191
+    ],
+    [
+     "tests/python-runtime-build.sh",
+     1843
+    ],
+    [
+     "tests/python-runtime-container.sh",
+     837
+    ]
+   ]
+  },
+  "upload": {
+   "files": 0,
+   "bytes": 0,
+   "ext_top": [],
+   "subdirs": {},
+   "mtime_range": [
+    null,
+    null
+   ],
+   "largest_files": []
+  }
+ },
+ "totals": {
+  "project_files": 2699,
+  "project_bytes": 120607009,
+  "by_role": {
+   "APP_CODE_OR_APP_ASSET": 96,
+   "APP_CONFIG": 3,
+   "DATA_STAGING": 96,
+   "HISTORICAL_BUILD_INTERMEDIATE": 11,
+   "METHOD_SCRIPT": 259,
+   "OPERATIONAL_RECORD": 1,
+   "PROJECT_FILE_OTHER": 19,
+   "RAW_EVIDENCE_OR_RESEARCH_OUTPUT": 1038,
+   "RAW_NOTION_EXPORT": 1124,
+   "REFERENCE_CANDIDATE": 2,
+   "RELEASE_ARTIFACT": 50
+  }
+ }
+}

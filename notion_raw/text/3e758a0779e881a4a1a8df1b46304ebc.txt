@@ -1,0 +1,18 @@
+# DEC — Establish ChatGPT / Claude / Canonical three-space governance
+Decision state
+Approved
+Operating model
+ChatGPT Workspace = Review & Analysis
+Claude Workspace = Research, Development & Drafts
+Canonical Registry = Sole authority for the approved Prompt
+Authority invariants
+Review ≠ Authority
+Draft ≠ Approved
+Proposal ≠ Decision
+Workspace ≠ Canonical Registry
+Operational effect
+- ChatGPT reviews and audits.
+- Claude researches and develops drafts.
+- The Canonical Registry controls the approved Prompt lineage.
+- No agent silently promotes its own work to Approved.
+- Historical versions remain retained.

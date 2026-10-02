@@ -1,0 +1,8 @@
+v4.2 — Catalog/Batch Architecture Candidate
+========================================
+Acceptance Record
+The exact v4.2 Candidate artifact was supplied and reviewed.
+User decision: Accept v4.2 as the current project working Candidate.
+Canonical state: not promoted to Approved/Canonical solely from this record because the existing promotion gate requires required review/tests to be recorded; the live multi-batch runtime/adversarial test remains outstanding.
+Review Opinion
+v4.2 is structurally stronger than v4.1 and directly addresses the catalog-scale gaps identified in Cycle 5. The principal remaining uncertainty is empirical runtime behavior, not the presence of the intended architectural controls.

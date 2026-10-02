@@ -1,0 +1,310 @@
+{
+ "capture_reason": "NEWLY_ACCESSIBLE",
+ "captured_at": "2026-10-02T12:06:31+03:00",
+ "title": "UPD-005 — Adopted Deep Marketing Continuous Knowledge Operation Standard",
+ "last_edited": "2026-09-25T21:33:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e658a07-79e8-816a-adeb-f5188c43b6ae",
+  "created_time": "2026-09-25T21:33:00.000Z",
+  "last_edited_time": "2026-09-25T21:33:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "2d1337a6-e0ad-4334-81a3-a3c3090f4b68"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "New Source IDs": {
+    "id": "%3AfEO",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "User-provided operating standard; CKC-001",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "User-provided operating standard; CKC-001",
+      "href": null
+     }
+    ]
+   },
+   "Knowledge ID": {
+    "id": "%3ClpM",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Affected IDs": {
+    "id": "%3FIV%5B",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Deep Marketing — Continuous Knowledge Operation Standard; Master Hub",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Deep Marketing — Continuous Knowledge Operation Standard; Master Hub",
+      "href": null
+     }
+    ]
+   },
+   "Commit Status": {
+    "id": "%40m%7BP",
+    "type": "select",
+    "select": null
+   },
+   "Timestamp": {
+    "id": "AnVl",
+    "type": "date",
+    "date": null
+   },
+   "Previous Knowledge": {
+    "id": "W%7Cbr",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "لم يكن هناك مرجع تشغيلي موحّد محفوظ بهذه الصياغة.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "لم يكن هناك مرجع تشغيلي موحّد محفوظ بهذه الصياغة.",
+      "href": null
+     }
+    ]
+   },
+   "Previous State": {
+    "id": "YqmY",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "New Knowledge": {
+    "id": "_xc_",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "تم إنشاء المرجع التشغيلي الموحد الذي يفصل Knowledge State وChange Type وConflict Status ويعرّف دورات Discover → Triage → Research → Validate → Conflict Check → Synthesize → Commit → QC → Gaps → Priority Queue → Persist State.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "تم إنشاء المرجع التشغيلي الموحد الذي يفصل Knowledge State وChange Type وConflict Status ويعرّف دورات Discover → Triage → Research → Validate → Conflict Check → Synthesize → Commit → QC → Gaps → Priority Queue → Persist State.",
+      "href": null
+     }
+    ]
+   },
+   "Verification Status": {
+    "id": "aI%7DE",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Date": {
+    "id": "gcYj",
+    "type": "date",
+    "date": {
+     "start": "2026-09-26",
+     "end": null,
+     "time_zone": null
+    }
+   },
+   "Change Type": {
+    "id": "kvFO",
+    "type": "select",
+    "select": {
+     "id": "28ac0219-99f8-4c6e-934b-e2ce804e1fcf",
+     "name": "CREATED",
+     "color": "green"
+    }
+   },
+   "Reason": {
+    "id": "miME",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "اعتماد النص الذي قدمه المستخدم كمرجع تشغيلي جديد لهذه المحادثة.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "اعتماد النص الذي قدمه المستخدم كمرجع تشغيلي جديد لهذه المحادثة.",
+      "href": null
+     }
+    ]
+   },
+   "Impact": {
+    "id": "qLLb",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "مرتفع: يحكم التشغيل والتتبع والحالات والتغييرات والتعارضات والدورات القادمة.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "مرتفع: يحكم التشغيل والتتبع والحالات والتغييرات والتعارضات والدورات القادمة.",
+      "href": null
+     }
+    ]
+   },
+   "Research Refs": {
+    "id": "riCL",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Update ID": {
+    "id": "sAYh",
+    "type": "unique_id",
+    "unique_id": {
+     "prefix": "UPD",
+     "number": 5
+    }
+   },
+   "Evidence Refs": {
+    "id": "%7BXeY",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "New State": {
+    "id": "%7CCsR",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Cycle ID": {
+    "id": "%7CP%60Y",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Name": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "UPD-005 — Adopted Deep Marketing Continuous Knowledge Operation Standard",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "UPD-005 — Adopted Deep Marketing Continuous Knowledge Operation Standard",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/UPD-005-Adopted-Deep-Marketing-Continuous-Knowledge-Operation-Standard-3e658a0779e8816aadebf5188c43b6ae",
+  "public_url": null,
+  "archived": false,
+  "request_id": "b45f3093-13b6-459b-a575-78906b8e6540"
+ },
+ "block_count": 4,
+ "blocks": [
+  {
+   "id": "fedd0845-dad4-4625-86ab-f604fd884cfc",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Decision"
+   ],
+   "created": "2026-09-25T21:33:00.000Z",
+   "edited": "2026-09-25T21:33:00.000Z"
+  },
+  {
+   "id": "621d45c8-e262-4da6-9f91-a44613fb00c5",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "اعتماد المرجع التشغيلي الجديد كمعيار حاكم للدورات التالية."
+   ],
+   "created": "2026-09-25T21:33:00.000Z",
+   "edited": "2026-09-25T21:33:00.000Z"
+  },
+  {
+   "id": "35ab30b8-242d-46bb-a3b6-2804d8cb1ae3",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Boundary"
+   ],
+   "created": "2026-09-25T21:33:00.000Z",
+   "edited": "2026-09-25T21:33:00.000Z"
+  },
+  {
+   "id": "9b9117ed-f2f1-4d55-8e79-2f66f7ebf929",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "هذا التغيير منهجي/حوكمي؛ لا يُعامل وحده كدليل جديد على أي نتيجة تسويقية."
+   ],
+   "created": "2026-09-25T21:33:00.000Z",
+   "edited": "2026-09-25T21:33:00.000Z"
+  }
+ ]
+}

@@ -1,0 +1,296 @@
+{
+ "capture_reason": "NEW",
+ "captured_at": "2026-10-02T12:06:31+03:00",
+ "title": "Cycle 6 — z.ai Meta-Analysis & Cross-Audit — Batch 1 Results Reconciliation",
+ "last_edited": "2026-09-27T01:03:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e858a07-79e8-812b-b58d-eb28bf42c7f0",
+  "created_time": "2026-09-27T01:02:00.000Z",
+  "last_edited_time": "2026-09-27T01:03:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3e758a07-79e8-8187-9e89-00278adc0ead"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3e758a07-79e8-8187-9e89-00278adc0ead"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "e844ab12-d846-4974-9651-0892464966e5"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "Actor": {
+    "id": "%3B%3Cag",
+    "type": "select",
+    "select": {
+     "id": "2fa84fac-4f8f-45ca-86bd-48ad2531dc79",
+     "name": "z.ai Runtime (Super Z)",
+     "color": "yellow"
+    }
+   },
+   "Record ID": {
+    "id": "Frzf",
+    "type": "unique_id",
+    "unique_id": {
+     "prefix": "IA",
+     "number": 10
+    }
+   },
+   "Parent Record ID": {
+    "id": "Gg%3C%3B",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Stage": {
+    "id": "HM%40I",
+    "type": "select",
+    "select": {
+     "id": "24bd1a38-56cf-44ea-8bb6-7482e15a05d7",
+     "name": "Runtime Evidence + Analysis",
+     "color": "default"
+    }
+   },
+   "Findings / Changes": {
+    "id": "Ht%5D%7D",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "تأكيد تنفيذ Batch 1 كاملًا (76/96 إجراءً، 15/15 SKU نهائية، 52 كيانًا متحققًا، 52 عرضًا)؛ كشف 12 تناقضًا و11 فجوة و8 مخاطر؛ إجابة مجهولات الدورة 5 الموثقة. (سجل التحليل الكامل: ملف meta-analysis المحلي 2026-09-27)",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "تأكيد تنفيذ Batch 1 كاملًا (76/96 إجراءً، 15/15 SKU نهائية، 52 كيانًا متحققًا، 52 عرضًا)؛ كشف 12 تناقضًا و11 فجوة و8 مخاطر؛ إجابة مجهولات الدورة 5 الموثقة. (سجل التحليل الكامل: ملف meta-analysis المحلي 2026-09-27)",
+      "href": null
+     }
+    ]
+   },
+   "Objective": {
+    "id": "Nyoo",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "تحليل شامل وتدقيق متقاطع للمحادثة المرجعية مقابل Notion وأدوات تشغيل Batch 1، وسد فجوة الدليل بين نتائج التنفيذ الفعلية وسجلات الدورتين 4–5.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "تحليل شامل وتدقيق متقاطع للمحادثة المرجعية مقابل Notion وأدوات تشغيل Batch 1، وسد فجوة الدليل بين نتائج التنفيذ الفعلية وسجلات الدورتين 4–5.",
+      "href": null
+     }
+    ]
+   },
+   "Version ID": {
+    "id": "SZr_",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "v4.2 (context) / v4.1 (audited runtime)",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "v4.2 (context) / v4.1 (audited runtime)",
+      "href": null
+     }
+    ]
+   },
+   "Decision Required": {
+    "id": "W%40%5Dt",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "D1 بوابة Bootstrap + D2 معيار المخرجات + D5 تدوير التوكن — القرارات السبعة معروضة ولم تُحسم.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "D1 بوابة Bootstrap + D2 معيار المخرجات + D5 تدوير التوكن — القرارات السبعة معروضة ولم تُحسم.",
+      "href": null
+     }
+    ]
+   },
+   "Evidence / Sources": {
+    "id": "Z%5DbK",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "أدوات التشغيل المحلية (run-contract SI-BATCH1-20260926، budget.json 76/96، skus.json، مجموعة بيانات 1745 سطرًا) + حصاد Notion بقراءة فقط (25 وثيقة + 3 قواعد كاملة الصفوف).",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "أدوات التشغيل المحلية (run-contract SI-BATCH1-20260926، budget.json 76/96، skus.json، مجموعة بيانات 1745 سطرًا) + حصاد Notion بقراءة فقط (25 وثيقة + 3 قواعد كاملة الصفوف).",
+      "href": null
+     }
+    ]
+   },
+   "Canonical Impact": {
+    "id": "cF%3D_",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "لا شيء — لا ترقية ولا تعديل حوكمة.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "لا شيء — لا ترقية ولا تعديل حوكمة.",
+      "href": null
+     }
+    ]
+   },
+   "Cycle": {
+    "id": "mFTS",
+    "type": "number",
+    "number": 6
+   },
+   "Message to Send": {
+    "id": "mu%3CH",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Date": {
+    "id": "ovi%3A",
+    "type": "date",
+    "date": {
+     "start": "2026-09-27",
+     "end": null,
+     "time_zone": null
+    }
+   },
+   "Status": {
+    "id": "vW%40y",
+    "type": "select",
+    "select": {
+     "id": "0cb245dd-a819-4f89-9daf-00ab6f61d17b",
+     "name": "Committed",
+     "color": "default"
+    }
+   },
+   "Received Output / Archive": {
+    "id": "wFNY",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Next Action": {
+    "id": "%7DEXV",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "حسم D1/D2 ثم تخويل الدفعة الثانية تحت v4.2.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "حسم D1/D2 ثم تخويل الدفعة الثانية تحت v4.2.",
+      "href": null
+     }
+    ]
+   },
+   "Record": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Cycle 6 — z.ai Meta-Analysis & Cross-Audit — Batch 1 Results Reconciliation",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Cycle 6 — z.ai Meta-Analysis & Cross-Audit — Batch 1 Results Reconciliation",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/Cycle-6-z-ai-Meta-Analysis-Cross-Audit-Batch-1-Results-Reconciliation-3e858a0779e8812bb58deb28bf42c7f0",
+  "public_url": null,
+  "archived": false,
+  "request_id": "551e81ba-a224-4e33-b54a-ee793a65e203"
+ },
+ "block_count": 1,
+ "blocks": [
+  {
+   "id": "3e858a07-79e8-8170-a80c-f31e914b55b3",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "ارتُكبت هذه الحزمة المعلقة (المكوّن 1 من حزمة 2026-09-27) بأثر رجعي عبر جلسة MEC-2.0 بتخويل المستخدم المباشر في رسالة 2026-09-27 (تحديث بنية المعرفة في Notion). الحالة المعرفية: أدلة تشغيل موثقة، لا تتضمن أي ترقية إصدار."
+   ],
+   "created": "2026-09-27T01:02:00.000Z",
+   "edited": "2026-09-27T01:02:00.000Z"
+  }
+ ]
+}

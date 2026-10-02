@@ -1,0 +1,387 @@
+{
+ "capture_reason": "NEWLY_ACCESSIBLE",
+ "captured_at": "2026-10-02T12:06:31+03:00",
+ "title": "Case — Ultimate Solutions Partner Enablement & ONYX",
+ "last_edited": "2026-09-25T21:03:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e658a07-79e8-8131-bae6-eb9c8012a343",
+  "created_time": "2026-09-25T21:01:00.000Z",
+  "last_edited_time": "2026-09-25T21:03:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "a87d8f7b-de51-419c-aa6d-90b81e0d7b21"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "Context": {
+    "id": "%3BcyS",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "B2B ERP ecosystem where partners/distributors can extend sales, implementation and market access.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "B2B ERP ecosystem where partners/distributors can extend sales, implementation and market access.",
+      "href": null
+     }
+    ]
+   },
+   "Situation": {
+    "id": "Dqr%7D",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "البرنامج منشور رسميًا كمسار وكالة توزيع منظم: متطلبات قانونية وفنية، دراسة سوق، موظف للتدريب، قبول مبدئي، استكمال مستندات، عقد تجريبي لسنة أولى، خطة تسويق سنوية مع قياس ربع سنوي، ثم تدريب وتجهيز لمدة تصل إلى 60 يومًا، يتبعها دعم مستمر وإدراج الوكيل وتحديثات الأنظمة.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "البرنامج منشور رسميًا كمسار وكالة توزيع منظم: متطلبات قانونية وفنية، دراسة سوق، موظف للتدريب، قبول مبدئي، استكمال مستندات، عقد تجريبي لسنة أولى، خطة تسويق سنوية مع قياس ربع سنوي، ثم تدريب وتجهيز لمدة تصل إلى 60 يومًا، يتبعها دعم مستمر وإدراج الوكيل وتحديثات الأنظمة.",
+      "href": null
+     }
+    ]
+   },
+   "Entity Link": {
+    "id": "ElSP",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "3e658a07-79e8-81ff-8dbc-fe9e8b0d9079"
+     }
+    ],
+    "has_more": false
+   },
+   "Evidence Links": {
+    "id": "FYu%3A",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "3e658a07-79e8-814c-a0b2-d5b906e3397a"
+     },
+     {
+      "id": "3e658a07-79e8-8191-af2f-ce289dd66c82"
+     },
+     {
+      "id": "3e658a07-79e8-817e-bb67-dcf148b4d59f"
+     },
+     {
+      "id": "3e658a07-79e8-812e-a32b-ec7bfa30c5ae"
+     }
+    ],
+    "has_more": false
+   },
+   "Market": {
+    "id": "LVaJ",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Global / regional; Yemen linkage requires separate verification",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Global / regional; Yemen linkage requires separate verification",
+      "href": null
+     }
+    ]
+   },
+   "Constraints": {
+    "id": "MgJ%7D",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Public process documentation does not establish actual compliance with the process by each distributor, current active-partner counts, conversion/activation rates, quarterly measurement outputs, pipeline, revenue or ROI.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Public process documentation does not establish actual compliance with the process by each distributor, current active-partner counts, conversion/activation rates, quarterly measurement outputs, pipeline, revenue or ROI.",
+      "href": null
+     }
+    ]
+   },
+   "Confidence": {
+    "id": "Mhr%5B",
+    "type": "select",
+    "select": {
+     "id": "e872a95c-be8c-4dea-83d7-6192450960df",
+     "name": "High",
+     "color": "green"
+    }
+   },
+   "Segment": {
+    "id": "S%7Cat",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "SME / ERP buyers; authorized distributors and partners",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "SME / ERP buyers; authorized distributors and partners",
+      "href": null
+     }
+    ]
+   },
+   "Observed Outcome": {
+    "id": "TDBm",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "The public operating design is detailed enough to establish an explicit channel-management process. The page also lists a broad international/regional distributor footprint, but the historical statement of more than 88 branches/points/agents is explicitly dated to the end of 2017 and should not be treated as a current count. Current site contact listings show distributors across Yemen and multiple international markets.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "The public operating design is detailed enough to establish an explicit channel-management process. The page also lists a broad international/regional distributor footprint, but the historical statement of more than 88 branches/points/agents is explicitly dated to the end of 2017 and should not be treated as a current count. Current site contact listings show distributors across Yemen and multiple international markets.",
+      "href": null
+     }
+    ]
+   },
+   "Objective": {
+    "id": "UwXv",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Document the partner-enabled GTM mechanism attached to the ONYX ecosystem without inferring effectiveness.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Document the partner-enabled GTM mechanism attached to the ONYX ecosystem without inferring effectiveness.",
+      "href": null
+     }
+    ]
+   },
+   "Status": {
+    "id": "WKe%3B",
+    "type": "status",
+    "status": {
+     "id": "6b06f923-0b48-4a06-b0f5-de1916f018c1",
+     "name": "تم",
+     "color": "green"
+    }
+   },
+   "Evidence References": {
+    "id": "gCUd",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Ultimate Solutions official partner-program page; Ultimate Solutions ONYX ERP page; YemenSoft official ONYX ERP page and related-links surface.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Ultimate Solutions official partner-program page; Ultimate Solutions ONYX ERP page; YemenSoft official ONYX ERP page and related-links surface.",
+      "href": null
+     }
+    ]
+   },
+   "Date": {
+    "id": "jpdJ",
+    "type": "date",
+    "date": {
+     "start": "2026-09-25",
+     "end": null,
+     "time_zone": null
+    }
+   },
+   "Channels": {
+    "id": "vZLG",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Official distributor request form; distributor network; regional branches/agents; public website listing; printed/web marketing materials; partner/agent contact channels.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Official distributor request form; distributor network; regional branches/agents; public website listing; printed/web marketing materials; partner/agent contact channels.",
+      "href": null
+     }
+    ]
+   },
+   "Mechanism": {
+    "id": "xauN",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Recruit → Qualify → Market Study → Nominate/Train Staff → Preliminary Approval → Documentation → Trial Contract → Annual Marketing Plan + Quarterly Measurement → 60-day Enablement → Market Entry → Continuous Technical/Sales Support.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Recruit → Qualify → Market Study → Nominate/Train Staff → Preliminary Approval → Documentation → Trial Contract → Annual Marketing Plan + Quarterly Measurement → 60-day Enablement → Market Entry → Continuous Technical/Sales Support.",
+      "href": null
+     }
+    ]
+   },
+   "Name": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Case — Ultimate Solutions Partner Enablement & ONYX",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Case — Ultimate Solutions Partner Enablement & ONYX",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/Case-Ultimate-Solutions-Partner-Enablement-ONYX-3e658a0779e88131bae6eb9c8012a343",
+  "public_url": null,
+  "archived": false,
+  "request_id": "0048deb6-197b-4f3b-95f9-ef8ea6fd0cdd"
+ },
+ "block_count": 4,
+ "blocks": [
+  {
+   "id": "349b7aec-fc1e-48d4-b647-e970351beee2",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Case reconstruction"
+   ],
+   "created": "2026-09-25T21:01:00.000Z",
+   "edited": "2026-09-25T21:01:00.000Z"
+  },
+  {
+   "id": "4a2d7a19-c244-4879-91c8-d47d04cb32de",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Capability: formal partner/distributor GTM layer is publicly documented."
+   ],
+   "created": "2026-09-25T21:01:00.000Z",
+   "edited": "2026-09-25T21:01:00.000Z"
+  },
+  {
+   "id": "45aac45a-e0b7-4a11-96e8-51d5e4797b54",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Evidence boundary: the sources establish what Ultimate Solutions says its program provides; they do not establish actual commercial impact."
+   ],
+   "created": "2026-09-25T21:01:00.000Z",
+   "edited": "2026-09-25T21:01:00.000Z"
+  },
+  {
+   "id": "8c45bed5-a6f1-4812-a66e-7cf7cf8781b6",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Benchmark implication: treat this as a documented ONYX-ecosystem capability and keep the YemenSoft ownership/operational linkage as an open research question."
+   ],
+   "created": "2026-09-25T21:01:00.000Z",
+   "edited": "2026-09-25T21:01:00.000Z"
+  }
+ ]
+}

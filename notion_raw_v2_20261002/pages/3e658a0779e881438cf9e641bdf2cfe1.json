@@ -1,0 +1,224 @@
+{
+ "capture_reason": "NEWLY_ACCESSIBLE",
+ "captured_at": "2026-10-02T12:16:49+03:00",
+ "title": "Odoo CRM supports forwarding leads to reseller/partner organizations and can automatically assign leads based on partner level and location.",
+ "last_edited": "2026-09-25T20:01:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e658a07-79e8-8143-8cf9-e641bdf2cfe1",
+  "created_time": "2026-09-25T20:01:00.000Z",
+  "last_edited_time": "2026-09-25T20:01:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "230f9103-4d44-47a5-b69f-fef368560b20"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "Conflicting Evidence": {
+    "id": "RNcx",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Date": {
+    "id": "Td%60A",
+    "type": "date",
+    "date": null
+   },
+   "Source Link": {
+    "id": "%5DC%40H",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "3e658a07-79e8-81f3-b561-e26e0f5df47e"
+     }
+    ],
+    "has_more": false
+   },
+   "Scope": {
+    "id": "_UPZ",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Odoo 18.0 CRM reseller functionality",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Odoo 18.0 CRM reseller functionality",
+      "href": null
+     }
+    ]
+   },
+   "Confidence": {
+    "id": "eU%3BK",
+    "type": "select",
+    "select": {
+     "id": "dce844a7-249c-496d-b071-eaf2fb18d172",
+     "name": "High",
+     "color": "green"
+    }
+   },
+   "Source Reference": {
+    "id": "kuxt",
+    "type": "url",
+    "url": "https://www.odoo.com/documentation/18.0/applications/sales/crm/track_leads/resellers.html"
+   },
+   "Case Link": {
+    "id": "mBHn",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "3e658a07-79e8-8139-ac3e-e6e33db9386c"
+     }
+    ],
+    "has_more": false
+   },
+   "Notes": {
+    "id": "oKLy",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Shows operationalization of partner distribution inside CRM.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Shows operationalization of partner distribution inside CRM.",
+      "href": null
+     }
+    ]
+   },
+   "Exact Reference": {
+    "id": "q~Kl",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Resellers module, partner levels, commissions and lead forwarding/automatic assignment by level and location are documented.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Resellers module, partner levels, commissions and lead forwarding/automatic assignment by level and location are documented.",
+      "href": null
+     }
+    ]
+   },
+   "Evidence Status": {
+    "id": "ymog",
+    "type": "status",
+    "status": {
+     "id": "e45b624d-0043-43ed-a63f-e4bedb218a01",
+     "name": "تم",
+     "color": "green"
+    }
+   },
+   "Evidence Type": {
+    "id": "yzj%7D",
+    "type": "select",
+    "select": {
+     "id": "a099258a-d98e-44c4-829b-d41b0e0ca8ee",
+     "name": "Direct",
+     "color": "green"
+    }
+   },
+   "Independence Group": {
+    "id": "zZtm",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Odoo-Official-CRM-Reseller",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Odoo-Official-CRM-Reseller",
+      "href": null
+     }
+    ]
+   },
+   "Entity Link": {
+    "id": "zgKu",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "3e658a07-79e8-81ff-88e6-d249a478396c"
+     }
+    ],
+    "has_more": false
+   },
+   "Claim": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Odoo CRM supports forwarding leads to reseller/partner organizations and can automatically assign leads based on partner level and location.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Odoo CRM supports forwarding leads to reseller/partner organizations and can automatically assign leads based on partner level and location.",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/Odoo-CRM-supports-forwarding-leads-to-reseller-partner-organizations-and-can-automatically-assign-le-3e658a0779e881438cf9e641bdf2cfe1",
+  "public_url": null,
+  "archived": false,
+  "request_id": "a9f3df8d-9025-4a32-a0df-941f46f6e046"
+ },
+ "block_count": 0,
+ "blocks": []
+}

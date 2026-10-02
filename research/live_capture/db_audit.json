@@ -1,0 +1,1365 @@
+{
+ "tables": [
+  {
+   "table_name": "Attempt",
+   "table_schema": "public",
+   "rowCount": 6
+  },
+  {
+   "table_name": "ChainLink",
+   "table_schema": "public",
+   "rowCount": 57
+  },
+  {
+   "table_name": "GeoPrice",
+   "table_schema": "public",
+   "rowCount": 111
+  },
+  {
+   "table_name": "Order",
+   "table_schema": "public",
+   "rowCount": 15
+  },
+  {
+   "table_name": "Product",
+   "table_schema": "public",
+   "rowCount": 37
+  },
+  {
+   "table_name": "Supplier",
+   "table_schema": "public",
+   "rowCount": 6
+  },
+  {
+   "table_name": "SyncLog",
+   "table_schema": "public",
+   "rowCount": 2
+  },
+  {
+   "table_name": "Waitlist",
+   "table_schema": "public",
+   "rowCount": 0
+  },
+  {
+   "table_name": "Wallet",
+   "table_schema": "public",
+   "rowCount": 5
+  },
+  {
+   "table_name": "WalletTx",
+   "table_schema": "public",
+   "rowCount": 9
+  }
+ ],
+ "cols_Attempt": [
+  {
+   "column_name": "id",
+   "data_type": "text",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "orderId",
+   "data_type": "text",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "supplierCode",
+   "data_type": "text",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "step",
+   "data_type": "text",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "status",
+   "data_type": "text",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "costUsd",
+   "data_type": "double precision",
+   "is_nullable": "YES",
+   "column_default": null
+  },
+  {
+   "column_name": "latencyMs",
+   "data_type": "integer",
+   "is_nullable": "YES",
+   "column_default": null
+  },
+  {
+   "column_name": "message",
+   "data_type": "text",
+   "is_nullable": "YES",
+   "column_default": null
+  },
+  {
+   "column_name": "createdAt",
+   "data_type": "timestamp without time zone",
+   "is_nullable": "NO",
+   "column_default": "CURRENT_TIMESTAMP"
+  }
+ ],
+ "cols_ChainLink": [
+  {
+   "column_name": "id",
+   "data_type": "text",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "productId",
+   "data_type": "text",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "supplierId",
+   "data_type": "text",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "priority",
+   "data_type": "integer",
+   "is_nullable": "NO",
+   "column_default": "1"
+  },
+  {
+   "column_name": "costUsd",
+   "data_type": "double precision",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "stock",
+   "data_type": "integer",
+   "is_nullable": "YES",
+   "column_default": null
+  },
+  {
+   "column_name": "stockCheckedAt",
+   "data_type": "timestamp without time zone",
+   "is_nullable": "YES",
+   "column_default": null
+  },
+  {
+   "column_name": "externalId",
+   "data_type": "text",
+   "is_nullable": "YES",
+   "column_default": null
+  },
+  {
+   "column_name": "active",
+   "data_type": "boolean",
+   "is_nullable": "NO",
+   "column_default": "true"
+  },
+  {
+   "column_name": "lastUsedAt",
+   "data_type": "timestamp without time zone",
+   "is_nullable": "YES",
+   "column_default": null
+  }
+ ],
+ "cols_GeoPrice": [
+  {
+   "column_name": "id",
+   "data_type": "text",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "productId",
+   "data_type": "text",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "region",
+   "data_type": "text",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "currency",
+   "data_type": "text",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "price",
+   "data_type": "double precision",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "updatedAt",
+   "data_type": "timestamp without time zone",
+   "is_nullable": "NO",
+   "column_default": "CURRENT_TIMESTAMP"
+  }
+ ],
+ "cols_Order": [
+  {
+   "column_name": "id",
+   "data_type": "text",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "publicId",
+   "data_type": "text",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "productId",
+   "data_type": "text",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "phone",
+   "data_type": "text",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "region",
+   "data_type": "text",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "currency",
+   "data_type": "text",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "priceLocked",
+   "data_type": "double precision",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "amountUsd",
+   "data_type": "double precision",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "rail",
+   "data_type": "text",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "status",
+   "data_type": "text",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "paymentRef",
+   "data_type": "text",
+   "is_nullable": "YES",
+   "column_default": null
+  },
+  {
+   "column_name": "payAddress",
+   "data_type": "text",
+   "is_nullable": "YES",
+   "column_default": null
+  },
+  {
+   "column_name": "payAmount",
+   "data_type": "double precision",
+   "is_nullable": "YES",
+   "column_default": null
+  },
+  {
+   "column_name": "winnerCode",
+   "data_type": "text",
+   "is_nullable": "YES",
+   "column_default": null
+  },
+  {
+   "column_name": "costUsd",
+   "data_type": "double precision",
+   "is_nullable": "YES",
+   "column_default": null
+  },
+  {
+   "column_name": "deliveredPayload",
+   "data_type": "text",
+   "is_nullable": "YES",
+   "column_default": null
+  },
+  {
+   "column_name": "deliveredAt",
+   "data_type": "timestamp without time zone",
+   "is_nullable": "YES",
+   "column_default": null
+  },
+  {
+   "column_name": "cashbackAmount",
+   "data_type": "double precision",
+   "is_nullable": "NO",
+   "column_default": "0"
+  },
+  {
+   "column_name": "apologyAmount",
+   "data_type": "double precision",
+   "is_nullable": "NO",
+   "column_default": "0"
+  },
+  {
+   "column_name": "createdAt",
+   "data_type": "timestamp without time zone",
+   "is_nullable": "NO",
+   "column_default": "CURRENT_TIMESTAMP"
+  },
+  {
+   "column_name": "updatedAt",
+   "data_type": "timestamp without time zone",
+   "is_nullable": "NO",
+   "column_default": null
+  }
+ ],
+ "cols_Product": [
+  {
+   "column_name": "id",
+   "data_type": "text",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "slug",
+   "data_type": "text",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "name",
+   "data_type": "text",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "nameEn",
+   "data_type": "text",
+   "is_nullable": "YES",
+   "column_default": null
+  },
+  {
+   "column_name": "family",
+   "data_type": "text",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "sourceTier",
+   "data_type": "text",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "deliveryKind",
+   "data_type": "text",
+   "is_nullable": "NO",
+   "column_default": "'code'::text"
+  },
+  {
+   "column_name": "officialUsd",
+   "data_type": "double precision",
+   "is_nullable": "YES",
+   "column_default": null
+  },
+  {
+   "column_name": "active",
+   "data_type": "boolean",
+   "is_nullable": "NO",
+   "column_default": "true"
+  },
+  {
+   "column_name": "createdAt",
+   "data_type": "timestamp without time zone",
+   "is_nullable": "NO",
+   "column_default": "CURRENT_TIMESTAMP"
+  }
+ ],
+ "cols_Supplier": [
+  {
+   "column_name": "id",
+   "data_type": "text",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "code",
+   "data_type": "text",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "name",
+   "data_type": "text",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "kind",
+   "data_type": "text",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "active",
+   "data_type": "boolean",
+   "is_nullable": "NO",
+   "column_default": "true"
+  },
+  {
+   "column_name": "score",
+   "data_type": "double precision",
+   "is_nullable": "NO",
+   "column_default": "0.5"
+  },
+  {
+   "column_name": "failCount",
+   "data_type": "integer",
+   "is_nullable": "NO",
+   "column_default": "0"
+  },
+  {
+   "column_name": "failWindow",
+   "data_type": "timestamp without time zone",
+   "is_nullable": "NO",
+   "column_default": "CURRENT_TIMESTAMP"
+  },
+  {
+   "column_name": "openUntil",
+   "data_type": "timestamp without time zone",
+   "is_nullable": "YES",
+   "column_default": null
+  },
+  {
+   "column_name": "createdAt",
+   "data_type": "timestamp without time zone",
+   "is_nullable": "NO",
+   "column_default": "CURRENT_TIMESTAMP"
+  }
+ ],
+ "cols_SyncLog": [
+  {
+   "column_name": "id",
+   "data_type": "text",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "supplierCode",
+   "data_type": "text",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "ok",
+   "data_type": "boolean",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "productsSeen",
+   "data_type": "integer",
+   "is_nullable": "NO",
+   "column_default": "0"
+  },
+  {
+   "column_name": "matched",
+   "data_type": "integer",
+   "is_nullable": "NO",
+   "column_default": "0"
+  },
+  {
+   "column_name": "changed",
+   "data_type": "integer",
+   "is_nullable": "NO",
+   "column_default": "0"
+  },
+  {
+   "column_name": "inStockNow",
+   "data_type": "integer",
+   "is_nullable": "NO",
+   "column_default": "0"
+  },
+  {
+   "column_name": "balanceUsd",
+   "data_type": "double precision",
+   "is_nullable": "YES",
+   "column_default": null
+  },
+  {
+   "column_name": "message",
+   "data_type": "text",
+   "is_nullable": "YES",
+   "column_default": null
+  },
+  {
+   "column_name": "createdAt",
+   "data_type": "timestamp without time zone",
+   "is_nullable": "NO",
+   "column_default": "CURRENT_TIMESTAMP"
+  }
+ ],
+ "cols_Waitlist": [
+  {
+   "column_name": "id",
+   "data_type": "text",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "productId",
+   "data_type": "text",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "phone",
+   "data_type": "text",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "createdAt",
+   "data_type": "timestamp without time zone",
+   "is_nullable": "NO",
+   "column_default": "CURRENT_TIMESTAMP"
+  }
+ ],
+ "cols_Wallet": [
+  {
+   "column_name": "id",
+   "data_type": "text",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "phone",
+   "data_type": "text",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "createdAt",
+   "data_type": "timestamp without time zone",
+   "is_nullable": "NO",
+   "column_default": "CURRENT_TIMESTAMP"
+  }
+ ],
+ "cols_WalletTx": [
+  {
+   "column_name": "id",
+   "data_type": "text",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "walletId",
+   "data_type": "text",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "type",
+   "data_type": "text",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "amount",
+   "data_type": "double precision",
+   "is_nullable": "NO",
+   "column_default": null
+  },
+  {
+   "column_name": "ref",
+   "data_type": "text",
+   "is_nullable": "YES",
+   "column_default": null
+  },
+  {
+   "column_name": "note",
+   "data_type": "text",
+   "is_nullable": "YES",
+   "column_default": null
+  },
+  {
+   "column_name": "createdAt",
+   "data_type": "timestamp without time zone",
+   "is_nullable": "NO",
+   "column_default": "CURRENT_TIMESTAMP"
+  }
+ ],
+ "constraints": [
+  {
+   "table_name": "Attempt",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17646_1_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Attempt",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17646_9_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Attempt",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17646_5_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Attempt",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17646_4_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Attempt",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17646_3_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Attempt",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17646_2_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Attempt",
+   "constraint_type": "FOREIGN KEY",
+   "constraint_name": "Attempt_orderId_fkey",
+   "column_name": "orderId",
+   "foreign_table": "Order"
+  },
+  {
+   "table_name": "Attempt",
+   "constraint_type": "PRIMARY KEY",
+   "constraint_name": "Attempt_pkey",
+   "column_name": "id",
+   "foreign_table": "Attempt"
+  },
+  {
+   "table_name": "ChainLink",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17619_2_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "ChainLink",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17619_9_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "ChainLink",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17619_5_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "ChainLink",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17619_4_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "ChainLink",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17619_3_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "ChainLink",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17619_1_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "ChainLink",
+   "constraint_type": "FOREIGN KEY",
+   "constraint_name": "ChainLink_supplierId_fkey",
+   "column_name": "supplierId",
+   "foreign_table": "Supplier"
+  },
+  {
+   "table_name": "ChainLink",
+   "constraint_type": "FOREIGN KEY",
+   "constraint_name": "ChainLink_productId_fkey",
+   "column_name": "productId",
+   "foreign_table": "Product"
+  },
+  {
+   "table_name": "ChainLink",
+   "constraint_type": "PRIMARY KEY",
+   "constraint_name": "ChainLink_pkey",
+   "column_name": "id",
+   "foreign_table": "ChainLink"
+  },
+  {
+   "table_name": "GeoPrice",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17628_4_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "GeoPrice",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17628_1_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "GeoPrice",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17628_2_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "GeoPrice",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17628_3_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "GeoPrice",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17628_5_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "GeoPrice",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17628_6_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "GeoPrice",
+   "constraint_type": "FOREIGN KEY",
+   "constraint_name": "GeoPrice_productId_fkey",
+   "column_name": "productId",
+   "foreign_table": "Product"
+  },
+  {
+   "table_name": "GeoPrice",
+   "constraint_type": "PRIMARY KEY",
+   "constraint_name": "GeoPrice_pkey",
+   "column_name": "id",
+   "foreign_table": "GeoPrice"
+  },
+  {
+   "table_name": "Order",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17636_2_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Order",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17636_3_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Order",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17636_4_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Order",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17636_5_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Order",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17636_6_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Order",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17636_7_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Order",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17636_9_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Order",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17636_10_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Order",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17636_18_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Order",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17636_19_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Order",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17636_20_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Order",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17636_21_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Order",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17636_8_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Order",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17636_1_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Order",
+   "constraint_type": "FOREIGN KEY",
+   "constraint_name": "Order_productId_fkey",
+   "column_name": "productId",
+   "foreign_table": "Product"
+  },
+  {
+   "table_name": "Order",
+   "constraint_type": "PRIMARY KEY",
+   "constraint_name": "Order_pkey",
+   "column_name": "id",
+   "foreign_table": "Order"
+  },
+  {
+   "table_name": "Product",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17609_1_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Product",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17609_10_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Product",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17609_9_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Product",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17609_7_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Product",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17609_6_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Product",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17609_5_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Product",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17609_3_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Product",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17609_2_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Product",
+   "constraint_type": "PRIMARY KEY",
+   "constraint_name": "Product_pkey",
+   "column_name": "id",
+   "foreign_table": "Product"
+  },
+  {
+   "table_name": "Supplier",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17597_7_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Supplier",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17597_1_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Supplier",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17597_6_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Supplier",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17597_5_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Supplier",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17597_4_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Supplier",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17597_3_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Supplier",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17597_8_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Supplier",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17597_10_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Supplier",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17597_2_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Supplier",
+   "constraint_type": "PRIMARY KEY",
+   "constraint_name": "Supplier_pkey",
+   "column_name": "id",
+   "foreign_table": "Supplier"
+  },
+  {
+   "table_name": "SyncLog",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17678_6_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "SyncLog",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17678_7_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "SyncLog",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17678_1_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "SyncLog",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17678_10_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "SyncLog",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17678_2_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "SyncLog",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17678_3_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "SyncLog",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17678_4_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "SyncLog",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17678_5_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "SyncLog",
+   "constraint_type": "PRIMARY KEY",
+   "constraint_name": "SyncLog_pkey",
+   "column_name": "id",
+   "foreign_table": "SyncLog"
+  },
+  {
+   "table_name": "Waitlist",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17670_1_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Waitlist",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17670_4_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Waitlist",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17670_3_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Waitlist",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17670_2_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Waitlist",
+   "constraint_type": "FOREIGN KEY",
+   "constraint_name": "Waitlist_productId_fkey",
+   "column_name": "productId",
+   "foreign_table": "Product"
+  },
+  {
+   "table_name": "Waitlist",
+   "constraint_type": "PRIMARY KEY",
+   "constraint_name": "Waitlist_pkey",
+   "column_name": "id",
+   "foreign_table": "Waitlist"
+  },
+  {
+   "table_name": "Wallet",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17654_3_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Wallet",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17654_1_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Wallet",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17654_2_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "Wallet",
+   "constraint_type": "PRIMARY KEY",
+   "constraint_name": "Wallet_pkey",
+   "column_name": "id",
+   "foreign_table": "Wallet"
+  },
+  {
+   "table_name": "WalletTx",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17662_4_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "WalletTx",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17662_7_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "WalletTx",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17662_2_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "WalletTx",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17662_1_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "WalletTx",
+   "constraint_type": "CHECK",
+   "constraint_name": "2200_17662_3_not_null",
+   "column_name": null,
+   "foreign_table": null
+  },
+  {
+   "table_name": "WalletTx",
+   "constraint_type": "FOREIGN KEY",
+   "constraint_name": "WalletTx_walletId_fkey",
+   "column_name": "walletId",
+   "foreign_table": "Wallet"
+  },
+  {
+   "table_name": "WalletTx",
+   "constraint_type": "PRIMARY KEY",
+   "constraint_name": "WalletTx_pkey",
+   "column_name": "id",
+   "foreign_table": "WalletTx"
+  }
+ ],
+ "indexes": [
+  {
+   "tablename": "Attempt",
+   "indexname": "Attempt_pkey",
+   "indexdef": "CREATE UNIQUE INDEX \"Attempt_pkey\" ON public.\"Attempt\" USING btree (id)"
+  },
+  {
+   "tablename": "ChainLink",
+   "indexname": "ChainLink_pkey",
+   "indexdef": "CREATE UNIQUE INDEX \"ChainLink_pkey\" ON public.\"ChainLink\" USING btree (id)"
+  },
+  {
+   "tablename": "ChainLink",
+   "indexname": "ChainLink_productId_supplierId_key",
+   "indexdef": "CREATE UNIQUE INDEX \"ChainLink_productId_supplierId_key\" ON public.\"ChainLink\" USING btree (\"productId\", \"supplierId\")"
+  },
+  {
+   "tablename": "GeoPrice",
+   "indexname": "GeoPrice_pkey",
+   "indexdef": "CREATE UNIQUE INDEX \"GeoPrice_pkey\" ON public.\"GeoPrice\" USING btree (id)"
+  },
+  {
+   "tablename": "GeoPrice",
+   "indexname": "GeoPrice_productId_region_key",
+   "indexdef": "CREATE UNIQUE INDEX \"GeoPrice_productId_region_key\" ON public.\"GeoPrice\" USING btree (\"productId\", region)"
+  },
+  {
+   "tablename": "Order",
+   "indexname": "Order_paymentRef_key",
+   "indexdef": "CREATE UNIQUE INDEX \"Order_paymentRef_key\" ON public.\"Order\" USING btree (\"paymentRef\")"
+  },
+  {
+   "tablename": "Order",
+   "indexname": "Order_pkey",
+   "indexdef": "CREATE UNIQUE INDEX \"Order_pkey\" ON public.\"Order\" USING btree (id)"
+  },
+  {
+   "tablename": "Order",
+   "indexname": "Order_publicId_key",
+   "indexdef": "CREATE UNIQUE INDEX \"Order_publicId_key\" ON public.\"Order\" USING btree (\"publicId\")"
+  },
+  {
+   "tablename": "Product",
+   "indexname": "Product_pkey",
+   "indexdef": "CREATE UNIQUE INDEX \"Product_pkey\" ON public.\"Product\" USING btree (id)"
+  },
+  {
+   "tablename": "Product",
+   "indexname": "Product_slug_key",
+   "indexdef": "CREATE UNIQUE INDEX \"Product_slug_key\" ON public.\"Product\" USING btree (slug)"
+  },
+  {
+   "tablename": "Supplier",
+   "indexname": "Supplier_code_key",
+   "indexdef": "CREATE UNIQUE INDEX \"Supplier_code_key\" ON public.\"Supplier\" USING btree (code)"
+  },
+  {
+   "tablename": "Supplier",
+   "indexname": "Supplier_pkey",
+   "indexdef": "CREATE UNIQUE INDEX \"Supplier_pkey\" ON public.\"Supplier\" USING btree (id)"
+  },
+  {
+   "tablename": "SyncLog",
+   "indexname": "SyncLog_pkey",
+   "indexdef": "CREATE UNIQUE INDEX \"SyncLog_pkey\" ON public.\"SyncLog\" USING btree (id)"
+  },
+  {
+   "tablename": "Waitlist",
+   "indexname": "Waitlist_pkey",
+   "indexdef": "CREATE UNIQUE INDEX \"Waitlist_pkey\" ON public.\"Waitlist\" USING btree (id)"
+  },
+  {
+   "tablename": "Waitlist",
+   "indexname": "Waitlist_productId_phone_key",
+   "indexdef": "CREATE UNIQUE INDEX \"Waitlist_productId_phone_key\" ON public.\"Waitlist\" USING btree (\"productId\", phone)"
+  },
+  {
+   "tablename": "Wallet",
+   "indexname": "Wallet_phone_key",
+   "indexdef": "CREATE UNIQUE INDEX \"Wallet_phone_key\" ON public.\"Wallet\" USING btree (phone)"
+  },
+  {
+   "tablename": "Wallet",
+   "indexname": "Wallet_pkey",
+   "indexdef": "CREATE UNIQUE INDEX \"Wallet_pkey\" ON public.\"Wallet\" USING btree (id)"
+  },
+  {
+   "tablename": "WalletTx",
+   "indexname": "WalletTx_pkey",
+   "indexdef": "CREATE UNIQUE INDEX \"WalletTx_pkey\" ON public.\"WalletTx\" USING btree (id)"
+  },
+  {
+   "tablename": "WalletTx",
+   "indexname": "WalletTx_walletId_type_ref_key",
+   "indexdef": "CREATE UNIQUE INDEX \"WalletTx_walletId_type_ref_key\" ON public.\"WalletTx\" USING btree (\"walletId\", type, ref)"
+  }
+ ],
+ "rls_tables": [
+  {
+   "relname": "SyncLog",
+   "relrowsecurity": false
+  },
+  {
+   "relname": "Order",
+   "relrowsecurity": false
+  },
+  {
+   "relname": "Attempt",
+   "relrowsecurity": false
+  },
+  {
+   "relname": "GeoPrice",
+   "relrowsecurity": false
+  },
+  {
+   "relname": "Supplier",
+   "relrowsecurity": false
+  },
+  {
+   "relname": "Wallet",
+   "relrowsecurity": false
+  },
+  {
+   "relname": "WalletTx",
+   "relrowsecurity": false
+  },
+  {
+   "relname": "Product",
+   "relrowsecurity": false
+  },
+  {
+   "relname": "ChainLink",
+   "relrowsecurity": false
+  },
+  {
+   "relname": "Waitlist",
+   "relrowsecurity": false
+  }
+ ],
+ "rls_policies": [],
+ "current_user": [
+  {
+   "current_user": "postgres",
+   "role": "none",
+   "v": "PostgreSQL 17.6 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 15.2.0, 64-bit"
+  }
+ ]
+}

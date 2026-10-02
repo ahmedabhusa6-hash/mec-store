@@ -1,0 +1,3550 @@
+{
+ "run": "PMRF v3.0 — Batch D: scripts/ + src/ + prisma + data/",
+ "generated_at": "2026-10-02T07:37:37+03:00",
+ "scripts": {
+  "total_files": 263,
+  "families": {
+   "sv": {
+    "files": 21,
+    "bytes": 199282,
+    "subdirs": [
+     "sv_catalog_probe.py",
+     "sv_master_catalog_build.py",
+     "sv_master_catalog_xlsx.py",
+     "sv_master_refresh.py",
+     "sv_matrix_data.py",
+     "sv_matrix_excel.py",
+     "sv_matrix_families.py",
+     "sv_supply5_build_package.py",
+     "sv_supply5_data.py",
+     "sv_supply5_deepdive.py",
+     "sv_supply5_live_check.py",
+     "sv_supply5_notion_sync.py",
+     "sv_supply5_storebatman.py",
+     "sv_supply5_supplement_check.py",
+     "sv_supply5_telemetr.py",
+     "sv_supply6_gtverified.py",
+     "sv_supply6_upstream.py",
+     "sv_supply7_final_probes.py",
+     "sv_supply7_map_expansion.py",
+     "sv_supply8_deep.py",
+     "sv_supply9_deepen.py"
+    ],
+    "examples": [
+     {
+      "file": "scripts/sv_supply9_deepen.py",
+      "size": 12015,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/sv_matrix_data.py",
+      "size": 10360,
+      "purpose": "SV-MATRIX-1: Build consolidated price database from ALL observed suppliers/stores"
+     },
+     {
+      "file": "scripts/sv_supply5_deepdive.py",
+      "size": 4734,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/sv_supply8_deep.py",
+      "size": 8622,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/sv_supply5_storebatman.py",
+      "size": 2944,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/sv_supply6_upstream.py",
+      "size": 6152,
+      "purpose": "-*- coding: utf-8 -*-"
+     }
+    ]
+   },
+   "b3": {
+    "files": 16,
+    "bytes": 135558,
+    "subdirs": [
+     "b3_direct_compile.py",
+     "b3_direct_wave.py",
+     "b3_embedded_extract.py",
+     "b3_html_update.py",
+     "b3_k4g_merge.py",
+     "b3_notion_sync.py",
+     "b3_prefill.py",
+     "b3_prefill_merge.py",
+     "b3_prefill_strict.py",
+     "b3_specified_probe.py",
+     "b3_supp_compile.py",
+     "b3_tg_extended.py",
+     "b3_turgame_cats.py",
+     "b3_turgame_match.py",
+     "b3_turgame_merge.py",
+     "b3_turgame_p3.py"
+    ],
+    "examples": [
+     {
+      "file": "scripts/b3_embedded_extract.py",
+      "size": 4298,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/b3_direct_wave.py",
+      "size": 11116,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/b3_notion_sync.py",
+      "size": 18208,
+      "purpose": "MEC-2.3 Notion sync — Direct-observation wave commit (2026-09-27 ~05:30)."
+     },
+     {
+      "file": "scripts/b3_turgame_match.py",
+      "size": 8579,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/b3_prefill_strict.py",
+      "size": 10157,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/b3_turgame_cats.py",
+      "size": 3524,
+      "purpose": "-*- coding: utf-8 -*-"
+     }
+    ]
+   },
+   "g1": {
+    "files": 14,
+    "bytes": 118022,
+    "subdirs": [
+     "g1_cb_scan.py",
+     "g1_digitalcore_match.py",
+     "g1_r3_final.py",
+     "g1_r3_followup.py",
+     "g1_r3_newkeys_analyze.py",
+     "g1_r3_newkeys_probe.py",
+     "g1_rescan_analyze.py",
+     "g1_rescan_digitalcore.py",
+     "g1_rescan_fetch.py",
+     "g1_rescan_fetch2.py",
+     "g1_rescan_fetch3.py",
+     "g1_rescan_final.py",
+     "g1_rescan_followup.py",
+     "g1_rescan_identity.py"
+    ],
+    "examples": [
+     {
+      "file": "scripts/g1_rescan_analyze.py",
+      "size": 14924,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/g1_rescan_final.py",
+      "size": 3595,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/g1_rescan_followup.py",
+      "size": 5517,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/g1_rescan_identity.py",
+      "size": 3892,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/g1_rescan_fetch2.py",
+      "size": 4278,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/g1_rescan_fetch.py",
+      "size": 8484,
+      "purpose": "-*- coding: utf-8 -*-"
+     }
+    ]
+   },
+   "generate": {
+    "files": 11,
+    "bytes": 158882,
+    "subdirs": [
+     "generate-actions.ts",
+     "generate-markdown.ts",
+     "report"
+    ],
+    "examples": [
+     {
+      "file": "scripts/generate-actions.ts",
+      "size": 1460,
+      "purpose": null
+     },
+     {
+      "file": "scripts/generate-markdown.ts",
+      "size": 14057,
+      "purpose": null
+     },
+     {
+      "file": "scripts/report/generate_supply5_report.js",
+      "size": 16054,
+      "purpose": null
+     },
+     {
+      "file": "scripts/report/generate_prodseller_report.js",
+      "size": 16788,
+      "purpose": null
+     },
+     {
+      "file": "scripts/report/generate_final.js",
+      "size": 16047,
+      "purpose": null
+     },
+     {
+      "file": "scripts/report/generate_program.js",
+      "size": 16015,
+      "purpose": null
+     }
+    ]
+   },
+   "mec21": {
+    "files": 11,
+    "bytes": 41268,
+    "subdirs": [
+     "audit"
+    ],
+    "examples": [
+     {
+      "file": "scripts/audit/mec21_poll_deploy.js",
+      "size": 1649,
+      "purpose": null
+     },
+     {
+      "file": "scripts/audit/mec21_db_baseline.js",
+      "size": 1839,
+      "purpose": null
+     },
+     {
+      "file": "scripts/audit/mec21_icons.py",
+      "size": 2328,
+      "purpose": "MEC-21: generate brand icons (icon.png 512, apple-icon.png 180, favicon.ico 48)"
+     },
+     {
+      "file": "scripts/audit/mec21_railway_vars.js",
+      "size": 2070,
+      "purpose": null
+     },
+     {
+      "file": "scripts/audit/mec21_store_edits.py",
+      "size": 7327,
+      "purpose": "MEC-21: byte-precise replacements for store.tsx (bypasses display-layer corruption)"
+     },
+     {
+      "file": "scripts/audit/mec21_railway_fix.js",
+      "size": 3779,
+      "purpose": null
+     }
+    ]
+   },
+   "pmrf": {
+    "files": 9,
+    "bytes": 67925,
+    "subdirs": [
+     "pmrf_v12_update.py",
+     "pmrf_v2_evidence_verify.py",
+     "pmrf_v2_live_update.py",
+     "pmrf_v2_verify_pass2.py",
+     "pmrf_v3_discovery.py",
+     "pmrf_v3_extract_a.py",
+     "pmrf_v3_extract_b.py",
+     "pmrf_v3_extract_c.py",
+     "pmrf_v3_extract_d.py"
+    ],
+    "examples": [
+     {
+      "file": "scripts/pmrf_v3_discovery.py",
+      "size": 7940,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/pmrf_v2_evidence_verify.py",
+      "size": 8898,
+      "purpose": "PMRF v2.0 — Phase 2-6: Evidence Verification Audit"
+     },
+     {
+      "file": "scripts/pmrf_v2_live_update.py",
+      "size": 8574,
+      "purpose": "PMRF v2.0 — Phase 17: Live Research Update (READ-ONLY)"
+     },
+     {
+      "file": "scripts/pmrf_v3_extract_a.py",
+      "size": 5889,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/pmrf_v12_update.py",
+      "size": 11648,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/pmrf_v2_verify_pass2.py",
+      "size": 6836,
+      "purpose": "PMRF v2.0 — corrected second-pass checks + live catalog delta (282→280)."
+     }
+    ]
+   },
+   "batch2": {
+    "files": 8,
+    "bytes": 100981,
+    "subdirs": [
+     "batch2_compile.py",
+     "batch2_curation.py",
+     "batch2_html.py",
+     "batch2_intelligence.py",
+     "batch2_merge.py",
+     "batch2_nextjs_data.py",
+     "batch2_notion_sync.py",
+     "batch2_search.py"
+    ],
+    "examples": [
+     {
+      "file": "scripts/batch2_curation.py",
+      "size": 33200,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/batch2_nextjs_data.py",
+      "size": 2440,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/batch2_notion_sync.py",
+      "size": 15212,
+      "purpose": "MEC-2.1 G6: Notion sync — Batch 2 (173 P2 SKUs) results commit (2026-09-27)."
+     },
+     {
+      "file": "scripts/batch2_merge.py",
+      "size": 4868,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/batch2_search.py",
+      "size": 20403,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/batch2_html.py",
+      "size": 13015,
+      "purpose": "-*- coding: utf-8 -*-"
+     }
+    ]
+   },
+   "stackvault": {
+    "files": 7,
+    "bytes": 71227,
+    "subdirs": [
+     "report",
+     "stackvault_analysis.py",
+     "stackvault_capture.py",
+     "stackvault_charts.py",
+     "stackvault_live_analysis.py",
+     "stackvault_supply_sources.py"
+    ],
+    "examples": [
+     {
+      "file": "scripts/stackvault_analysis.py",
+      "size": 2626,
+      "purpose": "StackVault API data analysis — price vs costPrice (internal cost layer)"
+     },
+     {
+      "file": "scripts/stackvault_live_analysis.py",
+      "size": 5096,
+      "purpose": "LIVE StackVault (322 products) analysis: cost layer + ProdSeller cross-match + markup table"
+     },
+     {
+      "file": "scripts/stackvault_supply_sources.py",
+      "size": 7429,
+      "purpose": "SV-SUPPLY: Precise supply-source extraction for stackvault.shop"
+     },
+     {
+      "file": "scripts/stackvault_charts.py",
+      "size": 4659,
+      "purpose": "StackVault report charts (Arabic labels via reshaper+bidi, Morandi-consistent palette)"
+     },
+     {
+      "file": "scripts/stackvault_capture.py",
+      "size": 7541,
+      "purpose": "StackVault passive OSINT capture — normal browser-like GET requests ONLY."
+     },
+     {
+      "file": "scripts/report/stackvault_content_b.json",
+      "size": 18376,
+      "purpose": null
+     }
+    ]
+   },
+   "db": {
+    "files": 7,
+    "bytes": 113392,
+    "subdirs": [
+     "audit",
+     "db_audit.py",
+     "db_fixes.py",
+     "db_probe.mjs",
+     "notion"
+    ],
+    "examples": [
+     {
+      "file": "scripts/db_probe.mjs",
+      "size": 604,
+      "purpose": null
+     },
+     {
+      "file": "scripts/db_fixes.py",
+      "size": 5041,
+      "purpose": "MEC DB FIXES: apply hot-path indexes + REVOKE anon/authenticated access"
+     },
+     {
+      "file": "scripts/db_audit.py",
+      "size": 5219,
+      "purpose": "MEC DB AUDIT: connect to production Supabase Postgres (creds fetched from Railway API,"
+     },
+     {
+      "file": "scripts/audit/db_default_privs.py",
+      "size": 4510,
+      "purpose": "MEC-20 DB FIX (P2, AUDIT-4): pg_default_acl still auto-grants anon/authenticated"
+     },
+     {
+      "file": "scripts/notion/pages/DB_Version_Registry.md",
+      "size": 27125,
+      "purpose": "DB: Version Registry (id=d7aa0988-ff99-4bec-a121-5e729f2f7484)"
+     },
+     {
+      "file": "scripts/notion/pages/DB_Decision_Log.md",
+      "size": 11446,
+      "purpose": "DB: Decision Log (id=2328a57f-8e0a-4e5e-8359-41eb8af87cda)"
+     }
+    ]
+   },
+   "batch3": {
+    "files": 6,
+    "bytes": 57353,
+    "subdirs": [
+     "batch3_compile.py",
+     "batch3_curation.py",
+     "batch3_html.py",
+     "batch3_intelligence.py",
+     "batch3_nextjs_data.py",
+     "batch3_search.py"
+    ],
+    "examples": [
+     {
+      "file": "scripts/batch3_html.py",
+      "size": 6599,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/batch3_nextjs_data.py",
+      "size": 1462,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/batch3_search.py",
+      "size": 21233,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/batch3_curation.py",
+      "size": 16015,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/batch3_compile.py",
+      "size": 4411,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/batch3_intelligence.py",
+      "size": 7633,
+      "purpose": "-*- coding: utf-8 -*-"
+     }
+    ]
+   },
+   "prodseller": {
+    "files": 6,
+    "bytes": 74310,
+    "subdirs": [
+     "prodseller_api_extract.py",
+     "prodseller_charts.py",
+     "prodseller_data_files.py",
+     "prodseller_fresh_capture.py",
+     "report"
+    ],
+    "examples": [
+     {
+      "file": "scripts/prodseller_data_files.py",
+      "size": 6031,
+      "purpose": "Build ProdSeller package data files: CSV catalog + JSON package (download/)."
+     },
+     {
+      "file": "scripts/prodseller_charts.py",
+      "size": 4791,
+      "purpose": "ProdSeller package charts (Arabic labels via reshaper+bidi, indigo palette matching docx)"
+     },
+     {
+      "file": "scripts/prodseller_fresh_capture.py",
+      "size": 6682,
+      "purpose": "ProdSeller Fresh Live Capture — SV-PS-PREP (2026-09-29)"
+     },
+     {
+      "file": "scripts/prodseller_api_extract.py",
+      "size": 8378,
+      "purpose": "ProdSeller API Live Extraction — MEC-2.x Price Discovery Phase 1"
+     },
+     {
+      "file": "scripts/report/prodseller_content_a.json",
+      "size": 26869,
+      "purpose": null
+     },
+     {
+      "file": "scripts/report/prodseller_content_b.json",
+      "size": 21559,
+      "purpose": null
+     }
+    ]
+   },
+   "g1a": {
+    "files": 6,
+    "bytes": 42899,
+    "subdirs": [
+     "g1a_r1_domain_intel.py",
+     "g1a_r2_deep.py",
+     "g1a_r3_objectid_forensics.py",
+     "g1a_r3b_machine_fingerprint.py",
+     "g1a_r4_samebox.py",
+     "g1a_r5_decohomz_origin.py"
+    ],
+    "examples": [
+     {
+      "file": "scripts/g1a_r3_objectid_forensics.py",
+      "size": 8528,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/g1a_r3b_machine_fingerprint.py",
+      "size": 4176,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/g1a_r1_domain_intel.py",
+      "size": 10130,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/g1a_r4_samebox.py",
+      "size": 6941,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/g1a_r2_deep.py",
+      "size": 7907,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/g1a_r5_decohomz_origin.py",
+      "size": 5217,
+      "purpose": "-*- coding: utf-8 -*-"
+     }
+    ]
+   },
+   "railway": {
+    "files": 6,
+    "bytes": 13055,
+    "subdirs": [
+     "railway_audit.py",
+     "railway_audit_full.py",
+     "railway_audit_v2.py",
+     "railway_schema_probe.py",
+     "railway_scope_probe.py",
+     "railway_state_full.py"
+    ],
+    "examples": [
+     {
+      "file": "scripts/railway_audit_v2.py",
+      "size": 2012,
+      "purpose": "MEC-18b: Railway audit via GraphQL v2 endpoint (current). Read-only."
+     },
+     {
+      "file": "scripts/railway_scope_probe.py",
+      "size": 1247,
+      "purpose": "MEC-18e: what can this token see? projects list + token scope + deployment fixed query."
+     },
+     {
+      "file": "scripts/railway_audit_full.py",
+      "size": 2560,
+      "purpose": "MEC-18d: full Railway v2 audit — project, services, deployments, domains, live URL test."
+     },
+     {
+      "file": "scripts/railway_state_full.py",
+      "size": 2661,
+      "purpose": "MEC-18f: full Railway project state — services, envs, deployment source, variables (names only), domains."
+     },
+     {
+      "file": "scripts/railway_schema_probe.py",
+      "size": 1178,
+      "purpose": "MEC-18c: discover Railway GraphQL v2 schema fields for Service/Deployment."
+     },
+     {
+      "file": "scripts/railway_audit.py",
+      "size": 3397,
+      "purpose": "MEC-18: Railway deployment audit — query project/service/deployment status via GraphQL API."
+     }
+    ]
+   },
+   "mec2": {
+    "files": 6,
+    "bytes": 43938,
+    "subdirs": [
+     "mec2_channels_probe.py",
+     "mec2_notion_fix_selects.py",
+     "mec2_notion_sync.py",
+     "mec2_search.mjs",
+     "mec2_stackvault_catalog.py",
+     "mec2_update_offers.py"
+    ],
+    "examples": [
+     {
+      "file": "scripts/mec2_search.mjs",
+      "size": 3674,
+      "purpose": null
+     },
+     {
+      "file": "scripts/mec2_update_offers.py",
+      "size": 5239,
+      "purpose": "MEC-2.0: append new observed offers to download/offers_intelligence.json (legal data file)."
+     },
+     {
+      "file": "scripts/mec2_notion_sync.py",
+      "size": 20342,
+      "purpose": "MEC-2.0 G4: Notion sync — user-authorized knowledge commit (2026-09-27 session)."
+     },
+     {
+      "file": "scripts/mec2_notion_fix_selects.py",
+      "size": 3522,
+      "purpose": "MEC-2.0 G4b: fix select fields on committed Interaction Archive rows."
+     },
+     {
+      "file": "scripts/mec2_stackvault_catalog.py",
+      "size": 2704,
+      "purpose": "MEC-2.0: StackVault catalog deep extraction (product -> price mapping) + misc pages."
+     },
+     {
+      "file": "scripts/mec2_channels_probe.py",
+      "size": 8457,
+      "purpose": "MEC-2.0 G1-a: Direct probe of the Notion governing-reference section-19 Telegram"
+     }
+    ]
+   },
+   "notion": {
+    "files": 6,
+    "bytes": 50122,
+    "subdirs": [
+     "notion",
+     "notion_audit.py",
+     "notion_targeted_dump.py"
+    ],
+    "examples": [
+     {
+      "file": "scripts/notion_audit.py",
+      "size": 7997,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/notion_targeted_dump.py",
+      "size": 9131,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/notion/notion_index.py",
+      "size": 4799,
+      "purpose": "Notion READ-ONLY index — Supplier Intelligence project."
+     },
+     {
+      "file": "scripts/notion/notion_hub_fix.py",
+      "size": 6398,
+      "purpose": "Fix-up harvest: project hub + its child pages (emoji-safe title matching)."
+     },
+     {
+      "file": "scripts/notion/notion_harvest.py",
+      "size": 15285,
+      "purpose": "Notion READ-ONLY content harvest — Supplier Intelligence project."
+     },
+     {
+      "file": "scripts/notion/notion_targets.py",
+      "size": 6512,
+      "purpose": "Targeted harvest: v4.1 Exact Prompt Text + Pre-Claude Repair Audit + their parent + RSH18."
+     }
+    ]
+   },
+   "batch1": {
+    "files": 4,
+    "bytes": 26512,
+    "subdirs": [
+     "batch1_final9.py",
+     "batch1_recovery.py",
+     "batch1_search.py",
+     "batch1_verify.py"
+    ],
+    "examples": [
+     {
+      "file": "scripts/batch1_final9.py",
+      "size": 3164,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/batch1_verify.py",
+      "size": 5014,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/batch1_recovery.py",
+      "size": 5180,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/batch1_search.py",
+      "size": 13154,
+      "purpose": "-*- coding: utf-8 -*-"
+     }
+    ]
+   },
+   "mec24": {
+    "files": 4,
+    "bytes": 53779,
+    "subdirs": [
+     "mec24_html_update.py",
+     "mec24_nextjs_data.py",
+     "mec24_notion_sync.py",
+     "mec24_word_content.py"
+    ],
+    "examples": [
+     {
+      "file": "scripts/mec24_nextjs_data.py",
+      "size": 4881,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/mec24_word_content.py",
+      "size": 18670,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/mec24_notion_sync.py",
+      "size": 18679,
+      "purpose": "MEC-2.4 Notion sync — Channel matrix (91) + Dolaa reverse-engineering package (2026-09-27 ~13:40)."
+     },
+     {
+      "file": "scripts/mec24_html_update.py",
+      "size": 11549,
+      "purpose": "-*- coding: utf-8 -*-"
+     }
+    ]
+   },
+   "final": {
+    "files": 4,
+    "bytes": 38181,
+    "subdirs": [
+     "final_word_content.py",
+     "report"
+    ],
+    "examples": [
+     {
+      "file": "scripts/final_word_content.py",
+      "size": 19148,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/report/final_part3.json",
+      "size": 4774,
+      "purpose": null
+     },
+     {
+      "file": "scripts/report/final_part1.json",
+      "size": 7577,
+      "purpose": null
+     },
+     {
+      "file": "scripts/report/final_part2.json",
+      "size": 6682,
+      "purpose": null
+     }
+    ]
+   },
+   "gen": {
+    "files": 4,
+    "bytes": 49954,
+    "subdirs": [
+     "gen_html.py",
+     "gen_markdown.py",
+     "global_suppliers"
+    ],
+    "examples": [
+     {
+      "file": "scripts/gen_markdown.py",
+      "size": 13175,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/gen_html.py",
+      "size": 13745,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/global_suppliers/gen_queries2.py",
+      "size": 15156,
+      "purpose": "GDS-2: Wave-2 query plan — bigger, more vertical, more local-language."
+     },
+     {
+      "file": "scripts/global_suppliers/gen_queries.py",
+      "size": 7878,
+      "purpose": "GDS-1: Generate global query plan (families x regions x languages)"
+     }
+    ]
+   },
+   "مصدر ": {
+    "files": 4,
+    "bytes": 309846,
+    "subdirs": [
+     "notion"
+    ],
+    "examples": [
+     {
+      "file": "scripts/notion/pages/مصدر _ cheapest_digital_products_suppliers_database_md.md",
+      "size": 61415,
+      "purpose": "مصدر — cheapest_digital_products_suppliers_database.md"
+     },
+     {
+      "file": "scripts/notion/pages/مصدر _ progress_md.md",
+      "size": 6409,
+      "purpose": "مصدر — progress.md"
+     },
+     {
+      "file": "scripts/notion/pages/مصدر _ global_digital_suppliers_database_md.md",
+      "size": 43978,
+      "purpose": "مصدر — global_digital_suppliers_database.md"
+     },
+     {
+      "file": "scripts/notion/pages/مصدر _ global_digital_products_database_md.md",
+      "size": 198044,
+      "purpose": "مصدر — global_digital_products_database.md"
+     }
+    ]
+   },
+   "mec5": {
+    "files": 3,
+    "bytes": 34102,
+    "subdirs": [
+     "mec5_compile_data.py",
+     "mec5_gap_analysis.py",
+     "mec5_html_update.py"
+    ],
+    "examples": [
+     {
+      "file": "scripts/mec5_compile_data.py",
+      "size": 11858,
+      "purpose": "MEC-5.0: compile master API-gap dataset → src/lib/data/mec5.json for the new tab."
+     },
+     {
+      "file": "scripts/mec5_gap_analysis.py",
+      "size": 10104,
+      "purpose": "MEC-5.0 API Price Gap Analysis Engine"
+     },
+     {
+      "file": "scripts/mec5_html_update.py",
+      "size": 12140,
+      "purpose": "MEC-5.0: add API price-gap section to download/supplier_intelligence.html (idempotent)."
+     }
+    ]
+   },
+   "neg": {
+    "files": 3,
+    "bytes": 123257,
+    "subdirs": [
+     "neg_campaign_xlsx.py",
+     "report"
+    ],
+    "examples": [
+     {
+      "file": "scripts/neg_campaign_xlsx.py",
+      "size": 50183,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/report/neg_content_a.json",
+      "size": 34409,
+      "purpose": null
+     },
+     {
+      "file": "scripts/report/neg_content_b.json",
+      "size": 38665,
+      "purpose": null
+     }
+    ]
+   },
+   "build": {
+    "files": 3,
+    "bytes": 83025,
+    "subdirs": [
+     "build_catalog.py",
+     "build_intelligence.py",
+     "global_suppliers"
+    ],
+    "examples": [
+     {
+      "file": "scripts/build_intelligence.py",
+      "size": 23100,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/build_catalog.py",
+      "size": 53317,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/global_suppliers/build_known.py",
+      "size": 6608,
+      "purpose": "GDS-1: Compile KNOWN_ENTITIES from all project sources (exclusion list for global discovery)"
+     }
+    ]
+   },
+   "qc": {
+    "files": 3,
+    "bytes": 13082,
+    "subdirs": [
+     "global_suppliers"
+    ],
+    "examples": [
+     {
+      "file": "scripts/global_suppliers/qc_review.py",
+      "size": 3867,
+      "purpose": "GDS-1: QC review — surface suspect entities for manual verdict (false-positive patterns)"
+     },
+     {
+      "file": "scripts/global_suppliers/qc_apply.py",
+      "size": 6132,
+      "purpose": "GDS-1: Apply manual QC verdicts (evidence-based, documented)"
+     },
+     {
+      "file": "scripts/global_suppliers/qc_verdicts_gds2.py",
+      "size": 3083,
+      "purpose": "GDS-2: Append manual QC verdicts (documented reasons) to qc_rejects.json, then rebuild."
+     }
+    ]
+   },
+   "verify": {
+    "files": 3,
+    "bytes": 11927,
+    "subdirs": [
+     "global_suppliers"
+    ],
+    "examples": [
+     {
+      "file": "scripts/global_suppliers/verify_chunked.py",
+      "size": 2035,
+      "purpose": "GDS-1: chunked verifier v2 — hard wall-clock timeout per chunk, abandon stragglers, os._exit"
+     },
+     {
+      "file": "scripts/global_suppliers/verify_deeper.py",
+      "size": 4975,
+      "purpose": "GDS-2: Deep verify — for alive candidates lacking signals, probe internal pages"
+     },
+     {
+      "file": "scripts/global_suppliers/verify.py",
+      "size": 4917,
+      "purpose": "GDS-1: Verify candidate domains via direct HTTP (requests) — official page evidence, no search quota"
+     }
+    ]
+   },
+   "parent ": {
+    "files": 3,
+    "bytes": 5874,
+    "subdirs": [
+     "notion"
+    ],
+    "examples": [
+     {
+      "file": "scripts/notion/pages/PARENT _ CKC-RSH2-011 _ Final adversarial Stage Gate audit.md",
+      "size": 345,
+      "purpose": "PARENT — CKC-RSH2-011 — Final adversarial Stage Gate audit"
+     },
+     {
+      "file": "scripts/notion/pages/PARENT _ v4_1 _ Pre-Claude Repair Candidate.md",
+      "size": 727,
+      "purpose": "PARENT — v4.1 — Pre-Claude Repair Candidate"
+     },
+     {
+      "file": "scripts/notion/pages/PARENT _ Canonical Registry _ Prompt _ Evolution.md",
+      "size": 4802,
+      "purpose": "PARENT — Canonical Registry — Prompt & Evolution"
+     }
+    ]
+   },
+   "program": {
+    "files": 3,
+    "bytes": 38246,
+    "subdirs": [
+     "report"
+    ],
+    "examples": [
+     {
+      "file": "scripts/report/program_part1.json",
+      "size": 14733,
+      "purpose": null
+     },
+     {
+      "file": "scripts/report/program_part2.json",
+      "size": 11372,
+      "purpose": null
+     },
+     {
+      "file": "scripts/report/program_part3.json",
+      "size": 12141,
+      "purpose": null
+     }
+    ]
+   },
+   "supply5": {
+    "files": 3,
+    "bytes": 64776,
+    "subdirs": [
+     "report"
+    ],
+    "examples": [
+     {
+      "file": "scripts/report/supply5_content_c.json",
+      "size": 16038,
+      "purpose": null
+     },
+     {
+      "file": "scripts/report/supply5_content_a.json",
+      "size": 34663,
+      "purpose": null
+     },
+     {
+      "file": "scripts/report/supply5_content_b.json",
+      "size": 14075,
+      "purpose": null
+     }
+    ]
+   },
+   "content": {
+    "files": 3,
+    "bytes": 66293,
+    "subdirs": [
+     "report"
+    ],
+    "examples": [
+     {
+      "file": "scripts/report/content_part3.json",
+      "size": 20614,
+      "purpose": null
+     },
+     {
+      "file": "scripts/report/content_part2.json",
+      "size": 23205,
+      "purpose": null
+     },
+     {
+      "file": "scripts/report/content_part1.json",
+      "size": 22474,
+      "purpose": null
+     }
+    ]
+   },
+   "live": {
+    "files": 2,
+    "bytes": 13408,
+    "subdirs": [
+     "live_probe_wave1.py",
+     "live_retest.py"
+    ],
+    "examples": [
+     {
+      "file": "scripts/live_probe_wave1.py",
+      "size": 5591,
+      "purpose": "LIVE PROBE WAVE — Other API-differential suppliers"
+     },
+     {
+      "file": "scripts/live_retest.py",
+      "size": 7817,
+      "purpose": "MEC LIVE RETEST — full verification suite after hardening deploy."
+     }
+    ]
+   },
+   "mec4": {
+    "files": 2,
+    "bytes": 20930,
+    "subdirs": [
+     "mec4_html_update.py",
+     "mec4_merge.py"
+    ],
+    "examples": [
+     {
+      "file": "scripts/mec4_merge.py",
+      "size": 10929,
+      "purpose": "MEC-4.0 deep-dive: merge research into offers_intelligence.json + update sku_database.md + worklog entry data."
+     },
+     {
+      "file": "scripts/mec4_html_update.py",
+      "size": 10001,
+      "purpose": "MEC-4.0: add deep-dive section to supplier_intelligence.html (v3.0 -> v3.1). Idempotent."
+     }
+    ]
+   },
+   "extract": {
+    "files": 2,
+    "bytes": 12219,
+    "subdirs": [
+     "extract_supplier_profiles.py",
+     "extract_verified.py"
+    ],
+    "examples": [
+     {
+      "file": "scripts/extract_supplier_profiles.py",
+      "size": 3973,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/extract_verified.py",
+      "size": 8246,
+      "purpose": "-*- coding: utf-8 -*-"
+     }
+    ]
+   },
+   "mec6": {
+    "files": 2,
+    "bytes": 16530,
+    "subdirs": [
+     "mec6_compile_data.py",
+     "mec6_update_offers.py"
+    ],
+    "examples": [
+     {
+      "file": "scripts/mec6_compile_data.py",
+      "size": 11164,
+      "purpose": "Compile MEC-6 data: ProdSeller LIVE API + StackVault LIVE cross-match + suppliers status → src/lib/data/mec6.json"
+     },
+     {
+      "file": "scripts/mec6_update_offers.py",
+      "size": 5366,
+      "purpose": "Append MEC-6 run to offers_intelligence.json (idempotent)"
+     }
+    ]
+   },
+   "mec7": {
+    "files": 2,
+    "bytes": 35985,
+    "subdirs": [
+     "mec7_compile_data.py",
+     "mec7_pricing_fix.py"
+    ],
+    "examples": [
+     {
+      "file": "scripts/mec7_pricing_fix.py",
+      "size": 9387,
+      "purpose": "-*- coding: utf-8 -*-"
+     },
+     {
+      "file": "scripts/mec7_compile_data.py",
+      "size": 26598,
+      "purpose": "MEC-7.0 Venture Blueprint — compile full business study → src/lib/data/mec7.json"
+     }
+    ]
+   },
+   "api": {
+    "files": 2,
+    "bytes": 10315,
+    "subdirs": [
+     "api_audit_live.py",
+     "api_audit_live2.py"
+    ],
+    "examples": [
+     {
+      "file": "scripts/api_audit_live.py",
+      "size": 6261,
+      "purpose": "MEC-AUDIT: Live API security & flow tests against production (sandbox mode)."
+     },
+     {
+      "file": "scripts/api_audit_live2.py",
+      "size": 4054,
+      "purpose": "MEC-AUDIT-2: Full happy path + deep security probes with real slugs."
+     }
+    ]
+   },
+   "agent4": {
+    "files": 2,
+    "bytes": 29077,
+    "subdirs": [
+     "audit"
+    ],
+    "examples": [
+     {
+      "file": "scripts/audit/agent4_db_audit.py",
+      "size": 24412,
+      "purpose": "AUDIT-4: READ-ONLY database & Supabase audit (agent4)."
+     },
+     {
+      "file": "scripts/audit/agent4_supplemental.py",
+      "size": 4665,
+      "purpose": "AUDIT-4 supplemental: PostgREST grants (role_table_grants), default ACLs,"
+     }
+    ]
+   },
+   "harvest": {
+    "files": 2,
+    "bytes": 15586,
+    "subdirs": [
+     "global_suppliers"
+    ],
+    "examples": [
+     {
+      "file": "scripts/global_suppliers/harvest_deep.py",
+      "size": 7863,
+      "purpose": "GDS-2: Deep partner-path harvest — quota-free link-graph expansion."
+     },
+     {
+      "file": "scripts/global_suppliers/harvest.py",
+      "size": 7723,
+      "purpose": "GDS-1: Harvest v2 — quota-free discovery via list-articles, sitemaps, entity link-graph"
+     }
+    ]
+   },
+   "dolaa": {
+    "files": 2,
+    "bytes": 18817,
+    "subdirs": [
+     "report"
+    ],
+    "examples": [
+     {
+      "file": "scripts/report/dolaa_part2.json",
+      "size": 11704,
+      "purpose": null
+     },
+     {
+      "file": "scripts/report/dolaa_part1.json",
+      "size": 7113,
+      "purpose": null
+     }
+    ]
+   },
+   "supply8": {
+    "files": 2,
+    "bytes": 59629,
+    "subdirs": [
+     "report"
+    ],
+    "examples": [
+     {
+      "file": "scripts/report/supply8_content_a.json",
+      "size": 31354,
+      "purpose": null
+     },
+     {
+      "file": "scripts/report/supply8_content_b.json",
+      "size": 28275,
+      "purpose": null
+     }
+    ]
+   },
+   "postprocess": {
+    "files": 2,
+    "bytes": 4607,
+    "subdirs": [
+     "report"
+    ],
+    "examples": [
+     {
+      "file": "scripts/report/postprocess_footers.py",
+      "size": 2227,
+      "purpose": "Post-process docx per toc.md: patch footer PAGE field format switches (ROMAN/arabic)"
+     },
+     {
+      "file": "scripts/report/postprocess.py",
+      "size": 2380,
+      "purpose": "Post-process MEC-21 report docx (WPS compat):"
+     }
+    ]
+   },
+   "promote": {
+    "files": 1,
+    "bytes": 8539,
+    "subdirs": [
+     "promote_v42.py"
+    ],
+    "examples": [
+     {
+      "file": "scripts/promote_v42.py",
+      "size": 8539,
+      "purpose": "-*- coding: utf-8 -*-"
+     }
+    ]
+   },
+   "quota": {
+    "files": 1,
+    "bytes": 5592,
+    "subdirs": [
+     "quota_watcher.py"
+    ],
+    "examples": [
+     {
+      "file": "scripts/quota_watcher.py",
+      "size": 5592,
+      "purpose": "-*- coding: utf-8 -*-"
+     }
+    ]
+   },
+   "research": {
+    "files": 1,
+    "bytes": 4605,
+    "subdirs": [
+     "research-runner.ts"
+    ],
+    "examples": [
+     {
+      "file": "scripts/research-runner.ts",
+      "size": 4605,
+      "purpose": null
+     }
+    ]
+   },
+   "summarize": {
+    "files": 1,
+    "bytes": 3697,
+    "subdirs": [
+     "summarize_runtime.py"
+    ],
+    "examples": [
+     {
+      "file": "scripts/summarize_runtime.py",
+      "size": 3697,
+      "purpose": "Structural summary of local Batch-1 runtime artifacts + Notion source files (read-only)."
+     }
+    ]
+   },
+   "channel": {
+    "files": 1,
+    "bytes": 14446,
+    "subdirs": [
+     "channel_matrix.py"
+    ],
+    "examples": [
+     {
+      "file": "scripts/channel_matrix.py",
+      "size": 14446,
+      "purpose": "-*- coding: utf-8 -*-"
+     }
+    ]
+   },
+   "audit": {
+    "files": 1,
+    "bytes": 2577,
+    "subdirs": [
+     "audit_env_setup.py"
+    ],
+    "examples": [
+     {
+      "file": "scripts/audit_env_setup.py",
+      "size": 2577,
+      "purpose": "MEC-20 audit prep: fetch Railway production env vars and build local .env."
+     }
+    ]
+   },
+   "teamsoclo": {
+    "files": 1,
+    "bytes": 4535,
+    "subdirs": [
+     "teamsoclo_intel.py"
+    ],
+    "examples": [
+     {
+      "file": "scripts/teamsoclo_intel.py",
+      "size": 4535,
+      "purpose": "SV-SUPPLY-3: Deep passive OSINT on teamsoclo.site (public GET only)"
+     }
+    ]
+   },
+   "decisions": {
+    "files": 1,
+    "bytes": 19378,
+    "subdirs": [
+     "decisions_notion_sync.py"
+    ],
+    "examples": [
+     {
+      "file": "scripts/decisions_notion_sync.py",
+      "size": 19378,
+      "purpose": "MEC-2.2 Notion sync — Decisions package commit (2026-09-27 morning)."
+     }
+    ]
+   },
+   "cross": {
+    "files": 1,
+    "bytes": 6730,
+    "subdirs": [
+     "cross_match_ps_sv.py"
+    ],
+    "examples": [
+     {
+      "file": "scripts/cross_match_ps_sv.py",
+      "size": 6730,
+      "purpose": "CROSS-MATCH: ProdSeller API live prices  ×  StackVault costPrice"
+     }
+    ]
+   },
+   "compile": {
+    "files": 1,
+    "bytes": 3976,
+    "subdirs": [
+     "compile_findings.py"
+    ],
+    "examples": [
+     {
+      "file": "scripts/compile_findings.py",
+      "size": 3976,
+      "purpose": "-*- coding: utf-8 -*-"
+     }
+    ]
+   },
+   "mec30": {
+    "files": 1,
+    "bytes": 14235,
+    "subdirs": [
+     "mec30_notion_sync.py"
+    ],
+    "examples": [
+     {
+      "file": "scripts/mec30_notion_sync.py",
+      "size": 14235,
+      "purpose": "-*- coding: utf-8 -*-"
+     }
+    ]
+   },
+   "mec21e": {
+    "files": 1,
+    "bytes": 10184,
+    "subdirs": [
+     "audit"
+    ],
+    "examples": [
+     {
+      "file": "scripts/audit/mec21e_business_analytics.js",
+      "size": 10184,
+      "purpose": null
+     }
+    ]
+   },
+   "regression": {
+    "files": 1,
+    "bytes": 8918,
+    "subdirs": [
+     "audit"
+    ],
+    "examples": [
+     {
+      "file": "scripts/audit/regression_suite.py",
+      "size": 8918,
+      "purpose": "MEC-20 regression suite — runs against local production-mode server (port 3000)."
+     }
+    ]
+   },
+   "patch": {
+    "files": 1,
+    "bytes": 2244,
+    "subdirs": [
+     "audit"
+    ],
+    "examples": [
+     {
+      "file": "scripts/audit/patch_regression.py",
+      "size": 2244,
+      "purpose": "Patch regression script: non-JSON handling + order status via routed"
+     }
+    ]
+   },
+   "poll": {
+    "files": 1,
+    "bytes": 1395,
+    "subdirs": [
+     "audit"
+    ],
+    "examples": [
+     {
+      "file": "scripts/audit/poll_deploy.py",
+      "size": 1395,
+      "purpose": "Poll MEC-20 Railway deployment status until terminal state."
+     }
+    ]
+   },
+   "og": {
+    "files": 1,
+    "bytes": 3192,
+    "subdirs": [
+     "audit"
+    ],
+    "examples": [
+     {
+      "file": "scripts/audit/og-design.html",
+      "size": 3192,
+      "purpose": null
+     }
+    ]
+   },
+   "listicle": {
+    "files": 1,
+    "bytes": 9108,
+    "subdirs": [
+     "global_suppliers"
+    ],
+    "examples": [
+     {
+      "file": "scripts/global_suppliers/listicle_crawl.py",
+      "size": 9108,
+      "purpose": "GDS-3: Listicle/blog crawl — quota-free discovery channel."
+     }
+    ]
+   },
+   "wayback": {
+    "files": 1,
+    "bytes": 5432,
+    "subdirs": [
+     "global_suppliers"
+    ],
+    "examples": [
+     {
+      "file": "scripts/global_suppliers/wayback_rescue.py",
+      "size": 5432,
+      "purpose": "GDS-3: Wayback Machine rescue for bot-blocked domains — quota-free."
+     }
+    ]
+   },
+   "snippet": {
+    "files": 1,
+    "bytes": 5064,
+    "subdirs": [
+     "global_suppliers"
+    ],
+    "examples": [
+     {
+      "file": "scripts/global_suppliers/snippet_mine.py",
+      "size": 5064,
+      "purpose": "GDS-3: Snippet domain mining — quota-free second extraction pass."
+     }
+    ]
+   },
+   "mine": {
+    "files": 1,
+    "bytes": 5057,
+    "subdirs": [
+     "global_suppliers"
+    ],
+    "examples": [
+     {
+      "file": "scripts/global_suppliers/mine_project.py",
+      "size": 5057,
+      "purpose": "GDS-2: Mine existing project research files for supplier domains not yet in the GDS pipeline."
+     }
+    ]
+   },
+   "qualify": {
+    "files": 1,
+    "bytes": 13404,
+    "subdirs": [
+     "global_suppliers"
+    ],
+    "examples": [
+     {
+      "file": "scripts/global_suppliers/qualify.py",
+      "size": 13404,
+      "purpose": "GDS-1: Qualify + commit entities — full schema, dedup, checkpoints, honest states"
+     }
+    ]
+   },
+   "discover": {
+    "files": 1,
+    "bytes": 3639,
+    "subdirs": [
+     "global_suppliers"
+    ],
+    "examples": [
+     {
+      "file": "scripts/global_suppliers/discover.mjs",
+      "size": 3639,
+      "purpose": null
+     }
+    ]
+   },
+   "enrich": {
+    "files": 1,
+    "bytes": 8755,
+    "subdirs": [
+     "global_suppliers"
+    ],
+    "examples": [
+     {
+      "file": "scripts/global_suppliers/enrich_country.py",
+      "size": 8755,
+      "purpose": "GDS-2: Country enrichment — fetch contact/about pages for UNKNOWN-country entities,"
+     }
+    ]
+   },
+   "export": {
+    "files": 1,
+    "bytes": 6279,
+    "subdirs": [
+     "global_suppliers"
+    ],
+    "examples": [
+     {
+      "file": "scripts/global_suppliers/export_dataset.py",
+      "size": 6279,
+      "purpose": "GDS-1: Export master dataset (JSON + CSV + Arabic MD summary) to download/"
+     }
+    ]
+   },
+   "unblock": {
+    "files": 1,
+    "bytes": 3767,
+    "subdirs": [
+     "global_suppliers"
+    ],
+    "examples": [
+     {
+      "file": "scripts/global_suppliers/unblock_retry.py",
+      "size": 3767,
+      "purpose": "GDS-2: Retry bot-blocked (403/406) domains with alternate UA + trailing paths. Quota-free."
+     }
+    ]
+   },
+   "process": {
+    "files": 1,
+    "bytes": 12639,
+    "subdirs": [
+     "global_suppliers"
+    ],
+    "examples": [
+     {
+      "file": "scripts/global_suppliers/process.py",
+      "size": 12639,
+      "purpose": "GDS-1: Process raw search results -> candidate entities (dedup vs KNOWN + internal, signal classification)"
+     }
+    ]
+   },
+   "patient": {
+    "files": 1,
+    "bytes": 4512,
+    "subdirs": [
+     "global_suppliers"
+    ],
+    "examples": [
+     {
+      "file": "scripts/global_suppliers/patient_discover.mjs",
+      "size": 4512,
+      "purpose": null
+     }
+    ]
+   },
+   "probe": {
+    "files": 1,
+    "bytes": 566,
+    "subdirs": [
+     "global_suppliers"
+    ],
+    "examples": [
+     {
+      "file": "scripts/global_suppliers/probe.mjs",
+      "size": 566,
+      "purpose": null
+     }
+    ]
+   },
+   "explore": {
+    "files": 1,
+    "bytes": 1659,
+    "subdirs": [
+     "notion"
+    ],
+    "examples": [
+     {
+      "file": "scripts/notion/explore_clusters.py",
+      "size": 1659,
+      "purpose": "Explore mystery clusters in the Notion index to locate the suppliers governing DB and project structure."
+     }
+    ]
+   },
+   "match": {
+    "files": 1,
+    "bytes": 6417,
+    "subdirs": [
+     "notion"
+    ],
+    "examples": [
+     {
+      "file": "scripts/notion/match_pages.py",
+      "size": 6417,
+      "purpose": "Filter Notion index → isolate Supplier Intelligence project cluster + match the 33 expected pages."
+     }
+    ]
+   },
+   "raw": {
+    "files": 1,
+    "bytes": 4533965,
+    "subdirs": [
+     "notion"
+    ],
+    "examples": [
+     {
+      "file": "scripts/notion/raw_search.json",
+      "size": 4533965,
+      "purpose": null
+     }
+    ]
+   },
+   "manifest": {
+    "files": 1,
+    "bytes": 5564,
+    "subdirs": [
+     "notion"
+    ],
+    "examples": [
+     {
+      "file": "scripts/notion/manifest.json",
+      "size": 5564,
+      "purpose": null
+     }
+    ]
+   },
+   "index": {
+    "files": 1,
+    "bytes": 366732,
+    "subdirs": [
+     "notion"
+    ],
+    "examples": [
+     {
+      "file": "scripts/notion/index.json",
+      "size": 366732,
+      "purpose": null
+     }
+    ]
+   },
+   "matches": {
+    "files": 1,
+    "bytes": 12834,
+    "subdirs": [
+     "notion"
+    ],
+    "examples": [
+     {
+      "file": "scripts/notion/matches.json",
+      "size": 12834,
+      "purpose": null
+     }
+    ]
+   },
+   "v4": {
+    "files": 1,
+    "bytes": 25102,
+    "subdirs": [
+     "notion"
+    ],
+    "examples": [
+     {
+      "file": "scripts/notion/pages/v4_1 Candidate _ Exact Prompt Text.md",
+      "size": 25102,
+      "purpose": "📄 v4.1 Candidate — Exact Prompt Text"
+     }
+    ]
+   },
+   "operating protocol ": {
+    "files": 1,
+    "bytes": 6587,
+    "subdirs": [
+     "notion"
+    ],
+    "examples": [
+     {
+      "file": "scripts/notion/pages/Operating Protocol _ Notion-First ChatGPT _ Claude Relay.md",
+      "size": 6587,
+      "purpose": "🔁 Operating Protocol — Notion-First ChatGPT ↔ Claude Relay"
+     }
+    ]
+   },
+   "مرجع حاكم ": {
+    "files": 1,
+    "bytes": 72432,
+    "subdirs": [
+     "notion"
+    ],
+    "examples": [
+     {
+      "file": "scripts/notion/pages/مرجع حاكم _ قاعدة بيانات أرخص موردي ومتاجر المنتجات والخدمات الرقمية.md",
+      "size": 72432,
+      "purpose": "مرجع حاكم — قاعدة بيانات أرخص موردي ومتاجر المنتجات والخدمات الرقمية"
+     }
+    ]
+   },
+   "rsh18 ": {
+    "files": 1,
+    "bytes": 2109,
+    "subdirs": [
+     "notion"
+    ],
+    "examples": [
+     {
+      "file": "scripts/notion/pages/RSH18 _ Claim-Level Evidence Register.md",
+      "size": 2109,
+      "purpose": "RSH18 — Claim-Level Evidence Register"
+     }
+    ]
+   },
+   "": {
+    "files": 1,
+    "bytes": 3794,
+    "subdirs": [
+     "notion"
+    ],
+    "examples": [
+     {
+      "file": "scripts/notion/pages/_ Supplier Intelligence Prompt Lab _ ChatGPT _ Claude _ Final Reference.md",
+      "size": 3794,
+      "purpose": "🧭 Supplier Intelligence Prompt Lab — ChatGPT × Claude × Final Reference"
+     }
+    ]
+   },
+   "معجم البحث العميق والمتعدد المسارات ": {
+    "files": 1,
+    "bytes": 23228,
+    "subdirs": [
+     "notion"
+    ],
+    "examples": [
+     {
+      "file": "scripts/notion/pages/معجم البحث العميق والمتعدد المسارات _ Supplier Discovery Lexicon.md",
+      "size": 23228,
+      "purpose": "معجم البحث العميق والمتعدد المسارات — Supplier Discovery Lexicon"
+     }
+    ]
+   },
+   "canonical registry ": {
+    "files": 1,
+    "bytes": 4794,
+    "subdirs": [
+     "notion"
+    ],
+    "examples": [
+     {
+      "file": "scripts/notion/pages/Canonical Registry _ Prompt _ Evolution.md",
+      "size": 4794,
+      "purpose": "Canonical Registry — Prompt & Evolution"
+     }
+    ]
+   },
+   "pre": {
+    "files": 1,
+    "bytes": 6935,
+    "subdirs": [
+     "notion"
+    ],
+    "examples": [
+     {
+      "file": "scripts/notion/pages/Pre-Claude Repair Audit _ v4_0 _ v4_1 Candidate.md",
+      "size": 6935,
+      "purpose": "🧪 Pre-Claude Repair Audit — v4.0 → v4.1 Candidate"
+     }
+    ]
+   },
+   "prompt development history ": {
+    "files": 1,
+    "bytes": 9439,
+    "subdirs": [
+     "notion"
+    ],
+    "examples": [
+     {
+      "file": "scripts/notion/pages/Prompt Development History _ Supplier Intelligence.md",
+      "size": 9439,
+      "purpose": "🧬 Prompt Development History — Supplier Intelligence"
+     }
+    ]
+   },
+   "المواصفة التشغيلية ": {
+    "files": 1,
+    "bytes": 9675,
+    "subdirs": [
+     "notion"
+    ],
+    "examples": [
+     {
+      "file": "scripts/notion/pages/المواصفة التشغيلية _ البحث العميق العالمي عن الموردين ومصادرهم.md",
+      "size": 9675,
+      "purpose": "المواصفة التشغيلية — البحث العميق العالمي عن الموردين ومصادرهم"
+     }
+    ]
+   },
+   "claude sonnet 5 workspace ": {
+    "files": 1,
+    "bytes": 2420,
+    "subdirs": [
+     "notion"
+    ],
+    "examples": [
+     {
+      "file": "scripts/notion/pages/Claude Sonnet 5 Workspace _ Research _ Drafts.md",
+      "size": 2420,
+      "purpose": "Claude Sonnet 5 Workspace — Research & Drafts"
+     }
+    ]
+   },
+   "chatgpt workspace ": {
+    "files": 1,
+    "bytes": 7442,
+    "subdirs": [
+     "notion"
+    ],
+    "examples": [
+     {
+      "file": "scripts/notion/pages/ChatGPT Workspace _ Review _ Analysis.md",
+      "size": 7442,
+      "purpose": "ChatGPT Workspace — Review & Analysis"
+     }
+    ]
+   },
+   "hub ": {
+    "files": 1,
+    "bytes": 3814,
+    "subdirs": [
+     "notion"
+    ],
+    "examples": [
+     {
+      "file": "scripts/notion/pages/HUB _  Supplier Intelligence Prompt Lab _ ChatGPT _ Claude _ Final Reference.md",
+      "size": 3814,
+      "purpose": "HUB — 🧭 Supplier Intelligence Prompt Lab — ChatGPT × Claude × Final Reference"
+     }
+    ]
+   },
+   "سجل تاريخي ": {
+    "files": 1,
+    "bytes": 56122,
+    "subdirs": [
+     "notion"
+    ],
+    "examples": [
+     {
+      "file": "scripts/notion/pages/سجل تاريخي _ تفاوض موردي الخدمات الرقمية _ Stack Vault Support.md",
+      "size": 56122,
+      "purpose": "سجل تاريخي — تفاوض موردي الخدمات الرقمية | Stack Vault Support"
+     }
+    ]
+   },
+   "content2": {
+    "files": 1,
+    "bytes": 22164,
+    "subdirs": [
+     "report"
+    ],
+    "examples": [
+     {
+      "file": "scripts/report/content2.js",
+      "size": 22164,
+      "purpose": null
+     }
+    ]
+   },
+   "content3": {
+    "files": 1,
+    "bytes": 16927,
+    "subdirs": [
+     "report"
+    ],
+    "examples": [
+     {
+      "file": "scripts/report/content3.js",
+      "size": 16927,
+      "purpose": null
+     }
+    ]
+   },
+   "helpers": {
+    "files": 1,
+    "bytes": 5892,
+    "subdirs": [
+     "report"
+    ],
+    "examples": [
+     {
+      "file": "scripts/report/helpers.js",
+      "size": 5892,
+      "purpose": null
+     }
+    ]
+   },
+   "content1": {
+    "files": 1,
+    "bytes": 21903,
+    "subdirs": [
+     "report"
+    ],
+    "examples": [
+     {
+      "file": "scripts/report/content1.js",
+      "size": 21903,
+      "purpose": null
+     }
+    ]
+   },
+   "content4": {
+    "files": 1,
+    "bytes": 34617,
+    "subdirs": [
+     "report"
+    ],
+    "examples": [
+     {
+      "file": "scripts/report/content4.js",
+      "size": 34617,
+      "purpose": null
+     }
+    ]
+   },
+   "home": {
+    "files": 1,
+    "bytes": 34552,
+    "subdirs": [
+     "stackvault"
+    ],
+    "examples": [
+     {
+      "file": "scripts/stackvault/home.html",
+      "size": 34552,
+      "purpose": null
+     }
+    ]
+   }
+  },
+  "all_files": {
+   "scripts/promote_v42.py": {
+    "size": 8539,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/pmrf_v3_discovery.py": {
+    "size": 7940,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/b3_embedded_extract.py": {
+    "size": 4298,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/g1_rescan_analyze.py": {
+    "size": 14924,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/batch3_html.py": {
+    "size": 6599,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/live_probe_wave1.py": {
+    "size": 5591,
+    "purpose": "LIVE PROBE WAVE — Other API-differential suppliers"
+   },
+   "scripts/g1_rescan_final.py": {
+    "size": 3595,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/mec5_compile_data.py": {
+    "size": 11858,
+    "purpose": "MEC-5.0: compile master API-gap dataset → src/lib/data/mec5.json for the new tab."
+   },
+   "scripts/batch1_final9.py": {
+    "size": 3164,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/prodseller_data_files.py": {
+    "size": 6031,
+    "purpose": "Build ProdSeller package data files: CSV catalog + JSON package (download/)."
+   },
+   "scripts/sv_supply9_deepen.py": {
+    "size": 12015,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/g1a_r3_objectid_forensics.py": {
+    "size": 8528,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/mec5_gap_analysis.py": {
+    "size": 10104,
+    "purpose": "MEC-5.0 API Price Gap Analysis Engine"
+   },
+   "scripts/g1_rescan_followup.py": {
+    "size": 5517,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/sv_matrix_data.py": {
+    "size": 10360,
+    "purpose": "SV-MATRIX-1: Build consolidated price database from ALL observed suppliers/stores"
+   },
+   "scripts/b3_direct_wave.py": {
+    "size": 11116,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/pmrf_v2_evidence_verify.py": {
+    "size": 8898,
+    "purpose": "PMRF v2.0 — Phase 2-6: Evidence Verification Audit"
+   },
+   "scripts/g1_rescan_identity.py": {
+    "size": 3892,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/b3_notion_sync.py": {
+    "size": 18208,
+    "purpose": "MEC-2.3 Notion sync — Direct-observation wave commit (2026-09-27 ~05:30)."
+   },
+   "scripts/sv_supply5_deepdive.py": {
+    "size": 4734,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/mec4_merge.py": {
+    "size": 10929,
+    "purpose": "MEC-4.0 deep-dive: merge research into offers_intelligence.json + update sku_database.md + worklog entry data."
+   },
+   "scripts/batch2_curation.py": {
+    "size": 33200,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/railway_audit_v2.py": {
+    "size": 2012,
+    "purpose": "MEC-18b: Railway audit via GraphQL v2 endpoint (current). Read-only."
+   },
+   "scripts/railway_scope_probe.py": {
+    "size": 1247,
+    "purpose": "MEC-18e: what can this token see? projects list + token scope + deployment fixed query."
+   },
+   "scripts/g1a_r3b_machine_fingerprint.py": {
+    "size": 4176,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/b3_turgame_match.py": {
+    "size": 8579,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/batch3_nextjs_data.py": {
+    "size": 1462,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/batch3_search.py": {
+    "size": 21233,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/stackvault_analysis.py": {
+    "size": 2626,
+    "purpose": "StackVault API data analysis — price vs costPrice (internal cost layer)"
+   },
+   "scripts/railway_audit_full.py": {
+    "size": 2560,
+    "purpose": "MEC-18d: full Railway v2 audit — project, services, deployments, domains, live URL test."
+   },
+   "scripts/extract_supplier_profiles.py": {
+    "size": 3973,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/sv_supply8_deep.py": {
+    "size": 8622,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/b3_prefill_strict.py": {
+    "size": 10157,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/mec6_compile_data.py": {
+    "size": 11164,
+    "purpose": "Compile MEC-6 data: ProdSeller LIVE API + StackVault LIVE cross-match + suppliers status → src/lib/data/mec6.json"
+   },
+   "scripts/mec7_pricing_fix.py": {
+    "size": 9387,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/api_audit_live.py": {
+    "size": 6261,
+    "purpose": "MEC-AUDIT: Live API security & flow tests against production (sandbox mode)."
+   },
+   "scripts/sv_supply5_storebatman.py": {
+    "size": 2944,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/b3_turgame_cats.py": {
+    "size": 3524,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/mec2_search.mjs": {
+    "size": 3674,
+    "purpose": null
+   },
+   "scripts/mec5_html_update.py": {
+    "size": 12140,
+    "purpose": "MEC-5.0: add API price-gap section to download/supplier_intelligence.html (idempotent)."
+   },
+   "scripts/mec6_update_offers.py": {
+    "size": 5366,
+    "purpose": "Append MEC-6 run to offers_intelligence.json (idempotent)"
+   },
+   "scripts/pmrf_v2_live_update.py": {
+    "size": 8574,
+    "purpose": "PMRF v2.0 — Phase 17: Live Research Update (READ-ONLY)"
+   },
+   "scripts/batch2_nextjs_data.py": {
+    "size": 2440,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/sv_supply6_upstream.py": {
+    "size": 6152,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/sv_supply7_final_probes.py": {
+    "size": 2904,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/mec2_update_offers.py": {
+    "size": 5239,
+    "purpose": "MEC-2.0: append new observed offers to download/offers_intelligence.json (legal data file)."
+   },
+   "scripts/batch1_verify.py": {
+    "size": 5014,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/generate-actions.ts": {
+    "size": 1460,
+    "purpose": null
+   },
+   "scripts/sv_supply5_telemetr.py": {
+    "size": 3087,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/pmrf_v3_extract_a.py": {
+    "size": 5889,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/db_probe.mjs": {
+    "size": 604,
+    "purpose": null
+   },
+   "scripts/sv_master_catalog_xlsx.py": {
+    "size": 13451,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/mec2_notion_sync.py": {
+    "size": 20342,
+    "purpose": "MEC-2.0 G4: Notion sync — user-authorized knowledge commit (2026-09-27 session)."
+   },
+   "scripts/b3_prefill_merge.py": {
+    "size": 9217,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/prodseller_charts.py": {
+    "size": 4791,
+    "purpose": "ProdSeller package charts (Arabic labels via reshaper+bidi, indigo palette matching docx)"
+   },
+   "scripts/sv_matrix_families.py": {
+    "size": 6551,
+    "purpose": "SV-MATRIX-2b: comprehensive family classification — all 357 products"
+   },
+   "scripts/b3_supp_compile.py": {
+    "size": 6156,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/sv_supply5_live_check.py": {
+    "size": 6882,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/batch2_notion_sync.py": {
+    "size": 15212,
+    "purpose": "MEC-2.1 G6: Notion sync — Batch 2 (173 P2 SKUs) results commit (2026-09-27)."
+   },
+   "scripts/generate-markdown.ts": {
+    "size": 14057,
+    "purpose": null
+   },
+   "scripts/batch1_recovery.py": {
+    "size": 5180,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/stackvault_live_analysis.py": {
+    "size": 5096,
+    "purpose": "LIVE StackVault (322 products) analysis: cost layer + ProdSeller cross-match + markup table"
+   },
+   "scripts/sv_matrix_excel.py": {
+    "size": 29523,
+    "purpose": "SV-MATRIX-3: Generate comprehensive Arabic RTL negotiation matrix workbook"
+   },
+   "scripts/notion_audit.py": {
+    "size": 7997,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/g1_rescan_fetch2.py": {
+    "size": 4278,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/sv_catalog_probe.py": {
+    "size": 2345,
+    "purpose": "Probe the structure of all pulled catalog files to build the consolidation map."
+   },
+   "scripts/stackvault_supply_sources.py": {
+    "size": 7429,
+    "purpose": "SV-SUPPLY: Precise supply-source extraction for stackvault.shop"
+   },
+   "scripts/pmrf_v12_update.py": {
+    "size": 11648,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/b3_turgame_merge.py": {
+    "size": 9214,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/quota_watcher.py": {
+    "size": 5592,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/sv_master_refresh.py": {
+    "size": 6030,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/pmrf_v2_verify_pass2.py": {
+    "size": 6836,
+    "purpose": "PMRF v2.0 — corrected second-pass checks + live catalog delta (282→280)."
+   },
+   "scripts/mec24_nextjs_data.py": {
+    "size": 4881,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/g1_rescan_fetch.py": {
+    "size": 8484,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/notion_targeted_dump.py": {
+    "size": 9131,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/b3_k4g_merge.py": {
+    "size": 4584,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/g1_rescan_digitalcore.py": {
+    "size": 3252,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/final_word_content.py": {
+    "size": 19148,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/research-runner.ts": {
+    "size": 4605,
+    "purpose": null
+   },
+   "scripts/batch3_curation.py": {
+    "size": 16015,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/pmrf_v3_extract_d.py": {
+    "size": 5042,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/prodseller_fresh_capture.py": {
+    "size": 6682,
+    "purpose": "ProdSeller Fresh Live Capture — SV-PS-PREP (2026-09-29)"
+   },
+   "scripts/mec2_notion_fix_selects.py": {
+    "size": 3522,
+    "purpose": "MEC-2.0 G4b: fix select fields on committed Interaction Archive rows."
+   },
+   "scripts/pmrf_v3_extract_c.py": {
+    "size": 8013,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/g1_digitalcore_match.py": {
+    "size": 6688,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/pmrf_v3_extract_b.py": {
+    "size": 5085,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/sv_supply5_supplement_check.py": {
+    "size": 2562,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/extract_verified.py": {
+    "size": 8246,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/summarize_runtime.py": {
+    "size": 3697,
+    "purpose": "Structural summary of local Batch-1 runtime artifacts + Notion source files (read-only)."
+   },
+   "scripts/gen_markdown.py": {
+    "size": 13175,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/batch2_merge.py": {
+    "size": 4868,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/batch2_search.py": {
+    "size": 20403,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/g1_r3_newkeys_probe.py": {
+    "size": 11143,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/mec2_stackvault_catalog.py": {
+    "size": 2704,
+    "purpose": "MEC-2.0: StackVault catalog deep extraction (product -> price mapping) + misc pages."
+   },
+   "scripts/g1_rescan_fetch3.py": {
+    "size": 2783,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/neg_campaign_xlsx.py": {
+    "size": 50183,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/railway_state_full.py": {
+    "size": 2661,
+    "purpose": "MEC-18f: full Railway project state — services, envs, deployment source, variables (names only), domains."
+   },
+   "scripts/railway_schema_probe.py": {
+    "size": 1178,
+    "purpose": "MEC-18c: discover Railway GraphQL v2 schema fields for Service/Deployment."
+   },
+   "scripts/b3_prefill.py": {
+    "size": 8887,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/sv_supply7_map_expansion.py": {
+    "size": 5497,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/b3_turgame_p3.py": {
+    "size": 5513,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/b3_specified_probe.py": {
+    "size": 3015,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/sv_supply6_gtverified.py": {
+    "size": 4296,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/db_fixes.py": {
+    "size": 5041,
+    "purpose": "MEC DB FIXES: apply hot-path indexes + REVOKE anon/authenticated access"
+   },
+   "scripts/mec24_word_content.py": {
+    "size": 18670,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/g1a_r1_domain_intel.py": {
+    "size": 10130,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/channel_matrix.py": {
+    "size": 14446,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/g1_r3_followup.py": {
+    "size": 8927,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/api_audit_live2.py": {
+    "size": 4054,
+    "purpose": "MEC-AUDIT-2: Full happy path + deep security probes with real slugs."
+   },
+   "scripts/b3_html_update.py": {
+    "size": 10205,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/b3_direct_compile.py": {
+    "size": 19212,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/audit_env_setup.py": {
+    "size": 2577,
+    "purpose": "MEC-20 audit prep: fetch Railway production env vars and build local .env."
+   },
+   "scripts/build_intelligence.py": {
+    "size": 23100,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/mec2_channels_probe.py": {
+    "size": 8457,
+    "purpose": "MEC-2.0 G1-a: Direct probe of the Notion governing-reference section-19 Telegram"
+   },
+   "scripts/mec24_notion_sync.py": {
+    "size": 18679,
+    "purpose": "MEC-2.4 Notion sync — Channel matrix (91) + Dolaa reverse-engineering package (2026-09-27 ~13:40)."
+   },
+   "scripts/g1_r3_newkeys_analyze.py": {
+    "size": 18536,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/stackvault_charts.py": {
+    "size": 4659,
+    "purpose": "StackVault report charts (Arabic labels via reshaper+bidi, Morandi-consistent palette)"
+   },
+   "scripts/batch3_compile.py": {
+    "size": 4411,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/teamsoclo_intel.py": {
+    "size": 4535,
+    "purpose": "SV-SUPPLY-3: Deep passive OSINT on teamsoclo.site (public GET only)"
+   },
+   "scripts/g1_r3_final.py": {
+    "size": 9407,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/build_catalog.py": {
+    "size": 53317,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/batch1_search.py": {
+    "size": 13154,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/decisions_notion_sync.py": {
+    "size": 19378,
+    "purpose": "MEC-2.2 Notion sync — Decisions package commit (2026-09-27 morning)."
+   },
+   "scripts/sv_supply5_build_package.py": {
+    "size": 14070,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/sv_master_catalog_build.py": {
+    "size": 14444,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/batch2_html.py": {
+    "size": 13015,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/b3_tg_extended.py": {
+    "size": 3673,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/batch3_intelligence.py": {
+    "size": 7633,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/batch2_intelligence.py": {
+    "size": 7432,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/live_retest.py": {
+    "size": 7817,
+    "purpose": "MEC LIVE RETEST — full verification suite after hardening deploy."
+   },
+   "scripts/batch2_compile.py": {
+    "size": 4411,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/g1_cb_scan.py": {
+    "size": 16596,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/cross_match_ps_sv.py": {
+    "size": 6730,
+    "purpose": "CROSS-MATCH: ProdSeller API live prices  ×  StackVault costPrice"
+   },
+   "scripts/railway_audit.py": {
+    "size": 3397,
+    "purpose": "MEC-18: Railway deployment audit — query project/service/deployment status via GraphQL API."
+   },
+   "scripts/g1a_r4_samebox.py": {
+    "size": 6941,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/g1a_r2_deep.py": {
+    "size": 7907,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/db_audit.py": {
+    "size": 5219,
+    "purpose": "MEC DB AUDIT: connect to production Supabase Postgres (creds fetched from Railway API,"
+   },
+   "scripts/prodseller_api_extract.py": {
+    "size": 8378,
+    "purpose": "ProdSeller API Live Extraction — MEC-2.x Price Discovery Phase 1"
+   },
+   "scripts/stackvault_capture.py": {
+    "size": 7541,
+    "purpose": "StackVault passive OSINT capture — normal browser-like GET requests ONLY."
+   },
+   "scripts/compile_findings.py": {
+    "size": 3976,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/sv_supply5_data.py": {
+    "size": 24862,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/sv_supply5_notion_sync.py": {
+    "size": 17951,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/mec24_html_update.py": {
+    "size": 11549,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/gen_html.py": {
+    "size": 13745,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/mec7_compile_data.py": {
+    "size": 26598,
+    "purpose": "MEC-7.0 Venture Blueprint — compile full business study → src/lib/data/mec7.json"
+   },
+   "scripts/mec4_html_update.py": {
+    "size": 10001,
+    "purpose": "MEC-4.0: add deep-dive section to supplier_intelligence.html (v3.0 -> v3.1). Idempotent."
+   },
+   "scripts/g1a_r5_decohomz_origin.py": {
+    "size": 5217,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/mec30_notion_sync.py": {
+    "size": 14235,
+    "purpose": "-*- coding: utf-8 -*-"
+   },
+   "scripts/audit/mec21e_business_analytics.js": {
+    "size": 10184,
+    "purpose": null
+   },
+   "scripts/audit/regression_suite.py": {
+    "size": 8918,
+    "purpose": "MEC-20 regression suite — runs against local production-mode server (port 3000)."
+   },
+   "scripts/audit/mec21_poll_deploy.js": {
+    "size": 1649,
+    "purpose": null
+   },
+   "scripts/audit/mec21_db_baseline.js": {
+    "size": 1839,
+    "purpose": null
+   },
+   "scripts/audit/mec21_icons.py": {
+    "size": 2328,
+    "purpose": "MEC-21: generate brand icons (icon.png 512, apple-icon.png 180, favicon.ico 48)"
+   },
+   "scripts/audit/patch_regression.py": {
+    "size": 2244,
+    "purpose": "Patch regression script: non-JSON handling + order status via routed"
+   },
+   "scripts/audit/mec21_railway_vars.js": {
+    "size": 2070,
+    "purpose": null
+   },
+   "scripts/audit/mec21_store_edits.py": {
+    "size": 7327,
+    "purpose": "MEC-21: byte-precise replacements for store.tsx (bypasses display-layer corruption)"
+   },
+   "scripts/audit/mec21_railway_fix.js": {
+    "size": 3779,
+    "purpose": null
+   },
+   "scripts/audit/poll_deploy.py": {
+    "size": 1395,
+    "purpose": "Poll MEC-20 Railway deployment status until terminal state."
+   },
+   "scripts/audit/db_default_privs.py": {
+    "size": 4510,
+    "purpose": "MEC-20 DB FIX (P2, AUDIT-4): pg_default_acl still auto-grants anon/authenticated"
+   },
+   "scripts/audit/mec21_store_edits2.py": {
+    "size": 4287,
+    "purpose": "MEC-21 part 2: remaining store.tsx edits (verified current strings)"
+   },
+   "scripts/audit/mec21_prod_verify.py": {
+    "size": 4780,
+    "purpose": "MEC-21 PRODUCTION verification (GET/HEAD only, read-only)"
+   },
+   "scripts/audit/mec21_gh_sync.sh": {
+    "size": 3413,
+    "purpose": "MEC-21: GitHub sync via isolated orphan-commit worktree"
+   },
+   "scripts/audit/agent4_db_audit.py": {
+    "size": 24412,
+    "purpose": "AUDIT-4: READ-ONLY database & Supabase audit (agent4)."
+   },
+   "scripts/audit/mec21_apply_migration_001.js": {
+    "size": 1843,
+    "purpose": null
+   },
+   "scripts/audit/og-design.html": {
+    "size": 3192,
+    "purpose": null
+   },
+   "scripts/audit/agent4_supplemental.py": {
+    "size": 4665,
+    "purpose": "AUDIT-4 supplemental: PostgREST grants (role_table_grants), default ACLs,"
+   },
+   "scripts/audit/mec21_regression.py": {
+    "size": 7953,
+    "purpose": "MEC-21 regression suite — verifies all session fixes + MEC-20 regression guard"
+   },
+   "scripts/global_suppliers/listicle_crawl.py": {
+    "size": 9108,
+    "purpose": "GDS-3: Listicle/blog crawl — quota-free discovery channel."
+   },
+   "scripts/global_suppliers/wayback_rescue.py": {
+    "size": 5432,
+    "purpose": "GDS-3: Wayback Machine rescue for bot-blocked domains — quota-free."
+   },
+   "scripts/global_suppliers/harvest_deep.py": {
+    "size": 7863,
+    "purpose": "GDS-2: Deep partner-path harvest — quota-free link-graph expansion."
+   },
+   "scripts/global_suppliers/qc_review.py": {
+    "size": 3867,
+    "purpose": "GDS-1: QC review — surface suspect entities for manual verdict (false-positive patterns)"
+   },
+   "scripts/global_suppliers/verify_chunked.py": {
+    "size": 2035,
+    "purpose": "GDS-1: chunked verifier v2 — hard wall-clock timeout per chunk, abandon stragglers, os._exit"
+   },
+   "scripts/global_suppliers/snippet_mine.py": {
+    "size": 5064,
+    "purpose": "GDS-3: Snippet domain mining — quota-free second extraction pass."
+   },
+   "scripts/global_suppliers/gen_queries2.py": {
+    "size": 15156,
+    "purpose": "GDS-2: Wave-2 query plan — bigger, more vertical, more local-language."
+   },
+   "scripts/global_suppliers/qc_apply.py": {
+    "size": 6132,
+    "purpose": "GDS-1: Apply manual QC verdicts (evidence-based, documented)"
+   },
+   "scripts/global_suppliers/mine_project.py": {
+    "size": 5057,
+    "purpose": "GDS-2: Mine existing project research files for supplier domains not yet in the GDS pipeline."
+   },
+   "scripts/global_suppliers/qc_verdicts_gds2.py": {
+    "size": 3083,
+    "purpose": "GDS-2: Append manual QC verdicts (documented reasons) to qc_rejects.json, then rebuild."
+   },
+   "scripts/global_suppliers/qualify.py": {
+    "size": 13404,
+    "purpose": "GDS-1: Qualify + commit entities — full schema, dedup, checkpoints, honest states"
+   },
+   "scripts/global_suppliers/discover.mjs": {
+    "size": 3639,
+    "purpose": null
+   },
+   "scripts/global_suppliers/enrich_country.py": {
+    "size": 8755,
+    "purpose": "GDS-2: Country enrichment — fetch contact/about pages for UNKNOWN-country entities,"
+   },
+   "scripts/global_suppliers/export_dataset.py": {
+    "size": 6279,
+    "purpose": "GDS-1: Export master dataset (JSON + CSV + Arabic MD summary) to download/"
+   },
+   "scripts/global_suppliers/unblock_retry.py": {
+    "size": 3767,
+    "purpose": "GDS-2: Retry bot-blocked (403/406) domains with alternate UA + trailing paths. Quota-free."
+   },
+   "scripts/global_suppliers/verify_deeper.py": {
+    "size": 4975,
+    "purpose": "GDS-2: Deep verify — for alive candidates lacking signals, probe internal pages"
+   },
+   "scripts/global_suppliers/process.py": {
+    "size": 12639,
+    "purpose": "GDS-1: Process raw search results -> candidate entities (dedup vs KNOWN + internal, signal classification)"
+   },
+   "scripts/global_suppliers/gen_queries.py": {
+    "size": 7878,
+    "purpose": "GDS-1: Generate global query plan (families x regions x languages)"
+   },
+   "scripts/global_suppliers/build_known.py": {
+    "size": 6608,
+    "purpose": "GDS-1: Compile KNOWN_ENTITIES from all project sources (exclusion list for global discovery)"
+   },
+   "scripts/global_suppliers/patient_discover.mjs": {
+    "size": 4512,
+    "purpose": null
+   },
+   "scripts/global_suppliers/harvest.py": {
+    "size": 7723,
+    "purpose": "GDS-1: Harvest v2 — quota-free discovery via list-articles, sitemaps, entity link-graph"
+   },
+   "scripts/global_suppliers/probe.mjs": {
+    "size": 566,
+    "purpose": null
+   },
+   "scripts/global_suppliers/verify.py": {
+    "size": 4917,
+    "purpose": "GDS-1: Verify candidate domains via direct HTTP (requests) — official page evidence, no search quota"
+   },
+   "scripts/notion/explore_clusters.py": {
+    "size": 1659,
+    "purpose": "Explore mystery clusters in the Notion index to locate the suppliers governing DB and project structure."
+   },
+   "scripts/notion/match_pages.py": {
+    "size": 6417,
+    "purpose": "Filter Notion index → isolate Supplier Intelligence project cluster + match the 33 expected pages."
+   },
+   "scripts/notion/notion_index.py": {
+    "size": 4799,
+    "purpose": "Notion READ-ONLY index — Supplier Intelligence project."
+   },
+   "scripts/notion/raw_search.json": {
+    "size": 4533965,
+    "purpose": null
+   },
+   "scripts/notion/notion_hub_fix.py": {
+    "size": 6398,
+    "purpose": "Fix-up harvest: project hub + its child pages (emoji-safe title matching)."
+   },
+   "scripts/notion/manifest.json": {
+    "size": 5564,
+    "purpose": null
+   },
+   "scripts/notion/index.json": {
+    "size": 366732,
+    "purpose": null
+   },
+   "scripts/notion/matches.json": {
+    "size": 12834,
+    "purpose": null
+   },
+   "scripts/notion/notion_harvest.py": {
+    "size": 15285,
+    "purpose": "Notion READ-ONLY content harvest — Supplier Intelligence project."
+   },
+   "scripts/notion/notion_targets.py": {
+    "size": 6512,
+    "purpose": "Targeted harvest: v4.1 Exact Prompt Text + Pre-Claude Repair Audit + their parent + RSH18."
+   },
+   "scripts/notion/pages/PARENT _ CKC-RSH2-011 _ Final adversarial Stage Gate audit.md": {
+    "size": 345,
+    "purpose": "PARENT — CKC-RSH2-011 — Final adversarial Stage Gate audit"
+   },
+   "scripts/notion/pages/v4_1 Candidate _ Exact Prompt Text.md": {
+    "size": 25102,
+    "purpose": "📄 v4.1 Candidate — Exact Prompt Text"
+   },
+   "scripts/notion/pages/PARENT _ v4_1 _ Pre-Claude Repair Candidate.md": {
+    "size": 727,
+    "purpose": "PARENT — v4.1 — Pre-Claude Repair Candidate"
+   },
+   "scripts/notion/pages/Operating Protocol _ Notion-First ChatGPT _ Claude Relay.md": {
+    "size": 6587,
+    "purpose": "🔁 Operating Protocol — Notion-First ChatGPT ↔ Claude Relay"
+   },
+   "scripts/notion/pages/مرجع حاكم _ قاعدة بيانات أرخص موردي ومتاجر المنتجات والخدمات الرقمية.md": {
+    "size": 72432,
+    "purpose": "مرجع حاكم — قاعدة بيانات أرخص موردي ومتاجر المنتجات والخدمات الرقمية"
+   },
+   "scripts/notion/pages/مصدر _ cheapest_digital_products_suppliers_database_md.md": {
+    "size": 61415,
+    "purpose": "مصدر — cheapest_digital_products_suppliers_database.md"
+   },
+   "scripts/notion/pages/PARENT _ Canonical Registry _ Prompt _ Evolution.md": {
+    "size": 4802,
+    "purpose": "PARENT — Canonical Registry — Prompt & Evolution"
+   },
+   "scripts/notion/pages/مصدر _ progress_md.md": {
+    "size": 6409,
+    "purpose": "مصدر — progress.md"
+   },
+   "scripts/notion/pages/مصدر _ global_digital_suppliers_database_md.md": {
+    "size": 43978,
+    "purpose": "مصدر — global_digital_suppliers_database.md"
+   },
+   "scripts/notion/pages/RSH18 _ Claim-Level Evidence Register.md": {
+    "size": 2109,
+    "purpose": "RSH18 — Claim-Level Evidence Register"
+   },
+   "scripts/notion/pages/_ Supplier Intelligence Prompt Lab _ ChatGPT _ Claude _ Final Reference.md": {
+    "size": 3794,
+    "purpose": "🧭 Supplier Intelligence Prompt Lab — ChatGPT × Claude × Final Reference"
+   },
+   "scripts/notion/pages/DB_Version_Registry.md": {
+    "size": 27125,
+    "purpose": "DB: Version Registry (id=d7aa0988-ff99-4bec-a121-5e729f2f7484)"
+   },
+   "scripts/notion/pages/معجم البحث العميق والمتعدد المسارات _ Supplier Discovery Lexicon.md": {
+    "size": 23228,
+    "purpose": "معجم البحث العميق والمتعدد المسارات — Supplier Discovery Lexicon"
+   },
+   "scripts/notion/pages/مصدر _ global_digital_products_database_md.md": {
+    "size": 198044,
+    "purpose": "مصدر — global_digital_products_database.md"
+   },
+   "scripts/notion/pages/Canonical Registry _ Prompt _ Evolution.md": {
+    "size": 4794,
+    "purpose": "Canonical Registry — Prompt & Evolution"
+   },
+   "scripts/notion/pages/DB_Decision_Log.md": {
+    "size": 11446,
+    "purpose": "DB: Decision Log (id=2328a57f-8e0a-4e5e-8359-41eb8af87cda)"
+   },
+   "scripts/notion/pages/Pre-Claude Repair Audit _ v4_0 _ v4_1 Candidate.md": {
+    "size": 6935,
+    "purpose": "🧪 Pre-Claude Repair Audit — v4.0 → v4.1 Candidate"
+   },
+   "scripts/notion/pages/Prompt Development History _ Supplier Intelligence.md": {
+    "size": 9439,
+    "purpose": "🧬 Prompt Development History — Supplier Intelligence"
+   },
+   "scripts/notion/pages/المواصفة التشغيلية _ البحث العميق العالمي عن الموردين ومصادرهم.md": {
+    "size": 9675,
+    "purpose": "المواصفة التشغيلية — البحث العميق العالمي عن الموردين ومصادرهم"
+   },
+   "scripts/notion/pages/Claude Sonnet 5 Workspace _ Research _ Drafts.md": {
+    "size": 2420,
+    "purpose": "Claude Sonnet 5 Workspace — Research & Drafts"
+   },
+   "scripts/notion/pages/ChatGPT Workspace _ Review _ Analysis.md": {
+    "size": 7442,
+    "purpose": "ChatGPT Workspace — Review & Analysis"
+   },
+   "scripts/notion/pages/DB_Interaction_Archive.md": {
+    "size": 59447,
+    "purpose": "DB: Interaction Archive (id=e844ab12-d846-4974-9651-0892464966e5)"
+   },
+   "scripts/notion/pages/HUB _  Supplier Intelligence Prompt Lab _ ChatGPT _ Claude _ Final Reference.md": {
+    "size": 3814,
+    "purpose": "HUB — 🧭 Supplier Intelligence Prompt Lab — ChatGPT × Claude × Final Reference"
+   },
+   "scripts/notion/pages/سجل تاريخي _ تفاوض موردي الخدمات الرقمية _ Stack Vault Support.md": {
+    "size": 56122,
+    "purpose": "سجل تاريخي — تفاوض موردي الخدمات الرقمية | Stack Vault Support"
+   },
+   "scripts/report/final_part3.json": {
+    "size": 4774,
+    "purpose": null
+   },
+   "scripts/report/program_part1.json": {
+    "size": 14733,
+    "purpose": null
+   },
+   "scripts/report/generate_supply5_report.js": {
+    "size": 16054,
+    "purpose": null
+   },
+   "scripts/report/generate_prodseller_report.js": {
+    "size": 16788,
+    "purpose": null
+   },
+   "scripts/report/generate_final.js": {
+    "size": 16047,
+    "purpose": null
+   },
+   "scripts/report/prodseller_content_a.json": {
+    "size": 26869,
+    "purpose": null
+   },
+   "scripts/report/stackvault_content_b.json": {
+    "size": 18376,
+    "purpose": null
+   },
+   "scripts/report/supply5_content_c.json": {
+    "size": 16038,
+    "purpose": null
+   },
+   "scripts/report/generate_program.js": {
+    "size": 16015,
+    "purpose": null
+   },
+   "scripts/report/content2.js": {
+    "size": 22164,
+    "purpose": null
+   },
+   "scripts/report/supply5_content_a.json": {
+    "size": 34663,
+    "purpose": null
+   },
+   "scripts/report/final_part1.json": {
+    "size": 7577,
+    "purpose": null
+   },
+   "scripts/report/program_part2.json": {
+    "size": 11372,
+    "purpose": null
+   },
+   "scripts/report/stackvault_content_a.json": {
+    "size": 25500,
+    "purpose": null
+   },
+   "scripts/report/content3.js": {
+    "size": 16927,
+    "purpose": null
+   },
+   "scripts/report/helpers.js": {
+    "size": 5892,
+    "purpose": null
+   },
+   "scripts/report/dolaa_part2.json": {
+    "size": 11704,
+    "purpose": null
+   },
+   "scripts/report/content1.js": {
+    "size": 21903,
+    "purpose": null
+   },
+   "scripts/report/supply8_content_a.json": {
+    "size": 31354,
+    "purpose": null
+   },
+   "scripts/report/neg_content_a.json": {
+    "size": 34409,
+    "purpose": null
+   },
+   "scripts/report/generate.js": {
+    "size": 11645,
+    "purpose": null
+   },
+   "scripts/report/postprocess_footers.py": {
+    "size": 2227,
+    "purpose": "Post-process docx per toc.md: patch footer PAGE field format switches (ROMAN/arabic)"
+   },
+   "scripts/report/content_part3.json": {
+    "size": 20614,
+    "purpose": null
+   },
+   "scripts/report/content_part2.json": {
+    "size": 23205,
+    "purpose": null
+   },
+   "scripts/report/program_part3.json": {
+    "size": 12141,
+    "purpose": null
+   },
+   "scripts/report/content_part1.json": {
+    "size": 22474,
+    "purpose": null
+   },
+   "scripts/report/final_part2.json": {
+    "size": 6682,
+    "purpose": null
+   },
+   "scripts/report/dolaa_part1.json": {
+    "size": 7113,
+    "purpose": null
+   },
+   "scripts/report/supply8_content_b.json": {
+    "size": 28275,
+    "purpose": null
+   },
+   "scripts/report/prodseller_content_b.json": {
+    "size": 21559,
+    "purpose": null
+   },
+   "scripts/report/content4.js": {
+    "size": 34617,
+    "purpose": null
+   },
+   "scripts/report/neg_content_b.json": {
+    "size": 38665,
+    "purpose": null
+   },
+   "scripts/report/generate_stackvault_report.js": {
+    "size": 16785,
+    "purpose": null
+   },
+   "scripts/report/generate_dolaa.js": {
+    "size": 16058,
+    "purpose": null
+   },
+   "scripts/report/generate_supply8_report.js": {
+    "size": 15869,
+    "purpose": null
+   },
+   "scripts/report/postprocess.py": {
+    "size": 2380,
+    "purpose": "Post-process MEC-21 report docx (WPS compat):"
+   },
+   "scripts/report/supply5_content_b.json": {
+    "size": 14075,
+    "purpose": null
+   },
+   "scripts/report/generate_neg_campaign.js": {
+    "size": 18104,
+    "purpose": null
+   },
+   "scripts/stackvault/home.html": {
+    "size": 34552,
+    "purpose": null
+   }
+  }
+ },
+ "src_app": {
+  "total_files": 80,
+  "pages": [
+   "src/app/page.tsx",
+   "src/app/intel/page.tsx",
+   "src/app/privacy/page.tsx",
+   "src/app/refund/page.tsx",
+   "src/app/terms/page.tsx"
+  ],
+  "api_routes": [
+   "src/app/api/route.ts",
+   "src/app/api/store/orders/route.ts",
+   "src/app/api/store/orders/[id]/route.ts",
+   "src/app/api/store/orders/[id]/restock/route.ts",
+   "src/app/api/store/waitlist/route.ts",
+   "src/app/api/store/checkout/route.ts",
+   "src/app/api/store/payments/confirm/route.ts",
+   "src/app/api/store/catalog/route.ts",
+   "src/app/api/wallet/route.ts",
+   "src/app/api/wallet/deposit/route.ts",
+   "src/app/api/health/route.ts",
+   "src/app/api/admin/sync/route.ts",
+   "src/app/api/admin/costs/route.ts",
+   "src/app/api/admin/stats/route.ts"
+  ],
+  "components_count": 28,
+  "lib_count": 25,
+  "tree_top": {
+   "src/lib/data/batch2-skus.json": 92793,
+   "src/components/store/store.tsx": 54956,
+   "src/lib/data/actions.json": 48457,
+   "src/lib/data/skus.json": 36417,
+   "src/lib/data/entities-market.json": 32583,
+   "src/components/intelligence/deep-dive.tsx": 28755,
+   "src/lib/data/mec7.json": 27976,
+   "src/components/intelligence/mec7.tsx": 24569,
+   "src/lib/data/mec5.json": 22585,
+   "src/lib/data/mec6.json": 21344,
+   "src/components/intelligence/mec5.tsx": 21262,
+   "src/lib/data/channel-matrix.json": 19898,
+   "src/components/intelligence/mec6.tsx": 19020,
+   "src/lib/data/run.json": 17871,
+   "src/lib/engine.ts": 17346,
+   "src/lib/data/deep-dive.json": 16222,
+   "src/components/intelligence/mec8.tsx": 13864,
+   "src/components/intelligence/direct-wave.tsx": 10708,
+   "src/lib/data/entities-official.json": 10542,
+   "src/components/intelligence/channels.tsx": 10439,
+   "src/components/intelligence/skus.tsx": 10173,
+   "src/app/intel/page.tsx": 9743,
+   "src/lib/data/decisions-data.json": 9454,
+   "src/components/intelligence/overview.tsx": 9009,
+   "src/components/intelligence/channel-matrix.tsx": 8719
+  }
+ },
+ "prisma": {
+  "tables": [
+   "Product",
+   "Supplier",
+   "ChainLink",
+   "GeoPrice",
+   "Order",
+   "Attempt",
+   "Wallet",
+   "WalletTx",
+   "Waitlist",
+   "SyncLog"
+  ],
+  "schema_head": "generator client {\n  provider = \"prisma-client-js\"\n}\n\ndatasource db {\n  provider = \"postgresql\"\n  url      = env(\"DATABASE_URL\")\n}\n\n// ============ MEC STORE W1 — Production schema ============\n// Reconstructed from live Supabase audit 2026-09-28 (10 tables verified)\n// + NEW: hot-path indexes (Order.phone, Order.createdAt, WalletTx.walletId,\n//        Attempt.orderId, ChainLink.productId, GeoPric"
+ },
+ "data_staging": {
+  "data/research/mec2_channels_raw.json": {
+   "size": 28305,
+   "head": "{"
+  },
+  "data/research/mec30_notion_sync_log.json": {
+   "size": 343,
+   "head": "["
+  },
+  "data/research/mec2_stackvault_catalog.json": {
+   "size": 8765,
+   "head": "{"
+  },
+  "data/research/budget.json": {
+   "size": 52,
+   "head": "{"
+  },
+  "data/research/mec2_search_results.json": {
+   "size": 47684,
+   "head": "{"
+  },
+  "data/research/mec22_notion_sync_log.json": {
+   "size": 1048,
+   "head": "["
+  },
+  "data/research/mec2b_notion_sync_log.json": {
+   "size": 1056,
+   "head": "["
+  },
+  "data/research/mec23_notion_sync_log.json": {
+   "size": 685,
+   "head": "["
+  },
+  "data/research/mec2_notion_sync_log.json": {
+   "size": 2197,
+   "head": "["
+  },
+  "data/research/mobile-check.png": {
+   "size": 54345,
+   "head": "�PNG"
+  },
+  "data/research/actions-log.jsonl": {
+   "size": 74633,
+   "head": "{\"action_id\":\"A001\",\"timestamp_utc\":\"2026-09-26T21:04:06.619Z\",\"parent_branch\":\""
+  },
+  "data/research/run-contract.json": {
+   "size": 5425,
+   "head": "{"
+  },
+  "data/research/desktop-check.png": {
+   "size": 164857,
+   "head": "�PNG"
+  },
+  "data/research/mec24_notion_sync_log.json": {
+   "size": 679,
+   "head": "["
+  },
+  "data/research/raw/A046.json": {
+   "size": 824,
+   "head": "{"
+  },
+  "data/research/raw/A062.json": {
+   "size": 490,
+   "head": "{"
+  },
+  "data/research/raw/A022.json": {
+   "size": 3454,
+   "head": "{"
+  },
+  "data/research/raw/A039.json": {
+   "size": 1506,
+   "head": "{"
+  },
+  "data/research/raw/A044.json": {
+   "size": 3551,
+   "head": "{"
+  },
+  "data/research/raw/A056.json": {
+   "size": 3546,
+   "head": "{"
+  },
+  "data/research/raw/A074.json": {
+   "size": 1938,
+   "head": "{"
+  },
+  "data/research/raw/A026.json": {
+   "size": 2478,
+   "head": "{"
+  },
+  "data/research/raw/A032.json": {
+   "size": 2337,
+   "head": "{"
+  },
+  "data/research/raw/A076.json": {
+   "size": 1905,
+   "head": "{"
+  },
+  "data/research/raw/A014.json": {
+   "size": 820,
+   "head": "{"
+  },
+  "data/research/raw/A069.json": {
+   "size": 501,
+   "head": "{"
+  },
+  "data/research/raw/A002.json": {
+   "size": 2851,
+   "head": "{"
+  },
+  "data/research/raw/A010.json": {
+   "size": 774,
+   "head": "{"
+  },
+  "data/research/raw/A057.json": {
+   "size": 892,
+   "head": "{"
+  },
+  "data/research/raw/A072.json": {
+   "size": 3284,
+   "head": "{"
+  },
+  "data/research/raw/A036.json": {
+   "size": 1455,
+   "head": "{"
+  },
+  "data/research/raw/A020.json": {
+   "size": 770,
+   "head": "{"
+  },
+  "data/research/raw/A035.json": {
+   "size": 4362,
+   "head": "{"
+  },
+  "data/research/raw/A034.json": {
+   "size": 1531,
+   "head": "{"
+  },
+  "data/research/raw/A012.json": {
+   "size": 1233,
+   "head": "{"
+  },
+  "data/research/raw/A016.json": {
+   "size": 1923,
+   "head": "{"
+  },
+  "data/research/raw/A042.json": {
+   "size": 3549,
+   "head": "{"
+  },
+  "data/research/raw/A049.json": {
+   "size": 3708,
+   "head": "{"
+  },
+  "data/research/raw/A030.json": {
+   "size": 1556,
+   "head": "{"
+  },
+  "data/research/raw/A050.json": {
+   "size": 2268,
+   "head": "{"
+  },
+  "data/research/raw/A066.json": {
+   "size": 525,
+   "head": "{"
+  },
+  "data/research/raw/A011.json": {
+   "size": 1579,
+   "head": "{"
+  },
+  "data/research/raw/A068.json": {
+   "size": 492,
+   "head": "{"
+  },
+  "data/research/raw/A064.json": {
+   "size": 463,
+   "head": "{"
+  },
+  "data/research/raw/A003.json": {
+   "size": 1631,
+   "head": "{"
+  },
+  "data/research/raw/A071.json": {
+   "size": 521,
+   "head": "{"
+  },
+  "data/research/raw/A058.json": {
+   "size": 2381,
+   "head": "{"
+  },
+  "data/research/raw/A061.json": {
+   "size": 490,
+   "head": "{"
+  },
+  "data/research/raw/A045.json": {
+   "size": 2421,
+   "head": "{"
+  },
+  "data/research/raw/A054.json": {
+   "size": 3802,
+   "head": "{"
+  },
+  "data/research/raw/A029.json": {
+   "size": 770,
+   "head": "{"
+  },
+  "data/research/raw/A041.json": {
+   "size": 2386,
+   "head": "{"
+  },
+  "data/research/raw/A031.json": {
+   "size": 2714,
+   "head": "{"
+  },
+  "data/research/raw/A018.json": {
+   "size": 2038,
+   "head": "{"
+  },
+  "data/research/raw/A006.json": {
+   "size": 2395,
+   "head": "{"
+  },
+  "data/research/raw/A021.json": {
+   "size": 1540,
+   "head": "{"
+  },
+  "data/research/raw/A001.json": {
+   "size": 1271,
+   "head": "{"
+  },
+  "data/research/raw/A075.json": {
+   "size": 2464,
+   "head": "{"
+  },
+  "data/research/raw/A027.json": {
+   "size": 3526,
+   "head": "{"
+  },
+  "data/research/raw/A051.json": {
+   "size": 4223,
+   "head": "{"
+  },
+  "data/research/raw/A038.json": {
+   "size": 1677,
+   "head": "{"
+  },
+  "data/research/raw/A065.json": {
+   "size": 523,
+   "head": "{"
+  },
+  "data/research/raw/A070.json": {
+   "size": 477,
+   "head": "{"
+  },
+  "data/research/raw/A067.json": {
+   "size": 505,
+   "head": "{"
+  },
+  "data/research/raw/A063.json": {
+   "size": 488,
+   "head": "{"
+  },
+  "data/research/raw/A015.json": {
+   "size": 3522,
+   "head": "{"
+  },
+  "data/research/raw/A048.json": {
+   "size": 1565,
+   "head": "{"
+  },
+  "data/research/raw/A017.json": {
+   "size": 1895,
+   "head": "{"
+  },
+  "data/research/raw/A033.json": {
+   "size": 1245,
+   "head": "{"
+  },
+  "data/research/raw/A073.json": {
+   "size": 1178,
+   "head": "{"
+  },
+  "data/research/raw/A025.json": {
+   "size": 774,
+   "head": "{"
+  },
+  "data/research/raw/A019.json": {
+   "size": 2738,
+   "head": "{"
+  },
+  "data/research/raw/A028.json": {
+   "size": 879,
+   "head": "{"
+  },
+  "data/research/raw/A005.json": {
+   "size": 2415,
+   "head": "{"
+  },
+  "data/research/raw/A013.json": {
+   "size": 2055,
+   "head": "{"
+  },
+  "data/research/raw/A008.json": {
+   "size": 2680,
+   "head": "{"
+  },
+  "data/research/raw/A055.json": {
+   "size": 2447,
+   "head": "{"
+  },
+  "data/research/raw/A007.json": {
+   "size": 791,
+   "head": "{"
+  },
+  "data/research/raw/A009.json": {
+   "size": 786,
+   "head": "{"
+  },
+  "data/research/raw/A047.json": {
+   "size": 2809,
+   "head": "{"
+  },
+  "data/research/raw/A023.json": {
+   "size": 2303,
+   "head": "{"
+  },
+  "data/research/raw/A059.json": {
+   "size": 3632,
+   "head": "{"
+  },
+  "data/research/raw/A053.json": {
+   "size": 1615,
+   "head": "{"
+  },
+  "data/research/raw/A040.json": {
+   "size": 3505,
+   "head": "{"
+  },
+  "data/research/raw/A024.json": {
+   "size": 3167,
+   "head": "{"
+  },
+  "data/research/raw/A037.json": {
+   "size": 1075,
+   "head": "{"
+  },
+  "data/research/raw/A004.json": {
+   "size": 3678,
+   "head": "{"
+  },
+  "data/research/raw/A060.json": {
+   "size": 832,
+   "head": "{"
+  },
+  "data/research/raw/A052.json": {
+   "size": 809,
+   "head": "{"
+  },
+  "data/research/raw/A043.json": {
+   "size": 3100,
+   "head": "{"
+  },
+  "data/research/waves/wave4.json": {
+   "size": 4461,
+   "head": "["
+  },
+  "data/research/waves/wave2.json": {
+   "size": 6106,
+   "head": "["
+  },
+  "data/research/waves/wave4r.json": {
+   "size": 1514,
+   "head": "["
+  },
+  "data/research/waves/wave3.json": {
+   "size": 5501,
+   "head": "["
+  },
+  "data/research/waves/wave1.json": {
+   "size": 4093,
+   "head": "["
+  },
+  "data/research/waves/wave4f.json": {
+   "size": 1551,
+   "head": "["
+  }
+ }
+}

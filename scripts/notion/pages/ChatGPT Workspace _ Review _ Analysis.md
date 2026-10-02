@@ -1,0 +1,105 @@
+# ChatGPT Workspace — Review & Analysis
+
+> id=3e758a07-79e8-8187-b2bb-f88df813a8f2 | url=https://app.notion.com/p/ChatGPT-Workspace-Review-Analysis-3e758a0779e88187b2bbf88df813a8f2 | label=HUB-CHILD
+
+## Content
+## Role
+**Review · Audit · Critical Analysis · Testing · Validation**
+This workspace is owned by the ChatGPT review function.
+## Purpose
+- Review Claude proposals and supplier-research architecture.
+- Run Paper Tests and Stress Tests.
+- Detect defects, contradictions, missing requirements, and unsupported assumptions.
+- Maintain review findings without silently changing Canonical content.
+## Authority
+**Review ≠ Authority.**
+This workspace is owned by the ChatGPT review function.
+ChatGPT may edit this workspace's analysis, audits, tests, findings, repair records, operational state, and project-linked working records.
+ChatGPT may not:
+- edit the Claude Workspace;
+- directly rewrite Claude's Prompt Working Reference;
+- mark a Prompt Approved or promote a Candidate;
+- silently alter governance or ownership rules;
+- delete historical records;
+- silently merge competing Candidates;
+- replace authoritative Prompt text with an inferred reconstruction.
+Prompt Text changes belong to the **Prompt Working Reference**, which is Claude-owned for direct editing. ChatGPT reviews those changes and records findings here.
+## Standard review output
+**Finding → Evidence → Impact → Recommendation → Status**
+Allowed finding states:
+- Open
+- Accepted
+- Repaired
+- Rejected
+- Needs User Decision
+## Handoff to Claude
+Send only the material required for the next Claude revision:
+- Current Canonical Version ID
+- Review findings
+- Required repairs
+- Open decisions
+- Tests to rerun
+Do not assume Claude has access to this workspace unless the relevant content is explicitly transferred.
+## Notion-First Relay Protocol
+Notion is the durable record; chat is transport only.
+For each cycle:
+- Archive the User Input.
+- Archive ChatGPT's analysis and current state.
+- Prepare exactly one copy-ready Claude Handoff.
+- After Claude responds, archive the complete response before analysis.
+- Audit the response against the current Candidate/Canonical state.
+- Record findings, repairs, open decisions, and next action.
+- Prepare the next single Claude Handoff.
+Claude must not be given the full historical transcript unless a specific test requires it. The Handoff Packet is the controlled context transfer.
+## 🧪 Runtime Evidence — [z.ai](http://z.ai/) v4.1 Candidate / Multi-SKU Catalog Test — 2026-09-27
+### Source
+User-provided screenshots from [z.ai](http://z.ai/) GLM-5.3 runtime after loading **ADAPTIVE SUPPLIER INTELLIGENCE RESEARCH ENGINE — v4.1 CANDIDATE**.
+### Confirmed Runtime Observations
+- The runtime transitioned from input-gated state to an executing Run Contract after the user supplied the required scope information.
+- The runtime represented the scope as **Run +400 SKUs**, with a catalog of more than 400 digital products/services.
+- The runtime grouped execution into batches and explicitly treated **Batch 1** as a partial coverage unit rather than claiming that 400 SKUs were fully researched in one batch.
+- The runtime applied **C4 / 96 Research Actions** to the active batch and referenced a **25% reserve** and **35% per-branch backstop**.
+- The runtime exposed a multi-scenario evaluation model: 1 Unit, 2–10 Units, Bulk, plus commercial tiers such as Volume/VIP/Dealer/Distributor/Partner/MOQ/Negotiated where applicable.
+- The runtime retained global supplier discovery with region-aware SKU matching.
+- The runtime preserved **Known-Facts vs Open-Items** and treated historical seeds as **Unverified Leads** requiring re-checking.
+- Batch 1 began with multiple product/service families rather than a single product.
+### Critical Validation Finding
+The current Runtime evidence validates the existence of a **catalog-scale / batch execution concept**, but it does **not** validate complete research coverage of 400+ SKUs within a single 96-action C4 batch. The runtime itself indicates that Batch 1 is only a subset and that complete 400-SKU verification cannot be claimed from one batch.
+### Architecture Implication
+The correct scalable model is:
+**Catalog Program (>400 SKUs) → Batches → Per-SKU research units → Shared global coverage registry → Cross-batch deduplication/entity resolution → Aggregate catalog intelligence.**
+A batch budget must be interpreted as a budget for the active batch, not as proof that the entire >400-SKU catalog has been deeply researched.
+### Proposed Technical Repair — NOT a Governance Decision
+The next Prompt Candidate should explicitly model:
+1. **Catalog-level scope** separately from **Batch-level Run Contract**.
+1. **Per-SKU completion state** independently from Batch completion.
+1. **Coverage Ledger** across all 400+ SKUs.
+1. **Batch budget allocation** with cumulative program accounting.
+1. **Unsearched / Partially Researched / Verified / Retrieval-Limited / Budget-Limited** state per SKU.
+1. No final catalog-wide claim of completeness unless every scoped SKU has an explicit terminal state and the aggregate coverage record supports the claim.
+1. Cross-batch deduplication and supplier/entity relationships must persist across the catalog program.
+### Status
+**Review Finding — Open / Requires Claude Prompt Revision Review**
+This record is runtime evidence and a proposed technical repair. It does not modify the Claude-owned Prompt Working Reference or Canonical approval state.
+## 🔎 Cycle 5 — ChatGPT Audit of Claude Response — 2026-09-27
+### Assessment
+Claude's response is structurally consistent with the current project direction and correctly identifies the central v4.1 catalog-scale gap: v4.1 models a single research run/SKU lifecycle but does not explicitly model a multi-SKU catalog program with batches and cross-batch state.
+### Accepted Findings for Review Record
+- Catalog/Batch objects are missing from v4.1.
+- Catalog Coverage Ledger is missing.
+- Cross-batch Entity persistence is missing.
+- Scope / Coverage / Completion / Verification are not explicitly separated at catalog level.
+- SKU-level lifecycle state across multiple batches is missing.
+- Cumulative cross-batch budget accounting is missing.
+- Global Supplier Discovery vs Region-Aware SKU Matching can be made explicit.
+### Audit Correction — Validation Language
+Claude's Part 5 says “Tests Passed” and “pass by construction”, while Part 8 and Part 7 correctly state that the new multi-batch mechanisms have not yet been exercised in a live v4.2 runtime.
+Therefore the authoritative review interpretation is:
+- Structural/design check: addressed / provisionally passed.
+- Live runtime validation: not yet performed.
+- Integrated multi-batch validation: pending.
+The stronger wording “Tests Passed” must not be used as evidence of runtime correctness for v4.2.
+### Artifact Verification Status
+Claude reports that a complete v4.2 Candidate file was produced, but the full artifact itself has not been independently verified in this ChatGPT workspace from the current exchange. Until the exact v4.2 text/file is available and checked against the claimed insertions, v4.2 should be recorded as Claude-reported Candidate, not as a verified Prompt artifact.
+### Governance
+No Canonical promotion and no governance change occurred in this cycle. The standing bootstrap approval decision remains separate and unresolved.

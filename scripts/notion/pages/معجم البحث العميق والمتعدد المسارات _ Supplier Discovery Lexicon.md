@@ -1,0 +1,291 @@
+# معجم البحث العميق والمتعدد المسارات — Supplier Discovery Lexicon
+
+> id=3e658a07-79e8-8153-9e75-d685c06bda6d | url=https://app.notion.com/p/Supplier-Discovery-Lexicon-3e658a0779e881539e75d685c06bda6d
+
+## Content
+هذه الصفحة هي **معجم بحث تشغيلي** لتوليد الاستعلامات، وليست قاعدة نتائج. المصطلحات مستخلصة من لغة منصات التوزيع والـreseller الحالية، مع إضافة صيغ بحث تحليلية. يجب استخدام كل نتيجة كبذرة لجولة جديدة، مع التحقق المستقل.
+## 1. أدوار سلسلة التوريد
+supplier، vendor، wholesaler، distributor، sub-distributor، master distributor، deep wholesaler، wholesale supplier، authorized distributor، indirect provider، direct provider، direct-bill partner، reseller، indirect reseller، dealer، sub-dealer، agent، channel partner، merchant، retailer، marketplace seller، aggregator، digital distributor، content distributor، voucher distributor، gift-card distributor، key distributor، software distributor، fulfillment provider، procurement partner، sourcing partner، inventory provider، upstream supplier، upstream distributor، primary source، issuer، publisher، brand owner، platform owner.
+## 2. صيغ التوزيع والشراكة
+official distributor، authorized channel، authorized partner، approved reseller، certified reseller، regional distributor، territory distributor، national distributor، local distributor، master reseller، sub reseller، dealer network، reseller network، distribution network، partner network، channel network، supply partner، partner program، reseller program، dealer program، distribution agreement، reseller agreement.
+## 3. الجملة والتسعير التجاري
+wholesale، wholesaler، wholesale pricing، wholesale price، wholesale rate، wholesale cost، wholesale catalog، wholesale portal، wholesale account، wholesale access، trade price، dealer price، reseller price، partner price، partner pricing، distributor price، net price، net cost، buying price، acquisition price، cost price، B2B price، business price، commercial price، procurement price، bulk pricing، volume pricing، tier pricing، quantity discount، volume discount، price tier، reseller tier، dealer tier، VIP price، account-level pricing، private pricing، custom pricing، negotiated price، contract price، special price.
+## 4. الشرائح والأسعار المرتبطة بالحجم
+Bronze، Silver، Gold، VIP، H2H، Tier 1، Tier 2، Tier 3، Level 1، Level 2، distributor level، dealer level، reseller level، volume tier، spend tier، monthly volume، annual volume، cumulative volume، slab pricing، price break، quantity break.
+## 5. الوصول المغلق
+private catalog، closed catalog، private wholesale، private pricing، partner-only pricing، members-only pricing، account pricing، account-specific pricing، login required، approved partners، approved buyers، partner portal، reseller portal، dealer portal، distributor portal، supplier portal، procurement portal، trade portal، B2B portal، business portal، partner dashboard، reseller dashboard، supplier dashboard، invitation-only، application required، approval required، request access، request catalog، request pricing، contact sales، contact wholesale، sales inquiry، partnership inquiry.
+تظهر هذه المصطلحات في منصات حالية تضع الكتالوج والأسعار والتوفر داخل حسابات معتمدة بدل إتاحتها علنًا. citeturn109436search1turn109436search3
+## 6. الجملة العميقة
+master wholesale، deep wholesale، wholesale-to-wholesale، wholesale distributor، distributor-to-reseller، reseller-to-reseller، sub-distributor، sub-wholesaler، master reseller، master dealer، dealer network، subdealer network، second-tier distributor، downstream reseller، upstream wholesaler، upper-tier supplier، higher-tier supplier، next-tier supplier، upstream distributor، upstream channel، supply chain partner.
+## 7. المصدر والتوريد
+source، supplier source، upstream source، supply source، source supplier، original supplier، primary supplier، upstream supplier، source distributor، distributor source، inventory source، fulfillment source، procurement source، sourcing channel، distribution channel، supply channel، origin، provenance، product provenance، code provenance، inventory provenance، fulfillment origin، source of inventory، where sourced، sourced from، supplied by، provided by، fulfilled by، distributed by، issued by، authorized by، supplied through، purchased through، procured through.
+## 8. عبارات تتبع المصدر الأعلى
+who supplies this product
+who supplies this seller
+who supplies this reseller
+where does this seller source from
+where are these codes sourced from
+who is the upstream supplier
+who is the distributor behind this store
+which distributor supplies this reseller
+which wholesaler supplies this seller
+which platform fulfills these orders
+who provides the inventory
+who is the backend supplier
+who is the fulfillment provider
+who is the distribution partner
+which supplier powers this store
+which API powers this service
+which catalog is this seller using
+supplier behind supplier
+supplier of supplier
+supplier's supplier
+next upstream supplier
+higher-tier distributor
+master distributor behind
+wholesaler behind
+source behind
+## 9. العلاقات بين الجهات
+supplier relationship، distributor relationship، reseller relationship، partner relationship، supply relationship، channel relationship، distribution relationship، shared supplier، common supplier، common distributor، same supplier، same distributor، supplied by، distributed by، powered by، fulfilled by، integrated with، partner of، reseller of، distributor for، authorized by، managed by، operated by، owned by، parent company، subsidiary، affiliate، related domain، related business، related account، related channel.
+## 10. API / H2H / Automation
+API supplier، reseller API، wholesale API، B2B API، partner API، distributor API، digital goods API، gift card API، voucher API، game top-up API، subscription API، catalog API، pricing API، inventory API، fulfillment API، order API، procurement API، supplier API، aggregator API، marketplace API، white-label API، merchant API، webhook، order-status webhook، fulfillment webhook، balance API، wallet API، pricing endpoint، catalog endpoint، inventory endpoint، order endpoint، transaction endpoint، reconciliation API.
+H2H، Host-to-Host، H2H partnership، H2H API، H2H balance، H2H pricing، H2H pricelist، H2H wholesale، H2H partner، H2H reseller، H2H supplier، H2H integration.
+مصطلحات H2H والـwallet والـtier pricing والـwebhooks تظهر في منصات B2B رقمية فعلية. citeturn983560search1turn983560search2turn983560search8
+## 11. الكتالوج والـSKU
+product catalog، digital catalog، supplier catalog، reseller catalog، wholesale catalog، private catalog، live catalog، catalog API، product feed، inventory feed، product feed API، SKU catalog، SKU list، product list، denomination list، package list، plans، variants، product ID، SKU ID، app ID، package ID، denomination، region، server، platform، activation region، redemption region، supported country، currency، availability، stock، live stock.
+## 12. أقل سعر وتكلفة الشراء
+lowest price، lowest wholesale price، cheapest wholesale، cheapest supplier، lowest supplier price، lowest reseller price، lowest dealer price، lowest B2B price، lowest net price، lowest acquisition cost، lowest buying cost، best wholesale rate، best B2B rate، best reseller rate، distributor cost، source cost، procurement cost، net acquisition cost، effective acquisition cost، total cost، after-fee price، post-fee cost، final checkout price، actual purchase cost.
+## 13. الخصومات والعروض الخاصة
+bulk discount، volume discount، quantity discount، tier discount، reseller discount، dealer discount، distributor discount، partner discount، account discount، VIP discount، monthly volume discount، annual volume discount، spend-based discount، cumulative discount، threshold discount، special rate، negotiated rate، contract rate، custom quote، RFQ، request quote، quote request.
+## 14. الشروط التجارية
+MOQ، minimum order quantity، minimum monthly spend، minimum balance، minimum deposit، minimum purchase، purchase threshold، volume requirement، qualification requirement، account requirement، business verification، KYC requirement، reseller approval، partner approval، dealer approval، credit terms، prepaid balance، postpaid، deposit، wallet balance، spending limit، credit limit، settlement، invoice، purchase invoice، statement، reconciliation، refund policy، replacement policy، dispute policy، SLA، support SLA.
+## 15. المخزون والتنفيذ
+stock، live stock، inventory، inventory availability، available quantity، in stock، out of stock، allocation، reserved stock، inventory pool، code inventory، key inventory، voucher inventory، stock routing، order routing، smart routing، failover supplier، fallback supplier، alternate supplier، backup supplier، fulfillment routing، auto fulfillment، instant delivery، delivery status، transaction status، order status، pending، success، failed، retry، replacement، refund، reversal.
+## 16. إعادة البيع والـWhite Label
+resell، resale، reseller، resale rights، resale terms، authorized resale، reseller program، reseller partnership، reseller agreement، dealer program، partner program، distribution agreement، channel partner، white label، whitelabel، private label، branded reseller، own brand، own domain، branded portal، white-label API، white-label platform، dropship، digital dropshipping، reseller network.
+## 17. اكتشاف المورد من السعر
+قوالب:
+PRODUCT + wholesale
+PRODUCT + reseller price
+PRODUCT + dealer price
+PRODUCT + partner price
+PRODUCT + net price
+PRODUCT + bulk price
+PRODUCT + VIP price
+PRODUCT + H2H
+PRODUCT + custom quote
+PRODUCT + request quote
+PRODUCT + private pricing
+PRODUCT + closed catalog
+بعد العثور على سعر منخفض:
+**السعر + المنتج → السعر + SKU → السعر + المنطقة → السعر + اسم البائع → السعر دون اسم البائع**.
+## 18. اكتشاف الجهات من النص المتكرر
+exact product description، exact price phrase، exact guarantee wording، exact refund wording، exact replacement wording، exact FAQ wording، exact catalog wording، exact support message، exact product title، exact SKU، exact denomination، exact region tag، exact activation text.
+التشابه النصي أداة اكتشاف فقط وليس دليل ملكية أو توريد.
+## 19. Domain Discovery
+related domains، associated domains، related websites، sister domains، same owner domains، same company domains، same organization، same certificate، same infrastructure، same IP، same ASN، same nameserver، same DNS، same analytics ID، same tracking ID، same payment provider، same support email، same Telegram، same WhatsApp، same username، same catalog، same product feed.
+## 20. Account / Username Discovery
+username، Telegram username، support username، sales username، reseller username، wholesale contact، sales contact، partner contact، business contact، admin، owner، manager، sales manager، account manager، partnerships، wholesale manager، dealer manager، supplier manager.
+## 21. Telegram Search
+site:[t.me](http://t.me/) PRODUCT reseller
+site:[t.me](http://t.me/) PRODUCT wholesale
+site:[t.me](http://t.me/) PRODUCT supplier
+site:[t.me](http://t.me/) PRODUCT distributor
+site:[t.me](http://t.me/) PRODUCT dealer
+site:[t.me](http://t.me/) PRODUCT bulk
+site:[t.me](http://t.me/) PRODUCT H2H
+site:[t.me](http://t.me/) PRODUCT API
+site:[t.me](http://t.me/) PRODUCT price
+site:[t.me](http://t.me/) PRODUCT source
+site:[t.me](http://t.me/) PRODUCT stock
+site:[t.me](http://t.me/) PRODUCT warranty
+site:[t.me](http://t.me/) PRODUCT replacement
+site:[t.me](http://t.me/) PRODUCT reseller price
+site:[t.me](http://t.me/) PRODUCT wholesale price
+بعد اكتشاف قناة:
+CHANNEL supplier
+CHANNEL distributor
+CHANNEL source
+CHANNEL reseller
+CHANNEL API
+CHANNEL bot
+CHANNEL support
+CHANNEL partner
+CHANNEL wholesale
+أدوات فهرسة Telegram مثل TGStat تدعم البحث بالكلمات والعبارات، الاستبعاد، تقاطع/اتحاد النتائج، والفلاتر حسب المصدر والجغرافيا واللغة والنوع. citeturn264762search0turn264762search4
+## 22. Marketplace Discovery
+marketplace seller، seller profile، seller storefront، seller catalog، seller API، seller feed، seller inventory، seller history، seller reviews، seller country، seller region، seller contact، seller website، seller Telegram، seller wholesale، seller reseller، seller source، seller supplier.
+## 23. API Documentation Discovery
+PRODUCT + API documentation
+PRODUCT + API docs
+PRODUCT + developer portal
+PRODUCT + reseller API
+PRODUCT + partner API
+PRODUCT + catalog API
+PRODUCT + order API
+PRODUCT + pricing API
+PRODUCT + webhook
+PRODUCT + OpenAPI
+PRODUCT + Swagger
+PRODUCT + sandbox
+PRODUCT + partner credentials
+PRODUCT + merchant API
+الهدف اكتشاف المنصة ومسار التوريد العام، لا الوصول إلى بيانات اعتماد غير مصرح بها.
+## 24. الوثائق والملفات
+filetype:pdf
+filetype:xlsx
+filetype:csv
+filetype:docx
+filetype:txt
+مع:
+price list
+wholesale price list
+dealer price list
+reseller price list
+catalog
+product catalog
+distributor list
+partner list
+authorized distributor
+dealer list
+rate card
+pricing sheet
+commercial terms
+reseller agreement
+distribution agreement
+partner terms
+wholesale terms
+product list
+SKU list
+## 25. Google Operators
+Google يوثق حاليًا:
+**"phrase"**
+**site:**
+**-word**
+**before:**
+**after:**
+**filetype:** citeturn264762search1turn264762search2
+قوالب:
+site:[t.me](http://t.me/) "PRODUCT" "wholesale"
+site:DOMAIN "PRODUCT"
+"PRODUCT" "reseller price" -retail
+"PRODUCT" "supplier" -jobs
+"PRODUCT" "wholesale" after:2026-01-01
+"PRODUCT" "price list" filetype:pdf
+"PRODUCT" "dealer list" filetype:pdf
+## 26. Bing Advanced Keywords
+Bing يوثق:
+**contains:**، **ext:**، **filetype:**، **inanchor:**، **inbody:**، **intitle:**، **prefer:**، **site:**، **feed:**، **hasfeed:**، **url:**. citeturn264762search3
+قوالب:
+intitle:"PRODUCT" wholesale
+inbody:"reseller price" PRODUCT
+inanchor:"wholesale" PRODUCT
+site:DOMAIN PRODUCT
+PRODUCT filetype:pdf
+PRODUCT ext:xlsx
+PRODUCT contains:pdf
+url:DOMAIN
+site:DOMAIN hasfeed:PRODUCT
+## 27. البحث متعدد اللغات
+### English
+wholesale، supplier، distributor، reseller، dealer، master distributor، sub-distributor، private catalog، closed catalog، partner pricing، trade price، net price، bulk price، volume discount، H2H، API، fulfillment، source، upstream supplier.
+### Arabic
+مورد، مورد جملة، مورد بالجملة، موزع، موزع معتمد، موزع رئيسي، موزع فرعي، وكيل، تاجر جملة، إعادة بيع، أسعار الجملة، سعر الوكيل، سعر الموزع، سعر التاجر، سعر الشراء، سعر التكلفة، خصم الكمية، خصم الحجم، كتالوج خاص، أسعار خاصة، بوابة المورد، بوابة الوكلاء، مصدر التوريد، المورد الأعلى، مصدر المصدر.
+### Turkish
+dijital ürün toptan، toptan fiyat، toptancı، distribütör، yetkili distribütör، bayi، bayi fiyatı، reseller، ana distribütör، alt distribütör، özel fiyat، bayi paneli، toptan portalı، API، H2H.
+### Russian
+опт، оптовые цены، поставщик، дистрибьютор، официальный дистрибьютор، реселлер، дилер، мастер-дистрибьютор، субдистрибьютор، цена для дилеров، цена для реселлеров، оптовый каталог، партнерская цена، API، H2H.
+### Indonesian / Malay
+grosir، harga grosir، supplier، distributor، reseller، agen، master distributor، sub distributor، harga reseller، harga distributor، harga agen، produk digital، katalog grosir، panel reseller، API، H2H، top up، voucher.
+### Chinese
+数字产品، 数字商品، 批发، 批发价، 供应商، 分销商، 经销商، 代理商، 一级代理، 二级代理، 总代理، 批发目录، 礼品卡، 游戏充值، 充值卡، API، H2H.
+### Spanish
+mayorista، precio mayorista، proveedor، distribuidor، distribuidor autorizado، revendedor، agente، distribuidor maestro، subdistribuidor، precio para revendedores، catálogo mayorista، portal B2B، API.
+### Portuguese
+atacado، preço de atacado، fornecedor، distribuidor، distribuidor autorizado، revendedor، agente، master distribuidor، subdistribuidor، preço para revenda، catálogo B2B، portal de revenda، API.
+## 28. تركيب الاستعلام
+بدل PRODUCT + supplier فقط، استخدم:
+**1 Product Term + 1 Role Term + 1 Commercial Term + 1 Access/Proof Term**
+مثال:
+PRODUCT + distributor + price list
+PRODUCT + reseller + private catalog
+PRODUCT + supplier + API
+PRODUCT + wholesaler + partner pricing
+PRODUCT + H2H + pricing
+PRODUCT + dealer price + catalog
+PRODUCT + bulk price + MOQ
+## 29. مصفوفة الاستعلام
+لكل SKU:
+**PRODUCT × {supplier, wholesaler, distributor, reseller, dealer, master distributor}**
+ثم:
+**PRODUCT × {wholesale price, reseller price, dealer price, net price, bulk price, tier price, partner price}**
+ثم:
+**PRODUCT × {private catalog, closed catalog, reseller portal, partner portal, API, H2H}**
+ثم:
+**SELLER × {supplier, source, distributor, upstream, fulfilled by, powered by}**
+ثم:
+**DOMAIN × {related domains, API, partner, reseller, distributor}**
+ثم:
+**USERNAME/CHANNEL × {supplier, source, wholesale, reseller, distributor, bot}**
+## 30. نظام البذور
+كل نتيجة جديدة تتحول إلى Seed:
+**Product Seed، Seller Seed، Supplier Seed، Domain Seed، Username Seed، Channel Seed، Bot Seed، SKU Seed، Price Seed، API Seed، Catalog Seed، Document Seed**.
+التسلسل:
+**Seed → Query Expansion → New Entity → Entity Resolution → Relation Search → Upstream Search → Price Search → Verification**
+## 31. منع التكرار
+قبل تسجيل جهة جديدة، افحص:
+**domain، company، URL، username، Telegram ID، support contact، product catalog، SKU، region، currency، price pattern، API pattern، description fingerprint**.
+لا تدمج جهتين لمجرد تشابه الاسم أو التصميم.
+## 32. قاموس التحقق
+official، authorized، verified، approved، certified، registered، partner، distributor، direct، indirect، primary، upstream، source، documented، published، quoted، account-only، private، negotiated، observed، checkout، transaction، invoice، proof، evidence، terms، policy، agreement، contract.
+## 33. قاموس الأدلة
+invoice، purchase invoice، receipt، order confirmation، quote، quotation، contract، reseller agreement، distribution agreement، authorization letter، partner directory، official partner listing، product catalog، price list، account evidence، checkout evidence، API documentation، terms of service، reseller terms، support response، business registration، company profile.
+## 34. البحث المضاد بعد العثور على مورد
+نفّذ:
+**PRODUCT + supplier name**
+**PRODUCT + supplier domain**
+**supplier + distributor**
+**supplier + wholesaler**
+**supplier + upstream**
+**supplier + partner**
+**supplier + reseller**
+**supplier + API**
+**supplier + catalog**
+**supplier + price list**
+**supplier + PDF**
+**supplier + Telegram**
+**supplier + username**
+**supplier + support**
+## 35. البحث عن مورد بديل أو مصدر مشترك
+عند العثور على Supplier A:
+**"PRODUCT" "Supplier A"**
+**"PRODUCT" "same price"**
+**"PRODUCT" "same SKU"**
+**"PRODUCT" "same catalog"**
+**"PRODUCT" "same region"**
+**"PRODUCT" "Supplier A" reseller**
+**"PRODUCT" "Supplier A" distributor**
+**"Supplier A" partner**
+**"Supplier A" API**
+**"Supplier A" Telegram**
+**"Supplier A" wholesale**
+الهدف:
+**parallel supplier، alternative distributor، common upstream، shared inventory، duplicate catalog**.
+## 36. قاعدة البحث المكثف
+لا تستخدم آلاف الكلمات في استعلام واحد. أنشئ مجموعات صغيرة مستقلة، ثم اجمع النتائج.
+أفضل تركيب عملي:
+**Product + Role + Commercial + Access/Proof**
+## 37. مخرجات المساعد البحثي
+لكل نتيجة:
+**Entity → Role → Product/SKU → Region → Price → Price Type → Availability → Guarantee → Resale Status → Upstream Claim → Upstream Evidence → Source Confidence → Price Confidence → URL → Last Checked → Next Search Seed**
+## 38. قاعدة التوقف
+لا تتوقف عند العثور على مورد.
+تتوقف دورة البحث عندما **تُستنفد مسارات الاكتشاف المعقولة، وتُحل التكرارات، وتُفحص العلاقات، وتُوثق الحدود، وتُسجل أسباب توقف التتبع**.
+## 39. حدود الاستخدام
+المعجم مخصص لاكتشاف المصادر والموردين والأسعار العامة أو التجارية القابلة للوصول المشروع. لا يشمل البحث عن كلمات مرور أو مفاتيح API مسربة أو تجاوز أنظمة الدخول أو استخراج بيانات خاصة دون تصريح.
+## 40. الخلاصة
+المعجم يحوّل البحث من **Supplier Search** إلى:
+**Role Discovery → Commercial Discovery → Access Discovery → Source Discovery → Relationship Discovery → Recursive Expansion → Price Discovery → Evidence Discovery → Multilingual Expansion → Verification**.
+القاعدة الذهبية:
+**كل نتيجة = معلومة + علاقة + بذرة بحث جديدة.**
+ولا يوجد مصطلح واحد يكشف المورد الحقيقي. أقوى النتائج تأتي من **تقاطع عدة إشارات مستقلة**: الدور، السعر، الكتالوج، API، H2H، الحساب، القناة، النطاق، النص، المنطقة، والوثيقة.

@@ -1,0 +1,309 @@
+# تدقيق نظام الأتمتة 24/7 — الحالة الحالية والإصلاحات — 2026-09-26
+دورة فحص وإصلاح — AUTO-CYCLE-0001
+Trigger:  MANUAL / Engineering Audit
+Scope:  هندسة نظام الأتمتة المستمرة 24/7 نفسه.
+ما تم تنفيذه فعليًا في هذه الدورة:
+- فحص حالة الـAutomations الحالية.
+- إنشاء Trigger مخصص لنظام الأتمتة والهندسة الذاتية بتكرار ساعي وبدون نهاية مقصودة.
+- إجراء بحث خارجي حديث حول Durable Execution، Retry Budget، Circuit Breaker، Queue Durability، DLQ، Idempotency، Transactional Outbox، وObservability.
+- تحديث المرجع المعماري في Notion بإضافات Hardening.
+- إنشاء سجل تدقيق مستقل لهذه الحالة.
+- إعادة جلب صفحات Notion للتحقق من حفظ التغييرات.
+Commit Status:  VERIFIED بالنسبة لتغييرات Notion وTrigger.
+Infrastructure Status:  NOT_YET_IMPLEMENTED؛ لا توجد في البيئة الحالية بنية مثبتة تشمل Queue/Workers/Locks/Leases/Durable Runtime/Watchdog مستقل.
+Cycle Status:  PARTIAL
+سبب PARTIAL:  تم إصلاح طبقة المواصفة وطبقة الـOrchestration الحالية، بينما التنفيذ الفعلي لبنية Runtime موزعة يحتاج مكونات مشروع حقيقية لم تُنشأ بعد.
+Next Work:  اختيار وبناء Runtime فعلي ثم اختبار Overlap/Lease، Duplicate Delivery، Unknown Outcome، Retry Storm، Queue Backpressure، Restart/Resume، Recovery، Observability، وDisaster Recovery.
+الحالة التنفيذية الحالية
+النطاق:  هندسة نظام الأتمتة المستمرة 24/7 نفسه.
+التشغيل المجدول:  تم إنشاء Trigger مخصص لهذا النظام بتكرار ساعي، دون نهاية مقصودة.
+ملاحظة تشغيلية:  هذا Trigger يطلق دورات منفصلة. لا يمثل Process حيًا واحدًا يعمل دون انقطاع.
+نتائج الفحص الحالي
+1. تم إصلاحه في مستوى المواصفة وطبقة الـOrchestration الحالية
+- إضافة مسار صريح  محدد في المواصفة والـTrigger  لمنع تداخل الدورات؛ التنفيذ الفعلي يحتاج Lock/Lease runtime.
+- إضافة  Retry Budget  كقاعدة تشغيلية؛ تطبيقه فعليًا يحتاج Runtime/worker policy.
+- إضافة  Exponential Backoff / Jitter  كسياسة.
+- إضافة  Circuit Breaker  كسياسة عند فشل dependency المستمر.
+- إضافة  Dead-Letter / Quarantine  كمسار معتمد للمهمات السامة أو الفشل الدائم.
+- إضافة  Backpressure  ومراقبة Queue Depth / Queue Age كمتطلبات.
+- اعتماد  at-least-once  كافتراض آمن بدل exactly-once على مستوى النظام.
+- إضافة  Visibility / Lease Timeout  وownership كمتطلبات للحمل قيد التنفيذ.
+- إضافة  Fairness / Aging  لمنع starvation عند الحاجة.
+- إضافة  Dual-Write Protection / Transactional Outbox  عندما ينطبق النمط.
+- تعزيز  Checkpoint / Resume / Durable Execution  كمتطلبات.
+- ربط  Logs + Metrics + Traces  بسياق تنفيذ مشترك كمتطلب observability.
+- إضافة  SLO / Alert Quality  كطبقة مستقلة.
+- تحديد  حدود الاستقلالية وHuman Approval .
+2. ما تم البحث عنه خارجيًا
+المراجعة استندت إلى مراجع حديثة من Microsoft Azure Architecture، Microsoft Durable Task، AWS Step Functions، AWS Prescriptive Guidance،  microservices.io ، OpenTelemetry، وGoogle SRE.
+3. الفجوة المتبقية
+البيئة الحالية توفر طبقة جدولة/محادثة وNotion للتوثيق، لكنها لا تثبت وحدها وجود Runtime موزع كامل يحتوي على Queue خدمة، Workers مستقلة، Locks/Leases فعلية، Durable Execution backend، Watchdog مستقل، أو Disaster-Recovery infrastructure.
+لذلك:
+Architecture Hardened ≠ Infrastructure Fully Implemented
+4. الأولويات التالية
+- تحديد Runtime الفعلي الذي سيشغّل Workers.
+- تحديد مصدر الحالة الدائمة المناسب.
+- تحديد Queue حقيقية ودعم DLQ/visibility/lease.
+- تحديد آلية concurrency control / distributed lock.
+- تحديد طبقة observability.
+- بناء اختبارات restart / resume / duplicate / timeout / unknown outcome.
+- اختبار recovery وfailure injection.
+- تحديد SLO وAlert Policies.
+- اختبار backup/restore وdisaster recovery.
+قاعدة الحالة
+إذا كان الإصلاح مطبقًا في المواصفة فقط، يوسم  SPECIFICATION_FIXED .
+إذا طُبق فعليًا في البنية التحتية وتحقق منه، يوسم  IMPLEMENTED_VERIFIED .
+إذا تعذر التطبيق بسبب نقص أداة أو بيئة، يوسم  BLOCKED .
+لا يجوز الخلط بين الحالات.
+مصادر المراجعة
+- Microsoft — Transient Fault Handling:  https://learn.microsoft.com/en-us/azure/architecture/best-practices/transient-faults
+- Microsoft — Circuit Breaker:  https://learn.microsoft.com/en-us/azure/architecture/patterns/circuit-breaker
+- Microsoft — Queue-Based Load Leveling:  https://learn.microsoft.com/en-us/azure/architecture/patterns/queue-based-load-leveling
+- Microsoft Durable Task:  https://learn.microsoft.com/en-us/azure/durable-task/common/what-is-durable-task
+- AWS Step Functions Redrive:  https://docs.aws.amazon.com/step-functions/latest/dg/redrive-executions.html
+- AWS Transactional Outbox:  https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/transactional-outbox.html
+- microservices.io  Transactional Outbox:  https://microservices.io/patterns/data/transactional-outbox
+- microservices.io  Idempotent Consumer:  https://microservices.io/patterns/communication-style/idempotent-consumer.html
+- OpenTelemetry:  https://opentelemetry.io/docs/what-is-opentelemetry/
+- Google SRE Monitoring:  https://sre.google/sre-book/monitoring-distributed-systems/
+دورة فحص وإصلاح — AUTO-CYCLE-0002 / EXECUTION-CHECK — 2026-09-26
+Trigger:  MANUAL EXECUTION OF CANONICAL DIRECTIVE
+Scope:  Central Automation Runtime فقط.
+Gap
+الفجوة الرئيسية ليست في تعريف المنهج، بل في الانتقال من المواصفة إلى Runtime فعلي قابل للاستمرارية والتعافي.
+Evidence
+- Trigger المركزي فعّال كل ساعة.
+- Render يضم الخدمة القائمة  umm-sarah-web  وقاعدة  central-automation-state-dev  المجانية.
+- لا توجد Key Value في الحساب.
+- إنشاء Branch معزول عبر GitHub integration مُنع بـ403.
+- الاتصال بقاعدة Render التجريبية محجوب لأن IP allowlist فارغة.
+- Render Workflows متاح كخيار معماري حديث يدير queueing/retry/compute on-demand.
+Alternatives considered
+Render Workflows؛ Render Background Worker + Key Value؛ Temporal؛ Cloudflare Workflows؛ Inngest؛ BullMQ + Redis/Valkey.
+Fix applied
+IMPLEMENTED_VERIFIED:  تحديث Trigger المركزي ليجبر كل دورة لاحقة على self-audit، deep research، alternative search، verification، precise Notion logging، وعدم تجاوز Billing/Permissions.
+SPECIFICATION_FIXED:  إضافة حدود الاستقلالية، تعريف البدائل، وفصل الإصلاح النصي عن التنفيذ الفعلي.
+Blockers
+- Billing prerequisite للموارد المدفوعة.
+- GitHub repository/branch write permission.
+- IP allowlist للوصول الخارجي إلى قاعدة Render التجريبية.
+Cycle Status
+PARTIAL
+Next Work
+تقييم Render Workflows، ثم إزالة أكبر blocker قابل للإزالة فعليًا دون المساس بالمشاريع القائمة، ثم بناء واختبار Runtime المركزي.
+قاعدة هذه الدورة:
+لا يوجد ادعاء Production 24/7 دون Compute دائم/مدار + حالة دائمة + تنفيذ قابل للاستئناف + تحقق فعلي.
+AUTO-CYCLE-0002 — 2026-09-26
+Trigger:  Manual execution of canonical directive.
+Gap:  الانتقال من المواصفة إلى Runtime فعلي قابل للاستئناف والتعافي.
+Verified:  Trigger المركزي فعّال؛ Render يحوي خدمة المشروع القائمة وقاعدة تطوير مجانية؛ لا توجد Key Value؛ GitHub branch isolation محجوب بـ403؛ اتصال DB محجوب بسبب IP allowlist.
+Fix:  تم تحديث Trigger ليطبق self-audit + deep research + alternative comparison + verification + Notion persistence، مع منع تجاوز Billing/Permissions.
+Alternatives researched:  Render Workflows؛ Background Worker + Key Value؛ Temporal؛ Cloudflare Workflows؛ Inngest؛ BullMQ + Redis/Valkey.
+Status:  PARTIAL.
+Next:  تقييم Render Workflows ثم إزالة أكبر blocker قابل للإزالة دون المساس بالمشاريع القائمة، ثم بناء واختبار Runtime المركزي.
+AUTO-CYCLE-0003 — PERSISTENCE / 2026-09-26
+Cycle_ID:  AUTO-CYCLE-0003
+Trigger:  MANUAL EXECUTION OF CANONICAL DIRECTIVE
+State Before:  PARTIAL; Central Runtime not deployed; production durable state blocked; repository isolation blocked.
+Gap:  غياب Runtime إنتاجي معزول وقابل للاستئناف بحالة دائمة.
+Evidence:  Render  central-automation-queue-dev  = AVAILABLE / FREE / noeviction / persistence off؛ GitHub branch  automation-runtime  creation still returns 403  Resource not accessible by integration ؛  umm-sarah-web  unchanged.
+Alternatives:  Render Workflows؛ Background Worker + durable Key Value/Postgres؛ Temporal؛ Cloudflare Workflows؛ Inngest.
+Decision:  KEEP + VALIDATE؛ لا تغيير نهائي للبنية في هذه الدورة.
+Fix Applied:  تم تثبيت الحالة الحالية في سجل التدقيق. Queue التجريبية تعامل DEV_ONLY / NON-DURABLE.
+Verification:  تم التحقق من موارد Render، واختبار GitHub isolation مجددًا، وإعادة قراءة سجل الحالة بعد التحديث.
+Commit_Status:  VERIFIED بعد نجاح حفظ هذا السجل وإعادة قراءته.
+Blockers:  Billing؛ GitHub repository isolation؛ عدم توفر أداة Render Workflows provisioning مباشرة ضمن الأدوات الحالية.
+State After:  PARTIAL / CENTRAL_RUNTIME NOT_DEPLOYED / DEV_QUEUE AVAILABLE BUT NON-DURABLE / PROJECTS_TOUCHED=NONE.
+Next Work:  repository مستقل قابل للكتابة → durable production state → بناء Runtime معزول → اختبارات Lease/Ownership وDuplicate/UNKNOWN/Retry/Backpressure/Restart/Resume/Recovery/Observability/DR.
+Cycle Status:  PARTIAL
+AUTO-CYCLE-0004 — CORRECTION + ALTERNATIVE VALIDATION / 2026-09-26
+Trigger:  MANUAL EXECUTION OF CANONICAL DIRECTIVE
+Scope:  Central Automation Runtime فقط.
+Verified Change
+تم تصحيح معلومة Render Workflows في السجل: احتفاظ حالة Workflow هو  3 أيام على Free  و 30 يومًا على Paid  وفق الوثائق الحالية، وليس 30 يومًا عمومًا.
+Current Alternative Findings
+- Oracle Cloud Always Free:  موارد Compute مستمرة ضمن الحدود المجانية؛ Ampere A1 بإجمالي 2 OCPU و12 GB RAM، و200 GB Block Volume في Home Region. يوجد احتمال استعادة الأجهزة الخاملة وفق معايير الخمول، ومعظم التسجيلات تتطلب هاتفًا وبطاقة، مع عدم شحن البطاقة ما لم تتم الترقية.
+  Classification:  Always Free Infrastructure / Core Runtime Candidate .
+- Cloudflare Workflows:  Free متاح، مع 3,000 steps/day و1 GB-month state و10 ms CPU/step على Free، و100 concurrent instances، و3 أيام احتفاظ لحالة الـWorkflow المكتمل على Free.
+  Classification:  $0/month / Free Tier محدود / Durable Orchestration Candidate .
+- Google Cloud Free Tier:  e2-micro واحدة شهريًا في مناطق أمريكية محددة + 30 GB-month Standard Persistent Disk، مع اشتراط Billing Account.
+  Classification:  Free Tier محدود / Small Runtime Candidate .
+- GitHub Actions:  مناسب كScheduler/CI في Public Repository، وليس Live Worker مركزيًا.
+Verified Execution
+- Automation Trigger المركزي:  ENABLED / HOURLY .
+- مستودع AhmedMar98/Umm-sara: لا يوجد branch باسم automation-runtime.
+- قائمة المستودعات المتاحة عبر GitHub integration الحالية: لا توجد نتائج.
+- umm-sarah-web وmain: لم يمسا.
+- لا موارد مدفوعة أُنشئت، ولا تم تجاوز Billing/Permissions.
+Architecture Decision
+Core candidate:  Oracle Always Free.
+Trigger candidate:  GitHub Actions أو Cloudflare Cron.
+Optional orchestration:  Cloudflare Workflows.
+القرار النهائي ما زال  NOT_IMPLEMENTED / VALIDATION REQUIRED .
+Blockers
+Repository Isolation؛ Production Durable Runtime؛ أدوات نشر مباشرة لـOracle/Cloudflare غير متاحة هنا؛ Render operations تتطلب اختيار workspace صريح في هذه الجلسة.
+Cycle Status:  PARTIAL
+AUTO-CYCLE-0008 — FULL CURRENT-STATE RECONCILIATION / 2026-09-26
+Cycle_ID:  AUTO-CYCLE-0008
+Trigger:  MANUAL EXECUTION OF CANONICAL DIRECTIVE
+Scope:  Central Automation Runtime only.
+State Before
+- AUTOMATION_TRIGGER: ENABLED / HOURLY.
+- CENTRAL_RUNTIME: NOT_DEPLOYED.
+- PRODUCTION_DURABLE_STATE: BLOCKED.
+- REPOSITORY_ISOLATION: BLOCKED.
+- DEV_QUEUE: AVAILABLE / FREE / NON-DURABLE.
+- DEV_STATE_DB: AVAILABLE / FREE / IP allowlist empty.
+- Project runtime umm-sarah-web: unchanged.
+PRE-FLIGHT / OVERLAP CHECK
+- Verified there were two enabled tasks with the same title "تحقق دوري من بدائل Runtime المجانية": one weekly and one hourly.
+- This was an operational overlap for the same research purpose.
+- The hourly duplicate was safely disabled; the weekly task was retained as the canonical periodic research task.
+- Reverification confirmed the duplicate is disabled and the weekly task remains enabled.
+Highest-Value Gap
+The highest-value unresolved gap remains a production-grade, repository-isolated Central Runtime with durable state, durable queue, workers, ownership/lease, recovery, and observability.
+Deep Research — Current Independent Alternatives
+Oracle Cloud Always Free
+Oracle states that Always Free resources are free for the life of the account in the tenancy's home region. The Always Free compute allowance includes up to 1,500 OCPU-hours and 9,000 GB-hours per month for Ampere A1, equivalent to 2 OCPUs and 12 GB RAM, plus 200 GB total Block Volume. Oracle documents capacity limits and possible out-of-host-capacity errors for Always Free shapes.
+Classification:  Always Free Infrastructure / Core Runtime Candidate.
+Source:  https://docs.oracle.com/en-us/iaas/Content/FreeTier/freetier_topic-Always_Free_Resources.htm
+Cloudflare Workers + Workflows
+Cloudflare documents Workers Free at $0 with 100,000 requests/day, and Workflows available on Free and Paid. Current Workflows Free limits include 3,000 steps/day, 1 GB-month state, 10 ms CPU per step, 100 concurrent running instances, 1,024 steps per workflow, 100 MB persisted state per workflow instance, 100,000 executions/day, and 3-day completed-instance retention. A Workflow instance can remain active indefinitely when individual steps obey their limits.
+Classification:  $0/month / Free Tier limited / Durable Orchestration Candidate; not a general-purpose VM replacement.
+Sources:  https://developers.cloudflare.com/workflows/reference/pricing/  and  https://developers.cloudflare.com/workflows/reference/limits/
+GitHub Actions
+GitHub documents standard hosted runners as free and unlimited for public repositories, but each hosted job uses a fresh runner. Scheduled workflows run from the default branch and can run as often as every 5 minutes. GitHub also documents self-hosted runners as free to use while the operator bears the machine cost; self-hosted runners do not require a clean instance per job and can run on cloud VMs.
+Classification:  Scheduler/CI/Orchestration layer; not the Central Runtime by itself.
+Sources:  https://docs.github.com/en/billing/concepts/product-billing/github-actions  ;  https://docs.github.com/en/actions/reference/runners/github-hosted-runners  ;  https://docs.github.com/en/actions/concepts/runners/self-hosted-runners  ;  https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax
+Google Cloud Free Tier
+Google documents one e2-micro instance per month in supported US regions plus 30 GB-month standard persistent disk. The allowance is time-based and shared across eligible e2-micro instances. This is a limited Free Tier path, not an unrestricted always-free VM, and the account model requires a billing account.
+Classification:  Free Tier limited / Small Runtime Candidate.
+Source:  https://docs.cloud.google.com/free/docs/free-cloud-features
+AWS Free Tier
+AWS currently offers up to $200 in credits for new customers with a six-month free-plan window, with the account closing after six months or credit exhaustion unless converted to Paid.
+Classification:  Trial/Credit only / not an Always Free Production Runtime path.
+Source:  https://aws.amazon.com/free/
+Evidence / Interpretation / Inference
+FACT:  Duplicate research trigger existed and was corrected without affecting unrelated automations.
+EVIDENCE:  Automation state before and after the update; current schedule inventory.
+FACT:  Oracle Always Free remains a viable compute candidate within explicit published limits.
+FACT:  Cloudflare Workflows Free is durable but bounded by explicit daily, concurrency, state, CPU, and retention limits.
+FACT:  GitHub Actions is a scheduler/execution layer; self-hosted runners require operator-managed compute.
+INTERPRETATION:  The strongest no-monthly-subscription architecture currently remains a split control-plane/runtime model: GitHub Actions or Cloudflare Cron as trigger layer + Oracle Always Free as candidate core runtime, subject to practical deployment testing.
+INFERENCE:  GitHub Actions should not be treated as the persistent runtime; the persistent runtime should live on independently managed compute or a durable workflow platform.
+Decision
+KEEP + VALIDATE.
+- Retain Oracle Always Free as the primary Core Runtime candidate.
+- Retain Cloudflare Workflows as a secondary orchestration candidate.
+- Retain GitHub Actions as Scheduler/CI/trigger layer.
+- Do not promote Google/AWS to the primary architecture under the current no-monthly-subscription requirement.
+- Do not modify umm-sarah-web, main, or any unrelated project.
+Fix Applied
+IMPLEMENTED_VERIFIED:  Removed the duplicate hourly free-runtime research trigger while preserving the weekly canonical research task.
+IMPLEMENTED_VERIFIED:  Confirmed central automation trigger remains enabled hourly.
+SPECIFICATION_FIXED:  Updated the current operational assessment with independently verified 2026 platform constraints.
+Verification
+- Automation inventory rechecked after duplicate removal.
+- Render service inventory verified: umm-sarah-web remains Free, on main, unchanged.
+- Render Postgres inventory verified: central-automation-state-dev remains AVAILABLE / FREE with empty IP allowlist.
+- Render Key Value inventory verified: central-automation-queue-dev remains AVAILABLE / FREE / persistence off.
+- GitHub repository metadata verified for AhmedMar98/Umm-sara; branch search for automation-runtime returned no branches.
+- Notion pages re-fetched before commit.
+Commit_Status
+VERIFIED  for this Notion cycle log and the duplicate-trigger correction.
+Infrastructure:  PARTIAL / NOT_IMPLEMENTED.
+Blockers
+- Repository isolation still blocked by the current GitHub integration's inability to create the dedicated Runtime branch/repository path.
+- Oracle/Cloudflare deployment connectors are not available in the current tool environment; no deployment is claimed.
+- Render production durability remains blocked by billing requirements; no paid resource was created.
+- Render dev DB remains inaccessible through the current database query path because its IP allowlist is empty.
+State After
+AUTOMATION_TRIGGER = ENABLED / HOURLY
+FREE_RUNTIME_RESEARCH = ONE CANONICAL WEEKLY TASK ENABLED; DUPLICATE HOURLY TASK DISABLED
+CENTRAL_RUNTIME = NOT_DEPLOYED
+PRODUCTION_DURABLE_STATE = BLOCKED
+REPOSITORY_ISOLATION = BLOCKED
+DEV_QUEUE = AVAILABLE / NON-DURABLE
+PROJECTS_TOUCHED = NONE
+SYSTEM_STATUS = PARTIAL
+Next Work
+- Obtain a repository path that can be isolated and written without touching existing project code.
+- Test Oracle Always Free or Cloudflare Workflows through an actually available deployment path.
+- Build a minimal isolated runtime: trigger + persistent state + queue + worker + idempotency + retry/backoff + lease/ownership.
+- Execute failure tests: restart/resume, duplicate delivery, UNKNOWN outcome reconciliation, retry storm, backpressure, watchdog recovery, and observability.
+- Do not claim Production 24/7 until execution, verification, persistence, and recovery are all demonstrated.
+Cycle Status:  PARTIAL
+CURRENT-SCOPE-RECONCILIATION — CURRENT PAID-RUNTIME DECISION / 2026-09-26
+Record_ID:  MANUAL-SCOPE-RECONCILIATION-2026-09-26
+Scope:  Central Automation Runtime only.
+Verified Decision Changes
+- Oracle Cloud:  EXCLUDED  by explicit user decision.
+- Cloudflare:  EXCLUDED  by explicit user decision.
+- Free-only / no-monthly-subscription constraint:  SUPERSEDED ; paid infrastructure is now acceptable.
+- Objective:  radical architectural solution  with minimum practical cost and maximum operational efficiency.
+- Existing business projects/repos/main remain out of scope for runtime hosting and must not be modified to bypass isolation.
+Revised Architecture
+Independent paid VPS + PostgreSQL-centered runtime.
+Baseline components:
+- Orchestrator / Scheduler
+- Workers
+- PostgreSQL for persistent state  and  durable queue
+- Lease / Ownership
+- Idempotency
+- Retry Budget + Backoff/Jitter
+- Reconciliation
+- Watchdog / Health Checks
+- Reverse Proxy
+- Backup / Restore
+Redis is not a mandatory baseline component.  PostgreSQL documents  SKIP LOCKED  for queue-like multi-consumer access and advisory locks for application-defined resource locking. This reduces component count and resource overhead for the initial runtime.
+Cost Evidence
+- netcup VPS Lite 1 G12s: 2 vCore / 4 GB / 80 GB SSD, €4.88/month incl. 19% VAT on the current published page; strict cost floor.
+- netcup VPS 500 G12: 2 vCore / 4 GB DDR5 ECC / 128 GB NVMe, €5.91/month incl. 19% VAT; hourly billing and no selectable minimum contract term; current cost-efficiency candidate for a database-centric runtime.
+- Hetzner CX23: 2 vCPU / 4 GB / 40 GB, €5.49/month excluding VAT in Germany/Finland, before optional IPv4.
+- Contabo Cloud VPS 4: 4 vCPU / 8 GB / 100 GB SSD, €5.50/month for the first 24 months on the current offer.
+Provider status:  CANDIDATES ONLY / preferred candidate not yet implemented or deployment-tested.
+Critical Corrections
+- A provider with more CPU/RAM for a temporary promotional price must not automatically be considered the long-term most efficient choice.
+- A single VPS provides a persistent runtime but remains a single point of failure; backups and restore tests are mandatory, while true HA is a later expansion.
+- PostgreSQL-centered state/queue is the current cost-efficiency baseline; Redis should be introduced only after measured need.
+- No Production 24/7 claim is allowed before deployment, persistence, recovery, and failure tests are verified.
+Current Status
+CENTRAL_RUNTIME:  NOT_DEPLOYED
+PROVIDER:  NOT_FINALIZED
+PRODUCTION_DURABLE_STATE:  NOT_IMPLEMENTED
+REPOSITORY_ISOLATION:  NOT_RESOLVED
+PROJECTS_TOUCHED:  NONE
+SYSTEM_STATUS:  PARTIAL
+Automation Alignment Gap
+The central hourly automation is currently enabled. Its stored prompt still contains the older no-monthly-subscription research constraint. This is recorded as a  SPECIFICATION_CONFLICT / UNRESOLVED  and was intentionally not changed in this cycle because no explicit external automation-setting change was authorized.
+Next Work
+Select the smallest paid VPS that passes the actual workload and recovery tests; then deploy an isolated runtime and verify queue/state/lease/idempotency/retry/reconciliation/watchdog/backup-restore behavior.
+Sources
+- https://www.netcup.com/de/server/vps-lite
+- https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/
+- https://contabo.com/en-us/pricing/
+- https://www.postgresql.org/docs/18/functions-admin.html
+- https://www.postgresql.org/docs/18/mvcc.html
+- https://docs.docker.com/compose/how-tos/startup-order/
+- https://docs.docker.com/reference/compose-file/deploy/
+- https://www.postgresql.org/docs/18/continuous-archiving.html
+Cycle Status:  PARTIAL
+CURRENT-SCOPE-RECONCILIATION-02 — PROVIDER + SECURITY VALIDATION / 2026-09-26
+Verified Provider Evidence
+- netcup VPS 500 G12: 2 vCore x86 / 4 GB DDR5 ECC / 128 GB NVMe / €5.91 incl. 19% VAT monthly starting price; hourly billing is available on regular VPS plans. citeturn281845search1
+- netcup VPS Lite 1 G12s: 2 vCore / 4 GB / 80 GB SSD / €4.88 incl. VAT on overview; actual 6-month IPv4 configuration currently shows €5.86 incl. VAT. citeturn936188search0turn936188search1
+- Hetzner CX23: €5.49/month excl. VAT plus €0.50/month excl. VAT for primary IPv4. citeturn486780search3turn281845search2
+- Contabo Cloud VPS 4: 4 vCPU / 8 GB / 100 GB SSD / €5.50 effective monthly rate for first 24 months. citeturn617743search0
+- IONOS VPS M+: 2 vCores / 4 GB / 120 GB NVMe, $4/month for 3 months on a 1-year term; regular displayed price $11/month. citeturn617743search1
+- Hostinger KVM 2: 2 vCPU / 8 GB / 100 GB NVMe, $8.99/month with renewal at $14.99/month for 2 years. citeturn617743search7
+Security Correction
+A central worker process without hard boundaries is a failure-amplification and security risk. Docker documents resource limits through cgroups, rootless mode, and user namespaces. Therefore worker isolation is now a formal requirement, not an optional optimization. citeturn919355search1turn919355search3turn919355search7turn919355search8
+Decision
+PAID VPS + PostgreSQL-CENTERED RUNTIME + ISOLATED EXECUTION PLANE.
+netcup VPS 500 G12 is the preferred cost-efficiency candidate pending checkout/payment and deployment tests; VPS Lite 1 remains the cost-floor option.
+Outstanding Blockers
+- Actual provider checkout/payment from the user's environment is unverified.
+- Isolated Runtime repository path remains unresolved in the current GitHub connector environment.
+- No VPS provisioning connector is available here.
+- Backup/restore and failure-recovery behavior remain untested.
+Status:  PARTIAL

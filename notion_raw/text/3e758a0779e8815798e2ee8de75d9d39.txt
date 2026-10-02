@@ -1,0 +1,53 @@
+# 🧪 Pre-Claude Repair Audit — v4.0 → v4.1 Candidate
+Status
+Pre-Claude repair completed against the current v4.0 Candidate. v4.0 remains unchanged as historical baseline.
+Evidence Base
+- Current v4.0 prompt was read in full from the uploaded file.
+- Canonical Registry currently has no Approved Prompt.
+- Existing Version Registry already records v4.0 as Candidate and lists remaining gaps: frontier/stopping semantics, Entity Resolution discovery blind spot, runtime request mutation, price-decision policy, branch control, and freshness semantics.
+- External research was used to validate the repair directions, not to replace project-specific evidence.
+Repairs Applied in v4.1 Candidate
+1. Runtime scope lock
+User objective, constraints, price ceiling, target region, required attributes, and comparison basis are immutable for the run. Discoveries can create branches/hypotheses but cannot silently redefine the request.
+2. Run Contract and action-level auditability
+Each run now requires Run ID, prompt version, scope, evidence standard, complexity class, budget, coverage obligations, and known tool limits. Each Research Action must record its exact query/target, method, timestamp, branch, yield, retrieval status, affected objects, selection rationale, next-state effect, and budget debit.
+3. Evidence integrity
+Search snippets/previews/cached summaries are explicitly downgraded to lead/context unless the underlying source is unavailable. Material claims should rely on directly retrieved source content or structured first-party evidence whenever possible.
+4. Freshness semantics
+Freshness is separated from price-evidence strength. A directly observed price may be Freshness=Unknown without creating a semantic contradiction. Live transactional states can support Current when there is no material staleness signal; recent observation alone is not sufficient when archival/stale signals exist.
+5. Guarantee semantics
+“No Documented Guarantee” is now allowed only after the relevant accessible terms/offer documentation were actually reviewed. Retrieval failure or incomplete access yields Unknown.
+6. Transaction verification
+Performed-and-Evidenced now requires an actual authorized transaction/test with date, offer, amount, fees, outcome, and evidence. Reading a page never counts as transaction verification.
+7. Entity Resolution candidate-generation blind spot
+A Stage 0 candidate-generation layer was added. Blocking is explicitly a search-space reduction mechanism, not a non-match decision. High-value candidates without shared blocking signals remain eligible for deeper resolution.
+8. Coverage obligations
+The controller remains adaptive, but objective-driven coverage groups must be seeded so one highly productive discovery family cannot mask an unsearched materially relevant route. This is coverage protection, not equal-depth quota.
+9. Search strategy diversity
+Near-duplicate queries no longer count as meaningful exploration. Reformulation must change a material dimension such as terminology, role, channel, language, market, SKU, or seed.
+10. Search budget control
+Run complexity classes C1–C4 now have disclosed default action caps and a shared reserve. A hypothesis receives a minimum exploration floor when budget permits. A single branch is capped at 35% unless it is Critical for a live contradiction/headline claim.
+11. Stopping states
+Branch termination is now explicitly distinguished as Saturated, Retrieval-Limited, Budget-Limited, or Scope-Excluded. Retrieval and budget limits are never mislabeled as saturation.
+12. Exclusion handling
+Excluded entities are quarantined from commercial ranking and upstream inference but preserved in the research record, preventing loss of audit history and reducing false-positive damage.
+13. Effective acquisition cost
+Known mandatory taxes/charges are added explicitly; unknown mandatory components remain Unknown and never become zero.
+14. Output audit record
+Every run now ends with established facts, unresolved items, inaccessible routes, exclusions, counter-evidence survival, stopping rationale, unsearched material routes, potential conclusion-changing evidence, scope expansions, and tool limitations.
+Architectural Alternatives Reviewed
+- Monolithic v4.x with explicit control contracts and stronger state semantics.
+- Split Controller + Evidence Ledger architecture, with orchestration externalized from the research prompt.
+- Parallel specialist agents (discovery, verification, entity resolution, pricing) sharing a structured evidence graph.
+For the current  z.ai/Notion  setup, the first approach is the least disruptive; the second is the stronger longer-term architecture if external orchestration and persistent state become available. The third adds complexity and coordination cost and should be justified by measured workload, not assumed.
+External Research Signals
+DeepSearchQA explicitly evaluates multi-step research on systematic collation, deduplication/entity resolution, and stopping criteria, and reports persistent weaknesses in balancing recall and precision. BrowseComp similarly emphasizes persistence, strategic browsing, and synthesis across many sites. Current provenance work on LLM agents emphasizes claim-level evidence tracing and execution provenance rather than final-answer accuracy alone. Entity-resolution literature warns that early blocking can lose true matches, making blocking recall a real error surface. These findings support the v4.1 repair directions above.
+Remaining Governance Gap
+The current Canonical Registry promotion gate requires Candidate.Parent Version ID to equal the current Approved Version ID, but the registry currently has no Approved Prompt. This makes first approval impossible without a bootstrap exception.
+Proposed rule — NOT AUTO-APPROVED:
+When no Approved Prompt exists, the first approval may promote a Candidate that passes the required review/tests and is explicitly approved by the user, provided its parent is the latest validated lineage candidate. After the first approval, the normal Parent=Current Approved rule applies.
+This must remain an Open Governance Decision until the user approves it.
+Pre-Claude Position
+v4.0 should not be sent to Claude as the sole baseline anymore. The current object for validation should be v4.1 Candidate, while v4.0 remains the historical comparator. Claude's role is now to independently test the repaired candidate and try to break it.
+Next Handoff
+Send Claude the dedicated validation brief for v4.1. Do not request Notion edits. Return the full test, findings, counter-evidence, regression results, and any new repair candidate.

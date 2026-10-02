@@ -1,0 +1,7 @@
+[
+  { "action_id": "A072", "branch": "BR-OFFICIAL-ANCHORS", "sku_id": "SKU-SUB-001", "objective": "FINAL RETRY (A003/A014/A057 failed): Spotify official price — news construction", "discovery_family": "Product-first (official publisher)", "method": "official-anchor-final", "query": "Spotify Premium individual plan monthly price 2026" },
+  { "action_id": "A073", "branch": "BR-OFFICIAL-ANCHORS", "sku_id": "SKU-GC-003", "objective": "FINAL RETRY (A008/A016/A055 failed): Google Play $25 — direct retail construction", "discovery_family": "Product-first (retail anchor)", "method": "retail-anchor-final", "query": "Google Play gift card $25 price buy" },
+  { "action_id": "A074", "branch": "BR-OFFICIAL-ANCHORS", "sku_id": "SKU-TOP-002", "objective": "FINAL RETRY: Free Fire 520 diamonds price", "discovery_family": "Product-first (official publisher)", "method": "official-anchor-final", "query": "Free Fire 520 diamonds $4.99 top up" },
+  { "action_id": "A075", "branch": "BR-ENTITY-RESOLUTION", "sku_id": null, "objective": "FINAL RETRY (A058 failed): Turgame / Definite Play entity resolution", "discovery_family": "Domain/Entity-first", "method": "entity-resolution-final", "query": "\"Definite Play\" turgame Turkish digital games platform" },
+  { "action_id": "A076", "branch": "BR-B2B-API", "sku_id": "SKU-TOP-001", "objective": "FINAL RETRY (A039/A063/A069 failed): DT One B2B verification", "discovery_family": "B2B/Catalog (API-first)", "method": "b2b-verify-final", "query": "DT One dtone.com mobile top up gift card API platform" }
+]

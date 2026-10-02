@@ -1,0 +1,431 @@
+{
+ "capture_reason": "NEWLY_ACCESSIBLE",
+ "captured_at": "2026-10-02T12:16:49+03:00",
+ "title": "Case — QuickBooks ProAdvisor + Product Trial",
+ "last_edited": "2026-09-25T20:02:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e658a07-79e8-819d-8111-c860ff77ba68",
+  "created_time": "2026-09-25T20:01:00.000Z",
+  "last_edited_time": "2026-09-25T20:02:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "a87d8f7b-de51-419c-aa6d-90b81e0d7b21"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "Context": {
+    "id": "%3BcyS",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Accounting software where external accounting professionals can influence software choice and ongoing administration.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Accounting software where external accounting professionals can influence software choice and ongoing administration.",
+      "href": null
+     }
+    ]
+   },
+   "Situation": {
+    "id": "Dqr%7D",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "QuickBooks offers a 30-day free trial for QuickBooks Online and maintains a ProAdvisor program for accounting, bookkeeping, tax, and consulting professionals. The current ProAdvisor program includes training/resources and marketing-related benefits; recent program changes also tie points/rewards to client product activity.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "QuickBooks offers a 30-day free trial for QuickBooks Online and maintains a ProAdvisor program for accounting, bookkeeping, tax, and consulting professionals. The current ProAdvisor program includes training/resources and marketing-related benefits; recent program changes also tie points/rewards to client product activity.",
+      "href": null
+     }
+    ]
+   },
+   "Entity Link": {
+    "id": "ElSP",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "3e658a07-79e8-8136-943c-f8f069e6f763"
+     }
+    ],
+    "has_more": false
+   },
+   "Evidence Links": {
+    "id": "FYu%3A",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "3e658a07-79e8-8155-815e-d2a7e6ac7b44"
+     },
+     {
+      "id": "3e658a07-79e8-81e2-a26c-fa8f3976eef5"
+     }
+    ],
+    "has_more": false
+   },
+   "Market": {
+    "id": "LVaJ",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Global / US program evidence",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Global / US program evidence",
+      "href": null
+     }
+    ]
+   },
+   "Constraints": {
+    "id": "MgJ%7D",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Program benefits and commercial terms can vary by market and change over time; trial availability and pricing are offer-dependent.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Program benefits and commercial terms can vary by market and change over time; trial availability and pricing are offer-dependent.",
+      "href": null
+     }
+    ]
+   },
+   "Confidence": {
+    "id": "Mhr%5B",
+    "type": "select",
+    "select": {
+     "id": "e872a95c-be8c-4dea-83d7-6192450960df",
+     "name": "High",
+     "color": "green"
+    }
+   },
+   "Segment": {
+    "id": "S%7Cat",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Small businesses + accountants / bookkeeping / tax / consulting professionals",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Small businesses + accountants / bookkeeping / tax / consulting professionals",
+      "href": null
+     }
+    ]
+   },
+   "Observed Outcome": {
+    "id": "TDBm",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Documented capability: a direct trial path exists alongside a structured professional channel. Public sources reviewed here do not provide a controlled comparison of conversion or CAC by channel.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Documented capability: a direct trial path exists alongside a structured professional channel. Public sources reviewed here do not provide a controlled comparison of conversion or CAC by channel.",
+      "href": null
+     }
+    ]
+   },
+   "Objective": {
+    "id": "UwXv",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Combine professional influence with direct product evaluation and subscription conversion.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Combine professional influence with direct product evaluation and subscription conversion.",
+      "href": null
+     }
+    ]
+   },
+   "Status": {
+    "id": "WKe%3B",
+    "type": "status",
+    "status": {
+     "id": "6b06f923-0b48-4a06-b0f5-de1916f018c1",
+     "name": "تم",
+     "color": "green"
+    }
+   },
+   "Evidence References": {
+    "id": "gCUd",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "QuickBooks Free Trial; ProAdvisor Benefits and Tiers.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "QuickBooks Free Trial; ProAdvisor Benefits and Tiers.",
+      "href": null
+     }
+    ]
+   },
+   "Date": {
+    "id": "jpdJ",
+    "type": "date",
+    "date": {
+     "start": "2026-09-25",
+     "end": null,
+     "time_zone": null
+    }
+   },
+   "Channels": {
+    "id": "vZLG",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Free trial, accountant/professional partner channel, referrals, training, marketing tools.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Free trial, accountant/professional partner channel, referrals, training, marketing tools.",
+      "href": null
+     }
+    ]
+   },
+   "Mechanism": {
+    "id": "xauN",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Run a dual-path acquisition system: self-service product trial for end users plus accountant/professional ecosystem incentives, enablement, and referrals.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Run a dual-path acquisition system: self-service product trial for end users plus accountant/professional ecosystem incentives, enablement, and referrals.",
+      "href": null
+     }
+    ]
+   },
+   "Name": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Case — QuickBooks ProAdvisor + Product Trial",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Case — QuickBooks ProAdvisor + Product Trial",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/Case-QuickBooks-ProAdvisor-Product-Trial-3e658a0779e8819d8111c860ff77ba68",
+  "public_url": null,
+  "archived": false,
+  "request_id": "9f7dde2c-5553-4e5d-a795-8272d2a74081"
+ },
+ "block_count": 9,
+ "blocks": [
+  {
+   "id": "301d1a8f-b6e3-4df5-9c85-edc506f60aad",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Evidence summary"
+   ],
+   "created": "2026-09-25T20:01:00.000Z",
+   "edited": "2026-09-25T20:01:00.000Z"
+  },
+  {
+   "id": "d934ac74-b539-4d02-a878-cd33ccbfeeb1",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "QuickBooks documents a 30-day free trial for QuickBooks Online, allowing prospective customers to test the product before subscription.[1]"
+   ],
+   "created": "2026-09-25T20:01:00.000Z",
+   "edited": "2026-09-25T20:01:00.000Z"
+  },
+  {
+   "id": "4789dd69-7b0e-4eb8-bbb1-dab3750c1f45",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Intuit's current ProAdvisor documentation describes the program as serving accounting, bookkeeping, tax, and consulting professionals, with training, resources, marketing tools, and other benefits. The August 2026 update also describes changes intended to strengthen the relationship with accountants and lists marketing-related tools and client-engagement resources for qualifying tiers.[2]"
+   ],
+   "created": "2026-09-25T20:01:00.000Z",
+   "edited": "2026-09-25T20:01:00.000Z"
+  },
+  {
+   "id": "fa158c79-2e62-4465-a8ab-9c7baa4c4671",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Analytical interpretation"
+   ],
+   "created": "2026-09-25T20:01:00.000Z",
+   "edited": "2026-09-25T20:01:00.000Z"
+  },
+  {
+   "id": "25a76ffc-a2d5-483f-95e5-0ca9dea42b03",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Insight: QuickBooks separates two acquisition mechanisms that can reinforce each other: direct product evaluation and trusted professional influence."
+   ],
+   "created": "2026-09-25T20:01:00.000Z",
+   "edited": "2026-09-25T20:01:00.000Z"
+  },
+  {
+   "id": "456eb4ba-d185-4446-a8d5-793cfe4e5a3c",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Evidence boundary"
+   ],
+   "created": "2026-09-25T20:01:00.000Z",
+   "edited": "2026-09-25T20:01:00.000Z"
+  },
+  {
+   "id": "657bfdd8-b014-48d3-98c1-165a3e6c48fa",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "The public evidence verifies the mechanisms. It does not, by itself, establish that one path produces better unit economics or conversion than the other."
+   ],
+   "created": "2026-09-25T20:01:00.000Z",
+   "edited": "2026-09-25T20:01:00.000Z"
+  },
+  {
+   "id": "df85abaf-8cca-46f4-8fd0-b90380f9be51",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Candidate reusable pattern"
+   ],
+   "created": "2026-09-25T20:01:00.000Z",
+   "edited": "2026-09-25T20:01:00.000Z"
+  },
+  {
+   "id": "b1de2dde-1f4c-45da-a972-d57c4945202c",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Dual-path Acquisition: Product Trial + Professional Influence — pending cross-company synthesis."
+   ],
+   "created": "2026-09-25T20:01:00.000Z",
+   "edited": "2026-09-25T20:01:00.000Z"
+  }
+ ]
+}

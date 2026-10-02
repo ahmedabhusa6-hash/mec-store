@@ -1,0 +1,2339 @@
+{
+ "capture_reason": "CHANGED",
+ "title": "Accounting Systems — Knowledge Assets",
+ "schema": {
+  "object": "database",
+  "id": "3452c1e8-f4e9-42da-8ce9-52a4556479a9",
+  "cover": null,
+  "icon": null,
+  "created_time": "2026-09-25T21:50:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_time": "2026-09-25T21:50:00.000Z",
+  "title": [
+   {
+    "type": "text",
+    "text": {
+     "content": "Accounting Systems — Knowledge Assets",
+     "link": null
+    },
+    "annotations": {
+     "bold": false,
+     "italic": false,
+     "strikethrough": false,
+     "underline": false,
+     "code": false,
+     "color": "default"
+    },
+    "plain_text": "Accounting Systems — Knowledge Assets",
+    "href": null
+   }
+  ],
+  "description": [
+   {
+    "type": "text",
+    "text": {
+     "content": "Canonical knowledge assets for systems, vendors, products, versions, rules, evidence synthesis, and classification.",
+     "link": null
+    },
+    "annotations": {
+     "bold": false,
+     "italic": false,
+     "strikethrough": false,
+     "underline": false,
+     "code": false,
+     "color": "default"
+    },
+    "plain_text": "Canonical knowledge assets for systems, vendors, products, versions, rules, evidence synthesis, and classification.",
+    "href": null
+   }
+  ],
+  "is_inline": false,
+  "database_type": null,
+  "properties": {
+   "Last Updated": {
+    "id": "%3C%7CV_",
+    "name": "Last Updated",
+    "description": null,
+    "type": "date",
+    "date": {}
+   },
+   "Supersedes": {
+    "id": "Cd%7Cr",
+    "name": "Supersedes",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Previous Version": {
+    "id": "DwYW",
+    "name": "Previous Version",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Context": {
+    "id": "FEE%60",
+    "name": "Context",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Provenance": {
+    "id": "MmAb",
+    "name": "Provenance",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Commit Status": {
+    "id": "NZGD",
+    "name": "Commit Status",
+    "description": null,
+    "type": "select",
+    "select": {
+     "options": [
+      {
+       "id": "667f0db6-ac37-421c-94d7-f7a54b21b086",
+       "name": "NOT_ATTEMPTED",
+       "color": "gray",
+       "description": null
+      },
+      {
+       "id": "2da18fda-e3e8-4211-ab79-d9d6a4ce24f1",
+       "name": "PREPARED",
+       "color": "yellow",
+       "description": null
+      },
+      {
+       "id": "d5b04a4b-75d6-4eb6-b608-11f9dc613adb",
+       "name": "COMMITTED",
+       "color": "blue",
+       "description": null
+      },
+      {
+       "id": "f355b096-7751-4d46-ae30-6c0290cf68ba",
+       "name": "VERIFIED",
+       "color": "green",
+       "description": null
+      },
+      {
+       "id": "92f6fe8b-48e1-405e-ba5d-cd34a9383994",
+       "name": "FAILED",
+       "color": "red",
+       "description": null
+      },
+      {
+       "id": "5711dcdf-6da9-4736-b2f6-5966b3868a1c",
+       "name": "RECONCILING",
+       "color": "orange",
+       "description": null
+      },
+      {
+       "id": "467b7607-b7e9-4c69-b50e-8722b38f21c0",
+       "name": "RETRY_REQUIRED",
+       "color": "purple",
+       "description": null
+      }
+     ]
+    }
+   },
+   "Knowledge ID": {
+    "id": "Qk%3Ai",
+    "name": "Knowledge ID",
+    "description": null,
+    "type": "unique_id",
+    "unique_id": {
+     "prefix": "ASK"
+    }
+   },
+   "Evidence Strength": {
+    "id": "Utca",
+    "name": "Evidence Strength",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Knowledge Type": {
+    "id": "W%5B%7Cb",
+    "name": "Knowledge Type",
+    "description": null,
+    "type": "select",
+    "select": {
+     "options": [
+      {
+       "id": "3151159f-7672-4be3-bfed-20e7849cb2bf",
+       "name": "SYSTEM_PROFILE",
+       "color": "blue",
+       "description": null
+      },
+      {
+       "id": "091d7c59-09cc-4ca4-8de4-5b62fc2b01b4",
+       "name": "VENDOR_PROFILE",
+       "color": "purple",
+       "description": null
+      },
+      {
+       "id": "22ce6663-2a61-4f82-bbb0-f3bf21b73caa",
+       "name": "PRODUCT_PROFILE",
+       "color": "green",
+       "description": null
+      },
+      {
+       "id": "fa3dbf81-1271-4e7e-ac30-07b08dd89a93",
+       "name": "PRODUCT_VERSION",
+       "color": "orange",
+       "description": null
+      },
+      {
+       "id": "57f11cb6-c92d-495a-ae28-070bf383a9f8",
+       "name": "CLASSIFICATION_RULE",
+       "color": "red",
+       "description": null
+      },
+      {
+       "id": "891e2bda-7609-4df3-b79c-dc2653fe5fc6",
+       "name": "TAXONOMY_NODE",
+       "color": "yellow",
+       "description": null
+      },
+      {
+       "id": "776a221a-df5d-46d8-b301-97095b4e6d40",
+       "name": "CLASSIFICATION_DECISION",
+       "color": "pink",
+       "description": null
+      },
+      {
+       "id": "89240d11-61b8-4953-890c-a7bcbfef5a27",
+       "name": "EVIDENCE_RECORD",
+       "color": "gray",
+       "description": null
+      },
+      {
+       "id": "8d43da12-ec13-455b-99d3-37471ec96bb2",
+       "name": "COMPARISON_RECORD",
+       "color": "brown",
+       "description": null
+      },
+      {
+       "id": "cc81f1af-dd51-4dde-a970-3213a76cabcc",
+       "name": "MARKET_DEFINITION",
+       "color": "default",
+       "description": null
+      },
+      {
+       "id": "292ba169-3c6b-4d51-a984-13f6d7986215",
+       "name": "CASE_STUDY",
+       "color": "blue",
+       "description": null
+      },
+      {
+       "id": "ea073715-ffd3-4487-b5b8-95a02b4b8403",
+       "name": "RESEARCH_QUESTION",
+       "color": "purple",
+       "description": null
+      },
+      {
+       "id": "c7a837b5-9cb6-4933-92a7-4bbe17ba3123",
+       "name": "DECISION_RULE",
+       "color": "green",
+       "description": null
+      },
+      {
+       "id": "749e8d33-b10d-4f15-8167-6bf31e737444",
+       "name": "CHANGE_RECORD",
+       "color": "orange",
+       "description": null
+      }
+     ]
+    }
+   },
+   "First Observed": {
+    "id": "XWwl",
+    "name": "First Observed",
+    "description": null,
+    "type": "date",
+    "date": {}
+   },
+   "Last Verified": {
+    "id": "%5BSQa",
+    "name": "Last Verified",
+    "description": null,
+    "type": "date",
+    "date": {}
+   },
+   "Conflict Status": {
+    "id": "%5Dstz",
+    "name": "Conflict Status",
+    "description": null,
+    "type": "select",
+    "select": {
+     "options": [
+      {
+       "id": "113fd8a1-8c36-4c1a-b9d1-427b4276343f",
+       "name": "NONE",
+       "color": "gray",
+       "description": null
+      },
+      {
+       "id": "eb17a8fd-34e5-4630-a0ef-6d3bae0b03bb",
+       "name": "OPEN",
+       "color": "red",
+       "description": null
+      },
+      {
+       "id": "dd08bf83-4284-4d77-96c0-74c8426b5f15",
+       "name": "PARTIALLY_RESOLVED",
+       "color": "yellow",
+       "description": null
+      },
+      {
+       "id": "7aea19b3-381d-43c6-98ab-a4ffb197797f",
+       "name": "RESOLVED",
+       "color": "green",
+       "description": null
+      }
+     ]
+    }
+   },
+   "Next Verification": {
+    "id": "%5EapH",
+    "name": "Next Verification",
+    "description": null,
+    "type": "date",
+    "date": {}
+   },
+   "Confidence": {
+    "id": "_%3Fu%3B",
+    "name": "Confidence",
+    "description": null,
+    "type": "select",
+    "select": {
+     "options": [
+      {
+       "id": "2d6a5322-8a85-4c9d-ba70-d1cc2b7ea5c1",
+       "name": "High",
+       "color": "green",
+       "description": null
+      },
+      {
+       "id": "74cc49b4-f390-437b-a7bf-2f79c34e2f02",
+       "name": "Medium",
+       "color": "yellow",
+       "description": null
+      },
+      {
+       "id": "748d849f-23ca-4dd2-9919-452a1fda433d",
+       "name": "Low",
+       "color": "orange",
+       "description": null
+      },
+      {
+       "id": "f3f1c11e-2b8e-4c22-a9f2-3d26e073b4c7",
+       "name": "Insufficient Evidence",
+       "color": "red",
+       "description": null
+      }
+     ]
+    }
+   },
+   "Applicability": {
+    "id": "_nS%3D",
+    "name": "Applicability",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Source Refs": {
+    "id": "l%3FxC",
+    "name": "Source Refs",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Claim": {
+    "id": "mTlQ",
+    "name": "Claim",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Superseded By": {
+    "id": "pbr%3A",
+    "name": "Superseded By",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Knowledge State": {
+    "id": "rl%3Ej",
+    "name": "Knowledge State",
+    "description": null,
+    "type": "select",
+    "select": {
+     "options": [
+      {
+       "id": "662dc023-ac97-4463-8d69-f8c0ae2a80e8",
+       "name": "DISCOVERED",
+       "color": "gray",
+       "description": null
+      },
+      {
+       "id": "1c56bcf8-37c7-404d-a0a9-8f7c9ca7fdcd",
+       "name": "TRIAGED",
+       "color": "yellow",
+       "description": null
+      },
+      {
+       "id": "93490efe-6daa-4bae-9105-6698106b0a23",
+       "name": "RESEARCHING",
+       "color": "blue",
+       "description": null
+      },
+      {
+       "id": "bdf6ec6e-492a-4585-a06e-f95bf8fcd9ab",
+       "name": "VALIDATING",
+       "color": "orange",
+       "description": null
+      },
+      {
+       "id": "2561cd5e-86e1-42de-8198-107e4d1777cf",
+       "name": "SYNTHESIZED",
+       "color": "purple",
+       "description": null
+      },
+      {
+       "id": "19ec0068-70f7-46b0-a9c6-3f2ebbdea949",
+       "name": "ACTIVE",
+       "color": "green",
+       "description": null
+      },
+      {
+       "id": "7decd6d9-12a1-4ee7-9f8b-8edd56b7d034",
+       "name": "CONTESTED",
+       "color": "yellow",
+       "description": null
+      },
+      {
+       "id": "b8482217-ddd0-4f0c-8374-042b68e5c3a6",
+       "name": "CONFLICTED",
+       "color": "red",
+       "description": null
+      },
+      {
+       "id": "5f446ea8-21fa-4d2c-8b28-05f1c47fa55a",
+       "name": "INSUFFICIENT_EVIDENCE",
+       "color": "brown",
+       "description": null
+      },
+      {
+       "id": "d95fa596-6623-4a46-88ad-01f802f7d814",
+       "name": "DUPLICATE",
+       "color": "gray",
+       "description": null
+      },
+      {
+       "id": "46d74515-dc8a-4e8f-8a74-814ba45a6fac",
+       "name": "OUTDATED",
+       "color": "orange",
+       "description": null
+      },
+      {
+       "id": "900855d1-aee9-45e7-bade-f08ea3159160",
+       "name": "SUPERSEDED",
+       "color": "brown",
+       "description": null
+      },
+      {
+       "id": "db681016-42bd-4e62-bc0c-be2cce8e6410",
+       "name": "REJECTED",
+       "color": "red",
+       "description": null
+      }
+     ]
+    }
+   },
+   "Last Verified State": {
+    "id": "ubW%3B",
+    "name": "Last Verified State",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Change Type": {
+    "id": "vUz%5D",
+    "name": "Change Type",
+    "description": null,
+    "type": "select",
+    "select": {
+     "options": [
+      {
+       "id": "5bf9509c-d100-44a5-8bfe-a8c01e833e36",
+       "name": "CREATED",
+       "color": "green",
+       "description": null
+      },
+      {
+       "id": "d929ba0a-9781-4fa2-8112-e69fd14c62d4",
+       "name": "CONFIRMED",
+       "color": "blue",
+       "description": null
+      },
+      {
+       "id": "6eff811f-b8bc-4113-a16d-05760e6a311c",
+       "name": "UPDATED",
+       "color": "yellow",
+       "description": null
+      },
+      {
+       "id": "76c5e76d-ce68-4bb8-ab93-d9a8bf17b144",
+       "name": "CORRECTED",
+       "color": "orange",
+       "description": null
+      },
+      {
+       "id": "8d46cbad-8114-4856-b4d7-d043779ecf84",
+       "name": "CONTEXTUALIZED",
+       "color": "purple",
+       "description": null
+      },
+      {
+       "id": "3d09ba64-ec12-4a97-9f90-3b468d987220",
+       "name": "DUPLICATED",
+       "color": "gray",
+       "description": null
+      },
+      {
+       "id": "f5884be9-f3e2-40d4-92a6-ff549fbc3d67",
+       "name": "SUPERSEDED",
+       "color": "brown",
+       "description": null
+      },
+      {
+       "id": "5512b406-cb7d-422b-95d4-9c4b8147a43f",
+       "name": "REJECTED",
+       "color": "red",
+       "description": null
+      }
+     ]
+    }
+   },
+   "Research Refs": {
+    "id": "vc%5B%3D",
+    "name": "Research Refs",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Last Changed By Cycle": {
+    "id": "vlxp",
+    "name": "Last Changed By Cycle",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Created By Cycle": {
+    "id": "wnE%7D",
+    "name": "Created By Cycle",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Related Knowledge": {
+    "id": "x%3EJz",
+    "name": "Related Knowledge",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Known Limitations": {
+    "id": "~ced",
+    "name": "Known Limitations",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Name": {
+    "id": "title",
+    "name": "Name",
+    "description": null,
+    "type": "title",
+    "title": {}
+   }
+  },
+  "parent": {
+   "type": "page_id",
+   "page_id": "3e658a07-79e8-812b-94dd-c53cd6689569"
+  },
+  "url": "https://app.notion.com/p/3452c1e8f4e942da8ce952a4556479a9",
+  "public_url": null,
+  "in_trash": false,
+  "archived": false,
+  "request_id": "b00c5666-46ea-4091-82ee-5553e2777242"
+ },
+ "row_count": 4,
+ "rows": [
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-8167-91e5-f754f841eb73",
+   "created_time": "2026-09-26T13:59:00.000Z",
+   "last_edited_time": "2026-09-29T22:46:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "3452c1e8-f4e9-42da-8ce9-52a4556479a9"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Last Updated": {
+     "id": "%3C%7CV_",
+     "type": "date",
+     "date": null
+    },
+    "Supersedes": {
+     "id": "Cd%7Cr",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Previous Version": {
+     "id": "DwYW",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Context": {
+     "id": "FEE%60",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Accounting Systems taxonomy — Architecture dimension; Architecture vs Integrations boundary test.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Accounting Systems taxonomy — Architecture dimension; Architecture vs Integrations boundary test.",
+       "href": null
+      }
+     ]
+    },
+    "Provenance": {
+     "id": "MmAb",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Mossa, Smith & Bland (2025); Odoo 19.0 Architecture Overview.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Mossa, Smith & Bland (2025); Odoo 19.0 Architecture Overview.",
+       "href": null
+      }
+     ]
+    },
+    "Commit Status": {
+     "id": "NZGD",
+     "type": "select",
+     "select": {
+      "id": "f355b096-7751-4d46-ae30-6c0290cf68ba",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Knowledge ID": {
+     "id": "Qk%3Ai",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "ASK",
+      "number": 4
+     }
+    },
+    "Evidence Strength": {
+     "id": "Utca",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Independent ERP architecture framework + current product architecture + peer-reviewed ERP integration/architecture evidence.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Independent ERP architecture framework + current product architecture + peer-reviewed ERP integration/architecture evidence.",
+       "href": null
+      }
+     ]
+    },
+    "Knowledge Type": {
+     "id": "W%5B%7Cb",
+     "type": "select",
+     "select": {
+      "id": "891e2bda-7609-4df3-b79c-dc2653fe5fc6",
+      "name": "TAXONOMY_NODE",
+      "color": "yellow"
+     }
+    },
+    "First Observed": {
+     "id": "XWwl",
+     "type": "date",
+     "date": null
+    },
+    "Last Verified": {
+     "id": "%5BSQa",
+     "type": "date",
+     "date": null
+    },
+    "Conflict Status": {
+     "id": "%5Dstz",
+     "type": "select",
+     "select": {
+      "id": "113fd8a1-8c36-4c1a-b9d1-427b4276343f",
+      "name": "NONE",
+      "color": "gray"
+     }
+    },
+    "Next Verification": {
+     "id": "%5EapH",
+     "type": "date",
+     "date": null
+    },
+    "Confidence": {
+     "id": "_%3Fu%3B",
+     "type": "select",
+     "select": {
+      "id": "2d6a5322-8a85-4c9d-ba70-d1cc2b7ea5c1",
+      "name": "High",
+      "color": "green"
+     }
+    },
+    "Applicability": {
+     "id": "_nS%3D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Use architectural descriptors separately from Functional Scope, Deployment, Licensing and System_Type. Record only characteristics directly evidenced for the evaluated product/version. Record Integration relationships separately when the evidence concerns connections, data/process exchange, APIs, middleware, or cross-system coordination.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Use architectural descriptors separately from Functional Scope, Deployment, Licensing and System_Type. Record only characteristics directly evidenced for the evaluated product/version. Record Integration relationships separately when the evidence concerns connections, data/process exchange, APIs, middleware, or cross-system coordination.",
+       "href": null
+      }
+     ]
+    },
+    "Source Refs": {
+     "id": "l%3FxC",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Mossa et al. (2025); Odoo 19.0 Architecture Overview; Frank (2004) Architecture for Integration of Distributed ERP systems and E-commerce Systems.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Mossa et al. (2025); Odoo 19.0 Architecture Overview; Frank (2004) Architecture for Integration of Distributed ERP systems and E-commerce Systems.",
+       "href": null
+      }
+     ]
+    },
+    "Claim": {
+     "id": "mTlQ",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Architecture must be treated as a first-class classification dimension separate from System_Type, Functional Scope, Deployment and Licensing. Architecture describes how the system is structured and composed; integration is a related characteristic/capability that can be implemented through that architecture but should not be treated as a synonym for architecture. Current evidence supports recording architectural structure and integration relationships separately, while linking them where the evidence shows dependence.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Architecture must be treated as a first-class classification dimension separate from System_Type, Functional Scope, Deployment and Licensing. Architecture describes how the system is structured and composed; integration is a related characteristic/capability that can be implemented through that architecture but should not be treated as a synonym for architecture. Current evidence supports recording architectural structure and integration relationships separately, while linking them where the evidence shows dependence.",
+       "href": null
+      }
+     ]
+    },
+    "Superseded By": {
+     "id": "pbr%3A",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Knowledge State": {
+     "id": "rl%3Ej",
+     "type": "select",
+     "select": {
+      "id": "19ec0068-70f7-46b0-a9c6-3f2ebbdea949",
+      "name": "ACTIVE",
+      "color": "green"
+     }
+    },
+    "Last Verified State": {
+     "id": "ubW%3B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ACTIVE",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ACTIVE",
+       "href": null
+      }
+     ]
+    },
+    "Change Type": {
+     "id": "vUz%5D",
+     "type": "select",
+     "select": {
+      "id": "8d46cbad-8114-4856-b4d7-d043779ecf84",
+      "name": "CONTEXTUALIZED",
+      "color": "purple"
+     }
+    },
+    "Research Refs": {
+     "id": "vc%5B%3D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASR-9; ASR-10",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASR-9; ASR-10",
+       "href": null
+      }
+     ]
+    },
+    "Last Changed By Cycle": {
+     "id": "vlxp",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "CKC-64",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "CKC-64",
+       "href": null
+      }
+     ]
+    },
+    "Created By Cycle": {
+     "id": "wnE%7D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "CKC-63",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "CKC-63",
+       "href": null
+      }
+     ]
+    },
+    "Related Knowledge": {
+     "id": "x%3EJz",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Functional Scope — Accounting Systems Taxonomy Node; Deployment — Accounting Systems Taxonomy Node; Classification Rule — Scope before Label",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Functional Scope — Accounting Systems Taxonomy Node; Deployment — Accounting Systems Taxonomy Node; Classification Rule — Scope before Label",
+       "href": null
+      }
+     ]
+    },
+    "Known Limitations": {
+     "id": "~ced",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "A universal controlled vocabulary of Architecture types is not established. Do not normalize labels such as monolithic, modular, composable, microservices or three-tier as mutually exclusive system classes without product-specific and cross-source definitions. Integrations should be modeled separately from Architecture, with explicit distinction between internal/native integration and external/system-to-system integration. This separation remains a tested taxonomy design decision, not a completed Integrations taxonomy node.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "A universal controlled vocabulary of Architecture types is not established. Do not normalize labels such as monolithic, modular, composable, microservices or three-tier as mutually exclusive system classes without product-specific and cross-source definitions. Integrations should be modeled separately from Architecture, with explicit distinction between internal/native integration and external/system-to-system integration. This separation remains a tested taxonomy design decision, not a completed Integrations taxonomy node.",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Architecture — Accounting Systems Taxonomy Node",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Architecture — Accounting Systems Taxonomy Node",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Architecture-Accounting-Systems-Taxonomy-Node-3e758a0779e8816791e5f754f841eb73",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-81ee-a392-fc688a3fdb3b",
+   "created_time": "2026-09-26T13:58:00.000Z",
+   "last_edited_time": "2026-09-26T13:59:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "3452c1e8-f4e9-42da-8ce9-52a4556479a9"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Last Updated": {
+     "id": "%3C%7CV_",
+     "type": "date",
+     "date": null
+    },
+    "Supersedes": {
+     "id": "Cd%7Cr",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Previous Version": {
+     "id": "DwYW",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Context": {
+     "id": "FEE%60",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Accounting Systems taxonomy — Deployment dimension.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Accounting Systems taxonomy — Deployment dimension.",
+       "href": null
+      }
+     ]
+    },
+    "Provenance": {
+     "id": "MmAb",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Microsoft Business Central deployment documentation; Odoo 19.0 platform/support documentation; Yasiukovich & Haddara (2020) cloud-ERP research taxonomy.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Microsoft Business Central deployment documentation; Odoo 19.0 platform/support documentation; Yasiukovich & Haddara (2020) cloud-ERP research taxonomy.",
+       "href": null
+      }
+     ]
+    },
+    "Commit Status": {
+     "id": "NZGD",
+     "type": "select",
+     "select": {
+      "id": "f355b096-7751-4d46-ae30-6c0290cf68ba",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Knowledge ID": {
+     "id": "Qk%3Ai",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "ASK",
+      "number": 3
+     }
+    },
+    "Evidence Strength": {
+     "id": "Utca",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Strong multi-product primary evidence plus independent cloud-ERP literature.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Strong multi-product primary evidence plus independent cloud-ERP literature.",
+       "href": null
+      }
+     ]
+    },
+    "Knowledge Type": {
+     "id": "W%5B%7Cb",
+     "type": "select",
+     "select": {
+      "id": "891e2bda-7609-4df3-b79c-dc2653fe5fc6",
+      "name": "TAXONOMY_NODE",
+      "color": "yellow"
+     }
+    },
+    "First Observed": {
+     "id": "XWwl",
+     "type": "date",
+     "date": null
+    },
+    "Last Verified": {
+     "id": "%5BSQa",
+     "type": "date",
+     "date": null
+    },
+    "Conflict Status": {
+     "id": "%5Dstz",
+     "type": "select",
+     "select": {
+      "id": "113fd8a1-8c36-4c1a-b9d1-427b4276343f",
+      "name": "NONE",
+      "color": "gray"
+     }
+    },
+    "Next Verification": {
+     "id": "%5EapH",
+     "type": "date",
+     "date": null
+    },
+    "Confidence": {
+     "id": "_%3Fu%3B",
+     "type": "select",
+     "select": {
+      "id": "2d6a5322-8a85-4c9d-ba70-d1cc2b7ea5c1",
+      "name": "High",
+      "color": "green"
+     }
+    },
+    "Applicability": {
+     "id": "_nS%3D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Use for product/system profiling. Record actual deployment mode separately from System_Type, Functional Scope, Licensing, and Version.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Use for product/system profiling. Record actual deployment mode separately from System_Type, Functional Scope, Licensing, and Version.",
+       "href": null
+      }
+     ]
+    },
+    "Source Refs": {
+     "id": "l%3FxC",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Microsoft Business Central Online/On-Premises deployment; Odoo 19.0 Online/",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Microsoft Business Central Online/On-Premises deployment; Odoo 19.0 Online/",
+       "href": null
+      },
+      {
+       "type": "text",
+       "text": {
+        "content": "Odoo.sh/On-Premise",
+        "link": {
+         "url": "http://odoo.sh/On-Premise"
+        }
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Odoo.sh/On-Premise",
+       "href": "http://odoo.sh/On-Premise"
+      },
+      {
+       "type": "text",
+       "text": {
+        "content": "; Yasiukovich & Haddara (2020)",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "; Yasiukovich & Haddara (2020)",
+       "href": null
+      }
+     ]
+    },
+    "Claim": {
+     "id": "mTlQ",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Deployment must be treated as a first-class classification dimension separate from System_Type and Functional Scope. The same product family can exist across different deployment/hosting modes, such as online/cloud and on-premises, and deployment mode can affect administration, version availability and technical constraints without defining whether the system is Accounting Software or ERP.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Deployment must be treated as a first-class classification dimension separate from System_Type and Functional Scope. The same product family can exist across different deployment/hosting modes, such as online/cloud and on-premises, and deployment mode can affect administration, version availability and technical constraints without defining whether the system is Accounting Software or ERP.",
+       "href": null
+      }
+     ]
+    },
+    "Superseded By": {
+     "id": "pbr%3A",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Knowledge State": {
+     "id": "rl%3Ej",
+     "type": "select",
+     "select": {
+      "id": "19ec0068-70f7-46b0-a9c6-3f2ebbdea949",
+      "name": "ACTIVE",
+      "color": "green"
+     }
+    },
+    "Last Verified State": {
+     "id": "ubW%3B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ACTIVE",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ACTIVE",
+       "href": null
+      }
+     ]
+    },
+    "Change Type": {
+     "id": "vUz%5D",
+     "type": "select",
+     "select": {
+      "id": "d929ba0a-9781-4fa2-8112-e69fd14c62d4",
+      "name": "CONFIRMED",
+      "color": "blue"
+     }
+    },
+    "Research Refs": {
+     "id": "vc%5B%3D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASR-8",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASR-8",
+       "href": null
+      }
+     ]
+    },
+    "Last Changed By Cycle": {
+     "id": "vlxp",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "CKC-62",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "CKC-62",
+       "href": null
+      }
+     ]
+    },
+    "Created By Cycle": {
+     "id": "wnE%7D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "CKC-62",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "CKC-62",
+       "href": null
+      }
+     ]
+    },
+    "Related Knowledge": {
+     "id": "x%3EJz",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Functional Scope — Accounting Systems Taxonomy Node; Classification Rule — Scope before Label",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Functional Scope — Accounting Systems Taxonomy Node; Classification Rule — Scope before Label",
+       "href": null
+      }
+     ]
+    },
+    "Known Limitations": {
+     "id": "~ced",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "The controlled vocabulary of Deployment is not finalized. Cloud/Online and On-Premises are directly evidenced here; Hosted, Private Cloud, Public Cloud and Hybrid should not be normalized as universal controlled values until scope and definitions are separately evidenced.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "The controlled vocabulary of Deployment is not finalized. Cloud/Online and On-Premises are directly evidenced here; Hosted, Private Cloud, Public Cloud and Hybrid should not be normalized as universal controlled values until scope and definitions are separately evidenced.",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Deployment — Accounting Systems Taxonomy Node",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Deployment — Accounting Systems Taxonomy Node",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Deployment-Accounting-Systems-Taxonomy-Node-3e758a0779e881eea392fc688a3fdb3b",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8127-947a-f6f761953a33",
+   "created_time": "2026-09-25T21:52:00.000Z",
+   "last_edited_time": "2026-09-26T13:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "3452c1e8-f4e9-42da-8ce9-52a4556479a9"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Last Updated": {
+     "id": "%3C%7CV_",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Supersedes": {
+     "id": "Cd%7Cr",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Previous Version": {
+     "id": "DwYW",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Context": {
+     "id": "FEE%60",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Accounting Systems taxonomy — boundary between accounting software and ERP with accounting.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Accounting Systems taxonomy — boundary between accounting software and ERP with accounting.",
+       "href": null
+      }
+     ]
+    },
+    "Provenance": {
+     "id": "MmAb",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Primary vendor documentation for product scope; independent academic/professional sources for conceptual/contextual validation (OpenStax; ACCA; Mossa et al. 2025; Khan, Rahim & Yeng 2025; Singh 2006).",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Primary vendor documentation for product scope; independent academic/professional sources for conceptual/contextual validation (OpenStax; ACCA; Mossa et al. 2025; Khan, Rahim & Yeng 2025; Singh 2006).",
+       "href": null
+      }
+     ]
+    },
+    "Commit Status": {
+     "id": "NZGD",
+     "type": "select",
+     "select": {
+      "id": "f355b096-7751-4d46-ae30-6c0290cf68ba",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Knowledge ID": {
+     "id": "Qk%3Ai",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "ASK",
+      "number": 2
+     }
+    },
+    "Evidence Strength": {
+     "id": "Utca",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Strong multi-product primary evidence plus independent conceptual/contextual support; not a universal ERP ontology.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Strong multi-product primary evidence plus independent conceptual/contextual support; not a universal ERP ontology.",
+       "href": null
+      }
+     ]
+    },
+    "Knowledge Type": {
+     "id": "W%5B%7Cb",
+     "type": "select",
+     "select": {
+      "id": "57f11cb6-c92d-495a-ae28-070bf383a9f8",
+      "name": "CLASSIFICATION_RULE",
+      "color": "red"
+     }
+    },
+    "First Observed": {
+     "id": "XWwl",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Last Verified": {
+     "id": "%5BSQa",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Conflict Status": {
+     "id": "%5Dstz",
+     "type": "select",
+     "select": {
+      "id": "113fd8a1-8c36-4c1a-b9d1-427b4276343f",
+      "name": "NONE",
+      "color": "gray"
+     }
+    },
+    "Next Verification": {
+     "id": "%5EapH",
+     "type": "date",
+     "date": null
+    },
+    "Confidence": {
+     "id": "_%3Fu%3B",
+     "type": "select",
+     "select": {
+      "id": "2d6a5322-8a85-4c9d-ba70-d1cc2b7ea5c1",
+      "name": "High",
+      "color": "green"
+     }
+    },
+    "Applicability": {
+     "id": "_nS%3D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Reusable classification rule across products and markets; version/edition/localization must be checked when material.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Reusable classification rule across products and markets; version/edition/localization must be checked when material.",
+       "href": null
+      }
+     ]
+    },
+    "Source Refs": {
+     "id": "l%3FxC",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Microsoft Dynamics 365 Finance; SAP S/4HANA Cloud; Oracle Fusion Cloud Financials; Xero; OpenStax; ACCA; Mossa et al. (2025); Khan, Rahim & Yeng (2025); Singh (2006); Thuy et al. (2026); Zoho Books; QuickBooks Online Advanced; Odoo Accounting; Oracle ERP modularity; Microsoft Dynamics 365 Finance localization; Avison & Malaurent (2007)",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Microsoft Dynamics 365 Finance; SAP S/4HANA Cloud; Oracle Fusion Cloud Financials; Xero; OpenStax; ACCA; Mossa et al. (2025); Khan, Rahim & Yeng (2025); Singh (2006); Thuy et al. (2026); Zoho Books; QuickBooks Online Advanced; Odoo Accounting; Oracle ERP modularity; Microsoft Dynamics 365 Finance localization; Avison & Malaurent (2007)",
+       "href": null
+      }
+     ]
+    },
+    "Claim": {
+     "id": "mTlQ",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Do not classify an accounting system solely from the vendor's product label; first assess functional scope and integration breadth, then assign System_Type.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Do not classify an accounting system solely from the vendor's product label; first assess functional scope and integration breadth, then assign System_Type.",
+       "href": null
+      }
+     ]
+    },
+    "Superseded By": {
+     "id": "pbr%3A",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Knowledge State": {
+     "id": "rl%3Ej",
+     "type": "select",
+     "select": {
+      "id": "19ec0068-70f7-46b0-a9c6-3f2ebbdea949",
+      "name": "ACTIVE",
+      "color": "green"
+     }
+    },
+    "Last Verified State": {
+     "id": "ubW%3B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ACTIVE",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ACTIVE",
+       "href": null
+      }
+     ]
+    },
+    "Change Type": {
+     "id": "vUz%5D",
+     "type": "select",
+     "select": {
+      "id": "8d46cbad-8114-4856-b4d7-d043779ecf84",
+      "name": "CONTEXTUALIZED",
+      "color": "purple"
+     }
+    },
+    "Research Refs": {
+     "id": "vc%5B%3D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASR-5; ASR-6; ASR-7",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASR-5; ASR-6; ASR-7",
+       "href": null
+      }
+     ]
+    },
+    "Last Changed By Cycle": {
+     "id": "vlxp",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "CKC-60 / ASR-7 independent licensing-classification test",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "CKC-60 / ASR-7 independent licensing-classification test",
+       "href": null
+      }
+     ]
+    },
+    "Created By Cycle": {
+     "id": "wnE%7D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASC-001",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASC-001",
+       "href": null
+      }
+     ]
+    },
+    "Related Knowledge": {
+     "id": "x%3EJz",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Functional Scope — Accounting Systems Taxonomy Node",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Functional Scope — Accounting Systems Taxonomy Node",
+       "href": null
+      }
+     ]
+    },
+    "Known Limitations": {
+     "id": "~ced",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Specific product classification remains context-sensitive and requires Vendor/Product/Edition/Plan/Version/Module/Localization/Market evidence when material. Version/localization and plan/edition can materially alter available accounting/reporting or operational scope without independently defining System_Type. Licensing is a separate descriptive/tiering and access/scope dimension; Singh (2006) documents its historical use in ERP tier classifications, but no direct universal licensing-to-System-Type rule is established. Mossa et al. (2025) notes multiple ERP interpretations, so this remains a working evidence-based classification framework rather than a universal ontology.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Specific product classification remains context-sensitive and requires Vendor/Product/Edition/Plan/Version/Module/Localization/Market evidence when material. Version/localization and plan/edition can materially alter available accounting/reporting or operational scope without independently defining System_Type. Licensing is a separate descriptive/tiering and access/scope dimension; Singh (2006) documents its historical use in ERP tier classifications, but no direct universal licensing-to-System-Type rule is established. Mossa et al. (2025) notes multiple ERP interpretations, so this remains a working evidence-based classification framework rather than a universal ontology.",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Classification Rule — Scope before Label",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Classification Rule — Scope before Label",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Classification-Rule-Scope-before-Label-3e658a0779e88127947af6f761953a33",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8156-ae3d-fa6bf28dc835",
+   "created_time": "2026-09-25T21:52:00.000Z",
+   "last_edited_time": "2026-09-26T00:30:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "3452c1e8-f4e9-42da-8ce9-52a4556479a9"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Last Updated": {
+     "id": "%3C%7CV_",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Supersedes": {
+     "id": "Cd%7Cr",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Previous Version": {
+     "id": "DwYW",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Context": {
+     "id": "FEE%60",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Accounting-system taxonomy design; first validation cycle using current primary product documentation.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Accounting-system taxonomy design; first validation cycle using current primary product documentation.",
+       "href": null
+      }
+     ]
+    },
+    "Provenance": {
+     "id": "MmAb",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Microsoft Learn; SAP Help Portal; Oracle Documentation; Xero official documentation.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Microsoft Learn; SAP Help Portal; Oracle Documentation; Xero official documentation.",
+       "href": null
+      }
+     ]
+    },
+    "Commit Status": {
+     "id": "NZGD",
+     "type": "select",
+     "select": {
+      "id": "f355b096-7751-4d46-ae30-6c0290cf68ba",
+      "name": "VERIFIED",
+      "color": "green"
+     }
+    },
+    "Knowledge ID": {
+     "id": "Qk%3Ai",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "ASK",
+      "number": 1
+     }
+    },
+    "Evidence Strength": {
+     "id": "Utca",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Strong multi-vendor primary evidence plus independent academic/professional conceptual validation.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Strong multi-vendor primary evidence plus independent academic/professional conceptual validation.",
+       "href": null
+      }
+     ]
+    },
+    "Knowledge Type": {
+     "id": "W%5B%7Cb",
+     "type": "select",
+     "select": {
+      "id": "891e2bda-7609-4df3-b79c-dc2653fe5fc6",
+      "name": "TAXONOMY_NODE",
+      "color": "yellow"
+     }
+    },
+    "First Observed": {
+     "id": "XWwl",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Last Verified": {
+     "id": "%5BSQa",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Conflict Status": {
+     "id": "%5Dstz",
+     "type": "select",
+     "select": {
+      "id": "113fd8a1-8c36-4c1a-b9d1-427b4276343f",
+      "name": "NONE",
+      "color": "gray"
+     }
+    },
+    "Next Verification": {
+     "id": "%5EapH",
+     "type": "date",
+     "date": null
+    },
+    "Confidence": {
+     "id": "_%3Fu%3B",
+     "type": "select",
+     "select": {
+      "id": "2d6a5322-8a85-4c9d-ba70-d1cc2b7ea5c1",
+      "name": "High",
+      "color": "green"
+     }
+    },
+    "Applicability": {
+     "id": "_nS%3D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Product classification and taxonomy design.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Product classification and taxonomy design.",
+       "href": null
+      }
+     ]
+    },
+    "Source Refs": {
+     "id": "l%3FxC",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Microsoft Dynamics 365 Finance; SAP S/4HANA Cloud; Oracle Fusion Cloud Financials; Xero ERP/accounting scope; OpenStax; ACCA; Thuy et al. (2026)",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Microsoft Dynamics 365 Finance; SAP S/4HANA Cloud; Oracle Fusion Cloud Financials; Xero ERP/accounting scope; OpenStax; ACCA; Thuy et al. (2026)",
+       "href": null
+      }
+     ]
+    },
+    "Claim": {
+     "id": "mTlQ",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Functional Scope must be a first-class dimension in the accounting-systems taxonomy; classify by functional breadth and integration, not by vendor label.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Functional Scope must be a first-class dimension in the accounting-systems taxonomy; classify by functional breadth and integration, not by vendor label.",
+       "href": null
+      }
+     ]
+    },
+    "Superseded By": {
+     "id": "pbr%3A",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Knowledge State": {
+     "id": "rl%3Ej",
+     "type": "select",
+     "select": {
+      "id": "19ec0068-70f7-46b0-a9c6-3f2ebbdea949",
+      "name": "ACTIVE",
+      "color": "green"
+     }
+    },
+    "Last Verified State": {
+     "id": "ubW%3B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ACTIVE",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ACTIVE",
+       "href": null
+      }
+     ]
+    },
+    "Change Type": {
+     "id": "vUz%5D",
+     "type": "select",
+     "select": {
+      "id": "d929ba0a-9781-4fa2-8112-e69fd14c62d4",
+      "name": "CONFIRMED",
+      "color": "blue"
+     }
+    },
+    "Research Refs": {
+     "id": "vc%5B%3D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASR-5; ASR-6",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASR-5; ASR-6",
+       "href": null
+      }
+     ]
+    },
+    "Last Changed By Cycle": {
+     "id": "vlxp",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASC-002",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASC-002",
+       "href": null
+      }
+     ]
+    },
+    "Created By Cycle": {
+     "id": "wnE%7D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "ASC-001",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ASC-001",
+       "href": null
+      }
+     ]
+    },
+    "Related Knowledge": {
+     "id": "x%3EJz",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Classification Rule — Scope before Label",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Classification Rule — Scope before Label",
+       "href": null
+      }
+     ]
+    },
+    "Known Limitations": {
+     "id": "~ced",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Boundary is validated at conceptual level, but classification of specific products still requires version/edition/localization/context evidence; more product-class and market testing remains necessary.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Boundary is validated at conceptual level, but classification of specific products still requires version/edition/localization/context evidence; more product-class and market testing remains necessary.",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Functional Scope — Accounting Systems Taxonomy Node",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Functional Scope — Accounting Systems Taxonomy Node",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Functional-Scope-Accounting-Systems-Taxonomy-Node-3e658a0779e88156ae3dfa6bf28dc835",
+   "public_url": null,
+   "archived": false
+  }
+ ]
+}

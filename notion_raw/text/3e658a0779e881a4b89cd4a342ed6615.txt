@@ -1,0 +1,210 @@
+# Deep Marketing — Continuous Knowledge Operation Standard
+GOVERNING REFERENCE — v3.1
+هذه الصفحة هي المرجع التشغيلي الحاكم لمنظومة  Deep Marketing — Continuous Knowledge Operation . تلغي أو تستبدل تشغيليًا أي Workflow سابق يتعارض معها. لا يُعتبر أي ادعاء عن حالة النظام أو تنفيذ مهمة صحيحًا إلا بعد التحقق الفعلي.
+1. الهدف
+هذه المنظومة ليست Daily Marketing Summary، ولا Search Every Hour، ولا 24/7 Live ChatGPT Process. هي:
+Persistent, Triggered, State-Aware Marketing Knowledge Operation
+الحلقة:
+Discover → Triage → Research → Validate → Conflict Check → Synthesize → Commit → Quality Control → Detect Gaps → Prioritize → Persist → Next Trigger
+التقرير والملخص مخرجات فقط.
+2. أولوية التعليمات
+System/Platform → Developer/Execution Constraints → This Governing Reference → Explicitly Adopted User Decisions → Current Cycle Instructions → Research Queue → Sources/Data → Unapproved Inference/Assumption
+وعند تعارض المستوى نفسه:
+SPECIALIZED > GENERAL
+ثم:
+NEWER EXPLICITLY ADOPTED > OLDER
+عند تعذر تحديد السلطة النافذة:  INSTRUCTION_CONFLICT  وأوقف الجزء المتعارض فقط.
+3. نماذج التنفيذ
+USER-TRIGGERED:  USER REQUEST → READ STATE → EXECUTE → COMMIT → STOP
+SCHEDULED:  SCHEDULE → RUN → READ STATE → DETERMINE NEXT WORK → PROCESS → COMMIT → PERSIST STATE → STOP
+Scheduled =  Repeated Discrete Runs  وليس Continuous Process.
+EVENT-DRIVEN:  لا يستخدم إلا عند وجود Trigger Event فعلي ومدعوم.
+BACKGROUND:  START → BACKGROUND EXECUTION → COMPLETE / PAUSE / FAIL، ولا يعني Loop أبدية.
+4. تعريف Continuous Knowledge Operation
+لا يستخدم المصطلح إلا عند توفر:
+Persistent Knowledge State + Trigger + Repeatable Execution + Research/Validation Pipeline + Knowledge Commit + State Persistence + Next-Work Determination
+الاستمرارية هي استمرارية الحالة والعمل التالي، لا استمرار نموذج واحد حي.
+5. الحدود التشغيلية
+لا ادعاء بـ24/7 Live دون آلية فعلية. لا بحث لمجرد مرور الوقت. لا تكرار بلا سبب معرفي. لا Knowledge Commit دون Evidence وسياق وتتبّع. لا تعديل بلا سبب ودليل. لا حذف صامت. لا حسم تعارض دون أدلة كافية. عند القيد الفعلي:  BLOCKED . عند عدم حدوث تغيير جوهري:  NO_CHANGE . لا تتجاوز بوابات التحقق للوصول إلى ACTIVE. لا تسجل COMPLETED قبل نجاح الالتزام والتحقق.
+6. الحلقة القياسية
+KNOWLEDGE STATE → DISCOVERY → TRIAGE → RESEARCH → VALIDATION → CONFLICT CHECK → SYNTHESIS → KNOWLEDGE COMMIT → QUALITY CONTROL → GAP DETECTION → PRIORITY QUEUE → PERSIST STATE → NEXT TRIGGER
+الدورة لا تُغلق بالتقرير، بل بعد:
+State Update + Change Record + Conflict Record + Gap Detection + Next Work + Verified Persistence
+7. نموذج العلاقة بين البحث والمعرفة
+Research Item → Sources → Evidence → Candidate Claim → Existing Knowledge Match → Change Classification → Knowledge Asset → Change Record → Cycle Log
+Research ≠ Knowledge Asset.
+Search Result ≠ Knowledge Commit.
+Source وحده لا يكفي دون Evidence صالح.
+8. المعرفات المستقلة
+Research_ID / Source_ID / Evidence_ID / Knowledge_ID / Change_ID / Cycle_ID
+لا تستخدم معرفًا واحدًا لهذه الطبقات.
+9. Knowledge State
+القيم المسموحة فقط:
+DISCOVERED · TRIAGED · RESEARCHING · VALIDATING · SYNTHESIZED · ACTIVE · CONTESTED · CONFLICTED · INSUFFICIENT_EVIDENCE · DUPLICATE · OUTDATED · SUPERSEDED · REJECTED
+10. Change Type
+القيم المسموحة فقط:
+CREATED · CONFIRMED · UPDATED · CORRECTED · CONTEXTUALIZED · DUPLICATED · SUPERSEDED · REJECTED
+لا تستخدم CHANGED / NEW / UPDATE كبدائل عامة.
+11. Conflict Status
+القيم المسموحة فقط:
+NONE · OPEN · PARTIALLY_RESOLVED · RESOLVED
+وهو مستقل عن Knowledge State وChange Type.
+12. State Transition Governance
+المسار الرئيسي:
+DISCOVERED → TRIAGED → RESEARCHING → VALIDATING → SYNTHESIZED → ACTIVE
+الفروع والحالات الانتقالية تخضع حصريًا للمخطط المعتمد، ولا توجد انتقالات مباشرة خارج المسار الموثق. يُمنع الوصول المباشر من DISCOVERED إلى ACTIVE، ومن CONFLICTED إلى ACTIVE دون مراجعة موثقة، ومن SUPERSEDED أو REJECTED أو DUPLICATE إلى ACTIVE مباشرة.
+13. Conflict Protocol
+Detect → Identify Claims → Verify Conflict → Compare Context → Timeframe → Population/Market → Definitions → Methods → Measurement → Evidence Quality → Independent Evidence → Classify → Decide → Record Rationale → Update State + Conflict Status
+الأنواع:
+CONTEXT_CONFLICT · TEMPORAL_CONFLICT · POPULATION_CONFLICT · METHODOLOGICAL_CONFLICT · MEASUREMENT_CONFLICT · INTERPRETIVE_CONFLICT · EMPIRICAL_CONFLICT
+لا يُحسم التعارض بالشهرة أو كثرة التكرار أو الأقدمية أو الحداثة وحدها.
+14. Knowledge Commit
+كل Commit منطقيًا ذري:
+Prepare → Write → Verify → Commit Confirmed
+لا يعتبر التغيير نافذًا قبل التحقق.
+Commit_Status:
+NOT_ATTEMPTED · PREPARED · COMMITTED · VERIFIED · FAILED · RECONCILING · RETRY_REQUIRED
+عند الفشل:
+Preserve Last Verified State → Record Pending Change → Reconcile → Retry Safely → Verify
+لا تُغيّر الحالة النهائية ولا تسجل COMPLETED قبل التحقق.
+15. Idempotency
+كل تغيير يتتبع عبر:
+Change_ID + Cycle_ID + Knowledge_ID
+عند إعادة المحاولة:
+Check Existing Change_ID → COMMITTED: Do Not Duplicate → FAILED: Resume/Retry → UNKNOWN: Reconcile First
+لا يُفترض أن فشل الأداة يعني عدم حدوث الكتابة.
+16. Last Verified State
+Last_Verified_State  هو مرجع الاسترداد عند الفشل.
+إذا كان:
+Last Verified = ACTIVE + NONE
+وفشل التغيير إلى CONFLICTED، تبقى الحالة الموثقة ACTIVE + NONE، ويُسجل Pending Change حتى يثبت Commit.
+17. SUPERSEDED
+SUPERSEDED ≠ DELETED
+عند التجاوز:
+Old Knowledge → SUPERSEDED → Link to New Knowledge
+يُحفظ السجل التاريخي والسبب والدليل والتاريخ والعلاقة بين النسخ.
+18. طبقات المعرفة
+افصل دائمًا بين:
+FACT · EVIDENCE · INTERPRETATION · HYPOTHESIS · INFERENCE · OPINION · RECOMMENDATION
+وسلسلة الاشتقاق:
+SOURCE → EVIDENCE → INSIGHT → PATTERN → PRINCIPLE → CONTEXT → HYPOTHESIS → EXPERIMENT → RESULT → LEARNING
+19. تقادم المعرفة
+التصنيفات:
+EVERGREEN · TIME_SENSITIVE · PLATFORM_DEPENDENT · MARKET_DEPENDENT · EXPERIMENTAL
+وتحدد إعادة التحقق بحسب الطبيعة.
+20. Priority Queue وGap Detection
+الأولوية نوعيًا:
+Impact × Relevance × Evidence Gap × Novelty × Actionability
+بعد كل Commit متحقق:
+What is Unknown? What is Weak? What is Outdated? What is Conflicted? What Needs Verification? What Context Is Missing?
+ثم تُحوّل الفجوات المهمة إلى Research Queue.
+21. سجل الدورة
+كل تشغيل يسجل في:
+KOS — Continuous Knowledge Cycle Log
+ويجب أن يحتوي على الأقل:
+Cycle_ID / Run_Date / Start_Time / End_Time / Trigger_Type / Cycle_Objective / Knowledge_State_Before / Research_Queue_Input / Research_Scope / Research_IDs / Sources_Inspected / Evidence_Acquired / Knowledge_IDs_Affected / Validation_Decisions / Changes / Conflicts / Pending_Changes / Commit_Status / Errors_or_Blockers / Reconciliation_Status / Knowledge_State_After / Last_Verified_State / Knowledge_Gaps / Next_Research_Priorities / Human_Approval_Required / Quality_Control_Result / Cycle_Status / Stop_Reason / Provenance_Recorded
+22. Cycle Status
+COMPLETED:  Commit ناجح + Persistence Verified + متطلبات الدورة مكتملة.
+PARTIAL:  جزء موثوق نُفذ لكن جزءًا جوهريًا ما زال مفتوحًا أو غير ملتزم.
+BLOCKED:  قيد فعلي يمنع الاستمرار الموثوق.
+NO_CHANGE:  لم ينتج تغيير معرفي جوهري.
+23. مصدر الحقيقة التشغيلي
+عندما تكون Notion المستودع المعتمد:
+Notion Persistent State = Operational Source of Truth
+مع فصل:
+Knowledge / Research Queue / Cycle Log / Knowledge Change Log / Contradiction Log / Execution Pipeline
+24. Canonical Trigger
+يجب أن يكون للوظيفة نفسها:
+ONE CANONICAL TRIGGER → ONE KNOWLEDGE OPERATION → ONE PERSISTENT STATE
+أي Trigger متداخل يجب اكتشافه والتحقق من حالته الفعلية ثم تعطيله أو استبداله، دون الاعتماد على الاسم وحده.
+25. Legacy Data
+أي بيانات غير متوافقة:
+LEGACY / NOT YET NORMALIZED
+المسار:
+IDENTIFY → MAP → VALIDATE → MIGRATE → VERIFY
+ولا يُحذف التاريخ أو يعاد كتابته بصمت.
+26. قاعدة الإغلاق
+No Verified Execution = No Claim of Execution
+No Evidence = No Knowledge Commit
+No Verified Persistence = No Final State Change
+Scheduled ≠ Continuous Process
+Research ≠ Knowledge Asset
+Search Result ≠ Knowledge Commit
+Commit Success ≠ Commit Verification
+SUPERSEDED ≠ DELETED
+Knowledge State ≠ Change Type ≠ Conflict Status ≠ Commit Status
+هذه الصفحة هي المرجع التشغيلي الموحد والحاكم لمنظومة Deep Marketing، وأي تشغيل مستقبلي يجب أن يبدأ بقراءة الحالة الفعلية ثم تحديد العمل التالي ثم التنفيذ والالتزام والتحقق والحفظ.
+27. Continuity Hardening — الاستمرارية غير المنقطعة على مستوى المنظومة
+مقصود «لا تتوقف المنظومة» هو  عدم وجود نهاية تشغيلية مخططة للمنظومة ككل ؛ وليس إبقاء نموذج واحد في تنفيذ حي بلا انقطاع. كل Run ينتهي كدورة منفصلة، لكن الحالة المحفوظة والعمل التالي يبقيان قابلين للاستئناف بواسطة Trigger لاحق فعلي.
+قاعدة الاستمرارية:
+PERSIST VERIFIED STATE → DETERMINE NEXT WORK → PRESERVE OPEN WORK / GAPS → NEXT TRIGGER → READ STATE → RESUME
+ولا توجد حالة طبيعية اسمها “انتهاء المنظومة”. الحالات النهائية تخص  الدورة أو الوحدة أو التغيير  فقط، وليست دورة حياة المنظومة ككل.
+28. Run Admission & Overlap Protection
+قبل أي معالجة:
+READ CURRENT PERSISTENT STATE → CHECK ACTIVE TRIGGER → CHECK RECENT CYCLE STATE → DETECT POSSIBLE OVERLAP / DUPLICATION → ADMIT ONE VALID WORK UNIT
+لا تبدأ دورة جديدة على نفس  Research_ID / Knowledge_ID / Change_ID  إذا كانت هناك محاولة حديثة غير محسومة؛ يجب أولًا:
+RECONCILE → VERIFY → RESUME / RETRY
+الهدف منع السباق بين الدورات والتكرار المزدوج والتعديلات المتعارضة.
+29. No-Work / No-Change Continuity
+عندما لا يوجد عمل معرفي يستوفي شروط التنفيذ:
+NO_CHANGE → PERSIST STATE → DETERMINE NEXT VALID WORK → NEXT TRIGGER
+لا تُنشأ أبحاث أو Knowledge Assets مصطنعة للحفاظ على مظهر النشاط. الاستمرارية المعرفية لا تعني إنتاج ضوضاء.
+30. Recovery-First Execution
+أي فشل في أداة أو كتابة أو تحقق لا يبرر بدء مسار جديد قبل استعادة الحقيقة التشغيلية:
+FAILURE → PRESERVE LAST VERIFIED STATE → RECONCILE → RESUME / RETRY → VERIFY
+إذا تعذر الإصلاح الموثوق:
+BLOCKED
+مع بقاء آخر حالة موثقة وعدم الادعاء بحدوث التغيير.
+31. Research Anti-Stagnation
+إذا كررت الوحدة البحثية نفسها دون اكتساب Evidence جديد أو تغيير في المعرفة:
+DO NOT REPEAT IDENTICALLY
+بل:
+RETRIAGE → IDENTIFY WHY PRIOR ATTEMPT FAILED / SATURATED → CHANGE RESEARCH STRATEGY OR SOURCE SET → RESEARCH
+يمنع ذلك الدوران اللانهائي حول السؤال نفسه مع نفس الأدلة.
+32. Knowledge Delta Gate
+لا يُعتمد Commit معرفي لمجرد وجود مادة جديدة. يجب إثبات أحد الآتي:
+CREATED / CONFIRMED / UPDATED / CORRECTED / CONTEXTUALIZED / DUPLICATED / SUPERSEDED / REJECTED
+وإذا لم يوجد فرق معرفي جوهري:
+NO_CHANGE
+33. Continuity Invariant
+يجب أن تنتهي كل دورة موثوقة بأحد مسارين:
+A. VERIFIED KNOWLEDGE COMMIT → UPDATED STATE → NEXT WORK
+أو
+B. NO_CHANGE / PARTIAL / BLOCKED → PERSIST LAST VERIFIED STATE + OPEN WORK + NEXT WORK
+لا يجوز أن تنتهي الدورة دون تحديد ما سيُفعل لاحقًا أو لماذا تعذر تحديده.
+34. Canonical Trigger Invariant
+للوظيفة نفسها:
+ONE ACTIVE CANONICAL TRIGGER
+وعند كل فحص:
+DETECT → VERIFY ACTUAL STATUS → REMOVE / DISABLE DUPLICATE → REVERIFY
+لا تكفي تسمية المهمة، ولا يُقبل اعتماد حالة غير مؤكدة.
+35. Operational Non-Termination Rule
+هذه المنظومة  Persistent by Design :
+- لا تنتهي زمنيًا من تلقاء نفسها.
+- لا تُنشئ دورة لمجرد مرور الساعة.
+- لا تتوقف معرفيًا لمجرد نجاح دورة.
+- كل دورة تعيد الحالة إلى مخزن الحقيقة وتحدد نقطة الاستئناف التالية.
+- توقف المنظومة ككل لا يُعتبر نتيجة طبيعية؛ وإنما نتيجة لقيد منصة أو تعطيل صريح أو فشل تشغيلي موثق.
+Current Operational Verification — 2026-09-26
+Reference Version:  v3 + Continuity Hardening (v3.1).
+Verified:  Governing reference is readable in Notion; KOS — Continuous Knowledge Cycle Log schema contains  Commit_Status  with the approved values and  Cycle Status  with COMPLETED / PARTIAL / BLOCKED / NO_CHANGE.
+Scheduler State:  Current scheduler inspection shows  Deep Marketing Canonical Trigger = DISABLED  and  Deep Marketing — Scheduled Knowledge Cycles = DISABLED . Therefore  no active Deep Marketing-specific scheduled trigger is currently verified .
+Canonical Trigger Status:   DISABLED / NOT ACTIVE  at the current inspection point. The system must not claim scheduled continuity is currently running.
+Operational State:   VERIFIED  for the governance/reference layer;  INACTIVE  for the Deep Marketing scheduled-execution layer at the current inspection point.
+Native Notion Verification Metadata:  The page's native Notion verification field currently reports  unverified . This is separate from operational re-fetch verification of the page content and must not be conflated with Commit_Status.
+Important Boundary:  This is a point-in-time scheduler observation. It does not establish why the trigger is disabled, nor does it prove the state of future executions. Any future resumption must re-read actual scheduler state and then execute the full pre-flight → process → commit → verify → persist sequence.
+Next Required Behavior:  Do not create or modify a scheduled Deep Marketing trigger without explicit authorization. When an authorized trigger is active, each run must begin with state/trigger preflight and end with verified persistence plus next-work determination.
+36. Current Conversation Override — 2026-09-26
+هذه المراجعة تُعدّل تفسير أي نص سابق يوحي بأن Scheduler خارجيًا يعمل حاليًا ما لم تتم إعادة التحقق المباشر منه. لم يتم إنشاء أو تعديل أتمتة خارجية في هذه المراجعة.  Method active ≠ External scheduler verified.
+الحكم التشغيلي الحالي:  Governance = ACTIVE/VERIFIED at document level; External Scheduler = UNVERIFIED; no new automation action taken.
+Current Conversation Override — 2026-09-26
+هذه المراجعة تتقدم على أي نص سابق يوحي بأن Scheduler خارجيًا يعمل حاليًا ما لم تتم إعادة التحقق المباشر منه. لم يتم إنشاء أو تعديل أتمتة خارجية في هذه المراجعة.
+Method active ≠ External scheduler verified.  الحالة الحالية: Governance/documentation = verified at page level؛ External Scheduler = UNVERIFIED.
+37. Current State Reconciliation — 2026-09-26
+هذا القسم يثبت الحالة الأحدث التي تم التحقق منها بعد تدقيق المحادثة.
+- External Deep Marketing Scheduler:  DISABLED / NOT ACTIVE. كل من  Deep Marketing Canonical Trigger  و Deep Marketing — Scheduled Knowledge Cycles  معطّلان عند الفحص المباشر.
+- KNG-43:  SYNTHESIZED / Conflict Status NONE.
+- KNG-43 Evidence Links:  ليست fully reconciled. العلاقة الحالية تحتوي على الأدلة الأساسية لـRSH-1، وأدلة RSH-2 mechanism، وEVD-RSH17-003، لكنها لا تحتوي على سجلات RSH-2 exception المعروفة EXC-01..05.
+- Promotion rule:  لا ترقية لـKNG-43 إلى ACTIVE قبل إعادة بناء مجموعة Evidence Links المقصودة والتحقق منها، مع استمرار متطلبات causal/transfer/application evidence.
+- Next work:  Provenance reconciliation أولًا، ثم RSH-17 downstream causal validation للرابط market agility → firm performance.
+هذا التصحيح لا يغيّر إعدادات الأتمتة الخارجية.

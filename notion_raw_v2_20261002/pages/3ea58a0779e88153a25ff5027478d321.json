@@ -1,0 +1,284 @@
+{
+ "capture_reason": "NEW",
+ "captured_at": "2026-10-02T12:06:31+03:00",
+ "title": "Migration — Accounting Systems Conversation — 2026-09-30",
+ "last_edited": "2026-09-29T22:46:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3ea58a07-79e8-8153-a25f-f5027478d321",
+  "created_time": "2026-09-29T22:44:00.000Z",
+  "last_edited_time": "2026-09-29T22:46:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "af2e47bd-e616-48c9-9a2b-a646ffdb93f9"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "Contextualized": {
+    "id": "%3AM~V",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Corrected": {
+    "id": "%3BU_u",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Quality Control Result": {
+    "id": "%3EcrH",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Knowledge Assets Superseded": {
+    "id": "%40%60sR",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "End Time": {
+    "id": "CEJG",
+    "type": "date",
+    "date": null
+   },
+   "Research IDs": {
+    "id": "C%5E%3FU",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Human Approval Required": {
+    "id": "DSDT",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Trigger Type": {
+    "id": "ES%3EH",
+    "type": "select",
+    "select": null
+   },
+   "Outdated Knowledge Detected": {
+    "id": "Ecx%7D",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Conflicts Open": {
+    "id": "GGA~",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Knowledge State After": {
+    "id": "G%5CqN",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Updated": {
+    "id": "HsG%3F",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Sources Inspected": {
+    "id": "KYao",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Research Queue Input": {
+    "id": "K%5C%3Er",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Research Scope": {
+    "id": "LWXc",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Commit_Status": {
+    "id": "Lj%5Di",
+    "type": "select",
+    "select": null
+   },
+   "Next Research Priorities": {
+    "id": "MW%5Es",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Run Date": {
+    "id": "Mo%7Cb",
+    "type": "date",
+    "date": null
+   },
+   "Knowledge Assets Updated": {
+    "id": "N%3AWr",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Created": {
+    "id": "NjUx",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Conflicts Resolved": {
+    "id": "Ntsv",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Provenance Recorded": {
+    "id": "Pmzu",
+    "type": "checkbox",
+    "checkbox": false
+   },
+   "Next Work": {
+    "id": "Sq%3B~",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Reconciliation Status": {
+    "id": "VCrq",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Cycle Objective": {
+    "id": "ZnO%7D",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Stop Reason": {
+    "id": "%5ErIK",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Knowledge Assets Created": {
+    "id": "cwr%3B",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Change IDs": {
+    "id": "diEP",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Cycle Status": {
+    "id": "e_~Z",
+    "type": "select",
+    "select": null
+   },
+   "Evidence Acquired": {
+    "id": "ga%3Bq",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Validation Decisions": {
+    "id": "h%7C%7Cr",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Start Time": {
+    "id": "iBRL",
+    "type": "date",
+    "date": null
+   },
+   "Knowledge Assets Rejected": {
+    "id": "jJZa",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Superseded": {
+    "id": "ljap",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Cycle ID": {
+    "id": "mMiG",
+    "type": "unique_id",
+    "unique_id": {
+     "prefix": "CKC",
+     "number": 74
+    }
+   },
+   "Knowledge State Before": {
+    "id": "qudy",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Errors or Blockers": {
+    "id": "uKdn",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Rejected": {
+    "id": "xd%3Cn",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Knowledge Gaps": {
+    "id": "%7BDg%60",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Confirmed": {
+    "id": "%7C%7BOJ",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Duplicated": {
+    "id": "%7DZDH",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Conflicts Partially Resolved": {
+    "id": "%7DsWT",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Name": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Migration — Accounting Systems Conversation — 2026-09-30",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Migration — Accounting Systems Conversation — 2026-09-30",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/Migration-Accounting-Systems-Conversation-2026-09-30-3ea58a0779e88153a25ff5027478d321",
+  "public_url": null,
+  "archived": false,
+  "request_id": "d822f9d7-0a24-41a5-b895-de1eacff7b7a"
+ },
+ "block_count": 1,
+ "blocks": [
+  {
+   "id": "5f74a036-8040-4abc-b337-41dcf253833e",
+   "type": "callout",
+   "has_children": false,
+   "text": [
+    "Migration cycle note: This row was created as a migration placeholder. Its database properties could not be populated because the database write was blocked by the Notion safety layer. Do not treat this placeholder as a verified operational cycle. The authoritative migration record is the linked Conversation Migration Record page."
+   ],
+   "created": "2026-09-29T22:46:00.000Z",
+   "edited": "2026-09-29T22:46:00.000Z"
+  }
+ ]
+}

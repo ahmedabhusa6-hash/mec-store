@@ -1,0 +1,127 @@
+# Deepen Marketing Master Map — Cross-Layer Mechanisms & Dependencies
+Research_ID: auto-assigned
+Continuation from RSH-1 after bounded validation integration.
+Primary deliverable: validated cross-layer mechanism/dependency matrix for KNG-43.
+Do not promote KNG-43 to ACTIVE from this item alone; require a later Stage Gate with verified evidence and persistence.
+RSH2 — Cross-Layer Mechanism Matrix
+  Research_ID: RSH2
+  Artifact status: Working research artifact — not a Knowledge Asset.
+  Architecture Implication
+  Mechanisms are not interchangeable across domains. The same top-level outcome (e.g., loyalty, performance, behavior change) can be reached through different mediators and different boundary conditions. Therefore, the Master Map should store  mechanism chains , not only domain labels.
+  Reliability Rules
+  - Meta-analytic evidence = strongest current mechanism support in this matrix.
+  - Single experiments/empirical studies = local mechanism evidence, not universal law.
+  - Review/bibliometric evidence = mechanism candidate or thematic structure unless causal evidence is separately established.
+  - Journal scope statements = domain-structure evidence, not causal proof.
+  Next Test
+  Compare mechanism chains across at least three domains sharing an outcome (e.g., loyalty or performance) and test whether the mediator, level, and boundary conditions remain distinct.
+  Comparative Mechanism Test
+  Shared outcome: loyalty / repurchase
+  - Customer value:  benefits/sacrifices → perceived value → satisfaction/WOM/repurchase-related outcomes.
+  - Brand:  brand offer/alignment → brand experience + consumer-brand bonding → loyalty.
+  - E-commerce trust:  privacy/service-quality/site factors → online trust → loyalty/repeat-purchase intention.
+  Result:  same broad outcome family, different mediators and boundary conditions. The mechanism layer therefore cannot be collapsed into the outcome layer.
+  Shared outcome: performance
+  - Product innovation:  customer participation → stage-specific learning/co-development effects → time-to-market / innovation performance → new-product financial performance.
+  - Digital capability:  digital marketing capabilities → organizational capability deployment → firm performance.
+  - Channels:  channel structure/governance/coordination → intermediation and coordination mechanisms → value/cost/supply-chain outcomes.
+  Result:  the performance endpoint is not a sufficient descriptor of the causal chain.
+  Comparative Test Decision
+  Passed at bounded scope.  Cross-domain comparison supports keeping mechanism/mediator, level and boundary conditions as independent fields in the Master Map. This is not an exhaustive meta-analysis of all marketing mechanisms.
+  RSH2 Expansion — B2B / International / CRM / Analytics
+  Comparative Boundary Result — Context Moderation
+  The B2B, international, CRM and analytics evidence strengthens a common rule:  transferability is conditional . The same mechanism label can change strength, direction, or intermediary structure when the market, organizational configuration, stage, method or stakeholder relationship changes. Therefore  Boundary / Moderator  is a first-class field in the Master Map, not a footnote.
+  Next Test
+  Use the expanded matrix to test whether the same moderator logic holds across B2B, international, CRM/CX and analytics cases without collapsing context-specific findings into a universal rule.
+  Structural Omission Test — 2026-09-26
+  The current matrix is strong for  Antecedent → Mechanism/Mediator → Outcome → Boundary → Evidence , but the full Master Map also requires two explicit links for each mechanism record:
+  - Theory / Construct:  what explanatory concept is instantiated or tested by the mechanism.
+  - Application / Experiment:  what managerial intervention, market action, or empirical test operationalizes the mechanism.
+  Additional control fields remain:
+  - Question / Phenomenon  — why the mechanism is being examined.
+  - Level of Analysis  — consumer, dyad, organization, channel, market/system, etc.
+  - Method / Evidence  — how the mechanism is established and what causal strength is justified.
+  Structural result
+  Omission detected and isolated.  This does not invalidate the current mechanism findings; it means the mechanism matrix is not yet a complete operational representation of the full Master Map.
+  Required next version
+  Extend each mechanism record to:
+  Question / Phenomenon → Domain → Theory / Construct → Antecedent → Mechanism / Mediator → Outcome → Level → Method / Evidence → Boundary / Moderator → Context / Market → Application / Experiment
+  This is a schema requirement for the knowledge architecture, not a claim that every empirical study will populate every field with equal granularity.
+  Schema Completion — Theory / Construct + Application / Experiment
+  Schema Control
+  Theory / Construct  and  Application / Experiment  are now explicit fields. A filled field must carry one of two provenance labels in later records:  Evidence-established  or  Derived application/experiment . This prevents proposed managerial use from being mistaken for empirical proof.
+  Full-Schema Coherence Pass — 2026-09-26
+  The representative mechanism set is now normalized against the complete record schema. The following table is the control template for future mechanism records; entries marked  Derived  are not presented as empirical evidence.
+  Coherence Result
+  All required layers are now representable in a normalized mechanism record. This closes the  schema representation  gap. It does not close the  evidence strength  gap: some application mappings remain derived, and some mechanism chains need stronger causal evidence.
+  Adversarial Exception Audit — 2026-09-26
+  Exception 1 — Personalization
+  Prior mechanism records include personalization/privacy trade-offs and strong consumer–brand relationships increasing the perceived benefits of information disclosure. New experimental evidence shows personalization can also repel customers when it embarrasses them, while transparency can mitigate some personalization downsides. citeturn999537search0turn999537search2turn999537search13
+  Interpretation:  apparent contradiction resolves as a  context/mediator boundary , not an empirical collapse of the personalization construct. The mechanism must record perceived control, privacy risk, relationship strength and potential embarrassment/identity threat where relevant.
+  Exception 2 — Omnichannel / retail
+  Existing omnichannel evidence includes both complementary and cannibalizing cross-channel effects. A 2024 grocery field experiment found digital and print promotion support produced different sales pathways, reinforcing that channel effects depend on the channel configuration and target response. citeturn999537search9turn999537search11
+  Interpretation:  channel addition is not intrinsically complementary or cannibalizing; the mechanism depends on cross-channel interaction and source of sales.
+  Exception 3 — Service measurement
+  Field and laboratory experiments show that post-service experience surveys can themselves alter subsequent purchase timing. citeturn999537search14
+  Interpretation:  measurement is not always a neutral observation layer. In some designs, the measurement instrument can become an intervention/antecedent.
+  Exception 4 — Permission / privacy
+  Privacy concerns can reduce permission granting, while content relevance or entertainment can mitigate the effect. citeturn999537search6
+  Interpretation:  digital permission mechanisms require benefit–risk trade-off fields rather than a single privacy-risk variable.
+  Exception Audit Result
+  Passed as boundary detection.  No exception requires deleting or replacing the core mechanism architecture. Instead, the exceptions demonstrate why the architecture requires explicit moderators, mediators, measurement conditions, and context. Apparent contradictions were reclassified as context-dependent mechanisms where the evidence supports that interpretation.
+  Evidence-Strength Layer — 2026-09-26
+  Mechanism claims are now classified by the strength justified by their evidence design:
+  Current calibration examples
+  - Reference-price anchoring:  valuation/perceived-savings support = strong aggregate evidence; anchor → expected-price latitude → purchase intention = bounded quasi-experimental causal support; realized sales/profit = not established in this stream.
+  - Marketing analytics:  analytics dashboard access → increased DDD/performance monitoring → SME sales = causal field-experiment support in the eBay context; analytics → market agility → firm performance = observational/SEM support in the available study.
+  - Personalization:  multiple experimental studies establish conditional downside pathways; there is no universal positive personalization effect.
+  Operating rule
+  The Master Map must store  evidence strength per link , not one global evidence grade for the whole mechanism chain.
+Multi-cycle research batch — 2026-09-26
+Cycle A — Pricing / Value
+Zeithaml (1988) links price, perceived quality and perceived value within a means-end framework; the usable mechanism is perception/evaluation rather than a simple price→purchase rule. citeturn527939search5
+Boundary:  value perception depends on the consumer/context; do not equate price with value or infer universal willingness-to-pay effects from this model.
+Cycle B — Channels / Distribution
+Stern & Reve (1980) model distribution channels as political economies that integrate economic and sociopolitical determinants of channel-member behavior. citeturn510320search0
+Boundary:  channel outcomes require system-level variables such as governance, power, conflict/cooperation and environment; firm-level campaign metrics are insufficient to represent the whole channel system.
+Cycle C — Innovation / Adoption
+Peres, Muller & Mahajan (2010) review diffusion models that incorporate interpersonal communication, network effects and social signals, indicating that adoption can be shaped by interaction/network mechanisms rather than exposure alone. citeturn527939search0
+Boundary:  diffusion mechanisms vary by market, technology generation and network context.
+Cycle D — CRM / Relationship Practice
+Hillebrand, Nijholt & Nijssen (2011) use institutional theory to explain variation in CRM effectiveness; their empirical study of 107 organizations reports lower customer insights when CRM adoption is driven by mimetic institutional motives, while strategic alignment can buffer the effect. citeturn572151search0turn572151search3
+Boundary:  this is evidence about adoption motives, institutional pressure and CRM effectiveness in the studied context, not a universal claim about all CRM programs.
+Cycle E — Services / Value Logic
+Vargo & Lusch (2004) frame marketing around service provision, intangible resources, relationships and value co-creation rather than a goods/transaction-only logic. citeturn572151search1
+Boundary:  this is a theoretical lens; it does not replace transaction, consumer-decision or channel theories where their focal mechanisms are more appropriate.
+Cycle F — Digital / GenAI overlay
+Recent 2025–2026 literature describes GenAI applications across content, personalization, service, advertising and innovation, while also identifying privacy, ethics, security, data quality, transparency and organizational adoption barriers. citeturn499340search0turn499340search3turn499340search4
+Boundary:  GenAI is treated as a transversal technology/implementation overlay, not as a standalone marketing domain that replaces the underlying behavioral, organizational or institutional mechanisms.
+Cross-Layer Mechanism / Dependency Matrix
+Derived operating rules
+- Mechanism first:  identify the causal/explanatory mechanism before selecting a tactic or metric.
+- Level matching:  a construct must be measured at the same level as the claim it supports.
+- Dependency declaration:  every mechanism requires its key contextual dependencies to be recorded.
+- Technology as overlay:  MarTech/AI changes execution possibilities but does not erase underlying behavioral, organizational, channel or institutional mechanisms.
+- No automatic promotion:  repeated conceptual support does not by itself justify a universal Principle or causal claim.
+QC after batch
+State:  SYNTHESIZED at the mechanism-mapping level.
+Confirmed:  cross-layer architecture is useful as a working model and is supported by heterogeneous literature.
+Not confirmed:  a universal single causal chain for marketing.
+Open:  domain-specific empirical validation, transfer tests, and exception cases.
+Stage Gate decision:  KNG-43 remains bounded/derived; no ACTIVE promotion from this batch alone.
+Next gate
+Test the matrix against concrete cases in at least three contexts (B2B software, consumer digital product, regulated/emerging market) and record where mechanism/dependency relationships change.
+Stage validation — cross-context cases
+Case 1 — Xero / professional-firm route
+Xero's current partner resources show an operational path linking accountant/bookkeeper partners to marketing resources, client acquisition, partner-directory visibility, training, certification, campaign-in-a-box materials, and in some markets partner marketing funding. This supports the dependency  professional intermediary → enablement → market activation → client acquisition , while the public material does not by itself establish conversion or revenue effectiveness. citeturn831915search0turn831915search8
+Case 2 — ONYX / distributor-enabled ERP route
+The previously verified ONYX/YemenSoft material documents formal agent/distributor eligibility, market study, training, first-year trial distribution agreement, annual marketing planning with quarterly measurement, market-entry preparation, and ongoing support. The operational design therefore maps to  partner recruitment → qualification → enablement → market entry → measurement , but public evidence does not establish actual partner activation, pipeline or revenue effectiveness.
+Case 3 — GenAI / transversal technology route
+Recent literature treats GenAI as spanning content, personalization, service, advertising and innovation, while simultaneously pointing to privacy, ethics, security, data quality and organizational adoption constraints. This validates the decision to model technology as a transversal overlay whose outcomes depend on underlying marketing mechanisms and organizational context rather than as a replacement taxonomy. citeturn499340search0turn499340search3turn499340search4
+Stage Gate result
+Coverage:  Pass at the bounded working-model level.
+Mechanism match:  Pass; mechanisms change with domain and level.
+Context transfer:  Not yet validated universally.
+Exception handling:  Open; more counterexamples are required.
+Causal promotion:  Rejected for this gate; public/secondary evidence is insufficient for universal causal claims.
+KNG-43 disposition:  Remains a derived, bounded architecture pending further empirical and exception testing.

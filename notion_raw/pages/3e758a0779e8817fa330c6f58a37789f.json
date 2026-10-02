@@ -1,0 +1,99 @@
+{
+ "page": {
+  "id": "3e758a07-79e8-817f-a330-c6f58a37789f",
+  "title": "KNG-43 Provenance Reconciliation Re-check — 2026-09-26",
+  "url": "https://app.notion.com/p/KNG-43-Provenance-Reconciliation-Re-check-2026-09-26-3e758a0779e8817fa330c6f58a37789f"
+ },
+ "blocks": [
+  {
+   "object": "block",
+   "id": "f8bcbe49-56ad-4471-9ba5-305f06bc61bc",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-817f-a330-c6f58a37789f"
+   },
+   "created_time": "2026-09-26T14:00:00.000Z",
+   "last_edited_time": "2026-09-26T14:00:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Evidence classification: FACT = current relation and current automation state; EVIDENCE = Notion records identifying known RSH-2 exception evidence; INFERENCE = the relation is incomplete because five known exception records are absent; RECOMMENDATION = reconstruct and verify the intended complete set before further promotion.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Evidence classification: FACT = current relation and current automation state; EVIDENCE = Notion records identifying known RSH-2 exception evidence; INFERENCE = the relation is incomplete because five known exception records are absent; RECOMMENDATION = reconstruct and verify the intended complete set before further promotion.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "db545920-face-43fc-97d9-fae4eed413e8",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-817f-a330-c6f58a37789f"
+   },
+   "created_time": "2026-09-26T14:00:00.000Z",
+   "last_edited_time": "2026-09-26T14:00:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "No automation setting was changed. No new Research Item was created.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "No automation setting was changed. No new Research Item was created.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  }
+ ]
+}

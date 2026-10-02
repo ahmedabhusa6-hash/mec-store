@@ -1,0 +1,16 @@
+# Secrets — never commit
+.env
+.env.*
+*.pem
+*.key
+
+# Runtime junk
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+*.log
+
+# Local artifacts not part of the archive
+tool-results/
+upload/

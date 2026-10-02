@@ -1,0 +1,189 @@
+{
+ "page": {
+  "id": "3e758a07-79e8-81ba-a69f-facea20d5f8b",
+  "title": "AUDIT-2026-09-26 — Preserve incomplete ASC-011 metadata",
+  "url": "https://app.notion.com/p/AUDIT-2026-09-26-Preserve-incomplete-ASC-011-metadata-3e758a0779e881baa69ffacea20d5f8b"
+ },
+ "blocks": [
+  {
+   "object": "block",
+   "id": "b1b71cb0-d25e-4634-afb3-3b66c3f2b0a9",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81ba-a69f-facea20d5f8b"
+   },
+   "created_time": "2026-09-26T12:53:00.000Z",
+   "last_edited_time": "2026-09-26T12:53:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Data-integrity decision",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Data-integrity decision",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "3684572f-5f3b-44f3-91b4-afc5d8062653",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81ba-a69f-facea20d5f8b"
+   },
+   "created_time": "2026-09-26T12:53:00.000Z",
+   "last_edited_time": "2026-09-26T12:53:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "The historical ASC-011 / Change ID 14 record is intentionally not upgraded to VERIFIED. Its missing metadata reflects a prior persistence failure, and later verified cycles supersede its evidentiary authority without deleting or rewriting the historical record.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "The historical ASC-011 / Change ID 14 record is intentionally not upgraded to VERIFIED. Its missing metadata reflects a prior persistence failure, and later verified cycles supersede its evidentiary authority without deleting or rewriting the historical record.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "524c11cb-df5a-4c58-9e7e-0df17c4f1612",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81ba-a69f-facea20d5f8b"
+   },
+   "created_time": "2026-09-26T12:53:00.000Z",
+   "last_edited_time": "2026-09-26T12:53:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Result",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Result",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "d7e3d466-bfd4-473b-bfcd-3536f281ef49",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81ba-a69f-facea20d5f8b"
+   },
+   "created_time": "2026-09-26T12:53:00.000Z",
+   "last_edited_time": "2026-09-26T12:53:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "No knowledge-state change is implied by this correction record.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "No knowledge-state change is implied by this correction record.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  }
+ ]
+}

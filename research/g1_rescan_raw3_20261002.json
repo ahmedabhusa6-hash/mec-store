@@ -1,0 +1,86 @@
+{
+ "execution_timestamp": "2026-10-02T03:47:51.902768+03:00",
+ "fetches": [
+  {
+   "name": "acz_getServices_plain",
+   "url": "https://api.acczone.xyz/getServices",
+   "http": 200,
+   "err": null,
+   "len": 1837,
+   "body": "[{\"key\":\"ADOBE_EXPRESS\",\"name\":\"Adobe Express 12M\",\"price\":0.3,\"is_active\":1,\"created_at\":\"2026-09-18 04:34:43\",\"description\":\"✅ Adobe account required (new or existing). ✅ No payment method required. ✅ Existing Adobe Premium users can also redeem (subscription extension depends on Adobe policy). ⚠️ If you encounter a region restriction or region mismatch error, connect to an Indian VPN and try again\",\"stock\":1254},{\"key\":\"APPLE_MUSIC_PREPAID_V2\",\"name\":\"Apple Music 5M\",\"price\":0.3,\"is_active\":1,\"created_at\":\"2026-09-18 04:37:57\",\"description\":\"Apple Music 5M\\\\n\\\\n✔️ 1 Month Warranty After Activation\\\\n✔️ Apple Music 5 Month Activation Link\\\\n✔️ Only for fresh accounts in the Indian region; use a VPN\\\\n\\\\n✔️ A valid payment method (UPI/card) is required for activation. Buyer's responsibility.\\\\n\\\\n✅ Link Hold Warranty: 24H\\\\n\\\\n⏳ Activation & Instructions:\\\\n✅ Click the link, create an account in the Indian region, and enjoy 5 months of Apple Music.\\\\n✅ If you are outside India, use\",\"stock\":226},{\"key\":\"DUOLINGO\",\"name\":\"Duolingo Super 12M\",\"price\":0.35,\"is_active\":1,\"created_at\":\"2026-09-18 04:33:39\",\"description\":\"⚡Plan: Super\\\\n⚡Duration: 12 Month\\\\n⚡Access: On Your Account\\\\n⚡Official Coupon Code\\\\n⚡No Warranty After Activation\\\\n⚡Hold Warranty 5 days\\\\n⚡No need any card\\\\n\\\\n💡Quick Guide\\\\n⚡Just keep your account logged in in the browser. Open the link in a new tab and click Claim Offer — it will be activated automatically.\",\"stock\":185},{\"key\":\"geminilive\",\"name\":\"Gemini Pro 18M NEW\",\"price\":0.69,\"is_active\":1,\"created_at\":\"2026-09-30 15:35:04\",\"description\":\"⚡️ 18 Months Plan \\\\n ⚡️ 5TB cloud storage included \\\\n ⚡️ You can add 5 users \\\\n ⚡️ No Shared \\\\n ⚡️ 100% Private \\\\n ⚡️ NO NEED ANY CARD \\\\n ⚡️ Non Warranty \\\\n ⚡️ Works in any country no verification \\\\n ⚡️ 24 Hold warranty  \",\"stock\":235}]",
+   "ts": "2026-10-02T03:47:51"
+  },
+  {
+   "name": "acz_getServices_xak",
+   "url": "https://api.acczone.xyz/getServices",
+   "http": 200,
+   "err": null,
+   "len": 1837,
+   "body": "[{\"key\":\"ADOBE_EXPRESS\",\"name\":\"Adobe Express 12M\",\"price\":0.3,\"is_active\":1,\"created_at\":\"2026-09-18 04:34:43\",\"description\":\"✅ Adobe account required (new or existing). ✅ No payment method required. ✅ Existing Adobe Premium users can also redeem (subscription extension depends on Adobe policy). ⚠️ If you encounter a region restriction or region mismatch error, connect to an Indian VPN and try again\",\"stock\":1254},{\"key\":\"APPLE_MUSIC_PREPAID_V2\",\"name\":\"Apple Music 5M\",\"price\":0.3,\"is_active\":1,\"created_at\":\"2026-09-18 04:37:57\",\"description\":\"Apple Music 5M\\\\n\\\\n✔️ 1 Month Warranty After Activation\\\\n✔️ Apple Music 5 Month Activation Link\\\\n✔️ Only for fresh accounts in the Indian region; use a VPN\\\\n\\\\n✔️ A valid payment method (UPI/card) is required for activation. Buyer's responsibility.\\\\n\\\\n✅ Link Hold Warranty: 24H\\\\n\\\\n⏳ Activation & Instructions:\\\\n✅ Click the link, create an account in the Indian region, and enjoy 5 months of Apple Music.\\\\n✅ If you are outside India, use\",\"stock\":226},{\"key\":\"DUOLINGO\",\"name\":\"Duolingo Super 12M\",\"price\":0.35,\"is_active\":1,\"created_at\":\"2026-09-18 04:33:39\",\"description\":\"⚡Plan: Super\\\\n⚡Duration: 12 Month\\\\n⚡Access: On Your Account\\\\n⚡Official Coupon Code\\\\n⚡No Warranty After Activation\\\\n⚡Hold Warranty 5 days\\\\n⚡No need any card\\\\n\\\\n💡Quick Guide\\\\n⚡Just keep your account logged in in the browser. Open the link in a new tab and click Claim Offer — it will be activated automatically.\",\"stock\":185},{\"key\":\"geminilive\",\"name\":\"Gemini Pro 18M NEW\",\"price\":0.69,\"is_active\":1,\"created_at\":\"2026-09-30 15:35:04\",\"description\":\"⚡️ 18 Months Plan \\\\n ⚡️ 5TB cloud storage included \\\\n ⚡️ You can add 5 users \\\\n ⚡️ No Shared \\\\n ⚡️ 100% Private \\\\n ⚡️ NO NEED ANY CARD \\\\n ⚡️ Non Warranty \\\\n ⚡️ Works in any country no verification \\\\n ⚡️ 24 Hold warranty  \",\"stock\":235}]",
+   "ts": "2026-10-02T03:47:52"
+  },
+  {
+   "name": "acz_getServices_bearer",
+   "url": "https://api.acczone.xyz/getServices",
+   "http": 200,
+   "err": null,
+   "len": 1837,
+   "body": "[{\"key\":\"ADOBE_EXPRESS\",\"name\":\"Adobe Express 12M\",\"price\":0.3,\"is_active\":1,\"created_at\":\"2026-09-18 04:34:43\",\"description\":\"✅ Adobe account required (new or existing). ✅ No payment method required. ✅ Existing Adobe Premium users can also redeem (subscription extension depends on Adobe policy). ⚠️ If you encounter a region restriction or region mismatch error, connect to an Indian VPN and try again\",\"stock\":1254},{\"key\":\"APPLE_MUSIC_PREPAID_V2\",\"name\":\"Apple Music 5M\",\"price\":0.3,\"is_active\":1,\"created_at\":\"2026-09-18 04:37:57\",\"description\":\"Apple Music 5M\\\\n\\\\n✔️ 1 Month Warranty After Activation\\\\n✔️ Apple Music 5 Month Activation Link\\\\n✔️ Only for fresh accounts in the Indian region; use a VPN\\\\n\\\\n✔️ A valid payment method (UPI/card) is required for activation. Buyer's responsibility.\\\\n\\\\n✅ Link Hold Warranty: 24H\\\\n\\\\n⏳ Activation & Instructions:\\\\n✅ Click the link, create an account in the Indian region, and enjoy 5 months of Apple Music.\\\\n✅ If you are outside India, use\",\"stock\":226},{\"key\":\"DUOLINGO\",\"name\":\"Duolingo Super 12M\",\"price\":0.35,\"is_active\":1,\"created_at\":\"2026-09-18 04:33:39\",\"description\":\"⚡Plan: Super\\\\n⚡Duration: 12 Month\\\\n⚡Access: On Your Account\\\\n⚡Official Coupon Code\\\\n⚡No Warranty After Activation\\\\n⚡Hold Warranty 5 days\\\\n⚡No need any card\\\\n\\\\n💡Quick Guide\\\\n⚡Just keep your account logged in in the browser. Open the link in a new tab and click Claim Offer — it will be activated automatically.\",\"stock\":185},{\"key\":\"geminilive\",\"name\":\"Gemini Pro 18M NEW\",\"price\":0.69,\"is_active\":1,\"created_at\":\"2026-09-30 15:35:04\",\"description\":\"⚡️ 18 Months Plan \\\\n ⚡️ 5TB cloud storage included \\\\n ⚡️ You can add 5 users \\\\n ⚡️ No Shared \\\\n ⚡️ 100% Private \\\\n ⚡️ NO NEED ANY CARD \\\\n ⚡️ Non Warranty \\\\n ⚡️ Works in any country no verification \\\\n ⚡️ 24 Hold warranty  \",\"stock\":235}]",
+   "ts": "2026-10-02T03:47:53"
+  },
+  {
+   "name": "acz_getServices_qkey",
+   "url": "https://api.acczone.xyz/getServices?key=[REDACTED-ACZ-KEY]",
+   "http": 200,
+   "err": null,
+   "len": 1837,
+   "body": "[{\"key\":\"ADOBE_EXPRESS\",\"name\":\"Adobe Express 12M\",\"price\":0.3,\"is_active\":1,\"created_at\":\"2026-09-18 04:34:43\",\"description\":\"✅ Adobe account required (new or existing). ✅ No payment method required. ✅ Existing Adobe Premium users can also redeem (subscription extension depends on Adobe policy). ⚠️ If you encounter a region restriction or region mismatch error, connect to an Indian VPN and try again\",\"stock\":1254},{\"key\":\"APPLE_MUSIC_PREPAID_V2\",\"name\":\"Apple Music 5M\",\"price\":0.3,\"is_active\":1,\"created_at\":\"2026-09-18 04:37:57\",\"description\":\"Apple Music 5M\\\\n\\\\n✔️ 1 Month Warranty After Activation\\\\n✔️ Apple Music 5 Month Activation Link\\\\n✔️ Only for fresh accounts in the Indian region; use a VPN\\\\n\\\\n✔️ A valid payment method (UPI/card) is required for activation. Buyer's responsibility.\\\\n\\\\n✅ Link Hold Warranty: 24H\\\\n\\\\n⏳ Activation & Instructions:\\\\n✅ Click the link, create an account in the Indian region, and enjoy 5 months of Apple Music.\\\\n✅ If you are outside India, use\",\"stock\":226},{\"key\":\"DUOLINGO\",\"name\":\"Duolingo Super 12M\",\"price\":0.35,\"is_active\":1,\"created_at\":\"2026-09-18 04:33:39\",\"description\":\"⚡Plan: Super\\\\n⚡Duration: 12 Month\\\\n⚡Access: On Your Account\\\\n⚡Official Coupon Code\\\\n⚡No Warranty After Activation\\\\n⚡Hold Warranty 5 days\\\\n⚡No need any card\\\\n\\\\n💡Quick Guide\\\\n⚡Just keep your account logged in in the browser. Open the link in a new tab and click Claim Offer — it will be activated automatically.\",\"stock\":185},{\"key\":\"geminilive\",\"name\":\"Gemini Pro 18M NEW\",\"price\":0.69,\"is_active\":1,\"created_at\":\"2026-09-30 15:35:04\",\"description\":\"⚡️ 18 Months Plan \\\\n ⚡️ 5TB cloud storage included \\\\n ⚡️ You can add 5 users \\\\n ⚡️ No Shared \\\\n ⚡️ 100% Private \\\\n ⚡️ NO NEED ANY CARD \\\\n ⚡️ Non Warranty \\\\n ⚡️ Works in any country no verification \\\\n ⚡️ 24 Hold warranty  \",\"stock\":235}]",
+   "ts": "2026-10-02T03:47:54"
+  },
+  {
+   "name": "acz_getServices_qapikey",
+   "url": "https://api.acczone.xyz/getServices?apikey=[REDACTED-ACZ-KEY]",
+   "http": 200,
+   "err": null,
+   "len": 1837,
+   "body": "[{\"key\":\"ADOBE_EXPRESS\",\"name\":\"Adobe Express 12M\",\"price\":0.3,\"is_active\":1,\"created_at\":\"2026-09-18 04:34:43\",\"description\":\"✅ Adobe account required (new or existing). ✅ No payment method required. ✅ Existing Adobe Premium users can also redeem (subscription extension depends on Adobe policy). ⚠️ If you encounter a region restriction or region mismatch error, connect to an Indian VPN and try again\",\"stock\":1254},{\"key\":\"APPLE_MUSIC_PREPAID_V2\",\"name\":\"Apple Music 5M\",\"price\":0.3,\"is_active\":1,\"created_at\":\"2026-09-18 04:37:57\",\"description\":\"Apple Music 5M\\\\n\\\\n✔️ 1 Month Warranty After Activation\\\\n✔️ Apple Music 5 Month Activation Link\\\\n✔️ Only for fresh accounts in the Indian region; use a VPN\\\\n\\\\n✔️ A valid payment method (UPI/card) is required for activation. Buyer's responsibility.\\\\n\\\\n✅ Link Hold Warranty: 24H\\\\n\\\\n⏳ Activation & Instructions:\\\\n✅ Click the link, create an account in the Indian region, and enjoy 5 months of Apple Music.\\\\n✅ If you are outside India, use\",\"stock\":226},{\"key\":\"DUOLINGO\",\"name\":\"Duolingo Super 12M\",\"price\":0.35,\"is_active\":1,\"created_at\":\"2026-09-18 04:33:39\",\"description\":\"⚡Plan: Super\\\\n⚡Duration: 12 Month\\\\n⚡Access: On Your Account\\\\n⚡Official Coupon Code\\\\n⚡No Warranty After Activation\\\\n⚡Hold Warranty 5 days\\\\n⚡No need any card\\\\n\\\\n💡Quick Guide\\\\n⚡Just keep your account logged in in the browser. Open the link in a new tab and click Claim Offer — it will be activated automatically.\",\"stock\":185},{\"key\":\"geminilive\",\"name\":\"Gemini Pro 18M NEW\",\"price\":0.69,\"is_active\":1,\"created_at\":\"2026-09-30 15:35:04\",\"description\":\"⚡️ 18 Months Plan \\\\n ⚡️ 5TB cloud storage included \\\\n ⚡️ You can add 5 users \\\\n ⚡️ No Shared \\\\n ⚡️ 100% Private \\\\n ⚡️ NO NEED ANY CARD \\\\n ⚡️ Non Warranty \\\\n ⚡️ Works in any country no verification \\\\n ⚡️ 24 Hold warranty  \",\"stock\":235}]",
+   "ts": "2026-10-02T03:47:55"
+  },
+  {
+   "name": "acz_getServices_qtoken",
+   "url": "https://api.acczone.xyz/getServices?token=[REDACTED-ACZ-KEY]",
+   "http": 200,
+   "err": null,
+   "len": 1837,
+   "body": "[{\"key\":\"ADOBE_EXPRESS\",\"name\":\"Adobe Express 12M\",\"price\":0.3,\"is_active\":1,\"created_at\":\"2026-09-18 04:34:43\",\"description\":\"✅ Adobe account required (new or existing). ✅ No payment method required. ✅ Existing Adobe Premium users can also redeem (subscription extension depends on Adobe policy). ⚠️ If you encounter a region restriction or region mismatch error, connect to an Indian VPN and try again\",\"stock\":1254},{\"key\":\"APPLE_MUSIC_PREPAID_V2\",\"name\":\"Apple Music 5M\",\"price\":0.3,\"is_active\":1,\"created_at\":\"2026-09-18 04:37:57\",\"description\":\"Apple Music 5M\\\\n\\\\n✔️ 1 Month Warranty After Activation\\\\n✔️ Apple Music 5 Month Activation Link\\\\n✔️ Only for fresh accounts in the Indian region; use a VPN\\\\n\\\\n✔️ A valid payment method (UPI/card) is required for activation. Buyer's responsibility.\\\\n\\\\n✅ Link Hold Warranty: 24H\\\\n\\\\n⏳ Activation & Instructions:\\\\n✅ Click the link, create an account in the Indian region, and enjoy 5 months of Apple Music.\\\\n✅ If you are outside India, use\",\"stock\":226},{\"key\":\"DUOLINGO\",\"name\":\"Duolingo Super 12M\",\"price\":0.35,\"is_active\":1,\"created_at\":\"2026-09-18 04:33:39\",\"description\":\"⚡Plan: Super\\\\n⚡Duration: 12 Month\\\\n⚡Access: On Your Account\\\\n⚡Official Coupon Code\\\\n⚡No Warranty After Activation\\\\n⚡Hold Warranty 5 days\\\\n⚡No need any card\\\\n\\\\n💡Quick Guide\\\\n⚡Just keep your account logged in in the browser. Open the link in a new tab and click Claim Offer — it will be activated automatically.\",\"stock\":185},{\"key\":\"geminilive\",\"name\":\"Gemini Pro 18M NEW\",\"price\":0.69,\"is_active\":1,\"created_at\":\"2026-09-30 15:35:04\",\"description\":\"⚡️ 18 Months Plan \\\\n ⚡️ 5TB cloud storage included \\\\n ⚡️ You can add 5 users \\\\n ⚡️ No Shared \\\\n ⚡️ 100% Private \\\\n ⚡️ NO NEED ANY CARD \\\\n ⚡️ Non Warranty \\\\n ⚡️ Works in any country no verification \\\\n ⚡️ 24 Hold warranty  \",\"stock\":235}]",
+   "ts": "2026-10-02T03:47:56"
+  },
+  {
+   "name": "acz_getBalance_xak",
+   "url": "https://api.acczone.xyz/getBalance",
+   "http": 400,
+   "err": "HTTPError",
+   "len": 28,
+   "body": "{\"detail\":\"Missing API Key\"}",
+   "ts": "2026-10-02T03:47:56"
+  },
+  {
+   "name": "acz_getBalance_bearer",
+   "url": "https://api.acczone.xyz/getBalance",
+   "http": 400,
+   "err": "HTTPError",
+   "len": 28,
+   "body": "{\"detail\":\"Missing API Key\"}",
+   "ts": "2026-10-02T03:47:58"
+  },
+  {
+   "name": "acz_getBalance_qkey",
+   "url": "https://api.acczone.xyz/getBalance?key=[REDACTED-ACZ-KEY]",
+   "http": 400,
+   "err": "HTTPError",
+   "len": 28,
+   "body": "{\"detail\":\"Missing API Key\"}",
+   "ts": "2026-10-02T03:47:59"
+  }
+ ]
+}

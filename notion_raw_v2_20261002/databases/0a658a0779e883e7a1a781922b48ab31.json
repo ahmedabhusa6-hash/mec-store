@@ -1,0 +1,771 @@
+{
+ "capture_reason": "CHANGED",
+ "title": "مدوّنتي",
+ "schema": {
+  "object": "database",
+  "id": "0a658a07-79e8-83e7-a1a7-81922b48ab31",
+  "cover": null,
+  "icon": {
+   "type": "emoji",
+   "emoji": "✍️"
+  },
+  "created_time": "2026-07-24T22:57:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_time": "2026-07-24T22:57:00.000Z",
+  "title": [
+   {
+    "type": "text",
+    "text": {
+     "content": "مدوّنتي",
+     "link": null
+    },
+    "annotations": {
+     "bold": false,
+     "italic": false,
+     "strikethrough": false,
+     "underline": false,
+     "code": false,
+     "color": "default"
+    },
+    "plain_text": "مدوّنتي",
+    "href": null
+   }
+  ],
+  "description": [
+   {
+    "type": "text",
+    "text": {
+     "content": "إذا كنت ترغب في تحويل هذه الصفحة إلى موقع ويب عام قابل للمشاركة، ستحتاج إلى جعلها صفحة عامة:\n1. انقر على ",
+     "link": null
+    },
+    "annotations": {
+     "bold": false,
+     "italic": false,
+     "strikethrough": false,
+     "underline": false,
+     "code": false,
+     "color": "gray"
+    },
+    "plain_text": "إذا كنت ترغب في تحويل هذه الصفحة إلى موقع ويب عام قابل للمشاركة، ستحتاج إلى جعلها صفحة عامة:\n1. انقر على ",
+    "href": null
+   },
+   {
+    "type": "text",
+    "text": {
+     "content": "مشاركة",
+     "link": null
+    },
+    "annotations": {
+     "bold": false,
+     "italic": false,
+     "strikethrough": false,
+     "underline": false,
+     "code": true,
+     "color": "gray"
+    },
+    "plain_text": "مشاركة",
+    "href": null
+   },
+   {
+    "type": "text",
+    "text": {
+     "content": " في أعلى يسار الصفحة، ثم انتقل إلى قائمة ",
+     "link": null
+    },
+    "annotations": {
+     "bold": false,
+     "italic": false,
+     "strikethrough": false,
+     "underline": false,
+     "code": false,
+     "color": "gray"
+    },
+    "plain_text": " في أعلى يسار الصفحة، ثم انتقل إلى قائمة ",
+    "href": null
+   },
+   {
+    "type": "text",
+    "text": {
+     "content": "نشر",
+     "link": null
+    },
+    "annotations": {
+     "bold": false,
+     "italic": false,
+     "strikethrough": false,
+     "underline": false,
+     "code": true,
+     "color": "gray"
+    },
+    "plain_text": "نشر",
+    "href": null
+   },
+   {
+    "type": "text",
+    "text": {
+     "content": ".\n2. انقر على ",
+     "link": null
+    },
+    "annotations": {
+     "bold": false,
+     "italic": false,
+     "strikethrough": false,
+     "underline": false,
+     "code": false,
+     "color": "gray"
+    },
+    "plain_text": ".\n2. انقر على ",
+    "href": null
+   },
+   {
+    "type": "text",
+    "text": {
+     "content": "نشر على الويب",
+     "link": null
+    },
+    "annotations": {
+     "bold": false,
+     "italic": false,
+     "strikethrough": false,
+     "underline": false,
+     "code": true,
+     "color": "gray"
+    },
+    "plain_text": "نشر على الويب",
+    "href": null
+   },
+   {
+    "type": "text",
+    "text": {
+     "content": ".",
+     "link": null
+    },
+    "annotations": {
+     "bold": false,
+     "italic": false,
+     "strikethrough": false,
+     "underline": false,
+     "code": false,
+     "color": "gray"
+    },
+    "plain_text": ".",
+    "href": null
+   }
+  ],
+  "is_inline": false,
+  "database_type": null,
+  "properties": {
+   "الملء التلقائي المخصّص بالذكاء الاصطناعي": {
+    "id": "%3BUrC",
+    "name": "الملء التلقائي المخصّص بالذكاء الاصطناعي",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "الوسوم": {
+    "id": "T%5Cnr",
+    "name": "الوسوم",
+    "description": null,
+    "type": "multi_select",
+    "multi_select": {
+     "options": [
+      {
+       "id": "5dd4e138-bb84-4ca1-8fa4-a41b7bb6ea98",
+       "name": "اليقظة الذهنية",
+       "color": "orange",
+       "description": null
+      },
+      {
+       "id": "f3f94c7b-a9ba-48f5-95be-7736837234c6",
+       "name": "كتب",
+       "color": "default",
+       "description": null
+      },
+      {
+       "id": "86fa7417-e39f-4708-bb1d-26409a43cff1",
+       "name": "علم النفس",
+       "color": "red",
+       "description": null
+      },
+      {
+       "id": "8830ac58-581e-451f-81f8-c06d18535e81",
+       "name": "الصحة النفسية",
+       "color": "purple",
+       "description": null
+      },
+      {
+       "id": "ec4b86fb-a00b-43f1-a591-f353ce51b255",
+       "name": "التعلّم",
+       "color": "pink",
+       "description": null
+      },
+      {
+       "id": "df6af6b0-fc38-47a1-a236-c12442030343",
+       "name": "طعام",
+       "color": "brown",
+       "description": null
+      },
+      {
+       "id": "3a456ebc-07e7-4e87-8bf5-76248bc18292",
+       "name": "سفر",
+       "color": "gray",
+       "description": null
+      },
+      {
+       "id": "d12cc1cb-2032-4310-b702-ff1e5b3f4321",
+       "name": "نمط الحياة",
+       "color": "blue",
+       "description": null
+      },
+      {
+       "id": "01f83b82-decb-48c5-a9af-289c35a2c45a",
+       "name": "هوايات",
+       "color": "green",
+       "description": null
+      }
+     ]
+    }
+   },
+   "تاريخ النشر": {
+    "id": "wOPZ",
+    "name": "تاريخ النشر",
+    "description": null,
+    "type": "date",
+    "date": {}
+   },
+   "الاسم": {
+    "id": "title",
+    "name": "الاسم",
+    "description": null,
+    "type": "title",
+    "title": {}
+   }
+  },
+  "parent": {
+   "type": "page_id",
+   "page_id": "ca158a07-79e8-8216-8e12-011d93e9dadf"
+  },
+  "url": "https://app.notion.com/p/0a658a0779e883e7a1a781922b48ab31",
+  "public_url": null,
+  "in_trash": false,
+  "archived": false,
+  "request_id": "6cf54d2c-191a-4b4e-8ddf-bc6dcc4f4583"
+ },
+ "row_count": 5,
+ "rows": [
+  {
+   "object": "page",
+   "id": "9c058a07-79e8-83be-858e-81edc1f5e234",
+   "created_time": "2026-07-24T22:57:00.000Z",
+   "last_edited_time": "2026-07-24T22:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": {
+    "type": "external",
+    "external": {
+     "url": "https://images.unsplash.com/photo-1555081944-c0c2f00d06e8?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb"
+    }
+   },
+   "icon": {
+    "type": "emoji",
+    "emoji": "💭"
+   },
+   "parent": {
+    "type": "database_id",
+    "database_id": "0a658a07-79e8-83e7-a1a7-81922b48ab31"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "الملء التلقائي المخصّص بالذكاء الاصطناعي": {
+     "id": "%3BUrC",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "تُبرز قوة التفكير الإيجابي في تحسين الصحة والرفاهية العامة.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "تُبرز قوة التفكير الإيجابي في تحسين الصحة والرفاهية العامة.",
+       "href": null
+      }
+     ]
+    },
+    "الوسوم": {
+     "id": "T%5Cnr",
+     "type": "multi_select",
+     "multi_select": [
+      {
+       "id": "86fa7417-e39f-4708-bb1d-26409a43cff1",
+       "name": "علم النفس",
+       "color": "red"
+      },
+      {
+       "id": "d12cc1cb-2032-4310-b702-ff1e5b3f4321",
+       "name": "نمط الحياة",
+       "color": "blue"
+      }
+     ]
+    },
+    "تاريخ النشر": {
+     "id": "wOPZ",
+     "type": "date",
+     "date": {
+      "start": "2023-06-09",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "الاسم": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "قوّة التفكير الإيجابي",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "قوّة التفكير الإيجابي",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/9c058a0779e883be858e81edc1f5e234",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "a0558a07-79e8-83a8-87c9-0180f9d46abe",
+   "created_time": "2026-07-24T22:57:00.000Z",
+   "last_edited_time": "2026-07-24T22:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": {
+    "type": "external",
+    "external": {
+     "url": "https://images.unsplash.com/photo-1520962880247-cfaf541c8724?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb"
+    }
+   },
+   "icon": {
+    "type": "emoji",
+    "emoji": "🧘‍♀️"
+   },
+   "parent": {
+    "type": "database_id",
+    "database_id": "0a658a07-79e8-83e7-a1a7-81922b48ab31"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "الملء التلقائي المخصّص بالذكاء الاصطناعي": {
+     "id": "%3BUrC",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "تعلم فن اليقظة الذهنية للعيش في اللحظة الحالية بسلام.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "تعلم فن اليقظة الذهنية للعيش في اللحظة الحالية بسلام.",
+       "href": null
+      }
+     ]
+    },
+    "الوسوم": {
+     "id": "T%5Cnr",
+     "type": "multi_select",
+     "multi_select": [
+      {
+       "id": "5dd4e138-bb84-4ca1-8fa4-a41b7bb6ea98",
+       "name": "اليقظة الذهنية",
+       "color": "orange"
+      }
+     ]
+    },
+    "تاريخ النشر": {
+     "id": "wOPZ",
+     "type": "date",
+     "date": {
+      "start": "2023-12-07",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "الاسم": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "فن عيش اللحظة",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "فن عيش اللحظة",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/a0558a0779e883a887c90180f9d46abe",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "fd658a07-79e8-8254-b9e8-0167619cf013",
+   "created_time": "2026-07-24T22:57:00.000Z",
+   "last_edited_time": "2026-07-24T22:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": {
+    "type": "external",
+    "external": {
+     "url": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb"
+    }
+   },
+   "icon": {
+    "type": "emoji",
+    "emoji": "📚"
+   },
+   "parent": {
+    "type": "database_id",
+    "database_id": "0a658a07-79e8-83e7-a1a7-81922b48ab31"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "الملء التلقائي المخصّص بالذكاء الاصطناعي": {
+     "id": "%3BUrC",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "تستعرض المدونة أفضل عشرة كتب وتأثيرها العميق على الحياة.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "تستعرض المدونة أفضل عشرة كتب وتأثيرها العميق على الحياة.",
+       "href": null
+      }
+     ]
+    },
+    "الوسوم": {
+     "id": "T%5Cnr",
+     "type": "multi_select",
+     "multi_select": [
+      {
+       "id": "f3f94c7b-a9ba-48f5-95be-7736837234c6",
+       "name": "كتب",
+       "color": "default"
+      },
+      {
+       "id": "ec4b86fb-a00b-43f1-a591-f353ce51b255",
+       "name": "التعلّم",
+       "color": "pink"
+      }
+     ]
+    },
+    "تاريخ النشر": {
+     "id": "wOPZ",
+     "type": "date",
+     "date": {
+      "start": "2023-10-11",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "الاسم": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "أفضل 10 كتب بالنسبة لي وسبب حبّي لها",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "أفضل 10 كتب بالنسبة لي وسبب حبّي لها",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/10-fd658a0779e88254b9e80167619cf013",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "57958a07-79e8-839d-a51a-01866444b1be",
+   "created_time": "2026-07-24T22:57:00.000Z",
+   "last_edited_time": "2026-07-24T22:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": {
+    "type": "external",
+    "external": {
+     "url": "https://images.unsplash.com/photo-1616278842935-f36557148755?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb"
+    }
+   },
+   "icon": {
+    "type": "emoji",
+    "emoji": "🍱"
+   },
+   "parent": {
+    "type": "database_id",
+    "database_id": "0a658a07-79e8-83e7-a1a7-81922b48ab31"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "الملء التلقائي المخصّص بالذكاء الاصطناعي": {
+     "id": "%3BUrC",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "استكشاف المطابخ المتنوعة يكشف عن ثقافات غنية ونكهات لا تُنسى.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "استكشاف المطابخ المتنوعة يكشف عن ثقافات غنية ونكهات لا تُنسى.",
+       "href": null
+      }
+     ]
+    },
+    "الوسوم": {
+     "id": "T%5Cnr",
+     "type": "multi_select",
+     "multi_select": []
+    },
+    "تاريخ النشر": {
+     "id": "wOPZ",
+     "type": "date",
+     "date": {
+      "start": "2023-08-22",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "الاسم": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "استكشاف مطابخ جديدة",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "استكشاف مطابخ جديدة",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/57958a0779e8839da51a01866444b1be",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "22a58a07-79e8-838d-bb7c-01f91c8e9f88",
+   "created_time": "2026-07-24T22:57:00.000Z",
+   "last_edited_time": "2026-07-24T22:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": {
+    "type": "external",
+    "external": {
+     "url": "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb"
+    }
+   },
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "0a658a07-79e8-83e7-a1a7-81922b48ab31"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "الملء التلقائي المخصّص بالذكاء الاصطناعي": {
+     "id": "%3BUrC",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "هواياتي الثلاث المفضلة هي القراءة، البستنة، والطهي.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "هواياتي الثلاث المفضلة هي القراءة، البستنة، والطهي.",
+       "href": null
+      }
+     ]
+    },
+    "الوسوم": {
+     "id": "T%5Cnr",
+     "type": "multi_select",
+     "multi_select": [
+      {
+       "id": "01f83b82-decb-48c5-a9af-289c35a2c45a",
+       "name": "هوايات",
+       "color": "green"
+      }
+     ]
+    },
+    "تاريخ النشر": {
+     "id": "wOPZ",
+     "type": "date",
+     "date": null
+    },
+    "الاسم": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "هواياتي المفضّلة: كيف أقضي وقت فراغي",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "هواياتي المفضّلة: كيف أقضي وقت فراغي",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/22a58a0779e8838dbb7c01f91c8e9f88",
+   "public_url": null,
+   "archived": false
+  }
+ ]
+}

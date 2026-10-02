@@ -1,0 +1,146 @@
+{
+ "generated": "2026-09-29T13:59:17.641004+00:00",
+ "target": "teamsoclo.site",
+ "dns": {
+  "teamsoclo.site": {
+   "error": "NXDOMAIN/unresolved"
+  },
+  "gpt.teamsoclo.site": {
+   "ips": [
+    "104.21.44.56",
+    "172.67.195.219"
+   ],
+   "reverse": null
+  },
+  "redeem.teamsoclo.site": {
+   "ips": [
+    "104.21.44.56",
+    "172.67.195.219"
+   ],
+   "reverse": null
+  },
+  "docs.teamsoclo.site": {
+   "ips": [
+    "162.159.143.13",
+    "172.66.3.9"
+   ],
+   "reverse": null
+  },
+  "api.teamsoclo.site": {
+   "error": "NXDOMAIN/unresolved"
+  },
+  "www.teamsoclo.site": {
+   "error": "NXDOMAIN/unresolved"
+  },
+  "panel.teamsoclo.site": {
+   "error": "NXDOMAIN/unresolved"
+  },
+  "dashboard.teamsoclo.site": {
+   "error": "NXDOMAIN/unresolved"
+  }
+ },
+ "http": {
+  "root": {
+   "status": 0,
+   "error": "HTTPSConnectionPool(host='teamsoclo.site', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"H"
+  },
+  "gpt": {
+   "status": 200,
+   "final_url": "https://gpt.teamsoclo.site/",
+   "server": "cloudflare",
+   "powered": "",
+   "cf_ray": "a42b81f02d1a09f4-HKG",
+   "title": "New API",
+   "body_head": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <meta name=\"google\" content=\"notranslate\" />\n\n    <!-- Primary Meta Tags -->\n    <title>New API</title>\n    <meta name=\"title\" content=\"New API\" />\n    <meta\n      name=\"description\"\n      content=\"Unified AI API gateway and admin dashboard.\"\n    />\n\n    <meta name=\"theme-color\" content=\"#fff\" />\n    <!--Umami QuantumNous-->\n    <!--Google Analytics QuantumNous-->\n  <link rel=\"icon\" href=\"/favicon.ico\"><script defer src=\"/static/js/vendor-ui-primitives.d4fa87a1c2.js\"></script><script defer src=\"/static/js/vendor-tanstack.41b48fabbb.js\"></script><script defer src=\"/static/js/lib-react.91bc21a6cf.js\"></script><script defer src=\"/static/js/18612.6d10d6f2ea.js\"></script><script defer src=\"/static/js/index.b24073d525.js\"></script><link href=\"/static/css/index.3ef7d123a0.css\" rel=\"stylesheet\"></head>\n\n  <body>\n    <div id=\"root\" translate=\"no\" class=\"notranslate\"></div>\n  <script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495\" integrity=\"sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==\" data-cf-beacon='{\"version\":\"2024.11.0\",\"token\":\"3131018f0498487ca3ea0900c6391282\",\"r\":1,\"spa\":2}' crossorigin=\"anonymous\"></script>\n</body>\n</html>\n",
+   "size": 1414,
+   "headers": {
+    "Content-Type": "text/html; charset=utf-8",
+    "Server": "cloudflare",
+    "CF-RAY": "a42b81f02d1a09f4-HKG"
+   }
+  },
+  "gpt_v1": {
+   "status": 401,
+   "final_url": "https://gpt.teamsoclo.site/v1/models",
+   "server": "cloudflare",
+   "powered": "",
+   "cf_ray": "a42b81f0ee7c0970-HKG",
+   "title": "",
+   "body_head": "{\"error\":{\"code\":\"\",\"message\":\"Invalid token (request id: 202609291359179860376188268d9d6T0VVLZK0)\",\"type\":\"new_api_error\"}}",
+   "size": 124,
+   "headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Server": "cloudflare",
+    "CF-RAY": "a42b81f0ee7c0970-HKG"
+   }
+  },
+  "gpt_check": {
+   "status": 200,
+   "final_url": "https://gpt.teamsoclo.site/check",
+   "server": "cloudflare",
+   "powered": "",
+   "cf_ray": "a42b81f22b5d84f4-HKG",
+   "title": "Kiá»m tra API Key",
+   "body_head": "<!doctype html>\n<html lang=\"vi\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<meta name=\"color-scheme\" content=\"light\">\n<meta name=\"robots\" content=\"noindex,nofollow\">\n<title>Kiá»m tra API Key</title>\n<link rel=\"icon\" href=\"/logo.png\">\n<style>\n  :root{\n    --bg:#fff; --panel:#fbfcfd; --fg:#1a1f28; --muted:#5f6b7a; --faint:#8a95a3;\n    --line:#dfe4ea; --line2:#eef1f5; --accent:#1c62d6; --ok:#127a3c; --warn:#8a5200; --err:#c0271b;\n  }\n  *{box-sizing:border-box}\n  body{margin:0;background:var(--bg);color:var(--fg);\n    font:14px/1.5 -apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Arial,sans-serif;\n    -webkit-font-smoothing:antialiased}\n  a{color:var(--accent)}\n  .bar{border-bottom:1px solid var(--line);background:var(--bg)}\n  .bar .in{max-width:880px;margin:0 auto;padding:11px 20px;display:flex;align-items:center;gap:8px}\n  .bar img{width:24px;height:24px;border-radius:5px;object-fit:cover}\n  .bar b{font-size:14px}\n  .bar .sep{color:var(--line);margin:0 2px}\n  .bar span.t{color:var(--muted);font-size:13px}\n  .lang{margin-left:auto;font:13px/1 -apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Arial,sans-serif;\n    color:var(--muted);background:#fff;border:1px solid var(--line);border-radius:6px;padding:4px 7px;cursor:pointer}\n  .bar a{font-size:13px;text-decoration:none}\n  .bar a:hover{text-decoration:underline}\n\n  main{max-width:880px;margin:0 auto;padding:26px 20px 56px}\n  h1{margin:0 0 5px;font-size:19px;font-weight:",
+   "size": 41307,
+   "headers": {
+    "Content-Type": "text/html",
+    "Server": "cloudflare",
+    "CF-RAY": "a42b81f22b5d84f4-HKG"
+   }
+  },
+  "redeem": {
+   "status": 200,
+   "final_url": "https://redeem.teamsoclo.site/",
+   "server": "cloudflare",
+   "powered": "",
+   "cf_ray": "a42b81f479f985e6-HKG",
+   "title": "Đổi mã CDK",
+   "body_head": "<!doctype html>\n<html lang=\"vi\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<meta name=\"color-scheme\" content=\"light\">\n<meta name=\"robots\" content=\"noindex,nofollow\">\n<title>Đổi mã CDK</title>\n<link rel=\"icon\" href=\"https://gpt.teamsoclo.site/logo.png\">\n<style>\n  :root{\n    --bg:#fff; --panel:#fbfcfd; --fg:#1a1f28; --muted:#5f6b7a; --faint:#8a95a3;\n    --line:#dfe4ea; --line2:#eef1f5; --accent:#1c62d6; --ok:#127a3c; --err:#c0271b;\n  }\n  *{box-sizing:border-box}\n  body{margin:0;min-height:100vh;color:var(--fg);\n    background:linear-gradient(180deg,#eaf2ff 0%,#f7fbff 45%,#fff 100%);\n    font:14px/1.5 -apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Arial,sans-serif;\n    -webkit-font-smoothing:antialiased}\n  .bar{max-width:880px;margin:0 auto;padding:16px 20px 0;display:flex;align-items:center;gap:9px}\n  .bar img{width:26px;height:26px;border-radius:6px;object-fit:cover}\n  .bar b{font-size:15px}\n  .lang{margin-left:auto;font:13px/1 -apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Arial,sans-serif;\n    color:var(--muted);background:#fff;border:1px solid var(--line);border-radius:7px;padding:5px 8px;cursor:pointer}\n  .bar a{color:var(--muted);text-decoration:none;font-size:13px}\n  .bar a:hover{color:var(--accent)}\n  .wrap{max-width:480px;margin:0 auto;padding:36px 20px 60px}\n  h1{margin:0 0 6px;font-size:22px;font-weight:700;letter-spacing:-.3px}\n  .sub{color:var(--muted);font-size:13.5px;margin-bottom:22px}\n  .card{back",
+   "size": 19734,
+   "headers": {
+    "Content-Type": "text/html; charset=utf-8",
+    "Server": "cloudflare",
+    "CF-RAY": "a42b81f479f985e6-HKG"
+   }
+  },
+  "docs": {
+   "status": 200,
+   "final_url": "https://docs.teamsoclo.site/",
+   "server": "cloudflare",
+   "powered": "",
+   "cf_ray": "a42b81f5fb99e2e9-HKG",
+   "title": "",
+   "body_head": "<!DOCTYPE html><html lang=\"en\" class=\"inter_1d81deff-module__CYM0aG__variable papermono_89c757f2-module__6aS5zq__variable dark\" data-banner-state=\"visible\" data-assistant-state=\"closed\" data-page-mode=\"none\" data-current-path=\"/\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"/><link rel=\"preload\" href=\"/mintlify-assets/_next/static/media/83afe278b6a6bb3c.p.3a6ba036.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"/><link rel=\"preload\" href=\"/mintlify-assets/_next/static/media/PaperMono_Variable.p.aa32f7a0.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"/><link rel=\"preload\" href=\"/mintlify-assets/_next/static/media/f67ad414ed34149c.p.84166d94.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"/><link rel=\"preload\" as=\"image\" href=\"https://mintcdn.com/teamsoclo/Dlt5CEwSw47WHY2C/logo/teamsoclo.png?fit=max&amp;auto=format&amp;n=Dlt5CEwSw47WHY2C&amp;q=85&amp;s=6a138ea8bc006dcfcc9132f758f1902f\"/><link rel=\"stylesheet\" href=\"/mintlify-assets/_next/static/chunks/462bacc63bed9960.css?dpl=dpl_Ho9ervNewT2mACrUoYbN7qri7kim\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"/mintlify-assets/_next/static/chunks/aaa51283d61f795b.css?dpl=dpl_Ho9ervNewT2mACrUoYbN7qri7kim\" data-precedence=\"next\"/><style data-precedence=\"base-ui:low\" data-href=\"base-ui-disable-scrollbar\">.base-ui-disable-scrollbar{scrollbar-width:none}.base-ui-disable-scrollbar::-webkit-scrollbar{display:none}</style><link rel=\"preload\" as=\"script\" fetchPr",
+   "size": 259007,
+   "headers": {
+    "Content-Type": "text/html; charset=utf-8",
+    "CF-Ray": "a42b81f5fb99e2e9-HKG",
+    "Server": "cloudflare"
+   }
+  }
+ },
+ "tls": "error: [Errno -5] No address associated with hostname",
+ "telegram": {
+  "https://t.me/teamsoclo": {
+   "status": 200,
+   "title": "Team Sóc Lọ",
+   "og_description": "Kênh thông báo sóc lọ"
+  },
+  "https://t.me/s/teamsoclo": {
+   "status": 200,
+   "title": "Team Sóc Lọ",
+   "og_description": "Kênh thông báo sóc lọ"
+  },
+  "preview_messages": [
+   "Server tạm đóng chờ update ạ",
+   "🪫      Thông Báo:    Hiện tại Astra đang bị OpenAI giới hạn nên server không ổn định. Các bác sử dụng 5.6 Sol để đảm bảo ổn định nha    🪓     Nếu cần hỗ trợ hãy nhắn Reseller để được hỗ trợ    🦻",
+   "🪫      Thông Báo:    Tạm dừng hệ thống trong chốc lát để kiểm tra nâng cấp    🦆      Nếu cần hỗ trợ hãy nhắn Reseller để được hỗ trợ    🦻",
+   "🪫      Thông Báo:    Server đã hoạt động trở lại   Nếu cần hỗ trợ hãy nhắn Reseller để được hỗ trợ    🦻",
+   "👍      Thông Báo (CODEX API):    Team đã cung cấp API dài ngày phục vụ các bác. Các bác hãy vào shop xem các seller đã có hàng chưa nha.  Cảm ơn các bác đã sử dụng dịch vụ và cuối tuần vui vẻ.    🫰        Nếu cần hỗ trợ hãy nhắn Reseller để được hỗ trợ        🦻",
+   "🪦      Thông Báo (CODEX API):    Hệ thống đang trục trặc kỹ thuật. Các shop đợi xíu hệ thống sẽ khôi phục lại. Cảm ơn các shop    🐸         Nếu cần hỗ trợ hãy nhắn Reseller để được hỗ trợ        🦻",
+   "😁     Thông Báo (CODEX API):    Hệ thống đã bình thường, cảm ơn các shop đã chờ đợi ạ.    👊       Nếu cần hỗ trợ hãy nhắn Reseller để được hỗ trợ        🦻",
+   "😁     Thông Báo (CODEX API):    Hiện tại đang có người spam sll request vào server, chủ yếu đến từ í ộ nên team đã bật Rate Limit cho hệ thống tránh ảnh hưởng đến pool. Các bác nếu bị 429 thì thử lại trong 10 15s thì server sẽ phản hồi nhé. Cảm ơn các bác đã thông cảm    😘       Nếu cần hỗ trợ hãy n"
+  ]
+ }
+}

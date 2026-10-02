@@ -1,0 +1,329 @@
+{
+ "capture_reason": "NEWLY_ACCESSIBLE",
+ "captured_at": "2026-10-02T12:16:49+03:00",
+ "title": "Country Case — Saudi Arabia Regulatory Demand Context",
+ "last_edited": "2026-09-25T20:08:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e658a07-79e8-81c0-a4ce-fe1c5232d88e",
+  "created_time": "2026-09-25T20:08:00.000Z",
+  "last_edited_time": "2026-09-25T20:08:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "a87d8f7b-de51-419c-aa6d-90b81e0d7b21"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "Context": {
+    "id": "%3BcyS",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Saudi Arabia; VAT/e-invoicing environment.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Saudi Arabia; VAT/e-invoicing environment.",
+      "href": null
+     }
+    ]
+   },
+   "Situation": {
+    "id": "Dqr%7D",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "ZATCA Phase 1 requires electronic generation and storage of tax invoices; Phase 2 requires integration of taxpayer e-invoicing solutions with ZATCA/Fatoora and is rolled out in waves. ZATCA's 2026 Wave 25 announcement targets taxpayers above the stated SAR 187,500 VAT-revenue threshold in the specified prior years for integration by February 1, 2027.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "ZATCA Phase 1 requires electronic generation and storage of tax invoices; Phase 2 requires integration of taxpayer e-invoicing solutions with ZATCA/Fatoora and is rolled out in waves. ZATCA's 2026 Wave 25 announcement targets taxpayers above the stated SAR 187,500 VAT-revenue threshold in the specified prior years for integration by February 1, 2027.",
+      "href": null
+     }
+    ]
+   },
+   "Entity Link": {
+    "id": "ElSP",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "3e658a07-79e8-818e-a48d-f2d8eaf4cd60"
+     }
+    ],
+    "has_more": false
+   },
+   "Evidence Links": {
+    "id": "FYu%3A",
+    "type": "relation",
+    "relation": [],
+    "has_more": false
+   },
+   "Market": {
+    "id": "LVaJ",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Saudi Arabia",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Saudi Arabia",
+      "href": null
+     }
+    ]
+   },
+   "Constraints": {
+    "id": "MgJ%7D",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Eligibility and deadlines are wave-specific; regulatory guidance changes and must be rechecked before execution.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Eligibility and deadlines are wave-specific; regulatory guidance changes and must be rechecked before execution.",
+      "href": null
+     }
+    ]
+   },
+   "Confidence": {
+    "id": "Mhr%5B",
+    "type": "select",
+    "select": {
+     "id": "e872a95c-be8c-4dea-83d7-6192450960df",
+     "name": "High",
+     "color": "green"
+    }
+   },
+   "Segment": {
+    "id": "S%7Cat",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "VAT taxpayers / SMBs / ERP-accounting users / solution providers",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "VAT taxpayers / SMBs / ERP-accounting users / solution providers",
+      "href": null
+     }
+    ]
+   },
+   "Observed Outcome": {
+    "id": "TDBm",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "The regulatory program creates explicit compliance milestones and a directory of solution providers; this establishes a demand context, not marketing effectiveness.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "The regulatory program creates explicit compliance milestones and a directory of solution providers; this establishes a demand context, not marketing effectiveness.",
+      "href": null
+     }
+    ]
+   },
+   "Objective": {
+    "id": "UwXv",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Understand how mandatory e-invoicing requirements shape the problem space for accounting and ERP software.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Understand how mandatory e-invoicing requirements shape the problem space for accounting and ERP software.",
+      "href": null
+     }
+    ]
+   },
+   "Status": {
+    "id": "WKe%3B",
+    "type": "status",
+    "status": {
+     "id": "6b06f923-0b48-4a06-b0f5-de1916f018c1",
+     "name": "تم",
+     "color": "green"
+    }
+   },
+   "Evidence References": {
+    "id": "gCUd",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "ZATCA rollout phases; ZATCA Wave 25; ZATCA solution-provider directory; Saudi Digital 2026.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "ZATCA rollout phases; ZATCA Wave 25; ZATCA solution-provider directory; Saudi Digital 2026.",
+      "href": null
+     }
+    ]
+   },
+   "Date": {
+    "id": "jpdJ",
+    "type": "date",
+    "date": null
+   },
+   "Channels": {
+    "id": "vZLG",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Compliance education, solution discovery, implementation partners, e-invoicing solution providers, product/vendor content.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Compliance education, solution discovery, implementation partners, e-invoicing solution providers, product/vendor content.",
+      "href": null
+     }
+    ]
+   },
+   "Mechanism": {
+    "id": "xauN",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Regulatory requirement creates a concrete business need for compliant invoicing software and integration capability.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Regulatory requirement creates a concrete business need for compliant invoicing software and integration capability.",
+      "href": null
+     }
+    ]
+   },
+   "Name": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Country Case — Saudi Arabia Regulatory Demand Context",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Country Case — Saudi Arabia Regulatory Demand Context",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/Country-Case-Saudi-Arabia-Regulatory-Demand-Context-3e658a0779e881c0a4cefe1c5232d88e",
+  "public_url": null,
+  "archived": false,
+  "request_id": "61bb2099-9af4-4903-8c73-a370d04a3b9a"
+ },
+ "block_count": 0,
+ "blocks": []
+}

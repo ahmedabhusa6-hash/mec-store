@@ -1,0 +1,904 @@
+{
+ "database": {
+  "id": "98dbe95b-b675-4374-a90f-974278e1967d",
+  "title": "Contradiction Log",
+  "url": "https://app.notion.com/p/98dbe95bb6754374a90f974278e1967d",
+  "parent": {
+   "type": "page_id",
+   "page_id": "3e658a07-79e8-812f-b628-dde61492e5b2"
+  }
+ },
+ "rows": [
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-813a-8566-c34b7c76f6ee",
+   "created_time": "2026-09-26T14:06:00.000Z",
+   "last_edited_time": "2026-09-26T14:06:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "98dbe95b-b675-4374-a90f-974278e1967d"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Last Reviewed": {
+     "id": "G%3B%3Al",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Conflict ID": {
+     "id": "Jzr%40",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "CON",
+      "number": 3
+     }
+    },
+    "Claim A": {
+     "id": "MX%7DH",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Vesterinen, Mero & Skippari (2024/2025) state that, to date, no extant research had investigated the effects of BDAC and marketing agility on firm performance in a unified model.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Vesterinen, Mero & Skippari (2024/2025) state that, to date, no extant research had investigated the effects of BDAC and marketing agility on firm performance in a unified model.",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "PhYD",
+     "type": "select",
+     "select": {
+      "id": "3b63be56-ffa2-4e4c-be55-7cc5f8824e13",
+      "name": "Contextualized",
+      "color": "yellow"
+     }
+    },
+    "Context Difference": {
+     "id": "Vl%40u",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Vesterinen et al. is a conceptual framework with a broader stated literature gap; Jung & Boo is an earlier empirical mediated model using survey SEM and additional organizational mediators.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Vesterinen et al. is a conceptual framework with a broader stated literature gap; Jung & Boo is an earlier empirical mediated model using survey SEM and additional organizational mediators.",
+       "href": null
+      }
+     ]
+    },
+    "Claim B": {
+     "id": "%5BcUl",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Jung & Boo (2022) investigated BDAC, exploration/exploitation, market agility and firm performance in a unified survey-based SEM model with 250 companies.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Jung & Boo (2022) investigated BDAC, exploration/exploitation, market agility and firm performance in a unified survey-based SEM model with 250 companies.",
+       "href": null
+      }
+     ]
+    },
+    "Current Interpretation": {
+     "id": "%60Ras",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "This is best treated as a scope/novelty-statement mismatch rather than a settled empirical contradiction. Vesterinen et al.'s wording is broader than the evidence allows unless 'unified model' is being used in a narrower sense. Jung & Boo clearly demonstrates that a unified structural model containing BDAC, market agility and firm performance existed before Vesterinen et al.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "This is best treated as a scope/novelty-statement mismatch rather than a settled empirical contradiction. Vesterinen et al.'s wording is broader than the evidence allows unless 'unified model' is being used in a narrower sense. Jung & Boo clearly demonstrates that a unified structural model containing BDAC, market agility and firm performance existed before Vesterinen et al.",
+       "href": null
+      }
+     ]
+    },
+    "Nature of Conflict": {
+     "id": "cD%3FI",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "INTERPRETIVE_CONFLICT + TEMPORAL_SCOPE_DIFFERENCE",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "INTERPRETIVE_CONFLICT + TEMPORAL_SCOPE_DIFFERENCE",
+       "href": null
+      }
+     ]
+    },
+    "Source A": {
+     "id": "deOU",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Vesterinen, M., Mero, J., & Skippari, M. (2024/2025). Big data analytics capability, marketing agility, and firm performance: a conceptual framework. Journal of Marketing Theory and Practice, 33(2), 310–330. DOI: 10.1080/10696679.2024.2322600.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Vesterinen, M., Mero, J., & Skippari, M. (2024/2025). Big data analytics capability, marketing agility, and firm performance: a conceptual framework. Journal of Marketing Theory and Practice, 33(2), 310–330. DOI: 10.1080/10696679.2024.2322600.",
+       "href": null
+      }
+     ]
+    },
+    "Open Question": {
+     "id": "lUC%3B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Did Vesterinen et al. intend to exclude mediated models such as Jung & Boo (2022), or does the novelty statement require qualification?",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Did Vesterinen et al. intend to exclude mediated models such as Jung & Boo (2022), or does the novelty statement require qualification?",
+       "href": null
+      }
+     ]
+    },
+    "Source B": {
+     "id": "n%7Dh%7D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Jung, H.-K., & Boo, J. (2022). The Impact of Exploration and Exploitation Activities and Market Agility on the Relationship between Big Data Analytics Capability and Firms’ Performance. Journal of Society of Korea Industrial and Systems Engineering, 45(3), 150–162. DOI: 10.11627/jksie.2022.45.3.150.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Jung, H.-K., & Boo, J. (2022). The Impact of Exploration and Exploitation Activities and Market Agility on the Relationship between Big Data Analytics Capability and Firms’ Performance. Journal of Society of Korea Industrial and Systems Engineering, 45(3), 150–162. DOI: 10.11627/jksie.2022.45.3.150.",
+       "href": null
+      }
+     ]
+    },
+    "Evidence Strength": {
+     "id": "~KV%3F",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Strong for the bibliographic existence and design of Jung & Boo (2022); strong for the wording of Vesterinen et al.; insufficient to determine the authors' intended narrower novelty scope without their explicit clarification.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Strong for the bibliographic existence and design of Jung & Boo (2022); strong for the wording of Vesterinen et al.; insufficient to determine the authors' intended narrower novelty scope without their explicit clarification.",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Vesterinen et al. (2024) novelty statement vs Jung & Boo (2022) unified SEM model",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Vesterinen et al. (2024) novelty statement vs Jung & Boo (2022) unified SEM model",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Vesterinen-et-al-2024-novelty-statement-vs-Jung-Boo-2022-unified-SEM-model-3e758a0779e8813a8566c34b7c76f6ee",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e758a07-79e8-8180-baf0-f6cb263ef84a",
+   "created_time": "2026-09-26T13:57:00.000Z",
+   "last_edited_time": "2026-09-26T13:58:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "98dbe95b-b675-4374-a90f-974278e1967d"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Last Reviewed": {
+     "id": "G%3B%3Al",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Conflict ID": {
+     "id": "Jzr%40",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "CON",
+      "number": 2
+     }
+    },
+    "Claim A": {
+     "id": "MX%7DH",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "UK cross-industry evidence reports a positive long-term profitability relationship for marketing agility, with different short-term and long-term effects and customer-satisfaction mediation.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "UK cross-industry evidence reports a positive long-term profitability relationship for marketing agility, with different short-term and long-term effects and customer-satisfaction mediation.",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "PhYD",
+     "type": "select",
+     "select": {
+      "id": "3b63be56-ffa2-4e4c-be55-7cc5f8824e13",
+      "name": "Contextualized",
+      "color": "yellow"
+     }
+    },
+    "Context Difference": {
+     "id": "Vl%40u",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "UK cross-industry firms with multisource/panel data versus 220 SMEs in East Java, Indonesia using PLS-SEM; outcome and model specifications differ.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "UK cross-industry firms with multisource/panel data versus 220 SMEs in East Java, Indonesia using PLS-SEM; outcome and model specifications differ.",
+       "href": null
+      }
+     ]
+    },
+    "Claim B": {
+     "id": "%5BcUl",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "East Java SME evidence finds no significant direct marketing agility → performance effect in its sample.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "East Java SME evidence finds no significant direct marketing agility → performance effect in its sample.",
+       "href": null
+      }
+     ]
+    },
+    "Current Interpretation": {
+     "id": "%60Ras",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "The evidence should be contextualized rather than collapsed into a universal causal claim. Market agility → firm performance remains an open causal question; current evidence is heterogeneous and largely non-randomized.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "The evidence should be contextualized rather than collapsed into a universal causal claim. Market agility → firm performance remains an open causal question; current evidence is heterogeneous and largely non-randomized.",
+       "href": null
+      }
+     ]
+    },
+    "Nature of Conflict": {
+     "id": "cD%3FI",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "CONTEXT_CONFLICT + METHODOLOGICAL_CONFLICT + OUTCOME/TIME-HORIZON DIFFERENCE",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "CONTEXT_CONFLICT + METHODOLOGICAL_CONFLICT + OUTCOME/TIME-HORIZON DIFFERENCE",
+       "href": null
+      }
+     ]
+    },
+    "Source A": {
+     "id": "deOU",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Agag, Yousaf & Adiguzel (2025), European Journal of Marketing, DOI 10.1108/EJM-01-2024-0029.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Agag, Yousaf & Adiguzel (2025), European Journal of Marketing, DOI 10.1108/EJM-01-2024-0029.",
+       "href": null
+      }
+     ]
+    },
+    "Open Question": {
+     "id": "lUC%3B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Under what market, organizational, measurement, and time-horizon conditions does marketing agility causally affect financial performance?",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Under what market, organizational, measurement, and time-horizon conditions does marketing agility causally affect financial performance?",
+       "href": null
+      }
+     ]
+    },
+    "Source B": {
+     "id": "n%7Dh%7D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Strategic agility, marketing agility, and market-driving capability (2026), Journal of Entrepreneurship in Emerging Economies, DOI 10.1108/JEEE-02-2025-0085.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Strategic agility, marketing agility, and market-driving capability (2026), Journal of Entrepreneurship in Emerging Economies, DOI 10.1108/JEEE-02-2025-0085.",
+       "href": null
+      }
+     ]
+    },
+    "Evidence Strength": {
+     "id": "~KV%3F",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Moderate for bounded empirical relationships; insufficient for a universal causal statement.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Moderate for bounded empirical relationships; insufficient for a universal causal statement.",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "RSH-17 — Marketing agility → firm performance is context/time-horizon dependent",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "RSH-17 — Marketing agility → firm performance is context/time-horizon dependent",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/RSH-17-Marketing-agility-firm-performance-is-context-time-horizon-dependent-3e758a0779e88180baf0f6cb263ef84a",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81dc-be58-c1408cb01910",
+   "created_time": "2026-09-25T22:04:00.000Z",
+   "last_edited_time": "2026-09-25T22:31:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "98dbe95b-b675-4374-a90f-974278e1967d"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Last Reviewed": {
+     "id": "G%3B%3Al",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Conflict ID": {
+     "id": "Jzr%40",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "CON",
+      "number": 1
+     }
+    },
+    "Claim A": {
+     "id": "MX%7DH",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Kotler & Levy (1969) argue for broadening the concept of marketing beyond conventional business products to organizations, persons and ideas.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Kotler & Levy (1969) argue for broadening the concept of marketing beyond conventional business products to organizations, persons and ideas.",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "PhYD",
+     "type": "select",
+     "select": {
+      "id": "3b63be56-ffa2-4e4c-be55-7cc5f8824e13",
+      "name": "Contextualized",
+      "color": "yellow"
+     }
+    },
+    "Context Difference": {
+     "id": "Vl%40u",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "The dispute is historical and conceptual: Kotler & Levy broadened the scope; Luck challenged that broadening. Hunt & Burnett later supplied a micromarketing/macromarketing taxonomy, and contemporary macromarketing scholarship frames a distinct systems-level layer concerned with marketing, markets and society.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "The dispute is historical and conceptual: Kotler & Levy broadened the scope; Luck challenged that broadening. Hunt & Burnett later supplied a micromarketing/macromarketing taxonomy, and contemporary macromarketing scholarship frames a distinct systems-level layer concerned with marketing, markets and society.",
+       "href": null
+      }
+     ]
+    },
+    "Claim B": {
+     "id": "%5BcUl",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Luck (1969) argues that this broadening goes too far and defends a narrower conception of marketing.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Luck (1969) argues that this broadening goes too far and defends a narrower conception of marketing.",
+       "href": null
+      }
+     ]
+    },
+    "Current Interpretation": {
+     "id": "%60Ras",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "The conflict is now contextualized rather than unresolved at the same abstraction level. The system should preserve multiple boundary models: firm/customer-level marketing analysis, plus a macromarketing systems layer. This does not require selecting one universal definition of the discipline.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "The conflict is now contextualized rather than unresolved at the same abstraction level. The system should preserve multiple boundary models: firm/customer-level marketing analysis, plus a macromarketing systems layer. This does not require selecting one universal definition of the discipline.",
+       "href": null
+      }
+     ]
+    },
+    "Nature of Conflict": {
+     "id": "cD%3FI",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "INTERPRETIVE_CONFLICT",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "INTERPRETIVE_CONFLICT",
+       "href": null
+      }
+     ]
+    },
+    "Source A": {
+     "id": "deOU",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Kotler & Levy (1969) — ",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Kotler & Levy (1969) — ",
+       "href": null
+      },
+      {
+       "type": "text",
+       "text": {
+        "content": "https://journals.sagepub.com/doi/10.1177/002224296903300103",
+        "link": {
+         "url": "https://journals.sagepub.com/doi/10.1177/002224296903300103"
+        }
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "https://journals.sagepub.com/doi/10.1177/002224296903300103",
+       "href": "https://journals.sagepub.com/doi/10.1177/002224296903300103"
+      }
+     ]
+    },
+    "Open Question": {
+     "id": "lUC%3B",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Which research question and unit of analysis determine whether the firm-level, consumer-level, or macromarketing-systems boundary is appropriate in a given investigation?",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Which research question and unit of analysis determine whether the firm-level, consumer-level, or macromarketing-systems boundary is appropriate in a given investigation?",
+       "href": null
+      }
+     ]
+    },
+    "Source B": {
+     "id": "n%7Dh%7D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Luck (1969) — ",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Luck (1969) — ",
+       "href": null
+      },
+      {
+       "type": "text",
+       "text": {
+        "content": "https://journals.sagepub.com/doi/10.1177/002224296903300310",
+        "link": {
+         "url": "https://journals.sagepub.com/doi/10.1177/002224296903300310"
+        }
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "https://journals.sagepub.com/doi/10.1177/002224296903300310",
+       "href": "https://journals.sagepub.com/doi/10.1177/002224296903300310"
+      }
+     ]
+    },
+    "Evidence Strength": {
+     "id": "~KV%3F",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "High for existence of the historical disagreement; insufficient for declaring a universally correct boundary.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "High for existence of the historical disagreement; insufficient for declaring a universally correct boundary.",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "CON-001 — Marketing scope broadening debate",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "CON-001 — Marketing scope broadening debate",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/CON-001-Marketing-scope-broadening-debate-3e658a0779e881dcbe58c1408cb01910",
+   "public_url": null,
+   "archived": false
+  }
+ ],
+ "row_query_error": null
+}

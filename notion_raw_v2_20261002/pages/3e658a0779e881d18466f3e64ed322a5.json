@@ -1,0 +1,224 @@
+{
+ "capture_reason": "NEWLY_ACCESSIBLE",
+ "captured_at": "2026-10-02T12:16:49+03:00",
+ "title": "DataReportal's Digital 2026 UAE report estimates 11.3 million internet users at end-2025 with 99.0% internet penetration and 12.5 million social media user identities in October 2025, with methodological caveats.",
+ "last_edited": "2026-09-25T20:09:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e658a07-79e8-81d1-8466-f3e64ed322a5",
+  "created_time": "2026-09-25T20:09:00.000Z",
+  "last_edited_time": "2026-09-25T20:09:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "230f9103-4d44-47a5-b69f-fef368560b20"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "Conflicting Evidence": {
+    "id": "RNcx",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Date": {
+    "id": "Td%60A",
+    "type": "date",
+    "date": null
+   },
+   "Source Link": {
+    "id": "%5DC%40H",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "3e658a07-79e8-81a8-ae96-fd11f7702f54"
+     }
+    ],
+    "has_more": false
+   },
+   "Scope": {
+    "id": "_UPZ",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "UAE; end-2025 / October-2025 underlying data",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "UAE; end-2025 / October-2025 underlying data",
+      "href": null
+     }
+    ]
+   },
+   "Confidence": {
+    "id": "eU%3BK",
+    "type": "select",
+    "select": {
+     "id": "46270c5c-ac3b-46cc-8453-cd95411d73da",
+     "name": "Medium",
+     "color": "yellow"
+    }
+   },
+   "Source Reference": {
+    "id": "kuxt",
+    "type": "url",
+    "url": "https://datareportal.com/reports/digital-2026-united-arab-emirates"
+   },
+   "Case Link": {
+    "id": "mBHn",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "3e658a07-79e8-8180-8302-d80498df16bb"
+     }
+    ],
+    "has_more": false
+   },
+   "Notes": {
+    "id": "oKLy",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Directional digital-access evidence; audience identities may not represent unique individuals.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Directional digital-access evidence; audience identities may not represent unique individuals.",
+      "href": null
+     }
+    ]
+   },
+   "Exact Reference": {
+    "id": "q~Kl",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Internet and social media statistics sections.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Internet and social media statistics sections.",
+      "href": null
+     }
+    ]
+   },
+   "Evidence Status": {
+    "id": "ymog",
+    "type": "status",
+    "status": {
+     "id": "e45b624d-0043-43ed-a63f-e4bedb218a01",
+     "name": "تم",
+     "color": "green"
+    }
+   },
+   "Evidence Type": {
+    "id": "yzj%7D",
+    "type": "select",
+    "select": {
+     "id": "fe82fc51-9f3e-4a13-a966-a6d8c2541d76",
+     "name": "Quantitative",
+     "color": "orange"
+    }
+   },
+   "Independence Group": {
+    "id": "zZtm",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "DataReportal-UAE-2026",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "DataReportal-UAE-2026",
+      "href": null
+     }
+    ]
+   },
+   "Entity Link": {
+    "id": "zgKu",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "3e658a07-79e8-81cd-8c1c-d761a261a4a7"
+     }
+    ],
+    "has_more": false
+   },
+   "Claim": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "DataReportal's Digital 2026 UAE report estimates 11.3 million internet users at end-2025 with 99.0% internet penetration and 12.5 million social media user identities in October 2025, with methodological caveats.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "DataReportal's Digital 2026 UAE report estimates 11.3 million internet users at end-2025 with 99.0% internet penetration and 12.5 million social media user identities in October 2025, with methodological caveats.",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/DataReportal-s-Digital-2026-UAE-report-estimates-11-3-million-internet-users-at-end-2025-with-99-0--3e658a0779e881d18466f3e64ed322a5",
+  "public_url": null,
+  "archived": false,
+  "request_id": "b253d083-a2ce-4032-ac6f-24db149ae1ba"
+ },
+ "block_count": 0,
+ "blocks": []
+}

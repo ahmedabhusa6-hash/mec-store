@@ -1,0 +1,431 @@
+{
+ "capture_reason": "NEWLY_ACCESSIBLE",
+ "captured_at": "2026-10-02T12:16:49+03:00",
+ "title": "Case — Xero Partner Marketing Enablement",
+ "last_edited": "2026-09-25T20:02:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e658a07-79e8-81c0-99bf-e97489d74f19",
+  "created_time": "2026-09-25T20:01:00.000Z",
+  "last_edited_time": "2026-09-25T20:02:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "a87d8f7b-de51-419c-aa6d-90b81e0d7b21"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "Context": {
+    "id": "%3BcyS",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "B2B cloud accounting where accountants/bookkeepers influence client software selection and ongoing usage.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "B2B cloud accounting where accountants/bookkeepers influence client software selection and ongoing usage.",
+      "href": null
+     }
+    ]
+   },
+   "Situation": {
+    "id": "Dqr%7D",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Xero provides a dedicated partner marketing toolkit containing client-facing collateral, SEO guidance, social media resources, campaign-in-a-box assets, email templates, event/webinar guidance, and partner branding resources.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Xero provides a dedicated partner marketing toolkit containing client-facing collateral, SEO guidance, social media resources, campaign-in-a-box assets, email templates, event/webinar guidance, and partner branding resources.",
+      "href": null
+     }
+    ]
+   },
+   "Entity Link": {
+    "id": "ElSP",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "3e658a07-79e8-8195-bed8-ff74e2a8e83a"
+     }
+    ],
+    "has_more": false
+   },
+   "Evidence Links": {
+    "id": "FYu%3A",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "3e658a07-79e8-8143-800b-d1ddd1a10c1a"
+     },
+     {
+      "id": "3e658a07-79e8-81ac-abb3-f37bc447ee79"
+     }
+    ],
+    "has_more": false
+   },
+   "Market": {
+    "id": "LVaJ",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "UK / North America partner ecosystem",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "UK / North America partner ecosystem",
+      "href": null
+     }
+    ]
+   },
+   "Constraints": {
+    "id": "MgJ%7D",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Public documentation demonstrates capability and process, not comparative effectiveness against other acquisition channels.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Public documentation demonstrates capability and process, not comparative effectiveness against other acquisition channels.",
+      "href": null
+     }
+    ]
+   },
+   "Confidence": {
+    "id": "Mhr%5B",
+    "type": "select",
+    "select": {
+     "id": "e872a95c-be8c-4dea-83d7-6192450960df",
+     "name": "High",
+     "color": "green"
+    }
+   },
+   "Segment": {
+    "id": "S%7Cat",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Accountants / bookkeepers",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Accountants / bookkeepers",
+      "href": null
+     }
+    ]
+   },
+   "Observed Outcome": {
+    "id": "TDBm",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Documented capability: partners can access ready-to-use marketing assets and, in relevant markets, funding/reimbursement mechanisms. Public evidence reviewed here does not establish incremental CAC, conversion, or revenue causality.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Documented capability: partners can access ready-to-use marketing assets and, in relevant markets, funding/reimbursement mechanisms. Public evidence reviewed here does not establish incremental CAC, conversion, or revenue causality.",
+      "href": null
+     }
+    ]
+   },
+   "Objective": {
+    "id": "UwXv",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Enable partners to attract clients, introduce Xero, generate leads, and run marketing activities.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Enable partners to attract clients, introduce Xero, generate leads, and run marketing activities.",
+      "href": null
+     }
+    ]
+   },
+   "Status": {
+    "id": "WKe%3B",
+    "type": "status",
+    "status": {
+     "id": "6b06f923-0b48-4a06-b0f5-de1916f018c1",
+     "name": "تم",
+     "color": "green"
+    }
+   },
+   "Evidence References": {
+    "id": "gCUd",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Xero Partner Marketing Toolkit; Xero Partner Marketing Fund.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Xero Partner Marketing Toolkit; Xero Partner Marketing Fund.",
+      "href": null
+     }
+    ]
+   },
+   "Date": {
+    "id": "jpdJ",
+    "type": "date",
+    "date": {
+     "start": "2026-09-25",
+     "end": null,
+     "time_zone": null
+    }
+   },
+   "Channels": {
+    "id": "vZLG",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Partner marketing, SEO, social media, email, webinars/events, referrals, advisor directory.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Partner marketing, SEO, social media, email, webinars/events, referrals, advisor directory.",
+      "href": null
+     }
+    ]
+   },
+   "Mechanism": {
+    "id": "xauN",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Turn the accountant/bookkeeper partner into an enabled marketing and distribution extension by reducing the work required to plan and execute campaigns.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Turn the accountant/bookkeeper partner into an enabled marketing and distribution extension by reducing the work required to plan and execute campaigns.",
+      "href": null
+     }
+    ]
+   },
+   "Name": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Case — Xero Partner Marketing Enablement",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Case — Xero Partner Marketing Enablement",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/Case-Xero-Partner-Marketing-Enablement-3e658a0779e881c099bfe97489d74f19",
+  "public_url": null,
+  "archived": false,
+  "request_id": "ea00f8e4-5021-4ea2-8b4a-b3ac926fc039"
+ },
+ "block_count": 9,
+ "blocks": [
+  {
+   "id": "79b6235d-fb90-42d9-be4a-7bb90d6a044e",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Evidence summary"
+   ],
+   "created": "2026-09-25T20:01:00.000Z",
+   "edited": "2026-09-25T20:01:00.000Z"
+  },
+  {
+   "id": "07c4fe38-882d-45fb-af80-dcd557fca6e3",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Xero's official partner toolkit includes client-facing guides and brochures, SEO guidance, social media resources, a step-by-step campaign-in-a-box, email templates, event/webinar resources, brand assets, and industry marketing playbooks.[1]"
+   ],
+   "created": "2026-09-25T20:01:00.000Z",
+   "edited": "2026-09-25T20:01:00.000Z"
+  },
+  {
+   "id": "1544fd67-9fcd-4edf-9e51-826fd5313cef",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Xero also documents a partner marketing fund in the US, where approved partner marketing activities can be reimbursed after review and supporting documentation.[2]"
+   ],
+   "created": "2026-09-25T20:01:00.000Z",
+   "edited": "2026-09-25T20:01:00.000Z"
+  },
+  {
+   "id": "ce7f946c-7ad9-4a4d-9759-114dd9f405c1",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Analytical interpretation"
+   ],
+   "created": "2026-09-25T20:01:00.000Z",
+   "edited": "2026-09-25T20:01:00.000Z"
+  },
+  {
+   "id": "68ff6bae-0ce0-4ec7-bf07-8cfd49a9fb8f",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Insight: Xero is not only supplying a referral relationship; it is supplying the partner with operational marketing infrastructure."
+   ],
+   "created": "2026-09-25T20:01:00.000Z",
+   "edited": "2026-09-25T20:01:00.000Z"
+  },
+  {
+   "id": "31a2272b-0df6-4127-97ce-ee020959feeb",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Evidence boundary"
+   ],
+   "created": "2026-09-25T20:01:00.000Z",
+   "edited": "2026-09-25T20:01:00.000Z"
+  },
+  {
+   "id": "4a8c815d-0d5f-4c45-a5d4-19d9f572da5b",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "This case establishes the existence and structure of the capability. It does not prove that partner marketing is Xero's most effective acquisition channel or quantify its incremental revenue impact."
+   ],
+   "created": "2026-09-25T20:01:00.000Z",
+   "edited": "2026-09-25T20:01:00.000Z"
+  },
+  {
+   "id": "50cae018-9355-4408-87ec-2280a9ea4b86",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Candidate reusable pattern"
+   ],
+   "created": "2026-09-25T20:01:00.000Z",
+   "edited": "2026-09-25T20:01:00.000Z"
+  },
+  {
+   "id": "e22cad2f-2c89-4c0d-b805-564291b4eb0e",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Partner Marketing Enablement — pending cross-company synthesis."
+   ],
+   "created": "2026-09-25T20:01:00.000Z",
+   "edited": "2026-09-25T20:01:00.000Z"
+  }
+ ]
+}

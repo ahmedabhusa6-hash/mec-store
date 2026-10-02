@@ -1,0 +1,14 @@
+{
+ "run_id": "MEC2-20260927-B2",
+ "prompt_version": "v4.2 Candidate (working)",
+ "start_time": "2026-09-27T16:02:25+0000",
+ "batch": 2,
+ "scope": "173 P2 SKUs (catalog CP-1, download/catalog_v42.json)",
+ "complexity": "C4",
+ "budget_total": 121,
+ "budget_reserve": 30,
+ "budget_used": 130,
+ "channels_policy": "Notion-specified references/channels only (Amendment A)",
+ "pacing": "5s between queries, 15s cooldown on failure, 1 retry",
+ "end_time": "2026-09-27T16:03:42+0000"
+}

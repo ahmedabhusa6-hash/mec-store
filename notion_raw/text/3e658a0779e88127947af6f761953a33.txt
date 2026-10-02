@@ -1,0 +1,61 @@
+# Classification Rule — Scope before Label
+Rule: Do not classify an accounting system solely from the vendor's product label. First assess functional scope and integration breadth, then assign System_Type.
+Operational test:
+- Identify the core accounting functions.
+- Identify adjacent operational domains integrated into the same product/architecture.
+- Determine whether the broader scope is native/core or merely external integration.
+- Determine the exact Edition/Plan/Version/Module/Localization context whenever those variables can change available functionality.
+- Separate Accounting Software, Financial Management and ERP_With_Accounting decisions using evidence rather than marketing language.
+Evidence Refs: EVIDENCE — D365 Finance functional scope; EVIDENCE — SAP S/4HANA Cloud integrated accounting scope; EVIDENCE — Oracle Fusion Cloud Financials scope; EVIDENCE — Xero accounting vs ERP boundary; EVD-ASR6-IND-01; EVD-ASR6-IND-02; EVD-ASR6-IND-03; EVD-ASR7-MOSSA-2025; EVD-ASR7-SINGH-2006.
+Status: ACTIVE. Reason: independent conceptual support from OpenStax, ACCA, Mossa et al. (2025), and Khan, Rahim & Yeng (2025) supports functional breadth/integration as a major ERP boundary criterion; Thuy et al. (2026) is retained only as empirical/contextual ERP evidence, not formal taxonomy-boundary validation. Product-level classification still requires version/edition/localization/context evidence.
+ASC-005 evidence update
+- Zoho Books: accounting-centered product with advanced inventory available through an add-on in eligible plans or through Zoho Inventory integration; this is a boundary case for optional/external scope.
+- QuickBooks Online Advanced: accounting-centered product with adjacent inventory and project capabilities; adjacent modules alone do not establish ERP status.
+- Odoo Accounting: accounting is integrated with Sales, Inventory, Purchase and eCommerce workflows; stronger multi-function ERP boundary case.
+- Evidence refs: EVD-ASR6-005-ZOHO; EVD-ASR6-005-QBO; EVD-ASR6-005-ODOO.
+- Conclusion: the Scope-before-Label rule is reinforced, but optional modules and external integrations must remain separate classification dimensions.
+ASC-008 evidence update
+- Oracle ERP module documentation confirms that ERP is modular: core financial functionality is central while other enterprise functions such as sales and HR may be sold separately.
+- This reinforces the existing rule that commercial licensing/package boundaries must be recorded as a separate Licensing dimension and must not, by themselves, determine System_Type.
+- Evidence: SOURCE — Oracle ERP modularity licensing evidence; corresponding Evidence record in KOS — Evidence.
+- Limitation: this is still vendor evidence, not independent non-vendor taxonomy evidence. The independent modular-licensing gap therefore remains open.
+ASC-010 evidence update
+- Independent academic review: Khan, Rahim & Kit (2025),  A Conceptual Overview of Enterprise Resource Planning Systems .
+- The review treats modularity, integration, functional coordination and enterprise-wide ERP structure as distinct but related ERP characteristics.
+- This independently reinforces separation of Modularity from Functional Scope/Integration in the taxonomy.
+- Evidence: EVD-ASR7-ACADEMIC-03.
+- Limitation: the source does not directly establish a licensing-to-System-Type rule; ASR-7's licensing-specific independent gap remains open.
+ASC-012 evidence update
+- Product/version/market test: Microsoft Dynamics 365 Finance.
+- Microsoft documentation shows country-specific e-invoicing/localization features, including Saudi Arabia ZATCA submission and compliance-check functionality, and version-specific tax-calculation support.
+- Independent academic context from Avison & Malaurent (2007) supports keeping country-specific legal, political, cultural and organizational context explicit in ERP interpretation and local adaptation.
+- Evidence refs: EVD-ASC012-D365-LOC-01; EVD-ASC012-ERP-LOC-IND-01.
+- Classification conclusion: Version and Localization are material classification context and can change accounting/reporting scope. They do not, by themselves, change System_Type.
+- Conflict Status: NONE.
+- Limitation: this run establishes materiality using one product family; a second product family remains desirable for broader cross-product validation.
+ASC-013 evidence update
+- Second product family test: Oracle Fusion Cloud Financials 26C.
+- US evidence: Oracle 26C tax documentation contains US-specific sales/use tax configuration and geography content.
+- Regional evidence: Oracle 26C maintains separate EMEA implementation/localization documentation and country-specific reporting contexts.
+- Classification conclusion: Version and Market/Localization remain material context dimensions; the evidence does not imply a System_Type change by itself.
+- Current limitation: the retrieved 26C material does not establish a sufficiently specific Saudi-only feature set for this cycle; Saudi-specific current localization is therefore UNKNOWN rather than inferred.
+- Evidence refs: new KOS Evidence records created in ASC-013.
+- Conflict Status: NONE.
+ASC-014 evidence update
+- Second finance-suite test: Microsoft Dynamics 365 Business Central.
+NetSuite evidence update — reconciliation
+- Third finance-suite test: Oracle NetSuite 2026.2.
+- Oracle official ERP documentation covers accounting, inventory, order management, project management and employee management within NetSuite's ERP documentation scope.
+- Oracle also documents optional/enabled features and separate SuiteApp extensions, plus differentiated user-license types.
+- Classification conclusion: optional features, extensions, and licensing/access models remain separate dimensions from Functional Scope and must not independently determine System_Type.
+- Evidence: Oracle NetSuite ERP Documentation Summary; NetSuite feature/licensing documentation.
+- Limitation: vendor evidence only; no independent licensing-to-System-Type causal rule established.
+- Integrity note: the conversation previously labeled this work ASC-015, but the persisted Cycle Log contains no ASC-015 cycle. The persisted latest cycle in this trail is CKC-53 / ASC-014. This section is evidence context and does not assert that ASC-015 was a persisted cycle.
+- Conflict Status: NONE.
+- Microsoft documentation lists broad native functional areas inside Business Central, including Finance, Sales, Purchasing, Inventory, Projects, Manufacturing, Warehouse and Service.
+- Microsoft separately documents integration with other Dynamics 365 products such as Sales and Field Service; external/separate-product integration must not be conflated with native functional scope.
+- Classification conclusion: native/core functional breadth is stronger evidence for System_Type than the mere existence of external integrations; licensing remains a separate dimension.
+- Limitation: this is vendor evidence and does not independently establish a universal licensing-to-System-Type causal rule.
+- Evidence: SOURCE — Microsoft Dynamics 365 Business Central — Functional Scope and Integration; corresponding KOS Evidence record.
+- Plan-divergence evidence: EVD-ASR7-BC-PLAN. Microsoft documents Business Central Essentials versus Premium as materially different functional scopes; Premium adds Manufacturing and Service Management. Therefore Edition/Plan must be explicit classification context when it changes available functionality. The plan itself is not a System_Type label.
+- Conflict Status: NONE.

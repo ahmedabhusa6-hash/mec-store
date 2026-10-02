@@ -1,0 +1,1148 @@
+{
+ "generated": "2026-09-27",
+ "run": "MEC-2.4 channel matrix (quota-free compilation)",
+ "matrix_layerA": [
+  {
+   "id": "gemini12pro_channel",
+   "type": "channel",
+   "cluster": "Gemini GPT / Gemini12Pro",
+   "cluster_raw": "Gemini12Pro",
+   "url": "https://t.me/gemini12pro_channel",
+   "http": 200,
+   "subscribers": "142 797 subscribers",
+   "title": "Gemini GPT Channel",
+   "role_in_chain": "مصنع/بائع تجزئة لترقيات AI — بوت استخراج روابط عروض Google One AI Pro (Pixel/طلاب) ووصف نفسه: 公益升级机器人 (بوت ترقية 'ذي منفعة عامة')",
+   "risk_grade": "متوسط-عالٍ (منتجات مبنية على استغلال عروض تنتهك ToS؛ Google خفّضت العروض 12→6 أشهر مع Pixel 11 = خطر انقطاع عرض)",
+   "language": "الصينية",
+   "n_history_messages": 59,
+   "n_priced_messages": 16,
+   "n_preview_messages": 8,
+   "min_price_anchor_usd": 0.4,
+   "price_samples": [
+    {
+     "hint": "Paid Promotion Richard AI Wholesale Store St",
+     "min_usd": 2.0,
+     "n_prices": 2
+    },
+    {
+     "hint": "Paid Promotion Flash Sale Started In AIVerseX Hub Availa",
+     "min_usd": 0.6,
+     "n_prices": 3
+    },
+    {
+     "hint": "Paid Promotion Looking for the BEST digital product prices",
+     "min_usd": 0.4,
+     "n_prices": 3
+    },
+    {
+     "hint": "Paid Promotion GEMINI PRO FLASH SALE Gemini Pro 18M Ac",
+     "min_usd": 0.4,
+     "n_prices": 1
+    },
+    {
+     "hint": "FLASH SALE ALERT Product Gemini PRO 18M Bulk Discount Of",
+     "min_usd": 0.4,
+     "n_prices": 3
+    },
+    {
+     "hint": "GEMINI PRO 18 MONTH AI ACTIVATION LINKS Gemini Pro Activation",
+     "min_usd": 0.57,
+     "n_prices": 3
+    }
+   ],
+   "layer": "مصنع + تجزئة (Manufacturing+Retail)",
+   "dolaa_fit": "مصدر توريد منخفض الكلفة لعائلة AI — مخاطر ToS عالية"
+  },
+  {
+   "id": "gemini12pro_bot",
+   "type": "bot",
+   "cluster": "Gemini GPT / Gemini12Pro",
+   "cluster_raw": "Gemini12Pro",
+   "url": "https://t.me/gemini12pro_bot",
+   "http": 200,
+   "subscribers": "@gemini12pro_bot",
+   "title": "Gemini Pixel Helper",
+   "role_in_chain": "مصنع/بائع تجزئة لترقيات AI — بوت استخراج روابط عروض Google One AI Pro (Pixel/طلاب) ووصف نفسه: 公益升级机器人 (بوت ترقية 'ذي منفعة عامة')",
+   "risk_grade": "متوسط-عالٍ (منتجات مبنية على استغلال عروض تنتهك ToS؛ Google خفّضت العروض 12→6 أشهر مع Pixel 11 = خطر انقطاع عرض)",
+   "language": "الصينية",
+   "n_history_messages": 0,
+   "n_priced_messages": 0,
+   "n_preview_messages": 0,
+   "min_price_anchor_usd": null,
+   "price_samples": [],
+   "layer": "مصنع + تجزئة (Manufacturing+Retail)",
+   "dolaa_fit": "مصدر توريد منخفض الكلفة لعائلة AI — مخاطر ToS عالية"
+  },
+  {
+   "id": "ProdSellerOfficial",
+   "type": "channel",
+   "cluster": "ProdSeller",
+   "cluster_raw": "ProdSeller",
+   "url": "https://t.me/ProdSellerOfficial",
+   "http": 200,
+   "subscribers": "4 676 subscribers",
+   "title": "ProdSeller",
+   "role_in_chain": "موزع جملة + API (الطبقة العليا للبائعين الصغار): '15K+ مستخدم، 8K+ نشط شهريًا، 500+ مستخدم API، تكامل مجاني'",
+   "risk_grade": "متوسط (ادعاءات الحجم غير قابلة للتحقق؛ نموذج API يشير لاستقرار تشغيلي نسبي)",
+   "language": "الإنجليزية",
+   "n_history_messages": 60,
+   "n_priced_messages": 48,
+   "n_preview_messages": 8,
+   "min_price_anchor_usd": 0.015,
+   "price_samples": [
+    {
+     "hint": "NEW ARRIVAL Adobe Express Premium 12 Months is now AVAILA",
+     "min_usd": 0.85,
+     "n_prices": 2
+    },
+    {
+     "hint": "NEW DISCOUNT GEMINI 18 MONTHS Official Gemini 18 Months New",
+     "min_usd": 0.43,
+     "n_prices": 2
+    },
+    {
+     "hint": "NEW PRICE DROP THE LOWEST ON THE MARKET Ready Made Outlook",
+     "min_usd": 0.015,
+     "n_prices": 2
+    },
+    {
+     "hint": "iLovePDF Premium 1 Year Full Access Unlimited document processin",
+     "min_usd": 0.8,
+     "n_prices": 2
+    },
+    {
+     "hint": "300 Gemini Links are added now Price 0 50 each API Users",
+     "min_usd": 0.4,
+     "n_prices": 2
+    },
+    {
+     "hint": "NEW DISCOUNT iLovePDF Premium 1 Year Regular Users Only 0",
+     "min_usd": 0.7,
+     "n_prices": 2
+    }
+   ],
+   "layer": "جملة/API (Wholesale)",
+   "dolaa_fit": "قناة توريد أساسية مرشحة — أسعار API أرخص حتى 35% من معلنة"
+  },
+  {
+   "id": "learnwith_Alex",
+   "type": "channel",
+   "cluster": "learnwith_Alex / Bite Store",
+   "cluster_raw": "learnwith_Alex",
+   "url": "https://t.me/learnwith_Alex",
+   "http": 200,
+   "subscribers": "3 019 subscribers",
+   "title": "Lean With Alex",
+   "role_in_chain": "بائع طرق وأدوات: 'طريقة بريد Edu جديد مع فيديو تعليمي' + لوحات Canva",
+   "risk_grade": "حرج (محتوى احتيالي موثق ضمن المنشورات العامة)",
+   "language": "الإنجليزية",
+   "n_history_messages": 0,
+   "n_priced_messages": 0,
+   "n_preview_messages": 8,
+   "min_price_anchor_usd": null,
+   "price_samples": [],
+   "layer": "بائع طرق (Methods Seller)",
+   "dolaa_fit": "غير مناسب — محتوى احتيالي موثق"
+  },
+  {
+   "id": "AWZ_invite",
+   "type": "private_invite",
+   "cluster": "متاجر صغيرة (بوتات فردية)",
+   "cluster_raw": "AWZ-private",
+   "url": "https://t.me/+AWZ-Jl8sydhiMzYy",
+   "http": 200,
+   "subscribers": "3 650 subscribers",
+   "title": "ACCZONE STORE",
+   "role_in_chain": "بوتات تجزئة فردية بلا قنوات جماهيرية موثقة — طبقة أدنى في السلسلة",
+   "risk_grade": "غير قابل للتقييم الفردي — تعامل فقط عبر وسيط ضمان",
+   "language": "?",
+   "n_history_messages": 0,
+   "n_priced_messages": 0,
+   "n_preview_messages": 0,
+   "min_price_anchor_usd": null,
+   "price_samples": [],
+   "layer": "تجزئة فردية (Micro Retail)",
+   "dolaa_fit": "منافسون صغار — مؤشر أسعار فقط"
+  },
+  {
+   "id": "Evo_Era_updates",
+   "type": "channel",
+   "cluster": "Evo Era",
+   "cluster_raw": "EvoEra",
+   "url": "https://t.me/Evo_Era_updates",
+   "http": 200,
+   "subscribers": "2 319 subscribers",
+   "title": "Evo Era Updates",
+   "role_in_chain": "بائع تجزئة آلي: إشعارات مشتريات مباشرة + مكافآت إحالة $0.05",
+   "risk_grade": "متوسط-عالٍ (ضمان ساعتين فقط = مؤشر جودة منخفض)",
+   "language": "الإنجليزية/العربية",
+   "n_history_messages": 60,
+   "n_priced_messages": 57,
+   "n_preview_messages": 8,
+   "min_price_anchor_usd": 0.05,
+   "price_samples": [
+    {
+     "hint": "Referral Reward Earned Meh ama just earned 0 05 for referring",
+     "min_usd": 0.05,
+     "n_prices": 1
+    },
+    {
+     "hint": "Referral Reward Earned Meh ama just earned 0 05 for referring",
+     "min_usd": 0.05,
+     "n_prices": 1
+    },
+    {
+     "hint": "Referral Reward Earned Meh ama just earned 0 05 for referring",
+     "min_usd": 0.05,
+     "n_prices": 1
+    },
+    {
+     "hint": "Referral Reward Earned Meh ama just earned 0 05 for referring",
+     "min_usd": 0.05,
+     "n_prices": 1
+    },
+    {
+     "hint": "Referral Reward Earned Meh ama just earned 0 05 for referring",
+     "min_usd": 0.05,
+     "n_prices": 1
+    },
+    {
+     "hint": "Referral Reward Earned kr 44 just earned 0 05 for referring a f",
+     "min_usd": 0.05,
+     "n_prices": 1
+    }
+   ],
+   "layer": "تجزئة آلية (Automated Retail)",
+   "dolaa_fit": "منافس微观 — مؤشر أسعار سوقي حي"
+  },
+  {
+   "id": "HitMeowShop",
+   "type": "channel",
+   "cluster": "HitMeow / PremiKey",
+   "cluster_raw": "HitMeow",
+   "url": "https://t.me/HitMeowShop",
+   "http": 200,
+   "subscribers": "1 848 subscribers",
+   "title": "HITMEOW Shop",
+   "role_in_chain": "بائع تجزئة AI + ناشر معرفة طرق: وثّق طريقة SheerID الطلابية (شراء تحقق من Xianyu → اشتراك شهر → تحقق طلابي → 4 أشهر)",
+   "risk_grade": "عالٍ (ناشر طرق استغلال؛ منشورات مختلطة بمحتوى مجاني مشبوه: مفاتيح API مكشوفة، روابط AWS)",
+   "language": "الإنجليزية/الفيتنامية",
+   "n_history_messages": 59,
+   "n_priced_messages": 15,
+   "n_preview_messages": 8,
+   "min_price_anchor_usd": 2.33,
+   "price_samples": [
+    {
+     "hint": "Offer for ChatGPT Business Users Install a plugin complete the work",
+     "min_usd": 50.0,
+     "n_prices": 2
+    },
+    {
+     "hint": "ChatGPT Plus K12 Edu 2 years with 24h warranty Price 3 85 St",
+     "min_usd": 3.85,
+     "n_prices": 1
+    },
+    {
+     "hint": "Chatgpt Plus 1 month full warranty Price 11 65 Stock 15 acc",
+     "min_usd": 11.65,
+     "n_prices": 1
+    },
+    {
+     "hint": "Chatgpt Plus VIP 1 month full warranty Price 11 98 Stock 9",
+     "min_usd": 11.98,
+     "n_prices": 1
+    },
+    {
+     "hint": "some websites let you use the Opus 4 8 API Kimi K3 and many other mo",
+     "min_usd": 40.0,
+     "n_prices": 3
+    },
+    {
+     "hint": "Spotify account 3 month plan full warranty Price 2 33 Stock 4",
+     "min_usd": 2.33,
+     "n_prices": 1
+    }
+   ],
+   "layer": "تجزئة + معرفة طرق (Retail+Methods)",
+   "dolaa_fit": "منافس + مصدر معرفة طرق التصنيع — لا يُنصح كمصدر (خطر احتيال داخلي موثق)"
+  },
+  {
+   "id": "AISUBSID",
+   "type": "channel",
+   "cluster": "AISUBS.ID",
+   "cluster_raw": "AISUBSID",
+   "url": "https://t.me/AISUBSID",
+   "http": 200,
+   "subscribers": "304 subscribers",
+   "title": "AISUBS.ID",
+   "role_in_chain": "مصنع حسابات ChatGPT Plus موثق المنهج: 'طريقة UPI' — إقرار نصي بنجاح 1–2% (من 1000 حساب ≈ 10–20 Plus)، وتوقع رفع الأسعار مع ترقيع الطريقة",
+   "risk_grade": "عالٍ (منتج مصنّع بطرق هشة تنتهك ToS؛ البائع نفسه يوثق هشاشة المعروض)",
+   "language": "الإندونيسية",
+   "n_history_messages": 59,
+   "n_priced_messages": 10,
+   "n_preview_messages": 8,
+   "min_price_anchor_usd": 0.2,
+   "price_samples": [
+    {
+     "hint": "Soon I add the last stock of GPT Plus The price only 3 35 or 60k ID",
+     "min_usd": 3.35,
+     "n_prices": 1
+    },
+    {
+     "hint": "RESTOCK 131 CHATGPT PLUS ADDED Price only 3 1 or 55k IDR Buy 5 10",
+     "min_usd": 3.1,
+     "n_prices": 1
+    },
+    {
+     "hint": "I m still continuing to restock But I need to raise the price a bit o",
+     "min_usd": 0.2,
+     "n_prices": 1
+    },
+    {
+     "hint": "Open pre order ChatGPT plus Minimum 20 Price 2 9 52 000 IDR Stoc",
+     "min_usd": 2.9,
+     "n_prices": 1
+    }
+   ],
+   "layer": "مصنع حسابات (Manufacturing)",
+   "dolaa_fit": "الطبقة الأدنى كلفة (نجاح 1-2% لطريقة UPI) — أعلى هشاشة"
+  },
+  {
+   "id": "verifierg",
+   "type": "channel",
+   "cluster": "Verifier Group (طبقة الثقة)",
+   "cluster_raw": "VerifierGroup",
+   "url": "https://t.me/verifierg",
+   "http": 200,
+   "subscribers": "25 948 members, 1 508 online",
+   "title": "Verifier Chat",
+   "role_in_chain": "وسيط ضمان/Escrow للسوق — 'معاملات إيداع مباشرة داخل البوت' + ضمان ثلاثة أشهر موثق نصيًا + قناة يوتيوب @veriyfyer",
+   "risk_grade": "الوسيط نفسه غير قابل للتحقق خارجيًا — الثقة فيه افتراض تشغيلي للسوق وليس ضمانة موضوعية",
+   "language": "الإنجليزية/الروسية",
+   "n_history_messages": 0,
+   "n_priced_messages": 0,
+   "n_preview_messages": 0,
+   "min_price_anchor_usd": null,
+   "price_samples": [],
+   "layer": "طبقة ثقة/ضمان (Escrow/Trust)",
+   "dolaa_fit": "بنية تحتية للثقة — تُستخدم كوسيط دفع لا كمصدر"
+  },
+  {
+   "id": "gemini12pro",
+   "type": "channel_or_acct",
+   "cluster": "Gemini GPT / Gemini12Pro",
+   "cluster_raw": "Gemini12Pro",
+   "url": "https://t.me/gemini12pro",
+   "http": 200,
+   "subscribers": "131 924 members, 3 006 online",
+   "title": "Gemini GPT Upgrade",
+   "role_in_chain": "مصنع/بائع تجزئة لترقيات AI — بوت استخراج روابط عروض Google One AI Pro (Pixel/طلاب) ووصف نفسه: 公益升级机器人 (بوت ترقية 'ذي منفعة عامة')",
+   "risk_grade": "متوسط-عالٍ (منتجات مبنية على استغلال عروض تنتهك ToS؛ Google خفّضت العروض 12→6 أشهر مع Pixel 11 = خطر انقطاع عرض)",
+   "language": "الصينية",
+   "n_history_messages": 0,
+   "n_priced_messages": 0,
+   "n_preview_messages": 0,
+   "min_price_anchor_usd": null,
+   "price_samples": [],
+   "layer": "مصنع + تجزئة (Manufacturing+Retail)",
+   "dolaa_fit": "مصدر توريد منخفض الكلفة لعائلة AI — مخاطر ToS عالية"
+  },
+  {
+   "id": "acczone_logs",
+   "type": "channel",
+   "cluster": "Acczone",
+   "cluster_raw": "Acczone",
+   "url": "https://t.me/acczone_logs",
+   "http": 200,
+   "subscribers": "8 316 members, 285 online",
+   "title": "ACCZONE LOGS",
+   "role_in_chain": "مزود جملة معلن: 'نحن أكبر مزود لجميع المنتجات' — بنية كاملة: متجر خاص + فاحص + سجلات + دعم",
+   "risk_grade": "متوسط-عالٍ (ادعاء 'الأكبر' غير موثق؛ سجل Logs منشأة ثقة داخلية لا دليل خارجي)",
+   "language": "الإنجليزية",
+   "n_history_messages": 0,
+   "n_priced_messages": 0,
+   "n_preview_messages": 0,
+   "min_price_anchor_usd": null,
+   "price_samples": [],
+   "layer": "جملة معلنة (Wholesale-claimed)",
+   "dolaa_fit": "مصدر توريد ثانوي — الادعاء غير قابل للتحقق الخارجي"
+  },
+  {
+   "id": "ProdSellerBot",
+   "type": "bot",
+   "cluster": "ProdSeller",
+   "cluster_raw": "ProdSeller",
+   "url": "https://t.me/ProdSellerBot",
+   "http": 200,
+   "subscribers": "@ProdSellerBot",
+   "title": "ProdSeller",
+   "role_in_chain": "موزع جملة + API (الطبقة العليا للبائعين الصغار): '15K+ مستخدم، 8K+ نشط شهريًا، 500+ مستخدم API، تكامل مجاني'",
+   "risk_grade": "متوسط (ادعاءات الحجم غير قابلة للتحقق؛ نموذج API يشير لاستقرار تشغيلي نسبي)",
+   "language": "الإنجليزية",
+   "n_history_messages": 0,
+   "n_priced_messages": 0,
+   "n_preview_messages": 0,
+   "min_price_anchor_usd": null,
+   "price_samples": [],
+   "layer": "جملة/API (Wholesale)",
+   "dolaa_fit": "قناة توريد أساسية مرشحة — أسعار API أرخص حتى 35% من معلنة"
+  },
+  {
+   "id": "Bite_storee_bot",
+   "type": "bot",
+   "cluster": "learnwith_Alex / Bite Store",
+   "cluster_raw": "BiteStore",
+   "url": "https://t.me/Bite_storee_bot",
+   "http": 200,
+   "subscribers": "@Bite_storee_bot",
+   "title": "Bite Store",
+   "role_in_chain": "بائع طرق وأدوات: 'طريقة بريد Edu جديد مع فيديو تعليمي' + لوحات Canva",
+   "risk_grade": "حرج (محتوى احتيالي موثق ضمن المنشورات العامة)",
+   "language": "الإنجليزية",
+   "n_history_messages": 0,
+   "n_priced_messages": 0,
+   "n_preview_messages": 0,
+   "min_price_anchor_usd": null,
+   "price_samples": [],
+   "layer": "بائع طرق (Methods Seller)",
+   "dolaa_fit": "غير مناسب — محتوى احتيالي موثق"
+  },
+  {
+   "id": "Mike_E_0",
+   "type": "account",
+   "cluster": "متاجر صغيرة (بوتات فردية)",
+   "cluster_raw": "Mike_E",
+   "url": "https://t.me/Mike_E_0",
+   "http": 200,
+   "subscribers": "@Mike_E_0",
+   "title": "Mike ))",
+   "role_in_chain": "بوتات تجزئة فردية بلا قنوات جماهيرية موثقة — طبقة أدنى في السلسلة",
+   "risk_grade": "غير قابل للتقييم الفردي — تعامل فقط عبر وسيط ضمان",
+   "language": "?",
+   "n_history_messages": 0,
+   "n_priced_messages": 0,
+   "n_preview_messages": 0,
+   "min_price_anchor_usd": null,
+   "price_samples": [],
+   "layer": "تجزئة فردية (Micro Retail)",
+   "dolaa_fit": "منافسون صغار — مؤشر أسعار فقط"
+  },
+  {
+   "id": "acczone_gemini_link_bot",
+   "type": "bot",
+   "cluster": "Acczone",
+   "cluster_raw": "Acczone",
+   "url": "https://t.me/acczone_gemini_link_bot",
+   "http": 200,
+   "subscribers": "@acczone_gemini_link_bot",
+   "title": "Acczone gemini check",
+   "role_in_chain": "مزود جملة معلن: 'نحن أكبر مزود لجميع المنتجات' — بنية كاملة: متجر خاص + فاحص + سجلات + دعم",
+   "risk_grade": "متوسط-عالٍ (ادعاء 'الأكبر' غير موثق؛ سجل Logs منشأة ثقة داخلية لا دليل خارجي)",
+   "language": "الإنجليزية",
+   "n_history_messages": 0,
+   "n_priced_messages": 0,
+   "n_preview_messages": 0,
+   "min_price_anchor_usd": null,
+   "price_samples": [],
+   "layer": "جملة معلنة (Wholesale-claimed)",
+   "dolaa_fit": "مصدر توريد ثانوي — الادعاء غير قابل للتحقق الخارجي"
+  },
+  {
+   "id": "Acczone_Store_bot",
+   "type": "bot",
+   "cluster": "Acczone",
+   "cluster_raw": "Acczone",
+   "url": "https://t.me/Acczone_Store_bot",
+   "http": 200,
+   "subscribers": "@Acczone_Store_bot",
+   "title": "Acczone Store",
+   "role_in_chain": "مزود جملة معلن: 'نحن أكبر مزود لجميع المنتجات' — بنية كاملة: متجر خاص + فاحص + سجلات + دعم",
+   "risk_grade": "متوسط-عالٍ (ادعاء 'الأكبر' غير موثق؛ سجل Logs منشأة ثقة داخلية لا دليل خارجي)",
+   "language": "الإنجليزية",
+   "n_history_messages": 0,
+   "n_priced_messages": 0,
+   "n_preview_messages": 0,
+   "min_price_anchor_usd": null,
+   "price_samples": [],
+   "layer": "جملة معلنة (Wholesale-claimed)",
+   "dolaa_fit": "مصدر توريد ثانوي — الادعاء غير قابل للتحقق الخارجي"
+  },
+  {
+   "id": "VeirfyerSupportbot",
+   "type": "bot",
+   "cluster": "Verifier Group (طبقة الثقة)",
+   "cluster_raw": "VerifierGroup",
+   "url": "https://t.me/VeirfyerSupportbot",
+   "http": 200,
+   "subscribers": "@VeirfyerSupportbot",
+   "title": "Fin Ai Support",
+   "role_in_chain": "وسيط ضمان/Escrow للسوق — 'معاملات إيداع مباشرة داخل البوت' + ضمان ثلاثة أشهر موثق نصيًا + قناة يوتيوب @veriyfyer",
+   "risk_grade": "الوسيط نفسه غير قابل للتحقق خارجيًا — الثقة فيه افتراض تشغيلي للسوق وليس ضمانة موضوعية",
+   "language": "الإنجليزية/الروسية",
+   "n_history_messages": 0,
+   "n_priced_messages": 0,
+   "n_preview_messages": 0,
+   "min_price_anchor_usd": null,
+   "price_samples": [],
+   "layer": "طبقة ثقة/ضمان (Escrow/Trust)",
+   "dolaa_fit": "بنية تحتية للثقة — تُستخدم كوسيط دفع لا كمصدر"
+  },
+  {
+   "id": "Veriyferbot",
+   "type": "bot",
+   "cluster": "Verifier Group (طبقة الثقة)",
+   "cluster_raw": "VerifierGroup",
+   "url": "https://t.me/Veriyferbot",
+   "http": 200,
+   "subscribers": "@Veriyferbot",
+   "title": "Verifier Bot",
+   "role_in_chain": "وسيط ضمان/Escrow للسوق — 'معاملات إيداع مباشرة داخل البوت' + ضمان ثلاثة أشهر موثق نصيًا + قناة يوتيوب @veriyfyer",
+   "risk_grade": "الوسيط نفسه غير قابل للتحقق خارجيًا — الثقة فيه افتراض تشغيلي للسوق وليس ضمانة موضوعية",
+   "language": "الإنجليزية/الروسية",
+   "n_history_messages": 0,
+   "n_priced_messages": 0,
+   "n_preview_messages": 0,
+   "min_price_anchor_usd": null,
+   "price_samples": [],
+   "layer": "طبقة ثقة/ضمان (Escrow/Trust)",
+   "dolaa_fit": "بنية تحتية للثقة — تُستخدم كوسيط دفع لا كمصدر"
+  },
+  {
+   "id": "Evolution_Era_bot",
+   "type": "bot",
+   "cluster": "Evo Era",
+   "cluster_raw": "EvoEra",
+   "url": "https://t.me/Evolution_Era_bot",
+   "http": 200,
+   "subscribers": "@Evolution_Era_bot",
+   "title": "Evolution Era Bot",
+   "role_in_chain": "بائع تجزئة آلي: إشعارات مشتريات مباشرة + مكافآت إحالة $0.05",
+   "risk_grade": "متوسط-عالٍ (ضمان ساعتين فقط = مؤشر جودة منخفض)",
+   "language": "الإنجليزية/العربية",
+   "n_history_messages": 0,
+   "n_priced_messages": 0,
+   "n_preview_messages": 0,
+   "min_price_anchor_usd": null,
+   "price_samples": [],
+   "layer": "تجزئة آلية (Automated Retail)",
+   "dolaa_fit": "منافس微观 — مؤشر أسعار سوقي حي"
+  },
+  {
+   "id": "stackvault_support",
+   "type": "account",
+   "cluster": "StackVault",
+   "cluster_raw": "StackVault",
+   "url": "https://t.me/stackvault_support",
+   "http": 200,
+   "subscribers": "@stackvault_support",
+   "title": "Stack Vault Support",
+   "role_in_chain": "متجر تجزئة منظم: 248 منتجًا، نظام رصيد، دفع USDT، 'بائع Telegram'، دعم 24/7، تسليم فوري",
+   "risk_grade": "متوسط (متجر منظم الظاهر + هوية مجهولة الجوهر؛ الدفع مسبق بالرصيد/USDT)",
+   "language": "الإنجليزية",
+   "n_history_messages": 0,
+   "n_priced_messages": 0,
+   "n_preview_messages": 0,
+   "min_price_anchor_usd": null,
+   "price_samples": [],
+   "layer": "تجزئة منظمة (Organized Retail)",
+   "dolaa_fit": "منافس مباشر نموذجي لدولا لا مصدر توريد — معادلة التسعير cost×1.2 مرصودة"
+  },
+  {
+   "id": "stackvault_bot",
+   "type": "bot",
+   "cluster": "StackVault",
+   "cluster_raw": "StackVault",
+   "url": "https://t.me/stackvault_bot",
+   "http": 200,
+   "subscribers": "@stackvault_bot",
+   "title": "Stack Vault",
+   "role_in_chain": "متجر تجزئة منظم: 248 منتجًا، نظام رصيد، دفع USDT، 'بائع Telegram'، دعم 24/7، تسليم فوري",
+   "risk_grade": "متوسط (متجر منظم الظاهر + هوية مجهولة الجوهر؛ الدفع مسبق بالرصيد/USDT)",
+   "language": "الإنجليزية",
+   "n_history_messages": 0,
+   "n_priced_messages": 0,
+   "n_preview_messages": 0,
+   "min_price_anchor_usd": null,
+   "price_samples": [],
+   "layer": "تجزئة منظمة (Organized Retail)",
+   "dolaa_fit": "منافس مباشر نموذجي لدولا لا مصدر توريد — معادلة التسعير cost×1.2 مرصودة"
+  },
+  {
+   "id": "PremiKeyBot",
+   "type": "bot",
+   "cluster": "HitMeow / PremiKey",
+   "cluster_raw": "PremiKey",
+   "url": "https://t.me/PremiKeyBot",
+   "http": 200,
+   "subscribers": "@PremiKeyBot",
+   "title": "HitMeow Shop🌐",
+   "role_in_chain": "بائع تجزئة AI + ناشر معرفة طرق: وثّق طريقة SheerID الطلابية (شراء تحقق من Xianyu → اشتراك شهر → تحقق طلابي → 4 أشهر)",
+   "risk_grade": "عالٍ (ناشر طرق استغلال؛ منشورات مختلطة بمحتوى مجاني مشبوه: مفاتيح API مكشوفة، روابط AWS)",
+   "language": "الإنجليزية/الفيتنامية",
+   "n_history_messages": 0,
+   "n_priced_messages": 0,
+   "n_preview_messages": 0,
+   "min_price_anchor_usd": null,
+   "price_samples": [],
+   "layer": "تجزئة + معرفة طرق (Retail+Methods)",
+   "dolaa_fit": "منافس + مصدر معرفة طرق التصنيع — لا يُنصح كمصدر (خطر احتيال داخلي موثق)"
+  },
+  {
+   "id": "Premikey_bot",
+   "type": "bot",
+   "cluster": "HitMeow / PremiKey",
+   "cluster_raw": "PremiKey",
+   "url": "https://t.me/Premikey_bot",
+   "http": 200,
+   "subscribers": "@Premikey_bot",
+   "title": "HitMeow Shop🇻🇳",
+   "role_in_chain": "بائع تجزئة AI + ناشر معرفة طرق: وثّق طريقة SheerID الطلابية (شراء تحقق من Xianyu → اشتراك شهر → تحقق طلابي → 4 أشهر)",
+   "risk_grade": "عالٍ (ناشر طرق استغلال؛ منشورات مختلطة بمحتوى مجاني مشبوه: مفاتيح API مكشوفة، روابط AWS)",
+   "language": "الإنجليزية/الفيتنامية",
+   "n_history_messages": 0,
+   "n_priced_messages": 0,
+   "n_preview_messages": 0,
+   "min_price_anchor_usd": null,
+   "price_samples": [],
+   "layer": "تجزئة + معرفة طرق (Retail+Methods)",
+   "dolaa_fit": "منافس + مصدر معرفة طرق التصنيع — لا يُنصح كمصدر (خطر احتيال داخلي موثق)"
+  },
+  {
+   "id": "HitmeowSupport",
+   "type": "account",
+   "cluster": "HitMeow / PremiKey",
+   "cluster_raw": "HitMeow",
+   "url": "https://t.me/HitmeowSupport",
+   "http": 200,
+   "subscribers": "@HitmeowSupport",
+   "title": "Support Hitmeow Shop",
+   "role_in_chain": "بائع تجزئة AI + ناشر معرفة طرق: وثّق طريقة SheerID الطلابية (شراء تحقق من Xianyu → اشتراك شهر → تحقق طلابي → 4 أشهر)",
+   "risk_grade": "عالٍ (ناشر طرق استغلال؛ منشورات مختلطة بمحتوى مجاني مشبوه: مفاتيح API مكشوفة، روابط AWS)",
+   "language": "الإنجليزية/الفيتنامية",
+   "n_history_messages": 0,
+   "n_priced_messages": 0,
+   "n_preview_messages": 0,
+   "min_price_anchor_usd": null,
+   "price_samples": [],
+   "layer": "تجزئة + معرفة طرق (Retail+Methods)",
+   "dolaa_fit": "منافس + مصدر معرفة طرق التصنيع — لا يُنصح كمصدر (خطر احتيال داخلي موثق)"
+  },
+  {
+   "id": "insightXpro_bot",
+   "type": "bot",
+   "cluster": "متاجر صغيرة (بوتات فردية)",
+   "cluster_raw": "insightXpro",
+   "url": "https://t.me/insightXpro_bot",
+   "http": 200,
+   "subscribers": "@insightXpro_bot",
+   "title": "INSIGHT STORE",
+   "role_in_chain": "بوتات تجزئة فردية بلا قنوات جماهيرية موثقة — طبقة أدنى في السلسلة",
+   "risk_grade": "غير قابل للتقييم الفردي — تعامل فقط عبر وسيط ضمان",
+   "language": "?",
+   "n_history_messages": 0,
+   "n_priced_messages": 0,
+   "n_preview_messages": 0,
+   "min_price_anchor_usd": null,
+   "price_samples": [],
+   "layer": "تجزئة فردية (Micro Retail)",
+   "dolaa_fit": "منافسون صغار — مؤشر أسعار فقط"
+  },
+  {
+   "id": "nevakeystore_bot",
+   "type": "bot",
+   "cluster": "متاجر صغيرة (بوتات فردية)",
+   "cluster_raw": "NevaKeyStore",
+   "url": "https://t.me/nevakeystore_bot",
+   "http": 200,
+   "subscribers": "@nevakeystore_bot",
+   "title": "Neva AI",
+   "role_in_chain": "بوتات تجزئة فردية بلا قنوات جماهيرية موثقة — طبقة أدنى في السلسلة",
+   "risk_grade": "غير قابل للتقييم الفردي — تعامل فقط عبر وسيط ضمان",
+   "language": "?",
+   "n_history_messages": 0,
+   "n_priced_messages": 0,
+   "n_preview_messages": 0,
+   "min_price_anchor_usd": null,
+   "price_samples": [],
+   "layer": "تجزئة فردية (Micro Retail)",
+   "dolaa_fit": "منافسون صغار — مؤشر أسعار فقط"
+  },
+  {
+   "id": "Gamisellbot",
+   "type": "bot",
+   "cluster": "متاجر صغيرة (بوتات فردية)",
+   "cluster_raw": "Gamisell",
+   "url": "https://t.me/Gamisellbot",
+   "http": 200,
+   "subscribers": "@Gamisellbot",
+   "title": "Gamisell Shop Bot",
+   "role_in_chain": "بوتات تجزئة فردية بلا قنوات جماهيرية موثقة — طبقة أدنى في السلسلة",
+   "risk_grade": "غير قابل للتقييم الفردي — تعامل فقط عبر وسيط ضمان",
+   "language": "?",
+   "n_history_messages": 0,
+   "n_priced_messages": 0,
+   "n_preview_messages": 0,
+   "min_price_anchor_usd": null,
+   "price_samples": [],
+   "layer": "تجزئة فردية (Micro Retail)",
+   "dolaa_fit": "منافسون صغار — مؤشر أسعار فقط"
+  },
+  {
+   "id": "p_a_store_bot",
+   "type": "bot",
+   "cluster": "متاجر صغيرة (بوتات فردية)",
+   "cluster_raw": "p_a_store",
+   "url": "https://t.me/p_a_store_bot",
+   "http": 200,
+   "subscribers": "@p_a_store_bot",
+   "title": "P A Store",
+   "role_in_chain": "بوتات تجزئة فردية بلا قنوات جماهيرية موثقة — طبقة أدنى في السلسلة",
+   "risk_grade": "غير قابل للتقييم الفردي — تعامل فقط عبر وسيط ضمان",
+   "language": "?",
+   "n_history_messages": 0,
+   "n_priced_messages": 0,
+   "n_preview_messages": 0,
+   "min_price_anchor_usd": null,
+   "price_samples": [],
+   "layer": "تجزئة فردية (Micro Retail)",
+   "dolaa_fit": "منافسون صغار — مؤشر أسعار فقط"
+  },
+  {
+   "id": "Aisubsglobalbot",
+   "type": "bot",
+   "cluster": "AISUBS.ID",
+   "cluster_raw": "AISUBSID",
+   "url": "https://t.me/Aisubsglobalbot",
+   "http": 200,
+   "subscribers": "@Aisubsglobalbot",
+   "title": "AISUBS GLOBAL",
+   "role_in_chain": "مصنع حسابات ChatGPT Plus موثق المنهج: 'طريقة UPI' — إقرار نصي بنجاح 1–2% (من 1000 حساب ≈ 10–20 Plus)، وتوقع رفع الأسعار مع ترقيع الطريقة",
+   "risk_grade": "عالٍ (منتج مصنّع بطرق هشة تنتهك ToS؛ البائع نفسه يوثق هشاشة المعروض)",
+   "language": "الإندونيسية",
+   "n_history_messages": 0,
+   "n_priced_messages": 0,
+   "n_preview_messages": 0,
+   "min_price_anchor_usd": null,
+   "price_samples": [],
+   "layer": "مصنع حسابات (Manufacturing)",
+   "dolaa_fit": "الطبقة الأدنى كلفة (نجاح 1-2% لطريقة UPI) — أعلى هشاشة"
+  },
+  {
+   "id": "storeBatmanBot",
+   "type": "bot",
+   "cluster": "متاجر صغيرة (بوتات فردية)",
+   "cluster_raw": "storeBatman",
+   "url": "https://t.me/storeBatmanBot",
+   "http": 200,
+   "subscribers": "@storeBatmanBot",
+   "title": "storebat",
+   "role_in_chain": "بوتات تجزئة فردية بلا قنوات جماهيرية موثقة — طبقة أدنى في السلسلة",
+   "risk_grade": "غير قابل للتقييم الفردي — تعامل فقط عبر وسيط ضمان",
+   "language": "?",
+   "n_history_messages": 0,
+   "n_priced_messages": 0,
+   "n_preview_messages": 0,
+   "min_price_anchor_usd": null,
+   "price_samples": [],
+   "layer": "تجزئة فردية (Micro Retail)",
+   "dolaa_fit": "منافسون صغار — مؤشر أسعار فقط"
+  },
+  {
+   "id": "stackvault_shop",
+   "type": "website",
+   "cluster": "StackVault",
+   "cluster_raw": "StackVault",
+   "url": "https://stackvault.shop",
+   "http": 200,
+   "subscribers": "",
+   "title": "StackVault — Digital Subscriptions & Keys",
+   "role_in_chain": "متجر تجزئة منظم: 248 منتجًا، نظام رصيد، دفع USDT، 'بائع Telegram'، دعم 24/7، تسليم فوري",
+   "risk_grade": "متوسط (متجر منظم الظاهر + هوية مجهولة الجوهر؛ الدفع مسبق بالرصيد/USDT)",
+   "language": "الإنجليزية",
+   "n_history_messages": 0,
+   "n_priced_messages": 0,
+   "n_preview_messages": 0,
+   "min_price_anchor_usd": null,
+   "price_samples": [],
+   "layer": "تجزئة منظمة (Organized Retail)",
+   "dolaa_fit": "منافس مباشر نموذجي لدولا لا مصدر توريد — معادلة التسعير cost×1.2 مرصودة"
+  }
+ ],
+ "discovered_entities": [
+  {
+   "id": "stackvault_backend_api",
+   "type": "api-backend",
+   "cluster": "StackVault",
+   "url": "decohomz.com/sv-api/products (خلف stackvault.shop)",
+   "http": 200,
+   "subscribers": "-",
+   "title": "StackVault Backend API",
+   "role_in_chain": "طبقة التكلفة الداخلية للمتجر — costPrice مكشوف لكل منتج",
+   "risk_grade": "متوسط (كشف تكلفة داخلي = ثغرة موثقة؛ المتجر نفسه غير موثق خارجيًا)",
+   "language": "الإنجليزية",
+   "n_history_messages": 0,
+   "n_priced_messages": 0,
+   "n_preview_messages": 0,
+   "min_price_anchor_usd": 0.01,
+   "price_samples": [],
+   "layer": "طبقة تكلفة داخلية (Internal Cost)",
+   "dolaa_fit": "أقوى دليل مشروع على بنية تكلفة متجر تجزئة: معادلة التسعير retail=cost×1.2 موثقة عبر 274 منتجًا",
+   "stats": {
+    "n_products": 274,
+    "median_markup_pct": 20.1,
+    "min_markup_pct": 15.0,
+    "max_markup_pct": 135.0,
+    "n_with_cost": 274
+   }
+  },
+  {
+   "id": "AiVerseXBot",
+   "type": "bot (مكتشف داخل معاينة قناة)",
+   "channel_hint": "gemini12pro_channel — رابط طلب مدفوع",
+   "cluster": "Gemini GPT / Gemini12Pro",
+   "url": "t.me/AiVerseXBot",
+   "role_in_chain": "بوت طلبات تجزئة داخل منظومة gemini12pro (Gemini 18 شهرًا $0.45)",
+   "risk_grade": "متوسط-عالٍ (ضمن منظومة عروض Pixel)",
+   "layer": "تجزئة متخصصة (Specialized Retail)",
+   "dolaa_fit": "قناة طلب لعروض Gemini منخفضة الكلفة — نفس مخاطر ToS للمنظومة الأم",
+   "evidence": "مرصود في معاينة s/ 27/09"
+  },
+  {
+   "id": "Gt_Verified",
+   "type": "bot (مكتشف داخل معاينة قناة)",
+   "channel_hint": "gemini12pro_channel — رابط جملة",
+   "cluster": "Gemini GPT / Gemini12Pro",
+   "url": "t.me/Gt_Verified",
+   "role_in_chain": "بوت جملة داخل منظومة gemini12pro (Gemini 18m أسعار جملة)",
+   "risk_grade": "متوسط-عالٍ",
+   "layer": "جملة متخصصة (Specialized Wholesale)",
+   "dolaa_fit": "طبقة جملة داخل منظومة واحدة — أدنى من ProdSeller في التنوع",
+   "evidence": "مرصود في معاينة s/ 27/09"
+  }
+ ],
+ "matrix_layerB_marketplaces": [
+  {
+   "channel": "Eneba",
+   "n_offers": 5,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "Microsoft Xbox",
+   "n_offers": 2,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "Airalo",
+   "n_offers": 2,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "Spotify",
+   "n_offers": 2,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "Google/YouTube",
+   "n_offers": 2,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "vividgold.africa",
+   "n_offers": 2,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "G2A (GalaxyLink key)",
+   "n_offers": 2,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "GGSel (RU marketplace)",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "GGSel marketplace (via YouTube promo snippet)",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "GGSel sellers",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "Z2U marketplace",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "Anthropic",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "G2A",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "Perplexity",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "Canva",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "Turgame",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "GG.deals (subscription tracker)",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "Keyforsteam daily best — seller 'Keywrld'",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "Allkeyshop comparison",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "Keyforsteam Preisvergleich — seller 'Pixelcodes' (phone activation)",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "Allkeyshop",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "Keyforsteam sellers (Pixelcodes et al.)",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "Keyforsteam daily best — seller 'Keys4us'",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "MobiMatter",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "SMS-activation providers (smscode.gg / nexsms.net)",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "Netflix",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "Z2U (shared/private accounts)",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "Ozbargain-documented reseller threads",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "Region-priced paths (Techmusea-documented TR/IN/ARG)",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "Allkeyshop (NordVPN key comparison)",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "Discord",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "GG.deals",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "OpenAI",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "learnwith_Alex/Bite Store",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "cdkeyprices-tracked",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "allkeyshop-tracked",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "dlcompare",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "Kinguin",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "sodagift",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "livecards",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "loaded.com",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "sythe.org (forum resellers)",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "GameBoost (allkeyshop-tracked)",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "Eneba (allkeyshop-tracked)",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "huskyboost",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "Kinguin (KeysForAll)",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "Driffle (allkeyshop sidebar)",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "Wincdkey (allkeyshop-tracked)",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "Keys4us (allkeyshop-tracked)",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "Gocdkeys",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "eSIMCard",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "SMM panels (aggregated)",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "smmtrustpanel",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "smmpwr (aggregated)",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "nicesmmpanel",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "PvaPins",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  },
+  {
+   "channel": "TG seller SellerDealer (telemetr.io-documented)",
+   "n_offers": 1,
+   "layer": "سوق/متجر مفتوح (Marketplace)"
+  }
+ ],
+ "stackvault_cost_layer": {
+  "formula": "retail = cost × 1.2 (وسيط)",
+  "n": 274,
+  "median_markup_pct": 20.1,
+  "range": [
+   15.0,
+   135.0
+  ]
+ },
+ "summary": {
+  "layerA_registry_entities": 31,
+  "layerA_discovered": [
+   "stackvault_backend_api",
+   "AiVerseXBot",
+   "Gt_Verified"
+  ],
+  "total_rows": 34,
+  "sv_stats": {
+   "n_products": 274,
+   "median_markup_pct": 20.1,
+   "min_markup_pct": 15.0,
+   "max_markup_pct": 135.0,
+   "n_with_cost": 274
+  },
+  "tg_stats": {
+   "n_products": 117,
+   "n_categories": 12
+  },
+  "marketplace_channels_with_offers": 57,
+  "generated": "2026-09-27",
+  "evidence_class": "مرصود مباشرة (HTTP 200 + معاينات s/ + API مكشوف) — الأسعار معلنة لا معاملاتية"
+ },
+ "limitations": [
+  "دولا (المتجر محل السؤال) غير قابل للرصد المباشر: النطاقات المرشحة متوقفة/موقوفة (dolaa.com parked) — التحليل يُبنى على نموذج المتجر الخليجي العام بالأدلة المرصودة",
+  "كل الأسعار معلنة (إعلاني ≠ معاملاتي)",
+  "بوابات الجملة خلف تسجيل دخول (Turgame Wholesale/Reloadly) — أسعار الجملة الحقيقية تتطلب فتح حساب B2B",
+  "سمعة الكيانات غير قابلة للتحقق خارجيًا (لا بصمة مستقلة لأي عنقود)"
+ ]
+}

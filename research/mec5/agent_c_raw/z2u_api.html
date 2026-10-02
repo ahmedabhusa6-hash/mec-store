@@ -1,0 +1,438 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>z2u - 404</title>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="icon" sizes="192x192" href="../../static/platform/img/index/favicon.ico">
+    <script src="../../static/js/jquery.js"></script>
+
+    <style>
+        /************found_not start********************/
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: Roboto;
+            padding-bottom: 62px;
+        }
+
+        .imgbox{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 350px;
+        }
+        .imgbox>img{
+            width: 400px;
+        }
+        .text-wrap h4{
+            font-size: 2rem;
+            margin-top: 0!important;
+            margin-bottom: 0px;
+        }
+        .text-wrap p{
+            font-size: 1.15rem;
+            color: #7d7d88;
+            margin: 15px 0;
+            padding: 0;
+        }
+
+        .footer-wrap{
+            background-color: #f7f8f9;
+            border-top: 1px solid #f2f3f4;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 62px;
+        }
+        .footer-wrap .container{
+            background: none!important;
+        }
+        .footer-wrap .footer-bar{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            font-size: .75rem;
+            color: #646d74;
+        }
+        .footer-wrap .footer-bar .row-1, .footer-wrap .footer-bar .row-2{
+            width: 100%;
+        }
+        .footer-wrap .footer-bar .row-1{
+            font-weight: bold;
+        }
+
+        .fit-height {
+            /*height: calc(100vh - 100px);*/
+        }
+
+        @media (max-width: 767.98px) {
+            body{
+                padding-bottom: 0;
+            }
+            .footer-wrap{
+                position: relative;
+                left: initial;
+                bottom: initial;
+                width: initial;
+                height: initial;
+            }
+
+            .imgbox>img{
+                width: 80%;
+            }
+        }
+
+        .container{
+            max-width: 1170px;
+            margin: 0 auto;
+            background: #fff;
+            text-align: center;
+            padding: 16px 15px;
+        }
+
+           .logobox{
+               text-align: left;
+               padding-bottom: 15px;
+           }
+        .found_box{
+            padding-bottom: 15px;
+        }
+        .found_box .imgbox img{
+            max-width: 100%;
+        }
+        .error_title{
+            font-size: 60px;
+            padding: 10px 0;
+            color: #343434;
+            font-weight: bold;
+        }
+        .error_content{
+            color: #2D2D2D;
+            font-weight: bold;
+        }
+        .found_box .font_color_red{
+            color: #e42206;
+
+        }
+        .found_footer{
+            padding: 20px 0;
+            text-align: left;
+        }
+        .copybox{
+            color: #6A6A6A;
+            padding-bottom: 10px;
+        }
+        .font_color_red{
+            color: #BF2932;
+        }
+        .buttonbox{
+            padding-top: 15px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .buttonbox .back,.buttonbox .line{
+            padding: 12px 28px;
+            text-decoration: none;
+            margin:0  10px 10px;
+            border-radius: 99rem;
+            border: 1px solid #767676;
+            color: #767676;
+        }
+        .buttonbox .back{
+            border-color: #dd1e16;
+            color: #fff;
+            background: #dd1e16;
+        }
+        /************found_not end********************/
+         h1{
+                    margin: 10px 0 0;
+                    font-size: 28px;
+                    font-weight: 500;
+                    line-height: 32px;
+                }
+                h2{
+                    color: #4288ce;
+                    font-weight: 400;
+                    padding: 6px 0;
+                    margin: 6px 0 0;
+                    font-size: 18px;
+                    border-bottom: 1px solid #eee;
+                }
+                h3.subheading {
+                    color: #4288ce;
+                    margin: 6px 0 0;
+                    font-weight: 400;
+                }
+                h3{
+                    margin: 12px;
+                    font-size: 16px;
+                    font-weight: bold;
+                }
+                abbr{
+                    cursor: help;
+                    text-decoration: underline;
+                    text-decoration-style: dotted;
+                }
+                a{
+                    color: #868686;
+                    cursor: pointer;
+                }
+                a:hover{
+                    text-decoration: underline;
+                }
+                .line-error{
+                    background: #f8cbcb;
+                }
+
+                .echo table {
+                    width: 100%;
+                }
+
+                .echo pre {
+                    padding: 16px;
+                    overflow: auto;
+                    font-size: 85%;
+                    line-height: 1.45;
+                    background-color: #f7f7f7;
+                    border: 0;
+                    border-radius: 3px;
+                    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+                }
+
+                .echo pre > pre {
+                    padding: 0;
+                    margin: 0;
+                }
+                /* Layout */
+                .col-md-3 {
+                    width: 25%;
+                }
+                .col-md-9 {
+                    width: 75%;
+                }
+                [class^="col-md-"] {
+                    float: left;
+                }
+                .clearfix {
+                    clear:both;
+                }
+                @media only screen
+                and (min-device-width : 375px)
+                and (max-device-width : 667px) {
+                    .col-md-3,
+                    .col-md-9 {
+                        width: 100%;
+                    }
+                }
+                /* Exception Info */
+
+                .exception .message{
+                    padding: 12px;
+                    border: 1px solid #ddd;
+                    border-bottom: 0 none;
+                    line-height: 18px;
+                    font-size:16px;
+                    border-top-left-radius: 4px;
+                    border-top-right-radius: 4px;
+                    font-family: Consolas,"Liberation Mono",Courier,Verdana,"微软雅黑";
+                }
+
+                .exception .code{
+                    float: left;
+                    text-align: center;
+                    color: #fff;
+                    margin-right: 12px;
+                    padding: 16px;
+                    border-radius: 4px;
+                    background: #999;
+                }
+                .exception .source-code{
+                    padding: 6px;
+                    border: 1px solid #ddd;
+
+                    background: #f9f9f9;
+                    overflow-x: auto;
+
+                }
+                .exception .source-code pre{
+                    margin: 0;
+                }
+                .exception .source-code pre ol{
+                    margin: 0;
+                    color: #4288ce;
+                    display: inline-block;
+                    min-width: 100%;
+                    box-sizing: border-box;
+                font-size:14px;
+                    font-family: "Century Gothic",Consolas,"Liberation Mono",Courier,Verdana;
+                    padding-left: 40px;
+                }
+                .exception .source-code pre li{
+                    border-left: 1px solid #ddd;
+                    height: 18px;
+                    line-height: 18px;
+                }
+                .exception .source-code pre code{
+                    color: #333;
+                    height: 100%;
+                    display: inline-block;
+                    border-left: 1px solid #fff;
+                font-size:14px;
+                    font-family: Consolas,"Liberation Mono",Courier,Verdana,"微软雅黑";
+                }
+                .exception .trace{
+                    padding: 6px;
+                    border: 1px solid #ddd;
+                    border-top: 0 none;
+                    line-height: 16px;
+                font-size:14px;
+                    font-family: Consolas,"Liberation Mono",Courier,Verdana,"微软雅黑";
+                }
+                .exception .trace ol{
+                    margin: 12px;
+                }
+                .exception .trace ol li{
+                    padding: 2px 4px;
+                }
+                .exception div:last-child{
+                    border-bottom-left-radius: 4px;
+                    border-bottom-right-radius: 4px;
+                }
+
+                /* Exception Variables */
+                .exception-var table{
+                    width: 100%;
+                    margin: 12px 0;
+                    box-sizing: border-box;
+                    table-layout:fixed;
+                    word-wrap:break-word;
+                }
+                .exception-var table caption{
+                    text-align: left;
+                    font-size: 16px;
+                    font-weight: bold;
+                    padding: 6px 0;
+                }
+                .exception-var table caption small{
+                    font-weight: 300;
+                    display: inline-block;
+                    margin-left: 10px;
+                    color: #ccc;
+                }
+                .exception-var table tbody{
+                    font-size: 13px;
+                    font-family: Consolas,"Liberation Mono",Courier,"微软雅黑";
+                }
+                .exception-var table td{
+                    padding: 0 6px;
+                    vertical-align: top;
+                    word-break: break-all;
+                }
+                .exception-var table td:first-child{
+                    width: 28%;
+                    font-weight: bold;
+                    white-space: nowrap;
+                }
+                .exception-var table td pre{
+                    margin: 0;
+                }
+
+                /* Copyright Info */
+                .copyright{
+                    margin-top: 24px;
+                    padding: 12px 0;
+                    border-top: 1px solid #eee;
+                }
+
+                /* SPAN elements with the classes below are added by prettyprint. */
+                pre.prettyprint .pln { color: #000 }  /* plain text */
+                pre.prettyprint .str { color: #080 }  /* string content */
+                pre.prettyprint .kwd { color: #008 }  /* a keyword */
+                pre.prettyprint .com { color: #800 }  /* a comment */
+                pre.prettyprint .typ { color: #606 }  /* a type name */
+                pre.prettyprint .lit { color: #066 }  /* a literal value */
+                /* punctuation, lisp open bracket, lisp close bracket */
+                pre.prettyprint .pun, pre.prettyprint .opn, pre.prettyprint .clo { color: #660 }
+                pre.prettyprint .tag { color: #008 }  /* a markup tag name */
+                pre.prettyprint .atn { color: #606 }  /* a markup attribute name */
+                pre.prettyprint .atv { color: #080 }  /* a markup attribute value */
+                pre.prettyprint .dec, pre.prettyprint .var { color: #606 }  /* a declaration; a variable name */
+                pre.prettyprint .fun { color: red }  /* a function name */
+    </style>
+    <script>
+
+    </script>
+</head>
+<body>
+    <div class="echo">
+            </div>
+        <div class="exception">
+
+
+
+    </div>
+    
+    
+    
+
+    <div class="found_not">
+      <div class="container fit-height">
+          <div class="found_box">
+                              <div class="logobox">
+                   <a href="https://www.z2u.com/"><img src="../../static/platform/img/index/logo10.png" alt="" width="150"></a>
+               </div>
+               <div class="imgbox">
+                   <img src="../../static/platform/img/pages/404.svg" alt="">
+               </div>
+               <div class="text-wrap">
+                   <h4>This Page Does Not Exist</h4>
+                   <p>We're sorry, but it appears the website address you entered was incorrect.</p>
+               </div>
+                 <!--<div class="error_title">
+                     error
+                 </div>-->
+
+              <div class="error_content">
+
+
+              </div>
+              <div class="buttonbox">
+
+                  <a class="back" href="https://www.z2u.com/">
+                      Return to Home Page
+                  </a>
+                  <a class="line" href="https://www.z2u.com/contact">
+                      Contact us
+                  </a>
+              </div>
+          </div>
+      </div>
+
+      <div class="container-fluid footer-wrap">
+          <div class="container">
+              <div class="footer-bar">
+                  <div class="row-1">Copyright &copy; 2008-2026 Z2U.com All rights reserved</div>
+                  <div class="row-2">
+                      Disclaimer: Registered names and trademarks are the copyright and property of their respective owners.
+                      The use of this Website constitutes the acceptance of the
+                      <span class="font_color_red"><a href="https://www.z2u.com/terms">Terms & Conditions</a></span>
+
+                      <span class="font_color_red">
+                         <a href="https://www.z2u.com/PrivacyPolicy">Privacy Policy</a>
+                      </span>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+    
+</body>
+</html>
+

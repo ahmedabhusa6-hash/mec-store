@@ -1,0 +1,549 @@
+{
+ "page": {
+  "id": "3e658a07-79e8-8175-a326-f459f3b226f1",
+  "title": "CKC-003 — Canonical trigger verification",
+  "url": "https://app.notion.com/p/CKC-003-Canonical-trigger-verification-3e658a0779e88175a326f459f3b226f1"
+ },
+ "blocks": [
+  {
+   "object": "block",
+   "id": "0c350ae7-57be-4be2-9f27-c7c3b64e886a",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8175-a326-f459f3b226f1"
+   },
+   "created_time": "2026-09-25T21:38:00.000Z",
+   "last_edited_time": "2026-09-25T21:38:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Cycle Note",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Cycle Note",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "0a08b306-549a-4ef9-b2e1-7b0c71b0e1c5",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8175-a326-f459f3b226f1"
+   },
+   "created_time": "2026-09-25T21:38:00.000Z",
+   "last_edited_time": "2026-09-25T21:38:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "هذه الدورة اعتمدت المرجع التشغيلي v2 بوصفه المرجع الحاكم.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "هذه الدورة اعتمدت المرجع التشغيلي v2 بوصفه المرجع الحاكم.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "08294819-58bb-4dd0-b7a4-dca0f94fb3e3",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8175-a326-f459f3b226f1"
+   },
+   "created_time": "2026-09-25T21:38:00.000Z",
+   "last_edited_time": "2026-09-25T21:38:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Canonical Loop",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Canonical Loop",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "286b0648-6bbf-4d0e-a8e1-bdc156409b80",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8175-a326-f459f3b226f1"
+   },
+   "created_time": "2026-09-25T21:38:00.000Z",
+   "last_edited_time": "2026-09-25T21:38:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "KNOWLEDGE STATE → DISCOVERY → TRIAGE → RESEARCH → VALIDATION → CONFLICT CHECK → SYNTHESIS → KNOWLEDGE COMMIT → QUALITY CONTROL → GAP DETECTION → PRIORITY QUEUE → PERSIST STATE → NEXT TRIGGER",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "KNOWLEDGE STATE → DISCOVERY → TRIAGE → RESEARCH → VALIDATION → CONFLICT CHECK → SYNTHESIS → KNOWLEDGE COMMIT → QUALITY CONTROL → GAP DETECTION → PRIORITY QUEUE → PERSIST STATE → NEXT TRIGGER",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "766c90c6-e3ff-424c-b0ec-e23bc432a874",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8175-a326-f459f3b226f1"
+   },
+   "created_time": "2026-09-25T21:38:00.000Z",
+   "last_edited_time": "2026-09-25T21:38:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Canonical Trigger Rule",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Canonical Trigger Rule",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "59faa32b-67fb-4a0a-ad98-b9bcb5b3a466",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8175-a326-f459f3b226f1"
+   },
+   "created_time": "2026-09-25T21:38:00.000Z",
+   "last_edited_time": "2026-09-25T21:38:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "يوجد Trigger مجدول واحد فقط للمنظومة. الجدولة = Repeated Discrete Runs.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "يوجد Trigger مجدول واحد فقط للمنظومة. الجدولة = Repeated Discrete Runs.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "5530c22e-e7b1-4f2b-be4f-0d19712a37c7",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8175-a326-f459f3b226f1"
+   },
+   "created_time": "2026-09-25T21:38:00.000Z",
+   "last_edited_time": "2026-09-25T21:38:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "State Separation",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "State Separation",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "82f64dfc-7970-41b1-9af1-65d98d336569",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8175-a326-f459f3b226f1"
+   },
+   "created_time": "2026-09-25T21:38:00.000Z",
+   "last_edited_time": "2026-09-25T21:38:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Knowledge State ≠ Change Type ≠ Conflict Status",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Knowledge State ≠ Change Type ≠ Conflict Status",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "2be198d9-bb58-48af-bbd5-cb7ec6340bc0",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8175-a326-f459f3b226f1"
+   },
+   "created_time": "2026-09-25T21:38:00.000Z",
+   "last_edited_time": "2026-09-25T21:38:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Closure Rule",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Closure Rule",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "51e61d56-1305-4ad6-a757-6e8fb51c330b",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8175-a326-f459f3b226f1"
+   },
+   "created_time": "2026-09-25T21:38:00.000Z",
+   "last_edited_time": "2026-09-25T21:38:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "State Updated + Changes Recorded + Conflicts Recorded + Gaps Identified + Next Work Determined + State Persisted",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "State Updated + Changes Recorded + Conflicts Recorded + Gaps Identified + Next Work Determined + State Persisted",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "d903fec1-b7e7-4eb3-b8cd-a3f0ecae29b5",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8175-a326-f459f3b226f1"
+   },
+   "created_time": "2026-09-25T21:38:00.000Z",
+   "last_edited_time": "2026-09-25T21:38:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Operational Truth",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Operational Truth",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "e277e436-141a-4f80-8670-4329442642c4",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e658a07-79e8-8175-a326-f459f3b226f1"
+   },
+   "created_time": "2026-09-25T21:38:00.000Z",
+   "last_edited_time": "2026-09-25T21:38:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "لا يوجد ادعاء بتشغيل حي 24/7 بين الدورات، ولا Event-Driven أو Background إلا عند توفر الآلية فعليًا.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "لا يوجد ادعاء بتشغيل حي 24/7 بين الدورات، ولا Event-Driven أو Background إلا عند توفر الآلية فعليًا.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  }
+ ]
+}

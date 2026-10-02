@@ -1,0 +1,12 @@
+# CKC-001 — Operational methodology reset
+Factual Correction — recorded by later verification
+السجل التاريخي أدناه محفوظ كما حدث، لكن العبارة التي تفيد بأن التشغيلات المجدولة المتداخلة كانت معطلة لا تمثل الحالة الفعلية التي ظهرت في التحقق اللاحق. تم تصحيح هذه النقطة في  CKC-003 — Canonical trigger verification  دون حذف السجل التاريخي.
+Cycle boundary
+هذه الدورة أعادت ضبط  منهج التشغيل  ولم تدّعِ أنها دورة بحث تسويقي جديدة.
+Canonical chain
+Discover → Triage → Research → Validate → Conflict Check → Synthesize → Commit → Quality Control → Detect Gaps → Prioritize → Repeat
+Critical distinction
+Scheduled ≠ Continuous Process
+الجدولة هنا آلية Trigger متكررة؛ كل تشغيل مستقل ويبدأ بقراءة الحالة ثم ينفذ وحدة عمل قابلة للتحقق ثم يتوقف.
+Result
+تم جعل سجل الدورة نفسه أصلًا تشغيليًا قابلًا للتتبع، وتم تجهيز قاعدة المعرفة لاستيعاب provenance، حالات المعرفة، أنواع التغيير، التعارضات، والإصدارات السابقة/اللاحقة.

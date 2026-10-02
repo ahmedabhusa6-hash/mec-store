@@ -1,0 +1,564 @@
+{
+ "capture_reason": "CHANGED",
+ "captured_at": "2026-10-02T12:06:31+03:00",
+ "title": "Architecture — Accounting Systems Taxonomy Node",
+ "last_edited": "2026-09-29T22:46:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e758a07-79e8-8167-91e5-f754f841eb73",
+  "created_time": "2026-09-26T13:59:00.000Z",
+  "last_edited_time": "2026-09-29T22:46:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "3452c1e8-f4e9-42da-8ce9-52a4556479a9"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "Last Updated": {
+    "id": "%3C%7CV_",
+    "type": "date",
+    "date": null
+   },
+   "Supersedes": {
+    "id": "Cd%7Cr",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Previous Version": {
+    "id": "DwYW",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Context": {
+    "id": "FEE%60",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Accounting Systems taxonomy — Architecture dimension; Architecture vs Integrations boundary test.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Accounting Systems taxonomy — Architecture dimension; Architecture vs Integrations boundary test.",
+      "href": null
+     }
+    ]
+   },
+   "Provenance": {
+    "id": "MmAb",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Mossa, Smith & Bland (2025); Odoo 19.0 Architecture Overview.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Mossa, Smith & Bland (2025); Odoo 19.0 Architecture Overview.",
+      "href": null
+     }
+    ]
+   },
+   "Commit Status": {
+    "id": "NZGD",
+    "type": "select",
+    "select": {
+     "id": "f355b096-7751-4d46-ae30-6c0290cf68ba",
+     "name": "VERIFIED",
+     "color": "green"
+    }
+   },
+   "Knowledge ID": {
+    "id": "Qk%3Ai",
+    "type": "unique_id",
+    "unique_id": {
+     "prefix": "ASK",
+     "number": 4
+    }
+   },
+   "Evidence Strength": {
+    "id": "Utca",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Independent ERP architecture framework + current product architecture + peer-reviewed ERP integration/architecture evidence.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Independent ERP architecture framework + current product architecture + peer-reviewed ERP integration/architecture evidence.",
+      "href": null
+     }
+    ]
+   },
+   "Knowledge Type": {
+    "id": "W%5B%7Cb",
+    "type": "select",
+    "select": {
+     "id": "891e2bda-7609-4df3-b79c-dc2653fe5fc6",
+     "name": "TAXONOMY_NODE",
+     "color": "yellow"
+    }
+   },
+   "First Observed": {
+    "id": "XWwl",
+    "type": "date",
+    "date": null
+   },
+   "Last Verified": {
+    "id": "%5BSQa",
+    "type": "date",
+    "date": null
+   },
+   "Conflict Status": {
+    "id": "%5Dstz",
+    "type": "select",
+    "select": {
+     "id": "113fd8a1-8c36-4c1a-b9d1-427b4276343f",
+     "name": "NONE",
+     "color": "gray"
+    }
+   },
+   "Next Verification": {
+    "id": "%5EapH",
+    "type": "date",
+    "date": null
+   },
+   "Confidence": {
+    "id": "_%3Fu%3B",
+    "type": "select",
+    "select": {
+     "id": "2d6a5322-8a85-4c9d-ba70-d1cc2b7ea5c1",
+     "name": "High",
+     "color": "green"
+    }
+   },
+   "Applicability": {
+    "id": "_nS%3D",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Use architectural descriptors separately from Functional Scope, Deployment, Licensing and System_Type. Record only characteristics directly evidenced for the evaluated product/version. Record Integration relationships separately when the evidence concerns connections, data/process exchange, APIs, middleware, or cross-system coordination.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Use architectural descriptors separately from Functional Scope, Deployment, Licensing and System_Type. Record only characteristics directly evidenced for the evaluated product/version. Record Integration relationships separately when the evidence concerns connections, data/process exchange, APIs, middleware, or cross-system coordination.",
+      "href": null
+     }
+    ]
+   },
+   "Source Refs": {
+    "id": "l%3FxC",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Mossa et al. (2025); Odoo 19.0 Architecture Overview; Frank (2004) Architecture for Integration of Distributed ERP systems and E-commerce Systems.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Mossa et al. (2025); Odoo 19.0 Architecture Overview; Frank (2004) Architecture for Integration of Distributed ERP systems and E-commerce Systems.",
+      "href": null
+     }
+    ]
+   },
+   "Claim": {
+    "id": "mTlQ",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Architecture must be treated as a first-class classification dimension separate from System_Type, Functional Scope, Deployment and Licensing. Architecture describes how the system is structured and composed; integration is a related characteristic/capability that can be implemented through that architecture but should not be treated as a synonym for architecture. Current evidence supports recording architectural structure and integration relationships separately, while linking them where the evidence shows dependence.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Architecture must be treated as a first-class classification dimension separate from System_Type, Functional Scope, Deployment and Licensing. Architecture describes how the system is structured and composed; integration is a related characteristic/capability that can be implemented through that architecture but should not be treated as a synonym for architecture. Current evidence supports recording architectural structure and integration relationships separately, while linking them where the evidence shows dependence.",
+      "href": null
+     }
+    ]
+   },
+   "Superseded By": {
+    "id": "pbr%3A",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Knowledge State": {
+    "id": "rl%3Ej",
+    "type": "select",
+    "select": {
+     "id": "19ec0068-70f7-46b0-a9c6-3f2ebbdea949",
+     "name": "ACTIVE",
+     "color": "green"
+    }
+   },
+   "Last Verified State": {
+    "id": "ubW%3B",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "ACTIVE",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "ACTIVE",
+      "href": null
+     }
+    ]
+   },
+   "Change Type": {
+    "id": "vUz%5D",
+    "type": "select",
+    "select": {
+     "id": "8d46cbad-8114-4856-b4d7-d043779ecf84",
+     "name": "CONTEXTUALIZED",
+     "color": "purple"
+    }
+   },
+   "Research Refs": {
+    "id": "vc%5B%3D",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "ASR-9; ASR-10",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "ASR-9; ASR-10",
+      "href": null
+     }
+    ]
+   },
+   "Last Changed By Cycle": {
+    "id": "vlxp",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "CKC-64",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "CKC-64",
+      "href": null
+     }
+    ]
+   },
+   "Created By Cycle": {
+    "id": "wnE%7D",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "CKC-63",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "CKC-63",
+      "href": null
+     }
+    ]
+   },
+   "Related Knowledge": {
+    "id": "x%3EJz",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Functional Scope — Accounting Systems Taxonomy Node; Deployment — Accounting Systems Taxonomy Node; Classification Rule — Scope before Label",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Functional Scope — Accounting Systems Taxonomy Node; Deployment — Accounting Systems Taxonomy Node; Classification Rule — Scope before Label",
+      "href": null
+     }
+    ]
+   },
+   "Known Limitations": {
+    "id": "~ced",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "A universal controlled vocabulary of Architecture types is not established. Do not normalize labels such as monolithic, modular, composable, microservices or three-tier as mutually exclusive system classes without product-specific and cross-source definitions. Integrations should be modeled separately from Architecture, with explicit distinction between internal/native integration and external/system-to-system integration. This separation remains a tested taxonomy design decision, not a completed Integrations taxonomy node.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "A universal controlled vocabulary of Architecture types is not established. Do not normalize labels such as monolithic, modular, composable, microservices or three-tier as mutually exclusive system classes without product-specific and cross-source definitions. Integrations should be modeled separately from Architecture, with explicit distinction between internal/native integration and external/system-to-system integration. This separation remains a tested taxonomy design decision, not a completed Integrations taxonomy node.",
+      "href": null
+     }
+    ]
+   },
+   "Name": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Architecture — Accounting Systems Taxonomy Node",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Architecture — Accounting Systems Taxonomy Node",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/Architecture-Accounting-Systems-Taxonomy-Node-3e758a0779e8816791e5f754f841eb73",
+  "public_url": null,
+  "archived": false,
+  "request_id": "8d2a296c-15fb-48bc-b39c-424a4d6719d2"
+ },
+ "block_count": 13,
+ "blocks": [
+  {
+   "id": "3988da54-464b-4914-aefd-6bbf1627e0df",
+   "type": "callout",
+   "has_children": true,
+   "text": [
+    "CURRENT METADATA OVERRIDE — 2026-09-30"
+   ],
+   "created": "2026-09-29T22:46:00.000Z",
+   "edited": "2026-09-29T22:46:00.000Z"
+  },
+  {
+   "id": "13ed3b92-32cf-422e-a555-639f43a93f97",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "The database property Last Changed By Cycle still shows CKC-64 and is stale. The verified latest change affecting this Knowledge Asset is ASC-CHG-25 / CKC-73, which contextualized ASK-4 and explicitly records the Architecture vs Integrations boundary. The property itself could not be edited in the migration run."
+   ],
+   "created": "2026-09-29T22:46:00.000Z",
+   "edited": "2026-09-29T22:46:00.000Z"
+  },
+  {
+   "id": "0421a597-9d98-476f-961d-07f04415c6e4",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Initial rule"
+   ],
+   "created": "2026-09-26T13:59:00.000Z",
+   "edited": "2026-09-26T13:59:00.000Z"
+  },
+  {
+   "id": "929dd6af-593c-4901-a0d4-5500066313f2",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Architecture is a distinct taxonomy dimension and may require multiple descriptors rather than one mutually exclusive label."
+   ],
+   "created": "2026-09-26T13:59:00.000Z",
+   "edited": "2026-09-26T13:59:00.000Z"
+  },
+  {
+   "id": "3d50cc2e-c6b4-47ab-9148-26f2b8b42521",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Evidence-backed descriptors in this cycle"
+   ],
+   "created": "2026-09-26T13:59:00.000Z",
+   "edited": "2026-09-26T13:59:00.000Z"
+  },
+  {
+   "id": "c919f54a-473d-4eb7-83aa-ba62fdbff817",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Multi-tier / three-tier structure"
+   ],
+   "created": "2026-09-26T13:59:00.000Z",
+   "edited": "2026-09-26T13:59:00.000Z"
+  },
+  {
+   "id": "6d258587-35c9-48ce-8ab7-5bf100b16324",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Modular / addon-based composition"
+   ],
+   "created": "2026-09-26T13:59:00.000Z",
+   "edited": "2026-09-26T13:59:00.000Z"
+  },
+  {
+   "id": "9c4b5e3a-4087-4382-9918-7268a4122453",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Integration and configurability as architectural characteristics"
+   ],
+   "created": "2026-09-26T13:59:00.000Z",
+   "edited": "2026-09-26T13:59:00.000Z"
+  },
+  {
+   "id": "ac598349-f19c-4aa4-8e58-13db157eb6a5",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Openness and cross-enterprise capability as relevant ERP characteristics in the independent framework"
+   ],
+   "created": "2026-09-26T13:59:00.000Z",
+   "edited": "2026-09-26T13:59:00.000Z"
+  },
+  {
+   "id": "89c7966d-503a-4e0f-bc92-8b51d747cc4f",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Non-assumptions"
+   ],
+   "created": "2026-09-26T13:59:00.000Z",
+   "edited": "2026-09-26T13:59:00.000Z"
+  },
+  {
+   "id": "594e8769-d52f-4b18-b5f8-6a57d05af93d",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Architecture does not determine System_Type by itself. Deployment mode is also separate from architecture."
+   ],
+   "created": "2026-09-26T13:59:00.000Z",
+   "edited": "2026-09-26T13:59:00.000Z"
+  },
+  {
+   "id": "9dfe7c57-1ce5-43ab-9615-a4c69bbee46a",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "Status"
+   ],
+   "created": "2026-09-26T13:59:00.000Z",
+   "edited": "2026-09-26T13:59:00.000Z"
+  },
+  {
+   "id": "29fc8d3b-6c8f-4989-89a4-7a6765220fc4",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "ACTIVE as a taxonomy node; controlled vocabulary remains open."
+   ],
+   "created": "2026-09-26T13:59:00.000Z",
+   "edited": "2026-09-26T13:59:00.000Z"
+  }
+ ]
+}

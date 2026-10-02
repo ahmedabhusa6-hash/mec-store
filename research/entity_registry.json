@@ -1,0 +1,83 @@
+{
+ "entities": [
+  {
+   "name": "Turgame",
+   "domain": "turgame.com",
+   "role": "Retailer/Reseller + Wholesaler/Distributor",
+   "role_evidence": "صفحة منتج + بوابة wholesale.turgame.com موثقة حيًا 27/09 ('Digital Gift Card Wholesale Solutions')",
+   "state": "[مؤكد]",
+   "notes": "SUP-002. أول بائع تجزئة يوثق جملة حية. Turgame/Definite Play: تُحفظ هويتان منفصلتان حتى دليل دمج — [بحاجة إلى تحقق]"
+  },
+  {
+   "name": "Eneba",
+   "domain": "eneba.com",
+   "role": "Marketplace (multi-seller)",
+   "role_evidence": "JSC Helis play, فيلنيوس — documented 25/09; عروض موثقة سابقًا (Steam 20=20.93$، PSN 50=47.17$)",
+   "state": "[مؤكد] (كيانًا) — عروض اليوم Retrieval-Limited (روابط المنتجات 404)",
+   "notes": "أسعار اليوم لم تُقرأ مباشرة — تُورَث من 25/09 بوسم قِدَم محتمل"
+  },
+  {
+   "name": "FazerCards",
+   "domain": "reseller.fazercards.com",
+   "role": "Reseller Platform (B2B)",
+   "role_evidence": "SUP-013-LEAD → منصة حية موثقة 27/09 'Digital Products Reseller Platform'",
+   "state": "[مؤكد] وجودًا — التسعير خلف تسجيل الدخول [بحاجة إلى تحقق]",
+   "notes": "ترقية من LEAD إلى كيان مُتحقق وجوده"
+  },
+  {
+   "name": "Reloadly",
+   "domain": "reloadly.com",
+   "role": "API/Distributor (B2B)",
+   "role_evidence": "صفحة حية 27/09: Gift Card & Payout API — منتجات: بطاقات، Airtime، بيانات، Payout",
+   "state": "[مؤكد]",
+   "notes": "حل الدور المزدوج: لا واجهة تجزئة → يُصنّف موزع B2B/API فقط. أسعار الجملة خلف بوابة API [غير معروف]"
+  },
+  {
+   "name": "GGSel",
+   "domain": "ggsel.net",
+   "role": "Marketplace/Aggregator (RU)",
+   "role_evidence": "كتالوج ChatGPT Plus حي 27/09: 'от 749.00₽' (بائعون متعددون)",
+   "state": "[مؤكد]",
+   "notes": "نموذج وسطاء/حسابات مشتركة — هوية SKU تختلف عن الترقية الرسمية"
+  },
+  {
+   "name": "Keyforsteam",
+   "domain": "keyforsteam.de",
+   "role": "Price aggregator/comparison (DE)",
+   "role_evidence": "Preisvergleich حي 27/09 (Win11: 64 عرضًا سابقًا، Office2021: 77 عرضًا سابقًا)",
+   "state": "[مؤكد]",
+   "notes": "بائعوه المكتشفون: Keywrld، Keys4us، Pixelcodes — كيانات جديدة [بحاجة إلى تحقق]"
+  },
+  {
+   "name": "CJS CD Keys",
+   "domain": "cjs-cdkeys.com",
+   "role": "Retailer/Reseller",
+   "role_evidence": "واجهة حية 27/09: Win11 Pro من £9.49 + سياسة استرداد معلنة",
+   "state": "[مؤكد]",
+   "notes": "حركة سعر: £9.99 (25/09) → £9.49 (27/09)"
+  },
+  {
+   "name": "Kinguin / G2A / Z2U / Allkeyshop / GG.deals / CDKeys / RoyalCDKeys / Gocdkeys / Keys4us",
+   "domain": "-",
+   "role": "Marketplaces / مقارنات أسعار",
+   "role_evidence": "وجود معلن عبر مقاطع نتائج اليوم + توثيق 25/09",
+   "state": "[مؤكد] وجودًا — عروض فردية بدرجة Advertised",
+   "notes": "GG.deals خلف Cloudflare (قيد الاسترجاع)"
+  },
+  {
+   "name": "Microsoft / Xbox",
+   "domain": "microsoft.com / xbox.com",
+   "role": "Primary/Official (الناشر)",
+   "role_evidence": "xbox.com حي 27/09: GPU $22.99/شهر",
+   "state": "[مؤكد]",
+   "notes": "حل التداخل: Xbox قسم ألعاب Microsoft — أسر SKU منفصلة، لا دمج كيانات"
+  },
+  {
+   "name": "Netflix / Spotify / YouTube / Discord / Telegram / OpenAI / NordVPN / Airalo / MobiMatter",
+   "domain": "-",
+   "role": "Primary/Official أو Retailer متخصص",
+   "role_evidence": "صفحات رسمية حية 27/09 (NordVPN خلف Cloudflare)",
+   "state": "[مؤكد] (باستثناء NordVPN: [بحاجة إلى تحقق] اليوم)"
+  }
+ ]
+}

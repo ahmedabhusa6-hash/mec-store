@@ -1,0 +1,173 @@
+{
+ "capture_reason": "NEWLY_ACCESSIBLE",
+ "captured_at": "2026-10-02T12:16:49+03:00",
+ "title": "Marketing Analytics & Measurement",
+ "last_edited": "2026-09-25T20:54:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e658a07-79e8-8124-b427-e9b4b5e4bbdc",
+  "created_time": "2026-09-25T20:54:00.000Z",
+  "last_edited_time": "2026-09-25T20:54:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "a14def36-fe3f-4246-90b4-2872da859364"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "Parent": {
+    "id": "%3EfF%5E",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Market Research & Consumer Insights",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Market Research & Consumer Insights",
+      "href": null
+     }
+    ]
+   },
+   "Status": {
+    "id": "IPP%3A",
+    "type": "select",
+    "select": {
+     "id": "e7888fac-ae22-41bc-b271-a51886ca1be3",
+     "name": "Mapped",
+     "color": "blue"
+    }
+   },
+   "Last Reviewed": {
+    "id": "MoVl",
+    "type": "date",
+    "date": {
+     "start": "2026-09-25",
+     "end": null,
+     "time_zone": null
+    }
+   },
+   "Domain ID": {
+    "id": "RoQ%7B",
+    "type": "unique_id",
+    "unique_id": {
+     "prefix": "DOM",
+     "number": 15
+    }
+   },
+   "Level": {
+    "id": "WOQt",
+    "type": "select",
+    "select": {
+     "id": "c19de2c2-79fd-4be6-bbbc-591d0fdf9e3d",
+     "name": "Analytics & Technology",
+     "color": "brown"
+    }
+   },
+   "Priority": {
+    "id": "_rIt",
+    "type": "select",
+    "select": {
+     "id": "3587b6c2-7409-48eb-852c-4c6f245fca6a",
+     "name": "Critical",
+     "color": "red"
+    }
+   },
+   "Description": {
+    "id": "jF%3A%3E",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "KPIs، CAC، LTV، ROI، ROAS، attribution، incrementality، experimentation، causal inference، MMM.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "KPIs، CAC، LTV، ROI، ROAS، attribution، incrementality، experimentation، causal inference، MMM.",
+      "href": null
+     }
+    ]
+   },
+   "Evidence Basis": {
+    "id": "u%3Fc%5D",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "AMA data/analytics competency; marketing science literature",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "AMA data/analytics competency; marketing science literature",
+      "href": null
+     }
+    ]
+   },
+   "Name": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Marketing Analytics & Measurement",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Marketing Analytics & Measurement",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/Marketing-Analytics-Measurement-3e658a0779e88124b427e9b4b5e4bbdc",
+  "public_url": null,
+  "archived": false,
+  "request_id": "e7ec5977-c944-4c10-96ae-0248169a5e6e"
+ },
+ "block_count": 0,
+ "blocks": []
+}

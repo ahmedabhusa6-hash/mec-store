@@ -1,0 +1,13 @@
+{
+  "action": {
+    "action_id": "A068",
+    "branch": "BR-MARKETPLACE-SUB",
+    "sku_id": "SKU-SUB-002",
+    "objective": "RETRY (A062 rate-limited): Netflix gift card availability",
+    "discovery_family": "Marketplace-first",
+    "method": "offer-detail-retry",
+    "query": "Netflix gift card digital where to buy US streaming"
+  },
+  "error": "Function invoke failed with status 429: {\"error\":\"Too many requests, please try again later\"}",
+  "timestamp": "2026-09-26T21:09:39.347Z"
+}

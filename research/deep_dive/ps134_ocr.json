@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "GEMINI\n18 MONTHS\nFLASH SELL\nGEMINI\nSecure. Simple.\nBuilt for you.\nFLASH SELL PRICE\n0.43$\nAPI PRICE\n0.40$\nBULK PRICE\n0.39$\nLIMITED STOCK\nOnly with Prodseller.com\nJoin my Telegram channel",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1790529545,
+  "id": "20260928011903a8ce65869b7645c7",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "20260928011903a8ce65869b7645c7",
+  "usage": {
+    "completion_tokens": 64,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 833,
+    "prompt_tokens_details": {
+      "cached_tokens": 2
+    },
+    "total_tokens": 897
+  }
+}

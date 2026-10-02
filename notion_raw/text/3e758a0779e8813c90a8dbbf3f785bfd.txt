@@ -1,0 +1,11 @@
+# Cycle 4 — z.ai Runtime Evidence — 400+ SKU Catalog / Batch Execution
+Runtime Evidence Summary
+The  z.ai  runtime, after loading v4.1 Candidate, demonstrated catalog-scale scope and batch execution. The observed Batch 1 explicitly does not establish full 400+ SKU research completion.
+Critical Issue
+Run +400  is a catalog/program scope, while  C4/96 Research Actions  is a batch/run execution budget. These must not be conflated.
+Required Technical Direction
+Separate:
+Catalog Scope → Batch Scope → SKU Scope → Action Budget → Coverage State → Aggregate Completion.
+No catalog-wide completeness claim without explicit terminal state coverage for every scoped SKU.
+Classification
+Runtime Observation + Evidence-Based Repair Proposal.

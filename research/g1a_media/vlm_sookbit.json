@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "Based on the image provided, here is a precise and factual analysis of the profile photo for the Telegram account '@sookbit':\n\n**Subject Type:**\nIt is **not** a human face or photograph of a person. It is a **digital logo/branding graphic**.\n\n**Visual Description:**\n*   **Central Icon:** The main element is a stylized, modern logo combining a shopping bag with the letter \"P\". \n    *   The bag is bright blue with a darker blue outline.\n    *   A large, white, bold letter \"P\" is superimposed over the bag.\n    *   To the left of the \"P\", there are blue pixelated squares (suggesting digital data or movement).\n    *   To the bottom right of the \"P\", there is a small blue circle containing the white **Telegram paper airplane icon**.\n*   **Text Elements:**\n    *   Below the icon, the text reads: **\"ProdSeller.com\"**. \"Prod\" is in white, \"Seller\" is in blue, and \".com\" is in white.\n    *   At the very bottom, there is a pink pill-shaped button containing a white headset icon and the word **\"Support\"**.\n*   **Style & Background:** The style is corporate and tech-oriented (SaaS/E-commerce branding). The background is solid black.\n\n**Summary:**\nThe profile picture serves as an official brand avatar for the platform \"ProdSeller.com,\" indicating that this account is likely a bot or a business support channel rather than a personal user account.",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1790906068,
+  "id": "202610020954232a8a07d854be4878",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "202610020954232a8a07d854be4878",
+  "usage": {
+    "completion_tokens": 323,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 222,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 545
+  }
+}

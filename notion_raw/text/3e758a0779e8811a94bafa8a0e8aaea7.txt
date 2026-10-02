@@ -1,0 +1,6 @@
+# AUDIT-2026-09-26 — Reconcile provenance and latest-cycle linkage
+Reconciliation basis
+The current persisted Change Log contains ASC-014-CHG-001 as the latest accounting knowledge change and contains no ASC-015 change record. ASK-2's current metadata therefore has a stale linkage.
+The Thuy et al. (2026) article is real and peer-reviewed, but its primary study concerns ERP-related factors, management accounting practices, corporate governance, and firm performance in Vietnamese listed firms. It should not be represented as a formal ERP/accounting taxonomy boundary source.
+Preservation rule
+No historical cycle or change record is deleted. This record documents the correction and preserves the prior history.

@@ -1,0 +1,102 @@
+{
+ "captured_at": "2026-09-29T13:29:31.039114+00:00",
+ "pages": {
+  "homepage": {
+   "status": 200,
+   "final_url": "https://stackvault.shop/",
+   "title": "StackVault — Digital Subscriptions & Keys"
+  },
+  "robots.txt": {
+   "status": 404,
+   "body_head": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>Page not found</title>\n    <style>\n      :root {\n        --colorRgbFacetsTeal600: 2 128 125;\n        --colorTealAction: var(--colorRgbFacetsTeal600);\n        --colorRgbFacetsNeutralLight200: 233 235 237;\n        --colorHr: var(--colorRgbFacetsNeutralLight200);\n        --colorRgbFacetsNeutralLight700: 53 58 62;\n        --colorGrayDarkest: var(--colorRgbFacetsNeutralLight700);\n        --colorGrayLighter: var(--colorRgbFacetsNeutralLight200);\n        --colorText: var(--colorGrayDarkest);\n        --effectShadowLightShallow: 0 1px 10px 0 rgb(53 58 62 / 6%),\n          0 2px 4px 0 rgb(53 58 62 / 8%);\n        --colorRgbFacetsNeutralDark900: "
+  },
+  "sitemap.xml": {
+   "status": 404,
+   "body_head": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>Page not found</title>\n    <style>\n      :root {\n        --colorRgbFacetsTeal600: 2 128 125;\n        --colorTealAction: var(--colorRgbFacetsTeal600);\n        --colorRgbFacetsNeutralLight200: 233 235 237;\n        --colorHr: var(--colorRgbFacetsNeutralLight200);\n        --colorRgbFacetsNeutralLight700: 53 58 62;\n        --colorGrayDarkest: var(--colorRgbFacetsNeutralLight700);\n        --colorGrayLighter: var(--colorRgbFacetsNeutralLight200);\n        --colorText: var(--colorGrayDarkest);\n        --effectShadowLightShallow: 0 1px 10px 0 rgb(53 58 62 / 6%),\n          0 2px 4px 0 rgb(53 58 62 / 8%);\n        --colorRgbFacetsNeutralDark900: "
+  },
+  "my_orders": {
+   "status": 200,
+   "final_url": "https://stackvault.shop/my_orders",
+   "redirected_to_login": false
+  },
+  "backend_api": {
+   "status": 200,
+   "final_url": "https://decohomz.com/sv-api/products",
+   "n_products": 357,
+   "categories": {
+    "Digital Services": 173,
+    "AI Subscriptions": 103,
+    "Design & Editing": 58,
+    "Software Keys": 15,
+    "Learning": 4,
+    "Streaming": 3,
+    "Bulk Emails": 1
+   },
+   "id_prefixes": {
+    "ps": 319,
+    "mr": 37,
+    "other": 1
+   }
+  },
+  "sv_api_on_shop": {
+   "status": 404
+  }
+ },
+ "security": {
+  "homepage_headers": {
+   "strict-transport-security": "max-age=31536000",
+   "content-security-policy": "MISSING",
+   "x-frame-options": "MISSING",
+   "x-content-type-options": "MISSING",
+   "referrer-policy": "MISSING",
+   "permissions-policy": "MISSING",
+   "x-xss-protection": "MISSING",
+   "cross-origin-opener-policy": "MISSING",
+   "cross-origin-resource-policy": "MISSING"
+  },
+  "homepage_cookies": [],
+  "my_orders_headers": {
+   "strict-transport-security": "max-age=31536000",
+   "content-security-policy": "MISSING",
+   "x-frame-options": "MISSING",
+   "x-content-type-options": "MISSING",
+   "referrer-policy": "MISSING",
+   "permissions-policy": "MISSING",
+   "x-xss-protection": "MISSING",
+   "cross-origin-opener-policy": "MISSING",
+   "cross-origin-resource-policy": "MISSING"
+  },
+  "cost_price_exposed_publicly": {
+   "n_products_with_cost": 357,
+   "total": 357
+  },
+  "backend_api_headers": {
+   "strict-transport-security": "MISSING",
+   "content-security-policy": "MISSING",
+   "x-frame-options": "MISSING",
+   "x-content-type-options": "MISSING",
+   "referrer-policy": "MISSING",
+   "permissions-policy": "MISSING",
+   "x-xss-protection": "MISSING",
+   "cross-origin-opener-policy": "MISSING",
+   "cross-origin-resource-policy": "MISSING"
+  }
+ },
+ "tech": {
+  "server": {
+   "server": "Netlify"
+  },
+  "frontend": [],
+  "api_hints": [
+   "/api/auth/me",
+   "/api/products",
+   "t.me/stackvault_bot"
+  ],
+  "backend_server": {
+   "server": "cloudflare",
+   "x-powered-by": "Express",
+   "cdn": "Cloudflare"
+  }
+ },
+ "notes": []
+}

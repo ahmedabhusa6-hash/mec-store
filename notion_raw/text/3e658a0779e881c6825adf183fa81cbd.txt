@@ -1,0 +1,11 @@
+# CHG-RSH1-006 — Correct verified book-layer count
+Change_ID: CHG-RSH1-006
+Knowledge_ID: KNG-43
+Research_ID: RSH-1
+Cycle_ID: CKC-RSH1-006
+Correction: unique selected book count = 30.
+Calculation: 2 existing Core + 8 unique from first candidate batch + 12 + 8 = 30.
+Previous count 28 was a counting error.
+Change Type: CORRECTED
+Knowledge State unchanged: SYNTHESIZED
+Commit Status: VERIFIED.

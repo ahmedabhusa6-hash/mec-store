@@ -1,0 +1,284 @@
+{
+ "run": "MEC5-A",
+ "agent": "general-purpose (Turgame+GamsGo research)",
+ "generated_utc": "2026-09-27T17:34:11.287119Z",
+ "targets": [
+  {
+   "target": "Turgame (turgame.com, Turkish digital games/gift cards platform)",
+   "api_program_exists": true,
+   "access_requirements": "Confirmed B2B/dealer program on TWO surfaces. (1) wholesale.turgame.com — 'Turgame B2B - Digital Gift Card Wholesale Solutions': apply via /apply-now/ form (Customer Type Individual|Corporate, Country, National ID/Tax ID, Company name*, Tax Number*, Tax Office optional); team reviews application; after approval account gets wholesale pricing and bulk orders. Landing page: 'Connect via API or order in bulk with wholesale pricing'; 'Automate your business with our robust JSON API. Real-time stock checking, instant order processing, and automatic code delivery'; 'tiered pricing' for CSV bulk orders. /products page How-It-Works: 1) apply online -> credentials, 2) integrate with API (technical team helps), 3) buy at competitive wholesale prices. (2) Turgame Dealer Programme (Dealer Agreement v1.0.0, last updated 2026-05-23, public copy mirrored at fodga.com/bayi-sozlesmesi): tiers Bronze (₺0+ trailing 12-month revenue) / Silver (₺5,000+) / Gold (₺20,000+) / Platinum (₺50,000+), re-calculated monthly; exact discount percentages confidential inside Dealer Portal ('Exact percentages and the strategic-partner override are documented inside the Dealer Portal'); KYC = tax ID/VKN + bank account for payouts + signed agreement; settlement via Turgame Wallet with dealer discount applied at order time; sub-dealers allowed with responsibility. No deposit minimum published.",
+   "wholesale_pricing_evidence": [
+    {
+     "fact": "wholesale.turgame.com = live WooCommerce B2B portal, title 'Turgame B2B - Digital Gift Card Wholesale Solutions'; claims '500+ Global Brands', '2.5M+ Codes Delivered', 'Instant API Delivery', '24/7 Live Support'",
+     "source": "https://wholesale.turgame.com/",
+     "date": "2026-09-28",
+     "exact_text": "Leading Digital Gift Card Distributor for Businesses. Source thousands of digital gift cards, game keys, and prepaid codes instantly. Connect via API or order in bulk with wholesale pricing."
+    },
+    {
+     "fact": "Public wholesale catalog: 4,739 products (X-WP-Total) exposed WITHOUT LOGIN via WooCommerce Store API at wholesale.turgame.com/wp-json/wc/store/v1/products — prices in TRY",
+     "source": "https://wholesale.turgame.com/wp-json/wc/store/v1/products?per_page=100",
+     "date": "2026-09-28",
+     "exact_text": "x-wp-total: 4739; sample: Microsoft C2C Onimusha: Way of the Sword TR — 3918.15 TRY"
+    },
+    {
+     "fact": "Retail turgame.com prices are also exposed via the same Store API (currency switchable to TRY via ?currency=TRY cookie), enabling exact same-currency dual-price comparison",
+     "source": "https://www.turgame.com/wp-json/wc/store/v1/products?search=steam%20wallet (with TRY cookie)",
+     "date": "2026-09-28",
+     "exact_text": "Steam Wallet Card KSA 20 SAR — 254.10 TRY (retail) vs 251.60 TRY (wholesale)"
+    },
+    {
+     "fact": "Dealer tier structure with revenue thresholds",
+     "source": "https://fodga.com/bayi-sozlesmesi (Turgame Dealer Agreement v1.0.0, last updated 2026-05-23)",
+     "date": "2026-09-28",
+     "exact_text": "Discounts are tiered by trailing 12-month revenue and re-calculated monthly: Bronze (₺0+): standard dealer rate; Silver (₺5.000+); Gold (₺20.000+); Platinum (₺50.000+). Exact percentages and the strategic-partner override are documented inside the Dealer Portal and may be revised with 30 days' notice."
+    },
+    {
+     "fact": "Dealer discount mechanics: wallet settlement, discount at order time",
+     "source": "https://fodga.com/bayi-sozlesmesi",
+     "date": "2026-09-28",
+     "exact_text": "Dealer purchases are settled through the Turgame Wallet. The dealer discount is applied at order time; no rebate is owed after the fact."
+    },
+    {
+     "fact": "Wholesale portal marketing: 'high profit margins, flexible order quantities and access to special promotions'; dealer application asks estimated monthly purchase volume",
+     "source": "https://wholesale.turgame.com/about-us and https://wholesale.turgame.com/products",
+     "date": "2026-09-28",
+     "exact_text": "Our dealer program offers high profit margins, flexible order quantities and access to special promotions."
+    },
+    {
+     "fact": "STATISTICAL RESULT: 225 products matched by exact name between turgame.com retail (TRY) and wholesale.turgame.com B2B catalog (TRY). 214 rows wholesale<=retail: gap min 0.48%, max 1.27%, avg 0.91%, median 0.94% (201/214 rows in 0.8-1.0% band). 11 rows wholesale ABOVE retail (Amazon TR +0.16%). Full table saved: research/mec5/agentA_raw/turgame_dual_prices_full.json",
+     "source": "turgame.com Store API vs wholesale.turgame.com Store API, 2026-09-28",
+     "date": "2026-09-28",
+     "exact_text": "e.g. PlayStation US 100 USD: retail 4626.20 TRY vs wholesale 4581.30 TRY (gap 0.97%); Google Play KSA 100 SAR: 1303.40 vs 1286.90 (1.27%)"
+    },
+    {
+     "fact": "Turkish face-value products at wholesale are BELOW face (true wholesale): Google Play TR 500 wholesale 491.64 TRY = 98.3% of face; Google Play TR 50 wholesale 49.57 = 99.1% of face; while US-premium products stay above face on both layers",
+     "source": "https://wholesale.turgame.com/wp-json/wc/store/v1/products?search=google%20play",
+     "date": "2026-09-28",
+     "exact_text": "Google Play Store Digital Code 500 TR — 491.64 TRY; Google Play Gift Card 50 TL Key TURKEY retail 50.00 vs wholesale 49.57 TRY"
+    },
+    {
+     "fact": "Context: retail US Steam $5 card = $5.20 (4% above face, from prior baseline b3_turgame_categories.json); wholesale catalog does not list USD wallet cards (Gulf/Asia/TR focus)",
+     "source": "/home/z/my-project/research/b3_turgame_categories.json (fetched 2026-09-27)",
+     "date": "2026-09-28",
+     "exact_text": "Steam Wallet Gift Card 5 USD Steam Key — price 5,20 USD"
+    },
+    {
+     "fact": "Sourcing hint: retail product meta tag retailer_item_id='EZPIN-1065' on Steam KSA card — Turgame codes flow from EZPIN distribution network",
+     "source": "https://www.turgame.com/steam-wallet-card-ksa-20-sar/ (HTML meta)",
+     "date": "2026-09-28",
+     "exact_text": "<meta property='product:retailer_item_id' content='EZPIN-1065' />"
+    }
+   ],
+   "dual_price_rows": [
+    {
+     "product": "Steam Wallet Card KSA 20 SAR",
+     "public_price": "254.10 TRY (turgame.com retail, TRY currency view)",
+     "api_wholesale_price": "251.60 TRY (wholesale.turgame.com B2B catalog list price, no login)",
+     "gap_pct": 0.98,
+     "source": "retail: https://www.turgame.com/steam-wallet-card-ksa-20-sar/ | wholesale: https://wholesale.turgame.com/product/steam-wallet-card-ksa-20-sar/",
+     "date": "2026-09-28"
+    },
+    {
+     "product": "Steam Wallet Card UAE 20 AED",
+     "public_price": "264.10 TRY (turgame.com retail, TRY currency view)",
+     "api_wholesale_price": "262.30 TRY (wholesale.turgame.com B2B catalog list price, no login)",
+     "gap_pct": 0.68,
+     "source": "retail: https://www.turgame.com/steam-wallet-card-uae-20-aed/ | wholesale: https://wholesale.turgame.com/product/steam-wallet-card-uae-20-aed/",
+     "date": "2026-09-28"
+    },
+    {
+     "product": "Steam Wallet Card UAE 400 AED",
+     "public_price": "5280.30 TRY (turgame.com retail, TRY currency view)",
+     "api_wholesale_price": "5229.10 TRY (wholesale.turgame.com B2B catalog list price, no login)",
+     "gap_pct": 0.97,
+     "source": "retail: https://www.turgame.com/steam-wallet-card-uae-400-aed/ | wholesale: https://wholesale.turgame.com/product/steam-wallet-card-uae-400-aed/",
+     "date": "2026-09-28"
+    },
+    {
+     "product": "Steam Wallet Card KSA 400 SAR",
+     "public_price": "5117.60 TRY (turgame.com retail, TRY currency view)",
+     "api_wholesale_price": "5067.90 TRY (wholesale.turgame.com B2B catalog list price, no login)",
+     "gap_pct": 0.97,
+     "source": "retail: https://www.turgame.com/steam-wallet-card-ksa-400-sar/ | wholesale: https://wholesale.turgame.com/product/steam-wallet-card-ksa-400-sar/",
+     "date": "2026-09-28"
+    },
+    {
+     "product": "PlayStation US 100 USD",
+     "public_price": "4626.20 TRY (turgame.com retail, TRY currency view)",
+     "api_wholesale_price": "4581.30 TRY (wholesale.turgame.com B2B catalog list price, no login)",
+     "gap_pct": 0.97,
+     "source": "retail: https://www.turgame.com/playstation-us-100-usd/ | wholesale: https://wholesale.turgame.com/product/playstation-us-100-usd/",
+     "date": "2026-09-28"
+    },
+    {
+     "product": "PlayStation Spain 100 EUR",
+     "public_price": "5497.20 TRY (turgame.com retail, TRY currency view)",
+     "api_wholesale_price": "5453.00 TRY (wholesale.turgame.com B2B catalog list price, no login)",
+     "gap_pct": 0.8,
+     "source": "retail: https://www.turgame.com/playstation-spain-100-eur/ | wholesale: https://wholesale.turgame.com/product/playstation-spain-100-eur/",
+     "date": "2026-09-28"
+    },
+    {
+     "product": "Xbox Live UK 10 GBP",
+     "public_price": "627.60 TRY (turgame.com retail, TRY currency view)",
+     "api_wholesale_price": "621.50 TRY (wholesale.turgame.com B2B catalog list price, no login)",
+     "gap_pct": 0.97,
+     "source": "retail: https://www.turgame.com/xbox-live-uk-10-gbp/ | wholesale: https://wholesale.turgame.com/product/xbox-live-uk-10-gbp/",
+     "date": "2026-09-28"
+    },
+    {
+     "product": "Xbox Game Pass Ultimate 3M 44.99 GBP",
+     "public_price": "3048.50 TRY (turgame.com retail, TRY currency view)",
+     "api_wholesale_price": "3018.90 TRY (wholesale.turgame.com B2B catalog list price, no login)",
+     "gap_pct": 0.97,
+     "source": "retail: https://www.turgame.com/xbox-game-pass-ultimate-3m-44-99-gbp/ | wholesale: https://wholesale.turgame.com/product/xbox-game-pass-ultimate-3m-44-99-gbp/",
+     "date": "2026-09-28"
+    },
+    {
+     "product": "Google Play KSA 100 SAR",
+     "public_price": "1303.40 TRY (turgame.com retail, TRY currency view)",
+     "api_wholesale_price": "1286.90 TRY (wholesale.turgame.com B2B catalog list price, no login)",
+     "gap_pct": 1.27,
+     "source": "retail: https://www.turgame.com/google-play-ksa-100-sar/ | wholesale: https://wholesale.turgame.com/product/google-play-ksa-100-sar/",
+     "date": "2026-09-28"
+    },
+    {
+     "product": "Google Play Gift Card 50 TL Key TURKEY",
+     "public_price": "50.00 TRY (turgame.com retail, TRY currency view)",
+     "api_wholesale_price": "49.57 TRY (wholesale.turgame.com B2B catalog list price, no login)",
+     "gap_pct": 0.86,
+     "source": "retail: https://www.turgame.com/google-play-gift-card-50-tl-key-turkey/ | wholesale: https://wholesale.turgame.com/product/google-play-gift-card-50-tl-key-turkey/",
+     "date": "2026-09-28"
+    },
+    {
+     "product": "Google play UAE 500 AED",
+     "public_price": "6634.60 TRY (turgame.com retail, TRY currency view)",
+     "api_wholesale_price": "6570.20 TRY (wholesale.turgame.com B2B catalog list price, no login)",
+     "gap_pct": 0.97,
+     "source": "retail: https://www.turgame.com/google-play-uae-500-aed/ | wholesale: https://wholesale.turgame.com/product/google-play-uae-500-aed/",
+     "date": "2026-09-28"
+    },
+    {
+     "product": "Netflix EU 50 EUR",
+     "public_price": "2834.50 TRY (turgame.com retail, TRY currency view)",
+     "api_wholesale_price": "2807.00 TRY (wholesale.turgame.com B2B catalog list price, no login)",
+     "gap_pct": 0.97,
+     "source": "retail: https://www.turgame.com/netflix-eu-50-eur/ | wholesale: https://wholesale.turgame.com/product/netflix-eu-50-eur/",
+     "date": "2026-09-28"
+    },
+    {
+     "product": "Netflix UK 25 GBP",
+     "public_price": "1669.00 TRY (turgame.com retail, TRY currency view)",
+     "api_wholesale_price": "1652.80 TRY (wholesale.turgame.com B2B catalog list price, no login)",
+     "gap_pct": 0.97,
+     "source": "retail: https://www.turgame.com/netflix-uk-25-gbp/ | wholesale: https://wholesale.turgame.com/product/netflix-uk-25-gbp/",
+     "date": "2026-09-28"
+    },
+    {
+     "product": "Amazon Gift Card 1000 TL TURKEY",
+     "public_price": "1000.00 TRY (turgame.com retail, TRY currency view)",
+     "api_wholesale_price": "1001.64 TRY (wholesale.turgame.com B2B catalog list price, no login)",
+     "gap_pct": -0.16,
+     "source": "retail: https://www.turgame.com/amazon-gift-card-1000-tl-turkey/ | wholesale: https://wholesale.turgame.com/product/amazon-gift-card-1000-tl-turkey/",
+     "date": "2026-09-28"
+    }
+   ],
+   "blocked_pages": [
+    {
+     "url": "https://bayi.turgame.com",
+     "status": "DNS/connection failure (HTTP 000) — subdomain does not resolve"
+    },
+    {
+     "url": "https://www.turgame.com/bayi",
+     "status": "HTTP 404"
+    },
+    {
+     "url": "https://www.turgame.com/bayi-giris",
+     "status": "HTTP 404"
+    },
+    {
+     "url": "https://www.turgame.com/api",
+     "status": "HTTP 404 (no public API docs on retail domain)"
+    },
+    {
+     "url": "https://www.turgame.com/dealer",
+     "status": "HTTP 404"
+    },
+    {
+     "url": "https://www.turgame.com/bayi-sozlesmesi",
+     "status": "HTTP 404 on turgame.com (agreement copy found on fodga.com instead)"
+    },
+    {
+     "url": "https://www.turgame.com/tapi/",
+     "status": "HTTP 200 but NOT API docs — 'Tapi' is a flooring&carpets gift-card brand category (Tapi Flooring & Carpets 10-1000 GBP)"
+    }
+   ],
+   "raw_notes": "Discovery path: turgame.com 404-page footer contained links to wholesale.turgame.com and /tapi/. wholesale.turgame.com is a WooCommerce store whose PUBLIC Store API exposes the whole B2B catalog (4,739 SKUs, TRY). Retail turgame.com is also WooCommerce; its Store API respects the WOOCS currency cookie (set via https://www.turgame.com/?currency=TRY), giving same-currency retail prices. 225 exact-name matches => public B2B catalog is priced ~0.7-1.3% below retail (avg 0.91%). IMPORTANT NUANCE: this ~1% is the pre-login LIST price of the wholesale catalog; the real dealer economics = Bronze/Silver/Gold/Platinum tier discounts (percentages confidential in Dealer Portal) applied at order time via Turgame Wallet. So the observable public gap is small but the program is real; deeper discounts exist behind approval (per agreement wording 'high profit margins', 'special promotions'). Dealer agreement is published on fodga.com (a Turgame-powered Next.js storefront) — exact page 'Dealer Agreement — Turgame, Last updated: May 23, 2026, Version 1.0.0'. No deposit minimum found. Wholesale application has no stated volume minimum (form asks 'estimated monthly purchase volume'). Searches used: 'turgame bayi', 'turgame.com bayi fiyatları dealer wholesale', 'turgame API entegrasyonu', 'turgame bayi indirimi dealer discount percent', '\"wholesale.turgame.com\" OR \"turgame wholesale\" price list'."
+  },
+  {
+   "target": "GamsGo (gamsgo.com, digital subscription marketplace)",
+   "api_program_exists": false,
+   "access_requirements": "NO public API or wholesale/reseller purchase program for buyers found. api.gamsgo.com is a live PRIVATE JSON gateway (root returns {\"code\":404,\"message\":\"Page not found\"}); /api-docs redirects to homepage; help.gamsgo.com has no API category. What exists instead: (1) SELLER program (Merchant Center at gamsgo.com/sell) — anyone can apply as Individual or Enterprise seller; KYC required: photo of government ID (ID card/passport/driver's license/student ID) with 'gamsgo.com' visible in background + selfie holding the same ID; legal age required; review by team. Seller onboarding contacts: Telegram @GamsGoSellerJoin3, WhatsApp +44 7842 296351, SellerJoin@gamsgo.com. (2) Affiliate program — open signup (1 minute per their page), unique link/promo code; higher rates negotiable for large followings.",
+   "wholesale_pricing_evidence": [
+    {
+     "fact": "No public API docs / no reseller bulk pricing. api.gamsgo.com = private frontend gateway",
+     "source": "https://api.gamsgo.com/",
+     "date": "2026-09-28",
+     "exact_text": "{\"code\":404,\"message\":\"Page not found\"}"
+    },
+    {
+     "fact": "Two-channel retail model: 'Direct GamsGo' (first-party, sold by GamsGo itself) vs 'Marketplace' (C2C — individual sellers set prices, GamsGo supervises). This is their price-differentiation structure instead of an API tier",
+     "source": "https://help.gamsgo.com/en/article/whats-the-difference-between-marketplace-and-direct-gamsgo-1jg1pxf/ (updated 2025-11-07)",
+     "date": "2026-09-28",
+     "exact_text": "Direct GamsGo model is managed and operated directly by GamsGo... Marketplace model is GamsGo's C2C trading platform, allowing users to buy and sell products with each other."
+    },
+    {
+     "fact": "Seller-side commission schedule (what GamsGo takes — the platform's wholesale-equivalent economics)",
+     "source": "https://help.gamsgo.com/en/article/what-fees-does-gamsgo-charge-during-product-sales-m46skq/ (updated 2025-11-10)",
+     "date": "2026-09-28",
+     "exact_text": "Subscriptions (订阅类) 8.90%; Accounts (账号类) 7.90%; Currency (虚拟货币/余额) 4.90%; Top-up (代充服务) Not supported for merchants yet; Items (虚拟物品/道具) 9.90%. ...the platform does not charge any listing fees, deposits, or withdrawal fees."
+    },
+    {
+     "fact": "Merchant Tier System Lv.1-Lv.5 with tier-discounted commissions (differential pricing on the supply side)",
+     "source": "https://help.gamsgo.com/en/article/understanding-the-new-gamsgo-merchant-tier-system-1j6ftj4/ (updated 2026-02-28)",
+     "date": "2026-09-28",
+     "exact_text": "Sellers are categorized into five tiers: from Lv.1 (Basic Seller) to Lv.5 (Core Premium Seller)... Discounted Transaction Fees: The higher your tier, the lower your commission fees! ... Exclusive Withdrawal Perks... Monthly updates on the 1st... Dynamic Thresholds."
+    },
+    {
+     "fact": "Affiliate differential pricing: 10% first purchase / 5% renewals (help doc), up to 18% recurring for high performers (affiliate page)",
+     "source": "https://help.gamsgo.com/en/article/affiliatewhat-is-my-commission-and-can-i-increase-my-commission-14hi9de/ (updated 2024-01-26) + https://www.gamsgo.com/affiliate/program",
+     "date": "2026-09-28",
+     "exact_text": "you will receive 10% commissions on first purchase, 5% commissions on renewal and purchase. If you have a great number of followers/subscribers, a higher percentage of commission will be offered | Earn up to 18.00% commission, and we also offer recurring commissions."
+    },
+    {
+     "fact": "Seller KYC requirements",
+     "source": "https://help.gamsgo.com/en/article/how-to-apply-to-become-an-individual-seller-on-gamsgo-kvsplh/ (updated 2026-09-17)",
+     "date": "2026-09-28",
+     "exact_text": "A photo of your identification documents, including but not limited to government-issued ID cards, passports, driver's licenses, and student IDs (with the background showing gamsgo.com). A selfie with the same identification document."
+    },
+    {
+     "fact": "Public retail price positioning (retail-vs-official gaps, NOT API gaps): CapCut Pro official $19.99/mo vs GamsGo $7.49/mo; CapCut Teams $7.99/mo vs $24.99; YouTube Premium 12-month ~$60 vs official $17.99/mo (~70% off); homepage claims 'Save up to 85%'",
+     "source": "https://www.gamsgo.com/details/capcut + https://www.gamsgo.com (homepage)",
+     "date": "2026-09-28",
+     "exact_text": "Official Price $19.99 /month vs GamsGo Special $7.49 /month | you can subscribe to CapCut Team for $7.99 per month... Compared with the original price of $24.99 | GamsGo offers a 12-month plan for around $60, a discount of up to 70%. Official Price $17.99 /month"
+    }
+   ],
+   "dual_price_rows": [],
+   "blocked_pages": [
+    {
+     "url": "https://www.gamsgo.com/api-docs",
+     "status": "HTTP 200 but silently redirects to homepage — no public API docs"
+    },
+    {
+     "url": "https://www.gamsgo.com/subscription",
+     "status": "login-gated 'My Subscription' page (no public catalog)"
+    },
+    {
+     "url": "https://www.gamsgo.com/sell",
+     "status": "Merchant Center link resolves to login/landing — seller portal behind auth"
+    }
+   ],
+   "raw_notes": "GamsGo verdict for MEC-5: NOT an API/wholesale supplier in the ProdSeller/StackVault sense. It is a subscription-sharing marketplace with (a) first-party retail (Direct GamsGo), (b) C2C marketplace where sellers set prices (the closest thing to 'wholesale' — becoming a seller with KYC), (c) seller commissions 4.90-9.90% by category with Lv.1-5 tier commission discounts, (d) affiliate commissions 10%/5% standard, up to 18% recurring. api.gamsgo.com exists but is private (their own SPA backend). No published bulk/reseller purchase pricing found anywhere. Cross-supplier context: GamsGo CapCut Pro $7.49/mo vs ProdSeller CapCut Pro 30d public $1.70 / API $1.29 (from MEC-5 master file) — different product forms (shared-slot 30d upgrade vs full sub) but shows GamsGo sits at the expensive retail end for this SKU family. Searches used: 'gamsgo API', 'gamsgo wholesale reseller bulk discount partner', 'gamsgo B2B bulk purchase reseller program buy subscriptions wholesale'."
+  }
+ ]
+}

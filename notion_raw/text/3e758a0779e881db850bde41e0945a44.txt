@@ -1,0 +1,7 @@
+# Conversation Integrity & Knowledge Reconciliation — 2026-09-26
+Audit scope
+Current Notion state is authoritative for persisted operational state. Conversation-level claims are treated as hypotheses unless corroborated by Notion or external evidence.
+Audit rule
+Preserve historical records. Correct metadata and knowledge-role errors through explicit reconciliation rather than deletion or silent rewriting.
+Status
+Audit completed after corrective writes and re-reads. The cycle is user-triggered and separate from scheduled Accounting Systems runs.

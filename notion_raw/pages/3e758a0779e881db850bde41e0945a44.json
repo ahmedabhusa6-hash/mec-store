@@ -1,0 +1,279 @@
+{
+ "page": {
+  "id": "3e758a07-79e8-81db-850b-de41e0945a44",
+  "title": "Conversation Integrity & Knowledge Reconciliation — 2026-09-26",
+  "url": "https://app.notion.com/p/Conversation-Integrity-Knowledge-Reconciliation-2026-09-26-3e758a0779e881db850bde41e0945a44"
+ },
+ "blocks": [
+  {
+   "object": "block",
+   "id": "735e3437-efab-4b52-8902-05557aaf3aaf",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81db-850b-de41e0945a44"
+   },
+   "created_time": "2026-09-26T12:51:00.000Z",
+   "last_edited_time": "2026-09-26T12:51:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Audit scope",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Audit scope",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "28e62ba8-893f-4335-b8c5-f560c40a1f68",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81db-850b-de41e0945a44"
+   },
+   "created_time": "2026-09-26T12:51:00.000Z",
+   "last_edited_time": "2026-09-26T12:51:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Current Notion state is authoritative for persisted operational state. Conversation-level claims are treated as hypotheses unless corroborated by Notion or external evidence.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Current Notion state is authoritative for persisted operational state. Conversation-level claims are treated as hypotheses unless corroborated by Notion or external evidence.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "22b6459e-7e1a-4a91-8beb-8269eaefc257",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81db-850b-de41e0945a44"
+   },
+   "created_time": "2026-09-26T12:51:00.000Z",
+   "last_edited_time": "2026-09-26T12:51:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Audit rule",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Audit rule",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "198aa5a8-22ac-4ed5-acee-0dd8d6e0c124",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81db-850b-de41e0945a44"
+   },
+   "created_time": "2026-09-26T12:51:00.000Z",
+   "last_edited_time": "2026-09-26T12:51:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Preserve historical records. Correct metadata and knowledge-role errors through explicit reconciliation rather than deletion or silent rewriting.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Preserve historical records. Correct metadata and knowledge-role errors through explicit reconciliation rather than deletion or silent rewriting.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "2190a23f-0aec-4410-aa88-bb4e2895b743",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81db-850b-de41e0945a44"
+   },
+   "created_time": "2026-09-26T12:51:00.000Z",
+   "last_edited_time": "2026-09-26T12:51:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Status",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Status",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "7ed914f2-e579-4db4-8208-033b2b882c8a",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-81db-850b-de41e0945a44"
+   },
+   "created_time": "2026-09-26T12:51:00.000Z",
+   "last_edited_time": "2026-09-26T12:55:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Audit completed after corrective writes and re-reads. The cycle is user-triggered and separate from scheduled Accounting Systems runs.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Audit completed after corrective writes and re-reads. The cycle is user-triggered and separate from scheduled Accounting Systems runs.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+# Audit — Deep Marketing Conversation Scope — 2026-09-26
+نطاق التدقيق
+هذه الصفحة هي سجل التدقيق التشغيلي للمحادثة الحالية باعتبارها نطاق العمل المرجعي والأساسي لمنظومة Deep Marketing / KOS.
+1. المتطلبات المستخلصة
+- تحليل المحادثة كاملة، لا تلخيصها فقط.
+- استخراج الأفكار والمتطلبات والقرارات والافتراضات والمشكلات والفجوات والتناقضات والمخاطر والاعتماديات.
+- اختبار المعلومات نقديًا وعدم تحويل ورود المعلومة إلى دليل على صحتها.
+- استخدام البحث الخارجي فقط للتحقق وسد الفجوات المباشرة.
+- تحديث Notion مع فصل المؤكد عن غير المؤكد والافتراض والاستنتاج والتوصية.
+- معالجة الخلل عند اكتشافه بدل الاكتفاء بوصفه.
+- السماح للأمر الواحد بعبور عدة مراحل ودورات متتابعة عندما تكون شروط الانتقال متحققة.
+- عدم إنشاء أتمتة خارجية فعلية أو تغيير إعدادات خارجية دون تصريح صريح.
+2. الحالة الحالية المستخرجة من Notion
+KNG-43:  SYNTHESIZED / bounded.
+RSH-1:  Integrated.
+RSH-3:  Analysis.
+RSH-12:  Needs Follow-up.
+RSH-15:  Needs Follow-up.
+3. النموذج الحاكم
+Source → Evidence → Insight → Pattern → Principle → Context → Hypothesis → Experiment → Result → Learning → Reuse
+التشغيل:
+Read State → Select Bounded Work → Research → Validate → Conflict Check → Synthesize → Commit if needed → QC → Gap Detection → Update Queue → Persist → Verify → Next Work.
+4. الفصل المعرفي الإلزامي
+Confirmed:  دليل مباشر متحقق.
+Needs Verification:  حالة أو ادعاء يحتاج تحققًا إضافيًا.
+Assumption:  فرضية تشغيلية غير مثبتة.
+Inference:  استنتاج مشتق من أدلة.
+Recommendation:  إجراء مقترح، وليس حقيقة.
+لا يُساوى بين Fact وInterpretation وHypothesis وResult، ولا بين Capability وEffectiveness وCausality.
+5. المشكلات الحرجة المكتشفة والمعالجة
+A — Automation-state overclaim
+بعض السجلات الأقدم تصف Scheduler كل ساعة كأنه حالة حالية مؤكدة. في هذه المراجعة لم يتم إنشاء أتمتة جديدة ولم تُعدّل إعدادات خارجية.
+الحل:  التفعيل هنا منهجي/تشغيلي داخل المحادثة؛ حالة الأتمتة الخارجية تبقى غير مؤكدة ما لم تُفحص مباشرة.
+B — State drift
+كان Master Hub لا يزال يشير إلى RSH-1 كمهمة نشطة رغم انتقاله إلى Integrated.
+الحل:  تم تحديث المرجع المركزي ليعكس RSH-3 كمسار البحث الحالي، مع بقاء RSH-12 وRSH-15 في Needs Follow-up.
+C — Research ID mismatch
+عنوان RSH-12 هو RSH-12، بينما المعرّف الآلي في Research Queue ظهر RSH-14.
+الحل:  حفظ الحقيقتين دون إعادة ترقيم أو اختلاق معرّف.
+D — Failed writes
+بعض محاولات إنشاء سجلات Source/Cycle الجديدة رُفضت من طبقة التحقق.
+الحل:  لم تُعامل كمحتوى committed ولم تُحسب كتغييرات ناجحة.
+E — Exhaustive QC limitation
+محاولة الاستعلام الشامل لـResearch Queue اصطدمت بحد استخدام Query Data Source.
+الحل:  لا يوجد ادعاء بأن QC الصفّي الشامل قد تم في هذه الجولة؛ تم الاعتماد على التحقق الموضعي للصفحات ذات الصلة.
+6. النتائج المعرفية الحالية
+- Marketing theory متعددة المستويات؛ لا توجد نظرية واحدة تختزل المجال كاملًا.
+- Buyer behavior يختلف عن organizational buying في وحدة التحليل وآليات القرار.
+- Macromarketing يضيف مستوى النظام/المجتمع وليس مجرد قائمة تكتيكات أوسع.
+- Institutional context يفسر شروط التبادل ولا يُستبدل بمتغيرات buyer-level أو firm-level.
+- Distribution analysis يحتاج تحديد system boundary ومتغيرات اقتصادية واجتماعية-سياسية.
+- GenAI يُعامل كطبقة تقنية عابرة، وليس كبديل للنظريات والآليات التسويقية الأساسية.
+- Master Map هو working/derived architecture، وليس taxonomy نهائية أو نظرية سببية موحدة.
+7. حدود النقل
+أي نتيجة تجريبية يجب أن تُربط بالسكان والسوق والتصميم والمنهج والسياق. لا تُنقل نتيجة من سياق واحد إلى قاعدة عامة دون transfer evidence مناسب.
+8. المخاطر المتبقية
+State drift؛ provenance loss؛ transfer overreach؛ mixed-design conflation؛ duplicate research؛ stale automation statements؛ over-promotion من Pattern إلى Principle.
+9. External verification used in this audit
+AMA's current Marketing Competency Model currently presents six competency domains and states that the domains overlap rather than being fully independent.  https://www.ama.org/ama-marketing-competency-model/
+Xero's current partner marketing toolkit documents client-acquisition resources, directory visibility, marketing collateral, campaign-in-a-box and partner marketing support; some funding details are market/program specific.  https://www.xero.com/uk/partner-toolkit/market-your-practice/
+Institutional exchange and distribution framing were checked against current publisher/index records for Prabhu, Tracey & Hassan (2017), Ben Slimane et al. (2019), Stern & Reve (1980), and Layton (2007). These sources support institutional/system-level framing but do not establish a universal causal chain.
+10. Final operational disposition
+Knowledge State:  current architecture remains bounded and synthesized.
+Research State:  RSH-3 is the current foundations stream; RSH-12 and RSH-15 remain follow-up streams.
+Automation Method:  active as an operating method for this conversation.
+External Automation:  no new automation created or modified in this audit.
+Current External Scheduler State:  UNVERIFIED in this audit.
+11. Execution rule adopted for this conversation
+An individual command may execute multiple coherent stages and multiple research cycles in sequence. It does not have to stop after one cycle. The only required stops are a valid Stage Gate, a material ambiguity, a verified blocker, a required human approval, or exhaustion/saturation of the current bounded work.
+12. Continuation rule
+Before the next batch: read persisted state → detect overlap/duplication → select one bounded work unit → execute multiple coherent cycles → validate → commit only genuine deltas → QC → update queue → persist → verify. Never create a duplicate Research Item merely because the next logical task is another cycle on an existing item.
+13. Audit limitation
+This audit validates governance, current page states and selected external claims. It does not claim exhaustive row-level verification of every Notion record because the workspace query limit blocked the requested database-wide query in this run.
+14. State reconciliation — latest persistent state
+قراءة Master Hub في نهاية التدقيق أظهرت حالة أحدث من الحالة المختصرة المسجلة في القسم 2. لذلك تُعد هذه الفقرة مرجع الحالة الحالي وتعلو على أي تلخيص سابق داخل هذه الصفحة:
+Current Next Research Priority:  Reconcile KNG-43 Evidence Links provenance before further Knowledge promotion; then continue RSH-17 downstream causal validation.
+KNG-43:  SYNTHESIZED; Conflict Status = NONE.
+RSH-15:  Needs Follow-up.
+RSH-16:  Needs Follow-up؛ المعايرة السببية مكتملة، بينما النقل والنتائج طويلة الأجل ما زالت مفتوحة.
+RSH-17:  Needs Follow-up؛ توجد الآن أدلة سببية مستقلة من eBay وRwanda ضمن سياقات محددة، بينما وساطة market agility وما يتعلق بالمدى الطويل والتكرار عبر القطاعات والجغرافيات ما زال مفتوحًا.
+RSH-18:  Needs Follow-up؛ سجل الأدلة على مستوى الادعاء مكتمل، بينما independent replication/transfer testing مفتوح.
+RSH-3:  Analysis؛ يبقى مسار foundations مهمًا لكنه ليس أولوية العمل التالية في الحالة المحفوظة الحالية.
+Correction:  لا يجوز استخدام عبارة «RSH-3 هو المسار الحالي» بمعنى Next Work؛ Current Next Work هو reconciliation لـKNG-43 ثم RSH-17 وفق Master Hub الأحدث.

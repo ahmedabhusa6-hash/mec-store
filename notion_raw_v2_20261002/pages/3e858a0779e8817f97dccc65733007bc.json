@@ -1,0 +1,296 @@
+{
+ "capture_reason": "NEW",
+ "captured_at": "2026-10-02T12:06:31+03:00",
+ "title": "Cycle 8 — MEC-2.1 Batch 2 Execution (173 P2 SKUs, snippet-evidence run)",
+ "last_edited": "2026-09-27T02:38:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e858a07-79e8-817f-97dc-cc65733007bc",
+  "created_time": "2026-09-27T02:37:00.000Z",
+  "last_edited_time": "2026-09-27T02:38:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3e758a07-79e8-8187-9e89-00278adc0ead"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3e758a07-79e8-8187-9e89-00278adc0ead"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "e844ab12-d846-4974-9651-0892464966e5"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "Actor": {
+    "id": "%3B%3Cag",
+    "type": "select",
+    "select": {
+     "id": "2fa84fac-4f8f-45ca-86bd-48ad2531dc79",
+     "name": "z.ai Runtime (Super Z)",
+     "color": "yellow"
+    }
+   },
+   "Record ID": {
+    "id": "Frzf",
+    "type": "unique_id",
+    "unique_id": {
+     "prefix": "IA",
+     "number": 12
+    }
+   },
+   "Parent Record ID": {
+    "id": "Gg%3C%3B",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Stage": {
+    "id": "HM%40I",
+    "type": "select",
+    "select": {
+     "id": "edb6da10-f8a5-4eb5-b759-96458c110b14",
+     "name": "ChatGPT Analysis",
+     "color": "blue"
+    }
+   },
+   "Findings / Changes": {
+    "id": "Ht%5D%7D",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "115/121 استعلامًا ناجحًا (15 مؤجلًا بحصة 477 طويلة النافذة §19). 219 سجل SKU إجمالًا الآن. 31 SKU بعرض معلن مطابق الهوية + 16 مجاورًا + 26 خطًا رسميًا. اكتشافات هيكلية: سوق العلاوة الأرجنتيني (PSN AR فوق الاسمي $67.91/$50) · شحنات رمادية فوق الرسمي (G2A 660UC +166%) · أرضية منتديات V-Bucks ($6.99/2800) · لا فوترة سنوية رسمية لChatGPT Plus · Office 2024 عبر مصدرين مستقلين ($0.56-0.60).",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "115/121 استعلامًا ناجحًا (15 مؤجلًا بحصة 477 طويلة النافذة §19). 219 سجل SKU إجمالًا الآن. 31 SKU بعرض معلن مطابق الهوية + 16 مجاورًا + 26 خطًا رسميًا. اكتشافات هيكلية: سوق العلاوة الأرجنتيني (PSN AR فوق الاسمي $67.91/$50) · شحنات رمادية فوق الرسمي (G2A 660UC +166%) · أرضية منتديات V-Bucks ($6.99/2800) · لا فوترة سنوية رسمية لChatGPT Plus · Office 2024 عبر مصدرين مستقلين ($0.56-0.60).",
+      "href": null
+     }
+    ]
+   },
+   "Objective": {
+    "id": "Nyoo",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "تنفيذ الدفعة الثانية للكتالوج (173 SKU من أولوية P2 عبر 10 عائلات) بقنوات Notion المحددة حصرًا (التعديل A)، مع بروتوكول الإيقاع المستفاد (5 ثوانٍ + تبريد 15 ثانية) ومراجعة يدوية لضجيج الاستخراج الآلي.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "تنفيذ الدفعة الثانية للكتالوج (173 SKU من أولوية P2 عبر 10 عائلات) بقنوات Notion المحددة حصرًا (التعديل A)، مع بروتوكول الإيقاع المستفاد (5 ثوانٍ + تبريد 15 ثانية) ومراجعة يدوية لضجيج الاستخراج الآلي.",
+      "href": null
+     }
+    ]
+   },
+   "Version ID": {
+    "id": "SZr_",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "v4.2 Candidate (working) — unchanged",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "v4.2 Candidate (working) — unchanged",
+      "href": null
+     }
+    ]
+   },
+   "Decision Required": {
+    "id": "W%40%5Dt",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "لا شيء — D1-D7 كلها مفتوحة كما هي (لا ترقية إصدار، لا حسم قرارات).",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "لا شيء — D1-D7 كلها مفتوحة كما هي (لا ترقية إصدار، لا حسم قرارات).",
+      "href": null
+     }
+    ]
+   },
+   "Evidence / Sources": {
+    "id": "Z%5DbK",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "research/action_ledger.json (115 إجراءً بمعرفات RB-001..115 موثقة الحقول §0.1) + findings_index_b2.json (468 نتيجة) + offers_intelligence.json قسم batch2_run + مراجعة يدوية موثقة في scripts/batch2_curation.py. كل الأسعار بمستوى معلن (مقتطف) — القراءة المباشرة مؤجلة.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "research/action_ledger.json (115 إجراءً بمعرفات RB-001..115 موثقة الحقول §0.1) + findings_index_b2.json (468 نتيجة) + offers_intelligence.json قسم batch2_run + مراجعة يدوية موثقة في scripts/batch2_curation.py. كل الأسعار بمستوى معلن (مقتطف) — القراءة المباشرة مؤجلة.",
+      "href": null
+     }
+    ]
+   },
+   "Canonical Impact": {
+    "id": "cF%3D_",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "لا شيء — لا ترقية ولا تعديل حوكمة.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "لا شيء — لا ترقية ولا تعديل حوكمة.",
+      "href": null
+     }
+    ]
+   },
+   "Cycle": {
+    "id": "mFTS",
+    "type": "number",
+    "number": 8
+   },
+   "Message to Send": {
+    "id": "mu%3CH",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Date": {
+    "id": "ovi%3A",
+    "type": "date",
+    "date": {
+     "start": "2026-09-27",
+     "end": null,
+     "time_zone": null
+    }
+   },
+   "Status": {
+    "id": "vW%40y",
+    "type": "select",
+    "select": {
+     "id": "0cb245dd-a819-4f89-9daf-00ab6f61d17b",
+     "name": "Committed",
+     "color": "default"
+    }
+   },
+   "Received Output / Archive": {
+    "id": "wFNY",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Next Action": {
+    "id": "%7DEXV",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "إعادة تشغيل الاستعلامات الـ15 المؤجلة (سكربت استئناف موثق) + الدفعة 3 (218 SKU) بجلسة منفصلة بسبب الحصة + حسم D1/D2/D5 (بقاء المستخدم).",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "إعادة تشغيل الاستعلامات الـ15 المؤجلة (سكربت استئناف موثق) + الدفعة 3 (218 SKU) بجلسة منفصلة بسبب الحصة + حسم D1/D2/D5 (بقاء المستخدم).",
+      "href": null
+     }
+    ]
+   },
+   "Record": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Cycle 8 — MEC-2.1 Batch 2 Execution (173 P2 SKUs, snippet-evidence run)",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Cycle 8 — MEC-2.1 Batch 2 Execution (173 P2 SKUs, snippet-evidence run)",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/Cycle-8-MEC-2-1-Batch-2-Execution-173-P2-SKUs-snippet-evidence-run-3e858a0779e8817f97dccc65733007bc",
+  "public_url": null,
+  "archived": false,
+  "request_id": "8f311ba9-7872-423b-ab86-e956b66994cf"
+ },
+ "block_count": 1,
+ "blocks": [
+  {
+   "id": "3e858a07-79e8-8101-b59d-fabda633aefa",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "الحالة المعرفية: أسعار معلنة عبر مقتطفات بحث بتاريخ 2026-09-27 — ليست أسعارًا معاملاتية ولا مشاهدات مباشرة للصفحات. 18 SKU بحالة Rate-Limited موثقة بأمانة. الاستئناف موصوف في sku_database.md القسم هـ."
+   ],
+   "created": "2026-09-27T02:37:00.000Z",
+   "edited": "2026-09-27T02:37:00.000Z"
+  }
+ ]
+}

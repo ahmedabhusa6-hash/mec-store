@@ -1,0 +1,106 @@
+{
+ "run": "G-1a R5 decohomz origin hunt",
+ "ts": "2026-10-02T01:51:31.279070+00:00",
+ "port80_vhost": {
+  "decohomz.com": {
+   "status": 200,
+   "head": "{\"products\":[{\"id\":\"dummy-free-test\",\"name\":\"Free Test Key\",\"category\":\"general\",\"categoryName\":\"Digital Services\",\"price\":0,\"priceCents\":0,\"stock\":999,\"inStock\":true,\"description\""
+  },
+  "stackvault.shop": {
+   "status": 404,
+   "head": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>Page not found</title"
+  },
+  "www.stackvault.shop": {
+   "status": 301,
+   "head": "Redirecting to https://stackvault.shop/sv-api/products"
+  },
+  "prodseller.com": {
+   "status": 200,
+   "head": "<!doctype html>\n<html lang=\"en\" data-beasties-container>\n<head>\n  <meta charset=\"utf-8\">\n  <title>ProdsellerAdmin</title>\n  <base href=\"/\">\n  <meta name=\"viewport\" content=\"width=d"
+  },
+  "decohomz@api": {
+   "status": 200,
+   "head": "{\"products\":[{\"id\":58,\"category_id\":6,\"vendor_id\":null,\"name\":\"Koa Boucle Loveseat\",\"slug\":\"koa-boucle-loveseat\",\"description\":\"Two-seater boucle sofa with cylindrical arms and a c"
+  }
+ },
+ "decohomz_pages": {
+  "/about": {
+   "status": 200,
+   "len": 16616,
+   "title": "About Us — DecoHomz",
+   "text": "About Us — DecoHomz Free Delivery on Orders Above EGP 2,000 — Shop Now --> Deco Homz Home Shop Categories New Arrivals Deals About Us Contact Us Pre-Order Become a Vendor العربية Cart 0 Account Deco Homz &times; Home Shop Categories New Arrivals Deals About Us Contact Us Pre-Order Become a Vendor العربية &times; Crafting Comfort. Designing Life. DecoHomz was born out of a passion for bringing premium, handcrafted furniture into every home. We believe your space should be a reflection of who you are. Our Story From a small workshop to your living room. Founded in 2015, DecoHomz started with a simple idea: furniture should be built to last and designed to inspire. We began in a small woodworking studio in Cairo, crafting custom pieces for local clients. Today, we partner with master craftsmen across Egypt to bring you collections that blend traditional techniques with modern aesthetics. Ev"
+  },
+  "/contact": {
+   "status": 200,
+   "len": 17173,
+   "title": "Contact Us — DecoHomz",
+   "text": "Contact Us — DecoHomz Free Delivery on Orders Above EGP 2,000 — Shop Now --> Deco Homz Home Shop Categories New Arrivals Deals About Us Contact Us Pre-Order Become a Vendor العربية Cart 0 Account Deco Homz &times; Home Shop Categories New Arrivals Deals About Us Contact Us Pre-Order Become a Vendor العربية &times; Get In Touch We&#039;d love to hear from you Whether you have a question about our products, need help with an order, or just want to say hello, our team is ready to answer all your questions. Our Showroom DecoHomz Studio 12 El Gezira Street, Zamalek Cairo, Egypt Call Us +20 100 123 4567 Sat - Thu, 10am - 8pm Email Us [email&#160;protected] [email&#160;protected] Send us a message First Name Last Name Email Address Subject Select a topic Order Support Product Inquiry Feedback Other Message Send Message Deco Homz Premium furniture for every space. Crafted for comfort, designed f",
+   "phones_eg": [
+    "+20 100 123 4567"
+   ]
+  },
+  "/shop": {
+   "status": 200,
+   "len": 34875,
+   "title": "Shop — DecoHomz",
+   "text": "Shop — DecoHomz Free Delivery on Orders Above EGP 2,000 — Shop Now --> Deco Homz Home Shop Categories New Arrivals Deals About Us Contact Us Pre-Order Become a Vendor العربية Cart 0 Account Deco Homz &times; Home Shop Categories New Arrivals Deals About Us Contact Us Pre-Order Become a Vendor العربية &times; Our Collection Explore our premium range of furniture, handpicked for quality and style. Home › Shop Filters Clear All Categories Price Range EGP 0 EGP 50,000 Availability In Stock Only Filters &times; Apply Filters Filter Loading products... Sort by: Featured Price: Low to High Price: High to Low Newest Arrivals Deco Homz Premium furniture for every space. Crafted for comfort, designed for life. Get updates on new arrivals and deals Subscribe Shop Living Room Bedroom Dining Outdoor Deals New Arrivals Help FAQ Shipping &amp; Delivery Returns &amp; Exchanges Track Order Contact Us Pre"
+  },
+  "/categories": {
+   "status": 200,
+   "len": 16549,
+   "title": "Categories — DecoHomz",
+   "text": "Categories — DecoHomz Free Delivery on Orders Above EGP 2,000 — Shop Now --> Deco Homz Home Shop Categories New Arrivals Deals About Us Contact Us Pre-Order Become a Vendor العربية Cart 0 Account Deco Homz &times; Home Shop Categories New Arrivals Deals About Us Contact Us Pre-Order Become a Vendor العربية &times; Home › Categories Browse Our Collections Expertly curated furniture for every corner of your home. Loading collections... Deco Homz Premium furniture for every space. Crafted for comfort, designed for life. Get updates on new arrivals and deals Subscribe Shop Living Room Bedroom Dining Outdoor Deals New Arrivals Help FAQ Shipping &amp; Delivery Returns &amp; Exchanges Track Order Contact Us Pre-Order Become a Vendor Company About Us My Account © 2026 DecoHomz. All rights reserved. Privacy · Terms"
+  },
+  "/robots.txt": {
+   "status": 200,
+   "len": 24,
+   "text": "User-agent: * Disallow:"
+  },
+  "/sitemap.xml": {
+   "status": 404,
+   "len": 2996,
+   "title": "404 — Page Not Found — DecoHomz",
+   "text": "404 — Page Not Found — DecoHomz <text x=\"100\" y=\"55\" text-anchor=\"middle\" font-size=\"28\" font-weight=\"800\" fill"
+  },
+  "/become-a-vendor": {
+   "status": 404,
+   "len": 2996,
+   "title": "404 — Page Not Found — DecoHomz",
+   "text": "404 — Page Not Found — DecoHomz <text x=\"100\" y=\"55\" text-anchor=\"middle\" font-size=\"28\" font-weight=\"800\" fill"
+  },
+  "/pre-order": {
+   "status": 200,
+   "len": 27124,
+   "title": "Pre-Order — DecoHomz",
+   "text": "Pre-Order — DecoHomz Free Delivery on Orders Above EGP 2,000 — Shop Now --> Deco Homz Home Shop Categories New Arrivals Deals About Us Contact Us Pre-Order Become a Vendor العربية Cart 0 Account Deco Homz &times; Home Shop Categories New Arrivals Deals About Us Contact Us Pre-Order Become a Vendor العربية &times; Custom Furniture Design Your Dream Furniture Found a design you love? Share it with us and we will craft it for you. Upload inspiration images from Pinterest, Instagram, or any website and tell us what you need. Find Inspiration Browse these platforms for furniture ideas, then upload your favorite designs. Pinterest Instagram Houzz Dezeen ArchDaily Submit Your Design Reference Images * Upload up to 10 images (max 10MB each). Screenshots, Pinterest pins, or any furniture photo. Drag &amp; drop images here or browse JPEG, PNG, WebP — Max 10MB each Full Name * Phone Number * Email ",
+   "emails": [
+    "ahmed@example.com"
+   ]
+  },
+  "/deals": {
+   "status": 200,
+   "len": 18845,
+   "title": "Deals &amp; Sales — DecoHomz",
+   "text": "Deals &amp; Sales — DecoHomz Free Delivery on Orders Above EGP 2,000 — Shop Now --> Deco Homz Home Shop Categories New Arrivals Deals About Us Contact Us Pre-Order Become a Vendor العربية Cart 0 Account Deco Homz &times; Home Shop Categories New Arrivals Deals About Us Contact Us Pre-Order Become a Vendor العربية &times; Deals &amp; Sales Grab the best deals before they&#039;re gone. Limited stock available. Home › Deals Special Offers Grab the best deals before they&#039;re gone. These items are limited in stock. Found 0 items on sale Deco Homz Premium furniture for every space. Crafted for comfort, designed for life. Get updates on new arrivals and deals Subscribe Shop Living Room Bedroom Dining Outdoor Deals New Arrivals Help FAQ Shipping &amp; Delivery Returns &amp; Exchanges Track Order Contact Us Pre-Order Become a Vendor Company About Us My Account © 2026 DecoHomz. All rights rese"
+  }
+ },
+ "decohomz_subdomains": {},
+ "crtsh": {
+  "prodseller.com": {
+   "n_certs": 36,
+   "names": [
+    "prodseller.com",
+    "web.prodseller.com",
+    "www.prodseller.com"
+   ]
+  },
+  "decohomz.com": {
+   "status": 502,
+   "error": null
+  },
+  "stackvault.shop": {
+   "status": 502,
+   "error": null
+  }
+ }
+}

@@ -1,0 +1,109 @@
+{
+ "DR_FINDINGS": {
+  "label": "Deep Research Findings — Supplier Intelligence — 2026-10-02",
+  "new_leads": {
+   "openapis.org/oas/": {
+    "ctx": "OpenAPI Specification: https://spec.openapis.org/oas/"
+   },
+   "openapis.org/arazzo/": {
+    "ctx": "Arazzo Specification: https://spec.openapis.org/arazzo/"
+   },
+   "redocly.com/docs/cli": {
+    "ctx": "Redocly CLI: https://redocly.com/docs/cli"
+   },
+   "readthedocs.io/": {
+    "ctx": "Schemathesis: https://schemathesis.readthedocs.io/"
+   },
+   "github.com/jentic/arazzo-engine": {
+    "ctx": "https://github.com/jentic/arazzo-engine"
+   },
+   "github.com/ferdinandoconte/shopify-supplier-sync-orchestrator": {
+    "ctx": "https://github.com/FerdinandoConte/shopify-supplier-sync-orchestrator"
+   },
+   "github.com/fuad-hasan-safat/supplier-product-matcher": {
+    "ctx": "https://github.com/fuad-hasan-safat/supplier-product-matcher"
+   },
+   "github.com/odhasu/tgbot": {
+    "ctx": "https://github.com/odhasu/tgbot"
+   },
+   "github.com/bhairavdataflow/procure-ai": {
+    "ctx": "https://github.com/BhairavDataFlow/procure-ai"
+   },
+   "github.com/maharanirizki/vsoa": {
+    "ctx": "https://github.com/maharanirizki/VSOA"
+   },
+   "github.com/mercurjs/mercur": {
+    "ctx": "https://github.com/mercurjs/mercur"
+   },
+   "github.com/oai/arazzo-specification": {
+    "ctx": "https://github.com/OAI/Arazzo-Specification"
+   },
+   "@jentic": {
+    "ctx": "المعيار الرسمي الحالي هو Arazzo 1.1.0 (2026-05-17). لكن README لحزمة @jentic/arazzo-runner في monorepo jentic-arazzo-tools يذكر حاليًا دعم Arazzo 1.0.0 و1.0.1 ودعم OpenAPI 2.0 و3.0.x و3.1.x، مع وصف ال"
+   }
+  }
+ },
+ "TG_PROVIDERS": {
+  "label": "Supplier Intelligence — Telegram API Providers — Research & System Design",
+  "new_leads": {
+   "@PremiKeyBot": {
+    "ctx": "@PremiKeyBot — Canboso Buyer API — قدرات معلنة: المنتجات والشراء. رابط الوثائق: https://canboso.com/api/swagger"
+   },
+   "canboso.com/api/swagger": {
+    "ctx": "@PremiKeyBot — Canboso Buyer API — قدرات معلنة: المنتجات والشراء. رابط الوثائق: https://canboso.com/api/swagger"
+   },
+   "digitalcore.to": {
+    "ctx": "DCoreStoreBot — DigitalCore API — قدرات معلنة: catalog، current prices، stock، orders، delivery. رابط الوثائق: https://digitalcore.top/docs"
+   },
+   "aiversehub.store": {
+    "ctx": "AIXpress — قدرات معلنة: balance، products، order، orders، order details. قاعدة API المذكورة في المحادثة: https://aiversehub.store"
+   },
+   "@RichAIStoreBot": {
+    "ctx": "@RichAIStoreBot — reseller API مع Bearer authentication، balance عبر bot، ووثائق وتكامل AI Agent: https://cgpt-active.pro/telegram/api/docs"
+   },
+   "openapis.org/oas/": {
+    "ctx": "OpenAPI Specification: https://spec.openapis.org/oas/"
+   },
+   "openapis.org/arazzo/": {
+    "ctx": "Arazzo Specification: https://spec.openapis.org/arazzo/"
+   },
+   "redocly.com/docs/cli": {
+    "ctx": "Redocly CLI: https://redocly.com/docs/cli"
+   },
+   "readthedocs.io/": {
+    "ctx": "Schemathesis: https://schemathesis.readthedocs.io/"
+   },
+   "github.com/jentic/arazzo-engine": {
+    "ctx": "https://github.com/jentic/arazzo-engine"
+   },
+   "github.com/ferdinandoconte/shopify-supplier-sync-orchestrator": {
+    "ctx": "https://github.com/FerdinandoConte/shopify-supplier-sync-orchestrator"
+   },
+   "github.com/fuad-hasan-safat/supplier-product-matcher": {
+    "ctx": "https://github.com/fuad-hasan-safat/supplier-product-matcher"
+   },
+   "github.com/odhasu/tgbot": {
+    "ctx": "https://github.com/odhasu/tgbot"
+   },
+   "github.com/bhairavdataflow/procure-ai": {
+    "ctx": "https://github.com/BhairavDataFlow/procure-ai"
+   },
+   "github.com/maharanirizki/vsoa": {
+    "ctx": "https://github.com/maharanirizki/VSOA"
+   },
+   "github.com/mercurjs/mercur": {
+    "ctx": "https://github.com/mercurjs/mercur"
+   },
+   "github.com/oai/arazzo-specification": {
+    "ctx": "https://github.com/OAI/Arazzo-Specification"
+   },
+   "@jentic": {
+    "ctx": "المعيار الرسمي الحالي هو Arazzo 1.1.0 (2026-05-17). لكن README لحزمة @jentic/arazzo-runner في monorepo jentic-arazzo-tools يذكر حاليًا دعم Arazzo 1.0.0 و1.0.1 ودعم OpenAPI 2.0 و3.0.x و3.1.x، مع وصف ال"
+   }
+  }
+ },
+ "DR_PROMPT": {
+  "label": "Final Deep Research Prompt — Provider Intelligence Engine",
+  "new_leads": {}
+ }
+}

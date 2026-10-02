@@ -1,0 +1,261 @@
+{
+ "execution_timestamp_utc": "2026-10-01T23:51:06.974753+00:00",
+ "reference_timestamp": "2026-10-02T02:49+03:00",
+ "probes": {
+  "stackvault_shop": {
+   "http": 200,
+   "server_alive": true
+  },
+  "sv_catalog": {
+   "http": 200,
+   "n_products": 282,
+   "prefix_counts": {
+    "cb_": 229,
+    "mr_": 32,
+    "ps_": 20,
+    "other": 1
+   },
+   "in_stock": 228,
+   "cost_leak_present": false,
+   "cost_price_sample": []
+  },
+  "tg": {
+   "AiVerseXHub": {
+    "http": 200,
+    "n": 10,
+    "newest": "2026-09-30",
+    "oldest": "2026-09-27",
+    "latest3": [
+     {
+      "date": "2026-09-30T12:22",
+      "text": "Custom domain option added&#33;"
+     },
+     {
+      "date": "2026-09-30T14:06",
+      "text": "Product Saved Successfully&#33;\nProduct: 🍃 Gemini Pro 18M ( Reactivation URLs )\nCrypto Price: $0.8"
+     },
+     {
+      "date": "2026-09-30T14:29",
+      "text": "Now, the original brand domain of our bot will not appear in the Gemini reactivation URL; instead, a random domain will be displayed to avoid any issues for the Resellers. And if you want, you can use a custom domain.✅"
+     }
+    ],
+    "subscribers_og": null
+   },
+   "Evo_Era_updates": {
+    "http": 200,
+    "n": 10,
+    "newest": "2026-10-01",
+    "oldest": "2026-10-01",
+    "latest3": [
+     {
+      "date": "2026-10-01T22:19",
+      "text": "🔔 New Stock Alert&#33;\n\n🤖 Gemini AI Pro 18m has been restocked&#33;\n\n📦 39 items available\n💰 Price: 0.85 USDT\n\nGrab yours before it's gone&#33; 🔥"
+     },
+     {
+      "date": "2026-10-01T23:31",
+      "text": "🔔 New Stock Alert&#33;\n\n⚡ Mobbin 10x Seat 12m has been restocked&#33;\n\n📦 5 items available\n💰 Price: 10.0 USDT\n\nGrab yours before it's gone&#33; 🔥"
+     },
+     {
+      "date": "2026-10-01T23:35",
+      "text": "🔔 New Stock Alert&#33;\n\n🤓 Wispr Flow Pro 12m has been restocked&#33;\n\n📦 1 items available\n💰 Price: 12.0 USDT\n\nGrab yours before it's gone&#33; 🔥"
+     }
+    ],
+    "subscribers_og": null
+   },
+   "AISUBSID": {
+    "http": 200,
+    "n": 10,
+    "newest": "2026-10-01",
+    "oldest": "2026-09-30",
+    "latest3": [
+     {
+      "date": "2026-10-01T14:06",
+      "text": "Kalian jangan minta garansi kalo udah beli lewat 12 jam"
+     },
+     {
+      "date": "2026-10-01T14:07",
+      "text": "Uang ku di ewallet dana ilang tiba-tiba kenapa ini\n\nAda yang sama?"
+     },
+     {
+      "date": "2026-10-01T18:02",
+      "text": "Tomorrow, I will only sell ChatGPT with custom domains.\n\nThe domain is able to last for more than 7 days according to customer reports."
+     }
+    ],
+    "subscribers_og": null
+   },
+   "fork_bot_channel": {
+    "http": 200,
+    "n": 10,
+    "newest": "2026-10-01",
+    "oldest": "2026-09-21",
+    "latest3": [
+     {
+      "date": "2026-10-01T06:53",
+      "text": "📢 STOCK UPDATE&#33;\n\n🎁 Duolingo Super 12 Month\n━━━━━━━━━━━━━━━━━━━━\n📂 Category: Duolingo\n💰 Price: 18,500đ | $0.7\n📦 Status: Pre-order Available (⏳ 1 pending accounts)\n━━━━━━━━━━━━━━━━━━━━\n⚠️ This product is available for "
+     },
+     {
+      "date": "2026-10-01T15:14",
+      "text": "FIX a little bit‼️\n☺️ Gemini Activation Links  ☺️\n✔️ Link Example ( It just example format link ) : https://serviceactive.online/subscription/new/AQCpiIDDxBntDj1icOio5hWomJ1T\n✔️ Open the link → Google Gemini page opens →"
+     },
+     {
+      "date": "2026-10-01T17:14",
+      "text": "📢 STOCK UPDATE&#33;\n\n🎁 Gemini Pro — 18 Months (Links)\n━━━━━━━━━━━━━━━━━━━━\n🔥 Buy 10+ items for best wholesale price: 19,500đ | $0.75\n(Retail: 26,000đ | $1)\n🏷️ Bulk Wholesale Discount Tiers:\n  • Buy 3+ → 24,000đ | $0.90 e"
+     }
+    ],
+    "subscribers_og": null
+   },
+   "teamsoclo": {
+    "http": 200,
+    "n": 10,
+    "newest": "2026-10-01",
+    "oldest": "2026-09-17",
+    "latest3": [
+     {
+      "date": "2026-09-29T19:28",
+      "text": "😁 Thông Báo Chung: \n\nNay dư Token, bào mạnh lên các shop 😭\n\nNếu cần hỗ trợ hãy nhắn Reseller để được hỗ trợ 🦻"
+     },
+     {
+      "date": "2026-10-01T05:44",
+      "text": "🚗 Grok coming soon 🔥"
+     },
+     {
+      "date": "2026-10-01T11:38",
+      "text": "😁 Hi, shop đã tích hợp phần đổi CDK ở ngay trên Docs, các bác chỉ việc đổi CDK đã mua, tự động sẽ chuyển key, giúp các bác cài đặt trong 5s\n\n😁 Hello&#33; We’ve integrated a CDK redemption feature directly into the docume"
+     }
+    ],
+    "subscribers_og": null
+   },
+   "ProdSellerOfficial": {
+    "http": 200,
+    "n": 10,
+    "newest": "2026-10-01",
+    "oldest": "2026-09-19",
+    "latest3": [
+     {
+      "date": "2026-09-28T12:15",
+      "text": "✔️ New Gemini Activation Links\n✔️ Link stays valid and does not expire before 7 days.\n✔️ Warranty 24h\n✔️Link format with Anonymous domain specialy for reseller .\nEnjoy."
+     },
+     {
+      "date": "2026-10-01T11:28",
+      "text": "Gmails restocked &#33;\nBest price in the market &#33;"
+     },
+     {
+      "date": "2026-10-01T15:07",
+      "text": "🟢 DUOLINGO — BACK TO THE OLD METHOD&#33; 🔥\n\n🔄 We’re back to the old method&#33;\n⚡ Stable links & quick activation\n🚫 No instructions needed\n🐞 No bugs like with the new method\n\n💰 SPECIAL PRICE\n🔗 Link: $0.39\n🤖 API & Bulk: $"
+     }
+    ],
+    "subscribers_og": null
+   },
+   "HitMeowShop": {
+    "http": 200,
+    "n": 10,
+    "newest": "2026-09-30",
+    "oldest": "2026-09-22",
+    "latest3": [
+     {
+      "date": "2026-09-27T17:03",
+      "text": "🤖 🔥ChatGPT Plus K12 Edu 2 Years 24h Warranty\n💰 Price: $4.58\n📦 Stock: 29 accounts\n📊 Sold: 601 accounts\n💎 Description:\n✨ ChatGPT K12 account with 24-hour warranty  \n✨ Format: Account | Password | 2FA  \n✨ Product has a 24-h"
+     },
+     {
+      "date": "2026-09-29T04:56",
+      "text": "🎬 ⚡️Kling 1k1-1k2 CRE 1 month warranty 5D\n💰 Price: $5.76\n📦 Stock: 2 accounts\n📊 Sold: 1892 accounts\n💎 Description:\nLIVE KLING LOG at: https://kling.ai/app/?utm_source=google&utm_medium=adsmarch&utm_campaign=Search-ROAS&ut"
+     },
+     {
+      "date": "2026-09-30T13:01",
+      "text": "Please be patient, everyone. I'm on my way back to my hometown today and I'm a little tired. I'll reply to everyone as soon as I get home."
+     }
+    ],
+    "subscribers_og": null
+   },
+   "gemini12pro_channel": {
+    "http": 200,
+    "n": 10,
+    "newest": "2026-09-21",
+    "oldest": "2026-07-01",
+    "latest3": [
+     {
+      "date": "2026-08-26T07:51",
+      "text": "⚡️ FLASH SALE ALERT&#33; ⚡️\n\n⭐ Product: Gemini PRO 18M 🍃\n\n🎉 Bulk Discount Offers\n✅ Buy 1 – 199 → $0.60 each\n✅ Buy 200 – 499 → $0.50 each\n✅ Buy 500+ → $0.40 each\n\n👉 Grab yours now: @AIXpress_Bot ✈️"
+     },
+     {
+      "date": "2026-09-07T15:38",
+      "text": "⚡️ PREMIUM SUBSCRIPTIONS AT WHOLESALE RATES ⚡️\n\n💙Instant auto-delivery. 10,000+ users on the bot.\n\n👋 Duolingo Super 12M — 1.50 USDT\n🌄 Adobe Express 12M — 1.00 USDT\n🎧 Apple Music 5M — 0.85 USDT\n🌐 Gemini Links 18M — 0.40 U"
+     },
+     {
+      "date": "2026-09-21T07:15",
+      "text": "⚡️ DIGITAL PRODUCTS FOR RESELLERS\n\nDirect supplier focused on resellers and bulk buyers — competitive volume pricing, reliable stock and automated delivery.\n\nPopular products:\n\n✨ Gemini Pro · 18 Months — from $0.70\n📕 Cou"
+     }
+    ],
+    "subscribers_og": null
+   },
+   "Gt_Verified": {
+    "http": 200,
+    "n": 0,
+    "newest": null,
+    "oldest": null,
+    "latest3": [],
+    "subscribers_og": null
+   },
+   "acczone_logs": {
+    "http": 200,
+    "n": 0,
+    "newest": null,
+    "oldest": null,
+    "latest3": [],
+    "subscribers_og": null
+   },
+   "Gemini_Shop_Robot": {
+    "http": 200,
+    "n": 0,
+    "newest": null,
+    "oldest": null,
+    "latest3": [],
+    "subscribers_og": null
+   },
+   "Mike_E_0": {
+    "http": 200,
+    "n": 0,
+    "newest": null,
+    "oldest": null,
+    "latest3": [],
+    "subscribers_og": null
+   }
+  },
+  "sites": {
+   "gpt.status": {
+    "http": 200,
+    "size": 2663,
+    "title": ""
+   },
+   "gpt.pricing_version": {
+    "http": 200,
+    "size": 4487,
+    "pricing_version": "a42d372ccf0b5dd13ecf71203521f9d2",
+    "n_models": 15
+   },
+   "redeem.teamsoclo.site": {
+    "http": 200,
+    "size": 19367,
+    "title": "Đổi mã CDK"
+   },
+   "jcc.workers.dev": {
+    "http": 200,
+    "size": 39057,
+    "title": "JCC Key Portal"
+   },
+   "nikokey.com": {
+    "http": 200,
+    "size": 11020,
+    "title": "NikoAI — Applied AI & Software Solutions"
+   },
+   "aiversehub.store": {
+    "http": 0,
+    "size": 25
+   },
+   "teamsoclo.site_root": {
+    "http": 0,
+    "size": 62
+   }
+  }
+ }
+}

@@ -1,0 +1,5289 @@
+{
+ "page": {
+  "id": "3e758a07-79e8-819c-872c-e119effe608e",
+  "title": "🔁 Operating Protocol — Notion-First ChatGPT ↔ Claude Relay",
+  "url": "https://app.notion.com/p/Operating-Protocol-Notion-First-ChatGPT-Claude-Relay-3e758a0779e8819c872ce119effe608e"
+ },
+ "blocks": [
+  {
+   "object": "block",
+   "id": "76c53dd5-1e4d-41b5-99c7-f24b2e383496",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Purpose",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Purpose",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "a48ce270-58e5-4bf2-a847-4e0dcf1e2b77",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Notion is the persistent system of record. Chat is only the transport channel.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Notion is the persistent system of record. Chat is only the transport channel.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "413e063a-a8d3-4e65-9026-5d51edd0a13d",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "The user should only need to send the current work/request to ChatGPT. ChatGPT prepares the next handoff. The user pastes the prepared handoff to Claude. Claude returns its result. The user pastes Claude's result back to ChatGPT. ChatGPT archives the result, audits it, updates the working state, and prepares the next handoff.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "The user should only need to send the current work/request to ChatGPT. ChatGPT prepares the next handoff. The user pastes the prepared handoff to Claude. Claude returns its result. The user pastes Claude's result back to ChatGPT. ChatGPT archives the result, audits it, updates the working state, and prepares the next handoff.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "74a2460f-7c4f-4d7e-b1f7-e385b9592e89",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T17:49:00.000Z",
+   "last_edited_time": "2026-09-26T17:49:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Project-Scope Authorization",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Project-Scope Authorization",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "06df81cc-1658-4513-b0c5-54f97b6ebbab",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T17:49:00.000Z",
+   "last_edited_time": "2026-09-26T17:49:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "All Notion pages, databases, records, and artifacts that are directly linked to the ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "All Notion pages, databases, records, and artifacts that are directly linked to the ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "Adaptive Supplier Intelligence Research Engine",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Adaptive Supplier Intelligence Research Engine",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " are considered authorized working surfaces for the project's normal operating cycle. ChatGPT may read, relate, archive, update, organize, and maintain these project-linked surfaces in whatever way is operationally appropriate for ChatGPT↔Claude collaboration, while preserving authority boundaries and user approval gates. This authorization applies only to project-linked material; unrelated projects, files, pages, databases, and records remain outside scope unless the user explicitly authorizes their use.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " are considered authorized working surfaces for the project's normal operating cycle. ChatGPT may read, relate, archive, update, organize, and maintain these project-linked surfaces in whatever way is operationally appropriate for ChatGPT↔Claude collaboration, while preserving authority boundaries and user approval gates. This authorization applies only to project-linked material; unrelated projects, files, pages, databases, and records remain outside scope unless the user explicitly authorizes their use.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "f918a5c8-e8b9-4e20-95cd-99791a0d66f8",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Authoritative Architecture",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Authoritative Architecture",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "33a2bc01-425c-4d7b-9625-6b1340267401",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "ChatGPT Workspace",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "ChatGPT Workspace",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " = review, audit, analysis, validation, repair control.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " = review, audit, analysis, validation, repair control.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "d38bb190-589c-446b-b884-aa2b1fe0d22e",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Claude Workspace",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Claude Workspace",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " = research, development, experimentation, draft/candidate production.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " = research, development, experimentation, draft/candidate production.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "412ebc76-f97e-44ba-977a-032421a3c467",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Canonical Registry",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Canonical Registry",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " = only authoritative location for an Approved Prompt.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " = only authoritative location for an Approved Prompt.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "5fcc054b-2f95-49ed-92ee-9a6c856530b7",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Interaction Archive",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Interaction Archive",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " = immutable working history of every cycle, handoff, response, audit, decision, and canonical update.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " = immutable working history of every cycle, handoff, response, audit, decision, and canonical update.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "fc0f6a9c-5035-4f5c-9afa-54d645d1ea7a",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T17:58:00.000Z",
+   "last_edited_time": "2026-09-26T17:58:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Edit Authority Matrix",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Edit Authority Matrix",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "09ca506b-819c-4ae0-9826-e17be8d5b00f",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T17:58:00.000Z",
+   "last_edited_time": "2026-09-26T17:58:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": true,
+   "in_trash": false,
+   "type": "table",
+   "table": {
+    "table_width": 4,
+    "has_column_header": true,
+    "has_row_header": false
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "1adc5af6-1469-4812-baf0-ce3ba9d6e455",
+   "parent": {
+    "type": "block_id",
+    "block_id": "09ca506b-819c-4ae0-9826-e17be8d5b00f"
+   },
+   "created_time": "2026-09-26T17:58:00.000Z",
+   "last_edited_time": "2026-09-26T17:58:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "table_row",
+   "table_row": {
+    "cells": [
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Surface",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Surface",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Claude",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Claude",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "ChatGPT",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ChatGPT",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "User",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "User",
+       "href": null
+      }
+     ]
+    ]
+   },
+   "archived": false,
+   "_depth": 1
+  },
+  {
+   "object": "block",
+   "id": "cc050794-d10b-4749-b72f-462064b442cd",
+   "parent": {
+    "type": "block_id",
+    "block_id": "09ca506b-819c-4ae0-9826-e17be8d5b00f"
+   },
+   "created_time": "2026-09-26T17:58:00.000Z",
+   "last_edited_time": "2026-09-26T17:58:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "table_row",
+   "table_row": {
+    "cells": [
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Claude Workspace",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Claude Workspace",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Edit",
+        "link": null
+       },
+       "annotations": {
+        "bold": true,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Edit",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Read via transferred context only",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Read via transferred context only",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Full authority",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Full authority",
+       "href": null
+      }
+     ]
+    ]
+   },
+   "archived": false,
+   "_depth": 1
+  },
+  {
+   "object": "block",
+   "id": "40fece9a-9e95-47b9-b42f-5a44a01edcd0",
+   "parent": {
+    "type": "block_id",
+    "block_id": "09ca506b-819c-4ae0-9826-e17be8d5b00f"
+   },
+   "created_time": "2026-09-26T17:58:00.000Z",
+   "last_edited_time": "2026-09-26T17:58:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "table_row",
+   "table_row": {
+    "cells": [
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "ChatGPT Workspace",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "ChatGPT Workspace",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Read via transferred context only",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Read via transferred context only",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Edit",
+        "link": null
+       },
+       "annotations": {
+        "bold": true,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Edit",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Full authority",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Full authority",
+       "href": null
+      }
+     ]
+    ]
+   },
+   "archived": false,
+   "_depth": 1
+  },
+  {
+   "object": "block",
+   "id": "d06b279d-1d31-473f-a0b6-1a9a24958d7f",
+   "parent": {
+    "type": "block_id",
+    "block_id": "09ca506b-819c-4ae0-9826-e17be8d5b00f"
+   },
+   "created_time": "2026-09-26T17:58:00.000Z",
+   "last_edited_time": "2026-09-26T17:58:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "table_row",
+   "table_row": {
+    "cells": [
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Prompt Working Reference",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Prompt Working Reference",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Edit Prompt Text / Draft Evolution only",
+        "link": null
+       },
+       "annotations": {
+        "bold": true,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Edit Prompt Text / Draft Evolution only",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Read / audit / comment through findings",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Read / audit / comment through findings",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Full authority",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Full authority",
+       "href": null
+      }
+     ]
+    ]
+   },
+   "archived": false,
+   "_depth": 1
+  },
+  {
+   "object": "block",
+   "id": "2c84b4fd-822b-42a6-823c-1f027b1c1d05",
+   "parent": {
+    "type": "block_id",
+    "block_id": "09ca506b-819c-4ae0-9826-e17be8d5b00f"
+   },
+   "created_time": "2026-09-26T17:58:00.000Z",
+   "last_edited_time": "2026-09-26T17:58:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "table_row",
+   "table_row": {
+    "cells": [
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Canonical Registry metadata and approval state",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Canonical Registry metadata and approval state",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "No",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "No",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "No",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "No",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Sole authority",
+        "link": null
+       },
+       "annotations": {
+        "bold": true,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Sole authority",
+       "href": null
+      }
+     ]
+    ]
+   },
+   "archived": false,
+   "_depth": 1
+  },
+  {
+   "object": "block",
+   "id": "323fc6be-83a7-4d54-afd8-206bf30a8c77",
+   "parent": {
+    "type": "block_id",
+    "block_id": "09ca506b-819c-4ae0-9826-e17be8d5b00f"
+   },
+   "created_time": "2026-09-26T17:58:00.000Z",
+   "last_edited_time": "2026-09-26T17:58:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "table_row",
+   "table_row": {
+    "cells": [
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Version Registry",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Version Registry",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "No direct editing",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "No direct editing",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Maintain review/analysis records; do not self-promote",
+        "link": null
+       },
+       "annotations": {
+        "bold": true,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Maintain review/analysis records; do not self-promote",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Approval/Promotion authority",
+        "link": null
+       },
+       "annotations": {
+        "bold": true,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Approval/Promotion authority",
+       "href": null
+      }
+     ]
+    ]
+   },
+   "archived": false,
+   "_depth": 1
+  },
+  {
+   "object": "block",
+   "id": "2c81ffe5-cc80-421d-b799-154df8b19c42",
+   "parent": {
+    "type": "block_id",
+    "block_id": "09ca506b-819c-4ae0-9826-e17be8d5b00f"
+   },
+   "created_time": "2026-09-26T17:58:00.000Z",
+   "last_edited_time": "2026-09-26T17:58:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "table_row",
+   "table_row": {
+    "cells": [
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Decision Log",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Decision Log",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "May propose",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "May propose",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "May propose and maintain records",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "May propose and maintain records",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Final decision authority",
+        "link": null
+       },
+       "annotations": {
+        "bold": true,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Final decision authority",
+       "href": null
+      }
+     ]
+    ]
+   },
+   "archived": false,
+   "_depth": 1
+  },
+  {
+   "object": "block",
+   "id": "d94a7b12-696e-4d51-86ba-a9932ca4fd35",
+   "parent": {
+    "type": "block_id",
+    "block_id": "09ca506b-819c-4ae0-9826-e17be8d5b00f"
+   },
+   "created_time": "2026-09-26T17:58:00.000Z",
+   "last_edited_time": "2026-09-26T17:58:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "table_row",
+   "table_row": {
+    "cells": [
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Interaction Archive",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Interaction Archive",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Provide source material",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Provide source material",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Archive and maintain",
+        "link": null
+       },
+       "annotations": {
+        "bold": true,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Archive and maintain",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Full authority",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Full authority",
+       "href": null
+      }
+     ]
+    ]
+   },
+   "archived": false,
+   "_depth": 1
+  },
+  {
+   "object": "block",
+   "id": "ef62e603-4b7d-451c-9bb7-90cb2ee8a384",
+   "parent": {
+    "type": "block_id",
+    "block_id": "09ca506b-819c-4ae0-9826-e17be8d5b00f"
+   },
+   "created_time": "2026-09-26T17:58:00.000Z",
+   "last_edited_time": "2026-09-26T17:58:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "table_row",
+   "table_row": {
+    "cells": [
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Operating Protocol / governance rules",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Operating Protocol / governance rules",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "May propose",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "May propose",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "May maintain implementation records and proposals",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "May maintain implementation records and proposals",
+       "href": null
+      }
+     ],
+     [
+      {
+       "type": "text",
+       "text": {
+        "content": "Final authority on governance",
+        "link": null
+       },
+       "annotations": {
+        "bold": true,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Final authority on governance",
+       "href": null
+      }
+     ]
+    ]
+   },
+   "archived": false,
+   "_depth": 1
+  },
+  {
+   "object": "block",
+   "id": "3f266f43-7d4b-42a5-bdbb-6c5eddf04d46",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T17:58:00.000Z",
+   "last_edited_time": "2026-09-26T17:58:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_3",
+   "heading_3": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Boundary Rules",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Boundary Rules",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "9bfd87e1-e54f-46c7-9000-516d2a2ff6fe",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T17:58:00.000Z",
+   "last_edited_time": "2026-09-26T17:58:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "numbered_list_item",
+   "numbered_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Each agent edits only the workspace it owns.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Each agent edits only the workspace it owns.",
+      "href": null
+     }
+    ],
+    "color": "default",
+    "list_format": "numbers"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "1015fb8d-0455-401d-9b47-6a4aed51d27b",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T17:58:00.000Z",
+   "last_edited_time": "2026-09-26T17:58:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "numbered_list_item",
+   "numbered_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "The ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "The ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "Prompt Working Reference",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Prompt Working Reference",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " is the only shared prompt-development surface that Claude may directly edit. Claude may change prompt text and draft evolution there, but may not alter Canonical authority, approval status, governance rules, or unrelated records.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " is the only shared prompt-development surface that Claude may directly edit. Claude may change prompt text and draft evolution there, but may not alter Canonical authority, approval status, governance rules, or unrelated records.",
+      "href": null
+     }
+    ],
+    "color": "default",
+    "list_format": "numbers"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "de6c6b1e-2b8e-4add-a312-edff470c7e7a",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T17:58:00.000Z",
+   "last_edited_time": "2026-09-26T17:58:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "numbered_list_item",
+   "numbered_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "ChatGPT does not directly rewrite Claude's workspace or Claude's Prompt Working Reference. It audits, identifies repairs, and records findings in its own workspace.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "ChatGPT does not directly rewrite Claude's workspace or Claude's Prompt Working Reference. It audits, identifies repairs, and records findings in its own workspace.",
+      "href": null
+     }
+    ],
+    "color": "default",
+    "list_format": "numbers"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "1b091b1f-e056-4515-8086-efa8d1d5f00e",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T17:58:00.000Z",
+   "last_edited_time": "2026-09-26T17:58:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "numbered_list_item",
+   "numbered_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "ChatGPT may update project-linked operational records, archives, audits, and review state, but it must not promote a Candidate, mark a Prompt Approved, or silently change governance.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "ChatGPT may update project-linked operational records, archives, audits, and review state, but it must not promote a Candidate, mark a Prompt Approved, or silently change governance.",
+      "href": null
+     }
+    ],
+    "color": "default",
+    "list_format": "numbers"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "c3bdae54-2e7a-45e6-b53e-742c9698462c",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T17:58:00.000Z",
+   "last_edited_time": "2026-09-26T17:58:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "numbered_list_item",
+   "numbered_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "The Canonical Registry remains protected: its authority, approval state, version lineage, and promotion gates are never changed by either agent without the user's explicit decision.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "The Canonical Registry remains protected: its authority, approval state, version lineage, and promotion gates are never changed by either agent without the user's explicit decision.",
+      "href": null
+     }
+    ],
+    "color": "default",
+    "list_format": "numbers"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "e48ab640-ec21-4f86-87f2-3286c8ac5c49",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T17:58:00.000Z",
+   "last_edited_time": "2026-09-26T17:58:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "numbered_list_item",
+   "numbered_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Neither agent may delete historical records, silently merge competing Candidates, or overwrite authoritative source text with an inferred reconstruction.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Neither agent may delete historical records, silently merge competing Candidates, or overwrite authoritative source text with an inferred reconstruction.",
+      "href": null
+     }
+    ],
+    "color": "default",
+    "list_format": "numbers"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "ee0f29ed-dd0a-4b30-a6cf-eb5d52e39e63",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T17:58:00.000Z",
+   "last_edited_time": "2026-09-26T17:58:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "numbered_list_item",
+   "numbered_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "When a change affects governance, ownership, authority, promotion, permissions, or the collaboration protocol, classify it as ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "When a change affects governance, ownership, authority, promotion, permissions, or the collaboration protocol, classify it as ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "Governance-Touching",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Governance-Touching",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " and route it to the user for decision.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " and route it to the user for decision.",
+      "href": null
+     }
+    ],
+    "color": "default",
+    "list_format": "numbers"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "e077ee92-bd7b-40b5-8e05-f0c646287dc4",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T17:58:00.000Z",
+   "last_edited_time": "2026-09-26T17:58:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "numbered_list_item",
+   "numbered_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "If ownership or edit authority is ambiguous, do not edit; classify the item as ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "If ownership or edit authority is ambiguous, do not edit; classify the item as ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "Needs User Decision",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Needs User Decision",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " and preserve the ambiguity in the record.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " and preserve the ambiguity in the record.",
+      "href": null
+     }
+    ],
+    "color": "default",
+    "list_format": "numbers"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "5d9afdb0-2d39-4d27-ac3a-01a7880fd9d6",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Core Loop",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Core Loop",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "00553c9b-01db-4e38-9314-03877b35e35c",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "User Input",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "User Input",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "26b04076-6719-4084-a8b0-071a1099d39c",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "→ ChatGPT analyzes",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "→ ChatGPT analyzes",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "9013e6c3-2728-46f0-b1a5-3ba57ef2e04c",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "→ ChatGPT archives the step",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "→ ChatGPT archives the step",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "741503c8-3c1b-4bf4-84e9-65bef2407883",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "→ ChatGPT prepares one copy-ready Claude Handoff",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "→ ChatGPT prepares one copy-ready Claude Handoff",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "70d2262d-aa2f-4e5e-b497-470fad476e6f",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "→ User sends Handoff to Claude",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "→ User sends Handoff to Claude",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "c2b5ac26-9410-49bc-90b6-185d5e17a24a",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "→ Claude produces research/draft/test output",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "→ Claude produces research/draft/test output",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "d73754f1-60ff-41f6-bfeb-3ea45045fd2d",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "→ User pastes Claude output to ChatGPT",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "→ User pastes Claude output to ChatGPT",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "eb6dffe1-d713-4609-8661-330720d2d7b2",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "→ ChatGPT archives Claude output",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "→ ChatGPT archives Claude output",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "9de18149-142a-47e0-8d6e-84abd3f163da",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "→ ChatGPT audits and reconciles it against the current state",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "→ ChatGPT audits and reconciles it against the current state",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "c49e5759-2ac6-40ca-bd64-fa9ca5e7be9c",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "→ ChatGPT records findings/changes/open decisions",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "→ ChatGPT records findings/changes/open decisions",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "7f09dcf7-42d3-4120-a541-c1f940744bbf",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "→ ChatGPT prepares the next Claude Handoff",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "→ ChatGPT prepares the next Claude Handoff",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "1fc584cf-4ff4-40d3-90bf-6c0d2d8689ea",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "→ repeat",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "→ repeat",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "a3342488-7994-48d7-ab2e-017e3c49644c",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Token Preservation Rule",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Token Preservation Rule",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "f0549baf-bb38-490c-9170-c8181640461b",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Do not send the entire historical conversation to Claude on every cycle.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Do not send the entire historical conversation to Claude on every cycle.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "2adf8124-7d3f-4dec-b692-d216eb6907b2",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Each handoff must contain only the minimum sufficient context:",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Each handoff must contain only the minimum sufficient context:",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "b1aec098-6c96-4491-8439-809000a29415",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "numbered_list_item",
+   "numbered_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Current objective",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Current objective",
+      "href": null
+     }
+    ],
+    "color": "default",
+    "list_format": "numbers"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "8e4ba48f-1594-455e-bf7f-39c76ceaa793",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "numbered_list_item",
+   "numbered_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Current version/state",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Current version/state",
+      "href": null
+     }
+    ],
+    "color": "default",
+    "list_format": "numbers"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "8bfe42b2-117f-4219-83f0-e1a807109f22",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "numbered_list_item",
+   "numbered_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Relevant prior findings",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Relevant prior findings",
+      "href": null
+     }
+    ],
+    "color": "default",
+    "list_format": "numbers"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "8280923a-7bf6-4033-aff5-67e152c23edb",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "numbered_list_item",
+   "numbered_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Exact task for this cycle",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Exact task for this cycle",
+      "href": null
+     }
+    ],
+    "color": "default",
+    "list_format": "numbers"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "5df9b47f-02e2-4acb-bd92-3adeb56f2cf1",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "numbered_list_item",
+   "numbered_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Tests/constraints that matter",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Tests/constraints that matter",
+      "href": null
+     }
+    ],
+    "color": "default",
+    "list_format": "numbers"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "7c73cd77-c032-4997-bc43-afa9d74300a7",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "numbered_list_item",
+   "numbered_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Required output format",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Required output format",
+      "href": null
+     }
+    ],
+    "color": "default",
+    "list_format": "numbers"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "c72aa564-6076-4a24-b807-d0c67b19405e",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "numbered_list_item",
+   "numbered_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "References to the persistent Notion records",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "References to the persistent Notion records",
+      "href": null
+     }
+    ],
+    "color": "default",
+    "list_format": "numbers"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "f150d28c-de3a-48c5-ba70-09731fe17533",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "The detailed history remains in Notion.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "The detailed history remains in Notion.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "a6e39337-fec2-4d96-8986-b0fc54b9a118",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Archive Rule",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Archive Rule",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "23508a5b-4845-43e2-aab4-28585bad6e41",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Every meaningful transition is archived as a separate Interaction Archive record:",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Every meaningful transition is archived as a separate Interaction Archive record:",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "611c4e2f-6fd1-4c98-ab7a-0c15c8cc16f1",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "User Input",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "User Input",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "81e24851-b58d-45a7-be1f-ecec6ad4fdfe",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "ChatGPT Analysis",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "ChatGPT Analysis",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "7d2b3821-3919-4f34-add6-3cee6a5822a4",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Claude Handoff",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Claude Handoff",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "90077977-c861-4eee-bc12-c45e23feae70",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Claude Response",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Claude Response",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "120d2d9d-89a1-4a41-a70d-88d770206ee9",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "ChatGPT Audit",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "ChatGPT Audit",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "55e0052f-0f51-4e32-b623-04cd5c167364",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Decision",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Decision",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "14454267-df70-47cc-a7a2-4901ecbe350f",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Canonical Update",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Canonical Update",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "6ea2e1e0-9c0a-4ff6-8e95-b64b4c923af0",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "No step is considered part of the durable project state until it is archived.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "No step is considered part of the durable project state until it is archived.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "df552918-d42d-4cb7-8052-eee2b6227c0d",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Handoff Rule",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Handoff Rule",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "61ca16b3-97ca-4262-ab67-8b1130243660",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "ChatGPT must produce exactly one primary copy-ready message for Claude per cycle.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "ChatGPT must produce exactly one primary copy-ready message for Claude per cycle.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "a34d0c51-e479-465d-ab66-4fbdd009d61f",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "The handoff must identify:",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "The handoff must identify:",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "461c2c36-decc-4662-8566-798bd7cde804",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Version ID",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Version ID",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "dd721388-4547-4a46-8e38-ff61c94122c1",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Parent Version ID",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Parent Version ID",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "ba313a9e-c12f-422b-a071-2ddef0ae27f7",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Current state",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Current state",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "c4364623-9eb2-4c9c-9eed-1dc3dad0fda5",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Objective",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Objective",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "a1c62f97-d4b6-49a0-bcf5-fa5b71d1d31f",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Scope",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Scope",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "284a793f-2ab3-40af-af11-4ac33964931a",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Task",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Task",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "49ea2a1c-5d13-4282-922b-5ba771621a8a",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Evidence requirements",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Evidence requirements",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "260de71f-722b-42cc-8682-5129fb663c31",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Tests",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Tests",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "0299c276-b505-4ce6-882c-0bb86c3d3d44",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Constraints",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Constraints",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "ce2c934a-ba3c-4627-ac26-1f6232efde89",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Required output",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Required output",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "0386f9f7-54a9-4582-8785-fff1f8abf83f",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Notion archive references",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Notion archive references",
+      "href": null
+     }
+    ],
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "f93e8a18-d98d-4c43-917a-b03bec3d88c1",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Claude must not be asked to edit the Canonical Registry during validation unless explicitly authorized.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Claude must not be asked to edit the Canonical Registry during validation unless explicitly authorized.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "72b75109-a496-4e33-bdd8-dc520fbbb105",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Response Rule",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Response Rule",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "f6a94f52-9f6e-44c8-aef8-88e7b21cf80b",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "When Claude responds, the user should paste the response into ChatGPT without manually summarizing it.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "When Claude responds, the user should paste the response into ChatGPT without manually summarizing it.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "3d916108-8f4e-4f5e-bb79-527dfd24bf38",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "ChatGPT then:",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "ChatGPT then:",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "cbcd8d05-29e2-42ce-8b08-87c010586455",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "numbered_list_item",
+   "numbered_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Archives the raw response.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Archives the raw response.",
+      "href": null
+     }
+    ],
+    "color": "default",
+    "list_format": "numbers"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "f1ecf95f-9025-4e62-8810-430cab9bb1f6",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "numbered_list_item",
+   "numbered_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Extracts findings.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Extracts findings.",
+      "href": null
+     }
+    ],
+    "color": "default",
+    "list_format": "numbers"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "5348b000-17e0-4943-9d66-e168843147d6",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "numbered_list_item",
+   "numbered_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Validates claims/evidence.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Validates claims/evidence.",
+      "href": null
+     }
+    ],
+    "color": "default",
+    "list_format": "numbers"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "7d958c25-40f2-455f-bcc1-c8a540700b1a",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "numbered_list_item",
+   "numbered_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Compares against the current Candidate/Canonical state.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Compares against the current Candidate/Canonical state.",
+      "href": null
+     }
+    ],
+    "color": "default",
+    "list_format": "numbers"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "93cbf968-818a-4b01-8ba3-f9f40348d1b1",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "numbered_list_item",
+   "numbered_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Identifies repairs.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Identifies repairs.",
+      "href": null
+     }
+    ],
+    "color": "default",
+    "list_format": "numbers"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "38274644-3c9d-4e49-bcb2-5db17f3e587a",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "numbered_list_item",
+   "numbered_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Separates technical repairs from governance decisions.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Separates technical repairs from governance decisions.",
+      "href": null
+     }
+    ],
+    "color": "default",
+    "list_format": "numbers"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "dac61ac6-f34b-420d-90da-661b4b2cd921",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "numbered_list_item",
+   "numbered_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Updates Notion records.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Updates Notion records.",
+      "href": null
+     }
+    ],
+    "color": "default",
+    "list_format": "numbers"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "ebdfeeec-16b1-47af-bc37-041ae95169db",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "numbered_list_item",
+   "numbered_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Prepares the next single handoff message.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Prepares the next single handoff message.",
+      "href": null
+     }
+    ],
+    "color": "default",
+    "list_format": "numbers"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "89036c0d-c759-4e17-84cf-8847f5f453b8",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Governance",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Governance",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "a18939fb-eaf1-4d08-a2af-802fd01a6433",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "No Candidate becomes Approved automatically.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "No Candidate becomes Approved automatically.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "9f943e04-8e3a-4d58-89a5-c21791548872",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "No historical record is deleted merely because it is superseded.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "No historical record is deleted merely because it is superseded.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "65b5997e-1660-409a-8b05-8fabfcb4d171",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "No governance rule is inferred from a technical suggestion.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "No governance rule is inferred from a technical suggestion.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "99caa561-8657-40e7-bb8a-d882c623bda1",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "No competing Candidate is silently merged.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "No competing Candidate is silently merged.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "3796dcf6-adb8-4c0c-9767-9f5803a2a098",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "No stale Candidate is promoted without rebase.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "No stale Candidate is promoted without rebase.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "ce333eff-13c7-4eb2-94a6-6bdcab9a3780",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Current State",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Current State",
+      "href": null
+     }
+    ],
+    "is_toggleable": false,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "9aae95ae-a6a1-4b81-b300-9872d9771b32",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Current Candidate: v4.1",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Current Candidate: v4.1",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "a820462a-3726-4b5a-a66f-9dadc275d138",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "v4.0: preserved as historical baseline comparator.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "v4.0: preserved as historical baseline comparator.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "65ddabc5-d842-40be-9ad6-cba5196fefe1",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Approved Prompt: none.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Approved Prompt: none.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "73ec19ca-2c62-4982-9c43-8825ebc3fff7",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Open Governance Decision: bootstrap rule for first approval when Approved state is empty.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Open Governance Decision: bootstrap rule for first approval when Approved state is empty.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  },
+  {
+   "object": "block",
+   "id": "dcd12d59-6299-4600-95c6-5a6f81e40719",
+   "parent": {
+    "type": "page_id",
+    "page_id": "3e758a07-79e8-819c-872c-e119effe608e"
+   },
+   "created_time": "2026-09-26T16:54:00.000Z",
+   "last_edited_time": "2026-09-26T16:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "has_children": false,
+   "in_trash": false,
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Current next step: independent Claude validation of v4.1.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Current next step: independent Claude validation of v4.1.",
+      "href": null
+     }
+    ],
+    "icon": null,
+    "color": "default"
+   },
+   "archived": false
+  }
+ ]
+}

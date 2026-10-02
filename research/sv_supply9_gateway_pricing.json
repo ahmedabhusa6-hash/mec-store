@@ -1,0 +1,264 @@
+{
+ "auto_groups": [
+  "default"
+ ],
+ "data": [
+  {
+   "model_name": "claude-opus-4-6",
+   "vendor_id": 2,
+   "quota_type": 0,
+   "model_ratio": 2.5,
+   "model_price": 0,
+   "owner_by": "",
+   "completion_ratio": 5,
+   "cache_ratio": 0.1,
+   "create_cache_ratio": 1.25,
+   "enable_groups": [
+    "svip"
+   ],
+   "supported_endpoint_types": [
+    "anthropic",
+    "openai"
+   ],
+   "billing_mode": "tiered_expr",
+   "billing_expr": "tier(\"base\", p * 7 + c * 7)",
+   "pricing_version": "5a90f2b86c08bd983a9a2e6d66c255f4eaef9c4bc934386d2b6ae84ef0ff1f1f"
+  },
+  {
+   "model_name": "claude-opus-4-7",
+   "vendor_id": 2,
+   "quota_type": 0,
+   "model_ratio": 2.5,
+   "model_price": 0,
+   "owner_by": "",
+   "completion_ratio": 5,
+   "cache_ratio": 0.1,
+   "create_cache_ratio": 1.25,
+   "enable_groups": [
+    "svip"
+   ],
+   "supported_endpoint_types": [
+    "anthropic",
+    "openai"
+   ],
+   "billing_mode": "tiered_expr",
+   "billing_expr": "tier(\"base\", p * 7 + c * 7)"
+  },
+  {
+   "model_name": "claude-opus-4-8",
+   "vendor_id": 2,
+   "quota_type": 0,
+   "model_ratio": 3,
+   "model_price": 0,
+   "owner_by": "",
+   "completion_ratio": 5,
+   "enable_groups": [
+    "svip"
+   ],
+   "supported_endpoint_types": [
+    "anthropic",
+    "openai"
+   ],
+   "billing_mode": "tiered_expr",
+   "billing_expr": "tier(\"base\", p * 7 + c * 7)"
+  },
+  {
+   "model_name": "claude-opus-5",
+   "vendor_id": 2,
+   "quota_type": 0,
+   "model_ratio": 3,
+   "model_price": 0,
+   "owner_by": "",
+   "completion_ratio": 1,
+   "enable_groups": [
+    "svip"
+   ],
+   "supported_endpoint_types": [
+    "anthropic",
+    "openai"
+   ],
+   "billing_mode": "tiered_expr",
+   "billing_expr": "tier(\"base\", p * 7 + c * 7)"
+  },
+  {
+   "model_name": "claude-sonnet-4-6",
+   "vendor_id": 2,
+   "quota_type": 0,
+   "model_ratio": 37.5,
+   "model_price": 0,
+   "owner_by": "",
+   "completion_ratio": 5,
+   "enable_groups": [
+    "svip"
+   ],
+   "supported_endpoint_types": [
+    "anthropic",
+    "openai"
+   ],
+   "billing_mode": "tiered_expr",
+   "billing_expr": "tier(\"base\", p * 6 + c * 6)"
+  },
+  {
+   "model_name": "gpt-astra",
+   "vendor_id": 1,
+   "quota_type": 0,
+   "model_ratio": 37.5,
+   "model_price": 0,
+   "owner_by": "",
+   "completion_ratio": 2,
+   "enable_groups": [
+    "vip",
+    "astra"
+   ],
+   "supported_endpoint_types": [
+    "openai"
+   ],
+   "billing_mode": "tiered_expr",
+   "billing_expr": "tier(\"base\", p * 66 + c * 66)"
+  },
+  {
+   "model_name": "claude-sonnet-5",
+   "vendor_id": 2,
+   "quota_type": 0,
+   "model_ratio": 37.5,
+   "model_price": 0,
+   "owner_by": "",
+   "completion_ratio": 1,
+   "enable_groups": [
+    "svip"
+   ],
+   "supported_endpoint_types": [
+    "anthropic",
+    "openai"
+   ],
+   "billing_mode": "tiered_expr",
+   "billing_expr": "tier(\"base\", p * 5 + c * 5)"
+  },
+  {
+   "model_name": "claude-opus-5-5",
+   "vendor_id": 2,
+   "quota_type": 0,
+   "model_ratio": 37.5,
+   "model_price": 0,
+   "owner_by": "",
+   "completion_ratio": 1,
+   "enable_groups": [
+    "svip"
+   ],
+   "supported_endpoint_types": [
+    "anthropic",
+    "openai"
+   ],
+   "billing_mode": "tiered_expr",
+   "billing_expr": "tier(\"base\", p * 7 + c * 7)"
+  },
+  {
+   "model_name": "claude-fable-5-1",
+   "vendor_id": 2,
+   "quota_type": 0,
+   "model_ratio": 37.5,
+   "model_price": 0,
+   "owner_by": "",
+   "completion_ratio": 1,
+   "enable_groups": [
+    "svip"
+   ],
+   "supported_endpoint_types": [
+    "anthropic",
+    "openai"
+   ],
+   "billing_mode": "tiered_expr",
+   "billing_expr": "tier(\"base\", p * 13 + c * 13)"
+  },
+  {
+   "model_name": "gpt-5.6-sol",
+   "vendor_id": 1,
+   "quota_type": 0,
+   "model_ratio": 3,
+   "model_price": 0,
+   "owner_by": "",
+   "completion_ratio": 1,
+   "enable_groups": [
+    "normal",
+    "default"
+   ],
+   "supported_endpoint_types": [
+    "openai"
+   ]
+  },
+  {
+   "model_name": "gpt-6-astra",
+   "vendor_id": 1,
+   "quota_type": 0,
+   "model_ratio": 30,
+   "model_price": 0,
+   "owner_by": "",
+   "completion_ratio": 1,
+   "enable_groups": [
+    "normal",
+    "vip",
+    "astra",
+    "default"
+   ],
+   "supported_endpoint_types": [
+    "openai"
+   ]
+  },
+  {
+   "model_name": "claude-fable-5",
+   "vendor_id": 2,
+   "quota_type": 0,
+   "model_ratio": 5,
+   "model_price": 0,
+   "owner_by": "",
+   "completion_ratio": 1,
+   "enable_groups": [
+    "svip"
+   ],
+   "supported_endpoint_types": [
+    "anthropic",
+    "openai"
+   ],
+   "billing_mode": "tiered_expr",
+   "billing_expr": "tier(\"base\", p * 13 + c * 13)"
+  }
+ ],
+ "group_ratio": {
+  "astra": 1,
+  "default": 1,
+  "normal": 1,
+  "svip": 1,
+  "vip": 1
+ },
+ "pricing_version": "a42d372ccf0b5dd13ecf71203521f9d2",
+ "success": true,
+ "supported_endpoint": {
+  "anthropic": {
+   "path": "/v1/messages",
+   "method": "POST"
+  },
+  "openai": {
+   "path": "/v1/chat/completions",
+   "method": "POST"
+  }
+ },
+ "usable_group": {
+  "astra": "",
+  "default": "默认分组",
+  "normal": "",
+  "svip": "",
+  "vip": "vip分组"
+ },
+ "vendors": [
+  {
+   "id": 1,
+   "name": "OpenAI",
+   "icon": "OpenAI"
+  },
+  {
+   "id": 2,
+   "name": "Anthropic",
+   "icon": "Claude.Color"
+  }
+ ]
+}

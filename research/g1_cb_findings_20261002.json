@@ -1,0 +1,43 @@
+{
+ "task": "G-1 CLOSURE SCAN — cb_ supplier identification",
+ "execution_timestamp": "2026-10-02T03:25",
+ "reference": "PMRF v1.0 §18 G-1",
+ "method": "Passive OSINT: decohomz.com/sv-api/products (list+detail) + archived catalog forensics (Mongo ObjectId timestamps, machine/PID fingerprints, counter interleaving, template matching)",
+ "verdict": {
+  "G1_status": "PARTIALLY_RESOLVED — architecture VERIFIED, brand name UNKNOWN",
+  "finding_1_same_database": "cb_ and ps_ draw from the SAME MongoDB product database: 151/197 name-matched products share byte-identical ObjectIds; 8 machine+PID fingerprint combos shared (dominant 527120/3cb1 x216 records, 86b424/2014 x58, a85f27/74f2 x39); identical daily creation patterns Jun-01->Oct-01; perfect counter interleaving on 18/09 burst (alternation 200% = dual-track record creation)",
+  "finding_2_wholesale_panel": "The upstream is a multi-tenant wholesale panel (Vietnamese ecosystem) aggregating: teamsoclo gateway credits (22 Codex/[Astra] products with gpt.teamsoclo.site + redeem + docs + t.me/teamsoclo links), ChatGPT/Gemini accounts, Gmail/Facebook/social services, Grok upgrades, Lovable, AWS, LART AI",
+  "finding_3_prodseller_relationship": "ProdSeller (ps_) = an API window into the same panel; its own storefront (26 items 29/09) is a curated subset; 15/26 storefront names matched the ps_ universe; after the switch StackVault kept ps_ ONLY for the CapCut line (20 items = ProdSeller's own inventory)",
+  "finding_4_schema_upgrade": "cb_ feed exposes a richer schema than ps_ archive: +categoryEmoji, +requiresEmail, structured categories (discord/codex/gmail/tiktok/grok/chatgpt/twitter), -costPrice (leak closed). Model: panel platform upgrade between 30/09 and 02/10 + new connection credentials (new prefix cb_)",
+  "finding_5_teamsoclo_coupling": "Live cb_ Codex descriptions updated with the 02/10 gateway lineup (gpt-5.6-sol, gpt-6-sol, gpt-6.1-sol, gpt-6-luna) vs archived single-model text; +Video tinyurl link. Grok line (5 products) appeared in cb_ concurrent with teamsoclo's 'Grok coming soon' announcement 01/10 05:44 UTC. The cb_ supplier is tightly coupled to teamsoclo's product launches",
+  "finding_6_new_products": "32 cb_ products absent from ps_ archive: Grok x5 ($4.58-$65.36 incl Grok xAI API key $100 1M $47.99), Gmail x7 (US/HK numbers, old-date), Facebook services x6 (flow/blue tick/via), Lovable x5, AWS $150 redeem, LART AI x2, KLING, Capcut 5-7D $0.18, ChatGPT Plus 3D $8.79",
+  "finding_7_prices": "197 re-pointed products keep SV retail ~unchanged (0 to -6%); migration-window re-listings (29/09-01/10) show active panel catalog management: ChatGPT Plus full warranty re-listed twice ($12.02 29/09 + $11.79 30/09), newest record 01/10 08:27 UTC (Plus 3D) — 2.7h after teamsoclo's Grok announcement",
+  "finding_8_brand_unknown": "'cb' prefix appears in zero of 6 channel-history archives (~700 messages scanned); StackVault frontend JS exposes no supplier metadata; /sv-api has no suppliers endpoint; product detail endpoint reveals no seller field. Brand = UNKNOWN",
+  "hypothesis_ranking": [
+   {
+    "h": "cb_ = direct/upgraded panel account (panel itself or higher-tier connection)",
+    "confidence": "high",
+    "basis": "richer schema + same DB + teamsoclo coupling"
+   },
+   {
+    "h": "cb_ = second reseller on the same panel (like ProdSeller)",
+    "confidence": "medium",
+    "basis": "multi-tenant model possible; prefix=per-connection label"
+   },
+   {
+    "h": "cb_ = ProdSeller rebranded/new API version",
+    "confidence": "low",
+    "basis": "CapCut line kept on ps_ separately; 0 overlap between cb_ and ProdSeller's own storefront items"
+   }
+  ]
+ },
+ "evidence_files": [
+  "research/g1_cb_live_catalog_20261002.json (raw live catalog 282 items)",
+  "research/g1_cb_scan_20261002.json (full scan output: templates, timestamps, matching tables)",
+  "research/stackvault_live/sv_products_current.json (29-30/09 archive, 357 items with costPrice)",
+  "research/prodseller_live/products_fresh.json (ProdSeller API 29/09, 26 items)"
+ ],
+ "assets": [
+  "scripts/g1_cb_scan.py"
+ ]
+}

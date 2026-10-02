@@ -1,0 +1,1541 @@
+{
+ "capture_reason": "NEW",
+ "captured_at": "2026-10-02T12:06:31+03:00",
+ "title": "Conversation Scope & Persistence Audit — Accounting Systems — 2026-09-30",
+ "last_edited": "2026-09-29T22:47:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3ea58a07-79e8-812c-bb6f-fd9f509499fe",
+  "created_time": "2026-09-29T22:19:00.000Z",
+  "last_edited_time": "2026-09-29T22:47:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "page_id",
+   "page_id": "3e658a07-79e8-812b-94dd-c53cd6689569"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "title": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Conversation Scope & Persistence Audit — Accounting Systems — 2026-09-30",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Conversation Scope & Persistence Audit — Accounting Systems — 2026-09-30",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/Conversation-Scope-Persistence-Audit-Accounting-Systems-2026-09-30-3ea58a0779e8812cbb6ffd9f509499fe",
+  "public_url": null,
+  "archived": false,
+  "request_id": "c7e3e857-c8a3-4fd5-9a95-8a44003d614a"
+ },
+ "block_count": 150,
+ "blocks": [
+  {
+   "id": "c1fa11d2-f903-43ee-984a-104e4e3530da",
+   "type": "callout",
+   "has_children": false,
+   "text": [
+    "Scheduler reconciliation — 2026-09-30: The current Accounting Systems scheduled automation was independently checked and is disabled. Automation ID: 6ab6ebfbb7dc8191a81d08f8ceade69e. Schedule: HOURLY. Last recorded run: 2026-09-26T14:33:35.144758Z. This supersedes the earlier statement in this page that no automation was created or modified."
+   ],
+   "created": "2026-09-29T22:47:00.000Z",
+   "edited": "2026-09-29T22:47:00.000Z"
+  },
+  {
+   "id": "f8abca33-9972-4c84-8308-72f334b04d17",
+   "type": "callout",
+   "has_children": false,
+   "text": [
+    "الغرض: سجل تدقيق لهذه المحادثة فقط، يحدد ما تم إنجازه، ما تم تثبيته في Notion، ما هو محفوظ في السياق/الذاكرة، وما يجب ألا يُفقد عند حذف المحادثة."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "134d5500-93f3-420c-8395-21ba52fcdfd0",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "1. المجال السيادي للمهمة"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "90650241-8a8c-49f6-b464-7aaaf4b94e86",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "المجالات المتداخلة في الطلب:"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "ed381a93-155a-42ba-85f5-f211ddb1b6ae",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "هندسة النظم وتصنيف الأنظمة المحاسبية."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "ec3283ee-4f8b-4dfe-982b-6ab9be4f311b",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "هندسة المعرفة وإدارة الحالة المعرفية."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "ccbc778a-0cc7-4d20-a7af-35be4cc72539",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "هندسة المعلومات والتوثيق القابل للتتبع."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "fde302a8-1c76-4f37-92dd-1c2c44f3614c",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "البحث والتحقق من الأدلة."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "6e8a4905-89e0-4454-a86c-42e7f2501cdc",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "هندسة الأوامر وصياغة التوجيهات التشغيلية."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "cd84c13a-a406-4ade-9f27-8deb9c15434f",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "حوكمة السجل والتكامل بين Conversation ↔ Notion ↔ Persistent Context."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "059ef6dc-e920-42a6-9f14-e98db70f8bb2",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "التخصص السيادي: هندسة المعرفة والحوكمة التشغيلية للمعرفة (Knowledge Systems Engineering & Governance)، لأنها الطبقة التي تضبط استخراج المعرفة، التحقق، التصنيف، provenance، الحالة، الاستمرارية، والتحديث عبر الزمن."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "3e8d382a-fd52-4b14-90ac-98a5bba40c2e",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "2. ما حدث فعلياً في هذه المحادثة"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "85da49d5-8cc8-49da-888e-6492a34c0555",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "تطورت العملية من بناء تصنيف محاسبي أولي إلى نظام تصنيف متعدد الأبعاد قائم على الأدلة، ثم إلى تدقيق سلامة السجل."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "543a47b4-a4e7-4ecf-895f-caaa366f6a20",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "النتائج التشغيلية الرئيسية:"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "e837777d-eff3-457c-be0f-edb597ed75ac",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "تثبيت Functional Scope كـ taxonomy dimension فعّال."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "6c3c1d88-25c0-4fb8-b942-00262a9099c2",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "تثبيت قاعدة Scope-before-Label كقاعدة التصنيف الحاكمة لـ System_Type."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "07649e59-cf65-4b64-b9d5-21e47e9b01b1",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "اختبار Edition/Plan divergence عبر Microsoft Business Central؛ ثبت أن اختلاف الخطة يمكن أن يغير النطاق الوظيفي، ولذلك يجب تسجيل Edition/Plan عندما يكون مؤثراً، دون جعله System_Type."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "c64847fa-2f1f-4d8f-a42a-1008998497ec",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "اختبار Licensing → System_Type؛ لم يثبت وجود قاعدة سببية عامة، لذلك بقي Licensing بُعداً وصفياً/تجارياً/للوصول والنطاق، لا محدداً مستقلاً لنوع النظام."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "2d3fbe95-f867-4a14-b3bd-48c21754e0ec",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "تثبيت Deployment كبعد تصنيفي مستقل، مع إبقاء قاموس القيم مفتوحاً."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "cd99ac19-5a90-4c1a-a23e-50cab353807b",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "تثبيت Architecture كبعد تصنيفي مستقل، مع الإقرار بأن architecture قد تكون متعددة الأوصاف لا فئة أحادية."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "a8fea9c3-f08e-4b87-adae-8f33e218a330",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "تصحيح مشكلات provenance والربط الزمني والأدوار الإثباتية لبعض المصادر، خصوصاً Thuy et al. (2026)."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "ad32c9e7-76c7-48d7-b02b-dd29993849d1",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "الحفاظ على العناصر غير المحسومة بدلاً من تحويلها إلى حقائق."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "cf689fe1-4828-457c-b479-5024f4652d45",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "عدم إنشاء أو تعديل Automation خارجية في هذه العملية."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "c07fa30a-093b-46ab-b1cd-443253384865",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "3. الحالة الحالية المثبتة"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "3ef97a4e-efda-4c98-8658-e5c65e87719f",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Knowledge Assets فعّالة ومتحقق منها:"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "c6e2f0d7-4ace-45e4-8530-345d026cd977",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "ASK-1 — Functional Scope."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "96f2d9cf-451d-4b7d-94a9-e724e6de7493",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "ASK-2 — Classification Rule — Scope before Label."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "93e3c051-f50d-4506-942c-15cec22f11ac",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "ASK-3 — Deployment."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "bdf686b4-90a6-4eb7-b5a5-a6c32ae83237",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "ASK-4 — Architecture."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "a83139fd-9502-482b-8ebf-0d0d575c0548",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Research State:"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "23aac8e4-876a-434d-ba87-d028e0590d1f",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "ASR-5: Integrated."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "bac746cd-3243-46af-814f-a63ea3d8da62",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "ASR-6: Integrated."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "680991be-6202-4dc9-9da6-d1d3fdad851b",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "ASR-7: Needs Follow-up."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "5e636085-8b03-497d-b02f-15a92d2f968b",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "ASR-8: Integrated."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "974c0097-bb31-4302-a15b-eba945a82524",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "ASR-9: Integrated."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "1eeac557-2dc5-433e-b013-1d89fe0e0a79",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "آخر دورات رئيسية موثقة:"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "f2440cc9-5d7c-4b4b-ac58-952c5544beae",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "CKC-58 — Business Central Edition/Plan divergence."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "310a2ea0-1d61-43d4-b19e-4f4b54552e69",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "CKC-60 — Independent licensing/classification boundary test."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "1d92389d-8c9e-46fe-8298-87b047a143f4",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "CKC-62 — Deployment taxonomy."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "d9503dd3-66a1-4982-9d01-6d9fb7fb035e",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "CKC-63 — Architecture taxonomy."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "3dfe8f06-8d7c-4362-8830-d6d8c7ab84e4",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "المرحلة التالية المنطقية: اختبار الحد الفاصل Architecture ↔ Integration قبل تفعيل Integration كبعد تصنيفي مستقل."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "382d2b92-2898-4db9-87ee-cdf75147238c",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "4. ما هو موجود بالفعل في Notion"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "cf190957-8e84-42db-b1c1-18c770bcbd6f",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "تم التحقق من وجود:"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "5ffe28ef-89cf-44d0-8ec8-d59883002149",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "الصفحة المركزية Accounting Systems — Continuous Knowledge & Classification Operation."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "90f8d07b-9680-408e-8396-52655051a058",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "صفحة Accounting Systems — Conversation Integrity & Knowledge Audit — 2026-09-26."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "94c1063f-7fd7-4987-a184-4e762ee928bb",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "قاعدة Research Queue."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "f73522f0-64f1-453c-9144-5dc1815989bc",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "قاعدة Knowledge Assets."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "e437c75c-bdae-49a9-9a49-759fab4c2f9c",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "قاعدة Change Log."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "6be724a0-b864-43f1-8fb3-9a076fd7a893",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "ASK-1 وASK-2 وASK-3 وASK-4."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "2a59266e-fe12-4a36-9cdf-7689d9d1a1f5",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "سجلات CKC-58 وCKC-60 وCKC-62 وCKC-63 وسجلات التغيير المرتبطة بها."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "eb4bba58-7053-4671-a8ca-9f5aabb8af57",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "القيود المعروفة الخاصة بـ Edition/Plan، Licensing، Version/Localization، Integration، Architecture vocabulary وغيرها."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "9a77e9bc-f289-4a56-9705-c1a6c536667a",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "5. عناصر مهمة كانت تحتاج توحيداً حتى لا تضيع"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "7e400b39-f59e-4641-ab32-6a9c0a7275f6",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "هذه ليست حقائق مستقلة جديدة؛ هي متطلبات حوكمة لسجل المحادثة:"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "fba29a6c-45f9-4759-a5c8-7924f9ed29bd",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "يجب الفصل دائماً بين Conversation claim وNotion persisted state وExternal evidence."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "9e08e516-cf26-4894-94a8-e95bd5d0bc29",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "لا يجوز استنتاج أحدث Cycle ID من تسلسل الأرقام؛ يجب قراءته من Notion لأن أرقام CKC قد تتجاوز أرقاماً بسبب دورات وسيطة."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "4cb0ae38-32c6-422f-a46b-63d086a496a9",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "لا يجوز ترقية سجل تاريخي ناقص إلى VERIFIED لمجرد أن نتيجة لاحقة أصبحت صحيحة."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "ecefe6fa-fa08-4088-bb20-ceed821bbbc2",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "يجب التفريق بين SUPERSEDED وDELETED؛ التجاوز يحتفظ بالسجل التاريخي، بينما الحذف عملية مستقلة."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "d8c63183-6c87-496b-a296-081e3d1a280c",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "لا يجوز استخدام مصدر سياقي/تجريبي لإثبات حد تصنيفي رسمي ما لم يثبت ذلك فعلاً."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "a6beb2a6-4182-4e1a-af95-721dd8cafa9a",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Edition/Plan/Version/Module/Localization/Market تُحفظ كسياق تصنيفي عندما تؤثر مادياً في النطاق، ولا تُحوّل تلقائياً إلى System_Type."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "8ca76d1a-1b01-488e-93f2-ce30a93de1b3",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "لا يُستنتج Universal ERP ontology من مجموعة محدودة من منتجات أو مصادر."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "8950d6b7-4f2a-4799-954c-1687620b2237",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "6. النقد الصارم للنص الذي قدمه المستخدم"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "b7362827-48e0-4cb2-8358-dbb0c1d2ef77",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "النص قوي في الهدف، لكنه غير محكم تشغيلياً في نقاط محددة:"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "17232672-a9de-42b8-9e30-a7cc0245e776",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "أ. طلب «منهجية التفكير المتسلسل»"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "75d4ab61-7f30-4d48-a7d5-4ad366034ca7",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "المشكلة: صياغتها توحي بطلب كشف سلسلة التفكير الداخلية."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "32d28f97-0b5a-4dc7-a0c2-853b950c06e0",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "البديل الصحيح: استدلال داخلي غير معروض + عرض النتائج، الأدلة، الافتراضات، والفجوات القابلة للتدقيق."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "67e44b7e-fb34-4c94-bb2c-98cf3c7ee1fe",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "ب. «اعطني كل شي مهم»"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "21bac764-a094-478f-a6c4-5530ab0461a8",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "المشكلة: معيار الأهمية غير معرف."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "e7fe01de-bba3-412c-80c4-72e851dbb038",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "البديل: استخراج إلزامي وفق مخطط ثابت: Facts → Decisions → Rules → Evidence → Assumptions → Gaps → Risks → Dependencies → Changes → Persisted State → Unpersisted State → Next Actions."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "3c678ea0-bbfc-4429-8fd8-0f170223ca4a",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "ج. «احفظها في التعليمات والذاكرة»"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "975e61cd-3ddf-4873-ba20-d9cf089db69d",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "المشكلة: يخلط بين قنوات تخزين مختلفة ولا يحدد السلطة بينهما."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "374eac4a-7769-4c08-8744-8911400eff32",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "البديل: Notion = canonical persistent project record؛ Persistent Model Context = reusable assistant memory only when explicitly authorized and technically available؛ Conversation = temporary evidence source."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "732a9d3c-c0de-409f-9fd6-fefad4b41d7c",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "د. «الأشياء التي ما حفظها في Notion احفظها»"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "8c1d0931-f961-4931-952e-b26051d6b3e2",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "المشكلة: غير محدد هل المطلوب حفظها كحقائق، تعليمات، أو تاريخ."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "cd627109-8bd6-41c9-9982-5de721026ba0",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "البديل: تصنيف كل عنصر قبل الحفظ إلى Fact / Rule / Decision / Evidence / Open Issue / Historical Record / Operating Preference."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "5c3d0b42-14a3-4ba0-8beb-30c433cce044",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "هـ. «إذا ما اكتمل»"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "aca9d1de-3602-4feb-9946-8221ab344d5b",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "المشكلة: لا يوجد تعريف لـ Done."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "5d80c0a1-4de4-4285-811a-0b384e05cf8a",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "البديل: يعتبر التدقيق مكتملًا فقط عند تغطية: scope + extraction + contradiction check + provenance check + Notion reconciliation + unresolved items + persistence decision."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "4e70bfde-6ff0-4206-8c2e-a01fed15b172",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "و. «نعم أو لا» في النهاية"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "958e90fe-d245-4c12-b436-6ccb78d1c80b",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "المشكلة: لا يحدد السؤال الذي تجيب عنه نعم/لا."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "24c40bd5-6b16-4f1a-93c9-27f30e5fded0",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "البديل: تسمية المعيار صراحة، مثلاً:"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "0655da14-0246-4114-a88e-2b2516e4a7dd",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "«هل السجل الحالي كافٍ لإعادة بناء هذه المحادثة بعد حذفها؟ نعم/لا»."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "20b355b0-f075-4c80-a108-a932c66e4948",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "7. القالب التشغيلي الأمثل"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "85a94319-19b0-4b75-a19f-6e022e22a5d8",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "Conversation → Knowledge Reconciliation & Persistence Audit"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "7ffd20cf-71d6-43e4-ada2-aa88078c7322",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Scope Lock."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "70dfff6f-7fb3-4d4b-9a91-3e39081cffc6",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Domain Extraction."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "0a01a0fd-3b72-4886-8911-8598c3b5925d",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Decision/Rule Extraction."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "4904a39f-1ccc-4631-b2a9-4a420902ac6f",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Evidence & Provenance Mapping."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "b58311d0-5315-4bea-a6a9-9307ce9d5c70",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Critical Contradiction Test."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "bb079fe7-763a-4f03-80d5-51d0f1c673cc",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Current-vs-Historical State Separation."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "331ad694-d053-4c16-a69c-b8edd6c0f53e",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Notion Reconciliation."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "60eca605-4277-49a1-9588-1fded1c9e200",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Missing-State Detection."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "065275dd-9c0d-4050-8442-85f347712357",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Persistence Classification."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "b593aae5-5013-4491-a29c-6f5378a4f3ee",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Commit/Verification."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "06678d6c-a15e-4e20-9baa-84b72cc8dc35",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Reconstruction Test: هل يمكن إعادة بناء الحالة بعد حذف المحادثة؟"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "fcf7fc49-0972-46b5-b0fd-e743f4899317",
+   "type": "numbered_list_item",
+   "has_children": false,
+   "text": [
+    "Final State Report."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "d74f8435-6a47-421e-a406-27226670f1ae",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "8. ما لا ينبغي اعتباره محفوظاً لمجرد ظهوره في المحادثة"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "9ba94de7-b12d-4e40-bd0a-2253b3032d6e",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "أي استنتاج لم تتم مواءمته مع Notion أو دليل خارجي."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "1a4dd803-2464-498d-88a9-d14698f2d567",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "أي Cycle/Change identifier غير مقروء من Notion."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "c4823c66-97ef-4662-a3e9-61835fcde750",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "أي claim تسويقي أو vendor wording لم يتحول إلى evidence مضبوط."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "6839b618-2caf-4644-a1df-70b9f5f0d196",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "أي taxonomy axis لم يحصل على Evidence-backed Knowledge Asset."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "84d696d5-57c7-430f-8f74-447e39768e64",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "أي automation لم تُنشأ فعلياً."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "7ed46343-2aff-48cf-bbcd-f3a0b22318a0",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "9. حالة الاستمرارية بعد حذف المحادثة"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "f0eda234-ae91-4b10-be48-8823eb2e8268",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "قابلية إعادة البناء: عالية بالنسبة للحالة المحاسبية الأساسية، لأن مركز العملية، Knowledge Assets، Research Queue، Change Log، وأحدث حالات taxonomy موجودة في Notion."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "872c0db1-085d-44d6-b7af-ed9f61d57607",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "ليست كاملة بنسبة 100% بالنسبة لكل حوار أو صياغة أو سياق محلي؛ لذلك يجب التعامل مع Notion كسجل حالة لا كنسخة حرفية من المحادثة."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "6a730c07-ddfe-472e-944d-3810d691ce95",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "10. صياغة محسّنة للأمر الأصلي"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "d0e102d7-5c85-4206-b77a-fc5bfec28231",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "استخدم هذا التوجيه عند تنفيذ نفس النوع من التدقيق:"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "cd396443-8c20-4294-8af3-4211269138f1",
+   "type": "quote",
+   "has_children": false,
+   "text": [
+    "حلّل هذه المحادثة فقط كسجل مرجعي، واستخرج منها بصورة منهجية: المجالات، الأهداف، المتطلبات، القرارات، القواعد، الأدلة، الافتراضات، المشاكل، الفجوات، التناقضات، المخاطر، الاعتماديات، والتغييرات في الحالة المعرفية."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "b23a75c0-116a-4d1b-80d0-c7bc4574525f",
+   "type": "quote",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "6d1eb4f9-34d2-439e-a8b6-e4e602b9ba63",
+   "type": "quote",
+   "has_children": false,
+   "text": [
+    "اعتمد هندسة المعرفة والحوكمة التشغيلية للمعرفة كتخصص سيادي للمهمة، واستخدم قالب Conversation → Knowledge Reconciliation & Persistence Audit."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "b60d649c-8d16-427d-bed7-8103124cfb91",
+   "type": "quote",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "58419158-c29a-4e3a-ac28-3d2e6dbc1d9a",
+   "type": "quote",
+   "has_children": false,
+   "text": [
+    "افصل إلزامياً بين:"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "7016bef9-a989-4f69-9a62-29dc68c9f070",
+   "type": "quote",
+   "has_children": false,
+   "text": [
+    "1. FACT/VERIFIED STATE"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "b60fb673-ad47-415c-8d60-4d6bf888a1cc",
+   "type": "quote",
+   "has_children": false,
+   "text": [
+    "2. EVIDENCE"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "7ddda2e8-ad69-45a8-8348-651b18dd6e73",
+   "type": "quote",
+   "has_children": false,
+   "text": [
+    "3. INFERENCE"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "bb80ed9e-4b72-4c01-bb86-7e9451c5bd94",
+   "type": "quote",
+   "has_children": false,
+   "text": [
+    "4. ASSUMPTION"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "3df4c096-26d5-4f4f-abec-4faa5c192905",
+   "type": "quote",
+   "has_children": false,
+   "text": [
+    "5. RECOMMENDATION"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "3334fe2e-dbef-4494-bc04-3217e3e5e219",
+   "type": "quote",
+   "has_children": false,
+   "text": [
+    "6. OPEN/UNKNOWN"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "32626808-e0b7-4a4c-965f-37085b3d8b58",
+   "type": "quote",
+   "has_children": false,
+   "text": [
+    "7. HISTORICAL/SUPERSEDED"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "2943e288-44c5-4900-b10b-edbc889cc4c1",
+   "type": "quote",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "01226afd-1eb5-48e3-b53d-d066992260c5",
+   "type": "quote",
+   "has_children": false,
+   "text": [
+    "لا تعتبر أي claim من المحادثة حقيقة مثبتة ما لم تؤكده Notion أو مصدر موثوق مناسب."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "54209e87-d214-4a55-81ae-504a37ff03ec",
+   "type": "quote",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "f9263a8a-04ef-40a6-ae07-639506b6d691",
+   "type": "quote",
+   "has_children": false,
+   "text": [
+    "عند وجود نقص أو تناقض، اختبره، حدّد السبب، صححه عندما تسمح الأدلة، وإلا أبقه UNKNOWN/OPEN."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "a4370e8c-4579-4f75-9b1e-9c85b795bb1d",
+   "type": "quote",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "d640a157-044e-4c08-8c12-ddcbc88b4cc2",
+   "type": "quote",
+   "has_children": false,
+   "text": [
+    "طابق النتائج مع Notion، ولا تستنتج أحدث دورة أو معرف تغيير من تسلسل الأرقام؛ اقرأ الحالة من السجل الفعلي."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "365a0280-94ae-421a-812b-9033e7d6b981",
+   "type": "quote",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "bea62363-49f4-467a-b8dd-427077c37e77",
+   "type": "quote",
+   "has_children": false,
+   "text": [
+    "احفظ كل عنصر مكتمل في موضعه الصحيح فقط:"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "326c6afb-5fb7-4200-9dc1-253dd8f67055",
+   "type": "quote",
+   "has_children": false,
+   "text": [
+    "- Fact/Knowledge → Knowledge Assets"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "d7b078c5-f796-4b52-a6f1-0bd8a64b7220",
+   "type": "quote",
+   "has_children": false,
+   "text": [
+    "- Research Gap → Research Queue"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "5e4180cd-560c-4932-b182-caf9551f75ab",
+   "type": "quote",
+   "has_children": false,
+   "text": [
+    "- Change → Change Log"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "8d3e83e7-69c0-4fdd-a025-2fdb28b93313",
+   "type": "quote",
+   "has_children": false,
+   "text": [
+    "- Audit/Scope/Integrity record → صفحة تدقيق مرجعية"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "e6364f61-1d17-4149-bc8d-49a6e521021f",
+   "type": "quote",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "b0b84d84-5b2d-4102-96f6-fd45c9579a0d",
+   "type": "quote",
+   "has_children": false,
+   "text": [
+    "لا تعدّل التاريخ بصمت، ولا تحذف السجلات التاريخية، وميّز دائماً بين SUPERSEDED وDELETED."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "dddd92b8-a8e9-4b7f-879e-012be1ca87b4",
+   "type": "quote",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "471294e4-6a2d-4a12-9bec-f952e5325958",
+   "type": "quote",
+   "has_children": false,
+   "text": [
+    "لا تكشف سلسلة التفكير الداخلية. اعرض فقط النتائج القابلة للتدقيق: الاستنتاج، الدليل، سبب الحكم، والحدود."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "e672963b-7216-42be-833e-ffc4239231b6",
+   "type": "quote",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "d2ee1f2a-efd9-4ff7-9873-3b278d42cc9d",
+   "type": "quote",
+   "has_children": false,
+   "text": [
+    "اعتبر المهمة مكتملة فقط بعد تنفيذ: Scope Lock → Extraction → Verification → Conflict Check → Notion Reconciliation → Gap Detection → Persistence → Verification → Reconstruction Test."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "1fb004df-3c82-4d1d-8d47-7d4a5b68894c",
+   "type": "quote",
+   "has_children": false,
+   "text": [],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "3ea567c5-86dd-4f12-a654-3cc31413cead",
+   "type": "quote",
+   "has_children": false,
+   "text": [
+    "في النهاية أجب على سؤال واحد محدد:"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "3023b221-3e52-4a58-b934-461e04fb61f8",
+   "type": "quote",
+   "has_children": false,
+   "text": [
+    "هل السجل الحالي كافٍ لإعادة بناء الحالة التشغيلية للمحادثة بعد حذفها؟ نعم/لا."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "aa548234-bb68-4df2-8930-1ac1e036d7a4",
+   "type": "quote",
+   "has_children": false,
+   "text": [
+    "ثم اذكر باختصار ما بقي غير محفوظ أو غير محسوم."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "b5f3023a-c212-4713-9416-3969919ab421",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "11. تصحيح مصالحة لاحق — Automation State"
+   ],
+   "created": "2026-09-29T22:45:00.000Z",
+   "edited": "2026-09-29T22:45:00.000Z"
+  },
+  {
+   "id": "c72e2905-efd0-4cb8-b51b-d4d28b7ff86c",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "تصحيح سجل: كان السجل السابق يذكر عدم إنشاء أو تعديل Automation في هذه العملية. هذا الوصف غير دقيق بالنسبة للسجل التشغيلي الفعلي للمحادثة: تم تعديل الـscheduled automation الخاصة بـAccounting Systems — Continuous Knowledge & Classification Operation وتعطيلها بتاريخ 2026-09-26."
+   ],
+   "created": "2026-09-29T22:45:00.000Z",
+   "edited": "2026-09-29T22:45:00.000Z"
+  },
+  {
+   "id": "1cc9f932-239f-417b-a5d8-70ad38e53370",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "Automation ID: 6ab6ebfbb7dc8191a81d08f8ceade69e"
+   ],
+   "created": "2026-09-29T22:45:00.000Z",
+   "edited": "2026-09-29T22:45:00.000Z"
+  },
+  {
+   "id": "1927acde-ac05-4bb5-b76a-26c2d699bdf9",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "الحالة الحالية المقروءة: is_enabled = false"
+   ],
+   "created": "2026-09-29T22:45:00.000Z",
+   "edited": "2026-09-29T22:45:00.000Z"
+  },
+  {
+   "id": "6ee18938-eff3-47e8-a5e3-1aa3a45d2361",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "الجدول: HOURLY"
+   ],
+   "created": "2026-09-29T22:45:00.000Z",
+   "edited": "2026-09-29T22:45:00.000Z"
+  },
+  {
+   "id": "7f6a7763-a0d8-4a9e-9eb1-18ca6019ef1f",
+   "type": "bulleted_list_item",
+   "has_children": false,
+   "text": [
+    "آخر تشغيل مسجل في سجل automation: 2026-09-26T14:33:35.144758Z"
+   ],
+   "created": "2026-09-29T22:45:00.000Z",
+   "edited": "2026-09-29T22:45:00.000Z"
+  },
+  {
+   "id": "c755c88f-7617-41b6-81b8-451ee8ec6abd",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "هذا التصحيح لا يغيّر الحالة المعرفية لـASK-4 أو CKC-73 أو ASR-10؛ إنه تصحيح مستقل لسجل حالة الـScheduler."
+   ],
+   "created": "2026-09-29T22:45:00.000Z",
+   "edited": "2026-09-29T22:45:00.000Z"
+  },
+  {
+   "id": "1e4493e5-21f0-4f60-aff3-9ce3200183ca",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "يجب اعتبار حالة هذا الـTrigger مستقلة عن وجود/حالة Central Automation أو أي Supplier Intelligence automations أخرى."
+   ],
+   "created": "2026-09-29T22:45:00.000Z",
+   "edited": "2026-09-29T22:45:00.000Z"
+  },
+  {
+   "id": "30786063-8064-4bab-99b7-c43179f38377",
+   "type": "heading_1",
+   "has_children": false,
+   "text": [
+    "11. قرار الحفظ"
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  },
+  {
+   "id": "8e64aec3-b3ae-44f0-8236-94f41d486ffc",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "تمثل هذه الصفحة نفسها سجل تدقيق لهذه المحادثة، وليست بديلاً عن Knowledge Assets أو Change Log أو Research Queue. لا تُعامل البنود النقدية أعلاه كحقائق عن الأنظمة المحاسبية؛ إنها ضوابط منهجية لإدارة المعرفة."
+   ],
+   "created": "2026-09-29T22:19:00.000Z",
+   "edited": "2026-09-29T22:19:00.000Z"
+  }
+ ]
+}

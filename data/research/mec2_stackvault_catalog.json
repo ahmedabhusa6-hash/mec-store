@@ -1,0 +1,63 @@
+{
+ "/": {
+  "http": 200,
+  "len": 34508,
+  "html_head": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>StackVault — Digital Subscriptions & Keys</title>\n<link rel"
+ },
+ "/shop": {
+  "http": null,
+  "len": 30
+ },
+ "/products": {
+  "http": 200,
+  "len": 41011,
+  "html_head": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Products - StackVault</title>\n    <link href=\"",
+  "text": " \n \n\n \n \n \n Products - StackVault \n \n \n \n \n \n \n \n :root {\n --bg: #0b0c10;\n --panel: #12141a;\n --panel-2: #171a21;\n --panel-3: #1b1e27;\n --border: #242732;\n --border-soft: #1d2029;\n --text: #f4f5f7;\n --text-muted: #9296a1;\n --text-dim: #5c616e;\n --purple: #5b4cf5;\n --purple-soft: rgba(91, 76, 245, 0.12);\n --green: #22c55e;\n --green-soft: rgba(34, 197, 94, 0.12);\n --amber: #f5b942;\n }\n\n * {\n box-sizing: border-box;\n }\n\n body {\n background: var(--bg);\n color: var(--text);\n font-family: 'Inter', sans-serif;\n font-size: 14px;\n }\n\n a {\n text-decoration: none;\n }\n\n /* ---------- Navbar ---------- */\n .navbar-custom {\n background: var(--panel);\n border-bottom: 1px solid var(--border-soft);\n padding: 0.85rem 1.5rem;\n }\n\n .brand-icon {\n width: 36px;\n height: 36px;\n border-radius: 9px;\n background: linear-gradient(135deg, #8b5cf6, #4a3de0);\n display: flex;\n align-items: center;\n justify-content: center;\n font-weight: 800;\n font-size: 1rem;\n flex-shrink: 0;\n }\n\n .brand-name {\n font-weight: 700;\n font-size: 1.05rem;\n color: var(--text);\n }\n\n .nav-item-top {\n color: var(--text-muted);\n font-weight: 600;\n font-size: 0.9rem;\n padding: 0.4rem 0.2rem;\n position: relative;\n }\n\n .nav-item-top.active {\n color: var(--text);\n }\n\n .nav-item-top.active::after {\n content: \"\";\n position: absolute;\n left: 0;\n right: 0;\n bottom: -14px;\n height: 2px;\n background: var(--purple);\n border-radius: 2px;\n }\n\n .search-box {\n background: var(--panel-2);\n border: 1px solid var(--border);\n border-radius: 10px;\n padding: 0.5rem 0.9rem;\n display: flex;\n align-items: center;\n gap: 0.6rem;\n color: var(--text-dim);\n flex-grow: 1;\n max-width: 460px;\n }\n\n .search-box input {\n background: transparent;\n border: none;\n outline: none;\n color: var(--text);\n font-size: 0.85rem;\n width: 100%;\n }\n\n .search-box input::placeholder {\n color: var(--text-dim);\n }\n\n .topbar-balance {\n background: var(--panel-2);\n border: 1px solid var(--border-soft);\n border-radius: 10px;\n padding: 0.35rem 0.8rem;\n display: flex;\n align-items: center;\n gap: 0.6rem;\n }\n\n .balance-label {\n font-size: 0.68rem;\n color: var(--text-dim);\n }\n\n .balance-amount {\n font-weight: 700;\n color: var(--green);\n font-size: 0.95rem;\n }\n\n .plus-btn {\n width: 26px;\n height: 26px;\n border-radius: 7px;\n background: var(--purple);\n display: flex;\n align-items: center;\n justify-content: center;\n color: #fff;\n border: none;\n font-size: 0.7rem;\n }\n\n .avatar-circle {\n width: 34px;\n height: 34px;\n border-radius: 50%;\n background: var(--purple);\n display: flex;\n align-items: center;\n justify-content: center;\n font-weight: 700;\n color: #fff;\n font-size: 0.85rem;\n flex-shrink: 0;\n }\n\n /* ---------- Hero ---------- */\n .hero {\n background: radial-gradient(ellipse at top left, rgba(91, 76, 245, 0.15), transparent 55%), var(--bg);\n padding: 2.5rem 1.5rem 1.5rem;\n }\n\n .hero-inner {\n max-width: 1400px;\n margin: 0 auto;\n }\n\n .hero-title {\n font-weight: 900;\n font-size: 2.4rem;\n letter-spacing: -0.02em;\n }\n\n .hero-sub {\n color: var(--text-dim);\n font-size: 1rem;\n margin-top: 0.3rem;\n }\n\n /* ---------- Category pills ---------- */\n .cat-scroll {\n overflow-x: auto;\n padding-bottom: 2px;\n }\n\n .cat-scroll::-webkit-scrollbar {\n height: 0;\n }\n\n .cat-pill {\n display: flex;\n align-items: center;\n gap: 0.5rem;\n background: var(--panel);\n border: 1px solid var(--border-soft);\n color: var(--text-muted);\n font-weight: 600;\n font-size: 0.85rem;\n padding: 0.6rem 1.1rem;\n border-radius: 10px;\n white-space: nowrap;\n flex-shrink: 0;\n }\n\n .cat-pill.active {\n background: var(--purple);\n border-color: var(--purple);\n color: #fff;\n }\n\n .cat-pill:hover:not(.active) {\n background: var(--panel-2);\n color: var(--text);\n }\n\n /* ---------- Content wrap ---------- */\n .page-wrap {\n padding: 1.5rem;\n max-width: 1400px;\n margin: 0 auto;\n }\n\n .results-label {\n color: var(--text-muted);\n font-size: 0.9rem;\n }\n\n .filter-btn {\n background: var(--panel);\n border: 1px solid var(--border-soft);\n color: var(--text-muted);\n font-size: 0.83rem;\n font-weight: 500;\n padding: 0.5rem 0.9rem;\n border-radius: 9px;\n display: flex;\n align-items: center;\n gap: 0.5rem;\n white-space: nowrap;\n }\n\n .filter-btn:hover {\n background: var(--panel-2);\n color: var(--text);\n }\n\n .filter-btn.filters-main {\n background: var(--panel-2);\n color: var(--text);\n }\n\n /* ---------- Product Card ---------- */\n .product-card {\n background: var(--panel);\n border: 1px solid var(--border-soft);\n border-radius: 14px;\n padding: 1.1rem;\n height: 100%;\n display: flex;\n flex-direction: column;\n }\n\n .product-card:hover {\n border-color: #33384a;\n }\n\n .card-top {\n display: flex;\n gap: 0.85rem;\n margin-bottom: 0.85rem;\n }\n\n .product-thumb {\n width: 64px;\n height: 64px;\n border-radius: 12px;\n display: flex;\n align-items: center;\n justify-content: center;\n flex-shrink: 0;\n font-size: 1.6rem;\n color: #fff;\n }\n\n .card-cat {\n font-size: 0.72rem;\n color: var(--text-dim);\n margin-bottom: 0.15rem;\n }\n\n .card-title {\n font-weight: 700;\n font-size: 1.02rem;\n line-height: 1.25;\n }\n\n .badge-stock {\n background: var(--green-soft);\n color: var(--green);\n border: 1px solid rgba(34, 197, 94, 0.3);\n font-weight: 600;\n font-size: 0.68rem;\n padding: 0.25rem 0.55rem;\n border-radius: 6px;\n white-space: nowrap;\n height: fit-content;\n }\n\n .badge-stock-out {\n background: rgba(239, 68, 68, 0.1);\n color: #ef4444;\n border: 1px solid rgba(239, 68, 68, 0.3);\n font-weight: 600;\n font-size: 0.68rem;\n padding: 0.25rem 0.55rem;\n border-radius: 6px;\n white-space: nowrap;\n height: fit-content;\n }\n\n .card-desc {\n font-size: 0.78rem;\n color: var(--text-dim);\n line-height: 1.5;\n margin-bottom: 0.75rem;\n height: 3em;\n display: -webkit-box;\n -webkit-line-clamp: 2;\n -webkit-box-orient: vertical;\n overflow: hidden;\n }\n\n .tag-chip {\n background: var(--panel-2);\n border: 1px solid var(--border);\n color: var(--text-muted);\n font-size: 0.7rem;\n padding: 0.22rem 0.55rem;\n border-radius: 6px;\n }\n\n .card-rating {\n font-size: 0.78rem;\n color: var(--text-muted);\n margin: 0.7rem 0 0.5rem;\n }\n\n .card-rating .stars {\n color: var(--ambe"
+ },
+ "/catalog": {
+  "http": null,
+  "len": 30
+ },
+ "/all": {
+  "http": null,
+  "len": 30
+ },
+ "/category": {
+  "http": null,
+  "len": 30
+ },
+ "/sitemap.xml": {
+  "http": null,
+  "len": 30
+ },
+ "home_cards": [
+  {
+   "price": "$0.00",
+   "context_tail": "ill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"> | Support | Logout | Your Balance | $0.00 USD | + | Need help? Our support team is here 24/7. | <"
+  },
+  {
+   "price": "$4.99",
+   "context_tail": "a-row\"> | AI Tools | ChatGPT Plus | In Stock | Official ChatGPT Plus account | GPT-4o • DALL·E 3 • Priority access | 1 Month | Official | Warranty | ★ 4.9 (12.4k) | $4.99 | <path d=\"M3 3"
+  },
+  {
+   "price": "$6.49",
+   "context_tail": "lass=\"card-meta-row\"> | Design | Canva Pro Teams | In Stock | Team invite • Premium templates | Brand Kit • Full access | 1 Month | Team | Warranty | ★ 4.8 (8.7k) | $6.49 | <path d=\"M3 3"
+  },
+  {
+   "price": "$9.99",
+   "context_tail": "rd-meta-row\"> | Software Keys | Microsoft 365 | In Stock | Word • Excel • PowerPoint • OneDrive | 1TB Cloud Storage | 1 Year | 5 Devices | Warranty | ★ 4.9 (9.3k) | $9.99 | <path d=\"M3 3"
+  },
+  {
+   "price": "$3.99",
+   "context_tail": "Streaming | Netflix Premium | In Stock | Ultra HD • 4 Screens | Private Account | 1 Month | Private | Warranty | ★ 4.7 (6.4k) | $3.99 | <path d=\"M3 3"
+  },
+  {
+   "price": "$4.49",
+   "context_tail": "Streaming | Spotify Premium | In Stock | Ad-free music • Offline listening | Private Account | 1 Month | Private | ★ 4.8 (4.1k) | $4.49 | <path d=\"M3 3"
+  },
+  {
+   "price": "$29.99",
+   "context_tail": "v> | Learning | Coursera Plus | In Stock | Unlimited courses • Certificates | 1 Account | 1 Year | Certificates | ★ 4.7 (2.8k) | $29.99 | <path d=\"M3 3"
+  }
+ ]
+}

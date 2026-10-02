@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "**Image 1 (Support Account):**\nThis is a **logo**. It features the Telegram paper plane icon wearing a headset, set inside a blue circle. The text reads \"PRODSELLER SUPPORT\" in bold white and blue letters, with the tagline \"Fast • Reliable • Always Here\" underneath. There are no human faces or national flags present.\n\n**Image 2 (Shop Bot):**\nThis is a **logo**. It displays a stylized shopping bag combined with a large letter \"P\" and a small Telegram icon, all within a circular border. The text includes \"ProdSeller.com\" and the slogan \"SELLERS OF DIGITAL PRODUCTS.\" Below this are logos for various AI services (ChatGPT, Gemini, Claude, Perplexity, Copilot) and categories like Books, Courses, Templates, and Software. There are no faces or flags.\n\n**Image 3 (Official Channel):**\nThis is a **logo**. It is identical to the second image, featuring the same shopping bag/\"P\" hybrid icon and text layout (\"ProdSeller.com\", \"SELLERS OF DIGITAL PRODUCTS\"). It also includes the same row of AI service icons and product category tags. There are no human faces, characters, or national flags visible.",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1790906077,
+  "id": "20261002095433d7beb705ae8f4d45",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "20261002095433d7beb705ae8f4d45",
+  "usage": {
+    "completion_tokens": 258,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 506,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 764
+  }
+}

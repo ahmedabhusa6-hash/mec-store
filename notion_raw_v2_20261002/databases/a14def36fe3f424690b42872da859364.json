@@ -1,0 +1,3366 @@
+{
+ "capture_reason": "CHANGED",
+ "title": "Marketing Domains",
+ "schema": {
+  "object": "database",
+  "id": "a14def36-fe3f-4246-90b4-2872da859364",
+  "cover": null,
+  "icon": null,
+  "created_time": "2026-09-25T20:53:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_time": "2026-09-25T20:54:00.000Z",
+  "title": [
+   {
+    "type": "text",
+    "text": {
+     "content": "Marketing Domains",
+     "link": null
+    },
+    "annotations": {
+     "bold": false,
+     "italic": false,
+     "strikethrough": false,
+     "underline": false,
+     "code": false,
+     "color": "default"
+    },
+    "plain_text": "Marketing Domains",
+    "href": null
+   }
+  ],
+  "description": [
+   {
+    "type": "text",
+    "text": {
+     "content": "الخريطة الديناميكية لفروع التسويق ومستوياته وتخصصاته وسياقاته.",
+     "link": null
+    },
+    "annotations": {
+     "bold": false,
+     "italic": false,
+     "strikethrough": false,
+     "underline": false,
+     "code": false,
+     "color": "default"
+    },
+    "plain_text": "الخريطة الديناميكية لفروع التسويق ومستوياته وتخصصاته وسياقاته.",
+    "href": null
+   }
+  ],
+  "is_inline": false,
+  "database_type": null,
+  "properties": {
+   "Parent": {
+    "id": "%3EfF%5E",
+    "name": "Parent",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Status": {
+    "id": "IPP%3A",
+    "name": "Status",
+    "description": null,
+    "type": "select",
+    "select": {
+     "options": [
+      {
+       "id": "258dbefd-f9ba-4bfc-a9ef-8b2e5ac3264e",
+       "name": "Candidate",
+       "color": "gray",
+       "description": null
+      },
+      {
+       "id": "e7888fac-ae22-41bc-b271-a51886ca1be3",
+       "name": "Mapped",
+       "color": "blue",
+       "description": null
+      },
+      {
+       "id": "14ba36ca-2568-4996-8df3-007ac092588c",
+       "name": "Under Research",
+       "color": "orange",
+       "description": null
+      },
+      {
+       "id": "d6205718-7126-4beb-8670-361746b85b83",
+       "name": "Integrated",
+       "color": "green",
+       "description": null
+      },
+      {
+       "id": "17092113-c5d2-4150-ab48-76829cc9feaf",
+       "name": "Needs Review",
+       "color": "yellow",
+       "description": null
+      }
+     ]
+    }
+   },
+   "Last Reviewed": {
+    "id": "MoVl",
+    "name": "Last Reviewed",
+    "description": null,
+    "type": "date",
+    "date": {}
+   },
+   "Domain ID": {
+    "id": "RoQ%7B",
+    "name": "Domain ID",
+    "description": null,
+    "type": "unique_id",
+    "unique_id": {
+     "prefix": "DOM"
+    }
+   },
+   "Level": {
+    "id": "WOQt",
+    "name": "Level",
+    "description": null,
+    "type": "select",
+    "select": {
+     "options": [
+      {
+       "id": "0cd32f47-3e54-4991-8e73-8fc8a6c88ed3",
+       "name": "Foundation",
+       "color": "blue",
+       "description": null
+      },
+      {
+       "id": "d49e517f-d70b-4e0e-89c2-1252bfff2c8b",
+       "name": "Strategy",
+       "color": "purple",
+       "description": null
+      },
+      {
+       "id": "649f09bb-c2cb-4312-a328-752dcbd2d216",
+       "name": "Research",
+       "color": "green",
+       "description": null
+      },
+      {
+       "id": "8c54ade4-be7e-4b1b-97dc-fdd805deb33a",
+       "name": "Behavior",
+       "color": "orange",
+       "description": null
+      },
+      {
+       "id": "f608097f-a2fb-4dde-ac38-77d20067a906",
+       "name": "Value Creation",
+       "color": "yellow",
+       "description": null
+      },
+      {
+       "id": "69474789-0c9d-4e4b-ba20-3e51e7522b54",
+       "name": "Brand & Communication",
+       "color": "pink",
+       "description": null
+      },
+      {
+       "id": "895ba708-c916-4fed-bc2c-5213a454acc2",
+       "name": "Growth & Lifecycle",
+       "color": "red",
+       "description": null
+      },
+      {
+       "id": "c19de2c2-79fd-4be6-bbbc-591d0fdf9e3d",
+       "name": "Analytics & Technology",
+       "color": "brown",
+       "description": null
+      },
+      {
+       "id": "ba956c76-a592-4fd3-bb39-7b04c79582d0",
+       "name": "Operations",
+       "color": "gray",
+       "description": null
+      },
+      {
+       "id": "c6687654-c412-44f6-82ab-fd48ef563eb7",
+       "name": "Context",
+       "color": "blue",
+       "description": null
+      },
+      {
+       "id": "73dce25a-5ac5-41c5-9ed5-b23e29f8f822",
+       "name": "Adjacent Discipline",
+       "color": "green",
+       "description": null
+      }
+     ]
+    }
+   },
+   "Priority": {
+    "id": "_rIt",
+    "name": "Priority",
+    "description": null,
+    "type": "select",
+    "select": {
+     "options": [
+      {
+       "id": "3587b6c2-7409-48eb-852c-4c6f245fca6a",
+       "name": "Critical",
+       "color": "red",
+       "description": null
+      },
+      {
+       "id": "aa6624d0-3af9-4ec0-a22c-f35d5c479f4b",
+       "name": "High",
+       "color": "orange",
+       "description": null
+      },
+      {
+       "id": "a50d74fa-147c-454b-a77c-c68e8cc4a48b",
+       "name": "Medium",
+       "color": "yellow",
+       "description": null
+      },
+      {
+       "id": "fc4c1f77-61c9-45b6-9ae3-19af39a24b0e",
+       "name": "Low",
+       "color": "gray",
+       "description": null
+      }
+     ]
+    }
+   },
+   "Description": {
+    "id": "jF%3A%3E",
+    "name": "Description",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Evidence Basis": {
+    "id": "u%3Fc%5D",
+    "name": "Evidence Basis",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Name": {
+    "id": "title",
+    "name": "Name",
+    "description": null,
+    "type": "title",
+    "title": {}
+   }
+  },
+  "parent": {
+   "type": "page_id",
+   "page_id": "3e658a07-79e8-812f-b628-dde61492e5b2"
+  },
+  "url": "https://app.notion.com/p/a14def36fe3f424690b42872da859364",
+  "public_url": null,
+  "in_trash": false,
+  "archived": false,
+  "request_id": "609f616a-6452-4f30-9960-1061d8a732f5"
+ },
+ "row_count": 19,
+ "rows": [
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-811c-bc90-d8abab676e69",
+   "created_time": "2026-09-25T20:54:00.000Z",
+   "last_edited_time": "2026-09-25T20:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "a14def36-fe3f-4246-90b4-2872da859364"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Parent": {
+     "id": "%3EfF%5E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Acquisition & Demand Generation",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Acquisition & Demand Generation",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "IPP%3A",
+     "type": "select",
+     "select": {
+      "id": "e7888fac-ae22-41bc-b271-a51886ca1be3",
+      "name": "Mapped",
+      "color": "blue"
+     }
+    },
+    "Last Reviewed": {
+     "id": "MoVl",
+     "type": "date",
+     "date": {
+      "start": "2026-09-25",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Domain ID": {
+     "id": "RoQ%7B",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "DOM",
+      "number": 13
+     }
+    },
+    "Level": {
+     "id": "WOQt",
+     "type": "select",
+     "select": {
+      "id": "895ba708-c916-4fed-bc2c-5213a454acc2",
+      "name": "Growth & Lifecycle",
+      "color": "red"
+     }
+    },
+    "Priority": {
+     "id": "_rIt",
+     "type": "select",
+     "select": {
+      "id": "aa6624d0-3af9-4ec0-a22c-f35d5c479f4b",
+      "name": "High",
+      "color": "orange"
+     }
+    },
+    "Description": {
+     "id": "jF%3A%3E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "CRM، Customer Journey، Retention، Churn، Loyalty، Referral، Customer Success، LTV.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "CRM، Customer Journey، Retention، Churn، Loyalty، Referral، Customer Success، LTV.",
+       "href": null
+      }
+     ]
+    },
+    "Evidence Basis": {
+     "id": "u%3Fc%5D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "CIM customer experience capability; CRM literature",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "CIM customer experience capability; CRM literature",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Retention, CRM & Loyalty",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Retention, CRM & Loyalty",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Retention-CRM-Loyalty-3e658a0779e8811cbc90d8abab676e69",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8124-b427-e9b4b5e4bbdc",
+   "created_time": "2026-09-25T20:54:00.000Z",
+   "last_edited_time": "2026-09-25T20:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "a14def36-fe3f-4246-90b4-2872da859364"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Parent": {
+     "id": "%3EfF%5E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Market Research & Consumer Insights",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Market Research & Consumer Insights",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "IPP%3A",
+     "type": "select",
+     "select": {
+      "id": "e7888fac-ae22-41bc-b271-a51886ca1be3",
+      "name": "Mapped",
+      "color": "blue"
+     }
+    },
+    "Last Reviewed": {
+     "id": "MoVl",
+     "type": "date",
+     "date": {
+      "start": "2026-09-25",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Domain ID": {
+     "id": "RoQ%7B",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "DOM",
+      "number": 15
+     }
+    },
+    "Level": {
+     "id": "WOQt",
+     "type": "select",
+     "select": {
+      "id": "c19de2c2-79fd-4be6-bbbc-591d0fdf9e3d",
+      "name": "Analytics & Technology",
+      "color": "brown"
+     }
+    },
+    "Priority": {
+     "id": "_rIt",
+     "type": "select",
+     "select": {
+      "id": "3587b6c2-7409-48eb-852c-4c6f245fca6a",
+      "name": "Critical",
+      "color": "red"
+     }
+    },
+    "Description": {
+     "id": "jF%3A%3E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "KPIs، CAC، LTV، ROI، ROAS، attribution، incrementality، experimentation، causal inference، MMM.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "KPIs، CAC، LTV، ROI، ROAS، attribution، incrementality، experimentation، causal inference، MMM.",
+       "href": null
+      }
+     ]
+    },
+    "Evidence Basis": {
+     "id": "u%3Fc%5D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "AMA data/analytics competency; marketing science literature",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "AMA data/analytics competency; marketing science literature",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Marketing Analytics & Measurement",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Marketing Analytics & Measurement",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Marketing-Analytics-Measurement-3e658a0779e88124b427e9b4b5e4bbdc",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-812c-93b7-c6fa613144d2",
+   "created_time": "2026-09-25T20:54:00.000Z",
+   "last_edited_time": "2026-09-25T20:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "a14def36-fe3f-4246-90b4-2872da859364"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Parent": {
+     "id": "%3EfF%5E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Marketing Strategy",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Marketing Strategy",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "IPP%3A",
+     "type": "select",
+     "select": {
+      "id": "e7888fac-ae22-41bc-b271-a51886ca1be3",
+      "name": "Mapped",
+      "color": "blue"
+     }
+    },
+    "Last Reviewed": {
+     "id": "MoVl",
+     "type": "date",
+     "date": {
+      "start": "2026-09-25",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Domain ID": {
+     "id": "RoQ%7B",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "DOM",
+      "number": 18
+     }
+    },
+    "Level": {
+     "id": "WOQt",
+     "type": "select",
+     "select": {
+      "id": "c6687654-c412-44f6-82ab-fd48ef563eb7",
+      "name": "Context",
+      "color": "blue"
+     }
+    },
+    "Priority": {
+     "id": "_rIt",
+     "type": "select",
+     "select": {
+      "id": "aa6624d0-3af9-4ec0-a22c-f35d5c479f4b",
+      "name": "High",
+      "color": "orange"
+     }
+    },
+    "Description": {
+     "id": "jF%3A%3E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "B2B، B2C، SaaS، Services، E-commerce، Enterprise، SMB، Local، International، Healthcare، Education، Technology، Retail، Trade.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "B2B، B2C، SaaS، Services، E-commerce، Enterprise، SMB، Local، International، Healthcare، Education، Technology، Retail، Trade.",
+       "href": null
+      }
+     ]
+    },
+    "Evidence Basis": {
+     "id": "u%3Fc%5D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "CIM/AMA professional frameworks + specialized literature",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "CIM/AMA professional frameworks + specialized literature",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Marketing Contexts & Specializations",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Marketing Contexts & Specializations",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Marketing-Contexts-Specializations-3e658a0779e8812c93b7c6fa613144d2",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8140-ae0b-d4a43895fa15",
+   "created_time": "2026-09-25T20:54:00.000Z",
+   "last_edited_time": "2026-09-25T20:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "a14def36-fe3f-4246-90b4-2872da859364"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Parent": {
+     "id": "%3EfF%5E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Product & Offer",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Product & Offer",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "IPP%3A",
+     "type": "select",
+     "select": {
+      "id": "e7888fac-ae22-41bc-b271-a51886ca1be3",
+      "name": "Mapped",
+      "color": "blue"
+     }
+    },
+    "Last Reviewed": {
+     "id": "MoVl",
+     "type": "date",
+     "date": {
+      "start": "2026-09-25",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Domain ID": {
+     "id": "RoQ%7B",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "DOM",
+      "number": 7
+     }
+    },
+    "Level": {
+     "id": "WOQt",
+     "type": "select",
+     "select": {
+      "id": "f608097f-a2fb-4dde-ac38-77d20067a906",
+      "name": "Value Creation",
+      "color": "yellow"
+     }
+    },
+    "Priority": {
+     "id": "_rIt",
+     "type": "select",
+     "select": {
+      "id": "aa6624d0-3af9-4ec0-a22c-f35d5c479f4b",
+      "name": "High",
+      "color": "orange"
+     }
+    },
+    "Description": {
+     "id": "jF%3A%3E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "استراتيجية التسعير، القيمة، المرونة، الخصومات، التسعير السلوكي والتجاري.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "استراتيجية التسعير، القيمة، المرونة، الخصومات، التسعير السلوكي والتجاري.",
+       "href": null
+      }
+     ]
+    },
+    "Evidence Basis": {
+     "id": "u%3Fc%5D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Academic pricing literature; professional frameworks",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Academic pricing literature; professional frameworks",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Pricing",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Pricing",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Pricing-3e658a0779e88140ae0bd4a43895fa15",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8142-bdf6-c9e338cfab44",
+   "created_time": "2026-09-25T20:54:00.000Z",
+   "last_edited_time": "2026-09-25T20:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "a14def36-fe3f-4246-90b4-2872da859364"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Parent": {
+     "id": "%3EfF%5E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Marketing Analytics & Measurement",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Marketing Analytics & Measurement",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "IPP%3A",
+     "type": "select",
+     "select": {
+      "id": "e7888fac-ae22-41bc-b271-a51886ca1be3",
+      "name": "Mapped",
+      "color": "blue"
+     }
+    },
+    "Last Reviewed": {
+     "id": "MoVl",
+     "type": "date",
+     "date": {
+      "start": "2026-09-25",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Domain ID": {
+     "id": "RoQ%7B",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "DOM",
+      "number": 16
+     }
+    },
+    "Level": {
+     "id": "WOQt",
+     "type": "select",
+     "select": {
+      "id": "c19de2c2-79fd-4be6-bbbc-591d0fdf9e3d",
+      "name": "Analytics & Technology",
+      "color": "brown"
+     }
+    },
+    "Priority": {
+     "id": "_rIt",
+     "type": "select",
+     "select": {
+      "id": "aa6624d0-3af9-4ec0-a22c-f35d5c479f4b",
+      "name": "High",
+      "color": "orange"
+     }
+    },
+    "Description": {
+     "id": "jF%3A%3E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Data-driven marketing، automation، personalization، predictive analytics، AI، GenAI، MarTech، privacy.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Data-driven marketing، automation، personalization، predictive analytics، AI، GenAI، MarTech، privacy.",
+       "href": null
+      }
+     ]
+    },
+    "Evidence Basis": {
+     "id": "u%3Fc%5D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "AMA 2026 skills/careers; AMA 2026 trends; official platform documentation",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "AMA 2026 skills/careers; AMA 2026 trends; official platform documentation",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Data, MarTech & AI",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Data, MarTech & AI",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Data-MarTech-AI-3e658a0779e88142bdf6c9e338cfab44",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8143-84d9-e5d807461657",
+   "created_time": "2026-09-25T20:54:00.000Z",
+   "last_edited_time": "2026-09-25T20:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "a14def36-fe3f-4246-90b4-2872da859364"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Parent": {
+     "id": "%3EfF%5E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Retention, CRM & Loyalty",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Retention, CRM & Loyalty",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "IPP%3A",
+     "type": "select",
+     "select": {
+      "id": "e7888fac-ae22-41bc-b271-a51886ca1be3",
+      "name": "Mapped",
+      "color": "blue"
+     }
+    },
+    "Last Reviewed": {
+     "id": "MoVl",
+     "type": "date",
+     "date": {
+      "start": "2026-09-25",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Domain ID": {
+     "id": "RoQ%7B",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "DOM",
+      "number": 14
+     }
+    },
+    "Level": {
+     "id": "WOQt",
+     "type": "select",
+     "select": {
+      "id": "895ba708-c916-4fed-bc2c-5213a454acc2",
+      "name": "Growth & Lifecycle",
+      "color": "red"
+     }
+    },
+    "Priority": {
+     "id": "_rIt",
+     "type": "select",
+     "select": {
+      "id": "aa6624d0-3af9-4ec0-a22c-f35d5c479f4b",
+      "name": "High",
+      "color": "orange"
+     }
+    },
+    "Description": {
+     "id": "jF%3A%3E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Customer Experience، Customer Journey، service experience، touchpoints، feedback.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Customer Experience، Customer Journey، service experience، touchpoints، feedback.",
+       "href": null
+      }
+     ]
+    },
+    "Evidence Basis": {
+     "id": "u%3Fc%5D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "CIM GPMF",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "CIM GPMF",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Customer Experience",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Customer Experience",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Customer-Experience-3e658a0779e8814384d9e5d807461657",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8170-b12a-e4bd43bd1754",
+   "created_time": "2026-09-25T20:54:00.000Z",
+   "last_edited_time": "2026-09-25T20:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "a14def36-fe3f-4246-90b4-2872da859364"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Parent": {
+     "id": "%3EfF%5E",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Status": {
+     "id": "IPP%3A",
+     "type": "select",
+     "select": {
+      "id": "e7888fac-ae22-41bc-b271-a51886ca1be3",
+      "name": "Mapped",
+      "color": "blue"
+     }
+    },
+    "Last Reviewed": {
+     "id": "MoVl",
+     "type": "date",
+     "date": {
+      "start": "2026-09-25",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Domain ID": {
+     "id": "RoQ%7B",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "DOM",
+      "number": 1
+     }
+    },
+    "Level": {
+     "id": "WOQt",
+     "type": "select",
+     "select": {
+      "id": "0cd32f47-3e54-4991-8e73-8fc8a6c88ed3",
+      "name": "Foundation",
+      "color": "blue"
+     }
+    },
+    "Priority": {
+     "id": "_rIt",
+     "type": "select",
+     "select": {
+      "id": "3587b6c2-7409-48eb-852c-4c6f245fca6a",
+      "name": "Critical",
+      "color": "red"
+     }
+    },
+    "Description": {
+     "id": "jF%3A%3E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "المفاهيم الأساسية، تعريفات التسويق، القيمة، التبادل، الأسواق، تطور الفكر التسويقي.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "المفاهيم الأساسية، تعريفات التسويق، القيمة، التبادل، الأسواق، تطور الفكر التسويقي.",
+       "href": null
+      }
+     ]
+    },
+    "Evidence Basis": {
+     "id": "u%3Fc%5D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "AMA Definition; AMA Competency Model; CIM GPMF",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "AMA Definition; AMA Competency Model; CIM GPMF",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Foundations of Marketing",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Foundations of Marketing",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Foundations-of-Marketing-3e658a0779e88170b12ae4bd43bd1754",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-817b-9a7f-d05c1b57c870",
+   "created_time": "2026-09-25T20:54:00.000Z",
+   "last_edited_time": "2026-09-25T20:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "a14def36-fe3f-4246-90b4-2872da859364"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Parent": {
+     "id": "%3EfF%5E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Marketing Strategy",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Marketing Strategy",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "IPP%3A",
+     "type": "select",
+     "select": {
+      "id": "e7888fac-ae22-41bc-b271-a51886ca1be3",
+      "name": "Mapped",
+      "color": "blue"
+     }
+    },
+    "Last Reviewed": {
+     "id": "MoVl",
+     "type": "date",
+     "date": {
+      "start": "2026-09-25",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Domain ID": {
+     "id": "RoQ%7B",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "DOM",
+      "number": 6
+     }
+    },
+    "Level": {
+     "id": "WOQt",
+     "type": "select",
+     "select": {
+      "id": "f608097f-a2fb-4dde-ac38-77d20067a906",
+      "name": "Value Creation",
+      "color": "yellow"
+     }
+    },
+    "Priority": {
+     "id": "_rIt",
+     "type": "select",
+     "select": {
+      "id": "aa6624d0-3af9-4ec0-a22c-f35d5c479f4b",
+      "name": "High",
+      "color": "orange"
+     }
+    },
+    "Description": {
+     "id": "jF%3A%3E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "استراتيجية المنتج، Product Marketing، Product-Market Fit، تصميم العرض، دورة حياة المنتج وتطويره.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "استراتيجية المنتج، Product Marketing، Product-Market Fit، تصميم العرض، دورة حياة المنتج وتطويره.",
+       "href": null
+      }
+     ]
+    },
+    "Evidence Basis": {
+     "id": "u%3Fc%5D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "AMA/CIM professional frameworks; academic product research",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "AMA/CIM professional frameworks; academic product research",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Product & Offer",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Product & Offer",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Product-Offer-3e658a0779e8817b9a7fd05c1b57c870",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-817e-84e8-ee6d4d894448",
+   "created_time": "2026-09-25T20:54:00.000Z",
+   "last_edited_time": "2026-09-25T20:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "a14def36-fe3f-4246-90b4-2872da859364"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Parent": {
+     "id": "%3EfF%5E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Marketing Strategy",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Marketing Strategy",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "IPP%3A",
+     "type": "select",
+     "select": {
+      "id": "e7888fac-ae22-41bc-b271-a51886ca1be3",
+      "name": "Mapped",
+      "color": "blue"
+     }
+    },
+    "Last Reviewed": {
+     "id": "MoVl",
+     "type": "date",
+     "date": {
+      "start": "2026-09-25",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Domain ID": {
+     "id": "RoQ%7B",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "DOM",
+      "number": 8
+     }
+    },
+    "Level": {
+     "id": "WOQt",
+     "type": "select",
+     "select": {
+      "id": "f608097f-a2fb-4dde-ac38-77d20067a906",
+      "name": "Value Creation",
+      "color": "yellow"
+     }
+    },
+    "Priority": {
+     "id": "_rIt",
+     "type": "select",
+     "select": {
+      "id": "aa6624d0-3af9-4ec0-a22c-f35d5c479f4b",
+      "name": "High",
+      "color": "orange"
+     }
+    },
+    "Description": {
+     "id": "jF%3A%3E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "القنوات، التوزيع، التجزئة، التجارة الإلكترونية، الشراكات، Omnichannel.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "القنوات، التوزيع، التجزئة، التجارة الإلكترونية، الشراكات، Omnichannel.",
+       "href": null
+      }
+     ]
+    },
+    "Evidence Basis": {
+     "id": "u%3Fc%5D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "CIM commercial/professional framework; channel literature",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "CIM commercial/professional framework; channel literature",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Distribution & Channels",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Distribution & Channels",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Distribution-Channels-3e658a0779e8817e84e8ee6d4d894448",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-817e-b312-de79fe20d268",
+   "created_time": "2026-09-25T20:54:00.000Z",
+   "last_edited_time": "2026-09-25T20:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "a14def36-fe3f-4246-90b4-2872da859364"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Parent": {
+     "id": "%3EfF%5E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Marketing Strategy",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Marketing Strategy",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "IPP%3A",
+     "type": "select",
+     "select": {
+      "id": "e7888fac-ae22-41bc-b271-a51886ca1be3",
+      "name": "Mapped",
+      "color": "blue"
+     }
+    },
+    "Last Reviewed": {
+     "id": "MoVl",
+     "type": "date",
+     "date": {
+      "start": "2026-09-25",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Domain ID": {
+     "id": "RoQ%7B",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "DOM",
+      "number": 9
+     }
+    },
+    "Level": {
+     "id": "WOQt",
+     "type": "select",
+     "select": {
+      "id": "69474789-0c9d-4e4b-ba20-3e51e7522b54",
+      "name": "Brand & Communication",
+      "color": "pink"
+     }
+    },
+    "Priority": {
+     "id": "_rIt",
+     "type": "select",
+     "select": {
+      "id": "3587b6c2-7409-48eb-852c-4c6f245fca6a",
+      "name": "Critical",
+      "color": "red"
+     }
+    },
+    "Description": {
+     "id": "jF%3A%3E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "استراتيجية العلامة، الهوية، الصورة، القيمة، الوعي، السمعة، الثقة، بنية العلامة.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "استراتيجية العلامة، الهوية، الصورة، القيمة، الوعي، السمعة، الثقة، بنية العلامة.",
+       "href": null
+      }
+     ]
+    },
+    "Evidence Basis": {
+     "id": "u%3Fc%5D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "AMA Competency Model; CIM GPMF",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "AMA Competency Model; CIM GPMF",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Branding",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Branding",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Branding-3e658a0779e8817eb312de79fe20d268",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-8180-9206-ccd34ed76793",
+   "created_time": "2026-09-25T20:54:00.000Z",
+   "last_edited_time": "2026-09-25T20:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "a14def36-fe3f-4246-90b4-2872da859364"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Parent": {
+     "id": "%3EfF%5E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Foundations of Marketing",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Foundations of Marketing",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "IPP%3A",
+     "type": "select",
+     "select": {
+      "id": "e7888fac-ae22-41bc-b271-a51886ca1be3",
+      "name": "Mapped",
+      "color": "blue"
+     }
+    },
+    "Last Reviewed": {
+     "id": "MoVl",
+     "type": "date",
+     "date": {
+      "start": "2026-09-25",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Domain ID": {
+     "id": "RoQ%7B",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "DOM",
+      "number": 2
+     }
+    },
+    "Level": {
+     "id": "WOQt",
+     "type": "select",
+     "select": {
+      "id": "d49e517f-d70b-4e0e-89c2-1252bfff2c8b",
+      "name": "Strategy",
+      "color": "purple"
+     }
+    },
+    "Priority": {
+     "id": "_rIt",
+     "type": "select",
+     "select": {
+      "id": "3587b6c2-7409-48eb-852c-4c6f245fca6a",
+      "name": "Critical",
+      "color": "red"
+     }
+    },
+    "Description": {
+     "id": "jF%3A%3E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "الاستراتيجية، تحليل السوق والمنافسة، STP، التموضع، القيمة المقترحة، الميزة التنافسية، GTM والنمو.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "الاستراتيجية، تحليل السوق والمنافسة، STP، التموضع، القيمة المقترحة، الميزة التنافسية، GTM والنمو.",
+       "href": null
+      }
+     ]
+    },
+    "Evidence Basis": {
+     "id": "u%3Fc%5D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "AMA Competency Model; CIM GPMF",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "AMA Competency Model; CIM GPMF",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Marketing Strategy",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Marketing Strategy",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Marketing-Strategy-3e658a0779e881809206ccd34ed76793",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81af-9573-f0f029107247",
+   "created_time": "2026-09-25T20:54:00.000Z",
+   "last_edited_time": "2026-09-25T20:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "a14def36-fe3f-4246-90b4-2872da859364"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Parent": {
+     "id": "%3EfF%5E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Marketing",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Marketing",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "IPP%3A",
+     "type": "select",
+     "select": {
+      "id": "258dbefd-f9ba-4bfc-a9ef-8b2e5ac3264e",
+      "name": "Candidate",
+      "color": "gray"
+     }
+    },
+    "Last Reviewed": {
+     "id": "MoVl",
+     "type": "date",
+     "date": {
+      "start": "2026-09-25",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Domain ID": {
+     "id": "RoQ%7B",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "DOM",
+      "number": 19
+     }
+    },
+    "Level": {
+     "id": "WOQt",
+     "type": "select",
+     "select": {
+      "id": "73dce25a-5ac5-41c5-9ed5-b23e29f8f822",
+      "name": "Adjacent Discipline",
+      "color": "green"
+     }
+    },
+    "Priority": {
+     "id": "_rIt",
+     "type": "select",
+     "select": {
+      "id": "aa6624d0-3af9-4ec0-a22c-f35d5c479f4b",
+      "name": "High",
+      "color": "orange"
+     }
+    },
+    "Description": {
+     "id": "jF%3A%3E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "الاقتصاد، علم النفس، الإحصاء، علم الاجتماع، علوم البيانات، إدارة المنتجات، المبيعات، UX، التقنية، AI.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "الاقتصاد، علم النفس، الإحصاء، علم الاجتماع، علوم البيانات، إدارة المنتجات، المبيعات، UX، التقنية، AI.",
+       "href": null
+      }
+     ]
+    },
+    "Evidence Basis": {
+     "id": "u%3Fc%5D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Cross-disciplinary research",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Cross-disciplinary research",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Adjacent Disciplines",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Adjacent Disciplines",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Adjacent-Disciplines-3e658a0779e881af9573f0f029107247",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81bc-93aa-ebc7e9f5ce24",
+   "created_time": "2026-09-25T20:54:00.000Z",
+   "last_edited_time": "2026-09-25T20:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "a14def36-fe3f-4246-90b4-2872da859364"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Parent": {
+     "id": "%3EfF%5E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Consumer Behavior & Decision Science",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Consumer Behavior & Decision Science",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "IPP%3A",
+     "type": "select",
+     "select": {
+      "id": "e7888fac-ae22-41bc-b271-a51886ca1be3",
+      "name": "Mapped",
+      "color": "blue"
+     }
+    },
+    "Last Reviewed": {
+     "id": "MoVl",
+     "type": "date",
+     "date": {
+      "start": "2026-09-25",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Domain ID": {
+     "id": "RoQ%7B",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "DOM",
+      "number": 5
+     }
+    },
+    "Level": {
+     "id": "WOQt",
+     "type": "select",
+     "select": {
+      "id": "8c54ade4-be7e-4b1b-97dc-fdd805deb33a",
+      "name": "Behavior",
+      "color": "orange"
+     }
+    },
+    "Priority": {
+     "id": "_rIt",
+     "type": "select",
+     "select": {
+      "id": "aa6624d0-3af9-4ec0-a22c-f35d5c479f4b",
+      "name": "High",
+      "color": "orange"
+     }
+    },
+    "Description": {
+     "id": "jF%3A%3E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "علم النفس المعرفي والاجتماعي، الاقتصاد السلوكي، آليات القرار والتحيزات.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "علم النفس المعرفي والاجتماعي، الاقتصاد السلوكي، آليات القرار والتحيزات.",
+       "href": null
+      }
+     ]
+    },
+    "Evidence Basis": {
+     "id": "u%3Fc%5D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Behavioral science literature",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Behavioral science literature",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Psychology & Behavioral Science",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Psychology & Behavioral Science",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Psychology-Behavioral-Science-3e658a0779e881bc93aaebc7e9f5ce24",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81c9-974c-e51f8e999be9",
+   "created_time": "2026-09-25T20:54:00.000Z",
+   "last_edited_time": "2026-09-25T20:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "a14def36-fe3f-4246-90b4-2872da859364"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Parent": {
+     "id": "%3EfF%5E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Foundations of Marketing",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Foundations of Marketing",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "IPP%3A",
+     "type": "select",
+     "select": {
+      "id": "e7888fac-ae22-41bc-b271-a51886ca1be3",
+      "name": "Mapped",
+      "color": "blue"
+     }
+    },
+    "Last Reviewed": {
+     "id": "MoVl",
+     "type": "date",
+     "date": {
+      "start": "2026-09-25",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Domain ID": {
+     "id": "RoQ%7B",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "DOM",
+      "number": 3
+     }
+    },
+    "Level": {
+     "id": "WOQt",
+     "type": "select",
+     "select": {
+      "id": "649f09bb-c2cb-4312-a328-752dcbd2d216",
+      "name": "Research",
+      "color": "green"
+     }
+    },
+    "Priority": {
+     "id": "_rIt",
+     "type": "select",
+     "select": {
+      "id": "3587b6c2-7409-48eb-852c-4c6f245fca6a",
+      "name": "Critical",
+      "color": "red"
+     }
+    },
+    "Description": {
+     "id": "jF%3A%3E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "البحث النوعي والكمي، الاستبيانات، المقابلات، التجارب، حجم السوق، أبحاث العملاء والمنافسين.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "البحث النوعي والكمي، الاستبيانات، المقابلات، التجارب، حجم السوق، أبحاث العملاء والمنافسين.",
+       "href": null
+      }
+     ]
+    },
+    "Evidence Basis": {
+     "id": "u%3Fc%5D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "AMA Definition of Marketing Research; academic literature",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "AMA Definition of Marketing Research; academic literature",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Market Research & Consumer Insights",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Market Research & Consumer Insights",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Market-Research-Consumer-Insights-3e658a0779e881c9974ce51f8e999be9",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81e4-a3d8-cc26867b6741",
+   "created_time": "2026-09-25T20:54:00.000Z",
+   "last_edited_time": "2026-09-25T20:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "a14def36-fe3f-4246-90b4-2872da859364"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Parent": {
+     "id": "%3EfF%5E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Branding",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Branding",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "IPP%3A",
+     "type": "select",
+     "select": {
+      "id": "e7888fac-ae22-41bc-b271-a51886ca1be3",
+      "name": "Mapped",
+      "color": "blue"
+     }
+    },
+    "Last Reviewed": {
+     "id": "MoVl",
+     "type": "date",
+     "date": {
+      "start": "2026-09-25",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Domain ID": {
+     "id": "RoQ%7B",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "DOM",
+      "number": 10
+     }
+    },
+    "Level": {
+     "id": "WOQt",
+     "type": "select",
+     "select": {
+      "id": "69474789-0c9d-4e4b-ba20-3e51e7522b54",
+      "name": "Brand & Communication",
+      "color": "pink"
+     }
+    },
+    "Priority": {
+     "id": "_rIt",
+     "type": "select",
+     "select": {
+      "id": "aa6624d0-3af9-4ec0-a22c-f35d5c479f4b",
+      "name": "High",
+      "color": "orange"
+     }
+    },
+    "Description": {
+     "id": "jF%3A%3E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "الإعلان، العلاقات العامة، المحتوى، Copywriting، Storytelling، Influencer، Direct، Email، Community.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "الإعلان، العلاقات العامة، المحتوى، Copywriting، Storytelling، Influencer، Direct، Email، Community.",
+       "href": null
+      }
+     ]
+    },
+    "Evidence Basis": {
+     "id": "u%3Fc%5D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "AMA Competency Model; CIM GPMF",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "AMA Competency Model; CIM GPMF",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Marketing Communications",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Marketing Communications",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Marketing-Communications-3e658a0779e881e4a3d8cc26867b6741",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81e4-ad9b-f1d602e787b0",
+   "created_time": "2026-09-25T20:54:00.000Z",
+   "last_edited_time": "2026-09-25T20:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "a14def36-fe3f-4246-90b4-2872da859364"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Parent": {
+     "id": "%3EfF%5E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Market Research & Consumer Insights",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Market Research & Consumer Insights",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "IPP%3A",
+     "type": "select",
+     "select": {
+      "id": "e7888fac-ae22-41bc-b271-a51886ca1be3",
+      "name": "Mapped",
+      "color": "blue"
+     }
+    },
+    "Last Reviewed": {
+     "id": "MoVl",
+     "type": "date",
+     "date": {
+      "start": "2026-09-25",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Domain ID": {
+     "id": "RoQ%7B",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "DOM",
+      "number": 4
+     }
+    },
+    "Level": {
+     "id": "WOQt",
+     "type": "select",
+     "select": {
+      "id": "8c54ade4-be7e-4b1b-97dc-fdd805deb33a",
+      "name": "Behavior",
+      "color": "orange"
+     }
+    },
+    "Priority": {
+     "id": "_rIt",
+     "type": "select",
+     "select": {
+      "id": "3587b6c2-7409-48eb-852c-4c6f245fca6a",
+      "name": "Critical",
+      "color": "red"
+     }
+    },
+    "Description": {
+     "id": "jF%3A%3E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "سلوك المستهلك، اتخاذ القرار، الإدراك، الدوافع، العاطفة، العادات، التأثير الاجتماعي والمخاطر.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "سلوك المستهلك، اتخاذ القرار، الإدراك، الدوافع، العاطفة، العادات، التأثير الاجتماعي والمخاطر.",
+       "href": null
+      }
+     ]
+    },
+    "Evidence Basis": {
+     "id": "u%3Fc%5D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Consumer behavior literature; Solomon text candidate",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Consumer behavior literature; Solomon text candidate",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Consumer Behavior & Decision Science",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Consumer Behavior & Decision Science",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Consumer-Behavior-Decision-Science-3e658a0779e881e4ad9bf1d602e787b0",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81f0-a680-f3de6fa4072f",
+   "created_time": "2026-09-25T20:54:00.000Z",
+   "last_edited_time": "2026-09-25T20:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "a14def36-fe3f-4246-90b4-2872da859364"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Parent": {
+     "id": "%3EfF%5E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Marketing Communications",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Marketing Communications",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "IPP%3A",
+     "type": "select",
+     "select": {
+      "id": "e7888fac-ae22-41bc-b271-a51886ca1be3",
+      "name": "Mapped",
+      "color": "blue"
+     }
+    },
+    "Last Reviewed": {
+     "id": "MoVl",
+     "type": "date",
+     "date": {
+      "start": "2026-09-25",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Domain ID": {
+     "id": "RoQ%7B",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "DOM",
+      "number": 11
+     }
+    },
+    "Level": {
+     "id": "WOQt",
+     "type": "select",
+     "select": {
+      "id": "895ba708-c916-4fed-bc2c-5213a454acc2",
+      "name": "Growth & Lifecycle",
+      "color": "red"
+     }
+    },
+    "Priority": {
+     "id": "_rIt",
+     "type": "select",
+     "select": {
+      "id": "aa6624d0-3af9-4ec0-a22c-f35d5c479f4b",
+      "name": "High",
+      "color": "orange"
+     }
+    },
+    "Description": {
+     "id": "jF%3A%3E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "SEO، البحث، Social، Paid/Organic، Performance، Retargeting، Conversion، Attribution.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "SEO، البحث، Social، Paid/Organic، Performance، Retargeting، Conversion، Attribution.",
+       "href": null
+      }
+     ]
+    },
+    "Evidence Basis": {
+     "id": "u%3Fc%5D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "AMA channels/technology competencies; platform documentation",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "AMA channels/technology competencies; platform documentation",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Digital Marketing",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Digital Marketing",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Digital-Marketing-3e658a0779e881f0a680f3de6fa4072f",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81f2-807b-d06c7a8848f8",
+   "created_time": "2026-09-25T20:54:00.000Z",
+   "last_edited_time": "2026-09-25T20:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "a14def36-fe3f-4246-90b4-2872da859364"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Parent": {
+     "id": "%3EfF%5E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Marketing Strategy",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Marketing Strategy",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "IPP%3A",
+     "type": "select",
+     "select": {
+      "id": "e7888fac-ae22-41bc-b271-a51886ca1be3",
+      "name": "Mapped",
+      "color": "blue"
+     }
+    },
+    "Last Reviewed": {
+     "id": "MoVl",
+     "type": "date",
+     "date": {
+      "start": "2026-09-25",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Domain ID": {
+     "id": "RoQ%7B",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "DOM",
+      "number": 17
+     }
+    },
+    "Level": {
+     "id": "WOQt",
+     "type": "select",
+     "select": {
+      "id": "ba956c76-a592-4fd3-bb39-7b04c79582d0",
+      "name": "Operations",
+      "color": "gray"
+     }
+    },
+    "Priority": {
+     "id": "_rIt",
+     "type": "select",
+     "select": {
+      "id": "aa6624d0-3af9-4ec0-a22c-f35d5c479f4b",
+      "name": "High",
+      "color": "orange"
+     }
+    },
+    "Description": {
+     "id": "jF%3A%3E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "التخطيط، الميزانية، العمليات، إدارة الحملات، workflow، automation، governance، reporting.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "التخطيط، الميزانية، العمليات، إدارة الحملات، workflow، automation، governance، reporting.",
+       "href": null
+      }
+     ]
+    },
+    "Evidence Basis": {
+     "id": "u%3Fc%5D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "AMA strategy/planning; CIM leadership/management",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "AMA strategy/planning; CIM leadership/management",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Marketing Operations",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Marketing Operations",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Marketing-Operations-3e658a0779e881f2807bd06c7a8848f8",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81f7-b2d5-df7e2b90a40f",
+   "created_time": "2026-09-25T20:54:00.000Z",
+   "last_edited_time": "2026-09-25T20:54:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "a14def36-fe3f-4246-90b4-2872da859364"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Parent": {
+     "id": "%3EfF%5E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Digital Marketing",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Digital Marketing",
+       "href": null
+      }
+     ]
+    },
+    "Status": {
+     "id": "IPP%3A",
+     "type": "select",
+     "select": {
+      "id": "e7888fac-ae22-41bc-b271-a51886ca1be3",
+      "name": "Mapped",
+      "color": "blue"
+     }
+    },
+    "Last Reviewed": {
+     "id": "MoVl",
+     "type": "date",
+     "date": {
+      "start": "2026-09-25",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Domain ID": {
+     "id": "RoQ%7B",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "DOM",
+      "number": 12
+     }
+    },
+    "Level": {
+     "id": "WOQt",
+     "type": "select",
+     "select": {
+      "id": "895ba708-c916-4fed-bc2c-5213a454acc2",
+      "name": "Growth & Lifecycle",
+      "color": "red"
+     }
+    },
+    "Priority": {
+     "id": "_rIt",
+     "type": "select",
+     "select": {
+      "id": "aa6624d0-3af9-4ec0-a22c-f35d5c479f4b",
+      "name": "High",
+      "color": "orange"
+     }
+    },
+    "Description": {
+     "id": "jF%3A%3E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Demand Generation، Lead Generation، Customer Acquisition، Conversion، Lifecycle.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Demand Generation، Lead Generation، Customer Acquisition، Conversion، Lifecycle.",
+       "href": null
+      }
+     ]
+    },
+    "Evidence Basis": {
+     "id": "u%3Fc%5D",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Professional marketing frameworks; growth literature",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Professional marketing frameworks; growth literature",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Acquisition & Demand Generation",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Acquisition & Demand Generation",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Acquisition-Demand-Generation-3e658a0779e881f7b2d5df7e2b90a40f",
+   "public_url": null,
+   "archived": false
+  }
+ ]
+}

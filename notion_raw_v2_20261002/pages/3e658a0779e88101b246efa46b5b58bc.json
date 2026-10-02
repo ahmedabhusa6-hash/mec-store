@@ -1,0 +1,196 @@
+{
+ "capture_reason": "NEWLY_ACCESSIBLE",
+ "captured_at": "2026-10-02T12:16:49+03:00",
+ "title": "ما المزيج الأمثل بين Free Plan وFree Trial وDemo الموجّه حسب تعقيد المنتج ونوع العميل؟",
+ "last_edited": "2026-09-25T20:06:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "3e658a07-79e8-8101-b246-efa46b5b58bc",
+  "created_time": "2026-09-25T20:06:00.000Z",
+  "last_edited_time": "2026-09-25T20:06:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+   "type": "database_id",
+   "database_id": "c5aa8b9a-13b6-4611-9e63-9b880d2ad8ea"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "Why It Matters": {
+    "id": "EIs%3C",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "العينة تظهر صيغًا مختلفة لتقليل الاحتكاك، لكن اختيار الصيغة يجب أن يُفهم كسياق decision وليس كأفضل ممارسة عامة.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "العينة تظهر صيغًا مختلفة لتقليل الاحتكاك، لكن اختيار الصيغة يجب أن يُفهم كسياق decision وليس كأفضل ممارسة عامة.",
+      "href": null
+     }
+    ]
+   },
+   "Next Research Action": {
+    "id": "FS%60%5D",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "البحث عن benchmarks موثوقة، case studies كمية، product-led growth studies وحالات enterprise/self-service قابلة للمقارنة.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "البحث عن benchmarks موثوقة، case studies كمية، product-led growth studies وحالات enterprise/self-service قابلة للمقارنة.",
+      "href": null
+     }
+    ]
+   },
+   "Knowledge Link": {
+    "id": "O%7D%60Y",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "3e658a07-79e8-81d7-bd83-ff8a29b4c2d3"
+     }
+    ],
+    "has_more": false
+   },
+   "Evidence Gap": {
+    "id": "U%5Edc",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "لا توجد بيانات متجانسة public عن trial-to-paid، demo-to-paid، activation أو CAC حسب الصيغة والسegment.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "لا توجد بيانات متجانسة public عن trial-to-paid، demo-to-paid، activation أو CAC حسب الصيغة والسegment.",
+      "href": null
+     }
+    ]
+   },
+   "Notes": {
+    "id": "WyaF",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Answer": {
+    "id": "XEZA",
+    "type": "rich_text",
+    "rich_text": []
+   },
+   "Known Evidence": {
+    "id": "bT%3Ej",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Xero, Zoho Books, QuickBooks, TallyPrime تستخدم صيغًا متنوعة من trial/free/demo.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Xero, Zoho Books, QuickBooks, TallyPrime تستخدم صيغًا متنوعة من trial/free/demo.",
+      "href": null
+     }
+    ]
+   },
+   "Entity Link": {
+    "id": "k_JM",
+    "type": "relation",
+    "relation": [],
+    "has_more": false
+   },
+   "Research Status": {
+    "id": "p%5EId",
+    "type": "status",
+    "status": {
+     "id": "eeb0bf1c-4783-4e4b-8092-a186bf7e659b",
+     "name": "لم تبدأ",
+     "color": "default"
+    }
+   },
+   "Priority": {
+    "id": "zTh%5C",
+    "type": "select",
+    "select": {
+     "id": "078bd797-8109-4f36-9c15-46654ef34e27",
+     "name": "High",
+     "color": "red"
+    }
+   },
+   "Question": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "ما المزيج الأمثل بين Free Plan وFree Trial وDemo الموجّه حسب تعقيد المنتج ونوع العميل؟",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "ما المزيج الأمثل بين Free Plan وFree Trial وDemo الموجّه حسب تعقيد المنتج ونوع العميل؟",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/Free-Plan-Free-Trial-Demo-3e658a0779e88101b246efa46b5b58bc",
+  "public_url": null,
+  "archived": false,
+  "request_id": "1f9ebbaf-a772-4999-8312-9de9797d0f99"
+ },
+ "block_count": 0,
+ "blocks": []
+}

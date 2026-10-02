@@ -1,0 +1,19 @@
+Migration Integrity Correction — ASK-4 Latest Change — 2026-09-30
+========================================
+Type: CORRECTION RECORD / PERSISTENCE EXCEPTION
+Finding
+ASK-4 — Architecture taxonomy node is ACTIVE / VERIFIED, but its database property Last Changed By Cycle still points to CKC-64.
+Verified evidence
+CKC-73 explicitly updated/contextualized ASK-4.
+ASC-CHG-25 is the verified Change Log record for that update.
+The KOS Cycle Log identifies CKC-73 as the latest Accounting Systems cycle and associates it with ASR-10 and ASC-CHG-25.
+Correct state
+Latest change affecting ASK-4 = CKC-73 / ASC-CHG-25.
+Persistence exception
+The existing ASK-4 database property could not be edited during this migration because the direct Notion property-write operation was blocked by the tool safety layer.
+Operational handling
+The page now contains a visible current metadata override. The database property remains unchanged and must not be treated as authoritative for the latest-cycle pointer until corrected.
+Status
+OPEN — metadata correction pending.
+Impact
+No loss of substantive knowledge state. The latest verified state is reconstructable from CKC-73 and ASC-CHG-25. The defect affects provenance/linkage metadata only.

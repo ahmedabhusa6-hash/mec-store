@@ -1,0 +1,177 @@
+{
+ "capture_reason": "NEWLY_ACCESSIBLE",
+ "captured_at": "2026-10-02T12:26:31+03:00",
+ "title": "مقدمة في علم الأحياء",
+ "last_edited": "2026-07-24T22:57:00.000Z",
+ "page": {
+  "object": "page",
+  "id": "94658a07-79e8-83da-a6bc-8142a5b5809b",
+  "created_time": "2026-07-24T22:57:00.000Z",
+  "last_edited_time": "2026-07-24T22:57:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "cover": {
+   "type": "external",
+   "external": {
+    "url": "https://images.unsplash.com/photo-1709026742679-c7171557da35?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb"
+   }
+  },
+  "icon": {
+   "type": "emoji",
+   "emoji": "🧬"
+  },
+  "parent": {
+   "type": "database_id",
+   "database_id": "c2958a07-79e8-8280-87d2-8176dad0cf82"
+  },
+  "in_trash": false,
+  "is_archived": false,
+  "is_locked": false,
+  "properties": {
+   "رمز المقرّر": {
+    "id": "CbJs",
+    "type": "rich_text",
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "BIOL 101",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "BIOL 101",
+      "href": null
+     }
+    ]
+   },
+   "الواجبات": {
+    "id": "qkkc",
+    "type": "relation",
+    "relation": [
+     {
+      "id": "edd58a07-79e8-83d7-87ba-01481355707a"
+     },
+     {
+      "id": "81c58a07-79e8-83aa-acea-81f99235c9c2"
+     },
+     {
+      "id": "94958a07-79e8-8279-86c1-81da713ad2cf"
+     },
+     {
+      "id": "6c058a07-79e8-830f-885c-819b577bac69"
+     }
+    ],
+    "has_more": false
+   },
+   "Course Name": {
+    "id": "title",
+    "type": "title",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "مقدمة في علم الأحياء",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "مقدمة في علم الأحياء",
+      "href": null
+     }
+    ]
+   }
+  },
+  "url": "https://app.notion.com/p/94658a0779e883daa6bc8142a5b5809b",
+  "public_url": null,
+  "archived": false,
+  "request_id": "0524551f-99df-48c0-9ccd-3cd582e82f3a"
+ },
+ "block_count": 7,
+ "blocks": [
+  {
+   "id": "97e58a07-79e8-831c-828a-81b30323bde9",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "↑ قسم الواجبات أعلاه هو المكان المخصص لإضافة واجبات هذا المقرر.."
+   ],
+   "created": "2026-07-24T22:57:00.000Z",
+   "edited": "2026-07-24T22:57:00.000Z"
+  },
+  {
+   "id": "ce758a07-79e8-82fc-b7a9-014e00a91ec8",
+   "type": "heading_2",
+   "has_children": false,
+   "text": [
+    "روابط سريعة"
+   ],
+   "created": "2026-07-24T22:57:00.000Z",
+   "edited": "2026-07-24T22:57:00.000Z"
+  },
+  {
+   "id": "21b58a07-79e8-82d6-acdf-8145e194feed",
+   "type": "divider",
+   "has_children": false,
+   "text": [],
+   "created": "2026-07-24T22:57:00.000Z",
+   "edited": "2026-07-24T22:57:00.000Z"
+  },
+  {
+   "id": "cc358a07-79e8-8256-b1a4-81745193f73f",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "خطة المقرّر - https://www.universityportal.edu/courses/biol101/syllabus"
+   ],
+   "created": "2026-07-24T22:57:00.000Z",
+   "edited": "2026-07-24T22:57:00.000Z"
+  },
+  {
+   "id": "e9458a07-79e8-82d8-ae54-01053fe558ef",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "العروض التقديمية للمحاضرات الأسبوعية - http://www.universityportal.edu/courses/biol101/lectures"
+   ],
+   "created": "2026-07-24T22:57:00.000Z",
+   "edited": "2026-07-24T22:57:00.000Z"
+  },
+  {
+   "id": "a1458a07-79e8-828f-b399-81f5c23099fd",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [
+    "لوحة المناقشة - http://www.universityportal.edu/courses/biol101/forum"
+   ],
+   "created": "2026-07-24T22:57:00.000Z",
+   "edited": "2026-07-24T22:57:00.000Z"
+  },
+  {
+   "id": "ec558a07-79e8-82d3-8093-01df88e88531",
+   "type": "paragraph",
+   "has_children": false,
+   "text": [],
+   "created": "2026-07-24T22:57:00.000Z",
+   "edited": "2026-07-24T22:57:00.000Z"
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <meta name="apple-mobile-web-app-title" content="OffGamers" />
+    <meta name="google-site-verification" content="1sJRK2TUufpKGkLQRvEqYw9tI0SURtVG3w1o5-QTCzA" />
+    <title>OffGamers Online Game Store - Vue</title>
+
+    <!-- favicon -->
+    <link rel=icon type=image/png sizes=128x128 href="https://static.offgamers.com/OffGamers/assetsvue20260914121110/icons/favicon-128x128.png">
+    <link rel=icon type=image/png sizes=96x96 href="https://static.offgamers.com/OffGamers/assetsvue20260914121110/icons/favicon-96x96.png">
+    <link rel=icon type=image/png sizes=32x32 href="https://static.offgamers.com/OffGamers/assetsvue20260914121110/icons/favicon-32x32.png">
+    <link rel=icon type=image/png sizes=16x16 href="https://static.offgamers.com/OffGamers/assetsvue20260914121110/icons/favicon-16x16.png">
+    <link rel=icon type=image/ico href=favicon.ico>
+
+    <!-- apple touch icon -->
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180"
+        href="https://static.offgamers.com/OffGamers/assetsvue20260914121110/icons/apple-touch-icon-180x180.png?v=1" />
+    <link rel="apple-touch-icon" type="image/png" sizes="167x167"
+        href="https://static.offgamers.com/OffGamers/assetsvue20260914121110/icons/apple-touch-icon-167x167.png?v=1" />
+    <link rel="apple-touch-icon" type="image/png" sizes="152x152"
+        href="https://static.offgamers.com/OffGamers/assetsvue20260914121110/icons/apple-touch-icon-152x152.png?v=1" />
+    <link rel="apple-touch-icon" type="image/png" sizes="120x120"
+        href="https://static.offgamers.com/OffGamers/assetsvue20260914121110/icons/apple-touch-icon-120x120.png?v=1" />
+
+    <link rel=preload href="https://assets.offgamers.com/offer/categories.json?v=2" as=fetch type=application/json
+        crossorigin>
+    <link rel=preload href="https://assets.offgamers.com/offer/keyword.json?v=2" as=fetch type=application/json
+        crossorigin>
+    <link rel=preload href="https://assets.offgamers.com/offer/navigation.json?v=2" as=fetch type=application/json
+        crossorigin>
+    <link rel=dns-prefetch href="https://sls.offgamers.com">
+    <link rel=dns-prefetch href="https://assets.offgamers.com">
+        <link rel=dns-prefetch href=https://analytics.twitter.com>
+    <link rel=dns-prefetch href=https://bat.bing.com>
+    <link rel=dns-prefetch href=https://connect.facebook.net>
+    <link rel=dns-prefetch href=https://googleads.g.doubleclick.net>
+    <link rel=dns-prefetch href=https://identitytoolkit.googleapis.com>
+    <link rel=dns-prefetch href=https://static.ads-twitter.com>
+    <link rel=dns-prefetch href=https://t.co/1/i/adsct>
+    <link rel=dns-prefetch href=https://translate.google.com>
+    <link rel=dns-prefetch href=https://translate.googleapis.com>
+    <link rel=dns-prefetch href=https://widget.freshworks.com>
+    <link rel=dns-prefetch href=https://www.clarity.ms>
+    <link rel=dns-prefetch href=https://www.google.com>
+    <link rel=dns-prefetch href=https://www.googleadservices.com>
+    <link rel=dns-prefetch href=https://www.google-analytics.com>
+    <link rel=dns-prefetch href=https://www.googletagmanager.com>
+    <link rel=preconnect href=https://fonts.googleapis.com>
+    <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
+    <link
+        rel=preload
+        href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@400;500;600&display=swap"
+        as=style
+        crossorigin
+        onload="this.onload=null;this.rel='stylesheet'" />
+    <link
+        rel="preload"
+        href="https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@0;1&display=swap"
+        as="style"
+        crossorigin
+        onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript>
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@400;500;600&display=swap" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@0;1&display=swap"
+            rel="stylesheet" />
+    </noscript>
+</head>
+
+<script defer src="https://static.offgamers.com/OffGamers/assetsvue20260914121110/js/offgamers-vue-vendor.js"></script>
+<script defer src="https://static.offgamers.com/OffGamers/assetsvue20260914121110/js/offgamers-vue-app.js"></script>
+<script defer src="https://static.offgamers.com/OffGamers/assetsvue20260914121110/js/offgamers-vue-chunk-common.js"></script>
+<script>
+    window.prerenderReady = false;
+</script>
+
+        <link href="https://static.offgamers.com/OffGamers/assetsvue20260914121110/css/311.7aafe9c1.css" rel=stylesheet>
+        <link href="https://static.offgamers.com/OffGamers/assetsvue20260914121110/css/482.4f0ae914.css" rel=stylesheet>
+        <link href="https://static.offgamers.com/OffGamers/assetsvue20260914121110/css/489.b8316ef0.css" rel=stylesheet>
+        <link href="https://static.offgamers.com/OffGamers/assetsvue20260914121110/css/704.3df023a5.css" rel=stylesheet>
+        <link href="https://static.offgamers.com/OffGamers/assetsvue20260914121110/css/764.1d862376.css" rel=stylesheet>
+        <link href="https://static.offgamers.com/OffGamers/assetsvue20260914121110/css/803.2bf92f4e.css" rel=stylesheet>
+        <link href="https://static.offgamers.com/OffGamers/assetsvue20260914121110/css/app.7e59a9e2.css" rel=stylesheet>
+        <link href="https://static.offgamers.com/OffGamers/assetsvue20260914121110/css/chunk-common.9a001cd2.css" rel=stylesheet>
+        <link href="https://static.offgamers.com/OffGamers/assetsvue20260914121110/css/components.88fd713d.css" rel=stylesheet>
+
+
+<body>
+    <noscript>
+        <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-5MBCB8G5"
+            height=0
+            width=0
+            style="display: none; 
+            visibility: hidden">
+        </iframe>
+    </noscript>
+    <noscript>Please enable javascript to browse this website</noscript>
+    <!-- main content -->
+    <div id=q-app></div>
+    
+</body>
+
+</html>

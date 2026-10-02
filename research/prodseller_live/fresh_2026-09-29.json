@@ -1,0 +1,168 @@
+{
+ "run_ts": "2026-09-29T14:54:17Z",
+ "base_url": "https://prodseller.com/v1",
+ "api": {
+  "balance": {
+   "http": 200,
+   "response": {
+    "telegramId": 8694806973,
+    "username": "SaraShamari",
+    "balance": 0,
+    "membership": "bronze"
+   },
+   "ratelimit": {
+    "RateLimit-Policy": "300;w=900",
+    "RateLimit-Limit": "300",
+    "RateLimit-Remaining": "285",
+    "RateLimit-Reset": "840"
+   }
+  },
+  "products_http": 200,
+  "probe_orders": {
+   "http": 200,
+   "body_head": "{\"orders\":[],\"pagination\":{\"page\":1,\"limit\":50,\"total\":0,\"pages\":0}}"
+  },
+  "probe_orders_page_1_limit_5": {
+   "http": 200,
+   "body_head": "{\"orders\":[],\"pagination\":{\"page\":1,\"limit\":5,\"total\":0,\"pages\":0}}"
+  },
+  "probe_topup": {
+   "http": 404,
+   "body_head": "{\"error\":\"Route introuvable\"}"
+  },
+  "probe_membership": {
+   "http": 404,
+   "body_head": "{\"error\":\"Route introuvable\"}"
+  },
+  "probe_tiers": {
+   "http": 404,
+   "body_head": "{\"error\":\"Route introuvable\"}"
+  },
+  "site_root": {
+   "http": 200,
+   "body_head": "<!doctype html>\n<html lang=\"en\" data-beasties-container>\n<head>\n  <meta charset=\"utf-8\">\n  <title>ProdsellerAdmin</title>\n  <base href=\"/\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <link rel=\"icon\" type=\"image/x-icon\" href=\"favicon.ico\">\n<style>:root{--sidebar-w:240px;--header-h:64px;--radius-sm:8px;--radius-md:12px;--radius-lg:16px;--t:.2s ease;--bg-base:#0d1117;--"
+  }
+ },
+ "tg": {
+  "ProdSellerOfficial": {
+   "http": 200,
+   "og_title": "ProdSeller",
+   "og_desc": "admin : https://t.me/sookbit\nBOT: https://t.me/prodsellerbot",
+   "n_messages": 20,
+   "dates": [
+    "2026-09-16T17:46:49+00:00",
+    "2026-09-19T08:00:58+00:00",
+    "2026-09-19T10:44:04+00:00",
+    "2026-09-19T14:06:22+00:00",
+    "2026-09-19T14:14:07+00:00",
+    "2026-09-19T17:19:11+00:00",
+    "2026-09-19T20:21:42+00:00",
+    "2026-09-19T21:56:02+00:00",
+    "2026-09-20T05:51:54+00:00",
+    "2026-09-20T08:41:53+00:00",
+    "2026-09-20T18:32:33+00:00",
+    "2026-09-23T07:22:53+00:00",
+    "2026-09-23T17:07:14+00:00",
+    "2026-09-23T19:24:00+00:00",
+    "2026-09-24T05:14:24+00:00",
+    "2026-09-25T15:25:37+00:00",
+    "2026-09-25T20:17:08+00:00",
+    "2026-09-27T10:05:59+00:00",
+    "2026-09-27T13:40:50+00:00",
+    "2026-09-28T12:15:01+00:00"
+   ],
+   "messages": [
+    "✅Gemini Links Are Working Again&#33;\nThe Gemini link issue has been fixed, and everything is working normally again. 🎉\nYou can now use/redeem your Gemini link as usual.\nThank you everyone for waiting and for your patience&#33; ❤️",
+    "🚨🔥 GEMINI 18 MONTHS — FLASH SALE 🔥🚨\n\n💎 LINKS: &#036;0.59 / Link\n⚡ API USER: &#036;0.55 / User\n📦 BULK DEALS: Special prices available&#33;\n\n⏳ FLASH SALE — LIMITED STOCK\n🏃‍♂️ Hurry&#33; Stock available until sold out 🚨\n\n🤖 Order now: @prodsellerbot\n\n🔥 First come, first served&#33;",
+    "🚨🔥 NEW FLASH SALE — GEMINI 18 MONTHS 🔥🚨\n\n💥 ONLY &#036;0.49 / LINK 💥\n\n⚡ Ultra Flash Price\n📦 Bulk orders available\n⏳ LIMITED STOCK — UNTIL SOLD OUT&#33;\n\n🏃‍♂️ Hurry, don&#39;t miss it&#33;\n\n🤖 Order now: @prodsellerbot",
+    "🚨🔥 Super DUOLINGO 12 MONTHS — FLASH SALE 🔥🚨\n\n💎 LINK: &#036;0.59\n⚡ API USER: &#036;0.55 \n📦 BULK: Special prices available&#33; 0.5&#036;\n\n⏳ LIMITED STOCK — UNTIL SOLD OUT&#33;\n🏃‍♂️ Hurry, grab yours now&#33;\n\n🤖 Order here: @prodsellerbot",
+    "🚨🔥 GMAIL STABLE ACCOUNTS — FLASH SALE 🔥🚨\n\n📧 ACCOUNT: &#036;0.80\n⚡ API USER: &#036;0.75\n📦 BULK: &#036;0.60\n\n⏳ LIMITED STOCK — UNTIL SOLD OUT&#33;\n🏃‍♂️ Hurry, don&#39;t miss the deal&#33;\n\n🤖 Order now: @prodsellerbot",
+    "🚨🔥 SUPER GROK — discount 🔥🚨\n\n💥 ONLY &#036;2.90 💥\n\n⚡ Special price\n🤖 Available ONLY via our bot\n\n🛒 Order now: @prodsellerbot\n\n⏳ Limited stock — hurry&#33; 🚀",
+    "🚨🔥 GEMINI — new discount 🔥🚨\n\n💎 LINK: &#036;0.53\n⚡ API USER: &#036;0.50\n📦 BULK: Special prices available&#33;\n🏃‍♂️ Hurry, grab yours now&#33;\n\n🤖 Order here: @prodsellerbot",
+    "New product : 0.9&#036;",
+    "🔥 Gemini 18 Months — FLASH SALE&#33; 🚀\n💰 &#036;0.49/account | 📦 &#036;0.45/account for BULK\n🤖 Order now 👉 @prodsellerbot ⚡ Limited offer&#33;",
+    "New product :\nChatgpt K12 with codex \n24h warranty \nPrice 3.9&#036; and 3.8&#036; for api users",
+    "🔥 OFFICE 365 PLUS — NEW DISCOUNT&#33; 🔥\n💻 Personal Account: &#036;0.29 📦 Bulk &amp; API Users: &#036;0.17\n🏆 BEST PRICE IN THE MARKET&#33; 💥\n✅ 100% Private Accounts 🔐 Password Changeable 📱 Use on up to 5 Devices ⚡ Instant Delivery 🛡️ Reliable &amp; Secure\n🚀 Limited Stock — Grab Yours Now&#33;\n🛒 Available exclusively on ProdSellerBot 🤖",
+    "🔥 CAPCUT 7 DAYS — DISCOUNT&#33; 🎬\n\n💰 Account: &#036;0.14\n⚡ API Users: &#036;0.13\n📦 Bulk: &#036;0.12\n\n🚀 Fast delivery | 🔐 Stable accounts | 💯 Best prices\n🤖 ONLY IN OUR BOT: @prodsellerbot",
+    "🚀 NEW PRODUCT — CAPCUT 6 DAYS 🎬🔥\n\n💰 Account: &#036;0.10\n⚡ API Users: &#036;0.09\n📦 Bulk: &#036;0.09\n\n✨ Fast Delivery • 🔐 Stable Accounts • 💎 Best Price\n🤖 ONLY IN OUR BOT → @prodsellerbot",
+    "🔥 FLASH SALE — LIMITED TIME&#33; 🔥\n\n🦉 Duolingo SUPER — 12 Months\n💰 ONLY &#036;0.45 🚀\n\n🎨 Adobe Express — 12 Months\n🔗 Activation Link\n💰 &#036;0.39 Regular\n⚡ &#036;0.37 API Users\n\n📦 Instant delivery\n🤖 Only with @prodsellerbot\n⏳ Grab it before the stock runs out&#33; 🔥",
+    "🔥 DUOLINGO SUPER 12 MONTHS — ONLY 0.37&#036; 💚\n⚡ API USER 0.36&#036; | 📦 BULK 0.34&#036; — Best Price in the Market 🏆\n🤖 Get it now ONLY via @prodsellerbot 🚀",
+    "Flash sale Gemini 18 months \nOnly &#036;0.69 per Link and &#036;0.66in Bulk .\nBest price in telegram",
+    "New discount Gemini 18 months \nOnly &#036;0.65 per Link and &#036;0.63 with  Bulk .\nBest price in telegram",
+    "New discount Gemini 18 months \nOnly &#036;0.48 per Link and &#036;0.44 with  Bulk .\n@prodsellerbot",
+    "🔥 CapCut 1 Month — NEW DISCOUNT&#33; 🎬✨\n🛡️ Full 1 Month Warranty | 💰 &#036;1.29 Account • &#036;1.25 API Users • &#036;1.20 Bulk\n🤖 ONLY WITH OUR BOT: @prodsellerbot 🚀",
+    "Notice : Binnace api Problem fixed ."
+   ]
+  },
+  "ProdSellerBot": {
+   "http": 200,
+   "og_title": "ProdSeller",
+   "og_desc": "Support: https://t.me/prodsellersupport     Channel:https://t.me/ProdSellerOfficial",
+   "n_messages": 0,
+   "dates": [],
+   "messages": []
+  },
+  "sookbit": {
+   "http": 200,
+   "og_title": "Prodseller.com",
+   "og_desc": "Shop Bot: https://t.me/ProdSellerBot?start=ref_5574095571 Channel:https://t.me/ProdSellerOfficial",
+   "n_messages": 0,
+   "dates": [],
+   "messages": []
+  }
+ },
+ "price_diff": [
+  {
+   "product": "CAPCUT PRO 6 MONTHS ",
+   "change": "CHANGED",
+   "details": [
+    "inStock: False -> True"
+   ],
+   "price_now": 8.5,
+   "price_old": 8.5
+  },
+  {
+   "product": "Canva Pro 2 yrs FW",
+   "change": "CHANGED",
+   "details": [
+    "inStock: False -> True"
+   ],
+   "price_now": 0.6,
+   "price_old": 0.6
+  },
+  {
+   "product": "Capcut pro 6 days FW",
+   "change": "CHANGED",
+   "details": [
+    "inStock: True -> False"
+   ],
+   "price_now": 0.09,
+   "price_old": 0.09
+  },
+  {
+   "product": "ChatGPT Plus K12 Edu 2 years",
+   "change": "NEW",
+   "price_now": 3.4,
+   "stock": true
+  },
+  {
+   "product": "Duolingo 12M new method",
+   "change": "CHANGED",
+   "details": [
+    "inStock: True -> False"
+   ],
+   "price_now": 0.15,
+   "price_old": 0.15
+  },
+  {
+   "product": "Gemini Pro 18Months (link)",
+   "change": "CHANGED",
+   "details": [
+    "price: 0.45 -> 0.89",
+    "publicPrice: 0.48 -> 0.89"
+   ],
+   "price_now": 0.89,
+   "price_old": 0.45
+  }
+ ]
+}

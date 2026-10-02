@@ -1,0 +1,449 @@
+{
+ "capture_reason": "CHANGED",
+ "title": "Inference Register",
+ "schema": {
+  "object": "database",
+  "id": "ef1beea4-64f8-4622-9c89-e2a0c661fce2",
+  "cover": null,
+  "icon": null,
+  "created_time": "2026-09-25T20:50:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_time": "2026-09-25T20:50:00.000Z",
+  "title": [
+   {
+    "type": "text",
+    "text": {
+     "content": "Inference Register",
+     "link": null
+    },
+    "annotations": {
+     "bold": false,
+     "italic": false,
+     "strikethrough": false,
+     "underline": false,
+     "code": false,
+     "color": "default"
+    },
+    "plain_text": "Inference Register",
+    "href": null
+   }
+  ],
+  "description": [
+   {
+    "type": "text",
+    "text": {
+     "content": "سجل الاستنتاجات المستخلصة من الأدلة والمصادر مع تتبع مسار الاستنتاج.",
+     "link": null
+    },
+    "annotations": {
+     "bold": false,
+     "italic": false,
+     "strikethrough": false,
+     "underline": false,
+     "code": false,
+     "color": "default"
+    },
+    "plain_text": "سجل الاستنتاجات المستخلصة من الأدلة والمصادر مع تتبع مسار الاستنتاج.",
+    "href": null
+   }
+  ],
+  "is_inline": false,
+  "database_type": null,
+  "properties": {
+   "Context": {
+    "id": "BbuN",
+    "name": "Context",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Last Reviewed": {
+    "id": "SRY%5B",
+    "name": "Last Reviewed",
+    "description": null,
+    "type": "date",
+    "date": {}
+   },
+   "Limitations": {
+    "id": "Y%3ELU",
+    "name": "Limitations",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Confidence": {
+    "id": "ZITm",
+    "name": "Confidence",
+    "description": null,
+    "type": "select",
+    "select": {
+     "options": [
+      {
+       "id": "62556e00-f3b7-41e2-9d3d-a0d00a703a4a",
+       "name": "Strong",
+       "color": "green",
+       "description": null
+      },
+      {
+       "id": "332d729b-4493-43b5-b745-a75018907cd5",
+       "name": "Moderate",
+       "color": "yellow",
+       "description": null
+      },
+      {
+       "id": "90a81cac-1c7b-4891-aca8-c8a9efbcb9c2",
+       "name": "Limited",
+       "color": "orange",
+       "description": null
+      },
+      {
+       "id": "7a90af60-3aec-48df-ad71-90a3e7e44fd8",
+       "name": "Conflicting",
+       "color": "red",
+       "description": null
+      },
+      {
+       "id": "ec08fc01-efd4-4836-9618-97fc6112debb",
+       "name": "Insufficient",
+       "color": "gray",
+       "description": null
+      }
+     ]
+    }
+   },
+   "Status": {
+    "id": "%60X%3Ef",
+    "name": "Status",
+    "description": null,
+    "type": "select",
+    "select": {
+     "options": [
+      {
+       "id": "216885e4-d022-4620-a0e9-1c2cd553c2b8",
+       "name": "Candidate",
+       "color": "gray",
+       "description": null
+      },
+      {
+       "id": "8623c82d-f41c-447f-99b1-92a8c924494f",
+       "name": "Verified",
+       "color": "blue",
+       "description": null
+      },
+      {
+       "id": "70cd8094-2390-4453-ad6b-b42242603287",
+       "name": "Adopted",
+       "color": "green",
+       "description": null
+      },
+      {
+       "id": "6bc67551-5f24-4f3c-b108-d694cd138001",
+       "name": "Needs Review",
+       "color": "orange",
+       "description": null
+      },
+      {
+       "id": "ec7550a3-70d1-40ab-9e05-08eac9d53ea4",
+       "name": "Superseded",
+       "color": "purple",
+       "description": null
+      },
+      {
+       "id": "cf9a0d75-f5dc-418a-b66c-590baaaeb66b",
+       "name": "Rejected",
+       "color": "red",
+       "description": null
+      }
+     ]
+    }
+   },
+   "Analysis": {
+    "id": "gUY%5E",
+    "name": "Analysis",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Inference ID": {
+    "id": "p%5ByJ",
+    "name": "Inference ID",
+    "description": null,
+    "type": "unique_id",
+    "unique_id": {
+     "prefix": "INF"
+    }
+   },
+   "Evidence IDs": {
+    "id": "wKLB",
+    "name": "Evidence IDs",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Statement": {
+    "id": "x%3F%7Cw",
+    "name": "Statement",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Source IDs": {
+    "id": "zUFy",
+    "name": "Source IDs",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "Name": {
+    "id": "title",
+    "name": "Name",
+    "description": null,
+    "type": "title",
+    "title": {}
+   }
+  },
+  "parent": {
+   "type": "page_id",
+   "page_id": "3e658a07-79e8-812f-b628-dde61492e5b2"
+  },
+  "url": "https://app.notion.com/p/ef1beea464f846229c89e2a0c661fce2",
+  "public_url": null,
+  "in_trash": false,
+  "archived": false,
+  "request_id": "281b75b2-8c5f-4e77-bedf-58c65a04d8c0"
+ },
+ "row_count": 1,
+ "rows": [
+  {
+   "object": "page",
+   "id": "3e658a07-79e8-81a9-860d-dfef3c3b4fed",
+   "created_time": "2026-09-25T20:52:00.000Z",
+   "last_edited_time": "2026-09-25T20:52:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "database_id",
+    "database_id": "ef1beea4-64f8-4622-9c89-e2a0c661fce2"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Context": {
+     "id": "BbuN",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "بناء taxonomy أولية لقاعدة معرفة تسويقية شاملة، وليس إصدار حكم على أفضل إطار مهني.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "بناء taxonomy أولية لقاعدة معرفة تسويقية شاملة، وليس إصدار حكم على أفضل إطار مهني.",
+       "href": null
+      }
+     ]
+    },
+    "Last Reviewed": {
+     "id": "SRY%5B",
+     "type": "date",
+     "date": {
+      "start": "2026-09-25",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Limitations": {
+     "id": "Y%3ELU",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "هذا استنتاج منهجي مبكر يعتمد على عدد محدود من الأطر؛ يجب اختباره مقابل كتب التسويق والأدبيات المحكمة والمناهج والوظائف والتطبيقات.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "هذا استنتاج منهجي مبكر يعتمد على عدد محدود من الأطر؛ يجب اختباره مقابل كتب التسويق والأدبيات المحكمة والمناهج والوظائف والتطبيقات.",
+       "href": null
+      }
+     ]
+    },
+    "Confidence": {
+     "id": "ZITm",
+     "type": "select",
+     "select": {
+      "id": "332d729b-4493-43b5-b745-a75018907cd5",
+      "name": "Moderate",
+      "color": "yellow"
+     }
+    },
+    "Status": {
+     "id": "%60X%3Ef",
+     "type": "select",
+     "select": {
+      "id": "216885e4-d022-4620-a0e9-1c2cd553c2b8",
+      "name": "Candidate",
+      "color": "gray"
+     }
+    },
+    "Analysis": {
+     "id": "gUY%5E",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "AMA وCIM يقدمان تقسيمين مهنيين متكاملين جزئيًا لكن بزاويتين مختلفتين، بينما تعريف AMA يحدد العملية والغاية العامة للتسويق. اختلاف البنية يدل على أن إطارًا واحدًا لا ينبغي أن يصبح taxonomy الوحيدة.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "AMA وCIM يقدمان تقسيمين مهنيين متكاملين جزئيًا لكن بزاويتين مختلفتين، بينما تعريف AMA يحدد العملية والغاية العامة للتسويق. اختلاف البنية يدل على أن إطارًا واحدًا لا ينبغي أن يصبح taxonomy الوحيدة.",
+       "href": null
+      }
+     ]
+    },
+    "Inference ID": {
+     "id": "p%5ByJ",
+     "type": "unique_id",
+     "unique_id": {
+      "prefix": "INF",
+      "number": 1
+     }
+    },
+    "Evidence IDs": {
+     "id": "wKLB",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "EVD pages: AMA Marketing Competency Model; CIM Global Professional Marketing Framework; AMA Definition of Marketing",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "EVD pages: AMA Marketing Competency Model; CIM Global Professional Marketing Framework; AMA Definition of Marketing",
+       "href": null
+      }
+     ]
+    },
+    "Statement": {
+     "id": "x%3F%7Cw",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "لا يوجد إطار مهني واحد يكفي وحده لبناء خريطة معرفة تسويقية شاملة؛ ينبغي تركيب الخريطة من تعريفات المجال، والنظرية والبحث، والكفاءات المهنية، والوظائف، والتطبيقات، والتقنية.",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "لا يوجد إطار مهني واحد يكفي وحده لبناء خريطة معرفة تسويقية شاملة؛ ينبغي تركيب الخريطة من تعريفات المجال، والنظرية والبحث، والكفاءات المهنية، والوظائف، والتطبيقات، والتقنية.",
+       "href": null
+      }
+     ]
+    },
+    "Source IDs": {
+     "id": "zUFy",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "AMA; CIM",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "AMA; CIM",
+       "href": null
+      }
+     ]
+    },
+    "Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "INF-001 — Multi-layer taxonomy is required",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "INF-001 — Multi-layer taxonomy is required",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/INF-001-Multi-layer-taxonomy-is-required-3e658a0779e881a9860ddfef3c3b4fed",
+   "public_url": null,
+   "archived": false
+  }
+ ]
+}

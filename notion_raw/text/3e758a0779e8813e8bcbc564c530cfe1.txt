@@ -1,0 +1,7 @@
+# Cycle 5 — Claude Response — v4.1 Runtime Audit → v4.2 Candidate
+Claude Response Archive
+Complete Claude response received and stored as the raw response for Cycle 5.
+Audit Note
+The response distinguishes Runtime Evidence, Non-Normative Runtime Behavior, Inference, and Unknown. It reports v4.2 as a Candidate, not Approved/Canonical.
+Immediate audit flag
+The metadata says “Tests Passed: R1–R6 … pass by construction” while Part 7/8 explicitly state that the relevant multi-batch behaviors have not yet been exercised in a live v4.2  z.ai  run. Treat these as  structurally addressed / design-check pass , not live runtime validation. This wording should be normalized before v4.2 is used as evidence of runtime success.

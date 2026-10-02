@@ -1,0 +1,255 @@
+# مجموعة بيانات موردي المنتجات الرقمية العالميين — سجل الجلسة GDS-1
+**تاريخ الإنشاء:** 2026-09-29T04:13+00:00
+
+## العداد الرسمي: UNIQUE_QUALIFIED_ENTITY_COUNT = **230** / الهدف 1000 (23.0%)
+
+## ملخص التوزيع
+- **حسب النوع:** Distributor/Wholesaler: 68 · Digital Goods Platform: 66 · Reseller Platform: 55 · API/Distribution Platform: 28 · White-Label Platform: 10 · Aggregator Platform: 3
+- **حسب المنطقة:** UNKNOWN: 150 · North America: 29 · Europe: 11 · Africa: 9 · SEA: 9 · MENA: 6 · South Asia: 5 · Türkiye: 4 · Eastern Europe: 3 · LatAm: 2 · CIS: 2
+- **حسب الثقة:** HIGH: 204 · MEDIUM: 26
+- مرفوضة (بعد المراجعة اليدوية): 395 | أدلة غير كافية: 1348
+
+## قائمة الكيانات المؤهلة (الاسم — النطاق — النوع — الثقة)
+- **Temp Phone Numbers to Receive SMS Online** — `1001sms.com` — Reseller Platform — HIGH
+- **Online SMS verification service** — `5sim.net` — Reseller Platform — HIGH
+- **99minds** — `99minds.io` — Digital Goods Platform — HIGH
+- **Oversized Made-to-Order Slow Fashion Brand** — `aakasha.com` — Distributor/Wholesaler — HIGH
+- **Home** — `advanta.africa` — Distributor/Wholesaler — HIGH
+- **Advertage &#8211; visibility to the world** — `advertage.co.ke` — Distributor/Wholesaler — HIGH
+- **Afghan Top Up Online in Seconds** — `afgtopup.com` — API/Distribution Platform — HIGH
+- **Discover best websites designed by African Designe** — `afrikadesigners.com` — Reseller Platform — HIGH
+- **eSIM Platform for Global Travel Providers** — `ai.celitech.com` — White-Label Platform — HIGH
+- **Buy Travel eSIM with 5G Voice &amp; Data for 190+ ** — `airhubapp.com` — Digital Goods Platform — HIGH
+- **aka.ms Link Management** — `aka.ms` — Digital Goods Platform — HIGH
+- **One moment, please...** — `alertify.eu` — Distributor/Wholesaler — MEDIUM
+- **Enterprise Rewards &amp; Incentives Platform** — `alldigitalrewards.com` — API/Distribution Platform — HIGH
+- **Alkautsar Topup** — `altopupin.com` — Reseller Platform — HIGH
+- **APPS RUN THE WORLD - Apps Research and Buyer Insig** — `appsruntheworld.com` — Distributor/Wholesaler — HIGH
+- **Digital Gift Cards, Game Top-Ups &amp; Vouchers** — `ar-pay.com` — Reseller Platform — HIGH
+- **Distributor pulsa murah   dan ppob lainnya Pulsa M** — `armoiri.es` — Distributor/Wholesaler — MEDIUM
+- **ARWriter API - واجهة موحّدة متوافقة مع OpenAI** — `arwriter.ai` — Digital Goods Platform — HIGH
+- **AtmosFX Digital Decorations for Halloween, Christm** — `atmosfx.com` — Distributor/Wholesaler — HIGH
+- **Barista tools including coffee milk pitcher,tamper** — `baristaspace.com` — Distributor/Wholesaler — HIGH
+- **Bitquery V2 API Docs** — `bitquery.io` — Distributor/Wholesaler — HIGH
+- **Bitrefill API Documentation** — `bitrefill.com` — Distributor/Wholesaler — HIGH
+- **blackhawknetwork.com** — `blackhawknetwork.com` — Distributor/Wholesaler — MEDIUM
+- **Home** — `blogs.windows.com` — Digital Goods Platform — HIGH
+- **Distributor pulsa elektrik all operator harga gros** — `bondplusonline.co.za` — Distributor/Wholesaler — MEDIUM
+- **Wholesale Game Key & Gift Card Supplier - Brolexy.** — `brolexy.com` — Distributor/Wholesaler — HIGH
+- **BSG AI CPaaS — Smart Global Messaging for Modern B** — `bsg.world` — Reseller Platform — HIGH
+- **Cheap International Calls In Your Browser - Bubbly** — `bubblyphone.com` — Reseller Platform — HIGH
+- **Buy Gift Cards with Crypto** — `buysellvouchers.com` — Digital Goods Platform — HIGH
+- **Your request has been blocked. This could be due t** — `c.s-microsoft.com` — Digital Goods Platform — HIGH
+- **Buy Us iTunes Cards - Fast Email Delivery** — `carddelivery.com` — Distributor/Wholesaler — HIGH
+- **كارد إكسبريس - بطاقات الهدايا والبطاقات الرقمية** — `cardexpresseg.com` — Distributor/Wholesaler — HIGH
+- **CareHores** — `cardhorse.com` — Digital Goods Platform — HIGH
+- **Carousell Singapore** — `carousell.sg` — Reseller Platform — HIGH
+- **Ubigi eSIM: travel and local data plans for mobile** — `cellulardata.ubigi.com` — Distributor/Wholesaler — HIGH
+- **CheckFPS — Calcula FPS, optimiza tu PC y compara G** — `checkfps.io` — Digital Goods Platform — HIGH
+- **CloudZero: The AI ROI Company** — `cloudzero.com` — Reseller Platform — HIGH
+- **Cobira** — `cobira.co` — Reseller Platform — HIGH
+- **CodesWholesale — B2B Wholesale Platform for Digita** — `codeswholesale.com` — API/Distribution Platform — HIGH
+- **Comviva : The Global Leader of Mobility Solutions** — `comviva.com` — Digital Goods Platform — HIGH
+- **Microsoft Copilot** — `copilot.com` — Digital Goods Platform — HIGH
+- **Crozdesk** — `crozdesk.com` — Distributor/Wholesaler — HIGH
+- **Cryptwerk / Places to spend cryptocurrency: Bitcoi** — `cryptwerk.com` — Digital Goods Platform — HIGH
+- **Deliverect** — `deliverect.com` — Reseller Platform — MEDIUM
+- **Dial91 &#8211; Best Indian calling card offer call** — `dial91.com` — Digital Goods Platform — HIGH
+- **Digeneo** — `digeneo.com` — Distributor/Wholesaler — HIGH
+- **Digital License – Trusted Digital Software License** — `digitallicense.shop` — Digital Goods Platform — HIGH
+- **Digital Pulsa - Aplikasi Agen Pulsa, PPOB dan Pemb** — `digitalpulsa.net` — Distributor/Wholesaler — HIGH
+- **DinCol Fx** — `dincolfx.com` — Distributor/Wholesaler — HIGH
+- **Business Blog** — `dingconnect.com` — Reseller Platform — HIGH
+- **Discord Server List - Discords.com** — `discords.com` — Digital Goods Platform — HIGH
+- **One-API iGaming Aggregator Connecting Europe and t** — `dotconnections.co.im` — Aggregator Platform — HIGH
+- **Driffle: Buy Digital Goods Cheaper!** — `driffle.com` — Distributor/Wholesaler — HIGH
+- **DT One** — `dtone.com` — Distributor/Wholesaler — HIGH
+- **Buy Prepaid Cards, Gaming Credit, eGift Cards &amp** — `dundle.com` — Digital Goods Platform — HIGH
+- **DYG iGaming Games Provider &#8211; Professional Ca** — `dyg-games.com` — Digital Goods Platform — HIGH
+- **eGifter Rewards™** — `egifterrewards.com` — API/Distribution Platform — HIGH
+- **Just a moment...** — `electronicfirst.com` — Distributor/Wholesaler — MEDIUM
+- **engageSPARK - Survey &amp; message hard-to-reach p** — `engagespark.com` — Digital Goods Platform — MEDIUM
+- **Gift Voucher And Gift Card Management System - Enj** — `enjovia.com` — API/Distribution Platform — HIGH
+- **Introduction** — `epixelsoftware.help` — Digital Goods Platform — HIGH
+- **Buy eSIM for International Travel** — `esim.holafly.com` — Digital Goods Platform — HIGH
+- **Buy eSIM Plans Online for Global Travel - RedteaGO** — `esim.redteago.com` — Reseller Platform — HIGH
+- **Checking your browser...** — `esimaccess.com` — White-Label Platform — MEDIUM
+- **esimba.ai** — `esimba.ai` — White-Label Platform — HIGH
+- **eSIM for International Travel - 200+ Countries** — `esimcenter.com` — API/Distribution Platform — HIGH
+- **eSIMCircle: Flexible eSIMs for International Trave** — `esimcircle.com` — Digital Goods Platform — HIGH
+- **Global connectivity made simple​ - eSIMfx** — `esimfx.com` — Distributor/Wholesaler — HIGH
+- **Get Instant Data Plan for eSIM - Cover 180+ countr** — `esimsdata.com` — Digital Goods Platform — HIGH
+- **Unlimited Data in 2 Min — eSIM for 190+ Countries ** — `etravelsim.com` — Digital Goods Platform — HIGH
+- **Fahim AI** — `fahimai.com` — Reseller Platform — HIGH
+- **The Leading Event Ticketing Platform** — `feverup.com` — Reseller Platform — HIGH
+- **finperks** — `finperks.com` — White-Label Platform — HIGH
+- **Flutterwave** — `flutterwave.com` — API/Distribution Platform — HIGH
+- **One moment, please...** — `fmpedia.id` — Distributor/Wholesaler — MEDIUM
+- **Digital Gift Cards &amp; Game Codes** — `fodga.com` — Digital Goods Platform — HIGH
+- **Оптовые игровые коды и API пополнений** — `foxreload.com` — API/Distribution Platform — HIGH
+- **Free Your Music: Ultra Simple Transfer of Playlist** — `freeyourmusic.com` — Reseller Platform — HIGH
+- **G2Gï¼ä¸çé¢å çæ°å­å¸åºå¹³å°** — `g2g.com` — Distributor/Wholesaler — HIGH
+- **Home Shop - Game Card Shop** — `gamecardshop.com` — Reseller Platform — HIGH
+- **Gameflip** — `gameflip.com` — Digital Goods Platform — HIGH
+- **Gamers Outlet: Digital Game Keys &amp; Software CD** — `gamers-outlet.net` — Digital Goods Platform — HIGH
+- **Buy Game Top Up &amp; Gift Cards** — `gamesdrop.io` — API/Distribution Platform — HIGH
+- **eSIM Internationale depuis l'Algérie** — `getgosim.com` — Distributor/Wholesaler — HIGH
+- **购买旅行eSIM上网卡 — 免漫游费，即买即用** — `getlan.net` — Distributor/Wholesaler — HIGH
+- **Affordable eSIM Travel Data for 200+ Destinations** — `getroamify.com` — Reseller Platform — HIGH
+- **GGKEYS.COM – Your Ultimate Destination for Gaming ** — `ggkeys.com` — Reseller Platform — HIGH
+- **Payouts and rewards in gift cards, prepaid and cry** — `gifq.com` — API/Distribution Platform — HIGH
+- **Giftbit** — `giftbit.com` — Distributor/Wholesaler — HIGH
+- **Giftify** — `giftify.me` — API/Distribution Platform — HIGH
+- **Giftronaut** — `giftronaut.com` — API/Distribution Platform — HIGH
+- **Giftsy.com** — `giftsy.com` — Digital Goods Platform — HIGH
+- **GIFTYCODE — Buy Gift Cards, eSIM &amp; Mobile Top-** — `giftycode.com` — Digital Goods Platform — HIGH
+- **Corporate Gifting &amp; Global Rewards Solutions** — `global.gogift.com` — Distributor/Wholesaler — HIGH
+- **Buy eSIM for Travel** — `globalalo.com` — Distributor/Wholesaler — HIGH
+- **GloEsim - Enterprise B2B eSIM API & White-Label So** — `gloesim.com` — White-Label Platform — HIGH
+- **GPM Login - Giải pháp phần mềm antidetect và autom** — `gpmloginapp.com` — Reseller Platform — HIGH
+- **Get virtual phone number for receive SMS and verif** — `grizzlysms.com` — Distributor/Wholesaler — HIGH
+- **Gyft: Buy, Send &amp; Redeem Gift Cards Online or ** — `gyft.com` — Distributor/Wholesaler — HIGH
+- **Best Loyalty Program Software** — `happyrewards.io` — Digital Goods Platform — HIGH
+- **HelloRoam** — `helloroam.com` — Digital Goods Platform — HIGH
+- **Hoang Hiep — head-to-head tech verdicts** — `hoanghiep.site` — Reseller Platform — HIGH
+- **Just a moment...** — `holidayesim.com` — Distributor/Wholesaler — MEDIUM
+- **Travel eSIM Plans: Country, Regional &amp; Global** — `horizonesim.com` — Distributor/Wholesaler — HIGH
+- **Online Casino &amp; iGaming Aggregator - Hub88** — `hub88.io` — Aggregator Platform — HIGH
+- **Ingenico** — `ingenico.com` — API/Distribution Platform — HIGH
+- **Interswitch** — `interswitchgroup.com` — Reseller Platform — HIGH
+- **iTechGuides - The software directory for tech** — `itechguides.com` — Digital Goods Platform — HIGH
+- **Online Electronics Store** — `itfactory.ca` — Digital Goods Platform — HIGH
+- **ÐÐ°Ð³Ð°Ð·Ð¸Ð½ ÑÐ¸ÑÐ¾Ð² Ð´Ð»Ñ Ð¿Ð¾Ð¿ÑÐ»ÑÑÐ½Ñ** — `ivsofte.biz` — API/Distribution Platform — HIGH
+- **JCC Key Portal** — `jcc.tokensunlimited.workers.dev` — Reseller Platform — HIGH
+- **jiema — Receive SMS verification codes anywhere · ** — `jiema.my` — Digital Goods Platform — HIGH
+- **JollyMax: Max Your Top-Up Joy** — `jollymax.com` — Digital Goods Platform — HIGH
+- **Leading AI-Powered Identity Verification Platform** — `jumio.com` — Reseller Platform — HIGH
+- **KartaOplaty.ru - подарочные карты, подписка, попол** — `kartaoplaty.ru` — Digital Goods Platform — HIGH
+- **One moment, please...** — `kiosbank.id` — Reseller Platform — MEDIUM
+- **Lazada Indonesia** — `lazada.co.id` — Reseller Platform — MEDIUM
+- **Lista** — `listacorp.com` — Distributor/Wholesaler — HIGH
+- **Livecards.net - Buy Cheap Game Keys & Gift Cards** — `livecards.net` — Distributor/Wholesaler — HIGH
+- **MUO - Technology, Simplified.** — `makeuseof.com` — Digital Goods Platform — HIGH
+- **Global Distributor of Digital Gift Cards, Games &a** — `manaminds.com` — API/Distribution Platform — HIGH
+- **Digital Goods: Steam, Telegram, eSIM, AI — Marix** — `marix.app` — Distributor/Wholesaler — HIGH
+- **Mashable ME** — `me.mashable.com` — Reseller Platform — HIGH
+- **ميجا سنتر - مركز البطاقات وشحن الالعاب وتطبيقات ال** — `megatec-center.com` — Digital Goods Platform — HIGH
+- **Bot Anuncios 2026 GRATIS - Wallapop y Vinted** — `mitiklive.com` — Distributor/Wholesaler — HIGH
+- **Mobile top** — `mobileairapi.com` — API/Distribution Platform — HIGH
+- **Moneymint - Success Starts Here** — `moneymint.com` — Reseller Platform — MEDIUM
+- **US Dollar to Nigerian Naira today black market** — `monierate.com` — Distributor/Wholesaler — MEDIUM
+- **MooGold** — `moogold.com` — Digital Goods Platform — HIGH
+- **Digital Game Store &amp; Gift Cards - MRCODA** — `mrcoda.com` — API/Distribution Platform — HIGH
+- **Multi Game Card** — `multigamecard.com` — API/Distribution Platform — HIGH
+- **Cloud Phones for Social Media Accounts** — `multilogin.com` — Aggregator Platform — HIGH
+- **MyGiftCardSupply - Buy Gift Cards Online - Worldwi** — `mygiftcardsupply.com` — Distributor/Wholesaler — HIGH
+- **Mysoftheaven Best Software Company** — `mysoftheaven.com` — Reseller Platform — HIGH
+- **mystocks.africa** — `mystocks.africa` — Reseller Platform — MEDIUM
+- **needunlocks** — `needunlocks.com` — Reseller Platform — HIGH
+- **Neplych – Discover, Compare &amp; Build Your Stack** — `neplych.com` — Reseller Platform — HIGH
+- **Next Move Strategy Consulting** — `nextmsc.com` — Digital Goods Platform — HIGH
+- **ä»»å¤©å (é¦æ¸¯)æéå ¬å¸ç¶²ç«** — `nintendo.com` — Distributor/Wholesaler — HIGH
+- **NumberOTP — Free Temp Phone Number to Receive OTP ** — `numberotp.com` — Reseller Platform — HIGH
+- **Receive SMS Online — Virtual Phone Numbers for Ver** — `numsgo.com` — API/Distribution Platform — HIGH
+- **Offline TTS - Free Text to Speech Online** — `offlinetts.com` — Digital Goods Platform — HIGH
+- **OG Analysis** — `oganalysis.com` — Digital Goods Platform — MEDIUM
+- **Take notes anywhere for free** — `onenote.com` — Digital Goods Platform — HIGH
+- **Responsible AI Governance &amp; Compliance Solutio** — `onetrust.com` — Reseller Platform — HIGH
+- **403 Forbidden** — `openpr.com` — Distributor/Wholesaler — MEDIUM
+- **Digital Subscription Region Prices &amp; Access Gu** — `opentherank.com` — Digital Goods Platform — HIGH
+- **Padiepal - Home** — `padiepal.com` — API/Distribution Platform — HIGH
+- **Pastebin.com - #1 paste tool since 2002!** — `pastebin.com` — Digital Goods Platform — HIGH
+- **Privacy eSIM for Travel** — `pikasim.com` — Distributor/Wholesaler — HIGH
+- **PMC Home** — `pmc.ncbi.nlm.nih.gov` — Distributor/Wholesaler — MEDIUM
+- **PremiumCDKeys.com - Get best deals on Games, Softw** — `premiumcdkeys.com` — Distributor/Wholesaler — HIGH
+- **PrepaidForge** — `prepaidforge.com` — API/Distribution Platform — HIGH
+- **One moment, please...** — `prepaynation.com` — Distributor/Wholesaler — MEDIUM
+- **Management Software for Schools, Hospitals, Restau** — `prosoftafrica.com` — White-Label Platform — HIGH
+- **Virtual phone numbers with inbound SMS, in 200+ co** — `pvapins.com` — Digital Goods Platform — HIGH
+- **Free Temporary Phone Numbers for SMS Verification** — `quackr.io` — Distributor/Wholesaler — HIGH
+- **Qubstudio** — `qubstudio.com` — White-Label Platform — HIGH
+- **Railway** — `railway.app` — Reseller Platform — HIGH
+- **Umi** — `reachumi.com` — White-Label Platform — HIGH
+- **Leading Web Scraping API & Solutions Provider in t** — `realdataapi.com` — Digital Goods Platform — HIGH
+- **#1 in Global mobile top-up, Gift cards and Payment** — `recharge.com` — Reseller Platform — HIGH
+- **RecordOwl - Singapore Business Directory** — `recordowl.com` — Distributor/Wholesaler — MEDIUM
+- **Subscription Management Software &amp; Recurring B** — `recurly.com` — Reseller Platform — HIGH
+- **Home** — `referralcandy.com` — Digital Goods Platform — HIGH
+- **Browse The Best Restaurants &amp; Deals Near Hong ** — `restaurant.com` — Reseller Platform — HIGH
+- **Best Employee Recognition Platform** — `rewordin.com` — Distributor/Wholesaler — HIGH
+- **RibiRewards — Reward Infrastructure for Africa** — `ribirewards.com` — Distributor/Wholesaler — HIGH
+- **Roumio — Travel eSIM data plans** — `roumio.com` — Reseller Platform — HIGH
+- **Runa - Global Payout Platform** — `runa.io` — API/Distribution Platform — HIGH
+- **Customer Engagement Platform - Segmentify** — `segmentify.com` — Reseller Platform — HIGH
+- **The best way to sell digital products online - Sel** — `selar.com` — Reseller Platform — HIGH
+- **Homepage** — `shell.com` — Reseller Platform — HIGH
+- **SHOP2TOPUP — Cheap Game Top-Up** — `shop2topup.com` — API/Distribution Platform — HIGH
+- **Buy Travel eSIM, Best Local &amp; International eS** — `simlocal.com` — Reseller Platform — HIGH
+- **Sipay** — `sipay.com.tr` — Distributor/Wholesaler — HIGH
+- **Android SMS Gateway - Turn Your Phone into SMS Ser** — `sms-gateway.app` — Digital Goods Platform — MEDIUM
+- **SMSPin — Online SMS Verification Service** — `smspin.io` — API/Distribution Platform — HIGH
+- **Send Gift Cards &amp; Gifts** — `sodagift.com` — Digital Goods Platform — HIGH
+- **Square APIs &amp; SDKs: Build Custom Solutions on ** — `squareup.com` — API/Distribution Platform — HIGH
+- **UK Startup Investors, Funding &amp; Startups** — `startupmag.co.uk` — Reseller Platform — HIGH
+- **Statum Developer Hub** — `statum.co.ke` — Distributor/Wholesaler — HIGH
+- **Steam Gift Card Online - Reload Your Steam Wallet ** — `steamcarddelivery.com` — Distributor/Wholesaler — HIGH
+- **Steamworks** — `steamgames.com` — Distributor/Wholesaler — HIGH
+- **Market Research Reports, Industry Analysis & Strat** — `straitsresearch.com` — Digital Goods Platform — MEDIUM
+- **Subscription Tracker Without Bank Linking** — `subbuddy.io` — Distributor/Wholesaler — HIGH
+- **Subrupt — Find Cheaper Alternatives to Your Subscr** — `subrupt.com` — Reseller Platform — HIGH
+- **Leading Identity Verification Service - 2025 G2’s ** — `sumsub.com` — Digital Goods Platform — HIGH
+- **Gift Card Rewards and Services** — `tangocard.com` — Distributor/Wholesaler — HIGH
+- **Best Gift Card Trading App in Nigeria** — `tbay.store` — Digital Goods Platform — HIGH
+- **Homepage** — `techcabal.com` — Digital Goods Platform — MEDIUM
+- **TechSpot** — `techspot.com` — Reseller Platform — HIGH
+- **Telarvo Store Blog - Insights on VOIP &amp; SMS Ga** — `telarvostore.com` — Distributor/Wholesaler — HIGH
+- **Home - Telinta** — `telinta.com` — White-Label Platform — HIGH
+- **TELMO eSIM - 無限連接，無限自由** — `telmoesim.com` — Digital Goods Platform — HIGH
+- **Global Cellular Connectivity** — `telna.com` — Reseller Platform — HIGH
+- **Terrapinn - Spark Something** — `terrapinn.com` — Reseller Platform — HIGH
+- **TheAffiliatePlatform - Leading iGaming Affiliate M** — `theaffiliateplatform.com` — Reseller Platform — HIGH
+- **The Eden Shop** — `theedenshop.co.za` — Distributor/Wholesaler — HIGH
+- **Home - The Gift Club** — `thegiftclub.io` — Distributor/Wholesaler — HIGH
+- **AI iGaming Personalization Software — The Playa** — `theplaya.solutions` — Digital Goods Platform — MEDIUM
+- **Yeeld** — `theyeeld.com` — Digital Goods Platform — HIGH
+- **Home - Thurrott.com** — `thurrott.com` — Reseller Platform — HIGH
+- **Temporary Phone Number for SMS Verification** — `tiger-sms.com` — Distributor/Wholesaler — HIGH
+- **The Rewards, Incentives and Gift Card Management P** — `tillo.com` — API/Distribution Platform — HIGH
+- **TogetherPrice: Share the cost of your digital asse** — `togetherprice.com` — Digital Goods Platform — HIGH
+- **Global Game Top-Ups: MLBB, Free Fire &amp; More** — `topupdaddy.com` — Distributor/Wholesaler — HIGH
+- **TOPUPlive - A Cheaper and Safer Game Top Up Center** — `topuplive.com` — Digital Goods Platform — HIGH
+- **One moment, please...** — `travelopro.com` — Digital Goods Platform — MEDIUM
+- **Travelsim365 &#8211; Stay Connected Wherever You G** — `travelsim365.com` — Distributor/Wholesaler — HIGH
+- **Gift Card &amp; Rewards Platform for Businesses** — `tremendous.com` — Distributor/Wholesaler — HIGH
+- **TripoSIM — Travel eSIM for 200+ Destinations** — `triposim.com` — API/Distribution Platform — HIGH
+- **TronDealer - Pasarela de Pagos Cripto** — `trondealer.com` — Digital Goods Platform — HIGH
+- **Procreate Brushes &amp; Photoshop Brushes &amp; Te** — `truegrittexturesupply.com` — Distributor/Wholesaler — HIGH
+- **Unity: Develop, Deploy, and Grow** — `unity.com` — Digital Goods Platform — HIGH
+- **Home** — `unlimitmail.com` — Digital Goods Platform — HIGH
+- **Uvik Software** — `uvik.net` — Reseller Platform — HIGH
+- **Agentic Infrastructure - Vercel** — `vercel.com` — Distributor/Wholesaler — HIGH
+- **VibeCompare — Independent Vibe Coding Tool Compari** — `vibecompare.dev` — Digital Goods Platform — HIGH
+- **Voodoo Market - Digital Goods Store: Games, Top-Up** — `voodoo.market` — Distributor/Wholesaler — HIGH
+- **Developing african villages through electricity &#** — `welight-africa.com` — Reseller Platform — HIGH
+- **Home - WiiN** — `wiin.global` — Digital Goods Platform — MEDIUM
+- **Маркетплейс цифровых товаров WMCentre.su** — `wmcentre.net` — Digital Goods Platform — HIGH
+- **WoWo SIM â International Travel eSIM for 195+ Co** — `wowosim.com` — Reseller Platform — HIGH
+- **Xoxoday - AI-Powered Rewards, Loyalty &amp; Incent** — `xoxoday.com` — API/Distribution Platform — HIGH
+- **Launch, monetize, and scale with Xsolla tools and ** — `xsolla.com` — Reseller Platform — HIGH
+- **eSIM Service - Prepaid Virtual SIM Cards for Trave** — `yesim.app` — Reseller Platform — HIGH
+- **Buy Gift Cards &amp; Gift Vouchers in UAE** — `yougotagift.com` — Distributor/Wholesaler — HIGH
+- **Virtual Phone System, Phone numbers and PBX** — `zadarma.com` — Digital Goods Platform — HIGH
+- **zendit - Access the Global Prepayment Ecosystem** — `zendit.io` — White-Label Platform — HIGH
+
+## حدود البحث القادمة (NEXT SEARCH FRONTIER)
+- استكمال استعلامات الخطة المتبقية (99 من 262) — الإقليمية المحلية ذات الأولوية
+- مناطق غير مفحوصة بعد: اليابان/كوريا المحلية، الصين (فيتنام/كمبوديا)، آسيا الوسطى، القوقاز، سريلانكا
+- طبقات لم تُستكشف: موزعو البرمجيات المؤسسية (VAR)، شبكات البطاقات عبر الهاتف (carrier billing)، موزعو الكوبونات/الخصومات
+- لغات لم تُستخدم: اليابانية بعمق، الكورية، الفارسية/الأردية، السواحيلية
+- القناة الحرة المجدولة: حصادة مقالات القوائم + خرائط المواقع للكيانات الجديدة (لا تستهلك حصة البحث)
+
+## ملاحظات المنهجية والأمانة
+- كل كيان مؤهل له نطاق رسمي تم التحقق منه مباشرة عبر HTTP (أو دليل مقتطف من نطاقه الرسمي عند الحجب)
+- الثقة HIGH = إشارات B2B + فئات رقمية ظاهرة على صفحة النطاق الرسمي نفسها
+- الثقة MEDIUM = دليل من نطاقه الرسمي عبر نتائج البحث (صفحة محجوبة آليًا أو SPA)
+- لم يُختلق أي نطاق أو دليل؛ المرفوضات والأدلة غير الكافية مسجلة بالسبب

@@ -1,0 +1,394 @@
+{
+ "capture_reason": "CHANGED",
+ "title": "المقرّرات الدراسية",
+ "schema": {
+  "object": "database",
+  "id": "c2958a07-79e8-8280-87d2-8176dad0cf82",
+  "cover": null,
+  "icon": {
+   "type": "icon",
+   "icon": {
+    "name": "categories",
+    "color": "gray"
+   }
+  },
+  "created_time": "2026-07-24T22:57:00.000Z",
+  "created_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_by": {
+   "object": "user",
+   "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+  },
+  "last_edited_time": "2026-07-24T22:57:00.000Z",
+  "title": [
+   {
+    "type": "text",
+    "text": {
+     "content": "المقرّرات الدراسية",
+     "link": null
+    },
+    "annotations": {
+     "bold": false,
+     "italic": false,
+     "strikethrough": false,
+     "underline": false,
+     "code": false,
+     "color": "gray"
+    },
+    "plain_text": "المقرّرات الدراسية",
+    "href": null
+   }
+  ],
+  "description": [],
+  "is_inline": true,
+  "database_type": null,
+  "properties": {
+   "رمز المقرّر": {
+    "id": "CbJs",
+    "name": "رمز المقرّر",
+    "description": null,
+    "type": "rich_text",
+    "rich_text": {}
+   },
+   "الواجبات": {
+    "id": "qkkc",
+    "name": "الواجبات",
+    "description": null,
+    "type": "relation",
+    "relation": {
+     "database_id": "1c858a07-79e8-83d1-bcb6-81114a20f611",
+     "data_source_id": "9f858a07-79e8-8325-802e-078f072f6d70",
+     "type": "dual_property",
+     "dual_property": {
+      "synced_property_name": "المقرّر",
+      "synced_property_id": "w%3FC%3B"
+     }
+    }
+   },
+   "Course Name": {
+    "id": "title",
+    "name": "Course Name",
+    "description": null,
+    "type": "title",
+    "title": {}
+   }
+  },
+  "parent": {
+   "type": "page_id",
+   "page_id": "ca158a07-79e8-8216-8e12-011d93e9dadf"
+  },
+  "url": "https://app.notion.com/p/c2958a0779e8828087d28176dad0cf82",
+  "public_url": null,
+  "in_trash": false,
+  "archived": false,
+  "request_id": "de252485-98e5-4864-9ebb-fa4ac27a3b0c"
+ },
+ "row_count": 3,
+ "rows": [
+  {
+   "object": "page",
+   "id": "94658a07-79e8-83da-a6bc-8142a5b5809b",
+   "created_time": "2026-07-24T22:57:00.000Z",
+   "last_edited_time": "2026-07-24T22:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": {
+    "type": "external",
+    "external": {
+     "url": "https://images.unsplash.com/photo-1709026742679-c7171557da35?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb"
+    }
+   },
+   "icon": {
+    "type": "emoji",
+    "emoji": "🧬"
+   },
+   "parent": {
+    "type": "database_id",
+    "database_id": "c2958a07-79e8-8280-87d2-8176dad0cf82"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "رمز المقرّر": {
+     "id": "CbJs",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "BIOL 101",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "BIOL 101",
+       "href": null
+      }
+     ]
+    },
+    "الواجبات": {
+     "id": "qkkc",
+     "type": "relation",
+     "relation": [
+      {
+       "id": "edd58a07-79e8-83d7-87ba-01481355707a"
+      },
+      {
+       "id": "81c58a07-79e8-83aa-acea-81f99235c9c2"
+      },
+      {
+       "id": "94958a07-79e8-8279-86c1-81da713ad2cf"
+      },
+      {
+       "id": "6c058a07-79e8-830f-885c-819b577bac69"
+      }
+     ],
+     "has_more": false
+    },
+    "Course Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "مقدمة في علم الأحياء",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "مقدمة في علم الأحياء",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/94658a0779e883daa6bc8142a5b5809b",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "21158a07-79e8-8304-923c-818ec0bdba06",
+   "created_time": "2026-07-24T22:57:00.000Z",
+   "last_edited_time": "2026-07-24T22:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": {
+    "type": "external",
+    "external": {
+     "url": "https://images.unsplash.com/photo-1589527690381-77260143f061?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb"
+    }
+   },
+   "icon": {
+    "type": "emoji",
+    "emoji": "🧪"
+   },
+   "parent": {
+    "type": "database_id",
+    "database_id": "c2958a07-79e8-8280-87d2-8176dad0cf82"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "رمز المقرّر": {
+     "id": "CbJs",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "CHEM 105",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "CHEM 105",
+       "href": null
+      }
+     ]
+    },
+    "الواجبات": {
+     "id": "qkkc",
+     "type": "relation",
+     "relation": [
+      {
+       "id": "cc058a07-79e8-83c4-8379-8145b5a3f6b2"
+      },
+      {
+       "id": "ac958a07-79e8-82ea-864d-811105d3690e"
+      },
+      {
+       "id": "dbb58a07-79e8-8225-9dce-8161a48eb58d"
+      },
+      {
+       "id": "bff58a07-79e8-8251-866a-814e51804518"
+      }
+     ],
+     "has_more": false
+    },
+    "Course Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "الكيمياء العامة 1",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "الكيمياء العامة 1",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/1-21158a0779e88304923c818ec0bdba06",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "44a58a07-79e8-82f2-9487-816137856f12",
+   "created_time": "2026-07-24T22:57:00.000Z",
+   "last_edited_time": "2026-07-24T22:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3a7d872b-594c-8189-8121-000244e53bc8"
+   },
+   "cover": {
+    "type": "external",
+    "external": {
+     "url": "https://images.unsplash.com/photo-1597616087703-c9d49dcedd1b?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb"
+    }
+   },
+   "icon": {
+    "type": "emoji",
+    "emoji": "📐"
+   },
+   "parent": {
+    "type": "database_id",
+    "database_id": "c2958a07-79e8-8280-87d2-8176dad0cf82"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "رمز المقرّر": {
+     "id": "CbJs",
+     "type": "rich_text",
+     "rich_text": [
+      {
+       "type": "text",
+       "text": {
+        "content": "MATH 120",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "MATH 120",
+       "href": null
+      }
+     ]
+    },
+    "الواجبات": {
+     "id": "qkkc",
+     "type": "relation",
+     "relation": [
+      {
+       "id": "16058a07-79e8-83a8-add3-81a54de201e1"
+      },
+      {
+       "id": "10f58a07-79e8-83af-be4c-8103aa5c4084"
+      },
+      {
+       "id": "da158a07-79e8-8295-bc4d-0187af81cc22"
+      },
+      {
+       "id": "29d58a07-79e8-8337-a4ce-8136773c3a23"
+      }
+     ],
+     "has_more": false
+    },
+    "Course Name": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "التفاضل والتكامل 1",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "التفاضل والتكامل 1",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/1-44a58a0779e882f29487816137856f12",
+   "public_url": null,
+   "archived": false
+  }
+ ]
+}
