@@ -1,0 +1,246 @@
+{
+ "run_id": "MEC2-20260927-B3-DIRECT",
+ "date": "2026-09-27 ~05:00 UTC",
+ "method": "موجة رصد HTTP مباشرة بلا حصة (الحصة 477/429 محجوبة منذ ~02:10) — قنوات §19 + واجهة StackVault الخلفية + فئات Turgame + إعادة تحقق keyforsteam",
+ "central_discovery": {
+  "title": "واجهة StackVault الخلفية تكشف كلفة الشراء الجملية",
+  "endpoint": "decohomz.com/sv-api/products",
+  "products": 275,
+  "with_cost": 274,
+  "formula": "سعر البيع = كلفة الشراء × 1.2",
+  "margin_median_pct": 16.7,
+  "margin_mean_pct": 19.9,
+  "margin_range": "13–57%",
+  "interpretation": "بائع ناقل (pass-through) يضيف 20% ثابتة على سعر توريده — سعره مؤشر نظيف على أسعار الجملة العلوية (اقسم على 1.2)"
+ },
+ "chatgpt_plus_cost_ladder": [
+  {
+   "tier": "أساسي (بلا ضمان)",
+   "cost": 2.8,
+   "retail": 3.36,
+   "note": "الأرضية الصلبة للسوق الرمادي"
+  },
+  {
+   "tier": "ضمان 6 ساعات",
+   "cost": 3.85,
+   "retail": 4.62,
+   "note": "تدرج وسط"
+  },
+  {
+   "tier": "ضمان 5 ساعات",
+   "cost": 5.15,
+   "retail": 6.18,
+   "note": "الضمان يضاعف الكلفة تقريبًا"
+  },
+  {
+   "tier": "ضمان كامل",
+   "cost": 10.67,
+   "retail": 12.81,
+   "note": "≈ 53% من الرسمي $20"
+  },
+  {
+   "tier": "تجديد رسمي (30 يوم)",
+   "cost": 17.14,
+   "retail": 20.57,
+   "note": "الكلفة تقارب الرسمي — لا سحر هنا"
+  }
+ ],
+ "solved_examples": [
+  {
+   "product": "Discord Nitro سنة (ضمان كامل)",
+   "cost": 33.52,
+   "price": 40.23
+  },
+  {
+   "product": "Xbox Game Pass Ultimate سنة",
+   "cost": 14.09,
+   "price": 16.91
+  },
+  {
+   "product": "تجديد ChatGPT Plus رسمي",
+   "cost": 17.14,
+   "price": 20.57
+  },
+  {
+   "product": "Gamma Pro 30 يوم",
+   "cost": 13.71,
+   "price": 16.46
+  },
+  {
+   "product": "Office 2024 Pro Key (ضمان 10 سنوات)",
+   "cost": 2.63,
+   "price": 3.16
+  },
+  {
+   "product": "Adobe Full Apps (Bypass) 3 أشهر",
+   "cost": 13.52,
+   "price": 16.23
+  },
+  {
+   "product": "Windows 10/11 Pro Key",
+   "cost": 3.39,
+   "price": 4.07
+  },
+  {
+   "product": "HBO Max شهر",
+   "cost": 1.53,
+   "price": 1.96
+  },
+  {
+   "product": "YouTube Premium 3 أشهر (رابط)",
+   "cost": 3.0,
+   "price": 3.6
+  },
+  {
+   "product": "Prime Video 6 أشهر",
+   "cost": 2.0,
+   "price": 2.35
+  }
+ ],
+ "live_spreads": [
+  {
+   "item": "Gemini 18M",
+   "wholesale": 0.65,
+   "retail": 0.85,
+   "spread_pct": 31,
+   "note": "مشتريات مؤكدة ×5 في بث الطلبات 26/09"
+  },
+  {
+   "item": "Duolingo Super 12M",
+   "wholesale": 0.37,
+   "retail": 0.85,
+   "spread_pct": 130,
+   "note": "حرب أسعار جملة: $0.59→0.45→0.37 خلال 5 أيام"
+  },
+  {
+   "item": "Office 365 Plus سنة",
+   "wholesale": 0.17,
+   "retail_cost": 0.21,
+   "spread_pct": 24,
+   "note": "تقارب مصدرين مستقلين على السعر العلوي"
+  },
+  {
+   "item": "CapCut 7 أيام",
+   "wholesale": 0.14,
+   "retail": 1.6,
+   "spread_pct": 1043,
+   "note": "سلسلة 3 طبقات: $0.14 جملة ← $1.29 كلفة متجر ← $1.60 بيع"
+  },
+  {
+   "item": "Coursera Plus 1Y (تطور زمني)",
+   "wholesale": 1.0,
+   "retail": 3.5,
+   "spread_pct": 250,
+   "note": "جملة جويلية $1.00 ← تجزئة سبتمبر $3.50 — أكبر تطور سعري موثق في البيانات"
+  },
+  {
+   "item": "ChatGPT Plus 2HW (تقلب)",
+   "wholesale": 4.5,
+   "retail": 5.5,
+   "spread_pct": 22,
+   "note": "±22% خلال نافذة يوم واحد — أشد القطاعات تقلبًا (Office365 مستقر شهرين)"
+  }
+ ],
+ "anchor_prices": [
+  {
+   "item": "Cursor Pro+ (Evo Era)",
+   "price": "40 USDT",
+   "evidence": "نهاية فلاش 27/09 04:27 UTC — رصد حي بنفس الجلسة"
+  },
+  {
+   "item": "Manus Pro 1M / 12m (Evo Era)",
+   "price": "5.50 / 37.00 USDT",
+   "evidence": "منتج جديد 26/09 + نهاية فلاش 27/09 04:32"
+  },
+  {
+   "item": "Coursera Premium 12m (Evo Era)",
+   "price": "3.50 USDT",
+   "evidence": "إعادة تعبئة 62 وحدة 26/09 22:33"
+  },
+  {
+   "item": "Duolingo Super 12M (ProdSeller جملة)",
+   "price": "$0.37",
+   "evidence": "24/09 — API $0.36 / جملة $0.34"
+  },
+  {
+   "item": "ChatGPT Plus VIP شهر (HitMeow)",
+   "price": "$10.77",
+   "evidence": "مخزون 14 — «بيعت 4,157 حسابًا» (ادعاء البائع)"
+  },
+  {
+   "item": "ChatGPT Plus طلب مسبق (AISUBSID)",
+   "price": "$2.90",
+   "evidence": "حد أدنى 20 وحدة — إقرار صريح بارتفاع الكلفة"
+  },
+  {
+   "item": "Windows 11 Pro (Keyforsteam)",
+   "price": "€1.03",
+   "evidence": "أُعيد التحقق مباشرة 27/09 — جدول €0.84–1.66"
+  },
+  {
+   "item": "XGPU سنة رمادية (StackVault)",
+   "price": "$16.91",
+   "evidence": "كلفة $14.09 — تحت الرسمي $22.99 بـ26%"
+  },
+  {
+   "item": "PSN لبنان 10$ (Turgame)",
+   "price": "$9.05",
+   "evidence": "يطابق مرساتنا $9.07 — تحقق متقاطع ناجح"
+  },
+  {
+   "item": "Xbox TL 50 (Turgame)",
+   "price": "$1.02",
+   "evidence": "سلم TL موحد $2.048/100TL"
+  },
+  {
+   "item": "Riot Cash 120 TL (Turgame)",
+   "price": "$2.46",
+   "evidence": "سلم: 250TL=$5.12 · 500TL=$10.23 · 850TL=$17.40"
+  },
+  {
+   "item": "Gemini 18M جملة (ProdSeller)",
+   "price": "$0.65",
+   "evidence": "سلسلة فلاش أسبوعين: $0.43→0.49→0.53→0.59→0.65→0.69"
+  },
+  {
+   "item": "Canva Pro Team Edu Invite 3Y (Evo Era)",
+   "price": "$0.50",
+   "evidence": "مشترى مؤكد 26/09 — أرضية Canva الجديدة للمشروع (مقابل $2.50 لوحة / $6.60 أدمن)"
+  },
+  {
+   "item": "Perplexity Pro 30D FW (Evo Era)",
+   "price": "7.50 USDT",
+   "evidence": "مشترى مؤكد — مقابل $11.90 عند StackVault = فارق قنوات 37%"
+  },
+  {
+   "item": "حسابات Outlook/Hotmail جاهزة (ProdSeller)",
+   "price": "$0.02",
+   "evidence": "أرخص كلفة مدخلات موثقة في المشروع (23/07)"
+  }
+ ],
+ "turgame_obs": {
+  "products": 117,
+  "categories": 12,
+  "tl_rate": "$2.048/100TL موحد",
+  "fx_flag": "المعدل الضمني 48.8 TRY/USD يخالف أساس المشروع 34.1 [بحاجة للتحقق]"
+ },
+ "batch3_status": {
+  "queries_planned": 143,
+  "coverage": "218/218 SKU (تحقق آلي: صفر نواقص)",
+  "deferred_b2": "15 استعلامًا مؤجلًا — أولوية أولى عند فتح الحصة",
+  "watcher": "السلسلة الكاملة آلية: 15 المؤجلة ← تجميع ب2 ← 143 د3 ← تجميع ← توقف عند التنقيح",
+  "state": "قيد الانتظار — الحصة محجوبة (نافذة >3 ساعات)"
+ },
+ "limitations": [
+  "كل الأسعار إعلانية (لا معاملات منفذة) عدا مشتريات مؤكدة يبثها البائعون أنفسهم",
+  "حقل الكلفة قيمة داخلية غير قابلة للتدقيق الخارجي [بحاجة للتحقق عبر حساب B2B]",
+  "المخزون=0 لحظة السحف = نفاد لحظي — رُصدت تعبئات خلال ساعات",
+  "معدل TL الضمني معلّم [بحاجة للتحقق] ولم تُحسب على أساسه خصومات القيمة الاسمية"
+ ],
+ "new_findings": {
+  "api_discount_claim": "إعلان ProSeller المباشر: بوت API «حتى 35% تحت الأسعار العامة» (20/07) — أول تقدير كمي لطبقة خصم API",
+  "raw_materials_floor": "Outlook من $0.02 — Gmail القديم $0.60-0.80 يبقى طبقة premium",
+  "legit_topup_tier": "طبقة شبه شرعية موثقة: شحن ChatGPT بـ«خصم 20% عن الرسمي + ضمان كامل + سجلات فوترة» (قناة gemini12pro 30/06)",
+  "plati_discovery": "سوق Plati: تسميات ChatGPT-6 Astra وClaude-5 أصبحت قياسية في السوق الرمادي الروسي — صفحات العناصر خلف DDoS-Guard (Retrieval-Limited)"
+ }
+}

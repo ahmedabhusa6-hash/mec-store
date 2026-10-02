@@ -1,0 +1,157 @@
+{
+  "layer": "Publishers / Official Sources / Official Channels",
+  "entities": [
+    {
+      "id": "ENT-001",
+      "name": "OpenAI",
+      "type": "Publisher / Official Source",
+      "role": "Primary Source (Publisher) — ChatGPT Plus",
+      "status": "Verified-Active",
+      "verified_via": ["A001", "A023"],
+      "evidence": [
+        { "action": "A001", "source": "community.openai.com", "url": "https://community.openai.com", "observation": "ChatGPT Plus referenced at $20/month (official price discussed on official community forum)", "evidence_level": "Secondary Reported", "freshness": "Current (reconfirmed Jan 2026 via A023 smartbuy.alibaba.com: $20/month monthly billing, $200/year annual)" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "N/A (first-party sales)",
+      "resale": "No authorized reseller program evidenced; community reports (A023, facebook.com) state significant discounts on ChatGPT subscriptions are typically unofficial",
+      "notes": "Official chatgpt.com pricing page not directly retrieved this run — $20/mo anchored via secondary sources only, marked Secondary Reported"
+    },
+    {
+      "id": "ENT-002",
+      "name": "Google (Gemini / Google One AI Pro)",
+      "type": "Publisher / Official Source",
+      "role": "Primary Source (Publisher) — Gemini AI Pro",
+      "status": "Verified-Active",
+      "verified_via": ["A002"],
+      "evidence": [
+        { "action": "A002", "source": "tech.yahoo.com", "url": "https://tech.yahoo.com", "observation": "AI Pro costs $19.99/month outside of trial (Aug 2026)", "evidence_level": "Secondary Reported (consistent ×2: savingadvice.com — $19.99/mo, $199.99/yr annual)", "freshness": "Current (Aug 2026)" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "N/A (first-party sales)",
+      "resale": "Unknown — reseller signal: Etsy listing 'Gemini AI 18 Month Pro Plan' (A002, etsy.com) = Unverified Lead, unauthorized resale suspected (no Google reseller program evidenced)",
+      "notes": "Etsy reseller lead is a discovery branch for Batch 2 (AI subscription gray market)"
+    },
+    {
+      "id": "ENT-003",
+      "name": "Netflix",
+      "type": "Publisher / Official Source",
+      "role": "Primary Source (Publisher) — Netflix plans",
+      "status": "Verified-Active",
+      "verified_via": ["A004"],
+      "evidence": [
+        { "action": "A004", "source": "help.netflix.com", "url": "https://help.netflix.com/en/node/24926", "observation": "US plans: Standard with ads $8.99/mo, Standard $19.99/mo, Premium $26.99/mo, extra member $7.99-9.99", "evidence_level": "First-Party Reported (official help pages, retrieved directly)", "freshness": "Current (reconfirmed 2026 by checkthat.ai Aug 2026)" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "N/A (first-party sales)",
+      "resale": "Netflix gift cards exist but region-limited; no reseller offer captured this run (A068 rate-limited — Retrieval-Limited)",
+      "notes": ""
+    },
+    {
+      "id": "ENT-004",
+      "name": "Spotify AB",
+      "type": "Publisher / Official Source",
+      "role": "Primary Source (Publisher) — Spotify Premium",
+      "status": "Verified-Active",
+      "verified_via": ["A072"],
+      "evidence": [
+        { "action": "A072", "source": "spotify.com", "url": "https://www.spotify.com", "observation": "Premium Individual: $0 first month (trial), then $12.99/month (US)", "evidence_level": "First-Party Reported (official site, retrieved directly)", "freshness": "Current (Aug 2026 corroboration: checkthat.ai — $12.99/mo, +30% since 2023; freeyourmusic.com 2026)" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "N/A (first-party sales)",
+      "resale": "12-month key reseller market exists (A024: ozbargain US$20.86 for 12 months — 87% below official $155.88/yr) — Possible Match–Review, region/method ambiguous, high gray-market risk",
+      "notes": "3 query attempts failed before direct capture (A003, A014, A057) — Failure Recovery applied, 4th construction succeeded"
+    },
+    {
+      "id": "ENT-005",
+      "name": "NordVPN",
+      "type": "Publisher / Official Source",
+      "role": "Primary Source (Publisher) — NordVPN subscriptions",
+      "status": "Verified-Active",
+      "verified_via": ["A005", "A031"],
+      "evidence": [
+        { "action": "A005", "source": "nordvpn.com", "url": "https://nordvpn.com", "observation": "Complete plan: $121.23 first 12 months (75% off $219.48), renews at $219.48/yr; VAT may apply", "evidence_level": "First-Party Reported (official site, retrieved directly)", "freshness": "Current" },
+        { "action": "A031", "source": "nordvpn.com", "url": "https://nordvpn.com", "observation": "OFFICIAL WARNING (Dec 2025): 'No G2A seller is authorized to resell NordVPN subscriptions' — publisher-documented resale restriction", "evidence_level": "First-Party Reported", "freshness": "Current" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "N/A (first-party)",
+      "resale": "Restricted — publisher explicitly states no G2A sellers are authorized; marketplace keys (allkeyshop: $4.90 at K4G) carry unauthorized-resale status",
+      "notes": "Plan tiers materially differ (Basic/Plus/Complete) — SKU identity must lock tier; security.org: Basic 1-yr ≈ $5.49/mo"
+    },
+    {
+      "id": "ENT-006",
+      "name": "Microsoft / Xbox",
+      "type": "Publisher / Official Source",
+      "role": "Primary Source (Publisher) — Windows 11 Pro, Minecraft, Xbox",
+      "status": "Verified-Active",
+      "verified_via": ["A053", "A056", "A011"],
+      "evidence": [
+        { "action": "A053", "source": "microsoft.com", "url": "https://www.microsoft.com", "observation": "Minecraft: Java & Bedrock Edition for PC = $29.99 (official listing)", "evidence_level": "First-Party Reported (retrieved directly)", "freshness": "Current" },
+        { "action": "A056", "source": "learn.microsoft.com + techradar.com", "url": "https://learn.microsoft.com", "observation": "Windows 11 Pro = $199.99 official price (user-confirmed on MS Learn; techradar corroborates)", "evidence_level": "First-Party Reported + Secondary", "freshness": "Current" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "N/A (first-party)",
+      "resale": "OEM key resale legally gray — Linus Tech Tips forum (A026): 'A key is not a license, as Microsoft has repeatedly clarified'; no authorized reseller program for standalone keys evidenced",
+      "notes": "Windows 11 Pro anchor failed twice (A011, A019) before capture — Failure Recovery applied"
+    },
+    {
+      "id": "ENT-007",
+      "name": "Garena",
+      "type": "Publisher / Official Source",
+      "role": "Primary Source (Publisher) — Free Fire diamonds",
+      "status": "Verified-Active (channels only — pricing not captured)",
+      "verified_via": ["A054"],
+      "evidence": [
+        { "action": "A054", "source": "shop.garena.sg + store.garena.com", "url": "https://shop.garena.sg", "observation": "Official Top Up Centers for Free Fire confirmed (SG + US storefronts exist)", "evidence_level": "First-Party Reported (channel existence)", "freshness": "Current" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "N/A",
+      "resale": "Third-party top-up sellers exist (gameseal, karteet) — authorization Unknown",
+      "notes": "520-diamond pack price NOT captured in 4 attempts (A010, A018, A074 + gameseal listing is 2200 denomination — Non-Comparable). SKU price anchor = Unknown (Retrieval-Limited)"
+    },
+    {
+      "id": "ENT-008",
+      "name": "Tencent / Midasbuy",
+      "type": "Official Top-Up Channel (publisher-authorized)",
+      "role": "Official Channel — PUBG Mobile UC",
+      "status": "Verified-Active",
+      "verified_via": ["A059"],
+      "evidence": [
+        { "action": "A059", "source": "midasbuy.com + reddit.com/r/PUBGMobile", "url": "https://www.midasbuy.com/midasbuy/us/buy/pubgm", "observation": "Midasbuy = official top-up store for PUBG Mobile UC (US store), instant crediting; Reddit community confirms 'official third party uc purchase site'; 10% discount advertised", "evidence_level": "First-Party Reported + Community corroboration", "freshness": "Current" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "Official after-sales support stated (publisher channel)",
+      "resale": "N/A (is the official channel)",
+      "notes": "Advertised 10% discount → effective ≈$8.99 for 660 UC (Advertised level)"
+    },
+    {
+      "id": "ENT-009",
+      "name": "Valve / Steam",
+      "type": "Platform / Official Source",
+      "role": "Primary Source (Platform) — Steam Wallet",
+      "status": "Verified-Active",
+      "verified_via": ["A006", "A020"],
+      "evidence": [
+        { "action": "A006", "source": "store.steampowered.com + gamestop.com", "url": "https://store.steampowered.com", "observation": "Steam Wallet codes redeemed at face value; $20 card sold at $20 via official/retail channels (GameStop listing)", "evidence_level": "First-Party Reported (redemption mechanics) + Retail listing", "freshness": "Current" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "N/A (wallet codes are value instruments)",
+      "resale": "Wallet cards are currency+region-locked (USD cards for US accounts, ₴ UAH cards for UA accounts, etc.) — cross-region cards are Non-Comparable SKUs",
+      "notes": "Key structural finding: US-region Steam wallet codes trade ABOVE face on gray market (gg.deals via A021: $13 card at $14.10 G2A, +8.5% premium)"
+    },
+    {
+      "id": "ENT-010",
+      "name": "Apple (App Store & iTunes)",
+      "type": "Publisher / Official Source",
+      "role": "Primary Source (Publisher) — iTunes gift cards",
+      "status": "Verified-Active",
+      "verified_via": ["A015"],
+      "evidence": [
+        { "action": "A015", "source": "amazon.com + bestbuy.com", "url": "https://www.amazon.com", "observation": "Apple $25 App Store & iTunes gift card sold at $25 face value via official US retail (Amazon, Best Buy digital delivery)", "evidence_level": "First-Party Retail", "freshness": "Current" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "N/A",
+      "resale": "Cards are region-locked to redemption region (US cards for US Apple ID); MENA sellers resell US cards at ≈face (A051: gml-store $250 card at 937.50 SAR = exact face at 3.75 SAR/USD)",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,1432 @@
+{
+  "total_actions": 76,
+  "by_retrieval": {
+    "Success": 64,
+    "Failed": 12
+  },
+  "by_discovery_family": {
+    "Product-first": 27,
+    "Marketplace-first": 11,
+    "Price-first": 9,
+    "Seller-first": 11,
+    "Language/market expansion": 1,
+    "B2B/Catalog": 7,
+    "Community/Bot-channel": 1,
+    "Language-first": 3,
+    "Domain/Entity-first": 2,
+    "Counter-evidence": 2,
+    "Community/Forum-first": 2
+  },
+  "actions": [
+    {
+      "action_id": "A001",
+      "timestamp_utc": "2026-09-26T21:04:06.619Z",
+      "branch": "BR-OFFICIAL-ANCHORS",
+      "sku_id": "SKU-AI-001",
+      "objective": "Lock official reference price: OpenAI ChatGPT Plus monthly",
+      "discovery_family": "Product-first (official publisher)",
+      "method": "web_search (official-anchor)",
+      "query": "OpenAI ChatGPT Plus subscription price $20 per month official site",
+      "retrieval_status": "Success",
+      "result_count": 2,
+      "budget_debit": 1,
+      "sources": [
+        "community.openai.com",
+        "www.yahoo.com"
+      ]
+    },
+    {
+      "action_id": "A002",
+      "timestamp_utc": "2026-09-26T21:04:07.721Z",
+      "branch": "BR-OFFICIAL-ANCHORS",
+      "sku_id": "SKU-AI-002",
+      "objective": "Lock official reference price: Google Gemini AI Pro monthly",
+      "discovery_family": "Product-first (official publisher)",
+      "method": "web_search (official-anchor)",
+      "query": "Google Gemini AI Pro plan monthly price official Google One",
+      "retrieval_status": "Success",
+      "result_count": 6,
+      "budget_debit": 1,
+      "sources": [
+        "tech.yahoo.com",
+        "www.etsy.com",
+        "www.savingadvice.com",
+        "www.itechguides.com",
+        "www.aipricing.guru",
+        "me.mashable.com"
+      ]
+    },
+    {
+      "action_id": "A003",
+      "timestamp_utc": "2026-09-26T21:04:09.742Z",
+      "branch": "BR-OFFICIAL-ANCHORS",
+      "sku_id": "SKU-SUB-001",
+      "objective": "Lock official reference price: Spotify Premium Individual 1 month",
+      "discovery_family": "Product-first (official publisher)",
+      "method": "web_search (official-anchor)",
+      "query": "Spotify Premium Individual plan price per month official spotify.com",
+      "retrieval_status": "Success",
+      "result_count": 3,
+      "budget_debit": 1,
+      "sources": [
+        "www.scribd.com",
+        "www.lemon8-app.com",
+        "www.voidstar.com"
+      ]
+    },
+    {
+      "action_id": "A004",
+      "timestamp_utc": "2026-09-26T21:04:10.937Z",
+      "branch": "BR-OFFICIAL-ANCHORS",
+      "sku_id": "SKU-SUB-002",
+      "objective": "Lock official reference price: Netflix Standard 1 month",
+      "discovery_family": "Product-first (official publisher)",
+      "method": "web_search (official-anchor)",
+      "query": "Netflix Standard plan price per month official netflix.com 2026",
+      "retrieval_status": "Success",
+      "result_count": 8,
+      "budget_debit": 1,
+      "sources": [
+        "help.netflix.com",
+        "www.netflix.com",
+        "checkthat.ai",
+        "www.businessinsider.com",
+        "www.cnbc.com",
+        "www.yahoo.com",
+        "www.ign.com",
+        "www.netflix.com"
+      ]
+    },
+    {
+      "action_id": "A005",
+      "timestamp_utc": "2026-09-26T21:04:13.285Z",
+      "branch": "BR-OFFICIAL-ANCHORS",
+      "sku_id": "SKU-SUB-003",
+      "objective": "Lock official reference price: NordVPN 1-year plan",
+      "discovery_family": "Product-first (official publisher)",
+      "method": "web_search (official-anchor)",
+      "query": "NordVPN 1 year plan price official nordvpn.com",
+      "retrieval_status": "Success",
+      "result_count": 5,
+      "budget_debit": 1,
+      "sources": [
+        "nordvpn.com",
+        "support.nordvpn.com",
+        "www.security.org",
+        "www.wired.com",
+        "www.walmart.com"
+      ]
+    },
+    {
+      "action_id": "A006",
+      "timestamp_utc": "2026-09-26T21:04:14.751Z",
+      "branch": "BR-OFFICIAL-ANCHORS",
+      "sku_id": "SKU-GC-001",
+      "objective": "Lock official reference: Steam Wallet $20 gift card",
+      "discovery_family": "Product-first (official publisher)",
+      "method": "web_search (official-anchor)",
+      "query": "Steam Wallet $20 gift card digital code store.steampowered.com",
+      "retrieval_status": "Success",
+      "result_count": 5,
+      "budget_debit": 1,
+      "sources": [
+        "store.steampowered.com",
+        "www.gamestop.com",
+        "www.steamcarddelivery.com",
+        "www.g2a.com",
+        "help.steampowered.com"
+      ]
+    },
+    {
+      "action_id": "A007",
+      "timestamp_utc": "2026-09-26T21:04:16.145Z",
+      "branch": "BR-OFFICIAL-ANCHORS",
+      "sku_id": "SKU-GC-002",
+      "objective": "Lock official reference: Apple iTunes App Store $25 gift card",
+      "discovery_family": "Product-first (official publisher)",
+      "method": "web_search (official-anchor)",
+      "query": "Apple App Store iTunes gift card $25 official apple.com price",
+      "retrieval_status": "Success",
+      "result_count": 1,
+      "budget_debit": 1,
+      "sources": [
+        "www.bestbuy.com"
+      ]
+    },
+    {
+      "action_id": "A008",
+      "timestamp_utc": "2026-09-26T21:04:18.235Z",
+      "branch": "BR-OFFICIAL-ANCHORS",
+      "sku_id": "SKU-GC-003",
+      "objective": "Lock official reference: Google Play $25 gift card",
+      "discovery_family": "Product-first (official publisher)",
+      "method": "web_search (official-anchor)",
+      "query": "Google Play gift card $25 official price play.google.com",
+      "retrieval_status": "Success",
+      "result_count": 6,
+      "budget_debit": 1,
+      "sources": [
+        "queue.acm.org",
+        "wanderlog.com",
+        "eastmorland.org",
+        "justlikecooking.blogspot.com",
+        "insede.org",
+        "americangolfer.blogspot.com"
+      ]
+    },
+    {
+      "action_id": "A009",
+      "timestamp_utc": "2026-09-26T21:04:19.696Z",
+      "branch": "BR-OFFICIAL-ANCHORS",
+      "sku_id": "SKU-TOP-001",
+      "objective": "Lock official reference: PUBG Mobile 660 UC price",
+      "discovery_family": "Product-first (official publisher)",
+      "method": "web_search (official-anchor)",
+      "query": "PUBG Mobile 660 UC price USD official in-game purchase",
+      "retrieval_status": "Success",
+      "result_count": 1,
+      "budget_debit": 1,
+      "sources": [
+        "www.scribd.com"
+      ]
+    },
+    {
+      "action_id": "A010",
+      "timestamp_utc": "2026-09-26T21:04:20.529Z",
+      "branch": "BR-OFFICIAL-ANCHORS",
+      "sku_id": "SKU-TOP-002",
+      "objective": "Lock official reference: Free Fire 520 diamonds price",
+      "discovery_family": "Product-first (official publisher)",
+      "method": "web_search (official-anchor)",
+      "query": "Free Fire 520 diamonds price USD official Garena",
+      "retrieval_status": "Success",
+      "result_count": 1,
+      "budget_debit": 1,
+      "sources": [
+        "www.facebook.com"
+      ]
+    },
+    {
+      "action_id": "A011",
+      "timestamp_utc": "2026-09-26T21:04:22.570Z",
+      "branch": "BR-OFFICIAL-ANCHORS",
+      "sku_id": "SKU-SW-001",
+      "objective": "Lock official reference: Windows 11 Pro license price",
+      "discovery_family": "Product-first (official publisher)",
+      "method": "web_search (official-anchor)",
+      "query": "Windows 11 Pro license price official Microsoft Store",
+      "retrieval_status": "Success",
+      "result_count": 3,
+      "budget_debit": 1,
+      "sources": [
+        "learn.microsoft.com",
+        "www.walmart.com",
+        "www.techspot.com"
+      ]
+    },
+    {
+      "action_id": "A012",
+      "timestamp_utc": "2026-09-26T21:04:23.666Z",
+      "branch": "BR-OFFICIAL-ANCHORS",
+      "sku_id": "SKU-KEY-001",
+      "objective": "Lock official reference: Minecraft Java & Bedrock PC price",
+      "discovery_family": "Product-first (official publisher)",
+      "method": "web_search (official-anchor)",
+      "query": "Minecraft Java Bedrock Edition PC price official minecraft.net",
+      "retrieval_status": "Success",
+      "result_count": 2,
+      "budget_debit": 1,
+      "sources": [
+        "www.gamivo.com",
+        "kiffmarketing.co.za"
+      ]
+    },
+    {
+      "action_id": "A013",
+      "timestamp_utc": "2026-09-26T21:04:25.823Z",
+      "branch": "BR-OFFICIAL-ANCHORS",
+      "sku_id": "SKU-ESIM-001",
+      "objective": "Establish retail reference: eSIM 10GB/30days regional data pack",
+      "discovery_family": "Product-first (retail reference brand)",
+      "method": "web_search (reference-anchor)",
+      "query": "Airalo eSIM 10GB 30 days Europe price USD",
+      "retrieval_status": "Success",
+      "result_count": 4,
+      "budget_debit": 1,
+      "sources": [
+        "www.airalo.com",
+        "esimdb.com",
+        "abrokenbackpack.com",
+        "germanythingstodo.com"
+      ]
+    },
+    {
+      "action_id": "A014",
+      "timestamp_utc": "2026-09-26T21:05:11.539Z",
+      "branch": "BR-OFFICIAL-ANCHORS",
+      "sku_id": "SKU-SUB-001",
+      "objective": "RETRY (A003 failed): Spotify Premium Individual official price — changed query construction",
+      "discovery_family": "Product-first (official publisher)",
+      "method": "web_search (official-anchor-retry)",
+      "query": "Spotify Premium Individual subscription cost 11.99 month US price",
+      "retrieval_status": "Success",
+      "result_count": 1,
+      "budget_debit": 1,
+      "sources": [
+        "rateyourmusic.com"
+      ]
+    },
+    {
+      "action_id": "A015",
+      "timestamp_utc": "2026-09-26T21:05:12.902Z",
+      "branch": "BR-OFFICIAL-ANCHORS",
+      "sku_id": "SKU-GC-002",
+      "objective": "RETRY (A007 failed): Apple iTunes $25 gift card — changed query construction",
+      "discovery_family": "Product-first (official publisher)",
+      "method": "web_search (official-anchor-retry)",
+      "query": "buy Apple iTunes gift card 25 dollars App Store official",
+      "retrieval_status": "Success",
+      "result_count": 8,
+      "budget_debit": 1,
+      "sources": [
+        "www.amazon.com",
+        "www.bestbuy.com",
+        "snoonu.com",
+        "www.kroger.com",
+        "www.ralphs.com",
+        "www.picknsave.com",
+        "discussions.apple.com",
+        "www.g2a.com"
+      ]
+    },
+    {
+      "action_id": "A016",
+      "timestamp_utc": "2026-09-26T21:05:13.948Z",
+      "branch": "BR-OFFICIAL-ANCHORS",
+      "sku_id": "SKU-GC-003",
+      "objective": "RETRY (A008 failed): Google Play $25 gift card — changed query construction",
+      "discovery_family": "Product-first (official publisher)",
+      "method": "web_search (official-anchor-retry)",
+      "query": "Google Play gift card 25 USD buy online Google Store",
+      "retrieval_status": "Success",
+      "result_count": 4,
+      "budget_debit": 1,
+      "sources": [
+        "gist.github.com",
+        "queue.acm.org",
+        "justlikecooking.blogspot.com",
+        "pt.scribd.com"
+      ]
+    },
+    {
+      "action_id": "A017",
+      "timestamp_utc": "2026-09-26T21:05:15.670Z",
+      "branch": "BR-OFFICIAL-ANCHORS",
+      "sku_id": "SKU-TOP-001",
+      "objective": "RETRY (A009 failed): PUBG Mobile 660 UC price — changed query construction",
+      "discovery_family": "Product-first (official publisher)",
+      "method": "web_search (official-anchor-retry)",
+      "query": "how much does 660 UC cost in PUBG Mobile USD",
+      "retrieval_status": "Success",
+      "result_count": 4,
+      "budget_debit": 1,
+      "sources": [
+        "www.itemku.com",
+        "games2usd.com",
+        "www.eneba.com",
+        "m.made-in-china.com"
+      ]
+    },
+    {
+      "action_id": "A018",
+      "timestamp_utc": "2026-09-26T21:05:17.031Z",
+      "branch": "BR-OFFICIAL-ANCHORS",
+      "sku_id": "SKU-TOP-002",
+      "objective": "RETRY (A010 failed): Free Fire 520 diamonds price — changed query construction",
+      "discovery_family": "Product-first (official publisher)",
+      "method": "web_search (official-anchor-retry)",
+      "query": "Free Fire 520 diamonds pack price how much",
+      "retrieval_status": "Success",
+      "result_count": 4,
+      "budget_debit": 1,
+      "sources": [
+        "www.yelp.com",
+        "issuu.com",
+        "www.scribd.com",
+        "corporate.pickering.ca"
+      ]
+    },
+    {
+      "action_id": "A019",
+      "timestamp_utc": "2026-09-26T21:05:17.921Z",
+      "branch": "BR-OFFICIAL-ANCHORS",
+      "sku_id": "SKU-SW-001",
+      "objective": "Retry (A011 partial): Windows 11 Pro official Microsoft price",
+      "discovery_family": "Product-first (official publisher)",
+      "method": "web_search (official-anchor-retry)",
+      "query": "Windows 11 Pro license 199 USD Microsoft Store buy download",
+      "retrieval_status": "Success",
+      "result_count": 6,
+      "budget_debit": 1,
+      "sources": [
+        "www.scribd.com",
+        "elhacker.info",
+        "www.tapatalk.com",
+        "forums.whirlpool.net.au",
+        "qresear.ch",
+        "psp-news.dcemu.co.uk"
+      ]
+    },
+    {
+      "action_id": "A020",
+      "timestamp_utc": "2026-09-26T21:05:19.239Z",
+      "branch": "BR-MARKETPLACE-GC",
+      "sku_id": "SKU-GC-001",
+      "objective": "Discover marketplace offers: Steam Wallet on Eneba",
+      "discovery_family": "Marketplace-first",
+      "method": "web_search (site-search)",
+      "query": "site:eneba.com steam wallet gift card",
+      "retrieval_status": "Success",
+      "result_count": 1,
+      "budget_debit": 1,
+      "sources": [
+        "www.eneba.com"
+      ]
+    },
+    {
+      "action_id": "A021",
+      "timestamp_utc": "2026-09-26T21:05:20.677Z",
+      "branch": "BR-MARKETPLACE-GC",
+      "sku_id": "SKU-GC-001",
+      "objective": "Discover marketplace offers: Steam Wallet on Kinguin/G2A",
+      "discovery_family": "Marketplace-first",
+      "method": "web_search (brand-query)",
+      "query": "G2A Kinguin Steam wallet $20 gift card price buy",
+      "retrieval_status": "Success",
+      "result_count": 3,
+      "budget_debit": 1,
+      "sources": [
+        "www.kinguin.net",
+        "www.g2a.com",
+        "gg.deals"
+      ]
+    },
+    {
+      "action_id": "A022",
+      "timestamp_utc": "2026-09-26T21:05:21.873Z",
+      "branch": "BR-MARKETPLACE-GC",
+      "sku_id": "SKU-GC-002",
+      "objective": "Discover marketplace offers: iTunes gift card on Eneba/G2A",
+      "discovery_family": "Marketplace-first",
+      "method": "web_search (brand-query)",
+      "query": "Eneba G2A iTunes App Store gift card 25 USD price",
+      "retrieval_status": "Success",
+      "result_count": 8,
+      "budget_debit": 1,
+      "sources": [
+        "www.bitrefill.com",
+        "smartcdkeys.com",
+        "apps.apple.com",
+        "gg.deals",
+        "www.facebook.com",
+        "gocdkeys.com",
+        "www.cdkeysforgames.com",
+        "www.keysforgames.co.nz"
+      ]
+    },
+    {
+      "action_id": "A023",
+      "timestamp_utc": "2026-09-26T21:05:24.106Z",
+      "branch": "BR-MARKETPLACE-AI",
+      "sku_id": "SKU-AI-001",
+      "objective": "Discover reseller offers: ChatGPT Plus cheap subscription",
+      "discovery_family": "Price-first",
+      "method": "web_search (commercial-query)",
+      "query": "buy ChatGPT Plus subscription cheap reseller discount price",
+      "retrieval_status": "Success",
+      "result_count": 5,
+      "budget_debit": 1,
+      "sources": [
+        "smartbuy.alibaba.com",
+        "www.g2.com",
+        "www.facebook.com",
+        "www.etsy.com",
+        "www.tpoil-tet.com"
+      ]
+    },
+    {
+      "action_id": "A024",
+      "timestamp_utc": "2026-09-26T21:05:25.854Z",
+      "branch": "BR-MARKETPLACE-SUB",
+      "sku_id": "SKU-SUB-001",
+      "objective": "Discover reseller offers: Spotify Premium 12 months key",
+      "discovery_family": "Price-first",
+      "method": "web_search (commercial-query)",
+      "query": "Spotify Premium 12 months key cheap buy Eneba G2A",
+      "retrieval_status": "Success",
+      "result_count": 7,
+      "budget_debit": 1,
+      "sources": [
+        "www.ozbargain.com.au",
+        "www.facebook.com",
+        "cdkeyprices.com",
+        "www.aliexpress.com",
+        "www.trustpilot.com",
+        "proxycove.com",
+        "www.resetera.com"
+      ]
+    },
+    {
+      "action_id": "A025",
+      "timestamp_utc": "2026-09-26T21:05:27.234Z",
+      "branch": "BR-MARKETPLACE-SUB",
+      "sku_id": "SKU-SUB-002",
+      "objective": "Discover reseller offers: Netflix subscription gift",
+      "discovery_family": "Price-first",
+      "method": "web_search (commercial-query)",
+      "query": "Netflix gift card subscription reseller buy cheap",
+      "retrieval_status": "Success",
+      "result_count": 1,
+      "budget_debit": 1,
+      "sources": [
+        "www.constantpodcast.com"
+      ]
+    },
+    {
+      "action_id": "A026",
+      "timestamp_utc": "2026-09-26T21:05:28.848Z",
+      "branch": "BR-MARKETPLACE-SW",
+      "sku_id": "SKU-SW-001",
+      "objective": "Discover reseller offers: Windows 11 Pro key gray market price",
+      "discovery_family": "Price-first",
+      "method": "web_search (commercial-query)",
+      "query": "Windows 11 Pro key cheap $30 kinguin g2a legal OEM",
+      "retrieval_status": "Success",
+      "result_count": 5,
+      "budget_debit": 1,
+      "sources": [
+        "steemit.com",
+        "linustechtips.com",
+        "prisekeys.com",
+        "forums.tomshardware.com",
+        "smartbuy.alibaba.com"
+      ]
+    },
+    {
+      "action_id": "A027",
+      "timestamp_utc": "2026-09-26T21:05:30.141Z",
+      "branch": "BR-MARKETPLACE-SW",
+      "sku_id": "SKU-SW-001",
+      "objective": "Discover seed keyshop offers: Wincdkey Bcdkey Windows Office",
+      "discovery_family": "Seller-first (seed keyshops)",
+      "method": "web_search (seed-query)",
+      "query": "Wincdkey Bcdkey Windows 11 Pro Office 2021 key price",
+      "retrieval_status": "Success",
+      "result_count": 8,
+      "budget_debit": 1,
+      "sources": [
+        "de.trustpilot.com",
+        "gocdkeys.de",
+        "www.allkeyshop.com",
+        "www.clavecd.es",
+        "fr.trustpilot.com",
+        "www.cdkeynl.nl",
+        "www.keyforsteam.de",
+        "www.goclecd.fr"
+      ]
+    },
+    {
+      "action_id": "A028",
+      "timestamp_utc": "2026-09-26T21:05:31.701Z",
+      "branch": "BR-MARKETPLACE-KEY",
+      "sku_id": "SKU-KEY-001",
+      "objective": "Discover marketplace offers: Minecraft Java Bedrock key",
+      "discovery_family": "Marketplace-first",
+      "method": "web_search (brand-query)",
+      "query": "Minecraft Java Bedrock PC key cheap Eneba Kinguin price",
+      "retrieval_status": "Failed",
+      "result_count": 0,
+      "budget_debit": 1,
+      "sources": []
+    },
+    {
+      "action_id": "A029",
+      "timestamp_utc": "2026-09-26T21:05:37.907Z",
+      "branch": "BR-MARKETPLACE-TOP",
+      "sku_id": "SKU-TOP-001",
+      "objective": "Discover top-up offers: PUBG Mobile UC cheap reseller",
+      "discovery_family": "Price-first",
+      "method": "web_search (commercial-query)",
+      "query": "PUBG Mobile UC top up cheap price 660 buy online discount",
+      "retrieval_status": "Success",
+      "result_count": 1,
+      "budget_debit": 1,
+      "sources": [
+        "www.scribd.com"
+      ]
+    },
+    {
+      "action_id": "A030",
+      "timestamp_utc": "2026-09-26T21:05:38.760Z",
+      "branch": "BR-MARKETPLACE-TOP",
+      "sku_id": "SKU-TOP-002",
+      "objective": "Discover top-up offers: Free Fire diamonds cheap reseller",
+      "discovery_family": "Price-first",
+      "method": "web_search (commercial-query)",
+      "query": "Free Fire diamonds top up cheap 520 buy online discount",
+      "retrieval_status": "Success",
+      "result_count": 3,
+      "budget_debit": 1,
+      "sources": [
+        "eresources.nlb.gov.sg",
+        "www.yelp.com",
+        "www.worldradiohistory.com"
+      ]
+    },
+    {
+      "action_id": "A031",
+      "timestamp_utc": "2026-09-26T21:05:40.230Z",
+      "branch": "BR-MARKETPLACE-SUB",
+      "sku_id": "SKU-SUB-003",
+      "objective": "Discover reseller offers: NordVPN cheap subscription key",
+      "discovery_family": "Price-first",
+      "method": "web_search (commercial-query)",
+      "query": "NordVPN 1 year subscription cheap key reseller buy",
+      "retrieval_status": "Success",
+      "result_count": 6,
+      "budget_debit": 1,
+      "sources": [
+        "www.g2a.com",
+        "www.allkeyshop.com",
+        "nordvpn.com",
+        "www.eneba.com",
+        "vpnalert.com",
+        "gameflip.com"
+      ]
+    },
+    {
+      "action_id": "A032",
+      "timestamp_utc": "2026-09-26T21:05:41.931Z",
+      "branch": "BR-MARKETPLACE-RU",
+      "sku_id": "SKU-GC-001",
+      "objective": "Discover RU-market offers: Plati.market GGSel steam/gift cards",
+      "discovery_family": "Language/market expansion (RU)",
+      "method": "web_search (market-query)",
+      "query": "plati.market купить Steam подарок кошелек код",
+      "retrieval_status": "Success",
+      "result_count": 4,
+      "budget_debit": 1,
+      "sources": [
+        "vc.ru",
+        "plati.market",
+        "dtf.ru",
+        "foxreload.com"
+      ]
+    },
+    {
+      "action_id": "A033",
+      "timestamp_utc": "2026-09-26T21:05:43.330Z",
+      "branch": "BR-MARKETPLACE-AI",
+      "sku_id": "SKU-AI-002",
+      "objective": "Discover reseller offers: Gemini AI Pro cheap reseller (Etsy lead follow-up from A002)",
+      "discovery_family": "Price-first",
+      "method": "web_search (commercial-query)",
+      "query": "Gemini AI Pro subscription cheap reseller 18 month plan buy",
+      "retrieval_status": "Success",
+      "result_count": 2,
+      "budget_debit": 1,
+      "sources": [
+        "www.techmeme.com",
+        "www.rfp.wiki"
+      ]
+    },
+    {
+      "action_id": "A034",
+      "timestamp_utc": "2026-09-26T21:06:06.580Z",
+      "branch": "BR-MENA-SEEDS",
+      "sku_id": "SKU-GC-001",
+      "objective": "Re-verify seed: Mega Center (MENA digital store) — current status & offers",
+      "discovery_family": "Seller-first (seed)",
+      "method": "web_search (seed-verify)",
+      "query": "Mega Center store Saudi Arabia gift cards games digital store",
+      "retrieval_status": "Success",
+      "result_count": 3,
+      "budget_debit": 1,
+      "sources": [
+        "www4.wng.org",
+        "www.scribd.com",
+        "www.mail-archive.com"
+      ]
+    },
+    {
+      "action_id": "A035",
+      "timestamp_utc": "2026-09-26T21:06:07.797Z",
+      "branch": "BR-MENA-SEEDS",
+      "sku_id": "SKU-GC-002",
+      "objective": "Re-verify seed: Al Momaiz Card — current status & offers",
+      "discovery_family": "Seller-first (seed)",
+      "method": "web_search (seed-verify)",
+      "query": "المميز كارد Al Momaiz Card متجر بطاقات شحن رقمية",
+      "retrieval_status": "Success",
+      "result_count": 8,
+      "budget_debit": 1,
+      "sources": [
+        "play.google.com",
+        "almomaizcard.com",
+        "www.bitaqaty.com",
+        "ab-card.com.sa",
+        "www.facebook.com",
+        "www.instagram.com",
+        "www.instagram.com",
+        "www.card-quick.com"
+      ]
+    },
+    {
+      "action_id": "A036",
+      "timestamp_utc": "2026-09-26T21:06:10.600Z",
+      "branch": "BR-MENA-SEEDS",
+      "sku_id": "SKU-GC-001",
+      "objective": "Re-verify seed: FazerCards — current status & offers",
+      "discovery_family": "Seller-first (seed)",
+      "method": "web_search (seed-verify)",
+      "query": "FazerCards متجر بطاقات رقمية",
+      "retrieval_status": "Success",
+      "result_count": 2,
+      "budget_debit": 1,
+      "sources": [
+        "vexacard.com",
+        "karteet.com"
+      ]
+    },
+    {
+      "action_id": "A037",
+      "timestamp_utc": "2026-09-26T21:06:12.501Z",
+      "branch": "BR-TOPUP-SEEDS",
+      "sku_id": "SKU-TOP-001",
+      "objective": "Re-verify seed: Turgame PUBG UC pricing (also entity-resolution input vs Definite Play)",
+      "discovery_family": "Seller-first (seed)",
+      "method": "web_search (seed-verify)",
+      "query": "Turgame PUBG Mobile 660 UC top up price",
+      "retrieval_status": "Success",
+      "result_count": 2,
+      "budget_debit": 1,
+      "sources": [
+        "www.turgame.com",
+        "www.instagram.com"
+      ]
+    },
+    {
+      "action_id": "A038",
+      "timestamp_utc": "2026-09-26T21:06:14.017Z",
+      "branch": "BR-TOPUP-SEEDS",
+      "sku_id": "SKU-TOP-001",
+      "objective": "Re-verify seed: Nexar digital store",
+      "discovery_family": "Seller-first (seed)",
+      "method": "web_search (seed-verify)",
+      "query": "Nexar store digital games top up PUBG UC",
+      "retrieval_status": "Success",
+      "result_count": 3,
+      "budget_debit": 1,
+      "sources": [
+        "www.tiktok.com",
+        "www.youthapps.in",
+        "pdfcoffee.com"
+      ]
+    },
+    {
+      "action_id": "A039",
+      "timestamp_utc": "2026-09-26T21:06:15.907Z",
+      "branch": "BR-B2B-API",
+      "sku_id": "SKU-TOP-001",
+      "objective": "B2B coverage: DT One API top-up pricing (upstream hypothesis input)",
+      "discovery_family": "B2B/Catalog (API-first)",
+      "method": "web_search (b2b-verify)",
+      "query": "DT One API top up gift card pricing B2B distributor",
+      "retrieval_status": "Success",
+      "result_count": 3,
+      "budget_debit": 1,
+      "sources": [
+        "www.scribd.com",
+        "link.springer.com",
+        "archive.org"
+      ]
+    },
+    {
+      "action_id": "A040",
+      "timestamp_utc": "2026-09-26T21:06:17.159Z",
+      "branch": "BR-B2B-API",
+      "sku_id": "SKU-TOP-001",
+      "objective": "B2B coverage: Reloadly API pricing (also entity-resolution for dual listing)",
+      "discovery_family": "B2B/Catalog (API-first)",
+      "method": "web_search (b2b-verify)",
+      "query": "Reloadly API pricing top up gift cards wholesale",
+      "retrieval_status": "Success",
+      "result_count": 8,
+      "budget_debit": 1,
+      "sources": [
+        "sourceforge.net",
+        "www.f6s.com",
+        "slashdot.org",
+        "help.salesforce.com",
+        "foxreload.com",
+        "www.shopify.com",
+        "world.taobao.com",
+        "app.dealroom.co"
+      ]
+    },
+    {
+      "action_id": "A041",
+      "timestamp_utc": "2026-09-26T21:06:18.504Z",
+      "branch": "BR-B2B-API",
+      "sku_id": "SKU-TOP-001",
+      "objective": "B2B coverage: Ding Connect API top-up pricing",
+      "discovery_family": "B2B/Catalog (API-first)",
+      "method": "web_search (b2b-verify)",
+      "query": "Ding Connect top up API pricing resellers",
+      "retrieval_status": "Success",
+      "result_count": 5,
+      "budget_debit": 1,
+      "sources": [
+        "www.dingconnect.com",
+        "blog.dingconnect.com",
+        "landingpage.dingconnect.com",
+        "businessandfinance.com",
+        "www.postman.com"
+      ]
+    },
+    {
+      "action_id": "A042",
+      "timestamp_utc": "2026-09-26T21:06:19.596Z",
+      "branch": "BR-SMM-SEEDS",
+      "sku_id": "SKU-SMM-001",
+      "objective": "Re-verify seed: PrimeFollows Instagram followers pricing",
+      "discovery_family": "Seller-first (seed)",
+      "method": "web_search (seed-verify)",
+      "query": "PrimeFollows buy Instagram followers 1000 price",
+      "retrieval_status": "Success",
+      "result_count": 8,
+      "budget_debit": 1,
+      "sources": [
+        "www.youtube.com",
+        "primefollows.com",
+        "tokboostly.com",
+        "mailchimp.com",
+        "www.quora.com",
+        "poprey.com",
+        "www.youtube.com",
+        "buzzoid.com"
+      ]
+    },
+    {
+      "action_id": "A043",
+      "timestamp_utc": "2026-09-26T21:06:25.384Z",
+      "branch": "BR-SMM-SEEDS",
+      "sku_id": "SKU-SMM-001",
+      "objective": "Re-verify seed: SMMFollowers Instagram followers pricing",
+      "discovery_family": "Seller-first (seed)",
+      "method": "web_search (seed-verify)",
+      "query": "SMMFollowers buy Instagram followers cheap price",
+      "retrieval_status": "Success",
+      "result_count": 7,
+      "budget_debit": 1,
+      "sources": [
+        "usdsmm.com",
+        "comparesmmpanel.com",
+        "www.smmraja.com",
+        "www.slideshare.net",
+        "www.instagram.com",
+        "www.siteprice.org",
+        "smm.africa"
+      ]
+    },
+    {
+      "action_id": "A044",
+      "timestamp_utc": "2026-09-26T21:06:26.964Z",
+      "branch": "BR-SMM-SEEDS",
+      "sku_id": "SKU-SMM-001",
+      "objective": "Re-verify seed: SMM Asia panel pricing",
+      "discovery_family": "Seller-first (seed)",
+      "method": "web_search (seed-verify)",
+      "query": "SMM Asia panel Instagram followers price",
+      "retrieval_status": "Success",
+      "result_count": 8,
+      "budget_debit": 1,
+      "sources": [
+        "smmpwr.com",
+        "nicesmmpanel.com",
+        "www.openpr.com",
+        "famegrows.com",
+        "bulkfollows.com",
+        "worldofsmm.com",
+        "finance.yahoo.com",
+        "www.digitaljournal.com"
+      ]
+    },
+    {
+      "action_id": "A045",
+      "timestamp_utc": "2026-09-26T21:06:28.383Z",
+      "branch": "BR-VN-SEEDS",
+      "sku_id": "SKU-VN-001",
+      "objective": "Discover virtual number SMS services pricing",
+      "discovery_family": "Price-first",
+      "method": "web_search (commercial-query)",
+      "query": "buy virtual number SMS verification online price cheap",
+      "retrieval_status": "Success",
+      "result_count": 5,
+      "budget_debit": 1,
+      "sources": [
+        "smscode.gg",
+        "5sim.net",
+        "www.blackhatworld.com",
+        "secondnumber.io",
+        "teleleo.com"
+      ]
+    },
+    {
+      "action_id": "A046",
+      "timestamp_utc": "2026-09-26T21:06:29.823Z",
+      "branch": "BR-B2B-ESIM",
+      "sku_id": "SKU-ESIM-001",
+      "objective": "eSIM B2B upstream: eSIM API wholesale providers (DT One/Airalo partner programs)",
+      "discovery_family": "B2B/Catalog (API-first)",
+      "method": "web_search (b2b-verify)",
+      "query": "eSIM API wholesale B2B provider distributor pricing",
+      "retrieval_status": "Success",
+      "result_count": 1,
+      "budget_debit": 1,
+      "sources": [
+        "www.instagram.com"
+      ]
+    },
+    {
+      "action_id": "A047",
+      "timestamp_utc": "2026-09-26T21:06:30.585Z",
+      "branch": "BR-EXCLUSION-SCREEN",
+      "sku_id": null,
+      "objective": "Exclusion-screen signal check: understand SheerID bot/channel leads (edu verification abuse?)",
+      "discovery_family": "Community/Bot-channel (web evidence only)",
+      "method": "web_search (signal-check)",
+      "query": "SheerID student verification discount bots Telegram abuse",
+      "retrieval_status": "Success",
+      "result_count": 6,
+      "budget_debit": 1,
+      "sources": [
+        "helloskip.com",
+        "eresources.nlb.gov.sg",
+        "remoteok.com",
+        "edit.tosdr.org",
+        "calagator.org",
+        "www.calameo.com"
+      ]
+    },
+    {
+      "action_id": "A048",
+      "timestamp_utc": "2026-09-26T21:06:31.688Z",
+      "branch": "BR-MARKETPLACE-RU",
+      "sku_id": "SKU-GC-001",
+      "objective": "Re-verify seed: GGSel marketplace — nature and offers",
+      "discovery_family": "Marketplace-first (seed)",
+      "method": "web_search (seed-verify)",
+      "query": "GGSel marketplace digital goods gift cards",
+      "retrieval_status": "Success",
+      "result_count": 3,
+      "budget_debit": 1,
+      "sources": [
+        "ggsel.net",
+        "transtore.app",
+        "fiidom.com"
+      ]
+    },
+    {
+      "action_id": "A049",
+      "timestamp_utc": "2026-09-26T21:06:33.509Z",
+      "branch": "BR-MARKETPLACE-GC",
+      "sku_id": "SKU-GC-001",
+      "objective": "Re-verify seed: Z2U marketplace offers",
+      "discovery_family": "Marketplace-first (seed)",
+      "method": "web_search (seed-verify)",
+      "query": "Z2U gift cards Steam wallet subscription accounts buy",
+      "retrieval_status": "Success",
+      "result_count": 8,
+      "budget_debit": 1,
+      "sources": [
+        "www.z2u.com",
+        "www.z2u.com",
+        "www.z2u.com",
+        "www.z2u.com",
+        "www.reddit.com",
+        "www.z2u.com",
+        "www.z2u.com",
+        "www.z2u.com"
+      ]
+    },
+    {
+      "action_id": "A050",
+      "timestamp_utc": "2026-09-26T21:06:38.189Z",
+      "branch": "BR-MENA-TOPUP",
+      "sku_id": "SKU-TOP-001",
+      "objective": "Language expansion: Arabic PUBG UC top-up market prices",
+      "discovery_family": "Language-first (AR)",
+      "method": "web_search (market-query)",
+      "query": "شحن شدات ببجي 660 رخيص سعر",
+      "retrieval_status": "Success",
+      "result_count": 4,
+      "budget_debit": 1,
+      "sources": [
+        "pubguc.bittopup.com",
+        "jo.opensooq.com",
+        "www.cardsouq.com",
+        "www.chargerquick.net"
+      ]
+    },
+    {
+      "action_id": "A051",
+      "timestamp_utc": "2026-09-26T21:06:41.119Z",
+      "branch": "BR-MENA-GC",
+      "sku_id": "SKU-GC-002",
+      "objective": "Language expansion: Arabic iTunes gift card market prices",
+      "discovery_family": "Language-first (AR)",
+      "method": "web_search (market-query)",
+      "query": "بطاقة ايتونز 25 دولار شراء سعر",
+      "retrieval_status": "Success",
+      "result_count": 8,
+      "budget_debit": 1,
+      "sources": [
+        "www.yallatoys.com",
+        "gml-store.com",
+        "ar-bahrain.likecard.com",
+        "eogstore.com",
+        "www.icard.com.sa",
+        "blinkonline.ae",
+        "digitalrelity.com",
+        "www.xcite.com"
+      ]
+    },
+    {
+      "action_id": "A052",
+      "timestamp_utc": "2026-09-26T21:06:43.525Z",
+      "branch": "BR-MARKETPLACE-KEY",
+      "sku_id": "SKU-KEY-001",
+      "objective": "RETRY (A028 failed): Minecraft Java Bedrock key — changed query construction",
+      "discovery_family": "Marketplace-first",
+      "method": "web_search (retry-construction)",
+      "query": "Minecraft Java Bedrock Edition PC CD key price comparison cheap",
+      "retrieval_status": "Success",
+      "result_count": 1,
+      "budget_debit": 1,
+      "sources": [
+        "www.scribd.com"
+      ]
+    },
+    {
+      "action_id": "A053",
+      "timestamp_utc": "2026-09-26T21:07:50.276Z",
+      "branch": "BR-OFFICIAL-ANCHORS",
+      "sku_id": "SKU-KEY-001",
+      "objective": "RETRY-3 (A012/A052 weak/failed): Minecraft official price — third query construction",
+      "discovery_family": "Product-first (official publisher)",
+      "method": "web_search (official-anchor-retry3)",
+      "query": "Minecraft Java and Bedrock Edition 29.99 PC Windows price",
+      "retrieval_status": "Success",
+      "result_count": 3,
+      "budget_debit": 1,
+      "sources": [
+        "www.microsoft.com",
+        "www.gamivo.com",
+        "eparvingenuity.com"
+      ]
+    },
+    {
+      "action_id": "A054",
+      "timestamp_utc": "2026-09-26T21:07:52.634Z",
+      "branch": "BR-OFFICIAL-ANCHORS",
+      "sku_id": "SKU-TOP-002",
+      "objective": "RETRY-2 (A010/A018 failed): Free Fire diamonds official pricing — new construction",
+      "discovery_family": "Product-first (official publisher)",
+      "method": "web_search (official-anchor-retry2)",
+      "query": "Free Fire diamond top up prices list USD Garena official store",
+      "retrieval_status": "Success",
+      "result_count": 8,
+      "budget_debit": 1,
+      "sources": [
+        "shop.garena.sg",
+        "store.garena.com",
+        "gameseal.com",
+        "www.eldorado.gg",
+        "www.topuplive.com",
+        "www.lootbar.com",
+        "shop.carry1st.com",
+        "refillarena.com"
+      ]
+    },
+    {
+      "action_id": "A055",
+      "timestamp_utc": "2026-09-26T21:07:55.632Z",
+      "branch": "BR-OFFICIAL-ANCHORS",
+      "sku_id": "SKU-GC-003",
+      "objective": "RETRY-2 (A008/A016 failed): Google Play $25 — retail anchor construction",
+      "discovery_family": "Product-first (retail anchor)",
+      "method": "web_search (retail-anchor-retry2)",
+      "query": "Google Play gift card 25 dollar Best Buy Amazon Walmart price",
+      "retrieval_status": "Success",
+      "result_count": 5,
+      "budget_debit": 1,
+      "sources": [
+        "qresear.ch",
+        "www.hear.fi",
+        "der-pinke-stuhl.blogspot.com",
+        "jikad.org.tr",
+        "ai-pedias.com"
+      ]
+    },
+    {
+      "action_id": "A056",
+      "timestamp_utc": "2026-09-26T21:07:57.324Z",
+      "branch": "BR-OFFICIAL-ANCHORS",
+      "sku_id": "SKU-SW-001",
+      "objective": "RETRY-2 (A011/A019 failed): Windows 11 Pro official price — new construction",
+      "discovery_family": "Product-first (official publisher)",
+      "method": "web_search (official-anchor-retry2)",
+      "query": "Windows 11 Pro full version price 199.99 buy from Microsoft",
+      "retrieval_status": "Success",
+      "result_count": 8,
+      "budget_debit": 1,
+      "sources": [
+        "www.digitalmaze.com",
+        "www.techradar.com",
+        "learn.microsoft.com",
+        "www.walmart.com",
+        "betanews.com",
+        "softwaremedia.com",
+        "www.facebook.com",
+        "www.ebay.com"
+      ]
+    },
+    {
+      "action_id": "A057",
+      "timestamp_utc": "2026-09-26T21:07:59.134Z",
+      "branch": "BR-OFFICIAL-ANCHORS",
+      "sku_id": "SKU-SUB-001",
+      "objective": "RETRY-3 (A003/A014 failed): Spotify official price — news-based construction",
+      "discovery_family": "Product-first (official publisher)",
+      "method": "web_search (official-anchor-retry3)",
+      "query": "Spotify Premium price increase individual plan monthly how much now",
+      "retrieval_status": "Success",
+      "result_count": 1,
+      "budget_debit": 1,
+      "sources": [
+        "www.indieonthemove.com"
+      ]
+    },
+    {
+      "action_id": "A058",
+      "timestamp_utc": "2026-09-26T21:08:00.788Z",
+      "branch": "BR-ENTITY-RESOLUTION",
+      "sku_id": null,
+      "objective": "Entity Resolution: Turgame vs Definite Play — same entity?",
+      "discovery_family": "Domain/Entity-first",
+      "method": "web_search (entity-resolution)",
+      "query": "Turgame Definite Play same company Turkey game store",
+      "retrieval_status": "Success",
+      "result_count": 5,
+      "budget_debit": 1,
+      "sources": [
+        "www.eneba.com",
+        "dokumen.pub",
+        "forums.whirlpool.net.au",
+        "news-archive.plymouthlibrary.org",
+        "archive.org"
+      ]
+    },
+    {
+      "action_id": "A059",
+      "timestamp_utc": "2026-09-26T21:08:01.889Z",
+      "branch": "BR-COUNTER-EVIDENCE",
+      "sku_id": "SKU-TOP-001",
+      "objective": "COUNTER-EVIDENCE: adversarial check on lowest PUBG UC price found (cardsouq $4.99)",
+      "discovery_family": "Counter-evidence (reputation)",
+      "method": "web_search (adversarial-check)",
+      "query": "cardsouq.com PUBG top up review legit safe",
+      "retrieval_status": "Success",
+      "result_count": 8,
+      "budget_debit": 1,
+      "sources": [
+        "www.reddit.com",
+        "www.midasbuy.com",
+        "buffbuff.com",
+        "www.lootbar.com",
+        "www.carry1st.com",
+        "baxity.com",
+        "www.quora.com",
+        "www.youtube.com"
+      ]
+    },
+    {
+      "action_id": "A060",
+      "timestamp_utc": "2026-09-26T21:08:04.815Z",
+      "branch": "BR-COUNTER-EVIDENCE",
+      "sku_id": "SKU-TOP-001",
+      "objective": "COUNTER-EVIDENCE: adversarial check on bittopup $8.71 660 UC offer",
+      "discovery_family": "Counter-evidence (reputation)",
+      "method": "web_search (adversarial-check)",
+      "query": "bittopup.com PUBG UC review legit safe",
+      "retrieval_status": "Success",
+      "result_count": 1,
+      "budget_debit": 1,
+      "sources": [
+        "news.bittopup.com"
+      ]
+    },
+    {
+      "action_id": "A061",
+      "timestamp_utc": "2026-09-26T21:08:06.706Z",
+      "branch": "BR-MARKETPLACE-GC",
+      "sku_id": "SKU-GC-001",
+      "objective": "Close evidence gap: Eneba Steam Wallet 20 USD US-region offer",
+      "discovery_family": "Marketplace-first",
+      "method": "web_search (offer-detail)",
+      "query": "eneba.com Steam Wallet Gift Card 20 USD United States",
+      "retrieval_status": "Failed",
+      "result_count": 0,
+      "budget_debit": 1,
+      "sources": []
+    },
+    {
+      "action_id": "A062",
+      "timestamp_utc": "2026-09-26T21:08:06.713Z",
+      "branch": "BR-MARKETPLACE-SUB",
+      "sku_id": "SKU-SUB-002",
+      "objective": "Close evidence gap: Netflix gift card availability (resale channel)",
+      "discovery_family": "Marketplace-first",
+      "method": "web_search (offer-detail)",
+      "query": "Netflix gift card buy digital online US price",
+      "retrieval_status": "Failed",
+      "result_count": 0,
+      "budget_debit": 1,
+      "sources": []
+    },
+    {
+      "action_id": "A063",
+      "timestamp_utc": "2026-09-26T21:08:06.719Z",
+      "branch": "BR-B2B-API",
+      "sku_id": "SKU-TOP-001",
+      "objective": "RETRY (A039 failed): DT One — new construction",
+      "discovery_family": "B2B/Catalog (API-first)",
+      "method": "web_search (b2b-verify-retry)",
+      "query": "DTO2 DT One digital content API gift cards games distributor",
+      "retrieval_status": "Failed",
+      "result_count": 0,
+      "budget_debit": 1,
+      "sources": []
+    },
+    {
+      "action_id": "A064",
+      "timestamp_utc": "2026-09-26T21:08:06.726Z",
+      "branch": "BR-SMM-SEEDS",
+      "sku_id": "SKU-SMM-001",
+      "objective": "Re-verify seed: SMM Asia — direct construction",
+      "discovery_family": "Seller-first (seed)",
+      "method": "web_search (seed-verify-retry)",
+      "query": "smmasia.com SMM panel services price",
+      "retrieval_status": "Failed",
+      "result_count": 0,
+      "budget_debit": 1,
+      "sources": []
+    },
+    {
+      "action_id": "A065",
+      "timestamp_utc": "2026-09-26T21:08:06.733Z",
+      "branch": "BR-MENA-SEEDS",
+      "sku_id": null,
+      "objective": "RETRY (A034 failed): Mega Center — Arabic query construction",
+      "discovery_family": "Language-first (AR) + Seller-first (seed)",
+      "method": "web_search (seed-verify-retry)",
+      "query": "ميغا سنتر متجر بطاقات شحن رقمية العاب",
+      "retrieval_status": "Failed",
+      "result_count": 0,
+      "budget_debit": 1,
+      "sources": []
+    },
+    {
+      "action_id": "A066",
+      "timestamp_utc": "2026-09-26T21:08:06.739Z",
+      "branch": "BR-EXCLUSION-SCREEN",
+      "sku_id": "SKU-AI-001",
+      "objective": "Exclusion-screen: understand cheap ChatGPT Plus offers (shared accounts market)",
+      "discovery_family": "Community/Forum-first",
+      "method": "web_search (signal-check)",
+      "query": "cheap ChatGPT Plus account shared subscription buy against terms",
+      "retrieval_status": "Failed",
+      "result_count": 0,
+      "budget_debit": 1,
+      "sources": []
+    },
+    {
+      "action_id": "A067",
+      "timestamp_utc": "2026-09-26T21:09:39.321Z",
+      "branch": "BR-MARKETPLACE-GC",
+      "sku_id": "SKU-GC-001",
+      "objective": "RETRY (A061 rate-limited): Eneba Steam Wallet 20 USD US-region offer",
+      "discovery_family": "Marketplace-first",
+      "method": "web_search (offer-detail-retry)",
+      "query": "Steam Wallet Gift Card 20 USD United States Eneba price",
+      "retrieval_status": "Failed",
+      "result_count": 0,
+      "budget_debit": 1,
+      "sources": []
+    },
+    {
+      "action_id": "A068",
+      "timestamp_utc": "2026-09-26T21:09:39.347Z",
+      "branch": "BR-MARKETPLACE-SUB",
+      "sku_id": "SKU-SUB-002",
+      "objective": "RETRY (A062 rate-limited): Netflix gift card availability",
+      "discovery_family": "Marketplace-first",
+      "method": "web_search (offer-detail-retry)",
+      "query": "Netflix gift card digital where to buy US streaming",
+      "retrieval_status": "Failed",
+      "result_count": 0,
+      "budget_debit": 1,
+      "sources": []
+    },
+    {
+      "action_id": "A069",
+      "timestamp_utc": "2026-09-26T21:09:39.353Z",
+      "branch": "BR-B2B-API",
+      "sku_id": "SKU-TOP-001",
+      "objective": "RETRY (A063 rate-limited): DT One B2B API — new construction",
+      "discovery_family": "B2B/Catalog (API-first)",
+      "method": "web_search (b2b-verify-retry2)",
+      "query": "DT One digital gifts API games publisher distributor brand",
+      "retrieval_status": "Failed",
+      "result_count": 0,
+      "budget_debit": 1,
+      "sources": []
+    },
+    {
+      "action_id": "A070",
+      "timestamp_utc": "2026-09-26T21:09:39.360Z",
+      "branch": "BR-SMM-SEEDS",
+      "sku_id": "SKU-SMM-001",
+      "objective": "RETRY (A064 rate-limited): SMM Asia seed verification",
+      "discovery_family": "Seller-first (seed)",
+      "method": "web_search (seed-verify-retry2)",
+      "query": "SMM Asia cheap smm panel instagram followers",
+      "retrieval_status": "Failed",
+      "result_count": 0,
+      "budget_debit": 1,
+      "sources": []
+    },
+    {
+      "action_id": "A071",
+      "timestamp_utc": "2026-09-26T21:09:39.367Z",
+      "branch": "BR-EXCLUSION-SCREEN",
+      "sku_id": "SKU-AI-001",
+      "objective": "RETRY (A066 rate-limited): cheap ChatGPT Plus shared-account market signal check",
+      "discovery_family": "Community/Forum-first",
+      "method": "web_search (signal-check-retry)",
+      "query": "buy cheap ChatGPT Plus shared account telegram resale",
+      "retrieval_status": "Failed",
+      "result_count": 0,
+      "budget_debit": 1,
+      "sources": []
+    },
+    {
+      "action_id": "A072",
+      "timestamp_utc": "2026-09-26T21:13:05.396Z",
+      "branch": "BR-OFFICIAL-ANCHORS",
+      "sku_id": "SKU-SUB-001",
+      "objective": "FINAL RETRY (A003/A014/A057 failed): Spotify official price — news construction",
+      "discovery_family": "Product-first (official publisher)",
+      "method": "web_search (official-anchor-final)",
+      "query": "Spotify Premium individual plan monthly price 2026",
+      "retrieval_status": "Success",
+      "result_count": 7,
+      "budget_debit": 1,
+      "sources": [
+        "www.spotify.com",
+        "freeyourmusic.com",
+        "support.spotify.com",
+        "checkthat.ai",
+        "keepingupwithinflation.com",
+        "www.nerdwallet.com",
+        "www.cnbc.com"
+      ]
+    },
+    {
+      "action_id": "A073",
+      "timestamp_utc": "2026-09-26T21:13:06.779Z",
+      "branch": "BR-OFFICIAL-ANCHORS",
+      "sku_id": "SKU-GC-003",
+      "objective": "FINAL RETRY (A008/A016/A055 failed): Google Play $25 — direct retail construction",
+      "discovery_family": "Product-first (retail anchor)",
+      "method": "web_search (retail-anchor-final)",
+      "query": "Google Play gift card $25 price buy",
+      "retrieval_status": "Success",
+      "result_count": 2,
+      "budget_debit": 1,
+      "sources": [
+        "justlikecooking.blogspot.com",
+        "www.techzim.co.zw"
+      ]
+    },
+    {
+      "action_id": "A074",
+      "timestamp_utc": "2026-09-26T21:13:08.376Z",
+      "branch": "BR-OFFICIAL-ANCHORS",
+      "sku_id": "SKU-TOP-002",
+      "objective": "FINAL RETRY: Free Fire 520 diamonds price",
+      "discovery_family": "Product-first (official publisher)",
+      "method": "web_search (official-anchor-final)",
+      "query": "Free Fire 520 diamonds $4.99 top up",
+      "retrieval_status": "Success",
+      "result_count": 4,
+      "budget_debit": 1,
+      "sources": [
+        "eresources.nlb.gov.sg",
+        "issuu.com",
+        "www.scribd.com",
+        "www.yumpu.com"
+      ]
+    },
+    {
+      "action_id": "A075",
+      "timestamp_utc": "2026-09-26T21:13:09.561Z",
+      "branch": "BR-ENTITY-RESOLUTION",
+      "sku_id": null,
+      "objective": "FINAL RETRY (A058 failed): Turgame / Definite Play entity resolution",
+      "discovery_family": "Domain/Entity-first",
+      "method": "web_search (entity-resolution-final)",
+      "query": "\"Definite Play\" turgame Turkish digital games platform",
+      "retrieval_status": "Success",
+      "result_count": 5,
+      "budget_debit": 1,
+      "sources": [
+        "www.instagram.com",
+        "www.academia.edu",
+        "www.avforums.com",
+        "dokumen.pub",
+        "forums.whirlpool.net.au"
+      ]
+    },
+    {
+      "action_id": "A076",
+      "timestamp_utc": "2026-09-26T21:13:10.948Z",
+      "branch": "BR-B2B-API",
+      "sku_id": "SKU-TOP-001",
+      "objective": "FINAL RETRY (A039/A063/A069 failed): DT One B2B verification",
+      "discovery_family": "B2B/Catalog (API-first)",
+      "method": "web_search (b2b-verify-final)",
+      "query": "DT One dtone.com mobile top up gift card API platform",
+      "retrieval_status": "Success",
+      "result_count": 4,
+      "budget_debit": 1,
+      "sources": [
+        "www.dtone.com",
+        "www.globenewswire.com",
+        "www.glassdoor.com.br",
+        "prospeo.io"
+      ]
+    }
+  ]
+}

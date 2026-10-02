@@ -1,0 +1,39 @@
+# MEC CI — replaces the broken remote deploy.yml (corrupted trigger
+# `branches: ain]` + tar-in-place bug; all 3 push runs failed, upload always
+# skipped). Deploys stay manual via `railway up` (CLI-sourced service).
+# CI runs typecheck + lint + production build on every push/PR to main.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Prisma generate
+        run: bunx prisma generate
+
+      - name: Typecheck
+        run: bunx tsc --noEmit
+
+      - name: Lint
+        run: bun run lint
+
+      - name: Production build
+        run: bun run build
+        env:
+          DATABASE_URL: postgresql://ci-placeholder:ci-placeholder@localhost:5432/ci
+          STORE_MODE: sandbox

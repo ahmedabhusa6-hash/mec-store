@@ -1,0 +1,74 @@
+{
+  "layer": "B2B / Upstream API Infrastructure",
+  "entities": [
+    {
+      "id": "ENT-011",
+      "name": "DT One (dtone.com)",
+      "type": "B2B Digital Value Marketplace / API Platform",
+      "role": "Upstream Supplier (B2B infrastructure) — mobile top-up, data bundles, gift cards, gaming pins, streaming vouchers",
+      "status": "Verified-Active",
+      "verified_via": ["A076"],
+      "evidence": [
+        { "action": "A076", "source": "dtone.com", "url": "https://www.dtone.com", "observation": "DT One powers PayPal France mobile airtime entry; DT Shop offers mobile top-ups, gift cards, gaming pins, streaming vouchers", "evidence_level": "First-Party Reported (retrieved directly)", "freshness": "Current" },
+        { "action": "A076", "source": "globenewswire.com (Mar 2026)", "url": "https://www.globenewswire.com", "observation": "Bitget Wallet integrates DT One for mobile top-ups across 170+ countries, 500+ local operators", "evidence_level": "Secondary Reported (press release)", "freshness": "Current (Mar 2026)" }
+      ],
+      "independence": "Independent Origin (dtone.com + globenewswire + prospeo.io — 3 distinct origins)",
+      "guarantee": "Unknown (B2B terms not publicly retrieved)",
+      "resale": "N/A — is itself an upstream layer; B2B pricing requires account (Retrieval-Limited)",
+      "notes": "Deepest evidence-supportable upstream layer this run. Relationship to specific MENA retailers = Unresolved Hypothesis (no direct link evidenced)",
+      "relationships": [
+        { "to": "PayPal (France)", "type": "Infrastructure provider (airtime)", "status": "Documented (dtone.com case study)" },
+        { "to": "Bitget Wallet", "type": "Top-up infrastructure provider", "status": "Documented (press release Mar 2026)" }
+      ]
+    },
+    {
+      "id": "ENT-012",
+      "name": "Reloadly",
+      "type": "B2B Payments / API Platform",
+      "role": "Upstream Supplier (B2B infrastructure) — airtime top-ups, data bundles, digital gift cards, utility payments",
+      "status": "Verified-Active",
+      "verified_via": ["A040"],
+      "evidence": [
+        { "action": "A040", "source": "f6s.com + sourceforge.net + slashdot.org", "url": "https://www.f6s.com", "observation": "Developer-first payments platform and API for global airtime top-ups, data bundles, digital gift cards, utility payments; 2,500+ payout options", "evidence_level": "Secondary Reported (3 independent directory sources)", "freshness": "Current (Aug 2026 directory)" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "Unknown",
+      "resale": "N/A — upstream B2B layer; pricing requires account (Retrieval-Limited)",
+      "notes": "Appeared in user seeds TWICE (direct lead + B2B aggregator) — Entity Resolution: single entity, dual role listing in seed records (no split/merge conflict)",
+      "relationships": []
+    },
+    {
+      "id": "ENT-013",
+      "name": "Ding / DingConnect",
+      "type": "B2B Mobile Top-Up API Platform",
+      "role": "Upstream Supplier (B2B infrastructure) — international mobile recharge, gift vouchers, bill payments",
+      "status": "Verified-Active",
+      "verified_via": ["A041"],
+      "evidence": [
+        { "action": "A041", "source": "dingconnect.com + blog.dingconnect.com", "url": "https://www.dingconnect.com", "observation": "DingConnect = #1 mobile top-up API for businesses; free account, test API keys available via DingConnect+ portal", "evidence_level": "First-Party Reported (retrieved directly)", "freshness": "Current" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "Unknown",
+      "resale": "N/A — upstream B2B layer; pricing requires account (Retrieval-Limited)",
+      "notes": "Offers self-service test credentials — Batch 2 can attempt authorized B2B price discovery",
+      "relationships": []
+    },
+    {
+      "id": "ENT-014",
+      "name": "Al Momaiz Card (المميز كارد)",
+      "type": "MENA Digital Store + B2B API (hybrid)",
+      "role": "Retailer + potential regional distributor/aggregator (dual-signal)",
+      "status": "Verified-Active",
+      "verified_via": ["A035"],
+      "evidence": [
+        { "action": "A035", "source": "play.google.com", "url": "https://play.google.com/store/apps/details?id=devo.sadad.almomaiz&hl=en_US", "observation": "Al-Mamiz Card app: 'leading provider of game, software, and e-card recharge services' (official app listing)", "evidence_level": "First-Party Reported (official app store listing)", "freshness": "Current" },
+        { "action": "A035", "source": "almomaizcard.com", "url": "https://almomaizcard.com/api-documentation", "observation": "Public REST API Reference exists — B2B API capability documented (beyond retail)", "evidence_level": "First-Party Reported", "freshness": "Current" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "Unknown",
+      "resale": "Unknown",
+      "notes": "Seed re-verified: PROMOTED from Unverified Lead → Verified-Active. Dual nature (retail app + public API) suggests aggregator/distributor role — role classification: Seller + API provider; exact upstream position Unresolved",
+      "relationships": []
+    }
+  ]
+}

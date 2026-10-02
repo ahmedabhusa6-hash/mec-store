@@ -1,0 +1,44 @@
+{
+  "mec2_run": "MEC2-20260927",
+  "probe": "31/31 entities HTTP 200 — first successful §19 registry verification (2026-09-27)",
+  "clusters": [
+    {"name": "Gemini GPT (صينية)", "scale": "قناة 142,797 + دردشة 131,924", "role": "مصنع ترقيات AI (بوت استخراج روابط عروض Google One AI Pro) + وسيط إعلاني مدفوع", "prices": "Gemini 18 شهرًا: $0.45 (عبر معلنين)", "reputation": "لا مراجعات مستقلة — أدلة أدلة فقط", "risk": "متوسط-عالٍ", "riskLevel": "warn"},
+    {"name": "Verifier Group", "scale": "دردشة 25,948 (1,508 متصل)", "role": "بنية ثقة: بوت وسيط/Escrow + ضمان 3 أشهر — ليس متجرًا", "prices": "خدمة وسيط (غير معلنة)", "reputation": "غير قابل للتحقق خارجيًا", "risk": "طبقة ثقة", "riskLevel": "info"},
+    {"name": "ProdSeller", "scale": "قناة 4,676 + بوت + API علني", "role": "موزع جملة/API — ادعاء 15K+ مستخدم و500+ مستخدم API (غير موثق خارجيًا)", "prices": "Gemini 18m: 0.43/0.40API/0.39 جملة · Duolingo 12m: 0.50–0.59 · Gmail: 0.60–0.80", "reputation": "لا مراجعات", "risk": "متوسط", "riskLevel": "warn"},
+    {"name": "Acczone", "scale": "متجر خاص 3,650 + Logs 8,316 + فاحص روابط", "role": "مزود جملة معلن («أكبر مزود») — ادعاء غير موثق", "prices": "عبر البوت فقط (غير مرصودة)", "reputation": "لا مراجعات", "risk": "متوسط-عالٍ", "riskLevel": "warn"},
+    {"name": "StackVault", "scale": "متجر ويب: 248 منتجًا + بوت + دعم", "role": "تجزئة منظمة: رصيد مسبق + USDT + تسليم آلي + ضمان معلن", "prices": "ChatGPT Plus 4.99 · Netflix 3.99 · Spotify 4.49 · MS365 سنة 9.99 · Canva 6.49 · Coursera سنة 29.99", "reputation": "تعارض اسم مع SaaS آخر — الأصل الموثق: سجل تفاوض تاريخي في Notion", "risk": "متوسط", "riskLevel": "warn"},
+    {"name": "HitMeow / PremiKey", "scale": "قناة 1,848 + بوتان (عالمي/فيتنام)", "role": "تجزئة AI + ناشر طرق: وثّق طريقة SheerID (شراء تحقق طلابي من Xianyu → شهر يصبح 4)", "prices": "«أسعار خارقة» غير معلنة رقميًا", "reputation": "لا مراجعات", "risk": "عالٍ", "riskLevel": "high"},
+    {"name": "AISUBS.ID (إندونيسية)", "scale": "قناة 304 + بوت", "role": "مصنع حسابات: طريقة UPI — إقرار نصي بنجاح 1–2% لكل 1000 حساب", "prices": "مخزون متغير — إشارات ارتفاع موثقة", "reputation": "لا مراجعات", "risk": "عالٍ", "riskLevel": "high"},
+    {"name": "Evo Era", "scale": "قناة 2,319 + بوت", "role": "تجزئة آلية: إشعارات مشتريات حية + إحالات $0.05", "prices": "ChatGPT Plus (ضمان ساعتين) 4.50 USDT · Factory 12m: 17.0 USDT", "reputation": "لا مراجعات", "risk": "متوسط-عالٍ", "riskLevel": "warn"},
+    {"name": "learnwith_Alex / Bite Store", "scale": "قناة 3,019 + بوت", "role": "بائع طرق وأدوات (طريقة بريد Edu) + لوحات Canva", "prices": "Canva لوحة 500 مستخدم: 2.50 (كان 3.99)", "reputation": "لا مراجعات", "risk": "حرج — حجر D4 (محتوى احتيالي مرصود)", "riskLevel": "high"},
+    {"name": "بوتات فردية", "scale": "Gamisell · INSIGHT · Neva AI · P A · storebat · Mike_E_0", "role": "تجزئة فردية — طبقة أدنى بلا قنوات جماهيرية", "prices": "غير مرصودة", "reputation": "لا مراجعات لأي منها", "risk": "غير قابل للتقييم — عبر وسيط فقط", "riskLevel": "info"}
+  ],
+  "identity_resolutions": [
+    "رابط الدعوة الخاص (+AWZ…) = قناة ACCZONE STORE (3,650 مشتركًا) [مرصود]",
+    "بوتا PremiKey يحملان هوية HitMeow Shop (عالمي 🌐 / فيتنام 🇻🇳) — كيان واحد [مرصود]",
+    "VeirfyerSupportbot يعرض باسم Fin Ai Support [مرصود]",
+    "nevakeystore_bot تحوّل إلى Neva AI (مفاتيح → اشتراكات AI) [مرصود]",
+    "قناة learnwith_Alex مرتبطة ببوت Bite Store [مرصود]"
+  ],
+  "sourcing_models": [
+    {"n": 1, "model": "استخراج عروض ترويجية (روابط Pixel/طلاب لـGoogle One AI Pro)", "evidence": "بوت «Gemini Pixel Helper» حرفيًا + تقليص Google للعروض 12→6 أشهر [مستند]", "legality": "يخالف شروط العرض"},
+    {"n": 2, "model": "مصانع الحسابات بثغرات الدفع (UPI)", "evidence": "إقرار AISUBS نصيًا: نجاح 1–2% لكل 1000 حساب [مرصود]", "legality": "يخالف ToS + إلغاء متوقع"},
+    {"n": 3, "model": "التحقق الطلابي المزيف (SheerID من Xianyu)", "evidence": "منشور HitMeow خطوة بخطوة [مرصود] + سوق بريد Edu مفتوح [مستند]", "legality": "احتيال تحقق"},
+    {"n": 4, "model": "تقسيم الخطط العائلية/الفرق", "evidence": "سوق TF Family groups [مستند] + لوحة Canva 500 مستخدم $2.50 [مرصود]", "legality": "يخالف ToS بلا احتيال دفع"},
+    {"n": 5, "model": "التحكيم الإقليمي (IN/TR/AR/EG)", "evidence": "Spotify هندي سنوي $0.79/شهر [مستند] · GPU إقليمي $4–8.4 [مستند]", "legality": "يخالف ToS غالبًا"},
+    {"n": 6, "model": "الجملة B2B والموزعون", "evidence": "ProdSeller API $0.40 [مرصود] + Reloadly/DT One/Turgame/FazerCards", "legality": "مشروع كليًا"},
+    {"n": 7, "model": "الاحتيال الصريح — توثيق وحجر فقط", "evidence": "أرقام بطاقات مولدة + CVV عشوائي في منشور قناة مدرجة [مرصود — حجر D4]", "legality": "غير قانوني"}
+  ],
+  "margins_ai": [
+    {"product": "Gemini AI Pro · 18 شهرًا", "official": "$359.82", "observed": "$0.39–0.59", "gap": "99.8%", "mechanism": "استخراج روابط عروض"},
+    {"product": "ChatGPT Plus · شهر", "official": "$20.00", "observed": "$4.50 (2HW) · $9.44 مستقرة", "gap": "55–78%", "mechanism": "مصانع UPI/Apple Pay"},
+    {"product": "Netflix Premium · شهر (خاص)", "official": "$26.99", "observed": "$3.99", "gap": "85%", "mechanism": "مزارع تجارب/حسابات"},
+    {"product": "Spotify Premium · شهر (خاص)", "official": "$12.99", "observed": "$4.49", "gap": "65%", "mechanism": "تحكيم هندي ($0.79/شهر كلفة) — هامش ~470%"},
+    {"product": "Duolingo Super · 12 شهرًا", "official": "$83.88", "observed": "$0.50–0.59", "gap": "99.3%", "mechanism": "عروض تعليمية/عائلية"},
+    {"product": "Canva Pro · لوحة 500", "official": "$119.99/سنة", "observed": "$2.50", "gap": "98%", "mechanism": "لوحة Teams/Edu تُقسم"},
+    {"product": "Coursera Plus · سنة", "official": "$399.00", "observed": "$29.99", "gap": "92%", "mechanism": "مقاعد فرق/مساعدات مالية"},
+    {"product": "Microsoft 365 · سنة/5 أجهزة", "official": "$129.99", "observed": "$9.99", "gap": "92%", "mechanism": "مقعد عائلي/Edu"}
+  ],
+  "unit_economics": "سعر البيع = كلفة اقتناء شبه صفرية + كلفة الفشل (98–99% للطرق المرقعة) + احتياطي الضمان ($4.50 لضمان ساعتين ← $8–10 لضمان 3 أشهر) + رسوم USDT (~1–2%) + كلفة اكتساب (إعلانات + إحالات $0.05) + ربح الطبقة (10–51% مرصود بين الجملة والتجزئة: $0.39 ← $0.59)",
+  "notion_sync": "أول كتابة ناجحة في تاريخ المشروع (27/09): سجلا الدورتين 6 و7 + صفحة نتائج MEC-2.0 تحت المرجع الحاكم + مزامنتا حالة — بضوابط: لا ترقية إصدار، لا حسم قرار، لا مساس بتاريخ."
+}

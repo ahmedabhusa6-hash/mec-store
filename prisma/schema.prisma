@@ -1,0 +1,171 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ============ MEC STORE W1 — Production schema ============
+// Reconstructed from live Supabase audit 2026-09-28 (10 tables verified)
+// + NEW: hot-path indexes (Order.phone, Order.createdAt, WalletTx.walletId,
+//        Attempt.orderId, ChainLink.productId, GeoPrice.productId)
+
+model Product {
+  id           String     @id @default(cuid())
+  slug         String     @unique
+  name         String
+  nameEn       String?
+  aliases      String     @default("")
+  family       String
+  sourceTier   String
+  deliveryKind String?
+  officialUsd  Float?
+  active       Boolean    @default(true)
+  createdAt    DateTime   @default(now())
+  chains       ChainLink[]
+  prices       GeoPrice[]
+  orders       Order[]
+  waitlist     Waitlist[]
+
+  @@index([family])
+  @@index([active])
+}
+
+model Supplier {
+  id         String      @id @default(cuid())
+  code       String      @unique
+  name       String
+  kind       String
+  active     Boolean     @default(true)
+  score      Float       @default(0.5)
+  failCount  Int         @default(0)
+  failWindow DateTime?   
+  openUntil  DateTime?   
+  createdAt  DateTime    @default(now())
+  chains     ChainLink[]
+}
+
+model ChainLink {
+  id             String    @id @default(cuid())
+  productId      String
+  supplierId     String
+  priority       Int       @default(1)
+  costUsd        Float
+  stock          Int?
+  stockCheckedAt DateTime?
+  externalId     String?
+  active         Boolean   @default(true)
+  lastUsedAt     DateTime?
+  product        Product   @relation(fields: [productId], references: [id])
+  supplier       Supplier  @relation(fields: [supplierId], references: [id])
+
+  @@unique([productId, supplierId])
+  @@index([productId])
+  @@index([supplierId])
+  @@index([active])
+}
+
+model GeoPrice {
+  id        String   @id @default(cuid())
+  productId String
+  region    String   // SA | YE | WW
+  currency  String   // SAR | USD
+  price     Float
+  updatedAt DateTime @default(now()) @updatedAt
+  product   Product  @relation(fields: [productId], references: [id])
+
+  @@unique([productId, region])
+  @@index([productId])
+}
+
+model Order {
+  id              String    @id @default(cuid())
+  publicId        String    @unique
+  productId       String
+  phone           String
+  region          String
+  currency        String
+  priceLocked     Float
+  amountUsd       Float
+  rail            String
+  status          String    @default("pending_payment")
+  paymentRef      String?   @unique
+  payAddress      String?
+  payAmount       Float?
+  winnerCode      String?
+  costUsd         Float?
+  deliveredPayload String?
+  deliveredAt     DateTime?
+  cashbackAmount  Float     @default(0)
+  apologyAmount   Float     @default(0)
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+  product         Product   @relation(fields: [productId], references: [id])
+  attempts        Attempt[]
+
+  @@index([phone])
+  @@index([createdAt(sort: Desc)])
+  @@index([status])
+}
+
+model Attempt {
+  id          String   @id @default(cuid())
+  orderId     String
+  supplierCode String
+  step        String
+  status      String   // ok | skip | fail
+  costUsd     Float?
+  latencyMs   Int?
+  message     String?
+  createdAt   DateTime @default(now())
+  order       Order    @relation(fields: [orderId], references: [id])
+
+  @@index([orderId])
+  @@index([supplierCode, status])
+}
+
+model Wallet {
+  id        String     @id @default(cuid())
+  phone     String     @unique
+  createdAt DateTime   @default(now())
+  txs       WalletTx[]
+}
+
+model WalletTx {
+  id       String   @id @default(cuid())
+  walletId String
+  type     String   // deposit | purchase | refund | cashback | apology
+  amount   Float
+  ref      String
+  note     String?
+  createdAt DateTime @default(now())
+  wallet   Wallet   @relation(fields: [walletId], references: [id])
+
+  @@unique([walletId, type, ref])
+  @@index([walletId])
+}
+
+model Waitlist {
+  id        String   @id @default(cuid())
+  productId String
+  phone     String
+  createdAt DateTime @default(now())
+  product   Product  @relation(fields: [productId], references: [id])
+
+  @@unique([productId, phone])
+}
+
+model SyncLog {
+  id           String   @id @default(cuid())
+  supplierCode String
+  ok           Boolean
+  productsSeen Int?
+  matched      Int?
+  changed      Int?
+  inStockNow   Int?
+  balanceUsd   Float?
+  message      String?
+  createdAt    DateTime @default(now())
+}

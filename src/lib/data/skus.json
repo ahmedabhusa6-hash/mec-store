@@ -1,0 +1,302 @@
+{
+  "program_scope": "400+ SKU catalog — Batch 1 executes 15 SKUs; remaining catalog queued with explicit statuses",
+  "governing_formulation": "the lowest price discovered and verified within the research scope, at the time of checking, under the specified SKU and offer conditions",
+  "batch1_skus": [
+    {
+      "sku_id": "SKU-AI-001",
+      "family": "AI/SaaS",
+      "identity": { "brand": "OpenAI", "product": "ChatGPT Plus", "plan": "Plus monthly", "seats": "1", "billing": "monthly", "account_type": "individual", "region": "Global (service)", "locked": true },
+      "official_anchor": { "price": 20.00, "currency": "USD", "per": "month", "evidence_level": "Secondary Reported", "evidence": "A001 community.openai.com + A023 smartbuy.alibaba.com (Jan 2026: $20/mo monthly, $200/yr annual)", "freshness": "Current" },
+      "offers": [
+        { "entity": "OpenAI (official)", "price": 20.00, "unit": "month", "match": "Exact Match", "price_evidence": "Secondary Reported", "freshness": "Current", "guarantee": "First-party service terms", "resale": "N/A", "source": "A001/A023" },
+        { "entity": "OpenAI (official annual)", "price": 200.00, "unit": "year (=$16.67/mo)", "match": "Exact Match (annual billing)", "price_evidence": "Secondary Reported", "freshness": "Current", "guarantee": "First-party", "resale": "N/A", "source": "A023" },
+        { "entity": "Gray-market shared/discount accounts", "price": null, "unit": null, "match": "Non-Comparable (account-sharing ≠ subscription)", "price_evidence": "Lead", "freshness": "Unknown", "guarantee": "Unknown", "resale": "Suspected unauthorized (community reports: significant discounts typically unofficial — A023 facebook.com)", "source": "A023", "status": "Signal only — rate-limited verification (A066/A071)" }
+      ],
+      "price_intelligence": {
+        "lowest_verified_offer": "$20.00/month official (Secondary Reported)",
+        "lowest_comparable_effective_acquisition_cost": "$16.67/month equivalent via official annual billing $200/yr (verified legitimate channel)",
+        "cheapest_advertised_marketplace": "None verified — no legitimate below-official offer found",
+        "cheapest_with_documented_guarantee": "Official $200/yr annual (first-party terms)",
+        "cheapest_without_documented_guarantee": "No verified commercial offer",
+        "effective_acquisition_cost_notes": "No mandatory fees beyond subscription price evidenced; taxes Unknown Component: VAT/sales tax not captured"
+      },
+      "coverage": { "product_first": "Verified Findings", "price_first": "Searched — No Useful Result (legitimate)", "seller_first": "Signal only (rate-limited)", "counter_evidence": "Verified Findings" }
+    },
+    {
+      "sku_id": "SKU-AI-002",
+      "family": "AI/SaaS",
+      "identity": { "brand": "Google", "product": "Gemini (Google One AI Pro)", "plan": "AI Pro monthly", "seats": "1", "billing": "monthly or annual", "account_type": "individual", "region": "Global (service)", "locked": true },
+      "official_anchor": { "price": 19.99, "currency": "USD", "per": "month", "evidence_level": "Secondary Reported (×2 consistent)", "evidence": "A002 tech.yahoo.com (Aug 2026) + savingadvice.com ($19.99/mo; annual $199.99/yr)", "freshness": "Current (Aug 2026)" },
+      "offers": [
+        { "entity": "Google (official)", "price": 19.99, "unit": "month", "match": "Exact Match", "price_evidence": "Secondary Reported", "freshness": "Current", "guarantee": "First-party", "resale": "N/A", "source": "A002" },
+        { "entity": "Google (official annual)", "price": 199.99, "unit": "year (=$16.67/mo)", "match": "Exact Match (annual)", "price_evidence": "Secondary Reported", "freshness": "Current", "guarantee": "First-party", "resale": "N/A", "source": "A002" },
+        { "entity": "Etsy seller — 'Gemini AI 18 Month Pro Plan 5TB'", "price": null, "unit": null, "match": "Possible Match–Review (plan identity unclear, price not captured)", "price_evidence": "Lead", "freshness": "Unknown", "guarantee": "Unknown", "resale": "Suspected unauthorized — no Google reseller program evidenced", "source": "A002 etsy.com" }
+      ],
+      "price_intelligence": {
+        "lowest_verified_offer": "$19.99/month official (Secondary Reported)",
+        "lowest_comparable_effective_acquisition_cost": "$16.67/month equivalent via annual $199.99/yr",
+        "cheapest_advertised_marketplace": "None verified (Etsy lead unpriced)",
+        "cheapest_with_documented_guarantee": "Official annual plan",
+        "cheapest_without_documented_guarantee": "None verified",
+        "effective_acquisition_cost_notes": "Taxes Unknown Component"
+      },
+      "coverage": { "product_first": "Verified Findings", "price_first": "Lead (Etsy)", "seller_first": "Not Searched (budget)", "counter_evidence": "Not Searched — Batch 2" }
+    },
+    {
+      "sku_id": "SKU-SUB-001",
+      "family": "Digital Subscriptions",
+      "identity": { "brand": "Spotify AB", "product": "Spotify Premium Individual", "plan": "Individual", "duration": "1 month (and 12-month comparison)", "account_type": "individual", "region": "US storefront", "locked": true },
+      "official_anchor": { "price": 12.99, "currency": "USD", "per": "month", "evidence_level": "First-Party Reported (retrieved directly)", "evidence": "A072 spotify.com — '$0 for 1 month trial, then $12.99 per month' (US); corroborated ×2 (checkthat.ai Aug 2026, freeyourmusic 2026)", "freshness": "Current" },
+      "offers": [
+        { "entity": "Spotify (official)", "price": 12.99, "unit": "month", "match": "Exact Match", "price_evidence": "First-Party Reported", "freshness": "Current", "guarantee": "First-party", "resale": "N/A", "source": "A072" },
+        { "entity": "Eneba (via ozbargain deal post)", "price": 20.86, "unit": "12 months (=$1.74/mo)", "match": "Possible Match–Review (region/method ambiguous)", "price_evidence": "Lead (community deal post, Feb 2025)", "freshness": "Stale", "guarantee": "Unknown", "resale": "Unclear — 87% below official annual; likely region-arbitrage or gray method", "source": "A024 ozbargain.com.au" }
+      ],
+      "price_intelligence": {
+        "lowest_verified_offer": "$12.99/month official (First-Party, directly retrieved)",
+        "lowest_comparable_effective_acquisition_cost": "$12.99/month official (12-month reseller offer NOT comparable — unverified identity/method)",
+        "cheapest_advertised_marketplace": "$20.86/12mo Eneba-signal (Stale + Possible Match–Review — NOT ranked as verified)",
+        "cheapest_with_documented_guarantee": "Official $12.99/mo",
+        "cheapest_without_documented_guarantee": "None verified this run",
+        "effective_acquisition_cost_notes": "Trial offer ($0 first month) is conditional (new-subscriber-only) — not a generalizable price"
+      },
+      "coverage": { "product_first": "Verified Findings (after 3 failed constructions + recovery)", "price_first": "Lead", "counter_evidence": "Region-arbitrage risk documented", "notes": "Failure Recovery case: A003→A014→A057 failed, A072 succeeded" }
+    },
+    {
+      "sku_id": "SKU-SUB-002",
+      "family": "Digital Subscriptions",
+      "identity": { "brand": "Netflix", "product": "Netflix Standard (ad-free)", "plan": "Standard", "duration": "1 month", "region": "US", "locked": true },
+      "official_anchor": { "price": 19.99, "currency": "USD", "per": "month", "evidence_level": "First-Party Reported (retrieved directly)", "evidence": "A004 help.netflix.com — Standard with ads $8.99, Standard $19.99, Premium $26.99 (US)", "freshness": "Current" },
+      "offers": [
+        { "entity": "Netflix (official)", "price": 19.99, "unit": "month (Standard)", "match": "Exact Match", "price_evidence": "First-Party Reported", "freshness": "Current", "guarantee": "First-party", "resale": "N/A", "source": "A004" },
+        { "entity": "Netflix (official, with ads)", "price": 8.99, "unit": "month (Standard with ads)", "match": "Strong Comparable (different plan tier — NOT same SKU)", "price_evidence": "First-Party Reported", "freshness": "Current", "guarantee": "First-party", "resale": "N/A", "source": "A004" }
+      ],
+      "price_intelligence": {
+        "lowest_verified_offer": "$19.99/month for Standard SKU (the $8.99 tier is a DIFFERENT SKU — with ads)",
+        "cheapest_advertised_marketplace": "None found — Netflix gift-card resale channel Retrieval-Limited (A068 rate-limited)",
+        "cheapest_with_documented_guarantee": "Official",
+        "effective_acquisition_cost_notes": "Plan-tier identity is decisive for comparability (ads vs ad-free)"
+      },
+      "coverage": { "product_first": "Verified Findings", "price_first": "Retrieval-Limited", "notes": "Reseller channel unreachable this run" }
+    },
+    {
+      "sku_id": "SKU-SUB-003",
+      "family": "Digital Subscriptions",
+      "identity": { "brand": "NordVPN", "product": "NordVPN subscription", "plan": "Complete (1 year, first term)", "duration": "12 months", "region": "Global", "locked": "Partially — tier ambiguity flagged (Basic/Plus/Complete pricing differs materially)" },
+      "official_anchor": { "price": 121.23, "currency": "USD", "per": "first 12 months (Complete plan)", "evidence_level": "First-Party Reported (retrieved directly)", "evidence": "A005 nordvpn.com — Complete $121.23 first 12mo (75% off $219.48), renews $219.48/yr; security.org: Basic 1yr ≈ $5.49/mo", "freshness": "Current" },
+      "offers": [
+        { "entity": "NordVPN (official)", "price": 121.23, "unit": "12 months (Complete)", "match": "Exact Match", "price_evidence": "First-Party Reported", "freshness": "Current", "guarantee": "30-day money-back (security.org)", "resale": "N/A", "source": "A005" },
+        { "entity": "K4G (via allkeyshop)", "price": 4.90, "unit": "subscription key (plan tier unclear)", "match": "Possible Match–Review (tier/duration not confirmed from snippet)", "price_evidence": "Secondary Reported (comparator)", "freshness": "Current", "guarantee": "Unknown", "resale": "Restricted — NordVPN official statement: no G2A sellers authorized to resell (publisher counter-evidence)", "source": "A031" }
+      ],
+      "price_intelligence": {
+        "lowest_verified_offer": "$121.23/12mo official Complete (First-Party)",
+        "cheapest_advertised_marketplace": "$4.90 at K4G (Advertised via comparator — tier unclear, resale unauthorized per publisher)",
+        "cheapest_with_documented_guarantee": "Official (money-back documented)",
+        "cheapest_without_documented_guarantee": "$4.90 K4G — held in review state (authorization + identity unconfirmed)",
+        "effective_acquisition_cost_notes": "Official renewal at $219.48/yr materially changes 2nd-year cost; K4G key renewal terms Unknown"
+      },
+      "coverage": { "product_first": "Verified Findings", "price_first": "Verified Findings", "counter_evidence": "Verified Findings (publisher-documented resale restriction)" }
+    },
+    {
+      "sku_id": "SKU-GC-001",
+      "family": "Gift Cards",
+      "identity": { "brand": "Valve/Steam", "product": "Steam Wallet Gift Card", "denomination": "$20 USD", "currency": "USD", "redemption_region": "US (USD wallet)", "locked": true },
+      "official_anchor": { "price": 20.00, "currency": "USD", "per": "card (face value)", "evidence_level": "First-Party Retail", "evidence": "A006 store.steampowered.com redemption + GameStop $20 retail listing", "freshness": "Current" },
+      "offers": [
+        { "entity": "Official retail (GameStop/Amazon/Best Buy)", "price": 20.00, "unit": "$20 card", "match": "Exact Match", "price_evidence": "First-Party Retail", "freshness": "Current", "guarantee": "Face-value instrument", "resale": "N/A", "source": "A006" },
+        { "entity": "G2A (via gg.deals)", "price": 14.10, "unit": "$13 card (US)", "match": "Strong Comparable (different denomination, same region) — unit-rate +8.5% ABOVE face", "price_evidence": "Secondary Reported (aggregator)", "freshness": "Current", "guarantee": "Marketplace protection", "resale": "Unclear", "source": "A021" },
+        { "entity": "Kinguin", "price": 18.85, "unit": "₴800 UAH card (Ukraine wallet)", "match": "Non-Comparable (different currency region — UA accounts only)", "price_evidence": "First-Party Reported (listing)", "freshness": "Current", "guarantee": "Marketplace protection", "resale": "Unclear", "source": "A021" },
+        { "entity": "Eneba", "price": null, "unit": "10 USD EL SALVADOR region card", "match": "Non-Comparable (different region)", "price_evidence": "First-Party (listing existence)", "freshness": "Current", "source": "A020" },
+        { "entity": "Z2U", "price": null, "unit": "$5-$100 denominations", "match": "Strong Comparable (pricing not captured)", "price_evidence": "Lead", "freshness": "Current", "source": "A049" }
+      ],
+      "price_intelligence": {
+        "lowest_verified_offer": "$20.00 face value at official retail",
+        "cheapest_advertised_marketplace": "None below face for US-region cards — US wallet codes trade at PREMIUM on gray market (structural finding)",
+        "key_insight": "US-region Steam codes: gray-market premium +8.5% (region-pricing arbitrage demand). Discounts only exist on non-USD region cards (Non-Comparable SKUs)",
+        "cheapest_with_documented_guarantee": "$20 official retail",
+        "effective_acquisition_cost_notes": "Gray-market US cards cost MORE than face — no arbitrage value verified"
+      },
+      "coverage": { "product_first": "Verified Findings", "marketplace_first": "Verified Findings", "language_ru": "Verified Findings (Plati/GGSel context)", "notes": "RU-market Steam top-up operates via codes due to payment restrictions (context)" }
+    },
+    {
+      "sku_id": "SKU-GC-002",
+      "family": "Gift Cards",
+      "identity": { "brand": "Apple", "product": "App Store & iTunes Gift Card", "denomination": "$25 USD", "currency": "USD", "redemption_region": "US Apple ID", "locked": true },
+      "official_anchor": { "price": 25.00, "currency": "USD", "per": "card (face value)", "evidence_level": "First-Party Retail", "evidence": "A015 amazon.com + bestbuy.com listings at face", "freshness": "Current" },
+      "offers": [
+        { "entity": "Amazon / Best Buy (official retail)", "price": 25.00, "unit": "$25 card", "match": "Exact Match", "price_evidence": "First-Party Retail", "freshness": "Current", "guarantee": "Face-value instrument", "resale": "N/A", "source": "A015" },
+        { "entity": "snoonu (Qatar)", "price": null, "unit": "$25 US card", "match": "Strong Comparable (price not captured)", "price_evidence": "Lead (listing)", "freshness": "Current", "source": "A015" },
+        { "entity": "yallatoys (Qatar)", "price": null, "unit": "$25 US card", "match": "Strong Comparable (price not captured)", "price_evidence": "Lead", "freshness": "Current", "source": "A051" },
+        { "entity": "gml-store", "price": 250.00, "unit": "$250 card at 937.50 SAR (EXACT face at 3.75 SAR/USD)", "match": "Strong Comparable (different denomination, same region — unit rate = face)", "price_evidence": "First-Party Reported", "freshness": "Current", "guarantee": "Unknown", "resale": "Unclear", "source": "A051" },
+        { "entity": "LikeCard (Bahrain)", "price": null, "unit": "Apple cards", "match": "Strong Comparable (price not captured)", "price_evidence": "Lead", "freshness": "Current", "source": "A051" },
+        { "entity": "vexacard", "price": null, "unit": "$30 US card", "match": "Strong Comparable (price not captured)", "price_evidence": "Lead", "freshness": "Current", "source": "A036" },
+        { "entity": "DIFMARK (via smartcdkeys, EA App card as pattern reference)", "price": 21.92, "unit": "EA App $25 card (different brand)", "match": "Non-Comparable (different brand) — pattern: 12% below face exists in keyshop segment", "price_evidence": "Secondary Reported (comparator)", "freshness": "Current", "source": "A022" }
+      ],
+      "price_intelligence": {
+        "lowest_verified_offer": "$25.00 face value",
+        "cheapest_advertised_marketplace": "None below face verified for Apple $25 US; MENA stores sell at ≈face (gml-store exact-face evidence)",
+        "cheapest_with_documented_guarantee": "$25 official retail",
+        "effective_acquisition_cost_notes": "Counter-evidence principle (bittopup editorial): 30-50% below face = fraud economics for gift cards"
+      },
+      "coverage": { "product_first": "Verified Findings", "language_ar": "Verified Findings (5 MENA sellers)", "counter_evidence": "Verified Findings" }
+    },
+    {
+      "sku_id": "SKU-GC-003",
+      "family": "Gift Cards",
+      "identity": { "brand": "Google", "product": "Google Play Gift Card", "denomination": "$25 USD", "redemption_region": "US", "locked": true },
+      "official_anchor": { "price": null, "currency": "USD", "per": "card", "evidence_level": "Unknown — Retrieval-Limited", "evidence": "4 query attempts failed to capture direct listing (A008, A016, A055, A073). Face-value convention NOT committed as fact without evidence.", "freshness": "Unknown" },
+      "offers": [],
+      "price_intelligence": {
+        "lowest_verified_offer": "Unknown — Retrieval-Limited",
+        "notes": "Anchor remains open; Batch 2 target. No offers ranked — SKU identity locked but price evidence empty (honest empty state)"
+      },
+      "coverage": { "product_first": "Retrieval-Limited (×4)", "price_first": "Not Searched (anchor missing)" }
+    },
+    {
+      "sku_id": "SKU-TOP-001",
+      "family": "Game Top-up",
+      "identity": { "brand": "Tencent/PUBG Mobile", "product": "PUBG Mobile UC", "denomination": "660 UC (600 + 60 bonus)", "delivery": "voucher code or direct top-up", "region": "Global (server-dependent)", "locked": true },
+      "official_anchor": { "price": 9.99, "currency": "USD", "per": "660 UC pack", "evidence_level": "Secondary Reported (official pack pricing)", "evidence": "A017 games2usd.com (600+60 UC = $9.99 official pack); A050 cardsouq lists original price $9.99; Eneba listing structure confirms 600+60 denominations", "freshness": "Current" },
+      "offers": [
+        { "entity": "Official in-game / Midasbuy", "price": 9.99, "unit": "660 UC", "match": "Exact Match", "price_evidence": "Secondary Reported", "freshness": "Current", "guarantee": "Official channel", "resale": "N/A", "source": "A017" },
+        { "entity": "Midasbuy (official, advertised 10% off)", "price": 8.99, "unit": "660 UC effective", "match": "Exact Match", "price_evidence": "Advertised", "freshness": "Current", "guarantee": "Official after-sales support stated", "resale": "N/A (official)", "source": "A059" },
+        { "entity": "bittopup", "price": 8.71, "unit": "660 UC", "match": "Strong Comparable", "price_evidence": "First-Party Reported (listing)", "freshness": "Current (2026)", "guarantee": "Unknown", "resale": "Unclear", "source": "A050" },
+        { "entity": "Turgame", "price": 10.00, "unit": "660 UC (454.90 TRY)", "match": "Strong Comparable", "price_evidence": "First-Party Reported (directly observed)", "freshness": "Current — OFFER SOLD OUT at check time", "guarantee": "Unknown", "resale": "Unclear", "source": "A037" },
+        { "entity": "itemku", "price": 10.07, "unit": "660 UC (from)", "match": "Strong Comparable", "price_evidence": "First-Party Reported", "freshness": "Current (Sep 2026)", "guarantee": "Marketplace guarantee advertised", "resale": "Unclear", "source": "A017" },
+        { "entity": "cardsouq", "price": 4.99, "unit": "660 UC (600+60)", "match": "Possible Match–Review (delivery method unverified; 50% below official)", "price_evidence": "First-Party Reported (listing)", "freshness": "Current (2026)", "guarantee": "Unknown", "resale": "Unclear", "source": "A050", "flag": "H1 open — promo/terms/fraud unresolved" },
+        { "entity": "opensooq individuals (JO)", "price": 4.93, "unit": "660 UC (3.50 JOD)", "match": "Possible Match–Review", "price_evidence": "Lead (classifieds)", "freshness": "Current", "guarantee": "None (individual)", "resale": "Unknown", "source": "A050", "flag": "Non-generalizable individual offer" },
+        { "entity": "buffbuff", "price": null, "unit": "'up to 55% OFF' claimed", "match": "Possible Match–Review (claim unverified)", "price_evidence": "Advertised (self-claimed)", "freshness": "Current", "guarantee": "Unknown", "resale": "Authorization CLAIMED, not verified", "source": "A059" }
+      ],
+      "price_intelligence": {
+        "lowest_verified_offer": "$8.99 effective via Midasbuy official 10% discount (Advertised — official channel) OR $8.71 bittopup (First-Party listing) — scoped: lowest directly-listed commercial price = $8.71 (bittopup), within plausible promo band",
+        "cheapest_advertised": "$4.99 cardsouq — HELD IN REVIEW (50% below official; bittopup's own fraud-economics statement flags 30-50% band as fraudulent for gift cards; UC top-up delivery terms unverified)",
+        "cheapest_negotiated_individual": "~$4.93 opensooq (non-generalizable, no guarantee)",
+        "cheapest_with_documented_guarantee": "Midasbuy official ~$8.99 (official after-sales)",
+        "effective_acquisition_cost_notes": "Payment-method fees Unknown Component; TRY-priced offers (Turgame 454.90 TRY) carry FX conversion Unknown Component"
+      },
+      "coverage": { "product_first": "Verified Findings", "price_first": "Verified Findings (7 offers)", "language_ar": "Verified Findings", "counter_evidence": "Verified Findings (fraud-economics + authorization claims)", "notes": "Richest SKU this batch — real price dispersion documented" }
+    },
+    {
+      "sku_id": "SKU-TOP-002",
+      "family": "Game Top-up",
+      "identity": { "brand": "Garena", "product": "Free Fire Diamonds", "denomination": "520 diamonds", "delivery": "direct top-up", "region": "Global/MENA", "locked": true },
+      "official_anchor": { "price": null, "currency": "USD", "per": "520 diamonds", "evidence_level": "Unknown — Retrieval-Limited (×4 attempts: A010, A018, A074)", "evidence": "Garena official top-up centers confirmed to exist (A054: shop.garena.sg, store.garena.com) but 520-diamond price not captured", "freshness": "Unknown" },
+      "offers": [
+        { "entity": "gameseal", "price": null, "unit": "2200 diamonds GLOBAL (different denomination)", "match": "Non-Comparable", "price_evidence": "Lead (listing)", "freshness": "Current", "source": "A054" },
+        { "entity": "karteet", "price": null, "unit": "2420 diamonds MENA (different denomination)", "match": "Non-Comparable", "price_evidence": "Lead (listing)", "freshness": "Current", "source": "A036" }
+      ],
+      "price_intelligence": {
+        "lowest_verified_offer": "Unknown — anchor Retrieval-Limited",
+        "notes": "Denomination mismatch is the recurring failure mode: sellers list 2200/2420 packs, not 520. SKU identity correct; market denominations differ. Batch 2: query 520-specific or re-scope SKU to observed denominations (requires user authorization per Scope Lock)."
+      },
+      "coverage": { "product_first": "Retrieval-Limited", "price_first": "No Comparable Found", "notes": "Proposed adjustment (NOT executed): align SKU denomination to market-observable packs" }
+    },
+    {
+      "sku_id": "SKU-SW-001",
+      "family": "Software/Licenses",
+      "identity": { "brand": "Microsoft", "product": "Windows 11 Pro", "license": "retail digital license (official anchor); gray-market OEM keys offered by keyshops", "duration": "perpetual", "activation": "digital key", "region": "Global", "locked": true },
+      "official_anchor": { "price": 199.99, "currency": "USD", "per": "license", "evidence_level": "First-Party Reported + Secondary", "evidence": "A056 learn.microsoft.com (user-confirmed $199.99) + techradar.com; digitalmaze regular price $199.99 corroborates", "freshness": "Current" },
+      "offers": [
+        { "entity": "Microsoft (official)", "price": 199.99, "unit": "license", "match": "Exact Match", "price_evidence": "First-Party Reported", "freshness": "Current", "guarantee": "First-party", "resale": "N/A", "source": "A056" },
+        { "entity": "digitalmaze", "price": 74.99, "unit": "license (sale)", "match": "Strong Comparable (license type not fully specified)", "price_evidence": "First-Party Reported", "freshness": "Current", "guarantee": "Unknown", "resale": "Unclear", "source": "A056" },
+        { "entity": "Kinguin/G2A/CDKeys (typical range)", "price": 25.00, "unit": "OEM key (range $20-30)", "match": "Possible Match–Review (OEM vs retail license)", "price_evidence": "Secondary Reported (guide)", "freshness": "Current", "guarantee": "Marketplace protection", "resale": "Legally gray — 'a key is not a license' (Microsoft position via LTT forum)", "source": "A026" },
+        { "entity": "Keywrld (via allkeyshop)", "price": 1.10, "unit": "€1.03 Windows 11 Pro key", "match": "Possible Match–Review (extreme outlier, conditions unknown)", "price_evidence": "Secondary Reported (comparator)", "freshness": "Current", "guarantee": "Unknown", "resale": "Unclear", "source": "A027", "flag": "99.5% below official — likely coupon/first-purchase conditional" },
+        { "entity": "techspot deals (pattern reference)", "price": 29.99, "unit": "Windows 11 Pro license deal", "match": "Strong Comparable (deal site, 2023 — Stale)", "price_evidence": "Secondary Reported", "freshness": "Stale (Jun 2023)", "source": "A011" }
+      ],
+      "price_intelligence": {
+        "lowest_verified_offer": "$199.99 official (verified)",
+        "cheapest_advertised_marketplace": "€1.03 Keywrld (comparator, conditions unknown — review state); mainstream gray range $20-30 (steemit guide)",
+        "cheapest_with_documented_guarantee": "Official $199.99",
+        "cheapest_without_documented_guarantee": "Gray-market keys $20-30 range (license-validity risk documented)",
+        "effective_acquisition_cost_notes": "Gray keys: activation-success risk + no Microsoft support = hidden cost dimension (risk ≠ price, kept separate)"
+      },
+      "coverage": { "product_first": "Verified Findings (after 2 failed constructions)", "price_first": "Verified Findings", "counter_evidence": "Verified Findings (key≠license legal position)" }
+    },
+    {
+      "sku_id": "SKU-KEY-001",
+      "family": "Game Keys",
+      "identity": { "brand": "Mojang/Microsoft", "product": "Minecraft: Java & Bedrock Edition", "edition": "Standard (PC, Windows)", "platform": "PC", "region": "Global", "locked": true },
+      "official_anchor": { "price": 29.99, "currency": "USD", "per": "key", "evidence_level": "First-Party Reported (retrieved directly)", "evidence": "A053 microsoft.com official listing ($29.99; Deluxe Collection $39.99); GAMIVO editorial corroborates (Aug 2026)", "freshness": "Current" },
+      "offers": [
+        { "entity": "Microsoft (official)", "price": 29.99, "unit": "Java & Bedrock PC", "match": "Exact Match", "price_evidence": "First-Party Reported", "freshness": "Current", "guarantee": "First-party", "resale": "N/A", "source": "A053" },
+        { "entity": "GAMIVO", "price": null, "unit": "Java & Bedrock (PC) key", "match": "Strong Comparable (price not captured)", "price_evidence": "Lead (listing)", "freshness": "Current", "source": "A012" },
+        { "entity": "kiffmarketing (ZA storefront)", "price": 35.00, "unit": "Java Bedrock Standard", "match": "Strong Comparable (ABOVE official — gray premium)", "price_evidence": "Secondary Reported", "freshness": "Unknown", "source": "A012" }
+      ],
+      "price_intelligence": {
+        "lowest_verified_offer": "$29.99 official",
+        "cheapest_advertised_marketplace": "None below official verified (one reseller ABOVE official at $35)",
+        "cheapest_with_documented_guarantee": "Official $29.99",
+        "effective_acquisition_cost_notes": "Minecraft gray-market discount not observed this run — official is cheapest verified channel"
+      },
+      "coverage": { "product_first": "Verified Findings", "marketplace_first": "Partial (prices thin)", "notes": "Minecraft- specific marketplace queries failed (A028, A052) — constructions recovered via official + editorial" }
+    },
+    {
+      "sku_id": "SKU-ESIM-001",
+      "family": "eSIM/Telecom",
+      "identity": { "brand": "Airalo (reference) / market", "product": "Regional eSIM data pack — Europe regional", "denomination": "10GB / 30 days", "region": "Europe (multi-country regional)", "locked": true },
+      "official_anchor": { "price": 15.50, "currency": "USD", "per": "10GB/30 days (Europe regional)", "evidence_level": "First-Party Reported (retrieved directly)", "evidence": "A013 airalo.com — Europe packages 10GB $15.50-17.00, 5GB $10.50 (Croatia example at $15.50)", "freshness": "Current" },
+      "offers": [
+        { "entity": "Airalo (official site)", "price": 15.50, "unit": "10GB/30d Europe regional", "match": "Exact Match (reference brand)", "price_evidence": "First-Party Reported", "freshness": "Current", "guarantee": "First-party eSIM terms", "resale": "N/A", "source": "A013" },
+        { "entity": "Airalo via esimdb (Portugal country pack)", "price": 11.00, "unit": "10GB/30d PORTUGAL (single country)", "match": "Non-Comparable (different SKU: country vs regional) — documented to prevent false comparison", "price_evidence": "Secondary Reported (aggregator)", "freshness": "Current (Sep 2026)", "source": "A013" },
+        { "entity": "Airalo Eurolink (via abrokenbackpack)", "price": 37.00, "unit": "10GB/30d Europe", "match": "Possible Match–Review (dated info)", "price_evidence": "Secondary Reported (blog)", "freshness": "Stale (blog guide, likely pre-price-update)", "source": "A013" }
+      ],
+      "price_intelligence": {
+        "lowest_verified_offer": "$15.50 for Europe regional 10GB/30d (Airalo, First-Party)",
+        "key_insight": "Region granularity is decisive: Portugal country pack $11 ≠ Europe regional $15.50 — comparing them is a SKU-identity error",
+        "cheapest_with_documented_guarantee": "Airalo first-party $15.50",
+        "effective_acquisition_cost_notes": "eSIM B2B wholesale layer (DT One etc.) Retrieval-Limited — retail anchor only this run"
+      },
+      "coverage": { "product_first": "Verified Findings", "b2b_upstream": "Retrieval-Limited (A046 failed)" }
+    },
+    {
+      "sku_id": "SKU-SMM-001",
+      "family": "SMM Services",
+      "identity": { "service": "Instagram Followers", "quantity": "1,000 followers", "quality_terms": "retention/refill quality UNKNOWN — materially affects comparability", "platform": "Instagram", "locked": "Partially — quality terms undefined (open field)" },
+      "official_anchor": { "price": null, "evidence_level": "N/A — no official anchor exists (market-defined service)", "evidence": "Meta sells ads, not followers; follower-selling market is platform-ToS-violating by nature (policy risk dimension, separate from price)", "freshness": "N/A" },
+      "offers": [
+        { "entity": "SMMFollowers", "price": 0.64, "unit": "per 1,000 IG followers ($0.6391)", "match": "Strong Comparable (quality terms unverified)", "price_evidence": "Secondary Reported (panel comparator, Sep 2026)", "freshness": "Current", "guarantee": "Unknown", "source": "A043" },
+        { "entity": "smmraja", "price": 0.01, "unit": "'under a cent per 1K' reseller rates", "match": "Possible Match–Review (quality tier unknown)", "price_evidence": "Advertised", "freshness": "Current", "source": "A043" },
+        { "entity": "smmpwr", "price": 0.0012, "unit": "from $0.0012 per 1,000 (460 services)", "match": "Possible Match–Review (floor rate, quality unknown, refill guarantee advertised)", "price_evidence": "First-Party Reported", "freshness": "Current", "guarantee": "Refill guarantee advertised (terms unverified)", "source": "A044" },
+        { "entity": "PrimeFollows", "price": null, "unit": "services listed, price not captured", "match": "Strong Comparable (pending price)", "price_evidence": "Lead", "freshness": "Current", "source": "A042" }
+      ],
+      "price_intelligence": {
+        "lowest_verified_offer": "None Verified — all offers Advertised/Secondary with unknown quality terms",
+        "cheapest_advertised": "from $0.0012/1k (smmpwr floor rate) — NOT comparable without quality terms; $0.64/1k (SMMFollowers) as mid-market advertised rate",
+        "comparability_warning": "Follower quality/retention/refill terms materially alter commercial value — prices across panels are NOT valid comparisons without quality lock (SKU identity incomplete)",
+        "policy_risk_dimension": "Follower-selling violates Instagram platform terms — risk dimension recorded separately from price per spec"
+      },
+      "coverage": { "seller_first": "Partial (2/3 seeds verified)", "price_first": "Verified Findings (market rates)" }
+    },
+    {
+      "sku_id": "SKU-VN-001",
+      "family": "Virtual Numbers/SMS",
+      "identity": { "service": "Virtual number for SMS/OTP verification", "country": "US (reference market)", "number_type": "non-VoIP real SIM (premium tier)", "duration": "single activation window", "supported_service": "service-specific (materially affects price)", "locked": "Partially — service-specific pricing open" },
+      "official_anchor": { "price": null, "evidence_level": "N/A — market-defined service", "evidence": "No official anchor; carrier pricing not directly comparable to OTP rental market", "freshness": "N/A" },
+      "offers": [
+        { "entity": "BlackHatWorld sellers (US non-VoIP)", "price": 0.05, "unit": "per number (from $0.05, real US SIMs, OTP)", "match": "Strong Comparable (service-specific pricing caveat)", "price_evidence": "Advertised (marketplace)", "freshness": "Current (Mar 2026)", "source": "A045" },
+        { "entity": "5SIM", "price": null, "unit": "unlimited SMS per site within 5-30min window", "match": "Strong Comparable (price not captured)", "price_evidence": "Lead", "freshness": "Current (Sep 2026)", "source": "A045" },
+        { "entity": "smscode.gg", "price": null, "unit": "OTP numbers (positions as cheaper 5SIM alternative)", "match": "Strong Comparable (price not captured)", "price_evidence": "Lead", "freshness": "Current", "source": "A045" }
+      ],
+      "price_intelligence": {
+        "lowest_verified_offer": "None Verified",
+        "cheapest_advertised": "from $0.05 per US non-VoIP number (marketplace advertised)",
+        "comparability_warning": "Country + number type (VoIP vs real SIM) + supported service materially change price — full SKU lock required before ranking"
+      },
+      "coverage": { "price_first": "Verified Findings (market signal)" }
+    }
+  ],
+  "remaining_catalog": {
+    "scope": "400+ SKUs program — families beyond Batch 1 sample",
+    "status_per_family": [
+      { "family": "AI/SaaS (beyond 2 anchor SKUs)", "status": "Not Searched — queued Batch 2+", "planned": "ChatGPT Pro, Claude, Perplexity, Copilot, API credits, edu/work plans" },
+      { "family": "Gift Cards (beyond 3 anchor SKUs)", "status": "Not Searched — queued", "planned": "PSN, Xbox, Nintendo eShop, Razer Gold, Amazon, Visa/MC prepaid, denominations × regions" },
+      { "family": "Game Top-up (beyond 2)", "status": "Not Searched — queued", "planned": "Mobile Legends, Genshin, Roblox Robux, Valorant, LOL RP, Free Fire other denominations" },
+      { "family": "Game Keys (beyond 1)", "status": "Not Searched — queued", "planned": "AAA titles, Steam/EGS/Xbox/PSN platform matrix, region locks" },
+      { "family": "Software/Licenses (beyond 1)", "status": "Not Searched — queued", "planned": "Office suites, antivirus, Adobe, Windows Server, OEM vs retail" },
+      { "family": "eSIM/Telecom (beyond 1)", "status": "Not Searched — queued", "planned": "Country/regional/global packs × carriers × validity" },
+      { "family": "SMM (beyond 1)", "status": "Not Searched — queued", "planned": "Platform × service type × quantity tiers × quality grades" },
+      { "family": "Virtual Numbers/SMS (beyond 1)", "status": "Not Searched — queued", "planned": "Country × service × number type × duration" },
+      { "family": "Digital Subscriptions (beyond 3)", "status": "Not Searched — queued", "planned": "YouTube Premium, Disney+, Xbox Game Pass, regional storefronts" }
+    ],
+    "expansion_note": "Every 'Not Searched' status is an honest §15 state — never 'does not exist'. Budget-limited by design of Batch 1."
+  }
+}

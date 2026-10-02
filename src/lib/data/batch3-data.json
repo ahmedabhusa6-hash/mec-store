@@ -1,0 +1,164 @@
+{
+ "run": "الدفعة 3 (218 P3) — الإغلاق النهائي",
+ "date": "2026-09-27",
+ "promotion": "v4.2 → Approved — أول نسخة معتمدة في تاريخ المشروع (قاعدة D1، تصريح المستخدم «اعتمد كل شي»)",
+ "totals": {
+  "catalog": "437/437 SKU",
+  "actions": 415,
+  "direct_offers": 42,
+  "channels": 91
+ },
+ "states": {
+  "direct_observed_preseeded": 18,
+  "channel_advertised": 10,
+  "official_baseline": 7,
+  "advertised_lead_only": 69,
+  "noise_rejected_other_host": 114
+ },
+ "key_findings": [
+  "التحقق المتقاطع الناجح للبطاقات التركية: Turgame $1.02 مقابل SEAGM $1.08 لبطاقة Xbox 50 TL (فارق 5.8% بين قناتين مستقلتين)",
+  "سوق العلاوة الأمريكي تأكد للمرة الرابعة: بطاقة Steam $10 تباع $10.47 (+4.7%) عبر Eneba",
+  "خصومات مفاتيح الألعاب الموثقة بالمقارنة: ARK -75% · Kingdom Come II -90% · PUBG RU -70% (بعلم إقليمي)",
+  "شحن الألعاب عبر الأسواق ≈ الرسمي (Honkai 300=$4.99 · Valorant 5350=$49.40 -1.2% · ML 706=$10.24 -9%) — قنوات موثوقة للوصول لا للخصم",
+  "Perplexity Pro السنوي عبر CJS ≈ الرسمي ($244.86 مقابل $240) — لا خصم للهوية السنوية",
+  "خطوط رسمية جديدة موثقة: Apple TV+ $14.99 · LinkedIn Premium $39.99 · Skillshare $13.99/ش · Monday Standard $9 · Spotify Duo $18.99 · Envato $16.50"
+ ],
+ "channel_offers": [
+  {
+   "sku": "SKU-AI035",
+   "seller": "CJS CDKeys",
+   "product": "Perplexity AI Pro — annual",
+   "usd": 244.86,
+   "note": "قناة معتمدة تبيع الهوية السنوية بسعر يقارب الرسمي"
+  },
+  {
+   "sku": "SKU-GC016",
+   "seller": "SEAGM",
+   "product": "Xbox Live Gift Card (TR) 50 TL",
+   "usd": 1.08,
+   "note": "EXACT — يضاف كعرض معلن لقناة ثانية فوق المباشر"
+  },
+  {
+   "sku": "SKU-GT021",
+   "seller": "Eneba",
+   "product": "Honkai Star Rail 300 Oneiric Shards + 30 Bonus",
+   "usd": 4.99,
+   "note": "EXACT"
+  },
+  {
+   "sku": "SKU-GT031",
+   "seller": "G2A",
+   "product": "Mobile Legends 706 Diamonds GLOBAL",
+   "usd": 10.24,
+   "note": "EXACT مع تصحيح سعري موثق من السياق النصي"
+  },
+  {
+   "sku": "SKU-GT034",
+   "seller": "GG.deals (aggregated keyshops)",
+   "product": "Valorant 5350 Points",
+   "usd": 49.4,
+   "note": "EXACT"
+  },
+  {
+   "sku": "SKU-GT040",
+   "seller": "G2A",
+   "product": "Genshin Impact 3880 Genesis Crystals (EUROPE)",
+   "usd": 64.97,
+   "note": "EXACT مع تصحيح سعري"
+  },
+  {
+   "sku": "SKU-GT050",
+   "seller": "Eneba",
+   "product": "Steam Wallet Gift Card 10 USD",
+   "usd": 10.47,
+   "note": "ADJACENT"
+  },
+  {
+   "sku": "SKU-GK012",
+   "seller": "GG.deals (aggregated keyshops)",
+   "product": "ARK: Survival Ascended — key",
+   "usd": 11.22,
+   "note": "EXACT"
+  },
+  {
+   "sku": "SKU-GK015",
+   "seller": "GG.deals (aggregated keyshops)",
+   "product": "PUBG: Battlegrounds — RUSSIA key",
+   "usd": 2.99,
+   "note": "EXACT + region flag"
+  },
+  {
+   "sku": "SKU-GK020",
+   "seller": "GG.deals (aggregated keyshops)",
+   "product": "Kingdom Come: Deliverance II — key",
+   "usd": 4.99,
+   "note": "EXACT"
+  },
+  {
+   "sku": "SKU-VN036",
+   "seller": "TollFreeForwarding.com (official provider)",
+   "product": "Virtual toll-free number — USA",
+   "usd": 4.0,
+   "note": "OFFICIAL baseline"
+  }
+ ],
+ "official_baselines": [
+  {
+   "sku": "SKU-AI024",
+   "seller": "Gamma (official)",
+   "usd": 10.0,
+   "note": "نطاق رسمي موثق $10-20/شهر"
+  },
+  {
+   "sku": "SKU-AI044",
+   "seller": "Gamma (official)",
+   "usd": 10.0,
+   "note": "النطاق الرسمي $10-20 — Max تحديده الدقيق يحتاج قراءة صفحة"
+  },
+  {
+   "sku": "SKU-AI051",
+   "seller": "Envato Elements (official)",
+   "usd": 16.5,
+   "note": "$16.50/شهر رسمي"
+  },
+  {
+   "sku": "SKU-DS023",
+   "seller": "Apple (official)",
+   "usd": 14.99,
+   "note": "Apple TV+ $14.99/شهر بعد تجربة 7 أيام"
+  },
+  {
+   "sku": "SKU-DS047",
+   "seller": "Spotify (official)",
+   "usd": 18.99,
+   "note": "خط Duo $18.99/شهر (هوية SKU = Duo)"
+  },
+  {
+   "sku": "SKU-DS055",
+   "seller": "LinkedIn (official)",
+   "usd": 39.99,
+   "note": "Premium Career $39.99/شهر أو $239.88/سنة"
+  },
+  {
+   "sku": "SKU-DS059",
+   "seller": "Skillshare (official)",
+   "usd": 13.99,
+   "note": "$13.99/شهر بفوترة سنوية $167.88"
+  },
+  {
+   "sku": "SKU-DS066",
+   "seller": "Monday.com (official)",
+   "usd": 9.0,
+   "note": "Standard $9/مستخدم/شهر"
+  }
+ ],
+ "price_corrections": [
+  "GT031: $0.99 المستخرج → $10.74→$10.24 من السياق النصي (706 شظية GLOBAL)",
+  "GT040: $1.98 المستخرج → $64.97 من السياق النصي (3880 جوهرة EUROPE)"
+ ],
+ "limitations": [
+  "كل العروض المقبولة من الدفعة 3 بمستوى «معلن (مقتطف)» — قراءات الصفحات المباشرة مؤجلة للحصة (§19)",
+  "18 SKU لها عروض مباشرة من موجات MEC-2.5 (أعلى مستوى) — محفوظة وغير مستبدلة",
+  "وحدات غير نقدية (UC/VP/Shards/Robux) تحتاج جداول تحويل رسمية للتحقق الكمي الكامل"
+ ]
+}

@@ -1,0 +1,182 @@
+{
+  "run_metadata": {
+    "run_id": "SI-BATCH1-20260926",
+    "prompt_version": "Adaptive Supplier Intelligence Research Engine — v4.1 Candidate",
+    "start_utc": "2026-09-26T21:02:52Z",
+    "end_utc": "2026-09-26T22:05:00Z",
+    "primary_objective": "PRICE INTELLIGENCE — global, evidence-graded, SKU-exact",
+    "program_scope": "400+ SKU digital products/services catalog (multi-batch program)",
+    "session_batch": "Batch 1 of program",
+    "complexity_class": "C4",
+    "output_contract": "Web Page + Markdown (single dataset, semantically identical)"
+  },
+  "scope_lock": {
+    "locked": [
+      "Primary objective = Price Intelligence (supplier discovery = mechanism; upstream/legitimacy = supporting dimensions)",
+      "400+ SKU catalog program scope with internal batching",
+      "Global supplier discovery, no geographic exclusion",
+      "Region-aware SKU matching",
+      "No price ceiling; no fabricated benchmarks",
+      "Multi-scenario volume evaluation (tiers kept separate)",
+      "Governing price formulation (never 'cheapest in the world')"
+    ],
+    "proposed_scope_expansions": [
+      { "proposal": "Free Fire SKU denomination realignment (520 → market-observable 2200/2420 packs)", "reason": "4 retrieval attempts failed on 520-specific pricing; sellers list different denominations", "status": "NOT executed — requires user authorization" },
+      { "proposal": "AI-subscription gray-market deep-dive (Etsy Gemini listings, shared-account markets)", "reason": "High-value discovery branch surfaced by A002/A023", "status": "NOT executed — out of Batch 1 budget" }
+    ]
+  },
+  "coverage_matrix": [
+    { "discovery_family": "Product-first (official anchors)", "status": "Verified Findings", "detail": "9 of 15 SKU anchors locked with evidence; 4 Retrieval-Limited (Google Play ×4, Free Fire ×4, +2 recovered after retries); 2 N/A (SMM/VN have no official anchor by nature)" },
+    { "discovery_family": "Price-first (offer discovery)", "status": "Verified Findings", "detail": "40+ offers captured across 9 SKUs with evidence levels" },
+    { "discovery_family": "Seller-first (seed re-verification)", "status": "Partially Verified", "detail": "Verified: Al Momaiz, Turgame, PrimeFollows, SMMFollowers, gameseal, Wincdkey, Bitcodes, Keywrld, Keys4us. Retrieval-Limited: Mega Center, FazerCards, Nexar, SMM Asia" },
+    { "discovery_family": "Marketplace-first", "status": "Verified Findings", "detail": "Eneba, Kinguin, G2A, GAMIVO, GGSel, Plati, Z2U, K4G, itemku, Driffle (partial)" },
+    { "discovery_family": "B2B/Catalog (API-first)", "status": "Verified Findings (entity level)", "detail": "DT One, Reloadly, DingConnect confirmed as upstream API infrastructure; B2B pricing Retrieval-Limited (account required)" },
+    { "discovery_family": "Language-first (Arabic)", "status": "Verified Findings", "detail": "5+ MENA sellers discovered/verified: LikeCard, bitaqaty, snoonu, yallatoys, gml-store, vexacard, karteet, bittopup, cardsouq" },
+    { "discovery_family": "Language-first (Russian)", "status": "Verified Findings", "detail": "Plati.market, GGSel confirmed via RU sources; RU Steam top-up context documented" },
+    { "discovery_family": "Community-first", "status": "Verified Findings", "detail": "ozbargain (Spotify deal signal), Reddit (Midasbuy confirmation), LTT forum (key≠license), Trustpilot (Wincdkey)" },
+    { "discovery_family": "Counter-evidence (adversarial)", "status": "Verified Findings", "detail": "4 material counter-evidence items: NordVPN resale warning, Microsoft key≠license, bittopup fraud-economics, no-authorized-reseller reports" },
+    { "discovery_family": "Bot/Channel-first (Telegram)", "status": "Not Searched — Tool Limitation", "detail": "No Telegram platform access this run; 28 bot/channel leads remain Unverified" },
+    { "discovery_family": "Historical-first", "status": "Not Searched — Budget-Limited", "detail": "Queued Batch 2+" },
+    { "discovery_family": "Referral-first", "status": "Not Searched — Budget-Limited", "detail": "Queued Batch 2+" },
+    { "discovery_family": "Advertisement-first", "status": "Not Searched — Budget-Limited", "detail": "Queued Batch 2+" },
+    { "discovery_family": "Domain/Infrastructure-first", "status": "Not Searched — Budget-Limited", "detail": "Queued Batch 2+" }
+  ],
+  "branch_terminal_states": [
+    { "branch": "BR-OFFICIAL-ANCHORS", "state": "Saturated (with 4 Retrieval-Limited residues)", "diagnosis": "True Saturation for 9 anchors; Retrieval Ceiling for Google Play/Free Fire despite construction switching ×4" },
+    { "branch": "BR-MARKETPLACE-GC", "state": "Saturated", "diagnosis": "Structural finding captured (US codes trade above face); multiple marketplaces covered" },
+    { "branch": "BR-MARKETPLACE-SUB", "state": "Retrieval-Limited", "diagnosis": "Netflix resale channel rate-limited; Spotify anchor recovered on 4th construction" },
+    { "branch": "BR-MARKETPLACE-AI", "state": "Saturated (run scope)", "diagnosis": "Counter-evidence captured; gray-market deep-dive deferred as scope expansion" },
+    { "branch": "BR-MARKETPLACE-SW", "state": "Saturated", "diagnosis": "Official + gray range + extreme outliers + legal counter-evidence captured" },
+    { "branch": "BR-MARKETPLACE-KEY", "state": "Retrieval-Limited", "diagnosis": "Minecraft marketplace prices thin; official anchor solid" },
+    { "branch": "BR-MARKETPLACE-TOP", "state": "Saturated", "diagnosis": "Richest branch: 8 offers, price dispersion, official channel discount, review-flagged extreme" },
+    { "branch": "BR-MARKETPLACE-RU", "state": "Saturated", "diagnosis": "Plati/GGSel verified; RU context documented" },
+    { "branch": "BR-MENA-SEEDS", "state": "Partially Saturated", "diagnosis": "2/4 seeds verified; language expansion overcompensated with 5+ new entities" },
+    { "branch": "BR-MENA-TOPUP", "state": "Saturated", "diagnosis": "Real price dispersion found (official $9.99 → $4.99 review-flagged)" },
+    { "branch": "BR-TOPUP-SEEDS", "state": "Retrieval-Limited (Nexar)", "diagnosis": "Turgame verified with SOLD OUT availability evidence" },
+    { "branch": "BR-B2B-API", "state": "Saturated (entity) / Retrieval-Limited (pricing)", "diagnosis": "All 3 platforms verified; pricing requires account access" },
+    { "branch": "BR-B2B-ESIM", "state": "Retrieval-Limited", "diagnosis": "Single garbage result; retail anchor solid via Airalo" },
+    { "branch": "BR-SMM-SEEDS", "state": "Partially Saturated", "diagnosis": "Market floor captured; quality-terms comparability gap documented" },
+    { "branch": "BR-VN-SEEDS", "state": "Saturated", "diagnosis": "Market rates from $0.05 captured; SKU identity requirements defined" },
+    { "branch": "BR-EXCLUSION-SCREEN", "state": "Retrieval-Limited", "diagnosis": "EDU-email market signal confirmed; shared-account check rate-limited ×2" },
+    { "branch": "BR-COUNTER-EVIDENCE", "state": "Saturated", "diagnosis": "4 material counter-evidence items captured and linked to affected SKUs" },
+    { "branch": "BR-ENTITY-RESOLUTION", "state": "Unresolved", "diagnosis": "Turgame/Definite Play: no evidence either direction; Reloadly dual-listing resolved (single entity, dual seed records)" }
+  ],
+  "open_hypotheses": [
+    {
+      "id": "H1",
+      "statement": "cardsouq $4.99 PUBG 660 UC is a genuine promo/loss-leader OR uses different delivery terms OR is fraudulent",
+      "supporting": ["Listing directly observed at $4.99 (original $9.99 crossed out)", "Seller operates full gift-card store (not a one-off listing)"],
+      "contradicting": ["50% below official matches the 30-50% band that bittopup's editorial calls 'always fraudulent' economics for gift cards", "Delivery method (voucher vs ID-login) unverified"],
+      "status": "Unresolved — Review State (not accusation, not ranking)",
+      "next_actions": ["Direct page retrieval of cardsouq offer terms", "Delivery-method verification", "Reputation sweep"]
+    },
+    {
+      "id": "H2",
+      "statement": "Turgame and Definite Play are the same entity (user seed lists them as 'Turgame / Definite Play')",
+      "supporting": ["Seed grouping suggests prior association", "Both operate in TR digital market"],
+      "contradicting": ["No web evidence found linking the names (A058 failed, A075 indirect)"],
+      "status": "Unresolved — Entity Resolution open; no merge/split on insufficient evidence",
+      "next_actions": ["WHOIS/domain comparison", "TR-language search", "social account cross-check"]
+    },
+    {
+      "id": "H3",
+      "statement": "MENA retail top-up stores (cardsouq, bittopup, bitaqaty, LikeCard...) source inventory from B2B API platforms (DT One, Reloadly, Ding)",
+      "supporting": ["All three B2B platforms operate at scale in exactly these product categories (top-up, gift cards, gaming pins)", "MENA stores sell identical global SKU inventory"],
+      "contradicting": ["No direct commercial link evidenced for any specific retailer↔platform pair"],
+      "status": "Unresolved Hypothesis — plausible chain, zero direct evidence; do NOT treat upstream as established",
+      "next_actions": ["API-documentation cross-reference", "retailer tech-stack fingerprinting (lawful)", "B2B account-based price discovery"]
+    },
+    {
+      "id": "H4",
+      "statement": "Spotify 12-month keys at ~$20.86 are region-arbitrage products (e.g., TR/IN-family plans converted for resale)",
+      "supporting": ["87% below US official annual price is structurally impossible for legitimate US-region resale", "Known gray-market pattern for subscription keys"],
+      "contradicting": ["Offer is Stale (Feb 2025)", "Seller/method identity not verified"],
+      "status": "Unresolved — Possible Match–Review maintained",
+      "next_actions": ["Current-day re-check of Eneba Spotify listings", "region-of-key verification"]
+    }
+  ],
+  "unresolved_claims": [
+    "Google Play $25 US anchor price (Retrieval-Limited ×4)",
+    "Free Fire 520-diamond official price (Retrieval-Limited ×4)",
+    "ChatGPT Plus official-page direct price (Secondary Reported only)",
+    "All B2B platform pricing (account-gated)",
+    "All Telegram bot/channel leads (platform access unavailable)",
+    "Mega Center / FazerCards / Nexar / SMM Asia current operational status",
+    "cardsouq delivery terms and offer legitimacy",
+    "PrimeFollows / 5SIM / smscode.gg current price lists",
+    "Eneba Steam Wallet 20 USD US-region current price (rate-limited)"
+  ],
+  "exclusion_screen": {
+    "excluded_confirmed": [],
+    "excluded_suspected_needs_review": [
+      { "subject": "SheerID-adjacent bot leads (SheerID_VIP_Bot, SheerID VN)", "signal": "Names + adjacent market evidence (EDU email accounts sold for student-discount verification, helloskip Sep 2026)", "classification": "Not-Excluded but flagged — signal without sufficient evidence remains review state", "action": "Quarantined from commercial ranking pending verification" },
+      { "subject": "Shared-account AI subscriptions (ChatGPT Plus/Crown AI/Gemini GPT Upgrade bot leads)", "signal": "Community reports discounts on such offers are typically unofficial (A023); account-sharing violates publisher ToS", "classification": "Not-Excluded — review state", "action": "Excluded from 'legitimate channel' price rankings; retained as gray-market signals" }
+    ],
+    "not_excluded_with_flags": [
+      { "subject": "Z2U account listings", "flag": "Marketplace trades accounts (3,178 listings) — elevated ToS-violation risk; keys/top-ups segment not excluded" },
+      { "subject": "opensooq individual sellers", "flag": "Non-generalizable individual offers — excluded from commercial ranking by category, not by suspicion" }
+    ],
+    "note": "No entity reached Excluded-Confirmed this run (no direct evidence of stolen credentials, OTP bypass, or cracked access captured). Honest state: screen opened, signals logged, nothing confirmed."
+  },
+  "budget_summary": {
+    "complexity_class": "C4",
+    "total_cap": 96,
+    "actions_executed": 76,
+    "actions_failed": 17,
+    "failures_by_cause": { "no_results_422": 3, "rate_limited_429": 11, "garbage_results_success_status": 3 },
+    "reserve_untouched": 24,
+    "operational_unused": 20,
+    "per_branch_max": "BR-MARKETPLACE-TOP + BR-OFFICIAL-ANCHORS ≈ 30 actions combined — within 35% cap (33.6)",
+    "hypothesis_minimum_rule": "H1-H4 each received ≥2 distinct actions where budget permitted; H2 received 2 (A058, A075); H3 received 3 (A039/A063/A069 + A076); satisfied"
+  },
+  "failure_recovery_log": [
+    { "action": "A003→A014→A057→A072", "sku": "Spotify anchor", "failure": "3 consecutive garbage-result retrievals", "recovery": "Query-construction switching ×3 → 4th construction succeeded (direct spotify.com capture)", "outcome": "Recovered" },
+    { "action": "A011→A019→A056", "sku": "Windows anchor", "failure": "2 failed constructions", "recovery": "Construction change → captured via learn.microsoft + techradar + digitalmaze", "outcome": "Recovered" },
+    { "action": "A009→A017", "sku": "PUBG anchor", "failure": "1 garbage result", "recovery": "How-much construction → games2usd + itemku + Eneba captured", "outcome": "Recovered" },
+    { "action": "A061-A064, A066 → A067-A071 → A072-A076", "sku": "multiple", "failure": "Rate-limit 429 cluster (11 actions)", "recovery": "60s cooldown (failed) → 180s cooldown + construction change → 5/5 recovered", "outcome": "Partially recovered (6 permanently lost: Eneba US Steam detail, Netflix gift card, SMM Asia, shared-account signal, 2 others)" },
+    { "action": "A008→A016→A055→A073", "sku": "Google Play anchor", "failure": "4 constructions, all garbage", "recovery": "Exhausted reasonable constructions within budget", "outcome": "Terminal: Retrieval-Limited (honest)" },
+    { "action": "A010→A018→A074 (+A054 denomination mismatch)", "sku": "Free Fire anchor", "failure": "3 constructions garbage + 1 denomination mismatch", "recovery": "N/A within budget", "outcome": "Terminal: Retrieval-Limited (honest); scope-expansion proposal drafted" }
+  ],
+  "transaction_verification": {
+    "status": "Not Performed (all offers)",
+    "note": "No purchases, account access, or transaction tests were performed this run. All prices are listing-level evidence (First-Party Reported / Secondary Reported / Advertised / Lead). No offer carries transaction-verified status."
+  },
+  "audit_record": {
+    "what_was_established": [
+      "9 of 15 Batch-1 SKU official anchors locked with graded evidence",
+      "40+ offers captured across 9 SKUs with per-offer verification dimensions",
+      "Structural market findings: (1) US-region Steam codes trade ABOVE face on gray market; (2) MENA gift-card stores sell US cards at ≈face; (3) PUBG UC shows real price dispersion with an official-channel discount option; (4) software keyshop floor is coupon-conditional €0.46-1.03; (5) B2B upstream layer (DT One/Reloadly/Ding) verified as infrastructure powering retail top-up globally",
+      "4 publisher/counter-evidence items documented (NordVPN resale restriction, Microsoft key≠license, fraud-economics band, no-authorized-reseller reports)",
+      "57 entities total: 45 verified-active/lead + 12 unverified-lead groups (from 73 seeds)",
+      "Entity resolution: Reloadly dual-seed-listing resolved; Turgame/Definite Play remains open"
+    ],
+    "what_remains_unresolved": "See unresolved_claims (9 items) + open_hypotheses (H1-H4)",
+    "what_was_inaccessible": [
+      "Telegram bot/channel verification (platform access unavailable)",
+      "B2B platform pricing (account-gated)",
+      "cardsouq/Eneba offer detail pages (rate-limit window)",
+      "4 SKU anchors despite construction switching (Google Play, Free Fire)"
+    ],
+    "what_was_excluded_and_why": "Nothing Excluded-Confirmed; 2 subject groups quarantined to review state (SheerID-adjacent leads, shared-account subscriptions) — signals without sufficient evidence remain review states, never accusations",
+    "which_conclusions_survived_counter_evidence": [
+      "Official anchors (all counter-checked against at least 2 sources or direct retrieval)",
+      "US Steam code premium finding (3 independent origins: gg.deals, Kinguin listing, G2A listing)",
+      "PUBG official-channel discount legitimacy (Midasbuy = publisher-official, Reddit-corroborated)"
+    ],
+    "why_research_stopped": "Batch 1 operational completeness: all 15 SKU branches reached terminal states (Saturated/Retrieval-Limited), coverage obligations seeded and executed, counter-evidence pass done, remaining budget intentionally reserved for program continuation. Stop is Batch-scoped, not program-scoped.",
+    "important_routes_not_searched": ["Telegram channel discovery", "Historical/archive lookups", "Referral-chain tracing", "Advertisement-network discovery", "Infrastructure fingerprinting", "B2B account-based pricing"],
+    "what_could_materially_change_conclusions": [
+      "cardsouq offer verification could move $4.99 from review to verified-lowest (or to excluded)",
+      "Direct retrieval of Eneba US Steam pricing could close the US-code premium gap",
+      "B2B account access would open the true upstream price layer (could restructure MENA retailer relationship graph)",
+      "Telegram access could promote/quarantine 28 bot leads",
+      "Free Fire/Google Play anchor capture would complete Batch-1 SKU set"
+    ],
+    "tool_limitations_affecting_completeness": [
+      "Search-only evidence base (snippet-level) for most offers — §4.1 constraint honestly applied: offers marked Advertised/Secondary where page-level retrieval failed",
+      "Rate-limiting consumed 11 actions (14% of budget)",
+      "Recurring junk-result pattern (scribd 'Zoberetimifid' artifact) polluted ~6 queries",
+      "No transaction capability by design (§5.1 Not Performed)"
+    ]
+  }
+}

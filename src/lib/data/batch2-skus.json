@@ -1,0 +1,3295 @@
+{
+ "run_id": "MEC2-20260927-B2",
+ "evidence_level": "Advertised (snippet) — direct page reads deferred (remote-function quota exhausted mid-run, §19)",
+ "coverage_note": "115/121 queries OK; 15 deferred (18 SKUs Rate-Limited); auto-extraction noise manually rejected",
+ "batch2_skus": [
+  {
+   "sku_id": "SKU-AI002",
+   "family": "",
+   "identity": {
+    "brand": "OpenAI",
+    "product": "ChatGPT Plus subscription",
+    "plan": "Plus",
+    "denomination": "12 months",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-OfficialOnly",
+   "official_anchor": {
+    "price": 240.0,
+    "currency": "USD",
+    "evidence": "annual plan NOT offered officially (help.openai: no annual billing) — 12-month prepaid = gray construct at 12×$20",
+    "evidence_level": "Advertised (official-page snippet)"
+   },
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-AI003",
+   "family": "",
+   "identity": {
+    "brand": "OpenAI",
+    "product": "ChatGPT Go subscription",
+    "plan": "Go",
+    "denomination": "1 month",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-OfficialOnly",
+   "official_anchor": {
+    "price": 8.0,
+    "currency": "USD",
+    "evidence": "ChatGPT Go $8/mo (openai.com announcement snippet)",
+    "evidence_level": "Advertised (official-page snippet)"
+   },
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-AI004",
+   "family": "",
+   "identity": {
+    "brand": "OpenAI",
+    "product": "ChatGPT Pro subscription",
+    "plan": "Pro",
+    "denomination": "1 month",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-OfficialOnly",
+   "official_anchor": {
+    "price": 200.0,
+    "currency": "USD",
+    "evidence": "$200/mo per openai.com announcement; pricing-page snippet also shows 'From $100/month' tier wording — direct verification pending",
+    "evidence_level": "Advertised (official-page snippet)"
+   },
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-AI007",
+   "family": "",
+   "identity": {
+    "brand": "Anthropic",
+    "product": "Claude Max subscription",
+    "plan": "Max",
+    "denomination": "1 month",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-OfficialOnly",
+   "official_anchor": {
+    "price": 100.0,
+    "currency": "USD",
+    "evidence": "Max tiers $100/$200 per month (third-party reviews consistent; official page not retrieved)",
+    "evidence_level": "Advertised (official-page snippet)"
+   },
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-AI010",
+   "family": "",
+   "identity": {
+    "brand": "xAI",
+    "product": "Grok subscription",
+    "plan": "SuperGrok",
+    "denomination": "1 month",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-AI011",
+   "family": "",
+   "identity": {
+    "brand": "DeepSeek",
+    "product": "DeepSeek API credits",
+    "plan": "API pack",
+    "denomination": "pay-as-you-go",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-AI013",
+   "family": "",
+   "identity": {
+    "brand": "Midjourney",
+    "product": "Midjourney subscription",
+    "plan": "Basic",
+    "denomination": "1 month",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-OfficialOnly",
+   "official_anchor": {
+    "price": 10.0,
+    "currency": "USD",
+    "evidence": "Basic $10/mo ($96/yr = $8/mo annual) — docs.midjourney.com plan table",
+    "evidence_level": "Advertised (official-page snippet)"
+   },
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-AI014",
+   "family": "",
+   "identity": {
+    "brand": "Midjourney",
+    "product": "Midjourney subscription",
+    "plan": "Standard",
+    "denomination": "1 month",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-OfficialOnly",
+   "official_anchor": {
+    "price": 30.0,
+    "currency": "USD",
+    "evidence": "Standard $30/mo — docs.midjourney.com plan table",
+    "evidence_level": "Advertised (official-page snippet)"
+   },
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-AI029",
+   "family": "",
+   "identity": {
+    "brand": "Microsoft",
+    "product": "Microsoft Copilot Pro",
+    "plan": "Copilot Pro",
+    "denomination": "1 month",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-OfficialOnly",
+   "official_anchor": {
+    "price": 20.0,
+    "currency": "USD",
+    "evidence": "Copilot Pro $20/mo (third-party review consistent with known official price; official page not retrieved)",
+    "evidence_level": "Advertised (official-page snippet)"
+   },
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-AI033",
+   "family": "",
+   "identity": {
+    "brand": "OpenAI",
+    "product": "ChatGPT Plus annual",
+    "plan": "Plus",
+    "denomination": "12 months",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-AI046",
+   "family": "",
+   "identity": {
+    "brand": "GitHub",
+    "product": "GitHub Copilot Pro",
+    "plan": "Copilot Pro",
+    "denomination": "1 month",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-OfficialOnly",
+   "official_anchor": {
+    "price": 10.0,
+    "currency": "USD",
+    "evidence": "Copilot Pro $10/calendar-month — docs.github.com licenses page",
+    "evidence_level": "Advertised (official-page snippet)"
+   },
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-GC001",
+   "family": "",
+   "identity": {
+    "brand": "Valve",
+    "product": "Steam Wallet Gift Card",
+    "plan": "Wallet code",
+    "denomination": "5 EUR",
+    "region": "EU"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only: eneba Steam 20 EUR page retrieved without numeric price in snippet"
+  },
+  {
+   "sku_id": "SKU-GC002",
+   "family": "",
+   "identity": {
+    "brand": "Valve",
+    "product": "Steam Wallet Gift Card",
+    "plan": "Wallet code",
+    "denomination": "10 EUR",
+    "region": "EU"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only (same listing family)"
+  },
+  {
+   "sku_id": "SKU-GC003",
+   "family": "",
+   "identity": {
+    "brand": "Valve",
+    "product": "Steam Wallet Gift Card",
+    "plan": "Wallet code",
+    "denomination": "20 EUR",
+    "region": "EU"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only (same listing family)"
+  },
+  {
+   "sku_id": "SKU-GC004",
+   "family": "",
+   "identity": {
+    "brand": "Valve",
+    "product": "Steam Wallet Gift Card",
+    "plan": "Wallet code",
+    "denomination": "50 EUR",
+    "region": "EU"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Noise-rejected: allkeyshop/smartcdkeys results were KINGUIN gift cards (not Steam) — documented as channel-behavior data point (Kinguin €50 GC ≈ $49.45-56.52)"
+  },
+  {
+   "sku_id": "SKU-GC007",
+   "family": "",
+   "identity": {
+    "brand": "Valve",
+    "product": "Steam Wallet Gift Card",
+    "plan": "Wallet code",
+    "denomination": "20 USD",
+    "region": "Saudi Arabia"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only: turgame SAR page returned no numeric price"
+  },
+  {
+   "sku_id": "SKU-GC008",
+   "family": "",
+   "identity": {
+    "brand": "Sony",
+    "product": "PlayStation Network Card",
+    "plan": "Wallet code",
+    "denomination": "25 USD",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-Offer",
+   "official_anchor": null,
+   "best_advertised": {
+    "entity": "Eneba",
+    "price": 23.67,
+    "currency": "USD",
+    "usd": 23.67,
+    "note": "PSN 25 USD (USA) 'From $25.00 -5% = $23.67'",
+    "evidence_level": "Advertised (snippet)"
+   },
+   "all_offers_count": 1,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-GC009",
+   "family": "",
+   "identity": {
+    "brand": "Sony",
+    "product": "PlayStation Network Card",
+    "plan": "Wallet code",
+    "denomination": "25 EUR",
+    "region": "EU"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only: gg.deals result was 50-EUR card; no 25-EUR price retrieved this run"
+  },
+  {
+   "sku_id": "SKU-GC010",
+   "family": "",
+   "identity": {
+    "brand": "Sony",
+    "product": "PlayStation Network Card",
+    "plan": "Wallet code",
+    "denomination": "50 EUR",
+    "region": "EU"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-Offer",
+   "official_anchor": null,
+   "best_advertised": {
+    "entity": "cdkeyprices-tracked",
+    "price": 50.83,
+    "currency": "USD",
+    "usd": 50.83,
+    "note": "'€50 PSN GC from $50.83'",
+    "evidence_level": "Advertised (snippet)"
+   },
+   "all_offers_count": 2,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-GC011",
+   "family": "",
+   "identity": {
+    "brand": "Sony",
+    "product": "PlayStation Network Card",
+    "plan": "Wallet code",
+    "denomination": "50 USD",
+    "region": "Saudi Arabia"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only: no valid SAR-denominated PSN price retrieved this run"
+  },
+  {
+   "sku_id": "SKU-GC022",
+   "family": "",
+   "identity": {
+    "brand": "Apple",
+    "product": "Apple Gift Card / iTunes",
+    "plan": "Card code",
+    "denomination": "100 AED",
+    "region": "UAE"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only: Apple 100 AED UAE — no numeric price in snippets"
+  },
+  {
+   "sku_id": "SKU-GC031",
+   "family": "",
+   "identity": {
+    "brand": "PlayStation",
+    "product": "PSN Plus gift",
+    "plan": "Prepaid membership",
+    "denomination": "3 months",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-OfficialOnly",
+   "official_anchor": {
+    "price": 24.99,
+    "currency": "USD",
+    "evidence": "PS+ Essential 3 months $24.99 (G2A-cited official plan pricing)",
+    "evidence_level": "Advertised (official-page snippet)"
+   },
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-GC032",
+   "family": "",
+   "identity": {
+    "brand": "Microsoft",
+    "product": "Xbox Game Pass gift card",
+    "plan": "Prepaid membership",
+    "denomination": "3 months",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only: Xbox Game Pass gift results were wallet cards, not membership"
+  },
+  {
+   "sku_id": "SKU-GC035",
+   "family": "",
+   "identity": {
+    "brand": "Valve",
+    "product": "Steam Wallet Gift Card",
+    "plan": "Wallet code",
+    "denomination": "5 USD",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Noise-rejected: 'Eneba gift card' results (not Steam)"
+  },
+  {
+   "sku_id": "SKU-GC036",
+   "family": "",
+   "identity": {
+    "brand": "Valve",
+    "product": "Steam Wallet Gift Card",
+    "plan": "Wallet code",
+    "denomination": "10 USD",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Noise-rejected: same"
+  },
+  {
+   "sku_id": "SKU-GC038",
+   "family": "",
+   "identity": {
+    "brand": "Valve",
+    "product": "Steam Wallet Gift Card",
+    "plan": "Wallet code",
+    "denomination": "30 USD",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only"
+  },
+  {
+   "sku_id": "SKU-GC040",
+   "family": "",
+   "identity": {
+    "brand": "Valve",
+    "product": "Steam Wallet Gift Card",
+    "plan": "Wallet code",
+    "denomination": "100 USD",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 1,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-GC041",
+   "family": "",
+   "identity": {
+    "brand": "Valve",
+    "product": "Steam Wallet Gift Card",
+    "plan": "Wallet code",
+    "denomination": "10 USD",
+    "region": "EU"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only"
+  },
+  {
+   "sku_id": "SKU-GC043",
+   "family": "",
+   "identity": {
+    "brand": "Valve",
+    "product": "Steam Wallet Gift Card",
+    "plan": "Wallet code",
+    "denomination": "20 USD",
+    "region": "EU"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 1,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-GC045",
+   "family": "",
+   "identity": {
+    "brand": "Valve",
+    "product": "Steam Wallet Gift Card",
+    "plan": "Wallet code",
+    "denomination": "50 USD",
+    "region": "EU"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only (same listing family as GC043)"
+  },
+  {
+   "sku_id": "SKU-GC048",
+   "family": "",
+   "identity": {
+    "brand": "Sony",
+    "product": "PlayStation Network Card",
+    "plan": "Wallet code",
+    "denomination": "20 USD",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-Offer",
+   "official_anchor": null,
+   "best_advertised": {
+    "entity": "Eneba",
+    "price": 19.04,
+    "currency": "USD",
+    "usd": 19.04,
+    "note": "PSN 20 USD (USA) 'From $20.00 -5% = $19.04' (same listing family as 25 USD card)",
+    "evidence_level": "Advertised (snippet)"
+   },
+   "all_offers_count": 1,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-GC050",
+   "family": "",
+   "identity": {
+    "brand": "Sony",
+    "product": "PlayStation Network Card",
+    "plan": "Wallet code",
+    "denomination": "100 USD",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only: kinguin PSN 100 USD page returned no numeric price"
+  },
+  {
+   "sku_id": "SKU-GC052",
+   "family": "",
+   "identity": {
+    "brand": "Sony",
+    "product": "PlayStation Network Card",
+    "plan": "Wallet code",
+    "denomination": "50 USD",
+    "region": "Argentina"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-Offer",
+   "official_anchor": null,
+   "best_advertised": {
+    "entity": "Eneba",
+    "price": 34.81,
+    "currency": "USD",
+    "usd": 34.81,
+    "note": "PSN 50 USD (AR) — BELOW face; listing marked 'sold out' at retrieval (premium-market outlier)",
+    "evidence_level": "Advertised (snippet)"
+   },
+   "all_offers_count": 2,
+   "state_note": "AR-market structural finding: cards trade ABOVE face (regional price arbitrage)"
+  },
+  {
+   "sku_id": "SKU-GC053",
+   "family": "",
+   "identity": {
+    "brand": "Sony",
+    "product": "PlayStation Network Card",
+    "plan": "Wallet code",
+    "denomination": "50 USD",
+    "region": "Bahrain"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only: no valid Bahrain price retrieved this run"
+  },
+  {
+   "sku_id": "SKU-GC057",
+   "family": "",
+   "identity": {
+    "brand": "Microsoft",
+    "product": "Xbox Gift Card",
+    "plan": "Wallet code",
+    "denomination": "10 USD",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-Offer",
+   "official_anchor": null,
+   "best_advertised": {
+    "entity": "allkeyshop-tracked",
+    "price": 9.34,
+    "currency": "USD",
+    "usd": 9.34,
+    "note": "Xbox GC 10 USD $9.34 (+$1.18 fee line) — below-face listing",
+    "evidence_level": "Advertised (snippet)"
+   },
+   "all_offers_count": 1,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-GC058",
+   "family": "",
+   "identity": {
+    "brand": "Microsoft",
+    "product": "Xbox Gift Card",
+    "plan": "Wallet code",
+    "denomination": "15 USD",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only: 15-USD Xbox card price not isolated this run"
+  },
+  {
+   "sku_id": "SKU-GC059",
+   "family": "",
+   "identity": {
+    "brand": "Microsoft",
+    "product": "Xbox Gift Card",
+    "plan": "Wallet code",
+    "denomination": "25 USD",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only"
+  },
+  {
+   "sku_id": "SKU-GC060",
+   "family": "",
+   "identity": {
+    "brand": "Microsoft",
+    "product": "Xbox Gift Card",
+    "plan": "Wallet code",
+    "denomination": "50 USD",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only"
+  },
+  {
+   "sku_id": "SKU-GC061",
+   "family": "",
+   "identity": {
+    "brand": "Microsoft",
+    "product": "Xbox Gift Card",
+    "plan": "Wallet code",
+    "denomination": "100 USD",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only"
+  },
+  {
+   "sku_id": "SKU-GC066",
+   "family": "",
+   "identity": {
+    "brand": "Apple",
+    "product": "Apple Gift Card / iTunes",
+    "plan": "Card code",
+    "denomination": "10 USD",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only"
+  },
+  {
+   "sku_id": "SKU-GC067",
+   "family": "",
+   "identity": {
+    "brand": "Apple",
+    "product": "Apple Gift Card / iTunes",
+    "plan": "Card code",
+    "denomination": "25 USD",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only"
+  },
+  {
+   "sku_id": "SKU-GC068",
+   "family": "",
+   "identity": {
+    "brand": "Apple",
+    "product": "Apple Gift Card / iTunes",
+    "plan": "Card code",
+    "denomination": "50 USD",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only"
+  },
+  {
+   "sku_id": "SKU-GC069",
+   "family": "",
+   "identity": {
+    "brand": "Apple",
+    "product": "Apple Gift Card / iTunes",
+    "plan": "Card code",
+    "denomination": "100 USD",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only"
+  },
+  {
+   "sku_id": "SKU-GC070",
+   "family": "",
+   "identity": {
+    "brand": "Google",
+    "product": "Google Play Gift Card",
+    "plan": "Card code",
+    "denomination": "10 USD",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Noise-rejected: bitrefill results were Eneba GCs (crypto premium $107 per $100 documented as channel-behavior data)"
+  },
+  {
+   "sku_id": "SKU-GC072",
+   "family": "",
+   "identity": {
+    "brand": "Google",
+    "product": "Google Play Gift Card",
+    "plan": "Card code",
+    "denomination": "25 USD",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only"
+  },
+  {
+   "sku_id": "SKU-GC074",
+   "family": "",
+   "identity": {
+    "brand": "Google",
+    "product": "Google Play Gift Card",
+    "plan": "Card code",
+    "denomination": "50 USD",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-Offer",
+   "official_anchor": null,
+   "best_advertised": {
+    "entity": "dlcompare",
+    "price": 50.0,
+    "currency": "USD",
+    "usd": 50.0,
+    "note": "Google Play 50 USD at face $50.00",
+    "evidence_level": "Advertised (snippet)"
+   },
+   "all_offers_count": 1,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-GC076",
+   "family": "",
+   "identity": {
+    "brand": "Google",
+    "product": "Google Play Gift Card",
+    "plan": "Card code",
+    "denomination": "100 USD",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-Offer",
+   "official_anchor": null,
+   "best_advertised": {
+    "entity": "Kinguin",
+    "price": 96.0,
+    "currency": "USD",
+    "usd": 96.0,
+    "note": "Google Play 100 USD US '-4%' (≈$96 implied from discount %)",
+    "evidence_level": "Advertised (snippet)"
+   },
+   "all_offers_count": 2,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-GC078",
+   "family": "",
+   "identity": {
+    "brand": "Amazon",
+    "product": "Amazon Gift Card",
+    "plan": "Card code",
+    "denomination": "10 USD",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only: Amazon GCs trade at face officially; no discount channel documented"
+  },
+  {
+   "sku_id": "SKU-GC080",
+   "family": "",
+   "identity": {
+    "brand": "Amazon",
+    "product": "Amazon Gift Card",
+    "plan": "Card code",
+    "denomination": "25 USD",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only (same)"
+  },
+  {
+   "sku_id": "SKU-GC082",
+   "family": "",
+   "identity": {
+    "brand": "Amazon",
+    "product": "Amazon Gift Card",
+    "plan": "Card code",
+    "denomination": "50 USD",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only (same)"
+  },
+  {
+   "sku_id": "SKU-GC084",
+   "family": "",
+   "identity": {
+    "brand": "Amazon",
+    "product": "Amazon Gift Card",
+    "plan": "Card code",
+    "denomination": "100 USD",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only (same)"
+  },
+  {
+   "sku_id": "SKU-GC090",
+   "family": "",
+   "identity": {
+    "brand": "Razer",
+    "product": "Razer Gold Gift Card",
+    "plan": "Wallet code",
+    "denomination": "5 USD",
+    "region": "Global/US"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only"
+  },
+  {
+   "sku_id": "SKU-GC091",
+   "family": "",
+   "identity": {
+    "brand": "Razer",
+    "product": "Razer Gold Gift Card",
+    "plan": "Wallet code",
+    "denomination": "10 USD",
+    "region": "Global/US"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only"
+  },
+  {
+   "sku_id": "SKU-GC092",
+   "family": "",
+   "identity": {
+    "brand": "Razer",
+    "product": "Razer Gold Gift Card",
+    "plan": "Wallet code",
+    "denomination": "20 USD",
+    "region": "Global/US"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only"
+  },
+  {
+   "sku_id": "SKU-GC093",
+   "family": "",
+   "identity": {
+    "brand": "Razer",
+    "product": "Razer Gold Gift Card",
+    "plan": "Wallet code",
+    "denomination": "50 USD",
+    "region": "Global/US"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-Offer",
+   "official_anchor": null,
+   "best_advertised": {
+    "entity": "sodagift",
+    "price": 47.0,
+    "currency": "USD",
+    "usd": 47.0,
+    "note": "Razer Gold $50 at $47.00 (estimated lowest)",
+    "evidence_level": "Advertised (snippet)"
+   },
+   "all_offers_count": 2,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-GC094",
+   "family": "",
+   "identity": {
+    "brand": "Razer",
+    "product": "Razer Gold Gift Card",
+    "plan": "Wallet code",
+    "denomination": "100 USD",
+    "region": "Global/US"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-Offer",
+   "official_anchor": null,
+   "best_advertised": {
+    "entity": "livecards",
+    "price": 98.95,
+    "currency": "USD",
+    "usd": 98.95,
+    "note": "Razer Gold 100 USD (Global) $98.95",
+    "evidence_level": "Advertised (snippet)"
+   },
+   "all_offers_count": 1,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-GC095",
+   "family": "",
+   "identity": {
+    "brand": "Netflix",
+    "product": "Netflix Gift Card",
+    "plan": "Prepaid credit",
+    "denomination": "50 USD",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "No valid offer: Netflix GC results were spam/fraud pages (rejected); GCs trade at face via official retail"
+  },
+  {
+   "sku_id": "SKU-GC096",
+   "family": "",
+   "identity": {
+    "brand": "Netflix",
+    "product": "Netflix Gift Card",
+    "plan": "Prepaid credit",
+    "denomination": "100 USD",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Not searched (no query matched this run — inherited Lead-only)"
+  },
+  {
+   "sku_id": "SKU-GC097",
+   "family": "",
+   "identity": {
+    "brand": "Spotify",
+    "product": "Spotify Gift Card",
+    "plan": "Prepaid credit",
+    "denomination": "10 USD",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-Offer",
+   "official_anchor": null,
+   "best_advertised": {
+    "entity": "vividgold.africa",
+    "price": 11.0,
+    "currency": "USD",
+    "usd": 11.0,
+    "note": "Spotify $10 US card at $11 — ABOVE face (regional markup outside US)",
+    "evidence_level": "Advertised (snippet)"
+   },
+   "all_offers_count": 1,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-GC098",
+   "family": "",
+   "identity": {
+    "brand": "Spotify",
+    "product": "Spotify Gift Card",
+    "plan": "Prepaid credit",
+    "denomination": "30 USD",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-Offer",
+   "official_anchor": null,
+   "best_advertised": {
+    "entity": "vividgold.africa",
+    "price": 32.0,
+    "currency": "USD",
+    "usd": 32.0,
+    "note": "Spotify $30 US card at $32 — above face",
+    "evidence_level": "Advertised (snippet)"
+   },
+   "all_offers_count": 1,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-GC099",
+   "family": "",
+   "identity": {
+    "brand": "Roblox",
+    "product": "Roblox Gift Card",
+    "plan": "Robux credit",
+    "denomination": "10 USD",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only: Roblox GC eneba page returned no numeric price in snippet"
+  },
+  {
+   "sku_id": "SKU-GC100",
+   "family": "",
+   "identity": {
+    "brand": "Roblox",
+    "product": "Roblox Gift Card",
+    "plan": "Robux credit",
+    "denomination": "25 USD",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only (same listing family as GC099)"
+  },
+  {
+   "sku_id": "SKU-GC101",
+   "family": "",
+   "identity": {
+    "brand": "Roblox",
+    "product": "Roblox Gift Card",
+    "plan": "Robux credit",
+    "denomination": "50 USD",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only (same listing family as GC099)"
+  },
+  {
+   "sku_id": "SKU-GT002",
+   "family": "",
+   "identity": {
+    "brand": "Garena",
+    "product": "Free Fire Diamonds",
+    "plan": "Diamond pack",
+    "denomination": "560 diamonds",
+    "region": "Global/ID"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "No valid offer: Free Fire results were noise (dairy-news/tiktok pages)"
+  },
+  {
+   "sku_id": "SKU-GT003",
+   "family": "",
+   "identity": {
+    "brand": "Garena",
+    "product": "Free Fire Diamonds",
+    "plan": "Diamond pack",
+    "denomination": "1160 diamonds",
+    "region": "Global/ID"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "No valid offer (same query family)"
+  },
+  {
+   "sku_id": "SKU-GT005",
+   "family": "",
+   "identity": {
+    "brand": "Tencent",
+    "product": "PUBG Mobile UC",
+    "plan": "UC pack",
+    "denomination": "325 UC",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-OfficialOnly",
+   "official_anchor": {
+    "price": 4.99,
+    "currency": "USD",
+    "evidence": "325 UC official $4.99",
+    "evidence_level": "Advertised (official-page snippet)"
+   },
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-GT006",
+   "family": "",
+   "identity": {
+    "brand": "Tencent",
+    "product": "PUBG Mobile UC",
+    "plan": "UC pack",
+    "denomination": "660 UC",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-Offer",
+   "official_anchor": {
+    "price": 9.99,
+    "currency": "USD",
+    "evidence": "660 UC official $9.99",
+    "evidence_level": "Advertised (official-page snippet)"
+   },
+   "best_advertised": {
+    "entity": "G2A (GalaxyLink key)",
+    "price": 26.61,
+    "currency": "USD",
+    "usd": 26.61,
+    "note": "660 UC G2A listing — ABOVE official (gray top-up premium, not discount)",
+    "evidence_level": "Advertised (snippet)"
+   },
+   "all_offers_count": 1,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-GT007",
+   "family": "",
+   "identity": {
+    "brand": "Tencent",
+    "product": "PUBG Mobile UC",
+    "plan": "UC pack",
+    "denomination": "1800 UC",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-Offer",
+   "official_anchor": {
+    "price": 24.99,
+    "currency": "USD",
+    "evidence": "1800 UC official $24.99",
+    "evidence_level": "Advertised (official-page snippet)"
+   },
+   "best_advertised": {
+    "entity": "G2A (GalaxyLink key)",
+    "price": 28.68,
+    "currency": "USD",
+    "usd": 28.68,
+    "note": "1800 UC G2A -7% off $28.68 — still above official",
+    "evidence_level": "Advertised (snippet)"
+   },
+   "all_offers_count": 1,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-GT009",
+   "family": "",
+   "identity": {
+    "brand": "Moonton",
+    "product": "Mobile Legends Diamonds",
+    "plan": "Diamond pack",
+    "denomination": "172 diamonds",
+    "region": "Global/SEA"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only: MLBB results carried no isolated 172-diamond price"
+  },
+  {
+   "sku_id": "SKU-GT010",
+   "family": "",
+   "identity": {
+    "brand": "Moonton",
+    "product": "Mobile Legends Diamonds",
+    "plan": "Diamond pack",
+    "denomination": "257 diamonds",
+    "region": "Global/SEA"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only (same)"
+  },
+  {
+   "sku_id": "SKU-GT012",
+   "family": "",
+   "identity": {
+    "brand": "Riot Games",
+    "product": "Valorant Points",
+    "plan": "VP pack",
+    "denomination": "2050 VP",
+    "region": "Global/EMEA"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-Offer",
+   "official_anchor": null,
+   "best_advertised": {
+    "entity": "loaded.com",
+    "price": 19.49,
+    "currency": "USD",
+    "usd": 19.49,
+    "note": "Valorant 2050 VP (20 USD pack) $19.49, 3% off face",
+    "evidence_level": "Advertised (snippet)"
+   },
+   "all_offers_count": 1,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-GT015",
+   "family": "",
+   "identity": {
+    "brand": "Epic Games",
+    "product": "Fortnite V-Bucks",
+    "plan": "V-Bucks pack",
+    "denomination": "2800 V-Bucks",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-Offer",
+   "official_anchor": null,
+   "best_advertised": {
+    "entity": "sythe.org (forum resellers)",
+    "price": 6.99,
+    "currency": "USD",
+    "usd": 6.99,
+    "note": "2800 V-Bucks $6.99 (gray forum) — far below official; account/top-up method, high risk",
+    "evidence_level": "Advertised (snippet)"
+   },
+   "all_offers_count": 1,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-GT017",
+   "family": "",
+   "identity": {
+    "brand": "Roblox",
+    "product": "Robux",
+    "plan": "Robux pack",
+    "denomination": "800 Robux",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only: Roblox 800 Robux — no isolated price in snippets"
+  },
+  {
+   "sku_id": "SKU-GT018",
+   "family": "",
+   "identity": {
+    "brand": "Roblox",
+    "product": "Robux",
+    "plan": "Robux pack",
+    "denomination": "1700 Robux",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only (same)"
+  },
+  {
+   "sku_id": "SKU-GT019",
+   "family": "",
+   "identity": {
+    "brand": "HoYoverse",
+    "product": "Genshin Impact Genesis Crystals",
+    "plan": "Crystal pack",
+    "denomination": "300 crystals",
+    "region": "Global/US"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 1,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-GT020",
+   "family": "",
+   "identity": {
+    "brand": "HoYoverse",
+    "product": "Genshin Impact Genesis Crystals",
+    "plan": "Crystal pack",
+    "denomination": "1980 crystals",
+    "region": "Global/US"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 1,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-GT035",
+   "family": "",
+   "identity": {
+    "brand": "Epic Games",
+    "product": "Fortnite V-Bucks",
+    "plan": "V-Bucks pack",
+    "denomination": "500 V-Bucks",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 1,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-GT039",
+   "family": "",
+   "identity": {
+    "brand": "HoYoverse",
+    "product": "Genshin Impact Welkin Moon",
+    "plan": "Monthly pass",
+    "denomination": "30 days",
+    "region": "Global/US"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-OfficialOnly",
+   "official_anchor": {
+    "price": 4.99,
+    "currency": "USD",
+    "evidence": "Blessing of the Welkin Moon $4.99 (xbox.com product page snippet)",
+    "evidence_level": "Advertised (official-page snippet)"
+   },
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-GK001",
+   "family": "",
+   "identity": {
+    "brand": "Various publishers",
+    "product": "EA Sports FC 26 CD key",
+    "plan": "Retail key",
+    "denomination": "lifetime",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only: FC 26 price not isolated in snippets this run"
+  },
+  {
+   "sku_id": "SKU-GK002",
+   "family": "",
+   "identity": {
+    "brand": "Various publishers",
+    "product": "EA Sports FC 25 CD key",
+    "plan": "Retail key",
+    "denomination": "lifetime",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only (same)"
+  },
+  {
+   "sku_id": "SKU-GK003",
+   "family": "",
+   "identity": {
+    "brand": "Various publishers",
+    "product": "Grand Theft Auto V CD key",
+    "plan": "Retail key",
+    "denomination": "lifetime",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-Offer",
+   "official_anchor": {
+    "price": 29.99,
+    "currency": "USD",
+    "evidence": "official price dropped $59.99 → $29.99 (gameboost statement 09/2026)",
+    "evidence_level": "Advertised (official-page snippet)"
+   },
+   "best_advertised": {
+    "entity": "GameBoost (allkeyshop-tracked)",
+    "price": 9.71,
+    "currency": "USD",
+    "usd": 9.71,
+    "note": "GTA 5 PC cheapest $9.71",
+    "evidence_level": "Advertised (snippet)"
+   },
+   "all_offers_count": 2,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-GK004",
+   "family": "",
+   "identity": {
+    "brand": "Various publishers",
+    "product": "Elden Ring CD key",
+    "plan": "Retail key",
+    "denomination": "lifetime",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-Offer",
+   "official_anchor": {
+    "price": 59.99,
+    "currency": "USD",
+    "evidence": "Elden Ring Steam price ~$59.99 (implied by '34% below Steam' at $46.58 hmm — 46.58/0.66 ≈ 70.6; cited-basis ambiguous)",
+    "evidence_level": "Advertised (official-page snippet)"
+   },
+   "best_advertised": {
+    "entity": "Eneba (allkeyshop-tracked)",
+    "price": 46.44,
+    "currency": "USD",
+    "usd": 46.44,
+    "note": "Elden Ring PC £34.28 at Eneba (31.4% off)",
+    "evidence_level": "Advertised (snippet)"
+   },
+   "all_offers_count": 2,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-GK005",
+   "family": "",
+   "identity": {
+    "brand": "Various publishers",
+    "product": "Cyberpunk 2077 CD key",
+    "plan": "Retail key",
+    "denomination": "lifetime",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only: Cyberpunk price not isolated this run"
+  },
+  {
+   "sku_id": "SKU-GK006",
+   "family": "",
+   "identity": {
+    "brand": "Various publishers",
+    "product": "Hogwarts Legacy CD key",
+    "plan": "Retail key",
+    "denomination": "lifetime",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Noise-rejected: results were other games (Call of the Sea, UNI2 DLC)"
+  },
+  {
+   "sku_id": "SKU-GK007",
+   "family": "",
+   "identity": {
+    "brand": "Various publishers",
+    "product": "Baldur's Gate 3 CD key",
+    "plan": "Retail key",
+    "denomination": "lifetime",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-OfficialOnly",
+   "official_anchor": {
+    "price": 59.99,
+    "currency": "USD",
+    "evidence": "BG3 full Steam price $59.99 (gg.deals news)",
+    "evidence_level": "Advertised (official-page snippet)"
+   },
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-GK008",
+   "family": "",
+   "identity": {
+    "brand": "Various publishers",
+    "product": "Call of Duty: Black Ops 6 CD key",
+    "plan": "Retail key",
+    "denomination": "lifetime",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "No valid offer: results were 1984 magazine archive (noise)"
+  },
+  {
+   "sku_id": "SKU-GK009",
+   "family": "",
+   "identity": {
+    "brand": "Various publishers",
+    "product": "Red Dead Redemption 2 CD key",
+    "plan": "Retail key",
+    "denomination": "lifetime",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only"
+  },
+  {
+   "sku_id": "SKU-GK010",
+   "family": "",
+   "identity": {
+    "brand": "Various publishers",
+    "product": "Starfield CD key",
+    "plan": "Retail key",
+    "denomination": "lifetime",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only"
+  },
+  {
+   "sku_id": "SKU-GK014",
+   "family": "",
+   "identity": {
+    "brand": "Various publishers",
+    "product": "Counter-Strike 2 (Prime) CD key",
+    "plan": "Retail key",
+    "denomination": "lifetime",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-Offer",
+   "official_anchor": null,
+   "best_advertised": {
+    "entity": "huskyboost",
+    "price": 15.0,
+    "currency": "USD",
+    "usd": 15.0,
+    "note": "CS2 Prime via Argentina $15-USD Steam-balance method (regional arbitrage)",
+    "evidence_level": "Advertised (snippet)"
+   },
+   "all_offers_count": 2,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-GK017",
+   "family": "",
+   "identity": {
+    "brand": "Various publishers",
+    "product": "Monster Hunter Wilds CD key",
+    "plan": "Retail key",
+    "denomination": "lifetime",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 1,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-GK018",
+   "family": "",
+   "identity": {
+    "brand": "Various publishers",
+    "product": "Assassin's Creed Shadows CD key",
+    "plan": "Retail key",
+    "denomination": "lifetime",
+    "region": "EU/US"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-Offer",
+   "official_anchor": null,
+   "best_advertised": {
+    "entity": "Kinguin (KeysForAll)",
+    "price": 21.48,
+    "currency": "USD",
+    "usd": 21.48,
+    "note": "AC Shadows CD key lowest $21.48 ('was $23.87, save $2.39')",
+    "evidence_level": "Advertised (snippet)"
+   },
+   "all_offers_count": 1,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-GK019",
+   "family": "",
+   "identity": {
+    "brand": "Various publishers",
+    "product": "Black Myth: Wukong CD key",
+    "plan": "Retail key",
+    "denomination": "lifetime",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-Offer",
+   "official_anchor": null,
+   "best_advertised": {
+    "entity": "Driffle (allkeyshop sidebar)",
+    "price": 34.28,
+    "currency": "USD",
+    "usd": 34.28,
+    "note": "Black Myth Wukong $34.28 at Driffle (sidebar-sourced)",
+    "evidence_level": "Advertised (snippet)"
+   },
+   "all_offers_count": 1,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-GK023",
+   "family": "",
+   "identity": {
+    "brand": "Microsoft",
+    "product": "Xbox Game Pass Ultimate",
+    "plan": "GPU membership",
+    "denomination": "12 months",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "No valid 12-month offer: results were monthly/1-month listings (loaded 1-mo GPU non-stackable $17.69 documented as adjacent identity — belongs to SKU-GK021 family)"
+  },
+  {
+   "sku_id": "SKU-GK024",
+   "family": "",
+   "identity": {
+    "brand": "Microsoft",
+    "product": "PC Game Pass",
+    "plan": "PCGP membership",
+    "denomination": "1 month",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-OfficialOnly",
+   "official_anchor": {
+    "price": 13.99,
+    "currency": "USD",
+    "evidence": "PC Game Pass $13.99/mo per G2A plan table — hmm official restructure tiers; direct verification pending",
+    "evidence_level": "Advertised (official-page snippet)"
+   },
+   "best_advertised": null,
+   "all_offers_count": 1,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-GK025",
+   "family": "",
+   "identity": {
+    "brand": "Sony",
+    "product": "PlayStation Plus Deluxe/Essential",
+    "plan": "PS+ membership",
+    "denomination": "3 months",
+    "region": "Multi-region"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-OfficialOnly",
+   "official_anchor": {
+    "price": 24.99,
+    "currency": "USD",
+    "evidence": "PS+ Essential 3 months $24.99 ($8.33/mo)",
+    "evidence_level": "Advertised (official-page snippet)"
+   },
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-GK026",
+   "family": "",
+   "identity": {
+    "brand": "Sony",
+    "product": "PlayStation Plus Deluxe/Essential",
+    "plan": "PS+ membership",
+    "denomination": "12 months",
+    "region": "Multi-region"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-OfficialOnly",
+   "official_anchor": {
+    "price": 79.99,
+    "currency": "USD",
+    "evidence": "PS+ 12 months $79.99 (Essential tier)",
+    "evidence_level": "Advertised (official-page snippet)"
+   },
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-SW002",
+   "family": "",
+   "identity": {
+    "brand": "Microsoft",
+    "product": "Windows 11 Home license",
+    "plan": "Retail key",
+    "denomination": "lifetime",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "No valid offer: Win11 Home results were noise (eBay/justanswer/gist)"
+  },
+  {
+   "sku_id": "SKU-SW003",
+   "family": "",
+   "identity": {
+    "brand": "Microsoft",
+    "product": "Windows 10 Pro license",
+    "plan": "Retail key",
+    "denomination": "lifetime",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-Offer",
+   "official_anchor": null,
+   "best_advertised": {
+    "entity": "Wincdkey (allkeyshop-tracked)",
+    "price": 1.02,
+    "currency": "USD",
+    "usd": 1.02,
+    "note": "Windows 10 Pro £0.75 (~$1.02) — gray-key floor documented",
+    "evidence_level": "Advertised (snippet)"
+   },
+   "all_offers_count": 1,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-SW007",
+   "family": "",
+   "identity": {
+    "brand": "Microsoft",
+    "product": "Office 2024 Pro Plus",
+    "plan": "Phone-activation key",
+    "denomination": "lifetime",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-Offer",
+   "official_anchor": null,
+   "best_advertised": {
+    "entity": "Keys4us (allkeyshop-tracked)",
+    "price": 0.6,
+    "currency": "USD",
+    "usd": 0.6,
+    "note": "Office 2024 Pro Plus $0.60 — consistent with Keyforsteam €0.56 prior-run observation (batch-1 corroboration)",
+    "evidence_level": "Advertised (snippet)"
+   },
+   "all_offers_count": 1,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-SW008",
+   "family": "",
+   "identity": {
+    "brand": "Microsoft",
+    "product": "Microsoft 365 Personal",
+    "plan": "Subscription",
+    "denomination": "12 months",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-Offer",
+   "official_anchor": null,
+   "best_advertised": {
+    "entity": "Gocdkeys",
+    "price": 61.24,
+    "currency": "USD",
+    "usd": 61.24,
+    "note": "M365 Personal 12-month $61.24 (no fees)",
+    "evidence_level": "Advertised (snippet)"
+   },
+   "all_offers_count": 1,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-SW009",
+   "family": "",
+   "identity": {
+    "brand": "Microsoft",
+    "product": "Microsoft 365 Family",
+    "plan": "Subscription",
+    "denomination": "12 months",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only: M365 Family price not isolated this run"
+  },
+  {
+   "sku_id": "SKU-SW011",
+   "family": "",
+   "identity": {
+    "brand": "Adobe",
+    "product": "Adobe Creative Cloud All Apps",
+    "plan": "Subscription",
+    "denomination": "12 months",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-OfficialOnly",
+   "official_anchor": {
+    "price": 659.88,
+    "currency": "USD",
+    "evidence": "CC All Apps ~$59.99/mo annual-equivalent; first-year -40% promo documented (macrumors 05/2025)",
+    "evidence_level": "Advertised (official-page snippet)"
+   },
+   "best_advertised": null,
+   "all_offers_count": 1,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-ES002",
+   "family": "",
+   "identity": {
+    "brand": "Various providers",
+    "product": "Travel eSIM data pack",
+    "plan": "3 GB / 30 days",
+    "denomination": "3 GB, 30 days",
+    "region": "USA"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 1,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-ES004",
+   "family": "",
+   "identity": {
+    "brand": "Various providers",
+    "product": "Travel eSIM data pack",
+    "plan": "10 GB / 30 days",
+    "denomination": "10 GB, 30 days",
+    "region": "Saudi Arabia"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 1,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-ES006",
+   "family": "",
+   "identity": {
+    "brand": "Various providers",
+    "product": "Travel eSIM data pack",
+    "plan": "3 GB / 30 days",
+    "denomination": "3 GB, 30 days",
+    "region": "UAE"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-Offer",
+   "official_anchor": null,
+   "best_advertised": {
+    "entity": "eSIMCard",
+    "price": 7.85,
+    "currency": "USD",
+    "usd": 7.85,
+    "note": "Middle East/Global Lite 3GB/30d $7.85 ($2.62/GB)",
+    "evidence_level": "Advertised (snippet)"
+   },
+   "all_offers_count": 1,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-ES007",
+   "family": "",
+   "identity": {
+    "brand": "Various providers",
+    "product": "Travel eSIM data pack",
+    "plan": "5 GB / 30 days",
+    "denomination": "5 GB, 30 days",
+    "region": "Egypt"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "No valid offer: Egypt 5GB results were Greece/Turkey pages (noise)"
+  },
+  {
+   "sku_id": "SKU-ES010",
+   "family": "",
+   "identity": {
+    "brand": "Various providers",
+    "product": "Travel eSIM data pack",
+    "plan": "10 GB / 30 days",
+    "denomination": "10 GB, 30 days",
+    "region": "Europe (multi)"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "No valid offer: Europe 10GB results were noise"
+  },
+  {
+   "sku_id": "SKU-ES012",
+   "family": "",
+   "identity": {
+    "brand": "Various providers",
+    "product": "Global eSIM data pack",
+    "plan": "1 GB / 7 days",
+    "denomination": "1 GB, 7 days",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-Offer",
+   "official_anchor": null,
+   "best_advertised": {
+    "entity": "Airalo",
+    "price": 4.5,
+    "currency": "USD",
+    "usd": 4.5,
+    "note": "global 1GB/7d from $4.50 (blog-documented 'Airalo plans start at $4.50 for 1GB/7 days')",
+    "evidence_level": "Advertised (snippet)"
+   },
+   "all_offers_count": 1,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-ES013",
+   "family": "",
+   "identity": {
+    "brand": "Various providers",
+    "product": "Global eSIM data pack",
+    "plan": "10 GB / 30 days",
+    "denomination": "10 GB, 30 days",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 1,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-SM001",
+   "family": "",
+   "identity": {
+    "brand": "Various panels",
+    "product": "Instagram followers",
+    "plan": "1000 followers",
+    "denomination": "one-time",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-Offer",
+   "official_anchor": null,
+   "best_advertised": {
+    "entity": "SMM panels (aggregated)",
+    "price": 0.01,
+    "currency": "USD",
+    "usd": 0.01,
+    "note": "IG followers from $0.01-0.09 per 1000 (panel floor; quality/retention unguaranteed)",
+    "evidence_level": "Advertised (snippet)"
+   },
+   "all_offers_count": 1,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-SM004",
+   "family": "",
+   "identity": {
+    "brand": "Various panels",
+    "product": "TikTok followers",
+    "plan": "1000 followers",
+    "denomination": "one-time",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-Offer",
+   "official_anchor": null,
+   "best_advertised": {
+    "entity": "smmtrustpanel",
+    "price": 1.5,
+    "currency": "USD",
+    "usd": 1.5,
+    "note": "TikTok followers ~$1.50/1000 (per-1000 rate table)",
+    "evidence_level": "Advertised (snippet)"
+   },
+   "all_offers_count": 1,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-SM006",
+   "family": "",
+   "identity": {
+    "brand": "Various panels",
+    "product": "YouTube subscribers",
+    "plan": "1000 subscribers",
+    "denomination": "one-time",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-Offer",
+   "official_anchor": null,
+   "best_advertised": {
+    "entity": "smmpwr (aggregated)",
+    "price": 0.06,
+    "currency": "USD",
+    "usd": 0.06,
+    "note": "YT subscribers from $0.06-0.10 per 1000 (15 services listed)",
+    "evidence_level": "Advertised (snippet)"
+   },
+   "all_offers_count": 1,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-SM009",
+   "family": "",
+   "identity": {
+    "brand": "Various panels",
+    "product": "Telegram channel members",
+    "plan": "1000 members",
+    "denomination": "one-time",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-Offer",
+   "official_anchor": null,
+   "best_advertised": {
+    "entity": "nicesmmpanel",
+    "price": 0.07,
+    "currency": "USD",
+    "usd": 0.07,
+    "note": "TG members from $0.07-0.11 per 1000 (poll votes $0.11)",
+    "evidence_level": "Advertised (snippet)"
+   },
+   "all_offers_count": 1,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-VN002",
+   "family": "",
+   "identity": {
+    "brand": "Various providers",
+    "product": "Telegram virtual number",
+    "plan": "OTP-receive, 1-time use",
+    "denomination": "one-time rental",
+    "region": "Ukraine"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "No clean 1-time OTP price: quackr rental (price unclear), callhippo $18/user/mo = business lines (identity mismatch)"
+  },
+  {
+   "sku_id": "SKU-VN005",
+   "family": "",
+   "identity": {
+    "brand": "Various providers",
+    "product": "Telegram virtual number",
+    "plan": "OTP-receive, 1-time use",
+    "denomination": "one-time rental",
+    "region": "USA"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only: no isolated USA TG OTP price in snippets (sms-activate floor documented in batch 1: RU ~$0.5-1.2 family)"
+  },
+  {
+   "sku_id": "SKU-VN006",
+   "family": "",
+   "identity": {
+    "brand": "Various providers",
+    "product": "Telegram virtual number",
+    "plan": "OTP-receive, 1-time use",
+    "denomination": "one-time rental",
+    "region": "UK"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only"
+  },
+  {
+   "sku_id": "SKU-VN007",
+   "family": "",
+   "identity": {
+    "brand": "Various providers",
+    "product": "Telegram virtual number",
+    "plan": "OTP-receive, 1-time use",
+    "denomination": "one-time rental",
+    "region": "Germany"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only"
+  },
+  {
+   "sku_id": "SKU-VN008",
+   "family": "",
+   "identity": {
+    "brand": "Various providers",
+    "product": "Telegram virtual number",
+    "plan": "OTP-receive, 1-time use",
+    "denomination": "one-time rental",
+    "region": "Egypt"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-Offer",
+   "official_anchor": null,
+   "best_advertised": {
+    "entity": "PvaPins",
+    "price": 1.61,
+    "currency": "USD",
+    "usd": 1.61,
+    "note": "Egypt Telegram OTP number from $1.61",
+    "evidence_level": "Advertised (snippet)"
+   },
+   "all_offers_count": 1,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-VN009",
+   "family": "",
+   "identity": {
+    "brand": "Various providers",
+    "product": "Telegram virtual number",
+    "plan": "OTP-receive, 1-time use",
+    "denomination": "one-time rental",
+    "region": "Philippines"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only"
+  },
+  {
+   "sku_id": "SKU-VN010",
+   "family": "",
+   "identity": {
+    "brand": "Various providers",
+    "product": "Telegram virtual number",
+    "plan": "OTP-receive, 1-time use",
+    "denomination": "one-time rental",
+    "region": "Vietnam"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only"
+  },
+  {
+   "sku_id": "SKU-VN011",
+   "family": "",
+   "identity": {
+    "brand": "Various providers",
+    "product": "Telegram virtual number",
+    "plan": "OTP-receive, 1-time use",
+    "denomination": "one-time rental",
+    "region": "India"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only"
+  },
+  {
+   "sku_id": "SKU-VN012",
+   "family": "",
+   "identity": {
+    "brand": "Various providers",
+    "product": "Telegram virtual number",
+    "plan": "OTP-receive, 1-time use",
+    "denomination": "one-time rental",
+    "region": "Nigeria"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only"
+  },
+  {
+   "sku_id": "SKU-VN013",
+   "family": "",
+   "identity": {
+    "brand": "Various providers",
+    "product": "WhatsApp virtual number",
+    "plan": "OTP-receive, 1-time use",
+    "denomination": "one-time rental",
+    "region": "Russia"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "No valid offer: results were spam pages (documented as search-quality limit)"
+  },
+  {
+   "sku_id": "SKU-VN014",
+   "family": "",
+   "identity": {
+    "brand": "Various providers",
+    "product": "WhatsApp virtual number",
+    "plan": "OTP-receive, 1-time use",
+    "denomination": "one-time rental",
+    "region": "Indonesia"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 1,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-VN015",
+   "family": "",
+   "identity": {
+    "brand": "Various providers",
+    "product": "WhatsApp virtual number",
+    "plan": "OTP-receive, 1-time use",
+    "denomination": "one-time rental",
+    "region": "USA"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 1,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-VN016",
+   "family": "",
+   "identity": {
+    "brand": "Various providers",
+    "product": "WhatsApp virtual number",
+    "plan": "OTP-receive, 1-time use",
+    "denomination": "one-time rental",
+    "region": "UK"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 1,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-VN017",
+   "family": "",
+   "identity": {
+    "brand": "Various providers",
+    "product": "WhatsApp virtual number",
+    "plan": "OTP-receive, 1-time use",
+    "denomination": "one-time rental",
+    "region": "Egypt"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 1,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-VN020",
+   "family": "",
+   "identity": {
+    "brand": "Various providers",
+    "product": "Universal OTP number (any service)",
+    "plan": "OTP-receive, 1-time use",
+    "denomination": "one-time rental",
+    "region": "USA"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only"
+  },
+  {
+   "sku_id": "SKU-VN021",
+   "family": "",
+   "identity": {
+    "brand": "Various providers",
+    "product": "Google/Gmail virtual number",
+    "plan": "OTP-receive, 1-time use",
+    "denomination": "one-time rental",
+    "region": "Russia"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Noise-rejected: Google Voice business $10/user/mo is a phone line product, not OTP"
+  },
+  {
+   "sku_id": "SKU-VN022",
+   "family": "",
+   "identity": {
+    "brand": "Various providers",
+    "product": "Instagram virtual number",
+    "plan": "OTP-receive, 1-time use",
+    "denomination": "one-time rental",
+    "region": "Russia"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only"
+  },
+  {
+   "sku_id": "SKU-VN023",
+   "family": "",
+   "identity": {
+    "brand": "Various providers",
+    "product": "Facebook virtual number",
+    "plan": "OTP-receive, 1-time use",
+    "denomination": "one-time rental",
+    "region": "Russia"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only"
+  },
+  {
+   "sku_id": "SKU-VN024",
+   "family": "",
+   "identity": {
+    "brand": "Various providers",
+    "product": "Discord virtual number",
+    "plan": "OTP-receive, 1-time use",
+    "denomination": "one-time rental",
+    "region": "Russia"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only"
+  },
+  {
+   "sku_id": "SKU-VN025",
+   "family": "",
+   "identity": {
+    "brand": "Various providers",
+    "product": "TikTok virtual number",
+    "plan": "OTP-receive, 1-time use",
+    "denomination": "one-time rental",
+    "region": "Russia"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only"
+  },
+  {
+   "sku_id": "SKU-VN026",
+   "family": "",
+   "identity": {
+    "brand": "Various providers",
+    "product": "Tinder virtual number",
+    "plan": "OTP-receive, 1-time use",
+    "denomination": "one-time rental",
+    "region": "Russia"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only"
+  },
+  {
+   "sku_id": "SKU-VN027",
+   "family": "",
+   "identity": {
+    "brand": "Various providers",
+    "product": "Amazon virtual number",
+    "plan": "OTP-receive, 1-time use",
+    "denomination": "one-time rental",
+    "region": "Russia"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only"
+  },
+  {
+   "sku_id": "SKU-VN028",
+   "family": "",
+   "identity": {
+    "brand": "Various providers",
+    "product": "WhatsApp Business virtual number",
+    "plan": "OTP-receive, 1-time use",
+    "denomination": "one-time rental",
+    "region": "Russia"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only"
+  },
+  {
+   "sku_id": "SKU-VN029",
+   "family": "",
+   "identity": {
+    "brand": "Various providers",
+    "product": "Telegram virtual number",
+    "plan": "OTP-receive, 1-time use",
+    "denomination": "one-time rental",
+    "region": "Indonesia"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only"
+  },
+  {
+   "sku_id": "SKU-VN030",
+   "family": "",
+   "identity": {
+    "brand": "Various providers",
+    "product": "Google/Gmail virtual number",
+    "plan": "OTP-receive, 1-time use",
+    "denomination": "one-time rental",
+    "region": "Indonesia"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Noise-rejected: Google Voice business listing (same as VN021)"
+  },
+  {
+   "sku_id": "SKU-VN031",
+   "family": "",
+   "identity": {
+    "brand": "Various providers",
+    "product": "WhatsApp virtual number",
+    "plan": "OTP-receive, 1-time use",
+    "denomination": "one-time rental",
+    "region": "Indonesia"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only"
+  },
+  {
+   "sku_id": "SKU-DS001",
+   "family": "",
+   "identity": {
+    "brand": "Netflix",
+    "product": "Netflix subscription",
+    "plan": "Standard with ads",
+    "denomination": "1 month",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-OfficialOnly",
+   "official_anchor": {
+    "price": 8.99,
+    "currency": "USD",
+    "evidence": "Standard with Ads $8.99/mo (raised from $7.99, 03/2026 news — corroborates batch-1)",
+    "evidence_level": "Advertised (official-page snippet)"
+   },
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-DS005",
+   "family": "",
+   "identity": {
+    "brand": "Netflix",
+    "product": "Netflix private account",
+    "plan": "Full account",
+    "denomination": "1 month",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only: 'private account' results carried no price (gray private-account market documented in MEC-2.0 economics)"
+  },
+  {
+   "sku_id": "SKU-DS008",
+   "family": "",
+   "identity": {
+    "brand": "Spotify",
+    "product": "Spotify Premium",
+    "plan": "Family",
+    "denomination": "12 months",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-Offer",
+   "official_anchor": null,
+   "best_advertised": {
+    "entity": "TG seller SellerDealer (telemetr.io-documented)",
+    "price": 1.37,
+    "currency": "USD",
+    "usd": 1.37,
+    "note": "Spotify Family seat ₹119 (~$1.37) India gray — corroborates MEC-2.0 supply-chain economics (family-seat extraction model)",
+    "evidence_level": "Advertised (snippet)"
+   },
+   "all_offers_count": 1,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-DS009",
+   "family": "",
+   "identity": {
+    "brand": "Spotify",
+    "product": "Spotify Premium",
+    "plan": "Individual",
+    "denomination": "12 months",
+    "region": "TR (region-priced)"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only: TR Spotify 12-mo price not isolated this run (India ₹799/yr documented in MEC-2.0)"
+  },
+  {
+   "sku_id": "SKU-DS012",
+   "family": "",
+   "identity": {
+    "brand": "Google",
+    "product": "YouTube Premium",
+    "plan": "Family",
+    "denomination": "12 months",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "No valid offer: results were noise (airbnb/satellite-internet pages)"
+  },
+  {
+   "sku_id": "SKU-DS013",
+   "family": "",
+   "identity": {
+    "brand": "Disney",
+    "product": "Disney+ subscription",
+    "plan": "Basic with ads",
+    "denomination": "1 month",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-OfficialOnly",
+   "official_anchor": {
+    "price": 9.99,
+    "currency": "USD",
+    "evidence": "Standard with Ads $9.99/mo (page also shows $18.99 Standard / $25.99 tiers — mapping needs verification)",
+    "evidence_level": "Advertised (official-page snippet)"
+   },
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-DS014",
+   "family": "",
+   "identity": {
+    "brand": "Disney",
+    "product": "Disney+ subscription",
+    "plan": "Premium",
+    "denomination": "12 months",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — advertised candidates documented",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 1,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-DS015",
+   "family": "",
+   "identity": {
+    "brand": "Warner Bros.",
+    "product": "Max subscription",
+    "plan": "Standard",
+    "denomination": "1 month",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "No valid offer: Max results were math-journal pages (noise)"
+  },
+  {
+   "sku_id": "SKU-DS016",
+   "family": "",
+   "identity": {
+    "brand": "Hulu",
+    "product": "Hulu subscription",
+    "plan": "With ads",
+    "denomination": "1 month",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "No valid offer: Hulu results were real-estate/2020-article noise"
+  },
+  {
+   "sku_id": "SKU-DS017",
+   "family": "",
+   "identity": {
+    "brand": "Amazon",
+    "product": "Prime Video subscription",
+    "plan": "Standard",
+    "denomination": "1 month",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only: Prime Video price not isolated this run"
+  },
+  {
+   "sku_id": "SKU-DS022",
+   "family": "",
+   "identity": {
+    "brand": "Apple",
+    "product": "Apple Music",
+    "plan": "Individual",
+    "denomination": "1 month",
+    "region": "US"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-OfficialOnly",
+   "official_anchor": {
+    "price": 6.99,
+    "currency": "USD",
+    "evidence": "'just $6.99/month, first month free' — apple.com snippet wording suggests promo/annual-billing price; standard Individual $10.99 known prior — direct verification pending",
+    "evidence_level": "Advertised (official-page snippet)"
+   },
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-DS026",
+   "family": "",
+   "identity": {
+    "brand": "NordVPN",
+    "product": "NordVPN subscription",
+    "plan": "Standard 1-year",
+    "denomination": "12 months",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-OfficialOnly",
+   "official_anchor": {
+    "price": 55.08,
+    "currency": "USD",
+    "evidence": "1-year plan $4.59-5.99/mo range (≈$55-72/yr); monthly $12.99",
+    "evidence_level": "Advertised (official-page snippet)"
+   },
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-DS029",
+   "family": "",
+   "identity": {
+    "brand": "Apple",
+    "product": "iCloud+ 50GB",
+    "plan": "Subscription",
+    "denomination": "1 month",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only: iCloud+ tier prices not isolated in snippets"
+  },
+  {
+   "sku_id": "SKU-DS030",
+   "family": "",
+   "identity": {
+    "brand": "Apple",
+    "product": "iCloud+ 200GB",
+    "plan": "Subscription",
+    "denomination": "1 month",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-LeadOnly",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Lead-only (same)"
+  },
+  {
+   "sku_id": "SKU-DS031",
+   "family": "",
+   "identity": {
+    "brand": "Google",
+    "product": "Google One 100GB",
+    "plan": "Subscription",
+    "denomination": "1 month",
+    "region": "Global"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-OfficialOnly",
+   "official_anchor": {
+    "price": 1.99,
+    "currency": "USD",
+    "evidence": "Google One 100GB $1.99/mo ($19.99/yr)",
+    "evidence_level": "Advertised (official-page snippet)"
+   },
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-DS038",
+   "family": "",
+   "identity": {
+    "brand": "Telegram",
+    "product": "Telegram Premium",
+    "plan": "Premium",
+    "denomination": "3 months",
+    "region": "Global"
+   },
+   "ledger_state": "Rate-Limited (query deferred — §19 recovery pending)",
+   "state_class": "B2-RateLimited",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Query deferred (rate-limit); TG Premium 3-mo"
+  },
+  {
+   "sku_id": "SKU-DS040",
+   "family": "",
+   "identity": {
+    "brand": "Telegram",
+    "product": "Telegram Stars",
+    "plan": "Stars pack",
+    "denomination": "100 stars",
+    "region": "Global"
+   },
+   "ledger_state": "Rate-Limited (query deferred — §19 recovery pending)",
+   "state_class": "B2-RateLimited",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Query deferred (rate-limit); TG Stars 100"
+  },
+  {
+   "sku_id": "SKU-DS041",
+   "family": "",
+   "identity": {
+    "brand": "Telegram",
+    "product": "Telegram Stars",
+    "plan": "Stars pack",
+    "denomination": "1000 stars",
+    "region": "Global"
+   },
+   "ledger_state": "Rate-Limited (query deferred — §19 recovery pending)",
+   "state_class": "B2-RateLimited",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Query deferred (rate-limit); TG Stars 1000"
+  },
+  {
+   "sku_id": "SKU-DS043",
+   "family": "",
+   "identity": {
+    "brand": "Discord",
+    "product": "Discord Nitro",
+    "plan": "Nitro",
+    "denomination": "12 months",
+    "region": "Global"
+   },
+   "ledger_state": "Rate-Limited (query deferred — §19 recovery pending)",
+   "state_class": "B2-RateLimited",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Query deferred (rate-limit); Nitro 12-mo"
+  },
+  {
+   "sku_id": "SKU-DS048",
+   "family": "",
+   "identity": {
+    "brand": "YouTube",
+    "product": "YouTube Premium (India region-priced)",
+    "plan": "Individual",
+    "denomination": "1 month",
+    "region": "IN (region-priced)"
+   },
+   "ledger_state": "Searched (snippet) — Lead-only/no valid offer this run",
+   "state_class": "B2-OfficialOnly",
+   "official_anchor": {
+    "price": 3.44,
+    "currency": "USD",
+    "evidence": "YT Premium India ₹299 family / individual ₹149 (~$1.72) — inherited MEC-2.0 observation (26/09 queries)",
+    "evidence_level": "Advertised (official-page snippet)"
+   },
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": ""
+  },
+  {
+   "sku_id": "SKU-DS049",
+   "family": "",
+   "identity": {
+    "brand": "Netflix",
+    "product": "Netflix Standard (Egypt region)",
+    "plan": "Standard",
+    "denomination": "1 month",
+    "region": "EG (region-priced)"
+   },
+   "ledger_state": "Rate-Limited (query deferred — §19 recovery pending)",
+   "state_class": "B2-RateLimited",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Query deferred (rate-limit) — EG Netflix price not retrieved"
+  },
+  {
+   "sku_id": "SKU-DS050",
+   "family": "",
+   "identity": {
+    "brand": "Netflix",
+    "product": "Netflix Standard (Saudi region)",
+    "plan": "Standard",
+    "denomination": "1 month",
+    "region": "SA (region-priced)"
+   },
+   "ledger_state": "Rate-Limited (query deferred — §19 recovery pending)",
+   "state_class": "B2-RateLimited",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Query deferred (rate-limit) — SA Netflix price not retrieved"
+  },
+  {
+   "sku_id": "SKU-DS061",
+   "family": "",
+   "identity": {
+    "brand": "ExpressVPN",
+    "product": "ExpressVPN subscription",
+    "plan": "12-month plan",
+    "denomination": "12 months",
+    "region": "Global"
+   },
+   "ledger_state": "Rate-Limited (query deferred — §19 recovery pending)",
+   "state_class": "B2-RateLimited",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Query deferred (rate-limit); ExpressVPN 12-mo"
+  },
+  {
+   "sku_id": "SKU-DS062",
+   "family": "",
+   "identity": {
+    "brand": "Surfshark",
+    "product": "Surfshark subscription",
+    "plan": "24-month plan",
+    "denomination": "24 months",
+    "region": "Global"
+   },
+   "ledger_state": "Rate-Limited (query deferred — §19 recovery pending)",
+   "state_class": "B2-RateLimited",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Query deferred (rate-limit); Surfshark 24-mo"
+  },
+  {
+   "sku_id": "SKU-DS063",
+   "family": "",
+   "identity": {
+    "brand": "Canva",
+    "product": "Canva Pro annual",
+    "plan": "Pro",
+    "denomination": "12 months",
+    "region": "Global"
+   },
+   "ledger_state": "Rate-Limited (query deferred — §19 recovery pending)",
+   "state_class": "B2-RateLimited",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Query deferred (rate-limit); Canva annual"
+  },
+  {
+   "sku_id": "SKU-AP002",
+   "family": "",
+   "identity": {
+    "brand": "OpenAI",
+    "product": "OpenAI API credits",
+    "plan": "Prepaid credits",
+    "denomination": "500 USD credit",
+    "region": "Global"
+   },
+   "ledger_state": "Rate-Limited (query deferred — §19 recovery pending)",
+   "state_class": "B2-RateLimited",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Query deferred (rate-limit)"
+  },
+  {
+   "sku_id": "SKU-AP003",
+   "family": "",
+   "identity": {
+    "brand": "Anthropic",
+    "product": "Anthropic API credits",
+    "plan": "Prepaid credits",
+    "denomination": "100 USD credit",
+    "region": "Global"
+   },
+   "ledger_state": "Rate-Limited (query deferred — §19 recovery pending)",
+   "state_class": "B2-RateLimited",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Query deferred (rate-limit)"
+  },
+  {
+   "sku_id": "SKU-AP005",
+   "family": "",
+   "identity": {
+    "brand": "Ding",
+    "product": "Global mobile top-up API",
+    "plan": "Reseller/API plan",
+    "denomination": "pay-as-you-go",
+    "region": "Global"
+   },
+   "ledger_state": "Rate-Limited (query deferred — §19 recovery pending)",
+   "state_class": "B2-RateLimited",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Query deferred (rate-limit); role verified in batch 1 (API/Distributor)"
+  },
+  {
+   "sku_id": "SKU-AP006",
+   "family": "",
+   "identity": {
+    "brand": "DT One",
+    "product": "Digital content API (ex-TransferTo)",
+    "plan": "Reseller/API plan",
+    "denomination": "pay-as-you-go",
+    "region": "Global"
+   },
+   "ledger_state": "Rate-Limited (query deferred — §19 recovery pending)",
+   "state_class": "B2-RateLimited",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Query deferred (rate-limit); role verified in batch 1"
+  },
+  {
+   "sku_id": "SKU-AP007",
+   "family": "",
+   "identity": {
+    "brand": "Google",
+    "product": "Gemini API credits",
+    "plan": "Prepaid credits",
+    "denomination": "100 USD credit",
+    "region": "Global"
+   },
+   "ledger_state": "Rate-Limited (query deferred — §19 recovery pending)",
+   "state_class": "B2-RateLimited",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Query deferred (rate-limit)"
+  },
+  {
+   "sku_id": "SKU-AP008",
+   "family": "",
+   "identity": {
+    "brand": "Various",
+    "product": "SMS-activation API (OTP)",
+    "plan": "API plan",
+    "denomination": "pay-as-you-go",
+    "region": "Global"
+   },
+   "ledger_state": "Rate-Limited (query deferred — §19 recovery pending)",
+   "state_class": "B2-RateLimited",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Query deferred (rate-limit)"
+  },
+  {
+   "sku_id": "SKU-AP009",
+   "family": "",
+   "identity": {
+    "brand": "Various",
+    "product": "SMM panel API",
+    "plan": "API plan",
+    "denomination": "pay-as-you-go",
+    "region": "Global"
+   },
+   "ledger_state": "Rate-Limited (query deferred — §19 recovery pending)",
+   "state_class": "B2-RateLimited",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Query deferred (rate-limit)"
+  },
+  {
+   "sku_id": "SKU-AP010",
+   "family": "",
+   "identity": {
+    "brand": "Various",
+    "product": "eSIM distribution API",
+    "plan": "Reseller/API plan",
+    "denomination": "pay-as-you-go",
+    "region": "Global"
+   },
+   "ledger_state": "Rate-Limited (query deferred — §19 recovery pending)",
+   "state_class": "B2-RateLimited",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Query deferred (rate-limit)"
+  },
+  {
+   "sku_id": "SKU-AP016",
+   "family": "",
+   "identity": {
+    "brand": "Turgame",
+    "product": "Reseller/wholesale program",
+    "plan": "Reseller plan",
+    "denomination": "pay-as-you-go",
+    "region": "Global/TR"
+   },
+   "ledger_state": "Rate-Limited (query deferred — §19 recovery pending)",
+   "state_class": "B2-RateLimited",
+   "official_anchor": null,
+   "best_advertised": null,
+   "all_offers_count": 0,
+   "state_note": "Query deferred (rate-limit); Turgame wholesale verified live in batch 1"
+  }
+ ]
+}

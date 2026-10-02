@@ -1,0 +1,534 @@
+{
+ "run": "MEC-2.4 مصفوفة القنوات + الهندسة العكسية لنموذج دولا",
+ "date": "2026-09-27",
+ "totals": {
+  "registry": 31,
+  "discovered": 3,
+  "marketplaces": 57,
+  "all": 91
+ },
+ "layer_distribution": {
+  "مصنع + تجزئة (Manufacturing+Retail)": 3,
+  "جملة/API (Wholesale)": 2,
+  "بائع طرق (Methods Seller)": 2,
+  "تجزئة فردية (Micro Retail)": 7,
+  "تجزئة آلية (Automated Retail)": 2,
+  "تجزئة + معرفة طرق (Retail+Methods)": 4,
+  "مصنع حسابات (Manufacturing)": 2,
+  "طبقة ثقة/ضمان (Escrow/Trust)": 3,
+  "جملة معلنة (Wholesale-claimed)": 3,
+  "تجزئة منظمة (Organized Retail)": 3,
+  "طبقة تكلفة داخلية (Internal Cost)": 1,
+  "تجزئة متخصصة (Specialized Retail)": 1,
+  "جملة متخصصة (Specialized Wholesale)": 1
+ },
+ "sv_formula": {
+  "formula": "retail = cost × 1.2 (وسيط)",
+  "n": 274,
+  "median_markup_pct": 20.1,
+  "range": [
+   15.0,
+   135.0
+  ]
+ },
+ "channels": [
+  {
+   "id": "gemini12pro_channel",
+   "type": "channel",
+   "cluster": "Gemini GPT",
+   "layer": "مصنع + تجزئة (Manufacturing+Retail)",
+   "risk": "متوسط-عالٍ (منتجات مبنية على استغلال عروض تنتهك ToS؛ Google خفّضت العروض 12→6 أش",
+   "anchor": 0.4,
+   "fit": "مصدر توريد منخفض الكلفة لعائلة AI — مخاطر ToS عالية",
+   "subs": "142 797 subscribers"
+  },
+  {
+   "id": "gemini12pro_bot",
+   "type": "bot",
+   "cluster": "Gemini GPT",
+   "layer": "مصنع + تجزئة (Manufacturing+Retail)",
+   "risk": "متوسط-عالٍ (منتجات مبنية على استغلال عروض تنتهك ToS؛ Google خفّضت العروض 12→6 أش",
+   "anchor": null,
+   "fit": "مصدر توريد منخفض الكلفة لعائلة AI — مخاطر ToS عالية",
+   "subs": "@gemini12pro_bot"
+  },
+  {
+   "id": "ProdSellerOfficial",
+   "type": "channel",
+   "cluster": "ProdSeller",
+   "layer": "جملة/API (Wholesale)",
+   "risk": "متوسط (ادعاءات الحجم غير قابلة للتحقق؛ نموذج API يشير لاستقرار تشغيلي نسبي)",
+   "anchor": 0.01,
+   "fit": "قناة توريد أساسية مرشحة — أسعار API أرخص حتى 35% من معلنة",
+   "subs": "4 676 subscribers"
+  },
+  {
+   "id": "learnwith_Alex",
+   "type": "channel",
+   "cluster": "learnwith_Alex",
+   "layer": "بائع طرق (Methods Seller)",
+   "risk": "حرج (محتوى احتيالي موثق ضمن المنشورات العامة)",
+   "anchor": null,
+   "fit": "غير مناسب — محتوى احتيالي موثق",
+   "subs": "3 019 subscribers"
+  },
+  {
+   "id": "AWZ_invite",
+   "type": "private_invite",
+   "cluster": "متاجر صغيرة (بوتات فردية)",
+   "layer": "تجزئة فردية (Micro Retail)",
+   "risk": "غير قابل للتقييم الفردي — تعامل فقط عبر وسيط ضمان",
+   "anchor": null,
+   "fit": "منافسون صغار — مؤشر أسعار فقط",
+   "subs": "3 650 subscribers"
+  },
+  {
+   "id": "Evo_Era_updates",
+   "type": "channel",
+   "cluster": "Evo Era",
+   "layer": "تجزئة آلية (Automated Retail)",
+   "risk": "متوسط-عالٍ (ضمان ساعتين فقط = مؤشر جودة منخفض)",
+   "anchor": 0.05,
+   "fit": "منافس微观 — مؤشر أسعار سوقي حي",
+   "subs": "2 319 subscribers"
+  },
+  {
+   "id": "HitMeowShop",
+   "type": "channel",
+   "cluster": "HitMeow",
+   "layer": "تجزئة + معرفة طرق (Retail+Methods)",
+   "risk": "عالٍ (ناشر طرق استغلال؛ منشورات مختلطة بمحتوى مجاني مشبوه: مفاتيح API مكشوفة، رو",
+   "anchor": 2.33,
+   "fit": "منافس + مصدر معرفة طرق التصنيع — لا يُنصح كمصدر (خطر احتيال داخلي موثق)",
+   "subs": "1 848 subscribers"
+  },
+  {
+   "id": "AISUBSID",
+   "type": "channel",
+   "cluster": "AISUBS.ID",
+   "layer": "مصنع حسابات (Manufacturing)",
+   "risk": "عالٍ (منتج مصنّع بطرق هشة تنتهك ToS؛ البائع نفسه يوثق هشاشة المعروض)",
+   "anchor": 0.2,
+   "fit": "الطبقة الأدنى كلفة (نجاح 1-2% لطريقة UPI) — أعلى هشاشة",
+   "subs": "304 subscribers"
+  },
+  {
+   "id": "verifierg",
+   "type": "channel",
+   "cluster": "Verifier Group (طبقة الثقة)",
+   "layer": "طبقة ثقة/ضمان (Escrow/Trust)",
+   "risk": "الوسيط نفسه غير قابل للتحقق خارجيًا — الثقة فيه افتراض تشغيلي للسوق وليس ضمانة م",
+   "anchor": null,
+   "fit": "بنية تحتية للثقة — تُستخدم كوسيط دفع لا كمصدر",
+   "subs": "25 948 members, 1 508 online"
+  },
+  {
+   "id": "gemini12pro",
+   "type": "channel_or_acct",
+   "cluster": "Gemini GPT",
+   "layer": "مصنع + تجزئة (Manufacturing+Retail)",
+   "risk": "متوسط-عالٍ (منتجات مبنية على استغلال عروض تنتهك ToS؛ Google خفّضت العروض 12→6 أش",
+   "anchor": null,
+   "fit": "مصدر توريد منخفض الكلفة لعائلة AI — مخاطر ToS عالية",
+   "subs": "131 924 members, 3 006 online"
+  },
+  {
+   "id": "acczone_logs",
+   "type": "channel",
+   "cluster": "Acczone",
+   "layer": "جملة معلنة (Wholesale-claimed)",
+   "risk": "متوسط-عالٍ (ادعاء 'الأكبر' غير موثق؛ سجل Logs منشأة ثقة داخلية لا دليل خارجي)",
+   "anchor": null,
+   "fit": "مصدر توريد ثانوي — الادعاء غير قابل للتحقق الخارجي",
+   "subs": "8 316 members, 285 online"
+  },
+  {
+   "id": "ProdSellerBot",
+   "type": "bot",
+   "cluster": "ProdSeller",
+   "layer": "جملة/API (Wholesale)",
+   "risk": "متوسط (ادعاءات الحجم غير قابلة للتحقق؛ نموذج API يشير لاستقرار تشغيلي نسبي)",
+   "anchor": null,
+   "fit": "قناة توريد أساسية مرشحة — أسعار API أرخص حتى 35% من معلنة",
+   "subs": "@ProdSellerBot"
+  },
+  {
+   "id": "Bite_storee_bot",
+   "type": "bot",
+   "cluster": "learnwith_Alex",
+   "layer": "بائع طرق (Methods Seller)",
+   "risk": "حرج (محتوى احتيالي موثق ضمن المنشورات العامة)",
+   "anchor": null,
+   "fit": "غير مناسب — محتوى احتيالي موثق",
+   "subs": "@Bite_storee_bot"
+  },
+  {
+   "id": "Mike_E_0",
+   "type": "account",
+   "cluster": "متاجر صغيرة (بوتات فردية)",
+   "layer": "تجزئة فردية (Micro Retail)",
+   "risk": "غير قابل للتقييم الفردي — تعامل فقط عبر وسيط ضمان",
+   "anchor": null,
+   "fit": "منافسون صغار — مؤشر أسعار فقط",
+   "subs": "@Mike_E_0"
+  },
+  {
+   "id": "acczone_gemini_link_bot",
+   "type": "bot",
+   "cluster": "Acczone",
+   "layer": "جملة معلنة (Wholesale-claimed)",
+   "risk": "متوسط-عالٍ (ادعاء 'الأكبر' غير موثق؛ سجل Logs منشأة ثقة داخلية لا دليل خارجي)",
+   "anchor": null,
+   "fit": "مصدر توريد ثانوي — الادعاء غير قابل للتحقق الخارجي",
+   "subs": "@acczone_gemini_link_bot"
+  },
+  {
+   "id": "Acczone_Store_bot",
+   "type": "bot",
+   "cluster": "Acczone",
+   "layer": "جملة معلنة (Wholesale-claimed)",
+   "risk": "متوسط-عالٍ (ادعاء 'الأكبر' غير موثق؛ سجل Logs منشأة ثقة داخلية لا دليل خارجي)",
+   "anchor": null,
+   "fit": "مصدر توريد ثانوي — الادعاء غير قابل للتحقق الخارجي",
+   "subs": "@Acczone_Store_bot"
+  },
+  {
+   "id": "VeirfyerSupportbot",
+   "type": "bot",
+   "cluster": "Verifier Group (طبقة الثقة)",
+   "layer": "طبقة ثقة/ضمان (Escrow/Trust)",
+   "risk": "الوسيط نفسه غير قابل للتحقق خارجيًا — الثقة فيه افتراض تشغيلي للسوق وليس ضمانة م",
+   "anchor": null,
+   "fit": "بنية تحتية للثقة — تُستخدم كوسيط دفع لا كمصدر",
+   "subs": "@VeirfyerSupportbot"
+  },
+  {
+   "id": "Veriyferbot",
+   "type": "bot",
+   "cluster": "Verifier Group (طبقة الثقة)",
+   "layer": "طبقة ثقة/ضمان (Escrow/Trust)",
+   "risk": "الوسيط نفسه غير قابل للتحقق خارجيًا — الثقة فيه افتراض تشغيلي للسوق وليس ضمانة م",
+   "anchor": null,
+   "fit": "بنية تحتية للثقة — تُستخدم كوسيط دفع لا كمصدر",
+   "subs": "@Veriyferbot"
+  },
+  {
+   "id": "Evolution_Era_bot",
+   "type": "bot",
+   "cluster": "Evo Era",
+   "layer": "تجزئة آلية (Automated Retail)",
+   "risk": "متوسط-عالٍ (ضمان ساعتين فقط = مؤشر جودة منخفض)",
+   "anchor": null,
+   "fit": "منافس微观 — مؤشر أسعار سوقي حي",
+   "subs": "@Evolution_Era_bot"
+  },
+  {
+   "id": "stackvault_support",
+   "type": "account",
+   "cluster": "StackVault",
+   "layer": "تجزئة منظمة (Organized Retail)",
+   "risk": "متوسط (متجر منظم الظاهر + هوية مجهولة الجوهر؛ الدفع مسبق بالرصيد/USDT)",
+   "anchor": null,
+   "fit": "منافس مباشر نموذجي لدولا لا مصدر توريد — معادلة التسعير cost×1.2 مرصودة",
+   "subs": "@stackvault_support"
+  },
+  {
+   "id": "stackvault_bot",
+   "type": "bot",
+   "cluster": "StackVault",
+   "layer": "تجزئة منظمة (Organized Retail)",
+   "risk": "متوسط (متجر منظم الظاهر + هوية مجهولة الجوهر؛ الدفع مسبق بالرصيد/USDT)",
+   "anchor": null,
+   "fit": "منافس مباشر نموذجي لدولا لا مصدر توريد — معادلة التسعير cost×1.2 مرصودة",
+   "subs": "@stackvault_bot"
+  },
+  {
+   "id": "PremiKeyBot",
+   "type": "bot",
+   "cluster": "HitMeow",
+   "layer": "تجزئة + معرفة طرق (Retail+Methods)",
+   "risk": "عالٍ (ناشر طرق استغلال؛ منشورات مختلطة بمحتوى مجاني مشبوه: مفاتيح API مكشوفة، رو",
+   "anchor": null,
+   "fit": "منافس + مصدر معرفة طرق التصنيع — لا يُنصح كمصدر (خطر احتيال داخلي موثق)",
+   "subs": "@PremiKeyBot"
+  },
+  {
+   "id": "Premikey_bot",
+   "type": "bot",
+   "cluster": "HitMeow",
+   "layer": "تجزئة + معرفة طرق (Retail+Methods)",
+   "risk": "عالٍ (ناشر طرق استغلال؛ منشورات مختلطة بمحتوى مجاني مشبوه: مفاتيح API مكشوفة، رو",
+   "anchor": null,
+   "fit": "منافس + مصدر معرفة طرق التصنيع — لا يُنصح كمصدر (خطر احتيال داخلي موثق)",
+   "subs": "@Premikey_bot"
+  },
+  {
+   "id": "HitmeowSupport",
+   "type": "account",
+   "cluster": "HitMeow",
+   "layer": "تجزئة + معرفة طرق (Retail+Methods)",
+   "risk": "عالٍ (ناشر طرق استغلال؛ منشورات مختلطة بمحتوى مجاني مشبوه: مفاتيح API مكشوفة، رو",
+   "anchor": null,
+   "fit": "منافس + مصدر معرفة طرق التصنيع — لا يُنصح كمصدر (خطر احتيال داخلي موثق)",
+   "subs": "@HitmeowSupport"
+  },
+  {
+   "id": "insightXpro_bot",
+   "type": "bot",
+   "cluster": "متاجر صغيرة (بوتات فردية)",
+   "layer": "تجزئة فردية (Micro Retail)",
+   "risk": "غير قابل للتقييم الفردي — تعامل فقط عبر وسيط ضمان",
+   "anchor": null,
+   "fit": "منافسون صغار — مؤشر أسعار فقط",
+   "subs": "@insightXpro_bot"
+  },
+  {
+   "id": "nevakeystore_bot",
+   "type": "bot",
+   "cluster": "متاجر صغيرة (بوتات فردية)",
+   "layer": "تجزئة فردية (Micro Retail)",
+   "risk": "غير قابل للتقييم الفردي — تعامل فقط عبر وسيط ضمان",
+   "anchor": null,
+   "fit": "منافسون صغار — مؤشر أسعار فقط",
+   "subs": "@nevakeystore_bot"
+  },
+  {
+   "id": "Gamisellbot",
+   "type": "bot",
+   "cluster": "متاجر صغيرة (بوتات فردية)",
+   "layer": "تجزئة فردية (Micro Retail)",
+   "risk": "غير قابل للتقييم الفردي — تعامل فقط عبر وسيط ضمان",
+   "anchor": null,
+   "fit": "منافسون صغار — مؤشر أسعار فقط",
+   "subs": "@Gamisellbot"
+  },
+  {
+   "id": "p_a_store_bot",
+   "type": "bot",
+   "cluster": "متاجر صغيرة (بوتات فردية)",
+   "layer": "تجزئة فردية (Micro Retail)",
+   "risk": "غير قابل للتقييم الفردي — تعامل فقط عبر وسيط ضمان",
+   "anchor": null,
+   "fit": "منافسون صغار — مؤشر أسعار فقط",
+   "subs": "@p_a_store_bot"
+  },
+  {
+   "id": "Aisubsglobalbot",
+   "type": "bot",
+   "cluster": "AISUBS.ID",
+   "layer": "مصنع حسابات (Manufacturing)",
+   "risk": "عالٍ (منتج مصنّع بطرق هشة تنتهك ToS؛ البائع نفسه يوثق هشاشة المعروض)",
+   "anchor": null,
+   "fit": "الطبقة الأدنى كلفة (نجاح 1-2% لطريقة UPI) — أعلى هشاشة",
+   "subs": "@Aisubsglobalbot"
+  },
+  {
+   "id": "storeBatmanBot",
+   "type": "bot",
+   "cluster": "متاجر صغيرة (بوتات فردية)",
+   "layer": "تجزئة فردية (Micro Retail)",
+   "risk": "غير قابل للتقييم الفردي — تعامل فقط عبر وسيط ضمان",
+   "anchor": null,
+   "fit": "منافسون صغار — مؤشر أسعار فقط",
+   "subs": "@storeBatmanBot"
+  },
+  {
+   "id": "stackvault_shop",
+   "type": "website",
+   "cluster": "StackVault",
+   "layer": "تجزئة منظمة (Organized Retail)",
+   "risk": "متوسط (متجر منظم الظاهر + هوية مجهولة الجوهر؛ الدفع مسبق بالرصيد/USDT)",
+   "anchor": null,
+   "fit": "منافس مباشر نموذجي لدولا لا مصدر توريد — معادلة التسعير cost×1.2 مرصودة",
+   "subs": ""
+  },
+  {
+   "id": "stackvault_backend_api",
+   "type": "api-backend",
+   "cluster": "مكتشف (27/09)",
+   "layer": "طبقة تكلفة داخلية (Internal Cost)",
+   "risk": "متوسط (كشف تكلفة داخلي = ثغرة موثقة؛ المتجر نفسه غير موثق خارجيًا)",
+   "anchor": 0.01,
+   "fit": "أقوى دليل مشروع على بنية تكلفة متجر تجزئة: معادلة التسعير retail=cost×1.2 موثقة عبر 274 منتجًا",
+   "subs": "-"
+  },
+  {
+   "id": "AiVerseXBot",
+   "type": "bot (مكتشف داخل معاينة قناة)",
+   "cluster": "مكتشف (27/09)",
+   "layer": "تجزئة متخصصة (Specialized Retail)",
+   "risk": "متوسط-عالٍ (ضمن منظومة عروض Pixel)",
+   "anchor": null,
+   "fit": "قناة طلب لعروض Gemini منخفضة الكلفة — نفس مخاطر ToS للمنظومة الأم",
+   "subs": "-"
+  },
+  {
+   "id": "Gt_Verified",
+   "type": "bot (مكتشف داخل معاينة قناة)",
+   "cluster": "مكتشف (27/09)",
+   "layer": "جملة متخصصة (Specialized Wholesale)",
+   "risk": "متوسط-عالٍ",
+   "anchor": null,
+   "fit": "طبقة جملة داخل منظومة واحدة — أدنى من ProdSeller في التنوع",
+   "subs": "-"
+  }
+ ],
+ "marketplaces_top": [
+  {
+   "channel": "Eneba",
+   "n_offers": 5
+  },
+  {
+   "channel": "Microsoft Xbox",
+   "n_offers": 2
+  },
+  {
+   "channel": "Airalo",
+   "n_offers": 2
+  },
+  {
+   "channel": "Spotify",
+   "n_offers": 2
+  },
+  {
+   "channel": "Google/YouTube",
+   "n_offers": 2
+  },
+  {
+   "channel": "vividgold.africa",
+   "n_offers": 2
+  },
+  {
+   "channel": "G2A (GalaxyLink key)",
+   "n_offers": 2
+  },
+  {
+   "channel": "GGSel (RU marketplace)",
+   "n_offers": 1
+  },
+  {
+   "channel": "GGSel marketplace (via YouTube promo snippet)",
+   "n_offers": 1
+  },
+  {
+   "channel": "GGSel sellers",
+   "n_offers": 1
+  },
+  {
+   "channel": "Z2U marketplace",
+   "n_offers": 1
+  },
+  {
+   "channel": "Anthropic",
+   "n_offers": 1
+  },
+  {
+   "channel": "G2A",
+   "n_offers": 1
+  },
+  {
+   "channel": "Perplexity",
+   "n_offers": 1
+  },
+  {
+   "channel": "Canva",
+   "n_offers": 1
+  },
+  {
+   "channel": "Turgame",
+   "n_offers": 1
+  },
+  {
+   "channel": "GG.deals (subscription tracker)",
+   "n_offers": 1
+  },
+  {
+   "channel": "Keyforsteam daily best — seller 'Keywrld'",
+   "n_offers": 1
+  },
+  {
+   "channel": "Allkeyshop comparison",
+   "n_offers": 1
+  },
+  {
+   "channel": "Keyforsteam Preisvergleich — seller 'Pixelcodes' (phone activation)",
+   "n_offers": 1
+  }
+ ],
+ "hypotheses": [
+  {
+   "h": "H1 التحكيم الإقليمي",
+   "mech": "شراء بمناطق رخيصة (لبنان/الهند/تركيا/الأرجنتين) وإعادة بيع خليجيًا",
+   "evidence": "قوية — PSN لبنان $9.07 · Spotify هندي $0.79/ش · خصومات TR/AR 38-46%",
+   "covers": "البطاقات + اشتراكات الألعاب + Spotify",
+   "sustain": "عالية — فروق بنية تعرفة الناشر"
+  },
+  {
+   "h": "H2 الجملة/API",
+   "mech": "حساب موزع وشراء بالكتالوج (ProdSeller-style)",
+   "evidence": "قوية جدًا — 274 كلفة داخلية مرصودة · ChatGPT من $2.80 · إعلان خصم API حتى 35%",
+   "covers": "كل عائلات AI/SaaS + البرمجيات",
+   "sustain": "الأعلى — نموذج الشركة نفسه"
+  },
+  {
+   "h": "H3 التصنيع الرمادي",
+   "mech": "مصانع حسابات UPI + مفاتيح حجمية + روابط Pixel",
+   "evidence": "متوسطة-قوية — Win11 €1.03 · Office2024 €0.56 · SheerID موثقة نصًا",
+   "covers": "المفاتيح الرمادية + حسابات AI الهشة",
+   "sustain": "هشة — قابلة للترقيع (رُصد فعليًا 12→6 أشهر)"
+  },
+  {
+   "h": "H4 التقسيم المؤسسي",
+   "mech": "مقاعد Teams/Edu تُقسم وتباع",
+   "evidence": "متوسطة — Canva 500-لوحة $2.50 · Duolingo $0.50 · MS365 مقعد $21.67 نظري",
+   "covers": "Canva · Coursera · MS365 · Duolingo",
+   "sustain": "متوسطة — حتى مراجعة عقود المؤسسات"
+  }
+ ],
+ "margin_calc": [
+  {
+   "product": "ChatGPT Plus شهر",
+   "floor": "$2.80",
+   "stable": "$10.67",
+   "official": "$20.00"
+  },
+  {
+   "product": "Netflix شهر",
+   "floor": "≈$3.33",
+   "stable": "—",
+   "official": "$26.99"
+  },
+  {
+   "product": "Spotify شهر",
+   "floor": "$0.79",
+   "stable": "$3.74",
+   "official": "$12.99"
+  },
+  {
+   "product": "MS365 سنة",
+   "floor": "$0.21",
+   "stable": "$8.33",
+   "official": "$129.99"
+  },
+  {
+   "product": "Office 2024",
+   "floor": "$0.60",
+   "stable": "$2.63",
+   "official": "$249.99"
+  },
+  {
+   "product": "Xbox GPU شهر",
+   "floor": "$4.00",
+   "stable": "$14.09",
+   "official": "$22.99"
+  },
+  {
+   "product": "PSN $10 أمريكي",
+   "floor": "$9.07",
+   "stable": "الاسمي -1..15%",
+   "official": "$10.00"
+  }
+ ],
+ "verdict": "لا قناة واحدة تفسّر كتالوجًا عريضًا — محفظة مركبة إجبارية: عمود جملة/API + تحكيم إقليمي للبطاقات + تقسيم مؤسسي للتعليمية + تصنيع داخلي للهوامش القصوى فقط",
+ "limits": "أسعار معلنة لا معاملاتية · جملة B2B خلف تسجيل · لا سمعة مستقلة · المتجر محل السؤال غير مرصود مباشرة (النطاقات متوقفة)"
+}

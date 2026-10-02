@@ -1,0 +1,584 @@
+{
+  "layer": "Marketplaces / Aggregators / Retail Sellers / Services",
+  "entities": [
+    {
+      "id": "ENT-020",
+      "name": "Eneba",
+      "type": "Marketplace (keyshop aggregator)",
+      "role": "Marketplace",
+      "status": "Verified-Active",
+      "verified_via": ["A020", "A017", "A024"],
+      "evidence": [
+        { "action": "A020", "source": "eneba.com", "url": "https://www.eneba.com", "observation": "Steam Wallet Gift Card 10 USD (EL SALVADOR region) listed — region-specific wallet cards sold", "evidence_level": "First-Party Reported (listing)", "freshness": "Current" },
+        { "action": "A017", "source": "eneba.com", "url": "https://www.eneba.com", "observation": "PUBG Mobile 600+60 UC Key GLOBAL listed", "evidence_level": "First-Party Reported (listing)", "freshness": "Current" },
+        { "action": "A024", "source": "ozbargain.com.au", "url": "https://www.ozbargain.com.au", "observation": "Eneba cited as seller of discounted Spotify Premium 12-month keys", "evidence_level": "Secondary Reported (community)", "freshness": "Feb 2025 — Stale" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "Marketplace-level buyer protection exists (terms not fully reviewed) — No Documented Guarantee at offer level",
+      "resale": "Terms Available — Permission Unclear (marketplace model; seller-level authorization varies)",
+      "notes": ""
+    },
+    {
+      "id": "ENT-021",
+      "name": "Kinguin",
+      "type": "Marketplace",
+      "role": "Marketplace",
+      "status": "Verified-Active",
+      "verified_via": ["A021", "A026"],
+      "evidence": [
+        { "action": "A021", "source": "kinguin.net", "url": "https://www.kinguin.net", "observation": "Steam Gift Card ₴800 UAH listed at $18.85-19.64 (UAH-currency card for UA accounts, below ~$19.40 USD-equivalent face)", "evidence_level": "First-Party Reported (listing)", "freshness": "Current" },
+        { "action": "A026", "source": "steemit.com guide", "url": "https://steemit.com", "observation": "Windows 11 Pro OEM keys ~$20-30 typical on Kinguin/G2A/CDKeys", "evidence_level": "Secondary Reported", "freshness": "Current" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "Marketplace buyer protection exists — No Documented Guarantee at offer level",
+      "resale": "Terms Available — Permission Unclear",
+      "notes": "UAH card = Non-Comparable to USD-region cards (currency-locked SKU)"
+    },
+    {
+      "id": "ENT-022",
+      "name": "G2A",
+      "type": "Marketplace",
+      "role": "Marketplace",
+      "status": "Verified-Active",
+      "verified_via": ["A021", "A031"],
+      "evidence": [
+        { "action": "A021", "source": "g2a.com", "url": "https://www.g2a.com", "observation": "Steam Gift Card 60 USD (EL SALVADOR) listed; gg.deals reports G2A lowest for $13 US card at $14.10 (+8.5% above face)", "evidence_level": "First-Party Reported (listing) + Aggregator", "freshness": "Current" },
+        { "action": "A031", "source": "nordvpn.com official warning", "url": "https://nordvpn.com", "observation": "NordVPN officially states NO G2A seller is authorized to resell NordVPN subscriptions", "evidence_level": "First-Party (publisher counter-evidence)", "freshness": "Current (Dec 2025)" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "G2A Shield buyer protection exists — No Documented Guarantee at offer level",
+      "resale": "Restricted (at least for NordVPN — publisher-documented unauthorized)",
+      "notes": "Publisher counter-evidence captured — feeds Exclusion/Review classification for unauthorized resale offers"
+    },
+    {
+      "id": "ENT-023",
+      "name": "GAMIVO",
+      "type": "Marketplace",
+      "role": "Marketplace",
+      "status": "Verified-Active",
+      "verified_via": ["A012", "A053"],
+      "evidence": [
+        { "action": "A012", "source": "gamivo.com", "url": "https://www.gamivo.com", "observation": "Minecraft Java & Bedrock Edition (PC) listed on GAMIVO", "evidence_level": "First-Party Reported (listing)", "freshness": "Current" },
+        { "action": "A053", "source": "gamivo.com blog (Aug 2026)", "url": "https://www.gamivo.com", "observation": "GAMIVO editorial confirms Minecraft official price $29.99 / Deluxe $39.99", "evidence_level": "Secondary Reported (marketplace editorial)", "freshness": "Current (Aug 2026)" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "SMART subscription buyer protection exists — No Documented Guarantee at offer level",
+      "resale": "Terms Available — Permission Unclear",
+      "notes": ""
+    },
+    {
+      "id": "ENT-024",
+      "name": "GGSel (ggsel.net)",
+      "type": "Marketplace (RU)",
+      "role": "Marketplace",
+      "status": "Verified-Active",
+      "verified_via": ["A048", "A032"],
+      "evidence": [
+        { "action": "A048", "source": "ggsel.net", "url": "https://ggsel.net", "observation": "GGSel marketplace sells digital keys, gifts, top-ups, subscriptions, gift cards", "evidence_level": "First-Party Reported (listing)", "freshness": "Current" },
+        { "action": "A032", "source": "dtf.ru (Jun 2026)", "url": "https://dtf.ru", "observation": "GGSel described as marketplace for Steam codes in RU-market Steam top-up guide", "evidence_level": "Secondary Reported (independent editorial)", "freshness": "Current (Jun 2026)" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "Unknown",
+      "resale": "Terms Available — Permission Unclear",
+      "notes": "Individual seller seed 'Макс111 on GGSel' — not separately verified this run (remains Unverified Lead)"
+    },
+    {
+      "id": "ENT-025",
+      "name": "Plati.market",
+      "type": "Marketplace (RU)",
+      "role": "Marketplace",
+      "status": "Verified-Active",
+      "verified_via": ["A032"],
+      "evidence": [
+        { "action": "A032", "source": "plati.market + vc.ru (Jun 2026)", "url": "https://plati.market", "observation": "Plati.Market sells Steam top-ups, keys, gift cards from multiple sellers (RU-market payment-workaround context)", "evidence_level": "First-Party Reported (listing) + Secondary (vc.ru editorial)", "freshness": "Current (Jun 2026)" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "Unknown",
+      "resale": "Terms Available — Permission Unclear",
+      "notes": "Example observed: Planet Coaster Steam key at 1195.55₽ (Non-Comparable SKU, RU region)"
+    },
+    {
+      "id": "ENT-026",
+      "name": "Z2U",
+      "type": "Marketplace",
+      "role": "Marketplace (gift cards, accounts, top-ups)",
+      "status": "Verified-Active",
+      "verified_via": ["A049"],
+      "evidence": [
+        { "action": "A049", "source": "z2u.com", "url": "https://www.z2u.com/steam-global/gift-card-10-4249", "observation": "Z2U sells Steam Wallet Gift Cards ($5-$100) and Steam Wallet Top-Up; also trades ACCOUNTS (3,178 account listings) — account trading = elevated risk signal", "evidence_level": "First-Party Reported (listing)", "freshness": "Current" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "Unknown",
+      "resale": "Unclear — account trading violates most publishers' ToS; flagged for review",
+      "notes": "RISK SIGNAL: marketplace includes account sales (not just keys) — Needs-Human-Review for any commercial use"
+    },
+    {
+      "id": "ENT-027",
+      "name": "K4G",
+      "type": "Marketplace",
+      "role": "Marketplace",
+      "status": "Verified-Active",
+      "verified_via": ["A031"],
+      "evidence": [
+        { "action": "A031", "source": "allkeyshop.com", "url": "https://www.allkeyshop.com", "observation": "NordVPN subscription lowest $4.90 at K4G (via allkeyshop comparator)", "eevidence_level_note": "", "evidence_level": "Secondary Reported (comparator)", "freshness": "Current" }
+      ],
+      "independence": "Shared-Origin risk: single comparator source — Unresolved independence",
+      "guarantee": "Unknown",
+      "resale": "Restricted (NordVPN publisher warning covers unauthorized resale channels)",
+      "notes": "Cheapest NordVPN signal — carries publisher counter-evidence"
+    },
+    {
+      "id": "ENT-028",
+      "name": "itemku",
+      "type": "Marketplace (SEA/ID)",
+      "role": "Marketplace (game top-up)",
+      "status": "Verified-Active",
+      "verified_via": ["A017"],
+      "evidence": [
+        { "action": "A017", "source": "itemku.com", "url": "https://www.itemku.com", "observation": "PUBG Mobile 660 UC top-up from USD 10.07 (Sept 2026), installment support", "evidence_level": "First-Party Reported (listing)", "freshness": "Current (Sep 2026)" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "Marketplace transaction guarantee claimed ('100% secure transactions, guaranteed') — Advertised-level guarantee",
+      "resale": "Terms Available — Permission Unclear (top-up service model)",
+      "notes": ""
+    },
+    {
+      "id": "ENT-029",
+      "name": "Turgame",
+      "type": "Digital Store (TR-focused)",
+      "role": "Seller / Reseller",
+      "status": "Verified-Active (offer observed SOLD OUT)",
+      "verified_via": ["A037", "A075"],
+      "evidence": [
+        { "action": "A037", "source": "turgame.com", "url": "https://www.turgame.com", "observation": "PUBG 660 UC 10 USD / 454.90 TRY — LISTED AS SOLD OUT at observation time", "evidence_level": "First-Party Reported (directly observed listing state)", "freshness": "Current" },
+        { "action": "A075", "source": "instagram.com (turgame official promo)", "url": "https://www.instagram.com", "observation": "Turgame actively markets TRY-denominated PSN wallet codes valid ONLY for Turkish-region PSN accounts", "evidence_level": "Secondary Reported (official social)", "freshness": "Current" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "Unknown",
+      "resale": "Unclear — region-locked inventory model (TR-region products)",
+      "notes": "Entity Resolution vs 'Definite Play' (seed): NO evidence found linking the two names (A058 failed, A075 indirect) → Unresolved Hypothesis. Availability evidence: 660 UC offer SOLD OUT at check time"
+    },
+    {
+      "id": "ENT-030",
+      "name": "bittopup (pubguc.bittopup.com)",
+      "type": "Top-Up Store (AR-facing)",
+      "role": "Seller / Reseller",
+      "status": "Verified-Active",
+      "verified_via": ["A050", "A060"],
+      "evidence": [
+        { "action": "A050", "source": "pubguc.bittopup.com", "url": "https://pubguc.bittopup.com", "observation": "PUBG 660 UC (600+60) = $8.707 ($1.319/100 UC unit display); 1800 UC = $22.22 — below official $9.99", "evidence_level": "First-Party Reported (listing)", "freshness": "Current (2026)" },
+        { "action": "A060", "source": "news.bittopup.com (Mar 2026)", "url": "https://news.bittopup.com", "observation": "bittopup's own editorial: 'discounts of 30-50% below face value are always fraudulent. The economics don't work for legitimate sellers' (on gift cards)", "evidence_level": "First-Party (their own fraud-economics statement)", "freshness": "Current (Mar 2026)" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "Unknown",
+      "resale": "Unclear",
+      "notes": "13% below official = within plausible promo band (official Midasbuy itself discounts 10%); bittopup's own fraud-economics statement provides context for evaluating deeper discounts"
+    },
+    {
+      "id": "ENT-031",
+      "name": "cardsouq (cardsouq.com)",
+      "type": "Top-Up / Gift Card Store (AR-facing)",
+      "role": "Seller / Reseller",
+      "status": "Verified-Active (offer flagged Possible Match–Review)",
+      "verified_via": ["A050"],
+      "evidence": [
+        { "action": "A050", "source": "cardsouq.com", "url": "https://www.cardsouq.com", "observation": "PUBG 600+60 UC: original price $9.99 → CURRENT $4.99 (50% off); also 16200 UC at $50", "evidence_level": "First-Party Reported (listing)", "freshness": "Current (2026)" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "Unknown",
+      "resale": "Unclear",
+      "notes": "LOWEST PUBG price observed — 50% below official. Counter-evidence: bittopup fraud-economics statement (30-50% below face = always fraudulent for gift cards). Delivery method/terms unverified (voucher vs ID-login top-up). Hypothesis H1 open: promo/loss-leader vs different-delivery-terms vs fraudulent. NOT ranked as Cheapest Verified — held in review state"
+    },
+    {
+      "id": "ENT-032",
+      "name": "gameseal",
+      "type": "Digital Store",
+      "role": "Seller / Reseller",
+      "status": "Verified-Active",
+      "verified_via": ["A054"],
+      "evidence": [
+        { "action": "A054", "source": "gameseal.com", "url": "https://gameseal.com/garena-free-fire-2200-diamonds-direct-top-up-global", "observation": "Free Fire 2200 Diamonds Direct Top-Up GLOBAL listed (price not captured in snippet)", "evidence_level": "First-Party Reported (listing existence)", "freshness": "Current" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "Unknown",
+      "resale": "Unclear",
+      "notes": "Seed re-verified: PROMOTED to Verified-Active. 2200-diamond denomination = Non-Comparable to 520 SKU"
+    },
+    {
+      "id": "ENT-033",
+      "name": "digitalmaze",
+      "type": "License Store",
+      "role": "Seller / Reseller (software licenses)",
+      "status": "Verified-Active",
+      "verified_via": ["A056"],
+      "evidence": [
+        { "action": "A056", "source": "digitalmaze.com", "url": "https://www.digitalmaze.com", "observation": "Windows 11 Pro License: $74.99 sale (regular $199.99) — 62% below official", "evidence_level": "First-Party Reported (listing)", "freshness": "Current" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "Unknown",
+      "resale": "Unclear — OEM/gray license resale legally gray per Microsoft position (A026)",
+      "notes": ""
+    },
+    {
+      "id": "ENT-034",
+      "name": "LikeCard (likecard.com)",
+      "type": "MENA Gift Card Platform",
+      "role": "Regional Platform / Reseller",
+      "status": "Verified-Active",
+      "verified_via": ["A051"],
+      "evidence": [
+        { "action": "A051", "source": "ar-bahrain.likecard.com", "url": "https://ar-bahrain.likecard.com", "observation": "Apple gift cards sold (BH storefront) with Apple support redemption guidance", "evidence_level": "First-Party Reported (listing)", "freshness": "Current" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "Unknown",
+      "resale": "Unclear",
+      "notes": "NEW DISCOVERY (not in seed list) — major MENA card platform"
+    },
+    {
+      "id": "ENT-035",
+      "name": "bitaqaty (بطاقاتي)",
+      "type": "MENA Gift Card Platform",
+      "role": "Regional Platform / Reseller",
+      "status": "Verified-Active",
+      "verified_via": ["A035"],
+      "evidence": [
+        { "action": "A035", "source": "bitaqaty.com", "url": "https://www.bitaqaty.com/home", "observation": "Sells iTunes, Razer Gold, PlayStation, PUBG top-up, Zain, Mobily cards — instant delivery claimed", "evidence_level": "First-Party Reported (listing)", "freshness": "Current" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "Unknown",
+      "resale": "Unclear",
+      "notes": "NEW DISCOVERY — MENA card aggregator"
+    },
+    {
+      "id": "ENT-036",
+      "name": "snoonu",
+      "type": "Qatari Digital Store",
+      "role": "Seller / Reseller",
+      "status": "Verified-Active",
+      "verified_via": ["A015"],
+      "evidence": [
+        { "action": "A015", "source": "snoonu.com", "url": "https://snoonu.com", "observation": "Apple iTunes Gift Card 25 USD (USA region) sold in Qatar", "evidence_level": "First-Party Reported (listing)", "freshness": "Current" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "Unknown",
+      "resale": "Unclear (US-region cards sold in QA market — cross-region resale model)",
+      "notes": ""
+    },
+    {
+      "id": "ENT-037",
+      "name": "yallatoys",
+      "type": "Qatari Store (digital cards)",
+      "role": "Seller / Reseller",
+      "status": "Verified-Active",
+      "verified_via": ["A051"],
+      "evidence": [
+        { "action": "A051", "source": "yallatoys.com", "url": "https://www.yallatoys.com", "observation": "Apple iTunes US $25 gift card sold in Qatar with instant delivery", "evidence_level": "First-Party Reported (listing)", "freshness": "Current" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "Unknown",
+      "resale": "Unclear",
+      "notes": ""
+    },
+    {
+      "id": "ENT-038",
+      "name": "gml-store",
+      "type": "Digital Store (AR)",
+      "role": "Seller / Reseller",
+      "status": "Verified-Active",
+      "verified_via": ["A051"],
+      "evidence": [
+        { "action": "A051", "source": "gml-store.com", "url": "https://gml-store.com", "observation": "US iTunes $250 card at 937.50 (SAR) = exact face value at 3.75 SAR/USD", "evidence_level": "First-Party Reported (listing)", "freshness": "Current" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "Unknown",
+      "resale": "Unclear",
+      "notes": "Evidence MENA stores sell US cards AT face — no below-face verified in MENA iTunes segment"
+    },
+    {
+      "id": "ENT-039",
+      "name": "vexacard",
+      "type": "Digital Store (AR)",
+      "role": "Seller / Reseller",
+      "status": "Verified-Active",
+      "verified_via": ["A036"],
+      "evidence": [
+        { "action": "A036", "source": "vexacard.com", "url": "https://vexacard.com", "observation": "US App Store/iTunes $30 card sold with digital code delivery", "evidence_level": "First-Party Reported (listing)", "freshness": "Current" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "Unknown",
+      "resale": "Unclear",
+      "notes": "NEW DISCOVERY via language expansion (A036 was FazerCards verification — FazerCards itself not found)"
+    },
+    {
+      "id": "ENT-040",
+      "name": "karteet (كرتيت)",
+      "type": "Digital Store (AR)",
+      "role": "Seller / Reseller",
+      "status": "Verified-Active",
+      "verified_via": ["A036"],
+      "evidence": [
+        { "action": "A036", "source": "karteet.com", "url": "https://karteet.com", "observation": "Free Fire 2420 diamonds MENA top-up listed", "evidence_level": "First-Party Reported (listing)", "freshness": "Current" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "Unknown",
+      "resale": "Unclear",
+      "notes": "2420-diamond denomination = Non-Comparable to 520 SKU"
+    },
+    {
+      "id": "ENT-041",
+      "name": "Midasbuy-adjacent sellers (buffbuff, Epinby)",
+      "type": "Top-Up Sellers",
+      "role": "Sellers / Resellers (claims of authorization)",
+      "status": "Leads (advertised claims, not verified)",
+      "verified_via": ["A059"],
+      "evidence": [
+        { "action": "A059", "source": "buffbuff.com + instagram.com (Epinby)", "url": "https://buffbuff.com/top-up/pubg-mobile", "observation": "buffbuff claims 'Officially authorized PUBG UC top-up, up to 55% OFF'; Epinby markets PUBG vouchers on Instagram", "evidence_level": "Advertised (self-claimed)", "freshness": "Current" }
+      ],
+      "independence": "N/A",
+      "guarantee": "Unknown",
+      "resale": "Authorization CLAIMED but not verified against Tencent/Midasbuy — Unclear",
+      "notes": "'Up to 55% off' + 'officially authorized' claims are unverified marketing statements — flagged for Batch 2 authorization verification"
+    },
+    {
+      "id": "ENT-042",
+      "name": "opensooq individual sellers (JO)",
+      "type": "Classifieds individuals",
+      "role": "Individual sellers (non-generalizable)",
+      "status": "Lead (individual marketplace)",
+      "verified_via": ["A050"],
+      "evidence": [
+        { "action": "A050", "source": "jo.opensooq.com", "url": "https://jo.opensooq.com", "observation": "Individuals offering PUBG 660 UC at 3.50 JOD (~$4.93) in Jordan classifieds", "evidence_level": "Lead (classifieds listing)", "freshness": "Current" }
+      ],
+      "independence": "N/A",
+      "guarantee": "Unknown",
+      "resale": "Unknown",
+      "notes": "Non-generalizable individual offers — excluded from commercial ranking, retained in research record (Lowest Negotiated Offer category candidate if transaction-verified in future)"
+    },
+    {
+      "id": "ENT-043",
+      "name": "Wincdkey",
+      "type": "Keyshop (seed)",
+      "role": "Seller / Reseller (software keys)",
+      "status": "Verified-Active (entity only — prices not captured)",
+      "verified_via": ["A027"],
+      "evidence": [
+        { "action": "A027", "source": "de.trustpilot.com", "url": "https://de.trustpilot.com", "observation": "WINCDKEY Trustpilot DE profile with 2,722 reviews, positive German review referencing Windows 11 Pro key purchase 'at a top price, received within seconds'", "evidence_level": "Secondary Reported (reputation platform)", "freshness": "Current" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "Unknown",
+      "resale": "Unclear (gray-market keyshop model)",
+      "notes": "Seed re-verified at ENTITY level; no current price captured for Batch 1 SKUs"
+    },
+    {
+      "id": "ENT-044",
+      "name": "Bitcodes",
+      "type": "Keyshop (seed)",
+      "role": "Seller / Reseller (software keys)",
+      "status": "Verified-Active (offer via comparator)",
+      "verified_via": ["A027"],
+      "evidence": [
+        { "action": "A027", "source": "gocdkeys.de", "url": "https://gocdkeys.de", "observation": "Office 2021 PC key from €0.50 at Bitcodes (with coupon gocd76 applied — coupon-conditional price)", "evidence_level": "Secondary Reported (comparator)", "freshness": "Current" }
+      ],
+      "independence": "Shared-Origin risk: comparator + coupon site relationship — Unresolved",
+      "guarantee": "Unknown",
+      "resale": "Unclear",
+      "notes": "€0.50 Office 2021 = coupon-conditional extreme-low — Possible Match–Review"
+    },
+    {
+      "id": "ENT-045",
+      "name": "Keywrld",
+      "type": "Keyshop (seed)",
+      "role": "Seller / Reseller (software keys)",
+      "status": "Verified-Active (offer via comparator)",
+      "verified_via": ["A027"],
+      "evidence": [
+        { "action": "A027", "source": "allkeyshop.com", "url": "https://www.allkeyshop.com", "observation": "Windows 11 Pro at €1.03 (Keywrld, via allkeyshop comparator)", "evidence_level": "Secondary Reported (comparator)", "freshness": "Current" }
+      ],
+      "independence": "Shared-Origin risk: single comparator source",
+      "guarantee": "Unknown",
+      "resale": "Unclear",
+      "notes": "€1.03 for $199.99 software = 99.5% below official — extreme outlier, Possible Match–Review (likely coupon/first-purchase condition)"
+    },
+    {
+      "id": "ENT-046",
+      "name": "Keys4us",
+      "type": "Keyshop (seed)",
+      "role": "Seller / Reseller (software keys)",
+      "status": "Verified-Active (offers via comparator)",
+      "verified_via": ["A027"],
+      "evidence": [
+        { "action": "A027", "source": "allkeyshop.com", "url": "https://www.allkeyshop.com", "observation": "Office 2024 Professional Plus (Keys4us) and Office 2021 Pro Plus at €0.46 (via allkeyshop)", "evidence_level": "Secondary Reported (comparator)", "freshness": "Current" }
+      ],
+      "independence": "Shared-Origin risk: single comparator source",
+      "guarantee": "Unknown",
+      "resale": "Unclear",
+      "notes": "€0.46 Office 2021 Pro Plus — same coupon-conditional pattern as Bitcodes (both via German comparator ecosystem)"
+    },
+    {
+      "id": "ENT-047",
+      "name": "Airalo",
+      "type": "eSIM Retailer",
+      "role": "Retailer (eSIM data packs)",
+      "status": "Verified-Active",
+      "verified_via": ["A013"],
+      "evidence": [
+        { "action": "A013", "source": "airalo.com", "url": "https://www.airalo.com", "observation": "Europe regional eSIMs: 10GB $15.50-17.00 (30 days); 5GB $10.50; country packs differ (Croatia 10GB $15.50)", "evidence_level": "First-Party Reported (retrieved directly)", "freshness": "Current" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "Unknown",
+      "resale": "N/A (first-party retail)",
+      "notes": "eSIM SKU identity MUST lock region granularity: Europe regional ≠ single country (esimdb: Portugal 10GB $11 with 15% discount — different SKU)"
+    },
+    {
+      "id": "ENT-048",
+      "name": "esimdb",
+      "type": "eSIM Aggregator/Comparator",
+      "role": "Aggregator",
+      "status": "Verified-Active",
+      "verified_via": ["A013"],
+      "evidence": [
+        { "action": "A013", "source": "esimdb.com (Sep 2026)", "url": "https://esimdb.com", "observation": "Airalo Portugal 10GB/30d listed at $11 ($1.10/GB) with 15% discount; 50GB $35", "evidence_level": "Secondary Reported (aggregator)", "freshness": "Current (Sep 2026)" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "N/A",
+      "resale": "N/A",
+      "notes": "Aggregator shows discounted Airalo price below Airalo's own site for country pack"
+    },
+    {
+      "id": "ENT-049",
+      "name": "PrimeFollows",
+      "type": "SMM Panel (seed)",
+      "role": "Service Seller (SMM)",
+      "status": "Verified-Active (entity — prices not captured)",
+      "verified_via": ["A042"],
+      "evidence": [
+        { "action": "A042", "source": "primefollows.com", "url": "https://primefollows.com", "observation": "Active SMM panel: Instagram, TikTok, YouTube, Facebook, X, Telegram services ('cheapest' self-claimed)", "evidence_level": "First-Party Reported (site retrieved)", "freshness": "Current" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "Unknown",
+      "resale": "N/A (service)",
+      "notes": "Seed re-verified: PROMOTED to Verified-Active. IG followers 1000 price NOT captured — Batch 2 gap"
+    },
+    {
+      "id": "ENT-050",
+      "name": "SMMFollowers",
+      "type": "SMM Panel (seed)",
+      "role": "Service Seller (SMM)",
+      "status": "Verified-Active",
+      "verified_via": ["A043"],
+      "evidence": [
+        { "action": "A043", "source": "comparesmmpanel.com (Sep 2026)", "url": "https://comparesmmpanel.com", "observation": "SMMFollowers: 1,181 services; Instagram Followers [Max 500k] $0.6391; Instagram Views $10/300,000", "evidence_level": "Secondary Reported (panel comparator)", "freshness": "Current (Sep 2026)" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "Unknown (retention/refill terms not captured — quality dimension open)",
+      "resale": "N/A",
+      "notes": "IG Followers ≈ $0.64/1000 (advertised panel rate)"
+    },
+    {
+      "id": "ENT-051",
+      "name": "SMM market floor (smmraja, smmpwr, usdsmm)",
+      "type": "SMM Panels (market)",
+      "role": "Service Sellers (SMM)",
+      "status": "Verified-Active (market rates)",
+      "verified_via": ["A043", "A044"],
+      "evidence": [
+        { "action": "A043", "source": "smmraja.com", "url": "https://www.smmraja.com", "observation": "Instagram followers 'reseller rates starting under a cent per 1K'", "evidence_level": "Advertised", "freshness": "Current" },
+        { "action": "A044", "source": "smmpwr.com", "url": "https://smmpwr.com", "observation": "460 Instagram services from $0.0012 to $833.18 per 1000, refill guarantee offered", "evidence_level": "First-Party Reported", "freshness": "Current" }
+      ],
+      "independence": "Independent Origin (multiple panels)",
+      "guarantee": "smmpwr: refill guarantee advertised (quality terms unknown)",
+      "resale": "N/A",
+      "notes": "Market floor for IG followers ≈ $0.0012-0.64/1k — quality/retention materially varies and is NOT comparable without quality terms (per SKU identity rule)"
+    },
+    {
+      "id": "ENT-052",
+      "name": "5SIM",
+      "type": "Virtual Number Provider",
+      "role": "Service Seller (virtual numbers/SMS)",
+      "status": "Verified-Active",
+      "verified_via": ["A045"],
+      "evidence": [
+        { "action": "A045", "source": "5sim.net (Sep 2026)", "url": "https://5sim.net", "observation": "Virtual numbers for SMS/OTP, unlimited SMS within 5-30 min window per purchase", "evidence_level": "First-Party Reported", "freshness": "Current (Sep 2026)" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "Unknown",
+      "resale": "N/A",
+      "notes": "SKU identity for virtual numbers must lock: country + number type (VoIP/non-VoIP) + supported service"
+    },
+    {
+      "id": "ENT-053",
+      "name": "SMS verification market (smscode.gg, blackhatworld sellers)",
+      "type": "Virtual Number Market",
+      "role": "Service Sellers",
+      "status": "Verified-Active (market rates)",
+      "verified_via": ["A045"],
+      "evidence": [
+        { "action": "A045", "source": "blackhatworld.com (Mar 2026) + smscode.gg", "url": "https://www.blackhatworld.com", "observation": "Real US non-VoIP SIM numbers for OTP verification from $0.05; smscode.gg positions as cheaper 5SIM alternative", "evidence_level": "Advertised (marketplace)", "freshness": "Current (Mar 2026)" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "Unknown",
+      "resale": "N/A",
+      "notes": "US non-VoIP = premium tier vs VoIP numbers; from $0.05 per number advertised"
+    },
+    {
+      "id": "ENT-054",
+      "name": "Bitrefill",
+      "type": "Gift Card / Top-Up Platform (crypto)",
+      "role": "Platform / Reseller",
+      "status": "Verified-Active",
+      "verified_via": ["A022"],
+      "evidence": [
+        { "action": "A022", "source": "bitrefill.com", "url": "https://www.bitrefill.com", "observation": "Sells Eneba gift cards (custom amounts) for Bitcoin/ETH/Lightning in USA", "evidence_level": "First-Party Reported (listing)", "freshness": "Current" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "Unknown",
+      "resale": "Unclear",
+      "notes": "Second-layer resale signal: marketplace gift cards (Eneba) resold via crypto platform"
+    },
+    {
+      "id": "ENT-055",
+      "name": "Etsy digital-subscription sellers",
+      "type": "Marketplace sellers (handmade platform misuse)",
+      "role": "Unverified reseller leads (AI subscriptions)",
+      "status": "Lead (Possible Match–Review)",
+      "verified_via": ["A002"],
+      "evidence": [
+        { "action": "A002", "source": "etsy.com", "url": "https://www.etsy.com", "observation": "'Gemini AI 18 Month Pro Plan – 5TB Google One' listing appears in search results (price not captured)", "evidence_level": "Lead (search result only)", "freshness": "Unknown" }
+      ],
+      "independence": "N/A",
+      "guarantee": "Unknown",
+      "resale": "Almost certainly NOT authorized by Google (no such program exists publicly) — Suspected unauthorized, needs review",
+      "notes": "AI-subscription gray-market branch for Batch 2"
+    },
+    {
+      "id": "ENT-056",
+      "name": "DIFMARK (via smartcdkeys)",
+      "type": "Keyshop",
+      "role": "Seller / Reseller",
+      "status": "Lead (via comparator)",
+      "verified_via": ["A022"],
+      "evidence": [
+        { "action": "A022", "source": "smartcdkeys.com", "url": "https://smartcdkeys.com", "observation": "EA App $25 gift card lowest $21.92 at DIFMARK (12% below face)", "evidence_level": "Secondary Reported (comparator)", "freshness": "Current" }
+      ],
+      "independence": "Shared-Origin risk: single comparator",
+      "guarantee": "Unknown",
+      "resale": "Unclear",
+      "notes": "EA (not Apple) card — but establishes below-face gift card discount pattern in keyshop segment"
+    },
+    {
+      "id": "ENT-057",
+      "name": "ozbargain community (deal-sharing)",
+      "type": "Community deal forum",
+      "role": "Signal source (not a seller)",
+      "status": "Verified-Active (as source)",
+      "verified_via": ["A024"],
+      "evidence": [
+        { "action": "A024", "source": "ozbargain.com.au (Feb 2025)", "url": "https://www.ozbargain.com.au", "observation": "Community-documented Spotify Premium Individual 12-month key at US$20.86 (~A$33), Eneba mentioned as seller", "evidence_level": "Lead (community deal post)", "freshness": "Stale (Feb 2025)" }
+      ],
+      "independence": "Independent Origin",
+      "guarantee": "N/A",
+      "resale": "N/A",
+      "notes": "Deal signal only — 87% below official annual price; region/method ambiguous; high gray-market risk"
+    }
+  ]
+}

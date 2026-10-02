@@ -1,0 +1,30 @@
+# MEC Railway deploy — minimal clean tree (mirrors the GitHub clean-repo discipline)
+# Patterns are ROOT-ANCHORED so they never match src/lib/data or similar app dirs.
+# NEVER upload: secrets, local state, research payloads, build artifacts
+/.env
+/.env.*
+!/.env.example
+
+# build artifacts & deps (rebuilt on Railway)
+/node_modules
+/.next
+/db
+/dev.log
+/server.log
+
+# research / audit payloads (not needed to build or run)
+/research
+/notion_raw
+/tool-results
+/data
+/download
+/agent-ctx
+
+# project tooling not needed at runtime
+/scripts
+/examples
+/skills
+/tests
+/worklog.md
+/Caddyfile
+/.git

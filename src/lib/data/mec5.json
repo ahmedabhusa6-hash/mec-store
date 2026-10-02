@@ -1,0 +1,982 @@
+{
+ "run": "MEC-5.0 — كشف فجوات أسعار API",
+ "generated_utc": "2026-09-27T17:37:29.047894+00:00",
+ "mission": "تحويل أسعار الجملة عبر الواجهات البرمجية من مجهول إلى معلوم موثق: من يقدم سعرًا مختلفًا في API؟ وبكم؟",
+ "headline_stats": {
+  "providers_scanned": 12,
+  "with_confirmed_dual_pricing": 4,
+  "prodseller_rows": 38,
+  "stackvault_products": 274,
+  "prodseller_gap": {
+   "min": 2.6,
+   "max": 41.4,
+   "avg": 12.0,
+   "median": 9.1
+  },
+  "stackvault_gap": {
+   "min": 13.0,
+   "max": 57.4,
+   "avg": 19.9,
+   "median": 16.7
+  }
+ },
+ "prodseller": {
+  "summary": {
+   "provider": "ProdSeller",
+   "n_posts_scanned": 79,
+   "n_dual_price_rows": 38,
+   "n_with_api_price": 31,
+   "api_gap_pct": {
+    "min": 2.6,
+    "max": 41.4,
+    "avg": 12.0,
+    "median": 9.1
+   },
+   "bulk_gap_pct": {
+    "min": 2.9,
+    "max": 25.0,
+    "avg": 11.1
+   },
+   "structural_evidence": {
+    "admin_panel_dual_field": "Official screenshot post #132 (09/09): product form has 'Price (USD)' + 'API Price (optional)' — CapCut Pro 1M FW $1.37 / API $1.29",
+    "official_3tier_image": "Post #134 (11/09) image: FLASH SELL $0.43 / API PRICE $0.40 / BULK PRICE $0.39 (Gemini 18M)",
+    "api_docs_dual_field": "prodseller.com/api-docs: GET /v1/products returns 'price' (charged) + 'publicPrice' (reference)",
+    "marketing_claim": "Post 20/07: 'up to 35% OFF compared to public prices' for API bot users"
+   }
+  },
+  "structural_evidence": {
+   "admin_panel": "منشور #132 (09/09): لقطة من لوحة تحكم ProdSeller تُظهر حقلين: «Price (USD) $1.37» + «API Price (optional) $1.29» لمنتج CapCut Pro 1 Month FW",
+   "official_image": "منشور #134 (11/09): صورة رسمية بثلاث طبقات — FLASH SELL $0.43 / API PRICE $0.40 / BULK PRICE $0.39 (Gemini 18M)",
+   "api_docs": "prodseller.com/api-docs: نقطة GET /v1/products تُرجع «price» (المخصوم فعليًا من مفتاحك) + «publicPrice» (المعلن للمرجع) — بنية الفجوة مدمجة في التصميم",
+   "marketing": "منشور 20/07: إعلان رسمي «خصم حتى 35% مقارنة بالأسعار العامة لمستخدمي API بوت»",
+   "old_endpoint": "البوابة القديمة http://51.77.244.194 تحوّلت 301 إلى prodseller.com (12/08) — لا نسخة قديمة مكشوفة",
+   "wayback": "أرشيف الويب لا يحتفظ بلقطات لصفحات الأسعار (التحقق تعذّر — قيد الاسترجاع)"
+  },
+  "latest_per_product": [
+   {
+    "product": "CapCut Pro 30d",
+    "public": 1.7,
+    "api": null,
+    "bulk": 1.65,
+    "gap": 2.9,
+    "date": "2026-07-08"
+   },
+   {
+    "product": "Notion (reseller)",
+    "public": 1.4,
+    "api": null,
+    "bulk": 1.2,
+    "gap": 14.3,
+    "date": "2026-07-13"
+   },
+   {
+    "product": "Adobe Express 12M",
+    "public": 0.39,
+    "api": 0.37,
+    "bulk": null,
+    "gap": 5.1,
+    "date": "2026-09-23"
+   },
+   {
+    "product": "Gemini 18M",
+    "public": 0.48,
+    "api": null,
+    "bulk": 0.44,
+    "gap": 8.3,
+    "date": "2026-09-27"
+   },
+   {
+    "product": "Outlook/Hotmail ready-made",
+    "public": 0.02,
+    "api": 0.015,
+    "bulk": null,
+    "gap": 25.0,
+    "date": "2026-07-23"
+   },
+   {
+    "product": "iLovePDF 1Y (disc)",
+    "public": 0.8,
+    "api": 0.7,
+    "bulk": null,
+    "gap": 12.5,
+    "date": "2026-07-23"
+   },
+   {
+    "product": "Spotify Premium 3M",
+    "public": 0.95,
+    "api": 0.85,
+    "bulk": null,
+    "gap": 10.5,
+    "date": "2026-07-23"
+   },
+   {
+    "product": "Coursera Plus 1Y",
+    "public": 1.0,
+    "api": 0.84,
+    "bulk": null,
+    "gap": 16.0,
+    "date": "2026-07-24"
+   },
+   {
+    "product": "Office 365 1Y",
+    "public": 0.3,
+    "api": 0.2,
+    "bulk": null,
+    "gap": 33.3,
+    "date": "2026-07-24"
+   },
+   {
+    "product": "CapCut Pro Team 30d",
+    "public": 1.55,
+    "api": 1.45,
+    "bulk": null,
+    "gap": 6.5,
+    "date": "2026-07-24"
+   },
+   {
+    "product": "Gemini 18M links (restock)",
+    "public": 0.5,
+    "api": 0.46,
+    "bulk": null,
+    "gap": 8.0,
+    "date": "2026-07-25"
+   },
+   {
+    "product": "Adobe CC Admin 14 inv",
+    "public": 3.7,
+    "api": 3.3,
+    "bulk": null,
+    "gap": 10.8,
+    "date": "2026-07-25"
+   },
+   {
+    "product": "Canva Pro EDU Admin",
+    "public": 5.5,
+    "api": 5.0,
+    "bulk": null,
+    "gap": 9.1,
+    "date": "2026-07-26"
+   },
+   {
+    "product": "Gemini Pro 18M",
+    "public": 0.44,
+    "api": 0.41,
+    "bulk": null,
+    "gap": 6.8,
+    "date": "2026-08-16"
+   },
+   {
+    "product": "Gemini Pro 18M flash 500x",
+    "public": 0.46,
+    "api": 0.41,
+    "bulk": null,
+    "gap": 10.9,
+    "date": "2026-08-01"
+   },
+   {
+    "product": "Gemini Pro 18M flash",
+    "public": 0.45,
+    "api": 0.39,
+    "bulk": null,
+    "gap": 13.3,
+    "date": "2026-08-04"
+   },
+   {
+    "product": "CapCut Pro Private",
+    "public": 1.39,
+    "api": 1.29,
+    "bulk": null,
+    "gap": 7.2,
+    "date": "2026-08-05"
+   },
+   {
+    "product": "Gemini 18M flash",
+    "public": 0.69,
+    "api": null,
+    "bulk": 0.66,
+    "gap": 4.3,
+    "date": "2026-09-25"
+   },
+   {
+    "product": "Duolingo Super 12M",
+    "public": 0.45,
+    "api": 0.36,
+    "bulk": 0.34,
+    "gap": 20.0,
+    "date": "2026-09-24"
+   },
+   {
+    "product": "Gmail stable",
+    "public": 0.8,
+    "api": 0.75,
+    "bulk": 0.6,
+    "gap": 6.3,
+    "date": "2026-09-19"
+   },
+   {
+    "product": "ChatGPT K12 w/ Codex",
+    "public": 3.9,
+    "api": 3.8,
+    "bulk": null,
+    "gap": 2.6,
+    "date": "2026-09-20"
+   },
+   {
+    "product": "Office 365 Plus 1Y",
+    "public": 0.29,
+    "api": 0.17,
+    "bulk": null,
+    "gap": 41.4,
+    "date": "2026-09-20"
+   },
+   {
+    "product": "CapCut 7 days",
+    "public": 0.14,
+    "api": 0.13,
+    "bulk": 0.12,
+    "gap": 7.1,
+    "date": "2026-09-23"
+   },
+   {
+    "product": "CapCut 6 days",
+    "public": 0.1,
+    "api": 0.09,
+    "bulk": 0.09,
+    "gap": 10.0,
+    "date": "2026-09-23"
+   },
+   {
+    "product": "CapCut 1 Month",
+    "public": 1.29,
+    "api": 1.25,
+    "bulk": 1.2,
+    "gap": 3.1,
+    "date": "2026-09-27"
+   }
+  ],
+  "all_rows": [
+   {
+    "product": "CapCut Pro 30d",
+    "public": 1.7,
+    "api": null,
+    "bulk": 1.65,
+    "gap": null,
+    "date": "2026-07-08"
+   },
+   {
+    "product": "Notion (reseller)",
+    "public": 1.4,
+    "api": null,
+    "bulk": 1.2,
+    "gap": null,
+    "date": "2026-07-13"
+   },
+   {
+    "product": "Adobe Express 12M",
+    "public": 0.94,
+    "api": null,
+    "bulk": 0.85,
+    "gap": null,
+    "date": "2026-07-17"
+   },
+   {
+    "product": "Gemini 18M",
+    "public": 0.55,
+    "api": 0.43,
+    "bulk": null,
+    "gap": 21.8,
+    "date": "2026-07-21"
+   },
+   {
+    "product": "Outlook/Hotmail ready-made",
+    "public": 0.02,
+    "api": 0.015,
+    "bulk": null,
+    "gap": 25.0,
+    "date": "2026-07-23"
+   },
+   {
+    "product": "iLovePDF 1Y",
+    "public": 1.0,
+    "api": 0.8,
+    "bulk": null,
+    "gap": 20.0,
+    "date": "2026-07-23"
+   },
+   {
+    "product": "iLovePDF 1Y (disc)",
+    "public": 0.8,
+    "api": 0.7,
+    "bulk": null,
+    "gap": 12.5,
+    "date": "2026-07-23"
+   },
+   {
+    "product": "Spotify Premium 3M",
+    "public": 0.95,
+    "api": 0.85,
+    "bulk": null,
+    "gap": 10.5,
+    "date": "2026-07-23"
+   },
+   {
+    "product": "Coursera Plus 1Y",
+    "public": 1.0,
+    "api": 0.84,
+    "bulk": null,
+    "gap": 16.0,
+    "date": "2026-07-24"
+   },
+   {
+    "product": "Office 365 1Y",
+    "public": 0.3,
+    "api": 0.2,
+    "bulk": null,
+    "gap": 33.3,
+    "date": "2026-07-24"
+   },
+   {
+    "product": "CapCut Pro Team 30d",
+    "public": 1.55,
+    "api": 1.45,
+    "bulk": null,
+    "gap": 6.5,
+    "date": "2026-07-24"
+   },
+   {
+    "product": "Gemini 18M links (restock)",
+    "public": 0.5,
+    "api": 0.46,
+    "bulk": null,
+    "gap": 8.0,
+    "date": "2026-07-25"
+   },
+   {
+    "product": "Adobe CC Admin 14 inv",
+    "public": 3.7,
+    "api": 3.3,
+    "bulk": null,
+    "gap": 10.8,
+    "date": "2026-07-25"
+   },
+   {
+    "product": "Canva Pro EDU Admin",
+    "public": 5.5,
+    "api": 5.0,
+    "bulk": null,
+    "gap": 9.1,
+    "date": "2026-07-26"
+   },
+   {
+    "product": "Gemini 18M (new method)",
+    "public": 1.0,
+    "api": 0.95,
+    "bulk": null,
+    "gap": 5.0,
+    "date": "2026-07-28"
+   },
+   {
+    "product": "Gemini 18M",
+    "public": 0.75,
+    "api": 0.7,
+    "bulk": null,
+    "gap": 6.7,
+    "date": "2026-07-30"
+   },
+   {
+    "product": "Gemini Pro 18M",
+    "public": 0.59,
+    "api": 0.5,
+    "bulk": null,
+    "gap": 15.3,
+    "date": "2026-07-31"
+   },
+   {
+    "product": "Gemini Pro 18M",
+    "public": 0.5,
+    "api": 0.45,
+    "bulk": null,
+    "gap": 10.0,
+    "date": "2026-08-01"
+   },
+   {
+    "product": "Gemini Pro 18M flash 500x",
+    "public": 0.46,
+    "api": 0.41,
+    "bulk": null,
+    "gap": 10.9,
+    "date": "2026-08-01"
+   },
+   {
+    "product": "Gemini Pro 18M flash",
+    "public": 0.45,
+    "api": 0.39,
+    "bulk": null,
+    "gap": 13.3,
+    "date": "2026-08-04"
+   },
+   {
+    "product": "CapCut Pro Private",
+    "public": 1.39,
+    "api": 1.29,
+    "bulk": null,
+    "gap": 7.2,
+    "date": "2026-08-05"
+   },
+   {
+    "product": "Gemini Pro 18M",
+    "public": 0.44,
+    "api": 0.41,
+    "bulk": null,
+    "gap": 6.8,
+    "date": "2026-08-16"
+   },
+   {
+    "product": "Gemini 18M flash",
+    "public": 0.43,
+    "api": 0.4,
+    "bulk": 0.39,
+    "gap": 7.0,
+    "date": "2026-09-11"
+   },
+   {
+    "product": "Gemini 18M flash",
+    "public": 0.59,
+    "api": 0.55,
+    "bulk": null,
+    "gap": 6.8,
+    "date": "2026-09-19"
+   },
+   {
+    "product": "Duolingo Super 12M",
+    "public": 0.59,
+    "api": 0.55,
+    "bulk": 0.5,
+    "gap": 6.8,
+    "date": "2026-09-19"
+   },
+   {
+    "product": "Gmail stable",
+    "public": 0.8,
+    "api": 0.75,
+    "bulk": 0.6,
+    "gap": 6.3,
+    "date": "2026-09-19"
+   },
+   {
+    "product": "Gemini 18M",
+    "public": 0.53,
+    "api": 0.5,
+    "bulk": null,
+    "gap": 5.7,
+    "date": "2026-09-19"
+   },
+   {
+    "product": "Gemini 18M flash",
+    "public": 0.49,
+    "api": null,
+    "bulk": 0.45,
+    "gap": null,
+    "date": "2026-09-20"
+   },
+   {
+    "product": "ChatGPT K12 w/ Codex",
+    "public": 3.9,
+    "api": 3.8,
+    "bulk": null,
+    "gap": 2.6,
+    "date": "2026-09-20"
+   },
+   {
+    "product": "Office 365 Plus 1Y",
+    "public": 0.29,
+    "api": 0.17,
+    "bulk": null,
+    "gap": 41.4,
+    "date": "2026-09-20"
+   },
+   {
+    "product": "CapCut 7 days",
+    "public": 0.14,
+    "api": 0.13,
+    "bulk": 0.12,
+    "gap": 7.1,
+    "date": "2026-09-23"
+   },
+   {
+    "product": "CapCut 6 days",
+    "public": 0.1,
+    "api": 0.09,
+    "bulk": 0.09,
+    "gap": 10.0,
+    "date": "2026-09-23"
+   },
+   {
+    "product": "Adobe Express 12M",
+    "public": 0.39,
+    "api": 0.37,
+    "bulk": null,
+    "gap": 5.1,
+    "date": "2026-09-23"
+   },
+   {
+    "product": "Duolingo Super 12M",
+    "public": 0.45,
+    "api": 0.36,
+    "bulk": 0.34,
+    "gap": 20.0,
+    "date": "2026-09-24"
+   },
+   {
+    "product": "Gemini 18M flash",
+    "public": 0.69,
+    "api": null,
+    "bulk": 0.66,
+    "gap": null,
+    "date": "2026-09-25"
+   },
+   {
+    "product": "Gemini 18M",
+    "public": 0.65,
+    "api": null,
+    "bulk": 0.63,
+    "gap": null,
+    "date": "2026-09-25"
+   },
+   {
+    "product": "Gemini 18M",
+    "public": 0.48,
+    "api": null,
+    "bulk": 0.44,
+    "gap": null,
+    "date": "2026-09-27"
+   },
+   {
+    "product": "CapCut 1 Month",
+    "public": 1.29,
+    "api": 1.25,
+    "bulk": 1.2,
+    "gap": 3.1,
+    "date": "2026-09-27"
+   }
+  ]
+ },
+ "stackvault": {
+  "summary": {
+   "provider": "StackVault (stackvault.shop / decohomz.com backend)",
+   "source": "decohomz.com/sv-api/products (stackvault.shop backend)",
+   "n_products_total": 275,
+   "n_with_dual_price": 274,
+   "gap_pct": {
+    "min": 13.0,
+    "max": 57.4,
+    "avg": 19.9,
+    "median": 16.7
+   },
+   "by_category": {
+    "Digital Services": {
+     "n": 127,
+     "avg_gap_pct": 20.5
+    },
+    "AI Subscriptions": {
+     "n": 70,
+     "avg_gap_pct": 19.1
+    },
+    "Design & Editing": {
+     "n": 59,
+     "avg_gap_pct": 18.9
+    },
+    "Software Keys": {
+     "n": 13,
+     "avg_gap_pct": 21.0
+    },
+    "Streaming": {
+     "n": 3,
+     "avg_gap_pct": 18.7
+    },
+    "Bulk Emails": {
+     "n": 1,
+     "avg_gap_pct": 33.3
+    },
+    "Learning": {
+     "n": 1,
+     "avg_gap_pct": 31.9
+    }
+   },
+   "note": "costPrice = actual input/cost price exposed by API; public price = what the platform charges buyers. This is the platform's OWN margin structure, fully public."
+  },
+  "top_gap": [
+   {
+    "product": "🍎 Apple Music 5M",
+    "price": 2.35,
+    "cost": 1,
+    "gap": 57.4,
+    "x": 2.35
+   },
+   {
+    "product": "Decor is 20% cheaper than the original price if you don't have Nitro (",
+    "price": 0.02,
+    "cost": 0.01,
+    "gap": 50.0,
+    "x": 2.0
+   },
+   {
+    "product": "Decor is 25% cheaper than the original price if you have Nitro (contac",
+    "price": 0.02,
+    "cost": 0.01,
+    "gap": 50.0,
+    "x": 2.0
+   },
+   {
+    "product": "Gift Decor 15% cheaper than the original price (IB admin)",
+    "price": 0.02,
+    "cost": 0.01,
+    "gap": 50.0,
+    "x": 2.0
+   },
+   {
+    "product": "📝 Notion Edu Plus Account",
+    "price": 1.6,
+    "cost": 0.8,
+    "gap": 50.0,
+    "x": 2.0
+   },
+   {
+    "product": "😶‍🌫️ Microsoft Office 365 Plus 1 year",
+    "price": 0.38,
+    "cost": 0.21,
+    "gap": 44.7,
+    "x": 1.81
+   },
+   {
+    "product": "💼 Linkedin Career 3M",
+    "price": 1.15,
+    "cost": 0.65,
+    "gap": 43.5,
+    "x": 1.77
+   },
+   {
+    "product": "🎨 Capcut pro 6 days FW",
+    "price": 0.14,
+    "cost": 0.09,
+    "gap": 35.7,
+    "x": 1.56
+   },
+   {
+    "product": "🎨 Capcut Pro 7D FW",
+    "price": 0.2,
+    "cost": 0.13,
+    "gap": 35.0,
+    "x": 1.54
+   },
+   {
+    "product": "🎨 ChatGPT Gmail FREE 12 months - no warranty",
+    "price": 0.06,
+    "cost": 0.04,
+    "gap": 33.3,
+    "x": 1.5
+   },
+   {
+    "product": "🎨 ChatGPT offers Plus $0 for 1 month - no warranty",
+    "price": 0.3,
+    "cost": 0.2,
+    "gap": 33.3,
+    "x": 1.5
+   },
+   {
+    "product": "💰 Discord token 24-hour warranty",
+    "price": 0.15,
+    "cost": 0.1,
+    "gap": 33.3,
+    "x": 1.5
+   },
+   {
+    "product": "📦 Flux 03 1 month warranty 24h",
+    "price": 0.3,
+    "cost": 0.2,
+    "gap": 33.3,
+    "x": 1.5
+   },
+   {
+    "product": "📩 Hotmail Trusted - 6 months - no warranty",
+    "price": 0.03,
+    "cost": 0.02,
+    "gap": 33.3,
+    "x": 1.5
+   },
+   {
+    "product": "📩 Outlook Trusted - 6 months - no warranty",
+    "price": 0.03,
+    "cost": 0.02,
+    "gap": 33.3,
+    "x": 1.5
+   }
+  ],
+  "bottom_gap": [
+   {
+    "product": "🔥Chatgpt Plus Vipp 1 month full warranty",
+    "price": 12.81,
+    "cost": 10.67,
+    "gap": 16.7,
+    "x": 1.2
+   },
+   {
+    "product": "🔥ElevenLabs Redeem 1M Credit",
+    "price": 12.3,
+    "cost": 10.25,
+    "gap": 16.7,
+    "x": 1.2
+   },
+   {
+    "product": "🔥ElevenLabs Redeem 300K Credit",
+    "price": 5.45,
+    "cost": 4.54,
+    "gap": 16.7,
+    "x": 1.2
+   },
+   {
+    "product": "🔥Minimax Redeem 1M Credit",
+    "price": 12.76,
+    "cost": 10.63,
+    "gap": 16.7,
+    "x": 1.2
+   },
+   {
+    "product": "🔥Minimax Redeem 300K Credit",
+    "price": 5.45,
+    "cost": 4.54,
+    "gap": 16.7,
+    "x": 1.2
+   }
+  ]
+ },
+ "kinguin": {
+  "exists": true,
+  "docs": "github.com/kinguinltdhk/Kinguin-eCommerce-API (public, updated 2026-09-18)",
+  "access": "Kinguin ID → APPLY FOR ACCESS → approval → X-Api-Key · sandbox self-serve at sandbox.kinguin.net/integration",
+  "endpoints_live": "gateway.kinguin.net/esa/api (401 structured = live) + sandbox gateway",
+  "example_tiers": [
+   {
+    "qty": "1+",
+    "price": 5.79,
+    "gap": 0.0
+   },
+   {
+    "qty": "10+",
+    "price": 5.5,
+    "gap": 5.0
+   },
+   {
+    "qty": "50+",
+    "price": 5.4,
+    "gap": 6.7
+   },
+   {
+    "qty": "100+",
+    "price": 5.3,
+    "gap": 8.5
+   },
+   {
+    "qty": "500+",
+    "price": 5.2,
+    "gap": 10.2
+   }
+  ],
+  "note": "Counter-Strike: Source (kinguinId 1949) — official docs example. Wholesale = per-offer wholesale.enabled + tiers[]; added 2024-06-18"
+ },
+ "turgame": {
+  "exists": true,
+  "portal": "wholesale.turgame.com",
+  "catalog_floor_gap": {
+   "avg": 0.91,
+   "median": 0.94,
+   "range": "0.48–1.27%",
+   "n_matched": 225
+  },
+  "tiers": "Bronze (₺0) / Silver (₺5K) / Gold (₺20K) / Platinum (₺50K) — خصومات فعلية سرية داخل البوابة",
+  "kyc": "استمارة + معرف وطني/ضريبي + اتفاقية موزع v1.0.0 + محفظة Turgame للتسوية",
+  "sample_rows": [
+   {
+    "product": "Google Play TR 500",
+    "retail": "—",
+    "wholesale": "491.64 TRY = 98.3% من القيمة الاسمية",
+    "gap": 1.7
+   },
+   {
+    "product": "Steam KSA 20 SAR",
+    "retail": "254.10 TRY",
+    "wholesale": "251.60 TRY",
+    "gap": 0.98
+   },
+   {
+    "product": "PS US $100",
+    "retail": "4626.20 TRY",
+    "wholesale": "4581.30 TRY",
+    "gap": 0.97
+   }
+  ],
+  "supply_note": "رموز Turgame تتدفق من شبكة توزيع EZPIN (retailer_item_id: EZPIN-1065)"
+ },
+ "reloadly": {
+  "exists": true,
+  "model": "خصم منشور لكل منتج (discountPercentage) + نقطة GET /discounts مخصصة",
+  "doc_samples": [
+   {
+    "brand": "1-800-PetSupplies",
+    "discount": 7.5
+   },
+   {
+    "brand": "Apple Music 12m Canada",
+    "discount": 2.0
+   },
+   {
+    "brand": "Afghan Wireless (شحن)",
+    "discount": 10.0
+   }
+  ],
+  "access": "تسجيل مجاني ذاتي الخدمة + توثيق علني"
+ },
+ "verdicts": [
+  {
+   "provider": "StackVault",
+   "api": "نعم — مكشوف سابقًا",
+   "gap": "19.9% متوسط (13–57.4%)",
+   "n": "274 منتجًا",
+   "access": "API كان مفتوحًا (decohomz.com/sv-api) — الآن 403",
+   "verdict": "أعلى فجوة موثقة — بنية تكلفة كاملة مكشوفة",
+   "status": "confirmed"
+  },
+  {
+   "provider": "ProdSeller",
+   "api": "نعم — رسمي",
+   "gap": "12.0% متوسط · وسيط 9.1% (2.6–41.4%)",
+   "n": "38 صفًا مؤرخًا",
+   "access": "بوت تيليجرام + USDT — لا KYC، فوري",
+   "verdict": "أفضل بوابة مرجعية + أدلة هيكلية ثلاثية (لوحة التحكم + صورة رسمية + وثائق API)",
+   "status": "confirmed"
+  },
+  {
+   "provider": "Kinguin",
+   "api": "نعم — رسمي",
+   "gap": "5.0–10.2% (طبقات كمية)",
+   "n": "مثال رسمي موثق",
+   "access": "طلب موافقة + sandbox ذاتي",
+   "verdict": "جملة كمية موثقة في الوثائق الرسمية — الطبقات 10+/50+/100+/500+",
+   "status": "confirmed"
+  },
+  {
+   "provider": "Turgame",
+   "api": "نعم — B2B رسمي",
+   "gap": "~0.91% أرضية الكتالوج العام (0.48–1.27%)",
+   "n": "225 صفًا مطابقًا",
+   "access": "استمارة جملة + KYC (معرف ضريبي) + اتفاقية موزع + محفظة",
+   "verdict": "الأرضية العلنية ~1% فقط — خصومات Bronze→Platinum الحقيقية مخفية خلف البوابة",
+   "status": "partial"
+  },
+  {
+   "provider": "Reloadly",
+   "api": "نعم — مجاني ذاتي",
+   "gap": "2–10% (discountPercentage منشور لكل منتج)",
+   "n": "عينات وثائق",
+   "access": "تسجيل مجاني + توثيق علني كامل",
+   "verdict": "الوحيد الذي ينشر نسب الخصم عن قيمة الاسمية علنًا لكل علامة",
+   "status": "confirmed"
+  },
+  {
+   "provider": "DingConnect",
+   "api": "نعم — مجاني",
+   "gap": "خلف تسجيل دخول مجاني",
+   "n": "—",
+   "access": "حساب مجاني + API",
+   "verdict": "نفس بنية Reloadly لكن الأسعار مخفية خلف login",
+   "status": "hidden"
+  },
+  {
+   "provider": "Bitrefill",
+   "api": "نعم — REST v2 علني",
+   "gap": "صفر (تعادل تجزئة + مشاركة إيراد)",
+   "n": "—",
+   "access": "مفتوح",
+   "verdict": "لا فجوة سعرية — يعوّضها revenue share للأدوات",
+   "status": "none"
+  },
+  {
+   "provider": "U7BUY",
+   "api": "بائع فقط (Supply-side)",
+   "gap": "لا فجوة شرائية",
+   "n": "—",
+   "access": "حساب + طلب + مراجعة يدوية",
+   "verdict": "API لأتمتة البيع (webhooks) وليس لشراء أرخص — عمولة 10%",
+   "status": "none"
+  },
+  {
+   "provider": "Z2U",
+   "api": "لا يوجد",
+   "gap": "—",
+   "n": "—",
+   "access": "—",
+   "verdict": "سوق C2C — البائعون يحددون الأسعار، رسوم 5–9% على البائع",
+   "status": "none"
+  },
+  {
+   "provider": "GamsGo",
+   "api": "لا يوجد",
+   "gap": "—",
+   "n": "—",
+   "access": "—",
+   "verdict": "سوق C2C + برنامج بائعين (عمولات 4.9–9.9%) — ليس مورد API",
+   "status": "none"
+  },
+  {
+   "provider": "SEAGM",
+   "api": "استفسار فقط",
+   "gap": "غير منشور",
+   "n": "—",
+   "access": "استمارة شراكة — رأس مال $3,000–50,000 + طلب أدنى $10,000",
+   "verdict": "B2B بكميات كبيرة جدًا — أسعار بالتسعير فقط",
+   "status": "inquiry"
+  },
+  {
+   "provider": "OffGamers",
+   "api": "مورد فقط (Supply-side)",
+   "gap": "غير منشور",
+   "n": "—",
+   "access": "طلب Reseller عبر تذكرة",
+   "verdict": "API للموردين (تسعير + مخزون) — جهة الشراء بالاستمارة، الولاء نقاط فقط",
+   "status": "inquiry"
+  }
+ ],
+ "leaderboard": [
+  {
+   "provider": "StackVault",
+   "gap": "19.9%",
+   "color": "rose"
+  },
+  {
+   "provider": "ProdSeller",
+   "gap": "12.0%",
+   "color": "amber"
+  },
+  {
+   "provider": "Kinguin",
+   "gap": "5–10.2%",
+   "color": "emerald"
+  },
+  {
+   "provider": "Reloadly",
+   "gap": "2–10%",
+   "color": "cyan"
+  },
+  {
+   "provider": "Turgame",
+   "gap": "~1% (أرضية علنية)",
+   "color": "zinc"
+  }
+ ],
+ "next_moves": [
+  "فتح حساب ProdSeller (بوت + USDT) ← GET /v1/products يكشف الفجوة الفعلية لكل منتج لحظيًا",
+  "تسجيل Kinguin sandbox ← سحب كامل الكتالوج مع offers[].wholesale.tiers",
+  "حساب Reloadly مجاني ← GET /discounts لكل العلامات",
+  "استمارة Turgame الجملة ← كشف خصومات Bronze→Platinum الحقيقية"
+ ]
+}
