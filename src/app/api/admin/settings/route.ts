@@ -1,6 +1,6 @@
 import { requireOwner } from "@/lib/auth";
 import { settingsData, POLICY } from "@/lib/intel";
-import { sbPatch } from "@/lib/supabase";
+import { sbPost, sbPatch } from "@/lib/supabase";
 import { audit } from "@/lib/audit";
 import { clientIp } from "@/lib/ratelimit";
 
@@ -59,11 +59,15 @@ export async function PATCH(req: Request) {
     if (!Number.isFinite(num) || num < spec.min || num > spec.max) {
       return Response.json({ error: `قيمة خارج النطاق (${spec.min}–${spec.max})` }, { status: 400 });
     }
-    await sbPatch(`settings?key=eq.${encodeURIComponent(key)}`, {
-      value: String(num),
-      updated_at: now,
-      updated_by: g.owner.email,
-    });
+    // UPSERT (not PATCH-with-filter): the row may not exist yet — a filtered PATCH
+    // would silently update 0 rows and report success (live bug found 2026-10-11:
+    // owner ceiling change ق5 returned ok but wrote nothing). on_conflict=key +
+    // resolution=merge-duplicates creates or updates atomically, same as monitor.py.
+    await sbPost(
+      `settings?on_conflict=key`,
+      { key, value: String(num), updated_at: now, updated_by: g.owner.email },
+      "return=minimal,resolution=merge-duplicates",
+    );
     await audit(g.owner.email, "settings.update", {
       entity: "settings",
       entityId: key,

@@ -34,3 +34,7 @@ dev.log
 /data
 /download
 /archive
+
+# python build artifacts
+__pycache__/
+*.py[cod]
