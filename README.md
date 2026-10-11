@@ -47,3 +47,6 @@ bun install
 bun run lint        # فحص الجودة
 bun run dev         # خادم التطوير (يتطلب .env بالمتغيرات أعلاه)
 ```
+
+## سجل النشر
+- 2026-10-11: v2.0 — إعادة البناء الشاملة (web + dash + monitor v3 + CI)
