@@ -1,0 +1,6 @@
+# MEC Railway deploy — app lives at repo root; exclude non-web trees
+/price-monitor
+/docs
+/.github
+*.md
+!README.md

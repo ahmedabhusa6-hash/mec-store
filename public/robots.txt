@@ -1,0 +1,21 @@
+# MEC Digital Store — robots
+# FIX (MEC-21-B): added Sitemap + Disallow for internal surfaces.
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+# Internal owner research panel + API surface must not be indexed/crawled
+User-agent: *
+Disallow: /intel
+Disallow: /api
+
+Sitemap: https://mec-store-production.up.railway.app/sitemap.xml

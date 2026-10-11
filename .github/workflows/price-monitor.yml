@@ -1,0 +1,38 @@
+name: Price Monitor — مراقب أسعار الموردين
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # كل 30 دقيقة (UTC) — انتعاش أسرع للأسعار
+  workflow_dispatch:
+    inputs:
+      dispatched_by:
+        description: "من أطلق الدورة (لوحة تحكم المالك)"
+        required: false
+        default: ""
+
+concurrency:
+  group: price-monitor
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r price-monitor/requirements.txt
+      - run: python price-monitor/monitor.py
+        env:
+          TG_API_ID: ${{ secrets.TG_API_ID }}
+          TG_API_HASH: ${{ secrets.TG_API_HASH }}
+          TG_SESSION: ${{ secrets.TG_SESSION }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+          RUNNER: github-actions
+          DISPATCHED_BY: ${{ github.event.inputs.dispatched_by }}
