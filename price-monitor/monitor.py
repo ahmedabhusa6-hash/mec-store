@@ -291,6 +291,16 @@ async def main():
     except Exception as e:
         print(f"  [provider] engine error (isolated, cycle continues): {type(e).__name__}: {e}")
 
+    # 0.5) مطابقة المنتجات عبر المزودين (قواعد حتمية — تعمل على بيانات القاعدة فقط)
+    try:
+        from providers.matching import run_matching
+        m = run_matching()
+        warn = "" if m.get("ok") else f" warn={str(m.get('write_back_error') or m.get('benchmark_error'))[:80]}"
+        print(f"  [match] benchmarks={m.get('benchmarks')} comparable={m.get('comparable')} "
+              f"matched={m.get('matched')}/{m.get('rows')} ms={m.get('ms')}{warn}")
+    except Exception as e:
+        print(f"  [match] engine error (isolated, cycle continues): {type(e).__name__}: {e}")
+
 
     sess_env = os.environ.get("TG_SESSION")
     local = "/home/z/my-project/research/tg_si/tg_session"
