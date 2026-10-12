@@ -49,7 +49,12 @@ class HttpResult:
 
 def http(method, url, headers=None, payload=None, timeout=30):
     data = json.dumps(payload).encode() if payload is not None else None
-    h = {"Content-Type": "application/json", "Accept": "application/json"}
+    # Browser-grade UA: several providers sit behind Cloudflare bot rules that
+    # instantly 403 the default "Python-urllib/3.x" UA (live evidence 2026-10-13:
+    # acczone/digitalcore/richai 403 from Actions, 200 with this UA).
+    h = {"Content-Type": "application/json", "Accept": "application/json",
+         "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+                       "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"}
     if headers:
         h.update(headers)
     req = urllib.request.Request(url, data=data, headers=h, method=method)
