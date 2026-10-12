@@ -50,3 +50,22 @@ bun run dev         # خادم التطوير (يتطلب .env بالمتغير�
 
 ## سجل النشر
 - 2026-10-11: v2.0 — إعادة البناء الشاملة (web + dash + monitor v3 + CI)
+- 2026-10-12: v2.1 — طبقة تكامل المزودين الموحدة (سجل providers + محرك مزامنة API
+  بمنهجية حالات صادقة + موصل Reloadly وفق OpenAPI 3.1.0 الرسمية + قسم
+  «التكاملات والمزامنة» في اللوحة) + تحويل المنصة لخاصة بالكامل (قرار المالك 11:
+  بوابة المالك على / و /api/prices و /api/stats) + إصلاح بنية CI (branches).
+
+## تكاملات المزودين (v2.1)
+
+سجل موحد (`providers`) يفصل مزودي API عن منظومة تلغرام. الحالة لا تُرفع إلا بدليل:
+DISCOVERED → DOCUMENTATION_FOUND → CREDENTIALS_REQUIRED → READY_FOR_TEST →
+READ_ONLY_TEST_PASSED → SYNC_ACTIVE (أو AUTH_FAILED / RATE_LIMITED).
+نتيجة موثقة 2026-10-12: لا توجد واجهات API رسمية في نطاق اشتراكات AI (كل الموردين
+قنوات تلغرام)؛ منصات API الرسمية موجودة في نطاقات بطاقات الهدايا/أرصدة الألعاب
+(Reloadly موثقة بالكامل وبانتظار اعتمادات المالك).
+
+## اختبارات الموصلات
+```bash
+SUPABASE_URL=https://invalid.example.supabase.co SUPABASE_KEY=test-key \
+  python price-monitor/tests/test_providers.py   # 9 اختبارات معزولة (بلا شبكة)
+```

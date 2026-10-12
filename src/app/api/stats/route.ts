@@ -1,5 +1,6 @@
 import { sbCount, sbGet } from "@/lib/supabase";
 import { latestPrices, freshnessBucket } from "@/lib/intel";
+import { requireOwner } from "@/lib/auth";
 
 export const dynamic = "force-dynamic";
 
@@ -8,7 +9,10 @@ type RunRaw = {
   channels_scanned: number | null; prices_added: number | null; joins_ok: number | null; errors: string | null;
 };
 
+/** PRIVATE per owner master-prompt decision 11 (2026-10-12): owner session required. */
 export async function GET() {
+  const g = await requireOwner();
+  if ("deny" in g) return g.deny;
   try {
     const [observations, channels, discoveries, statements, runs, latest] = await Promise.all([
       sbCount("price_observations"),

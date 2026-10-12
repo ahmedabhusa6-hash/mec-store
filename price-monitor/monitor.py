@@ -281,6 +281,17 @@ async def main():
           + (f", by owner console" if DISPATCHED_BY else "") + ") ===")
     t0 = time.time()
 
+    # 0) مزامنة مزودي API (معزولة تمامًا عن مسار تلغرام — فشل أي مزود لا يكسر الدورة)
+    try:
+        from providers.base import sync_all_providers
+        psum = sync_all_providers(run_trigger="scheduled" if not DISPATCHED_BY else "manual")
+        for s in psum:
+            print(f"  [provider] {s.get('code')}: {s.get('status')}"
+                  + (f" items={s.get('items')} new={s.get('new')} ms={s.get('ms')}" if s.get('status') == 'success' else ''))
+    except Exception as e:
+        print(f"  [provider] engine error (isolated, cycle continues): {type(e).__name__}: {e}")
+
+
     sess_env = os.environ.get("TG_SESSION")
     local = "/home/z/my-project/research/tg_si/tg_session"
     if sess_env:
@@ -640,6 +651,18 @@ async def main():
         "joins_ok": stats["joins_ok"], "joins_private": stats["joins_private"],
         "errors": json.dumps(stats["errors"][:20], ensure_ascii=False)},
        method="PATCH")
+    # 5) تحديث مزود تلغرام في سجل المزودين الموحد (المراقب هو محرك مزامنته)
+    try:
+        sb("providers?on_conflict=code", {
+            "code": "telegram_ecosystem",
+            "name": f"منظومة تلغرام ({stats['channels']} مصدرًا مراقَبًا)",
+            "kind": "telegram", "status": "SYNC_ACTIVE",
+            "sync_interval_min": 30,
+            "last_sync_at": now_iso(), "last_ok_at": now_iso(),
+            "updated_at": now_iso(),
+        }, prefer="return=minimal,resolution=merge-duplicates")
+    except Exception as e:
+        print(f"[provider-registry] telegram row update failed (isolated): {e}")
     print(f"=== done in {int(time.time()-t0)}s: {stats['channels']} ch · "
           f"+{stats['new_messages']} msg · +{stats['prices']} prices · "
           f"+{stats['new_handles']} handles · +{stats['invites_found']} invites · "

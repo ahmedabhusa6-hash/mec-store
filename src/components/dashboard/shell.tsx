@@ -7,7 +7,7 @@
 import { useState } from "react";
 import {
   LayoutDashboard, Tags, Boxes, Users, Radio, Radar, Cog, Gauge, Bell, ScrollText, Settings2,
-  RefreshCw, LogOut, Play, Loader2,
+  RefreshCw, LogOut, Play, Loader2, Plug,
 } from "lucide-react";
 import { OverviewView } from "./overview";
 import { PricesView } from "./prices";
@@ -16,6 +16,7 @@ import { SuppliersView } from "./suppliers";
 import { ChannelsView } from "./channels";
 import { DiscoveriesView } from "./discoveries";
 import { AutomationView } from "./automation";
+import { IntegrationsView } from "./integrations";
 import { QualityView } from "./quality";
 import { AlertsView } from "./alerts";
 import { AuditView } from "./audit";
@@ -29,6 +30,7 @@ const VIEWS = [
   { key: "suppliers", label: "الموردون", icon: Users, desc: "ملفات الموردين وإشاراتهم التجارية" },
   { key: "channels", label: "المصادر", icon: Radio, desc: "جرد القنوات والمجموعات والبوتات" },
   { key: "discoveries", label: "الاكتشافات والموافقات", icon: Radar, desc: "خط أنابيب المصادر الجديدة + اعتماد الانضمامات الخاصة" },
+  { key: "integrations", label: "التكاملات والمزامنة", icon: Plug, desc: "سجل الموردين الموحد — واجهات API + منظومة تلغرام" },
   { key: "automation", label: "الأتمتة", icon: Cog, desc: "دورات المراقبة التلقائية + تشغيل فوري" },
   { key: "quality", label: "جودة البيانات", icon: Gauge, desc: "انتعاش الأسعار وتغطية المسح والقِدم" },
   { key: "alerts", label: "التنبيهات", icon: Bell, desc: "مركز التنبيهات والأحداث الحرجة" },
@@ -184,6 +186,7 @@ export function Dashboard() {
             {view === "suppliers" && <SuppliersView />}
             {view === "channels" && <ChannelsView />}
             {view === "discoveries" && <DiscoveriesView onDispatched={refreshUnread} />}
+            {view === "integrations" && <IntegrationsView />}
             {view === "automation" && <AutomationView />}
             {view === "quality" && <QualityView />}
             {view === "alerts" && <AlertsView onRead={refreshUnread} />}

@@ -1,12 +1,17 @@
 import { latestPrices, freshnessBucket, supplierLabel } from "@/lib/intel";
+import { requireOwner } from "@/lib/auth";
 
 export const dynamic = "force-dynamic";
 
 /**
- * PUBLIC facts-only price API (no raw_text — Content Licensing prudence).
- * ?q=  search product/supplier   ?limit=  max rows (≤500)
+ * Price API — facts only (no raw_text — Content Licensing prudence).
+ * PRIVATE per owner master-prompt decision 11 (2026-10-12): the platform is an
+ * internal owner tool; anonymous access to supplier/price data is not allowed.
+ * Owner session required. ?q= search   ?limit= max rows (≤500)
  */
 export async function GET(req: Request) {
+  const g = await requireOwner();
+  if ("deny" in g) return g.deny;
   try {
     const url = new URL(req.url);
     const query = (url.searchParams.get("q") ?? "").trim().toLowerCase();
