@@ -34,5 +34,15 @@ jobs:
           TG_SESSION: ${{ secrets.TG_SESSION }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+          STACKVAULT_API_KEY: ${{ secrets.STACKVAULT_API_KEY }}
+          PRODSELLER_API_KEY: ${{ secrets.PRODSELLER_API_KEY }}
+          ACCZONE_API_KEY: ${{ secrets.ACCZONE_API_KEY }}
+          AIVAULTHUB_API_KEY: ${{ secrets.AIVAULTHUB_API_KEY }}
+          AIVERSEX_API_KEY: ${{ secrets.AIVERSEX_API_KEY }}
+          RICHAI_API_KEY: ${{ secrets.RICHAI_API_KEY }}
+          DIGITALCORE_API_KEY: ${{ secrets.DIGITALCORE_API_KEY }}
+          AIXPRESS_API_KEY: ${{ secrets.AIXPRESS_API_KEY }}
+          RELOADLY_CLIENT_ID: ${{ secrets.RELOADLY_CLIENT_ID }}
+          RELOADLY_CLIENT_SECRET: ${{ secrets.RELOADLY_CLIENT_SECRET }}
           RUNNER: github-actions
           DISPATCHED_BY: ${{ github.event.inputs.dispatched_by }}

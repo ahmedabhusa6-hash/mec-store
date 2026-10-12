@@ -264,8 +264,21 @@ def sync_all_providers(run_trigger="scheduled"):
     monitor itself — this engine covers the API kind only. Degrades gracefully."""
     from .reloadly import ReloadlyAdapter
     from .mock import MockAdapter
+    from .botshops import (StackVaultAdapter, ProdSellerAdapter, AcczoneAdapter,
+                           AivaulthubAdapter, AiversexAdapter, RichAIAdapter,
+                           DigitalCoreAdapter)
 
-    ADAPTERS = {"reloadly": ReloadlyAdapter, "mock": MockAdapter}
+    ADAPTERS = {
+        "reloadly": ReloadlyAdapter,
+        "mock": MockAdapter,
+        "stackvault": StackVaultAdapter,
+        "prodseller": ProdSellerAdapter,
+        "acczone": AcczoneAdapter,
+        "aivaulthub": AivaulthubAdapter,
+        "aiversex": AiversexAdapter,
+        "richai": RichAIAdapter,
+        "digitalcore": DigitalCoreAdapter,
+    }
     providers = _safe(lambda: sb_rows("providers?select=*&kind=eq.api&order=code.asc&limit=100")) or []
     if providers is None:
         providers = []

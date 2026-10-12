@@ -229,6 +229,101 @@ def upsert_dedup_semantics():
     assert rows[0]["discount_pct"] == 8.0
 
 
+# ---------- 6) botshops adapters (7 live-verified providers, 2026-10-13) ----------
+def botshops_contract_matrix():
+    """Auth header shape + catalog normalization for each bot-shop adapter,
+    using payloads captured verbatim from live responses."""
+    from providers import botshops as bs
+
+    cases = [
+        # (adapter, creds env name, verify path, catalog payload, expected first row fields)
+        (bs.StackVaultAdapter, "STACKVAULT_API_KEY", "/balance",
+         {"ok": True, "products": [
+             {"id": "ps_1", "name": "X Premium 3M", "category": "Social", "category_id": "soc",
+              "price": 11.44, "stock": 93, "in_stock": True}]},
+         {"external_id": "ps_1", "unit_price": 11.44, "stock": 93, "status": "ACTIVE", "brand": "Social"}),
+        (bs.ProdSellerAdapter, "PRODSELLER_API_KEY", "/balance",
+         {"products": [
+             {"id": "abc", "name": "Capcut Pro", "price": 2.0, "publicPrice": 2.5,
+              "inStock": True, "delivery": "instant"}]},
+         {"external_id": "abc", "unit_price": 2.0, "discount_pct": 20.0, "stock": "IN_STOCK"}),
+        (bs.AcczoneAdapter, "ACCZONE_API_KEY", "/getBalance",
+         [{"key": "ADOBE_EXPRESS", "name": "Adobe Express 12M", "price": 0.12, "is_active": 1}],
+         {"external_id": "ADOBE_EXPRESS", "unit_price": 0.12, "status": "ACTIVE", "stock": "UNKNOWN"}),
+        (bs.AivaulthubAdapter, "AIVAULTHUB_API_KEY", "/me",
+         {"currency": "USD", "rate": "1 USD = 100 INR (fixed)", "products": [
+             {"service_id": "service_1", "name": "Netflix 1M", "stock": 7,
+              "pricing_tiers": [{"min": 1, "max": 100, "price": 10.0}]}]},
+         {"external_id": "service_1", "unit_price": 10.0, "stock": 7, "status": "ACTIVE"}),
+        (bs.AiversexAdapter, "AIVERSEX_API_KEY", "/me",
+         {"services": [{"service_id": "service_2", "name": "Spotify 3M", "price": 0.35, "stock": 0}]},
+         {"external_id": "service_2", "unit_price": 0.35, "stock": 0, "status": "INACTIVE"}),
+        (bs.RichAIAdapter, "RICHAI_API_KEY", "/me",
+         {"products": [
+             {"id": "1", "name": "Perplexity PRO", "slug": "ppx", "product_type": "cdk",
+              "retail_price": "14.000000", "your_unit_price": "10.000000", "stock": "None"}]},
+         {"external_id": "1", "unit_price": 10.0, "discount_pct": round((1 - 10/14)*100, 2), "stock": "UNKNOWN"}),
+        (bs.DigitalCoreAdapter, "DIGITALCORE_API_KEY", "/me",
+         [{"id": "gemini_pro_18_months", "name": "Gemini Pro 18M", "stock": "973", "price": "0.4",
+           "priceFrom": "0.35"}],
+         {"external_id": "gemini_pro_18_months", "unit_price": 0.4, "unit_cost": 0.35, "stock": 973}),
+    ]
+
+    for cls, env, verify_path, catalog_payload, expect in cases:
+        a = cls(creds={env: "test-key"})
+        assert a.credentials_present() is True, f"{cls.code}: creds missing"
+        assert cls(creds={}).credentials_present() is False, f"{cls.code}: empty creds must be absent"
+
+        captured = {}
+
+        def fake_call(self, method, url, headers=None, payload=None, timeout=None):
+            captured.update({"m": method, "u": url, "h": headers or {}})
+            if verify_path in url:
+                return types.SimpleNamespace(status=200, body={"ok": True, "balance": 0.5, "apikey": "test-key"}, text="")
+            if "/products" in url or "/getServices" in url:
+                return types.SimpleNamespace(status=200, body=catalog_payload, text="")
+            raise AssertionError(f"{cls.code}: unexpected url {url}")
+
+        a.call = types.MethodType(fake_call, a)
+        a.authenticate()
+        assert captured["u"].startswith(cls.BASE), f"{cls.code}: base url mismatch"
+        if cls.code == "acczone":
+            assert "apikey=test-key" in captured["u"], "acczone must pass key via query"
+        else:
+            hh = {k.lower(): v for k, v in captured["h"].items()}
+            assert any("test-key" in str(v) for v in hh.values()), f"{cls.code}: key not in headers"
+        rows = a.fetch_catalog()
+        assert len(rows) == 1, f"{cls.code}: expected 1 row, got {len(rows)}"
+        r0 = rows[0]
+        for k, v in expect.items():
+            assert r0[k] == v, f"{cls.code}.{k}: expected {v!r}, got {r0[k]!r}"
+        b = a.fetch_balance()
+        assert isinstance(b, dict) and "balance" in b, f"{cls.code}: balance parse failed"
+        # full row sanity (upsert contract with base engine)
+        for k in ("external_id", "product_name", "currency", "unit_price", "discount_pct",
+                  "unit_cost", "stock", "status", "raw"):
+            assert k in r0, f"{cls.code}: missing normalized field {k}"
+
+
+def botshops_auth_failure():
+    """401 from provider must raise ProviderError (engine flips to AUTH_FAILED)."""
+    import providers.base as pb
+    from providers.botshops import StackVaultAdapter
+
+    a = StackVaultAdapter(creds={"STACKVAULT_API_KEY": "bad"})
+    orig_http = pb.http
+    pb.http = lambda method, url, headers=None, payload=None, timeout=30: \
+        types.SimpleNamespace(status=401, body={"error": "Invalid API Key"}, text="")
+    try:
+        try:
+            a.authenticate()
+            raise AssertionError("401 must raise ProviderError")
+        except pb.ProviderError as e:
+            assert "401" in str(e)
+    finally:
+        pb.http = orig_http
+
+
 print("=== MEC provider framework tests (isolated) ===")
 t("reloadly_contract", reloadly_contract)
 t("reloadly_catalog_normalization", reloadly_catalog_normalization)
@@ -239,6 +334,8 @@ t("engine_degrades_gracefully", engine_degrades_gracefully)
 t("gating_skips_discovered", gating_skips_discovered)
 t("mock_adapter_paths", mock_adapter_paths)
 t("upsert_dedup_semantics", upsert_dedup_semantics)
+t("botshops_contract_matrix", botshops_contract_matrix)
+t("botshops_auth_failure", botshops_auth_failure)
 print(f"\n{len(PASS)} passed, {len(FAIL)} failed")
 if FAIL:
     for n, e in FAIL:

@@ -29,7 +29,7 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install -r price-monitor/requirements.txt
-      - run: python -m py_compile price-monitor/monitor.py price-monitor/providers/base.py price-monitor/providers/reloadly.py price-monitor/providers/mock.py
+      - run: python -m py_compile price-monitor/monitor.py price-monitor/providers/base.py price-monitor/providers/reloadly.py price-monitor/providers/mock.py price-monitor/providers/botshops.py
       - run: python price-monitor/tests/test_providers.py
         env:
           SUPABASE_URL: "https://invalid.example.supabase.co"
