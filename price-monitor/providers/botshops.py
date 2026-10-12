@@ -337,6 +337,17 @@ class RichAIAdapter(_ApiKeyAdapter):
                 "reseller_id": b.get("reseller_id")} if bal is not None else None
 
 
+# ---------------- AIXpress (dead key — honest feedback path) ----------------
+class AixpressAdapter(AiversexAdapter):
+    """Same hub software as aiversex but the aixpress-issued key is REJECTED
+    (401 on aiversehub.store, verified 2026-10-13) and aixpress.shop is down.
+    Adapter exists so the engine reports a truthful AUTH_FAILED instead of a
+    silent skip; will start working as-is if the provider recovers the key."""
+    code = "aixpress"
+    BASE = "https://aiversehub.store/api/v1"
+    CRED_ENV = "AIXPRESS_API_KEY"
+
+
 # ---------------- DigitalCore ----------------
 class DigitalCoreAdapter(_ApiKeyAdapter):
     code = "digitalcore"

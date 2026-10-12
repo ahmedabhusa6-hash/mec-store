@@ -266,7 +266,7 @@ def sync_all_providers(run_trigger="scheduled"):
     from .mock import MockAdapter
     from .botshops import (StackVaultAdapter, ProdSellerAdapter, AcczoneAdapter,
                            AivaulthubAdapter, AiversexAdapter, RichAIAdapter,
-                           DigitalCoreAdapter)
+                           DigitalCoreAdapter, AixpressAdapter)
 
     ADAPTERS = {
         "reloadly": ReloadlyAdapter,
@@ -278,6 +278,7 @@ def sync_all_providers(run_trigger="scheduled"):
         "aiversex": AiversexAdapter,
         "richai": RichAIAdapter,
         "digitalcore": DigitalCoreAdapter,
+        "aixpress": AixpressAdapter,
     }
     providers = _safe(lambda: sb_rows("providers?select=*&kind=eq.api&order=code.asc&limit=100")) or []
     if providers is None:
