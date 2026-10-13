@@ -37,15 +37,21 @@ export function LoginForm() {
     <div dir="rtl" className="min-h-screen bg-zinc-950 text-zinc-100 flex items-center justify-center p-4">
       <div className="w-full max-w-sm">
         <div className="flex items-center gap-3 mb-6 justify-center">
-          <div className="w-12 h-12 rounded-xl bg-emerald-950/80 border border-emerald-800/80 flex items-center justify-center">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden>
-              <path d="M3 17 L9 11 L13 15 L21 7" stroke="#34d399" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" />
-              <circle cx="21" cy="7" r="2.2" fill="#34d399" />
+          <div className="w-12 h-12 rounded-xl bg-amber-950/50 border border-amber-800/60 flex items-center justify-center">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden>
+              <path d="M12 4.6 V19" stroke="#fbbf24" strokeWidth="1.8" strokeLinecap="round" />
+              <path d="M8.6 19.4 H15.4" stroke="#fbbf24" strokeWidth="1.8" strokeLinecap="round" />
+              <path d="M4.6 7.6 H19.4" stroke="#fbbf24" strokeWidth="1.8" strokeLinecap="round" />
+              <path d="M4.6 7.6 L2.9 12.2 M4.6 7.6 L6.3 12.2" stroke="#fbbf24" strokeWidth="1.1" strokeLinecap="round" />
+              <path d="M2.3 12.2 A2.5 2.5 0 0 0 6.9 12.2" stroke="#fbbf24" strokeWidth="1.5" fill="none" strokeLinecap="round" />
+              <path d="M19.4 7.6 L17.7 12.2 M19.4 7.6 L21.1 12.2" stroke="#fbbf24" strokeWidth="1.1" strokeLinecap="round" />
+              <path d="M17.1 12.2 A2.5 2.5 0 0 0 21.7 12.2" stroke="#fbbf24" strokeWidth="1.5" fill="none" strokeLinecap="round" />
+              <circle cx="12" cy="3.6" r="1.25" fill="#fbbf24" />
             </svg>
           </div>
           <div>
-            <div className="text-[18px] font-extrabold text-zinc-50">MEC Intelligence</div>
-            <div className="text-[11px] text-zinc-500">لوحة تحكم المالك</div>
+            <div className="text-[18px] font-extrabold text-zinc-50">ميزان <span className="text-amber-400/90 font-bold">MizanIQ</span></div>
+            <div className="text-[11px] text-zinc-500">لوحة تحكم المالك — كل سعر بمصدره وتاريخه</div>
           </div>
         </div>
 

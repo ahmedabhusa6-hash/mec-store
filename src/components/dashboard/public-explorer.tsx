@@ -76,14 +76,20 @@ export function PublicExplorer({ rows, dbError }: { rows: PublicRow[]; dbError: 
       <header className="border-b border-zinc-800/70 bg-[#0b111c]">
         <div className="max-w-5xl mx-auto px-4 py-6">
           <div className="flex items-center gap-3">
-            <div className="w-11 h-11 rounded-xl bg-emerald-950/80 border border-emerald-800/80 flex items-center justify-center shrink-0">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden>
-                <path d="M3 17 L9 11 L13 15 L21 7" stroke="#34d399" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" />
-                <circle cx="21" cy="7" r="2.2" fill="#34d399" />
+            <div className="w-11 h-11 rounded-xl bg-amber-950/50 border border-amber-800/60 flex items-center justify-center shrink-0">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden>
+                <path d="M12 4.6 V19" stroke="#fbbf24" strokeWidth="1.8" strokeLinecap="round" />
+                <path d="M8.6 19.4 H15.4" stroke="#fbbf24" strokeWidth="1.8" strokeLinecap="round" />
+                <path d="M4.6 7.6 H19.4" stroke="#fbbf24" strokeWidth="1.8" strokeLinecap="round" />
+                <path d="M4.6 7.6 L2.9 12.2 M4.6 7.6 L6.3 12.2" stroke="#fbbf24" strokeWidth="1.1" strokeLinecap="round" />
+                <path d="M2.3 12.2 A2.5 2.5 0 0 0 6.9 12.2" stroke="#fbbf24" strokeWidth="1.5" fill="none" strokeLinecap="round" />
+                <path d="M19.4 7.6 L17.7 12.2 M19.4 7.6 L21.1 12.2" stroke="#fbbf24" strokeWidth="1.1" strokeLinecap="round" />
+                <path d="M17.1 12.2 A2.5 2.5 0 0 0 21.7 12.2" stroke="#fbbf24" strokeWidth="1.5" fill="none" strokeLinecap="round" />
+                <circle cx="12" cy="3.6" r="1.25" fill="#fbbf24" />
               </svg>
             </div>
             <div>
-              <h1 className="text-[22px] font-extrabold text-zinc-50 leading-7">MEC — قاعدة أسعار الموردين الحية</h1>
+              <h1 className="text-[22px] font-extrabold text-zinc-50 leading-7">ميزان — قاعدة أسعار الموردين الحية</h1>
               <p className="text-[12px] text-zinc-500 mt-0.5">
                 قياس آلي مستمر لأسعار المنتجات الرقمية من قنوات ومجموعات الموردين في تلغرام · مسح تفاضلي كل 30 دقيقة
               </p>

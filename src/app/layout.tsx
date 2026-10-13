@@ -15,10 +15,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "MEC Intelligence — داشبورد استخبارات أسعار الموردين",
+  title: "ميزان MizanIQ — استخبارات أسعار الموردين الحية",
   description:
-    "لوحة تحكم شاملة لمنصة MEC: رصد آلي مستمر لأسعار المنتجات الرقمية من قنوات ومجموعات الموردين في تلغرام — أسعار حية، منتجات، موردون، اكتشافات، أتمتة، تحليلات، وحوكمة امتثال.",
-  authors: [{ name: "MEC Digital Store" }],
+    "ميزان (MizanIQ): رصد آلي مستمر لأسعار المنتجات الرقمية من قنوات الموردين في تلغرام وواجهات API الرسمية — كل سعر بمصدره وتاريخه. قرار شراء أذكى من بيانات أصدق.",
+  authors: [{ name: "MizanIQ — ميزان" }],
   robots: { index: false, follow: false },
 };
 

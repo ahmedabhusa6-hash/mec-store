@@ -1,7 +1,7 @@
 "use client";
 
 /**
- * MEC Intelligence — owner dashboard shell (rebuild v4, 2026-10-11).
+ * ميزان MizanIQ — owner dashboard shell (identity applied 2026-10-13, owner order).
  * 11 views + owner bar (email, unread alerts badge, run-now dispatch, logout).
  */
 import { useState } from "react";
@@ -199,7 +199,7 @@ export function Dashboard() {
 
           <footer className="mt-auto border-t border-zinc-800/60 px-6 py-4 text-[10.5px] text-zinc-600 leading-5">
             <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
-              <span className="text-zinc-500 font-medium">MEC — منصة استخبارات أسعار الموردين</span>
+              <span className="text-zinc-500 font-medium">ميزان MizanIQ — منصة استخبارات أسعار الموردين</span>
               <span>·</span>
               <span>الأسعار معلنة من المتاجر ولم تُختبر بالشراء الفعلي</span>
               <span>·</span>
@@ -217,15 +217,23 @@ export function Dashboard() {
 function Logo() {
   return (
     <div className="flex items-center gap-2.5">
-      <div className="w-9 h-9 rounded-lg bg-emerald-950/80 border border-emerald-800/80 flex items-center justify-center">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden>
-          <path d="M3 17 L9 11 L13 15 L21 7" stroke="#34d399" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" />
-          <circle cx="21" cy="7" r="2.2" fill="#34d399" />
+      {/* ميزان (balance scale) — the brand mark: every price weighed with its
+          source and timestamp. Gold on deep amber; data accents stay emerald. */}
+      <div className="w-9 h-9 rounded-lg bg-amber-950/50 border border-amber-800/60 flex items-center justify-center">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" aria-hidden>
+          <path d="M12 4.6 V19" stroke="#fbbf24" strokeWidth="1.8" strokeLinecap="round" />
+          <path d="M8.6 19.4 H15.4" stroke="#fbbf24" strokeWidth="1.8" strokeLinecap="round" />
+          <path d="M4.6 7.6 H19.4" stroke="#fbbf24" strokeWidth="1.8" strokeLinecap="round" />
+          <path d="M4.6 7.6 L2.9 12.2 M4.6 7.6 L6.3 12.2" stroke="#fbbf24" strokeWidth="1.1" strokeLinecap="round" />
+          <path d="M2.3 12.2 A2.5 2.5 0 0 0 6.9 12.2" stroke="#fbbf24" strokeWidth="1.5" fill="none" strokeLinecap="round" />
+          <path d="M19.4 7.6 L17.7 12.2 M19.4 7.6 L21.1 12.2" stroke="#fbbf24" strokeWidth="1.1" strokeLinecap="round" />
+          <path d="M17.1 12.2 A2.5 2.5 0 0 0 21.7 12.2" stroke="#fbbf24" strokeWidth="1.5" fill="none" strokeLinecap="round" />
+          <circle cx="12" cy="3.6" r="1.25" fill="#fbbf24" />
         </svg>
       </div>
       <div>
-        <div className="text-[14px] font-extrabold text-zinc-50 leading-4">MEC Intelligence</div>
-        <div className="text-[10px] text-zinc-500 mt-0.5">استخبارات أسعار الموردين — تلغرام</div>
+        <div className="text-[14px] font-extrabold text-zinc-50 leading-4">ميزان <span className="text-amber-400/90 font-bold">MizanIQ</span></div>
+        <div className="text-[10px] text-zinc-500 mt-0.5">قرار شراء أذكى — من بيانات أصدق</div>
       </div>
     </div>
   );
