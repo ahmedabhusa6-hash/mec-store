@@ -324,6 +324,207 @@ def botshops_auth_failure():
         pb.http = orig_http
 
 
+# ---------- 7) bitrefill adapter (Personal API — live-verified 2026-10-13) ----------
+def bitrefill_contract():
+    from providers.bitrefill import BitrefillAdapter
+    a = BitrefillAdapter(creds={})
+    assert a.credentials_present() is False
+    a2 = BitrefillAdapter(creds={"BITREFILL_API_KEY": "k"})
+    assert a2.credentials_present() is True
+    captured = {}
+
+    def fake_call(self, method, url, headers=None, payload=None, timeout=None):
+        captured.update({"m": method, "u": url, "h": headers or {}})
+        # LIVE shape (2026-10-13): message at TOP level, not under data
+        return types.SimpleNamespace(status=200,
+                                     body={"meta": {}, "message": "pong"}, text="")
+
+    a2.call = types.MethodType(fake_call, a2)
+    a2.authenticate()
+    assert captured["u"].endswith("/v2/ping")
+    assert captured["h"]["Authorization"] == "Bearer k"
+
+    # docs shape (data.message) must also be accepted
+    a3 = BitrefillAdapter(creds={"BITREFILL_API_KEY": "k"})
+    a3.call = types.MethodType(
+        lambda self, method, url, headers=None, payload=None, timeout=None:
+        types.SimpleNamespace(status=200, body={"meta": {}, "data": {"message": "pong"}}, text=""),
+        a3)
+    assert a3.authenticate()
+
+    # 401 must fail loudly
+    a4 = BitrefillAdapter(creds={"BITREFILL_API_KEY": "bad"})
+    a4.call = types.MethodType(
+        lambda self, method, url, headers=None, payload=None, timeout=None:
+        types.SimpleNamespace(status=401, body={"error": "unauthorized"}, text=""),
+        a4)
+    try:
+        a4.authenticate()
+        raise AssertionError("401 must raise ProviderError")
+    except Exception as e:
+        assert "401" in str(e)
+
+
+def bitrefill_catalog_normalization():
+    from providers.bitrefill import BitrefillAdapter
+    import providers.bitrefill as bf
+    a = BitrefillAdapter(creds={"BITREFILL_API_KEY": "k"})
+    pages = {"n": 0}
+
+    def paged(self, method, url, headers=None, payload=None, timeout=None):
+        pages["n"] += 1
+        if pages["n"] == 1:
+            return types.SimpleNamespace(status=200, body={
+                "meta": {"limit": 50, "start": 0, "total": 3,
+                         "_next": "https://api-bitrefill.com/v2/products?limit=50&start=50"},
+                "data": [{
+                    "id": "amazon-us", "name": "Amazon US", "base_name": "Amazon",
+                    "country_code": "US", "currency": "USD", "categories": ["ecommerce"],
+                    "recipient_type": "email", "in_stock": True,
+                    "packages": [
+                        {"id": "amazon-us<&>25", "value": "25", "price": 29912, "amount": 25},
+                        {"id": "amazon-us<&>50", "value": "50", "price": 59824, "amount": 50},
+                    ]}]}, text="")
+        if "start=50" in url:
+            return types.SimpleNamespace(status=200, body={
+                "meta": {"limit": 50, "start": 50, "total": 3, "_next": None},
+                "data": [
+                    {"id": "bitrefill-esim-europe", "name": "Bitrefill eSIM Europe",
+                     "base_name": "Bitrefill eSIM", "country_code": "EU", "currency": "EUR",
+                     "categories": ["esim"], "recipient_type": "esim", "in_stock": True,
+                     "packages": [
+                         {"id": "bitrefill-esim-europe<&>1GB, 7 Days",
+                          "value": "1GB, 7 Days", "price": 4590, "amount": None},
+                         {"id": "bitrefill-esim-europe<&>3GB, 30 Days",
+                          "value": "3GB, 30 Days", "price": 12000, "amount": None},
+                     ]},
+                    {"id": "flexible-card", "name": "Flexible Card", "base_name": "Flexible",
+                     "country_code": "US", "currency": "USD", "categories": ["bill"],
+                     "recipient_type": "email", "in_stock": False,
+                     "packages": [], "range": {"min": 10, "max": 200, "step": 1}},
+                ]}, text="")
+        raise AssertionError(f"unexpected url {url}")
+
+    a.call = types.MethodType(paged, a)
+    orig_sleep = bf.time.sleep
+    bf.time.sleep = lambda s: None
+    try:
+        rows = a.fetch_catalog()
+    finally:
+        bf.time.sleep = orig_sleep
+    assert pages["n"] == 2, "must follow official meta._next pagination"
+    assert len(rows) == 5, "2 + 2 package rows + 1 range-only fallback row"
+    r0 = rows[0]
+    assert r0["external_id"] == "amazon-us<&>25"
+    assert r0["unit_price"] == 29912 and r0["currency"] == "BTC"
+    assert r0["raw"]["face_value"] == "25" and r0["raw"]["price_sats"] == 29912
+    assert r0["raw"]["face_currency"] == "USD" and r0["raw"]["price_unit"] == "sats"
+    assert r0["product_name"] == "Amazon US — 25 USD"
+    assert r0["stock"] == "IN_STOCK" and r0["status"] == "ACTIVE"
+    assert r0["brand"] == "Amazon" and r0["region"] == "US"
+    esim = rows[2]
+    assert esim["external_id"] == "bitrefill-esim-europe<&>1GB, 7 Days"
+    assert esim["product_name"] == "Bitrefill eSIM Europe — 1GB, 7 Days EUR"
+    rng = rows[4]
+    assert rng["external_id"] == "flexible-card<>range" and rng["unit_price"] is None
+    assert rng["raw"]["range"] == {"min": 10, "max": 200, "step": 1}
+    assert rng["stock"] == "OUT_OF_STOCK" and rng["status"] == "INACTIVE"
+
+    def bal_call(self, method, url, headers=None, payload=None, timeout=None):
+        return types.SimpleNamespace(status=200,
+                                     body={"data": {"balance": 0, "currency": "BTC"}}, text="")
+
+    a.call = types.MethodType(bal_call, a)
+    assert a.fetch_balance() == {"balance": 0, "currency": "BTC"}
+
+
+def bitrefill_truncation_guard():
+    """A pagination chain that dies before meta.total must RAISE — never
+    report a partial catalog as success (live incident 2026-10-13: engine run
+    silently landed 65,342 of 72,516 package rows and reported success)."""
+    from providers.bitrefill import BitrefillAdapter
+    import providers.bitrefill as bf
+    a = BitrefillAdapter(creds={"BITREFILL_API_KEY": "k"})
+
+    def paged(self, method, url, headers=None, payload=None, timeout=None):
+        if "start=50" in url:
+            return types.SimpleNamespace(status=200, body={
+                "meta": {"limit": 50, "start": 50, "total": 120, "_next": None},
+                "data": []}, text="")
+        return types.SimpleNamespace(status=200, body={
+            "meta": {"limit": 50, "start": 0, "total": 120,
+                     "_next": "https://api-bitrefill.com/v2/products?limit=50&start=50"},
+            "data": [{"id": f"p{i}", "name": f"P{i}", "currency": "USD",
+                      "in_stock": True,
+                      "packages": [{"id": f"p{i}<&>1", "value": "1", "price": 100}]}
+                     for i in range(50)]}, text="")
+
+    a.call = types.MethodType(paged, a)
+    orig_sleep = bf.time.sleep
+    bf.time.sleep = lambda s: None
+    try:
+        try:
+            a.fetch_catalog()
+            raise AssertionError("truncated catalog must raise ProviderError")
+        except Exception as e:
+            assert "truncated" in str(e).lower(), f"wrong error: {e}"
+    finally:
+        bf.time.sleep = orig_sleep
+
+
+def bitrefill_dedup_drift_tolerance():
+    """The /products listing drifts while paginated (live evidence
+    2026-10-13: same product at start=0 AND start=50 in one walk). The adapter
+    must collapse drift duplicates, keep the FRESHEST quote (last record),
+    and expose fetch stats for engine telemetry."""
+    from providers.bitrefill import BitrefillAdapter
+    a = BitrefillAdapter(creds={"BITREFILL_API_KEY": "k"})
+
+    def paged(self, method, url, headers=None, payload=None, timeout=None):
+        base = {"id": "amazon-us", "name": "Amazon US", "base_name": "Amazon",
+                "country_code": "US", "currency": "USD", "categories": ["ecommerce"],
+                "recipient_type": "email", "in_stock": True}
+        p_old = {**base, "packages": [{"id": "amazon-us<&>25", "value": "25",
+                                        "price": 11111, "amount": 25}]}
+        p_new = {**base, "packages": [{"id": "amazon-us<&>25", "value": "25",
+                                        "price": 22222, "amount": 25}]}
+        return types.SimpleNamespace(status=200, body={
+            "meta": {"limit": 50, "start": 0, "total": 2, "_next": None},
+            "data": [p_old, p_new]}, text="")
+
+    a.call = types.MethodType(paged, a)
+    rows = a.fetch_catalog()
+    assert len(rows) == 1, "drift duplicates must collapse to one row"
+    assert rows[0]["unit_price"] == 22222, "last record (freshest quote) must win"
+    assert a.last_fetch_stats == {"records_fetched": 2, "unique_products": 1,
+                                  "meta_total": 2}
+
+
+def diff_catalog_semantics():
+    """Batched engine diff must preserve per-item counting semantics and
+    never rewrite unchanged rows (bitrefill-scale catalogs: ~72.5k rows)."""
+    from providers.base import diff_catalog
+    existing = {
+        "a": {"unit_price": 1.0, "discount_pct": None, "stock": "IN_STOCK", "status": "ACTIVE"},
+        "b": {"unit_price": 2.0, "discount_pct": 10.0, "stock": "5", "status": "ACTIVE"},
+        "c": {"unit_price": 3.0, "discount_pct": None, "stock": "OUT", "status": "INACTIVE"},
+    }
+    catalog = [
+        {"external_id": "a", "unit_price": 1.0, "discount_pct": None,
+         "stock": "IN_STOCK", "status": "ACTIVE"},                       # unchanged
+        {"external_id": "b", "unit_price": 2.5, "discount_pct": 10.0,
+         "stock": "5", "status": "ACTIVE"},                              # price change
+        {"external_id": "c", "unit_price": 3.0, "discount_pct": None,
+         "stock": "IN", "status": "ACTIVE"},                             # stock change
+        {"external_id": "d", "unit_price": 9.0, "discount_pct": None,
+         "stock": "IN_STOCK", "status": "ACTIVE"},                       # new
+    ]
+    to_upsert, new, changed, prices = diff_catalog(existing, catalog)
+    assert new == 1 and prices == 1 and changed == 1
+    assert [r["external_id"] for r in to_upsert] == ["b", "c", "d"], \
+        "unchanged rows must not be written"
+
+
 print("=== MEC provider framework tests (isolated) ===")
 t("reloadly_contract", reloadly_contract)
 t("reloadly_catalog_normalization", reloadly_catalog_normalization)
@@ -336,6 +537,11 @@ t("mock_adapter_paths", mock_adapter_paths)
 t("upsert_dedup_semantics", upsert_dedup_semantics)
 t("botshops_contract_matrix", botshops_contract_matrix)
 t("botshops_auth_failure", botshops_auth_failure)
+t("bitrefill_contract", bitrefill_contract)
+t("bitrefill_catalog_normalization", bitrefill_catalog_normalization)
+t("bitrefill_truncation_guard", bitrefill_truncation_guard)
+t("bitrefill_dedup_drift_tolerance", bitrefill_dedup_drift_tolerance)
+t("diff_catalog_semantics", diff_catalog_semantics)
 print(f"\n{len(PASS)} passed, {len(FAIL)} failed")
 if FAIL:
     for n, e in FAIL:

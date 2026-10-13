@@ -213,21 +213,51 @@ def run_matching(sb_url=None, sb_key=None):
             raw = r.read().decode()
             return json.loads(raw) if raw else None
 
+    # paged read of the FULL table — Supabase/PostgREST caps any single
+    # request at 1000 rows (verified live 2026-10-13: a limit=5000 request
+    # returns exactly 1000), so page by 1000 or rows are silently truncated
+    rows = []
+    offset = 0
     try:
-        rows = _req("provider_products?select=id,provider_code,external_id,"
-                    "product_name,brand,region,currency,unit_price,discount_pct,"
-                    "unit_cost,stock,status&limit=5000")
+        while True:
+            page = _req("provider_products?select=id,provider_code,external_id,"
+                        "product_name,brand,region,currency,unit_price,discount_pct,"
+                        "unit_cost,stock,status,match_key,match_status"
+                        f"&order=id.asc&limit=1000&offset={offset}")
+            if not page:
+                break
+            rows.extend(page)
+            if len(page) < 1000:
+                break
+            offset += 1000
     except Exception as e:
         return {"ok": False, "error": f"read provider_products failed: {e}"}
 
     groups = {}
-    updates = []          # rows to upsert back with match fields
+    updates = []          # rows whose match fields CHANGE (write-back delta only)
     matched = unmatched = 0
+    skipped_retail_cards = 0
     for r in rows:
+        # Product-class boundary (honesty rule §8): sats-priced retail gift
+        # cards (bitrefill) are a DIFFERENT product class from subscription
+        # accounts. Mixing a $25 gift card's sats price with a $1.91 activated
+        # account in one benchmark corrupts min/max/spread. They are excluded
+        # from account benchmarks until a dedicated FX-aware, denomination-
+        # aware gift-card matching phase is designed and owner-approved.
+        if (r.get("currency") or "").upper() == "BTC":
+            skipped_retail_cards += 1
+            continue
         ident = normalize(r.get("product_name"))
         key = ident["match_key"] if ident else None
-        updates.append({**r, "match_key": key,
-                        "match_status": "MATCHED" if ident else "UNMATCHED"})
+        new_status = "MATCHED" if ident else "UNMATCHED"
+        if (r.get("match_key") or None) != key or r.get("match_status") != new_status:
+            updates.append({
+                "provider_code": r["provider_code"],
+                "external_id": r["external_id"],
+                "product_name": r["product_name"],
+                "match_key": key,
+                "match_status": new_status,
+            })
         if ident:
             matched += 1
             g = groups.setdefault(key, {"identity": ident, "offers": []})
@@ -241,16 +271,15 @@ def run_matching(sb_url=None, sb_key=None):
         else:
             unmatched += 1
 
-    # write back match fields (single batched upsert; product_name required —
+    # write back ONLY changed match fields, in chunks (product_name required —
     # PG checks NOT NULL on tuple formation BEFORE conflict arbitration)
     w_err = None
     try:
-        payload = [{k: r[k] for k in ("provider_code", "external_id",
-                                      "product_name", "match_key", "match_status")}
-                   for r in updates]
-        _req("provider_products?on_conflict=provider_code,external_id",
-             payload=payload, method="POST",
-             prefer="return=minimal,resolution=merge-duplicates")
+        CH = 400
+        for i in range(0, len(updates), CH):
+            _req("provider_products?on_conflict=provider_code,external_id",
+                 payload=updates[i:i + CH], method="POST",
+                 prefer="return=minimal,resolution=merge-duplicates")
     except Exception as e:
         w_err = str(e)
 
@@ -311,6 +340,7 @@ def run_matching(sb_url=None, sb_key=None):
     return {
         "ok": not (w_err or b_err),
         "rows": len(rows), "matched": matched, "unmatched": unmatched,
+        "skipped_retail_cards": skipped_retail_cards,
         "benchmarks": len(bench), "comparable": len(multi),
         "write_back_error": w_err, "benchmark_error": b_err,
         "ms": int((time.time() - t0) * 1000),

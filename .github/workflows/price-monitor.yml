@@ -42,6 +42,7 @@ jobs:
           RICHAI_API_KEY: ${{ secrets.RICHAI_API_KEY }}
           DIGITALCORE_API_KEY: ${{ secrets.DIGITALCORE_API_KEY }}
           AIXPRESS_API_KEY: ${{ secrets.AIXPRESS_API_KEY }}
+          BITREFILL_API_KEY: ${{ secrets.BITREFILL_API_KEY }}
           RELOADLY_CLIENT_ID: ${{ secrets.RELOADLY_CLIENT_ID }}
           RELOADLY_CLIENT_SECRET: ${{ secrets.RELOADLY_CLIENT_SECRET }}
           RUNNER: github-actions

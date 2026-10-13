@@ -150,6 +150,36 @@ def _safe(fn, default=None):
         return default
 
 
+def diff_catalog(existing, catalog):
+    """Pure diff of a fetched catalog against existing rows (testable, no DB).
+
+    existing: {external_id: {unit_price, discount_pct, stock, status}}
+    Returns (to_upsert_rows, new_count, changed_count, prices_count).
+    Semantics identical to the previous per-item loop: an item counts in
+    `prices` when unit_price/discount_pct changed, in `changed` when
+    stock/status changed (both counters can hit the same item).
+    """
+    new = changed = prices = 0
+    to_upsert = []
+    for it in catalog:
+        e = existing.get(it["external_id"])
+        if e is None:
+            new += 1
+            to_upsert.append(it)
+            continue
+        price_changed = (e.get("unit_price") != it.get("unit_price")
+                         or e.get("discount_pct") != it.get("discount_pct"))
+        stock_changed = (e.get("stock") != it.get("stock")
+                         or e.get("status") != it.get("status"))
+        if price_changed:
+            prices += 1
+        if stock_changed:
+            changed += 1
+        if price_changed or stock_changed:
+            to_upsert.append(it)
+    return to_upsert, new, changed, prices
+
+
 def sync_one(provider, adapter_cls, run_trigger="scheduled"):
     """Run one provider sync with full telemetry. Never raises (DB-degradable)."""
     t0 = time.time()
@@ -209,29 +239,60 @@ def sync_one(provider, adapter_cls, run_trigger="scheduled"):
             _safe(lambda: _set_provider_status(code, "SYNC_ACTIVE"))
         catalog = adapter.fetch_catalog()
         items = len(catalog)
-        new = changed = prices = 0
-        for it in catalog:
-            existing = _safe(lambda: sb_rows(
-                f"provider_products?provider_code=eq.{code}&external_id=eq.{it['external_id']}"
-                f"&select=unit_price,discount_pct,stock,status"), []) or []
-            row = {**it, "provider_code": code}
-            _safe(lambda: sb_upsert("provider_products?on_conflict=provider_code,external_id", row))
-            if not existing:
-                new += 1
-            else:
-                e = existing[0]
-                if (e.get("unit_price") != it.get("unit_price")
-                        or e.get("discount_pct") != it.get("discount_pct")):
-                    prices += 1
-                if (e.get("stock") != it.get("stock") or e.get("status") != it.get("status")):
-                    changed += 1
+        # optional adapter fetch telemetry (e.g. bitrefill drift stats) -> run meta
+        fetch_stats = getattr(adapter, "last_fetch_stats", None) or {}
+
+        # ---- existing rows for this provider (single paged read) ----
+        existing = {}
+        offset = 0
+        while True:
+            page = _safe(lambda: sb_rows(
+                f"provider_products?provider_code=eq.{code}"
+                f"&select=external_id,unit_price,discount_pct,stock,status"
+                f"&order=external_id.asc&limit=1000&offset={offset}"), [])
+            if not page:
+                break
+            for r in page:
+                existing[r["external_id"]] = r
+            if len(page) < 1000:
+                break
+            offset += 1000
+
+        to_upsert, new, changed, prices = diff_catalog(existing, catalog)
+        to_upsert = [{**it, "provider_code": code} for it in to_upsert]
+
+        # ---- batched upsert (400 rows/request) with per-row fallback ----
+        # Large catalogs (bitrefill: ~72.5k package rows) make per-item writes
+        # infeasible inside the 30-min Actions budget; batching keeps identical
+        # semantics while cutting request count ~800x. Unchanged rows are not
+        # rewritten (fetched_at moves only when a row actually changes).
+        UPSERT_CHUNK = 400
+        up_errors = 0
+        for i in range(0, len(to_upsert), UPSERT_CHUNK):
+            chunk = to_upsert[i:i + UPSERT_CHUNK]
+            try:
+                sb_upsert("provider_products?on_conflict=provider_code,external_id", chunk)
+            except Exception:
+                for row in chunk:  # slow path: never lose a row silently
+                    try:
+                        sb_upsert("provider_products?on_conflict=provider_code,external_id", row)
+                    except Exception:
+                        up_errors += 1
+
         bal = None
         try:
             bal = adapter.fetch_balance()
         except Exception:
             pass
+        meta = dict(fetch_stats)
+        if bal:
+            meta["balance"] = bal
+        if up_errors:
+            meta["upsert_errors"] = up_errors
+            return finish("partial", items=items, changed=changed, new=new, prices=prices,
+                          error=f"{up_errors} rows failed to upsert", meta=meta)
         return finish("success", items=items, changed=changed, new=new, prices=prices,
-                      meta={"balance": bal} if bal else {})
+                      meta=meta)
     except RateLimited as e:
         _safe(lambda: _set_provider_status(code, "RATE_LIMITED"))
         return finish("failed", error=f"rate-limited: {e}")
@@ -269,6 +330,7 @@ def sync_all_providers(run_trigger="scheduled"):
     monitor itself — this engine covers the API kind only. Degrades gracefully."""
     from .reloadly import ReloadlyAdapter
     from .mock import MockAdapter
+    from .bitrefill import BitrefillAdapter
     from .botshops import (StackVaultAdapter, ProdSellerAdapter, AcczoneAdapter,
                            AivaulthubAdapter, AiversexAdapter, RichAIAdapter,
                            DigitalCoreAdapter, AixpressAdapter)
@@ -276,6 +338,7 @@ def sync_all_providers(run_trigger="scheduled"):
     ADAPTERS = {
         "reloadly": ReloadlyAdapter,
         "mock": MockAdapter,
+        "bitrefill": BitrefillAdapter,
         "stackvault": StackVaultAdapter,
         "prodseller": ProdSellerAdapter,
         "acczone": AcczoneAdapter,
